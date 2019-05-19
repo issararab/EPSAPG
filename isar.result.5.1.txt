@@ -1,0 +1,227 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: sample.uniref90.fasta
+           67,893,536 sequences; 22,403,992,811 total letters
+
+Results from round 1
+
+
+Query= sp|Q91G50|049L_IIV6 Transmembrane protein 049L OS=Invertebrate
+iridescent virus 6 OX=176652 GN=IIV6-049L PE=4 SV=1
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q91G50 Transmembrane protein 049L n=1 Tax=Invertebrate...  248     9e-84
+
+
+> UniRef90_Q91G50 Transmembrane protein 049L n=1 Tax=Invertebrate 
+iridescent virus 6 TaxID=176652 RepID=049L_IIV6
+Length=123
+
+ Score = 248 bits (633),  Expect = 9e-84, Method: Compositional matrix adjust.
+ Identities = 123/123 (100%), Positives = 123/123 (100%), Gaps = 0/123 (0%)
+
+Query  1    MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET  60
+            MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET
+Sbjct  1    MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET  60
+
+Query  61   LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY  120
+            LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY
+Sbjct  61   LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY  120
+
+Query  121  NNV  123
+            NNV
+Sbjct  121  NNV  123
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 556289915638
+Results from round 2
+
+
+Query= sp|Q91G50|049L_IIV6 Transmembrane protein 049L OS=Invertebrate
+iridescent virus 6 OX=176652 GN=IIV6-049L PE=4 SV=1
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q91G50 Transmembrane protein 049L n=1 Tax=Invertebrate...  231     8e-77
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A0G1HY54 Uncharacterized protein n=2 Tax=Bacteria ca...  44.6    5e-04
+
+
+> UniRef90_Q91G50 Transmembrane protein 049L n=1 Tax=Invertebrate 
+iridescent virus 6 TaxID=176652 RepID=049L_IIV6
+Length=123
+
+ Score = 231 bits (588),  Expect = 8e-77, Method: Composition-based stats.
+ Identities = 123/123 (100%), Positives = 123/123 (100%), Gaps = 0/123 (0%)
+
+Query  1    MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET  60
+            MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET
+Sbjct  1    MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET  60
+
+Query  61   LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY  120
+            LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY
+Sbjct  61   LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY  120
+
+Query  121  NNV  123
+            NNV
+Sbjct  121  NNV  123
+
+
+> UniRef90_A0A0G1HY54 Uncharacterized protein n=2 Tax=Bacteria 
+candidate phyla TaxID=1783234 RepID=A0A0G1HY54_9BACT
+Length=74
+
+ Score = 44.6 bits (104),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  77   IMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVYNNV  123
+            + L+GF LW+++N+  ++Y  + K+YPLS Q    LI   +GV NN+
+Sbjct  28   VRLVGFALWVITNSYWMVYNYRGKEYPLSAQFAACLILAIVGVVNNL  74
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.149    0.474    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0456    0.140     1.90     42.6     43.6 
+
+Effective search space used: 556289915638
+Results from round 3
+
+
+Query= sp|Q91G50|049L_IIV6 Transmembrane protein 049L OS=Invertebrate
+iridescent virus 6 OX=176652 GN=IIV6-049L PE=4 SV=1
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef90_Q91G50 Transmembrane protein 049L n=1 Tax=Invertebrate...  216     3e-71
+  UniRef90_A0A0G1HY54 Uncharacterized protein n=2 Tax=Bacteria ca...  85.1    8e-20
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef90_A0A1G2F386 Uncharacterized protein n=1 Tax=Candidatus ...  47.3    4e-05
+  UniRef90_A0A1G3Z9H2 Uncharacterized protein n=2 Tax=Verrucomicr...  44.2    6e-04
+
+
+> UniRef90_Q91G50 Transmembrane protein 049L n=1 Tax=Invertebrate 
+iridescent virus 6 TaxID=176652 RepID=049L_IIV6
+Length=123
+
+ Score = 216 bits (551),  Expect = 3e-71, Method: Composition-based stats.
+ Identities = 123/123 (100%), Positives = 123/123 (100%), Gaps = 0/123 (0%)
+
+Query  1    MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET  60
+            MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET
+Sbjct  1    MDKIEELKIEELKIEIPQRKTKFFHDSENSDKRDEEETLNPTITSKAKILIKSKNFWIET  60
+
+Query  61   LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY  120
+            LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY
+Sbjct  61   LIFVISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY  120
+
+Query  121  NNV  123
+            NNV
+Sbjct  121  NNV  123
+
+
+> UniRef90_A0A0G1HY54 Uncharacterized protein n=2 Tax=Bacteria 
+candidate phyla TaxID=1783234 RepID=A0A0G1HY54_9BACT
+Length=74
+
+ Score = 85.1 bits (209),  Expect = 8e-20, Method: Composition-based stats.
+ Identities = 19/47 (40%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  77   IMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVYNNV  123
+            + L+GF LW+++N+  ++Y  + K+YPLS Q    LI   +GV NN+
+Sbjct  28   VRLVGFALWVITNSYWMVYNYRGKEYPLSAQFAACLILAIVGVVNNL  74
+
+
+> UniRef90_A0A1G2F386 Uncharacterized protein n=1 Tax=Candidatus 
+Portnoybacteria bacterium RBG_13_40_8 TaxID=1801990 RepID=A0A1G2F386_9BACT
+Length=72
+
+ Score = 47.3 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 22/58 (38%), Positives = 36/58 (62%), Gaps = 1/58 (2%)
+
+Query  64   VISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVYN  121
+            V+ V GAL +A+   L GF++WLV N    +Y I  KQ+ L++Q ++F +   +G+ N
+Sbjct  10   VLGVLGALFIAYKNKL-GFVIWLVGNASWFIYGILTKQWGLAVQFIIFWVIALLGLIN  66
+
+
+> UniRef90_A0A1G3Z9H2 Uncharacterized protein n=2 Tax=Verrucomicrobia 
+TaxID=74201 RepID=A0A1G3Z9H2_9BACT
+Length=63
+
+ Score = 44.2 bits (103),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 16/57 (28%), Positives = 27/57 (47%), Gaps = 1/57 (2%)
+
+Query  64   VISVFGALCVAFGIMLIGFLLWLVSNTISILYFIKQKQYPLSLQQMVFLITTCIGVY  120
+            ++++ G L  A G    GF  W V+N     +   QK +P +     FL+T   G++
+Sbjct  1    MLTIVGTLLNAHG-RREGFYFWFVTNAYWCAHNALQKDWPQTALFAFFLLTCVYGLF  56
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.145    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0443    0.140     1.90     42.6     43.6 
+
+Effective search space used: 556289915638
+
+
+  Database: sample.uniref90.fasta
+    Posted date:  Apr 2, 2019  8:55 PM
+  Number of letters in database: 22,403,992,811
+  Number of sequences in database:  67,893,536
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
