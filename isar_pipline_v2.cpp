@@ -7,6 +7,10 @@
 #include <map>
 #include <unistd.h>
 #include <thread>
+#include <chrono>
+#include <future>
+#include <vector>
+
 using namespace std;
 //using namespace boost;
 	
@@ -44,28 +48,67 @@ void writeToFile(const string& name, const string& content, bool append = false)
     outfile << content;
 }
 
-void loadingAnimation(){
-	std::cout << '-' << std::flush;
-    for (;;) {
-        sleep(1);
-        std::cout << "\b\\" << std::flush;
-        sleep(1);
-        std::cout << "\b|" << std::flush;
-        sleep(1);
-        std::cout << "\b/" << std::flush;
-        sleep(1);
-        std::cout << "\b-" << std::flush;
-    }
+void loadingAnimation(future<void> futureObj){
+	cout << "Parsing the result" ;
+    while (futureObj.wait_for(chrono::milliseconds(1)) == future_status::timeout)
+	{
+        for (int i = 0; i < 4; i++) {
+			cout << ".";
+			cout.flush();
+            sleep(1);
+        }
+        cout << "\b\b\b   \b\b\b\b";
+	}
+}
+
+bool is_file_empty(ifstream& pFile)
+{
+    return pFile.peek() == ifstream::traits_type::eof();
+}
+
+void psiBlast(int i) {
+	string single_query_data;
+	//Check if the query db is empty
+	ifstream file("isar.db."+to_string(i));
+	if (is_file_empty(file))
+	{
+		custombuf sbuf3(single_query_data);
+		if (ostream(&sbuf3) << ifstream("isar.q."+to_string(i)).rdbuf() << flush) {
+			writeToFile("isar.db."+to_string(i),single_query_data);
+		}else {
+			cout << "failed to read the query file number; "+to_string(i) +".\n";
+		}
+	}
+	system(("makeblastdb -in isar.db."+to_string(i)+" -dbtype prot").data());
+	system(("psiblast -query isar.q."+to_string(i)+" -db isar.db."+to_string(i)+" -evalue 10 -out isar.result.q"+to_string(i)+".psiblast -out_pssm isar.result.q"+to_string(i)+".pssm -out_ascii_pssm isar.result.q"+to_string(i)+".ascii.pssm -save_pssm_after_last_round -save_each_pssm").data());
+	system(("rm isar.q."+to_string(i)).data());
+	system(("rm isar.db."+to_string(i)).data());
+	system(("rm isar.db."+to_string(i)+".*").data());
+}
+void runPsiblast(int startQ, int endQ, int additionalQ = 0) {
+    for(int i=startQ;i<=endQ;i++)
+		psiBlast(i);
+		
+	if(additionalQ)
+		psiBlast(additionalQ);
 }
 
 
 int main(int argc, char **argv)
 {
 	typedef boost::tokenizer<boost::char_separator<char>> tokenizer;
-    string isar_tuple,isar_pair,isar_pair_queries;
+    string isar_tuple,isar_pair,isar_pair_queries,single_query_data;
 	string query,temp; 
 	int queryCount;
 	map<string,int> queryDictionary;
+	// Create a std::promise object
+	promise<void> exitSignal;
+	//Fetch std::future object associated with promise
+	future<void> futureObj = exitSignal.get_future();
+	//multiple threads datastructure
+	vector<thread> threads;
+	unsigned concurentThreadsSupported = 0;
+	
 	if (argc != 2)
 	{
 	   printf("You have to provide a command in the following format:\n\t isar_pipeline <queryDB_file.fasta>\n");
@@ -80,9 +123,14 @@ int main(int argc, char **argv)
 	printf("###############################\n");
 	printf("#      Starting MMSEQS2        #\n");
 	printf("###############################\n");
+	//Check if mmseqs2 is installed
+	if (system("which mmseqs > /dev/null 2>&1")) {
+		cout << "mmseqs: command not found.\n\tPlease make sure you have installed MMseqs2 on your machine and included its path to the envirnment variables.\n";
+		return 0;
+	} 
 	system(("mmseqs createdb "+query+" queryDB").data());//cow.protein.faa
-	system("mmseqs search queryDB targetDB resultDB tmp");//  /home/issar.arab/uniref90TMP/tmp
-	//convert the output to query and sequence result
+	system("mmseqs search --num-iterations 1 --max-seqs 1000 queryDB targetDB resultDB tmp");//  /home/issar.arab/uniref90TMP/tmp
+	//convert the output to query and retrieved sequence results
 	system("mmseqs convertalis queryDB targetDB resultDB isar.tuple --format-output \"qheader,theader,tseq\"");
 	//delete intermediate files
 	system("rm queryDB");
@@ -94,11 +142,13 @@ int main(int argc, char **argv)
 	printf("###############################\n");
 	printf("#   Parsing MMSEQS2's output  #\n");
 	printf("###############################\n");
-	//std::thread t1(loadingAnimation);
+	
+	// Starting Thread & move the future object in lambda function by reference
+	thread th(&loadingAnimation, move(futureObj));
+	
 	//get the list of query headers
 	queryCount = 0;
 	custombuf   sbuf(isar_pair_queries);
-	//writeToFile("isar.pair","");//To reconsider
 	system("rm isar.pair");
 	if (ostream(&sbuf) << ifstream(query).rdbuf() << flush) {
 		boost::char_separator<char> sep{">"};
@@ -118,10 +168,13 @@ int main(int argc, char **argv)
 		}
 	}else {
 		cout << "failed to read the query file.\n";
+		return 0;
 	}
-	//free(isar_pair_queries);
+	
 	custombuf   sbuf2(isar_tuple);
 	if (ostream(&sbuf2) << ifstream("isar.tuple").rdbuf() << flush) {
+		string previousQueryHeader = "";
+		string targetFile = "";
 		boost::char_separator<char> sep1{"\n"};
 		tokenizer tok1{isar_tuple, sep1};
 		for (const auto &row : tok1){
@@ -130,7 +183,10 @@ int main(int argc, char **argv)
 			tokenizer::iterator col = tok2.begin();
 			temp = *col;//get the query header
 			boost::trim(temp);//trim the query id
-			string targetFile = "isar.db."+to_string(queryDictionary.find(temp)->second); //get the query id and assign it to the target result file 
+			if(previousQueryHeader != temp){//block to avoid searching in the dictionary for the query id for each line/sequece retrieved
+				targetFile = "isar.db."+to_string(queryDictionary.find(temp)->second); //get the query id and assign it to the target result file 
+				previousQueryHeader = temp;
+			}
 			temp = *(++col);//get the retrieved sequece header
 			boost::trim(temp);
 			writeToFile(targetFile,">"+temp+"\n",true);
@@ -139,25 +195,51 @@ int main(int argc, char **argv)
 			writeToFile(targetFile,temp+"\n",true);
 			
 		}
+		//Set the value in promise
+		exitSignal.set_value();
+	 
+		//Wait for thread to join
+		th.join();
+		printf("\nParsing Complete!\n");
+		sleep(1);
 	}else {
 		cout << "failed to read the isar.tuple file, search result file from MMseqs2.\n";
+		return 0;
 	}
 
-	printf("Done!\n");
+	
 	queryDictionary.clear();
 	system("rm isar.tuple");
 	printf("###############################\n");
 	printf("#      Starting PsiBlast      #\n");
 	printf("###############################\n");
-	sleep(3);
-	system("rm isar.result.q*");
-	for(int i=1;i<=queryCount;i++){
-		system(("makeblastdb -in isar.db."+to_string(i)+" -dbtype prot").data());
-		system(("psiblast -query isar.q."+to_string(i)+" -db isar.db."+to_string(i)+" -num_threads 12 -evalue 10 -out isar.result.q"+to_string(i)+".psiblast -out_pssm isar.result.q"+to_string(i)+".pssm -out_ascii_pssm isar.result.q"+to_string(i)+".ascii.pssm -save_pssm_after_last_round -save_each_pssm").data());
-		system(("rm isar.q."+to_string(i)).data());
-		system(("rm isar.db."+to_string(i)).data());
-		system(("rm isar.db."+to_string(i)+".*").data());
+	//Check if mmseqs2 is installed
+	if (system("which psiblast > /dev/null 2>&1")) {
+		cout << "psiblast: command not found.\n\tPlease make sure you have installed psiblast on your machine and included its path to the envirnment variables.\n";
+		return 0;
 	}
+	sleep(2);
+	system("rm isar.result.q*");
+	
+	concurentThreadsSupported = thread::hardware_concurrency();
+	if(concurentThreadsSupported){
+		//Launch a group of threads
+		int step = queryCount/concurentThreadsSupported;
+		//Stratified distribution of thread jobs
+		for (int i = 0; i < concurentThreadsSupported; ++i) {
+			if(i < queryCount%concurentThreadsSupported)
+				threads.push_back(thread(runPsiblast,1+step*i,step*(i+1),queryCount-i));
+			else
+				threads.push_back(thread(runPsiblast,1+step*i,step*(i+1),0));
+		}
+	}else
+		threads.push_back(thread(runPsiblast,1,queryCount,0));
+	
+
+    //Join the threads with the main thread
+    for(auto &th : threads){
+        th.join();
+    }
 	printf("###############################\n");
 	printf("#        End of Search        #\n");
 	printf("###############################\n");
