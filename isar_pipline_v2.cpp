@@ -10,6 +10,10 @@
 #include <chrono>
 #include <future>
 #include <vector>
+#include <boost/uuid/uuid.hpp>            // uuid class
+#include <boost/uuid/uuid_generators.hpp> // generators
+#include <boost/uuid/uuid_io.hpp>         // streaming operators etc.
+#include <boost/lexical_cast.hpp>         // cast uuid to string
 
 using namespace std;
 //using namespace boost;
@@ -66,6 +70,12 @@ bool is_file_empty(ifstream& pFile)
     return pFile.peek() == ifstream::traits_type::eof();
 }
 
+bool fexists(const char *filename)
+{
+  ifstream ifile(filename);
+  return (bool)ifile;
+}
+
 void psiBlast(int i) {
 	string single_query_data;
 	//Check if the query db is empty
@@ -80,7 +90,7 @@ void psiBlast(int i) {
 		}
 	}
 	system(("makeblastdb -in isar.db."+to_string(i)+" -dbtype prot").data());
-	system(("psiblast -query isar.q."+to_string(i)+" -db isar.db."+to_string(i)+" -evalue 10 -out isar.result.q"+to_string(i)+".psiblast -out_pssm isar.result.q"+to_string(i)+".pssm -out_ascii_pssm isar.result.q"+to_string(i)+".ascii.pssm -save_pssm_after_last_round -save_each_pssm").data());
+	system(("psiblast -query isar.q."+to_string(i)+" -db isar.db."+to_string(i)+" -evalue 10 -out isar.result.q"+to_string(i)+".psiblast -out_pssm isar.result.q"+to_string(i)+".pssm -out_ascii_pssm isar.result.q"+to_string(i)+".ascii.pssm -save_pssm_after_last_round").data());
 	system(("rm isar.q."+to_string(i)).data());
 	system(("rm isar.db."+to_string(i)).data());
 	system(("rm isar.db."+to_string(i)+".*").data());
@@ -108,7 +118,8 @@ int main(int argc, char **argv)
 	//multiple threads datastructure
 	vector<thread> threads;
 	unsigned concurentThreadsSupported = 0;
-	
+	boost::uuids::uuid uuid = boost::uuids::random_generator()();
+	string UUID = "-"+boost::lexical_cast<std::string>(uuid);
 	if (argc != 2)
 	{
 	   printf("You have to provide a command in the following format:\n\t isar_pipeline <queryDB_file.fasta>\n");
@@ -128,17 +139,17 @@ int main(int argc, char **argv)
 		cout << "mmseqs: command not found.\n\tPlease make sure you have installed MMseqs2 on your machine and included its path to the envirnment variables.\n";
 		return 0;
 	} 
-	system(("mmseqs createdb "+query+" queryDB").data());//cow.protein.faa
-	system("mmseqs search --num-iterations 1 --max-seqs 1000 queryDB targetDB resultDB tmp");//  /home/issar.arab/uniref90TMP/tmp
+	system(("mmseqs createdb "+query+" queryDB"+UUID).data());//cow.protein.faa
+	system(("mmseqs search --num-iterations 1 --max-seqs 1000 queryDB"+UUID+" targetDB resultDB"+UUID+" tmp").data());//  /home/issar.arab/uniref90TMP/tmp
 	//convert the output to query and retrieved sequence results
-	system("mmseqs convertalis queryDB targetDB resultDB isar.tuple --format-output \"qheader,theader,tseq\"");
+	system(("mmseqs convertalis queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\"").data());
 	//delete intermediate files
-	system("rm queryDB");
-	system("rm queryDB.*");
-	system("rm queryDB_h");
-	system("rm queryDB_h.*");
-	system("rm resultDB");
-	system("rm resultDB.*");
+	system(("rm queryDB"+UUID).data());
+	system(("rm queryDB"+UUID+".*").data());
+	system(("rm queryDB"+UUID+"_h").data());
+	system(("rm queryDB"+UUID+"_h.*").data());
+	system(("rm resultDB"+UUID+"").data());
+	system(("rm resultDB"+UUID+".*").data());
 	printf("###############################\n");
 	printf("#   Parsing MMSEQS2's output  #\n");
 	printf("###############################\n");
@@ -149,7 +160,8 @@ int main(int argc, char **argv)
 	//get the list of query headers
 	queryCount = 0;
 	custombuf   sbuf(isar_pair_queries);
-	system("rm isar.pair");
+	if(fexists("isar.pair"))
+		system("rm isar.pair");
 	if (ostream(&sbuf) << ifstream(query).rdbuf() << flush) {
 		boost::char_separator<char> sep{">"};
 		tokenizer tok{isar_pair_queries, sep};
@@ -171,6 +183,7 @@ int main(int argc, char **argv)
 		return 0;
 	}
 	
+	string dbOutput = "";
 	custombuf   sbuf2(isar_tuple);
 	if (ostream(&sbuf2) << ifstream("isar.tuple").rdbuf() << flush) {
 		string previousQueryHeader = "";
@@ -184,16 +197,21 @@ int main(int argc, char **argv)
 			temp = *col;//get the query header
 			boost::trim(temp);//trim the query id
 			if(previousQueryHeader != temp){//block to avoid searching in the dictionary for the query id for each line/sequece retrieved
+				if(previousQueryHeader != ""){
+					writeToFile(targetFile,dbOutput);
+					dbOutput = "";
+				}
 				targetFile = "isar.db."+to_string(queryDictionary.find(temp)->second); //get the query id and assign it to the target result file 
 				previousQueryHeader = temp;
 			}
 			temp = *(++col);//get the retrieved sequece header
 			boost::trim(temp);
-			writeToFile(targetFile,">"+temp+"\n",true);
+			//writeToFile(targetFile,">"+temp+"\n",true);
+			dbOutput += ">"+temp+"\n";
 			temp = *(++col);//get the retrieved sequece
 			boost::trim(temp);
-			writeToFile(targetFile,temp+"\n",true);
-			
+			//writeToFile(targetFile,temp+"\n",true);
+			dbOutput += temp+"\n";
 		}
 		//Set the value in promise
 		exitSignal.set_value();
