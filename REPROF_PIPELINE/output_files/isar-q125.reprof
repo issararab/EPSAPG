@@ -1,0 +1,142 @@
+##General
+# No	: Residue number (beginning with 1)
+# AA	: Amino acid
+##Secondary structure
+# PHEL	: Secondary structure (H = Helix, E = Extended/Sheet, L = Loop)
+# RI_S	: Reliability index (0 to 9 (most reliable))
+# pH	: Probability helix (0 to 1)
+# pE	: Probability extended (0 to 1)
+# pL	: Probability loop (0 to 1)
+##Solvent accessibility
+# PACC	: Absolute
+# PREL	: Relative
+# P10	: Relative in 10 states (0 - 9 (most exposed))
+# RI_A	: Reliability index (0 to 9 (most reliable))
+# Pbe	: Two states (b = buried, e = exposed)
+# Pbie	: Three states (b = buried, i = intermediate, e = exposed)
+# 
+No	AA	PHEL	RI_S	pH	pE	pL	PACC	PREL	P10	RI_A	Pbe	Pbie
+1	D	L	9	0	0	99	146	90	9	7	e	e
+2	V	L	9	3	1	94	127	90	9	2	e	e
+3	T	L	8	5	4	89	102	72	8	0	e	e
+4	N	L	4	24	2	72	65	42	6	0	e	e
+5	A	H	9	95	0	4	0	0	0	0	b	b
+6	E	H	9	95	0	4	139	72	8	0	e	e
+7	K	H	9	95	0	3	114	56	7	0	e	e
+8	L	H	9	96	0	3	0	0	0	0	b	b
+9	V	H	9	97	0	2	17	12	3	0	b	i
+10	Y	H	9	97	0	2	124	56	7	0	e	e
+11	K	H	9	97	0	1	86	42	6	0	e	e
+12	Y	H	9	97	0	2	0	0	0	2	b	b
+13	T	H	9	97	0	2	59	42	6	0	e	e
+14	N	H	9	95	0	3	87	56	7	1	e	e
+15	I	H	9	95	0	4	33	20	4	0	e	i
+16	A	H	8	90	0	8	0	0	0	5	b	b
+17	H	H	6	84	0	14	103	56	7	0	e	e
+18	S	H	2	60	0	38	93	72	8	0	e	e
+19	A	L	4	27	1	71	76	72	8	0	e	e
+20	N	L	8	7	0	92	141	90	9	0	e	e
+21	P	L	4	25	1	73	76	56	7	0	e	e
+22	M	L	4	27	1	71	135	72	8	0	e	e
+23	Y	L	4	26	2	70	26	12	3	0	b	i
+24	E	L	5	19	5	75	139	72	8	0	e	e
+25	A	L	9	2	3	93	76	72	8	0	e	e
+26	P	L	8	5	4	89	97	72	8	0	e	e
+27	S	L	9	1	2	95	54	42	6	0	e	e
+28	I	H	7	87	1	10	33	20	4	0	e	i
+29	T	H	8	91	0	7	102	72	8	2	e	e
+30	D	H	9	94	0	4	48	30	5	0	e	i
+31	G	H	8	91	0	8	0	0	0	6	b	b
+32	K	H	8	93	0	5	86	42	6	0	e	e
+33	I	H	9	95	0	3	94	56	7	1	e	e
+34	F	H	8	92	1	6	11	6	2	0	b	b
+35	F	H	7	87	4	7	0	0	0	0	b	b
+36	N	H	5	70	9	19	65	42	6	0	e	e
+37	R	H	1	53	7	39	178	72	8	0	e	e
+38	K	H	0	49	6	43	147	72	8	0	e	e
+39	F	L	3	32	3	63	39	20	4	0	e	i
+40	K	L	5	19	3	77	184	90	9	0	e	e
+41	T	L	7	13	1	85	127	90	9	0	e	e
+42	P	L	8	7	2	90	122	90	9	0	e	e
+43	S	L	8	4	3	92	117	90	9	1	e	e
+44	G	L	8	5	2	92	75	90	9	1	e	e
+45	K	L	8	4	5	89	184	90	9	0	e	e
+46	E	L	5	3	22	73	108	56	7	0	e	e
+47	A	L	6	2	16	81	44	42	6	0	e	e
+48	A	L	3	2	29	67	21	20	4	0	e	i
+49	C	L	3	13	27	58	0	0	0	0	b	b
+50	A	L	2	29	21	49	59	56	7	0	e	e
+51	S	L	2	26	21	52	54	42	6	0	e	e
+52	C	L	6	10	12	76	27	20	4	0	e	i
+53	H	L	8	3	6	89	103	56	7	0	e	e
+54	T	L	8	4	4	90	59	42	6	0	e	e
+55	N	L	8	4	6	89	113	72	8	0	e	e
+56	N	L	8	3	3	92	65	42	6	0	e	e
+57	P	L	7	12	3	84	16	12	3	0	b	i
+58	A	L	5	19	4	76	44	42	6	0	e	e
+59	N	L	8	6	2	91	113	72	8	1	e	e
+60	V	L	9	3	2	94	59	42	6	0	e	e
+61	G	L	9	2	2	95	60	72	8	0	e	e
+62	K	L	8	1	6	92	114	56	7	0	e	e
+63	N	L	8	1	6	91	87	56	7	0	e	e
+64	I	L	6	4	13	82	94	56	7	0	e	e
+65	V	L	6	6	13	80	102	72	8	0	e	e
+66	T	L	7	6	8	85	42	30	5	0	e	i
+67	G	L	8	1	4	93	60	72	8	0	e	e
+68	K	L	8	1	8	89	114	56	7	0	e	e
+69	E	L	2	1	36	62	108	56	7	0	e	e
+70	I	L	4	2	27	69	0	0	0	0	b	b
+71	P	L	5	3	18	77	76	56	7	0	e	e
+72	P	L	6	6	12	80	76	56	7	0	e	e
+73	L	L	1	5	40	54	0	0	0	0	b	b
+74	A	L	5	2	19	77	0	0	0	1	b	b
+75	P	L	6	9	11	79	76	56	7	0	e	e
+76	R	L	6	14	8	76	74	30	5	0	e	i
+77	V	L	6	5	15	78	0	0	0	2	b	b
+78	N	L	9	0	4	94	31	20	4	0	e	i
+79	T	L	5	21	2	75	79	56	7	0	e	e
+80	K	L	2	38	2	59	147	72	8	0	e	e
+81	R	H	1	54	2	42	74	30	5	0	e	i
+82	F	L	6	18	3	78	0	0	0	0	b	b
+83	T	L	8	3	3	93	59	42	6	0	e	e
+84	D	L	8	4	1	94	91	56	7	0	e	e
+85	I	H	5	75	0	24	94	56	7	0	e	e
+86	D	H	8	93	0	6	117	72	8	0	e	e
+87	K	H	8	93	0	5	61	30	5	0	e	i
+88	V	H	8	93	1	5	0	0	0	2	b	b
+89	E	H	5	77	0	22	81	42	6	0	e	e
+90	D	H	7	87	1	11	68	42	6	0	e	e
+91	E	H	7	87	1	10	38	20	4	0	e	i
+92	F	H	4	74	1	24	0	0	0	0	b	b
+93	T	L	3	29	0	69	59	42	6	0	e	e
+94	K	L	3	29	2	67	86	42	6	0	e	e
+95	H	L	8	4	1	94	55	30	5	0	e	i
+96	C	L	2	37	0	61	0	0	0	1	b	b
+97	N	H	4	73	0	25	87	56	7	0	e	e
+98	D	H	7	85	0	13	48	30	5	0	e	i
+99	I	H	6	81	3	14	0	0	0	1	b	b
+100	L	H	1	55	6	38	0	0	0	1	b	b
+101	G	L	8	7	1	90	25	30	5	0	e	i
+102	A	L	8	4	1	93	44	42	6	0	e	e
+103	D	L	8	5	4	90	68	42	6	0	e	e
+104	C	L	8	2	4	93	0	0	0	0	b	b
+105	S	L	8	3	3	92	26	20	4	0	e	i
+106	P	H	7	84	2	12	76	56	7	0	e	e
+107	S	H	6	84	1	14	72	56	7	0	e	e
+108	E	H	3	66	1	32	38	20	4	0	e	i
+109	K	H	5	76	1	21	114	56	7	0	e	e
+110	A	H	3	66	2	30	0	0	0	2	b	b
+111	N	H	1	58	0	40	47	30	5	0	e	i
+112	F	H	8	91	2	5	0	0	0	1	b	b
+113	I	H	8	91	5	3	0	0	0	3	b	b
+114	A	H	9	94	1	3	0	0	0	0	b	b
+115	Y	H	9	93	3	2	0	0	0	1	b	b
+116	L	H	8	90	4	5	0	0	0	3	b	b
+117	L	H	5	70	9	19	0	0	0	0	b	b
+118	T	L	1	37	11	51	59	42	6	0	e	e
+119	E	L	4	22	6	71	108	56	7	0	e	e
+120	T	L	6	16	4	79	79	56	7	0	e	e
+121	K	L	7	10	7	81	86	42	6	0	e	e
+122	P	L	6	12	6	80	122	90	9	0	e	e
+123	T	L	8	6	2	91	127	90	9	3	e	e
+124	K	L	9	1	0	98	184	90	9	4	e	e
