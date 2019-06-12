@@ -1,0 +1,128 @@
+##General
+# No	: Residue number (beginning with 1)
+# AA	: Amino acid
+##Secondary structure
+# PHEL	: Secondary structure (H = Helix, E = Extended/Sheet, L = Loop)
+# RI_S	: Reliability index (0 to 9 (most reliable))
+# pH	: Probability helix (0 to 1)
+# pE	: Probability extended (0 to 1)
+# pL	: Probability loop (0 to 1)
+##Solvent accessibility
+# PACC	: Absolute
+# PREL	: Relative
+# P10	: Relative in 10 states (0 - 9 (most exposed))
+# RI_A	: Reliability index (0 to 9 (most reliable))
+# Pbe	: Two states (b = buried, e = exposed)
+# Pbie	: Three states (b = buried, i = intermediate, e = exposed)
+# 
+No	AA	PHEL	RI_S	pH	pE	pL	PACC	PREL	P10	RI_A	Pbe	Pbie
+1	A	L	9	0	1	98	95	90	9	7	e	e
+2	S	L	8	2	5	91	117	90	9	4	e	e
+3	S	L	8	3	7	89	117	90	9	3	e	e
+4	G	L	7	4	12	83	75	90	9	3	e	e
+5	P	L	8	2	7	90	122	90	9	3	e	e
+6	A	L	6	1	18	79	95	90	9	0	e	e
+7	G	L	4	0	29	70	75	90	9	0	e	e
+8	C	E	5	0	78	20	0	0	0	0	b	b
+9	Q	E	8	0	93	6	59	30	5	0	e	i
+10	V	E	8	0	93	6	0	0	0	5	b	b
+11	L	E	8	0	94	5	32	20	4	0	e	i
+12	W	E	8	0	94	5	0	0	0	1	b	b
+13	G	E	8	0	93	6	25	30	5	0	e	i
+14	V	E	7	0	85	13	0	0	0	2	b	b
+15	N	E	6	0	80	19	65	42	6	0	e	e
+16	Q	E	2	0	63	36	83	42	6	0	e	e
+17	W	L	6	1	18	79	127	56	7	0	e	e
+18	N	L	8	1	4	94	141	90	9	0	e	e
+19	T	L	7	1	13	85	59	42	6	0	e	e
+20	G	E	3	0	65	33	35	42	6	0	e	e
+21	F	E	8	0	91	8	23	12	3	0	b	i
+22	T	E	9	0	95	4	42	30	5	0	e	i
+23	A	E	9	0	95	4	0	0	0	5	b	b
+24	N	E	8	0	93	6	47	30	5	0	e	i
+25	V	E	9	0	96	2	0	0	0	2	b	b
+26	T	E	9	0	97	2	28	20	4	0	e	i
+27	V	E	9	0	95	4	0	0	0	6	b	b
+28	K	E	8	0	90	9	61	30	5	0	e	i
+29	N	L	0	0	47	52	0	0	0	1	b	b
+30	T	L	9	0	4	94	59	42	6	0	e	e
+31	S	L	9	0	3	95	54	42	6	0	e	e
+32	S	L	9	1	3	94	117	90	9	0	e	e
+33	A	L	8	0	4	94	59	56	7	0	e	e
+34	P	L	5	1	23	75	76	56	7	0	e	e
+35	V	L	4	0	27	71	17	12	3	0	b	i
+36	D	L	4	0	29	70	91	56	7	0	e	e
+37	G	L	6	0	15	84	35	42	6	0	e	e
+38	W	E	2	0	63	36	127	56	7	0	e	e
+39	T	E	8	0	91	8	42	30	5	0	e	i
+40	L	E	8	0	93	6	0	0	0	5	b	b
+41	T	E	9	0	95	4	42	30	5	0	e	i
+42	F	E	8	0	93	6	0	0	0	1	b	b
+43	S	E	7	0	89	10	72	56	7	0	e	e
+44	F	E	0	0	49	49	0	0	0	0	b	b
+45	P	L	8	1	6	92	76	56	7	0	e	e
+46	S	L	9	1	2	96	117	90	9	1	e	e
+47	G	L	8	0	5	93	60	72	8	0	e	e
+48	Q	E	1	0	56	43	110	56	7	0	e	e
+49	Q	E	8	0	93	6	83	42	6	0	e	e
+50	V	E	8	0	93	6	0	0	0	2	b	b
+51	T	E	7	0	85	14	59	42	6	0	e	e
+52	Q	E	2	0	61	37	178	90	9	0	e	e
+53	A	E	2	0	63	35	76	72	8	0	e	e
+54	W	E	0	0	49	49	45	20	4	0	e	i
+55	S	L	7	0	10	89	72	56	7	0	e	e
+56	S	L	0	0	48	50	0	0	0	1	b	b
+57	T	E	7	0	87	12	79	56	7	1	e	e
+58	V	E	8	0	93	5	8	6	2	0	b	b
+59	T	E	8	0	90	9	59	42	6	0	e	e
+60	Q	E	8	0	93	6	142	72	8	0	e	e
+61	S	E	5	0	75	24	93	72	8	0	e	e
+62	G	L	6	0	16	83	75	90	9	0	e	e
+63	S	L	7	0	10	89	117	90	9	0	e	e
+64	A	E	7	0	85	13	44	42	6	0	e	e
+65	V	E	8	0	94	5	0	0	0	0	b	b
+66	T	E	8	0	93	6	42	30	5	0	e	i
+67	V	E	8	0	93	6	0	0	0	6	b	b
+68	R	E	6	0	84	14	74	30	5	0	e	i
+69	N	E	0	0	51	47	87	56	7	0	e	e
+70	A	L	8	2	8	88	59	56	7	0	e	e
+71	P	L	7	4	8	86	122	90	9	1	e	e
+72	W	L	3	7	31	61	45	20	4	0	e	i
+73	N	L	7	3	9	86	87	56	7	0	e	e
+74	G	L	7	4	11	84	60	72	8	0	e	e
+75	S	L	6	2	16	81	72	56	7	0	e	e
+76	I	L	4	1	24	73	3	2	1	0	b	b
+77	P	L	9	0	4	95	97	72	8	0	e	e
+78	A	L	8	1	4	93	59	56	7	0	e	e
+79	G	L	9	1	4	94	47	56	7	0	e	e
+80	G	L	8	0	8	91	0	0	0	0	b	b
+81	T	E	6	0	84	15	79	56	7	0	e	e
+82	A	E	8	0	91	8	0	0	0	2	b	b
+83	Q	E	9	0	94	4	83	42	6	0	e	e
+84	F	E	9	0	95	3	0	0	0	3	b	b
+85	G	E	8	0	90	9	0	0	0	0	b	b
+86	F	E	8	0	91	7	0	0	0	5	b	b
+87	N	E	8	0	92	6	47	30	5	0	e	i
+88	G	E	8	0	90	8	0	0	0	6	b	b
+89	S	E	7	1	87	11	39	30	5	0	e	i
+90	H	E	4	1	69	29	55	30	5	0	e	i
+91	T	L	4	0	28	70	127	90	9	0	e	e
+92	G	L	8	1	6	92	75	90	9	0	e	e
+93	T	L	8	2	6	90	127	90	9	1	e	e
+94	N	L	8	4	6	89	141	90	9	0	e	e
+95	A	L	8	2	5	91	59	56	7	0	e	e
+96	A	L	8	1	4	94	44	42	6	0	e	e
+97	P	L	7	2	10	87	57	42	6	0	e	e
+98	T	L	6	3	16	80	0	0	0	1	b	b
+99	A	L	1	1	42	55	31	30	5	0	e	i
+100	F	E	4	2	69	28	0	0	0	0	b	b
+101	S	E	6	0	83	15	72	56	7	0	e	e
+102	L	E	6	1	79	19	0	0	0	3	b	b
+103	N	L	8	1	9	89	87	56	7	0	e	e
+104	G	L	8	3	4	92	47	56	7	0	e	e
+105	T	L	5	5	18	75	79	56	7	0	e	e
+106	P	L	4	10	20	68	76	56	7	0	e	e
+107	C	L	7	6	6	86	40	30	5	0	e	i
+108	T	L	8	4	4	91	127	90	9	3	e	e
+109	V	L	9	3	2	94	127	90	9	0	e	e
+110	G	L	9	0	0	99	75	90	9	6	e	e

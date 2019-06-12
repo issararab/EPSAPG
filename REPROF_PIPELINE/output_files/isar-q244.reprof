@@ -1,0 +1,130 @@
+##General
+# No	: Residue number (beginning with 1)
+# AA	: Amino acid
+##Secondary structure
+# PHEL	: Secondary structure (H = Helix, E = Extended/Sheet, L = Loop)
+# RI_S	: Reliability index (0 to 9 (most reliable))
+# pH	: Probability helix (0 to 1)
+# pE	: Probability extended (0 to 1)
+# pL	: Probability loop (0 to 1)
+##Solvent accessibility
+# PACC	: Absolute
+# PREL	: Relative
+# P10	: Relative in 10 states (0 - 9 (most exposed))
+# RI_A	: Reliability index (0 to 9 (most reliable))
+# Pbe	: Two states (b = buried, e = exposed)
+# Pbie	: Three states (b = buried, i = intermediate, e = exposed)
+# 
+No	AA	PHEL	RI_S	pH	pE	pL	PACC	PREL	P10	RI_A	Pbe	Pbie
+1	E	L	9	0	0	98	174	90	9	5	e	e
+2	H	L	8	2	7	89	132	72	8	0	e	e
+3	N	L	5	2	20	77	87	56	7	0	e	e
+4	F	E	0	3	50	45	39	20	4	0	e	i
+5	N	E	2	3	59	37	87	56	7	1	e	e
+6	V	E	6	1	82	15	0	0	0	0	b	b
+7	V	E	5	1	79	19	0	0	0	0	b	b
+8	I	E	5	2	77	20	33	20	4	0	e	i
+9	N	E	2	3	61	34	87	56	7	0	e	e
+10	A	L	3	6	27	66	59	56	7	0	e	e
+11	Y	L	5	4	19	75	124	56	7	0	e	e
+12	D	L	5	5	21	72	91	56	7	0	e	e
+13	T	L	7	4	9	85	79	56	7	0	e	e
+14	T	L	6	3	17	78	79	56	7	0	e	e
+15	I	L	7	3	13	83	20	12	3	0	b	i
+16	P	L	8	3	8	88	97	72	8	0	e	e
+17	E	L	4	6	26	66	139	72	8	0	e	e
+18	L	L	3	3	29	66	118	72	8	0	e	e
+19	N	L	0	2	46	50	87	56	7	1	e	e
+20	V	E	0	3	51	44	102	72	8	0	e	e
+21	E	L	5	1	20	78	139	72	8	0	e	e
+22	G	L	0	1	49	49	47	56	7	0	e	e
+23	V	E	3	0	68	30	0	0	0	0	b	b
+24	T	E	4	0	72	26	79	56	7	0	e	e
+25	V	E	6	0	83	15	79	56	7	0	e	e
+26	K	E	7	0	85	13	114	56	7	0	e	e
+27	N	E	4	0	73	26	87	56	7	0	e	e
+28	I	E	4	0	73	25	33	20	4	0	e	i
+29	R	E	5	0	78	21	138	56	7	0	e	e
+30	A	E	6	0	82	16	76	72	8	0	e	e
+31	F	E	6	0	79	19	39	20	4	0	e	i
+32	N	E	2	0	60	38	65	42	6	0	e	e
+33	V	E	1	1	56	42	17	12	3	0	b	i
+34	L	E	2	0	61	38	147	90	9	0	e	e
+35	N	L	5	0	23	76	113	72	8	0	e	e
+36	E	L	6	0	17	82	81	42	6	0	e	e
+37	P	L	9	1	3	95	76	56	7	0	e	e
+38	E	L	7	1	12	85	108	56	7	0	e	e
+39	T	E	5	0	79	19	59	42	6	0	e	e
+40	L	E	8	0	94	4	0	0	0	0	b	b
+41	V	E	9	0	95	3	59	42	6	0	e	e
+42	V	E	8	0	90	8	0	0	0	3	b	b
+43	K	L	0	0	45	53	86	42	6	0	e	e
+44	K	L	8	1	9	89	86	42	6	0	e	e
+45	G	L	9	0	2	97	47	56	7	0	e	e
+46	D	L	8	0	7	92	91	56	7	0	e	e
+47	A	E	7	0	88	11	59	56	7	0	e	e
+48	V	E	8	0	92	7	0	0	0	4	b	b
+49	K	E	8	0	92	7	61	30	5	0	e	i
+50	V	E	8	0	93	6	0	0	0	6	b	b
+51	V	E	8	0	94	5	42	30	5	0	e	i
+52	V	E	9	0	94	4	0	0	0	5	b	b
+53	E	E	8	0	93	5	81	42	6	0	e	e
+54	N	E	6	1	81	17	65	42	6	0	e	e
+55	K	L	6	1	19	79	114	56	7	0	e	e
+56	S	L	8	1	7	90	93	72	8	0	e	e
+57	P	L	8	1	5	93	122	90	9	0	e	e
+58	I	L	7	1	12	85	33	20	4	0	e	i
+59	S	L	5	1	20	78	72	56	7	0	e	e
+60	E	L	6	2	16	81	108	56	7	0	e	e
+61	G	L	4	2	25	71	47	56	7	0	e	e
+62	F	L	0	1	47	50	39	20	4	0	e	i
+63	S	E	7	0	85	14	39	30	5	0	e	i
+64	I	E	3	3	66	30	10	6	2	0	b	b
+65	D	L	5	5	20	73	117	72	8	0	e	e
+66	A	L	6	12	5	81	76	72	8	0	e	e
+67	F	L	7	5	7	86	39	20	4	0	e	i
+68	G	L	8	0	7	92	47	56	7	0	e	e
+69	V	L	0	1	45	53	8	6	2	0	b	b
+70	Q	E	6	1	79	18	110	56	7	0	e	e
+71	E	E	7	0	85	13	108	56	7	0	e	e
+72	V	E	7	0	87	11	79	56	7	0	e	e
+73	I	E	3	0	69	30	10	6	2	0	b	b
+74	K	L	8	0	8	90	147	72	8	0	e	e
+75	A	L	9	1	3	95	95	90	9	0	e	e
+76	G	L	9	1	3	95	75	90	9	0	e	e
+77	E	L	8	0	9	90	108	56	7	0	e	e
+78	T	E	4	0	72	27	79	56	7	0	e	e
+79	K	E	8	0	91	8	114	56	7	0	e	e
+80	T	E	9	0	96	3	79	56	7	0	e	e
+81	I	E	9	0	96	2	0	0	0	3	b	b
+82	S	E	9	0	97	2	54	42	6	0	e	e
+83	F	E	9	0	96	3	0	0	0	1	b	b
+84	T	E	8	0	90	9	42	30	5	0	e	i
+85	A	L	5	0	23	76	0	0	0	3	b	b
+86	D	L	9	0	3	95	91	56	7	0	e	e
+87	K	L	9	0	1	97	86	42	6	0	e	e
+88	A	L	9	0	1	97	59	56	7	0	e	e
+89	G	L	5	0	22	77	35	42	6	0	e	e
+90	A	E	6	0	84	15	59	56	7	0	e	e
+91	F	E	9	0	95	4	11	6	2	0	b	b
+92	T	E	8	0	93	6	42	30	5	0	e	i
+93	I	E	9	0	96	3	0	0	0	4	b	b
+94	W	E	8	0	94	5	45	20	4	1	e	i
+95	C	E	0	0	53	45	0	0	0	4	b	b
+96	Q	L	0	1	48	49	83	42	6	0	e	e
+97	L	L	4	1	26	72	91	56	7	0	e	e
+98	H	L	6	1	19	79	36	20	4	0	e	i
+99	P	L	5	6	16	76	27	20	4	0	e	i
+100	K	L	7	8	5	85	184	90	9	0	e	e
+101	N	L	8	5	5	88	141	90	9	0	e	e
+102	I	L	7	2	12	85	50	30	5	0	e	i
+103	H	L	1	0	42	56	132	72	8	0	e	e
+104	L	E	5	0	75	24	32	20	4	0	e	i
+105	P	E	7	0	87	12	76	56	7	0	e	e
+106	G	E	9	0	95	4	0	0	0	1	b	b
+107	T	E	9	0	95	3	42	30	5	0	e	i
+108	L	E	9	0	97	2	0	0	0	3	b	b
+109	N	E	9	0	97	2	47	30	5	0	e	i
+110	V	E	9	0	97	2	0	0	0	0	b	b
+111	V	E	8	0	90	9	59	42	6	0	e	e
+112	E	L	9	0	4	95	174	90	9	2	e	e

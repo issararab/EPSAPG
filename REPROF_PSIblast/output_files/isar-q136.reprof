@@ -1,0 +1,125 @@
+##General
+# No	: Residue number (beginning with 1)
+# AA	: Amino acid
+##Secondary structure
+# PHEL	: Secondary structure (H = Helix, E = Extended/Sheet, L = Loop)
+# RI_S	: Reliability index (0 to 9 (most reliable))
+# pH	: Probability helix (0 to 1)
+# pE	: Probability extended (0 to 1)
+# pL	: Probability loop (0 to 1)
+##Solvent accessibility
+# PACC	: Absolute
+# PREL	: Relative
+# P10	: Relative in 10 states (0 - 9 (most exposed))
+# RI_A	: Reliability index (0 to 9 (most reliable))
+# Pbe	: Two states (b = buried, e = exposed)
+# Pbie	: Three states (b = buried, i = intermediate, e = exposed)
+# 
+No	AA	PHEL	RI_S	pH	pE	pL	PACC	PREL	P10	RI_A	Pbe	Pbie
+1	S	L	9	0	1	97	117	90	9	5	e	e
+2	G	L	9	0	3	95	75	90	9	1	e	e
+3	F	L	7	0	10	88	141	72	8	0	e	e
+4	K	E	4	1	70	28	114	56	7	0	e	e
+5	H	E	6	0	80	18	55	30	5	0	e	i
+6	V	E	0	0	54	44	79	56	7	0	e	e
+7	S	E	7	0	85	13	54	42	6	0	e	e
+8	H	E	7	0	85	13	55	30	5	0	e	i
+9	V	E	1	0	58	41	0	0	0	0	b	b
+10	G	E	2	0	60	39	0	0	0	1	b	b
+11	W	E	3	1	68	30	45	20	4	0	e	i
+12	D	L	7	0	12	87	32	20	4	0	e	i
+13	P	L	8	4	1	93	76	56	7	0	e	e
+14	Q	L	9	4	1	94	178	90	9	0	e	e
+15	N	L	9	2	2	94	65	42	6	0	e	e
+16	G	L	7	1	12	85	47	56	7	0	e	e
+17	F	L	1	1	39	58	39	20	4	0	e	i
+18	D	E	2	2	59	38	91	56	7	0	e	e
+19	V	L	0	5	44	50	79	56	7	0	e	e
+20	N	L	4	3	26	69	113	72	8	0	e	e
+21	N	L	6	1	18	79	113	72	8	0	e	e
+22	L	L	8	0	9	89	49	30	5	0	e	i
+23	D	L	8	2	4	93	68	42	6	0	e	e
+24	P	H	7	84	0	14	97	72	8	0	e	e
+25	D	H	8	90	1	8	91	56	7	0	e	e
+26	L	H	9	95	0	3	0	0	0	2	b	b
+27	R	H	9	96	0	3	104	42	6	0	e	e
+28	S	H	9	96	0	2	72	56	7	1	e	e
+29	L	H	9	97	0	2	0	0	0	0	b	b
+30	F	H	9	97	0	1	0	0	0	2	b	b
+31	S	H	9	95	0	3	93	72	8	0	e	e
+32	R	H	7	87	0	11	178	72	8	1	e	e
+33	A	H	3	67	0	32	76	72	8	0	e	e
+34	G	L	5	20	0	78	60	72	8	0	e	e
+35	I	L	8	5	1	92	121	72	8	0	e	e
+36	S	L	8	4	2	93	72	56	7	0	e	e
+37	E	H	6	78	4	16	139	72	8	1	e	e
+38	A	H	6	81	1	16	76	72	8	0	e	e
+39	Q	H	6	80	1	18	83	42	6	0	e	e
+40	L	H	1	56	2	41	118	72	8	0	e	e
+41	T	L	5	22	3	73	79	56	7	0	e	e
+42	D	L	7	10	1	88	91	56	7	0	e	e
+43	A	H	6	84	0	15	76	72	8	0	e	e
+44	E	H	8	93	0	6	139	72	8	0	e	e
+45	T	H	7	86	0	13	42	30	5	0	e	i
+46	S	H	9	98	0	1	26	20	4	0	e	i
+47	K	H	9	98	0	1	114	56	7	2	e	e
+48	L	H	9	97	0	1	49	30	5	0	e	i
+49	I	H	9	98	0	1	0	0	0	5	b	b
+50	Y	H	9	98	0	1	66	30	5	0	e	i
+51	D	H	9	97	0	2	91	56	7	0	e	e
+52	F	H	9	97	0	1	23	12	3	0	b	i
+53	I	H	9	97	0	1	0	0	0	0	b	b
+54	E	H	8	94	0	4	81	42	6	0	e	e
+55	D	H	7	87	0	11	117	72	8	2	e	e
+56	Q	H	2	61	1	37	142	72	8	0	e	e
+57	G	L	5	20	0	78	60	72	8	0	e	e
+58	G	L	7	10	1	88	60	72	8	0	e	e
+59	L	L	7	13	3	83	118	72	8	0	e	e
+60	E	L	5	21	3	75	139	72	8	0	e	e
+61	A	L	3	31	5	63	76	72	8	0	e	e
+62	V	L	2	34	5	59	79	56	7	0	e	e
+63	R	H	0	50	4	45	178	72	8	0	e	e
+64	Q	L	0	45	3	50	142	72	8	1	e	e
+65	E	H	0	48	3	48	174	90	9	0	e	e
+66	M	L	1	41	2	56	169	90	9	0	e	e
+67	R	L	1	40	2	57	223	90	9	0	e	e
+68	R	L	1	41	2	55	223	90	9	1	e	e
+69	Q	L	4	26	4	69	178	90	9	1	e	e
+70	G	L	6	16	7	76	75	90	9	1	e	e
+71	G	L	6	15	5	78	75	90	9	2	e	e
+72	S	L	5	19	8	71	117	90	9	2	e	e
+73	G	L	5	18	7	74	75	90	9	2	e	e
+74	G	L	6	15	6	77	75	90	9	3	e	e
+75	S	L	5	20	7	71	117	90	9	2	e	e
+76	Q	L	6	13	7	79	178	90	9	1	e	e
+77	S	L	7	11	5	83	117	90	9	1	e	e
+78	S	L	7	8	5	85	117	90	9	1	e	e
+79	E	L	7	10	5	83	174	90	9	1	e	e
+80	G	L	7	10	6	83	75	90	9	2	e	e
+81	L	L	7	7	6	86	147	90	9	3	e	e
+82	V	L	7	6	7	86	127	90	9	2	e	e
+83	G	L	7	8	5	86	75	90	9	2	e	e
+84	A	L	7	10	4	85	95	90	9	1	e	e
+85	L	L	7	10	5	83	147	90	9	2	e	e
+86	M	L	7	9	4	86	169	90	9	1	e	e
+87	H	L	7	10	5	84	165	90	9	1	e	e
+88	V	L	7	8	3	87	127	90	9	2	e	e
+89	M	L	7	7	4	87	169	90	9	1	e	e
+90	Q	L	8	7	4	88	178	90	9	1	e	e
+91	K	L	8	7	4	88	184	90	9	1	e	e
+92	R	L	8	5	4	89	223	90	9	2	e	e
+93	S	L	7	7	7	84	117	90	9	1	e	e
+94	R	L	8	5	6	87	223	90	9	1	e	e
+95	A	L	8	4	4	90	95	90	9	1	e	e
+96	I	L	8	5	6	88	152	90	9	1	e	e
+97	H	L	7	4	8	87	165	90	9	1	e	e
+98	S	L	7	4	8	87	117	90	9	0	e	e
+99	S	L	8	4	4	90	117	90	9	1	e	e
+100	D	L	8	6	4	88	146	90	9	1	e	e
+101	E	L	6	16	3	79	174	90	9	1	e	e
+102	G	L	3	30	4	65	75	90	9	1	e	e
+103	E	L	0	43	4	51	174	90	9	0	e	e
+104	D	L	0	43	3	52	117	72	8	1	e	e
+105	Q	L	5	20	3	76	142	72	8	0	e	e
+106	A	L	8	7	1	90	95	90	9	0	e	e
+107	G	L	9	0	0	99	75	90	9	6	e	e

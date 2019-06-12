@@ -1,0 +1,75 @@
+##General
+# No	: Residue number (beginning with 1)
+# AA	: Amino acid
+##Secondary structure
+# PHEL	: Secondary structure (H = Helix, E = Extended/Sheet, L = Loop)
+# RI_S	: Reliability index (0 to 9 (most reliable))
+# pH	: Probability helix (0 to 1)
+# pE	: Probability extended (0 to 1)
+# pL	: Probability loop (0 to 1)
+##Solvent accessibility
+# PACC	: Absolute
+# PREL	: Relative
+# P10	: Relative in 10 states (0 - 9 (most exposed))
+# RI_A	: Reliability index (0 to 9 (most reliable))
+# Pbe	: Two states (b = buried, e = exposed)
+# Pbie	: Three states (b = buried, i = intermediate, e = exposed)
+# 
+No	AA	PHEL	RI_S	pH	pE	pL	PACC	PREL	P10	RI_A	Pbe	Pbie
+1	T	L	9	2	0	97	127	90	9	5	e	e
+2	R	H	6	83	0	15	178	72	8	0	e	e
+3	A	H	4	72	0	26	76	72	8	1	e	e
+4	H	H	5	76	0	23	103	56	7	0	e	e
+5	L	H	7	87	0	11	118	72	8	0	e	e
+6	T	H	7	88	0	10	79	56	7	2	e	e
+7	E	H	9	95	0	4	108	56	7	0	e	e
+8	V	H	9	96	0	3	79	56	7	0	e	e
+9	E	H	9	97	0	2	108	56	7	0	e	e
+10	S	H	8	92	0	6	72	56	7	1	e	e
+11	R	H	8	93	0	6	138	56	7	0	e	e
+12	L	H	9	96	0	3	19	12	3	0	b	i
+13	E	H	8	94	0	5	108	56	7	2	e	e
+14	R	H	9	96	0	2	138	56	7	0	e	e
+15	L	H	9	95	0	4	0	0	0	1	b	b
+16	E	H	9	96	0	2	81	42	6	1	e	e
+17	Q	H	9	98	0	1	110	56	7	2	e	e
+18	L	H	9	97	0	2	0	0	0	0	b	b
+19	F	H	9	97	0	2	0	0	0	0	b	b
+20	L	H	9	97	0	2	91	56	7	0	e	e
+21	L	H	8	92	0	6	91	56	7	0	e	e
+22	I	H	6	80	0	18	0	0	0	0	b	b
+23	F	L	6	16	1	81	39	20	4	0	e	i
+24	P	L	6	15	0	83	76	56	7	0	e	e
+25	R	H	7	89	0	9	138	56	7	0	e	e
+26	E	H	8	90	0	8	139	72	8	0	e	e
+27	D	H	8	90	1	8	91	56	7	0	e	e
+28	L	H	9	97	0	1	0	0	0	0	b	b
+29	D	H	9	96	0	3	91	56	7	1	e	e
+30	M	H	8	93	0	5	105	56	7	0	e	e
+31	I	H	8	93	0	5	0	0	0	0	b	b
+32	L	H	7	87	0	11	32	20	4	0	e	i
+33	K	H	4	71	0	28	147	72	8	0	e	e
+34	M	H	2	64	0	35	135	72	8	0	e	e
+35	D	H	1	55	0	43	91	56	7	0	e	e
+36	S	L	1	42	0	57	72	56	7	0	e	e
+37	L	H	8	93	0	6	19	12	3	0	b	i
+38	R	H	8	92	0	7	138	56	7	1	e	e
+39	D	H	9	95	0	3	91	56	7	0	e	e
+40	I	H	9	96	0	3	0	0	0	1	b	b
+41	E	H	9	97	0	2	108	56	7	0	e	e
+42	A	H	9	97	0	2	59	56	7	1	e	e
+43	L	H	9	98	0	1	19	12	3	0	b	i
+44	L	H	9	98	0	1	0	0	0	2	b	b
+45	T	H	9	98	0	1	79	56	7	0	e	e
+46	G	H	9	98	0	1	47	56	7	0	e	e
+47	L	H	9	98	0	1	32	20	4	0	e	i
+48	F	H	9	96	1	2	39	20	4	0	e	i
+49	V	H	9	96	1	2	79	56	7	0	e	e
+50	Q	H	9	94	1	4	110	56	7	1	e	e
+51	D	H	7	88	1	9	117	72	8	0	e	e
+52	N	H	4	72	0	26	87	56	7	0	e	e
+53	V	H	0	51	1	47	79	56	7	0	e	e
+54	N	L	1	40	1	58	113	72	8	0	e	e
+55	K	L	4	28	1	70	147	72	8	1	e	e
+56	D	L	7	12	0	86	117	72	8	0	e	e
+57	A	L	9	0	0	99	95	90	9	6	e	e
