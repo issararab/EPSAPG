@@ -1,0 +1,308 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.68
+           17 sequences; 1,375 total letters
+
+Results from round 1
+
+
+Query= Q8T0W8 Extracellular-S test
+
+Length=65
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q8T0W8 Diapause-specific peptide n=1 Tax=Gastrophysa a...  134     2e-47
+  UniRef90_A0A2H1W625 SFRICE_001550 n=1 Tax=Spodoptera frugiperda...  83.2    3e-25
+  UniRef90_E1B227 Diapausin A7 n=5 Tax=Spodoptera TaxID=7106 RepI...  77.8    4e-25
+  UniRef90_A0A2H1W5V7 SFRICE_001546 n=1 Tax=Spodoptera frugiperda...  73.9    1e-23
+  UniRef90_A0A2H1W5P2 SFRICE_001544 n=1 Tax=Spodoptera frugiperda...  72.8    9e-23
+  UniRef90_A0A2H1WA88 SFRICE_005882 n=1 Tax=Spodoptera frugiperda...  70.9    2e-22
+  UniRef90_A0A0G3DJN3 Diapausin B1 n=1 Tax=Spodoptera exigua TaxI...  70.1    3e-22
+  UniRef90_A0A2H1W5N6 SFRICE_001543 n=1 Tax=Spodoptera frugiperda...  67.0    6e-21
+  UniRef90_A0A2H1WGM8 SFRICE_041394 (Fragment) n=1 Tax=Spodoptera...  60.8    1e-18
+  UniRef90_H3DZ00 Uncharacterized protein n=1 Tax=Pristionchus pa...  58.2    2e-17
+  UniRef90_A0A1D2MIK7 Diapause-specific peptide n=2 Tax=Orchesell...  55.1    4e-16
+  UniRef90_P83421 Psychimicin n=2 Tax=Ditrysia TaxID=37567 RepID=...  52.4    3e-15
+  UniRef90_P83411 Spodomicin n=1 Tax=Spodoptera littoralis TaxID=...  52.0    3e-15
+  UniRef90_A0A1D2M1T0 Diapause-specific peptide n=1 Tax=Orchesell...  51.2    3e-14
+  UniRef90_A0A2A6CLZ3 Uncharacterized protein n=1 Tax=Pristionchu...  50.1    4e-14
+  UniRef90_H3DYZ9 Uncharacterized protein n=1 Tax=Pristionchus pa...  50.1    4e-14
+  UniRef90_H3EQ63 Uncharacterized protein n=1 Tax=Pristionchus pa...  40.4    2e-10
+
+
+> UniRef90_Q8T0W8 Diapause-specific peptide n=1 Tax=Gastrophysa 
+atrocyanea TaxID=169758 RepID=DIAP_GASAT
+Length=65
+
+ Score = 134 bits (336),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 65/65 (100%), Positives = 65/65 (100%), Gaps = 0/65 (0%)
+
+Query  1   MGAALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGG  60
+           MGAALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGG
+Sbjct  1   MGAALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGG  60
+
+Query  61  GMYCN  65
+           GMYCN
+Sbjct  61  GMYCN  65
+
+
+> UniRef90_A0A2H1W625 SFRICE_001550 n=1 Tax=Spodoptera frugiperda 
+TaxID=7108 RepID=A0A2H1W625_SPOFR
+Length=284
+
+ Score = 83.2 bits (204),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 38/60 (63%), Positives = 45/60 (75%), Gaps = 1/60 (2%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGGGM  62
+           AALK T+ LL++A AM+A+   AVR+GPCDQVC RI  E+ ECCRAHG SGY  C GG M
+Sbjct  2   AALKTTLVLLLIAFAMLASV-GAVRVGPCDQVCSRIDAEKDECCRAHGYSGYNSCRGGRM  60
+
+
+> UniRef90_E1B227 Diapausin A7 n=5 Tax=Spodoptera TaxID=7106 RepID=E1B227_SPOEX
+Length=63
+
+ Score = 77.8 bits (190),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 39/62 (63%), Positives = 46/62 (74%), Gaps = 1/62 (2%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGGGM  62
+           AALK T+ LL++A AM+A+   AVR+GPCDQVC RI  E+ ECCRAHG SGY  C GG M
+Sbjct  2   AALKTTLVLLLIAFAMLASV-GAVRVGPCDQVCSRIDAEKDECCRAHGYSGYNSCRGGRM  60
+
+Query  63  YC  64
+            C
+Sbjct  61  DC  62
+
+
+> UniRef90_A0A2H1W5V7 SFRICE_001546 n=1 Tax=Spodoptera frugiperda 
+TaxID=7108 RepID=A0A2H1W5V7_SPOFR
+Length=71
+
+ Score = 73.9 bits (180),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 37/62 (60%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGGGM  62
+           A LK T  LL++A AM+A+   AVR+GPCDQVC RI  E+ ECCRAHG SGY  C  G M
+Sbjct  10  ALLKTTFVLLLIAFAMLASV-GAVRVGPCDQVCSRIDAEKDECCRAHGYSGYNSCRSGRM  68
+
+Query  63  YC  64
+            C
+Sbjct  69  DC  70
+
+
+> UniRef90_A0A2H1W5P2 SFRICE_001544 n=1 Tax=Spodoptera frugiperda 
+TaxID=7108 RepID=A0A2H1W5P2_SPOFR
+Length=107
+
+ Score = 72.8 bits (177),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 35/55 (64%), Positives = 42/55 (76%), Gaps = 1/55 (2%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYC  57
+           AALK T+ LL++A AM+A+   AVR+GPCDQVC RI  E+ ECCRAHG SGY  C
+Sbjct  2   AALKTTLVLLLIAFAMLASV-GAVRVGPCDQVCSRIDAEKDECCRAHGYSGYNSC  55
+
+
+> UniRef90_A0A2H1WA88 SFRICE_005882 n=1 Tax=Spodoptera frugiperda 
+TaxID=7108 RepID=A0A2H1WA88_SPOFR
+Length=78
+
+ Score = 70.9 bits (172),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 34/60 (57%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGGGM  62
+           AA+K T  L+++A  M+ +   AVR+GPCDQVC RI PE+ ECCRAHG SGY  C  G M
+Sbjct  2   AAIKTTFLLVLIAFVMLVSI-GAVRVGPCDQVCSRIDPEKDECCRAHGYSGYNSCRYGRM  60
+
+
+> UniRef90_A0A0G3DJN3 Diapausin B1 n=1 Tax=Spodoptera exigua TaxID=7107 
+RepID=A0A0G3DJN3_SPOEX
+Length=63
+
+ Score = 70.1 bits (170),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 33/62 (53%), Positives = 42/62 (68%), Gaps = 1/62 (2%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGGGM  62
+           AA+K T  L ++A  M+ +   AVR+GPCDQVC RI  E+ ECCRAHG +GY+ C  G M
+Sbjct  2   AAIKTTFLLFLIAFVMLVSI-GAVRVGPCDQVCSRIDAEKDECCRAHGHNGYSSCRYGQM  60
+
+Query  63  YC  64
+            C
+Sbjct  61  NC  62
+
+
+> UniRef90_A0A2H1W5N6 SFRICE_001543 n=1 Tax=Spodoptera frugiperda 
+TaxID=7108 RepID=A0A2H1W5N6_SPOFR
+Length=67
+
+ Score = 67.0 bits (162),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 34/64 (53%), Positives = 43/64 (67%), Gaps = 2/64 (3%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAV--RIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGG  60
+           AALK T+ LL++A AM  T EA    R+  CDQVC  +  ER+ CC+AHG  GY++C GG
+Sbjct  2   AALKTTLVLLLIAFAMFVTIEAVTVTRVPQCDQVCGPVDTERNACCKAHGYVGYSHCVGG  61
+
+Query  61  GMYC  64
+           GM C
+Sbjct  62  GMRC  65
+
+
+> UniRef90_A0A2H1WGM8 SFRICE_041394 (Fragment) n=1 Tax=Spodoptera 
+frugiperda TaxID=7108 RepID=A0A2H1WGM8_SPOFR
+Length=47
+
+ Score = 60.8 bits (146),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 29/47 (62%), Positives = 35/47 (74%), Gaps = 1/47 (2%)
+
+Query  3   AALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAH  49
+           A LK T  L ++A AM+A+   AVR+GPCDQVC RI PE+ ECCRAH
+Sbjct  2   ALLKTTFVLFLIAFAMLASV-GAVRVGPCDQVCSRIDPEKDECCRAH  47
+
+
+> UniRef90_H3DZ00 Uncharacterized protein n=1 Tax=Pristionchus 
+pacificus TaxID=54126 RepID=H3DZ00_PRIPA
+Length=68
+
+ Score = 58.2 bits (139),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  9   IFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGY--AYCSGGGMYCN  65
+           + LL+V  +  A   A+VR+  CD+VC R VPER++CCRAHG  G     C+G   YCN
+Sbjct  6   LILLLVLISASAVYAASVRVEACDEVCRRTVPERNQCCRAHGYQGMIRGMCTGNSAYCN  64
+
+
+> UniRef90_A0A1D2MIK7 Diapause-specific peptide n=2 Tax=Orchesella 
+cincta TaxID=48709 RepID=A0A1D2MIK7_ORCCI
+Length=68
+
+ Score = 55.1 bits (131),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 35/61 (57%), Gaps = 1/61 (2%)
+
+Query  1   MGAALKMTIFLLIVACAMIATTEAA-VRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSG  59
+           M   +    FL  +A  +IAT +A    + PC++VCPR   E +ECCRAHG     YC+G
+Sbjct  1   MQKQILSAFFLFTLAFVLIATVDAEYTNVQPCNEVCPRSQAEINECCRAHGYKSDGYCAG  60
+
+Query  60  G  60
+           G
+Sbjct  61  G  61
+
+
+> UniRef90_P83421 Psychimicin n=2 Tax=Ditrysia TaxID=37567 RepID=PSYC_OIKKI
+Length=45
+
+ Score = 52.4 bits (124),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  26  VRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGG  60
+           VR+ PCDQVC R  PE+ ECCRAHG + +A CSGG
+Sbjct  5   VRVPPCDQVCSRTNPEKDECCRAHGHAFHATCSGG  39
+
+
+> UniRef90_P83411 Spodomicin n=1 Tax=Spodoptera littoralis TaxID=7109 
+RepID=SDMI_SPOLI
+Length=40
+
+ Score = 52.0 bits (123),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 24/39 (62%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  26  VRIGPCDQVCPRIVPERHECCRAHGRSGYAYCSGGGMYC  64
+           V +GPCDQVC RI PE+ ECCRAHG  G++ C  G M C
+Sbjct  1   VHVGPCDQVCSRIDPEKDECCRAHGYRGHSSCYYGRMEC  39
+
+
+> UniRef90_A0A1D2M1T0 Diapause-specific peptide n=1 Tax=Orchesella 
+cincta TaxID=48709 RepID=A0A1D2M1T0_ORCCI
+Length=107
+
+ Score = 51.2 bits (121),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 23/53 (43%), Positives = 34/53 (64%), Gaps = 1/53 (2%)
+
+Query  7   MTIFLLIVACAMIATTEAA-VRIGPCDQVCPRIVPERHECCRAHGRSGYAYCS  58
+           ++I L+ +A  +IAT +A    + PC++VCPR   E +ECCRAHG     YC+
+Sbjct  48  LSILLVTLAFVLIATVDAEYTNVQPCNEVCPRSQAEINECCRAHGYKSDGYCA  100
+
+
+> UniRef90_A0A2A6CLZ3 Uncharacterized protein n=1 Tax=Pristionchus 
+pacificus TaxID=54126 RepID=A0A2A6CLZ3_PRIPA
+Length=69
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/50 (46%), Positives = 34/50 (68%), Gaps = 1/50 (2%)
+
+Query  4   ALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSG  53
+           ++K+ +F+L++    +   EA   +G C+QVCPRI  ER ECCRAHG +G
+Sbjct  2   SVKILVFILLLTIVAV-HVEADAFVGACNQVCPRIQRERDECCRAHGFNG  50
+
+
+> UniRef90_H3DYZ9 Uncharacterized protein n=1 Tax=Pristionchus 
+pacificus TaxID=54126 RepID=H3DYZ9_PRIPA
+Length=68
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 38/64 (59%), Gaps = 3/64 (5%)
+
+Query  4   ALKMTIFLLIVACAMIATTEAAVRIGPCDQVCPRIVPERHECCRAHGRSGY--AYCSGGG  61
+           + K  I LL + CA  A   ++V +  C++VC R V ER+ECC+AHG  G    YC+ G 
+Sbjct  2   STKFFIVLLALICAS-AVYASSVYVEACNEVCGRSVEERNECCKAHGYQGMIRGYCTDGR  60
+
+Query  62  MYCN  65
+            +CN
+Sbjct  61  AFCN  64
+
+
+> UniRef90_H3EQ63 Uncharacterized protein n=1 Tax=Pristionchus 
+pacificus TaxID=54126 RepID=H3EQ63_PRIPA
+Length=65
+
+ Score = 40.4 bits (93),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 16/28 (57%), Positives = 22/28 (79%), Gaps = 0/28 (0%)
+
+Query  26  VRIGPCDQVCPRIVPERHECCRAHGRSG  53
+           +R+  CD+VCPRI  ER ECC+A+G +G
+Sbjct  22  IRVQQCDEVCPRIPRERDECCKANGHAG  49
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.140    0.479    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 43043
+
+
+  Database: isar.db.68
+    Posted date:  Jun 12, 2019  5:32 PM
+  Number of letters in database: 1,375
+  Number of sequences in database:  17
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

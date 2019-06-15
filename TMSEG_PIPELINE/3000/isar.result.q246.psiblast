@@ -1,0 +1,2374 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.246
+           115 sequences; 16,785 total letters
+
+Results from round 1
+
+
+Query= Q9CDU5|5yi2B|Q9CDU5_LACLA 1.0
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_H5T1Y0 Zinc transport transcription regulator n=25 Tax...  287     1e-104
+  UniRef90_A2RNS2 Transcriptional regulator ZitR n=14 Tax=Lactoco...  267     1e-96 
+  UniRef90_A0A387BBQ7 MarR family transcriptional regulator n=1 T...  236     3e-84 
+  UniRef90_A0A166UKB3 Transcriptional repressor AdcR for Zn(2+)-r...  234     1e-83 
+  UniRef90_A0A1I4G6S2 DNA-binding transcriptional regulator, MarR...  201     1e-70 
+  UniRef90_A0A2A5RMP5 Zinc transport transcriptional regulator n=...  197     8e-69 
+  UniRef90_K2PQE1 Transcriptional repressor AdcR for Zn(2+)-respo...  187     5e-65 
+  UniRef90_A0A352NDN9 Transcriptional regulator n=1 Tax=Lactococc...  184     8e-64 
+  UniRef90_A0A290PYI2 Transcriptional regulator n=1 Tax=Lactococc...  172     4e-59 
+  UniRef90_A0A2A5SEB8 MarR family transcriptional regulator n=2 T...  172     5e-59 
+  UniRef90_A0A1K2HHS0 DNA-binding transcriptional regulator, MarR...  171     8e-59 
+  UniRef90_A0A3D3NN77 HTH domain-containing protein n=2 Tax=Lacto...  167     3e-57 
+  UniRef90_A0A1C3SST1 Transcriptional regulator ZitR n=4 Tax=Lact...  160     1e-54 
+  UniRef90_A0A2R5HF83 MarR family transcriptional regulator n=1 T...  155     1e-52 
+  UniRef90_F0IPE8 Adc operon repressor AdcR n=32 Tax=Streptococcu...  154     8e-52 
+  UniRef90_A0A139P469 Transcriptional repressor AdcR for Zn(2+)-r...  149     8e-50 
+  UniRef90_A0A2W5ARL0 Transcriptional regulator n=1 Tax=Streptoco...  148     2e-49 
+  UniRef90_E7S7W3 Transcriptional regulator, MarR family n=12 Tax...  147     3e-49 
+  UniRef90_E8JVU0 Transcriptional regulator, MarR family n=16 Tax...  145     1e-48 
+  UniRef90_F5WY67 MarR family transcriptional regulator n=16 Tax=...  145     3e-48 
+  UniRef90_J3A5Z8 Putative transcriptional regulator n=3 Tax=Stre...  144     4e-48 
+  UniRef90_G5JW99 Sugar-specific transcriptional regulator, TrmB ...  144     4e-48 
+  UniRef90_A0A1G6BTI2 DNA-binding transcriptional regulator, MarR...  144     7e-48 
+  UniRef90_A0A380KSF6 MarR family transcriptional regulator n=16 ...  143     1e-47 
+  UniRef90_A0A139QY68 Transcriptional repressor AdcR for Zn(2+)-r...  143     1e-47 
+  UniRef90_A0A0E2F1K0 Putative transcriptional regulator n=13 Tax...  143     2e-47 
+  UniRef90_A0A1S1ZM22 Transcriptional regulator n=4 Tax=Streptoco...  142     3e-47 
+  UniRef90_A0A1H9CW61 DNA-binding transcriptional regulator, MarR...  142     3e-47 
+  UniRef90_Q5XEA3 Transcriptional regulator AdcR n=33 Tax=Bacteri...  141     5e-47 
+  UniRef90_G5JQG5 Transcriptional repressor AdcR family protein n...  141     9e-47 
+  UniRef90_A0A372KL45 MarR family transcriptional regulator n=2 T...  139     5e-46 
+  UniRef90_A0A2X4H2B2 MarR family transcriptional regulator n=4 T...  138     9e-46 
+  UniRef90_S5RFR0 Transcriptional repressor AdcR for Zn(2+)-respo...  138     9e-46 
+  UniRef90_A0A0N8FX04 MarR family transcriptional regulator n=2 T...  137     2e-45 
+  UniRef90_E8K9H6 Transcriptional regulator, MarR family n=2 Tax=...  137     2e-45 
+  UniRef90_A0A172QA19 Transcriptional regulator n=1 Tax=Streptoco...  137     4e-45 
+  UniRef90_F9PVA9 Sugar-specific transcriptional regulator, TrmB ...  137     4e-45 
+  UniRef90_Q8E244 Adc operon repressor AdcR n=18 Tax=Streptococcu...  136     6e-45 
+  UniRef90_U2KLG7 Transcriptional regulator, MarR family n=2 Tax=...  136     7e-45 
+  UniRef90_V4QQM3 MarR family transcriptional regulator n=2 Tax=S...  136     9e-45 
+  UniRef90_A0A380K5X7 MarR family transcriptional regulator n=1 T...  135     2e-44 
+  UniRef90_F8LGQ1 Zinc transport transcriptional repressor n=43 T...  135     2e-44 
+  UniRef90_G5K4J8 Sugar-specific transcriptional regulator, TrmB ...  135     2e-44 
+  UniRef90_A0A3L9DP84 MarR family transcriptional regulator n=1 T...  135     3e-44 
+  UniRef90_A0A0F3H2E1 Adc operon repressor AdcR n=25 Tax=Streptoc...  134     3e-44 
+  UniRef90_A0A239XJ17 Transcriptional regulator n=3 Tax=Streptoco...  134     3e-44 
+  UniRef90_A0A380JBV4 MarR family transcriptional regulator n=3 T...  134     6e-44 
+  UniRef90_A0A125YV60 Repressor protein adcR n=21 Tax=Streptococc...  133     8e-44 
+  UniRef90_G5KF44 Sugar-specific transcriptional regulator, TrmB ...  133     8e-44 
+  UniRef90_A0A380L0R8 Multiple antibiotic resistance operon trans...  133     1e-43 
+  UniRef90_A0A2X3VNS7 MarR family transcriptional regulator n=1 T...  132     2e-43 
+  UniRef90_A0A0C1K4I9 MarR family transcriptional regulator n=14 ...  132     3e-43 
+  UniRef90_A0A0E4H431 Transcriptional regulator n=1 Tax=Streptoco...  131     8e-43 
+  UniRef90_Q04I02 Transcriptional regulator AdcR n=207 Tax=Bacter...  130     9e-43 
+  UniRef90_Q5M685 Zinc transport transcriptional repressor n=11 T...  129     3e-42 
+  UniRef90_A0A0E9EPC0 Transcriptional repressor AdcR n=30 Tax=roo...  129     3e-42 
+  UniRef90_A0A3P1VB43 MarR family transcriptional regulator n=2 T...  129     4e-42 
+  UniRef90_A0A2X4E765 MarR family transcriptional regulator n=4 T...  128     7e-42 
+  UniRef90_A0A345VH96 Transcriptional regulator AdcR n=2 Tax=Stre...  128     1e-41 
+  UniRef90_A0A139NH96 Transcriptional repressor AdcR for Zn(2+)-r...  127     1e-41 
+  UniRef90_A0A081S9Y6 Transcriptional repressor AdcR n=2 Tax=Terr...  123     4e-40 
+  UniRef90_A0A239SXF2 Multiple antibiotic resistance operon trans...  123     1e-39 
+  UniRef90_A0A1Q8EA76 Transcriptional regulator n=3 Tax=Streptoco...  122     4e-39 
+  UniRef90_A0A139NNS1 Transcriptional repressor AdcR for Zn(2+)-r...  121     5e-39 
+  UniRef90_A0A1V2SM26 Transcriptional regulator n=1 Tax=Streptoco...  120     9e-39 
+  UniRef90_A0A2Z5TK37 Transcriptional regulator n=2 Tax=Streptoco...  117     3e-37 
+  UniRef90_A0A0Z8FVE2 Transcriptional regulator n=37 Tax=Streptoc...  114     2e-36 
+  UniRef90_A0A285PLW1 Transcriptional regulator ZitR n=3 Tax=Weis...  110     1e-34 
+  UniRef90_C5R9A6 Transcriptional regulator, MarR family n=1 Tax=...  107     1e-33 
+  UniRef90_A0A0R2JF65 Multiple antibiotic resistance operon trans...  107     2e-33 
+  UniRef90_A0A1C4BKR4 DNA-binding transcriptional regulator, MarR...  105     7e-33 
+  UniRef90_A0A0D1LW91 AdcR protein n=6 Tax=Weissella TaxID=46255 ...  105     9e-33 
+  UniRef90_A0A1L6RDT1 Transcriptional repressor AdcR for Zn(2+)-r...  104     2e-32 
+  UniRef90_A0A0R2G627 Multiple antibiotic resistance operon trans...  104     3e-32 
+  UniRef90_A0A075U7P3 Multiple antibiotic resistance operon trans...  103     5e-32 
+  UniRef90_A0A1C4BX37 DNA-binding transcriptional regulator, MarR...  103     7e-32 
+  UniRef90_A0A288Q6K9 DNA-binding MarR family transcriptional reg...  103     9e-32 
+  UniRef90_A0A069CRP1 Transcriptional repressor MarR n=1 Tax=Weis...  97.8    1e-29 
+  UniRef90_J1NS09 Iron dependent repressor, N-terminal DNA bindin...  94.0    7e-29 
+  UniRef90_A0A0R1ZN51 Uncharacterized protein n=1 Tax=Lactobacill...  92.8    9e-28 
+  UniRef90_A0A0R2JJJ4 Uncharacterized protein n=1 Tax=Weissella k...  92.0    3e-27 
+  UniRef90_E1M7U5 Putative transcriptional repressor n=1 Tax=Stre...  90.1    3e-27 
+  UniRef90_A0A0R1TUG1 Uncharacterized protein n=2 Tax=Lactobacill...  90.9    5e-27 
+  UniRef90_A0A380NWP1 Transcriptional repressor AdcR n=1 Tax=Weis...  89.7    9e-27 
+  UniRef90_A0A1N1Y5V5 Transcriptional regulator n=1 Tax=Mycobacte...  86.7    8e-26 
+  UniRef90_A0A1B2A0L5 Transcriptional regulator n=5 Tax=Leuconost...  71.6    1e-19 
+  UniRef90_A0A120HS18 Uncharacterized protein n=2 Tax=Aneurinibac...  68.9    2e-18 
+  UniRef90_A0A2T7JAS3 HTH domain-containing protein n=3 Tax=Bacil...  66.2    2e-17 
+  UniRef90_A0A2T4PPC4 Uncharacterized protein n=6 Tax=Staphylococ...  65.1    1e-16 
+  UniRef90_A0A1G6IKP6 DNA-binding transcriptional regulator, MarR...  63.5    2e-16 
+  UniRef90_A0A090IYM0 Uncharacterized protein n=4 Tax=Bacillaceae...  61.2    2e-15 
+  UniRef90_A0A2U2W3L2 Transcriptional regulator (Fragment) n=1 Ta...  58.2    3e-15 
+  UniRef90_A0A3E0RL05 MarR family transcriptional regulator n=1 T...  59.7    1e-14 
+  UniRef90_R7Z923 MarR family transcriptional regulator n=1 Tax=L...  58.5    2e-14 
+  UniRef90_A0A3D0E6I1 MarR family transcriptional regulator n=1 T...  57.8    3e-14 
+  UniRef90_A0A1X7DJU7 Transcriptional regulator, MarR family n=3 ...  57.8    3e-14 
+  UniRef90_A0A089ITM4 MarR family transcriptional regulator n=1 T...  56.2    1e-13 
+  UniRef90_A0A366XXR1 Uncharacterized protein n=1 Tax=Bacillus ta...  56.6    1e-13 
+  UniRef90_M5NZ86 Transcriptional regulator n=1 Tax=Bacillus sono...  56.2    2e-13 
+  UniRef90_A0A1Y4IEC7 MarR family transcriptional regulator n=1 T...  55.8    2e-13 
+  UniRef90_A0A2T0QN77 DNA-binding MarR family transcriptional reg...  55.1    4e-13 
+  UniRef90_A0A0P6WWE6 Uncharacterized protein n=2 Tax=Leptolinea ...  54.3    8e-13 
+  UniRef90_A0A1V1I0F4 Transcriptional regulator, MarR n=1 Tax=Rom...  53.9    8e-13 
+  UniRef90_A0M2P8 MarR family transcriptional regulator protein n...  53.9    1e-12 
+  UniRef90_F0SX96 Transcriptional regulator, MarR family n=1 Tax=...  53.5    1e-12 
+  UniRef90_W1UST7 Uncharacterized protein n=4 Tax=Clostridiales T...  52.4    3e-12 
+  UniRef90_A0A073K293 MarR family transcriptional regulator n=1 T...  52.0    3e-12 
+  UniRef90_A0A1V1I0A2 Regulatory protein MarR n=2 Tax=Romboutsia ...  51.2    8e-12 
+  UniRef90_W0PHH6 Transcriptional regulator, MarR family n=3 Tax=...  52.0    1e-11 
+  UniRef90_A0A0M9FDL6 MarR family transcriptional regulator (Frag...  48.5    1e-11 
+  UniRef90_Q979H4 Uncharacterized protein n=1 Tax=Thermoplasma vo...  49.7    3e-11 
+  UniRef90_A0A366I4W1 DNA-binding MarR family transcriptional reg...  48.9    6e-11 
+  UniRef90_A0A2J6I5D8 MarR family transcriptional regulator n=1 T...  48.1    2e-10 
+  UniRef90_A0A0T8AAY5 MarR family transcriptional regulator n=3 T...  40.8    1e-08 
+  UniRef90_A0A285HIG3 Transcriptional regulator, MarR family n=2 ...  38.1    5e-07 
+
+
+> UniRef90_H5T1Y0 Zinc transport transcription regulator n=25 Tax=Lactococcus 
+lactis TaxID=1358 RepID=H5T1Y0_LACLL
+Length=145
+
+ Score = 287 bits (734),  Expect = 1e-104, Method: Compositional matrix adjust.
+ Identities = 143/145 (99%), Positives = 144/145 (99%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL
+Sbjct  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            KISPAAVTKALKKLQ QELIKSSRATNDERVVLWSLTEKAVPVAKEHATHH+KTLSTYQE
+Sbjct  61   KISPAAVTKALKKLQGQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHDKTLSTYQE  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            LGNKFTDEEQEVISKFLSALTEEFQ
+Sbjct  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+
+
+> UniRef90_A2RNS2 Transcriptional regulator ZitR n=14 Tax=Lactococcus 
+lactis TaxID=1358 RepID=ZITR_LACLM
+Length=145
+
+ Score = 267 bits (682),  Expect = 1e-96, Method: Compositional matrix adjust.
+ Identities = 129/145 (89%), Positives = 141/145 (97%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            MSLANQIDQFLG IMQFAENKHEILLG+CES+VKLTSTQEHILM+LA ++STNA+IAE+L
+Sbjct  1    MSLANQIDQFLGAIMQFAENKHEILLGECESNVKLTSTQEHILMILAAEVSTNARIAEQL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKA+PVAKEHA HHEKTLSTYQE
+Sbjct  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAIPVAKEHAAHHEKTLSTYQE  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            LG+KFTDEEQ+VIS+FLS LTEEF+
+Sbjct  121  LGDKFTDEEQKVISQFLSVLTEEFR  145
+
+
+> UniRef90_A0A387BBQ7 MarR family transcriptional regulator n=1 
+Tax=Lactococcus sp. 1JSPR-7 TaxID=2419773 RepID=A0A387BBQ7_9LACT
+Length=152
+
+ Score = 236 bits (601),  Expect = 3e-84, Method: Compositional matrix adjust.
+ Identities = 112/144 (78%), Positives = 132/144 (92%), Gaps = 0/144 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M L +QIDQFLG IMQ+AENKHEILLG CES +KLTSTQEHILMLL+ ++STNA+IAE+L
+Sbjct  1    MDLEHQIDQFLGKIMQYAENKHEILLGACESHLKLTSTQEHILMLLSNEVSTNARIAEQL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            KISPAAVTKALKKLQEQELI SSRA+NDERVVLWSLTEKA+P+AKEHA HH+KTL+TYQ+
+Sbjct  61   KISPAAVTKALKKLQEQELIMSSRASNDERVVLWSLTEKALPIAKEHAEHHKKTLATYQK  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEF  144
+            LGNKF D+EQ+VI+KF+  L++E 
+Sbjct  121  LGNKFNDDEQKVITKFMKLLSKEL  144
+
+
+> UniRef90_A0A166UKB3 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=1 Tax=Lactococcus lactis subsp. cremoris 
+TaxID=1359 RepID=A0A166UKB3_LACLC
+Length=150
+
+ Score = 234 bits (597),  Expect = 1e-83, Method: Compositional matrix adjust.
+ Identities = 111/144 (77%), Positives = 132/144 (92%), Gaps = 0/144 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M+LA +I++FLGTIM FAENKHEILLG+CES +KLTSTQEHILMLLA ++STNA+IAEKL
+Sbjct  1    MALATKINEFLGTIMHFAENKHEILLGECESHLKLTSTQEHILMLLANEVSTNARIAEKL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            KISPAAVTKALKKLQEQELI+SSRA NDERVVLWSLTEKA+P+A EHA HH+KTL+TYQ 
+Sbjct  61   KISPAAVTKALKKLQEQELIQSSRAANDERVVLWSLTEKAIPIADEHAEHHQKTLATYQA  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEF  144
+            LG++FT +EQEV+ +FL AL++E 
+Sbjct  121  LGDEFTKDEQEVVERFLKALSDEL  144
+
+
+> UniRef90_A0A1I4G6S2 DNA-binding transcriptional regulator, MarR 
+family n=10 Tax=Lactococcus TaxID=1357 RepID=A0A1I4G6S2_9LACT
+Length=147
+
+ Score = 201 bits (512),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 94/144 (65%), Positives = 121/144 (84%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L NQIDQFL  +MQFAENKHEILLGKC+SD+KLTSTQEH+LMLL  + +TNA++AE L 
+Sbjct  4    NLENQIDQFLSQVMQFAENKHEILLGKCQSDIKLTSTQEHLLMLLNGEPTTNARMAETLL  63
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            +SPAA+TKALKKLQ+ ELI  +++  DERVVLW+LTEKA+P+A+EHA HHE TL +YQ+L
+Sbjct  64   VSPAAITKALKKLQDLELISPTKSKTDERVVLWNLTEKALPIAREHAAHHEATLDSYQQL  123
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+              K+T++EQ+VI  FL  L E+F+
+Sbjct  124  TQKYTEDEQKVIQDFLHQLAEKFK  147
+
+
+> UniRef90_A0A2A5RMP5 Zinc transport transcriptional regulator 
+n=2 Tax=Lactococcus fujiensis TaxID=610251 RepID=A0A2A5RMP5_9LACT
+Length=151
+
+ Score = 197 bits (500),  Expect = 8e-69, Method: Compositional matrix adjust.
+ Identities = 96/145 (66%), Positives = 116/145 (80%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            ++L NQIDQ L  I QFAENKHE+LLGKCES  +LTSTQEHILM+LA   STNAKIA  L
+Sbjct  7    LNLENQIDQMLSKITQFAENKHEVLLGKCESGEQLTSTQEHILMILANDTSTNAKIASNL  66
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             ISPAAVTKA+KKLQ QELI  S+  +DERV++WSLT+KA+P+A+EHA HH KTL TY+E
+Sbjct  67   NISPAAVTKAIKKLQLQELIMPSKIQSDERVIIWSLTDKALPIAQEHAKHHSKTLETYKE  126
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            L   +  +EQ+ I +FLSALTE F+
+Sbjct  127  LMKDYNGDEQKTIQRFLSALTEVFE  151
+
+
+> UniRef90_K2PQE1 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=2 Tax=Lactococcus garvieae TaxID=1363 RepID=K2PQE1_9LACT
+Length=147
+
+ Score = 187 bits (475),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 94/144 (65%), Positives = 119/144 (83%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L NQID FL  +MQFAENKHEILLGKC+SD+KLTSTQEH+LMLL E+ +TNA++A  L 
+Sbjct  4    NLENQIDHFLSQVMQFAENKHEILLGKCQSDIKLTSTQEHLLMLLNEEATTNARMAVTLA  63
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            +SPAA+TKALKKLQ+ ELI  +++  DERVVLW+LT KAVP+A+EHA HH  TL++YQ+L
+Sbjct  64   VSPAAITKALKKLQDLELISPTKSQTDERVVLWNLTPKAVPIAQEHAAHHAATLNSYQQL  123
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+              K+T EEQEVI  FL+ L E+F+
+Sbjct  124  TQKYTAEEQEVIKDFLNQLAEKFK  147
+
+
+> UniRef90_A0A352NDN9 Transcriptional regulator n=1 Tax=Lactococcus 
+sp. TaxID=44273 RepID=A0A352NDN9_LACSP
+Length=147
+
+ Score = 184 bits (467),  Expect = 8e-64, Method: Compositional matrix adjust.
+ Identities = 92/143 (64%), Positives = 118/143 (83%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L NQID FL  +MQFAENKHEILLGKC+SDVKLTSTQEH+LMLL+E+ +TNA++AE L +
+Sbjct  5    LENQIDHFLSQVMQFAENKHEILLGKCQSDVKLTSTQEHLLMLLSEEPTTNARMAETLSV  64
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            SPAA+TKALKKLQ+  LI  +++  D+RVVLW+LTEKA+P+A+EHA HH  TL +Y +L 
+Sbjct  65   SPAAITKALKKLQDMALIFPTKSKTDDRVVLWNLTEKALPIAQEHAAHHAATLDSYHQLI  124
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+             K+T +EQEVI  FL+ L E+F+
+Sbjct  125  QKYTTDEQEVIKDFLNRLAEKFK  147
+
+
+> UniRef90_A0A290PYI2 Transcriptional regulator n=1 Tax=Lactococcus 
+raffinolactis TaxID=1366 RepID=A0A290PYI2_9LACT
+Length=149
+
+ Score = 172 bits (436),  Expect = 4e-59, Method: Compositional matrix adjust.
+ Identities = 81/142 (57%), Positives = 110/142 (77%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            ++ QID     IMQ AENK E+LLGKCESD  LT+TQEHILMLL  +  TNAK+AE+L I
+Sbjct  8    VSQQIDVLFTKIMQLAENKQEVLLGKCESDAGLTNTQEHILMLLLHEKLTNAKLAERLNI  67
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            SPAAVTKALKKLQ+ +L  S ++T+DER+VLW L++  +P+A+EHA HH+ TL TY  + 
+Sbjct  68   SPAAVTKALKKLQQLQLTHSEKSTSDERIVLWRLSQTGLPIAQEHAHHHQATLETYASIA  127
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            + F+++EQ++I++FL  L +EF
+Sbjct  128  DAFSEKEQQIIARFLEKLEKEF  149
+
+
+> UniRef90_A0A2A5SEB8 MarR family transcriptional regulator n=2 
+Tax=Lactococcus TaxID=1357 RepID=A0A2A5SEB8_9LACT
+Length=149
+
+ Score = 172 bits (436),  Expect = 5e-59, Method: Compositional matrix adjust.
+ Identities = 81/142 (57%), Positives = 109/142 (77%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            ++ QID     IMQ AENK E+LLGKCESD  LT+TQEHILMLL  +  TNAK+AE+L I
+Sbjct  8    VSQQIDVLFTKIMQLAENKQEVLLGKCESDAGLTNTQEHILMLLLHEKLTNAKLAERLNI  67
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            SPAAVTKALKKLQ+ +L  S ++T+DER+VLW L++  +P+A+EHA HH+ TL TY  + 
+Sbjct  68   SPAAVTKALKKLQQLQLTHSEKSTSDERIVLWRLSQTGLPIAQEHAHHHQATLETYASIA  127
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            + F++ EQ++I++FL  L +EF
+Sbjct  128  DAFSENEQQIIARFLEKLEKEF  149
+
+
+> UniRef90_A0A1K2HHS0 DNA-binding transcriptional regulator, MarR 
+family n=2 Tax=Lactococcus TaxID=1357 RepID=A0A1K2HHS0_9LACT
+Length=149
+
+ Score = 171 bits (434),  Expect = 8e-59, Method: Compositional matrix adjust.
+ Identities = 82/142 (58%), Positives = 107/142 (75%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            ++ Q+D     IMQ AENK E+LLGKCESD  LT+TQEHILMLL  +  TNAK+AEKL I
+Sbjct  8    VSQQVDMLFTKIMQLAENKQEVLLGKCESDAGLTNTQEHILMLLLHEKLTNAKLAEKLNI  67
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            SPAAVTKALKKLQ+  L  S ++++D+R+VLWSL+E   P+A+EH  HH+ TL+TY ++ 
+Sbjct  68   SPAAVTKALKKLQQLHLTHSEKSSSDDRIVLWSLSETGQPIAQEHGHHHQATLATYDQIA  127
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            + F++EEQ  I KFL  L +EF
+Sbjct  128  DAFSEEEQRTIVKFLEKLEKEF  149
+
+
+> UniRef90_A0A3D3NN77 HTH domain-containing protein n=2 Tax=Lactococcus 
+TaxID=1357 RepID=A0A3D3NN77_LACSP
+Length=149
+
+ Score = 167 bits (424),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 84/142 (59%), Positives = 105/142 (74%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L+  ID F   IMQ AENK EILLGKCES   LT+TQEHILMLL     TNAK+AE L +
+Sbjct  8    LSQSIDLFFAKIMQLAENKQEILLGKCESGADLTNTQEHILMLLLAGKLTNAKMAEMLNV  67
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            SPAAVTKALKKL+E  LI S ++ +DERVVLW L+E+ +P+AKEH  HHE TL+TY E+ 
+Sbjct  68   SPAAVTKALKKLRELNLIVSEKSRSDERVVLWYLSEEGMPIAKEHGHHHEATLATYSEVI  127
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            ++FT +EQ+ I  FL+ +  +F
+Sbjct  128  SEFTAQEQQTIMTFLNKMERKF  149
+
+
+> UniRef90_A0A1C3SST1 Transcriptional regulator ZitR n=4 Tax=Lactococcus 
+piscium TaxID=1364 RepID=A0A1C3SST1_9LACT
+Length=149
+
+ Score = 160 bits (406),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 78/143 (55%), Positives = 106/143 (74%), Gaps = 0/143 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L+ +ID F   IMQ AENK E+LLGKCES   LT+TQEHILMLL +   TNA++A+ L 
+Sbjct  7    ALSQKIDLFFTKIMQLAENKQEVLLGKCESGAGLTNTQEHILMLLLQDELTNAELADMLN  66
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            +SPAAVTKALKKLQ+  L+ S ++ +D R+VLW L+E+  P+AKEH  HH+ TL+TY E+
+Sbjct  67   VSPAAVTKALKKLQQLSLVCSEKSASDARIVLWHLSEEGRPIAKEHGHHHQATLATYSEV  126
+
+Query  122  GNKFTDEEQEVISKFLSALTEEF  144
+             ++F++EEQE I  FL  +  +F
+Sbjct  127  VSEFSNEEQETIIAFLEKMESKF  149
+
+
+> UniRef90_A0A2R5HF83 MarR family transcriptional regulator n=1 
+Tax=Lactococcus termiticola TaxID=2169526 RepID=A0A2R5HF83_9LACT
+Length=146
+
+ Score = 155 bits (393),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 78/140 (56%), Positives = 102/140 (73%), Gaps = 0/140 (0%)
+
+Query  6    QIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKISPA  65
+            +ID FL  + Q +ENKHEILLG CES++KLTSTQEHILMLLAE+  TN+++AE L IS A
+Sbjct  7    EIDAFLSRLRQLSENKHEILLGHCESELKLTSTQEHILMLLAEKSLTNSELAEVLSISAA  66
+
+Query  66   AVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKF  125
+            AV+KALKKLQ + LI S +   DER VL  LT+  +P+AKEH  HHEKTL+ Y ++   F
+Sbjct  67   AVSKALKKLQAEGLIASKKDPKDERRVLCQLTQAGLPIAKEHHQHHEKTLAVYHKIAVSF  126
+
+Query  126  TDEEQEVISKFLSALTEEFQ  145
+             ++EQ  I +F+  +  EF+
+Sbjct  127  NEKEQATIRRFMEEIKGEFE  146
+
+
+> UniRef90_F0IPE8 Adc operon repressor AdcR n=32 Tax=Streptococcus 
+TaxID=1301 RepID=F0IPE8_STRSA
+Length=147
+
+ Score = 154 bits (388),  Expect = 8e-52, Method: Compositional matrix adjust.
+ Identities = 78/142 (55%), Positives = 102/142 (72%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA++IDQFL  ++  AEN+HEIL+G C SDV LT+TQEHILMLL+E+  TN+ +A+KL +
+Sbjct  4    LADKIDQFLNEVILKAENQHEILIGSCTSDVPLTNTQEHILMLLSEESLTNSDLAKKLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L  QE++++ +   D RV  + LTE A P+AKEH  HH  TL TYQ+L 
+Sbjct  64   SQAAVTKAVKSLVRQEMLQAFKDKRDARVTFYRLTELAQPIAKEHQHHHAHTLETYQKLA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+             +F+  EQ  ISKFL AL  E 
+Sbjct  124  EQFSASEQATISKFLEALVGEI  145
+
+
+> UniRef90_A0A139P469 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=1 Tax=Streptococcus sp. DD11 TaxID=1777879 
+RepID=A0A139P469_9STRE
+Length=147
+
+ Score = 149 bits (375),  Expect = 8e-50, Method: Compositional matrix adjust.
+ Identities = 73/142 (51%), Positives = 101/142 (71%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA +ID FL  ++  AEN+HEIL+G C S+V LT+TQEHILMLLAE+  TN+ +A++L +
+Sbjct  4    LAQKIDSFLNEVVLKAENQHEILIGSCTSNVALTNTQEHILMLLAEESLTNSDLAKRLSV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L +QE++ +S+  ND RV  + LT+ A P+A EH  HH  TL+ Y+ + 
+Sbjct  64   SQAAVTKAVKSLIKQEMLAASKDKNDARVTFYRLTDLAKPIADEHQHHHAHTLAAYENIA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+             +F++ EQE I KFL AL  E 
+Sbjct  124  GQFSETEQETIEKFLDALAGEM  145
+
+
+> UniRef90_A0A2W5ARL0 Transcriptional regulator n=1 Tax=Streptococcus 
+pyogenes TaxID=1314 RepID=A0A2W5ARL0_STRPY
+Length=147
+
+ Score = 148 bits (373),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 70/139 (50%), Positives = 102/139 (73%), Gaps = 0/139 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L  +IDQ + TI+  AEN+HE+L G C+SDVKLT+TQEHILMLL+++  TN  +A KL 
+Sbjct  3    TLEKKIDQLVNTILLKAENQHELLFGACQSDVKLTNTQEHILMLLSQERLTNTDLARKLN  62
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            IS AAVTKA+K L +Q ++ +++ T D RV  + LTE A+P+A EH  HH++TL  YQ+L
+Sbjct  63   ISQAAVTKAIKSLVKQGMLAATKDTVDARVTYFELTELALPIAHEHTHHHDQTLDVYQDL  122
+
+Query  122  GNKFTDEEQEVISKFLSAL  140
+              +F+D+E+++I +FL   
+Sbjct  123  VEQFSDQEKDIIERFLDVF  141
+
+
+> UniRef90_E7S7W3 Transcriptional regulator, MarR family n=12 Tax=Streptococcus 
+TaxID=1301 RepID=E7S7W3_9STRE
+Length=145
+
+ Score = 147 bits (371),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 70/145 (48%), Positives = 108/145 (74%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M +ANQID+FL +I+  +EN+HE+L+G C S   LT+TQEHILMLL++   +N+++A+ L
+Sbjct  1    MKVANQIDEFLNSILLISENQHEVLIGSCTSGFSLTNTQEHILMLLSKDNYSNSELAKLL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             +S AAVTKA+K+L    ++++ +  ND R+VL+ LT+   PVA+EH+ HH+ TL+ Y +
+Sbjct  61   NVSQAAVTKAVKQLLSFGMLEALKDENDARIVLYRLTDLGRPVAEEHSHHHDHTLAVYNQ  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            + ++F+ EEQ VISKFLS L E+ +
+Sbjct  121  VLSEFSQEEQMVISKFLSRLLEDLR  145
+
+
+> UniRef90_E8JVU0 Transcriptional regulator, MarR family n=16 Tax=Streptococcus 
+TaxID=1301 RepID=E8JVU0_STRCR
+Length=147
+
+ Score = 145 bits (367),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 72/142 (51%), Positives = 102/142 (72%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA +I+ FL  ++  AEN+HEIL+G C SDV+LT+TQEHILMLL+++  TN+ +A++L +
+Sbjct  4    LAEKINHFLNEVILTAENQHEILVGSCTSDVQLTNTQEHILMLLSQESLTNSDLAKRLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L EQ+++++ +   D RV  + LT+ A P+A+EH  HH  TL TYQ L 
+Sbjct  64   SQAAVTKAVKALVEQKMLETFKDKKDARVTFYRLTDLARPIAEEHQHHHVHTLETYQRLA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+             +F+ +EQEVI KFL  L  E 
+Sbjct  124  EQFSSDEQEVIVKFLDGLIGEI  145
+
+
+> UniRef90_F5WY67 MarR family transcriptional regulator n=16 Tax=Streptococcus 
+TaxID=1301 RepID=F5WY67_STRG1
+Length=148
+
+ Score = 145 bits (365),  Expect = 3e-48, Method: Compositional matrix adjust.
+ Identities = 69/145 (48%), Positives = 103/145 (71%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M L  Q+D+ +  I+  AEN+HE+L G C+S V +T+TQEHILMLL+++  TN+ +A++L
+Sbjct  1    MQLEKQVDKLVNQILLKAENQHELLFGDCQSGVAITNTQEHILMLLSQERLTNSDLAKRL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             IS AAVTKA+K L  Q ++ S +   D RV  + LT+ A PVAKEH  HH+ TL+ Y+ 
+Sbjct  61   NISQAAVTKAIKYLVSQGMLASVKNKEDARVTYFELTDIAKPVAKEHTHHHDATLAVYKN  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            L N+F+D+EQ+VI++FL   ++E +
+Sbjct  121  LFNQFSDDEQDVIARFLKVFSDELE  145
+
+
+> UniRef90_J3A5Z8 Putative transcriptional regulator n=3 Tax=Streptococcus 
+TaxID=1301 RepID=J3A5Z8_STRRT
+Length=146
+
+ Score = 144 bits (364),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 70/145 (48%), Positives = 108/145 (74%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M+L  +ID+ +  I+  AEN+HE+L+G C+S++KLT+TQEHILMLL+++  TN+ +A++L
+Sbjct  1    MALGQEIDRLINQILLKAENQHELLIGSCQSEIKLTNTQEHILMLLSQENLTNSDLAKRL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             +S AAVTKA+K L +Q++++S +   D RV  + LTE A P+A+EH  HH  TLS Y  
+Sbjct  61   NVSQAAVTKAVKSLVKQKMLESIKDKTDARVTYFRLTELAKPIAQEHEHHHALTLSVYDH  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            L + F+ EE+ VIS+FL+AL++E +
+Sbjct  121  LLDTFSKEERAVISRFLTALSKELK  145
+
+
+> UniRef90_G5JW99 Sugar-specific transcriptional regulator, TrmB 
+family n=1 Tax=Streptococcus macacae NCTC 11558 TaxID=764298 
+RepID=G5JW99_9STRE
+Length=145
+
+ Score = 144 bits (363),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 70/143 (49%), Positives = 107/143 (75%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L  +ID+ +  I+  AEN+HE+L+G C+S+V+LT+TQEHILMLL+++  TN+++A+KL I
+Sbjct  2    LEYKIDELINRILLIAENQHELLIGSCQSEVQLTNTQEHILMLLSQENLTNSELAKKLNI  61
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L ++E++++ +  ND RV  + LT++A P+A EH  HH+ TL+ Y  L 
+Sbjct  62   SQAAVTKAVKSLVQKEMLQAIKDENDARVTNFCLTDRAQPIAAEHDRHHKLTLAVYHGLL  121
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+              FT +EQE+IS+FLS L +E +
+Sbjct  122  ENFTKDEQEIISRFLSGLEKEIE  144
+
+
+> UniRef90_A0A1G6BTI2 DNA-binding transcriptional regulator, MarR 
+family n=2 Tax=Streptococcus henryi TaxID=439219 RepID=A0A1G6BTI2_9STRE
+Length=149
+
+ Score = 144 bits (362),  Expect = 7e-48, Method: Compositional matrix adjust.
+ Identities = 70/143 (49%), Positives = 103/143 (72%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L N ID  +  I+  AEN+HE+L G CES VKLT+TQEHILMLL+++  TN+ +A+KL +
+Sbjct  4    LENSIDTLVNKILLKAENQHELLFGVCESGVKLTNTQEHILMLLSQERLTNSDLAKKLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA+K L  ++L+ + + T D RV  + LTE A P+A EH+ HH KTLS Y+ L 
+Sbjct  64   SQAAITKAIKSLLTRDLLAAKKDTVDARVTYFELTESAKPIASEHSHHHTKTLSVYRSLI  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            ++F+D +QEVI +FL + +++ +
+Sbjct  124  DEFSDADQEVIERFLDSFSKKLE  146
+
+
+> UniRef90_A0A380KSF6 MarR family transcriptional regulator n=16 
+Tax=Streptococcus equi TaxID=1336 RepID=A0A380KSF6_9STRE
+Length=147
+
+ Score = 143 bits (361),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 70/143 (49%), Positives = 102/143 (71%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L  ++D  +  I+  AEN+HE+L G C+SDVKLT+TQEHILMLL+++  TN  +A++L I
+Sbjct  4    LEKKLDSLVNRILLKAENQHELLFGACQSDVKLTNTQEHILMLLSQEKLTNTDLAKRLNI  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L +QE++  ++ T D RV  + LT+ A P+AKEH  HH+KTL+ Y  L 
+Sbjct  64   SQAAVTKAIKGLIKQEMLAGTKDTVDARVTYFELTDLARPIAKEHTHHHDKTLAVYHRLL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+              F+ EEQ ++ KF++A +EE +
+Sbjct  124  AHFSAEEQVIVEKFITAFSEELE  146
+
+
+> UniRef90_A0A139QY68 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=9 Tax=Streptococcus TaxID=1301 RepID=A0A139QY68_STROR
+Length=146
+
+ Score = 143 bits (360),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 75/143 (52%), Positives = 106/143 (74%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA +ID FL  ++  +EN+HEIL+G C SDV LT+TQEHILMLL+E+  TN+++A +L +
+Sbjct  4    LAQEIDNFLNEVILRSENQHEILIGHCTSDVALTNTQEHILMLLSEESLTNSELARRLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L ++ ++++SR   D RV+ + LTE A PVA EH  HHE TLS Y+++ 
+Sbjct  64   SQAAVTKAIKSLVKEGMLETSRDPKDARVIFYQLTELARPVAAEHHHHHEHTLSAYEQVA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            N+FT  EQE+I +FL+AL  E +
+Sbjct  124  NQFTPNEQEIIQRFLTALVGEIK  146
+
+
+> UniRef90_A0A0E2F1K0 Putative transcriptional regulator n=13 Tax=Streptococcus 
+TaxID=1301 RepID=A0A0E2F1K0_STRMG
+Length=148
+
+ Score = 143 bits (360),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 75/146 (51%), Positives = 104/146 (71%), Gaps = 1/146 (1%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQIS-TNAKIAEK  59
+            M+L  QID  +  I+  AEN HE+L+G C+SDVKLT+TQEHILMLL+++ S TN+ +A++
+Sbjct  1    MTLGQQIDALINQIILKAENHHELLIGSCQSDVKLTNTQEHILMLLSQEKSLTNSDLAKE  60
+
+Query  60   LKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQ  119
+            L IS AAVTKA+K L  QE+++  +   D RV  + LT+ A PVAKEH  HH  TLS Y 
+Sbjct  61   LNISQAAVTKAVKSLVGQEMLELIKDGTDARVTYFRLTKLAEPVAKEHEHHHVATLSVYD  120
+
+Query  120  ELGNKFTDEEQEVISKFLSALTEEFQ  145
+             +  KF+ +E+ VIS+FL+AL +E +
+Sbjct  121  RISQKFSQKEKSVISRFLTALIKELE  146
+
+
+> UniRef90_A0A1S1ZM22 Transcriptional regulator n=4 Tax=Streptococcus 
+TaxID=1301 RepID=A0A1S1ZM22_9STRE
+Length=147
+
+ Score = 142 bits (358),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 70/144 (49%), Positives = 102/144 (71%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L  +ID  +  I+  AEN+HE+L G C+SDVKLT+TQEHILMLL++   TN ++A+KL 
+Sbjct  3    TLEKKIDSLVNRILMKAENQHELLFGSCQSDVKLTNTQEHILMLLSQDKLTNTELAKKLN  62
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            IS AAVTKA+K L +Q ++ SS+   D RV  + LTE A+P+A+EH  HH++TL  Y+ L
+Sbjct  63   ISQAAVTKAIKSLIKQGMLASSKDAVDARVTYFELTELAMPIAQEHTHHHDQTLDVYKRL  122
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+               F++EE+ V+ KFL+   +E +
+Sbjct  123  LENFSEEEEAVVEKFLTVFAKELE  146
+
+
+> UniRef90_A0A1H9CW61 DNA-binding transcriptional regulator, MarR 
+family n=19 Tax=Streptococcus TaxID=1301 RepID=A0A1H9CW61_STREI
+Length=148
+
+ Score = 142 bits (358),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 71/145 (49%), Positives = 103/145 (71%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M L  QID  +  I+  AEN+HE+L G C+S V+LT+TQEHILMLL+++  TN+ +A++L
+Sbjct  1    MQLEKQIDCLVNEILLKAENQHELLFGACQSGVELTNTQEHILMLLSQERLTNSALAKRL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             IS AAVTKA+K L ++ ++   +  +D RV  + LTE A PVA EH  HH  TLS Y++
+Sbjct  61   NISQAAVTKAIKCLVKEGMLAPVKNKDDARVTYFELTELAKPVADEHTHHHHATLSVYKK  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            + + F+DEEQ VIS+FL+A ++E +
+Sbjct  121  MIDDFSDEEQSVISRFLTAFSDELE  145
+
+
+> UniRef90_Q5XEA3 Transcriptional regulator AdcR n=33 Tax=Bacteria 
+TaxID=2 RepID=ADCR_STRP6
+Length=147
+
+ Score = 141 bits (356),  Expect = 5e-47, Method: Compositional matrix adjust.
+ Identities = 69/144 (48%), Positives = 101/144 (70%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L  ++D  + TI+  AEN+HE+L G C+SDVKLT+TQEHILMLL++Q  TN  +A+ L 
+Sbjct  3    TLEKKLDNLVNTILLKAENQHELLFGACQSDVKLTNTQEHILMLLSQQRLTNTDLAKALN  62
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            IS AAVTKA+K L +Q+++  ++ T D RV  + LTE A P+A EH  HH++TL+ Y  L
+Sbjct  63   ISQAAVTKAIKSLVKQDMLAGTKDTVDARVTYFELTELAKPIASEHTHHHDETLNVYNRL  122
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+              KF+ +E E++ KF++   EE +
+Sbjct  123  LQKFSAKELEIVDKFVTVFAEELE  146
+
+
+> UniRef90_G5JQG5 Transcriptional repressor AdcR family protein 
+n=1 Tax=Streptococcus criceti HS-6 TaxID=873449 RepID=G5JQG5_STRCG
+Length=147
+
+ Score = 141 bits (355),  Expect = 9e-47, Method: Compositional matrix adjust.
+ Identities = 66/142 (46%), Positives = 106/142 (75%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA Q+D F   I+  AE+++E+LLG+C+SD++LT+TQEHILMLL+ +  TN+ +A++L+I
+Sbjct  4    LARQLDSFFNKILLLAEHQNELLLGRCQSDLELTNTQEHILMLLSHERLTNSDLAKRLRI  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA+K + +Q L+++ +  +D R+  +SLT+ A   A+EH  HH+ TLS Y E+ 
+Sbjct  64   SQAAITKAVKAMIKQNLLETLKDDSDARITYYSLTDAAKLAAQEHDQHHQSTLSVYDEIL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            + F+++EQ+ I+ F+S L EEF
+Sbjct  124  DSFSEDEQKTIASFISKLEEEF  145
+
+
+> UniRef90_A0A372KL45 MarR family transcriptional regulator n=2 
+Tax=Streptococcus TaxID=1301 RepID=A0A372KL45_9STRE
+Length=147
+
+ Score = 139 bits (350),  Expect = 5e-46, Method: Compositional matrix adjust.
+ Identities = 70/145 (48%), Positives = 101/145 (70%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            +SL  ++D  +  ++  +EN+HE+L G C+S  KLT+TQEHILMLLAEQ  TN+ +A+KL
+Sbjct  2    LSLDRKLDHLIKKVLLKSENQHELLFGPCKSGEKLTNTQEHILMLLAEQQLTNSDLAKKL  61
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             IS AAVTKA+K L ++ ++ S +   D RV  ++LT+ A PVA+EH  HH +TL+ YQE
+Sbjct  62   NISQAAVTKAVKSLAKKGMLVSVKDKEDARVTYFTLTDPAWPVAEEHRRHHHRTLAVYQE  121
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            L   FT+EEQ +I +FL+   E  +
+Sbjct  122  LLAAFTEEEQAIIQRFLTVFEERLE  146
+
+
+> UniRef90_A0A2X4H2B2 MarR family transcriptional regulator n=4 
+Tax=Streptococcus uberis TaxID=1349 RepID=A0A2X4H2B2_STRUB
+Length=147
+
+ Score = 138 bits (348),  Expect = 9e-46, Method: Compositional matrix adjust.
+ Identities = 69/143 (48%), Positives = 102/143 (71%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L ++IDQ +  I+  AEN+HE+L G C+S VKLT+TQEHILMLL+++  TN  +A+KL I
+Sbjct  4    LESKIDQLVNQILLKAENQHELLFGACQSHVKLTNTQEHILMLLSQEQLTNTDLAKKLNI  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L + E++ + + T D RV  + LT  A P+A+EH  HH++TL+ Y +L 
+Sbjct  64   SQAAVTKAIKSLMKHEMLSAIKDTVDARVTYFELTPAAKPIAEEHTQHHDETLNVYTKLL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            + F+ EE+ VI KFL+  ++E +
+Sbjct  124  SSFSSEEKAVIDKFLTVFSDELE  146
+
+
+> UniRef90_S5RFR0 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=6 Tax=Streptococcus TaxID=1301 RepID=S5RFR0_9STRE
+Length=150
+
+ Score = 138 bits (348),  Expect = 9e-46, Method: Compositional matrix adjust.
+ Identities = 69/145 (48%), Positives = 101/145 (70%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M L  QID  +  I+   EN+HE+L G C+S V+LT+TQEHILMLL+++  TN+ +A++L
+Sbjct  3    MQLEKQIDCLVNEILLKTENQHELLFGTCQSGVELTNTQEHILMLLSQERLTNSALAKRL  62
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             IS AAVTKA+K L ++ ++   +  +D RV  + LTE A PVA EH  HH  TLS Y++
+Sbjct  63   NISQAAVTKAIKCLVKEGMLAPVKNKDDARVTYFELTELAKPVADEHTHHHHATLSVYKK  122
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            + + F+DEEQ VIS+FL+  ++E +
+Sbjct  123  MIDNFSDEEQSVISRFLTTFSDELE  147
+
+
+> UniRef90_A0A0N8FX04 MarR family transcriptional regulator n=2 
+Tax=Streptococcus phocae TaxID=119224 RepID=A0A0N8FX04_9STRE
+Length=147
+
+ Score = 137 bits (346),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 69/144 (48%), Positives = 100/144 (69%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L  +ID  +  I+  AEN+HE+L G C+SDVKLT+TQEHILMLL+++  TN  +A+KL 
+Sbjct  3    TLEKKIDHLVNQILLKAENQHELLFGACQSDVKLTNTQEHILMLLSQEKLTNTDLAKKLN  62
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            IS AAVTKA+K L + +++  ++   D RV  + LTE A P+A+EH  HH++TL+ Y  L
+Sbjct  63   ISQAAVTKAVKSLIKHDMLAGTKDLVDARVTYFELTELARPIAEEHTHHHDETLNVYSRL  122
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+               F++EEQ+VI  FL+   EE +
+Sbjct  123  LQHFSEEEQKVIETFLTVFAEELE  146
+
+
+> UniRef90_E8K9H6 Transcriptional regulator, MarR family n=2 Tax=Streptococcus 
+TaxID=1301 RepID=E8K9H6_9STRE
+Length=146
+
+ Score = 137 bits (345),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 72/143 (50%), Positives = 108/143 (76%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA +IDQFL  ++  +EN+HEIL+G C S+V LT+TQEHILMLL+E+  TN+++A +L +
+Sbjct  4    LATEIDQFLNEVILKSENQHEILIGHCTSEVALTNTQEHILMLLSEESLTNSELARRLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L ++ ++++S+   D RV+ + LT+ A P+A+EH  HHE TLS Y+ L 
+Sbjct  64   SQAAVTKAVKSLIKEGMLETSKDPKDARVIFYQLTDLARPIAEEHHHHHEHTLSIYERLA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            ++FT +EQE+I +FL+AL  E +
+Sbjct  124  SQFTPDEQEIIQRFLTALVGEIK  146
+
+
+> UniRef90_A0A172QA19 Transcriptional regulator n=1 Tax=Streptococcus 
+pantholopis TaxID=1811193 RepID=A0A172QA19_9STRE
+Length=147
+
+ Score = 137 bits (344),  Expect = 4e-45, Method: Compositional matrix adjust.
+ Identities = 69/144 (48%), Positives = 101/144 (70%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            SL  ++D  +  I+  AEN+HE+L G C+S   LT+TQEHILMLLA++  TN+ +A++L 
+Sbjct  3    SLDKKMDHLVKKILLKAENQHELLFGPCQSGETLTNTQEHILMLLAQEKLTNSDLAKRLN  62
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            IS AAVTKA+K L +++++ S +   D RVV  ++TE A PVA+EH+ HH  TL+ YQEL
+Sbjct  63   ISQAAVTKAVKSLIKKDMLVSVKDKGDARVVFLTVTESARPVAEEHSRHHRCTLAVYQEL  122
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+             + FT+EEQ VI +FL+   +  +
+Sbjct  123  LSAFTEEEQAVIGRFLAVFEQRLE  146
+
+
+> UniRef90_F9PVA9 Sugar-specific transcriptional regulator, TrmB 
+family n=1 Tax=Streptococcus infantis SK970 TaxID=1035189 
+RepID=F9PVA9_9STRE
+Length=146
+
+ Score = 137 bits (344),  Expect = 4e-45, Method: Compositional matrix adjust.
+ Identities = 73/143 (51%), Positives = 107/143 (75%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA  ID+FL  I+  AEN+HEIL+G C S+V LT+TQEHILMLL+E+  TN+ +A +L +
+Sbjct  4    LAKDIDRFLNEIILKAENQHEILIGHCTSNVALTNTQEHILMLLSEESLTNSDLARRLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L ++ ++++S+   D RV+ + LT  A P+A+EH  HHE TLSTY+E+ 
+Sbjct  64   SQAAVTKAIKSLIKEGMLETSKDPKDARVIFYQLTGLARPIAEEHHHHHEHTLSTYEEVA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            ++F+ EEQ++I +FL+AL  E +
+Sbjct  124  SQFSAEEQQIIQRFLTALVGEIK  146
+
+
+> UniRef90_Q8E244 Adc operon repressor AdcR n=18 Tax=Streptococcus 
+TaxID=1301 RepID=Q8E244_STRA5
+Length=147
+
+ Score = 136 bits (343),  Expect = 6e-45, Method: Compositional matrix adjust.
+ Identities = 65/143 (45%), Positives = 99/143 (69%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L  ++D  +  I+  AEN+HE+L G C+SDVKLT+TQEHILMLL+++  TN+ +A+KL I
+Sbjct  4    LEQKLDHLVSQILLKAENQHELLFGTCQSDVKLTNTQEHILMLLSQEQLTNSDLAKKLNI  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L  Q+++K+++ + D R+  + L+E A P+A EH  HH+ TL  Y  L 
+Sbjct  64   SQAAVTKAVKSLISQDMLKANKDSKDARITYFELSELAKPIADEHTHHHDNTLGVYGRLV  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            N F+ +E+ V+ +FL   + E +
+Sbjct  124  NHFSKDEKVVLERFLDLFSRELE  146
+
+
+> UniRef90_U2KLG7 Transcriptional regulator, MarR family n=2 Tax=Streptococcus 
+sobrinus TaxID=1310 RepID=U2KLG7_9STRE
+Length=147
+
+ Score = 136 bits (342),  Expect = 7e-45, Method: Compositional matrix adjust.
+ Identities = 67/142 (47%), Positives = 103/142 (73%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA ++D     I+  AE+++E+LLG C+SD+ LT+TQEHILMLL+ +  TN+ +A++L++
+Sbjct  4    LAKELDGLFNRILILAEHQNELLLGHCQSDLALTNTQEHILMLLSHERLTNSDLAKRLQL  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K + +Q L+++ +  +D R+  +SLTE A  VA EH  HH+ TLS Y E+ 
+Sbjct  64   SQAAVTKAVKAMIKQNLLETIKDESDARISYYSLTEAARAVALEHDQHHQSTLSVYDEIL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            + F+D ++EVI+ F+S L EEF
+Sbjct  124  DNFSDADKEVIAAFISKLEEEF  145
+
+
+> UniRef90_V4QQM3 MarR family transcriptional regulator n=2 Tax=Streptococcus 
+iniae TaxID=1346 RepID=V4QQM3_STRIN
+Length=147
+
+ Score = 136 bits (342),  Expect = 9e-45, Method: Compositional matrix adjust.
+ Identities = 68/143 (48%), Positives = 97/143 (68%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L  +ID  +  I+  AEN+HE+L G C+SDVKLT+TQEHILMLL++   TN  +A+KL I
+Sbjct  4    LEGKIDYLVNKILVKAENQHELLFGACQSDVKLTNTQEHILMLLSQDKLTNTDLAKKLNI  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L +  ++ S++   D RV  + LT+ A P+A+EH  HH+KTL  Y+ L 
+Sbjct  64   SQAAVTKAIKSLIKHGMLASTKDVVDARVTYFELTDLAKPIAEEHTHHHDKTLDVYRRLL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+              F+ EE +V+ KFL+   +E +
+Sbjct  124  ENFSPEEAQVVDKFLTIFAKELE  146
+
+
+> UniRef90_A0A380K5X7 MarR family transcriptional regulator n=1 
+Tax=Streptococcus hyointestinalis TaxID=1337 RepID=A0A380K5X7_9STRE
+Length=147
+
+ Score = 135 bits (339),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 65/143 (45%), Positives = 103/143 (72%), Gaps = 1/143 (1%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQIS-TNAKIAEK  59
+            M++ +++D+ +  I+  +EN+HE LLG C+S V+LT+TQEHILMLL +    TN+ ++ +
+Sbjct  1    MAIKDELDRLINQIVMSSENQHEFLLGACQSGVELTNTQEHILMLLLDSGRMTNSSLSRE  60
+
+Query  60   LKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQ  119
+            L +S AAVTKA+K+L +++LI+S +   D R+VL+ LTE  +P+AKEH  HHE TL  Y 
+Sbjct  61   LVVSQAAVTKAVKQLLQKQLIESVKDERDGRIVLFELTEAGIPIAKEHRHHHELTLMAYD  120
+
+Query  120  ELGNKFTDEEQEVISKFLSALTE  142
+             L + F+++EQ VI +F+  ++E
+Sbjct  121  RLFSDFSEDEQAVIERFMGRVSE  143
+
+
+> UniRef90_F8LGQ1 Zinc transport transcriptional repressor n=43 
+Tax=Streptococcus TaxID=1301 RepID=F8LGQ1_STREH
+Length=147
+
+ Score = 135 bits (339),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 63/145 (43%), Positives = 107/145 (74%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            + L  Q++Q +  I+  AEN+HE+L+G+C S VKLT+TQEHILMLL+E   TN+++A+ L
+Sbjct  2    LELEEQVNQLINQILLKAENQHELLIGQCRSQVKLTNTQEHILMLLSEGRKTNSELAKTL  61
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             +S AAVTKA+K L ++ ++++ +  +D RV  + LT++A P+A+EH  HH++TL  Y+ 
+Sbjct  62   NVSQAAVTKAVKTLVKEGMLEAKKDKDDGRVTYFVLTQEAQPIAQEHEEHHQETLGVYRS  121
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            + ++F ++E++VI +FL+ L E+ +
+Sbjct  122  VLDQFDNQERQVIGRFLTKLAEKIE  146
+
+
+> UniRef90_G5K4J8 Sugar-specific transcriptional regulator, TrmB 
+family n=1 Tax=Streptococcus ictaluri 707-05 TaxID=764299 
+RepID=G5K4J8_9STRE
+Length=147
+
+ Score = 135 bits (339),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 69/144 (48%), Positives = 99/144 (69%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L  +ID  +  I+  AEN+HE+L G  +SDVKLT+TQEHILMLL+++  TN  +A+ L 
+Sbjct  3    TLEKKIDDLVNQILMKAENQHELLFGAYQSDVKLTNTQEHILMLLSQEKLTNTDLAKLLN  62
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            IS AAVTKA+K L +Q+++  ++ T D RV  + LTE A P+AKEH  HH++TL+ Y  L
+Sbjct  63   ISQAAVTKAIKSLVKQDMLAGTKDTVDARVTYFELTELAKPIAKEHTHHHDETLNVYSRL  122
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+               F+ EE+ V+ KFL+   EE +
+Sbjct  123  LEHFSAEEKVVVEKFLTVFAEELE  146
+
+
+> UniRef90_A0A3L9DP84 MarR family transcriptional regulator n=1 
+Tax=Streptococcus sp. 28462 TaxID=2282420 RepID=A0A3L9DP84_9STRE
+Length=147
+
+ Score = 135 bits (339),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 65/143 (45%), Positives = 107/143 (75%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA+Q+D  +  I+  AEN+HE+L+G CES VK+T+TQEHILMLL+++  T++ +A++L I
+Sbjct  4    LAHQLDALINRILLKAENQHELLIGSCESHVKVTNTQEHILMLLSQENLTSSDLAKRLNI  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L  + ++++++   D R +  +LT  A P+A+EH+ HHEKTL+ Y EL 
+Sbjct  64   SQAAVTKAVKSLVGKGMLETTKKEEDGRSLHLTLTADAAPIAEEHSHHHEKTLAVYDELL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            ++F+ E+Q VIS+F++  +++ +
+Sbjct  124  SEFSPEDQSVISQFITTFSQKLE  146
+
+
+> UniRef90_A0A0F3H2E1 Adc operon repressor AdcR n=25 Tax=Streptococcus 
+TaxID=1301 RepID=A0A0F3H2E1_STRPA
+Length=145
+
+ Score = 134 bits (338),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 73/142 (51%), Positives = 104/142 (73%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            +AN+ID+FL +I+  +EN+HEIL+G C S V LT+TQEHILML+A++  TN+ +A+KL +
+Sbjct  4    VANKIDRFLNSILLLSENQHEILVGSCTSGVSLTNTQEHILMLVADEALTNSVLAKKLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA+K L  Q ++++ R  ND RV+ + LTE   P+A EH  HH+ TL TY+++ 
+Sbjct  64   SQAAITKAVKPLLSQGMLETYRDENDARVLYYRLTEIGKPIALEHQHHHQHTLHTYEDVL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            +KFT  EQ VIS+FL  L EE 
+Sbjct  124  SKFTKNEQGVISRFLDLLEEEL  145
+
+
+> UniRef90_A0A239XJ17 Transcriptional regulator n=3 Tax=Streptococcus 
+TaxID=1301 RepID=A0A239XJ17_STRAI
+Length=145
+
+ Score = 134 bits (338),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 66/143 (46%), Positives = 102/143 (71%), Gaps = 0/143 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M L+ +ID FL +++   E+++E+L+GKC+S++ LTSTQEHILMLL E   TN  +A++L
+Sbjct  1    MDLSEKIDLFLNSLIAKTEHQNELLIGKCQSELSLTSTQEHILMLLKENQLTNTDLAKEL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             IS AAV+K++K+L  QEL+   + T D RV   +L+++ +P+A EH  HH  T+S YQ+
+Sbjct  61   SISQAAVSKSVKQLVSQELVVCVKDTKDARVTYLTLSDRGLPIADEHEHHHLSTISVYQK  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEE  143
+            +   F++ EQ VI +FLS L++E
+Sbjct  121  IVKNFSESEQVVIDRFLSQLSKE  143
+
+
+> UniRef90_A0A380JBV4 MarR family transcriptional regulator n=3 
+Tax=Streptococcus TaxID=1301 RepID=A0A380JBV4_STRDO
+Length=147
+
+ Score = 134 bits (336),  Expect = 6e-44, Method: Compositional matrix adjust.
+ Identities = 65/142 (46%), Positives = 102/142 (72%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA ++D F   I+  AE+++E+LLG C+SD++LT+TQEHILMLL+ +  TN+ +A++LK+
+Sbjct  4    LAKELDVFFNRILVLAEHQNELLLGHCQSDLELTNTQEHILMLLSHERLTNSDLAKRLKV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K +  QEL+++ +  +D R+  +SLT+ A  VA EH  HH+ TL+ Y E+ 
+Sbjct  64   SQAAVTKAVKAMIRQELLETHKDDSDARISYYSLTDAAKAVALEHDQHHQSTLAVYDEIL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            + F+  EQ VI +F++ L + F
+Sbjct  124  SSFSTSEQAVIGRFINNLEKGF  145
+
+
+> UniRef90_A0A125YV60 Repressor protein adcR n=21 Tax=Streptococcus 
+TaxID=1301 RepID=A0A125YV60_STRGC
+Length=147
+
+ Score = 133 bits (335),  Expect = 8e-44, Method: Compositional matrix adjust.
+ Identities = 75/142 (53%), Positives = 101/142 (71%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA++ID FL  I+  AEN+HEIL+G C S+V LT+TQEHILMLLAE++ TN+ +A+KL +
+Sbjct  4    LAHKIDSFLNEIILKAENQHEILVGSCTSNVALTNTQEHILMLLAEEMLTNSDLAKKLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L  Q ++++ +   D RV  + LTE A P+A EH  HH  TL TYQ L 
+Sbjct  64   SQAAVTKAVKSLINQGMLETFKDKKDARVTFYRLTELAQPIADEHEHHHAHTLETYQSLL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            ++F+ +EQ+ I KFL AL  E 
+Sbjct  124  DRFSQDEQQAIEKFLEALVGEI  145
+
+
+> UniRef90_G5KF44 Sugar-specific transcriptional regulator, TrmB 
+family n=1 Tax=Streptococcus urinalis 2285-97 TaxID=764291 
+RepID=G5KF44_9STRE
+Length=147
+
+ Score = 133 bits (335),  Expect = 8e-44, Method: Compositional matrix adjust.
+ Identities = 66/143 (46%), Positives = 97/143 (68%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L  Q+D  +  I+  AENK E+L G C+SDVKLT+TQEHILMLL+++  TN+ +A++L +
+Sbjct  4    LEKQLDHLVNQILLKAENKTELLFGSCQSDVKLTNTQEHILMLLSKEQLTNSDLAKRLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L +Q ++ S + T D RV  + LT+ A P+A+EH  HH+ TL  Y ++ 
+Sbjct  64   SQAAVTKAIKSLIKQGMLASQKDTEDARVTYFELTDLAQPIAEEHTHHHDATLKVYHQIL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            + F+ EEQ  I +FL+    E +
+Sbjct  124  DGFSKEEQATIERFLTVFANELE  146
+
+
+> UniRef90_A0A380L0R8 Multiple antibiotic resistance operon transcription 
+repressor MarR n=1 Tax=Streptococcus massiliensis 
+TaxID=313439 RepID=A0A380L0R8_9STRE
+Length=145
+
+ Score = 133 bits (334),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 73/144 (51%), Positives = 102/144 (71%), Gaps = 0/144 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M+LA QIDQFL  ++  AEN+HE+L+G C S+V LT+TQEHILMLLAE   TN  +A  L
+Sbjct  1    MNLAEQIDQFLNEVVLRAENQHEVLIGSCTSEVALTNTQEHILMLLAEDKLTNTDLARFL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            K+S AAVTKA+K L +Q ++++ + +ND RV  + LT+ A PVA EH  HH  TL  Y++
+Sbjct  61   KVSQAAVTKAIKSLIKQGMLEAVKDSNDARVTYYHLTDLAKPVAAEHRHHHAHTLDAYEK  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEF  144
+            +  +F+++EQE I +FL+ L  E 
+Sbjct  121  VVGQFSEKEQETIGRFLTTLVGEM  144
+
+
+> UniRef90_A0A2X3VNS7 MarR family transcriptional regulator n=1 
+Tax=Streptococcus ferus TaxID=1345 RepID=A0A2X3VNS7_9STRE
+Length=146
+
+ Score = 132 bits (332),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 63/144 (44%), Positives = 102/144 (71%), Gaps = 0/144 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M ++ +ID  + TI+Q AEN+ E+L+G C+SDVKLT+TQEHILMLLA +  TN  +A++L
+Sbjct  1    MQISEKIDSLIHTILQKAENQRELLIGACQSDVKLTNTQEHILMLLANENLTNTDLAKRL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             ++ AA+TKA+K L +Q ++++ +  +D R   + LT+ A+P+A+EHA HH +TL+ Y  
+Sbjct  61   NLTQAAMTKAVKSLVQQGMLETIKNQSDARQTYFKLTDLAMPIAQEHAYHHSQTLAAYDR  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEF  144
+            +   F ++E +VI +F+  L +E 
+Sbjct  121  VLEAFDEKETQVIDRFIGILKKEL  144
+
+
+> UniRef90_A0A0C1K4I9 MarR family transcriptional regulator n=14 
+Tax=Streptococcus TaxID=1301 RepID=A0A0C1K4I9_STRCV
+Length=147
+
+ Score = 132 bits (331),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 69/142 (49%), Positives = 102/142 (72%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA++ID+FL  I+  +EN+HEIL+G C S + LT+TQEHILMLL+E+  TN+++A++L +
+Sbjct  4    LAHEIDRFLNEIILKSENQHEILIGSCTSGMPLTNTQEHILMLLSEESLTNSELAKRLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L +QEL++  +   D RV+ + LTE A PVA EH  HH  T+  Y+++ 
+Sbjct  64   SQAAVTKAIKSLIKQELLEPFKDVKDARVIFYRLTELAKPVAAEHQHHHHHTIEIYEKIA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            N+++ +EQ +I KFL  L  E 
+Sbjct  124  NQYSSDEQVIIQKFLETLVGEI  145
+
+
+> UniRef90_A0A0E4H431 Transcriptional regulator n=1 Tax=Streptococcus 
+varani TaxID=1608583 RepID=A0A0E4H431_9STRE
+Length=147
+
+ Score = 131 bits (329),  Expect = 8e-43, Method: Compositional matrix adjust.
+ Identities = 65/139 (47%), Positives = 100/139 (72%), Gaps = 0/139 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            +A QIDQ L  I+  +EN+ EIL+G C+S+V+LT+TQEHILML+     T+++IA++LK+
+Sbjct  4    VAYQIDQALHEIVLSSENQLEILVGSCQSNVRLTNTQEHILMLIENSSYTSSEIAKQLKV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA+K L  Q+++ + R + D RVV +SLTE A P+A EH  HH  T++ Y+E+ 
+Sbjct  64   SQAAITKAIKSLIAQDMLVAVRDSKDARVVRYSLTEIAKPIAAEHTHHHVHTIAAYEEVL  123
+
+Query  123  NKFTDEEQEVISKFLSALT  141
+            + ++ EEQ +I +F+  L 
+Sbjct  124  SAYSKEEQAMIGRFMKDLV  142
+
+
+> UniRef90_Q04I02 Transcriptional regulator AdcR n=207 Tax=Bacteria 
+TaxID=2 RepID=ADCR_STRP2
+Length=146
+
+ Score = 130 bits (328),  Expect = 9e-43, Method: Compositional matrix adjust.
+ Identities = 70/143 (49%), Positives = 106/143 (74%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA  I+ FL  ++  AEN+HEIL+G C S+V LT+TQEHILMLL+E+  TN+++A +L +
+Sbjct  4    LAKDINAFLNEVILQAENQHEILIGHCTSEVALTNTQEHILMLLSEESLTNSELARRLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L ++ ++++S+ + D RV+ + LT+ A P+A+EH  HHE TL TY+++ 
+Sbjct  64   SQAAVTKAIKSLVKEGMLETSKDSKDARVIFYQLTDLARPIAEEHHHHHEHTLLTYEQVA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+             +FT  EQ+VI +FL+AL  E +
+Sbjct  124  TQFTPNEQKVIQRFLTALVGEIK  146
+
+
+> UniRef90_Q5M685 Zinc transport transcriptional repressor n=11 
+Tax=Firmicutes TaxID=1239 RepID=Q5M685_STRT2
+Length=151
+
+ Score = 129 bits (325),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 62/145 (43%), Positives = 104/145 (72%), Gaps = 0/145 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            + L  Q++Q +  I+  AEN++E+L+G+C S VKLT+TQEHILMLL+E   TN+++A+ L
+Sbjct  6    IELEEQVNQLINQILLKAENQYELLIGQCRSKVKLTNTQEHILMLLSEGQKTNSELAKAL  65
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             +S AAVTKA+K L ++ +++  +  +D RV  + LT++A P+A+EH  HH++TL  Y+ 
+Sbjct  66   NVSQAAVTKAVKTLVKEGMLEGKKDKDDGRVTYFVLTQEAQPIAQEHKEHHQETLGVYRS  125
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            + ++F  +E++VI +FL  L E+ +
+Sbjct  126  VLDQFDHQERQVIGRFLIKLAEKIE  150
+
+
+> UniRef90_A0A0E9EPC0 Transcriptional repressor AdcR n=30 Tax=root 
+TaxID=1 RepID=A0A0E9EPC0_CHLTH
+Length=147
+
+ Score = 129 bits (325),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 70/142 (49%), Positives = 100/142 (70%), Gaps = 0/142 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA+++D FL  I+  AEN+HEIL+G C S++ LT+TQEHILMLL+E+  TN+++A+ L +
+Sbjct  4    LAHEMDHFLNEIILKAENQHEILIGSCTSEMPLTNTQEHILMLLSEESLTNSELAKCLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L +QE+++  +   D RV+ + LTE A PVA EH  HH+ TL  Y+++ 
+Sbjct  64   SQAAVTKAIKSLIKQEMLEPFKDQKDARVIFYRLTELAKPVAAEHHQHHQHTLEIYEKIA  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEF  144
+            N++T  EQ  I KFL  L  E 
+Sbjct  124  NQYTPNEQATIQKFLGTLVGEI  145
+
+
+> UniRef90_A0A3P1VB43 MarR family transcriptional regulator n=2 
+Tax=Streptococcus minor TaxID=229549 RepID=A0A3P1VB43_9STRE
+Length=147
+
+ Score = 129 bits (324),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 68/143 (48%), Positives = 98/143 (69%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA QID+ L  I+  +EN+ EIL+G C+S V LT+TQEHILML+     T+++IA++LK+
+Sbjct  4    LAQQIDRALHDIVLCSENQLEILVGSCQSAVTLTNTQEHILMLIENNSYTSSEIAKQLKV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA+K L  +E++   R   D RVV +SLTE A P+A EH  HH  T+  Y+EL 
+Sbjct  64   SQAAITKAIKSLISKEMLVGVRDEQDARVVRYSLTEIAKPIAAEHTHHHVHTIEAYEELL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+              ++ EEQ VIS+F+  L ++ +
+Sbjct  124  KSYSAEEQLVISRFIKDLVQKIK  146
+
+
+> UniRef90_A0A2X4E765 MarR family transcriptional regulator n=4 
+Tax=Streptococcus TaxID=1301 RepID=A0A2X4E765_STRPO
+Length=147
+
+ Score = 128 bits (322),  Expect = 7e-42, Method: Compositional matrix adjust.
+ Identities = 65/144 (45%), Positives = 99/144 (69%), Gaps = 0/144 (0%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLK  61
+            +L  +ID  +  I+  AEN+HE+L G C+S+VKLT+TQEHILMLL++   TN ++A+ L 
+Sbjct  3    TLEKKIDTLVNQILLKAENQHELLFGACQSEVKLTNTQEHILMLLSQDKLTNTELAKILN  62
+
+Query  62   ISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            IS AAVTKA+K L  Q ++ +++   D RV  + LT  A P+A+EH  HH++TL+ Y  L
+Sbjct  63   ISQAAVTKAIKGLINQGMLATTKDAVDARVTYFELTPLAKPIAEEHTHHHDETLNVYTRL  122
+
+Query  122  GNKFTDEEQEVISKFLSALTEEFQ  145
+               F+++E +VI KFL+  ++E +
+Sbjct  123  LGHFSEQETKVIEKFLTVFSDELE  146
+
+
+> UniRef90_A0A345VH96 Transcriptional regulator AdcR n=2 Tax=Streptococcus 
+pluranimalium TaxID=82348 RepID=A0A345VH96_9STRE
+Length=145
+
+ Score = 128 bits (321),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 62/143 (43%), Positives = 100/143 (70%), Gaps = 0/143 (0%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            M L+ +ID F  +++   E+++E+L+GKC+SD+ LTSTQEHILMLL +   TN  +A+ L
+Sbjct  1    MLLSERIDVFFNSLIAKTEHQNELLIGKCQSDISLTSTQEHILMLLKDGKWTNTDLAKAL  60
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             IS AAV+KA+K+L +++L+ S +   D RV    LT+  +P+A EHA HH+ TL  Y+ 
+Sbjct  61   SISQAAVSKAVKQLIQKDLVVSVKDGKDGRVSYLMLTDNGLPIAIEHAEHHQSTLQVYET  120
+
+Query  121  LGNKFTDEEQEVISKFLSALTEE  143
+            +   F++++QEVI++F+  L+ +
+Sbjct  121  ILTAFSEDDQEVIARFVDELSRK  143
+
+
+> UniRef90_A0A139NH96 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=1 Tax=Streptococcus sp. DD12 TaxID=1777880 
+RepID=A0A139NH96_9STRE
+Length=146
+
+ Score = 127 bits (320),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 65/138 (47%), Positives = 91/138 (66%), Gaps = 0/138 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+             A QID  +  I+  AEN+HE+LLG+C+S++ L +TQEHILMLL E+  TN+ +A +L +
+Sbjct  2    FAEQIDHTINAILMRAENQHELLLGECQSELALNNTQEHILMLLQEKPQTNSDLARELAV  61
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTK+ K+L + ELI++ R   D RV  + L++   P+A+EHA HH  T S YQ L 
+Sbjct  62   SQAAVTKSCKQLLKLELIETIRDKKDARVTYFQLSQAGKPIAQEHADHHSMTQSRYQALA  121
+
+Query  123  NKFTDEEQEVISKFLSAL  140
+              F  ++Q VI  FL  L
+Sbjct  122  EAFDSDQQAVIVAFLKDL  139
+
+
+> UniRef90_A0A081S9Y6 Transcriptional repressor AdcR n=2 Tax=Terrabacteria 
+group TaxID=1783272 RepID=A0A081S9Y6_STRMT
+Length=132
+
+ Score = 123 bits (309),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 65/128 (51%), Positives = 97/128 (76%), Gaps = 0/128 (0%)
+
+Query  18   AENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKISPAAVTKALKKLQEQ  77
+            AEN+HEIL+G C S+V LT+TQEHILMLL+E+  TN+++A +L +S AAVTKA+K L ++
+Sbjct  5    AENQHEILIGHCTSEVALTNTQEHILMLLSEESLTNSELARRLNVSQAAVTKAIKSLVKE  64
+
+Query  78   ELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFL  137
+             ++++S+   D RV+ + LT+ A P+A+EH  HHE TL TY+++  +FT  EQ+VI +FL
+Sbjct  65   RMLETSKDPKDARVIFYQLTDLARPIAEEHHHHHEHTLLTYEQVATQFTPNEQKVIQRFL  124
+
+Query  138  SALTEEFQ  145
+            +AL  E +
+Sbjct  125  TALVGEIK  132
+
+
+> UniRef90_A0A239SXF2 Multiple antibiotic resistance operon transcription 
+repressor MarR n=1 Tax=Streptococcus merionis TaxID=400065 
+RepID=A0A239SXF2_9STRE
+Length=148
+
+ Score = 123 bits (308),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 66/143 (46%), Positives = 102/143 (71%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA QIDQ + +I+  +EN  E+L+G C+SDV LT+TQEHILML+++ +  N+ +A+ L +
+Sbjct  4    LAKQIDQAINSIILKSENHLELLVGACQSDVSLTNTQEHILMLISDGVLNNSDLAKALNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L +Q +++S++   D R+  ++LT+ A P+A+EH  HH  TLSTY E+ 
+Sbjct  64   SQAAVTKAIKSLIKQGMLESAKDAKDGRMTYYTLTDLAKPIAEEHEHHHAHTLSTYDEVV  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+              ++DEEQ V+S+FL  L  + +
+Sbjct  124  VAYSDEEQAVVSRFLKDLLSKIE  146
+
+
+> UniRef90_A0A1Q8EA76 Transcriptional regulator n=3 Tax=Streptococcus 
+TaxID=1301 RepID=A0A1Q8EA76_STRAI
+Length=149
+
+ Score = 122 bits (305),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 67/143 (47%), Positives = 105/143 (73%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA+QID+ L  I+  +EN+ EIL+G C+S+V LT+TQEHILML+     TN +IA++L +
+Sbjct  4    LAHQIDRSLHEIILSSENQLEILVGNCQSEVPLTNTQEHILMLIEHNAFTNKEIAKQLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA+K L  Q+L+ + R + D R+V +SLT+ A P+A EH  HH  TL++Y+EL 
+Sbjct  64   SQAAITKAIKALIAQDLLVAVRDSRDARIVRYSLTDLAKPIADEHTHHHAHTLASYEELI  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+            + ++++EQ +IS+FL+ L ++ +
+Sbjct  124  DNYSEDEQAIISRFLTDLVKKIR  146
+
+
+> UniRef90_A0A139NNS1 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=1 Tax=Streptococcus sp. DD13 TaxID=1777881 
+RepID=A0A139NNS1_9STRE
+Length=146
+
+ Score = 121 bits (303),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 64/138 (46%), Positives = 91/138 (66%), Gaps = 0/138 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            L  ++D+    ++  +EN+ E L+G CES  +LT+TQEHILML+     TN++IA+ L I
+Sbjct  4    LTQKLDELFQRLILSSENQLEFLIGDCESGFQLTNTQEHILMLIERYHYTNSEIAKVLGI  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AAVTKA+K L  Q L++S R   D R++ + LT  +  +A EHA HHEKTL  YQE+ 
+Sbjct  64   SQAAVTKAIKGLLNQNLLESYRDERDGRMIHYRLTSTSKEIAAEHAHHHEKTLQCYQEIL  123
+
+Query  123  NKFTDEEQEVISKFLSAL  140
+            + F + EQ VI +FL+ L
+Sbjct  124  DSFPESEQLVIERFLNKL  141
+
+
+> UniRef90_A0A1V2SM26 Transcriptional regulator n=1 Tax=Streptococcus 
+azizii TaxID=1579424 RepID=A0A1V2SM26_9STRE
+Length=149
+
+ Score = 120 bits (302),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 69/143 (48%), Positives = 107/143 (75%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            LA+QI+Q L  I+  +EN+ EIL+G C+S+++LT+TQEHILML+     TN +IA++L +
+Sbjct  4    LAHQIEQTLHEIILNSENQLEILVGACQSEMRLTNTQEHILMLIENNAFTNKEIAKQLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA+K L  Q+L+ + R + D R+V +SLT+ A P+A+EHA HH  TL++YQEL 
+Sbjct  64   SQAAITKAIKTLIAQDLLVAVRDSRDARIVRYSLTDLAKPIAEEHAHHHAHTLASYQELV  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+             ++++EEQ +IS FL+ L ++ +
+Sbjct  124  GQYSEEEQVMISHFLTDLVKKIR  146
+
+
+> UniRef90_A0A2Z5TK37 Transcriptional regulator n=2 Tax=Streptococcus 
+TaxID=1301 RepID=A0A2Z5TK37_9STRE
+Length=147
+
+ Score = 117 bits (292),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 68/143 (48%), Positives = 100/143 (70%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            +A +I++ L  I+  +EN+ EIL+G C+S VKLT+TQEHILML+ ++  TN +IA++L +
+Sbjct  4    IALEIEKCLHEIVLSSENQLEILVGSCKSTVKLTNTQEHILMLIEKEAYTNTEIAKQLNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA K L  Q L+   R   D R+V +SLTE+A P+A EHA HH  TL  Y+EL 
+Sbjct  64   SQAAITKATKSLVAQGLLVGVRDAKDARIVRFSLTEEAKPIAVEHAHHHAHTLEVYEELL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+              ++ EEQE+I +F++ L E+ +
+Sbjct  124  ANYSVEEQELIGRFMNDLVEKIK  146
+
+
+> UniRef90_A0A0Z8FVE2 Transcriptional regulator n=37 Tax=Streptococcus 
+suis TaxID=1307 RepID=A0A0Z8FVE2_STRSU
+Length=147
+
+ Score = 114 bits (286),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 69/143 (48%), Positives = 100/143 (70%), Gaps = 0/143 (0%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+            +A +I+++L  I+  +EN+ EIL+G C+S +KLT+TQEHILML+ +   TN +IA++L +
+Sbjct  4    IALEIEKYLHEIILSSENQLEILVGSCQSTLKLTNTQEHILMLIEKAAYTNTEIAKELNV  63
+
+Query  63   SPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELG  122
+            S AA+TKA K L  Q L+ + R   D R+V +SLTE A P+A EHA HH  TL  Y+EL 
+Sbjct  64   SQAAITKATKSLVAQGLLVAVRDDKDARIVRFSLTEAAKPIAAEHAHHHAHTLEAYEELL  123
+
+Query  123  NKFTDEEQEVISKFLSALTEEFQ  145
+              ++ EEQE I++FLS L E+ +
+Sbjct  124  ENYSLEEQESIARFLSELVEKIR  146
+
+
+> UniRef90_A0A285PLW1 Transcriptional regulator ZitR n=3 Tax=Weissella 
+viridescens TaxID=1629 RepID=A0A285PLW1_WEIVI
+Length=155
+
+ Score = 110 bits (275),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 62/144 (43%), Positives = 93/144 (65%), Gaps = 4/144 (3%)
+
+Query  4    ANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKLKI  62
+            A Q+D FL  I+  AEN+ EILLG  E    +T TQ H+LM+LA++   TN ++A+ L +
+Sbjct  7    AAQVDDFLNQILLLAENQREILLG-FEHKQTITLTQGHLLMILAQKGPQTNGELAQALAV  65
+
+Query  63   SPAAVTKALKKLQEQE--LIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            SPAAVTKA+K LQ ++  ++       D R+  W+LT+     A EHA  H+ T S Y  
+Sbjct  66   SPAAVTKAMKILQNEQNAMVTLMPDPEDGRINRWALTDTGRAKATEHADEHQTTQSEYIT  125
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEF  144
+            + N+FTD+EQ V+S+F++A+T++ 
+Sbjct  126  VLNQFTDDEQAVVSRFITAMTDKL  149
+
+
+> UniRef90_C5R9A6 Transcriptional regulator, MarR family n=1 Tax=Weissella 
+paramesenteroides ATCC 33313 TaxID=585506 RepID=C5R9A6_WEIPA
+Length=156
+
+ Score = 107 bits (268),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 61/147 (41%), Positives = 91/147 (62%), Gaps = 5/147 (3%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKL  60
+            S A QIDQFL  +   +EN+ E+L+G+  +D+  T+TQ H+LMLLA+    TN+++A  L
+Sbjct  8    SYAKQIDQFLNHLKLLSENQREVLIGENTTDI--TTTQGHLLMLLAQHGPQTNSELARAL  65
+
+Query  61   KISPAAVTKALKKL--QEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTY  118
+             +S AAVTKA+K L  +++ ++       D RV  WSLT   + +A  H   H +T+  Y
+Sbjct  66   HVSGAAVTKAMKSLYIRDEPMVNVIPDPEDGRVSRWSLTTLGISLATAHTQRHRETIDEY  125
+
+Query  119  QELGNKFTDEEQEVISKFLSALTEEFQ  145
+            Q+L   F+D EQ VIS+FL  L+E  +
+Sbjct  126  QKLLENFSDSEQAVISRFLIELSERLE  152
+
+
+> UniRef90_A0A0R2JF65 Multiple antibiotic resistance operon transcriptional 
+repressor MarR n=1 Tax=Weissella minor TaxID=1620 
+RepID=A0A0R2JF65_9LACT
+Length=155
+
+ Score = 107 bits (268),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 61/144 (42%), Positives = 91/144 (63%), Gaps = 4/144 (3%)
+
+Query  4    ANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQIS-TNAKIAEKLKI  62
+            A QIDQFL  ++  AEN+ EILLG  E    +T TQ H+LMLLA+    TN ++A  L +
+Sbjct  7    AQQIDQFLNQVLLLAENQREILLGN-ERQQAITLTQGHLLMLLAQNGPQTNGELAHALAV  65
+
+Query  63   SPAAVTKALKKLQEQ--ELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            SPAAVTKA+K LQ++   ++       D R+  W+LT++    A  HA  H +T + Y+ 
+Sbjct  66   SPAAVTKAMKALQKEGHAMVTLLPDPADGRINRWTLTDEGAAEASAHAGEHVETQAEYEA  125
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEF  144
+            + N+F+D +Q VI++FL A+T++ 
+Sbjct  126  VLNQFSDADQAVINRFLVAMTDKL  149
+
+
+> UniRef90_A0A1C4BKR4 DNA-binding transcriptional regulator, MarR 
+family n=1 Tax=Weissella bombi TaxID=1505725 RepID=A0A1C4BKR4_9LACT
+Length=152
+
+ Score = 105 bits (263),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 60/146 (41%), Positives = 92/146 (63%), Gaps = 5/146 (3%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKL  60
+            S ANQID FL  +   +EN+ E+L+G  ++D+  T+TQ H+LMLLA+    TN++++  L
+Sbjct  5    SYANQIDNFLNHLKLSSENQREVLIGANDTDI--TTTQGHLLMLLAQNGPQTNSELSRAL  62
+
+Query  61   KISPAAVTKALKKL--QEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTY  118
+             +S AAVTKA+K L  +++ ++       D RV  WSLT   + +A  H   H +T++ Y
+Sbjct  63   HVSGAAVTKAMKSLYIRDEPMVNVVPDEADHRVSRWSLTTLGIAMASAHTQRHRETIAEY  122
+
+Query  119  QELGNKFTDEEQEVISKFLSALTEEF  144
+            + L  +F+ E+Q+VIS FLS LTE  
+Sbjct  123  ESLLAEFSLEDQQVISDFLSQLTERL  148
+
+
+> UniRef90_A0A0D1LW91 AdcR protein n=6 Tax=Weissella TaxID=46255 
+RepID=A0A0D1LW91_9LACT
+Length=154
+
+ Score = 105 bits (263),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 59/145 (41%), Positives = 88/145 (61%), Gaps = 5/145 (3%)
+
+Query  4    ANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQIS-TNAKIAEKLKI  62
+            A Q+D FL  +   AEN+ EILLG  ES+  +T+TQ H+LMLLA+    TN+++A  L +
+Sbjct  7    AEQLDHFLNDVRVMAENQREILLG--ESNSAITTTQGHVLMLLAQNGPQTNSELARALGV  64
+
+Query  63   SPAAVTKALKKL--QEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            S AA+TKA+K L  +E  ++ +    +D RV  WSLT   + +A  HA  H +TL+ YQ 
+Sbjct  65   SGAAITKAMKGLAGEEDPMVNAIPDPDDGRVSRWSLTGLGISMASAHAQRHRETLAEYQN  124
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            +   FT+ +Q  IS FL+ + +   
+Sbjct  125  VFAVFTESDQTAISHFLTLVADRLH  149
+
+
+> UniRef90_A0A1L6RDT1 Transcriptional repressor AdcR for Zn(2+)-responsive 
+expression n=2 Tax=Weissella TaxID=46255 RepID=A0A1L6RDT1_9LACT
+Length=154
+
+ Score = 104 bits (260),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 58/143 (41%), Positives = 92/143 (64%), Gaps = 5/143 (3%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKL  60
+            S A QIDQFL  +   +EN+ E+L+G+ E+++  T+TQ H+LMLLA+    TN++++  L
+Sbjct  5    SYAGQIDQFLNHLKLLSENQREVLIGENETNI--TTTQGHLLMLLAQNGPQTNSELSRAL  62
+
+Query  61   KISPAAVTKALKKL--QEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTY  118
+             +S AAVTKA+K L  +++ ++       D RV  WSLT     +A  H   H +T+  Y
+Sbjct  63   HVSGAAVTKAMKSLYIRDEPMVNVIPDPEDGRVSRWSLTTLGGSLATAHTQRHRETIDEY  122
+
+Query  119  QELGNKFTDEEQEVISKFLSALT  141
+            +++  KF+D+EQ VIS+FL+ L+
+Sbjct  123  KKILTKFSDDEQAVISRFLTQLS  145
+
+
+> UniRef90_A0A0R2G627 Multiple antibiotic resistance operon transcriptional 
+repressor MarR n=1 Tax=Weissella halotolerans DSM 
+20190 TaxID=1123500 RepID=A0A0R2G627_9LACT
+Length=155
+
+ Score = 104 bits (260),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 57/140 (41%), Positives = 86/140 (61%), Gaps = 3/140 (2%)
+
+Query  4    ANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKLKI  62
+            A QID FL  +   AEN+ EILLG+ +    +T+TQ H+LMLLA+    TN+++A  L +
+Sbjct  5    AEQIDAFLKHVRILAENQREILLGETDEASDVTTTQGHVLMLLAQNGPQTNSELAHALVV  64
+
+Query  63   SPAAVTKALKKLQE--QELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            SPAA+TK +K LQ   + ++      +D R+  W+LT   + +A+ HA  H +TL  YQ+
+Sbjct  65   SPAAITKVMKHLQHAVKPMVTQVPDDHDGRISRWALTAHGISLAQVHARRHAQTLEHYQQ  124
+
+Query  121  LGNKFTDEEQEVISKFLSAL  140
+            L   F  +EQ  I++FL +L
+Sbjct  125  LLMDFDTDEQATIARFLQSL  144
+
+
+> UniRef90_A0A075U7P3 Multiple antibiotic resistance operon transcriptional 
+repressor MarR n=1 Tax=Weissella ceti TaxID=759620 
+RepID=A0A075U7P3_9LACT
+Length=156
+
+ Score = 103 bits (258),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 59/145 (41%), Positives = 91/145 (63%), Gaps = 6/145 (4%)
+
+Query  4    ANQIDQFLGTIMQFAENKHEILLGKCE-SDVKLTSTQEHILMLLAEQ-ISTNAKIAEKLK  61
+            A QID FL  +   AEN+ EIL+  C+ S+  +T+TQ H+LMLLA++   TN ++A+ L+
+Sbjct  6    AKQIDDFLNYVRILAENQREILI--CDRSEAGVTATQGHVLMLLAQKGPQTNTELAQALQ  63
+
+Query  62   ISPAAVTKALKKLQ--EQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQ  119
+            ++ AA+TKA+K LQ  E+ ++      +D RV  WSLT + + +A  HA  H  TL+ Y 
+Sbjct  64   VTAAAITKAMKVLQNDEEPMVAQVPDVHDLRVNRWSLTTRGISLASAHAQEHRDTLAEYD  123
+
+Query  120  ELGNKFTDEEQEVISKFLSALTEEF  144
+             +  +F D +Q VIS FL+A+ +  
+Sbjct  124  AVLAEFDDAQQVVISDFLTAMMDRL  148
+
+
+> UniRef90_A0A1C4BX37 DNA-binding transcriptional regulator, MarR 
+family n=2 Tax=Weissella hellenica TaxID=46256 RepID=A0A1C4BX37_WEIHE
+Length=153
+
+ Score = 103 bits (257),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 59/146 (40%), Positives = 90/146 (62%), Gaps = 5/146 (3%)
+
+Query  2    SLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKL  60
+            S ANQ+D FL  +   +EN+ E+L+G  E+D+  T+TQ H+LMLLA+    TN++++  L
+Sbjct  5    SYANQVDNFLNRLKLSSENQREVLIGVNETDI--TTTQGHLLMLLAQNGPQTNSELSRAL  62
+
+Query  61   KISPAAVTKALKKL--QEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTY  118
+             +S AAVTKA+K L  +++ ++       D RV  WSLT   + +A  H   H +TL+ Y
+Sbjct  63   HVSGAAVTKAMKSLCSRDEAMVNVVPDEADHRVSRWSLTTLGIAMASAHTQRHRETLAEY  122
+
+Query  119  QELGNKFTDEEQEVISKFLSALTEEF  144
+            + L   F++ EQ+ IS+FLS L E  
+Sbjct  123  ESLLANFSETEQQTISEFLSQLLERL  148
+
+
+> UniRef90_A0A288Q6K9 DNA-binding MarR family transcriptional regulator 
+n=1 Tax=Weissella soli TaxID=155866 RepID=A0A288Q6K9_9LACT
+Length=154
+
+ Score = 103 bits (256),  Expect = 9e-32, Method: Compositional matrix adjust.
+ Identities = 59/144 (41%), Positives = 89/144 (62%), Gaps = 5/144 (3%)
+
+Query  4    ANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQIS-TNAKIAEKLKI  62
+            A QID+FL  I   +EN+ E+LLG      K+T+TQ H+LMLL+++   TN+ +A ++ +
+Sbjct  9    AKQIDEFLNAIRLVSENQREVLLGA--DGQKITATQGHLLMLLSQKGPQTNSVLAHEIGV  66
+
+Query  63   SPAAVTKALKKLQEQELIKSSRAT--NDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            +PAAVTKA+K LQE    K +     ND RV+ W+LT   + +A  HAT H +TL+ Y++
+Sbjct  67   TPAAVTKAMKGLQEGADPKVTPMPDENDGRVMRWTLTNVGMSLAASHATQHRETLAEYEK  126
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEF  144
+            +   F+ E Q  I  FL  + + F
+Sbjct  127  VIAAFSPENQLAIGHFLMLIRDRF  150
+
+
+> UniRef90_A0A069CRP1 Transcriptional repressor MarR n=1 Tax=Weissella 
+oryzae (strain DSM 25784 / JCM 18191 / SG25) TaxID=1329250 
+RepID=A0A069CRP1_WEIOS
+Length=151
+
+ Score = 97.8 bits (242),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 59/141 (42%), Positives = 85/141 (60%), Gaps = 5/141 (4%)
+
+Query  3    LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKLK  61
+            +A Q+D+ L  I   AENK E+L+     +++LT+TQ HILMLLA+    TNA++A  L 
+Sbjct  6    VAKQLDRCLNEIHLAAENKREVLVAP--EEIELTNTQGHILMLLAQNGPQTNAELARTLA  63
+
+Query  62   ISPAAVTKALKKLQEQ--ELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQ  119
+            ISPAA+TKA+K L  +   ++ +     D R+  WSLT   V +A+ H   H+ T   Y 
+Sbjct  64   ISPAAMTKAMKSLNHRADPVVSAISDPEDARIKRWSLTHTGVSLAQLHEKDHQNTRMAYV  123
+
+Query  120  ELGNKFTDEEQEVISKFLSAL  140
+            E+ N F + E  VIS+FL+ L
+Sbjct  124  EMLNDFPENEVAVISRFLTEL  144
+
+
+> UniRef90_J1NS09 Iron dependent repressor, N-terminal DNA binding 
+domain protein n=3 Tax=Streptococcus pneumoniae TaxID=1313 
+RepID=J1NS09_STREE
+Length=96
+
+ Score = 94.0 bits (232),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 46/93 (49%), Positives = 70/93 (75%), Gaps = 0/93 (0%)
+
+Query  3   LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+           LA  I+ FL  ++  AEN+HEIL+G C S+V LT+TQEHILMLL+E+  TN+++A +L +
+Sbjct  4   LAKDINAFLNEVILQAENQHEILIGHCTSEVALTNTQEHILMLLSEESLTNSELARRLNV  63
+
+Query  63  SPAAVTKALKKLQEQELIKSSRATNDERVVLWS  95
+           S AAVTKA+K L ++ ++++S+ + D RV+  S
+Sbjct  64  SQAAVTKAIKSLVKEGMLETSKDSKDARVIFIS  96
+
+
+> UniRef90_A0A0R1ZN51 Uncharacterized protein n=1 Tax=Lactobacillus 
+sharpeae JCM 1186 = DSM 20505 TaxID=1291052 RepID=A0A0R1ZN51_9LACO
+Length=151
+
+ Score = 92.8 bits (229),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 56/145 (39%), Positives = 83/145 (57%), Gaps = 6/145 (4%)
+
+Query  5    NQIDQFLGTIM-QFAENKHEILLGKCESDVKLTSTQEHILMLLAEQIS-TNAKIAEKLKI  62
+            NQ+  F+  I     EN  E+LLG   S  +LT TQ H+LMLLA+  + TN ++A+ L +
+Sbjct  7    NQLATFINDIRGMLPENSRELLLGGSGS--QLTGTQGHVLMLLADTPAMTNGELAKALSV  64
+
+Query  63   SPAAVTKALKKLQ--EQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+            S AAVTKA++ L   +  L  ++    D RV  WSLT+     A  H   H +T + Y E
+Sbjct  65   SQAAVTKAMRGLSTADPALAVATVDARDARVKAWSLTDAGQSYAAAHRQRHAETAAAYAE  124
+
+Query  121  LGNKFTDEEQEVISKFLSALTEEFQ  145
+            + ++F++ EQ  IS+FL+ L +  Q
+Sbjct  125  ILDEFSESEQATISRFLTVLLKRLQ  149
+
+
+> UniRef90_A0A0R2JJJ4 Uncharacterized protein n=1 Tax=Weissella 
+kandleri TaxID=1616 RepID=A0A0R2JJJ4_9LACT
+Length=155
+
+ Score = 92.0 bits (227),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 58/139 (42%), Positives = 85/139 (61%), Gaps = 7/139 (5%)
+
+Query  7    IDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ-ISTNAKIAEKLKISPA  65
+            I++ L  + Q AE + E LL   + +  LT+TQ HILMLLAEQ + TNA++A+ L +S A
+Sbjct  13   INESLDRLCQKAEQQREFLLSPSQDN--LTTTQGHILMLLAEQPMQTNAQLADGLNLSRA  70
+
+Query  66   AVTKALKKLQEQE----LIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQEL  121
+            AVTKA+K LQ  +     +++    +D RVV + LTE+    A+ H   H+ TL  YQEL
+Sbjct  71   AVTKAIKGLQRDDDNGCYLETVMDQHDGRVVRFQLTEQGQLHAQAHLQQHQATLQIYQEL  130
+
+Query  122  GNKFTDEEQEVISKFLSAL  140
+               +++ EQ+VI  F+  L
+Sbjct  131  LKDYSEPEQQVIKSFMEQL  149
+
+
+> UniRef90_E1M7U5 Putative transcriptional repressor n=1 Tax=Streptococcus 
+infantis SK1302 TaxID=871237 RepID=E1M7U5_9STRE
+Length=96
+
+ Score = 90.1 bits (222),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 45/72 (63%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  3   LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKI  62
+           LA  IDQFL  I+  AEN+HEIL+G C SDV LT+TQEHILMLL+E+  TN+++A +L +
+Sbjct  4   LAKDIDQFLNEIILKAENQHEILIGHCTSDVALTNTQEHILMLLSEESLTNSELARRLNV  63
+
+Query  63  SPAAVTKALKKL  74
+           S AAVTKA+K L
+Sbjct  64  SQAAVTKAIKSL  75
+
+
+> UniRef90_A0A0R1TUG1 Uncharacterized protein n=2 Tax=Lactobacillus 
+TaxID=1578 RepID=A0A0R1TUG1_9LACO
+Length=151
+
+ Score = 90.9 bits (224),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 51/125 (41%), Positives = 77/125 (62%), Gaps = 4/125 (3%)
+
+Query  19   ENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKISPAAVTKALKKLQE--  76
+            EN+ E+LLG  ES  ++T TQ H LM+L +   TN+ +A++L IS A VTKA++ LQ+  
+Sbjct  24   ENQQEVLLG--ESTGQVTGTQGHALMMLLQGPQTNSTLAKELDISAAGVTKAMRGLQKLV  81
+
+Query  77   QELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKF  136
+              ++  +R  +D R   WSLT+    +A  HA +H+ TL  Y  + N F+ +EQ VI +F
+Sbjct  82   PAVVSLTRDPDDARSKQWSLTDFGQQLAAAHAQNHQDTLKAYMAVLNDFSADEQAVIGQF  141
+
+Query  137  LSALT  141
+            +  LT
+Sbjct  142  IHKLT  146
+
+
+> UniRef90_A0A380NWP1 Transcriptional repressor AdcR n=1 Tax=Weissella 
+viridescens TaxID=1629 RepID=A0A380NWP1_WEIVI
+Length=127
+
+ Score = 89.7 bits (221),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 47/113 (42%), Positives = 75/113 (66%), Gaps = 3/113 (3%)
+
+Query  35   LTSTQEHILMLLAEQIS-TNAKIAEKLKISPAAVTKALKKLQEQE--LIKSSRATNDERV  91
+            +T TQ H+LM+LA++   TN ++A+ L +SPAAVTKA+K LQ ++  ++       D R+
+Sbjct  9    ITLTQGHLLMILAQKGPQTNGELAQALAVSPAAVTKAMKILQNEQNAMVTLMPDPEDGRI  68
+
+Query  92   VLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEEF  144
+              W+LT+     A EHA  H+ T S Y  + N+FTD+EQ V+S+F++A+T++ 
+Sbjct  69   NRWALTDTGRAKATEHADEHQTTQSEYIAVLNQFTDDEQAVVSRFITAMTDKL  121
+
+
+> UniRef90_A0A1N1Y5V5 Transcriptional regulator n=1 Tax=Mycobacteroides 
+abscessus subsp. abscessus TaxID=1185650 RepID=A0A1N1Y5V5_9MYCO
+Length=102
+
+ Score = 86.7 bits (213),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 47/102 (46%), Positives = 77/102 (75%), Gaps = 0/102 (0%)
+
+Query  44   MLLAEQISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPV  103
+            MLL+E+  TN+++A +L +S AAVTKA+K L + E++++S+   D RV+ + LT+ A P+
+Sbjct  1    MLLSEESLTNSELARRLNVSQAAVTKAIKSLIKGEMLETSKDPKDARVIFYQLTDLAQPI  60
+
+Query  104  AKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+            A+EH  HHE TLSTY+++ ++F+ EEQ++I +FL+AL  E +
+Sbjct  61   AEEHHHHHEHTLSTYEQVASQFSAEEQKIIQRFLTALVGEIK  102
+
+
+> UniRef90_A0A1B2A0L5 Transcriptional regulator n=5 Tax=Leuconostocaceae 
+TaxID=81850 RepID=A0A1B2A0L5_LEULA
+Length=146
+
+ Score = 71.6 bits (174),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 47/137 (34%), Positives = 74/137 (54%), Gaps = 2/137 (1%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKL  60
+            MS +N I   L T +Q    + E +  K  +  K+ +TQ H+LMLL E+ +TNA +A K+
+Sbjct  1    MSESNTIIHELNTFVQTYAARSEFI--KTTTAQKINATQAHLLMLLQEENATNANLANKM  58
+
+Query  61   KISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQE  120
+             +S  A+TKA+K L     + SS+  +D+R V ++LT   + +A++H   H+        
+Sbjct  59   NLSKPAITKAVKNLIAHGYVISSQDASDKRSVNYALTPAGIKLARQHEQSHQALHEDIDA  118
+
+Query  121  LGNKFTDEEQEVISKFL  137
+                FT E+Q  I  FL
+Sbjct  119  TIATFTPEQQATIIHFL  135
+
+
+> UniRef90_A0A120HS18 Uncharacterized protein n=2 Tax=Aneurinibacillus 
+TaxID=55079 RepID=A0A120HS18_9BACL
+Length=154
+
+ Score = 68.9 bits (167),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 46/124 (37%), Positives = 66/124 (53%), Gaps = 5/124 (4%)
+
+Query  18   AENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKISPAAVTKALKKLQEQ  77
+            + NK  +L G     V  T TQ HI+ LL E    N  +A++L +S  AVTKA+KKL E 
+Sbjct  27   SSNKRNVLFG-----VSWTLTQFHIVALLKEHGMNNTNLAKELNVSKPAVTKAIKKLLEH  81
+
+Query  78   ELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFL  137
+             +I   +   +++ + + LTEK   +A  H   H++    Y  L N FT E+ E I  FL
+Sbjct  82   RIIDERQNEGNKKEIFYVLTEKGEIMASIHDRLHKEAEDQYLSLLNSFTKEQLETIIIFL  141
+
+Query  138  SALT  141
+            + LT
+Sbjct  142  NTLT  145
+
+
+ Score = 23.1 bits (48),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 26/48 (54%), Gaps = 8/48 (17%)
+
+Query  69   KALKKLQE----QELIKSSRATNDERV---VLWSLTE-KAVPVAKEHA  108
+            K LK LQE    +E I+ + ++N   V   V W+LT+   V + KEH 
+Sbjct  7    KVLKALQELITTRESIRKAESSNKRNVLFGVSWTLTQFHIVALLKEHG  54
+
+
+> UniRef90_A0A2T7JAS3 HTH domain-containing protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=A0A2T7JAS3_BACME
+Length=154
+
+ Score = 66.2 bits (160),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 41/114 (36%), Positives = 69/114 (61%), Gaps = 1/114 (1%)
+
+Query  31   SDVKLTSTQEHILMLL-AEQISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDE  89
+            ++ K T TQ HI+ L+  ++   NA ++++L IS AA++KA+  L +  ++ + +  N+ 
+Sbjct  40   TNKKWTITQLHIVSLINKDKYVNNAFLSKELNISKAAISKAINTLLQYGIVTAHKNANNN  99
+
+Query  90   RVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEE  143
+            R   +SLTE+   +A  H   HE     Y+EL NKF+D E +VI KFL+  T++
+Sbjct  100  RETFYSLTEEGEELATIHDKMHEIAKERYEELLNKFSDVELKVIIKFLNEWTKQ  153
+
+
+> UniRef90_A0A2T4PPC4 Uncharacterized protein n=6 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2T4PPC4_STAXY
+Length=189
+
+ Score = 65.1 bits (157),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 42/112 (38%), Positives = 59/112 (53%), Gaps = 2/112 (2%)
+
+Query  35   LTSTQEHIL-MLLAEQISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVL  93
+            L+ TQ HIL ++L EQ   N  + E+LKIS  A+TKA KKL + E I   +   D + V 
+Sbjct  78   LSITQFHILAIILKEQNVNNRMLKEQLKISAPAITKATKKLIQLEYIAEDKKR-DNKKVY  136
+
+Query  94   WSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+            + L +K V  A  H   H + +  Y  +  K+ DEE   I  F+  LT E +
+Sbjct  137  YKLLDKGVAYANLHERMHNQIIDKYLSILEKYNDEELATIDSFIKDLTNELE  188
+
+
+> UniRef90_A0A1G6IKP6 DNA-binding transcriptional regulator, MarR 
+family n=2 Tax=Leuconostocaceae TaxID=81850 RepID=A0A1G6IKP6_9LACT
+Length=149
+
+ Score = 63.5 bits (153),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/130 (29%), Positives = 67/130 (52%), Gaps = 0/130 (0%)
+
+Query  11   LGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKISPAAVTKA  70
+            L + +Q      E++  +      +++TQ H+LMLLA+Q  TN  +A+ + +S  A+TKA
+Sbjct  11   LNSFIQTYATTAELVAKQSLDSTNISTTQGHLLMLLAKQPQTNRDLAQTMHLSKPAITKA  70
+
+Query  71   LKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQ  130
+            LK L  Q  I    +  D+R + + LT+  + +A  H   H +      +  N+F   +Q
+Sbjct  71   LKSLTSQGYITGQTSQIDKRQIEFQLTKAGLALAHRHLQAHTEIHQAIDQALNQFDTNQQ  130
+
+Query  131  EVISKFLSAL  140
+              I +FL+ +
+Sbjct  131  NTIQEFLTKM  140
+
+
+> UniRef90_A0A090IYM0 Uncharacterized protein n=4 Tax=Bacillaceae 
+TaxID=186817 RepID=A0A090IYM0_9BACI
+Length=155
+
+ Score = 61.2 bits (147),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 45/125 (36%), Positives = 67/125 (54%), Gaps = 6/125 (5%)
+
+Query  18   AENKHEILLGKCESDVKLTSTQEHILMLLAE-QISTNAKIAEKLKISPAAVTKALKKLQE  76
+            + N   +L G     V  T TQ HI+ LL E ++  N  +A++L IS  AVTKA KKL E
+Sbjct  27   SSNNKNVLFG-----VSWTLTQFHIVALLKENELMNNTTLAKELNISKPAVTKATKKLLE  81
+
+Query  77   QELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKF  136
+            + +IK  +   +++ + + LTEK   +A  H   H++    Y  L + F  E+ E I  F
+Sbjct  82   KGIIKEKQNEGNKKEIFYVLTEKGETMAAIHEKLHKEAEEQYLSLLDNFNKEQLETIILF  141
+
+Query  137  LSALT  141
+            L+ LT
+Sbjct  142  LNTLT  146
+
+
+> UniRef90_A0A2U2W3L2 Transcriptional regulator (Fragment) n=1 
+Tax=Streptococcus sp. VT-4 TaxID=2172545 RepID=A0A2U2W3L2_9STRE
+Length=56
+
+ Score = 58.2 bits (139),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 28/53 (53%), Positives = 40/53 (75%), Gaps = 0/53 (0%)
+
+Query  3   LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQISTNAK  55
+           LA +I  FL  ++  +EN+HEIL+G C  DV LT+TQEHILMLL+++  TN++
+Sbjct  4   LAQEIYNFLNEVILRSENQHEILIGHCTIDVALTNTQEHILMLLSKESLTNSE  56
+
+
+> UniRef90_A0A3E0RL05 MarR family transcriptional regulator n=1 
+Tax=Cohnella sp. TaxID=1883426 RepID=A0A3E0RL05_9BACL
+Length=170
+
+ Score = 59.7 bits (143),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 52/89 (58%), Gaps = 0/89 (0%)
+
+Query  53   NAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHE  112
+            N  IA+K+ +S A +TK   KL E +LIK  + T++++ V + LT K   V + H   H+
+Sbjct  64   NMAIAKKMNLSKANITKITAKLSEADLIKRLQLTDNKKEVYFRLTPKGKQVFELHEAVHK  123
+
+Query  113  KTLSTYQELGNKFTDEEQEVISKFLSALT  141
+            +    +    N FTD+EQ+VI  FL ALT
+Sbjct  124  RKEQQFYLFLNSFTDQEQDVILTFLRALT  152
+
+
+> UniRef90_R7Z923 MarR family transcriptional regulator n=1 Tax=Lysinibacillus 
+sphaericus OT4b.31 TaxID=1285586 RepID=R7Z923_LYSSH
+Length=155
+
+ Score = 58.5 bits (140),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 35/109 (32%), Positives = 62/109 (57%), Gaps = 1/109 (1%)
+
+Query  38   TQEHILMLLAEQ-ISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSL  96
+            TQ HI+  + +  ++ N+ ++ KL +S  A+ KA+KKL +  +I   +  ++++ + + L
+Sbjct  45   TQLHIVATIKDNGLANNSLLSHKLNVSKPAIAKAVKKLLKHHVIIKIQRNDNKKEIYYGL  104
+
+Query  97   TEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+            TE    +A  H   HEK  + Y  +  KF D E  VI++FL A+TE  +
+Sbjct  105  TESGEKLAFIHEQLHEKARNKYLSILEKFNDAELGVITRFLYAITENMK  153
+
+
+> UniRef90_A0A3D0E6I1 MarR family transcriptional regulator n=1 
+Tax=Bacillus bacterium TaxID=2053512 RepID=A0A3D0E6I1_9BACI
+Length=156
+
+ Score = 57.8 bits (138),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 36/111 (32%), Positives = 65/111 (59%), Gaps = 1/111 (1%)
+
+Query  36   TSTQEHILMLLAEQ-ISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLW  94
+            T TQ HI+  + E+ ++ N  ++E LK+S  A+TKA++KL    ++  ++  ++++ V +
+Sbjct  44   TLTQLHIVATIKEKGMANNTSLSECLKLSKPAITKAVRKLLHHNILVKTKQEDNKKEVYY  103
+
+Query  95   SLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+             LTE    +A  H   HE+  ++Y  + + F   E E I +FL+ALTE  +
+Sbjct  104  LLTESGEELALIHDRLHEQARNSYLRILDNFNTVELETIIRFLNALTENLK  154
+
+
+> UniRef90_A0A1X7DJU7 Transcriptional regulator, MarR family n=3 
+Tax=Bacillus TaxID=55087 RepID=A0A1X7DJU7_9BACI
+Length=154
+
+ Score = 57.8 bits (138),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 38/108 (35%), Positives = 60/108 (56%), Gaps = 1/108 (1%)
+
+Query  31   SDVKLTSTQEHILMLLAEQISTNAK-IAEKLKISPAAVTKALKKLQEQELIKSSRATNDE  89
+            +D K T TQ HI+ L+      N   +A +LKIS  AV+KA+  L +  ++ + +   + 
+Sbjct  40   ADNKWTITQLHIVSLINRHKDVNNTFLANELKISKPAVSKAIHILIQYAIVIAHKNEGNN  99
+
+Query  90   RVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFL  137
+            +   +SLT + V +A  H   HE T   Y +L NKF+D E ++I +FL
+Sbjct  100  KETFYSLTSEGVKLATIHDKMHEITKEKYLKLLNKFSDSELKIIIRFL  147
+
+
+> UniRef90_A0A089ITM4 MarR family transcriptional regulator n=1 
+Tax=Paenibacillus durus TaxID=44251 RepID=A0A089ITM4_PAEDU
+Length=151
+
+ Score = 56.2 bits (134),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 32/88 (36%), Positives = 53/88 (60%), Gaps = 3/88 (3%)
+
+Query  54   AKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEK  113
+            +++A +L I+  AVT+ + +L+ +EL+K S   ND R VL SLTE+ +   + +A H E 
+Sbjct  62   SELAARLGITKGAVTQLITRLEAKELVKRSPHPNDSRGVLISLTEQGM---EAYAAHEEV  118
+
+Query  114  TLSTYQELGNKFTDEEQEVISKFLSALT  141
+             L  Y +L ++ TD+E E+  K +  L 
+Sbjct  119  HLRFYDQLRSQLTDQEIEIFEKCIEKLN  146
+
+
+> UniRef90_A0A366XXR1 Uncharacterized protein n=1 Tax=Bacillus 
+taeanensis TaxID=273032 RepID=A0A366XXR1_9BACI
+Length=185
+
+ Score = 56.6 bits (135),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 40/116 (34%), Positives = 64/116 (55%), Gaps = 6/116 (5%)
+
+Query  35   LTSTQEHIL-MLLAEQISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVL  93
+            LT+ + HIL ++  E+ +T  +IAEK     + V + +K+L+E+EL+ SS+  ND RV  
+Sbjct  50   LTAAEHHILCIVFVEKEATMTQIAEKGLWDVSTVMQVIKRLKEKELVTSSKRPNDRRVTY  109
+
+Query  94   WSLTEKAVPVAKEHATHHEKTLSTY----QELGNKFTDEEQEVISKFLSALTEEFQ  145
+              LTEK + + K+ +  HE  L  Y     E G++   +E E++ K    L E F 
+Sbjct  110  VKLTEKGLKLQKQ-SFFHEYRLFNYIDEKLENGSEVEQKEAEIVLKVFRELNEHFH  164
+
+
+> UniRef90_M5NZ86 Transcriptional regulator n=1 Tax=Bacillus sonorensis 
+L12 TaxID=1274524 RepID=M5NZ86_9BACI
+Length=157
+
+ Score = 56.2 bits (134),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 36/105 (34%), Positives = 59/105 (56%), Gaps = 2/105 (2%)
+
+Query  36   TSTQEHILMLL--AEQISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVL  93
+            T TQ HI+ L+   + +  NA +AEKL +S AA+TKA   L +  +I+S +  N+ + + 
+Sbjct  47   TITQLHIVSLINDGQSLVNNAYLAEKLHVSKAAITKATTVLLKHGMIESRKKPNNNKELY  106
+
+Query  94   WSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLS  138
+            ++LTE+   +A  H   HE     Y  L  +F++ E E + +FL 
+Sbjct  107  YTLTEEGEKLAAVHDRMHEIAKKRYIALFEQFSEAELETVIRFLG  151
+
+
+> UniRef90_A0A1Y4IEC7 MarR family transcriptional regulator n=1 
+Tax=Lachnoclostridium sp. An196 TaxID=1965583 RepID=A0A1Y4IEC7_9FIRM
+Length=144
+
+ Score = 55.8 bits (133),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 29/90 (32%), Positives = 50/90 (56%), Gaps = 3/90 (3%)
+
+Query  56   IAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTL  115
+            +A+K+ ++   +T A+  L ++  +   R+  D+RVVL SLTEK   V + HA +H+K +
+Sbjct  56   VAKKMSVTVGTLTTAINNLVKKGYVSRIRSAEDKRVVLLSLTEKGRKVYRRHAAYHKKMV  115
+
+Query  116  STYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+             T  E       EE +V+++ L  +   FQ
+Sbjct  116  QTVME---GLGGEEMDVLARALEKIRGYFQ  142
+
+
+> UniRef90_A0A2T0QN77 DNA-binding MarR family transcriptional regulator 
+n=1 Tax=Paraburkholderia sp. BL25I1N1 TaxID=1938804 
+RepID=A0A2T0QN77_9BURK
+Length=145
+
+ Score = 55.1 bits (131),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 42/66 (64%), Gaps = 1/66 (2%)
+
+Query  39   QEHILMLLAEQI-STNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLT  97
+            Q  +++++A  +  T AKIA +L++ PA VT+AL KL+  +L+   R + D R+VL SLT
+Sbjct  44   QFSLMLVVATCVEQTPAKIARRLRVDPAVVTRALDKLEALDLVDRKRTSTDRRIVLISLT  103
+
+Query  98   EKAVPV  103
+            E    V
+Sbjct  104  ESGAKV  109
+
+
+> UniRef90_A0A0P6WWE6 Uncharacterized protein n=2 Tax=Leptolinea 
+tardivitalis TaxID=229920 RepID=A0A0P6WWE6_9CHLR
+Length=150
+
+ Score = 54.3 bits (129),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 37/112 (33%), Positives = 59/112 (53%), Gaps = 6/112 (5%)
+
+Query  28   KCESDVKLTSTQEHILMLLAEQIS-TNAKIAEKLKISPAAVTKALKKLQEQELIKSSRAT  86
+            +C   + L   Q  +L  +      T+++IA KL ISPAAVTK +K+L+EQ+ +   +  
+Sbjct  15   QCMDKIDLFRGQGMLLKFIDRHDGLTHSEIAAKLNISPAAVTKVIKRLEEQKYLMRKKDP  74
+
+Query  87   NDERVVLWSLTEKAVPVAKEHATHHEK-TLSTYQELGNKFTDEEQEVISKFL  137
+             DER+    + E+   VA E   + E+   ST+Q     FTDEE + +  + 
+Sbjct  75   VDERISRVYIQEEGKKVADEIGRNFEQLGRSTFQ----GFTDEELDQLQSYF  122
+
+
+> UniRef90_A0A1V1I0F4 Transcriptional regulator, MarR n=1 Tax=Romboutsia 
+ilealis TaxID=1115758 RepID=A0A1V1I0F4_9FIRM
+Length=150
+
+ Score = 53.9 bits (128),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 33/94 (35%), Positives = 52/94 (55%), Gaps = 3/94 (3%)
+
+Query  52   TNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHH  111
+            T  +IA  L+I+   +T A+ +L  +  ++  R   D RVVL SLT K   V KEH   H
+Sbjct  53   TMGEIAHDLRITVGTLTAAITRLINKGYVERKRTEEDRRVVLVSLTYKGETVYKEHQVFH  112
+
+Query  112  EKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+            E  +++   LGN F++EE+ +++  L  L   F+
+Sbjct  113  EDMITSM--LGN-FSEEEENILAIALEKLNNFFE  143
+
+
+> UniRef90_A0M2P8 MarR family transcriptional regulator protein 
+n=1 Tax=Gramella forsetii (strain KT0803) TaxID=411154 RepID=A0M2P8_GRAFK
+Length=158
+
+ Score = 53.9 bits (128),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 39/112 (35%), Positives = 65/112 (58%), Gaps = 8/112 (7%)
+
+Query  1    MSLANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLLAEQ--ISTNAKIAE  58
+            + L NQI   + ++ +     ++  L K E    LT  Q  +L++L E+  +S N KI E
+Sbjct  7    LKLENQICFPIYSVSRLITKAYKPYLDKLE----LTYPQYLVLLVLWEEHKLSVN-KIGE  61
+
+Query  59   KLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATH  110
+            KL ++   ++  LK++++ EL+K +R++NDER VL  LT+K +   KE A H
+Sbjct  62   KLMLNTNTLSPLLKRMEKNELLKRNRSSNDERTVLVGLTDKGLSY-KEKAAH  112
+
+
+> UniRef90_F0SX96 Transcriptional regulator, MarR family n=1 Tax=Syntrophobotulus 
+glycolicus (strain DSM 8271 / FlGlyR) TaxID=645991 
+RepID=F0SX96_SYNGF
+Length=155
+
+ Score = 53.5 bits (127),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 36/119 (30%), Positives = 62/119 (52%), Gaps = 4/119 (3%)
+
+Query  28   KCESDVKLTSTQEHILMLLAEQISTNAKIAEK-LKISPAAVTKALKKLQEQELIKSSRAT  86
+            +CE    L+ T+ HI+ ++      N   A K L I+   +T A+  L  +  ++ +++ 
+Sbjct  28   RCEKFKNLSITEIHIIEVIGIGEPRNMSSAAKDLDITIGTLTIAVNNLVRKGYVQRAKSE  87
+
+Query  87   NDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+             D R+VL SLTEK + V + HA  H+  ++T     NK ++EE  V+   L  + E F+
+Sbjct  88   EDRRIVLLSLTEKGLAVYQRHADFHKDMINTTM---NKLSEEEMNVLILALENINEYFR  143
+
+
+> UniRef90_W1UST7 Uncharacterized protein n=4 Tax=Clostridiales 
+TaxID=186802 RepID=W1UST7_9FIRM
+Length=150
+
+ Score = 52.4 bits (124),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 33/94 (35%), Positives = 50/94 (53%), Gaps = 3/94 (3%)
+
+Query  52   TNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHH  111
+            T  +IA  L+I+   +T A+ +L ++   + SR   D RVVL SLTEK     K HA  H
+Sbjct  53   TMGEIAHDLRITVGTLTSAINRLIKKGYAERSRTEEDRRVVLVSLTEKGKHAYKIHADFH  112
+
+Query  112  EKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+            ++ +   Q   N + DEEQEV+   +  +   F+
+Sbjct  113  KEMV---QATLNSYNDEEQEVLCDVIEKINIFFE  143
+
+
+> UniRef90_A0A073K293 MarR family transcriptional regulator n=1 
+Tax=Bacillus manliponensis TaxID=574376 RepID=A0A073K293_9BACI
+Length=136
+
+ Score = 52.0 bits (123),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 42/128 (33%), Positives = 71/128 (55%), Gaps = 7/128 (5%)
+
+Query  20   NKH-EILLG--KCESDVKLTSTQEHILMLLA-EQISTNAKIAEKLKISPAAVTKALKKLQ  75
+            NKH EI+    + E +  L+     IL ++A E   T  +IAE L++SP   ++ +K+L 
+Sbjct  5    NKHWEIIYYHLRYEYETNLSHQSIRILQMIARENGLTIGQIAEALRLSPNTASEHVKRLI  64
+
+Query  76   EQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISK  135
+            +++LI   R+  DER+V+ +LT   + V  +H     + L+T Q     F++EEQ++IS 
+Sbjct  65   QKKLIMKERSKQDERIVVVTLTTAGLEVLTKHTLLDAEKLATLQSC---FSEEEQQLISS  121
+
+Query  136  FLSALTEE  143
+                L +E
+Sbjct  122  AFELLAKE  129
+
+
+> UniRef90_A0A1V1I0A2 Regulatory protein MarR n=2 Tax=Romboutsia 
+TaxID=1501226 RepID=A0A1V1I0A2_9FIRM
+Length=150
+
+ Score = 51.2 bits (121),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 35/94 (37%), Positives = 52/94 (55%), Gaps = 3/94 (3%)
+
+Query  52   TNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERVVLWSLTEKAVPVAKEHATHH  111
+            T  +IA  L+I+   +T A+ KL ++  ++  R   D RVVL +LT K   V K H   H
+Sbjct  53   TMGEIAHDLRITVGTLTTAVTKLIKKGYVERKRIEEDRRVVLVNLTSKGEEVYKVHQVFH  112
+
+Query  112  EKTLSTYQELGNKFTDEEQEVISKFLSALTEEFQ  145
+            E+ + +   L N F+DEE+ V+SK L  L   F+
+Sbjct  113  EEMICSI--LSN-FSDEEELVLSKSLEKLNVFFE  143
+
+
+> UniRef90_W0PHH6 Transcriptional regulator, MarR family n=3 Tax=Advenella 
+TaxID=290425 RepID=W0PHH6_9BURK
+Length=204
+
+ Score = 52.0 bits (123),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 59/106 (56%), Gaps = 4/106 (4%)
+
+Query  33   VKLTSTQEHILMLLA-EQISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERV  91
+            + LTS+Q H + ++   + +T A +A   ++   A+T+ L +L+++  +K  R+TND RV
+Sbjct  66   LGLTSSQWHPIAIIGLNKANTPASVARTAEVDTGAMTRTLDRLEKKGFLKRRRSTNDRRV  125
+
+Query  92   VLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFL  137
+            V   LTEK   V ++      + L+ + +    FTDEE  ++  FL
+Sbjct  126  VELELTEKGHTVTEKLMPAVSRALNAHLK---GFTDEEATLLISFL  168
+
+
+> UniRef90_A0A0M9FDL6 MarR family transcriptional regulator (Fragment) 
+n=1 Tax=Streptococcus suis TaxID=1307 RepID=A0A0M9FDL6_STRSU
+Length=50
+
+ Score = 48.5 bits (114),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  3   LANQIDQFLGTIMQFAENKHEILLGKCESDVKLTSTQEHILMLL  46
+           +A +I+++L  I+  +EN+ EIL+G C+S VKLT+ QEHILML+
+Sbjct  4   IALEIEKYLHEIVLSSENQLEILVGSCQSTVKLTNAQEHILMLI  47
+
+
+> UniRef90_Q979H4 Uncharacterized protein n=1 Tax=Thermoplasma 
+volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 
+/ GSS1) TaxID=273116 RepID=Q979H4_THEVO
+Length=143
+
+ Score = 49.7 bits (117),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 45/81 (56%), Gaps = 0/81 (0%)
+
+Query  26   LGKCESDVKLTSTQEHILMLLAEQISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRA  85
+            +G+  S +     +  IL LL+E  ST  K+AE   ++PA +T  L +++ Q LI  SR+
+Sbjct  27   MGESLSHISAKPIEVRILYLLSEDESTVNKLAELTDVTPAWITGTLDEMESQGLIVRSRS  86
+
+Query  86   TNDERVVLWSLTEKAVPVAKE  106
+              D RVV   +TEK + V  E
+Sbjct  87   GEDRRVVNVHITEKGIEVLNE  107
+
+
+> UniRef90_A0A366I4W1 DNA-binding MarR family transcriptional regulator 
+n=2 Tax=Alkalibaculum bacchi TaxID=645887 RepID=A0A366I4W1_9FIRM
+Length=148
+
+ Score = 48.9 bits (115),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 62/113 (55%), Gaps = 4/113 (4%)
+
+Query  33   VKLTSTQEHILMLLAEQI-STNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATNDERV  91
+            V L+ T+ H L  +A  +    ++IA +L I+   +T ++  L+++  +K  R+  D RV
+Sbjct  32   VNLSITEIHTLEAIASDVEKPMSEIASRLSITLGTLTTSINNLEKKGFVKRKRSEKDRRV  91
+
+Query  92   VLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEEF  144
+            V+ +LTEKA  + ++H + HE  +    E+  +   +E+  + K L+ L + F
+Sbjct  92   VIVNLTEKAHDIMEKHTSFHENMV---HEIVTELNKQEEYALMKALNNLIDYF  141
+
+
+> UniRef90_A0A2J6I5D8 MarR family transcriptional regulator n=1 
+Tax=Marinilabiliales bacterium TaxID=2053303 RepID=A0A2J6I5D8_9BACT
+Length=152
+
+ Score = 48.1 bits (113),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 40/117 (34%), Positives = 65/117 (56%), Gaps = 5/117 (4%)
+
+Query  31   SDVKLTSTQEHILMLLAE--QISTNAKIAEKLKISPAAVTKALKKLQEQELIKSSRATND  88
+             ++ LT  Q  +LM+L E  +IS N KI +KL ++   ++  LK++++ EL+K SR+T D
+Sbjct  32   DEIGLTYPQYLVLMVLWETDEISVN-KITQKLMLNTNTISPLLKRMEKLELLKRSRSTKD  90
+
+Query  89   ERVVLWSLTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQ--EVISKFLSALTEE  143
+            ER V   LTEKA  +        EK L T        TD  Q  E++++++  L ++
+Sbjct  91   ERSVNVKLTEKAKQLKTGARPIPEKLLKTLLNENINLTDVLQLKEMLNEWIKILADK  147
+
+
+> UniRef90_A0A0T8AAY5 MarR family transcriptional regulator n=3 
+Tax=Streptococcus TaxID=1301 RepID=A0A0T8AAY5_STREE
+Length=50
+
+ Score = 40.8 bits (94),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  96   LTEKAVPVAKEHATHHEKTLSTYQELGNKFTDEEQEVISKFLSALTEE  143
+            +T+ A P+A+EH  HHE TL TY+++  +FT  EQ+VI +FL+AL  E
+Sbjct  1    MTDLARPIAEEHHHHHEHTLLTYEQVATQFTPNEQKVIQRFLTALVGE  48
+
+
+> UniRef90_A0A285HIG3 Transcriptional regulator, MarR family n=2 
+Tax=Orenia metallireducens TaxID=1413210 RepID=A0A285HIG3_9FIRM
+Length=148
+
+ Score = 38.1 bits (87),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 29/70 (41%), Positives = 45/70 (64%), Gaps = 1/70 (1%)
+
+Query  32   DVKLTSTQEHILMLLAEQISTNAK-IAEKLKISPAAVTKALKKLQEQELIKSSRATNDER  90
+            ++ LT TQ  ++M+L E+ + + K I EKL +    +T  LKKL++  LI+  R+  DER
+Sbjct  37   ELNLTYTQYIVMMVLWEEDNISVKDIGEKLYLDSGTLTPVLKKLEKLNLIERRRSEEDER  96
+
+Query  91   VVLWSLTEKA  100
+            V++ SLTEK 
+Sbjct  97   VLIISLTEKG  106
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.124    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1138005
+
+
+  Database: isar.db.246
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 16,785
+  Number of sequences in database:  115
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

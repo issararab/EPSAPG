@@ -1,0 +1,4294 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.210
+           299 sequences; 24,726 total letters
+
+Results from round 1
+
+
+Query= Q56446|2m67A|Q56446_MORMO 1.0
+
+Length=81
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q7BRI1 MerF n=76 Tax=root TaxID=1 RepID=Q7BRI1_ECOLX       159     7e-56
+  UniRef90_B7SJQ1 Mercury ion transport protein n=25 Tax=Proteoba...  154     1e-53
+  UniRef90_A0A2M8EBD2 Uncharacterized protein n=1 Tax=Comamonadac...  133     2e-45
+  UniRef90_A0A1H2GUT9 Mercuric ion transport protein n=2 Tax=Nitr...  131     6e-45
+  UniRef90_A0A0C5JMB9 Membrane protein n=1 Tax=Rugosibacter aroma...  129     6e-44
+  UniRef90_A0A2V3VQ76 Mercuric ion transport protein n=2 Tax=Nitr...  128     2e-43
+  UniRef90_L2ECK2 MerF mercury ion transport protein n=1 Tax=Cupr...  128     2e-43
+  UniRef90_V4YNH0 Membrane transport protein MerF n=1 Tax=Betapro...  126     1e-42
+  UniRef90_A0A1J4QID8 Uncharacterized protein n=1 Tax=Oceanisphae...  124     5e-42
+  UniRef90_A0A2N2QFC8 Uncharacterized protein n=1 Tax=Betaproteob...  123     1e-41
+  UniRef90_A0A154C2G8 Uncharacterized protein n=25 Tax=Bacteria T...  122     5e-41
+  UniRef90_A0A318LDK0 Uncharacterized protein n=1 Tax=Halomonas s...  121     7e-41
+  UniRef90_A0A346S4N1 Mercury resistance system transport protein...  119     4e-40
+  UniRef90_W7QD48 Membrane protein n=1 Tax=Halomonas sp. BC04 Tax...  117     6e-39
+  UniRef90_A0A2N6CWH5 Uncharacterized protein n=1 Tax=Sedimentico...  115     2e-38
+  UniRef90_A0A1Q8TFN7 Uncharacterized protein n=1 Tax=Chromohalob...  115     2e-38
+  UniRef90_N6X1B4 Mercury resistance system transport protein Mer...  114     1e-37
+  UniRef90_A0A2A4XB06 Uncharacterized protein n=1 Tax=Oceanospiri...  113     1e-37
+  UniRef90_A0A2E8AC32 Uncharacterized protein n=1 Tax=Marinobacte...  113     2e-37
+  UniRef90_A0A0F4QN42 Membrane protein n=4 Tax=Halomonadaceae Tax...  113     2e-37
+  UniRef90_A0A1I6IIB9 Mercuric ion transport protein n=1 Tax=Mari...  112     3e-37
+  UniRef90_M7CXH5 Uncharacterized protein n=1 Tax=Marinobacter sa...  112     5e-37
+  UniRef90_A0A2N1WYN0 Uncharacterized protein n=1 Tax=Gammaproteo...  110     1e-36
+  UniRef90_S2KG73 Uncharacterized protein n=1 Tax=Halomonas antic...  110     3e-36
+  UniRef90_A0A0R3AVZ3 Membrane protein n=1 Tax=Pseudomonas sp. DS...  109     4e-36
+  UniRef90_A0A2N8FXF0 Transporter n=1 Tax=Pseudomonas sp. FW305-1...  108     9e-36
+  UniRef90_V4QHI7 Uncharacterized protein n=4 Tax=Gammaproteobact...  107     5e-35
+  UniRef90_A0A2N1X570 Uncharacterized protein n=1 Tax=Gammaproteo...  105     2e-34
+  UniRef90_A0A1F4IH80 Uncharacterized protein n=1 Tax=Burkholderi...  103     1e-33
+  UniRef90_A0A3A1YNB7 Uncharacterized protein n=2 Tax=Pusillimona...  103     2e-33
+  UniRef90_A0A1S0XGB8 Uncharacterized protein n=1 Tax=Rhodanobact...  102     2e-33
+  UniRef90_A0A1G7V332 Mercuric ion transport protein n=1 Tax=Thal...  102     3e-33
+  UniRef90_A9E5X5 Uncharacterized protein n=3 Tax=Sulfitobacter T...  98.6    9e-32
+  UniRef90_A0A2D7GWX6 Uncharacterized protein n=1 Tax=Alteromonas...  99.0    1e-31
+  UniRef90_U3ASN6 MerF protein n=1 Tax=Limimaricola cinnabarinus ...  97.4    2e-31
+  UniRef90_A0A192IF44 Uncharacterized protein n=1 Tax=Rhizobiales...  97.1    7e-31
+  UniRef90_A0A2A4Y1W6 Uncharacterized protein n=1 Tax=Rhizobiales...  95.9    8e-31
+  UniRef90_A0A0E2ZJF8 Membrane protein n=2 Tax=Nitrosococcus ocea...  96.7    8e-31
+  UniRef90_A0A088FSZ1 Membrane protein n=4 Tax=Vibrionaceae TaxID...  96.7    8e-31
+  UniRef90_K2IZF7 Uncharacterized protein n=1 Tax=Oceanibaculum i...  96.3    1e-30
+  UniRef90_A0A1F4DMT5 Uncharacterized protein n=2 Tax=unclassifie...  95.9    1e-30
+  UniRef90_M1FFD7 Uncharacterized protein n=22 Tax=Proteobacteria...  95.9    1e-30
+  UniRef90_A0A2K1EAM3 Uncharacterized protein n=1 Tax=Erythrobact...  95.5    1e-30
+  UniRef90_A0A2T3J780 Uncharacterized protein n=1 Tax=Photobacter...  95.5    2e-30
+  UniRef90_H5SE64 Hypothetical conserved protein n=1 Tax=uncultur...  95.1    3e-30
+  UniRef90_A0A3M1GBH7 Mercury resistance system transport protein...  95.1    3e-30
+  UniRef90_A6CV14 Uncharacterized protein n=1 Tax=Vibrio shilonii...  95.1    3e-30
+  UniRef90_A0A369L3I9 Mercury resistance system transport protein...  94.4    4e-30
+  UniRef90_A0A347UE21 Mercury resistance system transport protein...  94.0    5e-30
+  UniRef90_A0A384G1T7 Uncharacterized protein n=5 Tax=Rhodobacter...  94.0    5e-30
+  UniRef90_A0A3M1K814 Mercury resistance system transport protein...  93.2    1e-29
+  UniRef90_A0A1Y5TSZ0 Membrane transport protein MerF n=1 Tax=Oce...  93.2    1e-29
+  UniRef90_A0A1A9F1J9 Uncharacterized protein n=1 Tax=Marinobacte...  92.8    2e-29
+  UniRef90_A0A2U2CDG3 Mercury resistance system transport protein...  92.8    2e-29
+  UniRef90_A0A1F3ZNY8 Uncharacterized protein n=1 Tax=Betaproteob...  92.4    3e-29
+  UniRef90_A0A2A4V0D5 Uncharacterized protein n=1 Tax=Alphaproteo...  92.0    3e-29
+  UniRef90_A0A2Z4UJU8 Membrane transport protein MerF n=1 Tax=Rho...  92.0    4e-29
+  UniRef90_A0A2W5ZMA9 Mercury resistance system transport protein...  92.0    4e-29
+  UniRef90_A0A0A1YGH5 Membrane protein n=1 Tax=Pseudomonas taeane...  92.0    4e-29
+  UniRef90_A0A2U2CLX0 Mercury resistance system transport protein...  91.7    6e-29
+  UniRef90_A0A357FVH9 Mercury resistance system transport protein...  91.7    7e-29
+  UniRef90_A0A0N0E707 Uncharacterized protein n=2 Tax=Ahrensia ma...  91.3    8e-29
+  UniRef90_A0A1E5A5X8 Uncharacterized protein n=1 Tax=Chromatiale...  91.3    8e-29
+  UniRef90_A0A3M1J115 Mercury resistance system transport protein...  91.7    1e-28
+  UniRef90_A0A1I4FMR0 Mercuric ion transport protein n=2 Tax=Nitr...  90.9    1e-28
+  UniRef90_A0A2M9G0I1 Uncharacterized protein n=1 Tax=Rhizobiales...  90.1    2e-28
+  UniRef90_A0A1M5B555 Mercuric ion transport protein n=1 Tax=Halo...  90.1    2e-28
+  UniRef90_A0A2N3B882 Uncharacterized protein n=1 Tax=Alphaproteo...  89.7    3e-28
+  UniRef90_K9Y0U7 Mercury ion transport transmembrane protein Mer...  89.4    4e-28
+  UniRef90_A0A126RHV2 MerF mercury ion transport protein n=1 Tax=...  89.4    4e-28
+  UniRef90_A0A1G7A234 Mercuric ion transport protein n=1 Tax=Limi...  89.4    4e-28
+  UniRef90_A0A1T2AW42 Uncharacterized protein n=3 Tax=Thioclava T...  89.4    4e-28
+  UniRef90_A0A2G2B3X8 Uncharacterized protein n=1 Tax=Marinosulfo...  89.4    4e-28
+  UniRef90_A0A3A8BA17 Mercury resistance system transport protein...  89.4    5e-28
+  UniRef90_A0A1W9GL17 Uncharacterized protein n=1 Tax=Nitrospira ...  89.4    5e-28
+  UniRef90_A0A2E3AVZ7 Uncharacterized protein n=3 Tax=Hyphomonada...  89.4    5e-28
+  UniRef90_A0A3M1IUW8 Mercury resistance system transport protein...  89.0    6e-28
+  UniRef90_I4JFG8 Membrane transport protein MerF n=2 Tax=Gammapr...  89.4    6e-28
+  UniRef90_A0A2E3EV46 Uncharacterized protein n=1 Tax=Tistrella s...  89.0    8e-28
+  UniRef90_A0A1N6PMX1 Mercuric ion transport protein n=2 Tax=Azoa...  89.0    9e-28
+  UniRef90_A0A3C0LHD6 Mercury resistance system transport protein...  89.0    9e-28
+  UniRef90_A0A2H0NM66 Uncharacterized protein n=2 Tax=unclassifie...  88.2    1e-27
+  UniRef90_A0A1Z3HHZ5 Uncharacterized protein n=1 Tax=Halomicrone...  88.2    1e-27
+  UniRef90_A0A3M1L4C2 Mercury resistance system transport protein...  87.8    2e-27
+  UniRef90_A0A2I0F6T0 Uncharacterized protein n=2 Tax=Moritella T...  87.8    2e-27
+  UniRef90_A0A1V1UNH6 Membrane transport protein MerF n=1 Tax=Ros...  87.4    2e-27
+  UniRef90_A0A2A5CL63 Uncharacterized protein n=1 Tax=Alphaproteo...  87.0    3e-27
+  UniRef90_A0A0B5E7W6 Uncharacterized protein n=5 Tax=Rhodobacter...  87.0    3e-27
+  UniRef90_A0A1H9TA39 Mercuric ion transport protein n=2 Tax=Rose...  87.0    4e-27
+  UniRef90_A0A059DP56 Uncharacterized protein n=1 Tax=Hyphomonas ...  86.7    4e-27
+  UniRef90_A3TSG3 Uncharacterized protein n=3 Tax=Rhodobacteracea...  87.0    4e-27
+  UniRef90_A0A2G2HJY8 Uncharacterized protein n=1 Tax=Arcobacter ...  86.7    4e-27
+  UniRef90_W4HH13 Uncharacterized protein n=1 Tax=Roseivivax mari...  86.7    5e-27
+  UniRef90_A0A1I5H6V2 Mercuric ion transport protein n=1 Tax=Rose...  86.7    5e-27
+  UniRef90_A0A2Z4UK52 Membrane transport protein MerF n=1 Tax=Rho...  86.7    5e-27
+  UniRef90_A0A0A1Q360 Membrane transport protein MerF n=2 Tax=Bac...  86.7    7e-27
+  UniRef90_A0A259E9F7 Uncharacterized protein n=1 Tax=Hydrogenoph...  86.3    7e-27
+  UniRef90_A0A059FSC2 Uncharacterized protein n=2 Tax=Hyphomonas ...  85.9    8e-27
+  UniRef90_A0A0F7PFY4 Membrane transport protein MerF n=1 Tax=Hoe...  85.5    1e-26
+  UniRef90_A0A3A8AT30 Mercury resistance system transport protein...  85.9    1e-26
+  UniRef90_A0A1H8MM66 Mercuric ion transport protein n=1 Tax=Mari...  85.5    1e-26
+  UniRef90_A0A2D8YDA5 Uncharacterized protein n=1 Tax=Henriciella...  85.5    2e-26
+  UniRef90_A0A0S3TLB2 Uncharacterized protein n=4 Tax=Fischerella...  85.1    2e-26
+  UniRef90_E0TF35 Uncharacterized protein n=3 Tax=Alphaproteobact...  85.5    2e-26
+  UniRef90_A0A3M1ZQV3 Mercury resistance system transport protein...  84.7    2e-26
+  UniRef90_A0A238KT52 Membrane transport protein MerF n=1 Tax=Mal...  84.7    3e-26
+  UniRef90_A0A166SJW1 Uncharacterized protein n=2 Tax=Rhodobacter...  84.3    4e-26
+  UniRef90_A0A2D9K5G3 Uncharacterized protein n=1 Tax=Aurantimona...  84.3    4e-26
+  UniRef90_A0A3E1DDV9 Mercuric ion transport protein n=1 Tax=Cand...  84.3    4e-26
+  UniRef90_A0A2E1XVE0 Uncharacterized protein n=1 Tax=Phyllobacte...  84.3    4e-26
+  UniRef90_A0A1R1LW69 Uncharacterized protein n=1 Tax=Motiliprote...  84.0    6e-26
+  UniRef90_A0A3F2UYC0 Mercury resistance system transport protein...  84.3    6e-26
+  UniRef90_U3AFV8 MerF protein n=3 Tax=Rhodobacteraceae TaxID=319...  84.0    6e-26
+  UniRef90_A0A1G5SC78 Uncharacterized protein n=1 Tax=Nitrosomona...  83.6    8e-26
+  UniRef90_U7NCE0 Membrane protein n=2 Tax=Marinobacter sp. EVN1 ...  83.6    8e-26
+  UniRef90_A0A1Y1SLK2 Uncharacterized protein n=1 Tax=Stappia sp....  83.6    9e-26
+  UniRef90_A0A3M0XZ54 Mercury resistance system transport protein...  83.6    9e-26
+  UniRef90_A0A1U7H8W9 Mercury transporter n=1 Tax=Hydrococcus riv...  83.2    1e-25
+  UniRef90_A0A1I2SHU8 Membrane transport protein MerF n=2 Tax=Nep...  84.0    1e-25
+  UniRef90_A0A126V637 Uncharacterized protein n=1 Tax=Halocynthii...  82.4    2e-25
+  UniRef90_A0A3M1K151 Mercury resistance system transport protein...  83.2    2e-25
+  UniRef90_A0A2E2E123 Uncharacterized protein n=1 Tax=Rhodospiril...  82.8    2e-25
+  UniRef90_A0A017HAP7 MerF n=1 Tax=Limimaricola hongkongensis DSM...  82.4    2e-25
+  UniRef90_A0A2A5GKC6 Uncharacterized protein n=1 Tax=Rhizobiales...  82.0    3e-25
+  UniRef90_A0A1Y1SXA9 Uncharacterized protein n=7 Tax=Rhodobacter...  82.0    3e-25
+  UniRef90_C6KU57 Mercury ion transport protein, MerF n=2 Tax=Bac...  82.0    4e-25
+  UniRef90_A0A1M5D0X7 Mercuric ion transport protein n=1 Tax=Halo...  82.0    4e-25
+  UniRef90_K9SZT1 Membrane transport protein MerF n=1 Tax=Pleuroc...  81.6    4e-25
+  UniRef90_W3RL37 Ion transport transmembrane protein n=1 Tax=Afi...  82.0    4e-25
+  UniRef90_D9SHB0 Mercury ion transport, MerF n=1 Tax=Gallionella...  82.0    4e-25
+  UniRef90_A0A0S3F5G5 Uncharacterized protein n=6 Tax=Proteobacte...  82.0    5e-25
+  UniRef90_A0A2N5KEP1 Uncharacterized protein n=1 Tax=Chloroflexi...  81.3    6e-25
+  UniRef90_A0A3D0FB22 Mercury resistance system transport protein...  81.6    6e-25
+  UniRef90_V9VYR5 Uncharacterized protein n=1 Tax=Leisingera meth...  81.3    8e-25
+  UniRef90_D3G185 MerF mercury ion transport protein n=3 Tax=Baci...  80.9    9e-25
+  UniRef90_A0A2A4V903 Uncharacterized protein n=1 Tax=Alphaproteo...  80.9    9e-25
+  UniRef90_A0A3A8AQ17 Mercury resistance system transport protein...  80.9    9e-25
+  UniRef90_A0A1M7SDN5 Mercuric ion transport protein n=1 Tax=Ocea...  80.9    1e-24
+  UniRef90_A0A2N3B995 Uncharacterized protein n=1 Tax=Alphaproteo...  80.9    1e-24
+  UniRef90_A0A059G1L9 MerF mercury ion transport protein n=1 Tax=...  80.9    1e-24
+  UniRef90_A0A1L3SMH0 Uncharacterized protein n=1 Tax=Mesorhizobi...  80.9    1e-24
+  UniRef90_K2KQB5 Uncharacterized protein n=1 Tax=Thalassospira p...  80.5    1e-24
+  UniRef90_A0A2S6U644 Uncharacterized protein n=2 Tax=Alphaproteo...  80.5    2e-24
+  UniRef90_A0A0L6CQJ8 Membrane transport protein MerF n=10 Tax=Rh...  80.9    2e-24
+  UniRef90_L8LZ60 Membrane transport protein MerF n=1 Tax=Xenococ...  79.3    3e-24
+  UniRef90_A3U326 Uncharacterized protein n=9 Tax=Rhodobacteracea...  79.0    4e-24
+  UniRef90_A0A2D8HM92 Uncharacterized protein n=1 Tax=Sneathiella...  79.3    4e-24
+  UniRef90_A0A2D4VLL8 Uncharacterized protein n=1 Tax=Parvibaculu...  79.0    7e-24
+  UniRef90_A0A1Y5E0D3 Uncharacterized protein n=1 Tax=Alphaproteo...  78.6    7e-24
+  UniRef90_A0A2A4TXF9 Uncharacterized protein n=1 Tax=Rhodospiril...  78.6    7e-24
+  UniRef90_A0A384GI28 Uncharacterized protein n=2 Tax=Phaeobacter...  78.6    1e-23
+  UniRef90_A0A2M7INE1 Mercury transporter n=1 Tax=Candidatus Kais...  78.2    1e-23
+  UniRef90_A0A3M2D6F5 Mercury resistance system transport protein...  77.4    3e-23
+  UniRef90_A0A2E4XPD9 Uncharacterized protein n=1 Tax=Rhodospiril...  77.0    3e-23
+  UniRef90_A0A0M6YDA9 Membrane transport protein MerF n=1 Tax=Lab...  77.4    3e-23
+  UniRef90_A0A1B9VMP0 Mercury ion transport, MerF n=1 Tax=Thalass...  77.0    4e-23
+  UniRef90_A0A2G2HBE4 Uncharacterized protein n=1 Tax=Arcobacter ...  76.3    6e-23
+  UniRef90_K2M217 Uncharacterized protein n=5 Tax=Alphaproteobact...  75.9    1e-22
+  UniRef90_A0A2E0WMC0 Uncharacterized protein n=1 Tax=Gammaproteo...  75.5    1e-22
+  UniRef90_A0A2E6QHN5 Uncharacterized protein n=1 Tax=Rhodospiril...  75.5    1e-22
+  UniRef90_A0A143B3M7 Uncharacterized protein n=1 Tax=Desulfuromo...  75.5    1e-22
+  UniRef90_A0A2M7CP96 Uncharacterized protein n=1 Tax=Anaerolinea...  75.1    2e-22
+  UniRef90_A0A1G7BPM4 Mercuric ion transport protein n=1 Tax=Beln...  75.1    2e-22
+  UniRef90_A0A199Y6H4 Uncharacterized protein n=10 Tax=Proteobact...  75.1    2e-22
+  UniRef90_A0A2M7GK37 Uncharacterized protein n=1 Tax=Rhodospiril...  75.1    2e-22
+  UniRef90_Q0AK00 Uncharacterized protein n=3 Tax=Betaproteobacte...  74.7    2e-22
+  UniRef90_A0A0T5Z948 Membrane transport protein MerF n=2 Tax=sul...  74.7    2e-22
+  UniRef90_C7D517 Mercuric ion transporter n=13 Tax=Bacilli TaxID...  74.7    2e-22
+  UniRef90_A0A0A0DXQ5 Mercury transporter n=1 Tax=Alkalispirochae...  74.7    3e-22
+  UniRef90_A0A3M2C0Z0 Mercury resistance system transport protein...  74.7    3e-22
+  UniRef90_A0A2G2QWZ1 Uncharacterized protein n=1 Tax=Rhodospiril...  74.3    4e-22
+  UniRef90_A0A259M750 Uncharacterized protein n=1 Tax=Rhodobacter...  73.6    5e-22
+  UniRef90_A0A0L0DU92 Mercuric transporter periplasmic component ...  79.7    6e-22
+  UniRef90_F5RFN4 Ion transport transmembrane protein n=4 Tax=Bet...  73.6    8e-22
+  UniRef90_A0A356R5E3 Mercury resistance system transport protein...  73.9    1e-21
+  UniRef90_A0A3D9H1D8 Mercuric ion transport protein n=1 Tax=Aest...  73.2    1e-21
+  UniRef90_U3ATT9 MerF protein n=3 Tax=Brevundimonas TaxID=41275 ...  72.8    2e-21
+  UniRef90_A0A154VBL5 Uncharacterized protein n=4 Tax=Thalassospi...  72.8    2e-21
+  UniRef90_A0A2N6N202 Mercury transporter n=1 Tax=Fischerella the...  72.4    2e-21
+  UniRef90_A0A0M2R5V4 Uncharacterized protein n=1 Tax=Kiloniella ...  72.0    2e-21
+  UniRef90_A0A150N779 Uncharacterized protein n=2 Tax=Bacillaceae...  72.0    4e-21
+  UniRef90_A0A2E2MIC2 Uncharacterized protein n=1 Tax=Rhodospiril...  71.2    5e-21
+  UniRef90_A0A154C2I7 Uncharacterized protein n=23 Tax=Bacteria T...  71.6    5e-21
+  UniRef90_A0A2A4V5B9 Uncharacterized protein n=1 Tax=Alphaproteo...  70.9    7e-21
+  UniRef90_A0A2A5F9Q9 Uncharacterized protein n=2 Tax=Zetaproteob...  70.5    1e-20
+  UniRef90_M9RRS5 Uncharacterized protein n=1 Tax=Octadecabacter ...  69.7    2e-20
+  UniRef90_A0A2S8EYC4 Uncharacterized protein n=1 Tax=Rhodobacter...  69.7    2e-20
+  UniRef90_A0A2N3BN55 Uncharacterized protein n=1 Tax=Alphaproteo...  70.5    2e-20
+  UniRef90_W5YGC6 Membrane protein n=1 Tax=Marinobacter similis T...  69.7    2e-20
+  UniRef90_A0A0D6Z8V0 Mercury transporter n=5 Tax=Bacillaceae Tax...  69.7    2e-20
+  UniRef90_A0A2D6JRI4 Uncharacterized protein n=1 Tax=Rhodospiril...  68.9    5e-20
+  UniRef90_A0A1C3RHE9 Uncharacterized protein n=2 Tax=Terasakiell...  68.9    5e-20
+  UniRef90_A0A0N7I113 Uncharacterized protein n=3 Tax=Sphingomona...  68.2    8e-20
+  UniRef90_A0A3D5T2F4 Mercury resistance system transport protein...  68.6    8e-20
+  UniRef90_A8TR56 Uncharacterized protein n=1 Tax=alpha proteobac...  67.8    1e-19
+  UniRef90_A0A2G2LEW2 Mercury resistance protein n=4 Tax=root Tax...  68.2    2e-19
+  UniRef90_A0A364VMU6 Mercury resistance system transport protein...  67.0    2e-19
+  UniRef90_A3W3W6 Uncharacterized protein n=1 Tax=Roseovarius sp....  67.0    3e-19
+  UniRef90_A0A2A4P733 Uncharacterized protein n=1 Tax=Rhizobiales...  67.0    3e-19
+  UniRef90_A0A352RGQ4 Mercury resistance system transport protein...  65.9    7e-19
+  UniRef90_A0A2V4D532 Uncharacterized protein n=1 Tax=Euryarchaeo...  66.2    9e-19
+  UniRef90_A0A2A4NKQ0 Uncharacterized protein n=1 Tax=Rhizobiales...  65.5    9e-19
+  UniRef90_M9R491 Uncharacterized protein n=1 Tax=Octadecabacter ...  65.5    1e-18
+  UniRef90_A0A3M2EIC2 Mercury resistance system transport protein...  65.5    1e-18
+  UniRef90_A0A2Y9A1L9 Mercuric ion transport protein n=1 Tax=Jann...  64.7    2e-18
+  UniRef90_A0A356R8K1 Mercury resistance system transport protein...  65.5    2e-18
+  UniRef90_U7NF15 Uncharacterized protein n=3 Tax=Halomonas TaxID...  64.7    2e-18
+  UniRef90_A0A3D9FG18 Mercuric ion transport protein n=1 Tax=Para...  64.7    2e-18
+  UniRef90_A0A1G8XT54 Mercuric ion transport protein n=2 Tax=Albi...  64.3    3e-18
+  UniRef90_A0A3A0AN05 Mercury resistance system transport protein...  65.1    3e-18
+  UniRef90_A0A259M1Q6 Uncharacterized protein n=1 Tax=Rhodobacter...  65.9    3e-18
+  UniRef90_A0A2G1Z470 Uncharacterized protein n=1 Tax=Sneathiella...  63.9    4e-18
+  UniRef90_A0A2T1EDT7 Mercury transporter n=1 Tax=Chlorogloea sp....  63.9    4e-18
+  UniRef90_A0A2A4Z362 Uncharacterized protein n=1 Tax=OCS116 clus...  63.9    4e-18
+  UniRef90_D5C2E6 Uncharacterized protein n=1 Tax=Nitrosococcus h...  64.3    5e-18
+  UniRef90_A0A0L1JMY5 Uncharacterized protein n=2 Tax=Rhodobacter...  63.9    5e-18
+  UniRef90_A0A2S6U3R8 Uncharacterized protein n=1 Tax=Alphaproteo...  64.7    7e-18
+  UniRef90_A0A1B1AAA7 Uncharacterized protein n=3 Tax=Rhodobacter...  65.1    9e-18
+  UniRef90_A0A1C2DCV0 Uncharacterized protein n=4 Tax=Rhizobiales...  63.9    9e-18
+  UniRef90_A0A1F2T2H9 Uncharacterized protein n=1 Tax=Acidobacter...  63.2    1e-17
+  UniRef90_A0A369TD14 Mercury resistance system transport protein...  62.8    1e-17
+  UniRef90_A0A0H4L0V1 Membrane transport protein MerF n=13 Tax=Rh...  64.7    1e-17
+  UniRef90_A0A3A0A875 Mercury resistance system transport protein...  62.4    2e-17
+  UniRef90_A0A2D6T9H2 Uncharacterized protein n=1 Tax=Rhodospiril...  62.4    2e-17
+  UniRef90_A0A355H9A5 Mercury resistance system transport protein...  62.4    2e-17
+  UniRef90_A0A2N6K4Q5 Mercury transporter n=1 Tax=Fischerella mus...  62.0    2e-17
+  UniRef90_A3T1V9 Uncharacterized protein n=3 Tax=Rhodobacteracea...  63.9    2e-17
+  UniRef90_A0A0M8ZDN4 Mercury transport protein n=3 Tax=Bacteria ...  62.0    3e-17
+  UniRef90_A0A1Q7J1B0 Uncharacterized protein n=1 Tax=Deltaproteo...  61.6    3e-17
+  UniRef90_A0A2D8XKU3 Uncharacterized protein n=1 Tax=Parvibaculu...  61.6    4e-17
+  UniRef90_A0A2E7N4M0 Uncharacterized protein n=1 Tax=Chloroflexi...  61.2    4e-17
+  UniRef90_A0A0M6XW20 Membrane transport protein MerF n=1 Tax=Jan...  61.6    4e-17
+  UniRef90_A0A318L218 Uncharacterized protein n=1 Tax=Halomonas s...  61.2    5e-17
+  UniRef90_A0A2U1S4V3 Uncharacterized protein n=1 Tax=candidate d...  61.2    5e-17
+  UniRef90_A0A391NTL8 Membrane transport protein MerF n=1 Tax=Pse...  61.2    6e-17
+  UniRef90_A0A2H6IV71 Membrane transport protein MerF n=1 Tax=bac...  62.4    6e-17
+  UniRef90_A0A2A5DWE7 Uncharacterized protein n=1 Tax=Rhodospiril...  60.8    7e-17
+  UniRef90_A0A1G7TX68 Mercuric ion transport protein n=1 Tax=Limi...  60.5    8e-17
+  UniRef90_A0A369WCR4 Mercury resistance system transport protein...  60.5    9e-17
+  UniRef90_A0A2A4MW32 Uncharacterized protein n=2 Tax=Gammaproteo...  60.5    1e-16
+  UniRef90_A0A1H2WL80 Mercuric ion transport protein n=1 Tax=Mari...  60.5    1e-16
+  UniRef90_A0A095BQV1 Membrane transport protein MerF n=2 Tax=Alp...  60.5    2e-16
+  UniRef90_A0A1B6Y663 Uncharacterized protein n=1 Tax=Balneola sp...  59.7    2e-16
+  UniRef90_A0A3M1PHK2 Mercury resistance system transport protein...  60.1    2e-16
+  UniRef90_A0A1I0R6Y8 Membrane transport protein MerF n=1 Tax=Ali...  60.8    3e-16
+  UniRef90_A0A2G2ABJ6 Uncharacterized protein n=1 Tax=Thalassobiu...  60.5    4e-16
+  UniRef90_M9R7R2 Uncharacterized protein n=1 Tax=Octadecabacter ...  58.5    4e-16
+  UniRef90_A6FGL2 Uncharacterized protein n=4 Tax=Moritella TaxID...  58.2    7e-16
+  UniRef90_K9SIN0 Mercury ion transport protein MerF n=1 Tax=Pseu...  58.2    7e-16
+  UniRef90_A0A2E5KMN9 Uncharacterized protein n=1 Tax=Alphaproteo...  58.2    7e-16
+  UniRef90_A0A1I2H9B6 Membrane transport protein MerF n=5 Tax=roo...  59.3    1e-15
+  UniRef90_A0A1Q7B461 Uncharacterized protein n=1 Tax=Alphaproteo...  57.4    2e-15
+  UniRef90_A0A2M7EV38 Uncharacterized protein n=1 Tax=Rhodobacter...  57.0    2e-15
+  UniRef90_A0A356R9X4 Mercury resistance system transport protein...  56.6    3e-15
+  UniRef90_A0A2U0TER8 Membrane transport protein MerF n=1 Tax=Dev...  57.4    8e-15
+  UniRef90_A0A1N7KSS2 Mercuric ion transport protein n=1 Tax=Sali...  55.5    1e-14
+  UniRef90_A0A3M2EA70 Mercury resistance system transport protein...  55.8    1e-14
+  UniRef90_A0A2V7BUQ2 Mercury resistance system transport protein...  55.1    1e-14
+  UniRef90_A0A059FID1 Uncharacterized protein n=3 Tax=Hyphomonas ...  54.3    2e-14
+  UniRef90_A0A2E0RM48 Uncharacterized protein n=1 Tax=Acidimicrob...  55.8    2e-14
+  UniRef90_Q0FHG3 Uncharacterized protein n=24 Tax=Rhodobacterace...  55.5    3e-14
+  UniRef90_A0A2T6BFY6 Mercuric ion transport protein n=1 Tax=Lito...  53.9    4e-14
+  UniRef90_A0A2V7E5R2 Mercury resistance system transport protein...  53.5    4e-14
+  UniRef90_A0A2T2WAF6 Mercury resistance system transport protein...  53.5    5e-14
+  UniRef90_A0A2D8W4G8 Uncharacterized protein n=3 Tax=Rhodobacter...  55.1    5e-14
+  UniRef90_A0A2H0ER05 Uncharacterized protein n=2 Tax=unclassifie...  53.1    7e-14
+  UniRef90_A0A2M8CR84 Uncharacterized protein n=1 Tax=Anaerolinea...  53.1    9e-14
+  UniRef90_A0A2R4WX31 Mercury resistance system transport protein...  53.5    9e-14
+  UniRef90_A0A285TZJ4 Mercuric ion transport protein n=2 Tax=Thal...  52.8    2e-13
+  UniRef90_A0A364WG41 Mercury resistance system transport protein...  52.0    2e-13
+  UniRef90_I2FFZ3 Mercuric transport protein n=1 Tax=Pseudomonas ...  52.0    3e-13
+  UniRef90_A0A1H3N099 Membrane transport protein MerF n=2 Tax=Rho...  52.8    5e-13
+  UniRef90_G2FDG0 Uncharacterized protein n=1 Tax=endosymbiont of...  50.4    6e-13
+  UniRef90_G2DCV6 Uncharacterized protein n=1 Tax=endosymbiont of...  50.1    7e-13
+  UniRef90_A0A1J4XAL9 Uncharacterized protein n=2 Tax=unclassifie...  50.4    8e-13
+  UniRef90_A0A0K2GI36 Uncharacterized protein n=2 Tax=Nitrospira ...  51.2    8e-13
+  UniRef90_A0A2A4MMQ6 Uncharacterized protein n=1 Tax=Gammaproteo...  49.3    1e-12
+  UniRef90_A0A1V1UMS9 Membrane transport protein MerF n=2 Tax=Ros...  51.2    1e-12
+  UniRef90_A0A1W1HNM3 Uncharacterized protein n=1 Tax=Nitrospira ...  49.3    2e-12
+  UniRef90_A0A1P8MWL9 Uncharacterized protein n=2 Tax=Rhodobacter...  49.3    2e-12
+  UniRef90_A0A350LQ55 Mercury resistance system transport protein...  48.5    5e-12
+  UniRef90_A0A1M4YFS3 Mercuric ion transport protein n=1 Tax=Lito...  48.1    6e-12
+  UniRef90_A0A1I6GPZ2 Mercuric ion transport protein/mercuric ion...  47.4    9e-12
+  UniRef90_A0A2S6TPB9 Uncharacterized protein n=2 Tax=Bacteria Ta...  47.8    1e-11
+  UniRef90_A0A176IBD5 Uncharacterized protein n=1 Tax=Sulfitobact...  48.5    1e-11
+  UniRef90_A0A0Q3ESJ9 Uncharacterized protein n=6 Tax=Rhodobacter...  47.8    3e-11
+  UniRef90_A0A1X0Y640 Mercury transporter n=2 Tax=Geothermobacter...  45.8    6e-11
+  UniRef90_A0A3N1Y1B7 Mercuric ion transport protein n=2 Tax=Inmi...  45.4    1e-10
+  UniRef90_A0A2R8B971 Uncharacterized protein n=2 Tax=Rhodobacter...  44.3    2e-10
+  UniRef90_A0A1H7LRH5 Membrane transport protein MerF n=2 Tax=Jan...  45.4    3e-10
+  UniRef90_A0A3M2ARG3 Uncharacterized protein (Fragment) n=1 Tax=...  43.9    3e-10
+  UniRef90_A0A0K2GI09 Mercury ion transport protein MerF n=1 Tax=...  44.3    3e-10
+  UniRef90_A0A0P1GTN6 Membrane transport protein MerF n=2 Tax=Tha...  42.7    3e-09
+  UniRef90_A0A2T6CHL4 Mercuric ion transport protein n=2 Tax=Rhod...  40.8    5e-09
+  UniRef90_A0A3M1DN48 Mercury resistance system transport protein...  40.0    9e-09
+  UniRef90_A0A099T6Y7 Membrane protein n=8 Tax=Rhodobacteraceae T...  40.0    1e-08
+  UniRef90_A0A2A4QBR7 Uncharacterized protein n=1 Tax=Rhodobacter...  27.3    8e-04
+  UniRef90_A0A2V6T7X0 Mercury resistance system transport protein...  26.6    0.002
+  UniRef90_A0A1F7QHU2 Uncharacterized protein n=2 Tax=Candidatus ...  18.5    1.9  
+
+
+> UniRef90_Q7BRI1 MerF n=76 Tax=root TaxID=1 RepID=Q7BRI1_ECOLX
+Length=81
+
+ Score = 159 bits (403),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 81/81 (100%), Positives = 81/81 (100%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY
+Sbjct  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           AIQRKRQADACCTPKFNGVKK
+Sbjct  61  AIQRKRQADACCTPKFNGVKK  81
+
+
+> UniRef90_B7SJQ1 Mercury ion transport protein n=25 Tax=Proteobacteria 
+TaxID=1224 RepID=B7SJQ1_9PSED
+Length=81
+
+ Score = 154 bits (388),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 79/81 (98%), Positives = 79/81 (98%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVV LSALTGYLDYVLLPALAIFIGLTIY
+Sbjct  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVSLSALTGYLDYVLLPALAIFIGLTIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           AIQRKRQADACCTPKF GVKK
+Sbjct  61  AIQRKRQADACCTPKFIGVKK  81
+
+
+> UniRef90_A0A2M8EBD2 Uncharacterized protein n=1 Tax=Comamonadaceae 
+bacterium CG_4_9_14_0_8_um_filter_57_21 TaxID=1973949 
+RepID=A0A2M8EBD2_9BURK
+Length=81
+
+ Score = 133 bits (334),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 65/81 (80%), Positives = 72/81 (89%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M+DPKTLLRVS+IGT LVALCCFTP+LVILLGVVG SAL+GYLDYVLLPAL  FIGLTIY
+Sbjct  1   MQDPKTLLRVSVIGTVLVALCCFTPILVILLGVVGWSALSGYLDYVLLPALVAFIGLTIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           A +RK++ADACCT   NGV K
+Sbjct  61  AYRRKQKADACCTTHSNGVNK  81
+
+
+> UniRef90_A0A1H2GUT9 Mercuric ion transport protein n=2 Tax=Nitrosomonas 
+ureae TaxID=44577 RepID=A0A1H2GUT9_9PROT
+Length=70
+
+ Score = 131 bits (330),  Expect = 6e-45, Method: Compositional matrix adjust.
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  12  IIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADAC  71
+           +IGT +VALCCFTP+LVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADAC
+Sbjct  1   MIGTVVVALCCFTPLLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADAC  60
+
+Query  72  CTPKFNGVKK  81
+           CTPKFNGVK+
+Sbjct  61  CTPKFNGVKR  70
+
+
+> UniRef90_A0A0C5JMB9 Membrane protein n=1 Tax=Rugosibacter aromaticivorans 
+TaxID=1565605 RepID=A0A0C5JMB9_9RHOO
+Length=81
+
+ Score = 129 bits (324),  Expect = 6e-44, Method: Compositional matrix adjust.
+ Identities = 63/81 (78%), Positives = 68/81 (84%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD KTLLR S+I T LVALCCFTP+L ++ GVVGLSALT Y DYVLLP LA+FIGLTIY
+Sbjct  1   MKDRKTLLRASVISTVLVALCCFTPILAVMFGVVGLSALTDYRDYVLLPVLAVFIGLTIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           AIQRKRQADAC TP   GVKK
+Sbjct  61  AIQRKRQADACWTPNSTGVKK  81
+
+
+> UniRef90_A0A2V3VQ76 Mercuric ion transport protein n=2 Tax=Nitrosomonas 
+sp. Nm84 TaxID=200124 RepID=A0A2V3VQ76_9PROT
+Length=83
+
+ Score = 128 bits (322),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 63/81 (78%), Positives = 71/81 (88%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           +KDPKTL+RV ++GT LVALCCFTP+LVILLG+VGLSALTGYLDYVL+PALAIFIGLTIY
+Sbjct  3   VKDPKTLVRVGLVGTVLVALCCFTPILVILLGIVGLSALTGYLDYVLIPALAIFIGLTIY  62
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           AI RKR+ADACC     G  K
+Sbjct  63  AIWRKRKADACCASTGAGENK  83
+
+
+> UniRef90_L2ECK2 MerF mercury ion transport protein n=1 Tax=Cupriavidus 
+sp. HMR-1 TaxID=1249621 RepID=L2ECK2_9BURK
+Length=84
+
+ Score = 128 bits (321),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 66/67 (99%), Positives = 66/67 (99%), Gaps = 0/67 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY
+Sbjct  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+
+Query  61  AIQRKRQ  67
+           AIQRKR 
+Sbjct  61  AIQRKRH  67
+
+
+> UniRef90_V4YNH0 Membrane transport protein MerF n=1 Tax=Betaproteobacteria 
+bacterium MOLA814 TaxID=1408164 RepID=V4YNH0_9PROT
+Length=81
+
+ Score = 126 bits (316),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 68/81 (84%), Positives = 77/81 (95%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKDPKTL+R SI GT ++ALCCFTPVLV++LGVVG+SALTGYLDYVLLPALA+FIGLTIY
+Sbjct  1   MKDPKTLVRASIFGTIVLALCCFTPVLVVVLGVVGMSALTGYLDYVLLPALAVFIGLTIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           AI+RKRQADACCTPKFNG+ K
+Sbjct  61  AIRRKRQADACCTPKFNGITK  81
+
+
+> UniRef90_A0A1J4QID8 Uncharacterized protein n=1 Tax=Oceanisphaera 
+psychrotolerans TaxID=1414654 RepID=A0A1J4QID8_9GAMM
+Length=85
+
+ Score = 124 bits (312),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 60/72 (83%), Positives = 67/72 (93%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTLLRVS+IGT LV LCCFTP+LVILLG VGL+ALTGYLDYVLLPALA+FIGLT+Y
+Sbjct  1   MKNPKTLLRVSVIGTALVVLCCFTPILVILLGAVGLAALTGYLDYVLLPALAVFIGLTLY  60
+
+Query  61  AIQRKRQADACC  72
+           A+ RKRQ DACC
+Sbjct  61  ALWRKRQYDACC  72
+
+
+> UniRef90_A0A2N2QFC8 Uncharacterized protein n=1 Tax=Betaproteobacteria 
+bacterium HGW-Betaproteobacteria-9 TaxID=2013721 RepID=A0A2N2QFC8_9PROT
+Length=81
+
+ Score = 123 bits (309),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 59/81 (73%), Positives = 68/81 (84%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +PKTL+R  +IGT LVALCCFTP+LVILLGVVGLSALTGY+DY+L+PAL +FIGLTIY
+Sbjct  1   MANPKTLVRFGVIGTVLVALCCFTPILVILLGVVGLSALTGYIDYILIPALIVFIGLTIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           A+QRK  ADACC P   G K 
+Sbjct  61  ALQRKHNADACCPPTRAGEKN  81
+
+
+> UniRef90_A0A154C2G8 Uncharacterized protein n=25 Tax=Bacteria 
+TaxID=2 RepID=A0A154C2G8_9GAMM
+Length=85
+
+ Score = 122 bits (305),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 61/72 (85%), Positives = 66/72 (92%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTLLRVS+IGT LVALCCFTP+LVILLG VGL+ALTGYLD VLLPALA FIGLTIY
+Sbjct  1   MKNPKTLLRVSVIGTVLVALCCFTPILVILLGTVGLAALTGYLDVVLLPALAFFIGLTIY  60
+
+Query  61  AIQRKRQADACC  72
+           AI RK+Q DACC
+Sbjct  61  AIWRKKQFDACC  72
+
+
+> UniRef90_A0A318LDK0 Uncharacterized protein n=1 Tax=Halomonas 
+sp. LBP4 TaxID=2044917 RepID=A0A318LDK0_9GAMM
+Length=85
+
+ Score = 121 bits (304),  Expect = 7e-41, Method: Compositional matrix adjust.
+ Identities = 60/72 (83%), Positives = 66/72 (92%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTLLRVS+IGT LVALCCFTP+LVILLG VGL+ALTGYLDYVLLPALA FIGLT+Y
+Sbjct  1   MKNPKTLLRVSVIGTVLVALCCFTPILVILLGTVGLAALTGYLDYVLLPALAFFIGLTLY  60
+
+Query  61  AIQRKRQADACC  72
+           AI RK+Q DA C
+Sbjct  61  AIWRKKQYDARC  72
+
+
+> UniRef90_A0A346S4N1 Mercury resistance system transport protein 
+MerF n=2 Tax=Marinobacter TaxID=2742 RepID=A0A346S4N1_9ALTE
+Length=82
+
+ Score = 119 bits (299),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 58/72 (81%), Positives = 65/72 (90%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKDPKTLLR S IGT +VALCCFTP+LV+LLG VGL+ALTGYLDYVLLPALAIFIGLT Y
+Sbjct  1   MKDPKTLLRASAIGTVVVALCCFTPILVVLLGSVGLAALTGYLDYVLLPALAIFIGLTCY  60
+
+Query  61  AIQRKRQADACC  72
+           A+ RK++ DACC
+Sbjct  61  AVWRKKKYDACC  72
+
+
+> UniRef90_W7QD48 Membrane protein n=1 Tax=Halomonas sp. BC04 TaxID=1403540 
+RepID=W7QD48_9GAMM
+Length=85
+
+ Score = 117 bits (292),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 57/71 (80%), Positives = 63/71 (89%), Gaps = 0/71 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M+ PK LLRVS+IGT LVALCCFTP+LVILLG VGL+ALTGYLDYVL PALA FIGLT+Y
+Sbjct  1   MQKPKALLRVSVIGTVLVALCCFTPILVILLGTVGLAALTGYLDYVLFPALAFFIGLTLY  60
+
+Query  61  AIQRKRQADAC  71
+           AI RK+Q DAC
+Sbjct  61  AIWRKKQFDAC  71
+
+
+> UniRef90_A0A2N6CWH5 Uncharacterized protein n=1 Tax=Sedimenticola 
+selenatireducens TaxID=191960 RepID=A0A2N6CWH5_9GAMM
+Length=85
+
+ Score = 115 bits (289),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 57/72 (79%), Positives = 63/72 (88%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PK LLRVS+IGT LVALCCFTP+LVILLG VGL+ALT YLD VLLPALA FIGLT Y
+Sbjct  1   MKNPKALLRVSVIGTVLVALCCFTPILVILLGTVGLAALTCYLDVVLLPALAFFIGLTFY  60
+
+Query  61  AIQRKRQADACC  72
+           A+ RK+Q DACC
+Sbjct  61  AMWRKKQYDACC  72
+
+
+> UniRef90_A0A1Q8TFN7 Uncharacterized protein n=1 Tax=Chromohalobacter 
+japonicus TaxID=223900 RepID=A0A1Q8TFN7_9GAMM
+Length=84
+
+ Score = 115 bits (288),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 55/71 (77%), Positives = 63/71 (89%), Gaps = 0/71 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PK LLR S+IGT+LVALCCFTP+LVILLG VGL+ALTGYLDYVLLPALA FIGL +Y
+Sbjct  1   MKNPKALLRASVIGTSLVALCCFTPILVILLGSVGLAALTGYLDYVLLPALAFFIGLALY  60
+
+Query  61  AIQRKRQADAC  71
+           A+  K+Q DAC
+Sbjct  61  ALWHKKQYDAC  71
+
+
+> UniRef90_N6X1B4 Mercury resistance system transport protein MerF 
+n=16 Tax=Gammaproteobacteria TaxID=1236 RepID=N6X1B4_9ALTE
+Length=86
+
+ Score = 114 bits (284),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 54/81 (67%), Positives = 63/81 (78%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PK LLRV I+GT LVALCCFTP+LVIL+  VGL+ALTGYLDYVLLPALA+FIGLT+Y
+Sbjct  1   MKNPKNLLRVGIVGTILVALCCFTPILVILMSTVGLAALTGYLDYVLLPALAVFIGLTVY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           A  RK+  DA     F   + 
+Sbjct  61  AFWRKKHYDASYESNFKAPRS  81
+
+
+> UniRef90_A0A2A4XB06 Uncharacterized protein n=1 Tax=Oceanospirillales 
+bacterium TaxID=1914300 RepID=A0A2A4XB06_9GAMM
+Length=86
+
+ Score = 113 bits (283),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 56/81 (69%), Positives = 65/81 (80%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTL+RVS+IGT LVALCCFTP+LVILL  VGL+ LTGYLD VLLPALA FIGLT+Y
+Sbjct  1   MKNPKTLVRVSVIGTVLVALCCFTPILVILLATVGLATLTGYLDLVLLPALAFFIGLTLY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           A+ RK+Q DAC      G + 
+Sbjct  61  ALWRKKQYDACYNAHSPGKRN  81
+
+
+> UniRef90_A0A2E8AC32 Uncharacterized protein n=1 Tax=Marinobacter 
+sp. TaxID=50741 RepID=A0A2E8AC32_9ALTE
+Length=85
+
+ Score = 113 bits (283),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 57/77 (74%), Positives = 64/77 (83%), Gaps = 0/77 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTLLRVS+IGT +VALCCFTPVLVILLGVVGLSA+TGYLD VLLPAL IF+ LT Y
+Sbjct  1   MKNPKTLLRVSVIGTAIVALCCFTPVLVILLGVVGLSAITGYLDLVLLPALVIFVVLTAY  60
+
+Query  61  AIQRKRQADACCTPKFN  77
+           A+ RK+Q DA      N
+Sbjct  61  ALWRKKQYDAFTDDSLN  77
+
+
+> UniRef90_A0A0F4QN42 Membrane protein n=4 Tax=Halomonadaceae TaxID=28256 
+RepID=A0A0F4QN42_9GAMM
+Length=85
+
+ Score = 113 bits (282),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 55/70 (79%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTLLR S+IGT L+ALCCFTP+LVILLG VGL+ALTGYLD VLLPALA FIGLT+Y
+Sbjct  1   MKNPKTLLRASVIGTVLMALCCFTPILVILLGTVGLAALTGYLDVVLLPALAFFIGLTLY  60
+
+Query  61  AIQRKRQADA  70
+           A+ RK+Q DA
+Sbjct  61  ALWRKKQYDA  70
+
+
+> UniRef90_A0A1I6IIB9 Mercuric ion transport protein n=1 Tax=Marinobacter 
+daqiaonensis TaxID=650891 RepID=A0A1I6IIB9_9ALTE
+Length=85
+
+ Score = 112 bits (280),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 54/72 (75%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTLLRVS+IGT LVALCCFTP+LVILL  VGL+A+TGYLDY+LLPALA FIGLT+Y
+Sbjct  1   MKNPKTLLRVSVIGTVLVALCCFTPILVILLSTVGLAAMTGYLDYLLLPALAFFIGLTLY  60
+
+Query  61  AIQRKRQADACC  72
+           A+ +K+  DA C
+Sbjct  61  ALWQKKPYDAYC  72
+
+
+> UniRef90_M7CXH5 Uncharacterized protein n=1 Tax=Marinobacter 
+santoriniensis NKSG1 TaxID=1288826 RepID=M7CXH5_9ALTE
+Length=87
+
+ Score = 112 bits (280),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 54/70 (77%), Positives = 64/70 (91%), Gaps = 0/70 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK P TLLRVS+IGT +VALCCFTP+LVI+LGV+GLSA+TGYLD+VLLPALAIF+GLT Y
+Sbjct  1   MKSPTTLLRVSLIGTVIVALCCFTPILVIMLGVLGLSAITGYLDFVLLPALAIFLGLTAY  60
+
+Query  61  AIQRKRQADA  70
+           A+ RK+Q DA
+Sbjct  61  ALWRKKQYDA  70
+
+
+> UniRef90_A0A2N1WYN0 Uncharacterized protein n=1 Tax=Gammaproteobacteria 
+bacterium HGW-Gammaproteobacteria-6 TaxID=2013802 
+RepID=A0A2N1WYN0_9GAMM
+Length=81
+
+ Score = 110 bits (276),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 52/81 (64%), Positives = 62/81 (77%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M DPKTLLR+ +IGT LVALCCFTP+LV+LLG VGL+A TGYLD VLLPAL  F+ L IY
+Sbjct  1   MADPKTLLRIGVIGTVLVALCCFTPILVVLLGAVGLAAFTGYLDVVLLPALVAFVALVIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           A++R+R+A  CC     G K 
+Sbjct  61  ALRRQREARQCCASTHAGEKS  81
+
+
+> UniRef90_S2KG73 Uncharacterized protein n=1 Tax=Halomonas anticariensis 
+(strain DSM 16096 / FP35) TaxID=1121939 RepID=S2KG73_HALAF
+Length=79
+
+ Score = 110 bits (274),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 54/71 (76%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+PKTLLR+S+IGT LVALCCFTP+LVILLG VGL+ALTGYLDYVLLP LA FIGLT+Y
+Sbjct  1   MKNPKTLLRISVIGTVLVALCCFTPILVILLGTVGLAALTGYLDYVLLPTLAAFIGLTLY  60
+
+Query  61  AIQRKRQADAC  71
+           A+ R R    C
+Sbjct  61  ALYRTRTLRTC  71
+
+
+> UniRef90_A0A0R3AVZ3 Membrane protein n=1 Tax=Pseudomonas sp. 
+DSM 29142 TaxID=2015502 RepID=A0A0R3AVZ3_9PSED
+Length=81
+
+ Score = 109 bits (273),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 58/74 (78%), Positives = 69/74 (93%), Gaps = 0/74 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M++PKTL+RV ++G  LVALCCFTP+LVILLGVVGLSALTGYLDYVL+PAL +FIGLTIY
+Sbjct  1   MQNPKTLMRVGVVGAVLVALCCFTPILVILLGVVGLSALTGYLDYVLMPALLVFIGLTIY  60
+
+Query  61  AIQRKRQADACCTP  74
+           A++RKR+ADACC P
+Sbjct  61  AVRRKRKADACCPP  74
+
+
+> UniRef90_A0A2N8FXF0 Transporter n=1 Tax=Pseudomonas sp. FW305-130 
+TaxID=2070644 RepID=A0A2N8FXF0_9PSED
+Length=82
+
+ Score = 108 bits (271),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 49/81 (60%), Positives = 63/81 (78%), Gaps = 0/81 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +PKTLL++ + G+ + ALCCFTPVLV+L GV+GLSA  GYLDYVL PAL  FI LT+Y
+Sbjct  1   MSNPKTLLKIGVSGSVVAALCCFTPVLVVLFGVIGLSAWVGYLDYVLFPALGAFIALTLY  60
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+           A+ +KR+A+ACCT   N  +K
+Sbjct  61  ALHKKRKAEACCTTDSNTGEK  81
+
+
+> UniRef90_V4QHI7 Uncharacterized protein n=4 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=V4QHI7_PSECO
+Length=81
+
+ Score = 107 bits (266),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 49/73 (67%), Positives = 60/73 (82%), Gaps = 0/73 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +PK LL++ + G+ +VALCCFTPVLVILLGV GLSA  GYLDYVL PAL  FI LT+Y
+Sbjct  1   MSNPKPLLKIGVSGSVVVALCCFTPVLVILLGVFGLSAWVGYLDYVLFPALGAFIALTLY  60
+
+Query  61  AIQRKRQADACCT  73
+           A+ +KR+A+ACCT
+Sbjct  61  ALHKKRKAEACCT  73
+
+
+> UniRef90_A0A2N1X570 Uncharacterized protein n=1 Tax=Gammaproteobacteria 
+bacterium HGW-Gammaproteobacteria-6 TaxID=2013802 
+RepID=A0A2N1X570_9GAMM
+Length=79
+
+ Score = 105 bits (262),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 50/72 (69%), Positives = 62/72 (86%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M++PK LL+VS+IGT LVALCCFTP+LVILLG +GL++LTGYLDYVLLPAL  F+GLT Y
+Sbjct  1   MQNPKALLQVSVIGTVLVALCCFTPILVILLGTMGLASLTGYLDYVLLPALVFFVGLTCY  60
+
+Query  61  AIQRKRQADACC  72
+           A+  K++ DA C
+Sbjct  61  ALWSKKKYDAYC  72
+
+
+> UniRef90_A0A1F4IH80 Uncharacterized protein n=1 Tax=Burkholderiales 
+bacterium RIFCSPHIGHO2_12_FULL_61_11 TaxID=1797557 RepID=A0A1F4IH80_9BURK
+Length=81
+
+ Score = 103 bits (256),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 50/80 (63%), Positives = 62/80 (78%), Gaps = 0/80 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M     LL++ I GT +VALCCFTP+LVIL+G VGL AL GYLDYVL PALA+F+G+TIY
+Sbjct  1   MDKNSKLLKLGIGGTIIVALCCFTPILVILIGAVGLGALAGYLDYVLFPALALFVGITIY  60
+
+Query  61  AIQRKRQADACCTPKFNGVK  80
+           A+Q++R+A ACCT    G K
+Sbjct  61  ALQKRRRAQACCTTGNPGEK  80
+
+
+> UniRef90_A0A3A1YNB7 Uncharacterized protein n=2 Tax=Pusillimonas 
+TaxID=305976 RepID=A0A3A1YNB7_9BURK
+Length=91
+
+ Score = 103 bits (257),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 51/72 (71%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKDP +LLR SIIGT  VA CCFTPVLV+L G VGL+ALT YLDYVLLPALA FI LT Y
+Sbjct  1   MKDPNSLLRASIIGTITVAPCCFTPVLVVLFGAVGLTALTSYLDYVLLPALAFFISLTGY  60
+
+Query  61  AIQRKRQADACC  72
+           A+ RK++ +A C
+Sbjct  61  AVWRKKKYEAYC  72
+
+
+> UniRef90_A0A1S0XGB8 Uncharacterized protein n=1 Tax=Rhodanobacter 
+sp. FW510-R12 TaxID=1525219 RepID=A0A1S0XGB8_9GAMM
+Length=80
+
+ Score = 102 bits (255),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 44/77 (57%), Positives = 62/77 (81%), Gaps = 0/77 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +PKTL++V ++G+ L  LCC TP+LV+LLG +GLSALTGYLDYVLLPAL +F+G+T+Y
+Sbjct  1   MGNPKTLIQVGVVGSVLAVLCCATPILVLLLGAIGLSALTGYLDYVLLPALVVFLGITVY  60
+
+Query  61  AIQRKRQADACCTPKFN  77
+           A+ ++++  ACC P   
+Sbjct  61  ALWKRQRERACCMPSHK  77
+
+
+> UniRef90_A0A1G7V332 Mercuric ion transport protein n=1 Tax=Thalassobaculum 
+litoreum DSM 18839 TaxID=1123362 RepID=A0A1G7V332_9PROT
+Length=82
+
+ Score = 102 bits (255),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 48/81 (59%), Positives = 64/81 (79%), Gaps = 1/81 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  TL++  +IGT + A+CCFTPVLVI LGVVGLSA  G+LDYVLLPALA+F+G+T Y
+Sbjct  1   MKDA-TLIKTGVIGTVIAAICCFTPVLVIGLGVVGLSAWLGWLDYVLLPALAVFVGITAY  59
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+            + R+++A ACCT   N +++
+Sbjct  60  GLWRRQRAAACCTTDTNAIQE  80
+
+
+> UniRef90_A9E5X5 Uncharacterized protein n=3 Tax=Sulfitobacter 
+TaxID=60136 RepID=A9E5X5_9RHOB
+Length=78
+
+ Score = 98.6 bits (244),  Expect = 9e-32, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+            +   LL+V +IGT +VALCCFTPVLVIL GVVGLSAL G+LDYVLLPALA+FIG+TIYA
+Sbjct  8   NNQSRLLKVGLIGTVIVALCCFTPVLVILFGVVGLSALLGWLDYVLLPALAVFIGITIYA  67
+
+Query  62  IQRKRQAD  69
+           + ++R ++
+Sbjct  68  LWKRRNSE  75
+
+
+> UniRef90_A0A2D7GWX6 Uncharacterized protein n=1 Tax=Alteromonas 
+sp. TaxID=232 RepID=A0A2D7GWX6_ALTSX
+Length=95
+
+ Score = 99.0 bits (245),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 49/79 (62%), Positives = 59/79 (75%), Gaps = 2/79 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M   K L+R  +IGT L+ALCCFTP LV+LL  VGLSALTGYLD+VLLPAL IFIG+T+Y
+Sbjct  1   MNKEKFLVRFGVIGTVLIALCCFTPALVLLLSAVGLSALTGYLDFVLLPALGIFIGITVY  60
+
+Query  61  AI--QRKRQADACCTPKFN  77
+           A   + KR A+ CC  + N
+Sbjct  61  AFYHKTKRDAENCCESQPN  79
+
+
+> UniRef90_U3ASN6 MerF protein n=1 Tax=Limimaricola cinnabarinus 
+LL-001 TaxID=1337093 RepID=U3ASN6_9RHOB
+Length=69
+
+ Score = 97.4 bits (241),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D  +LLR  +IGT +VALCCFTPVLVILLG VGLSAL G+LDYVLLPALA+FIG+T Y
+Sbjct  1   MPDRTSLLRFGLIGTVIVALCCFTPVLVILLGAVGLSALLGWLDYVLLPALAVFIGITFY  60
+
+Query  61  AIQRKRQA  68
+           A+ R+  A
+Sbjct  61  ALWRRHAA  68
+
+
+> UniRef90_A0A192IF44 Uncharacterized protein n=1 Tax=Rhizobiales 
+bacterium NRL2 TaxID=1862950 RepID=A0A192IF44_9RHIZ
+Length=93
+
+ Score = 97.1 bits (240),  Expect = 7e-31, Method: Compositional matrix adjust.
+ Identities = 47/72 (65%), Positives = 56/72 (78%), Gaps = 2/72 (3%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + +T+LR  I GT + ALCCFTPVLVILLGV GLSA  G+LDYVLLPA AIF+ +T+YA+
+Sbjct  10  NDRTILRTGIGGTVVAALCCFTPVLVILLGVTGLSAWLGWLDYVLLPAFAIFMAITVYAL  69
+
+Query  63  QR--KRQADACC  72
+            R  KRQ D CC
+Sbjct  70  WRRSKRQNDECC  81
+
+
+> UniRef90_A0A2A4Y1W6 Uncharacterized protein n=1 Tax=Rhizobiales 
+bacterium TaxID=1909294 RepID=A0A2A4Y1W6_9RHIZ
+Length=68
+
+ Score = 95.9 bits (237),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 48/65 (74%), Positives = 54/65 (83%), Gaps = 0/65 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + KTLLR +IIGT   ALCCFTPVLVI+ GV+GLSAL GYLDYVLLPAL IF+ LTIYA+
+Sbjct  2   NEKTLLRTAIIGTITAALCCFTPVLVIVFGVMGLSALVGYLDYVLLPALGIFVLLTIYAL  61
+
+Query  63  QRKRQ  67
+            RKR 
+Sbjct  62  WRKRN  66
+
+
+> UniRef90_A0A0E2ZJF8 Membrane protein n=2 Tax=Nitrosococcus oceani 
+TaxID=1229 RepID=A0A0E2ZJF8_9GAMM
+Length=86
+
+ Score = 96.7 bits (239),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 56/73 (77%), Positives = 64/73 (88%), Gaps = 0/73 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+P+ LLRVS+IGT LVALCCFTP+LVILLG +GL+ALTGYLD VLLPALA FIGLT Y
+Sbjct  1   MKNPQALLRVSVIGTILVALCCFTPILVILLGTLGLAALTGYLDVVLLPALAFFIGLTFY  60
+
+Query  61  AIQRKRQADACCT  73
+           A+ RK+Q DACC 
+Sbjct  61  ALWRKKQYDACCN  73
+
+
+> UniRef90_A0A088FSZ1 Membrane protein n=4 Tax=Vibrionaceae TaxID=641 
+RepID=A0A088FSZ1_9GAMM
+Length=85
+
+ Score = 96.7 bits (239),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 50/85 (59%), Positives = 61/85 (72%), Gaps = 4/85 (5%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M   + LLR+ I GT + ALCCFTPVLVILLG VGLS L GYLDY LLPALA F+GLT+Y
+Sbjct  1   MNRQRKLLRLGIAGTVIAALCCFTPVLVILLGAVGLSGLLGYLDYALLPALAFFVGLTVY  60
+
+Query  61  AIQR---KRQADACCTP-KFNGVKK  81
+           A+ R   ++Q   CC P + +G+ K
+Sbjct  61  ALYRNKGEQQKSDCCPPNQQDGINK  85
+
+
+> UniRef90_K2IZF7 Uncharacterized protein n=1 Tax=Oceanibaculum 
+indicum P24 TaxID=1207063 RepID=K2IZF7_9PROT
+Length=82
+
+ Score = 96.3 bits (238),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 45/81 (56%), Positives = 61/81 (75%), Gaps = 1/81 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+L+  I G+ + A+CCFTPVLVILLG  GLSA  G+LDYVLLPAL  F+G+T+Y
+Sbjct  1   MKDA-TILKTGIAGSVIAAICCFTPVLVILLGAAGLSAWLGWLDYVLLPALVFFLGITVY  59
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+            + R+++A ACC+ +  G K+
+Sbjct  60  GLWRRQRAAACCSQESVGNKE  80
+
+
+> UniRef90_A0A1F4DMT5 Uncharacterized protein n=2 Tax=unclassified 
+Betaproteobacteria (miscellaneous) TaxID=33809 RepID=A0A1F4DMT5_9PROT
+Length=85
+
+ Score = 95.9 bits (237),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 45/71 (63%), Positives = 56/71 (79%), Gaps = 0/71 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           D KTLL+  I G+ + ALCC TP+LVI+LGVVGLSA  G+LDYVL+PAL +FIG+TIYA+
+Sbjct  2   DNKTLLKTGIAGSVVAALCCATPILVIVLGVVGLSAWAGWLDYVLVPALVVFIGITIYAL  61
+
+Query  63  QRKRQADACCT  73
+            R+R   ACC 
+Sbjct  62  LRRRTGAACCA  72
+
+
+> UniRef90_M1FFD7 Uncharacterized protein n=22 Tax=Proteobacteria 
+TaxID=1224 RepID=M1FFD7_9ALTE
+Length=79
+
+ Score = 95.9 bits (237),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 56/71 (79%), Positives = 64/71 (90%), Gaps = 0/71 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +PKTLLRVS+IGT LVALCCFTP+LVILLG +GL+ALTGYLDYVLLPALA FIGLT Y
+Sbjct  1   MHNPKTLLRVSVIGTVLVALCCFTPILVILLGTLGLAALTGYLDYVLLPALAFFIGLTCY  60
+
+Query  61  AIQRKRQADAC  71
+           A+ RK++ DAC
+Sbjct  61  ALWRKKKHDAC  71
+
+
+> UniRef90_A0A2K1EAM3 Uncharacterized protein n=1 Tax=Erythrobacter 
+sp. SAORIC-644 TaxID=1869314 RepID=A0A2K1EAM3_9SPHN
+Length=72
+
+ Score = 95.5 bits (236),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 45/65 (69%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + +TLLR+ I+GT +VALCCFTPVLVIL+  VGLSALTGYLDYVL+PAL IF+GLT+YA+
+Sbjct  2   NDRTLLRLGIVGTIIVALCCFTPVLVILVAAVGLSALTGYLDYVLIPALLIFLGLTVYAV  61
+
+Query  63  QRKRQ  67
+           +R+ +
+Sbjct  62  RRRSK  66
+
+
+> UniRef90_A0A2T3J780 Uncharacterized protein n=1 Tax=Photobacterium 
+frigidiphilum TaxID=264736 RepID=A0A2T3J780_9GAMM
+Length=85
+
+ Score = 95.5 bits (236),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 52/85 (61%), Positives = 56/85 (66%), Gaps = 4/85 (5%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M     LL V I GT + ALCCFTP LVILLGVVGLS   GYLDY LLPALA FIGLT Y
+Sbjct  1   MNRQHKLLGVGIAGTVIAALCCFTPALVILLGVVGLSGWLGYLDYALLPALAFFIGLTAY  60
+
+Query  61  AIQRKR---QADACCTP-KFNGVKK  81
+           A+ R R   Q   CC+P + NG  K
+Sbjct  61  ALYRNREDQQQPDCCSPNQQNGTNK  85
+
+
+> UniRef90_H5SE64 Hypothetical conserved protein n=1 Tax=uncultured 
+gamma proteobacterium TaxID=86473 RepID=H5SE64_9GAMM
+Length=82
+
+ Score = 95.1 bits (235),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 42/72 (58%), Positives = 54/72 (75%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           +  P  LL++  +GT + ALCCFTP+L +LLG VGL+ L+GYLDYVL PALA F+GLT Y
+Sbjct  4   LNSPSKLLQIGAVGTAVTALCCFTPILTLLLGAVGLAWLSGYLDYVLFPALAAFVGLTAY  63
+
+Query  61  AIQRKRQADACC  72
+           A+ R+  A ACC
+Sbjct  64  ALWRQETAKACC  75
+
+
+> UniRef90_A0A3M1GBH7 Mercury resistance system transport protein 
+MerF n=1 Tax=Alphaproteobacteria bacterium TaxID=1913988 
+RepID=A0A3M1GBH7_9PROT
+Length=85
+
+ Score = 95.1 bits (235),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 50/78 (64%), Positives = 58/78 (74%), Gaps = 4/78 (5%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD +T+LR  I GT + A+CCFTPVLVI LG VGLSA  G+LDYVLLPALA+FI LT+Y
+Sbjct  1   MKD-RTILRTGIAGTVIAAICCFTPVLVIALGAVGLSAWLGWLDYVLLPALAVFIVLTVY  59
+
+Query  61  AI---QRKRQADACCTPK  75
+            +   QR RQAD C T  
+Sbjct  60  GLWRRQRSRQADCCGTAN  77
+
+
+> UniRef90_A6CV14 Uncharacterized protein n=1 Tax=Vibrio shilonii 
+AK1 TaxID=391591 RepID=A6CV14_9VIBR
+Length=85
+
+ Score = 95.1 bits (235),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 48/85 (56%), Positives = 58/85 (68%), Gaps = 4/85 (5%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M   + LL + I+G  + ALCCFTPVLVILLG VGLS L GYLDY LLPALA F+GLT+Y
+Sbjct  1   MNRHRELLGLGIVGVVITALCCFTPVLVILLGAVGLSGLLGYLDYALLPALAFFVGLTVY  60
+
+Query  61  AIQRKRQADA---CCTPKF-NGVKK  81
+           A+ R +       CC+P   NG+ K
+Sbjct  61  ALYRNKGEQPMSDCCSPNHQNGINK  85
+
+
+> UniRef90_A0A369L3I9 Mercury resistance system transport protein 
+MerF n=1 Tax=Halomonas sp. DQ26W TaxID=2282311 RepID=A0A369L3I9_9GAMM
+Length=62
+
+ Score = 94.4 bits (233),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 47/62 (76%), Positives = 53/62 (85%), Gaps = 0/62 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK PKTLLRVS+IGT +VALCC TP+LVILLG +G +ALTGYLDYVL PAL  FIGLT Y
+Sbjct  1   MKKPKTLLRVSVIGTIVVALCCVTPILVILLGTLGFAALTGYLDYVLFPALTFFIGLTFY  60
+
+Query  61  AI  62
+           A+
+Sbjct  61  AL  62
+
+
+> UniRef90_A0A347UE21 Mercury resistance system transport protein 
+MerF n=1 Tax=Rhodobacteraceae bacterium BAR1 TaxID=2171755 
+RepID=A0A347UE21_9RHOB
+Length=72
+
+ Score = 94.0 bits (232),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 47/64 (73%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + K+LL+V IIGT   ALCCFTPVLV+L G+VGLSAL GYLDYVL PAL IFI LTIYA+
+Sbjct  2   NDKSLLKVGIIGTVTAALCCFTPVLVVLFGIVGLSALVGYLDYVLFPALGIFILLTIYAL  61
+
+Query  63  QRKR  66
+            RKR
+Sbjct  62  WRKR  65
+
+
+> UniRef90_A0A384G1T7 Uncharacterized protein n=5 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A384G1T7_9RHOB
+Length=75
+
+ Score = 94.0 bits (232),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 45/63 (71%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL+  +IGT +VALCCFTPVLVIL G VGLSAL G+LDYVLLPALAIFIG+TIYA+ ++R
+Sbjct  10  LLKFGLIGTVIVALCCFTPVLVILFGAVGLSALLGWLDYVLLPALAIFIGITIYALWKRR  69
+
+Query  67  QAD  69
+            ++
+Sbjct  70  DSE  72
+
+
+> UniRef90_A0A3M1K814 Mercury resistance system transport protein 
+MerF n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 
+RepID=A0A3M1K814_9GAMM
+Length=81
+
+ Score = 93.2 bits (230),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 45/70 (64%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           +P  LL+  IIGT + ALCCFTPVLVI+LG VGLSA TGYLD VLLPALA+F+ LT+YA 
+Sbjct  2   NPGMLLKTGIIGTVVTALCCFTPVLVIVLGAVGLSAWTGYLDVVLLPALALFVALTVYAW  61
+
+Query  63  QRKRQADACC  72
+            R++    CC
+Sbjct  62  VRRKPVQDCC  71
+
+
+> UniRef90_A0A1Y5TSZ0 Membrane transport protein MerF n=1 Tax=Oceanibacterium 
+hippocampi TaxID=745714 RepID=A0A1Y5TSZ0_9PROT
+Length=82
+
+ Score = 93.2 bits (230),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 42/75 (56%), Positives = 58/75 (77%), Gaps = 1/75 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T++R  I+G  + A+CC TPVLVI LG +G SA  G+LDYVLLPALA+F+G+T Y
+Sbjct  1   MKD-ATIVRTGIVGAAIAAVCCVTPVLVIALGALGFSAWLGWLDYVLLPALALFLGMTAY  59
+
+Query  61  AIQRKRQADACCTPK  75
+            + R+++A ACC+P+
+Sbjct  60  GLWRRQRARACCSPE  74
+
+
+> UniRef90_A0A1A9F1J9 Uncharacterized protein n=1 Tax=Marinobacterium 
+aestuarii TaxID=1821621 RepID=A0A1A9F1J9_9GAMM
+Length=80
+
+ Score = 92.8 bits (229),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 47/79 (59%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + KTLL   ++GT LV LCC TP+LVIL G+VGLSALTGYLDYVLLPALA+FI LT+YA+
+Sbjct  2   NTKTLLCTGVVGTVLVMLCCVTPILVILFGLVGLSALTGYLDYVLLPALAVFIALTLYAL  61
+
+Query  63  QRKRQADACCTPKFNGVKK  81
+            R+ +   C +    G K+
+Sbjct  62  WRRGKGSGCRSKCATGDKQ  80
+
+
+> UniRef90_A0A2U2CDG3 Mercury resistance system transport protein 
+MerF n=1 Tax=Maritimibacter sp. 55A14 TaxID=2174844 RepID=A0A2U2CDG3_9RHOB
+Length=82
+
+ Score = 92.8 bits (229),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 44/72 (61%), Positives = 57/72 (79%), Gaps = 1/72 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+++  +IGT + A+CCFTPVLVI LGVVGLSA  G+LDYVL PALA F+G+T Y
+Sbjct  1   MKDA-TIIKTGVIGTVIAAICCFTPVLVIGLGVVGLSAWLGWLDYVLFPALAAFMGITAY  59
+
+Query  61  AIQRKRQADACC  72
+            + R+++A ACC
+Sbjct  60  GLWRRQRAAACC  71
+
+
+> UniRef90_A0A1F3ZNY8 Uncharacterized protein n=1 Tax=Betaproteobacteria 
+bacterium RIFCSPLOWO2_02_FULL_64_12 TaxID=1797487 
+RepID=A0A1F3ZNY8_9PROT
+Length=79
+
+ Score = 92.4 bits (228),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 48/72 (67%), Positives = 53/72 (74%), Gaps = 0/72 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +  TLLR  IIGT   ALCCFTPVLVILLG VGLSALTGYLD VLLPAL  F+GLT Y
+Sbjct  1   MPNNLTLLRTGIIGTAAAALCCFTPVLVILLGTVGLSALTGYLDIVLLPALIFFVGLTAY  60
+
+Query  61  AIQRKRQADACC  72
+           A+ R+ +    C
+Sbjct  61  AVYRRHRGRQQC  72
+
+
+> UniRef90_A0A2A4V0D5 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium TaxID=1913988 RepID=A0A2A4V0D5_9PROT
+Length=69
+
+ Score = 92.0 bits (227),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 44/68 (65%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           +   L+   IIGT +VALCCFTP+LV+L G+VGLSALTGYLDYVLLPAL  FIGLTIYA+
+Sbjct  2   NKNKLVTAGIIGTVIVALCCFTPLLVMLFGIVGLSALTGYLDYVLLPALIFFIGLTIYAV  61
+
+Query  63  QRKRQADA  70
+            R ++  +
+Sbjct  62  SRHKKRSS  69
+
+
+> UniRef90_A0A2Z4UJU8 Membrane transport protein MerF n=1 Tax=Rhodobiaceae 
+bacterium TaxID=2026785 RepID=A0A2Z4UJU8_9RHIZ
+Length=77
+
+ Score = 92.0 bits (227),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 43/64 (67%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+            +LLR+ IIGT +VALCCFTP+LV+L+G+VGLSALTGYLD VL PALA FI L++YA+ R
+Sbjct  4   ASLLRIGIIGTVIVALCCFTPLLVVLVGIVGLSALTGYLDIVLFPALAFFIALSVYAVWR  63
+
+Query  65  KRQA  68
+           ++ A
+Sbjct  64  RQHA  67
+
+
+> UniRef90_A0A2W5ZMA9 Mercury resistance system transport protein 
+MerF n=6 Tax=Proteobacteria TaxID=1224 RepID=A0A2W5ZMA9_PSEST
+Length=75
+
+ Score = 92.0 bits (227),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 45/68 (66%), Positives = 59/68 (87%), Gaps = 1/68 (1%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           KD + LL+  +IGT LVALCCFTPVLV+LLG VGLSAL G+LD+VLLPALA+FIG+TI+A
+Sbjct  9   KDDR-LLKYGLIGTVLVALCCFTPVLVVLLGAVGLSALLGWLDFVLLPALAVFIGITIFA  67
+
+Query  62  IQRKRQAD  69
+           + R+++ +
+Sbjct  68  LWRRQRTN  75
+
+
+> UniRef90_A0A0A1YGH5 Membrane protein n=1 Tax=Pseudomonas taeanensis 
+MS-3 TaxID=1395571 RepID=A0A0A1YGH5_9PSED
+Length=82
+
+ Score = 92.0 bits (227),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 52/78 (67%), Positives = 65/78 (83%), Gaps = 0/78 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M++PKTL++V ++GT LVALCCFTP+LVILLG++GLSALTGYLDY+L PALA FIGLT+Y
+Sbjct  1   MRNPKTLMKVGVVGTVLVALCCFTPILVILLGLIGLSALTGYLDYMLFPALAGFIGLTLY  60
+
+Query  61  AIQRKRQADACCTPKFNG  78
+           A  RK + +AC  P   G
+Sbjct  61  ATWRKGKTEACRAPTATG  78
+
+
+> UniRef90_A0A2U2CLX0 Mercury resistance system transport protein 
+MerF n=1 Tax=Maritimibacter sp. 55A14 TaxID=2174844 RepID=A0A2U2CLX0_9RHOB
+Length=77
+
+ Score = 91.7 bits (226),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 41/75 (55%), Positives = 56/75 (75%), Gaps = 0/75 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           +++  +IGT + A+CCFTPVLVI LGVVGLSA  G+LDYVLLP LA+F+G+T Y + R++
+Sbjct  1   MIKTGVIGTVIAAICCFTPVLVIGLGVVGLSAWLGWLDYVLLPTLAVFVGVTAYGLWRRQ  60
+
+Query  67  QADACCTPKFNGVKK  81
+           +A ACC       K+
+Sbjct  61  RAAACCETDTKATKE  75
+
+
+> UniRef90_A0A357FVH9 Mercury resistance system transport protein 
+MerF n=1 Tax=Rhodospirillaceae bacterium TaxID=1898112 RepID=A0A357FVH9_9PROT
+Length=80
+
+ Score = 91.7 bits (226),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 46/73 (63%), Positives = 58/73 (79%), Gaps = 3/73 (4%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + + L+R+ I GT ++ALCCFTPVL++LLG+VGLSALTGYLDYVLLPAL  FIGL  YA+
+Sbjct  2   NDRLLVRLGIFGTVILALCCFTPVLIVLLGIVGLSALTGYLDYVLLPALVFFIGLAGYAL  61
+
+Query  63  QRKRQADACCTPK  75
+            +K+Q   C T K
+Sbjct  62  WKKQQ---CATGK  71
+
+
+> UniRef90_A0A0N0E707 Uncharacterized protein n=2 Tax=Ahrensia 
+marina TaxID=1514904 RepID=A0A0N0E707_9RHOB
+Length=78
+
+ Score = 91.3 bits (225),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 48/70 (69%), Positives = 55/70 (79%), Gaps = 1/70 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M + K LL   IIGT + ALCCFT VLV+LLG VGLSA+ GYLD VLLPALAIFIG+TIY
+Sbjct  9   MTNNK-LLATGIIGTVIAALCCFTTVLVVLLGAVGLSAIVGYLDIVLLPALAIFIGITIY  67
+
+Query  61  AIQRKRQADA  70
+           A+ RK +A A
+Sbjct  68  AVWRKTKAQA  77
+
+
+> UniRef90_A0A1E5A5X8 Uncharacterized protein n=1 Tax=Chromatiales 
+bacterium (ex Bugula neritina AB1) TaxID=1868282 RepID=A0A1E5A5X8_9GAMM
+Length=73
+
+ Score = 91.3 bits (225),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 43/65 (66%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + LL   IIGT + ALCCFTPVLV+LLG +GLSA+ GYLD VLLPALAIF+G+T+YA+ R
+Sbjct  4   RALLTTGIIGTIVAALCCFTPVLVVLLGAIGLSAVVGYLDVVLLPALAIFVGITVYALWR  63
+
+Query  65  KRQAD  69
+           +RQ  
+Sbjct  64  RRQHS  68
+
+
+> UniRef90_A0A3M1J115 Mercury resistance system transport protein 
+MerF n=1 Tax=Chloroflexi bacterium TaxID=2026724 RepID=A0A3M1J115_9CHLR
+Length=97
+
+ Score = 91.7 bits (226),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 46/70 (66%), Positives = 51/70 (73%), Gaps = 4/70 (6%)
+
+Query  8   LRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+           L+  IIG  + ALCCFTP+LVILLGVVG SALTGYLDYVL PALA FIGLT+Y + R   
+Sbjct  8   LKTGIIGAIIAALCCFTPILVILLGVVGFSALTGYLDYVLFPALAFFIGLTLYGLWRNNN  67
+
+Query  68  ----ADACCT  73
+                 ACCT
+Sbjct  68  KANAQHACCT  77
+
+
+> UniRef90_A0A1I4FMR0 Mercuric ion transport protein n=2 Tax=Nitrosomonas 
+aestuarii TaxID=52441 RepID=A0A1I4FMR0_9PROT
+Length=87
+
+ Score = 90.9 bits (224),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 47/79 (59%), Positives = 55/79 (70%), Gaps = 2/79 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M   + LLR+ +IGT +VALCCFTP+LVILL  VGLSA TGYLD VL PAL  FIGLT Y
+Sbjct  3   MDKNRRLLRIGVIGTLIVALCCFTPLLVILLAAVGLSAFTGYLDVVLFPALGFFIGLTGY  62
+
+Query  61  AIQRKR--QADACCTPKFN  77
+           A  RK+  +   CC P  +
+Sbjct  63  AFYRKKSQRNPVCCKPDLH  81
+
+
+> UniRef90_A0A2M9G0I1 Uncharacterized protein n=1 Tax=Rhizobiales 
+bacterium TaxID=1909294 RepID=A0A2M9G0I1_9RHIZ
+Length=77
+
+ Score = 90.1 bits (222),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 42/65 (65%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           +++  +IGT + A+CCFTPVLVI LGVVGLSA  G+LDYVLLP LAIFIG+T Y + R+R
+Sbjct  1   MIKTGVIGTVIAAICCFTPVLVIGLGVVGLSAWLGWLDYVLLPTLAIFIGITAYGLWRRR  60
+
+Query  67  QADAC  71
+           Q+ AC
+Sbjct  61  QSIAC  65
+
+
+> UniRef90_A0A1M5B555 Mercuric ion transport protein n=1 Tax=Halomonas 
+ilicicola DSM 19980 TaxID=1121942 RepID=A0A1M5B555_9GAMM
+Length=76
+
+ Score = 90.1 bits (222),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 46/70 (66%), Positives = 54/70 (77%), Gaps = 1/70 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK P +LL   ++GT LVALCCFTPVLV+L   VGLSA  GYLDYVL PALAIFIGLTIY
+Sbjct  1   MKKP-SLLTTGVVGTVLVALCCFTPVLVVLFATVGLSAWLGYLDYVLFPALAIFIGLTIY  59
+
+Query  61  AIQRKRQADA  70
+           A+ R+  + +
+Sbjct  60  ALYRRNTSRS  69
+
+
+> UniRef90_A0A2N3B882 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium HGW-Alphaproteobacteria-8 TaxID=2013671 
+RepID=A0A2N3B882_9PROT
+Length=79
+
+ Score = 89.7 bits (221),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 44/69 (64%), Positives = 53/69 (77%), Gaps = 0/69 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K P TLL+V +IGT + ALCCFTPVLV+L G VGL+A+ GYLD VL PAL IFI LTIYA
+Sbjct  6   KSPNTLLKVGVIGTIVAALCCFTPVLVVLFGAVGLAAVVGYLDAVLFPALGIFILLTIYA  65
+
+Query  62  IQRKRQADA  70
+           + RK   ++
+Sbjct  66  LWRKSARNS  74
+
+
+> UniRef90_K9Y0U7 Mercury ion transport transmembrane protein MerF 
+n=1 Tax=Stanieria cyanosphaera (strain ATCC 29371 / PCC 
+7437) TaxID=111780 RepID=K9Y0U7_STAC7
+Length=73
+
+ Score = 89.4 bits (220),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 46/67 (69%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +PKT L VSI GT LVALCCFTP+LVILLG +GLSAL GYLDYVLLPAL I + LT+ 
+Sbjct  1   MMNPKTALIVSISGTILVALCCFTPILVILLGAIGLSALVGYLDYVLLPALLIMLALTVL  60
+
+Query  61  AIQRKRQ  67
+           +  R R+
+Sbjct  61  SYSRYRR  67
+
+
+> UniRef90_A0A126RHV2 MerF mercury ion transport protein n=1 Tax=Sphingobium 
+sp. TKS TaxID=1315974 RepID=A0A126RHV2_9SPHN
+Length=69
+
+ Score = 89.4 bits (220),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 45/66 (68%), Positives = 54/66 (82%), Gaps = 1/66 (2%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD +TL+ V + G  L ALCCFTPVLV L G+VGLSA+TGYLDYVLLPAL  F+GLTI+
+Sbjct  1   MKD-RTLIGVGVTGAALAALCCFTPVLVALAGIVGLSAITGYLDYVLLPALVFFVGLTIF  59
+
+Query  61  AIQRKR  66
+           A+ R+R
+Sbjct  60  AVVRQR  65
+
+
+> UniRef90_A0A1G7A234 Mercuric ion transport protein n=1 Tax=Limimaricola 
+pyoseonensis TaxID=521013 RepID=A0A1G7A234_9RHOB
+Length=76
+
+ Score = 89.4 bits (220),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 43/63 (68%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL+  +IGT +VALCCFTPVLVILLG VGLSAL G+LD VLLPALA+F+G+T+YA+ R+R
+Sbjct  14  LLKYGLIGTVVVALCCFTPVLVILLGAVGLSALLGWLDIVLLPALAVFVGVTLYALWRRR  73
+
+Query  67  QAD  69
+           + +
+Sbjct  74  RPN  76
+
+
+> UniRef90_A0A1T2AW42 Uncharacterized protein n=3 Tax=Thioclava 
+TaxID=285107 RepID=A0A1T2AW42_9RHOB
+Length=76
+
+ Score = 89.4 bits (220),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 46/66 (70%), Positives = 55/66 (83%), Gaps = 1/66 (2%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K    LL+  +IGT LVALCCFTP+LVILLG VGLSAL G+LD VLLPALA+FIG+T+YA
+Sbjct  9   KKNDRLLKYGLIGTVLVALCCFTPILVILLGAVGLSALMGWLDIVLLPALAVFIGITLYA  68
+
+Query  62  I-QRKR  66
+           + QR+R
+Sbjct  69  LWQRQR  74
+
+
+> UniRef90_A0A2G2B3X8 Uncharacterized protein n=1 Tax=Marinosulfonomonas 
+sp. TaxID=2030815 RepID=A0A2G2B3X8_9RHOB
+Length=76
+
+ Score = 89.4 bits (220),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 43/64 (67%), Positives = 52/64 (81%), Gaps = 0/64 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LLR  IIGT L ALCCFTPVLV+L G+VGL+AL GYLDYVL PAL +F+ LT+YA+ RK 
+Sbjct  11  LLRFGIIGTVLAALCCFTPVLVVLFGLVGLAALVGYLDYVLFPALGLFVLLTLYALWRKH  70
+
+Query  67  QADA  70
+           + +A
+Sbjct  71  KNEA  74
+
+
+> UniRef90_A0A3A8BA17 Mercury resistance system transport protein 
+MerF n=1 Tax=Roseovarius sp. HN-E21 TaxID=2320272 RepID=A0A3A8BA17_9RHOB
+Length=83
+
+ Score = 89.4 bits (220),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 43/70 (61%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           +   K LL+  IIGT +VALCCFTPVLVILLG VGLSA+ G+LDYV+ PAL +FI +TIY
+Sbjct  11  LNRHKGLLKTGIIGTVIVALCCFTPVLVILLGAVGLSAVLGWLDYVIFPALGLFIAITIY  70
+
+Query  61  AIQRKRQADA  70
+           A+ ++R   A
+Sbjct  71  ALWKRRNLQA  80
+
+
+> UniRef90_A0A1W9GL17 Uncharacterized protein n=1 Tax=Nitrospira 
+sp. SG-bin2 TaxID=1827377 RepID=A0A1W9GL17_9BACT
+Length=81
+
+ Score = 89.4 bits (220),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 44/75 (59%), Positives = 59/75 (79%), Gaps = 3/75 (4%)
+
+Query  1   MKDPKT--LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLT  58
+           M++ +T  LLR  +IG+ + A+CCFTP+LV+L G VGL A+TG LDYVLLPALA+F+GLT
+Sbjct  1   MEERRTTRLLRTGLIGSVIAAICCFTPILVVLFGAVGLGAITGDLDYVLLPALAVFLGLT  60
+
+Query  59  IYAIQRKRQ-ADACC  72
+            Y + R++Q A ACC
+Sbjct  61  AYGVYRQKQVAAACC  75
+
+
+> UniRef90_A0A2E3AVZ7 Uncharacterized protein n=3 Tax=Hyphomonadaceae 
+TaxID=69657 RepID=A0A2E3AVZ7_9RHOB
+Length=77
+
+ Score = 89.4 bits (220),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 41/63 (65%), Positives = 53/63 (84%), Gaps = 0/63 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           ++LL V IIGT + ALCCFTPVLV+L GV+GLSA TGYLD++L PAL +FI LT+YA+ R
+Sbjct  2   RSLLSVGIIGTIVAALCCFTPVLVVLFGVIGLSAFTGYLDHILFPALGLFIVLTLYAVWR  61
+
+Query  65  KRQ  67
+           +R+
+Sbjct  62  RRR  64
+
+
+> UniRef90_A0A3M1IUW8 Mercury resistance system transport protein 
+MerF n=1 Tax=Alphaproteobacteria bacterium TaxID=1913988 
+RepID=A0A3M1IUW8_9PROT
+Length=71
+
+ Score = 89.0 bits (219),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 49/66 (74%), Positives = 52/66 (79%), Gaps = 1/66 (2%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D K LL   IIGT + ALCCFTPVLVILLGVVGLSAL G+LD VLLPALA FIGLT Y
+Sbjct  1   MSD-KGLLATGIIGTLVAALCCFTPVLVILLGVVGLSALAGWLDVVLLPALAFFIGLTAY  59
+
+Query  61  AIQRKR  66
+           A+ R R
+Sbjct  60  ALWRLR  65
+
+
+> UniRef90_I4JFG8 Membrane transport protein MerF n=2 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=I4JFG8_PSEST
+Length=82
+
+ Score = 89.4 bits (220),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 40/67 (60%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  15  TTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADACCTP  74
+           + + A+CCFTPVLV+L G +GLSA  GYLDYVL PAL  FI LT+YA+ +KR+A+ACCT 
+Sbjct  16  SVVAAVCCFTPVLVVLFGAIGLSAWVGYLDYVLFPALGAFIALTLYALHKKRKAEACCTV  75
+
+Query  75  KFNGVKK  81
+             N  +K
+Sbjct  76  DSNTGEK  82
+
+
+> UniRef90_A0A2E3EV46 Uncharacterized protein n=1 Tax=Tistrella 
+sp. TaxID=2024861 RepID=A0A2E3EV46_9PROT
+Length=82
+
+ Score = 89.0 bits (219),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 41/81 (51%), Positives = 59/81 (73%), Gaps = 1/81 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD   +L+  + G+ + A+CCFTP LVILLG VGLSA  G++DYVL PALAIF+ +T Y
+Sbjct  1   MKD-TIILKTGVAGSIIAAVCCFTPALVILLGAVGLSAWLGWIDYVLFPALAIFLSVTAY  59
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+            + R+++A ACC+ + +  K+
+Sbjct  60  GLWRRQRAAACCSSEAHPNKE  80
+
+
+> UniRef90_A0A1N6PMX1 Mercuric ion transport protein n=2 Tax=Azoarcus 
+tolulyticus TaxID=34027 RepID=A0A1N6PMX1_9RHOO
+Length=85
+
+ Score = 89.0 bits (219),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 40/70 (57%), Positives = 52/70 (74%), Gaps = 0/70 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           D +TLL+  I G+ + A+CC TPVL I LG+VGLSA  G+LDYVL+PAL IF+G+T YA+
+Sbjct  2   DNRTLLKTGITGSVIAAICCATPVLAIALGIVGLSAWVGWLDYVLIPALVIFVGITAYAL  61
+
+Query  63  QRKRQADACC  72
+            R+R    CC
+Sbjct  62  YRRRAETDCC  71
+
+
+> UniRef90_A0A3C0LHD6 Mercury resistance system transport protein 
+MerF n=1 Tax=Chloroflexi bacterium TaxID=2026724 RepID=A0A3C0LHD6_9CHLR
+Length=87
+
+ Score = 89.0 bits (219),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 44/76 (58%), Positives = 50/76 (66%), Gaps = 3/76 (4%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+            +D    LR  +IG  + ALCCFTPVL IL GVVGLS   GYLDYVL PALA FIGLTIY
+Sbjct  3   QQDSNNALRWGVIGAVVAALCCFTPVLAILFGVVGLSWAVGYLDYVLFPALAFFIGLTIY  62
+
+Query  61  AI---QRKRQADACCT  73
+           A+   Q+ R+    C 
+Sbjct  63  ALWKQQKNREVGVACE  78
+
+
+> UniRef90_A0A2H0NM66 Uncharacterized protein n=2 Tax=unclassified 
+Gallionellaceae TaxID=890109 RepID=A0A2H0NM66_9PROT
+Length=69
+
+ Score = 88.2 bits (217),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 41/64 (64%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + +TLL+  I GT + ALCCFTPVL ILLGVVGLSA  G+LDYVL+PAL +F+G+TIYA+
+Sbjct  2   NNRTLLKTGIAGTVIAALCCFTPVLAILLGVVGLSAWLGWLDYVLIPALLVFVGITIYAL  61
+
+Query  63  QRKR  66
+           +R++
+Sbjct  62  RRQQ  65
+
+
+> UniRef90_A0A1Z3HHZ5 Uncharacterized protein n=1 Tax=Halomicronema 
+hongdechloris C2206 TaxID=1641165 RepID=A0A1Z3HHZ5_9CYAN
+Length=73
+
+ Score = 88.2 bits (217),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 40/65 (62%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           +PK  L  S+IGTT+VALCCFTP+L+++LG +GLSA  GYLDYVLLPAL  F+GLT+++ 
+Sbjct  2   NPKNRLIASLIGTTVVALCCFTPILLVMLGALGLSAWAGYLDYVLLPALGAFVGLTLWSY  61
+
+Query  63  QRKRQ  67
+            R R+
+Sbjct  62  WRYRR  66
+
+
+> UniRef90_A0A3M1L4C2 Mercury resistance system transport protein 
+MerF n=1 Tax=Cyanobacteria bacterium J083 TaxID=2420336 RepID=A0A3M1L4C2_9CYAN
+Length=70
+
+ Score = 87.8 bits (216),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 43/66 (65%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           +PK  L  SI GT +VALCCFTP+LVILLGV+GLSAL GYLDYVLLPAL I +GLT+ + 
+Sbjct  2   NPKQALWASISGTIIVALCCFTPILVILLGVIGLSALVGYLDYVLLPALGIMVGLTVLSY  61
+
+Query  63  QRKRQA  68
+            R  ++
+Sbjct  62  WRYHRS  67
+
+
+> UniRef90_A0A2I0F6T0 Uncharacterized protein n=2 Tax=Moritella 
+TaxID=58050 RepID=A0A2I0F6T0_9GAMM
+Length=73
+
+ Score = 87.8 bits (216),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 43/69 (62%), Positives = 51/69 (74%), Gaps = 0/69 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M   + LL+  I GT + ALCCFTP+LVI LGVVGLS L GYLDYVLLPAL  FIGLT+Y
+Sbjct  1   MNKERPLLKWGITGTVIFALCCFTPILVIALGVVGLSGLLGYLDYVLLPALVFFIGLTVY  60
+
+Query  61  AIQRKRQAD  69
+           A+ + +  D
+Sbjct  61  ALFKSKMKD  69
+
+
+> UniRef90_A0A1V1UNH6 Membrane transport protein MerF n=1 Tax=Roseovarius 
+sp. A-2 TaxID=1570360 RepID=A0A1V1UNH6_9RHOB
+Length=77
+
+ Score = 87.4 bits (215),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 41/69 (59%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K+   L+   I+GT + ALCCFTPVLV+LLG VGLSA  G++DYVLLP LA FI LT+YA
+Sbjct  4   KNDGKLIVTGIVGTVIAALCCFTPVLVVLLGAVGLSAWLGWIDYVLLPTLAFFIALTLYA  63
+
+Query  62  IQRKRQADA  70
+           + R++Q  A
+Sbjct  64  VWRRQQRHA  72
+
+
+> UniRef90_A0A2A5CL63 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium TaxID=1913988 RepID=A0A2A5CL63_9PROT
+Length=69
+
+ Score = 87.0 bits (214),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 45/70 (64%), Positives = 52/70 (74%), Gaps = 1/70 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M + K L+ V I GT   ALCCFTP+LV+L G+VGLSALTGYLDYVLLPAL  FIGLTIY
+Sbjct  1   MNNNK-LIIVGISGTAFFALCCFTPLLVVLFGIVGLSALTGYLDYVLLPALIFFIGLTIY  59
+
+Query  61  AIQRKRQADA  70
+           A  R  +  +
+Sbjct  60  ASWRHSKRSS  69
+
+
+> UniRef90_A0A0B5E7W6 Uncharacterized protein n=5 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A0B5E7W6_9RHOB
+Length=77
+
+ Score = 87.0 bits (214),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 40/69 (58%), Positives = 53/69 (77%), Gaps = 0/69 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           +  + L+   ++GT + ALCCFTP+LV+LLG VGLSA  G+LDYVLLPALA  IGLTIYA
+Sbjct  4   RTDRKLIATGVVGTVIAALCCFTPILVVLLGAVGLSAWLGWLDYVLLPALAFLIGLTIYA  63
+
+Query  62  IQRKRQADA  70
+           + R+++  A
+Sbjct  64  VWRRQRRRA  72
+
+
+> UniRef90_A0A1H9TA39 Mercuric ion transport protein n=2 Tax=Roseivivax 
+TaxID=93682 RepID=A0A1H9TA39_9RHOB
+Length=75
+
+ Score = 87.0 bits (214),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 41/63 (65%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           L++  +IGT +VALCCFTP+LVILLG VGLSAL G+LD VLLPALA+FIG+T+YA+ R++
+Sbjct  13  LVKCGLIGTVVVALCCFTPILVILLGAVGLSALLGWLDMVLLPALAVFIGITLYALWRRQ  72
+
+Query  67  QAD  69
+           + +
+Sbjct  73  RTN  75
+
+
+> UniRef90_A0A059DP56 Uncharacterized protein n=1 Tax=Hyphomonas 
+sp. CY54-11-8 TaxID=1280944 RepID=A0A059DP56_9RHOB
+Length=73
+
+ Score = 86.7 bits (213),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 46/67 (69%), Positives = 56/67 (84%), Gaps = 2/67 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M+D   LL   +IGT +VALCCFTPVLVILLGVVGLSALTG LD+VL+PALA+F+ LTIY
+Sbjct  1   MRDK--LLLTGVIGTVIVALCCFTPVLVILLGVVGLSALTGVLDFVLIPALAVFVLLTIY  58
+
+Query  61  AIQRKRQ  67
+           A+ R+ +
+Sbjct  59  ALVRRNR  65
+
+
+> UniRef90_A3TSG3 Uncharacterized protein n=3 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A3TSG3_PSEBH
+Length=76
+
+ Score = 87.0 bits (214),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 44/76 (58%), Positives = 59/76 (78%), Gaps = 7/76 (9%)
+
+Query  1   MKDPKT-------LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAI  53
+           M  P+T       LL+  +IGT +VALCCFTP+LVILLG VGLSA+ G+LD VLLPALA+
+Sbjct  1   MTQPETPAGKNDRLLKFGLIGTVVVALCCFTPILVILLGAVGLSAVLGWLDIVLLPALAL  60
+
+Query  54  FIGLTIYAIQRKRQAD  69
+           FIG+T+YA+ R+++ +
+Sbjct  61  FIGITLYALWRRQRIN  76
+
+
+> UniRef90_A0A2G2HJY8 Uncharacterized protein n=1 Tax=Arcobacter 
+sp. TaxID=1872629 RepID=A0A2G2HJY8_9PROT
+Length=77
+
+ Score = 86.7 bits (213),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 44/76 (58%), Positives = 53/76 (70%), Gaps = 2/76 (3%)
+
+Query  6   TLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRK  65
+            LL+  IIGT L+ALCCFTP+LVIL+  VGLSA+ GYLDY+L PAL  F+ LT YAI RK
+Sbjct  4   NLLKTGIIGTILIALCCFTPILVILVTTVGLSAIVGYLDYILFPALGFFVLLTAYAISRK  63
+
+Query  66  RQADACCTPKFNGVKK  81
+               +CC      +KK
+Sbjct  64  NS--SCCNNNDKSLKK  77
+
+
+> UniRef90_W4HH13 Uncharacterized protein n=1 Tax=Roseivivax marinus 
+TaxID=1379903 RepID=W4HH13_9RHOB
+Length=76
+
+ Score = 86.7 bits (213),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 44/74 (59%), Positives = 58/74 (78%), Gaps = 7/74 (9%)
+
+Query  1   MKDPKT-------LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAI  53
+           M  P+T       LL+  +IGT +VALCCFTP+LVILLG VGLSAL G+LD VLLPALA+
+Sbjct  1   MTRPETSPDKNDRLLKYGLIGTVIVALCCFTPILVILLGAVGLSALLGWLDIVLLPALAV  60
+
+Query  54  FIGLTIYAIQRKRQ  67
+           F+G+T+YA+ R+++
+Sbjct  61  FVGITLYALWRRQR  74
+
+
+> UniRef90_A0A1I5H6V2 Mercuric ion transport protein n=1 Tax=Roseovarius 
+lutimaris TaxID=1005928 RepID=A0A1I5H6V2_9RHOB
+Length=70
+
+ Score = 86.7 bits (213),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 42/66 (64%), Positives = 54/66 (82%), Gaps = 0/66 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K    LL+  I+GT +VALCCFTPVLV+L G+VGLSA+ GYLDYVLLPALA+F+ +TIYA
+Sbjct  3   KVNDRLLKTGIVGTAIVALCCFTPVLVVLFGIVGLSAVVGYLDYVLLPALAVFVLITIYA  62
+
+Query  62  IQRKRQ  67
+           + R+ +
+Sbjct  63  LIRRAR  68
+
+
+> UniRef90_A0A2Z4UK52 Membrane transport protein MerF n=1 Tax=Rhodobiaceae 
+bacterium TaxID=2026785 RepID=A0A2Z4UK52_9RHIZ
+Length=77
+
+ Score = 86.7 bits (213),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 1/70 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D   LLR+ IIGT +VALCCFTP+LV+L+G+VGLSA+TGYLD VL PALA FI L+ Y
+Sbjct  1   MSD-ALLLRIGIIGTVIVALCCFTPLLVVLVGIVGLSAVTGYLDIVLFPALAFFIALSAY  59
+
+Query  61  AIQRKRQADA  70
+           A+ R++ A A
+Sbjct  60  AVWRRQCAVA  69
+
+
+> UniRef90_A0A0A1Q360 Membrane transport protein MerF n=2 Tax=Bacteria 
+TaxID=2 RepID=A0A0A1Q360_9BACT
+Length=82
+
+ Score = 86.7 bits (213),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 42/75 (56%), Positives = 54/75 (72%), Gaps = 1/75 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+L+  IIG+ + A+CC TPVLVI L  +GLSA  G LDYVLLP+LAIF+G+T Y
+Sbjct  1   MKDA-TILKTGIIGSVVAAICCATPVLVIALSAIGLSAWVGGLDYVLLPSLAIFVGITAY  59
+
+Query  61  AIQRKRQADACCTPK  75
+            + R+ +A ACC   
+Sbjct  60  GLWRRNRAAACCATN  74
+
+
+> UniRef90_A0A259E9F7 Uncharacterized protein n=1 Tax=Hydrogenophilales 
+bacterium 17-64-11 TaxID=1970526 RepID=A0A259E9F7_9PROT
+Length=75
+
+ Score = 86.3 bits (212),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 42/65 (65%), Positives = 51/65 (78%), Gaps = 0/65 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+             + LL   I+GT + ALCCFTPVL +LLGVVGLSAL G+LD VL PALA FIGLTIYA+
+Sbjct  6   SERRLLITGIVGTIIAALCCFTPVLAVLLGVVGLSALLGWLDIVLFPALAFFIGLTIYAV  65
+
+Query  63  QRKRQ  67
+            R+++
+Sbjct  66  WRRQR  70
+
+
+> UniRef90_A0A059FSC2 Uncharacterized protein n=2 Tax=Hyphomonas 
+TaxID=85 RepID=A0A059FSC2_9RHOB
+Length=66
+
+ Score = 85.9 bits (211),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 41/63 (65%), Positives = 53/63 (84%), Gaps = 0/63 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + LL V +IGT + ALCCFTP+L+++LG+VGLSALTGYLDYVLLPAL  FI LT+YA+ R
+Sbjct  2   RALLGVGVIGTLITALCCFTPILIMILGIVGLSALTGYLDYVLLPALGAFILLTLYALWR  61
+
+Query  65  KRQ  67
+           ++ 
+Sbjct  62  RKS  64
+
+
+> UniRef90_A0A0F7PFY4 Membrane transport protein MerF n=1 Tax=Hoeflea 
+sp. IMCC20628 TaxID=1620421 RepID=A0A0F7PFY4_9RHIZ
+Length=67
+
+ Score = 85.5 bits (210),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 43/64 (67%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + LLR+ IIGT + ALCCFTP+LVILLG +GLSA  GYLD VLLPALA FI LT YA+ +
+Sbjct  4   QNLLRIGIIGTVIAALCCFTPILVILLGAIGLSAAVGYLDLVLLPALAAFIVLTAYALWK  63
+
+Query  65  KRQA  68
+           +R A
+Sbjct  64  RRPA  67
+
+
+> UniRef90_A0A3A8AT30 Mercury resistance system transport protein 
+MerF n=1 Tax=Roseovarius sp. HN-E21 TaxID=2320272 RepID=A0A3A8AT30_9RHOB
+Length=73
+
+ Score = 85.9 bits (211),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 2/69 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD   LL   +IGT + ALCCFTPVLVILLGVVGLSALTG+LDYVL+PAL  F+ LTIY
+Sbjct  1   MKDK--LLLTGVIGTLIAALCCFTPVLVILLGVVGLSALTGFLDYVLIPALVFFVLLTIY  58
+
+Query  61  AIQRKRQAD  69
+           A+ R+ +  
+Sbjct  59  ALVRRARTQ  67
+
+
+> UniRef90_A0A1H8MM66 Mercuric ion transport protein n=1 Tax=Maribius 
+pelagius TaxID=387096 RepID=A0A1H8MM66_9RHOB
+Length=75
+
+ Score = 85.5 bits (210),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 41/68 (60%), Positives = 58/68 (85%), Gaps = 1/68 (1%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           +D + LL+  +IGT +VALCCFTP+LVILLG VGLSA+ G+LD VLLPALA+FIG+T+YA
+Sbjct  9   RDDR-LLKYGLIGTVVVALCCFTPILVILLGAVGLSAMLGWLDIVLLPALAVFIGITLYA  67
+
+Query  62  IQRKRQAD  69
+           + ++++ +
+Sbjct  68  LWQRQRTN  75
+
+
+> UniRef90_A0A2D8YDA5 Uncharacterized protein n=1 Tax=Henriciella 
+sp. TaxID=1968823 RepID=A0A2D8YDA5_9RHOB
+Length=79
+
+ Score = 85.5 bits (210),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 43/71 (61%), Positives = 55/71 (77%), Gaps = 2/71 (3%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + +L   + GT +VALCCFTPVLVILLGVVGLSA  G+LDYVLLP LA+FI LT+YA+ R
+Sbjct  7   RKMLITGLAGTVVVALCCFTPVLVILLGVVGLSAALGWLDYVLLPTLALFIALTVYAVWR  66
+
+Query  65  KRQADACCTPK  75
+           +++    C P+
+Sbjct  67  RQRRQ--CDPE  75
+
+
+> UniRef90_A0A0S3TLB2 Uncharacterized protein n=4 Tax=Fischerella 
+TaxID=1190 RepID=A0A0S3TLB2_9CYAN
+Length=74
+
+ Score = 85.1 bits (209),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 45/72 (63%), Positives = 51/72 (71%), Gaps = 2/72 (3%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTI--Y  60
+            PKT L  S+ GT +VALCCFTP+LVILLG VGLSA+ GYLDYVLLPAL I + LT+  Y
+Sbjct  2   KPKTALIASLTGTVVVALCCFTPILVILLGAVGLSAIVGYLDYVLLPALGILVALTVLSY  61
+
+Query  61  AIQRKRQADACC  72
+              RK     CC
+Sbjct  62  FRYRKSHRKNCC  73
+
+
+> UniRef90_E0TF35 Uncharacterized protein n=3 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=E0TF35_PARBH
+Length=94
+
+ Score = 85.5 bits (210),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 41/73 (56%), Positives = 56/73 (77%), Gaps = 2/73 (3%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + LL   + GT + ALCCFTP+LV+LLG VGLSA+ G++DYVLLPALA+FI LT+YA+ R
+Sbjct  22  RKLLITGLAGTVIAALCCFTPILVVLLGAVGLSAVLGWIDYVLLPALALFIALTVYAVWR  81
+
+Query  65  KRQADACCTPKFN  77
+           +++    C+P  N
+Sbjct  82  RQKRP--CSPDGN  92
+
+
+> UniRef90_A0A3M1ZQV3 Mercury resistance system transport protein 
+MerF n=1 Tax=Zetaproteobacteria bacterium TaxID=2026807 RepID=A0A3M1ZQV3_9PROT
+Length=69
+
+ Score = 84.7 bits (208),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 38/62 (61%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  8   LRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+           L+  +IGT + ALCCFTP+L++LLG VGL+A  GYLD VL+PALA F+GLTIYA+ RK +
+Sbjct  7   LKAGVIGTVIAALCCFTPILIVLLGAVGLAAWAGYLDVVLMPALAFFVGLTIYALFRKER  66
+
+Query  68  AD  69
+            +
+Sbjct  67  HE  68
+
+
+> UniRef90_A0A238KT52 Membrane transport protein MerF n=1 Tax=Maliponia 
+aquimaris TaxID=1673631 RepID=A0A238KT52_9RHOB
+Length=73
+
+ Score = 84.7 bits (208),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 41/69 (59%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           ++   LL+  IIGT + ALCCFTPVL +LLG VGLSA  G+LDYVLLPAL  F  LT+YA
+Sbjct  4   RNDGRLLKAGIIGTVIAALCCFTPVLAVLLGAVGLSAALGWLDYVLLPALGFFAALTVYA  63
+
+Query  62  I-QRKRQAD  69
+           + +R+R+A+
+Sbjct  64  VWRRQRRAN  72
+
+
+> UniRef90_A0A166SJW1 Uncharacterized protein n=2 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A166SJW1_9RHOB
+Length=76
+
+ Score = 84.3 bits (207),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 39/61 (64%), Positives = 53/61 (87%), Gaps = 0/61 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL+  ++GT +VALCCFTPVLVIL GVVGLSA+ G++D VL PALA+FIG+T+YA+ R++
+Sbjct  14  LLKYGLVGTVIVALCCFTPVLVILFGVVGLSAVLGWIDLVLFPALAVFIGITLYALWRRQ  73
+
+Query  67  Q  67
+           +
+Sbjct  74  R  74
+
+
+> UniRef90_A0A2D9K5G3 Uncharacterized protein n=1 Tax=Aurantimonas 
+sp. TaxID=1872654 RepID=A0A2D9K5G3_9RHIZ
+Length=82
+
+ Score = 84.3 bits (207),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 39/70 (56%), Positives = 51/70 (73%), Gaps = 0/70 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           +T+ R  I+G  + A+CCFTP+LVI LG VGLSA  G+LDYVLLP L + +GL  Y + R
+Sbjct  4   RTITRSGIVGAVVAAICCFTPILVIGLGAVGLSAWLGWLDYVLLPVLFVALGLIAYGLWR  63
+
+Query  65  KRQADACCTP  74
+           +R+A  CCTP
+Sbjct  64  QRRAADCCTP  73
+
+
+> UniRef90_A0A3E1DDV9 Mercuric ion transport protein n=1 Tax=Candidatus 
+Nitrotoga sp. LAW TaxID=2184310 RepID=A0A3E1DDV9_9PROT
+Length=81
+
+ Score = 84.3 bits (207),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 42/73 (58%), Positives = 51/73 (70%), Gaps = 2/73 (3%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+            TLL+   IG  + ALCCFTPVLV++ G VGL+A  GYLDYVL+PAL  F+GL IYA+ R
+Sbjct  4   STLLKTGTIGVIISALCCFTPVLVLIFGAVGLAAWVGYLDYVLMPALLFFVGLIIYAVTR  63
+
+Query  65  KRQADACCTPKFN  77
+           K +A   CT   N
+Sbjct  64  KSKAS--CTKNAN  74
+
+
+> UniRef90_A0A2E1XVE0 Uncharacterized protein n=1 Tax=Phyllobacteriaceae 
+bacterium TaxID=1871068 RepID=A0A2E1XVE0_9RHIZ
+Length=74
+
+ Score = 84.3 bits (207),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 43/66 (65%), Positives = 50/66 (76%), Gaps = 0/66 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K    LL   IIGT + ALCCFTPVL ILLG VGLSAL G++DYVLLPAL IFI LT YA
+Sbjct  4   KTGNKLLTTGIIGTVVAALCCFTPVLAILLGAVGLSALLGWIDYVLLPALMIFIALTGYA  63
+
+Query  62  IQRKRQ  67
+           + R+++
+Sbjct  64  VWRRQR  69
+
+
+> UniRef90_A0A1R1LW69 Uncharacterized protein n=1 Tax=Motiliproteus 
+sp. MSK22-1 TaxID=1897630 RepID=A0A1R1LW69_9GAMM
+Length=68
+
+ Score = 84.0 bits (206),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 40/68 (59%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK   TLL+  I+G+ + ALCCFTP+L+IL GVVGLS+L GYLDYVLLP L IF+ +TIY
+Sbjct  1   MKKSTTLLKTGIVGSVIAALCCFTPILIILFGVVGLSSLVGYLDYVLLPTLGIFLCITIY  60
+
+Query  61  AIQRKRQA  68
+           A+  +   
+Sbjct  61  AMITRANG  68
+
+
+> UniRef90_A0A3F2UYC0 Mercury resistance system transport protein 
+MerF n=4 Tax=Gammaproteobacteria TaxID=1236 RepID=A0A3F2UYC0_9GAMM
+Length=90
+
+ Score = 84.3 bits (207),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 47/80 (59%), Positives = 54/80 (68%), Gaps = 3/80 (4%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           D   LLR  +IG+ +VALCCFTPVLVILLG VGLSALTGYLD VL PAL +F+G+  YA 
+Sbjct  2   DNAKLLRTGVIGSIIVALCCFTPVLVILLGTVGLSALTGYLDCVLFPALIMFLGIAGYAA  61
+
+Query  63  QRK---RQADACCTPKFNGV  79
+            RK   +Q    C     GV
+Sbjct  62  FRKQPSQQNTTRCNTGHKGV  81
+
+
+> UniRef90_U3AFV8 MerF protein n=3 Tax=Rhodobacteraceae TaxID=31989 
+RepID=U3AFV8_9RHOB
+Length=76
+
+ Score = 84.0 bits (206),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 41/76 (54%), Positives = 57/76 (75%), Gaps = 7/76 (9%)
+
+Query  1   MKDPKT-------LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAI  53
+           M  P+T       LL+  +IGT + ALCCFTP+LV+LL  VGLSAL G+LD VLLPALA+
+Sbjct  1   MTQPETPSDKNDRLLKYGLIGTVVAALCCFTPILVVLLSAVGLSALLGWLDIVLLPALAV  60
+
+Query  54  FIGLTIYAIQRKRQAD  69
+           F+G+T+YA+ R+++ +
+Sbjct  61  FVGITLYALWRRQRTN  76
+
+
+> UniRef90_A0A1G5SC78 Uncharacterized protein n=1 Tax=Nitrosomonas 
+mobilis TaxID=51642 RepID=A0A1G5SC78_9PROT
+Length=74
+
+ Score = 83.6 bits (205),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 41/44 (93%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  29  ILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADACC  72
+           ILLGVVGLSALTGYLDYVLLP LAIFIGLTIYAIQ+KRQAD CC
+Sbjct  9   ILLGVVGLSALTGYLDYVLLPTLAIFIGLTIYAIQQKRQADTCC  52
+
+
+> UniRef90_U7NCE0 Membrane protein n=2 Tax=Marinobacter sp. EVN1 
+TaxID=1397532 RepID=U7NCE0_9ALTE
+Length=77
+
+ Score = 83.6 bits (205),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 49/71 (69%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LLR S+IGT +VALCCFTP+LV+LLG +GL+ALTGYLDYVLLPAL  FIGLT+YA  RK+
+Sbjct  2   LLRTSLIGTVVVALCCFTPILVVLLGALGLAALTGYLDYVLLPALVFFIGLTVYAFWRKK  61
+
+Query  67  QADACCTPKFN  77
+           + +ACC    N
+Sbjct  62  KYEACCKSPSN  72
+
+
+> UniRef90_A0A1Y1SLK2 Uncharacterized protein n=1 Tax=Stappia sp. 
+22II-S9-Z10 TaxID=1317123 RepID=A0A1Y1SLK2_9RHOB
+Length=82
+
+ Score = 83.6 bits (205),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 44/74 (59%), Positives = 54/74 (73%), Gaps = 4/74 (5%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD +TL+R  ++G  + A+CCFTPVLVI LGVVGLSA   +LDYVLLPAL + IG   Y
+Sbjct  1   MKD-RTLIRTGVVGAVIAAICCFTPVLVIGLGVVGLSA---WLDYVLLPALVLSIGPIGY  56
+
+Query  61  AIQRKRQADACCTP  74
+            I R+R+A  CC P
+Sbjct  57  GIWRQRRAADCCAP  70
+
+
+> UniRef90_A0A3M0XZ54 Mercury resistance system transport protein 
+MerF n=1 Tax=Alphaproteobacteria bacterium TaxID=1913988 
+RepID=A0A3M0XZ54_9PROT
+Length=78
+
+ Score = 83.6 bits (205),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 42/77 (55%), Positives = 55/77 (71%), Gaps = 3/77 (4%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           +LR  IIGT + A+CCFTP+LV+L G VGLSA  G+ DYVL PAL  FI LT+YA+ R+R
+Sbjct  1   MLRTGIIGTAVAAVCCFTPLLVVLFGAVGLSAWLGWADYVLFPALVFFILLTVYALYRRR  60
+
+Query  67  QA-DACC--TPKFNGVK  80
+           +A  +CC   P+ +  K
+Sbjct  61  KALQSCCAGAPEESSAK  77
+
+
+> UniRef90_A0A1U7H8W9 Mercury transporter n=1 Tax=Hydrococcus rivularis 
+NIES-593 TaxID=1921803 RepID=A0A1U7H8W9_9CYAN
+Length=74
+
+ Score = 83.2 bits (204),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 45/72 (63%), Positives = 50/72 (69%), Gaps = 2/72 (3%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTI--Y  60
+            PK  L  S+ GT +VALCCFTP+LVILLG VGLSA+ GYLDYVLLPAL I I LT+  Y
+Sbjct  2   KPKNALIASLTGTVIVALCCFTPILVILLGAVGLSAIVGYLDYVLLPALGILIVLTVLSY  61
+
+Query  61  AIQRKRQADACC  72
+              RK     CC
+Sbjct  62  FRYRKSHRKNCC  73
+
+
+> UniRef90_A0A1I2SHU8 Membrane transport protein MerF n=2 Tax=Neptunomonas 
+qingdaonensis TaxID=1045558 RepID=A0A1I2SHU8_9GAMM
+Length=109
+
+ Score = 84.0 bits (206),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 40/68 (59%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+            MK   TLL+  IIG+ + ALCCFTP+LVILLGV+G+S+  GYLD+VLLPAL +FI +T+Y
+Sbjct  42   MKKSTTLLKTGIIGSVIAALCCFTPILVILLGVIGMSSAVGYLDFVLLPALGVFICITLY  101
+
+Query  61   AIQRKRQA  68
+            A+  K + 
+Sbjct  102  ALVLKYKG  109
+
+
+> UniRef90_A0A126V637 Uncharacterized protein n=1 Tax=Halocynthiibacter 
+arcticus TaxID=1579316 RepID=A0A126V637_9RHOB
+Length=60
+
+ Score = 82.4 bits (202),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 40/57 (70%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  11  SIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+            I+GT + ALCCFTP+LV+L GVVGLSA+ GYLDYVLLPALAIF+ +TIYAI R+ +
+Sbjct  2   GIVGTLIAALCCFTPILVVLFGVVGLSAVVGYLDYVLLPALAIFVLITIYAILRRAR  58
+
+
+> UniRef90_A0A3M1K151 Mercury resistance system transport protein 
+MerF n=1 Tax=Alphaproteobacteria bacterium TaxID=1913988 
+RepID=A0A3M1K151_9PROT
+Length=85
+
+ Score = 83.2 bits (204),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 41/80 (51%), Positives = 51/80 (64%), Gaps = 0/80 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K    LLR+ I+GT + ALCCFTPVLV+L G VGL+A  GYLD VL PAL  F+ LT+YA
+Sbjct  6   KPASGLLRLGIVGTIVAALCCFTPVLVVLFGAVGLAAAVGYLDVVLFPALGFFVALTLYA  65
+
+Query  62  IQRKRQADACCTPKFNGVKK  81
+           + R+R        K  G  +
+Sbjct  66  LWRRRGLGTVRADKQEGASE  85
+
+
+> UniRef90_A0A2E2E123 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2E2E123_9PROT
+Length=82
+
+ Score = 82.8 bits (203),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 36/77 (47%), Positives = 54/77 (70%), Gaps = 1/77 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+++  ++G+ + A+CCFTPVLVI LG +GLSA   ++DYVLLPALA+F+G+T Y
+Sbjct  1   MKDA-TVVKTGVVGSVIAAICCFTPVLVIALGAIGLSAWLSWIDYVLLPALALFLGITAY  59
+
+Query  61  AIQRKRQADACCTPKFN  77
+            + ++ +   CC     
+Sbjct  60  GLWQRHRTAVCCATNIQ  76
+
+
+> UniRef90_A0A017HAP7 MerF n=1 Tax=Limimaricola hongkongensis DSM 
+17492 TaxID=1122180 RepID=A0A017HAP7_9RHOB
+Length=76
+
+ Score = 82.4 bits (202),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 42/74 (57%), Positives = 56/74 (76%), Gaps = 7/74 (9%)
+
+Query  1   MKDPKT-------LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAI  53
+           M  P+T       LL+  +IGT +VALCCFTP+LV+LLG VGLS L G+LD VLLP LAI
+Sbjct  1   MTRPETSPDKNDRLLKYGLIGTVVVALCCFTPILVVLLGAVGLSVLLGWLDIVLLPTLAI  60
+
+Query  54  FIGLTIYAIQRKRQ  67
+           F+G+T+YA+ R+++
+Sbjct  61  FLGITLYALWRRQR  74
+
+
+> UniRef90_A0A2A5GKC6 Uncharacterized protein n=1 Tax=Rhizobiales 
+bacterium TaxID=1909294 RepID=A0A2A5GKC6_9RHIZ
+Length=72
+
+ Score = 82.0 bits (201),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 44/66 (67%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+               LL+V IIGT + ALCCFTP+LVIL G VGLSAL G LD VLLPAL IFI LT+YA+
+Sbjct  7   SNNRLLKVGIIGTVVSALCCFTPLLVILFGAVGLSALVGALDMVLLPALGIFILLTLYAL  66
+
+Query  63  QRKRQA  68
+            R R A
+Sbjct  67  LRARMA  72
+
+
+> UniRef90_A0A1Y1SXA9 Uncharacterized protein n=7 Tax=Rhodobacterales 
+TaxID=204455 RepID=A0A1Y1SXA9_9RHOB
+Length=83
+
+ Score = 82.0 bits (201),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 38/62 (61%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           +  + L+   I+GT + ALCCFTPVLV+LLG VGLSA  G+LDYVLLPALA F+ LT+YA
+Sbjct  10  QSDRKLIATGIVGTVIAALCCFTPVLVVLLGAVGLSAWLGWLDYVLLPALAFFVALTVYA  69
+
+Query  62  IQ  63
+           + 
+Sbjct  70  VW  71
+
+
+> UniRef90_C6KU57 Mercury ion transport protein, MerF n=2 Tax=Bacteria 
+TaxID=2 RepID=C6KU57_9BACT
+Length=72
+
+ Score = 82.0 bits (201),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 37/66 (56%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           +  + L+   I+GT + ALCCFTPVLV+L G VGLSA  G+LDYVLLPA A F+ LT+YA
+Sbjct  4   QSDRKLIATGIVGTVIAALCCFTPVLVVLFGAVGLSAWLGWLDYVLLPAFAFFVALTVYA  63
+
+Query  62  IQRKRQ  67
+             R+++
+Sbjct  64  TLRRQR  69
+
+
+> UniRef90_A0A1M5D0X7 Mercuric ion transport protein n=1 Tax=Halomonas 
+ilicicola DSM 19980 TaxID=1121942 RepID=A0A1M5D0X7_9GAMM
+Length=83
+
+ Score = 82.0 bits (201),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 45/83 (54%), Positives = 55/83 (66%), Gaps = 4/83 (5%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLP--ALAIFIGLT  58
+           MKDPK    V ++GT L+ALCC  P+++IL G  GL+ALTGYLDYVL    ALAI IGL 
+Sbjct  1   MKDPKKFSSV-VLGTVLMALCCVVPIVLILFGTAGLAALTGYLDYVLFAVLALAIVIGLP  59
+
+Query  59  IYAIQRKRQADACCTPKFNGVKK  81
+           +Y   RKR+ D CC P     K+
+Sbjct  60  LYVRHRKRKQDTCC-PHETSEKR  81
+
+
+> UniRef90_K9SZT1 Membrane transport protein MerF n=1 Tax=Pleurocapsa 
+sp. PCC 7327 TaxID=118163 RepID=K9SZT1_9CYAN
+Length=74
+
+ Score = 81.6 bits (200),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 44/71 (62%), Positives = 50/71 (70%), Gaps = 2/71 (3%)
+
+Query  4   PKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTI--YA  61
+           PK  L  S+ GT +VALCCFTP+LVILL VVGLSA+ GYLDYVLLPAL I + LT+  Y 
+Sbjct  3   PKNALIASLTGTVIVALCCFTPILVILLEVVGLSAVVGYLDYVLLPALGILVALTVLFYF  62
+
+Query  62  IQRKRQADACC  72
+             RK     CC
+Sbjct  63  RYRKSNRQDCC  73
+
+
+> UniRef90_W3RL37 Ion transport transmembrane protein n=1 Tax=Afipia 
+sp. P52-10 TaxID=1429916 RepID=W3RL37_9BRAD
+Length=82
+
+ Score = 82.0 bits (201),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 38/80 (48%), Positives = 56/80 (70%), Gaps = 1/80 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+L+  IIG+ + A+CC TP+LVI LG + LSA  G++DYVL+PAL +F+ +T Y
+Sbjct  1   MKD-TTILKTGIIGSVIAAVCCATPILVIALGALSLSAWLGWVDYVLIPALVLFLAITAY  59
+
+Query  61  AIQRKRQADACCTPKFNGVK  80
+            + R+++A ACC  +    K
+Sbjct  60  GLWRRQRAAACCASETQSNK  79
+
+
+> UniRef90_D9SHB0 Mercury ion transport, MerF n=1 Tax=Gallionella 
+capsiferriformans (strain ES-2) TaxID=395494 RepID=D9SHB0_GALCS
+Length=83
+
+ Score = 82.0 bits (201),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 39/67 (58%), Positives = 49/67 (73%), Gaps = 1/67 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+  TLL++   G  + ALCCFTPVLV+L G  GL+A  GYLDYVL+PAL  F+GL IY
+Sbjct  1   MKN-STLLKIGTFGVIISALCCFTPVLVLLFGAFGLAAWVGYLDYVLMPALLFFVGLIIY  59
+
+Query  61  AIQRKRQ  67
+           A+ RK +
+Sbjct  60  AVNRKSK  66
+
+
+> UniRef90_A0A0S3F5G5 Uncharacterized protein n=6 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A0S3F5G5_9SPHN
+Length=96
+
+ Score = 82.0 bits (201),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 39/81 (48%), Positives = 56/81 (69%), Gaps = 1/81 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  TLL+  I G+ +  +CC TP+LV+LLG +GLSA  G++DYVL+PALA F+ LT Y
+Sbjct  15  MKD-ATLLKTGIAGSLIAVICCATPLLVVLLGAIGLSAWLGWIDYVLMPALAFFVALTGY  73
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+            + R+++A  CC  +    K+
+Sbjct  74  GLWRRQRAADCCATETQTNKE  94
+
+
+> UniRef90_A0A2N5KEP1 Uncharacterized protein n=1 Tax=Chloroflexi 
+bacterium TaxID=2026724 RepID=A0A2N5KEP1_9CHLR
+Length=74
+
+ Score = 81.3 bits (199),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 40/67 (60%), Positives = 49/67 (73%), Gaps = 0/67 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K    LLR+ I+G+ + A CCFTPVLVI+ G VGL  +TGYLD VLLPALA+F+GLT YA
+Sbjct  7   KPRPGLLRLGIVGSVIAAACCFTPVLVIVFGTVGLGWVTGYLDVVLLPALAVFLGLTAYA  66
+
+Query  62  IQRKRQA  68
+           + R   A
+Sbjct  67  LWRNGHA  73
+
+
+> UniRef90_A0A3D0FB22 Mercury resistance system transport protein 
+MerF n=3 Tax=Nitrosomonas TaxID=914 RepID=A0A3D0FB22_9PROT
+Length=83
+
+ Score = 81.6 bits (200),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 48/77 (62%), Positives = 57/77 (74%), Gaps = 0/77 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M      LR+ I  + +VALCCFTP+LV+LLGV+GLSA  G+LDYVL PALAIFI +TIY
+Sbjct  1   MDKYTKWLRIGIGDSIIVALCCFTPILVVLLGVLGLSAWVGWLDYVLFPALAIFIIITIY  60
+
+Query  61  AIQRKRQADACCTPKFN  77
+           A QR+RQA ACC P   
+Sbjct  61  AWQRRRQALACCAPNHK  77
+
+
+> UniRef90_V9VYR5 Uncharacterized protein n=1 Tax=Leisingera methylohalidivorans 
+DSM 14336 TaxID=999552 RepID=V9VYR5_9RHOB
+Length=74
+
+ Score = 81.3 bits (199),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K  + LL   I GT + ALCCFTPVL  LLGVVGLSA+ G++DYVL PALA F+ LT YA
+Sbjct  4   KTDRKLLTTGIAGTLVAALCCFTPVLAALLGVVGLSAVLGWIDYVLFPALAFFLALTAYA  63
+
+Query  62  IQRKRQ  67
+           + R+++
+Sbjct  64  VWRRQR  69
+
+
+> UniRef90_D3G185 MerF mercury ion transport protein n=3 Tax=Bacillus 
+TaxID=55087 RepID=D3G185_BACPE
+Length=73
+
+ Score = 80.9 bits (198),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 40/69 (58%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK  KT +   +IGT +V LCC TP+LVILLG VGL A+TGYLDYVL+P LA+F+GLT Y
+Sbjct  1   MKHKKTFI-AGLIGTFVVLLCCATPILVILLGAVGLGAITGYLDYVLIPVLAVFLGLTFY  59
+
+Query  61  AIQRKRQAD  69
+           A  +  +++
+Sbjct  60  AYSKYEKSN  68
+
+
+> UniRef90_A0A2A4V903 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium TaxID=1913988 RepID=A0A2A4V903_9PROT
+Length=79
+
+ Score = 80.9 bits (198),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 39/54 (72%), Positives = 45/54 (83%), Gaps = 0/54 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIF  54
+           MK+  +L R  +IGT +VALCCFTPVLVI+LGVVGLSALTGYLD+VL PAL  F
+Sbjct  1   MKNGNSLFRAGVIGTVVVALCCFTPVLVIMLGVVGLSALTGYLDFVLFPALFFF  54
+
+
+> UniRef90_A0A3A8AQ17 Mercury resistance system transport protein 
+MerF n=1 Tax=Roseovarius sp. HN-E21 TaxID=2320272 RepID=A0A3A8AQ17_9RHOB
+Length=74
+
+ Score = 80.9 bits (198),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 42/67 (63%), Positives = 52/67 (78%), Gaps = 2/67 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD   LL   +IGT + ALCCFTP+L+ILLGVVGLSA  G++D+VLLPAL  F+ LTIY
+Sbjct  1   MKDK--LLLTGVIGTIIAALCCFTPILIILLGVVGLSAALGWIDFVLLPALVFFVLLTIY  58
+
+Query  61  AIQRKRQ  67
+           A+ RK +
+Sbjct  59  ALVRKNR  65
+
+
+> UniRef90_A0A1M7SDN5 Mercuric ion transport protein n=1 Tax=Oceanicella 
+actignis TaxID=1189325 RepID=A0A1M7SDN5_9RHOB
+Length=80
+
+ Score = 80.9 bits (198),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 50/66 (76%), Gaps = 0/66 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + LL V  +GT + ALCCFTP+LV+ LG +GLSA  G+LDYVLLPALA F+ LT+YA+ R
+Sbjct  9   RRLLAVGAVGTAVAALCCFTPLLVVALGALGLSAALGWLDYVLLPALAFFVALTVYALLR  68
+
+Query  65  KRQADA  70
+            R+  A
+Sbjct  69  ARRRKA  74
+
+
+> UniRef90_A0A2N3B995 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium HGW-Alphaproteobacteria-5 TaxID=2013668 
+RepID=A0A2N3B995_9PROT
+Length=72
+
+ Score = 80.9 bits (198),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 39/73 (53%), Positives = 55/73 (75%), Gaps = 3/73 (4%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD +T+L   ++G+ +VA+CCFTP LVILLG VGL+A   +LDYVL PALA+F+G+T Y
+Sbjct  1   MKD-RTVLTTGVVGSVIVAVCCFTPALVILLGAVGLAAWLAWLDYVLFPALALFLGITAY  59
+
+Query  61  A--IQRKRQADAC  71
+              ++R R  ++C
+Sbjct  60  GFVLRRHRMRESC  72
+
+
+> UniRef90_A0A059G1L9 MerF mercury ion transport protein n=1 Tax=Hyphomonas 
+oceanitis SCH89 TaxID=1280953 RepID=A0A059G1L9_9RHOB
+Length=78
+
+ Score = 80.9 bits (198),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 41/70 (59%), Positives = 53/70 (76%), Gaps = 0/70 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + LL + +IGT + AL CFTP+LV++LG+VGLSALTGYLDYVLL AL  FI LT+YA+ R
+Sbjct  2   RALLGIDVIGTLMTALYCFTPILVMILGIVGLSALTGYLDYVLLSALGAFILLTLYALWR  61
+
+Query  65  KRQADACCTP  74
+           ++      TP
+Sbjct  62  RKSRILLPTP  71
+
+
+> UniRef90_A0A1L3SMH0 Uncharacterized protein n=1 Tax=Mesorhizobium 
+oceanicum TaxID=1670800 RepID=A0A1L3SMH0_9RHIZ
+Length=82
+
+ Score = 80.9 bits (198),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 37/71 (52%), Positives = 54/71 (76%), Gaps = 1/71 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+++  I+G+ + A+C  TPVLVI LG VGLSA  G++DYVLLP LA+F+ +T+Y
+Sbjct  1   MKDA-TIVKTGIVGSVIAAICGATPVLVIALGAVGLSAWLGWIDYVLLPTLAVFLAMTVY  59
+
+Query  61  AIQRKRQADAC  71
+            + R+++A AC
+Sbjct  60  GLWRRQRAAAC  70
+
+
+> UniRef90_K2KQB5 Uncharacterized protein n=1 Tax=Thalassospira 
+profundimaris WP0211 TaxID=1177928 RepID=K2KQB5_9PROT
+Length=78
+
+ Score = 80.5 bits (197),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 41/77 (53%), Positives = 56/77 (73%), Gaps = 6/77 (8%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+ +TLL+  IIG+ + A+CCFTP LV+LLG +GLSA   +LDYVLLPAL IF+G+T +
+Sbjct  1   MKN-RTLLKTGIIGSAIAAICCFTPALVLLLGAIGLSAWLAWLDYVLLPALVIFLGITAF  59
+
+Query  61  AIQRKRQADACCTPKFN  77
+           A+ R+ +      PK N
+Sbjct  60  ALFRRSR-----IPKAN  71
+
+
+> UniRef90_A0A2S6U644 Uncharacterized protein n=2 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=A0A2S6U644_9PROT
+Length=75
+
+ Score = 80.5 bits (197),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 43/72 (60%), Positives = 52/72 (72%), Gaps = 2/72 (3%)
+
+Query  1   MKDP-KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTI  59
+           M D  K LL   I GT + ALCCFTPVLVIL G +GLSA  G+++ VL PAL IF+ LTI
+Sbjct  1   MSDTNKKLLTTGITGTVVAALCCFTPVLVILFGAIGLSAWLGWINCVLFPALGIFVLLTI  60
+
+Query  60  YAI-QRKRQADA  70
+           YA+ QR RQ++A
+Sbjct  61  YAVYQRSRQSEA  72
+
+
+> UniRef90_A0A0L6CQJ8 Membrane transport protein MerF n=10 Tax=Rhodobacterales 
+TaxID=204455 RepID=A0A0L6CQJ8_9RHOB
+Length=89
+
+ Score = 80.9 bits (198),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 38/62 (61%), Positives = 49/62 (79%), Gaps = 0/62 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           +  + L+   I+GT +VALCCFTP+LV+LLG VGLSA  G+LDYVLLPALA F+ LT+YA
+Sbjct  16  QTDRKLIATGIVGTVIVALCCFTPILVVLLGAVGLSAWLGWLDYVLLPALAFFVVLTVYA  75
+
+Query  62  IQ  63
+           + 
+Sbjct  76  VW  77
+
+
+> UniRef90_L8LZ60 Membrane transport protein MerF n=1 Tax=Xenococcus 
+sp. PCC 7305 TaxID=102125 RepID=L8LZ60_9CYAN
+Length=70
+
+ Score = 79.3 bits (194),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 42/57 (74%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTI  59
+            PKT L  SI GT LVALCCFTP+LVILLG +GLSAL GYLDY+LLPAL I + LTI
+Sbjct  2   KPKTALIASISGTILVALCCFTPILVILLGAIGLSALVGYLDYILLPALFIMLALTI  58
+
+
+> UniRef90_A3U326 Uncharacterized protein n=9 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A3U326_PSEBH
+Length=63
+
+ Score = 79.0 bits (193),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 40/58 (69%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  10  VSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+           + IIGT +VALCCFTP+LVIL G VGL+A+ GYLD VL PAL IFI LTIYA+ RK  
+Sbjct  1   MGIIGTIIVALCCFTPILVILFGAVGLAAVVGYLDLVLFPALGIFILLTIYALWRKNA  58
+
+
+> UniRef90_A0A2D8HM92 Uncharacterized protein n=1 Tax=Sneathiella 
+sp. TaxID=1964365 RepID=A0A2D8HM92_9PROT
+Length=70
+
+ Score = 79.3 bits (194),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 40/67 (60%), Positives = 53/67 (79%), Gaps = 1/67 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M+D K LL++ ++GT + ALCCFTP+LVIL+  VGLSA+ G LD VLLPALAIFIG+T Y
+Sbjct  1   MQD-KNLLKIGMVGTVITALCCFTPLLVILVSAVGLSAILGVLDIVLLPALAIFIGITGY  59
+
+Query  61  AIQRKRQ  67
+           A+ + + 
+Sbjct  60  ALWKLKH  66
+
+
+> UniRef90_A0A2D4VLL8 Uncharacterized protein n=1 Tax=Parvibaculum 
+sp. TaxID=2024848 RepID=A0A2D4VLL8_9RHIZ
+Length=82
+
+ Score = 79.0 bits (193),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 37/71 (52%), Positives = 53/71 (75%), Gaps = 1/71 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+L+  I G+ + A+CC TPVLVI LG +GLSA  G++DYVL+PAL +F+ +T Y
+Sbjct  1   MKD-TTILKTGIAGSNIAAICCSTPVLVIALGALGLSAWLGWVDYVLIPALVLFLTITAY  59
+
+Query  61  AIQRKRQADAC  71
+            + R+++A AC
+Sbjct  60  GLWRRQRAAAC  70
+
+
+> UniRef90_A0A1Y5E0D3 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium 46_93_T64 TaxID=1856292 RepID=A0A1Y5E0D3_9PROT
+Length=68
+
+ Score = 78.6 bits (192),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 34/65 (52%), Positives = 49/65 (75%), Gaps = 0/65 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           K LL++ +IGT + ALCCFTP+LVI+   +G+SA  G LDY+LLP+LA F  +T+YA  +
+Sbjct  4   KNLLKIGVIGTAISALCCFTPILVIVFATMGISAFVGMLDYILLPSLATFAAITLYAFLK  63
+
+Query  65  KRQAD  69
+           +R+ D
+Sbjct  64  RRRND  68
+
+
+> UniRef90_A0A2A4TXF9 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2A4TXF9_9PROT
+Length=77
+
+ Score = 78.6 bits (192),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 39/77 (51%), Positives = 55/77 (71%), Gaps = 1/77 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD KT+L+  +IGT + A+CCFTP LVI+LGV GLSA   +LD+VLLP++AIF+G+  Y
+Sbjct  1   MKD-KTVLKTGLIGTGIAAVCCFTPALVIVLGVAGLSASLAWLDWVLLPSMAIFMGIAGY  59
+
+Query  61  AIQRKRQADACCTPKFN  77
+            +  +++   C T   N
+Sbjct  60  GLYLRKKPHTCKTDLEN  76
+
+
+> UniRef90_A0A384GI28 Uncharacterized protein n=2 Tax=Phaeobacter 
+sp. S60 TaxID=1569353 RepID=A0A384GI28_9RHOB
+Length=89
+
+ Score = 78.6 bits (192),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 47/61 (77%), Gaps = 0/61 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           +    L+  +++GT + ALCCFTP+LV+LLG VGLSA  G+LDYVLLPALA F+  T+YA
+Sbjct  16  QTDHKLIATAVVGTVIAALCCFTPILVVLLGAVGLSAWLGWLDYVLLPALAFFVAQTVYA  75
+
+Query  62  I  62
+           +
+Sbjct  76  V  76
+
+
+> UniRef90_A0A2M7INE1 Mercury transporter n=1 Tax=Candidatus Kaiserbacteria 
+bacterium CG_4_8_14_3_um_filter_38_9 TaxID=1974599 
+RepID=A0A2M7INE1_9BACT
+Length=86
+
+ Score = 78.2 bits (191),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 44/77 (57%), Positives = 53/77 (69%), Gaps = 3/77 (4%)
+
+Query  8   LRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+           L  S++GT LVALCCFTPVLVI +GVVGL ALT YLDY+LLP LA+ I LTI A ++ ++
+Sbjct  10  LYASVVGTILVALCCFTPVLVITVGVVGLGALTPYLDYILLPTLAVMIFLTISAYRKYKK  69
+
+Query  68  ADACC---TPKFNGVKK  81
+               C   T K N   K
+Sbjct  70  ECTTCVADTAKNNSHTK  86
+
+
+> UniRef90_A0A3M2D6F5 Mercury resistance system transport protein 
+MerF n=1 Tax=Nitrospirae bacterium TaxID=2026887 RepID=A0A3M2D6F5_9BACT
+Length=85
+
+ Score = 77.4 bits (189),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 37/75 (49%), Positives = 52/75 (69%), Gaps = 2/75 (3%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           +P+ ++ + ++GT + A+CC TP+LV +L VVGL ALTGYLD+VLLPAL +FIGL  Y  
+Sbjct  6   NPRRMMMIGLVGTIVAAMCCLTPLLVSVLAVVGLGALTGYLDFVLLPALLVFIGLFFYGA  65
+
+Query  63  --QRKRQADACCTPK  75
+             QR     +CC  +
+Sbjct  66  LGQRSGSRISCCEHE  80
+
+
+> UniRef90_A0A2E4XPD9 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2E4XPD9_9PROT
+Length=67
+
+ Score = 77.0 bits (188),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 42/69 (61%), Positives = 53/69 (77%), Gaps = 2/69 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD   +L V IIGT + A+CCFTPVLVILLG +GLSA  GYLD +LLPALA FI LT  
+Sbjct  1   MKD--RILTVGIIGTIVAAICCFTPVLVILLGTLGLSAAIGYLDMILLPALAAFILLTGI  58
+
+Query  61  AIQRKRQAD  69
+           A+ ++++A+
+Sbjct  59  ALWKRKKAE  67
+
+
+> UniRef90_A0A0M6YDA9 Membrane transport protein MerF n=1 Tax=Labrenzia 
+aggregata TaxID=187304 RepID=A0A0M6YDA9_9RHOB
+Length=89
+
+ Score = 77.4 bits (189),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 37/62 (60%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K  + L+   I GT + ALCCFTP+LV+L G VGLSA  G+LDYVLLPALA F  LT+YA
+Sbjct  16  KTDRKLIATGITGTVIAALCCFTPMLVMLFGAVGLSAWLGWLDYVLLPALAFFAALTVYA  75
+
+Query  62  IQ  63
+           + 
+Sbjct  76  VW  77
+
+
+> UniRef90_A0A1B9VMP0 Mercury ion transport, MerF n=1 Tax=Thalassospira 
+sp. KO164 TaxID=1798192 RepID=A0A1B9VMP0_9PROT
+Length=82
+
+ Score = 77.0 bits (188),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 43/81 (53%), Positives = 61/81 (75%), Gaps = 1/81 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD  T+L+  I+G+ + A+CCFTPVLV++ GVVGLSA  G+LDYVLLPAL IF+G+T Y
+Sbjct  1   MKDA-TILKTGIVGSVIAAICCFTPVLVVVFGVVGLSAWLGWLDYVLLPALGIFLGMTAY  59
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+            + R++++ ACC  +    K+
+Sbjct  60  GLWRRKRSAACCATEKQTTKE  80
+
+
+> UniRef90_A0A2G2HBE4 Uncharacterized protein n=1 Tax=Arcobacter 
+sp. TaxID=1872629 RepID=A0A2G2HBE4_9PROT
+Length=77
+
+ Score = 76.3 bits (186),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 37/64 (58%), Positives = 49/64 (77%), Gaps = 1/64 (2%)
+
+Query  8   LRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+           L+  IIG+ ++ALCCFTP+LV+++  VGLSA+ GYLDYVL PAL  F+ LTIYA+  KR 
+Sbjct  6   LKTGIIGSIIMALCCFTPILVVIVTAVGLSAIIGYLDYVLFPALGFFVLLTIYALS-KRS  64
+
+Query  68  ADAC  71
+            + C
+Sbjct  65  GNCC  68
+
+
+> UniRef90_K2M217 Uncharacterized protein n=5 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=K2M217_9PROT
+Length=84
+
+ Score = 75.9 bits (185),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 35/80 (44%), Positives = 54/80 (68%), Gaps = 5/80 (6%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           D + +L   ++G+ + A+CCFTPVLV++LG  GL+A  G++DYVLLPALA+F+G+T Y +
+Sbjct  4   DDRKVLATGVVGSVVAAICCFTPVLVVVLGAAGLAAWLGWIDYVLLPALALFLGITAYGL  63
+
+Query  63  QRKR-----QADACCTPKFN  77
+             +R      A A   P+ +
+Sbjct  64  YLRRCRVKAAAAATSNPEHS  83
+
+
+> UniRef90_A0A2E0WMC0 Uncharacterized protein n=1 Tax=Gammaproteobacteria 
+bacterium TaxID=1913989 RepID=A0A2E0WMC0_9GAMM
+Length=72
+
+ Score = 75.5 bits (184),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 37/73 (51%), Positives = 53/73 (73%), Gaps = 3/73 (4%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD +T+L   + G+ + A+CCFTP LVILLG VGLSA   + DYVLLPALA+F+G+T Y
+Sbjct  1   MKD-RTVLTTGVAGSVIAAICCFTPALVILLGAVGLSAWLAWFDYVLLPALALFLGITAY  59
+
+Query  61  A--IQRKRQADAC  71
+              + ++ + ++C
+Sbjct  60  GLILWQRGKKESC  72
+
+
+> UniRef90_A0A2E6QHN5 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2E6QHN5_9PROT
+Length=71
+
+ Score = 75.5 bits (184),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 38/70 (54%), Positives = 53/70 (76%), Gaps = 3/70 (4%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D +TLL   IIGT + A+CCFTPVLVI+ G +GLSA  G++DY+LLPAL +F+ +T +
+Sbjct  1   MND-RTLLEAGIIGTIVAAICCFTPVLVIVFGALGLSAWLGWIDYLLLPALGMFLAVTAW  59
+
+Query  61  AIQR--KRQA  68
+           A+ R  +R+A
+Sbjct  60  ALIRLYRRKA  69
+
+
+> UniRef90_A0A143B3M7 Uncharacterized protein n=1 Tax=Desulfuromonas 
+sp. DDH964 TaxID=1823759 RepID=A0A143B3M7_9DELT
+Length=78
+
+ Score = 75.5 bits (184),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 40/70 (57%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K  +  L  +++GT +VALCCFTPVLV+LL  VGL+A T YLDYVL PAL I I LTI A
+Sbjct  6   KKYRNRLIAALVGTGVVALCCFTPVLVVLLAAVGLAAFTPYLDYVLFPALGILIFLTIVA  65
+
+Query  62  IQRKRQADAC  71
+            ++ R+A  C
+Sbjct  66  YRKWRKACRC  75
+
+
+> UniRef90_A0A2M7CP96 Uncharacterized protein n=1 Tax=Anaerolineae 
+bacterium CG03_land_8_20_14_0_80_58_20 TaxID=1973905 RepID=A0A2M7CP96_9CHLR
+Length=74
+
+ Score = 75.1 bits (183),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 36/60 (60%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  8   LRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+           L+  IIG+ + ALCCFTP+LVILLG +G   LTGYLDYVL P L IF+GLT Y   R+ +
+Sbjct  11  LKTGIIGSLVAALCCFTPILVILLGALGAGWLTGYLDYVLFPVLFIFLGLTAYGYYRQSK  70
+
+
+> UniRef90_A0A1G7BPM4 Mercuric ion transport protein n=1 Tax=Belnapia 
+rosea TaxID=938405 RepID=A0A1G7BPM4_9PROT
+Length=68
+
+ Score = 75.1 bits (183),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 34/66 (52%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + + L+   I+G  + ALCC TPVL +LLG VGLSA+ GYLDYVL+PA+ +F+G+  YA 
+Sbjct  2   ENRKLMATGIVGFVVAALCCSTPVLAVLLGAVGLSAMLGYLDYVLIPAMILFLGIVAYAD  61
+
+Query  63  QRKRQA  68
+            R+R++
+Sbjct  62  YRRRRS  67
+
+
+> UniRef90_A0A199Y6H4 Uncharacterized protein n=10 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A199Y6H4_9PROT
+Length=83
+
+ Score = 75.1 bits (183),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 47/68 (69%), Gaps = 0/68 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+            T+ +  I+GT    +CCFTP+LV+  G +GLSA  G++DYVL+P L +FI L +Y  ++
+Sbjct  4   NTIFKTGIVGTIFAVICCFTPILVVSFGALGLSAWLGWIDYVLIPGLLLFIALALYGYRQ  63
+
+Query  65  KRQADACC  72
+           + +A ACC
+Sbjct  64  RARARACC  71
+
+
+> UniRef90_A0A2M7GK37 Uncharacterized protein n=1 Tax=Rhodospirillales 
+bacterium CG15_BIG_FIL_POST_REV_8_21_14_020_66_15 TaxID=1974092 
+RepID=A0A2M7GK37_9PROT
+Length=82
+
+ Score = 75.1 bits (183),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 41/81 (51%), Positives = 58/81 (72%), Gaps = 1/81 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD   +L+   +G+ +VA+CCFTPVLV+LLG VGLSA  G++DYVL P LA+F+G+T Y
+Sbjct  1   MKD-AAILKTGAVGSVIVAVCCFTPVLVVLLGAVGLSAWLGWIDYVLFPMLALFLGVTAY  59
+
+Query  61  AIQRKRQADACCTPKFNGVKK  81
+              R+++A A C P+    K+
+Sbjct  60  GFWRRQRAAARCAPETQTSKE  80
+
+
+> UniRef90_Q0AK00 Uncharacterized protein n=3 Tax=Betaproteobacteria 
+TaxID=28216 RepID=Q0AK00_NITEC
+Length=63
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 50/63 (79%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK PKTLL V++IGT  VALCCFTPVLVILLG+VGL ALT YL+ VLLPAL IFIGLTIY
+Sbjct  1   MKAPKTLLWVNVIGTVFVALCCFTPVLVILLGLVGLFALTDYLNSVLLPALTIFIGLTIY  60
+
+Query  61  AIQ  63
+            IQ
+Sbjct  61  DIQ  63
+
+
+> UniRef90_A0A0T5Z948 Membrane transport protein MerF n=2 Tax=sulfur-oxidizing 
+symbionts TaxID=32036 RepID=A0A0T5Z948_9GAMM
+Length=75
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 34/62 (55%), Positives = 49/62 (79%), Gaps = 0/62 (0%)
+
+Query  4   PKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQ  63
+            +TLL   I+G+ + ALCCFTP+L +LLG +GL+AL  +LDY+L+PAL  F+GLT+YA+ 
+Sbjct  3   SRTLLATGIVGSAITALCCFTPLLAVLLGSIGLAALLIWLDYLLIPALLFFLGLTLYALS  62
+
+Query  64  RK  65
+           R+
+Sbjct  63  RR  64
+
+
+> UniRef90_C7D517 Mercuric ion transporter n=13 Tax=Bacilli TaxID=91061 
+RepID=C7D517_ENTFL
+Length=73
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 38/69 (55%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK  KT +   +IGT LV LCC TP+LVILLG + L A+TGYLD+VL+P LA+F+GLT Y
+Sbjct  1   MKHKKTFI-AGLIGTFLVLLCCATPILVILLGTLVLGAITGYLDFVLIPVLAVFLGLTFY  59
+
+Query  61  AIQRKRQAD  69
+           A  +  ++ 
+Sbjct  60  AYSKYEKSH  68
+
+
+> UniRef90_A0A0A0DXQ5 Mercury transporter n=1 Tax=Alkalispirochaeta 
+odontotermitis TaxID=1329640 RepID=A0A0A0DXQ5_9SPIO
+Length=72
+
+ Score = 74.7 bits (182),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 37/60 (62%), Positives = 46/60 (77%), Gaps = 0/60 (0%)
+
+Query  11  SIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADA  70
+           ++ GT LVALCCFTP+LVILLG VGLS  T YLD+VLLPAL I I L++ +  R R++ A
+Sbjct  4   ALAGTVLVALCCFTPILVILLGAVGLSVFTPYLDFVLLPALCIMIALSLVSFMRWRKSAA  63
+
+
+> UniRef90_A0A3M2C0Z0 Mercury resistance system transport protein 
+MerF n=1 Tax=Gammaproteobacteria bacterium TaxID=1913989 
+RepID=A0A3M2C0Z0_9GAMM
+Length=73
+
+ Score = 74.7 bits (182),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 3/69 (4%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           +L+  IIG  + ALCCFTP+L +LLG +GL++  GYLD VL+PAL  F  +T+YA  +K+
+Sbjct  2   ILKTGIIGMVISALCCFTPLLTMLLGALGLASWVGYLDIVLMPALIFFAAMTVYAFYKKK  61
+
+Query  67  QADACCTPK  75
+              ACCT K
+Sbjct  62  ---ACCTAK  67
+
+
+> UniRef90_A0A2G2QWZ1 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2G2QWZ1_9PROT
+Length=77
+
+ Score = 74.3 bits (181),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 38/78 (49%), Positives = 53/78 (68%), Gaps = 2/78 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD + +L+  +IGT + A+CCFTP LVI+LGV GLSA   +LD+VLLP +AIF+G+  Y
+Sbjct  1   MKD-RNVLKTGLIGTGVAAVCCFTPALVIVLGVAGLSASLAWLDWVLLPGMAIFMGIAGY  59
+
+Query  61  AIQRKRQADACCT-PKFN  77
+            +   ++   C T PK  
+Sbjct  60  GLYLLKKPHTCDTEPKHE  77
+
+
+> UniRef90_A0A259M750 Uncharacterized protein n=1 Tax=Rhodobacterales 
+bacterium 34-62-10 TaxID=1970561 RepID=A0A259M750_9RHOB
+Length=59
+
+ Score = 73.6 bits (179),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 40/47 (85%), Gaps = 0/47 (0%)
+
+Query  17  LVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQ  63
+           + ALCCFTPVLV+LLG VGLSA  G+LDYVLLPALA FIGLT YA+ 
+Sbjct  1   MAALCCFTPVLVVLLGAVGLSAWLGWLDYVLLPALAFFIGLTAYAVW  47
+
+
+> UniRef90_A0A0L0DU92 Mercuric transporter periplasmic component 
+n=2 Tax=cellular organisms TaxID=131567 RepID=A0A0L0DU92_THETB
+Length=767
+
+ Score = 79.7 bits (195),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 37/91 (41%), Positives = 57/91 (63%), Gaps = 11/91 (12%)
+
+Query  2    KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+            K    +L   ++G+ + A+CCFTPVLV++LG  GL+A  G++DYVLLPALA+F+G+T Y 
+Sbjct  214  KATAGVLATGVVGSVVAAICCFTPVLVVVLGAAGLAAWLGWIDYVLLPALALFLGITAYG  273
+
+Query  62   IQRKRQ-----------ADACCTPKFNGVKK  81
+            ++ +R             D CCT    G+++
+Sbjct  274  LRGRRNIEPGAFDMTLMTDDCCTTGQTGLRR  304
+
+
+ Score = 21.9 bits (45),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 24/49 (49%), Gaps = 3/49 (6%)
+
+Query  11  SIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTI  59
+            I+G    + CC  P+++  LG  G  A  G L   L P   IF+ +T+
+Sbjct  32  GILGAVGASSCCILPLVLFSLGAGG--AWIGNLT-ALAPYQPIFVAVTL  77
+
+
+> UniRef90_F5RFN4 Ion transport transmembrane protein n=4 Tax=Betaproteobacteria 
+TaxID=28216 RepID=F5RFN4_METUF
+Length=78
+
+ Score = 73.6 bits (179),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 34/56 (61%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           +L+  I G+ + A+CC TPVLVI LGV+GLSA  G+LDYVL+PAL +F+G+TIYA+
+Sbjct  1   MLKTGITGSVIAAICCATPVLVIALGVLGLSAWVGWLDYVLIPALVVFVGITIYAL  56
+
+
+> UniRef90_A0A356R5E3 Mercury resistance system transport protein 
+MerF n=1 Tax=Nitrospiraceae bacterium TaxID=2026770 RepID=A0A356R5E3_9BACT
+Length=104
+
+ Score = 73.9 bits (180),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 38/80 (48%), Positives = 51/80 (64%), Gaps = 0/80 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K  +  +   +IG  +VALCCFTPVLV LL V GL ALTGYLD+VLLPAL  F+ L  Y 
+Sbjct  16  KRSRGWVITGLIGAGVVALCCFTPVLVGLLAVSGLGALTGYLDFVLLPALGFFLCLLAYG  75
+
+Query  62  IQRKRQADACCTPKFNGVKK  81
+           +Q+    +  C  + + +K+
+Sbjct  76  LQKPPSGEGSCCSEPSWMKE  95
+
+
+> UniRef90_A0A3D9H1D8 Mercuric ion transport protein n=1 Tax=Aestuariispira 
+insulae TaxID=1461337 RepID=A0A3D9H1D8_9PROT
+Length=78
+
+ Score = 73.2 bits (178),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 36/56 (64%), Positives = 45/56 (80%), Gaps = 1/56 (2%)
+
+Query  14  GTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI-QRKRQA  68
+           G+ + A+CCFTP LVILLG VGLSA   +LDYVLLPALA+F+G+T YA+ QR + A
+Sbjct  13  GSIIAAICCFTPALVILLGAVGLSAWLAWLDYVLLPALALFLGITAYALFQRVKAA  68
+
+
+> UniRef90_U3ATT9 MerF protein n=3 Tax=Brevundimonas TaxID=41275 
+RepID=U3ATT9_9CAUL
+Length=80
+
+ Score = 72.8 bits (177),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/61 (72%), Positives = 54/61 (89%), Gaps = 0/61 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LLR+ +IGT +VALCCF PVLV+LLGVVGLSALTG+LD VLLPALA+F  LT+YA+ R+R
+Sbjct  15  LLRMGVIGTVIVALCCFAPVLVVLLGVVGLSALTGWLDVVLLPALAVFAALTVYAVWRRR  74
+
+Query  67  Q  67
+           +
+Sbjct  75  R  75
+
+
+> UniRef90_A0A154VBL5 Uncharacterized protein n=4 Tax=Thalassospira 
+TaxID=168934 RepID=A0A154VBL5_9PROT
+Length=86
+
+ Score = 72.8 bits (177),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           + +  + GT + A+CCFTP+LV+  G  GLSA  G++DYVL+P L +FI L +Y  +++ 
+Sbjct  1   MFKTGVTGTIVTAICCFTPILVVTFGAFGLSAWLGWIDYVLIPGLILFIALVLYGYRQRN  60
+
+Query  67  QADACCT  73
+           +A  CC+
+Sbjct  61  RARICCS  67
+
+
+> UniRef90_A0A2N6N202 Mercury transporter n=1 Tax=Fischerella thermalis 
+CCMEE 5201 TaxID=2019672 RepID=A0A2N6N202_9CYAN
+Length=71
+
+ Score = 72.4 bits (176),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 35/65 (54%), Positives = 45/65 (69%), Gaps = 0/65 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+            PKT    S+ GT +VALCCFTPVLVI L  +GL A+ GYLDY+LLPAL + + +T  + 
+Sbjct  2   KPKTTFWASVSGTVIVALCCFTPVLVITLSAIGLGAVIGYLDYILLPALVVMLIITFVSY  61
+
+Query  63  QRKRQ  67
+           +R R 
+Sbjct  62  RRYRS  66
+
+
+> UniRef90_A0A0M2R5V4 Uncharacterized protein n=1 Tax=Kiloniella 
+litopenaei TaxID=1549748 RepID=A0A0M2R5V4_9PROT
+Length=69
+
+ Score = 72.0 bits (175),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 34/61 (56%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL V I+GT + ALCCFTP+LV+L  ++GLSA+ GYLD+VLLP LA F+ +T YA+ +++
+Sbjct  5   LLTVGIVGTIITALCCFTPLLVVLFSLLGLSAIVGYLDFVLLPVLAFFVIITGYALWKRQ  64
+
+Query  67  Q  67
+           +
+Sbjct  65  K  65
+
+
+> UniRef90_A0A150N779 Uncharacterized protein n=2 Tax=Bacillaceae 
+TaxID=186817 RepID=A0A150N779_9BACI
+Length=77
+
+ Score = 72.0 bits (175),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 35/66 (53%), Positives = 49/66 (74%), Gaps = 4/66 (6%)
+
+Query  12  IIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQA---  68
+           +IGT +  LCC TP+L ILLG VGL+++TGYLDYVL+PALAIF+ L I+   +  ++   
+Sbjct  10  VIGTLVTILCCATPILNILLGSVGLASITGYLDYVLIPALAIFLTLAIFFYNKSSKSNCK  69
+
+Query  69  -DACCT  73
+            D+CC+
+Sbjct  70  NDSCCS  75
+
+
+> UniRef90_A0A2E2MIC2 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2E2MIC2_9PROT
+Length=67
+
+ Score = 71.2 bits (173),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 38/61 (62%), Positives = 46/61 (75%), Gaps = 0/61 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL   IIGT + A+CCFTPVLVILLG +G+SA  GYLD VLLPAL IF+ +  YA+ RK 
+Sbjct  5   LLATGIIGTIVAAVCCFTPVLVILLGALGMSAAVGYLDLVLLPALVIFLIILGYALWRKM  64
+
+Query  67  Q  67
+           +
+Sbjct  65  K  65
+
+
+> UniRef90_A0A154C2I7 Uncharacterized protein n=23 Tax=Bacteria 
+TaxID=2 RepID=A0A154C2I7_9GAMM
+Length=81
+
+ Score = 71.6 bits (174),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 37/75 (49%), Positives = 49/75 (65%), Gaps = 1/75 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD +  L V ++GT L+ LCC  P+ ++L G  GL+AL GYLDY+L   LAI IGL +Y
+Sbjct  1   MKDSQKFLSV-VLGTGLMVLCCAGPIALVLFGTAGLAALAGYLDYLLFAVLAIVIGLPLY  59
+
+Query  61  AIQRKRQADACCTPK  75
+           A   KR+ DA  T +
+Sbjct  60  ARYHKRKQDAGFTNE  74
+
+
+> UniRef90_A0A2A4V5B9 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium TaxID=1913988 RepID=A0A2A4V5B9_9PROT
+Length=70
+
+ Score = 70.9 bits (172),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 44/63 (70%), Positives = 55/63 (87%), Gaps = 0/63 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           ++LL VSI+GT + ALCCFTPVLV+LLGVVGLSA+ GYLDYVLLPAL  F+ LTIYA+ +
+Sbjct  4   RSLLGVSIVGTVIAALCCFTPVLVVLLGVVGLSAMVGYLDYVLLPALGFFVLLTIYALWQ  63
+
+Query  65  KRQ  67
+           +R+
+Sbjct  64  RRK  66
+
+
+> UniRef90_A0A2A5F9Q9 Uncharacterized protein n=2 Tax=Zetaproteobacteria 
+bacterium TaxID=2026807 RepID=A0A2A5F9Q9_9PROT
+Length=72
+
+ Score = 70.5 bits (171),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 34/63 (54%), Positives = 44/63 (70%), Gaps = 0/63 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL+  IIG+ L ALCC+TP+LV+LLG +GLSA    LD VL PA+  F  LTI+A  RK 
+Sbjct  6   LLKTGIIGSILFALCCYTPILVLLLGAIGLSAWVSSLDVVLFPAILAFFALTIFAYWRKD  65
+
+Query  67  QAD  69
+           + +
+Sbjct  66  KEE  68
+
+
+> UniRef90_M9RRS5 Uncharacterized protein n=1 Tax=Octadecabacter 
+arcticus 238 TaxID=391616 RepID=M9RRS5_9RHOB
+Length=68
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 42/65 (65%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + K+LL+V +IGT + ALCCFTPVLV+L GVVGLSA+ GYLDYVLLPALA+F+ +TIY +
+Sbjct  2   NDKSLLKVGVIGTIIAALCCFTPVLVVLFGVVGLSAVVGYLDYVLLPALAVFVLITIYGV  61
+
+Query  63  QRKRQ  67
+            R+ +
+Sbjct  62  IRRAR  66
+
+
+> UniRef90_A0A2S8EYC4 Uncharacterized protein n=1 Tax=Rhodobacteraceae 
+bacterium WD3A24 TaxID=2086263 RepID=A0A2S8EYC4_9RHOB
+Length=77
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 35/70 (50%), Positives = 48/70 (69%), Gaps = 1/70 (1%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K  +    + ++G  + ALCC TPVLV+L G +GLSA  G++DYVLLPALA FI LT+ A
+Sbjct  4   KRERRQTAIGLVGAVIAALCCVTPVLVVLFGALGLSAALGWIDYVLLPALAFFIALTVQA  63
+
+Query  62  IQ-RKRQADA  70
+            + R R+ +A
+Sbjct  64  TRARYRRLNA  73
+
+
+> UniRef90_A0A2N3BN55 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium HGW-Alphaproteobacteria-6 TaxID=2013669 
+RepID=A0A2N3BN55_9PROT
+Length=95
+
+ Score = 70.5 bits (171),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 32/58 (55%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + LLR  +IGT +  +CCFTP LV++LG VGLSA+ G++D+VLLPA+A F  L++YA+
+Sbjct  18  RKLLRTGLIGTGVAMICCFTPALVLVLGAVGLSAVLGWIDFVLLPAMAGFAALSLYAL  75
+
+
+> UniRef90_W5YGC6 Membrane protein n=1 Tax=Marinobacter similis 
+TaxID=1420916 RepID=W5YGC6_9ALTE
+Length=69
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 34/69 (49%), Positives = 45/69 (65%), Gaps = 0/69 (0%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+   L++V  IG  + ALCCFTPVLV L  ++G+SAL GYLDYVL P LA+F+ L + 
+Sbjct  1   MKNGNRLMKVGAIGGVITALCCFTPVLVWLFTILGISALVGYLDYVLFPLLAVFMILWVI  60
+
+Query  61  AIQRKRQAD  69
+              R    +
+Sbjct  61  GFFRGPSGN  69
+
+
+> UniRef90_A0A0D6Z8V0 Mercury transporter n=5 Tax=Bacillaceae TaxID=186817 
+RepID=A0A0D6Z8V0_9BACI
+Length=76
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 35/77 (45%), Positives = 52/77 (68%), Gaps = 5/77 (6%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK  K+ +   ++G  +V LCC TP+LVILL  +GL A+TGYLD +L+P LAIF+ LT Y
+Sbjct  1   MKHKKSFI-TGMVGIFVVLLCCATPILVILLSAIGLGAITGYLDNILIPVLAIFLALTFY  59
+
+Query  61  AIQRKRQA----DACCT  73
+           +  +  ++    D+CC+
+Sbjct  60  SYDKLNKSSSKNDSCCS  76
+
+
+> UniRef90_A0A2D6JRI4 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2D6JRI4_9PROT
+Length=76
+
+ Score = 68.9 bits (167),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 37/73 (51%), Positives = 50/73 (68%), Gaps = 3/73 (4%)
+
+Query  1   MKD--PKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTG-YLDYVLLPALAIFIGL  57
+           MKD   K LL+  +IG+ ++A+CCFTPVLV+ +G VGLSAL G +LD +L PAL +F+ +
+Sbjct  1   MKDISDKKLLKTGLIGSGVIAICCFTPVLVLTMGAVGLSALVGWWLDLLLFPALGLFLLM  60
+
+Query  58  TIYAIQRKRQADA  70
+             Y   R RQ  A
+Sbjct  61  AGYGFYRLRQRQA  73
+
+
+> UniRef90_A0A1C3RHE9 Uncharacterized protein n=2 Tax=Terasakiella 
+TaxID=196080 RepID=A0A1C3RHE9_9RHIZ
+Length=71
+
+ Score = 68.9 bits (167),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 49/69 (71%), Gaps = 0/69 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + K+ L+  ++G+  +A+CCFTP LVI+LG +GLSA  G++D+VLLP+L  F+ +TI A+
+Sbjct  2   NDKSWLKTGVVGSIAMAICCFTPFLVIVLGGIGLSAWLGWIDWVLLPSLGGFVLITIIAL  61
+
+Query  63  QRKRQADAC  71
+            R  +   C
+Sbjct  62  LRLNRRRTC  70
+
+
+> UniRef90_A0A0N7I113 Uncharacterized protein n=3 Tax=Sphingomonadaceae 
+TaxID=41297 RepID=A0A0N7I113_SPHMC
+Length=67
+
+ Score = 68.2 bits (165),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 45/67 (67%), Positives = 56/67 (84%), Gaps = 1/67 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD +TLL   +IGT +VALCCFTPVLV+L GVVGL+A+ GYLDYVLLPAL  F+GLT Y
+Sbjct  1   MKD-RTLLGAGLIGTAIVALCCFTPVLVVLAGVVGLAAIVGYLDYVLLPALLFFVGLTAY  59
+
+Query  61  AIQRKRQ  67
+           A+ R+++
+Sbjct  60  AMWRRQR  66
+
+
+> UniRef90_A0A3D5T2F4 Mercury resistance system transport protein 
+MerF n=3 Tax=Betaproteobacteria TaxID=28216 RepID=A0A3D5T2F4_9RHOO
+Length=84
+
+ Score = 68.6 bits (166),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 40/58 (69%), Positives = 50/58 (86%), Gaps = 0/58 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           D +TLL+  IIG+ + ALCCFTPVL++LLGVVGLSA  G+LDYVL PALA+F+G+TIY
+Sbjct  2   DDRTLLKTGIIGSAIAALCCFTPVLLVLLGVVGLSAWAGWLDYVLFPALAVFVGITIY  59
+
+
+> UniRef90_A8TR56 Uncharacterized protein n=1 Tax=alpha proteobacterium 
+BAL199 TaxID=331869 RepID=A8TR56_9PROT
+Length=70
+
+ Score = 67.8 bits (164),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 44/65 (68%), Positives = 53/65 (82%), Gaps = 1/65 (2%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D K+LLR  +IG  +VALCCFTP+LV+LLGVVGLSALTGYLD VL PAL  F+ LT+Y
+Sbjct  1   MSD-KSLLRTGLIGAAIVALCCFTPILVVLLGVVGLSALTGYLDLVLFPALGFFVLLTVY  59
+
+Query  61  AIQRK  65
+           A+ R+
+Sbjct  60  ALYRR  64
+
+
+> UniRef90_A0A2G2LEW2 Mercury resistance protein n=4 Tax=root TaxID=1 
+RepID=A0A2G2LEW2_HALSX
+Length=102
+
+ Score = 68.2 bits (165),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 39/67 (58%), Positives = 43/67 (64%), Gaps = 13/67 (19%)
+
+Query  22  CFTPVLVILLGVVGLS------------ALTGYLDYVLLPALAIFIGLTIYAIQRKRQAD  69
+           C  P+L I+L   G              ALTGYLDYVLLPALAIFIGLT+YA+ RKRQ D
+Sbjct  30  CHLPILAIVLTGTGAGVFLGDYWVIVGIALTGYLDYVLLPALAIFIGLTVYALWRKRQYD  89
+
+Query  70  ACC-TPK  75
+           ACC TP 
+Sbjct  90  ACCDTPS  96
+
+
+> UniRef90_A0A364VMU6 Mercury resistance system transport protein 
+MerF n=1 Tax=Mucilaginibacter rubeus TaxID=2027860 RepID=A0A364VMU6_9SPHI
+Length=74
+
+ Score = 67.0 bits (162),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 34/67 (51%), Positives = 44/67 (66%), Gaps = 0/67 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K  K     +I G  LVALCCFTPVLVI LG +GLSA T YLDY+L+PAL I + +   +
+Sbjct  7   KPSKRGFYAAIAGIVLVALCCFTPVLVITLGAIGLSAFTPYLDYILMPALVILVVIAWLS  66
+
+Query  62  IQRKRQA  68
+             R +++
+Sbjct  67  YNRYKKS  73
+
+
+> UniRef90_A3W3W6 Uncharacterized protein n=1 Tax=Roseovarius sp. 
+217 TaxID=314264 RepID=A3W3W6_9RHOB
+Length=77
+
+ Score = 67.0 bits (162),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           +  + LL   +IGT L ALCCFTPVL++LLG VGLSA  G++DYVLLPALA F+ LT+YA
+Sbjct  4   RTDRKLLATGLIGTVLAALCCFTPVLLVLLGAVGLSAALGWIDYVLLPALAFFVALTVYA  63
+
+Query  62  IQRKRQ  67
+           + R+++
+Sbjct  64  LWRRQR  69
+
+
+> UniRef90_A0A2A4P733 Uncharacterized protein n=1 Tax=Rhizobiales 
+bacterium TaxID=1909294 RepID=A0A2A4P733_9RHIZ
+Length=73
+
+ Score = 67.0 bits (162),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 41/69 (59%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D K LL   I GT + ALCCFTP+LV+L+  VGLSA+ GYLD+VLLPAL  F+ LT+Y
+Sbjct  1   MSDRK-LLITGITGTIIAALCCFTPLLVVLVAXVGLSAVVGYLDFVLLPALGFFVILTVY  59
+
+Query  61  AIQRKRQAD  69
+           A+ RK+++D
+Sbjct  60  AVLRKKRSD  68
+
+
+> UniRef90_A0A352RGQ4 Mercury resistance system transport protein 
+MerF n=3 Tax=root TaxID=1 RepID=A0A352RGQ4_9DELT
+Length=70
+
+ Score = 65.9 bits (159),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 32/61 (52%), Positives = 40/61 (66%), Gaps = 0/61 (0%)
+
+Query  13  IGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADACC  72
+           +GT L ALCCFTP+LVI L  +G  A+  YLDYVL P LA F+ +T+Y I R +Q    C
+Sbjct  1   MGTILTALCCFTPILVIGLKGLGAVAIISYLDYVLFPLLAFFVAITVYGIYRNQQEKQDC  60
+
+Query  73  T  73
+            
+Sbjct  61  E  61
+
+
+> UniRef90_A0A2V4D532 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon TaxID=2026739 RepID=A0A2V4D532_9EURY
+Length=99
+
+ Score = 66.2 bits (160),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 30/55 (55%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  14  GTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQA  68
+           GT   ALCCFTP+LV+ L  VG+SA T YLD+VL PA+AIF  +T+ + +R R +
+Sbjct  34  GTVFAALCCFTPMLVLTLAAVGVSAFTPYLDFVLFPAMAIFGTITVLSWRRWRSS  88
+
+
+> UniRef90_A0A2A4NKQ0 Uncharacterized protein n=1 Tax=Rhizobiales 
+bacterium TaxID=1909294 RepID=A0A2A4NKQ0_9RHIZ
+Length=73
+
+ Score = 65.5 bits (158),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 45/65 (69%), Gaps = 0/65 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+               +LR  ++GT + A+CCFTP+LV++LG +G SA+ GYLDYVLLP L + I L + ++
+Sbjct  2   SKNKMLRTGVVGTLIAAVCCFTPLLVVILGALGFSAVIGYLDYVLLPMLGVSILLIVISL  61
+
+Query  63  QRKRQ  67
+             + +
+Sbjct  62  WNRWK  66
+
+
+> UniRef90_M9R491 Uncharacterized protein n=1 Tax=Octadecabacter 
+antarcticus 307 TaxID=391626 RepID=M9R491_9RHOB
+Length=69
+
+ Score = 65.5 bits (158),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRK  65
+           LL+  I+GT + ALCCFTPVLV+L GVVGLSA+ GYLDYVL PAL IFI LT YA+ RK
+Sbjct  5   LLKTGIVGTVIAALCCFTPVLVVLFGVVGLSAVVGYLDYVLFPALGIFILLTAYALWRK  63
+
+
+> UniRef90_A0A3M2EIC2 Mercury resistance system transport protein 
+MerF n=1 Tax=Zetaproteobacteria bacterium TaxID=2026807 RepID=A0A3M2EIC2_9PROT
+Length=80
+
+ Score = 65.5 bits (158),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  4   PKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQ  63
+           P TLL++ ++G  + A+CCFTP+LV+L   +GL+A + +LD VL P+L  FI LTIY + 
+Sbjct  3   PATLLKIGLVGAGVSAVCCFTPLLVVLFSALGLAAWSTHLDVVLQPSLLFFILLTIYGVY  62
+
+Query  64  RKRQADA  70
+           R+  A  
+Sbjct  63  RQGMATG  69
+
+
+> UniRef90_A0A2Y9A1L9 Mercuric ion transport protein n=1 Tax=Jannaschia 
+seohaensis TaxID=475081 RepID=A0A2Y9A1L9_9RHOB
+Length=63
+
+ Score = 64.7 bits (156),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 29/60 (48%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           +L+  ++G  + A+CCFTP+L   LG +G  A   +LD+VLLPALA F GLT +A+ R+R
+Sbjct  1   MLKTGLLGLAVTAICCFTPILPFALGAIGFGAAIAWLDWVLLPALAGFAGLTAWALIRRR  60
+
+
+> UniRef90_A0A356R8K1 Mercury resistance system transport protein 
+MerF n=1 Tax=Nitrospiraceae bacterium TaxID=2026770 RepID=A0A356R8K1_9BACT
+Length=104
+
+ Score = 65.5 bits (158),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 41/74 (55%), Positives = 53/74 (72%), Gaps = 0/74 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           K  + L+   ++G  +VALCC TP+LV LL V+GL ALTGYLD VLLPALA FIGL +Y 
+Sbjct  16  KHSRKLVITGMVGAGIVALCCVTPILVGLLAVLGLGALTGYLDLVLLPALAFFIGLLMYG  75
+
+Query  62  IQRKRQADACCTPK  75
+           + R+R  +A C P+
+Sbjct  76  LVRQRSREASCCPE  89
+
+
+> UniRef90_U7NF15 Uncharacterized protein n=3 Tax=Halomonas TaxID=2745 
+RepID=U7NF15_9GAMM
+Length=69
+
+ Score = 64.7 bits (156),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 42/61 (69%), Gaps = 2/61 (3%)
+
+Query  17  LVALCCFTPVLVILLGVVGLSALTGYLDYVLLP--ALAIFIGLTIYAIQRKRQADACCTP  74
+           L+ LCC  P+++IL G  GL+ALTGYLDYVL    ALAI IGL +YA   KR+ DA  T 
+Sbjct  2   LMGLCCAVPIVLILSGTAGLAALTGYLDYVLFAALALAIVIGLPLYARHHKRKQDAGFTH  61
+
+Query  75  K  75
+           K
+Sbjct  62  K  62
+
+
+> UniRef90_A0A3D9FG18 Mercuric ion transport protein n=1 Tax=Parasphingopyxis 
+lamellibrachiae TaxID=680125 RepID=A0A3D9FG18_9SPHN
+Length=69
+
+ Score = 64.7 bits (156),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 45/66 (68%), Gaps = 0/66 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + K LL++ +IG  + A+CC TP+LVI+LG  GLSA   +LDY +  AL +F GL ++A+
+Sbjct  2   NDKVLLKMGVIGAVIAAICCATPLLVIILGTAGLSAWLLWLDYTVFAALILFSGLIVFAL  61
+
+Query  63  QRKRQA  68
+            + R A
+Sbjct  62  MKLRNA  67
+
+
+> UniRef90_A0A1G8XT54 Mercuric ion transport protein n=2 Tax=Albidovulum 
+xiamenense TaxID=990712 RepID=A0A1G8XT54_9RHOB
+Length=70
+
+ Score = 64.3 bits (155),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 42/62 (68%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LLR  +IGT + ALCCF PVLV+LLGVVGLSAL G LDYVL+PALA F+ LT YA+ R++
+Sbjct  6   LLRTGVIGTLVAALCCFAPVLVVLLGVVGLSALVGVLDYVLVPALAFFVALTGYALWRRK  65
+
+Query  67  QA  68
+           +A
+Sbjct  66  RA  67
+
+
+> UniRef90_A0A3A0AN05 Mercury resistance system transport protein 
+MerF n=1 Tax=Chloroflexi bacterium TaxID=2026724 RepID=A0A3A0AN05_9CHLR
+Length=95
+
+ Score = 65.1 bits (157),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 38/75 (51%), Positives = 49/75 (65%), Gaps = 8/75 (11%)
+
+Query  8   LRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR-  66
+           +R  ++GT + ALCCFTP+LV+LL  VG     GYLDYVLLPALA F GLT+YA+ ++  
+Sbjct  7   IRFGVVGTVVTALCCFTPLLVLLLTGVGTGWAIGYLDYVLLPALAFFAGLTVYAVWKRSR  66
+
+Query  67  -------QADACCTP  74
+                  +AD  C P
+Sbjct  67  APLSTAAEADCSCPP  81
+
+
+> UniRef90_A0A259M1Q6 Uncharacterized protein n=1 Tax=Rhodobacterales 
+bacterium 34-62-10 TaxID=1970561 RepID=A0A259M1Q6_9RHOB
+Length=134
+
+ Score = 65.9 bits (159),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 43/62 (69%), Gaps = 0/62 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+            +P TLLR  +IG+ + A+CCFTP LV+++  VGLSA+ G+LDY L P L   +G+  YA
+Sbjct  6   DEPTTLLRRGLIGSVVTAICCFTPFLVVIVAGVGLSAIVGWLDYALFPMLFASLGVVAYA  65
+
+Query  62  IQ  63
+           + 
+Sbjct  66  LW  67
+
+
+> UniRef90_A0A2G1Z470 Uncharacterized protein n=1 Tax=Sneathiella 
+sp. TaxID=1964365 RepID=A0A2G1Z470_9PROT
+Length=69
+
+ Score = 63.9 bits (154),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 37/68 (54%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           D + LL++ I+G+ + ALCCFTP+LVIL  V+G+SA  G LD VLLP LA F+ LT++A 
+Sbjct  2   DNRKLLKIGIVGSVIAALCCFTPILVILFSVLGISAFIGILDIVLLPVLAFFLLLTLFAY  61
+
+Query  63  QRKRQADA  70
+            R+R+A A
+Sbjct  62  LRRRKARA  69
+
+
+> UniRef90_A0A2T1EDT7 Mercury transporter n=1 Tax=Chlorogloea sp. 
+CCALA 695 TaxID=2107693 RepID=A0A2T1EDT7_9CHRO
+Length=64
+
+ Score = 63.9 bits (154),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 36/67 (54%), Positives = 45/67 (67%), Gaps = 5/67 (7%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+            PKT L  SI GT L+A+CC TPVL I LG     AL GYLDYVLLPAL + + ++I + 
+Sbjct  2   KPKTALWASISGTALIAVCCATPVLAITLG-----ALVGYLDYVLLPALVVMVVVSIISY  56
+
+Query  63  QRKRQAD  69
+           QR R+ +
+Sbjct  57  QRYRRRN  63
+
+
+> UniRef90_A0A2A4Z362 Uncharacterized protein n=1 Tax=OCS116 cluster 
+bacterium TaxID=2030921 RepID=A0A2A4Z362_9PROT
+Length=71
+
+ Score = 63.9 bits (154),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 34/67 (51%), Positives = 46/67 (69%), Gaps = 1/67 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK+ K LL+ S I   + A+CCFTP+LV++ G V LSAL  YLDY+LLP L I + L + 
+Sbjct  1   MKNNK-LLKYSGISAIIAAICCFTPLLVVVFGAVSLSALVAYLDYILLPWLFICLLLVVI  59
+
+Query  61  AIQRKRQ  67
+           A+ R R+
+Sbjct  60  ALWRXRK  66
+
+
+> UniRef90_D5C2E6 Uncharacterized protein n=1 Tax=Nitrosococcus 
+halophilus (strain Nc4) TaxID=472759 RepID=D5C2E6_NITHN
+Length=83
+
+ Score = 64.3 bits (155),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 44/78 (56%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+           + LLR  IIG+ + A+CCFTPVLV+LLG +GL+A  G+LDYVL PALA F+GLT YA  R
+Sbjct  4   RQLLRTGIIGSIIAAICCFTPVLVLLLGALGLAAWVGWLDYVLFPALAFFLGLTAYAFWR  63
+
+Query  65  KRQADA-CCTPKFNGVKK  81
+           +R++ A CC P+ +  +K
+Sbjct  64  QRRSAAECCEPENSTPRK  81
+
+
+> UniRef90_A0A0L1JMY5 Uncharacterized protein n=2 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A0L1JMY5_9RHOB
+Length=73
+
+ Score = 63.9 bits (154),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 45/69 (65%), Positives = 54/69 (78%), Gaps = 2/69 (3%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MKD   LL   +IGT + ALCCFTPVLV+LLGVVGLSALTG LDYVL+PAL  F+ LTIY
+Sbjct  1   MKDK--LLLTGVIGTVIAALCCFTPVLVVLLGVVGLSALTGVLDYVLIPALVFFVLLTIY  58
+
+Query  61  AIQRKRQAD  69
+           A+ R+ ++ 
+Sbjct  59  ALVRRARSQ  67
+
+
+> UniRef90_A0A2S6U3R8 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium MarineAlpha4_Bin1 TaxID=2013074 RepID=A0A2S6U3R8_9PROT
+Length=124
+
+ Score = 64.7 bits (156),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 33/73 (45%), Positives = 45/73 (62%), Gaps = 1/73 (1%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + K +LR  I G+ + A+CCFTP LV L+G +GLSA  G+LDY L P L   +GL   A+
+Sbjct  2   NDKIMLRAGIAGSLMAAICCFTPALVFLVGAMGLSAFVGWLDYGLFPILFASLGLVALAL  61
+
+Query  63  QRKRQADACCTPK  75
+            R+  A    +PK
+Sbjct  62  YRRAGAKG-GSPK  73
+
+
+> UniRef90_A0A1B1AAA7 Uncharacterized protein n=3 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A1B1AAA7_9RHOB
+Length=146
+
+ Score = 65.1 bits (157),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+            +P TLLR  +IG+ + A+CCFTP LV+++  VGLSA+ G+LDY L P L   + +  YA
+Sbjct  8   NEPTTLLRRGLIGSVIAAICCFTPFLVVIVAGVGLSAIVGWLDYALFPMLFASLSVVAYA  67
+
+Query  62  I  62
+           +
+Sbjct  68  L  68
+
+
+> UniRef90_A0A1C2DCV0 Uncharacterized protein n=4 Tax=Rhizobiales 
+TaxID=356 RepID=A0A1C2DCV0_9RHIZ
+Length=99
+
+ Score = 63.9 bits (154),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 35/81 (43%), Positives = 47/81 (58%), Gaps = 5/81 (6%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + +TL R   IG  + ALCC TP+L I+LG +GLSAL G  DYVL+P L + +GL    +
+Sbjct  15  NSRTLFRTGSIGAVVAALCCATPILGIVLGAIGLSALAGKADYVLIPVLIVSLGLVGIGL  74
+
+Query  63  QRKRQA-----DACCTPKFNG  78
+            R+  +     D C T K  G
+Sbjct  75  YRRNTSASAGPDCCETGKNAG  95
+
+
+> UniRef90_A0A1F2T2H9 Uncharacterized protein n=1 Tax=Acidobacteria 
+bacterium RIFCSPLOWO2_02_FULL_67_21 TaxID=1797183 RepID=A0A1F2T2H9_9BACT
+Length=86
+
+ Score = 63.2 bits (152),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 43/76 (57%), Positives = 57/76 (75%), Gaps = 0/76 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           D +TLLR  + GT + ALCC TP+LV+LLG VGLSA  G+LDY L+PAL +F+G+TIYA+
+Sbjct  2   DNRTLLRTGVAGTVVAALCCATPLLVLLLGAVGLSAWVGWLDYALIPALVVFLGITIYAL  61
+
+Query  63  QRKRQADACCTPKFNG  78
+           +R+R   ACC    +G
+Sbjct  62  RRRRAEAACCVVPGHG  77
+
+
+> UniRef90_A0A369TD14 Mercury resistance system transport protein 
+MerF n=1 Tax=Rhodospirillaceae bacterium TaxID=1898112 RepID=A0A369TD14_9PROT
+Length=67
+
+ Score = 62.8 bits (151),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 32/66 (48%), Positives = 45/66 (68%), Gaps = 0/66 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           +   LLR  +IG+ + A+CCFTP+LV  L  +GL+A  G++DYVLLPAL+ FI L   A+
+Sbjct  2   ESTRLLRTGVIGSLVTAVCCFTPLLVWGLPALGLAAWLGWIDYVLLPALSGFIVLIAIAL  61
+
+Query  63  QRKRQA  68
+            R+  A
+Sbjct  62  WRRWSA  67
+
+
+> UniRef90_A0A0H4L0V1 Membrane transport protein MerF n=13 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A0H4L0V1_9RHOB
+Length=146
+
+ Score = 64.7 bits (156),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+            +P TLLR  +IG+   A+CCFTP LV+++  VGLSA+ G+LDY L P L   +    YA
+Sbjct  8   NEPTTLLRRGLIGSVFAAICCFTPFLVLIVAGVGLSAVVGWLDYALFPMLFASLSAVAYA  67
+
+Query  62  IQRK  65
+           + ++
+Sbjct  68  LWQQ  71
+
+
+> UniRef90_A0A3A0A875 Mercury resistance system transport protein 
+MerF n=1 Tax=Chloroflexi bacterium TaxID=2026724 RepID=A0A3A0A875_9CHLR
+Length=72
+
+ Score = 62.4 bits (150),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 37/69 (54%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M   KT+ R  +IGT +VALCCFTP+LV+LL  VG+  + GYLDYVLLPAL  F+ LT+Y
+Sbjct  1   MLQDKTV-RFGVIGTVIVALCCFTPLLVLLLIGVGIGWMIGYLDYVLLPALFFFVALTVY  59
+
+Query  61  AIQRKRQAD  69
+           A+ ++ +  
+Sbjct  60  ALWKRSRGS  68
+
+
+> UniRef90_A0A2D6T9H2 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2D6T9H2_9PROT
+Length=73
+
+ Score = 62.4 bits (150),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 32/70 (46%), Positives = 43/70 (61%), Gaps = 1/70 (1%)
+
+Query  5   KTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQR  64
+             L    I+GT   ALCCFTP+LV+L   VG+SA   ++D+VL PAL +F+ L  Y + R
+Sbjct  4   NRLFLTGIVGTISAALCCFTPLLVMLFAAVGVSAWLAWIDFVLWPALFLFLALGAYGLAR  63
+
+Query  65  -KRQADACCT  73
+             R +DA  T
+Sbjct  64  GARGSDASQT  73
+
+
+> UniRef90_A0A355H9A5 Mercury resistance system transport protein 
+MerF n=1 Tax=Deltaproteobacteria bacterium TaxID=2026735 
+RepID=A0A355H9A5_9DELT
+Length=80
+
+ Score = 62.4 bits (150),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 33/60 (55%), Positives = 39/60 (65%), Gaps = 0/60 (0%)
+
+Query  13  IGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQADACC  72
+           IGT L ALCCFTP+LVI L  +G  A+  YLDYVL P LA F+ LT Y I R ++    C
+Sbjct  11  IGTVLTALCCFTPILVIGLTGLGTVAIISYLDYVLFPLLAFFLVLTGYGIYRNQKDKQIC  70
+
+
+> UniRef90_A0A2N6K4Q5 Mercury transporter n=1 Tax=Fischerella muscicola 
+CCMEE 5323 TaxID=2019572 RepID=A0A2N6K4Q5_FISMU
+Length=69
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 36/67 (54%), Positives = 48/67 (72%), Gaps = 0/67 (0%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+            PKT L  SI GT L+ +CCFTPVLV+ L  +GL  + GYLDYVLLPALA+ + +T+ + 
+Sbjct  2   KPKTALWASISGTVLIGVCCFTPVLVVTLSALGLGGVLGYLDYVLLPALAVMVVVTLVSY  61
+
+Query  63  QRKRQAD  69
+           QR R+ +
+Sbjct  62  QRYRRQN  68
+
+
+> UniRef90_A3T1V9 Uncharacterized protein n=3 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A3T1V9_SULSN
+Length=136
+
+ Score = 63.9 bits (154),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 29/62 (47%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+            +P TLLR  +IG+   A+CCFTP LV+++  VGLSA+ G+LDY L P L   + +  YA
+Sbjct  8   NEPTTLLRRGLIGSVFAAICCFTPFLVLIVAGVGLSAIVGWLDYALFPMLFTSLSVVAYA  67
+
+Query  62  IQ  63
+           + 
+Sbjct  68  LW  69
+
+
+> UniRef90_A0A0M8ZDN4 Mercury transport protein n=3 Tax=Bacteria 
+TaxID=2 RepID=A0A0M8ZDN4_9ACTN
+Length=79
+
+ Score = 62.0 bits (149),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 32/77 (42%), Positives = 43/77 (56%), Gaps = 1/77 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D + L+R    G T+ A+CC  PVL +LL +VGLSA     D VL P LA  +GL  +
+Sbjct  1   MND-RALIRTGTAGATVAAICCAMPVLAVLLPLVGLSAWMARADLVLFPLLAASLGLIAW  59
+
+Query  61  AIQRKRQADACCTPKFN  77
+            + R+R   ACC  +  
+Sbjct  60  GVYRRRTRAACCETRIT  76
+
+
+> UniRef90_A0A1Q7J1B0 Uncharacterized protein n=1 Tax=Deltaproteobacteria 
+bacterium 13_1_40CM_4_54_4 TaxID=1805118 RepID=A0A1Q7J1B0_9DELT
+Length=74
+
+ Score = 61.6 bits (148),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/60 (47%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  8   LRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+            R  + G+ +  +CCFTP LVI LG +GL+ALT YLDY+L P LA F+ L +Y   + ++
+Sbjct  13  FRAGLWGSIIAVICCFTPALVIALGFLGLAALTPYLDYILFPLLAGFLILALYGWSKTKE  72
+
+
+> UniRef90_A0A2D8XKU3 Uncharacterized protein n=1 Tax=Parvibaculum 
+sp. TaxID=2024848 RepID=A0A2D8XKU3_9RHIZ
+Length=77
+
+ Score = 61.6 bits (148),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 37/62 (60%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  6   TLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRK  65
+           +LLR+ + GT +VALCCFT +LV L+GVVGLSALTGYLD+VL  ALA FI L++ A+  +
+Sbjct  5   SLLRIGVAGTVIVALCCFTLLLVALVGVVGLSALTGYLDFVLFAALAFFIALSVQAVWHR  64
+
+Query  66  RQ  67
+           ++
+Sbjct  65  QR  66
+
+
+> UniRef90_A0A2E7N4M0 Uncharacterized protein n=1 Tax=Chloroflexi 
+bacterium TaxID=2026724 RepID=A0A2E7N4M0_9CHLR
+Length=62
+
+ Score = 61.2 bits (147),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 41/57 (72%), Gaps = 0/57 (0%)
+
+Query  10  VSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           + IIGT +  LCCFTP+LV++LG +GLS     LD VL PAL IF+ +T YA+ ++R
+Sbjct  1   MGIIGTVVATLCCFTPILVVILGALGLSRFVAGLDLVLFPALGIFMLVTGYALWKRR  57
+
+
+> UniRef90_A0A0M6XW20 Membrane transport protein MerF n=1 Tax=Jannaschia 
+rubra TaxID=282197 RepID=A0A0M6XW20_9RHOB
+Length=72
+
+ Score = 61.6 bits (148),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 30/46 (65%), Positives = 37/46 (80%), Gaps = 1/46 (2%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYV  46
+           M D K LL + ++GT + ALCCFTPVLV+LLG VGLSA+ G+LDYV
+Sbjct  1   MSDNK-LLGIGLVGTVIAALCCFTPVLVVLLGAVGLSAMLGWLDYV  45
+
+
+> UniRef90_A0A318L218 Uncharacterized protein n=1 Tax=Halomonas 
+sp. LBP4 TaxID=2044917 RepID=A0A318L218_9GAMM
+Length=75
+
+ Score = 61.2 bits (147),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 45/67 (67%), Gaps = 3/67 (4%)
+
+Query  17  LVALCCFTPVLVILLGVVGLSALTGYLDYV--LLPALAIFIGLTIYAIQRKRQADACCTP  74
+           ++ LCC  P+ +IL G  GL+ALTGYLDYV     ALAI IGL++YA  RKR+ DA C P
+Sbjct  8   MMVLCCVVPIALILFGTAGLAALTGYLDYVLLAALALAIVIGLSLYARHRKRKQDAGC-P  66
+
+Query  75  KFNGVKK  81
+             +  K+
+Sbjct  67  HVDSEKR  73
+
+
+> UniRef90_A0A2U1S4V3 Uncharacterized protein n=1 Tax=candidate 
+division NC10 bacterium TaxID=2072417 RepID=A0A2U1S4V3_9BACT
+Length=72
+
+ Score = 61.2 bits (147),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  10  VSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKRQ  67
+           + IIGT +  + CFTP+ V LLGV+GL+   GYLDY L P L +F GL +  + R+R+
+Sbjct  7   LGIIGTVVTCVACFTPLAVTLLGVIGLAGWAGYLDYALFPLLVVFAGLVLLGLARQRR  64
+
+
+> UniRef90_A0A391NTL8 Membrane transport protein MerF n=1 Tax=Pseudomonas 
+sp. SCT TaxID=412955 RepID=A0A391NTL8_9PSED
+Length=84
+
+ Score = 61.2 bits (147),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 44/80 (55%), Positives = 57/80 (71%), Gaps = 1/80 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M +  TL+++ + G+ L A+ C T VLV+LLGVVG SAL G+LDYVLLPALA FI LT+Y
+Sbjct  1   MANSDTLMKIGLTGSVL-AVVCVTTVLVVLLGVVGSSALVGHLDYVLLPALAAFIALTLY  59
+
+Query  61  AIQRKRQADACCTPKFNGVK  80
+           A+  KR+A  CCT   +  K
+Sbjct  60  AVHEKRKAGGCCTADAHREK  79
+
+
+> UniRef90_A0A2H6IV71 Membrane transport protein MerF n=1 Tax=bacterium 
+BMS3Bbin10 TaxID=2005733 RepID=A0A2H6IV71_9BACT
+Length=127
+
+ Score = 62.4 bits (150),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 32/66 (48%), Positives = 41/66 (62%), Gaps = 4/66 (6%)
+
+Query  1   MKDPK----TLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIG  56
+           M D K     LL+  + G+ + ALCCFTPVLVIL G  GLS + G+LDY L P L   +G
+Sbjct  1   MSDAKMNGDALLKKGLTGSAIAALCCFTPVLVILFGFAGLSVIVGWLDYALFPMLFASMG  60
+
+Query  57  LTIYAI  62
+           +  YA+
+Sbjct  61  VVAYAL  66
+
+
+> UniRef90_A0A2A5DWE7 Uncharacterized protein n=1 Tax=Rhodospirillaceae 
+bacterium TaxID=1898112 RepID=A0A2A5DWE7_9PROT
+Length=73
+
+ Score = 60.8 bits (146),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 39/70 (56%), Positives = 51/70 (73%), Gaps = 1/70 (1%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQ-RK  65
+           +L+  IIG+ LVA+CCFTP LV+LLGV+GLSA  G+LD+VLLPAL  F+GL  Y +  R+
+Sbjct  1   MLQTGIIGSVLVAICCFTPALVLLLGVLGLSAWVGWLDHVLLPALLGFLGLIAYGVYLRQ  60
+
+Query  66  RQADACCTPK  75
+           R+   C   K
+Sbjct  61  RRGKDCSNAK  70
+
+
+> UniRef90_A0A1G7TX68 Mercuric ion transport protein n=1 Tax=Limimonas 
+halophila TaxID=1082479 RepID=A0A1G7TX68_9PROT
+Length=65
+
+ Score = 60.5 bits (145),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 38/61 (62%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL   + GT + ALCCFTP+LV+LLG +GLSA  GYLD+VLLPALA F+G+T+YA  R R
+Sbjct  3   LLCTGLAGTAITALCCFTPLLVVLLGSLGLSAAVGYLDFVLLPALAFFLGVTVYAAWRMR  62
+
+Query  67  Q  67
+           +
+Sbjct  63  R  63
+
+
+> UniRef90_A0A369WCR4 Mercury resistance system transport protein 
+MerF n=1 Tax=Motiliproteus coralliicola TaxID=2283196 RepID=A0A369WCR4_9GAMM
+Length=68
+
+ Score = 60.5 bits (145),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 30/63 (48%), Positives = 40/63 (63%), Gaps = 0/63 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           L +  +IG+ + ALCCFTP+LV L   +GLSA+ GYLD VL P L IF+ L I  I +  
+Sbjct  4   LAKTGLIGSVVTALCCFTPILVWLFAALGLSAMAGYLDLVLFPLLGIFVLLLIIGIVKNA  63
+
+Query  67  QAD  69
+             +
+Sbjct  64  SKN  66
+
+
+> UniRef90_A0A2A4MW32 Uncharacterized protein n=2 Tax=Gammaproteobacteria 
+bacterium TaxID=1913989 RepID=A0A2A4MW32_9GAMM
+Length=68
+
+ Score = 60.5 bits (145),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 30/55 (55%), Positives = 42/55 (76%), Gaps = 0/55 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           LL+V I G+ +  L CFT +LVIL G + L+++ GYLDYV+LP+L +FIG+T YA
+Sbjct  5   LLKVGIFGSVVATLRCFTLILVILFGAIDLASIVGYLDYVILPSLVLFIGVTSYA  59
+
+
+> UniRef90_A0A1H2WL80 Mercuric ion transport protein n=1 Tax=Marinobacter 
+mobilis TaxID=488533 RepID=A0A1H2WL80_9ALTE
+Length=68
+
+ Score = 60.5 bits (145),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 29/63 (46%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           L +  +IG+ + ALCCFTPVLV L   +GLSA+ GYLD VL P L +F+ L +  I +  
+Sbjct  4   LTKTGLIGSVVTALCCFTPVLVWLFAALGLSAMVGYLDVVLFPMLGVFVLLLLIGIVKSA  63
+
+Query  67  QAD  69
+           + +
+Sbjct  64  REN  66
+
+
+> UniRef90_A0A095BQV1 Membrane transport protein MerF n=2 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=A0A095BQV1_9SPHN
+Length=86
+
+ Score = 60.5 bits (145),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 33/81 (41%), Positives = 45/81 (56%), Gaps = 5/81 (6%)
+
+Query  3   DPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           + + L R  +IG  + ALCC TP+L I LG +GLSAL    DYVL+P L   +GL    +
+Sbjct  2   NNRALFRTGVIGAVVAALCCATPILGIALGAIGLSALVAKADYVLIPVLVASLGLIGIGL  61
+
+Query  63  QRKRQA-----DACCTPKFNG  78
+            R+  +     D C T K +G
+Sbjct  62  YRRNASAPAVIDCCETDKNSG  82
+
+
+> UniRef90_A0A1B6Y663 Uncharacterized protein n=1 Tax=Balneola 
+sp. EhC07 TaxID=1849360 RepID=A0A1B6Y663_9BACT
+Length=74
+
+ Score = 59.7 bits (143),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 45/69 (65%), Gaps = 1/69 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK  KT L + + G  + ALCCFTP+LV      GL+ALT YLDYVL+P L + IG+ ++
+Sbjct  1   MKKDKTTL-IGLWGALIAALCCFTPLLVWAFAFFGLAALTTYLDYVLIPILLLCIGIFLF  59
+
+Query  61  AIQRKRQAD  69
+            ++R +  +
+Sbjct  60  GLRRIKNQN  68
+
+
+> UniRef90_A0A3M1PHK2 Mercury resistance system transport protein 
+MerF n=1 Tax=Alphaproteobacteria bacterium TaxID=1913988 
+RepID=A0A3M1PHK2_9PROT
+Length=85
+
+ Score = 60.1 bits (144),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/65 (58%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           M D K L+   ++GT L A+CCFTP LV+LLG +GLSA  G+LDYVL PAL +F GLTIY
+Sbjct  1   MAD-KKLVAGGLLGTVLAAICCFTPALVLLLGALGLSAWVGWLDYVLFPALFLFAGLTIY  59
+
+Query  61  AIQRK  65
+            + R+
+Sbjct  60  GLLRR  64
+
+
+> UniRef90_A0A1I0R6Y8 Membrane transport protein MerF n=1 Tax=Aliiroseovarius 
+sediminilitoris TaxID=1173584 RepID=A0A1I0R6Y8_9RHOB
+Length=129
+
+ Score = 60.8 bits (146),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 29/50 (58%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPAL  51
+           K+P  LL+  + GT   A+CCFTP+LVI++  VGLSALTG+LDY L P L
+Sbjct  6   KNPDRLLKWGLGGTIFAAVCCFTPLLVIVVAGVGLSALTGWLDYALFPLL  55
+
+
+> UniRef90_A0A2G2ABJ6 Uncharacterized protein n=1 Tax=Thalassobium 
+sp. TaxID=2030825 RepID=A0A2G2ABJ6_9RHOB
+Length=133
+
+ Score = 60.5 bits (145),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  2   KDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYA  61
+           ++P  LL+  + G   +A+CCFTP+LVI++  VGLSALTG+LDYVL P L + + + + A
+Sbjct  11  ENPDRLLKRGLAGALFMAVCCFTPLLVIVVAGVGLSALTGWLDYVLFPLLFLCLAVVVQA  70
+
+Query  62  IQRK  65
+           +  +
+Sbjct  71  LWLR  74
+
+
+> UniRef90_M9R7R2 Uncharacterized protein n=1 Tax=Octadecabacter 
+antarcticus 307 TaxID=391626 RepID=M9R7R2_9RHOB
+Length=64
+
+ Score = 58.5 bits (140),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 30/56 (54%), Positives = 39/56 (70%), Gaps = 3/56 (5%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAI  62
+           LL+  I+GT + ALCCF P   +L G  GLS +  Y DYVLL ALA+F+ +TIYA+
+Sbjct  5   LLKTGIVGTVITALCCFMP---LLFGFAGLSDVVSYFDYVLLSALAVFVLITIYAV  57
+
+
+> UniRef90_A6FGL2 Uncharacterized protein n=4 Tax=Moritella TaxID=58050 
+RepID=A6FGL2_9GAMM
+Length=62
+
+ Score = 58.2 bits (139),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 27/61 (44%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           + +  ++G  + A+CCFTP+LVI+   VGL+A   YLD+VL P LAIFI L +    + R
+Sbjct  1   MFKTGVLGGIVTAICCFTPILVIIFSAVGLAAAIKYLDFVLFPMLAIFIVLAVVGFIKLR  60
+
+Query  67  Q  67
+            
+Sbjct  61  H  61
+
+
+> UniRef90_K9SIN0 Mercury ion transport protein MerF n=1 Tax=Pseudanabaena 
+sp. PCC 7367 TaxID=82654 RepID=K9SIN0_9CYAN
+Length=72
+
+ Score = 58.2 bits (139),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 34/67 (51%), Positives = 46/67 (69%), Gaps = 1/67 (1%)
+
+Query  1   MKDPKTLLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIY  60
+           MK    L+  SI+GT +VA+CCFTP+LV+ +G++G  A  GYLDY+LLP L   I LT +
+Sbjct  1   MKSKNALI-ASIVGTIVVAICCFTPILVLFIGLLGWGAFAGYLDYILLPLLLGMILLTTF  59
+
+Query  61  AIQRKRQ  67
+           +  R RQ
+Sbjct  60  SYIRYRQ  66
+
+
+> UniRef90_A0A2E5KMN9 Uncharacterized protein n=1 Tax=Alphaproteobacteria 
+bacterium TaxID=1913988 RepID=A0A2E5KMN9_9PROT
+Length=70
+
+ Score = 58.2 bits (139),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 44/64 (69%), Gaps = 0/64 (0%)
+
+Query  7   LLRVSIIGTTLVALCCFTPVLVILLGVVGLSALTGYLDYVLLPALAIFIGLTIYAIQRKR  66
+           LL+V IIGT + A CCFTP+LV+ L  +GLS  +  LD VL PAL I + +T +A+ ++R
+Sbjct  6   LLKVGIIGTIVAAFCCFTPILVVALVALGLSKYSAGLDLVLFPALGIPLLVTGFALWKRR  65
+
+Query  67  QADA  70
+             ++
+Sbjct  66  GEES  69
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.146    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 628290
+
+
+  Database: isar.db.210
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 24,726
+  Number of sequences in database:  299
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

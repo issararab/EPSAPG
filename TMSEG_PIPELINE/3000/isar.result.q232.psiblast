@@ -1,0 +1,2181 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.232
+           163 sequences; 5,809 total letters
+
+Results from round 1
+
+
+Query= Q8HS25|5xnlT|PSBT_PEA 0.9142857142857143
+
+Length=35
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_H6TGI4 Photosystem II reaction center protein T n=4 Ta...  67.4    3e-21
+  UniRef90_Q71LC0 Photosystem II reaction center protein T n=65 T...  65.1    3e-20
+  UniRef90_P69671 Photosystem II reaction center protein T n=1332...  64.7    3e-20
+  UniRef90_A0A343CWN2 Photosystem II reaction center protein T n=...  63.5    1e-19
+  UniRef90_Q8M9Z1 Photosystem II reaction center protein T n=4 Ta...  63.2    1e-19
+  UniRef90_A0ZZ62 Photosystem II reaction center protein T n=74 T...  62.4    2e-19
+  UniRef90_Q9GF87 Photosystem II reaction center protein T n=7 Ta...  62.4    3e-19
+  UniRef90_A0A343B8U4 Photosystem II reaction center protein T n=...  62.0    3e-19
+  UniRef90_Q4VZI7 Photosystem II reaction center protein T n=2978...  62.0    4e-19
+  UniRef90_A0A059SSB1 Photosystem II reaction center protein T n=...  62.0    4e-19
+  UniRef90_P61839 Photosystem II reaction center protein T n=174 ...  62.0    4e-19
+  UniRef90_Q85BG5 Photosystem II reaction center protein T n=185 ...  61.6    5e-19
+  UniRef90_K9L5N7 Photosystem II reaction center protein T n=15 T...  61.6    8e-19
+  UniRef90_A0A2S1NSL3 Photosystem II reaction center protein T n=...  61.2    8e-19
+  UniRef90_A0A2U3TDF4 Photosystem II reaction center protein T n=...  61.2    8e-19
+  UniRef90_Q85FJ6 Photosystem II reaction center protein T n=511 ...  61.2    8e-19
+  UniRef90_Q6EYL5 Photosystem II reaction center protein T n=10 T...  61.2    9e-19
+  UniRef90_Q6W578 PsbT (Fragment) n=38 Tax=Jungermanniopsida TaxI...  60.8    1e-18
+  UniRef90_G8HSK3 Photosystem II reaction center protein T n=1 Ta...  60.8    1e-18
+  UniRef90_P59903 Photosystem II reaction center protein T n=4 Ta...  60.8    1e-18
+  UniRef90_H8PFF0 Photosystem II reaction center protein T n=1 Ta...  60.8    1e-18
+  UniRef90_A0A0B5ELA0 Photosystem II reaction center protein T n=...  60.5    2e-18
+  UniRef90_A0A291R6G9 Photosystem II reaction center protein T n=...  60.5    2e-18
+  UniRef90_B6VJY0 PSII T-protein n=10 Tax=Mesangiospermae TaxID=1...  61.2    2e-18
+  UniRef90_H8PFF4 Photosystem II reaction center protein T n=1 Ta...  60.5    2e-18
+  UniRef90_I3NT10 Photosystem II reaction center protein T n=11 T...  60.1    2e-18
+  UniRef90_F6KK73 Photosystem II reaction center protein T n=5 Ta...  60.5    2e-18
+  UniRef90_Q32RQ5 Photosystem II reaction center protein T n=39 T...  60.1    2e-18
+  UniRef90_Q06GN3 Photosystem II reaction center protein T n=7 Ta...  60.1    3e-18
+  UniRef90_A0A191TFP1 Photosystem II reaction center protein T n=...  60.1    3e-18
+  UniRef90_K4KCE0 PsbT (Fragment) n=46 Tax=Embryophyta TaxID=3193...  60.1    3e-18
+  UniRef90_Q1KXT2 Photosystem II reaction center protein T n=517 ...  59.7    3e-18
+  UniRef90_D8KX06 Photosystem II reaction center protein T n=1 Ta...  59.3    4e-18
+  UniRef90_A0A221SD21 Photosystem II reaction center protein T n=...  59.3    5e-18
+  UniRef90_Q9GF83 Photosystem II reaction center protein T n=11 T...  58.9    6e-18
+  UniRef90_Q2MI74 Photosystem II reaction center protein T n=19 T...  58.9    6e-18
+  UniRef90_P59905 Photosystem II reaction center protein T n=250 ...  58.5    8e-18
+  UniRef90_A0A024B458 Photosystem II reaction center protein T n=...  58.5    1e-17
+  UniRef90_A0A248REF0 Photosystem II reaction center protein T n=...  58.5    1e-17
+  UniRef90_Q1ACH4 Photosystem II reaction center protein T n=3 Ta...  58.2    1e-17
+  UniRef90_A0A3P6HBJ9 Uncharacterized protein n=1 Tax=Brassica ol...  58.5    1e-17
+  UniRef90_A0A1B0PVF5 Photosystem II reaction center protein T n=...  58.2    1e-17
+  UniRef90_Q9XQR5 Uncharacterized protein n=1 Tax=Pisum sativum T...  58.2    1e-17
+  UniRef90_D8KX46 Photosystem II reaction center protein T n=2 Ta...  57.8    2e-17
+  UniRef90_A0A0A0QD47 PsbT (Fragment) n=7 Tax=Jungermanniales Tax...  57.4    2e-17
+  UniRef90_A0A191T4R9 Photosystem II reaction center protein T n=...  57.8    2e-17
+  UniRef90_A0A1U7AFL7 Photosystem II reaction center protein T n=...  57.4    3e-17
+  UniRef90_A0A0D2R2F0 Uncharacterized protein n=1 Tax=Gossypium r...  57.4    3e-17
+  UniRef90_A0A286QHQ3 Photosystem II reaction center protein T n=...  57.4    3e-17
+  UniRef90_A0A0C4M4K2 Photosystem II subunit T (Fragment) n=20 Ta...  57.4    3e-17
+  UniRef90_X2F306 Photosystem II protein T (Fragment) n=1 Tax=Lag...  57.4    3e-17
+  UniRef90_A8W3L0 Photosystem II protein T n=3 Tax=Grammica TaxID...  57.0    3e-17
+  UniRef90_A0A0C5BUB3 Photosystem II reaction center protein T n=...  57.0    4e-17
+  UniRef90_A0A0G2UNE3 Photosystem II reaction center protein T n=...  56.6    5e-17
+  UniRef90_F6JT15 Photosystem II T-protein n=2 Tax=Takakia TaxID=...  56.6    6e-17
+  UniRef90_A0A1B0PQE8 Photosystem II protein T n=2 Tax=Polypodiop...  56.2    7e-17
+  UniRef90_A0A0A0QDA3 PsbT (Fragment) n=1 Tax=Phyllothallia nivic...  56.2    7e-17
+  UniRef90_A0A3B6RFH0 Uncharacterized protein n=1 Tax=Triticum ae...  56.2    7e-17
+  UniRef90_A0A385GPE8 Photosystem II reaction center protein T n=...  56.2    8e-17
+  UniRef90_A0A0G3SHY4 Photosystem II reaction center protein T n=...  56.6    9e-17
+  UniRef90_A0A248RAH5 Photosystem II protein T n=1 Tax=Cystopteri...  55.8    9e-17
+  UniRef90_H2BC19 Photosystem II protein T (Fragment) n=1 Tax=Anr...  55.8    1e-16
+  UniRef90_D8KX03 Photosystem II subunit (Fragment) n=2 Tax=Embry...  55.8    1e-16
+  UniRef90_A0A1X9GCL0 Photosystem II reaction center protein T n=...  55.8    1e-16
+  UniRef90_L0BIN3 Photosystem II reaction center protein T n=10 T...  55.5    1e-16
+  UniRef90_M1FP16 Photosystem II reaction center protein T n=3 Ta...  55.8    1e-16
+  UniRef90_A0A3B5ZUK1 Uncharacterized protein n=1 Tax=Triticum ae...  55.5    1e-16
+  UniRef90_P56327 Photosystem II reaction center protein T n=38 T...  55.5    2e-16
+  UniRef90_A0A0U1VGT6 Photosystem II T protein (Fragment) n=13 Ta...  55.5    2e-16
+  UniRef90_A0A2P0QIY8 Photosystem II reaction center protein T n=...  55.5    2e-16
+  UniRef90_A0A0G3VII7 Photosystem II reaction center protein T n=...  55.5    2e-16
+  UniRef90_A0A0S2IAX2 Photosystem II reaction center protein T n=...  55.5    2e-16
+  UniRef90_A0A097KLW2 Photosystem II reaction center protein T n=...  55.5    3e-16
+  UniRef90_B0YPQ3 Photosystem II protein T n=2 Tax=Aneura mirabil...  55.1    3e-16
+  UniRef90_A0A385UNG0 Photosystem II reaction center protein T n=...  55.5    3e-16
+  UniRef90_A0A0S2ICY9 Photosystem II reaction center protein T n=...  55.1    3e-16
+  UniRef90_A0A2Z4YW22 Photosystem II reaction center protein T n=...  55.1    3e-16
+  UniRef90_D8KWU2 Photosystem II subunit (Fragment) n=22 Tax=Isoe...  54.7    3e-16
+  UniRef90_Q0P3P9 Photosystem II reaction center protein T n=26 T...  54.3    4e-16
+  UniRef90_Q67HZ1 Photosystem II subunit T n=1 Tax=Iris missourie...  54.7    4e-16
+  UniRef90_Q1KVV5 Photosystem II reaction center protein T n=20 T...  54.3    5e-16
+  UniRef90_A0A1B6PCP8 Uncharacterized protein n=2 Tax=Sorghum bic...  53.9    5e-16
+  UniRef90_D8KWU6 Photosystem II subunit (Fragment) n=1 Tax=Spinu...  53.9    6e-16
+  UniRef90_A0A0F7QZS6 Photosystem II reaction center protein T n=...  53.9    6e-16
+  UniRef90_A0A088PY76 Photosystem II protein T n=1 Tax=Campanula ...  53.9    7e-16
+  UniRef90_A0A2H4JHV3 Photosystem II reaction center protein T n=...  53.9    7e-16
+  UniRef90_A0A0A0QFT0 PsbT (Fragment) n=2 Tax=Lejeuneaceae TaxID=...  53.5    7e-16
+  UniRef90_A0A0A0QD76 PsbT (Fragment) n=3 Tax=Marchantiophyta Tax...  53.5    8e-16
+  UniRef90_A0A023HHN3 Photosystem II reaction center protein T n=...  54.3    1e-15
+  UniRef90_A0A0S2LNN4 Photosystem II reaction center protein T n=...  53.1    1e-15
+  UniRef90_K9ZVB6 Photosystem II reaction center protein T n=26 T...  52.8    2e-15
+  UniRef90_A0A1L2EDY6 Photosystem II reaction center protein T n=...  52.8    2e-15
+  UniRef90_P37256 Photosystem II reaction center protein T n=18 T...  52.8    2e-15
+  UniRef90_F5BVR2 PsbT (Fragment) n=1 Tax=Bazzania affinis TaxID=...  52.4    2e-15
+  UniRef90_A0A0A0QHU6 PsbT (Fragment) n=1 Tax=Verdoornia succulen...  52.4    3e-15
+  UniRef90_P20176 Photosystem II reaction center protein T n=75 T...  52.0    3e-15
+  UniRef90_A0A0S2LNM4 Photosystem II reaction center protein T n=...  52.4    5e-15
+  UniRef90_A0A059TM49 PsbT (Fragment) n=1 Tax=Radula nudicaulis T...  51.2    6e-15
+  UniRef90_C6EP30 PsbT (Fragment) n=1 Tax=Brachythecium populeum ...  51.2    6e-15
+  UniRef90_A0A3G1IVF0 Photosystem II protein T n=2 Tax=Glaucocyst...  51.2    7e-15
+  UniRef90_A0A2P0QH70 Photosystem II reaction center protein T n=...  50.8    9e-15
+  UniRef90_A0A0A0QGI8 PsbT (Fragment) n=3 Tax=Odontoschisma TaxID...  50.8    1e-14
+  UniRef90_P48109 Photosystem II reaction center protein T n=4 Ta...  50.8    1e-14
+  UniRef90_A0A2K9RNA7 Photosystem II protein T n=1 Tax=Galium odo...  50.8    1e-14
+  UniRef90_A0A0R0GEW8 Uncharacterized protein n=1 Tax=Glycine max...  50.4    1e-14
+  UniRef90_A0A3G1IVR8 Photosystem II protein T n=1 Tax=Gloeochaet...  50.4    1e-14
+  UniRef90_F5BVE8 PsbT (Fragment) n=1 Tax=Paracromastigum drucei ...  50.4    1e-14
+  UniRef90_H8ZXC3 Photosystem II reaction center protein T n=1 Ta...  50.4    1e-14
+  UniRef90_A0A2Z4M9N4 PsbT (Fragment) n=1 Tax=Caulerpa brownii Ta...  50.4    1e-14
+  UniRef90_A0A0D3M5I7 Photosystem II reaction center protein T n=...  50.1    2e-14
+  UniRef90_A0A088PXZ3 Photosystem II protein T n=1 Tax=Campanula ...  50.1    2e-14
+  UniRef90_A0A0A0QI25 PsbT (Fragment) n=2 Tax=Porellales TaxID=18...  49.7    2e-14
+  UniRef90_A0A222AID2 Photosystem II reaction center protein T n=...  49.7    3e-14
+  UniRef90_B2XTW7 Photosystem II protein T n=2 Tax=Heterosigma ak...  49.7    3e-14
+  UniRef90_A0A1X9PTW7 Photosystem II reaction center protein T n=...  49.7    3e-14
+  UniRef90_O19927 Photosystem II reaction center protein T n=104 ...  49.3    4e-14
+  UniRef90_B7T1V2 Photosystem II reaction center protein T n=1 Ta...  49.3    4e-14
+  UniRef90_A0A343UR56 Photosystem II protein T n=2 Tax=Isoetes Ta...  49.3    4e-14
+  UniRef90_A0A1J0AC36 Photosystem II reaction center protein T n=...  49.3    4e-14
+  UniRef90_W0RYV0 Photosystem II reaction center protein T n=6 Ta...  48.9    6e-14
+  UniRef90_F6KK77 Photosystem II subunit n=1 Tax=Phaeoceros carol...  48.9    6e-14
+  UniRef90_A0A1Y9TLY9 Photosystem II reaction center protein T n=...  48.9    6e-14
+  UniRef90_F5BVQ3 PsbT (Fragment) n=1 Tax=Bazzania pearsonii TaxI...  48.5    7e-14
+  UniRef90_D4NY77 Photosystem II reaction center protein T n=22 T...  48.1    1e-13
+  UniRef90_A0A2G2Y7S4 Photosystem II reaction center protein T n=...  48.1    1e-13
+  UniRef90_A0A218LX81 Photosystem II protein T n=2 Tax=Triticinae...  48.1    2e-13
+  UniRef90_A0T0B1 Photosystem II reaction center protein T n=30 T...  47.8    2e-13
+  UniRef90_A0A0X8WWR1 Photosystem II reaction center protein T n=...  47.8    2e-13
+  UniRef90_Q7YMC2 PsbT (Fragment) n=1 Tax=Andreaea rupestris TaxI...  47.4    2e-13
+  UniRef90_A0A2U9NTS3 Photosystem II protein T n=1 Tax=Astrosyne ...  47.4    3e-13
+  UniRef90_C6KIN2 Photosystem II protein T n=1 Tax=Aureococcus an...  47.4    3e-13
+  UniRef90_I6NJJ1 Photosystem II reaction center protein T n=1 Ta...  46.6    5e-13
+  UniRef90_A0A3P6H6W6 Uncharacterized protein n=1 Tax=Brassica ol...  46.6    5e-13
+  UniRef90_A0A0A0QBT3 PsbT (Fragment) n=2 Tax=Neoorthocaulis TaxI...  46.6    6e-13
+  UniRef90_O78512 Photosystem II reaction center protein T n=5 Ta...  46.2    6e-13
+  UniRef90_A0A0S2LN56 T protein of photosystem II n=1 Tax=Treubar...  47.0    7e-13
+  UniRef90_F5BV49 PsbT (Fragment) n=1 Tax=Herbertus sakuraii TaxI...  45.8    9e-13
+  UniRef90_A0A0D3MKP2 Photosystem II reaction center protein T n=...  45.8    9e-13
+  UniRef90_A0A0A0QI17 PsbT (Fragment) n=1 Tax=Pluvianthus squarro...  45.8    9e-13
+  UniRef90_A0A0A7DD15 PsbT protein (Fragment) n=1 Tax=Jungermanni...  45.8    1e-12
+  UniRef90_M1K004 Photosystem II reaction center protein T n=1 Ta...  45.8    1e-12
+  UniRef90_H2BC20 Photosystem II protein T (Fragment) n=1 Tax=Blo...  45.8    1e-12
+  UniRef90_A0A3B6MQK6 Uncharacterized protein n=2 Tax=Triticum ae...  45.8    1e-12
+  UniRef90_A0A0K0M878 Photosystem II protein T (Fragment) n=41 Ta...  45.4    1e-12
+  UniRef90_A0A218LRA9 Photosystem II reaction center protein T n=...  45.8    1e-12
+  UniRef90_A0A256BGQ7 Photosystem II reaction center protein T n=...  45.8    1e-12
+  UniRef90_A0A0A7DCV1 PsbT protein (Fragment) n=1 Tax=Gymnomitrio...  45.4    1e-12
+  UniRef90_A0A0A7DDE9 PsbT protein (Fragment) n=4 Tax=Jungermanni...  45.4    1e-12
+  UniRef90_A0A166VVM2 Photosystem II reaction center protein T n=...  45.4    1e-12
+  UniRef90_A0A218LGM6 Photosystem II reaction center protein T n=...  45.4    2e-12
+  UniRef90_A0A1C9CIF6 Photosystem II reaction center protein T n=...  45.1    2e-12
+  UniRef90_A0A1C9CEB7 Photosystem II reaction center protein T n=...  44.7    2e-12
+  UniRef90_A0A1C9CCN2 Photosystem II reaction center protein T n=...  44.7    3e-12
+  UniRef90_A0A0S2QDD7 Photosystem II reaction center protein T n=...  44.7    3e-12
+  UniRef90_A0A0S2PKM4 Photosystem II protein T (Fragment) n=7 Tax...  44.3    3e-12
+  UniRef90_A0A218L6A0 Photosystem II protein T n=3 Tax=Triticeae ...  43.5    9e-12
+  UniRef90_A0A3B6PDP6 Uncharacterized protein n=1 Tax=Triticum ae...  43.1    1e-11
+  UniRef90_A0ARD6 Photosystem II subunit T (Fragment) n=1 Tax=Rip...  39.3    4e-10
+  UniRef90_C6EP27 PsbT n=1 Tax=Brachythecium plumosum TaxID=94488...  37.7    2e-09
+  UniRef90_H2BC29 Photosystem II protein T (Fragment) n=1 Tax=Wei...  37.0    4e-09
+  UniRef90_A0A218L789 Photosystem II protein T n=1 Tax=Aegilops c...  35.8    9e-09
+  UniRef90_A0A218LW64 Photosystem II protein T n=1 Tax=Triticum m...  35.0    2e-08
+  UniRef90_A0A220IKX7 Photosystem II reaction center protein T n=...  28.1    1e-05
+
+
+> UniRef90_H6TGI4 Photosystem II reaction center protein T n=4 
+Tax=Viridiplantae TaxID=33090 RepID=H6TGI4_9LILI
+Length=37
+
+ Score = 67.4 bits (163),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 32/35 (91%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGI+FFAIFFREPP+VPTKN K
+Sbjct  1   MEALVYTFLLVSTLGILFFAIFFREPPRVPTKNQK  35
+
+
+> UniRef90_Q71LC0 Photosystem II reaction center protein T n=65 
+Tax=Embryophyta TaxID=3193 RepID=PSBT_BOWSE
+Length=35
+
+ Score = 65.1 bits (157),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIFFREPPKVP + +K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPDRGSK  35
+
+
+> UniRef90_P69671 Photosystem II reaction center protein T n=1332 
+Tax=Euphyllophyta TaxID=78536 RepID=PSBT_MAIZE
+Length=33
+
+ Score = 64.7 bits (156),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 32/33 (97%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK 
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKK  33
+
+
+> UniRef90_A0A343CWN2 Photosystem II reaction center protein T 
+n=1 Tax=Vatica odorata TaxID=64582 RepID=A0A343CWN2_9ROSI
+Length=38
+
+ Score = 63.5 bits (153),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEA VYTFLLVSTLGIIFFAIFFR+PPKVPTK  K
+Sbjct  4   MEAWVYTFLLVSTLGIIFFAIFFRDPPKVPTKKLK  38
+
+
+> UniRef90_Q8M9Z1 Photosystem II reaction center protein T n=4 
+Tax=Streptophytina TaxID=131221 RepID=PSBT_CHAGL
+Length=35
+
+ Score = 63.2 bits (152),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 30/35 (86%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLV TLGIIFFAIFFREPP+VP K+ K
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPRVPVKDKK  35
+
+
+> UniRef90_A0ZZ62 Photosystem II reaction center protein T n=74 
+Tax=Mesangiospermae TaxID=1437183 RepID=PSBT_GOSBA
+Length=35
+
+ Score = 62.4 bits (150),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIFFREPPK+ TK  K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKILTKKMK  35
+
+
+> UniRef90_Q9GF87 Photosystem II reaction center protein T n=7 
+Tax=Euphyllophyta TaxID=78536 RepID=PSBT_GINBI
+Length=35
+
+ Score = 62.4 bits (150),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 30/35 (86%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIFFR+PPKVP +  K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFRDPPKVPNEGRK  35
+
+
+> UniRef90_A0A343B8U4 Photosystem II reaction center protein T 
+n=1 Tax=Schoepfia jasminodora TaxID=212711 RepID=A0A343B8U4_9MAGN
+Length=35
+
+ Score = 62.0 bits (149),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLLVSTLGIIFFAIFFREPPKV TK
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVSTK  32
+
+
+> UniRef90_Q4VZI7 Photosystem II reaction center protein T n=2978 
+Tax=Embryophyta TaxID=3193 RepID=PSBT_CUCSA
+Length=37
+
+ Score = 62.0 bits (149),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIFFREPPKVP    K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPVPTKK  35
+
+
+> UniRef90_A0A059SSB1 Photosystem II reaction center protein T 
+n=4 Tax=Polypodiidae TaxID=1521262 RepID=A0A059SSB1_OSMCI
+Length=35
+
+ Score = 62.0 bits (149),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLV+TLGIIFFAIF REPP+VP+K  K
+Sbjct  1   MEALVYTFLLVATLGIIFFAIFLREPPRVPSKGRK  35
+
+
+> UniRef90_P61839 Photosystem II reaction center protein T n=174 
+Tax=Pentapetalae TaxID=1437201 RepID=PSBT_ARATH
+Length=33
+
+ Score = 62.0 bits (149),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 30/33 (91%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGIIFFAIFFREPPK+ TK 
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKISTKK  33
+
+
+> UniRef90_Q85BG5 Photosystem II reaction center protein T n=185 
+Tax=Streptophytina TaxID=131221 RepID=PSBT_ANTAG
+Length=40
+
+ Score = 61.6 bits (148),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 29/33 (88%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV TLGIIFFAIFFR+PPKVP+K 
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFRDPPKVPSKG  33
+
+
+> UniRef90_K9L5N7 Photosystem II reaction center protein T n=15 
+Tax=Anthemideae TaxID=102810 RepID=K9L5N7_CHRMO
+Length=47
+
+ Score = 61.6 bits (148),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 30/35 (86%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIFFREPP + TK  K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPTIQTKKIK  35
+
+
+> UniRef90_A0A2S1NSL3 Photosystem II reaction center protein T 
+n=1 Tax=Asclepias latifolia TaxID=528292 RepID=A0A2S1NSL3_9GENT
+Length=35
+
+ Score = 61.2 bits (147),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 30/35 (86%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGI FFAIFFREPPK+ TK  K
+Sbjct  1   MEALVYTFLLVSTLGIXFFAIFFREPPKISTKRLK  35
+
+
+> UniRef90_A0A2U3TDF4 Photosystem II reaction center protein T 
+n=3 Tax=Embryophyta TaxID=3193 RepID=A0A2U3TDF4_EURFE
+Length=38
+
+ Score = 61.2 bits (147),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 30/31 (97%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPT  31
+           MEALVYTFLLVSTLGIIFFAIFFREPPKVP 
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPN  31
+
+
+> UniRef90_Q85FJ6 Photosystem II reaction center protein T n=511 
+Tax=Embryophyta TaxID=3193 RepID=PSBT_ADICA
+Length=34
+
+ Score = 61.2 bits (147),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 29/33 (88%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV+TLGIIFFAIFFREPPKVP + 
+Sbjct  1   MEALVYTFLLVATLGIIFFAIFFREPPKVPNRG  33
+
+
+> UniRef90_Q6EYL5 Photosystem II reaction center protein T n=10 
+Tax=Aristolochiaceae TaxID=16727 RepID=PSBT_ARIMA
+Length=35
+
+ Score = 61.2 bits (147),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLL+STLGIIFFAIFFR+PP++ TK  K
+Sbjct  1   MEALVYTFLLISTLGIIFFAIFFRDPPRISTKKMK  35
+
+
+> UniRef90_Q6W578 PsbT (Fragment) n=38 Tax=Jungermanniopsida TaxID=186771 
+RepID=Q6W578_9MARC
+Length=36
+
+ Score = 60.8 bits (146),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+            EALVYTFLLV TLGI+FFAIFFREPPKVP+K  K
+Sbjct  2   WEALVYTFLLVGTLGILFFAIFFREPPKVPSKGKK  36
+
+
+> UniRef90_G8HSK3 Photosystem II reaction center protein T n=1 
+Tax=Halocarpus kirkii TaxID=120593 RepID=G8HSK3_9SPER
+Length=35
+
+ Score = 60.8 bits (146),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLL+STLGIIFFAIFFREPPK+  +  K
+Sbjct  1   MEALVYTFLLISTLGIIFFAIFFREPPKIQDRGDK  35
+
+
+> UniRef90_P59903 Photosystem II reaction center protein T n=4 
+Tax=Eukaryota TaxID=2759 RepID=PSBT_COLOB
+Length=35
+
+ Score = 60.8 bits (146),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLL+ TLGIIFFAIFFREPP++P K  K
+Sbjct  1   MEALVYTFLLIGTLGIIFFAIFFREPPRLPVKGKK  35
+
+
+> UniRef90_H8PFF0 Photosystem II reaction center protein T n=1 
+Tax=Luzula parviflora TaxID=46323 RepID=H8PFF0_9POAL
+Length=35
+
+ Score = 60.8 bits (146),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           ME LVYTFLLVSTLGIIFFAIFFRE PKVPTK  K
+Sbjct  1   METLVYTFLLVSTLGIIFFAIFFRESPKVPTKIKK  35
+
+
+> UniRef90_A0A0B5ELA0 Photosystem II reaction center protein T 
+n=11 Tax=Polypodiopsida TaxID=241806 RepID=A0A0B5ELA0_9MONI
+Length=35
+
+ Score = 60.5 bits (145),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLV+T GIIFFAIFFR+PPKVP K  K
+Sbjct  1   MEALVYTFLLVATSGIIFFAIFFRDPPKVPNKGKK  35
+
+
+> UniRef90_A0A291R6G9 Photosystem II reaction center protein T 
+n=3 Tax=Azolla TaxID=39630 RepID=A0A291R6G9_9MONI
+Length=34
+
+ Score = 60.5 bits (145),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV+TLGIIFF+IFFREPP++PTK 
+Sbjct  1   MEALVYTFLLVATLGIIFFSIFFREPPQLPTKE  33
+
+
+> UniRef90_B6VJY0 PSII T-protein n=10 Tax=Mesangiospermae TaxID=1437183 
+RepID=B6VJY0_VITVI
+Length=66
+
+ Score = 61.2 bits (147),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIFFREPPK  TK  K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKEKTKKMK  35
+
+
+> UniRef90_H8PFF4 Photosystem II reaction center protein T n=1 
+Tax=Puelia olyriformis TaxID=93677 RepID=H8PFF4_9POAL
+Length=38
+
+ Score = 60.5 bits (145),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVP  30
+           MEALVYTFLLVSTLGIIFFAIFFREPPKVP
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVP  30
+
+
+> UniRef90_I3NT10 Photosystem II reaction center protein T n=11 
+Tax=Viridiplantae TaxID=33090 RepID=I3NT10_9SOLA
+Length=37
+
+ Score = 60.1 bits (144),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 30/35 (86%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIFFREPPK+ T   K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKIITTTKK  35
+
+
+> UniRef90_F6KK73 Photosystem II reaction center protein T n=5 
+Tax=Embryophyta TaxID=3193 RepID=F6KK73_9EMBR
+Length=40
+
+ Score = 60.5 bits (145),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 29/33 (88%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV TLGIIFFAI FREPPKVP+K 
+Sbjct  1   MEALVYTFLLVGTLGIIFFAISFREPPKVPSKG  33
+
+
+> UniRef90_Q32RQ5 Photosystem II reaction center protein T n=39 
+Tax=Viridiplantae TaxID=33090 RepID=PSBT_ZYGCR
+Length=35
+
+ Score = 60.1 bits (144),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLV TLGIIFFAIFFREPPK+  K  K
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPKIEVKEKK  35
+
+
+> UniRef90_Q06GN3 Photosystem II reaction center protein T n=7 
+Tax=Mesangiospermae TaxID=1437183 RepID=PSBT_PIPCE
+Length=33
+
+ Score = 60.1 bits (144),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGIIFFAIFFR+PP++ TK 
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFRDPPRISTKK  33
+
+
+> UniRef90_A0A191TFP1 Photosystem II reaction center protein T 
+n=1 Tax=Ludisia discolor TaxID=60011 RepID=A0A191TFP1_LUDDI
+Length=36
+
+ Score = 60.1 bits (144),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVS LGIIFFA+FF+EPPKVPT+ 
+Sbjct  4   MEALVYTFLLVSNLGIIFFALFFQEPPKVPTQK  36
+
+
+> UniRef90_K4KCE0 PsbT (Fragment) n=46 Tax=Embryophyta TaxID=3193 
+RepID=K4KCE0_9ROSI
+Length=38
+
+ Score = 60.1 bits (144),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 32/35 (91%), Positives = 32/35 (91%), Gaps = 2/35 (6%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPK--VPTKN  33
+           MEALVYTFLLVSTLGIIFFAIFFREPPK  VPTK 
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPKXXVPTKK  35
+
+
+> UniRef90_Q1KXT2 Photosystem II reaction center protein T n=517 
+Tax=Embryophyta TaxID=3193 RepID=PSBT_HELAN
+Length=33
+
+ Score = 59.7 bits (143),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 29/33 (88%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGIIFFAIFFREPP + TK 
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPTISTKK  33
+
+
+> UniRef90_D8KX06 Photosystem II reaction center protein T n=1 
+Tax=Hymenophyllum hirsutum TaxID=160850 RepID=D8KX06_9MONI
+Length=35
+
+ Score = 59.3 bits (142),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLV+TLGIIFFAIFFREPPK+ ++  K
+Sbjct  1   MEALVYTFLLVATLGIIFFAIFFREPPKILSQRKK  35
+
+
+> UniRef90_A0A221SD21 Photosystem II reaction center protein T 
+n=5 Tax=Embryophyta TaxID=3193 RepID=A0A221SD21_ANEPI
+Length=35
+
+ Score = 59.3 bits (142),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALV+TFL V+TLGIIFFAIFFREPPKVP +  K
+Sbjct  1   MEALVHTFLSVATLGIIFFAIFFREPPKVPDRGKK  35
+
+
+> UniRef90_Q9GF83 Photosystem II reaction center protein T n=11 
+Tax=Viridiplantae TaxID=33090 RepID=PSBT_GNEGN
+Length=35
+
+ Score = 58.9 bits (141),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGI+FFAIFFREPP+V  K  K
+Sbjct  1   MEALVYTFLLVSTLGILFFAIFFREPPRVTPKGGK  35
+
+
+> UniRef90_Q2MI74 Photosystem II reaction center protein T n=19 
+Tax=Viridiplantae TaxID=33090 RepID=PSBT_SOLLC
+Length=34
+
+ Score = 58.9 bits (141),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 29/33 (88%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGIIFFAIFFREPP + TK 
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFREPPTIRTKK  33
+
+
+> UniRef90_P59905 Photosystem II reaction center protein T n=250 
+Tax=Streptophyta TaxID=35493 RepID=PSBT_SPIMX
+Length=37
+
+ Score = 58.5 bits (140),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV TLGIIFFAIFFREPPK+P  +
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPKLPEAS  33
+
+
+> UniRef90_A0A024B458 Photosystem II reaction center protein T 
+n=257 Tax=cellular organisms TaxID=131567 RepID=A0A024B458_9VIRI
+Length=37
+
+ Score = 58.5 bits (140),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 30/37 (81%), Positives = 32/37 (86%), Gaps = 2/37 (5%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV--PTKNTK  35
+           MEALVYTFLLV TLGIIFFAIFFREPPK+  P+K  K
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPKIVTPSKGKK  37
+
+
+> UniRef90_A0A248REF0 Photosystem II reaction center protein T 
+n=2 Tax=Aspleniineae TaxID=1203511 RepID=A0A248REF0_MATST
+Length=34
+
+ Score = 58.5 bits (140),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEA V+TFLLV+TLGIIFFAIFFREPPKVP+K 
+Sbjct  1   MEAPVHTFLLVATLGIIFFAIFFREPPKVPSKG  33
+
+
+> UniRef90_Q1ACH4 Photosystem II reaction center protein T n=3 
+Tax=Characeae TaxID=3146 RepID=PSBT_CHAVU
+Length=35
+
+ Score = 58.2 bits (139),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLV TLGIIFFAIFFREPP++  K  K
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPRIIAKTKK  35
+
+
+> UniRef90_A0A3P6HBJ9 Uncharacterized protein n=1 Tax=Brassica 
+oleracea TaxID=3712 RepID=A0A3P6HBJ9_BRAOL
+Length=41
+
+ Score = 58.5 bits (140),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGIIFF  FFREPP + TKN
+Sbjct  1   MEALVYTFLLVSTLGIIFFRYFFREPPTISTKN  33
+
+
+> UniRef90_A0A1B0PVF5 Photosystem II reaction center protein T 
+n=4 Tax=Viridiplantae TaxID=33090 RepID=A0A1B0PVF5_9ROSI
+Length=33
+
+ Score = 58.2 bits (139),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGI+FF+IFFREPPK+ T+ 
+Sbjct  1   MEALVYTFLLVSTLGILFFSIFFREPPKIRTQK  33
+
+
+> UniRef90_Q9XQR5 Uncharacterized protein n=1 Tax=Pisum sativum 
+TaxID=3888 RepID=Q9XQR5_PEA
+Length=34
+
+ Score = 58.2 bits (139),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 30/35 (86%), Positives = 32/35 (91%), Gaps = 1/35 (3%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVS   ++FFAIFFREPPKVPTKNTK
+Sbjct  1   MEALVYTFLLVSK-ELVFFAIFFREPPKVPTKNTK  34
+
+
+> UniRef90_D8KX46 Photosystem II reaction center protein T n=2 
+Tax=Salvinia TaxID=32187 RepID=D8KX46_9MONI
+Length=36
+
+ Score = 57.8 bits (138),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV+TLGIIFFAIFFREPP++   N
+Sbjct  1   MEALVYTFLLVATLGIIFFAIFFREPPQLTNNN  33
+
+
+> UniRef90_A0A0A0QD47 PsbT (Fragment) n=7 Tax=Jungermanniales TaxID=3199 
+RepID=A0A0A0QD47_9MARC
+Length=32
+
+ Score = 57.4 bits (137),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 28/32 (88%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LVYTFLL+ TLGIIFFAIFFREPPKVPTK  K
+Sbjct  1   LVYTFLLIGTLGIIFFAIFFREPPKVPTKAKK  32
+
+
+> UniRef90_A0A191T4R9 Photosystem II reaction center protein T 
+n=2 Tax=Streptophytina TaxID=131221 RepID=A0A191T4R9_9VIRI
+Length=40
+
+ Score = 57.8 bits (138),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLL+STLGIIFFAIFFREPP++     K
+Sbjct  5   MEALVYTFLLISTLGIIFFAIFFREPPRIIKGKNK  39
+
+
+> UniRef90_A0A1U7AFL7 Photosystem II reaction center protein T 
+n=1 Tax=Actinostachys pennula TaxID=148577 RepID=A0A1U7AFL7_9MONI
+Length=34
+
+ Score = 57.4 bits (137),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV+TLGI  FAIFFREPP+VP+K 
+Sbjct  1   MEALVYTFLLVATLGITSFAIFFREPPRVPSKG  33
+
+
+> UniRef90_A0A0D2R2F0 Uncharacterized protein n=1 Tax=Gossypium 
+raimondii TaxID=29730 RepID=A0A0D2R2F0_GOSRA
+Length=35
+
+ Score = 57.4 bits (137),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVY FLLVSTLGIIF AIFFREPPK+ T+  K
+Sbjct  1   MEALVYKFLLVSTLGIIFLAIFFREPPKILTEKMK  35
+
+
+> UniRef90_A0A286QHQ3 Photosystem II reaction center protein T 
+n=1 Tax=Schizaea pectinata TaxID=148576 RepID=A0A286QHQ3_9MONI
+Length=34
+
+ Score = 57.4 bits (137),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFL VST GIIFFAIFFREPP+VP K 
+Sbjct  1   MEALVYTFLPVSTSGIIFFAIFFREPPRVPNKG  33
+
+
+> UniRef90_A0A0C4M4K2 Photosystem II subunit T (Fragment) n=20 
+Tax=Jungermanniales TaxID=3199 RepID=A0A0C4M4K2_9MARC
+Length=34
+
+ Score = 57.4 bits (137),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/34 (79%), Positives = 30/34 (88%), Gaps = 0/34 (0%)
+
+Query  2   EALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           + LVYTFLL+ TLGIIFFAIFFREPPKVP+K  K
+Sbjct  1   KPLVYTFLLIGTLGIIFFAIFFREPPKVPSKGKK  34
+
+
+> UniRef90_X2F306 Photosystem II protein T (Fragment) n=1 Tax=Lagenaria 
+siceraria TaxID=3668 RepID=X2F306_LAGSI
+Length=37
+
+ Score = 57.4 bits (137),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/28 (100%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPK  28
+           MEALVYTFLLVSTLGIIFFAIFFREPPK
+Sbjct  4   MEALVYTFLLVSTLGIIFFAIFFREPPK  31
+
+
+> UniRef90_A8W3L0 Photosystem II protein T n=3 Tax=Grammica TaxID=1824618 
+RepID=A8W3L0_CUSOB
+Length=35
+
+ Score = 57.0 bits (136),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEA+VYTFLLVSTLGI+FFAIFFRE P +P K  K
+Sbjct  1   MEAVVYTFLLVSTLGILFFAIFFRESPTIPVKKIK  35
+
+
+> UniRef90_A0A0C5BUB3 Photosystem II reaction center protein T 
+n=1 Tax=Trentepohlia annulata TaxID=374116 RepID=A0A0C5BUB3_9CHLO
+Length=38
+
+ Score = 57.0 bits (136),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV TLGIIFFAIFFR+ P+V T N
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFRDSPRVITSN  33
+
+
+> UniRef90_A0A0G2UNE3 Photosystem II reaction center protein T 
+n=1 Tax=Selaginella uncinata TaxID=307165 RepID=A0A0G2UNE3_SELUN
+Length=33
+
+ Score = 56.6 bits (135),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 26/31 (84%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPT  31
+           MEALVYTFLLVSTLGIIFFAIFFR+PP++ +
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFRDPPRIQS  31
+
+
+> UniRef90_F6JT15 Photosystem II T-protein n=2 Tax=Takakia TaxID=37424 
+RepID=F6JT15_TAKLE
+Length=35
+
+ Score = 56.6 bits (135),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALV+TF LV TLGIIFFAI  REPPKVP+K  K
+Sbjct  1   MEALVHTFSLVGTLGIIFFAISLREPPKVPSKGKK  35
+
+
+> UniRef90_A0A1B0PQE8 Photosystem II protein T n=2 Tax=Polypodiopsida 
+TaxID=241806 RepID=A0A1B0PQE8_9MONI
+Length=35
+
+ Score = 56.2 bits (134),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLV+TLGII FAI  REPPKVP+K  +
+Sbjct  1   MEALVYTFLLVATLGIISFAISSREPPKVPSKGKR  35
+
+
+> UniRef90_A0A0A0QDA3 PsbT (Fragment) n=1 Tax=Phyllothallia nivicola 
+TaxID=269531 RepID=A0A0A0QDA3_9MARC
+Length=32
+
+ Score = 56.2 bits (134),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 27/32 (84%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LVYTFLLV TLGIIFFAIFFREPP+VP K  K
+Sbjct  1   LVYTFLLVGTLGIIFFAIFFREPPRVPNKGEK  32
+
+
+> UniRef90_A0A3B6RFH0 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A3B6RFH0_WHEAT
+Length=38
+
+ Score = 56.2 bits (134),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLL STLGIIFFAIF REPPKVP    K
+Sbjct  1   MEALVYTFLLFSTLGIIFFAIFIREPPKVPPTPIK  35
+
+
+> UniRef90_A0A385GPE8 Photosystem II reaction center protein T 
+n=1 Tax=Dipteris conjugata TaxID=32108 RepID=A0A385GPE8_9MONI
+Length=35
+
+ Score = 56.2 bits (134),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFL V+TLGIIFFAIFFREPP++ +K  K
+Sbjct  1   MEALVYTFLPVATLGIIFFAIFFREPPRILSKGKK  35
+
+
+> UniRef90_A0A0G3SHY4 Photosystem II reaction center protein T 
+n=1 Tax=Cryptoglena skujai TaxID=161229 RepID=A0A0G3SHY4_9EUGL
+Length=54
+
+ Score = 56.6 bits (135),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 31/35 (89%), Gaps = 1/35 (3%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPK-VPTKNT  34
+           MEALVYTFLLV TLGIIFFAIFFREPP+ V  +N+
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPRIVKVRNS  35
+
+
+> UniRef90_A0A248RAH5 Photosystem II protein T n=1 Tax=Cystopteris 
+chinensis TaxID=1565408 RepID=A0A248RAH5_9MONI
+Length=34
+
+ Score = 55.8 bits (133),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 28/33 (85%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLV+T GI FFA FFREPPKVP K 
+Sbjct  1   MEALVYTFLLVATSGITFFATFFREPPKVPGKG  33
+
+
+> UniRef90_H2BC19 Photosystem II protein T (Fragment) n=1 Tax=Anredera 
+baselloides TaxID=1038467 RepID=H2BC19_9CARY
+Length=36
+
+ Score = 55.8 bits (133),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 28/31 (90%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  3   ALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           ALVYTFLLVSTLGIIFFAIFFREPPKV  K 
+Sbjct  6   ALVYTFLLVSTLGIIFFAIFFREPPKVAXKK  36
+
+
+> UniRef90_D8KX03 Photosystem II subunit (Fragment) n=2 Tax=Embryophyta 
+TaxID=3193 RepID=D8KX03_DRYFM
+Length=34
+
+ Score = 55.8 bits (133),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 27/32 (84%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  2   EALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           EALVYT L V+TLGIIFFAIFFREPPKVP+K 
+Sbjct  2   EALVYTSLSVATLGIIFFAIFFREPPKVPSKG  33
+
+
+> UniRef90_A0A1X9GCL0 Photosystem II reaction center protein T 
+n=1 Tax=Euglena archaeoplastidiata TaxID=1188008 RepID=A0A1X9GCL0_9EUGL
+Length=37
+
+ Score = 55.8 bits (133),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLGIIFFAIFFREPP++
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_L0BIN3 Photosystem II reaction center protein T n=10 
+Tax=Eukaryota TaxID=2759 RepID=L0BIN3_MONAE
+Length=34
+
+ Score = 55.5 bits (132),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLGIIFFAIFFREPP++
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_M1FP16 Photosystem II reaction center protein T n=3 
+Tax=Euglenaceae TaxID=1131320 RepID=M1FP16_EUGVI
+Length=44
+
+ Score = 55.8 bits (133),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLG+IFFAIFFREPP++
+Sbjct  1   MEALVYTFLLVGTLGVIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A3B5ZUK1 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A3B5ZUK1_WHEAT
+Length=38
+
+ Score = 55.5 bits (132),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGI FFAI FRE PKVP   TK
+Sbjct  1   MEALVYTFLLVSTLGIDFFAILFRESPKVPPTPTK  35
+
+
+> UniRef90_P56327 Photosystem II reaction center protein T n=38 
+Tax=Eukaryota TaxID=2759 RepID=PSBT_CHLVU
+Length=31
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLGIIFFAIFFREPP++
+Sbjct  1   MEALVYTFLLVGTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A0U1VGT6 Photosystem II T protein (Fragment) n=13 
+Tax=Bryopsida TaxID=3214 RepID=A0A0U1VGT6_9BRYO
+Length=35
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+            + LVYTFLLV TLGIIFFAIFFREPPK+ TK  K
+Sbjct  1   WKPLVYTFLLVGTLGIIFFAIFFREPPKIQTKGKK  35
+
+
+> UniRef90_A0A2P0QIY8 Photosystem II reaction center protein T 
+n=5 Tax=Bryopsidales TaxID=33104 RepID=A0A2P0QIY8_CHLFS
+Length=31
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+STLGI+FFAIFFREPP++
+Sbjct  1   MEALVYTFLLISTLGILFFAIFFREPPRI  29
+
+
+> UniRef90_A0A0G3VII7 Photosystem II reaction center protein T 
+n=2 Tax=Euglenales TaxID=86650 RepID=A0A0G3VII7_EUGVI
+Length=44
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLG+IFFAIFFREPP++
+Sbjct  1   MEALVYTFLLVGTLGVIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A0S2IAX2 Photosystem II reaction center protein T 
+n=2 Tax=Chlorophyceae TaxID=3166 RepID=A0A0S2IAX2_9CHLO
+Length=46
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLGIIFFAIFFREPP++
+Sbjct  16  MEALVYTFLLVGTLGIIFFAIFFREPPRM  44
+
+
+> UniRef90_A0A097KLW2 Photosystem II reaction center protein T 
+n=1 Tax=Marsupiomonas sp. NIES 1824 TaxID=1562198 RepID=A0A097KLW2_9CHLO
+Length=53
+
+ Score = 55.5 bits (132),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TLGIIFFAIFFREPP++
+Sbjct  23  MEALVYTFLLIGTLGIIFFAIFFREPPRI  51
+
+
+> UniRef90_B0YPQ3 Photosystem II protein T n=2 Tax=Aneura mirabilis 
+TaxID=280810 RepID=B0YPQ3_ANEMR
+Length=35
+
+ Score = 55.1 bits (131),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALV+TFLL++TLGII  AIFFREPPKVP    K
+Sbjct  1   MEALVHTFLLIATLGIISSAIFFREPPKVPNGGKK  35
+
+
+> UniRef90_A0A385UNG0 Photosystem II reaction center protein T 
+n=1 Tax=Trachelomonas grandis TaxID=215769 RepID=A0A385UNG0_9EUGL
+Length=69
+
+ Score = 55.5 bits (132),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEAL+YTFLLV TLGIIFFAIFFREPP++
+Sbjct  1   MEALIYTFLLVGTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A0S2ICY9 Photosystem II reaction center protein T 
+n=4 Tax=Chlamydomonadales TaxID=3042 RepID=A0A0S2ICY9_9CHLO
+Length=46
+
+ Score = 55.1 bits (131),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TLGIIFFAIFFREPP++
+Sbjct  16  MEALVYTFLLIGTLGIIFFAIFFREPPRI  44
+
+
+> UniRef90_A0A2Z4YW22 Photosystem II reaction center protein T 
+n=2 Tax=Euglenida TaxID=3035 RepID=A0A2Z4YW22_9EUGL
+Length=51
+
+ Score = 55.1 bits (131),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLG+IFFAIFFREPP++
+Sbjct  1   MEALVYTFLLVGTLGVIFFAIFFREPPRI  29
+
+
+> UniRef90_D8KWU2 Photosystem II subunit (Fragment) n=22 Tax=Isoetes 
+TaxID=13838 RepID=D8KWU2_9TRAC
+Length=35
+
+ Score = 54.7 bits (130),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 27/34 (79%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  2   EALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           EALV+T L VST GIIFFAIFFREPPKVP+K  K
+Sbjct  2   EALVHTSLPVSTSGIIFFAIFFREPPKVPSKGKK  35
+
+
+> UniRef90_Q0P3P9 Photosystem II reaction center protein T n=26 
+Tax=Eukaryota TaxID=2759 RepID=PSBT_OSTTA
+Length=31
+
+ Score = 54.3 bits (129),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEA+VYTFLLV TLGIIFFAIFFREPP++
+Sbjct  1   MEAIVYTFLLVGTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_Q67HZ1 Photosystem II subunit T n=1 Tax=Iris missouriensis 
+TaxID=207932 RepID=Q67HZ1_9ASPA
+Length=35
+
+ Score = 54.7 bits (130),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEA   TFLLV TLGIIFFA FFREP KVPTK TK
+Sbjct  1   MEAXXXTFLLVXTLGIIFFAXFFREPXKVPTKKTK  35
+
+
+> UniRef90_Q1KVV5 Photosystem II reaction center protein T n=20 
+Tax=Chlorophyceae TaxID=3166 RepID=PSBT_TETOB
+Length=31
+
+ Score = 54.3 bits (129),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TLGIIFFAIFFREPP++
+Sbjct  1   MEALVYTFLLIGTLGIIFFAIFFREPPRM  29
+
+
+> UniRef90_A0A1B6PCP8 Uncharacterized protein n=2 Tax=Sorghum bicolor 
+TaxID=4558 RepID=A0A1B6PCP8_SORBI
+Length=33
+
+ Score = 53.9 bits (128),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 26/33 (79%), Positives = 28/33 (85%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           ME LVYTFLLV +LGIIFF IFFREPP+ PTK 
+Sbjct  1   MEVLVYTFLLVLSLGIIFFTIFFREPPQFPTKK  33
+
+
+> UniRef90_D8KWU6 Photosystem II subunit (Fragment) n=1 Tax=Spinulum 
+annotinum TaxID=13840 RepID=D8KWU6_SPIAN
+Length=35
+
+ Score = 53.9 bits (128),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 27/34 (79%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  2   EALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           EALVYT LLV TLGII FAI FREPPKVP K  K
+Sbjct  2   EALVYTSLLVGTLGIISFAISFREPPKVPNKGKK  35
+
+
+> UniRef90_A0A0F7QZS6 Photosystem II reaction center protein T 
+n=1 Tax=Lepidodinium chlorophorum TaxID=107758 RepID=A0A0F7QZS6_LEPCH
+Length=34
+
+ Score = 53.9 bits (128),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEA+VYTFLL+ TLGIIFFAIFFREPP++
+Sbjct  1   MEAIVYTFLLIGTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A088PY76 Photosystem II protein T n=1 Tax=Campanula 
+americana TaxID=239430 RepID=A0A088PY76_9ASTR
+Length=33
+
+ Score = 53.9 bits (128),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           M+ALVYTFLLVSTLGIIF AIFF E PK+PTK 
+Sbjct  1   MKALVYTFLLVSTLGIIFSAIFFIESPKIPTKK  33
+
+
+> UniRef90_A0A2H4JHV3 Photosystem II reaction center protein T 
+n=1 Tax=Pedinophyceae sp. YPF-701 TaxID=765719 RepID=A0A2H4JHV3_9CHLO
+Length=31
+
+ Score = 53.9 bits (128),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEA+VY FLL+STLGIIFFAIFFREPP++
+Sbjct  1   MEAVVYAFLLISTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A0A0QFT0 PsbT (Fragment) n=2 Tax=Lejeuneaceae TaxID=65055 
+RepID=A0A0A0QFT0_9MARC
+Length=30
+
+ Score = 53.5 bits (127),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 26/30 (87%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           LVYTFLLV TLGIIFF+IFFREPPKVP K 
+Sbjct  1   LVYTFLLVGTLGIIFFSIFFREPPKVPKKK  30
+
+
+> UniRef90_A0A0A0QD76 PsbT (Fragment) n=3 Tax=Marchantiophyta TaxID=3195 
+RepID=A0A0A0QD76_9MARC
+Length=30
+
+ Score = 53.5 bits (127),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 26/30 (87%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  6   YTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           YTFLLV TLGIIFF IFFREPPKVPTK  K
+Sbjct  1   YTFLLVGTLGIIFFDIFFREPPKVPTKGKK  30
+
+
+> UniRef90_A0A023HHN3 Photosystem II reaction center protein T 
+n=1 Tax=Euglenaformis proxima TaxID=299110 RepID=A0A023HHN3_9EUGL
+Length=76
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL  TLGIIFFAIFFREPP++
+Sbjct  1   MEALVYTFLLAGTLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A0S2LNN4 Photosystem II reaction center protein T 
+n=2 Tax=Chlorophyta TaxID=3041 RepID=A0A0S2LNN4_JENMI
+Length=31
+
+ Score = 53.1 bits (126),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TLGIIFF+IFFREPP++
+Sbjct  1   MEALVYTFLLIGTLGIIFFSIFFREPPRM  29
+
+
+> UniRef90_K9ZVB6 Photosystem II reaction center protein T n=26 
+Tax=Eukaryota TaxID=2759 RepID=K9ZVB6_9STRA
+Length=32
+
+ Score = 52.8 bits (125),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLL+ TL +IFFA+FFREPP++ TK
+Sbjct  1   MEALVYTFLLIGTLMVIFFAVFFREPPRIITK  32
+
+
+> UniRef90_A0A1L2EDY6 Photosystem II reaction center protein T 
+n=5 Tax=Bryopsidales TaxID=33104 RepID=A0A1L2EDY6_9CHLO
+Length=31
+
+ Score = 52.8 bits (125),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TLGI+FF+IFFREPP++
+Sbjct  1   MEALVYTFLLIGTLGILFFSIFFREPPRI  29
+
+
+> UniRef90_P37256 Photosystem II reaction center protein T n=18 
+Tax=Viridiplantae TaxID=33090 RepID=PSBT_CHLRE
+Length=31
+
+ Score = 52.8 bits (125),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV TLGIIFF+IFFR+PP++
+Sbjct  1   MEALVYTFLLVGTLGIIFFSIFFRDPPRM  29
+
+
+> UniRef90_F5BVR2 PsbT (Fragment) n=1 Tax=Bazzania affinis TaxID=378241 
+RepID=F5BVR2_9MARC
+Length=30
+
+ Score = 52.4 bits (124),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           LVYTFL + TLGIIFFAIFFREPPKVP K 
+Sbjct  1   LVYTFLFIGTLGIIFFAIFFREPPKVPRKK  30
+
+
+> UniRef90_A0A0A0QHU6 PsbT (Fragment) n=1 Tax=Verdoornia succulenta 
+TaxID=139852 RepID=A0A0A0QHU6_9MARC
+Length=32
+
+ Score = 52.4 bits (124),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LVYTFLLV  LGIIFFAI FREPPKVP +  K
+Sbjct  1   LVYTFLLVGALGIIFFAISFREPPKVPNRGKK  32
+
+
+> UniRef90_P20176 Photosystem II reaction center protein T n=75 
+Tax=Eukaryota TaxID=2759 RepID=PSBT_EUGGR
+Length=31
+
+ Score = 52.0 bits (123),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TLG+IFFAIFFRE P++
+Sbjct  1   MEALVYTFLLIGTLGVIFFAIFFRESPRI  29
+
+
+> UniRef90_A0A0S2LNM4 Photosystem II reaction center protein T 
+n=1 Tax=Hafniomonas laevis TaxID=436124 RepID=A0A0S2LNM4_9CHLO
+Length=73
+
+ Score = 52.4 bits (124),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TLGIIFF+IFFR+PP++
+Sbjct  43  MEALVYTFLLIGTLGIIFFSIFFRDPPRM  71
+
+
+> UniRef90_A0A059TM49 PsbT (Fragment) n=1 Tax=Radula nudicaulis 
+TaxID=697109 RepID=A0A059TM49_9MARC
+Length=30
+
+ Score = 51.2 bits (121),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 25/26 (96%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  5   VYTFLLVSTLGIIFFAIFFREPPKVP  30
+           VYTFLLV TLGIIFFAIFFREPPKVP
+Sbjct  1   VYTFLLVGTLGIIFFAIFFREPPKVP  26
+
+
+> UniRef90_C6EP30 PsbT (Fragment) n=1 Tax=Brachythecium populeum 
+TaxID=184630 RepID=C6EP30_9BRYO
+Length=34
+
+ Score = 51.2 bits (121),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 25/34 (74%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  2   EALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           EAL Y FLLV TLGIIFFAI FREPPK+  K  K
+Sbjct  1   EALXYXFLLVGTLGIIFFAISFREPPKIQXKGKK  34
+
+
+> UniRef90_A0A3G1IVF0 Photosystem II protein T n=2 Tax=Glaucocystis 
+TaxID=38258 RepID=A0A3G1IVF0_9EUKA
+Length=30
+
+ Score = 51.2 bits (121),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVY FLL  TLGIIFFAIFFR+PP++
+Sbjct  1   MEALVYVFLLAGTLGIIFFAIFFRDPPRI  29
+
+
+> UniRef90_A0A2P0QH70 Photosystem II reaction center protein T 
+n=3 Tax=Bryopsidales TaxID=33104 RepID=A0A2P0QH70_9CHLO
+Length=31
+
+ Score = 50.8 bits (120),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTF L+ TLGI+FF+IFFREPP++
+Sbjct  1   MEALVYTFFLIGTLGILFFSIFFREPPRI  29
+
+
+> UniRef90_A0A0A0QGI8 PsbT (Fragment) n=3 Tax=Odontoschisma TaxID=255938 
+RepID=A0A0A0QGI8_9MARC
+Length=32
+
+ Score = 50.8 bits (120),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LVYTFL V T GIIFFAIF REPPKVP+K  K
+Sbjct  1   LVYTFLSVGTPGIIFFAIFLREPPKVPSKGKK  32
+
+
+> UniRef90_P48109 Photosystem II reaction center protein T n=4 
+Tax=Cyanophora TaxID=2761 RepID=PSBT_CYAPA
+Length=31
+
+ Score = 50.8 bits (120),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLLV+TLGI+FF+I FR+PP++
+Sbjct  1   MEALVYTFLLVTTLGILFFSIIFRDPPRI  29
+
+
+> UniRef90_A0A2K9RNA7 Photosystem II protein T n=1 Tax=Galium odoratum 
+TaxID=35899 RepID=A0A2K9RNA7_GALOD
+Length=41
+
+ Score = 50.8 bits (120),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 26/33 (79%), Positives = 26/33 (79%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTLGIIFFAIFF    K   KN
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFENLLKFQLKN  33
+
+
+> UniRef90_A0A0R0GEW8 Uncharacterized protein n=1 Tax=Glycine max 
+TaxID=3847 RepID=A0A0R0GEW8_SOYBN
+Length=34
+
+ Score = 50.4 bits (119),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/33 (73%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           M+ LVYTFLL+STLGIIFF IFFR+  KV TK 
+Sbjct  1   MKELVYTFLLISTLGIIFFLIFFRKSSKVSTKK  33
+
+
+> UniRef90_A0A3G1IVR8 Photosystem II protein T n=1 Tax=Gloeochaete 
+wittrockiana TaxID=38269 RepID=A0A3G1IVR8_9EUKA
+Length=34
+
+ Score = 50.4 bits (119),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVY FLL +TLGIIFF+IFFR+PP++
+Sbjct  1   MEALVYVFLLAATLGIIFFSIFFRDPPRI  29
+
+
+> UniRef90_F5BVE8 PsbT (Fragment) n=1 Tax=Paracromastigum drucei 
+TaxID=989934 RepID=F5BVE8_9MARC
+Length=32
+
+ Score = 50.4 bits (119),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LVYTFLL+ T GIIFFAIFFREPPK+ +K  K
+Sbjct  1   LVYTFLLIGTSGIIFFAIFFREPPKILSKEKK  32
+
+
+> UniRef90_H8ZXC3 Photosystem II reaction center protein T n=1 
+Tax=Eutreptia viridis TaxID=96908 RepID=H8ZXC3_9EUGL
+Length=31
+
+ Score = 50.4 bits (119),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           ME LVY+FLL+ +LGIIFFAIFFREPP++
+Sbjct  1   MEPLVYSFLLIGSLGIIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A2Z4M9N4 PsbT (Fragment) n=1 Tax=Caulerpa brownii 
+TaxID=511814 RepID=A0A2Z4M9N4_9CHLO
+Length=28
+
+ Score = 50.4 bits (119),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPK  28
+           MEALVYT LL+STLGIIFFAIFFREP +
+Sbjct  1   MEALVYTLLLISTLGIIFFAIFFREPLR  28
+
+
+> UniRef90_A0A0D3M5I7 Photosystem II reaction center protein T 
+n=1 Tax=Trachydiscus minutus TaxID=1032745 RepID=A0A0D3M5I7_9STRA
+Length=32
+
+ Score = 50.1 bits (118),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLL+ TL ++FF++FFREPP++ +K
+Sbjct  1   MEALVYTFLLIGTLMVLFFSVFFREPPRITSK  32
+
+
+> UniRef90_A0A088PXZ3 Photosystem II protein T n=1 Tax=Campanula 
+americana TaxID=239430 RepID=A0A088PXZ3_9ASTR
+Length=33
+
+ Score = 50.1 bits (118),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 28/33 (85%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTFLLVSTL IIF AIFF +P KVPTK 
+Sbjct  1   MEALVYTFLLVSTLEIIFSAIFFIKPLKVPTKK  33
+
+
+> UniRef90_A0A0A0QI25 PsbT (Fragment) n=2 Tax=Porellales TaxID=186798 
+RepID=A0A0A0QI25_9MARC
+Length=28
+
+ Score = 49.7 bits (117),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/27 (89%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  9   LLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LLV TLGIIFFAIFFREPPKVPTK  K
+Sbjct  1   LLVGTLGIIFFAIFFREPPKVPTKGGK  27
+
+
+> UniRef90_A0A222AID2 Photosystem II reaction center protein T 
+n=3 Tax=Cryptophyta TaxID=3027 RepID=A0A222AID2_9CRYP
+Length=32
+
+ Score = 49.7 bits (117),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           ME LVY FLL  TLG+IFFA+FFR+PP++  K
+Sbjct  1   METLVYVFLLAGTLGVIFFAVFFRDPPRIAKK  32
+
+
+> UniRef90_B2XTW7 Photosystem II protein T n=2 Tax=Heterosigma 
+akashiwo TaxID=2829 RepID=B2XTW7_HETA4
+Length=32
+
+ Score = 49.7 bits (117),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLL+ TL +IFFA+FFRE P+V  K
+Sbjct  1   MEALVYTFLLIGTLMVIFFAVFFRETPRVVNK  32
+
+
+> UniRef90_A0A1X9PTW7 Photosystem II reaction center protein T 
+n=1 Tax=Corynoplastis japonica TaxID=700918 RepID=A0A1X9PTW7_9RHOD
+Length=32
+
+ Score = 49.7 bits (117),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           ME+LVY FLL+ TL +IFFAIFFR+PP++P +
+Sbjct  1   MESLVYVFLLIGTLMVIFFAIFFRDPPRIPKE  32
+
+
+> UniRef90_O19927 Photosystem II reaction center protein T n=104 
+Tax=Eukaryota TaxID=2759 RepID=PSBT_CYACA
+Length=32
+
+ Score = 49.3 bits (116),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVY FLL+ TL +IFFAIFFR+PP++  K
+Sbjct  1   MEALVYVFLLIGTLVVIFFAIFFRDPPRIAKK  32
+
+
+> UniRef90_B7T1V2 Photosystem II reaction center protein T n=1 
+Tax=Vaucheria litorea TaxID=109269 RepID=B7T1V2_VAULI
+Length=32
+
+ Score = 49.3 bits (116),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLL+ TL I+FFA+FFR+PP+V  K
+Sbjct  1   MEALVYTFLLIGTLIILFFAVFFRDPPRVIKK  32
+
+
+> UniRef90_A0A343UR56 Photosystem II protein T n=2 Tax=Isoetes 
+TaxID=13838 RepID=A0A343UR56_9TRAC
+Length=32
+
+ Score = 49.3 bits (116),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  4   LVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           +V+T   VSTLGIIFFAIFFREPPKVP K  K
+Sbjct  1   MVHTSSPVSTLGIIFFAIFFREPPKVPNKGKK  32
+
+
+> UniRef90_A0A1J0AC36 Photosystem II reaction center protein T 
+n=1 Tax=Gloeomargarita lithophora Alchichica-D10 TaxID=1188229 
+RepID=A0A1J0AC36_9CYAN
+Length=32
+
+ Score = 49.3 bits (116),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEAL YT LLV  LG+IFFAIFFREPP++  +
+Sbjct  1   MEALTYTVLLVGVLGVIFFAIFFREPPRIDKE  32
+
+
+> UniRef90_W0RYV0 Photosystem II reaction center protein T n=6 
+Tax=Rhodophyta TaxID=2763 RepID=W0RYV0_PORPP
+Length=31
+
+ Score = 48.9 bits (115),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVY FLLV TL +IFFA+FFR+PPK+
+Sbjct  1   MEALVYVFLLVGTLMVIFFAVFFRDPPKI  29
+
+
+> UniRef90_F6KK77 Photosystem II subunit n=1 Tax=Phaeoceros carolinianus 
+TaxID=185665 RepID=F6KK77_9EMBR
+Length=40
+
+ Score = 48.9 bits (115),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 23/33 (70%), Positives = 25/33 (76%), Gaps = 0/33 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           MEALVYTF  V TLGIIF A   R+PPKVP+K 
+Sbjct  1   MEALVYTFSSVGTLGIIFLATSSRDPPKVPSKE  33
+
+
+> UniRef90_A0A1Y9TLY9 Photosystem II reaction center protein T 
+n=1 Tax=Boldia erythrosiphon TaxID=74908 RepID=A0A1Y9TLY9_9RHOD
+Length=31
+
+ Score = 48.9 bits (115),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPT  31
+           ME LVY FLL+ TL IIFFAIFFREPPK+ +
+Sbjct  1   METLVYVFLLIGTLVIIFFAIFFREPPKISS  31
+
+
+> UniRef90_F5BVQ3 PsbT (Fragment) n=1 Tax=Bazzania pearsonii TaxID=989912 
+RepID=F5BVQ3_9MARC
+Length=29
+
+ Score = 48.5 bits (114),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  5   VYTFLLVSTLGIIFFAIFFREPPKVPTKN  33
+           VYTFLL+ TLGIIFFA  FREPPKVP K 
+Sbjct  1   VYTFLLIGTLGIIFFAXXFREPPKVPKKK  29
+
+
+> UniRef90_D4NY77 Photosystem II reaction center protein T n=22 
+Tax=Rhodophyta TaxID=2763 RepID=D4NY77_GALSU
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVY FLL  TL ++FFAIFFR+PP++  K  K
+Sbjct  1   MEALVYIFLLTGTLMVLFFAIFFRDPPRIANKPKK  35
+
+
+> UniRef90_A0A2G2Y7S4 Photosystem II reaction center protein T 
+n=1 Tax=Capsicum annuum TaxID=4072 RepID=A0A2G2Y7S4_CAPAN
+Length=38
+
+ Score = 48.1 bits (113),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALV TFLLVSTLGIIFFAIFF    K   K TK
+Sbjct  1   MEALVNTFLLVSTLGIIFFAIFFDNRLKFQLKRTK  35
+
+
+> UniRef90_A0A218LX81 Photosystem II protein T n=2 Tax=Triticinae 
+TaxID=1648030 RepID=A0A218LX81_TRIMO
+Length=38
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVYTFLLVSTLGIIFFAIF     KVP   TK
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFXXXXXKVPPTPTK  35
+
+
+> UniRef90_A0T0B1 Photosystem II reaction center protein T n=30 
+Tax=Stramenopiles TaxID=33634 RepID=PSBT_PHATC
+Length=32
+
+ Score = 47.8 bits (112),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLL+ TL +IFFA+FFRE P++  K
+Sbjct  1   MEALVYTFLLIGTLIVIFFAVFFRETPRIIKK  32
+
+
+> UniRef90_A0A0X8WWR1 Photosystem II reaction center protein T 
+n=2 Tax=Cyanobacteria TaxID=1117 RepID=A0A0X8WWR1_9CYAN
+Length=34
+
+ Score = 47.8 bits (112),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           ME+L+Y FLLV TLG++FFAI FREPP++
+Sbjct  1   MESLIYVFLLVCTLGLLFFAIAFREPPRI  29
+
+
+> UniRef90_Q7YMC2 PsbT (Fragment) n=1 Tax=Andreaea rupestris TaxID=13797 
+RepID=Q7YMC2_9BRYO
+Length=28
+
+ Score = 47.4 bits (111),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  8   FLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           F LV TLG+IFFAIFFREPPK+P+K  K
+Sbjct  1   FXLVGTLGVIFFAIFFREPPKIPSKGKK  28
+
+
+> UniRef90_A0A2U9NTS3 Photosystem II protein T n=1 Tax=Astrosyne 
+radiata TaxID=1158023 RepID=A0A2U9NTS3_9STRA
+Length=32
+
+ Score = 47.4 bits (111),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           ME+L+YTFLL+ TL +IFFA+FFRE P+V  K
+Sbjct  1   MESLIYTFLLIGTLVVIFFAVFFRESPQVVKK  32
+
+
+> UniRef90_C6KIN2 Photosystem II protein T n=1 Tax=Aureococcus 
+anophagefferens TaxID=44056 RepID=C6KIN2_AURAN
+Length=32
+
+ Score = 47.4 bits (111),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLL+ TL I+FF++FFRE PK+  K
+Sbjct  1   MEALVYTFLLIGTLLILFFSVFFRETPKIIKK  32
+
+
+> UniRef90_I6NJJ1 Photosystem II reaction center protein T n=1 
+Tax=Colacium vesiculosum TaxID=102910 RepID=I6NJJ1_9EUGL
+Length=32
+
+ Score = 46.6 bits (109),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           ME L YTFLL+STLG++FFAIFFR+ P++
+Sbjct  1   MEPLFYTFLLISTLGVLFFAIFFRDSPRI  29
+
+
+> UniRef90_A0A3P6H6W6 Uncharacterized protein n=1 Tax=Brassica 
+oleracea TaxID=3712 RepID=A0A3P6H6W6_BRAOL
+Length=34
+
+ Score = 46.6 bits (109),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEALVYTFLLVSTLGIIFFAIFF    +   K
+Sbjct  1   MEALVYTFLLVSTLGIIFFAIFFGNRLQFQLK  32
+
+
+> UniRef90_A0A0A0QBT3 PsbT (Fragment) n=2 Tax=Neoorthocaulis TaxID=984971 
+RepID=A0A0A0QBT3_9MARC
+Length=30
+
+ Score = 46.6 bits (109),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  6   YTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           YTFLL+ T GII  AIFFREPPKVP+K  K
+Sbjct  1   YTFLLIGTPGIISSAIFFREPPKVPSKGKK  30
+
+
+> UniRef90_O78512 Photosystem II reaction center protein T n=5 
+Tax=Pyrenomonadales TaxID=589342 RepID=PSBT_GUITH
+Length=32
+
+ Score = 46.2 bits (108),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 19/32 (59%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           ME LVYTFLL+ TL ++F A+FFR+PP++  K
+Sbjct  1   METLVYTFLLIGTLAVLFAAVFFRDPPRIAKK  32
+
+
+> UniRef90_A0A0S2LN56 T protein of photosystem II n=1 Tax=Treubaria 
+triappendiculata TaxID=1755147 RepID=A0A0S2LN56_TRETR
+Length=72
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 26/30 (87%), Gaps = 1/30 (3%)
+
+Query  1   MEALVYTFLLVSTLGIIFFA-IFFREPPKV  29
+           MEALVYTFLL+ TLGIIFF   FFREPP++
+Sbjct  41  MEALVYTFLLIGTLGIIFFCYFFFREPPRM  70
+
+
+> UniRef90_F5BV49 PsbT (Fragment) n=1 Tax=Herbertus sakuraii TaxID=280633 
+RepID=F5BV49_9MARC
+Length=26
+
+ Score = 45.8 bits (107),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 21/25 (84%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  11  VSTLGIIFFAIFFREPPKVPTKNTK  35
+           + TLGIIFFAIFFREPPKVPTK  K
+Sbjct  2   IGTLGIIFFAIFFREPPKVPTKGKK  26
+
+
+> UniRef90_A0A0D3MKP2 Photosystem II reaction center protein T 
+n=5 Tax=Stramenopiles TaxID=33634 RepID=A0A0D3MKP2_9STRA
+Length=32
+
+ Score = 45.8 bits (107),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEALVYTFLL+ TL ++FFA FFRE PK+
+Sbjct  1   MEALVYTFLLIGTLMVLFFAAFFRETPKI  29
+
+
+> UniRef90_A0A0A0QI17 PsbT (Fragment) n=1 Tax=Pluvianthus squarrosus 
+TaxID=414212 RepID=A0A0A0QI17_9MARC
+Length=27
+
+ Score = 45.8 bits (107),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 22/27 (81%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  9   LLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LLV  LGIIFFAIFFREPPKVP K  K
+Sbjct  1   LLVGXLGIIFFAIFFREPPKVPRKGKK  27
+
+
+> UniRef90_A0A0A7DD15 PsbT protein (Fragment) n=1 Tax=Jungermannia 
+polaris TaxID=402631 RepID=A0A0A7DD15_9MARC
+Length=27
+
+ Score = 45.8 bits (107),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/27 (78%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  9   LLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LL+ TLGIIFFAIFFREPPKVP++  K
+Sbjct  1   LLIGTLGIIFFAIFFREPPKVPSRVKK  27
+
+
+> UniRef90_M1K004 Photosystem II reaction center protein T n=1 
+Tax=Diacronema lutheri TaxID=2081491 RepID=M1K004_DIALT
+Length=32
+
+ Score = 45.8 bits (107),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEA+VY+ LL+ TL +IFFAIFFR+PP++  K
+Sbjct  1   MEAIVYSTLLIGTLIVIFFAIFFRDPPRIAKK  32
+
+
+> UniRef90_H2BC20 Photosystem II protein T (Fragment) n=1 Tax=Blossfeldia 
+liliputana TaxID=154411 RepID=H2BC20_BLOLI
+Length=38
+
+ Score = 45.8 bits (107),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPP  27
+           MEALVYTFLLV TLG+IFFAIFFREPP
+Sbjct  4   MEALVYTFLLVLTLGLIFFAIFFREPP  30
+
+
+> UniRef90_A0A3B6MQK6 Uncharacterized protein n=2 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A3B6MQK6_WHEAT
+Length=38
+
+ Score = 45.8 bits (107),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/25 (92%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           MEALVYTFL VSTLGII FAIFFRE
+Sbjct  1   MEALVYTFLFVSTLGIIVFAIFFRE  25
+
+
+> UniRef90_A0A0K0M878 Photosystem II protein T (Fragment) n=41 
+Tax=Embryophyta TaxID=3193 RepID=A0A0K0M878_9MARC
+Length=27
+
+ Score = 45.4 bits (106),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/27 (78%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  9   LLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LLV TLGIIFFAIFFREPPK+ +K  K
+Sbjct  1   LLVGTLGIIFFAIFFREPPKIQSKGKK  27
+
+
+> UniRef90_A0A218LRA9 Photosystem II reaction center protein T 
+n=3 Tax=Triticeae TaxID=147389 RepID=A0A218LRA9_9POAL
+Length=38
+
+ Score = 45.8 bits (107),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/25 (92%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           MEALVY  LLVSTLGIIFFAIFFRE
+Sbjct  1   MEALVYXXLLVSTLGIIFFAIFFRE  25
+
+
+> UniRef90_A0A256BGQ7 Photosystem II reaction center protein T 
+n=5 Tax=Pseudanabaena TaxID=1152 RepID=A0A256BGQ7_9CYAN
+Length=37
+
+ Score = 45.8 bits (107),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           MEAL YTF+    +G+ FFAIFFREPPKV
+Sbjct  1   MEALTYTFIFACLIGLFFFAIFFREPPKV  29
+
+
+> UniRef90_A0A0A7DCV1 PsbT protein (Fragment) n=1 Tax=Gymnomitrion 
+obtusum TaxID=1527723 RepID=A0A0A7DCV1_9MARC
+Length=27
+
+ Score = 45.4 bits (106),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  9   LLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LL+ TLGI+FF+IFFREPPK+P+K  K
+Sbjct  1   LLIGTLGILFFSIFFREPPKIPSKGKK  27
+
+
+> UniRef90_A0A0A7DDE9 PsbT protein (Fragment) n=4 Tax=Jungermanniidae 
+TaxID=186782 RepID=A0A0A7DDE9_9MARC
+Length=27
+
+ Score = 45.4 bits (106),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/26 (77%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  10  LVSTLGIIFFAIFFREPPKVPTKNTK  35
+           L+ TLGIIFF+IFFREPPKVP+K  K
+Sbjct  2   LIGTLGIIFFSIFFREPPKVPSKGKK  27
+
+
+> UniRef90_A0A166VVM2 Photosystem II reaction center protein T 
+n=1 Tax=Leptolyngbya valderiana BDU 20041 TaxID=322866 RepID=A0A166VVM2_9CYAN
+Length=31
+
+ Score = 45.4 bits (106),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           ME+L+Y FLLV+TLG++FFAI FRE PK+
+Sbjct  1   MESLIYIFLLVATLGLLFFAIAFRETPKI  29
+
+
+> UniRef90_A0A218LGM6 Photosystem II reaction center protein T 
+n=1 Tax=Amblyopyrum muticum TaxID=4595 RepID=A0A218LGM6_9POAL
+Length=38
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/25 (92%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           M  LVYTFLLVSTLGIIFFAIFFRE
+Sbjct  1   MXXLVYTFLLVSTLGIIFFAIFFRE  25
+
+
+> UniRef90_A0A1C9CIF6 Photosystem II reaction center protein T 
+n=10 Tax=Rhodophyta TaxID=2763 RepID=A0A1C9CIF6_9RHOD
+Length=31
+
+ Score = 45.1 bits (105),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           ME LVY FLL  TL +IFFAIFFR+PP++
+Sbjct  1   METLVYVFLLTGTLMVIFFAIFFRDPPRI  29
+
+
+> UniRef90_A0A1C9CEB7 Photosystem II reaction center protein T 
+n=1 Tax=Erythrotrichia carnea TaxID=35151 RepID=A0A1C9CEB7_9RHOD
+Length=31
+
+ Score = 44.7 bits (104),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           ME LVY FLL  TL I+FF++FFREPPK+
+Sbjct  1   METLVYVFLLTGTLMILFFSVFFREPPKI  29
+
+
+> UniRef90_A0A1C9CCN2 Photosystem II reaction center protein T 
+n=1 Tax=Bangiopsis subsimplex TaxID=139980 RepID=A0A1C9CCN2_9RHOD
+Length=31
+
+ Score = 44.7 bits (104),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKV  29
+           ME LVY FLL  TL  IFFAIFFREPP++
+Sbjct  1   METLVYVFLLTGTLMTIFFAIFFREPPRI  29
+
+
+> UniRef90_A0A0S2QDD7 Photosystem II reaction center protein T 
+n=1 Tax=Karenia brevis TaxID=156230 RepID=A0A0S2QDD7_KARBR
+Length=32
+
+ Score = 44.7 bits (104),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTK  32
+           MEA++YT LL+ TL +IFFAIFFR+PP++  K
+Sbjct  1   MEAILYTVLLIGTLFVIFFAIFFRDPPRLVRK  32
+
+
+> UniRef90_A0A0S2PKM4 Photosystem II protein T (Fragment) n=7 Tax=Sphaerocarpales 
+TaxID=37407 RepID=A0A0S2PKM4_9MARC
+Length=27
+
+ Score = 44.3 bits (103),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/27 (78%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  9   LLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           LLV TLGIIFF+IFFREPP VP+K  K
+Sbjct  1   LLVGTLGIIFFSIFFREPPTVPSKAKK  27
+
+
+> UniRef90_A0A218L6A0 Photosystem II protein T n=3 Tax=Triticeae 
+TaxID=147389 RepID=A0A218L6A0_9POAL
+Length=38
+
+ Score = 43.5 bits (101),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 22/25 (88%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           MEALVYTFLLVSTLGI   AIFFRE
+Sbjct  1   MEALVYTFLLVSTLGIXXXAIFFRE  25
+
+
+> UniRef90_A0A3B6PDP6 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A3B6PDP6_WHEAT
+Length=38
+
+ Score = 43.1 bits (100),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 22/25 (88%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           MEALVYT LLVSTLGI FFAIFF+E
+Sbjct  1   MEALVYTSLLVSTLGIKFFAIFFQE  25
+
+
+> UniRef90_A0ARD6 Photosystem II subunit T (Fragment) n=1 Tax=Ripogonum 
+elseyanum TaxID=59115 RepID=A0ARD6_9LILI
+Length=30
+
+ Score = 39.3 bits (90),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVP  30
+           MEALVYTFLL STLGIIFF IFF EPPKVP
+Sbjct  1   MEALVYTFLLXSTLGIIFFXIFFXEPPKVP  30
+
+
+> UniRef90_C6EP27 PsbT n=1 Tax=Brachythecium plumosum TaxID=94488 
+RepID=C6EP27_9BRYO
+Length=35
+
+ Score = 37.7 bits (86),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPPKVPTKNTK  35
+           MEALVY FLLV TLGIIFF IFF EPPK+  K  K
+Sbjct  1   MEALVYPFLLVGTLGIIFFXIFFXEPPKIQXKGKK  35
+
+
+> UniRef90_H2BC29 Photosystem II protein T (Fragment) n=1 Tax=Weingartia 
+kargliana TaxID=1038493 RepID=H2BC29_9CARY
+Length=38
+
+ Score = 37.0 bits (84),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFREPP  27
+           ME  VYTF L+ T GII+FAIF+REPP
+Sbjct  4   METFVYTFTLILTFGIIYFAIFYREPP  30
+
+
+> UniRef90_A0A218L789 Photosystem II protein T n=1 Tax=Aegilops 
+comosa TaxID=4485 RepID=A0A218L789_AEGCM
+Length=38
+
+ Score = 35.8 bits (81),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 18/25 (72%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           MEALVY       LGIIFFAIFFRE
+Sbjct  1   MEALVYXXXXXXXLGIIFFAIFFRE  25
+
+
+> UniRef90_A0A218LW64 Photosystem II protein T n=1 Tax=Triticum 
+monococcum TaxID=4568 RepID=A0A218LW64_TRIMO
+Length=38
+
+ Score = 35.0 bits (79),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 18/25 (72%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           ME       LVSTLGIIFFAIFFRE
+Sbjct  1   MEXXXXXXXLVSTLGIIFFAIFFRE  25
+
+
+> UniRef90_A0A220IKX7 Photosystem II reaction center protein T 
+n=1 Tax=Triticum turgidum TaxID=4571 RepID=A0A220IKX7_TRITU
+Length=38
+
+ Score = 28.1 bits (61),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 23/25 (92%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  1   MEALVYTFLLVSTLGIIFFAIFFRE  25
+           MEALVYTFLLVST  IIFFAIFFRE
+Sbjct  1   MEALVYTFLLVSTXXIIFFAIFFRE  25
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.146    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 149820
+
+
+  Database: isar.db.232
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 5,809
+  Number of sequences in database:  163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2727 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.136
+           205 sequences; 8,182 total letters
+
+Results from round 1
+
+
+Query= P17227|2o01I|PSAI_PEA 0.75
+
+Length=40
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P17227 Photosystem I reaction center subunit VIII n=6 ...  78.2    2e-25
+  UniRef90_S4T0R9 Photosystem I reaction center subunit VIII n=40...  58.5    2e-17
+  UniRef90_A0A0K0LVX5 Photosystem I reaction center subunit VIII ...  57.4    5e-17
+  UniRef90_A0A0Y0U531 Photosystem I reaction center subunit VIII ...  57.0    8e-17
+  UniRef90_A0A023I2N1 Photosystem I reaction center subunit VIII ...  56.6    1e-16
+  UniRef90_P49159 Photosystem I reaction center subunit VIII n=12...  56.2    1e-16
+  UniRef90_A0A0U1XGY7 Photosystem I reaction center subunit VIII ...  55.8    2e-16
+  UniRef90_V5JDS7 Photosystem I reaction center subunit VIII n=18...  55.5    2e-16
+  UniRef90_A0A0R0FU83 Photosystem I reaction center subunit VIII ...  55.1    4e-16
+  UniRef90_A0A0K0LXZ9 Photosystem I reaction center subunit VIII ...  54.7    5e-16
+  UniRef90_A4QJK9 Photosystem I reaction center subunit VIII n=6 ...  54.7    6e-16
+  UniRef90_A0A0X8E8J1 Photosystem I reaction center subunit VIII ...  54.3    8e-16
+  UniRef90_Q31909 Photosystem I reaction center subunit VIII n=14...  53.9    1e-15
+  UniRef90_A0A0U3USX7 Photosystem I reaction center subunit VIII ...  53.9    1e-15
+  UniRef90_P56768 Photosystem I reaction center subunit VIII n=49...  53.9    1e-15
+  UniRef90_Q2MI90 Photosystem I reaction center subunit VIII n=65...  53.1    2e-15
+  UniRef90_A0A343S929 Photosystem I reaction center subunit VIII ...  53.1    2e-15
+  UniRef90_A0A385CIB7 Photosystem I reaction center subunit VIII ...  52.8    3e-15
+  UniRef90_A0A1B2CY99 Photosystem I reaction center subunit VIII ...  52.8    3e-15
+  UniRef90_D1L8P8 Photosystem I reaction center subunit VIII n=96...  52.8    3e-15
+  UniRef90_T1UMV6 Photosystem I reaction center subunit VIII n=1 ...  52.8    3e-15
+  UniRef90_A0A1X9ZG97 Photosystem I reaction center subunit VIII ...  52.8    4e-15
+  UniRef90_A0A0R0HWJ6 Photosystem I reaction center subunit VIII ...  52.4    4e-15
+  UniRef90_Q9GDV2 Photosystem I reaction center subunit VIII n=4 ...  52.4    4e-15
+  UniRef90_Q4VZI2 Photosystem I reaction center subunit VIII n=19...  52.4    4e-15
+  UniRef90_Q0ZJ10 Photosystem I reaction center subunit VIII n=11...  52.0    6e-15
+  UniRef90_E5KUA6 Photosystem I reaction center subunit VIII n=2 ...  52.0    8e-15
+  UniRef90_A0A1Z1GAH9 Photosystem I reaction center subunit VIII ...  51.6    1e-14
+  UniRef90_Q9BBS0 Photosystem I reaction center subunit VIII n=1 ...  51.6    1e-14
+  UniRef90_U3R676 Photosystem I reaction center subunit VIII n=1 ...  51.6    1e-14
+  UniRef90_Q14FE7 Photosystem I reaction center subunit VIII n=60...  51.6    1e-14
+  UniRef90_P13165 Photosystem I reaction center subunit VIII n=29...  51.2    1e-14
+  UniRef90_A0A386RWV7 Photosystem I reaction center subunit VIII ...  51.2    1e-14
+  UniRef90_Q6EW69 Photosystem I reaction center subunit VIII n=8 ...  51.2    1e-14
+  UniRef90_A0A1I9VUB8 Photosystem I reaction center subunit VIII ...  51.2    2e-14
+  UniRef90_V9NYP2 Photosystem I reaction center subunit VIII n=7 ...  50.8    2e-14
+  UniRef90_A0A2G2XWV2 Photosystem I reaction center subunit VIII ...  50.8    2e-14
+  UniRef90_A0A1L2FP35 Photosystem I reaction center subunit VIII ...  50.8    2e-14
+  UniRef90_A0A1X9QH48 Photosystem I reaction center subunit VIII ...  50.8    2e-14
+  UniRef90_A0A1Z1CF77 Photosystem I reaction center subunit VIII ...  50.4    2e-14
+  UniRef90_A0A0U1VEZ1 Photosystem I reaction center subunit VIII ...  50.4    2e-14
+  UniRef90_A0A2H4Z6W7 Photosystem I reaction center subunit VIII ...  50.4    2e-14
+  UniRef90_A0A1V0IX76 Photosystem I reaction center subunit VIII ...  50.4    3e-14
+  UniRef90_A0A2K9RNP9 Photosystem I reaction center subunit VIII ...  50.4    3e-14
+  UniRef90_Q7YJW3 Photosystem I reaction center subunit VIII n=2 ...  50.4    3e-14
+  UniRef90_D5HQ26 Photosystem I reaction center subunit VIII n=4 ...  50.8    3e-14
+  UniRef90_Q9TL12 Photosystem I reaction center subunit VIII n=1 ...  50.4    3e-14
+  UniRef90_B7T3R5 Photosystem I reaction center subunit VIII n=3 ...  50.4    3e-14
+  UniRef90_A0A1D6YJM2 Photosystem I reaction center subunit VIII ...  50.4    3e-14
+  UniRef90_Q49KY8 Photosystem I reaction center subunit VIII n=72...  50.4    3e-14
+  UniRef90_Q0P3K0 Photosystem I reaction center subunit VIII n=2 ...  50.1    4e-14
+  UniRef90_A0A126TGZ8 Photosystem I reaction center subunit VIII ...  50.1    4e-14
+  UniRef90_A0A1W6CEL6 Photosystem I reaction center subunit VIII ...  50.1    4e-14
+  UniRef90_A0A1W5W9D7 Photosystem I reaction center subunit VIII ...  50.1    4e-14
+  UniRef90_A0A0K0VJ48 Photosystem I reaction center subunit VIII ...  50.1    4e-14
+  UniRef90_A0A0G2QXJ9 Photosystem I reaction center subunit VIII ...  50.1    4e-14
+  UniRef90_H6SZN1 Photosystem I reaction center subunit VIII (Fra...  50.1    4e-14
+  UniRef90_A0A2G2V315 Photosystem I reaction center subunit VIII ...  50.1    4e-14
+  UniRef90_A0A2Z5D6A9 Photosystem I reaction center subunit VIII ...  50.1    5e-14
+  UniRef90_A0A0R0FMI7 Photosystem I reaction center subunit VIII ...  49.7    5e-14
+  UniRef90_A0A0S0ZN35 Photosystem I reaction center subunit VIII ...  49.7    5e-14
+  UniRef90_P17228 Photosystem I reaction center subunit VIII n=12...  49.7    5e-14
+  UniRef90_S4UFS9 Photosystem I reaction center subunit VIII n=3 ...  49.7    5e-14
+  UniRef90_A0A2H4EBJ4 Photosystem I reaction center subunit VIII ...  49.7    5e-14
+  UniRef90_H6SZP0 Photosystem I reaction center subunit VIII n=1 ...  49.7    6e-14
+  UniRef90_A0A2D1GRW3 Photosystem I reaction center subunit VIII ...  49.7    6e-14
+  UniRef90_A0A1X9ZIA9 Photosystem I reaction center subunit VIII ...  49.3    7e-14
+  UniRef90_Q1KXU9 Photosystem I reaction center subunit VIII n=19...  49.3    8e-14
+  UniRef90_A0A2G3B272 Photosystem I reaction center subunit VIII ...  53.1    8e-14
+  UniRef90_A0A2U8U5V0 Photosystem I reaction center subunit VIII ...  49.3    8e-14
+  UniRef90_A0A3G5CTE2 Photosystem I subunit VIII n=1 Tax=Haplopte...  49.3    8e-14
+  UniRef90_A0A088CKC2 Photosystem I reaction center subunit VIII ...  49.3    8e-14
+  UniRef90_C7BEV2 Photosystem I reaction center subunit VIII n=2 ...  49.7    8e-14
+  UniRef90_A0A097ZRS0 Photosystem I reaction center subunit VIII ...  49.3    8e-14
+  UniRef90_S5FW38 Photosystem I reaction center subunit VIII n=1 ...  49.3    9e-14
+  UniRef90_A0A1Z2RQN2 Photosystem I reaction center subunit VIII ...  49.3    9e-14
+  UniRef90_A0A290Y2I5 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_U3MCB4 Photosystem I reaction center subunit VIII n=13...  48.9    1e-13
+  UniRef90_A0A0D3LZL6 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_A0A097KKF1 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_A0A097KR50 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_K9L538 Photosystem I reaction center subunit VIII n=2 ...  49.3    1e-13
+  UniRef90_A0A2S1U592 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_A0A0U1YFC8 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_A0A1C7D4K7 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_Q09X07 Photosystem I reaction center subunit VIII n=36...  48.9    1e-13
+  UniRef90_D3WE67 Photosystem I reaction center subunit VIII n=1 ...  48.9    1e-13
+  UniRef90_A0A0F6NQS0 Photosystem I reaction center subunit VIII ...  48.9    1e-13
+  UniRef90_A0A0S0ZMX4 Photosystem I reaction center subunit VIII ...  48.5    1e-13
+  UniRef90_A0A0A0RZI9 Photosystem I reaction center subunit VIII ...  48.5    1e-13
+  UniRef90_A0A0A7LEC9 Photosystem I reaction center subunit VIII ...  48.5    2e-13
+  UniRef90_A0A142BY05 Photosystem I reaction center subunit VIII ...  48.5    2e-13
+  UniRef90_A0A3G5CU18 Photosystem I subunit VIII n=2 Tax=Pteridac...  48.5    2e-13
+  UniRef90_A0A0P0KDT0 Photosystem I reaction center subunit VIII ...  48.5    2e-13
+  UniRef90_A0A1C8I222 Photosystem I reaction center subunit VIII ...  48.1    2e-13
+  UniRef90_A0A3G4R2J6 Photosystem I subunit VIII n=1 Tax=Tetraena...  48.1    2e-13
+  UniRef90_V9PF03 Photosystem I reaction center subunit VIII n=11...  48.1    2e-13
+  UniRef90_Q6QBN9 Photosystem I reaction center subunit VIII n=29...  48.1    2e-13
+  UniRef90_A0A2H4HLM1 Photosystem I reaction center subunit VIII ...  48.1    2e-13
+  UniRef90_A0A385GP58 Photosystem I reaction center subunit VIII ...  48.1    2e-13
+  UniRef90_Q9MTL2 Photosystem I reaction center subunit VIII n=15...  48.1    2e-13
+  UniRef90_Q06RC9 Photosystem I reaction center subunit VIII n=22...  48.1    2e-13
+  UniRef90_A0A0A0RU40 Photosystem I reaction center subunit VIII ...  48.1    2e-13
+  UniRef90_A0A142BYB9 Photosystem I reaction center subunit VIII ...  48.1    2e-13
+  UniRef90_A0A1V0IRI1 Photosystem I reaction center subunit VIII ...  48.1    3e-13
+  UniRef90_A0A089QK29 Photosystem I reaction center subunit VIII ...  47.8    3e-13
+  UniRef90_Q09FV1 Photosystem I reaction center subunit VIII n=6 ...  47.8    3e-13
+  UniRef90_A0A089N2M2 Photosystem I reaction center subunit VIII ...  47.8    3e-13
+  UniRef90_A0A2K9RLJ5 Photosystem I reaction center subunit VIII ...  47.8    3e-13
+  UniRef90_A0A2G3BZD1 Photosystem I reaction center subunit VIII ...  47.8    3e-13
+  UniRef90_A0A097KMI9 Photosystem I reaction center subunit VIII ...  48.5    3e-13
+  UniRef90_A0A023HHT1 Photosystem I reaction center subunit VIII ...  47.8    3e-13
+  UniRef90_A0A0K1HRS1 Photosystem I reaction center subunit VIII ...  47.8    3e-13
+  UniRef90_A0A097KQU6 Photosystem I reaction center subunit VIII ...  47.8    3e-13
+  UniRef90_B7T3J4 Photosystem I reaction center subunit VIII n=31...  47.8    4e-13
+  UniRef90_A0A0S0ZMT5 Photosystem I reaction center subunit VIII ...  47.8    4e-13
+  UniRef90_A0A097A053 Photosystem I reaction center subunit VIII ...  47.8    4e-13
+  UniRef90_C1KR31 Photosystem I reaction center subunit VIII n=1 ...  47.4    4e-13
+  UniRef90_K8F1K7 Photosystem I reaction center subunit VIII n=1 ...  47.4    4e-13
+  UniRef90_A0A160YJL7 Photosystem I reaction center subunit VIII ...  47.4    4e-13
+  UniRef90_A0A172QDG1 Photosystem I reaction center subunit VIII ...  47.4    4e-13
+  UniRef90_K4KDG9 Photosystem I reaction center subunit VIII (Fra...  47.4    5e-13
+  UniRef90_A0A1Z1GBG4 Photosystem I reaction center subunit VIII ...  47.4    5e-13
+  UniRef90_C0JX11 Photosystem I reaction center subunit VIII n=1 ...  47.4    5e-13
+  UniRef90_A0A097KMB5 Photosystem I reaction center subunit VIII ...  47.8    5e-13
+  UniRef90_D3WFC4 Photosystem I reaction center subunit VIII n=1 ...  47.4    5e-13
+  UniRef90_A6YGB3 Photosystem I reaction center subunit VIII n=2 ...  47.4    5e-13
+  UniRef90_A0A097KLD9 Photosystem I reaction center subunit VIII ...  47.0    5e-13
+  UniRef90_A0A097KJD8 Photosystem I reaction center subunit VIII ...  47.0    6e-13
+  UniRef90_A0A1D8DAV1 Photosystem I reaction center subunit VIII ...  47.0    6e-13
+  UniRef90_K4KQ27 Photosystem I reaction center subunit VIII (Fra...  47.0    6e-13
+  UniRef90_E9NPX1 Photosystem I reaction center subunit VIII n=3 ...  47.0    6e-13
+  UniRef90_A0A1B0YRW6 Photosystem I reaction center subunit VIII ...  47.0    6e-13
+  UniRef90_E9K7Q8 Photosystem I reaction center subunit VIII n=1 ...  47.0    7e-13
+  UniRef90_A0A1V0J1F3 Photosystem I reaction center subunit VIII ...  47.0    7e-13
+  UniRef90_A0A2S1UDS4 Photosystem I reaction center subunit VIII ...  47.0    7e-13
+  UniRef90_P58214 Photosystem I reaction center subunit VIII n=7 ...  47.0    7e-13
+  UniRef90_Q20F22 Photosystem I reaction center subunit VIII n=1 ...  47.0    7e-13
+  UniRef90_A0A1D6YJW5 Photosystem I reaction center subunit VIII ...  47.0    7e-13
+  UniRef90_A0A1U9VYJ8 Photosystem I reaction center subunit VIII ...  46.6    8e-13
+  UniRef90_P12185 Photosystem I reaction center subunit VIII n=60...  46.6    9e-13
+  UniRef90_A0A1Z2QU91 Photosystem I reaction center subunit VIII ...  46.6    9e-13
+  UniRef90_A0A097KLP9 Photosystem I reaction center subunit VIII ...  46.6    9e-13
+  UniRef90_A0A1B2RZ24 Photosystem I reaction center subunit VIII ...  46.6    9e-13
+  UniRef90_A0A220T1G4 Photosystem I reaction center subunit VIII ...  46.6    9e-13
+  UniRef90_Q9MUQ4 Photosystem I reaction center subunit VIII n=4 ...  46.6    1e-12
+  UniRef90_A0A345 Photosystem I reaction center subunit VIII n=35...  46.6    1e-12
+  UniRef90_Q06FL6 Photosystem I reaction center subunit VIII n=22...  46.6    1e-12
+  UniRef90_Q4FFL3 Photosystem I reaction center subunit VIII (Fra...  46.6    1e-12
+  UniRef90_F5GV13 Photosystem I reaction center subunit VIII n=2 ...  46.2    1e-12
+  UniRef90_A0A097KPK8 Photosystem I reaction center subunit VIII ...  46.2    1e-12
+  UniRef90_A0A0M4NE13 Photosystem I reaction center subunit VIII ...  46.2    1e-12
+  UniRef90_Q09MG8 Photosystem I reaction center subunit VIII n=19...  46.2    1e-12
+  UniRef90_B7T2Y2 Photosystem I reaction center subunit VIII n=1 ...  46.2    1e-12
+  UniRef90_A0A345BBL1 Photosystem I reaction center subunit VIII ...  46.2    1e-12
+  UniRef90_A0A218L8H6 Photosystem I reaction center subunit VIII ...  46.2    1e-12
+  UniRef90_Q2L914 Photosystem I reaction center subunit VIII n=71...  46.2    1e-12
+  UniRef90_A0A088CJ71 Photosystem I reaction center subunit VIII ...  46.2    1e-12
+  UniRef90_A0A1L6BVW1 Photosystem I reaction center subunit VIII ...  46.2    1e-12
+  UniRef90_A0A0J8BAI5 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A0D2R2S1 Photosystem I reaction center subunit VIII ...  46.2    2e-12
+  UniRef90_A0A0K0VI74 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_C0JWL2 Photosystem I reaction center subunit VIII n=1 ...  45.8    2e-12
+  UniRef90_A0A0U1ZZA2 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A0F6NEL4 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_J7K705 Photosystem I reaction center subunit VIII n=1 ...  45.8    2e-12
+  UniRef90_A0A2K9VRV9 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A1Z1G5D6 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A291HXP5 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A2S1UF83 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A2K9RJL9 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_Q3ZJ61 Photosystem I reaction center subunit VIII n=3 ...  45.8    2e-12
+  UniRef90_A0A125RTP5 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A2G2WCB0 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A386AY23 Photosystem I reaction center subunit VIII ...  45.8    2e-12
+  UniRef90_A0A1Z2RR62 Photosystem I reaction center subunit VIII ...  45.4    2e-12
+  UniRef90_A0A159ZTE9 Photosystem I reaction center subunit VIII ...  45.4    2e-12
+  UniRef90_A0A0S0ZMV1 Photosystem I reaction center subunit VIII ...  45.4    2e-12
+  UniRef90_A0A220NDV5 Photosystem I reaction center subunit VIII ...  45.4    2e-12
+  UniRef90_A0A097KL36 Photosystem I reaction center subunit VIII ...  45.4    3e-12
+  UniRef90_A0A3G5CQW9 Photosystem I subunit VIII n=1 Tax=Pityrogr...  45.4    3e-12
+  UniRef90_A0A1V0IPA2 Photosystem I reaction center subunit VIII ...  45.4    3e-12
+  UniRef90_A0A3B5ZUJ1 Photosystem I reaction center subunit VIII ...  45.4    3e-12
+  UniRef90_A0A1C8QF63 Photosystem I reaction center subunit VIII ...  45.4    3e-12
+  UniRef90_Q0G9V2 Photosystem I reaction center subunit VIII n=85...  45.1    3e-12
+  UniRef90_A0A096X8A0 Photosystem I reaction center subunit VIII ...  45.1    3e-12
+  UniRef90_A0A1C6ZUU9 Photosystem I reaction center subunit VIII ...  45.1    3e-12
+  UniRef90_A0A3N7G2W8 Uncharacterized protein n=1 Tax=Populus tri...  45.4    3e-12
+  UniRef90_H6SZM6 Photosystem I reaction center subunit VIII n=1 ...  45.1    3e-12
+  UniRef90_A0A0H3U6E4 Photosystem I reaction center subunit VIII ...  45.1    3e-12
+  UniRef90_A0A0A0RTT3 Photosystem I reaction center subunit VIII ...  45.1    4e-12
+  UniRef90_A0A0U3DRK1 Photosystem I reaction center subunit VIII ...  45.1    4e-12
+  UniRef90_A0A0S2M9L6 Photosystem I reaction center subunit VIII ...  45.1    4e-12
+  UniRef90_K4KB35 Photosystem I reaction center subunit VIII (Fra...  45.1    4e-12
+  UniRef90_A0A0K1Z9W1 Photosystem I reaction center subunit VIII ...  45.1    4e-12
+  UniRef90_A0A109RU05 Photosystem I reaction center subunit VIII ...  45.1    4e-12
+  UniRef90_A0A1W6EHE7 Photosystem I reaction center subunit VIII ...  44.7    5e-12
+  UniRef90_A0A097KNR0 Photosystem I reaction center subunit VIII ...  44.7    5e-12
+  UniRef90_A0A097KLU6 Photosystem I reaction center subunit VIII ...  44.7    5e-12
+  UniRef90_A0A0K1Z9S0 Photosystem I reaction center subunit VIII ...  44.7    5e-12
+  UniRef90_A0A1Q8Z7P7 Photosystem I reaction center subunit VIII ...  44.7    5e-12
+  UniRef90_A0A2S1UDH0 Photosystem I reaction center subunit VIII ...  44.7    5e-12
+  UniRef90_A0A097KK64 Photosystem I reaction center subunit VIII ...  44.7    6e-12
+  UniRef90_A0A141NXT3 Photosystem I reaction center subunit VIII ...  44.3    7e-12
+  UniRef90_A0A240FG48 Photosystem I reaction center subunit VIII ...  43.9    1e-11
+
+
+> UniRef90_P17227 Photosystem I reaction center subunit VIII n=6 
+Tax=Pisum TaxID=3887 RepID=PSAI_PEA
+Length=40
+
+ Score = 78.2 bits (191),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 40/40 (100%), Positives = 40/40 (100%), Gaps = 0/40 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLFSTKKIN  40
+           MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLFSTKKIN
+Sbjct  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLFSTKKIN  40
+
+
+> UniRef90_S4T0R9 Photosystem I reaction center subunit VIII n=40 
+Tax=NPAAA clade TaxID=2231382 RepID=S4T0R9_MEDTR
+Length=34
+
+ Score = 58.5 bits (140),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 29/34 (85%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MINLPSLFVPLVGL+FPAVAMASLFLHV+K  +F
+Sbjct  1   MINLPSLFVPLVGLVFPAVAMASLFLHVQKNKIF  34
+
+
+> UniRef90_A0A0K0LVX5 Photosystem I reaction center subunit VIII 
+n=8 Tax=Mesangiospermae TaxID=1437183 RepID=A0A0K0LVX5_TRICP
+Length=34
+
+ Score = 57.4 bits (137),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 28/34 (82%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MINLPS FVPLVGL+FPAVAMASLFLHV+K  +F
+Sbjct  1   MINLPSFFVPLVGLVFPAVAMASLFLHVQKNKIF  34
+
+
+> UniRef90_A0A0Y0U531 Photosystem I reaction center subunit VIII 
+n=1 Tax=Desmodium illinoense TaxID=732116 RepID=A0A0Y0U531_9FABA
+Length=34
+
+ Score = 57.0 bits (136),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 25/34 (74%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MIN PS+F+PLVGL+FPA+AMASLFLHV+K+ +F
+Sbjct  1   MINFPSIFIPLVGLVFPAIAMASLFLHVQKKKIF  34
+
+
+> UniRef90_A0A023I2N1 Photosystem I reaction center subunit VIII 
+n=2 Tax=Vicia faba TaxID=3906 RepID=A0A023I2N1_VICFA
+Length=34
+
+ Score = 56.6 bits (135),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 28/34 (82%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MINLPSLFVPLVGL+FPAVAM SLFLHV+K  +F
+Sbjct  1   MINLPSLFVPLVGLVFPAVAMVSLFLHVQKNNIF  34
+
+
+> UniRef90_P49159 Photosystem I reaction center subunit VIII n=120 
+Tax=Mesangiospermae TaxID=1437183 RepID=PSAI_SOYBN
+Length=34
+
+ Score = 56.2 bits (134),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/34 (76%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MIN PS+FVPLVGL+FPA+AMASLFLHV+K  +F
+Sbjct  1   MINFPSIFVPLVGLVFPAIAMASLFLHVQKNKIF  34
+
+
+> UniRef90_A0A0U1XGY7 Photosystem I reaction center subunit VIII 
+n=6 Tax=Sapindaceae TaxID=23672 RepID=A0A0U1XGY7_SAPMU
+Length=37
+
+ Score = 55.8 bits (133),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPSLFVPLVGL+FPA+AMASLFLHV+K+ +F
+Sbjct  6   NLPSLFVPLVGLVFPAIAMASLFLHVQKKKIF  37
+
+
+> UniRef90_V5JDS7 Photosystem I reaction center subunit VIII n=18 
+Tax=Pentapetalae TaxID=1437201 RepID=V5JDS7_LUPLU
+Length=34
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/34 (74%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MIN PS+FVPLVGL+FPA+AMASLF+HV+K  +F
+Sbjct  1   MINFPSIFVPLVGLVFPAIAMASLFIHVQKNKIF  34
+
+
+> UniRef90_A0A0R0FU83 Photosystem I reaction center subunit VIII 
+n=1 Tax=Glycine max TaxID=3847 RepID=A0A0R0FU83_SOYBN
+Length=34
+
+ Score = 55.1 bits (131),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/34 (74%), Positives = 30/34 (88%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MIN PS+FVPLVGL+FPA+AM SLFLHV+K  +F
+Sbjct  1   MINFPSIFVPLVGLIFPAIAMTSLFLHVQKNKIF  34
+
+
+> UniRef90_A0A0K0LXZ9 Photosystem I reaction center subunit VIII 
+n=5 Tax=Lathyrus TaxID=3853 RepID=A0A0K0LXZ9_9FABA
+Length=34
+
+ Score = 54.7 bits (130),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 25/34 (74%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MINLPSLFVPLVGL+FPA+AMASLF++++K  +F
+Sbjct  1   MINLPSLFVPLVGLVFPAIAMASLFVYIQKNKIF  34
+
+
+> UniRef90_A4QJK9 Photosystem I reaction center subunit VIII n=6 
+Tax=rosids TaxID=71275 RepID=A4QJK9_AETGR
+Length=37
+
+ Score = 54.7 bits (130),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPSLFVPLVGL+FPA+AMASLFLH++K  +F
+Sbjct  6   NLPSLFVPLVGLVFPAIAMASLFLHIQKNKIF  37
+
+
+> UniRef90_A0A0X8E8J1 Photosystem I reaction center subunit VIII 
+n=155 Tax=Mesangiospermae TaxID=1437183 RepID=A0A0X8E8J1_9ROSI
+Length=37
+
+ Score = 54.3 bits (129),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 25/32 (78%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AMASLFLHV+K  +F
+Sbjct  6   NLPSIFVPLVGLVFPAIAMASLFLHVQKNKIF  37
+
+
+> UniRef90_Q31909 Photosystem I reaction center subunit VIII n=142 
+Tax=Mesangiospermae TaxID=1437183 RepID=PSAI_BRAOL
+Length=36
+
+ Score = 53.9 bits (128),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/30 (83%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPSLFVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  4   LNLPSLFVPLVGLVFPAIAMASLFLHVQKN  33
+
+
+> UniRef90_A0A0U3USX7 Photosystem I reaction center subunit VIII 
+n=1 Tax=Tetrastigma hemsleyanum TaxID=1006121 RepID=A0A0U3USX7_9ROSI
+Length=36
+
+ Score = 53.9 bits (128),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 24/33 (73%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           I+LPS+FVPLVGL+FPA+AMASLFLH++K  +F
+Sbjct  4   IDLPSIFVPLVGLVFPAIAMASLFLHIQKNKIF  36
+
+
+> UniRef90_P56768 Photosystem I reaction center subunit VIII n=49 
+Tax=Brassicaceae TaxID=3700 RepID=PSAI_ARATH
+Length=37
+
+ Score = 53.9 bits (128),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AMASLFLH++K  +F
+Sbjct  6   NLPSIFVPLVGLVFPAIAMASLFLHIQKNKIF  37
+
+
+> UniRef90_Q2MI90 Photosystem I reaction center subunit VIII n=65 
+Tax=Mesangiospermae TaxID=1437183 RepID=PSAI_SOLLC
+Length=36
+
+ Score = 53.1 bits (126),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  4   LNLPSIFVPLVGLVFPAIAMASLFLHVQKN  33
+
+
+> UniRef90_A0A343S929 Photosystem I reaction center subunit VIII 
+n=1 Tax=Dendrotrophe varians TaxID=50123 RepID=A0A343S929_9MAGN
+Length=36
+
+ Score = 53.1 bits (126),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/31 (77%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++NLPSLFVPLVGL+FP++AMASLFLHV+K 
+Sbjct  3   ILNLPSLFVPLVGLVFPSIAMASLFLHVQKN  33
+
+
+> UniRef90_A0A385CIB7 Photosystem I reaction center subunit VIII 
+n=1 Tax=Ormosia hosiei TaxID=1642859 RepID=A0A385CIB7_9FABA
+Length=34
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 30/34 (88%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MINLPS+FV LVGL+FP +AMASLFLH++K  +F
+Sbjct  1   MINLPSIFVSLVGLVFPTIAMASLFLHIQKNKIF  34
+
+
+> UniRef90_A0A1B2CY99 Photosystem I reaction center subunit VIII 
+n=3 Tax=Pentapetalae TaxID=1437201 RepID=A0A1B2CY99_9FABA
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AM SLFLHV+K  +F
+Sbjct  6   NLPSIFVPLVGLVFPAIAMTSLFLHVQKNKIF  37
+
+
+> UniRef90_D1L8P8 Photosystem I reaction center subunit VIII n=96 
+Tax=Brassicaceae TaxID=3700 RepID=D1L8P8_BRANA
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AMASLFLH++K  +F
+Sbjct  6   NLPSIFVPLVGLVFPALAMASLFLHIQKNKIF  37
+
+
+> UniRef90_T1UMV6 Photosystem I reaction center subunit VIII n=1 
+Tax=Andrographis paniculata TaxID=175694 RepID=T1UMV6_ANDPA
+Length=36
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS+FVPLVGL+FPA+AM SLFLHV+K+
+Sbjct  5   NLPSIFVPLVGLIFPAIAMVSLFLHVQKK  33
+
+
+> UniRef90_A0A1X9ZG97 Photosystem I reaction center subunit VIII 
+n=1 Tax=Morella rubra TaxID=262757 RepID=A0A1X9ZG97_9ROSI
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPL+GL+FPA+AMASLFL+V+K+ +F
+Sbjct  6   NLPSIFVPLMGLVFPAIAMASLFLYVQKKRIF  37
+
+
+> UniRef90_A0A0R0HWJ6 Photosystem I reaction center subunit VIII 
+n=1 Tax=Glycine max TaxID=3847 RepID=A0A0R0HWJ6_SOYBN
+Length=34
+
+ Score = 52.4 bits (124),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MIN PS+FVPLVGL+FPA+AM SLF HV+K  +F
+Sbjct  1   MINFPSIFVPLVGLVFPAIAMVSLFFHVKKNKIF  34
+
+
+> UniRef90_Q9GDV2 Photosystem I reaction center subunit VIII n=4 
+Tax=Pentapetalae TaxID=1437201 RepID=PSAI_CARCL
+Length=36
+
+ Score = 52.4 bits (124),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           IN PSLFVPLVGL+FPA+AMASLFL+V+K 
+Sbjct  4   INFPSLFVPLVGLIFPAIAMASLFLYVQKN  33
+
+
+> UniRef90_Q4VZI2 Photosystem I reaction center subunit VIII n=197 
+Tax=Mesangiospermae TaxID=1437183 RepID=PSAI_CUCSA
+Length=37
+
+ Score = 52.4 bits (124),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 30/34 (88%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           +  LPS+FVPLVGL+FPA+AMASLFLHV+K  +F
+Sbjct  4   LTTLPSIFVPLVGLVFPAIAMASLFLHVQKNKIF  37
+
+
+> UniRef90_Q0ZJ10 Photosystem I reaction center subunit VIII n=117 
+Tax=Pentapetalae TaxID=1437201 RepID=PSAI_VITVI
+Length=36
+
+ Score = 52.0 bits (123),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 24/33 (73%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           +NLPS+ VPLVGL+FPA+AMASLFLHV+K  +F
+Sbjct  4   LNLPSILVPLVGLVFPAIAMASLFLHVQKNKIF  36
+
+
+> UniRef90_E5KUA6 Photosystem I reaction center subunit VIII n=2 
+Tax=Pentapetalae TaxID=1437201 RepID=E5KUA6_CORLA
+Length=37
+
+ Score = 52.0 bits (123),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AMASLF+H++K  +F
+Sbjct  6   NLPSIFVPLVGLVFPALAMASLFIHIQKNKIF  37
+
+
+> UniRef90_A0A1Z1GAH9 Photosystem I reaction center subunit VIII 
+n=6 Tax=rosids TaxID=71275 RepID=A0A1Z1GAH9_MANIN
+Length=37
+
+ Score = 51.6 bits (122),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS+FVPLVGL+FPA+AMASLF HV+K 
+Sbjct  6   NLPSIFVPLVGLVFPAIAMASLFFHVQKN  34
+
+
+> UniRef90_Q9BBS0 Photosystem I reaction center subunit VIII n=1 
+Tax=Lotus japonicus TaxID=34305 RepID=PSAI_LOTJA
+Length=34
+
+ Score = 51.6 bits (122),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 31/34 (91%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           M NLPS+FVPLVGL+FPA+AMASLFL+++K  +F
+Sbjct  1   MTNLPSIFVPLVGLVFPAMAMASLFLYLQKNKIF  34
+
+
+> UniRef90_U3R676 Photosystem I reaction center subunit VIII n=1 
+Tax=Distimake quinquefolius TaxID=714082 RepID=U3R676_9ASTE
+Length=35
+
+ Score = 51.6 bits (122),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +IN PS+FVPLVGL+FPA+AMASLFLHV+  
+Sbjct  2   IINFPSIFVPLVGLVFPAIAMASLFLHVQNN  32
+
+
+> UniRef90_Q14FE7 Photosystem I reaction center subunit VIII n=60 
+Tax=rosids TaxID=71275 RepID=PSAI_POPAL
+Length=37
+
+ Score = 51.6 bits (122),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AMASL LHV+K  +F
+Sbjct  6   NLPSIFVPLVGLVFPAIAMASLSLHVQKNKIF  37
+
+
+> UniRef90_P13165 Photosystem I reaction center subunit VIII n=29 
+Tax=Poales TaxID=38820 RepID=PSAI_HORVU
+Length=36
+
+ Score = 51.2 bits (121),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+FPA+AM SLFL+V+K+
+Sbjct  4   LNLPSIFVPLVGLVFPAIAMTSLFLYVQKK  33
+
+
+> UniRef90_A0A386RWV7 Photosystem I reaction center subunit VIII 
+n=72 Tax=eudicotyledons TaxID=71240 RepID=A0A386RWV7_THATH
+Length=36
+
+ Score = 51.2 bits (121),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLP+ FVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  5   NLPAFFVPLVGLVFPAIAMASLFLHVQKN  33
+
+
+> UniRef90_Q6EW69 Photosystem I reaction center subunit VIII n=8 
+Tax=Magnoliophyta TaxID=3398 RepID=PSAI_NYMAL
+Length=36
+
+ Score = 51.2 bits (121),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGLLFPA+AM SLF HV+K 
+Sbjct  4   LNLPSIFVPLVGLLFPAIAMVSLFFHVQKN  33
+
+
+> UniRef90_A0A1I9VUB8 Photosystem I reaction center subunit VIII 
+n=2 Tax=Melastomataceae TaxID=39998 RepID=A0A1I9VUB8_9MYRT
+Length=37
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +LPS+FVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  6   SLPSIFVPLVGLVFPAIAMASLFLHVQKN  34
+
+
+> UniRef90_V9NYP2 Photosystem I reaction center subunit VIII n=7 
+Tax=Mesangiospermae TaxID=1437183 RepID=V9NYP2_9ROSI
+Length=37
+
+ Score = 50.8 bits (120),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AMASLFL+V+K  +F
+Sbjct  6   NLPSIFVPLVGLVFPALAMASLFLNVQKNKIF  37
+
+
+> UniRef90_A0A2G2XWV2 Photosystem I reaction center subunit VIII 
+n=1 Tax=Capsicum annuum TaxID=4072 RepID=A0A2G2XWV2_CAPAN
+Length=36
+
+ Score = 50.8 bits (120),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+FVPLVGL+FPA+AMASLF+H++K 
+Sbjct  4   LNYPSIFVPLVGLVFPAIAMASLFIHIQKN  33
+
+
+> UniRef90_A0A1L2FP35 Photosystem I reaction center subunit VIII 
+n=15 Tax=malvids TaxID=91836 RepID=A0A1L2FP35_PSIGU
+Length=37
+
+ Score = 50.8 bits (120),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPSLFVPLVGL+FPA+AMASL  HV+K  +F
+Sbjct  6   NLPSLFVPLVGLVFPAIAMASLSFHVQKNKIF  37
+
+
+> UniRef90_A0A1X9QH48 Photosystem I reaction center subunit VIII 
+n=1 Tax=Champereia manillana TaxID=50117 RepID=A0A1X9QH48_9MAGN
+Length=36
+
+ Score = 50.8 bits (120),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++NLPS+FVPLVGL+FPA+ MASLFLH++K 
+Sbjct  3   ILNLPSIFVPLVGLVFPAITMASLFLHLQKN  33
+
+
+> UniRef90_A0A1Z1CF77 Photosystem I reaction center subunit VIII 
+n=1 Tax=Parkia javanica TaxID=1914267 RepID=A0A1Z1CF77_9FABA
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPL+GL+FPA+AMASLFL+VE+  +F
+Sbjct  6   NLPSIFVPLIGLVFPALAMASLFLYVEENKIF  37
+
+
+> UniRef90_A0A0U1VEZ1 Photosystem I reaction center subunit VIII 
+n=131 Tax=eudicotyledons TaxID=71240 RepID=A0A0U1VEZ1_9LAMI
+Length=36
+
+ Score = 50.4 bits (119),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+FVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  5   NFPSIFVPLVGLVFPALAMASLFLHVQKN  33
+
+
+> UniRef90_A0A2H4Z6W7 Photosystem I reaction center subunit VIII 
+n=3 Tax=Detarioideae TaxID=1978182 RepID=A0A2H4Z6W7_9FABA
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+FPA+AMASLF++V+K  +F
+Sbjct  6   NLPSVFVPLVGLVFPALAMASLFIYVQKNKIF  37
+
+
+> UniRef90_A0A1V0IX76 Photosystem I reaction center subunit VIII 
+n=7 Tax=eudicotyledons TaxID=71240 RepID=A0A1V0IX76_9ROSA
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           N PS+FVPLVGL+FPA+AM SLFLHV+K  +F
+Sbjct  6   NSPSIFVPLVGLVFPAIAMVSLFLHVQKNKIF  37
+
+
+> UniRef90_A0A2K9RNP9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Geranium pyrenaicum TaxID=379953 RepID=A0A2K9RNP9_9ROSI
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 23/34 (68%), Positives = 30/34 (88%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           + NLPS+FVPLVGL+FPA ++ASLFLHV+K  +F
+Sbjct  4   LTNLPSIFVPLVGLVFPAFSIASLFLHVQKNKIF  37
+
+
+> UniRef90_Q7YJW3 Photosystem I reaction center subunit VIII n=2 
+Tax=Calycanthus TaxID=3428 RepID=PSAI_CALFG
+Length=36
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+FPA+AMASL LH++K 
+Sbjct  4   LNLPSIFVPLVGLMFPAIAMASLSLHIQKN  33
+
+
+> UniRef90_D5HQ26 Photosystem I reaction center subunit VIII n=4 
+Tax=Epidendroideae TaxID=158332 RepID=D5HQ26_ONCHC
+Length=62
+
+ Score = 50.8 bits (120),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKRLLFSTKKI  39
+           +N PS+FVPLVGL+FPA+AMASLFL+V++  ++    I
+Sbjct  4   LNFPSIFVPLVGLVFPAIAMASLFLYVQRNKIYKYDGI  41
+
+
+> UniRef90_Q9TL12 Photosystem I reaction center subunit VIII n=1 
+Tax=Nephroselmis olivacea TaxID=31312 RepID=PSAI_NEPOL
+Length=36
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 24/28 (86%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPSLFVPLVGL+FPAVAMASLFL++EK 
+Sbjct  6   LPSLFVPLVGLVFPAVAMASLFLYIEKD  33
+
+
+> UniRef90_B7T3R5 Photosystem I reaction center subunit VIII n=3 
+Tax=Monsonia TaxID=21556 RepID=B7T3R5_9ROSI
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           N PS+ VPLVGL+FPAVA+ASLFLHV+K+ +F
+Sbjct  6   NFPSVLVPLVGLVFPAVAIASLFLHVQKKKIF  37
+
+
+> UniRef90_A0A1D6YJM2 Photosystem I reaction center subunit VIII 
+n=1 Tax=Brasenia schreberi TaxID=4424 RepID=A0A1D6YJM2_BRASC
+Length=36
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+FVPL+GLLFPA+AMASLFL+V+K 
+Sbjct  5   NFPSIFVPLIGLLFPAIAMASLFLYVQKN  33
+
+
+> UniRef90_Q49KY8 Photosystem I reaction center subunit VIII n=72 
+Tax=eudicotyledons TaxID=71240 RepID=PSAI_EUCGG
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 24/32 (75%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS FVPLVGL+FPA+AMASL LHV+K  +F
+Sbjct  6   NLPSFFVPLVGLVFPAIAMASLSLHVQKNKIF  37
+
+
+> UniRef90_Q0P3K0 Photosystem I reaction center subunit VIII n=2 
+Tax=Ostreococcus tauri TaxID=70448 RepID=PSAI_OSTTA
+Length=36
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/28 (82%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPAVAMASLFL++EK 
+Sbjct  6   LPSIFVPLVGLVFPAVAMASLFLYIEKE  33
+
+
+> UniRef90_A0A126TGZ8 Photosystem I reaction center subunit VIII 
+n=1 Tax=Monsonia emarginata TaxID=28966 RepID=A0A126TGZ8_9ROSI
+Length=37
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+ VPLVGL+FPA A+ASLFLHV+K+ +F
+Sbjct  6   NLPSILVPLVGLIFPAFAIASLFLHVQKKKIF  37
+
+
+> UniRef90_A0A1W6CEL6 Photosystem I reaction center subunit VIII 
+n=4 Tax=eudicotyledons TaxID=71240 RepID=A0A1W6CEL6_HYDCA
+Length=36
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLP+ FVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  5   NLPAFFVPLVGLVFPALAMASLFLHVQKN  33
+
+
+> UniRef90_A0A1W5W9D7 Photosystem I reaction center subunit VIII 
+n=1 Tax=Oritrophium peruvianum TaxID=382033 RepID=A0A1W5W9D7_9ASTR
+Length=36
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 22/33 (67%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           +N PS+ VPLVGL+FPA+AMASLFLH++K  +F
+Sbjct  4   LNFPSVLVPLVGLVFPAIAMASLFLHIQKNRIF  36
+
+
+> UniRef90_A0A0K0VJ48 Photosystem I reaction center subunit VIII 
+n=1 Tax=Stichoneuron caudatum TaxID=50540 RepID=A0A0K0VJ48_9LILI
+Length=36
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPL GL+FPA+AMASL LHV+K+
+Sbjct  4   LNLPSIFVPLAGLVFPAIAMASLSLHVQKK  33
+
+
+> UniRef90_A0A0G2QXJ9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Salicornia bigelovii TaxID=46105 RepID=A0A0G2QXJ9_SALBI
+Length=36
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+FVPLVGL+FP +AMASLF HV+K+
+Sbjct  4   MNFPSIFVPLVGLVFPVIAMASLFFHVQKK  33
+
+
+> UniRef90_H6SZN1 Photosystem I reaction center subunit VIII (Fragment) 
+n=1 Tax=Ecdeiocolea monostachya TaxID=98869 RepID=H6SZN1_9POAL
+Length=36
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS FVP VGL+FPA+AMASLFL+V+K+
+Sbjct  4   LNLPSFFVPSVGLIFPAIAMASLFLYVQKK  33
+
+
+> UniRef90_A0A2G2V315 Photosystem I reaction center subunit VIII 
+n=1 Tax=Capsicum baccatum TaxID=33114 RepID=A0A2G2V315_CAPBA
+Length=36
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+FPA AMASLF+HV+K 
+Sbjct  4   LNLPSIFVPLVGLVFPANAMASLFIHVKKN  33
+
+
+> UniRef90_A0A2Z5D6A9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Passiflora pittieri TaxID=196689 RepID=A0A2Z5D6A9_PASPT
+Length=39
+
+ Score = 50.1 bits (118),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/33 (70%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLFS  35
+           NLP +FVPLVGLLFPA+ M SLFLHV+K  +F 
+Sbjct  6   NLPPIFVPLVGLLFPAIGMISLFLHVQKNKIFE  38
+
+
+> UniRef90_A0A0R0FMI7 Photosystem I reaction center subunit VIII 
+n=1 Tax=Glycine max TaxID=3847 RepID=A0A0R0FMI7_SOYBN
+Length=34
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/34 (68%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MIN PS+FVPLVGL+F A+AM S FLHV+K  +F
+Sbjct  1   MINFPSIFVPLVGLVFSAIAMDSSFLHVQKNKIF  34
+
+
+> UniRef90_A0A0S0ZN35 Photosystem I reaction center subunit VIII 
+n=1 Tax=Rhaphiostylis ferruginea TaxID=1705857 RepID=A0A0S0ZN35_9ASTE
+Length=36
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+FVPLVGL+FPA+AMASLFLH+++ 
+Sbjct  5   NFPSIFVPLVGLVFPAIAMASLFLHIQEN  33
+
+
+> UniRef90_P17228 Photosystem I reaction center subunit VIII n=1257 
+Tax=Magnoliophyta TaxID=3398 RepID=PSAI_SPIOL
+Length=33
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+FVPLVGL+FPA+AMASLFL+V+K 
+Sbjct  1   MNFPSIFVPLVGLVFPAIAMASLFLYVQKN  30
+
+
+> UniRef90_S4UFS9 Photosystem I reaction center subunit VIII n=3 
+Tax=Polypodiidae TaxID=1521262 RepID=S4UFS9_LYGJA
+Length=36
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGLLFPA+AMASLF++VE+ 
+Sbjct  6   LPSIFVPLVGLLFPAIAMASLFIYVEQE  33
+
+
+> UniRef90_A0A2H4EBJ4 Photosystem I reaction center subunit VIII 
+n=2 Tax=Petrosaviidae TaxID=1437197 RepID=A0A2H4EBJ4_9LILI
+Length=36
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL FPA+AMASLFL+V+K 
+Sbjct  4   LNLPSIFVPLVGLAFPALAMASLFLYVQKN  33
+
+
+> UniRef90_H6SZP0 Photosystem I reaction center subunit VIII n=1 
+Tax=Juncus effusus TaxID=13579 RepID=H6SZP0_JUNEF
+Length=36
+
+ Score = 49.7 bits (117),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+FPA+++ASLFL+V+K+
+Sbjct  4   LNLPSIFVPLVGLVFPAISIASLFLYVQKK  33
+
+
+> UniRef90_A0A2D1GRW3 Photosystem I reaction center subunit VIII 
+n=3 Tax=Loranthaceae TaxID=3963 RepID=A0A2D1GRW3_9MAGN
+Length=36
+
+ Score = 49.7 bits (117),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++NLPS+FVPLVGL+ PA AMASLFLHV+K 
+Sbjct  3   ILNLPSIFVPLVGLVIPAFAMASLFLHVQKN  33
+
+
+> UniRef90_A0A1X9ZIA9 Photosystem I reaction center subunit VIII 
+n=4 Tax=Ostreobium TaxID=121087 RepID=A0A1X9ZIA9_9CHLO
+Length=36
+
+ Score = 49.3 bits (116),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKRLL  33
+           LPS+FVPLVGL+FPA+AMAS+F+++EK ++
+Sbjct  6   LPSIFVPLVGLVFPAIAMASIFIYIEKSII  35
+
+
+> UniRef90_Q1KXU9 Photosystem I reaction center subunit VIII n=190 
+Tax=Pentapetalae TaxID=1437201 RepID=PSAI_HELAN
+Length=36
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+ VPLVGL+FPA+AMASLFLHV+K 
+Sbjct  4   LNFPSVLVPLVGLVFPAIAMASLFLHVQKN  33
+
+
+> UniRef90_A0A2G3B272 Photosystem I reaction center subunit VIII 
+n=1 Tax=Capsicum chinense TaxID=80379 RepID=A0A2G3B272_CAPCH
+Length=677
+
+ Score = 53.1 bits (126),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2    INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+            +N PS+FVPLVGL+FPA+AMASLF+HV+ +
+Sbjct  648  LNRPSIFVPLVGLVFPAIAMASLFIHVQXK  677
+
+
+> UniRef90_A0A2U8U5V0 Photosystem I reaction center subunit VIII 
+n=1 Tax=Banisteriopsis caapi TaxID=577683 RepID=A0A2U8U5V0_9ROSI
+Length=37
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           + PS+FVPLVGL+FPA+AM+SLFLH++K  +F
+Sbjct  6   SFPSIFVPLVGLVFPAIAMSSLFLHIQKNKIF  37
+
+
+> UniRef90_A0A3G5CTE2 Photosystem I subunit VIII n=1 Tax=Haplopteris 
+elongata TaxID=451070 RepID=A0A3G5CTE2_9MONI
+Length=36
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 22/27 (81%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEK  30
+           LPS+FVPLVGLLFPA+AMASLFL++E+
+Sbjct  6   LPSVFVPLVGLLFPAIAMASLFLYIER  32
+
+
+> UniRef90_A0A088CKC2 Photosystem I reaction center subunit VIII 
+n=1 Tax=Nephroselmis astigmatica TaxID=259378 RepID=A0A088CKC2_9CHLO
+Length=36
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPAVAMASLF+++EK 
+Sbjct  6   LPSIFVPLVGLVFPAVAMASLFIYIEKD  33
+
+
+> UniRef90_C7BEV2 Photosystem I reaction center subunit VIII n=2 
+Tax=Trebouxiophyceae TaxID=75966 RepID=C7BEV2_PARKE
+Length=59
+
+ Score = 49.7 bits (117),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +LPS+ VPLVGL+FPAVAMASLFL+VEK 
+Sbjct  28  DLPSILVPLVGLVFPAVAMASLFLYVEKE  56
+
+
+> UniRef90_A0A097ZRS0 Photosystem I reaction center subunit VIII 
+n=7 Tax=asterids TaxID=71274 RepID=A0A097ZRS0_9LAMI
+Length=36
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLP +FVPL+GL+FPA+AMASLFLHV+K 
+Sbjct  5   NLPPIFVPLIGLVFPALAMASLFLHVQKN  33
+
+
+> UniRef90_S5FW38 Photosystem I reaction center subunit VIII n=1 
+Tax=Rumex acetosa TaxID=41241 RepID=S5FW38_RUMAC
+Length=36
+
+ Score = 49.3 bits (116),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           IN P  FVP VGL+FPA+AMASLFLHV+K 
+Sbjct  4   INFPPFFVPFVGLVFPAIAMASLFLHVQKN  33
+
+
+> UniRef90_A0A1Z2RQN2 Photosystem I reaction center subunit VIII 
+n=5 Tax=Viscaceae TaxID=1003255 RepID=A0A1Z2RQN2_9MAGN
+Length=36
+
+ Score = 49.3 bits (116),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++NLPS+FVPLVGL+FP++AM SLFLHV+  
+Sbjct  3   ILNLPSIFVPLVGLVFPSIAMVSLFLHVQNN  33
+
+
+> UniRef90_A0A290Y2I5 Photosystem I reaction center subunit VIII 
+n=1 Tax=Zostera marina TaxID=29655 RepID=A0A290Y2I5_ZOSMR
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPSLFVPLVGL+FPA+AMASLF  V+K 
+Sbjct  4   LNLPSLFVPLVGLVFPAIAMASLFFFVQKN  33
+
+
+> UniRef90_U3MCB4 Photosystem I reaction center subunit VIII n=130 
+Tax=Asclepiadoideae TaxID=167484 RepID=U3MCB4_9GENT
+Length=33
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLP+ FVPLVGL+FPA+AMASL+LHV++ 
+Sbjct  1   MNLPAFFVPLVGLVFPAIAMASLYLHVQEN  30
+
+
+> UniRef90_A0A0D3LZL6 Photosystem I reaction center subunit VIII 
+n=7 Tax=Orchidaceae TaxID=4747 RepID=A0A0D3LZL6_9ASPA
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+FVPLVGL+FPA+AMASLFL+V++ 
+Sbjct  4   LNFPSIFVPLVGLVFPAIAMASLFLYVQRN  33
+
+
+> UniRef90_A0A097KKF1 Photosystem I reaction center subunit VIII 
+n=1 Tax=Stichococcus bacillaris TaxID=37433 RepID=A0A097KKF1_9CHLO
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPA+AM SLFL++EK+
+Sbjct  6   LPSIFVPLVGLVFPAIAMGSLFLYIEKK  33
+
+
+> UniRef90_A0A097KR50 Photosystem I reaction center subunit VIII 
+n=1 Tax=Marvania geminata TaxID=97105 RepID=A0A097KR50_9CHLO
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +LPS+ VPLVGL+FPAVAMAS+FL++EK 
+Sbjct  5   DLPSILVPLVGLIFPAVAMASMFLYIEKE  33
+
+
+> UniRef90_K9L538 Photosystem I reaction center subunit VIII n=2 
+Tax=Chrysanthemum TaxID=13422 RepID=K9L538_CHRMO
+Length=46
+
+ Score = 49.3 bits (116),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+ VPLVGL+FPA+AMASLFLHV K+
+Sbjct  4   LNFPSVLVPLVGLVFPAIAMASLFLHVTKK  33
+
+
+> UniRef90_A0A2S1U592 Photosystem I reaction center subunit VIII 
+n=1 Tax=Vinca major TaxID=185238 RepID=A0A2S1U592_9GENT
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  5   DFPSVFVPLVGLVFPAMAMASLFLHVQKN  33
+
+
+> UniRef90_A0A0U1YFC8 Photosystem I reaction center subunit VIII 
+n=69 Tax=asterids TaxID=71274 RepID=A0A0U1YFC8_9ERIC
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+FVPLVGL+FPA+AMASLFL+V+K 
+Sbjct  5   NFPSIFVPLVGLVFPAMAMASLFLYVQKN  33
+
+
+> UniRef90_A0A1C7D4K7 Photosystem I reaction center subunit VIII 
+n=4 Tax=Utricularia TaxID=13747 RepID=A0A1C7D4K7_9LAMI
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLP +FVPLVGL+FPA+AMASLFL+V+K 
+Sbjct  5   NLPPIFVPLVGLVFPAIAMASLFLYVQKN  33
+
+
+> UniRef90_Q09X07 Photosystem I reaction center subunit VIII n=36 
+Tax=Rosales TaxID=3744 RepID=PSAI_MORIN
+Length=37
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLP++FVPLVGL+FPA+AM SL LHV+K  +F
+Sbjct  6   NLPAIFVPLVGLVFPAIAMVSLSLHVQKNKIF  37
+
+
+> UniRef90_D3WE67 Photosystem I reaction center subunit VIII n=1 
+Tax=Gunnera manicata TaxID=24957 RepID=D3WE67_9MAGN
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+FPA+AMASL +H++K 
+Sbjct  4   LNLPSIFVPLVGLVFPAIAMASLSIHIQKN  33
+
+
+> UniRef90_A0A0F6NQS0 Photosystem I reaction center subunit VIII 
+n=10 Tax=Mesangiospermae TaxID=1437183 RepID=A0A0F6NQS0_9POAL
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPA+AMASLFL+V+K 
+Sbjct  6   LPSIFVPLVGLVFPAIAMASLFLYVQKN  33
+
+
+> UniRef90_A0A0S0ZMX4 Photosystem I reaction center subunit VIII 
+n=1 Tax=Hydrolea corymbosa TaxID=1620117 RepID=A0A0S0ZMX4_9ASTE
+Length=36
+
+ Score = 48.5 bits (114),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           MIN PS+FVP VGL+FPA+AM SLF +V+K 
+Sbjct  3   MINFPSIFVPFVGLVFPAIAMISLFFYVQKN  33
+
+
+> UniRef90_A0A0A0RZI9 Photosystem I reaction center subunit VIII 
+n=3 Tax=Pentapetalae TaxID=1437201 RepID=A0A0A0RZI9_9GENT
+Length=36
+
+ Score = 48.5 bits (114),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEK  30
+           +NLPS FVPLVGL+FPA+AMASL LHV++
+Sbjct  4   LNLPSFFVPLVGLVFPAIAMASLSLHVQR  32
+
+
+> UniRef90_A0A0A7LEC9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Clematis fusca var. coreana TaxID=1582009 RepID=A0A0A7LEC9_9MAGN
+Length=36
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+FVPLVGL+FPA+AMASL LHV+K 
+Sbjct  4   LNFPSVFVPLVGLVFPAIAMASLSLHVQKN  33
+
+
+> UniRef90_A0A142BY05 Photosystem I reaction center subunit VIII 
+n=1 Tax=Tetraselmis sp. CCMP 881 TaxID=1812852 RepID=A0A142BY05_9CHLO
+Length=35
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPA+AMASLFL++E+ 
+Sbjct  5   LPSIFVPLVGLVFPAIAMASLFLYIEQD  32
+
+
+> UniRef90_A0A3G5CU18 Photosystem I subunit VIII n=2 Tax=Pteridaceae 
+TaxID=13819 RepID=A0A3G5CU18_9MONI
+Length=36
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/27 (81%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEK  30
+           LPS+FVPLVGLLFPAV MASLFL++E+
+Sbjct  6   LPSIFVPLVGLLFPAVTMASLFLYIER  32
+
+
+> UniRef90_A0A0P0KDT0 Photosystem I reaction center subunit VIII 
+n=1 Tax=Salix babylonica TaxID=75706 RepID=A0A0P0KDT0_SALBB
+Length=37
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS+FVPLVGL+FPA+AMASL LHV+  
+Sbjct  6   NLPSIFVPLVGLVFPAIAMASLSLHVQTD  34
+
+
+> UniRef90_A0A1C8I222 Photosystem I reaction center subunit VIII 
+n=72 Tax=eudicotyledons TaxID=71240 RepID=A0A1C8I222_VERPE
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+ VPLVGL+FPA+AMASLFLHV+K 
+Sbjct  4   LNFPSVLVPLVGLVFPALAMASLFLHVQKN  33
+
+
+> UniRef90_A0A3G4R2J6 Photosystem I subunit VIII n=1 Tax=Tetraena 
+mongolica TaxID=66646 RepID=A0A3G4R2J6_9ROSI
+Length=37
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+FVP VGL+FPA+AMASLFL+++K+
+Sbjct  6   NFPSIFVPFVGLVFPAIAMASLFLNIQKK  34
+
+
+> UniRef90_V9PF03 Photosystem I reaction center subunit VIII n=11 
+Tax=Caryophyllales TaxID=3524 RepID=V9PF03_AGRGI
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           IN P++ VP VGL+FPA+AMASLFLHV+K 
+Sbjct  4   INFPAILVPFVGLVFPAIAMASLFLHVQKN  33
+
+
+> UniRef90_Q6QBN9 Photosystem I reaction center subunit VIII n=29 
+Tax=Fagaceae TaxID=3503 RepID=PSAI_CASSA
+Length=34
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           M NLPS FVP VGL+ PA+AMASL LH++K  +F
+Sbjct  1   MTNLPSFFVPFVGLILPAIAMASLSLHIQKNKIF  34
+
+
+> UniRef90_A0A2H4HLM1 Photosystem I reaction center subunit VIII 
+n=1 Tax=Lygeum spartum TaxID=29684 RepID=A0A2H4HLM1_LYGSP
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLP+LFVP VGL+FPA+AM SLFL+V K+
+Sbjct  4   LNLPTLFVPFVGLVFPAIAMTSLFLYVHKK  33
+
+
+> UniRef90_A0A385GP58 Photosystem I reaction center subunit VIII 
+n=11 Tax=Pteridaceae TaxID=13819 RepID=A0A385GP58_9MONI
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/28 (82%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGLL PAVAMASLFL+VE+ 
+Sbjct  6   LPSIFVPLVGLLLPAVAMASLFLYVEQD  33
+
+
+> UniRef90_Q9MTL2 Photosystem I reaction center subunit VIII n=15 
+Tax=Onagroideae TaxID=1585427 RepID=PSAI_OENEH
+Length=34
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           M + PS+FVPLVGL+FPA+AMASL LHVE  
+Sbjct  1   MTDFPSIFVPLVGLVFPAIAMASLSLHVENN  31
+
+
+> UniRef90_Q06RC9 Photosystem I reaction center subunit VIII n=22 
+Tax=asterids TaxID=71274 RepID=PSAI_JASNU
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+A+ASLFLHV+K 
+Sbjct  5   HFPSIFVPLVGLVFPAIAIASLFLHVQKN  33
+
+
+> UniRef90_A0A0A0RU40 Photosystem I reaction center subunit VIII 
+n=1 Tax=Rhabdadenia biflora TaxID=179644 RepID=A0A0A0RU40_9GENT
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NL  +FVPLVGL+FPA+AMASLFLHV+K 
+Sbjct  4   LNLAPIFVPLVGLVFPAIAMASLFLHVQKN  33
+
+
+> UniRef90_A0A142BYB9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Scherffelia dubia TaxID=3190 RepID=A0A142BYB9_SCHDU
+Length=36
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPA+AMA+LFL++EK 
+Sbjct  6   LPSIFVPLVGLVFPAIAMAALFLYIEKD  33
+
+
+> UniRef90_A0A1V0IRI1 Photosystem I reaction center subunit VIII 
+n=31 Tax=Pentapetalae TaxID=1437201 RepID=A0A1V0IRI1_9ROSA
+Length=37
+
+ Score = 48.1 bits (113),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           N PS+FVPLVGL+FPA+AM SL LHV+K  +F
+Sbjct  6   NFPSIFVPLVGLVFPAIAMVSLSLHVQKNKIF  37
+
+
+> UniRef90_A0A089QK29 Photosystem I reaction center subunit VIII 
+n=10 Tax=Liliales TaxID=4667 RepID=A0A089QK29_BOMED
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVP VGL+FPA+A+ASLFL+V+K 
+Sbjct  4   LNLPSIFVPAVGLVFPAIAIASLFLYVQKN  33
+
+
+> UniRef90_Q09FV1 Photosystem I reaction center subunit VIII n=6 
+Tax=Berberidaceae TaxID=41773 RepID=Q09FV1_NANDO
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+FVPLVGL+FPA+AMASL +HV+K 
+Sbjct  5   NFPSIFVPLVGLVFPAIAMASLSIHVQKN  33
+
+
+> UniRef90_A0A089N2M2 Photosystem I reaction center subunit VIII 
+n=5 Tax=Micrairoideae TaxID=318921 RepID=A0A089N2M2_9POAL
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+ PA+AMASLFL+V++ 
+Sbjct  4   LNLPSIFVPLVGLVLPAIAMASLFLYVQEN  33
+
+
+> UniRef90_A0A2K9RLJ5 Photosystem I reaction center subunit VIII 
+n=2 Tax=Ranunculus TaxID=3445 RepID=A0A2K9RLJ5_9MAGN
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS FVPL+GL+FPA+AMASL LHV+K 
+Sbjct  5   NLPSFFVPLMGLVFPAIAMASLSLHVQKN  33
+
+
+> UniRef90_A0A2G3BZD1 Photosystem I reaction center subunit VIII 
+n=3 Tax=Capsicum TaxID=4071 RepID=A0A2G3BZD1_CAPCH
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+F A+AMASLF+HV++ 
+Sbjct  4   LNLPSIFVPLVGLVFLAIAMASLFIHVQRN  33
+
+
+> UniRef90_A0A097KMI9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Neocystis brevis TaxID=1065496 RepID=A0A097KMI9_9CHLO
+Length=76
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPAVAMASLFL++EK 
+Sbjct  46  LPSILVPLVGLVFPAVAMASLFLYIEKE  73
+
+
+> UniRef90_A0A023HHT1 Photosystem I reaction center subunit VIII 
+n=1 Tax=Auxenochlorella protothecoides TaxID=3075 RepID=A0A023HHT1_AUXPR
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGLLFPA+AMAS+FL++EK+
+Sbjct  6   LPSILVPLVGLLFPAIAMASVFLYIEKQ  33
+
+
+> UniRef90_A0A0K1HRS1 Photosystem I reaction center subunit VIII 
+n=1 Tax=Brunonia australis TaxID=49589 RepID=A0A0K1HRS1_9ASTR
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N P+ FVPLVGL+FPA+AMASLF+HV+  
+Sbjct  4   LNFPAFFVPLVGLVFPAIAMASLFIHVQNN  33
+
+
+> UniRef90_A0A097KQU6 Photosystem I reaction center subunit VIII 
+n=1 Tax=Pseudochloris wilhelmii TaxID=1418016 RepID=A0A097KQU6_9CHLO
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +LPS+ VPLVGL+FPAVAMAS+F+++EK 
+Sbjct  5   DLPSILVPLVGLVFPAVAMASMFIYIEKD  33
+
+
+> UniRef90_B7T3J4 Photosystem I reaction center subunit VIII n=31 
+Tax=Geraniaceae TaxID=4027 RepID=B7T3J4_9ROSI
+Length=37
+
+ Score = 47.8 bits (112),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+ VPLVGL+FPA ++ASLFLHV+K  +F
+Sbjct  6   NLPSILVPLVGLVFPAFSIASLFLHVQKNKIF  37
+
+
+> UniRef90_A0A0S0ZMT5 Photosystem I reaction center subunit VIII 
+n=1 Tax=Discophora guianensis TaxID=159368 RepID=A0A0S0ZMT5_9ASTE
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+FVP VGL+FPA+AMASL LHV+K 
+Sbjct  4   LNFPSIFVPFVGLIFPAIAMASLSLHVQKN  33
+
+
+> UniRef90_A0A097A053 Photosystem I reaction center subunit VIII 
+n=2 Tax=Pteridaceae TaxID=13819 RepID=A0A097A053_CERRI
+Length=36
+
+ Score = 47.8 bits (112),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 21/27 (78%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEK  30
+           LPS+FVPLVGLLFPAV MASLF+++E+
+Sbjct  6   LPSIFVPLVGLLFPAVTMASLFIYIEQ  32
+
+
+> UniRef90_C1KR31 Photosystem I reaction center subunit VIII n=1 
+Tax=Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) 
+TaxID=296587 RepID=C1KR31_MICCC
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPAV MA+LFL++EK 
+Sbjct  6   LPSIFVPLVGLVFPAVTMAALFLYIEKE  33
+
+
+> UniRef90_K8F1K7 Photosystem I reaction center subunit VIII n=1 
+Tax=Bathycoccus prasinos TaxID=41875 RepID=K8F1K7_9CHLO
+Length=35
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPAV MA+LFL++EK 
+Sbjct  5   LPSIFVPLVGLVFPAVTMAALFLYIEKE  32
+
+
+> UniRef90_A0A160YJL7 Photosystem I reaction center subunit VIII 
+n=4 Tax=Trebouxiophyceae TaxID=75966 RepID=A0A160YJL7_BOTBR
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLFL++EK 
+Sbjct  6   LPSILVPLVGLVFPAIAMASLFLYIEKE  33
+
+
+> UniRef90_A0A172QDG1 Photosystem I reaction center subunit VIII 
+n=21 Tax=Pentapetalae TaxID=1437201 RepID=A0A172QDG1_ZIZJJ
+Length=37
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+            LPS+FVPLVGL+FPA+AM SL LHV+K  +F
+Sbjct  6   TLPSIFVPLVGLVFPAIAMVSLSLHVQKNKIF  37
+
+
+> UniRef90_K4KDG9 Photosystem I reaction center subunit VIII (Fragment) 
+n=1 Tax=Vismia ferruginea TaxID=1241931 RepID=K4KDG9_9ROSI
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + NLPS+FVP VGL+FPA+A+ASLFL+V++ 
+Sbjct  4   LTNLPSIFVPFVGLVFPAIAIASLFLYVQQN  34
+
+
+> UniRef90_A0A1Z1GBG4 Photosystem I reaction center subunit VIII 
+n=1 Tax=Drosera erythrorhiza TaxID=2005751 RepID=A0A1Z1GBG4_9CARY
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASLFL V+K+
+Sbjct  5   SFPSIFVPLVGLVFPAIAMASLFLFVQKK  33
+
+
+> UniRef90_C0JX11 Photosystem I reaction center subunit VIII n=1 
+Tax=Pyramimonas parkeae TaxID=36894 RepID=C0JX11_9CHLO
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPSL VPLVGL+FPAVAMASLFL++E+ 
+Sbjct  6   LPSLLVPLVGLVFPAVAMASLFLYIEQE  33
+
+
+> UniRef90_A0A097KMB5 Photosystem I reaction center subunit VIII 
+n=1 Tax=Xylochloris irregularis TaxID=480381 RepID=A0A097KMB5_9CHLO
+Length=55
+
+ Score = 47.8 bits (112),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLFL++EK+
+Sbjct  25  LPSILVPLVGLVFPAIAMASLFLYIEKQ  52
+
+
+> UniRef90_D3WFC4 Photosystem I reaction center subunit VIII n=1 
+Tax=Staphylea colchica TaxID=380185 RepID=D3WFC4_STACO
+Length=37
+
+ Score = 47.4 bits (111),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+ VPLVGL+FPA+AMASLFL V++  +F
+Sbjct  6   NLPSILVPLVGLVFPAIAMASLFLFVQRNKIF  37
+
+
+> UniRef90_A6YGB3 Photosystem I reaction center subunit VIII n=2 
+Tax=Chlorophyta TaxID=3041 RepID=A6YGB3_PLETE
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA++MASLFL++EK+
+Sbjct  6   LPSILVPLVGLIFPAISMASLFLYIEKQ  33
+
+
+> UniRef90_A0A097KLD9 Photosystem I reaction center subunit VIII 
+n=2 Tax=Prasiolales TaxID=135250 RepID=A0A097KLD9_9CHLO
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPAVAMASLFL++E+ 
+Sbjct  6   LPSILVPLVGLIFPAVAMASLFLYIEQE  33
+
+
+> UniRef90_A0A097KJD8 Photosystem I reaction center subunit VIII 
+n=1 Tax=Symbiochloris handae TaxID=1853882 RepID=A0A097KJD8_9CHLO
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPSL VPLVGL+FPA+AMAS+FL++EK 
+Sbjct  6   LPSLLVPLVGLVFPAIAMASIFLYIEKE  33
+
+
+> UniRef90_A0A1D8DAV1 Photosystem I reaction center subunit VIII 
+n=24 Tax=Delphinieae TaxID=1463140 RepID=A0A1D8DAV1_9MAGN
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS FVPLVGLLFPA+AMASL  +V+K 
+Sbjct  5   NLPSFFVPLVGLLFPAIAMASLSFYVQKN  33
+
+
+> UniRef90_K4KQ27 Photosystem I reaction center subunit VIII (Fragment) 
+n=1 Tax=Podostemum ceratophyllum TaxID=51604 RepID=K4KQ27_9ROSI
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLP +FVPLVGL+FPA+AM SLFL+++K 
+Sbjct  6   NLPPIFVPLVGLVFPAIAMTSLFLYIQKN  34
+
+
+> UniRef90_E9NPX1 Photosystem I reaction center subunit VIII n=3 
+Tax=Trebouxiophyceae incertae sedis TaxID=75981 RepID=E9NPX1_COCSC
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLFL++EK 
+Sbjct  6   LPSVLVPLVGLVFPAIAMASLFLYIEKE  33
+
+
+> UniRef90_A0A1B0YRW6 Photosystem I reaction center subunit VIII 
+n=2 Tax=Petrosaviidae TaxID=1437197 RepID=A0A1B0YRW6_9LILI
+Length=34
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           M +LPS+FVPLVGL+FPA+AMASL L+V++ 
+Sbjct  1   MTDLPSIFVPLVGLVFPAIAMASLSLYVQEN  31
+
+
+> UniRef90_E9K7Q8 Photosystem I reaction center subunit VIII n=1 
+Tax=Anthriscus cerefolium TaxID=40888 RepID=E9K7Q8_9APIA
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++ PS+ VPLVGL+FPA+AMASLFLHV+K 
+Sbjct  4   LDFPSVLVPLVGLVFPAMAMASLFLHVQKN  33
+
+
+> UniRef90_A0A1V0J1F3 Photosystem I reaction center subunit VIII 
+n=1 Tax=Lyonothamnus floribundus TaxID=32233 RepID=A0A1V0J1F3_9ROSA
+Length=37
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLP +FVPLVGL+FPA+AM SL LHV+K  +F
+Sbjct  6   NLPPVFVPLVGLVFPAIAMVSLSLHVQKNKIF  37
+
+
+> UniRef90_A0A2S1UDS4 Photosystem I reaction center subunit VIII 
+n=3 Tax=lamiids TaxID=91888 RepID=A0A2S1UDS4_9GENT
+Length=37
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+            LPS+FVPLVGL+FPA++MASL LHV+K 
+Sbjct  6   TLPSIFVPLVGLVFPAISMASLSLHVQKN  34
+
+
+> UniRef90_P58214 Photosystem I reaction center subunit VIII n=7 
+Tax=Chlorellaceae TaxID=35461 RepID=PSAI_CHLVU
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMAS+FL++EK 
+Sbjct  6   LPSILVPLVGLVFPAIAMASMFLYIEKE  33
+
+
+> UniRef90_Q20F22 Photosystem I reaction center subunit VIII n=1 
+Tax=Oltmannsiellopsis viridis TaxID=51324 RepID=PSAI_OLTVI
+Length=36
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLFL++E++
+Sbjct  6   LPSILVPLVGLVFPAIAMASLFLYIEEQ  33
+
+
+> UniRef90_A0A1D6YJW5 Photosystem I reaction center subunit VIII 
+n=3 Tax=Cabomba TaxID=4425 RepID=A0A1D6YJW5_CABCA
+Length=37
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+ VPLVGL FPAVAMASLF++V+K 
+Sbjct  6   NFPSILVPLVGLFFPAVAMASLFIYVQKN  34
+
+
+> UniRef90_A0A1U9VYJ8 Photosystem I reaction center subunit VIII 
+n=14 Tax=Betulaceae TaxID=3514 RepID=A0A1U9VYJ8_9ROSI
+Length=37
+
+ Score = 46.6 bits (109),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           LPS+ VPLVGL+FPAVAM SLF HV+K  +F
+Sbjct  7   LPSILVPLVGLVFPAVAMVSLFFHVQKNKIF  37
+
+
+> UniRef90_P12185 Photosystem I reaction center subunit VIII n=60 
+Tax=Embryophyta TaxID=3193 RepID=PSAI_MARPO
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPA+ MASLF+++E+ 
+Sbjct  6   LPSIFVPLVGLIFPAITMASLFIYIEQD  33
+
+
+> UniRef90_A0A1Z2QU91 Photosystem I reaction center subunit VIII 
+n=2 Tax=Isotoma hypocrateriformis TaxID=2010881 RepID=A0A1Z2QU91_9ASTR
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++N PS+ +PLVGLLFPA+AM SLFL+V+K 
+Sbjct  3   ILNFPSVLIPLVGLLFPAIAMTSLFLYVQKN  33
+
+
+> UniRef90_A0A097KLP9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Ettlia pseudoalveolaris TaxID=3102 RepID=A0A097KLP9_9CHLO
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+ MASLFL++EK+
+Sbjct  6   LPSILVPLVGLVFPAITMASLFLYIEKQ  33
+
+
+> UniRef90_A0A1B2RZ24 Photosystem I reaction center subunit VIII 
+n=3 Tax=Chlorophyta TaxID=3041 RepID=A0A1B2RZ24_9CHLO
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLF+++EK+
+Sbjct  6   LPSILVPLVGLVFPAIAMASLFVYIEKQ  33
+
+
+> UniRef90_A0A220T1G4 Photosystem I reaction center subunit VIII 
+n=6 Tax=Pentapetalae TaxID=1437201 RepID=A0A220T1G4_9ROSA
+Length=37
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N PS+FVPLVGL+FPA+AM SL LHV+K 
+Sbjct  6   NFPSVFVPLVGLVFPAIAMVSLSLHVQKN  34
+
+
+> UniRef90_Q9MUQ4 Photosystem I reaction center subunit VIII n=4 
+Tax=Eukaryota TaxID=2759 RepID=PSAI_MESVI
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLFL++E+ 
+Sbjct  6   LPSILVPLVGLVFPAIAMASLFLYIEQE  33
+
+
+> UniRef90_A0A345 Photosystem I reaction center subunit VIII n=358 
+Tax=Mesangiospermae TaxID=1437183 RepID=PSAI_COFAR
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASL LHV+K 
+Sbjct  5   SFPSIFVPLVGLVFPAIAMASLSLHVQKN  33
+
+
+> UniRef90_Q06FL6 Photosystem I reaction center subunit VIII n=22 
+Tax=Geraniaceae TaxID=4027 RepID=PSAI_PELHO
+Length=37
+
+ Score = 46.6 bits (109),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS+ V LVGL+FPA AMASLFLHV+K 
+Sbjct  6   NLPSILVTLVGLVFPAFAMASLFLHVQKN  34
+
+
+> UniRef90_Q4FFL3 Photosystem I reaction center subunit VIII (Fragment) 
+n=1 Tax=Ginkgo biloba TaxID=3311 RepID=Q4FFL3_GINBI
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS+FVPL GLLFPA+AMA L+ +V+K+
+Sbjct  5   NLPSIFVPLAGLLFPAIAMAFLYFYVQKK  33
+
+
+> UniRef90_F5GV13 Photosystem I reaction center subunit VIII n=2 
+Tax=Jungermanniidae TaxID=186782 RepID=F5GV13_9MARC
+Length=36
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEK  30
+           LPS+FVPLVGL+FPA+ MASLF+++E+
+Sbjct  6   LPSIFVPLVGLVFPAITMASLFIYIER  32
+
+
+> UniRef90_A0A097KPK8 Photosystem I reaction center subunit VIII 
+n=3 Tax=Viridiplantae TaxID=33090 RepID=A0A097KPK8_9VIRI
+Length=36
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMAS+FL++EK 
+Sbjct  6   LPSILVPLVGLVFPAIAMASIFLYIEKD  33
+
+
+> UniRef90_A0A0M4NE13 Photosystem I reaction center subunit VIII 
+n=2 Tax=Larreoideae TaxID=293144 RepID=A0A0M4NE13_LARTR
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 19/29 (66%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASLFL++++ 
+Sbjct  6   SFPSIFVPLVGLVFPAIAMASLFLYIQRN  34
+
+
+> UniRef90_Q09MG8 Photosystem I reaction center subunit VIII n=19 
+Tax=Rutaceae TaxID=23513 RepID=PSAI_CITSI
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASLFL++EK 
+Sbjct  6   SFPSIFVPLVGLVFPAMAMASLFLYLEKN  34
+
+
+> UniRef90_B7T2Y2 Photosystem I reaction center subunit VIII n=1 
+Tax=Erodium texanum TaxID=28960 RepID=B7T2Y2_EROTE
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           N PS  VPLVGL+FPA ++ASLFLH+EK  +F
+Sbjct  6   NFPSFLVPLVGLVFPAFSIASLFLHIEKNKIF  37
+
+
+> UniRef90_A0A345BBL1 Photosystem I reaction center subunit VIII 
+n=11 Tax=Betulaceae TaxID=3514 RepID=A0A345BBL1_9ROSI
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+            LPS+ VPLVGL FPA+AM SLF HV+K  +F
+Sbjct  6   TLPSILVPLVGLFFPAIAMVSLFFHVQKNKIF  37
+
+
+> UniRef90_A0A218L8H6 Photosystem I reaction center subunit VIII 
+n=1 Tax=Aegilops geniculata TaxID=130459 RepID=A0A218L8H6_9POAL
+Length=36
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/27 (78%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHV  28
+           +NLPS+FVPLVGL+FPA+AM SLFL+V
+Sbjct  4   LNLPSIFVPLVGLVFPAIAMTSLFLYV  30
+
+
+> UniRef90_Q2L914 Photosystem I reaction center subunit VIII n=71 
+Tax=Viridiplantae TaxID=33090 RepID=PSAI_GOSHI
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           + PS+FVPLVGL+FPA+AMASL L+V+K  +F
+Sbjct  6   SFPSIFVPLVGLVFPAIAMASLSLYVQKTKIF  37
+
+
+> UniRef90_A0A088CJ71 Photosystem I reaction center subunit VIII 
+n=2 Tax=Viridiplantae TaxID=33090 RepID=A0A088CJ71_9CHLO
+Length=36
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPAVAMASLFL++E+ 
+Sbjct  6   LPSILVPLVGLVFPAVAMASLFLYIEED  33
+
+
+> UniRef90_A0A1L6BVW1 Photosystem I reaction center subunit VIII 
+n=102 Tax=Campanulaceae TaxID=4381 RepID=A0A1L6BVW1_9ASTR
+Length=36
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++N PS+ VP+VGLLFPA+ MASLFL+V+K 
+Sbjct  3   ILNFPSVLVPVVGLLFPAITMASLFLYVQKN  33
+
+
+> UniRef90_A0A0J8BAI5 Photosystem I reaction center subunit VIII 
+n=2 Tax=Beta vulgaris subsp. vulgaris TaxID=3555 RepID=A0A0J8BAI5_BETVU
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+ VPLVGL+FPA+A+ASLFL+V+K 
+Sbjct  4   MNFPSILVPLVGLVFPAIAIASLFLYVQKN  33
+
+
+> UniRef90_A0A0D2R2S1 Photosystem I reaction center subunit VIII 
+n=1 Tax=Gossypium raimondii TaxID=29730 RepID=A0A0D2R2S1_GOSRA
+Length=51
+
+ Score = 46.2 bits (108),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           + P +FVPLVGL+FPA+AMASLFL+V+K  +F
+Sbjct  6   SFPFIFVPLVGLVFPAIAMASLFLYVQKTSIF  37
+
+
+> UniRef90_A0A0K0VI74 Photosystem I reaction center subunit VIII 
+n=2 Tax=Mesangiospermae TaxID=1437183 RepID=A0A0K0VI74_9LILI
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/33 (70%), Positives = 28/33 (85%), Gaps = 2/33 (6%)
+
+Query  1   MINL--PSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           M NL  PS+FVPLVGL+FPA+AMASL LH++K 
+Sbjct  1   MTNLIFPSIFVPLVGLVFPAIAMASLSLHIQKN  33
+
+
+> UniRef90_C0JWL2 Photosystem I reaction center subunit VIII n=1 
+Tax=Monomastix sp. (strain OKE-1) TaxID=141716 RepID=C0JWL2_MONSK
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLF+++EK 
+Sbjct  6   LPSILVPLVGLVFPAIAMASLFVYIEKD  33
+
+
+> UniRef90_A0A0U1ZZA2 Photosystem I reaction center subunit VIII 
+n=6 Tax=Celastraceae TaxID=4305 RepID=A0A0U1ZZA2_9ROSI
+Length=37
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           N+PS+FVPLVGL+ PA+AMASL LHV++ 
+Sbjct  6   NVPSIFVPLVGLVVPAIAMASLSLHVQRN  34
+
+
+> UniRef90_A0A0F6NEL4 Photosystem I reaction center subunit VIII 
+n=1 Tax=Lathyrus graminifolius TaxID=457904 RepID=A0A0F6NEL4_LATPG
+Length=34
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           M N  SLFVPLVGL+ PA+AMASLF++++K  +F
+Sbjct  1   MSNFSSLFVPLVGLVLPAIAMASLFVYIQKNKIF  34
+
+
+> UniRef90_J7K705 Photosystem I reaction center subunit VIII n=1 
+Tax=Trebouxiophyceae sp. MX-AZ01 TaxID=1208065 RepID=J7K705_9CHLO
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLFL++E+ 
+Sbjct  6   LPSVLVPLVGLVFPAIAMASLFLYIERE  33
+
+
+> UniRef90_A0A2K9VRV9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Tetragonia tetragonioides TaxID=45318 RepID=A0A2K9VRV9_TETTT
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N  S+ VPLVGL+FPA+AMASLFLHV+K 
+Sbjct  4   MNFASILVPLVGLVFPALAMASLFLHVQKN  33
+
+
+> UniRef90_A0A1Z1G5D6 Photosystem I reaction center subunit VIII 
+n=3 Tax=Aneura TaxID=70217 RepID=A0A1Z1G5D6_ANEPI
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMASLF+++E+ 
+Sbjct  6   LPSILVPLVGLVFPAIAMASLFIYIERE  33
+
+
+> UniRef90_A0A291HXP5 Photosystem I reaction center subunit VIII 
+n=2 Tax=Tristachya TaxID=42076 RepID=A0A291HXP5_9POAL
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 19/29 (66%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NL ++FVPLVGL+FPA+AM S+FL+V+K+
+Sbjct  5   NLSAIFVPLVGLVFPAIAMTSVFLYVQKK  33
+
+
+> UniRef90_A0A2S1UF83 Photosystem I reaction center subunit VIII 
+n=3 Tax=Vinceae TaxID=167498 RepID=A0A2S1UF83_9GENT
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +LPS+FVP VGL+FPA+AMASL  HV+K 
+Sbjct  5   DLPSIFVPFVGLVFPAIAMASLSFHVQKN  33
+
+
+> UniRef90_A0A2K9RJL9 Photosystem I reaction center subunit VIII 
+n=5 Tax=asterids TaxID=71274 RepID=A0A2K9RJL9_9GENT
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASL LH++K 
+Sbjct  5   SFPSVFVPLVGLVFPAIAMASLSLHIQKN  33
+
+
+> UniRef90_Q3ZJ61 Photosystem I reaction center subunit VIII n=3 
+Tax=Ulotrichales TaxID=31306 RepID=PSAI_TUPAK
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AM SLF+++EK+
+Sbjct  6   LPSILVPLVGLIFPAIAMTSLFIYIEKQ  33
+
+
+> UniRef90_A0A125RTP5 Photosystem I reaction center subunit VIII 
+n=3 Tax=Bryanae TaxID=404297 RepID=A0A125RTP5_9BRYO
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 18/28 (64%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPL+GL+FPA+ MASLF+++E+ 
+Sbjct  6   LPSIFVPLIGLVFPAITMASLFIYIEQD  33
+
+
+> UniRef90_A0A2G2WCB0 Photosystem I reaction center subunit VIII 
+n=1 Tax=Capsicum baccatum TaxID=33114 RepID=A0A2G2WCB0_CAPBA
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 19/30 (63%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+F  +AM SLF+HV++ 
+Sbjct  4   LNLPSIFVPLVGLVFSEIAMTSLFIHVQRN  33
+
+
+> UniRef90_A0A386AY23 Photosystem I reaction center subunit VIII 
+n=1 Tax=Pseudochlorodesmis sp. HV01306a TaxID=2358488 RepID=A0A386AY23_9CHLO
+Length=36
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LP +FVPLVGL FPAVAMAS+FL++E  
+Sbjct  6   LPEIFVPLVGLFFPAVAMASIFLYIESS  33
+
+
+> UniRef90_A0A1Z2RR62 Photosystem I reaction center subunit VIII 
+n=2 Tax=Droseraceae TaxID=4360 RepID=A0A1Z2RR62_9CARY
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           I+ PS+FVP VGL+FPA+AMASLFL V+K 
+Sbjct  4   ISFPSIFVPFVGLVFPAIAMASLFLLVQKN  33
+
+
+> UniRef90_A0A159ZTE9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Bienertia sinuspersici TaxID=338654 RepID=A0A159ZTE9_9CARY
+Length=33
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 21/25 (84%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
+
+Query  6   SLFVPLVGLLFPAVAMASLFLHVEK  30
+           S+FVPLVGL+FPA+AMASLFLHV+K
+Sbjct  5   SIFVPLVGLVFPAMAMASLFLHVQK  29
+
+
+> UniRef90_A0A0S0ZMV1 Photosystem I reaction center subunit VIII 
+n=1 Tax=Natsiatum herpeticum TaxID=159396 RepID=A0A0S0ZMV1_9ASTE
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASLFL+V+  
+Sbjct  5   SFPSVFVPLVGLVFPAIAMASLFLYVQTN  33
+
+
+> UniRef90_A0A220NDV5 Photosystem I reaction center subunit VIII 
+n=2 Tax=Amphipogon TaxID=1690405 RepID=A0A220NDV5_9POAL
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+FVPLVGL+ PA+AM+SLF+ V+K 
+Sbjct  4   LNLPSIFVPLVGLVLPAIAMSSLFIFVQKN  33
+
+
+> UniRef90_A0A097KL36 Photosystem I reaction center subunit VIII 
+n=2 Tax=Pedinomonas TaxID=3158 RepID=A0A097KL36_9CHLO
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AMAS+F+++EK 
+Sbjct  6   LPSILVPLVGLVFPAIAMASIFVYIEKD  33
+
+
+> UniRef90_A0A3G5CQW9 Photosystem I subunit VIII n=1 Tax=Pityrogramma 
+trifoliata TaxID=164275 RepID=A0A3G5CQW9_9MONI
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 20/27 (74%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEK  30
+           LPS+ VPLVGLLFPAV MASLF+++E+
+Sbjct  6   LPSILVPLVGLLFPAVTMASLFIYIER  32
+
+
+> UniRef90_A0A1V0IPA2 Photosystem I reaction center subunit VIII 
+n=2 Tax=Dryadoideae TaxID=721791 RepID=A0A1V0IPA2_9ROSA
+Length=35
+
+ Score = 45.4 bits (106),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 29/35 (83%), Gaps = 1/35 (3%)
+
+Query  1   MIN-LPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           MIN  PS+FVPLVGL+FPA+AMA L LHV+K  +F
+Sbjct  1   MINSFPSVFVPLVGLVFPAIAMAFLSLHVQKNKIF  35
+
+
+> UniRef90_A0A3B5ZUJ1 Photosystem I reaction center subunit VIII 
+n=1 Tax=Triticum aestivum TaxID=4565 RepID=A0A3B5ZUJ1_WHEAT
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS+ +PLVGL+FPA AM SLFL+V+K 
+Sbjct  4   LNLPSIVMPLVGLVFPATAMTSLFLYVQKN  33
+
+
+> UniRef90_A0A1C8QF63 Photosystem I reaction center subunit VIII 
+n=2 Tax=Euphronia guianensis TaxID=82261 RepID=A0A1C8QF63_9ROSI
+Length=37
+
+ Score = 45.4 bits (106),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NL S+FVP VGL+FPA+AM SLFL+++K  +F
+Sbjct  6   NLSSVFVPFVGLVFPAIAMLSLFLYIQKNRIF  37
+
+
+> UniRef90_Q0G9V2 Photosystem I reaction center subunit VIII n=85 
+Tax=Apiineae TaxID=364270 RepID=PSAI_DAUCA
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+ VPLVGL+FPA+AMASLFLHV+  
+Sbjct  5   DFPSVLVPLVGLIFPAMAMASLFLHVQNN  33
+
+
+> UniRef90_A0A096X8A0 Photosystem I reaction center subunit VIII 
+n=2 Tax=Macadamia TaxID=4329 RepID=A0A096X8A0_MACIN
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +LPS FVPLVGL+FPA+AMASL L+V+K 
+Sbjct  5   SLPSFFVPLVGLVFPAIAMASLSLYVQKN  33
+
+
+> UniRef90_A0A1C6ZUU9 Photosystem I reaction center subunit VIII 
+n=4 Tax=Apostasioideae TaxID=158329 RepID=A0A1C6ZUU9_9ASPA
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 19/30 (63%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +N PS+FVPL+GL+FPA+AMASL L+V++ 
+Sbjct  4   LNFPSIFVPLIGLVFPAIAMASLSLYVQRN  33
+
+
+> UniRef90_A0A3N7G2W8 Uncharacterized protein n=1 Tax=Populus trichocarpa 
+TaxID=3694 RepID=A0A3N7G2W8_POPTR
+Length=56
+
+ Score = 45.4 bits (106),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           NLPS+FVPLVGL+F A+AMASL LHV+K   F
+Sbjct  6   NLPSIFVPLVGLVFLAIAMASLSLHVKKTRFF  37
+
+
+> UniRef90_H6SZM6 Photosystem I reaction center subunit VIII n=1 
+Tax=Centrolepis monogyna TaxID=357899 RepID=H6SZM6_9POAL
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 19/30 (63%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           ++LPS+FVPLVGL+FPA+AM SLFL++++ 
+Sbjct  4   LHLPSIFVPLVGLVFPAIAMTSLFLYMQQN  33
+
+
+> UniRef90_A0A0H3U6E4 Photosystem I reaction center subunit VIII 
+n=22 Tax=Gentianales TaxID=4055 RepID=A0A0H3U6E4_9GENT
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASL  HV+K 
+Sbjct  5   SFPSIFVPLVGLVFPAIAMASLSFHVQKN  33
+
+
+> UniRef90_A0A0A0RTT3 Photosystem I reaction center subunit VIII 
+n=1 Tax=Periploca sepium TaxID=190712 RepID=A0A0A0RTT3_9GENT
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AM+SLFL V+K 
+Sbjct  5   SFPSIFVPLVGLVFPAIAMSSLFLFVQKN  33
+
+
+> UniRef90_A0A0U3DRK1 Photosystem I reaction center subunit VIII 
+n=3 Tax=Thymelaeaceae TaxID=39987 RepID=A0A0U3DRK1_9ROSI
+Length=37
+
+ Score = 45.1 bits (105),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           +LPS+FVPLVGL+FPA+AMASL  +V++  +F
+Sbjct  6   SLPSIFVPLVGLVFPAIAMASLSFYVQRTKIF  37
+
+
+> UniRef90_A0A0S2M9L6 Photosystem I reaction center subunit VIII 
+n=9 Tax=Gentianales TaxID=4055 RepID=A0A0S2M9L6_9GENT
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NL  +FVPLVGL+FPA+AMASL LHV+K 
+Sbjct  4   LNLSPIFVPLVGLVFPAIAMASLSLHVQKN  33
+
+
+> UniRef90_K4KB35 Photosystem I reaction center subunit VIII (Fragment) 
+n=1 Tax=Hypericum perforatum TaxID=65561 RepID=K4KB35_HYPPE
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           NLPS+FVPL+GL+FPA+A+ SLFL++++ 
+Sbjct  6   NLPSIFVPLLGLVFPAIAIVSLFLYIQRN  34
+
+
+> UniRef90_A0A0K1Z9W1 Photosystem I reaction center subunit VIII 
+n=12 Tax=Campanulaceae TaxID=4381 RepID=A0A0K1Z9W1_9ASTR
+Length=36
+
+ Score = 45.1 bits (105),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +++ PSL VPL+GL+FPA+AMASL LHV+K 
+Sbjct  3   ILSFPSLLVPLIGLVFPAIAMASLSLHVQKN  33
+
+
+> UniRef90_A0A109RU05 Photosystem I reaction center subunit VIII 
+n=1 Tax=Polygala alba TaxID=690755 RepID=A0A109RU05_9FABA
+Length=37
+
+ Score = 45.1 bits (105),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 18/32 (56%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKRLLF  34
+           N P +FVPL GL+FPA+ M SLFLH++++ +F
+Sbjct  6   NFPPIFVPLTGLVFPAITMVSLFLHLQRKKIF  37
+
+
+> UniRef90_A0A1W6EHE7 Photosystem I reaction center subunit VIII 
+n=1 Tax=Hazenia capsulata TaxID=2202518 RepID=A0A1W6EHE7_9CHLO
+Length=36
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGLLFPA+ M SLF+++EK+
+Sbjct  6   LPSILVPLVGLLFPAIVMTSLFIYIEKQ  33
+
+
+> UniRef90_A0A097KNR0 Photosystem I reaction center subunit VIII 
+n=1 Tax=Choricystis parasitica TaxID=41300 RepID=A0A097KNR0_9CHLO
+Length=36
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+AM SLFL++EK 
+Sbjct  6   LPSILVPLVGLVFPALAMGSLFLYIEKE  33
+
+
+> UniRef90_A0A097KLU6 Photosystem I reaction center subunit VIII 
+n=1 Tax=Marsupiomonas sp. NIES 1824 TaxID=1562198 RepID=A0A097KLU6_9CHLO
+Length=36
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPL GL+FPAVAMA+LFL++EK 
+Sbjct  6   LPSILVPLTGLVFPAVAMAALFLYIEKD  33
+
+
+> UniRef90_A0A0K1Z9S0 Photosystem I reaction center subunit VIII 
+n=1 Tax=Galium aparine TaxID=29788 RepID=A0A0K1Z9S0_GALAP
+Length=36
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + PS+FVPLVGL+FPA+AMASL LH++K 
+Sbjct  5   SFPSVFVPLVGLVFPALAMASLSLHIQKN  33
+
+
+> UniRef90_A0A1Q8Z7P7 Photosystem I reaction center subunit VIII 
+n=1 Tax=Leptolyngbya sp. 'hensonii' TaxID=1922337 RepID=A0A1Q8Z7P7_9CYAN
+Length=38
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+FVPLVGL+FPAV MA LFL+VE+ 
+Sbjct  6   LPSIFVPLVGLVFPAVTMALLFLYVERE  33
+
+
+> UniRef90_A0A2S1UDH0 Photosystem I reaction center subunit VIII 
+n=2 Tax=Willughbeieae TaxID=167499 RepID=A0A2S1UDH0_9GENT
+Length=36
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  3   NLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           + P +FVPLVGL+FPA+AMASL LHV+K 
+Sbjct  5   DFPPIFVPLVGLVFPAIAMASLSLHVQKN  33
+
+
+> UniRef90_A0A097KK64 Photosystem I reaction center subunit VIII 
+n=1 Tax=Watanabea reniformis TaxID=191674 RepID=A0A097KK64_9CHLO
+Length=36
+
+ Score = 44.7 bits (104),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 20/28 (71%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  4   LPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           LPS+ VPLVGL+FPA+ MASLFL++EK 
+Sbjct  6   LPSILVPLVGLVFPALTMASLFLYIEKD  33
+
+
+> UniRef90_A0A141NXT3 Photosystem I reaction center subunit VIII 
+n=1 Tax=Bouteloua gracilis TaxID=48732 RepID=A0A141NXT3_9POAL
+Length=36
+
+ Score = 44.3 bits (103),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  2   INLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +NLPS FVPL+GL+ PA+AM  LFL+VEK 
+Sbjct  4   LNLPSFFVPLIGLVVPAIAMTFLFLYVEKN  33
+
+
+> UniRef90_A0A240FG48 Photosystem I reaction center subunit VIII 
+n=2 Tax=Campanulaceae TaxID=4381 RepID=A0A240FG48_9ASTR
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 19/31 (61%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MINLPSLFVPLVGLLFPAVAMASLFLHVEKR  31
+           +++ PS+ VPLVGL+FPA+AMASL LH++K 
+Sbjct  3   LLSFPSVLVPLVGLVFPAIAMASLSLHIQKN  33
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.145    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 209344
+
+
+  Database: isar.db.136
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 8,182
+  Number of sequences in database:  205
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

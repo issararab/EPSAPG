@@ -1,0 +1,1875 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.84
+           96 sequences; 9,744 total letters
+
+Results from round 1
+
+
+Query= P02724|1afoA|GLPA_HUMAN 0.26666666666666666
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P02724 Glycophorin-A n=24 Tax=Homo sapiens TaxID=9606 ...  298     4e-109
+  UniRef90_H2PEE5 Glycophorin n=8 Tax=Pongo TaxID=9599 RepID=H2PE...  241     2e-86 
+  UniRef90_Q28913 Glycophorin-A n=11 Tax=Pan TaxID=9596 RepID=GLP...  239     2e-85 
+  UniRef90_A0A2R8Y7F9 Glycophorin n=5 Tax=Homo sapiens TaxID=9606...  216     1e-76 
+  UniRef90_G3RHP3 Glycophorin n=5 Tax=Gorilla gorilla gorilla Tax...  213     2e-75 
+  UniRef90_A0A1D5Q349 Glycophorin n=16 Tax=Cercopithecinae TaxID=...  211     2e-74 
+  UniRef90_A0A2K6LM38 Glycophorin n=6 Tax=Colobinae TaxID=9569 Re...  198     1e-69 
+  UniRef90_A0A0D9S169 Glycophorin n=1 Tax=Chlorocebus sabaeus Tax...  193     2e-67 
+  UniRef90_E7EQF3 Glycophorin n=8 Tax=Homininae TaxID=207598 RepI...  191     3e-67 
+  UniRef90_A0A2I3TNH2 Glycophorin A n=2 Tax=Pan TaxID=9596 RepID=...  190     8e-67 
+  UniRef90_O18797 Glycophorin A (Fragment) n=1 Tax=Gorilla gorill...  183     5e-64 
+  UniRef90_O18848 Glycophorin A (Fragment) n=3 Tax=Hylobatidae Ta...  181     4e-63 
+  UniRef90_A0A2J8XNW5 Glycophorin n=1 Tax=Pongo abelii TaxID=9601...  177     1e-61 
+  UniRef90_E9PH25 Glycophorin-A n=4 Tax=Homininae TaxID=207598 Re...  176     2e-61 
+  UniRef90_A0A2J8XNU5 GYPA isoform 4 n=1 Tax=Pongo abelii TaxID=9...  176     2e-61 
+  UniRef90_O18798 Glycophorin A (Fragment) n=1 Tax=Gorilla gorill...  173     5e-60 
+  UniRef90_A0A2I3GA32 Glycophorin n=1 Tax=Nomascus leucogenys Tax...  167     2e-57 
+  UniRef90_A0A2K5IM48 Glycophorin n=7 Tax=Cercopithecidae TaxID=9...  165     7e-57 
+  UniRef90_K9JI14 Glycophorin-A (Fragment) n=2 Tax=Homo sapiens T...  163     3e-56 
+  UniRef90_Q28914 Glycophorin-B n=2 Tax=Pan troglodytes TaxID=959...  162     1e-55 
+  UniRef90_A0A2R9CCS7 Glycophorin n=1 Tax=Pan paniscus TaxID=9597...  160     4e-55 
+  UniRef90_A0A2R8MTU0 Glycophorin n=5 Tax=Callithrix jacchus TaxI...  162     4e-55 
+  UniRef90_O18800 Glycophorin A (Fragment) n=2 Tax=Gorilla gorill...  158     5e-54 
+  UniRef90_A0A2K5DW43 Glycophorin n=1 Tax=Aotus nancymaae TaxID=3...  156     7e-53 
+  UniRef90_P14221 Glycophorin-A n=1 Tax=Macaca fuscata fuscata Ta...  155     1e-52 
+  UniRef90_A0A2J8XNX8 GYPA isoform 9 n=1 Tax=Pongo abelii TaxID=9...  150     2e-51 
+  UniRef90_Q13030 Glycophorin Erik I-IV n=2 Tax=Homininae TaxID=2...  150     3e-51 
+  UniRef90_A0A2K6LM44 Uncharacterized protein n=2 Tax=Rhinopithec...  150     4e-51 
+  UniRef90_A0A2K6UCK8 Glycophorin n=3 Tax=Saimiri boliviensis bol...  150     2e-50 
+  UniRef90_A0A2I3G8V9 Uncharacterized protein n=1 Tax=Nomascus le...  146     2e-49 
+  UniRef90_A0A1W2PQZ9 Glycophorin n=12 Tax=Homo sapiens TaxID=960...  145     4e-49 
+  UniRef90_A0A2I3TE83 Glycophorin n=1 Tax=Pan troglodytes TaxID=9...  143     3e-48 
+  UniRef90_A0A2I3MS31 Uncharacterized protein n=3 Tax=Cercopithec...  140     4e-47 
+  UniRef90_O18801 Glycophorin B (Fragment) n=1 Tax=Gorilla gorill...  135     3e-45 
+  UniRef90_A0A2K5S108 Uncharacterized protein n=2 Tax=Cebus capuc...  137     3e-45 
+  UniRef90_A0A2R9CCZ3 Glycophorin A (MNS blood group) n=1 Tax=Pan...  134     7e-45 
+  UniRef90_A0A2J8XNZ2 GYPA isoform 8 n=1 Tax=Pongo abelii TaxID=9...  128     9e-43 
+  UniRef90_A0A2K6UCJ2 Uncharacterized protein n=1 Tax=Saimiri bol...  129     1e-42 
+  UniRef90_H2RAS0 Uncharacterized protein n=2 Tax=Pan troglodytes...  129     2e-42 
+  UniRef90_A0A2R8M9F0 Uncharacterized protein n=2 Tax=Callithrix ...  128     2e-42 
+  UniRef90_A0A2R8PCG2 Uncharacterized protein n=2 Tax=Platyrrhini...  128     2e-42 
+  UniRef90_A0A2K6UCL0 Uncharacterized protein n=1 Tax=Saimiri bol...  122     5e-40 
+  UniRef90_K9JIK7 Glycophorin-A n=1 Tax=Homo sapiens TaxID=9606 R...  120     6e-40 
+  UniRef90_A0A2K5S112 Uncharacterized protein n=2 Tax=Cebus capuc...  122     8e-40 
+  UniRef90_A0A096NPL7 Uncharacterized protein n=9 Tax=Cercopithec...  120     2e-39 
+  UniRef90_A0A2I3HDE3 Uncharacterized protein n=1 Tax=Nomascus le...  119     3e-39 
+  UniRef90_A0A2J8MU72 GYPA isoform 5 (Fragment) n=3 Tax=Pan trogl...  120     4e-39 
+  UniRef90_Q6WBD7 Glycophorin A-like protein (Fragment) n=1 Tax=P...  115     9e-38 
+  UniRef90_Q14447 Glycophorin (Fragment) n=4 Tax=Homo sapiens Tax...  114     2e-37 
+  UniRef90_A0A2K5S120 Uncharacterized protein n=1 Tax=Cebus capuc...  114     1e-36 
+  UniRef90_Q14424 Glycophorin MiX (Fragment) n=5 Tax=Homo sapiens...  112     2e-36 
+  UniRef90_Q14423 Glycophorin MiI (Fragment) n=1 Tax=Homo sapiens...  108     5e-35 
+  UniRef90_Q6WBC4 Glycophorin A-like protein (Fragment) n=2 Tax=G...  108     7e-35 
+  UniRef90_A0A2K6UCC7 Uncharacterized protein n=3 Tax=Cebidae Tax...  107     2e-34 
+  UniRef90_Q6WBD3 Glycophorin A-like protein (Fragment) n=2 Tax=P...  105     8e-34 
+  UniRef90_Q6WBD5 Glycophorin A-like protein (Fragment) n=1 Tax=P...  101     3e-32 
+  UniRef90_A0A2R8MY61 Uncharacterized protein n=1 Tax=Callithrix ...  102     4e-32 
+  UniRef90_A0A2J8MU76 GYPA isoform 6 (Fragment) n=1 Tax=Pan trogl...  101     1e-31 
+  UniRef90_P06028 Glycophorin-B n=19 Tax=Homo sapiens TaxID=9606 ...  96.7    4e-30 
+  UniRef90_A0A2K6UCM8 Uncharacterized protein n=1 Tax=Saimiri bol...  97.1    5e-30 
+  UniRef90_Q6WBE7 Glycophorin E (Fragment) n=5 Tax=Homininae TaxI...  93.6    4e-29 
+  UniRef90_Q6WBC9 Glycophorin A (Fragment) n=1 Tax=Nomascus leuco...  92.0    2e-28 
+  UniRef90_Q99066 Glycophorin MiVI (Fragment) n=4 Tax=Homo sapien...  91.3    4e-28 
+  UniRef90_A0A2R9CN67 Glycophorin B (MNS blood group) n=4 Tax=Pan...  88.2    9e-27 
+  UniRef90_A0A2K5S150 Uncharacterized protein n=1 Tax=Cebus capuc...  87.8    2e-26 
+  UniRef90_O18802 Glycophorin B (Fragment) n=1 Tax=Gorilla gorill...  75.9    4e-22 
+  UniRef90_F6YPM7 Uncharacterized protein n=1 Tax=Equus caballus ...  76.6    4e-22 
+  UniRef90_A0A2J8IKT2 GYPE isoform 1 (Fragment) n=2 Tax=Homininae...  74.7    1e-21 
+  UniRef90_O18803 Glycophorin B/E (Fragment) n=1 Tax=Gorilla gori...  74.3    2e-21 
+  UniRef90_A0A2J8MU70 GYPA isoform 2 (Fragment) n=1 Tax=Pan trogl...  73.2    7e-21 
+  UniRef90_P02726 Glycophorin-A n=1 Tax=Equus caballus TaxID=9796...  73.9    7e-21 
+  UniRef90_P15421 Glycophorin-E n=1 Tax=Homo sapiens TaxID=9606 R...  70.9    3e-20 
+  UniRef90_A0A337SD48 Uncharacterized protein n=1 Tax=Felis catus...  67.8    8e-19 
+  UniRef90_A0A2J8MU86 GYPA isoform 10 (Fragment) n=3 Tax=Pan trog...  67.4    1e-18 
+  UniRef90_Q6WBC8 Glycophorin E-like protein (Fragment) n=2 Tax=G...  66.6    2e-18 
+  UniRef90_E9PCN6 Glycophorin-E n=2 Tax=Homininae TaxID=207598 Re...  65.9    2e-18 
+  UniRef90_Q58HE5 Glycophorin A Ria variant (Fragment) n=1 Tax=Ho...  63.9    5e-18 
+  UniRef90_Q12832 Glycophorin HeP2 (Fragment) n=5 Tax=Homo sapien...  65.9    7e-18 
+  UniRef90_A0A2Y9R186 glycophorin-A isoform X2 n=1 Tax=Trichechus...  64.7    1e-17 
+  UniRef90_A0A2Y9RBR0 glycophorin-A isoform X1 n=1 Tax=Trichechus...  64.3    4e-17 
+  UniRef90_E7ERJ5 Glycophorin-B n=3 Tax=Homo sapiens TaxID=9606 R...  61.6    9e-17 
+  UniRef90_P14220 Glycophorin-A n=4 Tax=Mus musculus TaxID=10090 ...  62.4    5e-16 
+  UniRef90_A0A2K6FV23 Uncharacterized protein n=1 Tax=Propithecus...  60.1    6e-16 
+  UniRef90_Q28915 Glycophorin-E n=2 Tax=Pan TaxID=9596 RepID=GLPE...  58.9    1e-15 
+  UniRef90_H2RDX2 Uncharacterized protein n=2 Tax=Pan troglodytes...  58.5    2e-15 
+  UniRef90_B8Q177 Glycophorin B Miltenberger subtype III n=1 Tax=...  57.4    4e-15 
+  UniRef90_G1TZ28 Uncharacterized protein n=1 Tax=Oryctolagus cun...  56.2    1e-14 
+  UniRef90_P02725 Glycophorin-A n=4 Tax=Sus scrofa TaxID=9823 Rep...  58.2    1e-14 
+  UniRef90_B8Q179 Glycophorin B Miltenberger subtype III n=2 Tax=...  54.7    4e-14 
+  UniRef90_V5NV32 Hybrid glycophorin Kip (Fragment) n=1 Tax=Homo ...  53.1    1e-13 
+  UniRef90_A0A223IA57 Glycophorin A (Fragment) n=1 Tax=Homo sapie...  51.2    4e-13 
+  UniRef90_A0A2U4AMY1 glycophorin-A isoform X1 n=7 Tax=Odontoceti...  52.8    1e-12 
+  UniRef90_H2QQ82 Uncharacterized protein n=1 Tax=Pan troglodytes...  44.7    5e-10 
+  UniRef90_Q9NRB2 Glycophorin E (Fragment) n=2 Tax=Homininae TaxI...  40.8    5e-09 
+  UniRef90_A0A346RDZ9 Glycophorin A (Fragment) n=9 Tax=Homo sapie...  37.7    7e-08 
+  UniRef90_A0A346RE92 Glycophorin B (Fragment) n=3 Tax=Homo sapie...  34.7    9e-07 
+
+
+> UniRef90_P02724 Glycophorin-A n=24 Tax=Homo sapiens TaxID=9606 
+RepID=GLPA_HUMAN
+Length=150
+
+ Score = 298 bits (763),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK
+Sbjct  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+
+
+> UniRef90_H2PEE5 Glycophorin n=8 Tax=Pongo TaxID=9599 RepID=H2PEE5_PONAB
+Length=150
+
+ Score = 241 bits (615),  Expect = 2e-86, Method: Compositional matrix adjust.
+ Identities = 124/150 (83%), Positives = 132/150 (88%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MY KIIFVLLLSEIVSISAS+TTG  MHTS SSSVTKSYI+ QTND HK+DTY ATP AH
+Sbjct  1    MYEKIIFVLLLSEIVSISASNTTGEVMHTSISSSVTKSYITPQTNDKHKQDTYPATPSAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISV T++ PEEE GER QL H FSEP ITLI+FGVMAGVIGTILLISY IRRL K+
+Sbjct  61   EVSEISVITIHSPEEENGERGQLVHRFSEPVITLIVFGVMAGVIGTILLISYCIRRLRKQ  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLPSPDTDVPLSSVEIENPET DQ
+Sbjct  121  SPSDVQPLPSPDTDVPLSSVEIENPETIDQ  150
+
+
+> UniRef90_Q28913 Glycophorin-A n=11 Tax=Pan TaxID=9596 RepID=GLPA_PANTR
+Length=149
+
+ Score = 239 bits (609),  Expect = 2e-85, Method: Compositional matrix adjust.
+ Identities = 134/150 (89%), Positives = 136/150 (91%), Gaps = 1/150 (1%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTT VAMHTSTSS VTKSYISS+T+D HK DTY ATPRAH
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTEVAMHTSTSS-VTKSYISSETSDKHKWDTYPATPRAH  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEI V TVYPPEEE GE VQL H FSEPEITLIIFGVMAGVIGTILLI Y IRRLIKK
+Sbjct  60   EVSEIYVTTVYPPEEENGEGVQLVHRFSEPEITLIIFGVMAGVIGTILLIYYSIRRLIKK  119
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  120  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  149
+
+
+> UniRef90_A0A2R8Y7F9 Glycophorin n=5 Tax=Homo sapiens TaxID=9606 
+RepID=A0A2R8Y7F9_HUMAN
+Length=145
+
+ Score = 216 bits (550),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 118/134 (88%), Positives = 122/134 (91%), Gaps = 0/134 (0%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISA STT VAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIK+
+Sbjct  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKR  120
+
+Query  121  SPSDVKPLPSPDTD  134
+               +      P+ +
+Sbjct  121  QVINENLFTKPNVE  134
+
+
+> UniRef90_G3RHP3 Glycophorin n=5 Tax=Gorilla gorilla gorilla TaxID=9595 
+RepID=G3RHP3_GORGO
+Length=148
+
+ Score = 213 bits (543),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 120/137 (88%), Positives = 121/137 (88%), Gaps = 0/137 (0%)
+
+Query  14   IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+            IVSISA STT VAMHTSTSSSVTKSYISSQTND HKRDTYAA PRAHEVSEISV  VYPP
+Sbjct  12   IVSISAWSTTEVAMHTSTSSSVTKSYISSQTNDKHKRDTYAAPPRAHEVSEISVTAVYPP  71
+
+Query  74   EEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDT  133
+            EE  GER QL H F E EITLIIFGVMAG+IGTILLISY IRRLIKKSPSDVKP PS DT
+Sbjct  72   EEYNGERGQLVHRFPEAEITLIIFGVMAGIIGTILLISYSIRRLIKKSPSDVKPRPSTDT  131
+
+Query  134  DVPLSSVEIENPETSDQ  150
+            DVPLSSVEIENPETSDQ
+Sbjct  132  DVPLSSVEIENPETSDQ  148
+
+
+> UniRef90_A0A1D5Q349 Glycophorin n=16 Tax=Cercopithecinae TaxID=9528 
+RepID=A0A1D5Q349_MACMU
+Length=162
+
+ Score = 211 bits (538),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 112/150 (75%), Positives = 120/150 (80%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIV ISASSTT  A HTSTSS   +SY+SSQ+ND H  DT+  TP AH
+Sbjct  1    MYGKIIFVLLLSEIVRISASSTTVPATHTSTSSLGPESYVSSQSNDKHTSDTHPTTPSAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSE S RT YPPEE+  ERVQL H FSE  I LIIFGVMAGVIGTIL ISY IRRL KK
+Sbjct  61   EVSEFSGRTHYPPEEDNRERVQLVHEFSELVIALIIFGVMAGVIGTILFISYCIRRLRKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S SDV+PLP PD +VPLSSVEIENPE +DQ
+Sbjct  121  SQSDVQPLPPPDAEVPLSSVEIENPEETDQ  150
+
+
+> UniRef90_A0A2K6LM38 Glycophorin n=6 Tax=Colobinae TaxID=9569 
+RepID=A0A2K6LM38_RHIBE
+Length=148
+
+ Score = 198 bits (504),  Expect = 1e-69, Method: Compositional matrix adjust.
+ Identities = 106/145 (73%), Positives = 113/145 (78%), Gaps = 0/145 (0%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            M GKI+FVLLLSEIVSISASSTT   MHTSTSS V  SY+SS+ ND HK D +  +P AH
+Sbjct  1    MCGKIMFVLLLSEIVSISASSTTVPEMHTSTSSLVPGSYVSSRPNDKHKWDIHPTSPSAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSE S R  YP EEE  ER QL H FSE  I LIIFGVMAGVIGTIL ISY IRRL KK
+Sbjct  61   EVSEFSGRNHYPTEEENREREQLVHEFSELVIALIIFGVMAGVIGTILFISYCIRRLRKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENP  145
+            SPSDV+PLP PD +VPLSSVEIENP
+Sbjct  121  SPSDVQPLPPPDAEVPLSSVEIENP  145
+
+
+> UniRef90_A0A0D9S169 Glycophorin n=1 Tax=Chlorocebus sabaeus TaxID=60711 
+RepID=A0A0D9S169_CHLSB
+Length=147
+
+ Score = 193 bits (490),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 103/143 (72%), Positives = 112/143 (78%), Gaps = 0/143 (0%)
+
+Query  8    VLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISV  67
+            +L  +EIVSISASST   AMHTS SS   +SY+SSQ+ND HK DT+  TP AHEV E S 
+Sbjct  5    LLFYTEIVSISASSTPVPAMHTSISSLGPESYVSSQSNDKHKSDTHPTTPSAHEVLEFSG  64
+
+Query  68   RTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKP  127
+            RT YPPEEE  ERVQL H FSE  I LIIFGVMAGVIGTIL ISYGI RL KKSPSDV+P
+Sbjct  65   RTHYPPEEENRERVQLVHEFSELVIALIIFGVMAGVIGTILFISYGICRLRKKSPSDVQP  124
+
+Query  128  LPSPDTDVPLSSVEIENPETSDQ  150
+            LP PD +VPLSSVEIENP+TS Q
+Sbjct  125  LPPPDAEVPLSSVEIENPDTSHQ  147
+
+
+> UniRef90_E7EQF3 Glycophorin n=8 Tax=Homininae TaxID=207598 RepID=E7EQF3_HUMAN
+Length=118
+
+ Score = 191 bits (486),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 116/150 (77%), Positives = 116/150 (77%), Gaps = 32/150 (21%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISA STT VAMHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                             GERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK
+Sbjct  46   -----------------GERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  88
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  89   SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  118
+
+
+> UniRef90_A0A2I3TNH2 Glycophorin A n=2 Tax=Pan TaxID=9596 RepID=A0A2I3TNH2_PANTR
+Length=117
+
+ Score = 190 bits (483),  Expect = 8e-67, Method: Compositional matrix adjust.
+ Identities = 104/150 (69%), Positives = 104/150 (69%), Gaps = 33/150 (22%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS                                 D HK D Y ATPRAH
+Sbjct  1    MYGKIIFVLLLS---------------------------------DKHKWDIYPATPRAH  27
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEI V TVYPPEEE GE VQL H FSEPEITLIIFGVMAGVIGTILLI Y I RLIKK
+Sbjct  28   EVSEIYVTTVYPPEEENGEGVQLVHRFSEPEITLIIFGVMAGVIGTILLIYYSICRLIKK  87
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  88   SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  117
+
+
+> UniRef90_O18797 Glycophorin A (Fragment) n=1 Tax=Gorilla gorilla 
+TaxID=9593 RepID=O18797_9PRIM
+Length=123
+
+ Score = 183 bits (465),  Expect = 5e-64, Method: Compositional matrix adjust.
+ Identities = 104/122 (85%), Positives = 107/122 (88%), Gaps = 0/122 (0%)
+
+Query  9    LLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVR  68
+            LLLSE VSISASSTT VAMHTSTSSSVTKSYISS+T+D HKRDTYAA PRAHEVSEISV 
+Sbjct  1    LLLSEFVSISASSTTEVAMHTSTSSSVTKSYISSETSDKHKRDTYAAPPRAHEVSEISVT  60
+
+Query  69   TVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPL  128
+             VYPPEE  GERVQL H FSE EITLIIFGVMAG+IGTIL I Y IRRLIKKSPSDVKP 
+Sbjct  61   AVYPPEEYNGERVQLVHRFSEAEITLIIFGVMAGIIGTILFIYYSIRRLIKKSPSDVKPR  120
+
+Query  129  PS  130
+            PS
+Sbjct  121  PS  122
+
+
+> UniRef90_O18848 Glycophorin A (Fragment) n=3 Tax=Hylobatidae 
+TaxID=9577 RepID=O18848_HYLLA
+Length=132
+
+ Score = 181 bits (460),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 101/133 (76%), Positives = 107/133 (80%), Gaps = 3/133 (2%)
+
+Query  20   SSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPPEEETGE  79
+            SSTTG+ MH S SSSVTKSY SSQTND +K  TY A    +EVSEISV TVYPPEEE GE
+Sbjct  1    SSTTGLVMHASISSSVTKSYTSSQTNDKNKWYTYPAR-SVNEVSEISVTTVYPPEEEDGE  59
+
+Query  80   --RVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPL  137
+              + QL H FSEP ITLIIFGVMAGVIGTIL ISY I  L KKSPSDV+PLPSPDT+VPL
+Sbjct  60   WGQGQLVHRFSEPVITLIIFGVMAGVIGTILSISYCICLLRKKSPSDVQPLPSPDTEVPL  119
+
+Query  138  SSVEIENPETSDQ  150
+            SSVEIENPET DQ
+Sbjct  120  SSVEIENPETIDQ  132
+
+
+> UniRef90_A0A2J8XNW5 Glycophorin n=1 Tax=Pongo abelii TaxID=9601 
+RepID=A0A2J8XNW5_PONAB
+Length=118
+
+ Score = 177 bits (449),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 100/150 (67%), Positives = 105/150 (70%), Gaps = 32/150 (21%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MY KIIFVLLLSEIVSI AS+TTG  MHTS SSSVTKSYI+ QTN               
+Sbjct  1    MYEKIIFVLLLSEIVSIPASNTTGEVMHTSISSSVTKSYITPQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                             GER QL H FSEP ITLI+FGVMAGVIGTILLISY IRRL K+
+Sbjct  46   -----------------GERGQLVHRFSEPVITLIVFGVMAGVIGTILLISYCIRRLRKQ  88
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLPSPDTDVPLSSVEIENPET DQ
+Sbjct  89   SPSDVQPLPSPDTDVPLSSVEIENPETIDQ  118
+
+
+> UniRef90_E9PH25 Glycophorin-A n=4 Tax=Homininae TaxID=207598 
+RepID=E9PH25_HUMAN
+Length=105
+
+ Score = 176 bits (446),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 103/150 (69%), Positives = 103/150 (69%), Gaps = 45/150 (30%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISA STT VAMHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                                          EITLIIFGVMAGVIGTILLISYGIRRLIKK
+Sbjct  46   ------------------------------EITLIIFGVMAGVIGTILLISYGIRRLIKK  75
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  76   SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  105
+
+
+> UniRef90_A0A2J8XNU5 GYPA isoform 4 n=1 Tax=Pongo abelii TaxID=9601 
+RepID=A0A2J8XNU5_PONAB
+Length=117
+
+ Score = 176 bits (447),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 97/150 (65%), Positives = 103/150 (69%), Gaps = 33/150 (22%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MY KIIFVLLLS                                 D HK+DTY ATP AH
+Sbjct  1    MYEKIIFVLLLS---------------------------------DKHKQDTYPATPSAH  27
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISV T++ PEEE GER QL H FSEP ITLI+FGVMAGVIGTILLISY IRRL K+
+Sbjct  28   EVSEISVITIHSPEEENGERGQLVHRFSEPVITLIVFGVMAGVIGTILLISYCIRRLRKQ  87
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLPSPDTDVPLSSVEIENPET DQ
+Sbjct  88   SPSDVQPLPSPDTDVPLSSVEIENPETIDQ  117
+
+
+> UniRef90_O18798 Glycophorin A (Fragment) n=1 Tax=Gorilla gorilla 
+TaxID=9593 RepID=O18798_9PRIM
+Length=125
+
+ Score = 173 bits (439),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 102/126 (81%), Positives = 108/126 (86%), Gaps = 1/126 (1%)
+
+Query  20   SSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPPEEETGE  79
+            SSTT VA+HTSTSSSVTKSYISSQTND HK+DTY A    +EVSE SV TVYP EE+ GE
+Sbjct  1    SSTTEVAVHTSTSSSVTKSYISSQTNDKHKQDTYPAH-SVNEVSETSVTTVYPTEEDNGE  59
+
+Query  80   RVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSS  139
+             +QL   FS PEITLIIFGVMAG+IGTILLISY IRRLIKKSPSDVKPLPS DTDVPLSS
+Sbjct  60   WIQLVPRFSGPEITLIIFGVMAGIIGTILLISYSIRRLIKKSPSDVKPLPSTDTDVPLSS  119
+
+Query  140  VEIENP  145
+            VEIENP
+Sbjct  120  VEIENP  125
+
+
+> UniRef90_A0A2I3GA32 Glycophorin n=1 Tax=Nomascus leucogenys TaxID=61853 
+RepID=A0A2I3GA32_NOMLE
+Length=118
+
+ Score = 167 bits (422),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 97/150 (65%), Positives = 100/150 (67%), Gaps = 32/150 (21%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MY KI FVLL  EI SISASSTTG+ MHTS SSSVTKSY SSQTN               
+Sbjct  1    MYEKIKFVLLFLEIASISASSTTGLVMHTSISSSVTKSYTSSQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                             GE  Q  H FSEP ITLIIFGVMAGVIGTIL ISY IR L KK
+Sbjct  46   -----------------GEWRQPVHRFSEPVITLIIFGVMAGVIGTILSISYCIRLLRKK  88
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLPSPDTDVPLSSVEIENPET+DQ
+Sbjct  89   SPSDVQPLPSPDTDVPLSSVEIENPETTDQ  118
+
+
+> UniRef90_A0A2K5IM48 Glycophorin n=7 Tax=Cercopithecidae TaxID=9527 
+RepID=A0A2K5IM48_COLAP
+Length=118
+
+ Score = 165 bits (418),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 96/150 (64%), Positives = 100/150 (67%), Gaps = 32/150 (21%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISASSTT  AMHTSTSS V  SY+SSQ N               
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTVPAMHTSTSSLVPGSYVSSQPN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                             GER QL H FSE  I LIIFGVMAGVIGTIL ISY IRRL KK
+Sbjct  46   -----------------GEREQLVHEFSELVIALIIFGVMAGVIGTILFISYCIRRLRKK  88
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLP PD +VPLSSVEIENPE +DQ
+Sbjct  89   SPSDVQPLPPPDAEVPLSSVEIENPEETDQ  118
+
+
+> UniRef90_K9JI14 Glycophorin-A (Fragment) n=2 Tax=Homo sapiens 
+TaxID=9606 RepID=K9JI14_HUMAN
+Length=104
+
+ Score = 163 bits (412),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 87/134 (65%), Positives = 91/134 (68%), Gaps = 33/134 (25%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS                                 DTHKRDTYAATPRAH
+Sbjct  1    MYGKIIFVLLLS---------------------------------DTHKRDTYAATPRAH  27
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+            EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIK+
+Sbjct  28   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKR  87
+
+Query  121  SPSDVKPLPSPDTD  134
+               +      P+ +
+Sbjct  88   QVINENLFTKPNVE  101
+
+
+> UniRef90_Q28914 Glycophorin-B n=2 Tax=Pan troglodytes TaxID=9598 
+RepID=GLPB_PANTR
+Length=123
+
+ Score = 162 bits (411),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 100/122 (82%), Positives = 101/122 (83%), Gaps = 3/122 (2%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISASSTT VAMHTSTSSSVTKSYISSQTND HK DTY AT  AH
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTEVAMHTSTSSSVTKSYISSQTNDKHKGDTYPATLGAH  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRL  117
+            EVSEISV TVYPPEE+ GE VQ  H FS P    I LII  VMAGVIGTILLISYGIR L
+Sbjct  61   EVSEISVTTVYPPEEDNGEWVQPVHPFSRPAPVVIILIILCVMAGVIGTILLISYGIRLL  120
+
+Query  118  IK  119
+            IK
+Sbjct  121  IK  122
+
+
+> UniRef90_A0A2R9CCS7 Glycophorin n=1 Tax=Pan paniscus TaxID=9597 
+RepID=A0A2R9CCS7_PANPA
+Length=118
+
+ Score = 160 bits (406),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 95/137 (69%), Positives = 97/137 (71%), Gaps = 33/137 (24%)
+
+Query  14   IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+            IVSISASSTT VAMHTSTSS VTKSYISS+T                             
+Sbjct  15   IVSISASSTTEVAMHTSTSS-VTKSYISSET-----------------------------  44
+
+Query  74   EEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDT  133
+               +GE VQL H FSEPEITLIIFGVMAGVIGTILLI Y I RLIKKSPSDVKPLPSPDT
+Sbjct  45   ---SGEGVQLVHRFSEPEITLIIFGVMAGVIGTILLIYYSICRLIKKSPSDVKPLPSPDT  101
+
+Query  134  DVPLSSVEIENPETSDQ  150
+            DVPLSSVEIENPETSDQ
+Sbjct  102  DVPLSSVEIENPETSDQ  118
+
+
+> UniRef90_A0A2R8MTU0 Glycophorin n=5 Tax=Callithrix jacchus TaxID=9483 
+RepID=A0A2R8MTU0_CALJA
+Length=150
+
+ Score = 162 bits (409),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 90/150 (60%), Positives = 104/150 (69%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYG+IIFVLLLSE VS+++S+   + M T    S T++Y+SS T D HK+  Y  T  A 
+Sbjct  1    MYGRIIFVLLLSEFVSMASSTNPHMEMKTPGFLSPTENYLSSSTADKHKQSMYPITAGAD  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             VSE S R    PE++  +R QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  61   RVSESSGRNHLRPEQKNRQRQQLVHDFSEPVITLIIFGVMAVVIGKILFISYCIRRLRKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+   SPDTDVPLSSVEIENPE  DQ
+Sbjct  121  SSFDVQTPSSPDTDVPLSSVEIENPEKVDQ  150
+
+
+> UniRef90_O18800 Glycophorin A (Fragment) n=2 Tax=Gorilla gorilla 
+TaxID=9593 RepID=O18800_9PRIM
+Length=114
+
+ Score = 158 bits (399),  Expect = 5e-54, Method: Compositional matrix adjust.
+ Identities = 100/146 (68%), Positives = 104/146 (71%), Gaps = 32/146 (22%)
+
+Query  5    IIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSE  64
+            IIFVLLLSEIVSISA STT VA+HTSTSSSVT SYISSQTN                   
+Sbjct  1    IIFVLLLSEIVSISAWSTTEVAVHTSTSSSVTNSYISSQTN-------------------  41
+
+Query  65   ISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSD  124
+                         GE +QL   FSE EITLIIFGVMAG+IGTILLISY IRRLIKKSPSD
+Sbjct  42   -------------GEWIQLVPRFSEAEITLIIFGVMAGIIGTILLISYSIRRLIKKSPSD  88
+
+Query  125  VKPLPSPDTDVPLSSVEIENPETSDQ  150
+            VKPLPS DTDVPLSSVEIENPETSD+
+Sbjct  89   VKPLPSTDTDVPLSSVEIENPETSDR  114
+
+
+> UniRef90_A0A2K5DW43 Glycophorin n=1 Tax=Aotus nancymaae TaxID=37293 
+RepID=A0A2K5DW43_AOTNA
+Length=150
+
+ Score = 156 bits (394),  Expect = 7e-53, Method: Compositional matrix adjust.
+ Identities = 90/150 (60%), Positives = 101/150 (67%), Gaps = 0/150 (0%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSE VSI++S T  +      S   T++Y+SS   D HK+     T  A 
+Sbjct  1    MYGKIIFVLLLSEFVSIASSITPHMETKAPGSLLPTENYLSSVIPDKHKQSMNPITAVAD  60
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             VSE S R    PE++ GER QL H FSEP ITLII GVMA V+G IL ISY IRRL KK
+Sbjct  61   GVSESSGRNHLRPEQKNGERQQLVHDFSEPVITLIILGVMATVVGMILFISYCIRRLRKK  120
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+P  SPDTDVPLSSVEIENPE  DQ
+Sbjct  121  SSFDVQPPSSPDTDVPLSSVEIENPEKVDQ  150
+
+
+> UniRef90_P14221 Glycophorin-A n=1 Tax=Macaca fuscata fuscata 
+TaxID=9543 RepID=GLPA_MACFU
+Length=144
+
+ Score = 155 bits (392),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 86/132 (65%), Positives = 100/132 (76%), Gaps = 3/132 (2%)
+
+Query  20   SSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVS-EISVRTVYPPEEETG  78
+            SSTT  A HTS+SS   + Y+SSQ+ND H  D++     AHEV+ E S RT YPPEE+  
+Sbjct  1    SSTTVPATHTSSSSLGPEQYVSSQSNDKHTSDSHPTPTSAHEVTTEFSGRTHYPPEED--  58
+
+Query  79   ERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLS  138
+            +RVQL H FSE  I LIIFGVMAGVIGTIL ISYG RRLIKKS SDV+PLP PD +VPLS
+Sbjct  59   DRVQLVHEFSELVIALIIFGVMAGVIGTILFISYGSRRLIKKSESDVQPLPPPDAEVPLS  118
+
+Query  139  SVEIENPETSDQ  150
+            SVEIE+PE +D+
+Sbjct  119  SVEIEDPEETDE  130
+
+
+> UniRef90_A0A2J8XNX8 GYPA isoform 9 n=1 Tax=Pongo abelii TaxID=9601 
+RepID=A0A2J8XNX8_PONAB
+Length=105
+
+ Score = 150 bits (380),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 90/150 (60%), Positives = 95/150 (63%), Gaps = 45/150 (30%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MY KIIFVLLLSEIVSI AS+TTG  MHTS SSSVTKSYI+ QTN               
+Sbjct  1    MYEKIIFVLLLSEIVSIPASNTTGEVMHTSISSSVTKSYITPQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                                           ITLI+FGVMAGVIGTILLISY IRRL K+
+Sbjct  46   ------------------------------VITLIVFGVMAGVIGTILLISYCIRRLRKQ  75
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLPSPDTDVPLSSVEIENPET DQ
+Sbjct  76   SPSDVQPLPSPDTDVPLSSVEIENPETIDQ  105
+
+
+> UniRef90_Q13030 Glycophorin Erik I-IV n=2 Tax=Homininae TaxID=207598 
+RepID=Q13030_HUMAN
+Length=85
+
+ Score = 150 bits (378),  Expect = 3e-51, Method: Compositional matrix adjust.
+ Identities = 73/74 (99%), Positives = 74/74 (100%), Gaps = 0/74 (0%)
+
+Query  77   TGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVP  136
+            +GERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVP
+Sbjct  12   SGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVP  71
+
+Query  137  LSSVEIENPETSDQ  150
+            LSSVEIENPETSDQ
+Sbjct  72   LSSVEIENPETSDQ  85
+
+
+ Score = 27.7 bits (60),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1   MYGKIIFVLLLS  12
+           MYGKIIFVLLLS
+Sbjct  1   MYGKIIFVLLLS  12
+
+
+> UniRef90_A0A2K6LM44 Uncharacterized protein n=2 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=A0A2K6LM44_RHIBE
+Length=116
+
+ Score = 150 bits (379),  Expect = 4e-51, Method: Compositional matrix adjust.
+ Identities = 89/145 (61%), Positives = 94/145 (65%), Gaps = 32/145 (22%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            M GKI+FVLLLSEIVSISASSTT   MHTSTSS V  SY+SS+ N               
+Sbjct  1    MCGKIMFVLLLSEIVSISASSTTVPEMHTSTSSLVPGSYVSSRPN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                             GER QL H FSE  I LIIFGVMAGVIGTIL ISY IRRL KK
+Sbjct  46   -----------------GEREQLVHEFSELVIALIIFGVMAGVIGTILFISYCIRRLRKK  88
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENP  145
+            SPSDV+PLP PD +VPLSSVEIENP
+Sbjct  89   SPSDVQPLPPPDAEVPLSSVEIENP  113
+
+
+> UniRef90_A0A2K6UCK8 Glycophorin n=3 Tax=Saimiri boliviensis boliviensis 
+TaxID=39432 RepID=A0A2K6UCK8_SAIBB
+Length=148
+
+ Score = 150 bits (379),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 91/150 (61%), Positives = 99/150 (66%), Gaps = 2/150 (1%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSE VSI++S T      T T    T+  + S T D HK DT      A 
+Sbjct  1    MYGKIIFVLLLSEFVSIASSITP--HTETKTPGLPTEVTVPSVTIDEHKLDTGPIPTSAD  58
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             VSE S R    PE++ GER QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  59   GVSESSGRNHLRPEQKNGERQQLVHDFSEPVITLIIFGVMAAVIGKILFISYCIRRLRKK  118
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+P  SPDT+VPLSSVE ENPE  DQ
+Sbjct  119  SSFDVQPPSSPDTEVPLSSVETENPEKVDQ  148
+
+
+> UniRef90_A0A2I3G8V9 Uncharacterized protein n=1 Tax=Nomascus 
+leucogenys TaxID=61853 RepID=A0A2I3G8V9_NOMLE
+Length=105
+
+ Score = 146 bits (368),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 89/150 (59%), Positives = 92/150 (61%), Gaps = 45/150 (30%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MY KI FVLL  EI SISASSTTG+ MHTS SSSVTKSY SSQTN               
+Sbjct  1    MYEKIKFVLLFLEIASISASSTTGLVMHTSISSSVTKSYTSSQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                                           ITLIIFGVMAGVIGTIL ISY IR L KK
+Sbjct  46   ------------------------------VITLIIFGVMAGVIGTILSISYCIRLLRKK  75
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLPSPDTDVPLSSVEIENPET+DQ
+Sbjct  76   SPSDVQPLPSPDTDVPLSSVEIENPETTDQ  105
+
+
+> UniRef90_A0A1W2PQZ9 Glycophorin n=12 Tax=Homo sapiens TaxID=9606 
+RepID=A0A1W2PQZ9_HUMAN
+Length=121
+
+ Score = 145 bits (367),  Expect = 4e-49, Method: Compositional matrix adjust.
+ Identities = 93/122 (76%), Positives = 98/122 (80%), Gaps = 4/122 (3%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISA STT VAMHTSTSSSVTKSYISSQTND HKRDT  A   A+
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTNDKHKRDTCPA-HTAN  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRL  117
+            EVSEISV TV PPE++ GE  QL H F+ P    I LII  VMAG+IGTILLISY IRRL
+Sbjct  60   EVSEISVTTVSPPEKKNGETGQLVHRFTVPAPVVIILIILCVMAGIIGTILLISYSIRRL  119
+
+Query  118  IK  119
+            IK
+Sbjct  120  IK  121
+
+
+> UniRef90_A0A2I3TE83 Glycophorin n=1 Tax=Pan troglodytes TaxID=9598 
+RepID=A0A2I3TE83_PANTR
+Length=124
+
+ Score = 143 bits (361),  Expect = 3e-48, Method: Compositional matrix adjust.
+ Identities = 89/115 (77%), Positives = 93/115 (81%), Gaps = 3/115 (3%)
+
+Query  8    VLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISV  67
+            +L  +EIVSISASSTTGV MHTSTSSSVTKSYISSQTND HK DTY ATPRAHEVSEISV
+Sbjct  1    LLFYTEIVSISASSTTGVEMHTSTSSSVTKSYISSQTNDKHKWDTYPATPRAHEVSEISV  60
+
+Query  68   RTVYPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRLIK  119
+             TVYPPEE+ GE VQ  H FS P    I LII  V+AG IGTILLISYGIR LIK
+Sbjct  61   TTVYPPEEDDGEWVQPVHPFSGPAPVVIILIILCVVAGGIGTILLISYGIRLLIK  115
+
+
+> UniRef90_A0A2I3MS31 Uncharacterized protein n=3 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A2I3MS31_PAPAN
+Length=105
+
+ Score = 140 bits (352),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 85/150 (57%), Positives = 91/150 (61%), Gaps = 45/150 (30%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIV ISASSTT  A HTSTSS V +SY+SSQ+N               
+Sbjct  1    MYGKIIFVLLLSEIVRISASSTTVPATHTSTSSLVPESYVSSQSN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                                           I LIIFGVMAGVIGTIL ISY IRRL KK
+Sbjct  46   ------------------------------VIALIIFGVMAGVIGTILFISYCIRRLRKK  75
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            SPSDV+PLP PD +VPLSSVEIENPE +DQ
+Sbjct  76   SPSDVQPLPPPDAEVPLSSVEIENPEETDQ  105
+
+
+> UniRef90_O18801 Glycophorin B (Fragment) n=1 Tax=Gorilla gorilla 
+TaxID=9593 RepID=O18801_9PRIM
+Length=113
+
+ Score = 135 bits (341),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 84/112 (75%), Positives = 89/112 (79%), Gaps = 3/112 (3%)
+
+Query  11   LSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTV  70
+            LS+IVSIS  STT VA+HTSTSSSVTKSYISSQTND HKRDTY A PRAHEVSE SV TV
+Sbjct  1    LSDIVSISVWSTTEVAVHTSTSSSVTKSYISSQTNDKHKRDTYPAPPRAHEVSETSVTTV  60
+
+Query  71   YPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRLIK  119
+            YPPEE+ GE  QL H F+ P    I LII  VMAGVIG ILLIS+ IRRLIK
+Sbjct  61   YPPEEDAGETGQLVHRFTVPAPVVIILIILCVMAGVIGMILLISHSIRRLIK  112
+
+
+> UniRef90_A0A2K5S108 Uncharacterized protein n=2 Tax=Cebus capucinus 
+imitator TaxID=1737458 RepID=A0A2K5S108_CEBCA
+Length=147
+
+ Score = 137 bits (344),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 83/149 (56%), Positives = 93/149 (62%), Gaps = 2/149 (1%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIF LLLSE V+I+ S +    M         ++Y+ S         T  A P A 
+Sbjct  1    MYGKIIFALLLSEFVNIATSISP--HMEKKIPGLPAENYLPSVIIIEQILTTSPANPGAD  58
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             VSE S R    P+++ GER QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  59   GVSESSGRNHLRPDQKNGERQQLMHDFSEPVITLIIFGVMAAVIGKILFISYCIRRLRKK  118
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSD  149
+            S  DV+P  SPDTDVPLSSVEIEN E  D
+Sbjct  119  SSFDVQPHSSPDTDVPLSSVEIENSEKVD  147
+
+
+> UniRef90_A0A2R9CCZ3 Glycophorin A (MNS blood group) n=1 Tax=Pan 
+paniscus TaxID=9597 RepID=A0A2R9CCZ3_PANPA
+Length=105
+
+ Score = 134 bits (337),  Expect = 7e-45, Method: Compositional matrix adjust.
+ Identities = 85/137 (62%), Positives = 87/137 (64%), Gaps = 46/137 (34%)
+
+Query  14   IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+            IVSISASSTT VAMHTSTSS VTKSYISS+T+                            
+Sbjct  15   IVSISASSTTEVAMHTSTSS-VTKSYISSETS----------------------------  45
+
+Query  74   EEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDT  133
+                             EITLIIFGVMAGVIGTILLI Y I RLIKKSPSDVKPLPSPDT
+Sbjct  46   -----------------EITLIIFGVMAGVIGTILLIYYSICRLIKKSPSDVKPLPSPDT  88
+
+Query  134  DVPLSSVEIENPETSDQ  150
+            DVPLSSVEIENPETSDQ
+Sbjct  89   DVPLSSVEIENPETSDQ  105
+
+
+> UniRef90_A0A2J8XNZ2 GYPA isoform 8 n=1 Tax=Pongo abelii TaxID=9601 
+RepID=A0A2J8XNZ2_PONAB
+Length=85
+
+ Score = 128 bits (322),  Expect = 9e-43, Method: Compositional matrix adjust.
+ Identities = 63/74 (85%), Positives = 67/74 (91%), Gaps = 0/74 (0%)
+
+Query  77   TGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVP  136
+            +GER QL H FSEP ITLI+FGVMAGVIGTILLISY IRRL K+SPSDV+PLPSPDTDVP
+Sbjct  12   SGERGQLVHRFSEPVITLIVFGVMAGVIGTILLISYCIRRLRKQSPSDVQPLPSPDTDVP  71
+
+Query  137  LSSVEIENPETSDQ  150
+            LSSVEIENPET DQ
+Sbjct  72   LSSVEIENPETIDQ  85
+
+
+ Score = 24.3 bits (51),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 11/12 (92%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   MYGKIIFVLLLS  12
+           MY KIIFVLLLS
+Sbjct  1   MYEKIIFVLLLS  12
+
+
+> UniRef90_A0A2K6UCJ2 Uncharacterized protein n=1 Tax=Saimiri boliviensis 
+boliviensis TaxID=39432 RepID=A0A2K6UCJ2_SAIBB
+Length=117
+
+ Score = 129 bits (324),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 80/150 (53%), Positives = 84/150 (56%), Gaps = 33/150 (22%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS                                 D HK DT      A 
+Sbjct  1    MYGKIIFVLLLS---------------------------------DEHKLDTGPIPTSAD  27
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             VSE S R    PE++ GER QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  28   GVSESSGRNHLRPEQKNGERQQLVHDFSEPVITLIIFGVMAAVIGKILFISYCIRRLRKK  87
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+P  SPDT+VPLSSVE ENPE  DQ
+Sbjct  88   SSFDVQPPSSPDTEVPLSSVETENPEKVDQ  117
+
+
+> UniRef90_H2RAS0 Uncharacterized protein n=2 Tax=Pan troglodytes 
+TaxID=9598 RepID=H2RAS0_PANTR
+Length=121
+
+ Score = 129 bits (323),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 94/122 (77%), Positives = 95/122 (78%), Gaps = 4/122 (3%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQ ND HKRDTY A    +
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQINDKHKRDTYPAH-SVN  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEP---EITLIIFGVMAGVIGTILLISYGIRRL  117
+            EVSE SV TVYPPEEE GER Q  H FS P   E  LII   MAGVIG ILLI Y IRRL
+Sbjct  60   EVSENSVTTVYPPEEENGERGQTVHPFSGPALVEKILIILCPMAGVIGMILLIYYSIRRL  119
+
+Query  118  IK  119
+            IK
+Sbjct  120  IK  121
+
+
+> UniRef90_A0A2R8M9F0 Uncharacterized protein n=2 Tax=Callithrix 
+jacchus TaxID=9483 RepID=A0A2R8M9F0_CALJA
+Length=118
+
+ Score = 128 bits (322),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 78/150 (52%), Positives = 89/150 (59%), Gaps = 32/150 (21%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYG+IIFVLLLSE VS+++S+   + M T    S T++Y+SS T                
+Sbjct  1    MYGRIIFVLLLSEFVSMASSTNPHMEMKTPGFLSPTENYLSSST----------------  44
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                             G+R QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  45   ----------------AGQRQQLVHDFSEPVITLIIFGVMAVVIGKILFISYCIRRLRKK  88
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+   SPDTDVPLSSVEIENPE  DQ
+Sbjct  89   SSFDVQTPSSPDTDVPLSSVEIENPEKVDQ  118
+
+
+> UniRef90_A0A2R8PCG2 Uncharacterized protein n=2 Tax=Platyrrhini 
+TaxID=9479 RepID=A0A2R8PCG2_CALJA
+Length=117
+
+ Score = 128 bits (322),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 78/150 (52%), Positives = 84/150 (56%), Gaps = 33/150 (22%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYG+IIFVLLLS                                 D HK+  Y  T  A 
+Sbjct  1    MYGRIIFVLLLS---------------------------------DKHKQSMYPITAGAD  27
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             VSE S R    PE++  +R QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  28   RVSESSGRNHLRPEQKNRQRQQLVHDFSEPVITLIIFGVMAVVIGKILFISYCIRRLRKK  87
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+   SPDTDVPLSSVEIENPE  DQ
+Sbjct  88   SSFDVQTPSSPDTDVPLSSVEIENPEKVDQ  117
+
+
+> UniRef90_A0A2K6UCL0 Uncharacterized protein n=1 Tax=Saimiri boliviensis 
+boliviensis TaxID=39432 RepID=A0A2K6UCL0_SAIBB
+Length=116
+
+ Score = 122 bits (306),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 80/150 (53%), Positives = 88/150 (59%), Gaps = 34/150 (23%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSE VSI++S T     HT T +                       P   
+Sbjct  1    MYGKIIFVLLLSEFVSIASSITP----HTETKT--------------------PGLP---  33
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+              +E++V     P    GER QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  34   --TEVTV-----PSVTIGERQQLVHDFSEPVITLIIFGVMAAVIGKILFISYCIRRLRKK  86
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+P  SPDT+VPLSSVE ENPE  DQ
+Sbjct  87   SSFDVQPPSSPDTEVPLSSVETENPEKVDQ  116
+
+
+> UniRef90_K9JIK7 Glycophorin-A n=1 Tax=Homo sapiens TaxID=9606 
+RepID=K9JIK7_HUMAN
+Length=72
+
+ Score = 120 bits (302),  Expect = 6e-40, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  91   EITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            EITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVEIENPETSDQ
+Sbjct  13   EITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVEIENPETSDQ  72
+
+
+ Score = 33.1 bits (74),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 17/25 (68%), Positives = 17/25 (68%), Gaps = 0/25 (0%)
+
+Query  1   MYGKIIFVLLLSEIVSISASSTTGV  25
+           MYGKIIFVLLLSEI  I      GV
+Sbjct  1   MYGKIIFVLLLSEITLIIFGVMAGV  25
+
+
+> UniRef90_A0A2K5S112 Uncharacterized protein n=2 Tax=Cebus capucinus 
+imitator TaxID=1737458 RepID=A0A2K5S112_CEBCA
+Length=116
+
+ Score = 122 bits (305),  Expect = 8e-40, Method: Compositional matrix adjust.
+ Identities = 78/149 (52%), Positives = 83/149 (56%), Gaps = 33/149 (22%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIF LLLS            V    +TS                      A P A 
+Sbjct  1    MYGKIIFALLLS------------VEQILTTS---------------------PANPGAD  27
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             VSE S R    P+++ GER QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  28   GVSESSGRNHLRPDQKNGERQQLMHDFSEPVITLIIFGVMAAVIGKILFISYCIRRLRKK  87
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSD  149
+            S  DV+P  SPDTDVPLSSVEIEN E  D
+Sbjct  88   SSFDVQPHSSPDTDVPLSSVEIENSEKVD  116
+
+
+> UniRef90_A0A096NPL7 Uncharacterized protein n=9 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A096NPL7_PAPAN
+Length=85
+
+ Score = 120 bits (300),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 59/74 (80%), Positives = 63/74 (85%), Gaps = 0/74 (0%)
+
+Query  77   TGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVP  136
+            +GERVQL H FSE  I LIIFGVMAGVIGTIL ISY IRRL KKSPSDV+PLP PD +VP
+Sbjct  12   SGERVQLVHEFSELVIALIIFGVMAGVIGTILFISYCIRRLRKKSPSDVQPLPPPDAEVP  71
+
+Query  137  LSSVEIENPETSDQ  150
+            LSSVEIENPE +DQ
+Sbjct  72   LSSVEIENPEETDQ  85
+
+
+ Score = 27.7 bits (60),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1   MYGKIIFVLLLS  12
+           MYGKIIFVLLLS
+Sbjct  1   MYGKIIFVLLLS  12
+
+
+> UniRef90_A0A2I3HDE3 Uncharacterized protein n=1 Tax=Nomascus 
+leucogenys TaxID=61853 RepID=A0A2I3HDE3_NOMLE
+Length=85
+
+ Score = 119 bits (299),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 61/73 (84%), Positives = 63/73 (86%), Gaps = 0/73 (0%)
+
+Query  78   GERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPL  137
+            GE  Q  H FSEP ITLIIFGVMAGVIGTIL ISY IR L KKSPSDV+PLPSPDTDVPL
+Sbjct  13   GEWRQPVHRFSEPVITLIIFGVMAGVIGTILSISYCIRLLRKKSPSDVQPLPSPDTDVPL  72
+
+Query  138  SSVEIENPETSDQ  150
+            SSVEIENPET+DQ
+Sbjct  73   SSVEIENPETTDQ  85
+
+
+> UniRef90_A0A2J8MU72 GYPA isoform 5 (Fragment) n=3 Tax=Pan troglodytes 
+TaxID=9598 RepID=A0A2J8MU72_PANTR
+Length=126
+
+ Score = 120 bits (302),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 83/122 (68%), Positives = 89/122 (73%), Gaps = 9/122 (7%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISA STT VAMHTSTSSSVTKSYISS+TND +KRDTY A    +
+Sbjct  1    MYGKIIFVLLLSAIVSISALSTTEVAMHTSTSSSVTKSYISSETNDKNKRDTYPAH-SVN  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITL--------IIFGVMAGVIGTILLISY  112
+            EVSE SV TVYPPEEE GER QL H F +P I L        +IF + A V G ILLI Y
+Sbjct  60   EVSENSVTTVYPPEEENGERGQLVHRFPQPVIILIILWVIVRVIFEMTAVVTGVILLICY  119
+
+Query  113  GI  114
+             I
+Sbjct  120  CI  121
+
+
+> UniRef90_Q6WBD7 Glycophorin A-like protein (Fragment) n=1 Tax=Pan 
+troglodytes TaxID=9598 RepID=Q6WBD7_PANTR
+Length=76
+
+ Score = 115 bits (288),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 63/77 (82%), Positives = 66/77 (86%), Gaps = 1/77 (1%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISASSTT VAMHTSTSS VTKSYISS+T+D HK DTY ATPRAH+VSEI V TVYPP
+Sbjct  1   IVSISASSTTEVAMHTSTSS-VTKSYISSETSDKHKWDTYPATPRAHKVSEIYVTTVYPP  59
+
+Query  74  EEETGERVQLAHHFSEP  90
+           EEE GE VQL H FSEP
+Sbjct  60  EEENGEGVQLVHRFSEP  76
+
+
+> UniRef90_Q14447 Glycophorin (Fragment) n=4 Tax=Homo sapiens TaxID=9606 
+RepID=Q14447_HUMAN
+Length=76
+
+ Score = 114 bits (285),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 71/77 (92%), Positives = 72/77 (94%), Gaps = 1/77 (1%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTY A   A+EVSE SVRTVYPP
+Sbjct  1   IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYPAH-TANEVSENSVRTVYPP  59
+
+Query  74  EEETGERVQLAHHFSEP  90
+           EEETGERVQLAHHFSEP
+Sbjct  60  EEETGERVQLAHHFSEP  76
+
+
+> UniRef90_A0A2K5S120 Uncharacterized protein n=1 Tax=Cebus capucinus 
+imitator TaxID=1737458 RepID=A0A2K5S120_CEBCA
+Length=115
+
+ Score = 114 bits (284),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 72/149 (48%), Positives = 80/149 (54%), Gaps = 34/149 (23%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIF LLLSE V+I+ S +                         H        P  +
+Sbjct  1    MYGKIIFALLLSEFVNIATSISP------------------------HMEKKIPGLPAEN  36
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             +  + +R          ER QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  37   YLPSVIIR----------ERQQLMHDFSEPVITLIIFGVMAAVIGKILFISYCIRRLRKK  86
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSD  149
+            S  DV+P  SPDTDVPLSSVEIEN E  D
+Sbjct  87   SSFDVQPHSSPDTDVPLSSVEIENSEKVD  115
+
+
+> UniRef90_Q14424 Glycophorin MiX (Fragment) n=5 Tax=Homo sapiens 
+TaxID=9606 RepID=Q14424_HUMAN
+Length=77
+
+ Score = 112 bits (279),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 68/77 (88%), Positives = 69/77 (90%), Gaps = 0/77 (0%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISA STT VAMHTSTSSSVTKSYISSQTND HKRDTYAATPRAHEVSEISVRTVYPP
+Sbjct  1   IVSISALSTTEVAMHTSTSSSVTKSYISSQTNDKHKRDTYAATPRAHEVSEISVRTVYPP  60
+
+Query  74  EEETGERVQLAHHFSEP  90
+           EEETGE  QL H F+ P
+Sbjct  61  EEETGETGQLVHRFTVP  77
+
+
+> UniRef90_Q14423 Glycophorin MiI (Fragment) n=1 Tax=Homo sapiens 
+TaxID=9606 RepID=Q14423_HUMAN
+Length=58
+
+ Score = 108 bits (269),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 55/57 (96%), Positives = 55/57 (96%), Gaps = 0/57 (0%)
+
+Query  21  STTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPPEEET  77
+           STT VAMHTSTSSSVTKSYISSQTND HKRDTYAATPRAHEVSEISVRTVYPPEEET
+Sbjct  2   STTEVAMHTSTSSSVTKSYISSQTNDMHKRDTYAATPRAHEVSEISVRTVYPPEEET  58
+
+
+> UniRef90_Q6WBC4 Glycophorin A-like protein (Fragment) n=2 Tax=Gorilla 
+gorilla TaxID=9593 RepID=Q6WBC4_9PRIM
+Length=77
+
+ Score = 108 bits (269),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 66/76 (87%), Positives = 67/76 (88%), Gaps = 0/76 (0%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISASSTT VA+HTSTSSSVTKSYISSQTND HKRDTYAA PRAHEVSEISV  VYPP
+Sbjct  1   IVSISASSTTEVAVHTSTSSSVTKSYISSQTNDKHKRDTYAAPPRAHEVSEISVTAVYPP  60
+
+Query  74  EEETGERVQLAHHFSE  89
+           EE  GERVQL H FSE
+Sbjct  61  EEYNGERVQLVHRFSE  76
+
+
+> UniRef90_A0A2K6UCC7 Uncharacterized protein n=3 Tax=Cebidae TaxID=9498 
+RepID=A0A2K6UCC7_SAIBB
+Length=85
+
+ Score = 107 bits (267),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 55/74 (74%), Positives = 58/74 (78%), Gaps = 0/74 (0%)
+
+Query  77   TGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVP  136
+            +GER QL H FSEP ITLIIFGVMA VIG IL ISY IRRL KKS  DV+P  SPDT+VP
+Sbjct  12   SGERQQLVHDFSEPVITLIIFGVMAAVIGKILFISYCIRRLRKKSSFDVQPPSSPDTEVP  71
+
+Query  137  LSSVEIENPETSDQ  150
+            LSSVE ENPE  DQ
+Sbjct  72   LSSVETENPEKVDQ  85
+
+
+ Score = 28.1 bits (61),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1   MYGKIIFVLLLS  12
+           MYGKIIFVLLLS
+Sbjct  1   MYGKIIFVLLLS  12
+
+
+> UniRef90_Q6WBD3 Glycophorin A-like protein (Fragment) n=2 Tax=Pan 
+troglodytes TaxID=9598 RepID=Q6WBD3_PANTR
+Length=77
+
+ Score = 105 bits (262),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 65/77 (84%), Positives = 66/77 (86%), Gaps = 0/77 (0%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISASSTTGV MHTSTSSSVTKSYISSQTND HK DTY ATPRAHEVSEISV TVYPP
+Sbjct  1   IVSISASSTTGVEMHTSTSSSVTKSYISSQTNDKHKWDTYPATPRAHEVSEISVTTVYPP  60
+
+Query  74  EEETGERVQLAHHFSEP  90
+           EE+ GE VQ  H FS P
+Sbjct  61  EEDDGEWVQPVHPFSGP  77
+
+
+> UniRef90_Q6WBD5 Glycophorin A-like protein (Fragment) n=1 Tax=Pan 
+troglodytes TaxID=9598 RepID=Q6WBD5_PANTR
+Length=77
+
+ Score = 101 bits (252),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 64/77 (83%), Positives = 65/77 (84%), Gaps = 0/77 (0%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISASSTTGV MHTSTSSSVTKSYISSQTND HK DTY ATPRAHEVSEISV TVYP 
+Sbjct  1   IVSISASSTTGVEMHTSTSSSVTKSYISSQTNDKHKWDTYPATPRAHEVSEISVTTVYPT  60
+
+Query  74  EEETGERVQLAHHFSEP  90
+           EE+ GE VQ  H FS P
+Sbjct  61  EEDDGEWVQPVHPFSGP  77
+
+
+> UniRef90_A0A2R8MY61 Uncharacterized protein n=1 Tax=Callithrix 
+jacchus TaxID=9483 RepID=A0A2R8MY61_CALJA
+Length=105
+
+ Score = 102 bits (253),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 69/150 (46%), Positives = 79/150 (53%), Gaps = 45/150 (30%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYG+IIFVLLLSE VS+++S+   + M T    S T++Y+SS T                
+Sbjct  1    MYGRIIFVLLLSEFVSMASSTNPHMEMKTPGFLSPTENYLSSST----------------  44
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                                           ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  45   -----------------------------AVITLIIFGVMAVVIGKILFISYCIRRLRKK  75
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+   SPDTDVPLSSVEIENPE  DQ
+Sbjct  76   SSFDVQTPSSPDTDVPLSSVEIENPEKVDQ  105
+
+
+> UniRef90_A0A2J8MU76 GYPA isoform 6 (Fragment) n=1 Tax=Pan troglodytes 
+TaxID=9598 RepID=A0A2J8MU76_PANTR
+Length=113
+
+ Score = 101 bits (251),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 73/114 (64%), Positives = 80/114 (70%), Gaps = 6/114 (5%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISA STT VAMHTSTSSSVTKSYISS+TND +KRDTY A    +
+Sbjct  1    MYGKIIFVLLLSAIVSISALSTTEVAMHTSTSSSVTKSYISSETNDKNKRDTYPA-HSVN  59
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGI  114
+            EVSE SV TVYPPEEE    + +           +IF + A V G ILLI Y I
+Sbjct  60   EVSENSVTTVYPPEEENVIILIILWVIVR-----VIFEMTAVVTGVILLICYCI  108
+
+
+> UniRef90_P06028 Glycophorin-B n=19 Tax=Homo sapiens TaxID=9606 
+RepID=GLPB_HUMAN
+Length=91
+
+ Score = 96.7 bits (239),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 74/122 (61%), Positives = 76/122 (62%), Gaps = 35/122 (29%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISA STT VAMHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTNG--------------  46
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRL  117
+                           ETG   QL H F+ P    I LII  VMAG+IGTILLISY IRRL
+Sbjct  47   ---------------ETG---QLVHRFTVPAPVVIILIILCVMAGIIGTILLISYSIRRL  88
+
+Query  118  IK  119
+            IK
+Sbjct  89   IK  90
+
+
+> UniRef90_A0A2K6UCM8 Uncharacterized protein n=1 Tax=Saimiri boliviensis 
+boliviensis TaxID=39432 RepID=A0A2K6UCM8_SAIBB
+Length=103
+
+ Score = 97.1 bits (240),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 72/150 (48%), Positives = 77/150 (51%), Gaps = 47/150 (31%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSE VSI++S T     HT T                        TP   
+Sbjct  1    MYGKIIFVLLLSEFVSIASSITP----HTETK-----------------------TPGL-  32
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+                        P E T   V +        ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  33   ------------PTEVTVPSVTIV-------ITLIIFGVMAAVIGKILFISYCIRRLRKK  73
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSDQ  150
+            S  DV+P  SPDT+VPLSSVE ENPE  DQ
+Sbjct  74   SSFDVQPPSSPDTEVPLSSVETENPEKVDQ  103
+
+
+> UniRef90_Q6WBE7 Glycophorin E (Fragment) n=5 Tax=Homininae TaxID=207598 
+RepID=Q6WBE7_HUMAN
+Length=76
+
+ Score = 93.6 bits (231),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 62/76 (82%), Positives = 63/76 (83%), Gaps = 1/76 (1%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISASSTTGVAMHTSTSSSVTKSYISSQTND HKRDTY A    +EVSE SV TVYPP
+Sbjct  1   IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDKHKRDTYPAH-SVNEVSENSVTTVYPP  59
+
+Query  74  EEETGERVQLAHHFSE  89
+           EEE GER QL H F E
+Sbjct  60  EEENGERGQLVHRFPE  75
+
+
+> UniRef90_Q6WBC9 Glycophorin A (Fragment) n=1 Tax=Nomascus leucogenys 
+TaxID=61853 RepID=Q6WBC9_NOMLE
+Length=76
+
+ Score = 92.0 bits (227),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 54/77 (70%), Positives = 57/77 (74%), Gaps = 1/77 (1%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           I SISASSTTG+ MHTS SSSVTKSY SSQTND +K  TY A    +EVSEIS  TVYPP
+Sbjct  1   IASISASSTTGLVMHTSISSSVTKSYTSSQTNDKNKWYTYPAR-GVNEVSEISDTTVYPP  59
+
+Query  74  EEETGERVQLAHHFSEP  90
+           EEE GE  Q  H FSEP
+Sbjct  60  EEEDGEWRQPIHRFSEP  76
+
+
+> UniRef90_Q99066 Glycophorin MiVI (Fragment) n=4 Tax=Homo sapiens 
+TaxID=9606 RepID=Q99066_HUMAN
+Length=76
+
+ Score = 91.3 bits (225),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 62/77 (81%), Positives = 64/77 (83%), Gaps = 1/77 (1%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISA STT VAMHTSTSSSVTKSYISSQTND HKRDTY A   A+EVSEISV TVYPP
+Sbjct  1   IVSISALSTTEVAMHTSTSSSVTKSYISSQTNDKHKRDTYPAH-TANEVSEISVTTVYPP  59
+
+Query  74  EEETGERVQLAHHFSEP  90
+           EEETGE  QL H F+ P
+Sbjct  60  EEETGETGQLVHRFTVP  76
+
+
+> UniRef90_A0A2R9CN67 Glycophorin B (MNS blood group) n=4 Tax=Pan 
+TaxID=9596 RepID=A0A2R9CN67_PANPA
+Length=90
+
+ Score = 88.2 bits (217),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 71/122 (58%), Positives = 73/122 (60%), Gaps = 36/122 (30%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKI FVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKI-FVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTN---------------  44
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEIT---LIIFGVMAGVIGTILLISYGIRRL  117
+                             GE  QL H F+ P +    LII   MAGVIG ILLI Y IRRL
+Sbjct  45   -----------------GEGEQLVHRFTVPALVEKILIILCPMAGVIGMILLIYYSIRRL  87
+
+Query  118  IK  119
+            IK
+Sbjct  88   IK  89
+
+
+> UniRef90_A0A2K5S150 Uncharacterized protein n=1 Tax=Cebus capucinus 
+imitator TaxID=1737458 RepID=A0A2K5S150_CEBCA
+Length=102
+
+ Score = 87.8 bits (216),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 64/149 (43%), Positives = 71/149 (48%), Gaps = 47/149 (32%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIF LLLSE V+I+          TS S               H        P  +
+Sbjct  1    MYGKIIFALLLSEFVNIA----------TSISP--------------HMEKKIPGLPAEN  36
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKK  120
+             +  + +                        ITLIIFGVMA VIG IL ISY IRRL KK
+Sbjct  37   YLPSVIIM-----------------------ITLIIFGVMAAVIGKILFISYCIRRLRKK  73
+
+Query  121  SPSDVKPLPSPDTDVPLSSVEIENPETSD  149
+            S  DV+P  SPDTDVPLSSVEIEN E  D
+Sbjct  74   SSFDVQPHSSPDTDVPLSSVEIENSEKVD  102
+
+
+> UniRef90_O18802 Glycophorin B (Fragment) n=1 Tax=Gorilla gorilla 
+TaxID=9593 RepID=O18802_9PRIM
+Length=75
+
+ Score = 75.9 bits (185),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 50/70 (71%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  21  STTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPPEEETGER  80
+           STT VA+HTSTSSSVTKSYISSQTND HK+DT  A PRAHEV EI+V TVYP EE+ GE 
+Sbjct  2   STTEVAVHTSTSSSVTKSYISSQTNDKHKQDTEPAPPRAHEVLEITVTTVYPLEEDGGEV  61
+
+Query  81  VQLAHHFSEP  90
+            Q+ H F+ P
+Sbjct  62  GQVGHRFTVP  71
+
+
+> UniRef90_F6YPM7 Uncharacterized protein n=1 Tax=Equus caballus 
+TaxID=9796 RepID=F6YPM7_HORSE
+Length=106
+
+ Score = 76.6 bits (187),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 42/80 (53%), Positives = 53/80 (66%), Gaps = 12/80 (15%)
+
+Query  78   GERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKP----LPSPDT  133
+            GER+QLAH FS+P IT+II GVMAG+IG ILL++Y  RRL K+ P+DV P    +PS D 
+Sbjct  26   GERLQLAHDFSQPVITVIILGVMAGIIGIILLLAYVCRRLRKRPPADVPPPASQVPSADA  85
+
+Query  134  DVP--------LSSVEIENP  145
+              P        L+SVE + P
+Sbjct  86   PPPVSEDTSTNLTSVETDYP  105
+
+
+> UniRef90_A0A2J8IKT2 GYPE isoform 1 (Fragment) n=2 Tax=Homininae 
+TaxID=207598 RepID=A0A2J8IKT2_PANTR
+Length=71
+
+ Score = 74.7 bits (182),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 63/115 (55%), Positives = 64/115 (56%), Gaps = 45/115 (39%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLSEIVSISASSTTGV MHTSTSSSVTKSYISSQTN               
+Sbjct  1    MYGKIIFVLLLSEIVSISASSTTGVEMHTSTSSSVTKSYISSQTN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIR  115
+                                           I LII  V+AG IGTILLISYGIR
+Sbjct  46   ------------------------------VIILIILCVVAGGIGTILLISYGIR  70
+
+
+> UniRef90_O18803 Glycophorin B/E (Fragment) n=1 Tax=Gorilla gorilla 
+TaxID=9593 RepID=O18803_9PRIM
+Length=87
+
+ Score = 74.3 bits (181),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 63/118 (53%), Positives = 67/118 (57%), Gaps = 35/118 (30%)
+
+Query  5    IIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSE  64
+            IIFVLLLSEIVSISA STT VA+HTSTSSSVTKSYISSQTN                   
+Sbjct  1    IIFVLLLSEIVSISALSTTEVAVHTSTSSSVTKSYISSQTN-------------------  41
+
+Query  65   ISVRTVYPPEEETGERVQLAHHFSEPEIT---LIIFGVMAGVIGTILLISYGIRRLIK  119
+                         GE  QL H F  P +    LI+   MAGVIG +LLI Y IRRLIK
+Sbjct  42   -------------GETGQLVHRFPVPALVEKILIVLCPMAGVIGMMLLIDYSIRRLIK  86
+
+
+> UniRef90_A0A2J8MU70 GYPA isoform 2 (Fragment) n=1 Tax=Pan troglodytes 
+TaxID=9598 RepID=A0A2J8MU70_PANTR
+Length=93
+
+ Score = 73.2 bits (178),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 54/122 (44%), Positives = 59/122 (48%), Gaps = 42/122 (34%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS                                 D +KRDTY A    +
+Sbjct  1    MYGKIIFVLLLS---------------------------------DKNKRDTYPAH-SVN  26
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITL--------IIFGVMAGVIGTILLISY  112
+            EVSE SV TVYPPEEE GER QL H F +P I L        +IF + A V G ILLI Y
+Sbjct  27   EVSENSVTTVYPPEEENGERGQLVHRFPQPVIILIILWVIVRVIFEMTAVVTGVILLICY  86
+
+Query  113  GI  114
+             I
+Sbjct  87   CI  88
+
+
+> UniRef90_P02726 Glycophorin-A n=1 Tax=Equus caballus TaxID=9796 
+RepID=GLPA_HORSE
+Length=120
+
+ Score = 73.9 bits (180),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 41/77 (53%), Positives = 53/77 (69%), Gaps = 8/77 (10%)
+
+Query  76   ETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKP----LPSP  131
+            E G+ +QLAH FS+P IT+II GVMAG+IG ILL++Y  RRL K+ P+DV P    +PS 
+Sbjct  35   EQGDGLQLAHDFSQPVITVIILGVMAGIIGIILLLAYVSRRLRKRPPADVPPPASTVPSA  94
+
+Query  132  DTDVPLSSVEIENPETS  148
+            D   P+S    E+ ETS
+Sbjct  95   DAPPPVS----EDDETS  107
+
+
+> UniRef90_P15421 Glycophorin-E n=1 Tax=Homo sapiens TaxID=9606 
+RepID=GLPE_HUMAN
+Length=78
+
+ Score = 70.9 bits (172),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 58/115 (50%), Positives = 63/115 (55%), Gaps = 37/115 (32%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTN     + +A      
+Sbjct  1    MYGKIIFVLLLSGIVSISASSTTGVAMHTSTSSSVTKSYISSQTNGITLINWWAMAR---  57
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIR  115
+                                              +IF VM  V+G I+LISY IR
+Sbjct  58   ----------------------------------VIFEVMLVVVGMIILISYCIR  78
+
+
+> UniRef90_A0A337SD48 Uncharacterized protein n=1 Tax=Felis catus 
+TaxID=9685 RepID=A0A337SD48_FELCA
+Length=85
+
+ Score = 67.8 bits (164),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 37/67 (55%), Positives = 46/67 (69%), Gaps = 1/67 (1%)
+
+Query  83   LAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVEI  142
+            L H FS  EIT I++ VMAG+IGTIL I++ I+RL KK+PS V+     D D P SSVE 
+Sbjct  19   LEHIFSAGEITGIVYAVMAGIIGTILSIAFCIKRLTKKTPSPVQTAQPEDAD-PESSVET  77
+
+Query  143  ENPETSD  149
+             NPE S+
+Sbjct  78   RNPENSN  84
+
+
+> UniRef90_A0A2J8MU86 GYPA isoform 10 (Fragment) n=3 Tax=Pan troglodytes 
+TaxID=9598 RepID=A0A2J8MU86_PANTR
+Length=95
+
+ Score = 67.4 bits (163),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 62/122 (51%), Positives = 66/122 (54%), Gaps = 40/122 (33%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISA STT VAMHTSTSSSVTKSYISS+TN               
+Sbjct  1    MYGKIIFVLLLSAIVSISALSTTEVAMHTSTSSSVTKSYISSETN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITL--------IIFGVMAGVIGTILLISY  112
+                             GER QL H F +P I L        +IF + A V G ILLI Y
+Sbjct  46   -----------------GERGQLVHRFPQPVIILIILWVIVRVIFEMTAVVTGVILLICY  88
+
+Query  113  GI  114
+             I
+Sbjct  89   CI  90
+
+
+> UniRef90_Q6WBC8 Glycophorin E-like protein (Fragment) n=2 Tax=Gorilla 
+gorilla TaxID=9593 RepID=Q6WBC8_9PRIM
+Length=75
+
+ Score = 66.6 bits (161),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 50/68 (74%), Positives = 55/68 (81%), Gaps = 1/68 (1%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPP  73
+           IVSISA STT VA+HTSTSSSVTKSYISS+T+D HKRDTY A    +EVSE SV TVYP 
+Sbjct  1   IVSISALSTTEVAVHTSTSSSVTKSYISSETSDKHKRDTYPAH-SVNEVSENSVTTVYPT  59
+
+Query  74  EEETGERV  81
+           EE+ GE V
+Sbjct  60  EEDNGEWV  67
+
+
+> UniRef90_E9PCN6 Glycophorin-E n=2 Tax=Homininae TaxID=207598 
+RepID=E9PCN6_HUMAN
+Length=59
+
+ Score = 65.9 bits (159),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 44/47 (94%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  1   MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDT  47
+           MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQTN  
+Sbjct  1   MYGKIIFVLLLSGIVSISASSTTGVAMHTSTSSSVTKSYISSQTNGC  47
+
+
+> UniRef90_Q58HE5 Glycophorin A Ria variant (Fragment) n=1 Tax=Homo 
+sapiens TaxID=9606 RepID=Q58HE5_HUMAN
+Length=31
+
+ Score = 63.9 bits (154),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 30/31 (97%), Positives = 31/31 (100%), Gaps = 0/31 (0%)
+
+Query  47  THKRDTYAATPRAHEVSEISVRTVYPPEEET  77
+           THKRDTYAATPRAHEVSEISVRTVYPPEE+T
+Sbjct  1   THKRDTYAATPRAHEVSEISVRTVYPPEEKT  31
+
+
+> UniRef90_Q12832 Glycophorin HeP2 (Fragment) n=5 Tax=Homo sapiens 
+TaxID=9606 RepID=Q12832_HUMAN
+Length=100
+
+ Score = 65.9 bits (159),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 43/46 (93%), Positives = 44/46 (96%), Gaps = 0/46 (0%)
+
+Query  1   MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTND  46
+           MYGKIIFVLLLSEIVSISA ST+GVAMHTSTSSSVTKSYISSQTN 
+Sbjct  1   MYGKIIFVLLLSEIVSISAWSTSGVAMHTSTSSSVTKSYISSQTNG  46
+
+
+> UniRef90_A0A2Y9R186 glycophorin-A isoform X2 n=1 Tax=Trichechus 
+manatus latirostris TaxID=127582 RepID=A0A2Y9R186_TRIMA
+Length=102
+
+ Score = 64.7 bits (156),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 33/66 (50%), Positives = 41/66 (62%), Gaps = 2/66 (3%)
+
+Query  71   YPPEEET--GERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPL  128
+            YP    T  G R Q+ H FSEP I  IIFGVM G++GT+L I+Y +R LIK++    KP 
+Sbjct  35   YPDRNLTSPGRREQMTHIFSEPGIIGIIFGVMVGIVGTVLSIAYCVRFLIKRTSVKAKPQ  94
+
+Query  129  PSPDTD  134
+             S D D
+Sbjct  95   SSIDAD  100
+
+
+> UniRef90_A0A2Y9RBR0 glycophorin-A isoform X1 n=1 Tax=Trichechus 
+manatus latirostris TaxID=127582 RepID=A0A2Y9RBR0_TRIMA
+Length=133
+
+ Score = 64.3 bits (155),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 38/57 (67%), Gaps = 0/57 (0%)
+
+Query  78   GERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTD  134
+            G R Q+ H FSEP I  IIFGVM G++GT+L I+Y +R LIK++    KP  S D D
+Sbjct  75   GRREQMTHIFSEPGIIGIIFGVMVGIVGTVLSIAYCVRFLIKRTSVKAKPQSSIDAD  131
+
+
+> UniRef90_E7ERJ5 Glycophorin-B n=3 Tax=Homo sapiens TaxID=9606 
+RepID=E7ERJ5_HUMAN
+Length=62
+
+ Score = 61.6 bits (148),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 43/45 (96%), Positives = 43/45 (96%), Gaps = 0/45 (0%)
+
+Query  1   MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTN  45
+           MYGKIIFVLLLSEIVSISA STT VAMHTSTSSSVTKSYISSQTN
+Sbjct  1   MYGKIIFVLLLSEIVSISALSTTEVAMHTSTSSSVTKSYISSQTN  45
+
+
+> UniRef90_P14220 Glycophorin-A n=4 Tax=Mus musculus TaxID=10090 
+RepID=GLPA_MOUSE
+Length=168
+
+ Score = 62.4 bits (150),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 35/68 (51%), Positives = 44/68 (65%), Gaps = 1/68 (1%)
+
+Query  83   LAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVE-  141
+            + H F    + LII GVMAG+IGTILLISY I R+ KKS  D++     D  VPLSS+E 
+Sbjct  100  IQHDFPALVMILIILGVMAGIIGTILLISYCISRMTKKSSVDIQSPEGGDNSVPLSSIEQ  159
+
+Query  142  IENPETSD  149
+              N E+S+
+Sbjct  160  TPNEESSN  167
+
+
+> UniRef90_A0A2K6FV23 Uncharacterized protein n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=A0A2K6FV23_PROCO
+Length=84
+
+ Score = 60.1 bits (144),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 42/70 (60%), Positives = 48/70 (69%), Gaps = 0/70 (0%)
+
+Query  80   RVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSS  139
+            R Q+ H FSEP I  II  V+A   GTILLISY I RL K + S V+PL + DT VPLSS
+Sbjct  15   RKQIDHPFSEPVIIAIILAVIAVTDGTILLISYCIGRLRKSNLSVVEPLSTHDTGVPLSS  74
+
+Query  140  VEIENPETSD  149
+            VE E+PE SD
+Sbjct  75   VETEHPERSD  84
+
+
+ Score = 20.8 bits (42),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 9/13 (69%), Positives = 10/13 (77%), Gaps = 0/13 (0%)
+
+Query  1   MYGKIIFVLLLSE  13
+           M+ KII  LLLSE
+Sbjct  1   MHQKIIIALLLSE  13
+
+
+> UniRef90_Q28915 Glycophorin-E n=2 Tax=Pan TaxID=9596 RepID=GLPE_PANTR
+Length=78
+
+ Score = 58.9 bits (141),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 64/119 (54%), Positives = 65/119 (55%), Gaps = 42/119 (35%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAH  60
+            MYGKIIFVLLLS IVSISASSTTGVAMHTSTSSSVTKSYISSQ N               
+Sbjct  1    MYGKIIFVLLLSAIVSISASSTTGVAMHTSTSSSVTKSYISSQIN---------------  45
+
+Query  61   EVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIK  119
+                                       +  E  LII   MAGVIG ILLI Y IRRLIK
+Sbjct  46   ---------------------------ALVEKILIILCPMAGVIGMILLIYYSIRRLIK  77
+
+
+> UniRef90_H2RDX2 Uncharacterized protein n=2 Tax=Pan troglodytes 
+TaxID=9598 RepID=H2RDX2_PANTR
+Length=79
+
+ Score = 58.5 bits (140),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 41/45 (91%), Positives = 42/45 (93%), Gaps = 0/45 (0%)
+
+Query  1   MYGKIIFVLLLSEIVSISASSTTGVAMHTSTSSSVTKSYISSQTN  45
+           MYGKIIFVLLLS IVSISA STT VAMHTSTSSSVTKSYISS+TN
+Sbjct  1   MYGKIIFVLLLSAIVSISALSTTEVAMHTSTSSSVTKSYISSETN  45
+
+
+> UniRef90_B8Q177 Glycophorin B Miltenberger subtype III n=1 Tax=Homo 
+sapiens TaxID=9606 RepID=B8Q177_HUMAN
+Length=65
+
+ Score = 57.4 bits (137),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 31/52 (60%), Positives = 34/52 (65%), Gaps = 3/52 (6%)
+
+Query  71   YPPEEETGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRLIK  119
+            Y   +  GE  QL H F+ P    I LII  VMAG+IGTILLISY IRRLIK
+Sbjct  13   YISSQTNGETGQLVHRFTVPAPVVIILIILCVMAGIIGTILLISYSIRRLIK  64
+
+
+> UniRef90_G1TZ28 Uncharacterized protein n=1 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1TZ28_RABIT
+Length=59
+
+ Score = 56.2 bits (134),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 40/59 (68%), Gaps = 0/59 (0%)
+
+Query  87   FSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDTDVPLSSVEIENP  145
+            FS   I  IIFGV+AG++G ILLISY I RL KK+  DV+   S   ++PL+SVE E P
+Sbjct  1    FSVIVIIPIIFGVIAGIVGVILLISYCISRLTKKNSFDVQLSFSQGANMPLNSVEAEIP  59
+
+
+> UniRef90_P02725 Glycophorin-A n=4 Tax=Sus scrofa TaxID=9823 RepID=GLPA_PIG
+Length=133
+
+ Score = 58.2 bits (139),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 39/87 (45%), Positives = 46/87 (53%), Gaps = 15/87 (17%)
+
+Query  74   EEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRRLIKKSPSDVKPLPSPDT  133
+            ++ETG        FS  EIT IIF VMAG++  I LI+Y IRR+IKK     KP  SPD 
+Sbjct  45   QKETGVPESYHQDFSHAEITGIIFAVMAGLLLIIFLIAYLIRRMIKKPLPVPKPQDSPDI  104
+
+Query  134  ---------------DVPLSSVEIENP  145
+                           D PL+SVEIE P
+Sbjct  105  GTENTADPSELQDTEDPPLTSVEIETP  131
+
+
+> UniRef90_B8Q179 Glycophorin B Miltenberger subtype III n=2 Tax=Homo 
+sapiens TaxID=9606 RepID=B8Q179_HUMAN
+Length=59
+
+ Score = 54.7 bits (130),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 30/46 (65%), Positives = 33/46 (72%), Gaps = 3/46 (7%)
+
+Query  77   TGERVQLAHHFSEPE---ITLIIFGVMAGVIGTILLISYGIRRLIK  119
+            +GE  QL H F+ P    I LII  VMAG+IGTILLISY IRRLIK
+Sbjct  13   SGETGQLVHRFTVPAPVVIILIILCVMAGIIGTILLISYSIRRLIK  58
+
+
+ Score = 27.3 bits (59),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1   MYGKIIFVLLLS  12
+           MYGKIIFVLLLS
+Sbjct  2   MYGKIIFVLLLS  13
+
+
+> UniRef90_V5NV32 Hybrid glycophorin Kip (Fragment) n=1 Tax=Homo 
+sapiens TaxID=9606 RepID=V5NV32_HUMAN
+Length=43
+
+ Score = 53.1 bits (126),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 32/43 (74%), Gaps = 1/43 (2%)
+
+Query  48  HKRDTYAATPRAHEVSEISVRTVYPPEEETGERVQLAHHFSEP  90
+           HKRDTY A   A+EVSEISV TV PPEEETGE  QL H F+ P
+Sbjct  2   HKRDTYPAH-TANEVSEISVTTVSPPEEETGETGQLVHRFTVP  43
+
+
+> UniRef90_A0A223IA57 Glycophorin A (Fragment) n=1 Tax=Homo sapiens 
+TaxID=9606 RepID=A0A223IA57_HUMAN
+Length=26
+
+ Score = 51.2 bits (121),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 25/26 (96%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  120  KSPSDVKPLPSPDTDVPLSSVEIENP  145
+            KSPSDVKPLPSPDTDVPLSSVEI+NP
+Sbjct  1    KSPSDVKPLPSPDTDVPLSSVEIKNP  26
+
+
+> UniRef90_A0A2U4AMY1 glycophorin-A isoform X1 n=7 Tax=Odontoceti 
+TaxID=9722 RepID=A0A2U4AMY1_TURTR
+Length=128
+
+ Score = 52.8 bits (125),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 54/146 (37%), Positives = 72/146 (49%), Gaps = 26/146 (18%)
+
+Query  1    MYGKIIFVLLLSEIVSISASSTT----GVAMHTSTSSSVTKSYISSQTNDTHKRDTYAAT  56
+            MYGK+IFVLLLS  +   A + T    GV   TS S S   S   S T    K+   +  
+Sbjct  1    MYGKMIFVLLLSGYIFTKAVAVTTPEIGVTTTTSASLSTNGSI--STTPSGPKKTPPSTP  58
+
+Query  57   PRAHEVSEISVRTVYPPEEETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIRR  116
+                E  E + R  YP            H+FS+P IT+II+ VMA +IG IL+ +  I  
+Sbjct  59   VPTTEKEE-AARQRYP------------HNFSQPVITVIIYSVMAVIIGIILISAQLIGL  105
+
+Query  117  LIKKSPSDVKPLPSPDTDVPLSSVEI  142
+            LIK++P+         T  PL+SV+I
+Sbjct  106  LIKRNPTL-------GTSDPLTSVKI  124
+
+
+> UniRef90_H2QQ82 Uncharacterized protein n=1 Tax=Pan troglodytes 
+TaxID=9598 RepID=H2QQ82_PANTR
+Length=77
+
+ Score = 44.7 bits (104),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 44/100 (44%), Positives = 49/100 (49%), Gaps = 37/100 (37%)
+
+Query  16   SISASSTTGVAMHTSTSSSVTKSYISSQTNDTHKRDTYAATPRAHEVSEISVRTVYPPEE  75
+            SISASSTTGVAMHTSTSSSVTKSYISSQTN     + +A                     
+Sbjct  15   SISASSTTGVAMHTSTSSSVTKSYISSQTNGITLINWWAMAR------------------  56
+
+Query  76   ETGERVQLAHHFSEPEITLIIFGVMAGVIGTILLISYGIR  115
+                               +IF VM  V+G I+LISY IR
+Sbjct  57   -------------------VIFEVMLVVVGMIILISYCIR  77
+
+
+> UniRef90_Q9NRB2 Glycophorin E (Fragment) n=2 Tax=Homininae TaxID=207598 
+RepID=Q9NRB2_HUMAN
+Length=32
+
+ Score = 40.8 bits (94),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTN  45
+           IVSISASSTTGVAMHTSTSSSVTKSYISSQTN
+Sbjct  1   IVSISASSTTGVAMHTSTSSSVTKSYISSQTN  32
+
+
+> UniRef90_A0A346RDZ9 Glycophorin A (Fragment) n=9 Tax=Homo sapiens 
+TaxID=9606 RepID=A0A346RDZ9_HUMAN
+Length=32
+
+ Score = 37.7 bits (86),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTN  45
+           IVSISA ST+GVAMHTSTSSSVTKSYISSQTN
+Sbjct  1   IVSISAXSTSGVAMHTSTSSSVTKSYISSQTN  32
+
+
+> UniRef90_A0A346RE92 Glycophorin B (Fragment) n=3 Tax=Homo sapiens 
+TaxID=9606 RepID=A0A346RE92_HUMAN
+Length=34
+
+ Score = 34.7 bits (78),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 30/32 (94%), Positives = 30/32 (94%), Gaps = 0/32 (0%)
+
+Query  14  IVSISASSTTGVAMHTSTSSSVTKSYISSQTN  45
+           IVSISA STT VAMHTSTSSSVTKSYISSQTN
+Sbjct  2   IVSISALSTTEVAMHTSTSSSVTKSYISSQTN  33
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.128    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 616896
+
+
+  Database: isar.db.84
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 9,744
+  Number of sequences in database:  96
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

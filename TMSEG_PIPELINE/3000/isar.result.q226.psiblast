@@ -1,0 +1,560 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.226
+           30 sequences; 2,600 total letters
+
+Results from round 1
+
+
+Query= Q85G51|5zghK|Q85G51_CYAM1 0.9833333333333333
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q85G51 Photosystem I reaction center subunit X n=1 Tax...  115     3e-40
+  UniRef90_K9W617 Photosystem I reaction center subunit PsaK n=1 ...  50.4    6e-14
+  UniRef90_A0A351KYJ2 Photosystem I reaction center subunit PsaK ...  50.4    7e-14
+  UniRef90_K9XPV8 Photosystem I reaction center subunit PsaK n=2 ...  49.7    1e-13
+  UniRef90_A0A2T1EPG9 Photosystem I reaction center subunit PsaK ...  49.7    1e-13
+  UniRef90_A0A3M1P889 Photosystem I reaction center subunit PsaK ...  49.3    2e-13
+  UniRef90_A0A060ADU0 Photosystem I reaction center subunit X n=1...  47.8    4e-13
+  UniRef90_A0A1U7IED6 Photosystem I reaction center subunit PsaK ...  47.8    6e-13
+  UniRef90_A0A1G4NRL5 Photosystem I reaction center subunit PsaK ...  47.4    1e-12
+  UniRef90_A0A1Z1MRS9 Photosystem I reaction center subunit PsaK ...  47.0    1e-12
+  UniRef90_A0A0D6AHZ7 Photosystem I reaction center subunit PsaK ...  47.0    1e-12
+  UniRef90_A0A0S3TZ80 Photosystem I reaction center subunit PsaK ...  46.6    2e-12
+  UniRef90_A0A1J1LRR4 Photosystem I reaction center subunit PsaK ...  46.2    3e-12
+  UniRef90_K8GGI2 Photosystem I reaction center subunit PsaK n=1 ...  46.2    3e-12
+  UniRef90_A0A0X8WRR1 Photosystem I reaction center subunit PsaK ...  46.6    4e-12
+  UniRef90_A0A1G4NXX1 Photosystem I reaction center subunit PsaK ...  45.8    4e-12
+  UniRef90_K9UNK5 Photosystem I psaG / psaK n=2 Tax=Chamaesiphon ...  45.8    5e-12
+  UniRef90_K9Z2G8 Photosystem I reaction center subunit PsaK n=2 ...  45.8    5e-12
+  UniRef90_A0A2T1CWB6 Photosystem I reaction center subunit PsaK ...  45.1    9e-12
+  UniRef90_A0A2Z6CE09 Photosystem I reaction center subunit PsaK ...  44.7    1e-11
+  UniRef90_A0A2T1CE03 Photosystem I reaction center subunit PsaK ...  44.7    1e-11
+  UniRef90_A0A1Z4QF95 Photosystem I reaction center subunit PsaK ...  43.9    2e-11
+  UniRef90_A0A1U7IEI9 Photosystem I reaction center subunit PsaK ...  43.9    2e-11
+  UniRef90_A0A1G4NTT9 Photosystem I reaction center subunit PsaK ...  43.9    2e-11
+  UniRef90_A0A1G4NWR0 Photosystem I reaction center subunit PsaK ...  43.9    2e-11
+  UniRef90_A0A3G3MI80 Photosystem I subunit X n=2 Tax=Rhodogorgon...  43.5    3e-11
+  UniRef90_A0A1G4NR06 Photosystem I reaction center subunit PsaK ...  42.7    6e-11
+  UniRef90_A0A2T2RVU9 Photosystem I reaction center subunit PsaK ...  42.0    1e-10
+  UniRef90_A0A1G4NVR1 Photosystem I reaction center subunit PsaK ...  36.2    2e-08
+  UniRef90_A0A3G3MH05 Photosystem I subunit X n=1 Tax=Neogoniolit...  34.7    9e-08
+
+
+> UniRef90_Q85G51 Photosystem I reaction center subunit X n=1 Tax=Cyanidioschyzon 
+merolae (strain 10D) TaxID=280699 RepID=Q85G51_CYAM1
+Length=60
+
+ Score = 115 bits (289),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   MMITIPYTIPTIMVISNLVGVAVGRYALGRSDLTQLIASMCFGHIIGVGIVLGLSNMGVI  60
+           MMITIPYTIPTIMVISNLVGVAVGRYALGRSDLTQLIASMCFGHIIGVGIVLGLSNMGVI
+Sbjct  1   MMITIPYTIPTIMVISNLVGVAVGRYALGRSDLTQLIASMCFGHIIGVGIVLGLSNMGVI  60
+
+
+> UniRef90_K9W617 Photosystem I reaction center subunit PsaK n=1 
+Tax=Crinalium epipsammum PCC 9333 TaxID=1173022 RepID=K9W617_9CYAN
+Length=92
+
+ Score = 50.4 bits (119),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 43/75 (57%), Gaps = 20/75 (27%)
+
+Query  6   PYTIPTI---MVISNLVGVAVGRYALGRS-----------------DLTQLIASMCFGHI  45
+           P   PTI   MV+ NL+ + +GR+A+ +                  +L +L+A+M FGHI
+Sbjct  18  PSWTPTIGIVMVLCNLLAIVIGRFAIQKPGGGPDLPVSKPALFRNFNLPELLATMSFGHI  77
+
+Query  46  IGVGIVLGLSNMGVI  60
+           IG G++LGL+N GV+
+Sbjct  78  IGTGVILGLTNAGVL  92
+
+
+> UniRef90_A0A351KYJ2 Photosystem I reaction center subunit PsaK 
+n=2 Tax=unclassified Cyanobacteria (miscellaneous) TaxID=1983111 
+RepID=A0A351KYJ2_9CYAN
+Length=92
+
+ Score = 50.4 bits (119),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 29/77 (38%), Positives = 43/77 (56%), Gaps = 20/77 (26%)
+
+Query  4   TIPYTIPTI---MVISNLVGVAVGRYALGRS----DLT-------------QLIASMCFG  43
+           T P   PT+   M++ NL+ +A+GRYA+       DL              +L+A+M FG
+Sbjct  16  TTPEWTPTVGLVMILCNLLAIAIGRYAIQNPGVGPDLPADKPALFRKFGIPELLATMSFG  75
+
+Query  44  HIIGVGIVLGLSNMGVI  60
+           HI+G G++LGLSN G +
+Sbjct  76  HILGAGVILGLSNAGAL  92
+
+
+> UniRef90_K9XPV8 Photosystem I reaction center subunit PsaK n=2 
+Tax=Stanieria TaxID=102115 RepID=K9XPV8_STAC7
+Length=90
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 39/66 (59%), Gaps = 17/66 (26%)
+
+Query  12  IMVISNLVGVAVGRYALGRS----DLT-------------QLIASMCFGHIIGVGIVLGL  54
+           IM++SNL  +A+GRYA+  S    DL              +L+A+  FGHI+G GI+LGL
+Sbjct  25  IMILSNLFAIAIGRYAIQNSGKGPDLPVPKPELWEKFGFPELLATTSFGHILGAGIILGL  84
+
+Query  55  SNMGVI  60
+            N GV+
+Sbjct  85  GNAGVL  90
+
+
+> UniRef90_A0A2T1EPG9 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Leptolyngbya frigida ULC18 TaxID=2107698 RepID=A0A2T1EPG9_9CYAN
+Length=86
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 27/76 (36%), Positives = 45/76 (59%), Gaps = 19/76 (25%)
+
+Query  4   TIPYT--IPTIMVISNLVGVAVGRYALGRSDL-----------------TQLIASMCFGH  44
+           TI ++  I  +M+ +NLV +A+GRYA+ R  +                 ++L+A+  FGH
+Sbjct  11  TIEWSPNIAIVMIAANLVAIAIGRYAIQRRGVGPALPVQVPGLFEGFGVSELLATTSFGH  70
+
+Query  45  IIGVGIVLGLSNMGVI  60
+           I+G G++LGLSN G++
+Sbjct  71  ILGAGVILGLSNAGIL  86
+
+
+> UniRef90_A0A3M1P889 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Cyanobacteria bacterium J069 TaxID=2420337 RepID=A0A3M1P889_9CYAN
+Length=82
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/76 (36%), Positives = 43/76 (57%), Gaps = 19/76 (25%)
+
+Query  4   TIPYTIPT--IMVISNLVGVAVGRYALGRSD-----------------LTQLIASMCFGH  44
+           T P++I T  +M+ +NL  +A+G YA+ +                   L +L+A+M FGH
+Sbjct  7   TTPWSINTAIVMIAANLFAIAIGYYAIQKRGAGPALPVELPAMFTGFGLPELLATMSFGH  66
+
+Query  45  IIGVGIVLGLSNMGVI  60
+           ++G G VLGLSN G++
+Sbjct  67  LLGAGFVLGLSNAGLL  82
+
+
+> UniRef90_A0A060ADU0 Photosystem I reaction center subunit X n=1 
+Tax=Cyanidiaceae sp. MX-AZ01 TaxID=1503164 RepID=A0A060ADU0_9RHOD
+Length=61
+
+ Score = 47.8 bits (112),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 37/61 (61%), Gaps = 2/61 (3%)
+
+Query  2   MITIPYTIPTIMVISNLVGVAVGRYALGRSDLTQLIASMCF--GHIIGVGIVLGLSNMGV  59
+           MI    +IP IMV  NL+G+A+ RYA   + L           GH+IGVG VLGLSNMGV
+Sbjct  1   MIQYSSSIPVIMVACNLLGIAIARYANPSAGLNLAQLLAAASLGHVIGVGTVLGLSNMGV  60
+
+Query  60  I  60
+           I
+Sbjct  61  I  61
+
+
+> UniRef90_A0A1U7IED6 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Phormidium ambiguum IAM M-71 TaxID=454136 RepID=A0A1U7IED6_9CYAN
+Length=91
+
+ Score = 47.8 bits (112),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 41/66 (62%), Gaps = 17/66 (26%)
+
+Query  12  IMVISNLVGVAVGRYAL---GRSD--------------LTQLIASMCFGHIIGVGIVLGL  54
+           +M++ NL+ +A+GR+A+   G+S               L +L+A+M FGHI+G G++LGL
+Sbjct  26  VMILCNLIAIAIGRFAIKNPGQSPDLPVSKPALFRNFTLAELLATMSFGHILGAGVILGL  85
+
+Query  55  SNMGVI  60
+            N GV+
+Sbjct  86  GNAGVL  91
+
+
+> UniRef90_A0A1G4NRL5 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Dermonema virens TaxID=1077399 RepID=A0A1G4NRL5_9FLOR
+Length=86
+
+ Score = 47.4 bits (111),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 30/71 (42%), Positives = 40/71 (56%), Gaps = 14/71 (20%)
+
+Query  4   TIPYTIPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVG  49
+           T    I  IM+ SN+  +++GRYA     LG S          LT+L+A+   GHIIG G
+Sbjct  15  TWSTQIAFIMITSNIFAISIGRYAIQVRNLGPSMPIAGLEGFGLTELLATTSLGHIIGAG  74
+
+Query  50  IVLGLSNMGVI  60
+           I+LGL N GV+
+Sbjct  75  IILGLRNTGVL  85
+
+
+> UniRef90_A0A1Z1MRS9 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Taenioma perpusillum TaxID=210852 RepID=A0A1Z1MRS9_9FLOR
+Length=86
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 39/66 (59%), Gaps = 14/66 (21%)
+
+Query  9   IPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVGIVLGL  54
+           I TIM+I NL+ +A+GRYA     LG S          L +LIA+   GHIIG G++LGL
+Sbjct  21  IATIMIICNLISIAIGRYAIKTRSLGPSIPILGIEGLRLPELIATTSLGHIIGAGVILGL  80
+
+Query  55  SNMGVI  60
+            + G I
+Sbjct  81  KSTGNI  86
+
+
+> UniRef90_A0A0D6AHZ7 Photosystem I reaction center subunit PsaK 
+n=2 Tax=Geminocystis TaxID=669357 RepID=A0A0D6AHZ7_9CHRO
+Length=91
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 41/71 (58%), Gaps = 17/71 (24%)
+
+Query  7   YTIPTIMVISNLVGVAVGRYALGRSD-----------------LTQLIASMCFGHIIGVG  49
+           + I  +M+ +NL+ V +GR+A+ ++                  L +L+A++ FGHI+G G
+Sbjct  21  FNIALVMISANLLAVFIGRFAIQKAGIGPDLPVDKPALWKKFGLPELLATLSFGHILGAG  80
+
+Query  50  IVLGLSNMGVI  60
+            VLGLSN G++
+Sbjct  81  FVLGLSNAGLL  91
+
+
+> UniRef90_A0A0S3TZ80 Photosystem I reaction center subunit PsaK 
+n=3 Tax=Leptolyngbya TaxID=47251 RepID=A0A0S3TZ80_9CYAN
+Length=86
+
+ Score = 46.6 bits (109),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 37/68 (54%), Gaps = 15/68 (22%)
+
+Query  8   TIPTIMVISNLVGVAVGRYALGRSD---------------LTQLIASMCFGHIIGVGIVL  52
+           T+  +M+I N++ +A  ++ +                   L  +I S CFGHI+G G++L
+Sbjct  19  TVAAVMIICNVLAIAFAKFTIKNPSAPPAMPSSNLFGGFGLPAVIGSTCFGHILGAGVIL  78
+
+Query  53  GLSNMGVI  60
+           GLSNMGV+
+Sbjct  79  GLSNMGVL  86
+
+
+> UniRef90_A0A1J1LRR4 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Planktothrix tepida PCC 9214 TaxID=671072 RepID=A0A1J1LRR4_9CYAN
+Length=86
+
+ Score = 46.2 bits (108),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 42/68 (62%), Gaps = 15/68 (22%)
+
+Query  8   TIPTIMVISNLVGVAVGRYALGRSD---------------LTQLIASMCFGHIIGVGIVL  52
+           TI  +M++SN+V +A+G++++   +               L  ++A+  FGHI+G G++L
+Sbjct  19  TIAIVMILSNIVAIAIGKFSIQHPNAGPQLPSSNLFGGFGLPAVLATTSFGHILGAGVIL  78
+
+Query  53  GLSNMGVI  60
+           GLS++GVI
+Sbjct  79  GLSSLGVI  86
+
+
+> UniRef90_K8GGI2 Photosystem I reaction center subunit PsaK n=1 
+Tax=Oscillatoriales cyanobacterium JSC-12 TaxID=864702 RepID=K8GGI2_9CYAN
+Length=90
+
+ Score = 46.2 bits (108),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 38/66 (58%), Gaps = 18/66 (27%)
+
+Query  13  MVISNLVGVAVGRYAL------------------GRSDLTQLIASMCFGHIIGVGIVLGL  54
+           M++ NLV VA+GR+A+                  G   + +L+A+  FGHI+G G++LGL
+Sbjct  25  MLLCNLVAVAIGRFAIQHKGVGPKLPVELPDPFGGEFGVPELLATASFGHILGAGVILGL  84
+
+Query  55  SNMGVI  60
+           SN GV+
+Sbjct  85  SNAGVL  90
+
+
+> UniRef90_A0A0X8WRR1 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Leptolyngbya sp. O-77 TaxID=1080068 RepID=A0A0X8WRR1_9CYAN
+Length=114
+
+ Score = 46.6 bits (109),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 26/74 (35%), Positives = 41/74 (55%), Gaps = 19/74 (26%)
+
+Query  6    PYTIPT--IMVISNLVGVAVGRYALGRSD-----------------LTQLIASMCFGHII  46
+            P++I T  +M  +NL  +A+G YA+ +                   L +L+A+M FGH++
+Sbjct  41   PWSINTAIVMTAANLFAIAIGYYAIQKRGVGPALPVELPAMFTGFGLPELLATMSFGHLL  100
+
+Query  47   GVGIVLGLSNMGVI  60
+            G G VLGLSN G++
+Sbjct  101  GAGFVLGLSNAGLL  114
+
+
+> UniRef90_A0A1G4NXX1 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Scinaia undulata TaxID=1884664 RepID=A0A1G4NXX1_9FLOR
+Length=85
+
+ Score = 45.8 bits (107),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 41/66 (62%), Gaps = 14/66 (21%)
+
+Query  9   IPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVGIVLGL  54
+           I  +M+ISN++ +A+GRYA     LG S          LT+L+A+   GHI+G G +LGL
+Sbjct  19  IALVMIISNILAIAIGRYAIQVRNLGPSIPIAGLEGFGLTELLATTSLGHIVGAGAILGL  78
+
+Query  55  SNMGVI  60
+            ++GV+
+Sbjct  79  RSIGVL  84
+
+
+> UniRef90_K9UNK5 Photosystem I psaG / psaK n=2 Tax=Chamaesiphon 
+TaxID=217161 RepID=K9UNK5_CHAP6
+Length=96
+
+ Score = 45.8 bits (107),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 20/33 (61%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  28  LGRSDLTQLIASMCFGHIIGVGIVLGLSNMGVI  60
+           L   +L++LIA+M FGHI+GVG+VLGL+N+G+I
+Sbjct  64  LANFNLSKLIAAMSFGHILGVGLVLGLTNVGII  96
+
+
+> UniRef90_K9Z2G8 Photosystem I reaction center subunit PsaK n=2 
+Tax=Cyanobacterium aponinum TaxID=379064 RepID=K9Z2G8_CYAAP
+Length=90
+
+ Score = 45.8 bits (107),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 40/71 (56%), Gaps = 17/71 (24%)
+
+Query  7   YTIPTIMVISNLVGVAVGRYALGRSD-----------------LTQLIASMCFGHIIGVG  49
+           Y +  +M+ +NLV V +GR+A+  +                  L +L+A++ FGHI+G G
+Sbjct  20  YNVAIVMIAANLVVVFIGRFAIQNAGVGPDLPVGKPALWKNFGLPELLATLSFGHILGAG  79
+
+Query  50  IVLGLSNMGVI  60
+            +LGLSN G++
+Sbjct  80  FILGLSNAGLL  90
+
+
+> UniRef90_A0A2T1CWB6 Photosystem I reaction center subunit PsaK 
+n=2 Tax=Pleurocapsa TaxID=44474 RepID=A0A2T1CWB6_9CYAN
+Length=90
+
+ Score = 45.1 bits (105),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 37/66 (56%), Gaps = 17/66 (26%)
+
+Query  12  IMVISNLVGVAVGRYALGRSD-----------------LTQLIASMCFGHIIGVGIVLGL  54
+           +M++SNL  +A+GRYA+  S                  L +L+A+   GHI+G GI+LGL
+Sbjct  25  VMIMSNLFCIAIGRYAIQNSGQGPSLPVPKPEVWDKFGLPELLATTSLGHILGAGIILGL  84
+
+Query  55  SNMGVI  60
+            N GV+
+Sbjct  85  GNAGVL  90
+
+
+> UniRef90_A0A2Z6CE09 Photosystem I reaction center subunit PsaK 
+n=12 Tax=Oscillatoriales TaxID=1150 RepID=A0A2Z6CE09_PLAAG
+Length=86
+
+ Score = 44.7 bits (104),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 42/68 (62%), Gaps = 15/68 (22%)
+
+Query  8   TIPTIMVISNLVGVAVGRYALGRSD---------------LTQLIASMCFGHIIGVGIVL  52
+           TI  +M++ N+V +A+G++++ + +               L  ++A+  FGHI+G G++L
+Sbjct  19  TIAIVMIVCNIVAIAIGKFSIQQPNAGPQLPSPNMFGGFGLPAVLATTSFGHILGAGVIL  78
+
+Query  53  GLSNMGVI  60
+           GLS++GVI
+Sbjct  79  GLSSLGVI  86
+
+
+> UniRef90_A0A2T1CE03 Photosystem I reaction center subunit PsaK 
+n=1 Tax=filamentous cyanobacterium CCP2 TaxID=2107700 RepID=A0A2T1CE03_9CYAN
+Length=86
+
+ Score = 44.7 bits (104),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 37/68 (54%), Gaps = 15/68 (22%)
+
+Query  8   TIPTIMVISNLVGVAVGRYALGRSD---------------LTQLIASMCFGHIIGVGIVL  52
+           T+  +M+I N+  +A  RY + R +               L  +I + CFGHI+G G +L
+Sbjct  19  TVGLVMLICNIAAIAFARYTVQRPNEGPSGPPLPLLGNLSLGTVIGAACFGHILGTGAIL  78
+
+Query  53  GLSNMGVI  60
+           GLSN+GV+
+Sbjct  79  GLSNLGVL  86
+
+
+> UniRef90_A0A1Z4QF95 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Cylindrospermum sp. NIES-4074 TaxID=2005457 RepID=A0A1Z4QF95_9NOST
+Length=86
+
+ Score = 43.9 bits (102),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 38/68 (56%), Gaps = 15/68 (22%)
+
+Query  8   TIPTIMVISNLVGVAVGRYALGRSD---------------LTQLIASMCFGHIIGVGIVL  52
+           T+  I+++SN+  +A+G++ +                   L  L+A+  FGHI+GVGI+L
+Sbjct  19  TVSAIIILSNIFAIAIGKFTIANPSAEPALPSPNLFGGFGLPALLATTSFGHILGVGIIL  78
+
+Query  53  GLSNMGVI  60
+           GL N+G I
+Sbjct  79  GLHNIGRI  86
+
+
+> UniRef90_A0A1U7IEI9 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Phormidium ambiguum IAM M-71 TaxID=454136 RepID=A0A1U7IEI9_9CYAN
+Length=85
+
+ Score = 43.9 bits (102),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 24/61 (39%), Positives = 35/61 (57%), Gaps = 11/61 (18%)
+
+Query  11  TIMVISNLVGVAVGRYALGRSD-----------LTQLIASMCFGHIIGVGIVLGLSNMGV  59
+            +M++ N++ + + RYA                L QLIA  CFGHIIG G++LGL+N GV
+Sbjct  25  AVMILCNILALLIVRYATQDRGSKPASPVPGFGLPQLIAGACFGHIIGAGVILGLTNSGV  84
+
+Query  60  I  60
+           +
+Sbjct  85  L  85
+
+
+> UniRef90_A0A1G4NTT9 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Helminthocladia australis TaxID=260093 RepID=A0A1G4NTT9_9FLOR
+Length=86
+
+ Score = 43.9 bits (102),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 39/66 (59%), Gaps = 14/66 (21%)
+
+Query  9   IPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVGIVLGL  54
+           I  IM+ SN+  V+VGRYA     LG S          LT+L+A+   GHIIG G++LGL
+Sbjct  20  IAFIMITSNIFAVSVGRYAIQVRNLGPSIPIAGLEGFGLTELLATTSLGHIIGAGVILGL  79
+
+Query  55  SNMGVI  60
+            + G++
+Sbjct  80  RSSGLL  85
+
+
+> UniRef90_A0A1G4NWR0 Photosystem I reaction center subunit PsaK 
+n=2 Tax=Liagoraceae TaxID=31484 RepID=A0A1G4NWR0_9FLOR
+Length=86
+
+ Score = 43.9 bits (102),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 39/66 (59%), Gaps = 14/66 (21%)
+
+Query  9   IPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVGIVLGL  54
+           I  IM+ SN+  +A+GRYA     LG S          LT+L+A+   GH+IG G++LGL
+Sbjct  20  IAFIMITSNIFAIAMGRYAIQVRNLGPSMPIAGLQGFGLTELLATTSLGHVIGAGVILGL  79
+
+Query  55  SNMGVI  60
+            + G+I
+Sbjct  80  RSTGLI  85
+
+
+> UniRef90_A0A3G3MI80 Photosystem I subunit X n=2 Tax=Rhodogorgonaceae 
+TaxID=31492 RepID=A0A3G3MI80_9FLOR
+Length=85
+
+ Score = 43.5 bits (101),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 44/76 (58%), Gaps = 20/76 (26%)
+
+Query  5   IPYT------IPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGH  44
+           IP+T      I  IM+I NL+ +A+GRYA     LG S          L +L+A+   GH
+Sbjct  9   IPHTTIWSTQIAIIMIICNLIAIAIGRYAIQIRGLGPSIPISGLEGFGLPELLATTSLGH  68
+
+Query  45  IIGVGIVLGLSNMGVI  60
+           I+G G ++GLS++G++
+Sbjct  69  ILGAGSIIGLSSLGIL  84
+
+
+> UniRef90_A0A1G4NR06 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Helminthora furcellata TaxID=1884666 RepID=A0A1G4NR06_9FLOR
+Length=86
+
+ Score = 42.7 bits (99),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 38/66 (58%), Gaps = 14/66 (21%)
+
+Query  9   IPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVGIVLGL  54
+           I  IM+ISN+  + VGRYA     LG S          LT+L+A+   GH+IG G++LGL
+Sbjct  20  IAFIMIISNVFAIGVGRYAIQVRNLGPSMPIAGLEGFGLTELLATTSLGHVIGAGVILGL  79
+
+Query  55  SNMGVI  60
+              G++
+Sbjct  80  RGTGLL  85
+
+
+> UniRef90_A0A2T2RVU9 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Cyanobacteria bacterium QH_9_48_43 TaxID=1919126 RepID=A0A2T2RVU9_9CYAN
+Length=91
+
+ Score = 42.0 bits (97),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 26/79 (33%), Positives = 42/79 (53%), Gaps = 22/79 (28%)
+
+Query  4   TIPYT------IPTIMVISNLVGVAVGRYA----------------LGRSDLTQLIASMC  41
+           T+P+T      +  IM+  N++ V +GR+A                LG   + +LIA+  
+Sbjct  13  TVPHTPEWSSSVALIMITCNVLAVIIGRFAIRNPGRGPALPLASGILGGFGVPELIATTS  72
+
+Query  42  FGHIIGVGIVLGLSNMGVI  60
+           FGH+IG G++LGL N G++
+Sbjct  73  FGHVIGAGVILGLGNAGIL  91
+
+
+> UniRef90_A0A1G4NVR1 Photosystem I reaction center subunit PsaK 
+n=1 Tax=Liagoropsis maxima TaxID=1653392 RepID=A0A1G4NVR1_9FLOR
+Length=86
+
+ Score = 36.2 bits (82),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 24/54 (44%), Positives = 31/54 (57%), Gaps = 14/54 (26%)
+
+Query  21  VAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVGIVLGLSNMGVI  60
+           V+VGRYA     LG S          LT+L+A+   GHIIG GI+LGL +  V+
+Sbjct  32  VSVGRYAIQVRNLGPSIPIAGLQGFGLTELLATTSLGHIIGAGIILGLKSTNVL  85
+
+
+> UniRef90_A0A3G3MH05 Photosystem I subunit X n=1 Tax=Neogoniolithon 
+spectabile TaxID=231755 RepID=A0A3G3MH05_9FLOR
+Length=83
+
+ Score = 34.7 bits (78),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 39/69 (57%), Gaps = 14/69 (20%)
+
+Query  6   PYTIPTIMVISNLVGVAVGRYA-----LGRS---------DLTQLIASMCFGHIIGVGIV  51
+           P  +  IM+I NL+ + +GRYA     LG S          L +LIA+   GHIIG G +
+Sbjct  15  PIQVSIIMIICNLIAIIIGRYAIQVRGLGPSIPLPSLRGFGLAELIATTSLGHIIGAGTI  74
+
+Query  52  LGLSNMGVI  60
+           +GLSN+ +I
+Sbjct  75  IGLSNLNLI  83
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.147    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 64750
+
+
+  Database: isar.db.226
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 2,600
+  Number of sequences in database:  30
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

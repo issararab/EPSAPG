@@ -1,0 +1,644 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.152
+           45 sequences; 1,893 total letters
+
+Results from round 1
+
+
+Query= P36937|5mrwD|KDPF_ECOLI 0.9310344827586207
+
+Length=29
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P36937 Potassium-transporting ATPase KdpF subunit n=11...  54.3    9e-17
+  UniRef90_A0A2R3NS18 K(+)-transporting ATPase subunit F n=8 Tax=...  52.8    5e-16
+  UniRef90_H4KDH8 K+-transporting ATPase, F subunit n=77 Tax=Ente...  53.1    7e-16
+  UniRef90_A0A1R0G0U8 Potassium-transporting ATPase subunit F n=2...  52.4    9e-16
+  UniRef90_A0A376W1V6 Potassium-transporting ATPase subunit A n=1...  52.8    1e-15
+  UniRef90_A0A0H2WQP0 Uncharacterized protein n=9 Tax=Salmonella ...  51.6    2e-15
+  UniRef90_A0A3G5YA00 K(+)-transporting ATPase subunit F n=2 Tax=...  50.4    4e-15
+  UniRef90_K8A2R8 Uncharacterized protein n=1 Tax=Cronobacter con...  50.4    6e-15
+  UniRef90_R9VVY3 Potassium transporter TrkA n=90 Tax=Enterobacte...  49.7    7e-15
+  UniRef90_A0A251ZR66 K+-transporting ATPase, F subunit n=2 Tax=P...  49.7    2e-14
+  UniRef90_A0A0T5XP36 Potassium-transporting ATPase subunit F n=4...  48.5    2e-14
+  UniRef90_A0A3A5JZ92 K(+)-transporting ATPase subunit F n=1 Tax=...  48.5    2e-14
+  UniRef90_A0A3G9BTN1 K(+)-transporting ATPase subunit F n=2 Tax=...  48.5    2e-14
+  UniRef90_A0A2P8VR08 K(+)-transporting ATPase subunit F n=1 Tax=...  47.8    4e-14
+  UniRef90_A0A0W2G6T9 ATPase n=2 Tax=Enterobacter cloacae complex...  48.1    5e-14
+  UniRef90_A0A0D9H5L4 ATPase n=4 Tax=Enterobacter TaxID=547 RepID...  47.8    5e-14
+  UniRef90_A0A3C0GY14 K(+)-transporting ATPase subunit F n=1 Tax=...  47.4    7e-14
+  UniRef90_A0A0F3ZRG5 ATPase n=9 Tax=Enterobacteriaceae TaxID=543...  48.1    7e-14
+  UniRef90_A0A1X1EZF3 Potassium-transporting ATPase subunit F n=1...  47.0    8e-14
+  UniRef90_A0A1B7HS05 K+ transporting ATPase F subunit n=1 Tax=Bu...  46.6    1e-13
+  UniRef90_A0A2M9WCX2 K(+)-transporting ATPase subunit F n=2 Tax=...  46.2    2e-13
+  UniRef90_V5ZCE2 Uncharacterized protein n=1 Tax=Erwinia piriflo...  45.8    2e-13
+  UniRef90_A0A1V9DNP1 Potassium-transporting ATPase subunit F n=1...  45.8    2e-13
+  UniRef90_U2ND12 Uncharacterized protein n=1 Tax=Pantoea sp. AS-...  45.8    2e-13
+  UniRef90_A0A345CVX1 K(+)-transporting ATPase subunit F n=2 Tax=...  45.1    4e-13
+  UniRef90_G9Z517 K+-transporting ATPase, F subunit n=1 Tax=Yoken...  45.1    6e-13
+  UniRef90_A0A176XA38 K+-transporting ATPase subunit F n=2 Tax=En...  45.1    7e-13
+  UniRef90_A0A1X1CRM5 Potassium-transporting ATPase subunit F n=1...  44.7    8e-13
+  UniRef90_A0A2I0FWB3 K(+)-transporting ATPase subunit F n=1 Tax=...  44.3    1e-12
+  UniRef90_A0A2S9I9Q3 K(+)-transporting ATPase subunit F n=1 Tax=...  44.3    1e-12
+  UniRef90_A0A0M2KIE6 ATPase n=1 Tax=Erwinia tracheiphila TaxID=6...  43.9    3e-12
+  UniRef90_D4GDD3 KdpF n=1 Tax=Pantoea ananatis (strain LMG 20103...  39.3    1e-10
+  UniRef90_A0A2I8NS52 K(+)-transporting ATPase subunit F n=2 Tax=...  30.0    4e-07
+  UniRef90_A0A0D8TV25 ATPase n=1 Tax=Raoultella planticola TaxID=...  30.0    6e-07
+  UniRef90_A0A0B5IIK8 ATPase n=3 Tax=Raoultella TaxID=160674 RepI...  29.3    1e-06
+  UniRef90_A0A329HHP9 K(+)-transporting ATPase subunit F n=1 Tax=...  28.5    2e-06
+  UniRef90_A0A1V6Y2H7 K(+)-transporting ATPase subunit F n=9 Tax=...  27.7    4e-06
+  UniRef90_A0A0F5FCJ9 Potassium-transporting ATPase subunit F n=1...  25.8    2e-05
+  UniRef90_A0A398U2V6 Potassium-transporting ATPase subunit F n=8...  25.8    2e-05
+  UniRef90_U9YHZ4 K+-transporting ATPase, F subunit n=5 Tax=Esche...  25.8    3e-05
+  UniRef90_D4BCC6 K+-transporting ATPase, F subunit n=3 Tax=Enter...  25.4    5e-05
+  UniRef90_A0A1W6B3U0 Potassium-transporting ATPase subunit F n=1...  23.1    3e-04
+  UniRef90_A0A249WCG7 K(+)-transporting ATPase subunit F n=7 Tax=...  21.9    7e-04
+  UniRef90_A0A2S6VSH6 K(+)-transporting ATPase subunit F n=2 Tax=...  20.8    0.002
+  UniRef90_A0A2L0IBE2 K(+)-transporting ATPase subunit F n=3 Tax=...  20.0    0.004
+
+
+> UniRef90_P36937 Potassium-transporting ATPase KdpF subunit n=1121 
+Tax=root TaxID=1 RepID=KDPF_ECOLI
+Length=29
+
+ Score = 54.3 bits (129),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVITGVLLVFLLLGYLVYALINAEAF
+Sbjct  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+
+
+> UniRef90_A0A2R3NS18 K(+)-transporting ATPase subunit F n=8 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A2R3NS18_ECOLX
+Length=29
+
+ Score = 52.8 bits (125),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVITGVLLVFLL GYLVYALINAEAF
+Sbjct  1   MSAGVITGVLLVFLLRGYLVYALINAEAF  29
+
+
+> UniRef90_H4KDH8 K+-transporting ATPase, F subunit n=77 Tax=Enterobacteriaceae 
+TaxID=543 RepID=H4KDH8_ECOLX
+Length=67
+
+ Score = 53.1 bits (126),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVITGVLLVFLLLGYLVYALINAEAF
+Sbjct  39  VSAGVITGVLLVFLLLGYLVYALINAEAF  67
+
+
+> UniRef90_A0A1R0G0U8 Potassium-transporting ATPase subunit F n=2 
+Tax=Citrobacter freundii complex TaxID=1344959 RepID=A0A1R0G0U8_CITBR
+Length=51
+
+ Score = 52.4 bits (124),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVITG++LVFLLLGYLVYALINAEAF
+Sbjct  23  VSAGVITGIVLVFLLLGYLVYALINAEAF  51
+
+
+> UniRef90_A0A376W1V6 Potassium-transporting ATPase subunit A n=16 
+Tax=Enterobacteriaceae TaxID=543 RepID=A0A376W1V6_ECOLX
+Length=72
+
+ Score = 52.8 bits (125),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVI GVLLVFLLLGYLVYALINAEAF
+Sbjct  1   MSAGVIAGVLLVFLLLGYLVYALINAEAF  29
+
+
+> UniRef90_A0A0H2WQP0 Uncharacterized protein n=9 Tax=Salmonella 
+enterica I TaxID=59201 RepID=A0A0H2WQP0_SALPA
+Length=65
+
+ Score = 51.6 bits (122),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVITG++LVFLLLGYLVYALINAEAF
+Sbjct  37  VSAGVITGIVLVFLLLGYLVYALINAEAF  65
+
+
+> UniRef90_A0A3G5YA00 K(+)-transporting ATPase subunit F n=2 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A3G5YA00_CITKO
+Length=29
+
+ Score = 50.4 bits (119),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVI G++L+FLLLGYLVYALINAEAF
+Sbjct  1   MSAGVIIGIMLIFLLLGYLVYALINAEAF  29
+
+
+> UniRef90_K8A2R8 Uncharacterized protein n=1 Tax=Cronobacter condimenti 
+1330 TaxID=1073999 RepID=K8A2R8_9ENTR
+Length=68
+
+ Score = 50.4 bits (119),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAG+ITGV+LVFLLLGYLVYALINAEAF
+Sbjct  40  VSAGLITGVVLVFLLLGYLVYALINAEAF  68
+
+
+> UniRef90_R9VVY3 Potassium transporter TrkA n=90 Tax=Enterobacterales 
+TaxID=91347 RepID=R9VVY3_9ENTR
+Length=29
+
+ Score = 49.7 bits (117),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGV+ G++LVFLLLGYLVYALINAEAF
+Sbjct  1   MSAGVVIGIVLVFLLLGYLVYALINAEAF  29
+
+
+> UniRef90_A0A251ZR66 K+-transporting ATPase, F subunit n=2 Tax=Pluralibacter 
+gergoviae TaxID=61647 RepID=A0A251ZR66_PLUGE
+Length=67
+
+ Score = 49.7 bits (117),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           ++AGVITG+ LVFLLLGYLVYALINAEAF
+Sbjct  39  VTAGVITGIALVFLLLGYLVYALINAEAF  67
+
+
+> UniRef90_A0A0T5XP36 Potassium-transporting ATPase subunit F n=47 
+Tax=Bacteria TaxID=2 RepID=A0A0T5XP36_ECOLX
+Length=29
+
+ Score = 48.5 bits (114),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAG+I G++LVFLLLGYL+YALINAEAF
+Sbjct  1   MSAGLIAGIVLVFLLLGYLIYALINAEAF  29
+
+
+> UniRef90_A0A3A5JZ92 K(+)-transporting ATPase subunit F n=1 Tax=Buttiauxella 
+izardii TaxID=82991 RepID=A0A3A5JZ92_9ENTR
+Length=29
+
+ Score = 48.5 bits (114),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAG+I GV+LVF+LLGYL+YALINAEAF
+Sbjct  1   MSAGLIVGVVLVFMLLGYLIYALINAEAF  29
+
+
+> UniRef90_A0A3G9BTN1 K(+)-transporting ATPase subunit F n=2 Tax=Kosakonia 
+TaxID=1330547 RepID=A0A3G9BTN1_9ENTR
+Length=29
+
+ Score = 48.5 bits (114),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGV+ G++LVFLLLGYL+YALINAEAF
+Sbjct  1   MSAGVLIGIVLVFLLLGYLIYALINAEAF  29
+
+
+> UniRef90_A0A2P8VR08 K(+)-transporting ATPase subunit F n=1 Tax=Siccibacter 
+turicensis TaxID=357233 RepID=A0A2P8VR08_9ENTR
+Length=29
+
+ Score = 47.8 bits (112),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           M AGV+ GV+LVFLLLGYLVYALINAEAF
+Sbjct  1   MGAGVLAGVVLVFLLLGYLVYALINAEAF  29
+
+
+> UniRef90_A0A0W2G6T9 ATPase n=2 Tax=Enterobacter cloacae complex 
+TaxID=354276 RepID=A0A0W2G6T9_9ENTR
+Length=51
+
+ Score = 48.1 bits (113),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAG+I G++LVFLLLGYL+YALINAEAF
+Sbjct  23  VSAGLIAGIVLVFLLLGYLIYALINAEAF  51
+
+
+> UniRef90_A0A0D9H5L4 ATPase n=4 Tax=Enterobacter TaxID=547 RepID=A0A0D9H5L4_9ENTR
+Length=51
+
+ Score = 47.8 bits (112),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAG+I G++LVFLLLGYL+YALINAEAF
+Sbjct  23  VSAGLIAGIVLVFLLLGYLIYALINAEAF  51
+
+
+> UniRef90_A0A3C0GY14 K(+)-transporting ATPase subunit F n=1 Tax=Enterobacteriaceae 
+bacterium TaxID=1849603 RepID=A0A3C0GY14_9ENTR
+Length=29
+
+ Score = 47.4 bits (111),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVI GV+LV LL+GYL+YALINAEAF
+Sbjct  1   MSAGVIAGVVLVVLLIGYLIYALINAEAF  29
+
+
+> UniRef90_A0A0F3ZRG5 ATPase n=9 Tax=Enterobacteriaceae TaxID=543 
+RepID=A0A0F3ZRG5_ENTAS
+Length=67
+
+ Score = 48.1 bits (113),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAG+I G++LVFLLLGYLVYALINAEAF
+Sbjct  39  VSAGLIAGIVLVFLLLGYLVYALINAEAF  67
+
+
+> UniRef90_A0A1X1EZF3 Potassium-transporting ATPase subunit F n=1 
+Tax=Pantoea cypripedii TaxID=55209 RepID=A0A1X1EZF3_PANCY
+Length=29
+
+ Score = 47.0 bits (110),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS GVITG++LVF+LLGYL YAL+NAEAF
+Sbjct  1   MSVGVITGIVLVFILLGYLFYALLNAEAF  29
+
+
+> UniRef90_A0A1B7HS05 K+ transporting ATPase F subunit n=1 Tax=Buttiauxella 
+gaviniae ATCC 51604 TaxID=1354253 RepID=A0A1B7HS05_9ENTR
+Length=37
+
+ Score = 46.6 bits (109),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/28 (82%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  2   SAGVITGVLLVFLLLGYLVYALINAEAF  29
+           SAG+I GV+LVF+LLGYL+YALINAEAF
+Sbjct  10  SAGLIAGVVLVFMLLGYLIYALINAEAF  37
+
+
+> UniRef90_A0A2M9WCX2 K(+)-transporting ATPase subunit F n=2 Tax=Pantoea 
+TaxID=53335 RepID=A0A2M9WCX2_9GAMM
+Length=29
+
+ Score = 46.2 bits (108),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS GVI G++LVF+LLGYL+YAL+NAEAF
+Sbjct  1   MSVGVIAGIVLVFILLGYLIYALLNAEAF  29
+
+
+> UniRef90_V5ZCE2 Uncharacterized protein n=1 Tax=Erwinia piriflorinigrans 
+CFBP 5888 TaxID=1161919 RepID=V5ZCE2_9GAMM
+Length=29
+
+ Score = 45.8 bits (107),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS  VITG+++VF+LLGYLVYALINAE F
+Sbjct  1   MSIAVITGIVMVFMLLGYLVYALINAETF  29
+
+
+> UniRef90_A0A1V9DNP1 Potassium-transporting ATPase subunit F n=1 
+Tax=Pantoea latae TaxID=1964541 RepID=A0A1V9DNP1_9GAMM
+Length=29
+
+ Score = 45.8 bits (107),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS GV+ G++LVFLLLGYL+YAL+NAEAF
+Sbjct  1   MSVGVMAGIVLVFLLLGYLIYALLNAEAF  29
+
+
+> UniRef90_U2ND12 Uncharacterized protein n=1 Tax=Pantoea sp. AS-PWVM4 
+TaxID=1332069 RepID=U2ND12_9GAMM
+Length=41
+
+ Score = 45.8 bits (107),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +S GVITG++LVFLLLGYL YAL+NAEAF
+Sbjct  13  VSVGVITGIVLVFLLLGYLFYALLNAEAF  41
+
+
+> UniRef90_A0A345CVX1 K(+)-transporting ATPase subunit F n=2 Tax=Erwinia 
+TaxID=551 RepID=A0A345CVX1_9GAMM
+Length=29
+
+ Score = 45.1 bits (105),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS  +I G++LVFLLLGYLVYALINAEAF
+Sbjct  1   MSMALIAGIVLVFLLLGYLVYALINAEAF  29
+
+
+> UniRef90_G9Z517 K+-transporting ATPase, F subunit n=1 Tax=Yokenella 
+regensburgei ATCC 43003 TaxID=1002368 RepID=G9Z517_9ENTR
+Length=47
+
+ Score = 45.1 bits (105),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           ++AGVI GV+LVFL+L YL+YALINAEAF
+Sbjct  19  VTAGVIAGVVLVFLILAYLIYALINAEAF  47
+
+
+> UniRef90_A0A176XA38 K+-transporting ATPase subunit F n=2 Tax=Enterobacter 
+cloacae complex TaxID=354276 RepID=A0A176XA38_ENTCL
+Length=51
+
+ Score = 45.1 bits (105),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAG+I G++LVFLL+ YL+YALINAEAF
+Sbjct  23  VSAGLIAGIVLVFLLMAYLIYALINAEAF  51
+
+
+> UniRef90_A0A1X1CRM5 Potassium-transporting ATPase subunit F n=1 
+Tax=Pantoea rwandensis TaxID=1076550 RepID=A0A1X1CRM5_9GAMM
+Length=41
+
+ Score = 44.7 bits (104),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +S GVI G++LVF+LLGYL+YAL+NAEAF
+Sbjct  13  VSVGVIAGIVLVFILLGYLIYALLNAEAF  41
+
+
+> UniRef90_A0A2I0FWB3 K(+)-transporting ATPase subunit F n=1 Tax=Enterobacterales 
+bacterium CwR94 TaxID=2025587 RepID=A0A2I0FWB3_9GAMM
+Length=40
+
+ Score = 44.3 bits (103),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SA +I G++LVFLLLGYLVYAL+NAEAF
+Sbjct  12  VSAALIAGIVLVFLLLGYLVYALLNAEAF  40
+
+
+> UniRef90_A0A2S9I9Q3 K(+)-transporting ATPase subunit F n=1 Tax=Pantoea 
+coffeiphila TaxID=1465635 RepID=A0A2S9I9Q3_9GAMM
+Length=52
+
+ Score = 44.3 bits (103),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SA VITG++LVF LLGYL+YAL+NAE F
+Sbjct  24  VSAAVITGIVLVFALLGYLIYALLNAEEF  52
+
+
+> UniRef90_A0A0M2KIE6 ATPase n=1 Tax=Erwinia tracheiphila TaxID=65700 
+RepID=A0A0M2KIE6_9GAMM
+Length=69
+
+ Score = 43.9 bits (102),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   SAGVITGVLLVFLLLGYLVYALINAEAF  29
+           S  +I G++LVFLLLGYLVYALINAEAF
+Sbjct  42  SMALIAGIVLVFLLLGYLVYALINAEAF  69
+
+
+> UniRef90_D4GDD3 KdpF n=1 Tax=Pantoea ananatis (strain LMG 20103) 
+TaxID=706191 RepID=D4GDD3_PANAM
+Length=45
+
+ Score = 39.3 bits (90),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVITG++LV LLLGYL+YAL+NAEAF
+Sbjct  17  VSAGVITGIVLVVLLLGYLIYALLNAEAF  45
+
+
+> UniRef90_A0A2I8NS52 K(+)-transporting ATPase subunit F n=2 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A2I8NS52_9ENTR
+Length=29
+
+ Score = 30.0 bits (66),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVI G+ L+FLLLGYL+YAL+NAEAF
+Sbjct  1   MSAGVIVGIALLFLLLGYLIYALLNAEAF  29
+
+
+> UniRef90_A0A0D8TV25 ATPase n=1 Tax=Raoultella planticola TaxID=575 
+RepID=A0A0D8TV25_RAOPL
+Length=51
+
+ Score = 30.0 bits (66),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVI GV LVFLLL YLVYALINAEAF
+Sbjct  23  VSAGVIAGVALVFLLLAYLVYALINAEAF  51
+
+
+> UniRef90_A0A0B5IIK8 ATPase n=3 Tax=Raoultella TaxID=160674 RepID=A0A0B5IIK8_RAOOR
+Length=67
+
+ Score = 29.3 bits (64),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVI GV LVFLLL YLVYALINAEAF
+Sbjct  39  VSAGVIAGVALVFLLLAYLVYALINAEAF  67
+
+
+> UniRef90_A0A329HHP9 K(+)-transporting ATPase subunit F n=1 Tax=Enterobacter 
+sp. RIT 418 TaxID=2202164 RepID=A0A329HHP9_9ENTR
+Length=29
+
+ Score = 28.5 bits (62),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAG+I G++LVFLLL YLVYALI+AEAF
+Sbjct  1   MSAGIIAGIVLVFLLLAYLVYALIHAEAF  29
+
+
+> UniRef90_A0A1V6Y2H7 K(+)-transporting ATPase subunit F n=9 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A1V6Y2H7_KLEPN
+Length=29
+
+ Score = 27.7 bits (60),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           M+AGV+TGV LVFLLL YLVYALI+AEAF
+Sbjct  1   MTAGVLTGVGLVFLLLAYLVYALIHAEAF  29
+
+
+> UniRef90_A0A0F5FCJ9 Potassium-transporting ATPase subunit F n=18 
+Tax=Erwiniaceae TaxID=1903409 RepID=A0A0F5FCJ9_9GAMM
+Length=29
+
+ Score = 25.8 bits (55),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS GVITG+LLV LLLGYL+YAL+NAEAF
+Sbjct  1   MSVGVITGILLVVLLLGYLIYALLNAEAF  29
+
+
+> UniRef90_A0A398U2V6 Potassium-transporting ATPase subunit F n=8 
+Tax=Enterobacteriaceae TaxID=543 RepID=A0A398U2V6_SHIBO
+Length=29
+
+ Score = 25.8 bits (55),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVI GVLLVFLLLGYLVYAL+NAEAF
+Sbjct  1   MSAGVIAGVLLVFLLLGYLVYALLNAEAF  29
+
+
+> UniRef90_U9YHZ4 K+-transporting ATPase, F subunit n=5 Tax=Escherichia 
+coli TaxID=562 RepID=U9YHZ4_ECOLX
+Length=51
+
+ Score = 25.8 bits (55),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVI GVLLVFLLLGYLVYALINAEAF
+Sbjct  23  VSAGVIAGVLLVFLLLGYLVYALINAEAF  51
+
+
+> UniRef90_D4BCC6 K+-transporting ATPase, F subunit n=3 Tax=Enterobacteriaceae 
+TaxID=543 RepID=D4BCC6_9ENTR
+Length=67
+
+ Score = 25.4 bits (54),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +SAGVITGV+LV LLLGYLVYALINAEAF
+Sbjct  39  VSAGVITGVVLVVLLLGYLVYALINAEAF  67
+
+
+> UniRef90_A0A1W6B3U0 Potassium-transporting ATPase subunit F n=1 
+Tax=Pantoea alhagi TaxID=1891675 RepID=A0A1W6B3U0_9GAMM
+Length=37
+
+ Score = 23.1 bits (48),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           +S G++ G++L+FLLLGYLVYAL+NAEAF
+Sbjct  9   VSTGIVAGIVLLFLLLGYLVYALVNAEAF  37
+
+
+> UniRef90_A0A249WCG7 K(+)-transporting ATPase subunit F n=7 Tax=Enterobacteriaceae 
+TaxID=543 RepID=A0A249WCG7_9ENTR
+Length=29
+
+ Score = 21.9 bits (45),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MSAGVI GV LVFLLL YLVYALI+AEAF
+Sbjct  1   MSAGVIAGVALVFLLLVYLVYALIHAEAF  29
+
+
+> UniRef90_A0A2S6VSH6 K(+)-transporting ATPase subunit F n=2 Tax=Pantoea 
+TaxID=53335 RepID=A0A2S6VSH6_9GAMM
+Length=29
+
+ Score = 20.8 bits (42),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS GVI G++L+ LLLGYLVYAL+NAEAF
+Sbjct  1   MSVGVIAGIVLLILLLGYLVYALLNAEAF  29
+
+
+> UniRef90_A0A2L0IBE2 K(+)-transporting ATPase subunit F n=3 Tax=Erwiniaceae 
+TaxID=1903409 RepID=A0A2L0IBE2_9GAMM
+Length=29
+
+ Score = 20.0 bits (40),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MSAGVITGVLLVFLLLGYLVYALINAEAF  29
+           MS G+  GV+L+FLLLGYLVYALINAEAF
+Sbjct  1   MSTGIAAGVVLLFLLLGYLVYALINAEAF  29
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.151    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 48681
+
+
+  Database: isar.db.152
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 1,893
+  Number of sequences in database:  45
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

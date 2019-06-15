@@ -1,0 +1,641 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.95
+           44 sequences; 3,320 total letters
+
+Results from round 1
+
+
+Query= P07552|1sqqK|QCR10_BOVIN 0.9642857142857143
+
+Length=56
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P07552 Cytochrome b-c1 complex subunit 10 n=16 Tax=Eut...  114     1e-39
+  UniRef90_Q9CPX8 Cytochrome b-c1 complex subunit 10 n=30 Tax=Eut...  108     4e-37
+  UniRef90_A0A2K6GMZ9 Uncharacterized protein n=1 Tax=Propithecus...  105     4e-36
+  UniRef90_O14957 Cytochrome b-c1 complex subunit 10 n=15 Tax=Sim...  104     1e-35
+  UniRef90_H0WN27 Uncharacterized protein n=1 Tax=Otolemur garnet...  104     2e-35
+  UniRef90_A0A2K6N172 Uncharacterized protein n=1 Tax=Rhinopithec...  100     3e-34
+  UniRef90_U3DBT5 Cytochrome b-c1 complex subunit 10 n=3 Tax=Euar...  100     7e-34
+  UniRef90_G3SWU5 Uncharacterized protein n=1 Tax=Loxodonta afric...  100     7e-34
+  UniRef90_A0A340WIS5 cytochrome b-c1 complex subunit 10-like n=5...  97.4    7e-33
+  UniRef90_G1Q0W9 Uncharacterized protein n=1 Tax=Myotis lucifugu...  94.4    1e-31
+  UniRef90_F6UVK9 Uncharacterized protein n=1 Tax=Monodelphis dom...  94.0    2e-31
+  UniRef90_A0A2K5S6N3 Uncharacterized protein n=1 Tax=Cebus capuc...  93.2    4e-31
+  UniRef90_W5PUP7 Uncharacterized protein n=1 Tax=Ovis aries TaxI...  92.4    9e-31
+  UniRef90_A0A2U4AL70 cytochrome b-c1 complex subunit 10-like n=1...  90.5    4e-30
+  UniRef90_G1SBT1 Uncharacterized protein n=1 Tax=Nomascus leucog...  88.2    5e-29
+  UniRef90_A0A340WNG7 cytochrome b-c1 complex subunit 10-like n=1...  87.0    1e-28
+  UniRef90_A0A1S3AE45 cytochrome b-c1 complex subunit 10 n=1 Tax=...  85.5    4e-28
+  UniRef90_F6SB95 Uncharacterized protein n=1 Tax=Ornithorhynchus...  81.6    2e-26
+  UniRef90_A0A2I3HN51 Uncharacterized protein n=1 Tax=Nomascus le...  78.6    5e-25
+  UniRef90_S9YPZ2 Transcription factor E2-alpha n=1 Tax=Camelus f...  84.0    1e-24
+  UniRef90_A0A383ZND0 cytochrome b-c1 complex subunit 10-like n=1...  76.3    3e-24
+  UniRef90_A0A3Q0DHJ7 cytochrome b-c1 complex subunit 10 n=1 Tax=...  75.1    4e-24
+  UniRef90_G3MXB6 Uncharacterized protein n=1 Tax=Bos taurus TaxI...  74.3    9e-24
+  UniRef90_A0A384DQT4 cytochrome b-c1 complex subunit 10 n=1 Tax=...  73.9    1e-23
+  UniRef90_M3VYU3 Uncharacterized protein n=1 Tax=Felis catus Tax...  73.2    2e-23
+  UniRef90_D6W680 Cytochrome b-c1 complex subunit 10-like Protein...  60.5    4e-18
+  UniRef90_A0A212D2B5 UQCR11 n=1 Tax=Cervus elaphus hippelaphus T...  63.5    7e-18
+  UniRef90_A0A2J7R3Q5 Cytochrome b-c1 complex subunit 10 n=1 Tax=...  58.2    3e-17
+  UniRef90_A0A067QE66 Cytochrome b-c1 complex subunit 10 n=1 Tax=...  58.2    3e-17
+  UniRef90_R4WQV6 Uncharacterized protein n=1 Tax=Riptortus pedes...  57.8    4e-17
+  UniRef90_A0A1D1VRY9 Uncharacterized protein n=1 Tax=Ramazzottiu...  55.1    5e-16
+  UniRef90_A0A087TU92 Cytochrome b-c1 complex subunit 10 (Fragmen...  54.7    8e-16
+  UniRef90_E2AY77 Uncharacterized protein n=1 Tax=Camponotus flor...  53.1    2e-15
+  UniRef90_E7D1Z2 Uncharacterized protein n=1 Tax=Latrodectus hes...  53.1    3e-15
+  UniRef90_A0A0J7KM14 Cytochrome b-c1 complex subunit 10 n=1 Tax=...  53.1    5e-15
+  UniRef90_K7IPB8 Uncharacterized protein n=1 Tax=Nasonia vitripe...  50.1    4e-14
+  UniRef90_A0A1W4XBT4 cytochrome b-c1 complex subunit 10-like n=1...  49.3    8e-14
+  UniRef90_A0A2L2Y056 Uncharacterized protein n=1 Tax=Parasteatod...  48.5    2e-13
+  UniRef90_A0A1I8N7W9 Uncharacterized protein n=2 Tax=Calyptratae...  48.5    2e-13
+  UniRef90_A0A0Q9WHH6 Uncharacterized protein n=2 Tax=Drosophila ...  48.1    3e-13
+  UniRef90_A0A0L7RBY8 Uncharacterized protein n=1 Tax=Habropoda l...  46.2    1e-12
+  UniRef90_A0A293MBX2 Uncharacterized protein (Fragment) n=1 Tax=...  45.4    8e-12
+  UniRef90_A0A1X7UUM7 Uncharacterized protein n=1 Tax=Amphimedon ...  41.6    3e-10
+  UniRef90_A0A1W4UUC8 cytochrome b-c1 complex subunit 10 n=1 Tax=...  37.0    1e-08
+
+
+> UniRef90_P07552 Cytochrome b-c1 complex subunit 10 n=16 Tax=Eutheria 
+TaxID=9347 RepID=QCR10_BOVIN
+Length=56
+
+ Score = 114 bits (286),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 56/56 (100%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> UniRef90_Q9CPX8 Cytochrome b-c1 complex subunit 10 n=30 Tax=Eutheria 
+TaxID=9347 RepID=QCR10_MOUSE
+Length=56
+
+ Score = 108 bits (269),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 50/56 (89%), Positives = 54/56 (96%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ML+RFLGPRYR+LARNW+PTA +WG VGAVGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLSRFLGPRYRELARNWIPTAGMWGTVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> UniRef90_A0A2K6GMZ9 Uncharacterized protein n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=A0A2K6GMZ9_PROCO
+Length=56
+
+ Score = 105 bits (263),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 50/56 (89%), Positives = 52/56 (93%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRFLGPRYR+LAR W+PT SLWG VGAVGLVW TDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLTRFLGPRYRELARKWMPTVSLWGTVGAVGLVWMTDWRLILDWVPYINGKFKKDD  56
+
+
+> UniRef90_O14957 Cytochrome b-c1 complex subunit 10 n=15 Tax=Simiiformes 
+TaxID=314293 RepID=QCR10_HUMAN
+Length=56
+
+ Score = 104 bits (260),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 49/56 (88%), Positives = 53/56 (95%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           M+TRFLGPRYR+L +NWVPTA  WGAVGAVGLVWATDWRLILDWVPYINGKFKKD+
+Sbjct  1   MVTRFLGPRYRELVKNWVPTAYTWGAVGAVGLVWATDWRLILDWVPYINGKFKKDN  56
+
+
+> UniRef90_H0WN27 Uncharacterized protein n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0WN27_OTOGA
+Length=56
+
+ Score = 104 bits (259),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 47/56 (84%), Positives = 52/56 (93%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRF+GPRYR+LA+NW+PT  +W AVGAVGLVW TDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLTRFMGPRYRELAKNWIPTVGMWSAVGAVGLVWMTDWRLILDWVPYINGKFKKDD  56
+
+
+> UniRef90_A0A2K6N172 Uncharacterized protein n=1 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=A0A2K6N172_RHIBE
+Length=56
+
+ Score = 100 bits (250),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 47/56 (84%), Positives = 50/56 (89%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           M+TRFLGPRY QL +NW+PT   WGAVG VGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MVTRFLGPRYGQLVKNWIPTVYTWGAVGTVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> UniRef90_U3DBT5 Cytochrome b-c1 complex subunit 10 n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=U3DBT5_CALJA
+Length=56
+
+ Score = 100 bits (248),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 48/56 (86%), Positives = 50/56 (89%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRFLGPRYR+L +NW PTA  WGAV  VGLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MLTRFLGPRYRELLKNWWPTAYTWGAVSTVGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> UniRef90_G3SWU5 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3SWU5_LOXAF
+Length=55
+
+ Score = 100 bits (248),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 47/55 (85%), Positives = 51/55 (93%), Gaps = 0/55 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKD  55
+           ML+RFLGPRY QLARNW+PT  +W AVG+VGLVWATDWRLILDWVPYINGKFKKD
+Sbjct  1   MLSRFLGPRYWQLARNWLPTVGMWSAVGSVGLVWATDWRLILDWVPYINGKFKKD  55
+
+
+> UniRef90_A0A340WIS5 cytochrome b-c1 complex subunit 10-like n=5 
+Tax=Odontoceti TaxID=9722 RepID=A0A340WIS5_LIPVE
+Length=56
+
+ Score = 97.4 bits (241),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 44/56 (79%), Positives = 50/56 (89%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ML RF+GP YRQLARNW+PT  +WG +GA+GLVWATDWRLI DWVPYI+GKFKKDD
+Sbjct  1   MLERFVGPHYRQLARNWLPTVGMWGTMGAMGLVWATDWRLIPDWVPYISGKFKKDD  56
+
+
+> UniRef90_G1Q0W9 Uncharacterized protein n=1 Tax=Myotis lucifugus 
+TaxID=59463 RepID=G1Q0W9_MYOLU
+Length=56
+
+ Score = 94.4 bits (233),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 41/55 (75%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  2   LTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           +++FLGP Y QLA+NW+P   +WGA+G +GLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  2   MSKFLGPCYVQLAKNWIPMLGMWGAMGTMGLVWATDWRLILDWVPYINGKFKKDD  56
+
+
+> UniRef90_F6UVK9 Uncharacterized protein n=1 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6UVK9_MONDO
+Length=56
+
+ Score = 94.0 bits (232),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 43/56 (77%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ML++ LG RY++L + W+PTA  WGAVGAVGLVWATDWRLILDWVPYINGKFKKD 
+Sbjct  1   MLSKLLGQRYKELVKYWLPTAGTWGAVGAVGLVWATDWRLILDWVPYINGKFKKDS  56
+
+
+> UniRef90_A0A2K5S6N3 Uncharacterized protein n=1 Tax=Cebus capucinus 
+imitator TaxID=1737458 RepID=A0A2K5S6N3_CEBCA
+Length=56
+
+ Score = 93.2 bits (230),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 45/56 (80%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRFLGPRYR+L +NW PTA  WGAVG VGLVW TDWRLIL+ VPYI GKFKKDD
+Sbjct  1   MLTRFLGPRYRELVKNWWPTAYTWGAVGIVGLVWVTDWRLILERVPYIKGKFKKDD  56
+
+
+> UniRef90_W5PUP7 Uncharacterized protein n=1 Tax=Ovis aries TaxID=9940 
+RepID=W5PUP7_SHEEP
+Length=56
+
+ Score = 92.4 bits (228),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 44/56 (79%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTRFLGPRY  LAR+WVP  S  GA+G VGL WATDWRLILDWVPY+NGKFK+DD
+Sbjct  1   MLTRFLGPRYHWLARDWVPPVSTRGAMGTVGLAWATDWRLILDWVPYVNGKFKRDD  56
+
+
+> UniRef90_A0A2U4AL70 cytochrome b-c1 complex subunit 10-like n=1 
+Tax=Tursiops truncatus TaxID=9739 RepID=A0A2U4AL70_TURTR
+Length=56
+
+ Score = 90.5 bits (223),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 41/56 (73%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ML+RFLGP  R+LARNW+P A +WG VG +GLVWAT+W LILD VPYINGKF+KDD
+Sbjct  1   MLSRFLGPHCRELARNWIPMAGMWGTVGTMGLVWATEWWLILDQVPYINGKFQKDD  56
+
+
+> UniRef90_G1SBT1 Uncharacterized protein n=1 Tax=Nomascus leucogenys 
+TaxID=61853 RepID=G1SBT1_NOMLE
+Length=66
+
+ Score = 88.2 bits (217),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYIN  49
+           M+TRFLGPR R+L +NW+PTA  WGAVGAVGLVWATDWRLILDWVPYIN
+Sbjct  1   MVTRFLGPRDRELVKNWIPTAYTWGAVGAVGLVWATDWRLILDWVPYIN  49
+
+
+> UniRef90_A0A340WNG7 cytochrome b-c1 complex subunit 10-like n=1 
+Tax=Lipotes vexillifer TaxID=118797 RepID=A0A340WNG7_LIPVE
+Length=73
+
+ Score = 87.0 bits (214),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 40/54 (74%), Positives = 47/54 (87%), Gaps = 0/54 (0%)
+
+Query  3   TRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           +RFLG RYR+LA+NW+PT  + GA GAVGLVWAT W+LILDWVPY NGKFKKD+
+Sbjct  20  SRFLGRRYRELAKNWIPTVGVRGATGAVGLVWATGWQLILDWVPYNNGKFKKDN  73
+
+
+> UniRef90_A0A1S3AE45 cytochrome b-c1 complex subunit 10 n=1 Tax=Erinaceus 
+europaeus TaxID=9365 RepID=A0A1S3AE45_ERIEU
+Length=55
+
+ Score = 85.5 bits (210),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 48/55 (87%), Positives = 51/55 (93%), Gaps = 0/55 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKD  55
+           MLTRFLGPRYRQLA+NWVPTA +W A GAVGLVWATDWRL+LDWVPYIN KFKKD
+Sbjct  1   MLTRFLGPRYRQLAQNWVPTAGVWAAAGAVGLVWATDWRLVLDWVPYINSKFKKD  55
+
+
+> UniRef90_F6SB95 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6SB95_ORNAN
+Length=56
+
+ Score = 81.6 bits (200),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ++T    P  R  AR  +PTA  WGAVGAVGLVWATDWRLILD+VPYINGKFKKDD
+Sbjct  1   LMTFRASPYLRDFARKRLPTAGTWGAVGAVGLVWATDWRLILDYVPYINGKFKKDD  56
+
+
+> UniRef90_A0A2I3HN51 Uncharacterized protein n=1 Tax=Nomascus 
+leucogenys TaxID=61853 RepID=A0A2I3HN51_NOMLE
+Length=83
+
+ Score = 78.6 bits (192),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 36/44 (82%), Positives = 40/44 (91%), Gaps = 0/44 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDW  44
+           M+TRFLGPR R+L +NW+PTA  WGAVGAVGLVWATDWRLILDW
+Sbjct  1   MVTRFLGPRDRELVKNWIPTAYTWGAVGAVGLVWATDWRLILDW  44
+
+
+> UniRef90_S9YPZ2 Transcription factor E2-alpha n=1 Tax=Camelus 
+ferus TaxID=419612 RepID=S9YPZ2_CAMFR
+Length=558
+
+ Score = 84.0 bits (206),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 34/39 (87%), Positives = 37/39 (95%), Gaps = 0/39 (0%)
+
+Query  18   VPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+            +PTA +WGAVG VGLVWATDWRLILDWVPYINGKFKK+D
+Sbjct  520  IPTAGMWGAVGTVGLVWATDWRLILDWVPYINGKFKKND  558
+
+
+ Score = 19.2 bits (38),  Expect = 0.087, Method: Composition-based stats.
+ Identities = 6/14 (43%), Positives = 8/14 (57%), Gaps = 0/14 (0%)
+
+Query  19   PTASLWGAVGAVGL  32
+            P+A LW + G  G 
+Sbjct  221  PSAELWSSPGQAGF  234
+
+
+> UniRef90_A0A383ZND0 cytochrome b-c1 complex subunit 10-like n=1 
+Tax=Balaenoptera acutorostrata scammoni TaxID=310752 RepID=A0A383ZND0_BALAS
+Length=72
+
+ Score = 76.3 bits (186),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 35/46 (76%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  11  RQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+             L R  +PT  +WG VGAVGLVWATDWRLI+DWVPYINGKFKKDD
+Sbjct  27  HTLGRARLPTVGMWGTVGAVGLVWATDWRLIMDWVPYINGKFKKDD  72
+
+
+> UniRef90_A0A3Q0DHJ7 cytochrome b-c1 complex subunit 10 n=1 Tax=Tarsius 
+syrichta TaxID=1868482 RepID=A0A3Q0DHJ7_TARSY
+Length=39
+
+ Score = 75.1 bits (183),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 34/39 (87%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  18  VPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           +PTAS+WGAVGAVGLVWATDWRLILDWVPYI+GKFK++D
+Sbjct  1   IPTASMWGAVGAVGLVWATDWRLILDWVPYISGKFKRED  39
+
+
+> UniRef90_G3MXB6 Uncharacterized protein n=1 Tax=Bos taurus TaxID=9913 
+RepID=G3MXB6_BOVIN
+Length=53
+
+ Score = 74.3 bits (181),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 39/50 (78%), Positives = 40/50 (80%), Gaps = 2/50 (4%)
+
+Query  7   GPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           GPRY  LARNWVP  S  GAVG VGLVWA DWRLILDWVPY  GKFK+DD
+Sbjct  6   GPRYHWLARNWVPPVSTRGAVGTVGLVWAPDWRLILDWVPY--GKFKRDD  53
+
+
+> UniRef90_A0A384DQT4 cytochrome b-c1 complex subunit 10 n=1 Tax=Ursus 
+maritimus TaxID=29073 RepID=A0A384DQT4_URSMA
+Length=39
+
+ Score = 73.9 bits (180),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 34/39 (87%), Positives = 37/39 (95%), Gaps = 0/39 (0%)
+
+Query  18  VPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           +PTA +WGAVG +GLVWATDWRLILDWVPYINGKFKKDD
+Sbjct  1   MPTAGMWGAVGTLGLVWATDWRLILDWVPYINGKFKKDD  39
+
+
+> UniRef90_M3VYU3 Uncharacterized protein n=1 Tax=Felis catus TaxID=9685 
+RepID=M3VYU3_FELCA
+Length=48
+
+ Score = 73.2 bits (178),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 33/45 (73%), Positives = 37/45 (82%), Gaps = 0/45 (0%)
+
+Query  12  QLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           +LA  W+PTA +WG VG VGLVWA D +LILDWVPY NGKFKKDD
+Sbjct  4   KLATTWIPTAGMWGTVGTVGLVWAMDCQLILDWVPYTNGKFKKDD  48
+
+
+> UniRef90_D6W680 Cytochrome b-c1 complex subunit 10-like Protein 
+n=1 Tax=Tribolium castaneum TaxID=7070 RepID=D6W680_TRICA
+Length=63
+
+ Score = 60.5 bits (145),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   RFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKD  55
+           R +G ++ ++A  W+ +A  +GA   VG+ +ATDW+LIL ++PY NGKFK++
+Sbjct  12  RLIGKKHIEIASQWIGSAVAFGATAGVGITYATDWKLILQYMPYYNGKFKEE  63
+
+
+> UniRef90_A0A212D2B5 UQCR11 n=1 Tax=Cervus elaphus hippelaphus 
+TaxID=46360 RepID=A0A212D2B5_CEREH
+Length=256
+
+ Score = 63.5 bits (153),  Expect = 7e-18, Method: Composition-based stats.
+ Identities = 29/52 (56%), Positives = 37/52 (71%), Gaps = 1/52 (2%)
+
+Query  4    RFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKD  55
+            R   PR     R +  +++  G +GA+GLVWATDWRLILDWVPY+N KFK+D
+Sbjct  175  RHPSPRTHMPLRTYAHSSTR-GTMGAMGLVWATDWRLILDWVPYVNSKFKRD  225
+
+
+> UniRef90_A0A2J7R3Q5 Cytochrome b-c1 complex subunit 10 n=1 Tax=Cryptotermes 
+secundus TaxID=105785 RepID=A0A2J7R3Q5_9NEOP
+Length=57
+
+ Score = 58.2 bits (139),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  2   LTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           + R +G R+ +LA  W+P+ + +GA G +GL++ TDW+ +L ++PY +GKFK ++
+Sbjct  3   ILRQIGKRHIELATRWLPSLATFGAAGGLGLLYFTDWKAVLQYMPYYSGKFKTEE  57
+
+
+> UniRef90_A0A067QE66 Cytochrome b-c1 complex subunit 10 n=1 Tax=Zootermopsis 
+nevadensis TaxID=136037 RepID=A0A067QE66_ZOONE
+Length=57
+
+ Score = 58.2 bits (139),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 21/55 (38%), Positives = 41/55 (75%), Gaps = 0/55 (0%)
+
+Query  2   LTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           + R +G ++ +LA  W+P+ + +GA  ++GL++ TDW+++L +VPY +GKFK ++
+Sbjct  3   ILRQIGKKHFELATYWLPSLATFGAASSLGLLYITDWKVVLQYVPYYSGKFKTEE  57
+
+
+> UniRef90_R4WQV6 Uncharacterized protein n=1 Tax=Riptortus pedestris 
+TaxID=329032 RepID=R4WQV6_RIPPE
+Length=53
+
+ Score = 57.8 bits (138),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 23/51 (45%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  6   LGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           LGPR  Q+   W+P+ +L+G  GA  + + ++WR +L +VPY NGKFK +D
+Sbjct  3   LGPRQLQILPKWIPSLTLFGISGAALVTYGSEWRAVLQYVPYYNGKFKTED  53
+
+
+> UniRef90_A0A1D1VRY9 Uncharacterized protein n=1 Tax=Ramazzottius 
+varieornatus TaxID=947166 RepID=A0A1D1VRY9_RAMVA
+Length=60
+
+ Score = 55.1 bits (131),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 21/54 (39%), Positives = 37/54 (69%), Gaps = 0/54 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKK  54
+           M+ +F+GPRY +LA+ W P+   +GA G +  ++ TDW++I  ++P   GK+K+
+Sbjct  3   MIAKFVGPRYMELAKAWTPSLMAFGAAGGLLGLYLTDWKVITQYIPLYGGKYKE  56
+
+
+> UniRef90_A0A087TU92 Cytochrome b-c1 complex subunit 10 (Fragment) 
+n=1 Tax=Stegodyphus mimosarum TaxID=407821 RepID=A0A087TU92_9ARAC
+Length=57
+
+ Score = 54.7 bits (130),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 22/56 (39%), Positives = 37/56 (66%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           ML + +G     LAR W+PTA+++ + G +  ++ TDW+LIL ++P  N KFK+ +
+Sbjct  1   MLAKIIGKHNLSLARAWLPTAAMFSSGGGLFFLYLTDWKLILQYLPIYNTKFKESE  56
+
+
+> UniRef90_E2AY77 Uncharacterized protein n=1 Tax=Camponotus floridanus 
+TaxID=104421 RepID=E2AY77_CAMFO
+Length=53
+
+ Score = 53.1 bits (126),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 36/49 (73%), Gaps = 0/49 (0%)
+
+Query  6   LGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKK  54
+           LG ++ +LA  W+P+A+ +G  G + L++ TDW+++L +VP+  GKFK+
+Sbjct  5   LGRKHVELAGKWIPSAAAYGTAGTLTLLYFTDWKVVLQYVPFYGGKFKE  53
+
+
+> UniRef90_E7D1Z2 Uncharacterized protein n=1 Tax=Latrodectus hesperus 
+TaxID=256737 RepID=E7D1Z2_LATHE
+Length=56
+
+ Score = 53.1 bits (126),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 21/56 (38%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLT+ +G  Y  +A+ W  T    GA   +  ++ TDW+LI  ++P  N KFK+D+
+Sbjct  1   MLTKLIGKHYIDMAKAWSKTGVTLGATAGLAFLFVTDWKLIAQYIPIYNTKFKEDE  56
+
+
+> UniRef90_A0A0J7KM14 Cytochrome b-c1 complex subunit 10 n=1 Tax=Lasius 
+niger TaxID=67767 RepID=A0A0J7KM14_LASNI
+Length=77
+
+ Score = 53.1 bits (126),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  6   LGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKK  54
+           LGP++ +LA  W PTA  +G   ++ L++ TDW+ +L +VP+ +GKF++
+Sbjct  5   LGPKHMELAGKWFPTAVSYGTGASLALLYFTDWKAVLQYVPFYSGKFQE  53
+
+
+> UniRef90_K7IPB8 Uncharacterized protein n=1 Tax=Nasonia vitripennis 
+TaxID=7425 RepID=K7IPB8_NASVI
+Length=52
+
+ Score = 50.1 bits (118),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  6   LGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKK  54
+           +G ++ +LA  W+P+A+ +G    + L++ TDW+L+L ++PY  GKFK+
+Sbjct  4   IGRKHIELAMKWLPSAATYGTGAGLTLLYFTDWKLVLQYMPYYGGKFKE  52
+
+
+> UniRef90_A0A1W4XBT4 cytochrome b-c1 complex subunit 10-like n=1 
+Tax=Agrilus planipennis TaxID=224129 RepID=A0A1W4XBT4_AGRPL
+Length=55
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 20/53 (38%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  2   LTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKK  54
+           L R LG ++ +LA  WV     +G   ++G+V+ TDW+++L +VP+ N KF++
+Sbjct  3   LLRGLGKKHIELATKWVAPVITYGTAASLGVVYFTDWKVVLQYVPFYNTKFEE  55
+
+
+> UniRef90_A0A2L2Y056 Uncharacterized protein n=1 Tax=Parasteatoda 
+tepidariorum TaxID=114398 RepID=A0A2L2Y056_PARTP
+Length=57
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 19/56 (34%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  1   MLTRFLGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           MLTR +G       ++W  T + +GA G +G ++ TDW+ +L ++P  N KF+  +
+Sbjct  1   MLTRIIGKNRIAFVQSWSKTGATFGAAGGLGFLYFTDWKAVLKYLPVYNTKFQNSE  56
+
+
+> UniRef90_A0A1I8N7W9 Uncharacterized protein n=2 Tax=Calyptratae 
+TaxID=43742 RepID=A0A1I8N7W9_MUSDO
+Length=55
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  6   LGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+            G ++ ++A ++V +A  +G   ++GL++ TDW+L+L +VP+   KF+K +
+Sbjct  5   FGKKHAEIATSFVGSAVGFGGAASLGLLYFTDWKLVLQYVPFYGSKFEKSE  55
+
+
+> UniRef90_A0A0Q9WHH6 Uncharacterized protein n=2 Tax=Drosophila 
+virilis TaxID=7244 RepID=A0A0Q9WHH6_DROVI
+Length=65
+
+ Score = 48.1 bits (113),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 32/46 (70%), Gaps = 0/46 (0%)
+
+Query  11  RQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKDD  56
+           +++A+ ++P+A  +G  G + L++ TDWRLI +++P  N K+ K +
+Sbjct  18  QEMAKAFIPSAGCFGMAGVLALIYFTDWRLITNYIPLYNTKYPKPE  63
+
+
+> UniRef90_A0A0L7RBY8 Uncharacterized protein n=1 Tax=Habropoda 
+laboriosa TaxID=597456 RepID=A0A0L7RBY8_9HYME
+Length=51
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 15/47 (32%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  6   LGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKF  52
+           +G ++ ++A  W+P+A  +GA  ++ LV+ TDW++++ ++P+   KF
+Sbjct  3   VGRKHLEVATKWIPSAVYYGAAASLTLVYFTDWKIVVKYIPFYGSKF  49
+
+
+> UniRef90_A0A293MBX2 Uncharacterized protein (Fragment) n=1 Tax=Ornithodoros 
+erraticus TaxID=265619 RepID=A0A293MBX2_ORNER
+Length=93
+
+ Score = 45.4 bits (106),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  6   LGPRYRQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKFKKD  55
+           LGP+  +L + W  +A  +G    + +++ TDW+L+L ++P  N K+K+D
+Sbjct  44  LGPKVLELTKIWSRSAGAFGGTAGLAVLYFTDWKLVLQYLPIYNTKYKRD  93
+
+
+> UniRef90_A0A1X7UUM7 Uncharacterized protein n=1 Tax=Amphimedon 
+queenslandica TaxID=400682 RepID=A0A1X7UUM7_AMPQE
+Length=100
+
+ Score = 41.6 bits (96),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 19/38 (50%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  15  RNWVPTASLWGAVGAVGLVWATDWRLILDWVPYINGKF  52
+           R+W PTA    A   V LV+ TDW+++L +VPY+ GKF
+Sbjct  47  RSWSPTALALLAGAGVTLVYMTDWQVVLRYVPYVRGKF  84
+
+
+> UniRef90_A0A1W4UUC8 cytochrome b-c1 complex subunit 10 n=1 Tax=Drosophila 
+ficusphila TaxID=30025 RepID=A0A1W4UUC8_DROFC
+Length=78
+
+ Score = 37.0 bits (84),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  11  RQLARNWVPTASLWGAVGAVGLVWATDWRLILDWVPYIN  49
+           + LA  ++P+A+ +G   A+ +V+ TDW++I  W+P  N
+Sbjct  21  KALALAFIPSAATFGLAAALAVVYFTDWKVIAGWIPLYN  59
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.518    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 83860
+
+
+  Database: isar.db.95
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 3,320
+  Number of sequences in database:  44
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

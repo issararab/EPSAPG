@@ -1,0 +1,1038 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.131
+           59 sequences; 4,585 total letters
+
+Results from round 1
+
+
+Query= P13183|1occK|COX7B_BOVIN 0.6125
+
+Length=80
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P13183 Cytochrome c oxidase subunit 7B, mitochondrial ...  169     3e-60
+  UniRef90_A0A287BJ57 Cytochrome c oxidase subunit 7B n=2 Tax=Eut...  152     1e-53
+  UniRef90_A0A2U3V647 cytochrome c oxidase subunit 7B, mitochondr...  150     4e-53
+  UniRef90_W5QE72 Uncharacterized protein n=4 Tax=Caprinae TaxID=...  149     2e-52
+  UniRef90_G1Q6G3 Cytochrome c oxidase subunit 7B n=10 Tax=Chirop...  148     3e-52
+  UniRef90_A0A2Y9LEN2 cytochrome c oxidase subunit 7B, mitochondr...  147     8e-52
+  UniRef90_G5E773 Cytochrome c oxidase subunit 7B n=3 Tax=Afrothe...  146     2e-51
+  UniRef90_A0A2K6FM52 Uncharacterized protein n=2 Tax=Lemuriforme...  146     2e-51
+  UniRef90_W5P5E0 Uncharacterized protein n=1 Tax=Ovis aries TaxI...  145     4e-51
+  UniRef90_A0A1U7UIP7 cytochrome c oxidase subunit 7B, mitochondr...  145     4e-51
+  UniRef90_A0A1S3AG59 cytochrome c oxidase subunit 7B, mitochondr...  145     5e-51
+  UniRef90_K9J134 Putative cytochrome c oxidase chain viib (Fragm...  142     8e-50
+  UniRef90_P56393 Cytochrome c oxidase subunit 7B, mitochondrial ...  142     1e-49
+  UniRef90_F6RL03 Cytochrome c oxidase subunit 7B n=11 Tax=Simiif...  142     1e-49
+  UniRef90_P24311 Cytochrome c oxidase subunit 7B, mitochondrial ...  141     2e-49
+  UniRef90_H0X440 Uncharacterized protein n=3 Tax=Euarchontoglire...  141     3e-49
+  UniRef90_G1SCU2 Uncharacterized protein n=5 Tax=Glires TaxID=31...  139     1e-48
+  UniRef90_P80431 Cytochrome c oxidase subunit 7B, mitochondrial ...  138     4e-48
+  UniRef90_Q8TF08 Cytochrome c oxidase subunit 7B2, mitochondrial...  135     7e-47
+  UniRef90_A0A1D5Q7Y6 Uncharacterized protein n=10 Tax=Cercopithe...  134     2e-46
+  UniRef90_A0A340XUY2 cytochrome c oxidase subunit 7B, mitochondr...  130     3e-45
+  UniRef90_L5JX51 Cytochrome c oxidase subunit 7B2, mitochondrial...  126     2e-43
+  UniRef90_A0A341AA24 cytochrome c oxidase subunit 7B2, mitochond...  126     2e-43
+  UniRef90_A0A2Y9EC87 cytochrome c oxidase subunit 7B2, mitochond...  125     3e-43
+  UniRef90_A0A1U7TT78 cytochrome c oxidase subunit 7B2, mitochond...  125     5e-43
+  UniRef90_A0A2Y9R856 cytochrome c oxidase subunit 7B2, mitochond...  124     9e-43
+  UniRef90_A0A3P4LT07 Uncharacterized protein n=1 Tax=Gulo gulo T...  124     1e-42
+  UniRef90_F6RVT0 Uncharacterized protein n=1 Tax=Ornithorhynchus...  123     3e-42
+  UniRef90_G1MK24 Cytochrome c oxidase subunit 7B2 n=9 Tax=Canifo...  122     5e-42
+  UniRef90_A0A1D5QB49 Uncharacterized protein n=1 Tax=Macaca mula...  122     8e-42
+  UniRef90_G3T3I7 Cytochrome c oxidase subunit 7B2 n=2 Tax=Loxodo...  121     1e-41
+  UniRef90_F7DRK8 Cytochrome c oxidase subunit 7B2 n=2 Tax=Equus ...  121     1e-41
+  UniRef90_L9KSW3 Cytochrome c oxidase subunit 7B, mitochondrial ...  121     1e-41
+  UniRef90_F7C7B2 Uncharacterized protein n=2 Tax=Boreoeutheria T...  120     2e-41
+  UniRef90_A0A2Y9JR42 cytochrome c oxidase subunit 7B2, mitochond...  120     3e-41
+  UniRef90_A0A287AWA5 Cytochrome c oxidase subunit 7B2 n=1 Tax=Su...  120     5e-41
+  UniRef90_A0A2Y9KKN6 cytochrome c oxidase subunit 7B, mitochondr...  119     7e-41
+  UniRef90_D7NY95 Cytochrome c oxidase subunit VIIb (Fragment) n=...  118     1e-40
+  UniRef90_A0A2I2UWQ6 Cytochrome c oxidase subunit 7B2 n=4 Tax=Fe...  118     2e-40
+  UniRef90_G1Q9V8 Cytochrome c oxidase subunit 7B2 n=6 Tax=Vesper...  117     5e-40
+  UniRef90_A0A2U3X2P5 cytochrome c oxidase subunit 7B, mitochondr...  115     5e-39
+  UniRef90_A0A2Y9RJW7 cytochrome c oxidase subunit 7B, mitochondr...  114     1e-38
+  UniRef90_A0A1S3AS38 cytochrome c oxidase subunit 7B2, mitochond...  114     2e-38
+  UniRef90_F7FZ47 Uncharacterized protein n=2 Tax=Metatheria TaxI...  113     8e-38
+  UniRef90_A0A2K5QRF8 Uncharacterized protein n=1 Tax=Cebus capuc...  110     4e-37
+  UniRef90_A0A2K5JUS9 Uncharacterized protein n=1 Tax=Colobus ang...  110     5e-37
+  UniRef90_A0A1D5QLR2 Uncharacterized protein n=9 Tax=Cercopithec...  109     8e-37
+  UniRef90_A0A3P4RCH1 Uncharacterized protein n=1 Tax=Gulo gulo T...  103     1e-34
+  UniRef90_A0A2K5QQU6 Cytochrome c oxidase subunit 7B n=1 Tax=Ceb...  101     9e-34
+  UniRef90_Q3SZX1 MGC127695 protein n=8 Tax=Pecora TaxID=35500 Re...  101     1e-33
+  UniRef90_A0A3B3ITX0 Cytochrome c oxidase subunit 7B, mitochondr...  99.8    4e-33
+  UniRef90_A0A287B105 Uncharacterized protein n=1 Tax=Sus scrofa ...  97.4    7e-32
+  UniRef90_G1Q9C8 Uncharacterized protein (Fragment) n=1 Tax=Myot...  95.1    3e-31
+  UniRef90_A0A2I3SIM3 Uncharacterized protein n=2 Tax=Homininae T...  93.6    1e-30
+  UniRef90_S7MDZ0 Cytochrome c oxidase subunit 7B, mitochondrial ...  93.2    2e-30
+  UniRef90_S7NLS2 Cytochrome c oxidase subunit 7B, mitochondrial ...  80.5    1e-25
+  UniRef90_G3VQF4 Uncharacterized protein (Fragment) n=1 Tax=Sarc...  78.2    3e-24
+  UniRef90_A0A3P4Q6W1 Uncharacterized protein n=1 Tax=Gulo gulo T...  68.2    1e-20
+  UniRef90_A0A3P4S3D8 Uncharacterized protein n=1 Tax=Gulo gulo T...  59.3    5e-17
+
+
+> UniRef90_P13183 Cytochrome c oxidase subunit 7B, mitochondrial 
+n=10 Tax=Pecora TaxID=35500 RepID=COX7B_BOVIN
+Length=80
+
+ Score = 169 bits (427),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI
+Sbjct  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWNPSPVGRVTPKEWREQ
+Sbjct  61  GIEWNPSPVGRVTPKEWREQ  80
+
+
+> UniRef90_A0A287BJ57 Cytochrome c oxidase subunit 7B n=2 Tax=Eutheria 
+TaxID=9347 RepID=A0A287BJ57_PIG
+Length=80
+
+ Score = 152 bits (383),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 70/80 (88%), Positives = 75/80 (94%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSRLRV++IQQ +ARQ HQKRAPDFHDKYGNA+LASGATFCVAVW Y ATQI
+Sbjct  1   MFPLAKNALSRLRVRNIQQTMARQNHQKRAPDFHDKYGNAILASGATFCVAVWAYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWRE+
+Sbjct  61  GIEWNLSPVGRVTPKEWREE  80
+
+
+> UniRef90_A0A2U3V647 cytochrome c oxidase subunit 7B, mitochondrial 
+n=9 Tax=Laurasiatheria TaxID=314145 RepID=A0A2U3V647_TURTR
+Length=80
+
+ Score = 150 bits (379),  Expect = 4e-53, Method: Compositional matrix adjust.
+ Identities = 72/80 (90%), Positives = 74/80 (93%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSRL V+SI QA+ARQ HQKRAPDFHDKYGNAVLASGATFCVAVW Y ATQI
+Sbjct  1   MFPLAKNALSRLGVRSIPQAMARQSHQKRAPDFHDKYGNAVLASGATFCVAVWAYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWREQ
+Sbjct  61  GIEWNLSPVGRVTPKEWREQ  80
+
+
+> UniRef90_W5QE72 Uncharacterized protein n=4 Tax=Caprinae TaxID=9963 
+RepID=W5QE72_SHEEP
+Length=85
+
+ Score = 149 bits (376),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 71/80 (89%), Positives = 74/80 (93%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NALSRLR +SIQQAVARQ HQ+RAPD HDKYGNAVLASGATF VAVWVY ATQI
+Sbjct  6   MFPLARNALSRLRAESIQQAVARQTHQQRAPDCHDKYGNAVLASGATFHVAVWVYTATQI  65
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWNPSPVG VTPKEWREQ
+Sbjct  66  GIEWNPSPVGTVTPKEWREQ  85
+
+
+> UniRef90_G1Q6G3 Cytochrome c oxidase subunit 7B n=10 Tax=Chiroptera 
+TaxID=9397 RepID=G1Q6G3_MYOLU
+Length=80
+
+ Score = 148 bits (374),  Expect = 3e-52, Method: Compositional matrix adjust.
+ Identities = 68/79 (86%), Positives = 72/79 (91%), Gaps = 0/79 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSRL V+SIQQ +ARQIHQKR PDFHDKYGNA+LASGATFCVA W Y ATQI
+Sbjct  2   MFPLAKNALSRLPVRSIQQTMARQIHQKRTPDFHDKYGNAILASGATFCVATWTYTATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWRE  79
+           GIEWN SPVGRVTPKEWR+
+Sbjct  62  GIEWNLSPVGRVTPKEWRD  80
+
+
+> UniRef90_A0A2Y9LEN2 cytochrome c oxidase subunit 7B, mitochondrial 
+n=19 Tax=Carnivora TaxID=33554 RepID=A0A2Y9LEN2_ENHLU
+Length=80
+
+ Score = 147 bits (371),  Expect = 8e-52, Method: Compositional matrix adjust.
+ Identities = 67/80 (84%), Positives = 72/80 (90%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFP+A+ ALSRLRVQSI Q VARQ HQKR PDFHDKYGNA+LASGATFC+AVW Y ATQI
+Sbjct  1   MFPMARTALSRLRVQSIPQTVARQSHQKRTPDFHDKYGNAILASGATFCIAVWAYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRDQ  80
+
+
+> UniRef90_G5E773 Cytochrome c oxidase subunit 7B n=3 Tax=Afrotheria 
+TaxID=311790 RepID=G5E773_LOXAF
+Length=80
+
+ Score = 146 bits (369),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 65/80 (81%), Positives = 74/80 (93%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MF +AKNALSRL+V+SIQQ +ARQ HQKRAPDFHDKYGNA+LASGATFCVA+W Y+ TQI
+Sbjct  1   MFSMAKNALSRLQVRSIQQTMARQSHQKRAPDFHDKYGNAILASGATFCVALWTYVTTQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGR+TPKEWR+Q
+Sbjct  61  GIEWNLSPVGRITPKEWRDQ  80
+
+
+> UniRef90_A0A2K6FM52 Uncharacterized protein n=2 Tax=Lemuriformes 
+TaxID=376915 RepID=A0A2K6FM52_PROCO
+Length=80
+
+ Score = 146 bits (368),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 65/80 (81%), Positives = 75/80 (94%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSRL+V++IQQ +ARQ HQKR PDFHDKYGNAVLA+GATFC+A+W Y+ATQI
+Sbjct  1   MFPLAKNALSRLQVRNIQQTMARQSHQKRTPDFHDKYGNAVLATGATFCIAMWTYVATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GI+WN SPVGRVTPKEWRE+
+Sbjct  61  GIQWNLSPVGRVTPKEWREE  80
+
+
+> UniRef90_W5P5E0 Uncharacterized protein n=1 Tax=Ovis aries TaxID=9940 
+RepID=W5P5E0_SHEEP
+Length=80
+
+ Score = 145 bits (366),  Expect = 4e-51, Method: Compositional matrix adjust.
+ Identities = 67/80 (84%), Positives = 73/80 (91%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           +FPLAKN +SRLR +SIQQAVARQIHQK+APDFHDK+GNA+LASGA FCVAVWVY ATQI
+Sbjct  1   IFPLAKNTVSRLRAESIQQAVARQIHQKQAPDFHDKFGNAILASGAAFCVAVWVYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWNP PV RV PKEWREQ
+Sbjct  61  GIEWNPLPVVRVIPKEWREQ  80
+
+
+> UniRef90_A0A1U7UIP7 cytochrome c oxidase subunit 7B, mitochondrial 
+n=2 Tax=Eutheria TaxID=9347 RepID=A0A1U7UIP7_TARSY
+Length=80
+
+ Score = 145 bits (366),  Expect = 4e-51, Method: Compositional matrix adjust.
+ Identities = 67/80 (84%), Positives = 72/80 (90%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFP AKNALSRL V+SIQQ + RQ HQKR PDFHDKYGNAVLASGATFC+AVW Y+ATQI
+Sbjct  1   MFPFAKNALSRLPVRSIQQTMTRQSHQKRIPDFHDKYGNAVLASGATFCIAVWTYVATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRDQ  80
+
+
+> UniRef90_A0A1S3AG59 cytochrome c oxidase subunit 7B, mitochondrial 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3AG59_ERIEU
+Length=80
+
+ Score = 145 bits (366),  Expect = 5e-51, Method: Compositional matrix adjust.
+ Identities = 65/80 (81%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLAKNALSR+RVQSIQQ + R+ HQKR PDFHDKYGNA+LASGA FC+ VW Y ATQI
+Sbjct  1   MFPLAKNALSRIRVQSIQQIMTRKSHQKRTPDFHDKYGNAILASGAAFCITVWAYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRDQ  80
+
+
+> UniRef90_K9J134 Putative cytochrome c oxidase chain viib (Fragment) 
+n=2 Tax=Desmodus rotundus TaxID=9430 RepID=K9J134_DESRO
+Length=80
+
+ Score = 142 bits (358),  Expect = 8e-50, Method: Compositional matrix adjust.
+ Identities = 65/79 (82%), Positives = 71/79 (90%), Gaps = 0/79 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFP+AKNALSRL V++IQQ  ARQI+QKR PDFHDKYGNAVLA GATFC+A WVY ATQI
+Sbjct  2   MFPMAKNALSRLPVRNIQQITARQINQKRTPDFHDKYGNAVLAGGATFCIATWVYTATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWRE  79
+           GIEWN SPVGRVTPKEWR+
+Sbjct  62  GIEWNLSPVGRVTPKEWRD  80
+
+
+> UniRef90_P56393 Cytochrome c oxidase subunit 7B, mitochondrial 
+n=3 Tax=cellular organisms TaxID=131567 RepID=COX7B_MOUSE
+Length=80
+
+ Score = 142 bits (357),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 65/80 (81%), Positives = 70/80 (88%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PLAKNALSRL+V+SIQQ VARQ HQKRAP FHDKYGNA+LA GA FCV+ W Y ATQI
+Sbjct  1   MLPLAKNALSRLQVRSIQQVVARQSHQKRAPSFHDKYGNAILAGGAIFCVSTWTYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNMSPVGRVTPKEWRDQ  80
+
+
+> UniRef90_F6RL03 Cytochrome c oxidase subunit 7B n=11 Tax=Simiiformes 
+TaxID=314293 RepID=F6RL03_CALJA
+Length=81
+
+ Score = 142 bits (357),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 63/80 (79%), Positives = 70/80 (88%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL KNALSRL+V+SIQQ +ARQ HQKR PDFHDKYGNA+LA GATFC+ +W Y+ TQI
+Sbjct  1   MFPLVKNALSRLQVRSIQQTMARQSHQKRTPDFHDKYGNAILAGGATFCITMWTYVITQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> UniRef90_P24311 Cytochrome c oxidase subunit 7B, mitochondrial 
+n=14 Tax=Catarrhini TaxID=9526 RepID=COX7B_HUMAN
+Length=80
+
+ Score = 141 bits (356),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 63/80 (79%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL K+AL+RL+V+SIQQ +ARQ HQKR PDFHDKYGNAVLASGATFC+  W Y+ATQ+
+Sbjct  1   MFPLVKSALNRLQVRSIQQTMARQSHQKRTPDFHDKYGNAVLASGATFCIVTWTYVATQV  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> UniRef90_H0X440 Uncharacterized protein n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=H0X440_OTOGA
+Length=80
+
+ Score = 141 bits (355),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 65/80 (81%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MF LAKNALSRL+V+ IQQ +AR  HQKR PDFHDKYGNAVLASGATFC+AVW Y+ TQI
+Sbjct  1   MFFLAKNALSRLQVRYIQQTMARASHQKRTPDFHDKYGNAVLASGATFCIAVWTYVMTQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRDQ  80
+
+
+> UniRef90_G1SCU2 Uncharacterized protein n=5 Tax=Glires TaxID=314147 
+RepID=G1SCU2_RABIT
+Length=80
+
+ Score = 139 bits (351),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 63/80 (79%), Positives = 69/80 (86%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFP+ +NALSRL+V+SIQQ +ARQ HQKR PDFHDKYGN VLA GA FC+AVW Y ATQI
+Sbjct  1   MFPVVRNALSRLQVRSIQQTMARQSHQKRTPDFHDKYGNIVLAGGAMFCIAVWTYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> UniRef90_P80431 Cytochrome c oxidase subunit 7B, mitochondrial 
+n=3 Tax=Muridae TaxID=10066 RepID=COX7B_RAT
+Length=80
+
+ Score = 138 bits (347),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 62/80 (78%), Positives = 69/80 (86%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PLAKNALSRL+V+SIQQ VARQ HQK+ P FHDKYGNAVLA G+ FC++ W Y ATQI
+Sbjct  1   MLPLAKNALSRLQVRSIQQVVARQSHQKKTPTFHDKYGNAVLAGGSIFCISAWTYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR+Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRDQ  80
+
+
+> UniRef90_Q8TF08 Cytochrome c oxidase subunit 7B2, mitochondrial 
+n=25 Tax=Simiiformes TaxID=314293 RepID=CX7B2_HUMAN
+Length=81
+
+ Score = 135 bits (339),  Expect = 7e-47, Method: Compositional matrix adjust.
+ Identities = 60/80 (75%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NALS L++QSI Q++AR  H K +PDFHDKYGNAVLASG  FCVA WV+ ATQI
+Sbjct  2   MFPLARNALSSLKIQSILQSMARHSHVKHSPDFHDKYGNAVLASGTAFCVATWVFTATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW+ Q
+Sbjct  62  GIEWNLSPVGRVTPKEWKHQ  81
+
+
+> UniRef90_A0A1D5Q7Y6 Uncharacterized protein n=10 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5Q7Y6_MACMU
+Length=82
+
+ Score = 134 bits (336),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 64/82 (78%), Positives = 69/82 (84%), Gaps = 2/82 (2%)
+
+Query  1   MFPLAKNALS--RLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMAT  58
+           MFPL KNAL+   L+VQSIQQ +ARQ HQK  PDFHDKYGN VLASGATFC+AVW Y AT
+Sbjct  1   MFPLVKNALTAGHLQVQSIQQTMARQSHQKHKPDFHDKYGNIVLASGATFCIAVWTYGAT  60
+
+Query  59  QIGIEWNPSPVGRVTPKEWREQ  80
+           QIGIE N SPVGRVTPKEWR+Q
+Sbjct  61  QIGIELNLSPVGRVTPKEWRDQ  82
+
+
+> UniRef90_A0A340XUY2 cytochrome c oxidase subunit 7B, mitochondrial-like 
+n=1 Tax=Lipotes vexillifer TaxID=118797 RepID=A0A340XUY2_LIPVE
+Length=80
+
+ Score = 130 bits (328),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 64/80 (80%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PLAKNAL+ L  +SIQQ +ARQ HQKRAPDFHDKY NAVLASGATF VAVW Y ATQI
+Sbjct  1   MLPLAKNALNCLGARSIQQTMARQNHQKRAPDFHDKYRNAVLASGATFHVAVWAYTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPV RVTPKEWRE 
+Sbjct  61  GIEWNLSPVCRVTPKEWREH  80
+
+
+> UniRef90_L5JX51 Cytochrome c oxidase subunit 7B2, mitochondrial 
+n=3 Tax=Pteropodinae TaxID=77225 RepID=L5JX51_PTEAL
+Length=81
+
+ Score = 126 bits (317),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 55/80 (69%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NAL   +++SIQQ  ARQ H+K +PDFHDKYGNA+LASG TFCV  W++ ATQI
+Sbjct  2   MFPLARNALRSFKIRSIQQIRARQSHKKHSPDFHDKYGNALLASGITFCVVAWIFAATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GI+WN SPVGRVTPKEW + 
+Sbjct  62  GIKWNLSPVGRVTPKEWNDD  81
+
+
+> UniRef90_A0A341AA24 cytochrome c oxidase subunit 7B2, mitochondrial-like 
+n=7 Tax=Cetacea TaxID=9721 RepID=A0A341AA24_9CETA
+Length=81
+
+ Score = 126 bits (316),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 54/80 (68%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M PL +NALS LR++SIQQ  ARQ H K +PDFHDKYG+ +LA G  FCV VWV+ ATQ+
+Sbjct  2   MLPLVRNALSSLRIRSIQQIRARQSHSKHSPDFHDKYGHIILAGGTAFCVVVWVFTATQV  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWNPSPVGR TPKEW ++
+Sbjct  62  GIEWNPSPVGRATPKEWNDE  81
+
+
+> UniRef90_A0A2Y9EC87 cytochrome c oxidase subunit 7B2, mitochondrial 
+n=1 Tax=Trichechus manatus latirostris TaxID=127582 RepID=A0A2Y9EC87_TRIMA
+Length=81
+
+ Score = 125 bits (315),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 54/80 (68%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFP A+N L  L ++S QQ +ARQ HQK  PDFHDKYG+ +LASGATFC   WV++ TQI
+Sbjct  2   MFPFARNVLRSLEIRSFQQMMARQSHQKHPPDFHDKYGDTILASGATFCFVAWVFVITQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           G+EWN SPVGRVTPKEWRE+
+Sbjct  62  GLEWNLSPVGRVTPKEWREK  81
+
+
+> UniRef90_A0A1U7TT78 cytochrome c oxidase subunit 7B2, mitochondrial 
+n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7TT78_TARSY
+Length=79
+
+ Score = 125 bits (313),  Expect = 5e-43, Method: Compositional matrix adjust.
+ Identities = 57/79 (72%), Positives = 65/79 (82%), Gaps = 0/79 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NAL  L++ SIQQ +ARQ + K + DFHDKYGNAVLASG TFCV  WV+  TQI
+Sbjct  1   MFPLARNALRGLKIHSIQQRMARQRYIKCSQDFHDKYGNAVLASGVTFCVVAWVFTTTQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWRE  79
+           GIEWNPSPVGRVTPKEW+ 
+Sbjct  61  GIEWNPSPVGRVTPKEWKR  79
+
+
+> UniRef90_A0A2Y9R856 cytochrome c oxidase subunit 7B2, mitochondrial-like 
+n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=A0A2Y9R856_TRIMA
+Length=81
+
+ Score = 124 bits (312),  Expect = 9e-43, Method: Compositional matrix adjust.
+ Identities = 56/80 (70%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+NAL  L+VQSIQQ +A Q HQK + DFHDKYGNAVLAS  TFC   WV++ TQ+
+Sbjct  2   MFPLARNALLSLKVQSIQQMIATQSHQKHSLDFHDKYGNAVLASRVTFCFVAWVFVITQL  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           G+EWN SPV RVTPKEWRE+
+Sbjct  62  GLEWNLSPVRRVTPKEWREK  81
+
+
+> UniRef90_A0A3P4LT07 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4LT07_GULGU
+Length=80
+
+ Score = 124 bits (311),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 56/80 (70%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFP+AKNALSRL++QSIQQ +ARQ  QK+ PDFHDKY NAV  +GATFC AV  Y AT I
+Sbjct  1   MFPMAKNALSRLQLQSIQQTMARQSRQKQTPDFHDKYSNAVFTNGATFCAAVCAYTATHI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SP+ R TPK WR+Q
+Sbjct  61  GIEWNLSPISRGTPKAWRDQ  80
+
+
+> UniRef90_F6RVT0 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6RVT0_ORNAN
+Length=80
+
+ Score = 123 bits (308),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 55/80 (69%), Positives = 61/80 (76%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MF +A+ ALSRL  +SIQQ  ARQIH+KR PDFHDKYG  +L  GA FC + W Y  TQI
+Sbjct  1   MFAVARGALSRLSARSIQQTAARQIHRKREPDFHDKYGTVILLGGAIFCASAWGYTVTQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEWR Q
+Sbjct  61  GIEWNLSPVGRVTPKEWRNQ  80
+
+
+> UniRef90_G1MK24 Cytochrome c oxidase subunit 7B2 n=9 Tax=Caniformia 
+TaxID=379584 RepID=G1MK24_AILME
+Length=81
+
+ Score = 122 bits (307),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 52/80 (65%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL +NAL+R +++SIQQ  +RQ H+  + DFHDKYGN VLASG  FCV  WV++ATQI
+Sbjct  2   MFPLTRNALNRFKIRSIQQIRSRQSHENHSRDFHDKYGNTVLASGTAFCVVAWVFIATQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GI+WN SPVGRVTPKEW ++
+Sbjct  62  GIKWNLSPVGRVTPKEWNDE  81
+
+
+> UniRef90_A0A1D5QB49 Uncharacterized protein n=1 Tax=Macaca mulatta 
+TaxID=9544 RepID=A0A1D5QB49_MACMU
+Length=80
+
+ Score = 122 bits (305),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 58/80 (73%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL K +LS L V SIQQ +ARQ HQKR  DFHDK GNAVLA+G TFC+AVW Y+ATQI
+Sbjct  1   MFPLVKTSLSHLHVPSIQQIMARQSHQKRTSDFHDKGGNAVLANGDTFCIAVWTYVATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GI  N SPVGRVT KEWR+Q
+Sbjct  61  GIIGNLSPVGRVTLKEWRDQ  80
+
+
+> UniRef90_G3T3I7 Cytochrome c oxidase subunit 7B2 n=2 Tax=Loxodonta 
+africana TaxID=9785 RepID=G3T3I7_LOXAF
+Length=79
+
+ Score = 121 bits (304),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 52/78 (67%), Positives = 63/78 (81%), Gaps = 0/78 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+  L  L ++S QQ +ARQ HQK  PDFHDKYG+A+LASGATFC   WV++ TQI
+Sbjct  2   MFPLARKVLRSLELRSFQQMMARQSHQKHLPDFHDKYGDAILASGATFCFVAWVFVITQI  61
+
+Query  61  GIEWNPSPVGRVTPKEWR  78
+           G++WN SPVGR+TPKEWR
+Sbjct  62  GLKWNLSPVGRITPKEWR  79
+
+
+> UniRef90_F7DRK8 Cytochrome c oxidase subunit 7B2 n=2 Tax=Equus 
+TaxID=35510 RepID=F7DRK8_HORSE
+Length=80
+
+ Score = 121 bits (304),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 52/80 (65%), Positives = 62/80 (78%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL++N LS L+++SIQQ  ARQ H K +PDFHDKYGN +L  G  FCV  WV+  TQI
+Sbjct  1   MFPLSRNVLSSLKIRSIQQIRARQSHAKHSPDFHDKYGNTLLTRGTIFCVVAWVFTITQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW ++
+Sbjct  61  GIEWNQSPVGRVTPKEWNDE  80
+
+
+> UniRef90_L9KSW3 Cytochrome c oxidase subunit 7B, mitochondrial 
+(Fragment) n=2 Tax=Tupaia chinensis TaxID=246437 RepID=L9KSW3_TUPCH
+Length=67
+
+ Score = 121 bits (303),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 54/67 (81%), Positives = 59/67 (88%), Gaps = 0/67 (0%)
+
+Query  14  VQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVT  73
+           V+S+QQ + R I QKR PDFHDKYGNAVLASGATFC+AVW Y ATQIGIEWN SPVGRVT
+Sbjct  1   VRSVQQTMTRLIQQKRTPDFHDKYGNAVLASGATFCIAVWTYTATQIGIEWNLSPVGRVT  60
+
+Query  74  PKEWREQ  80
+           PKEWR+Q
+Sbjct  61  PKEWRDQ  67
+
+
+> UniRef90_F7C7B2 Uncharacterized protein n=2 Tax=Boreoeutheria 
+TaxID=1437010 RepID=F7C7B2_MACMU
+Length=74
+
+ Score = 120 bits (302),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 0/66 (0%)
+
+Query  15  QSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVTP  74
+           +SIQQ +ARQ HQKR PDFHDKYGNAVLA GATFC+A W Y+ATQIGIEWN SPVGRVTP
+Sbjct  9   RSIQQTMARQSHQKRTPDFHDKYGNAVLAGGATFCIATWTYVATQIGIEWNLSPVGRVTP  68
+
+Query  75  KEWREQ  80
+           KEWR Q
+Sbjct  69  KEWRNQ  74
+
+
+> UniRef90_A0A2Y9JR42 cytochrome c oxidase subunit 7B2, mitochondrial-like 
+n=3 Tax=Mustelidae TaxID=9655 RepID=A0A2Y9JR42_ENHLU
+Length=80
+
+ Score = 120 bits (302),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 51/80 (64%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL +NAL++ +++SIQQ  +RQ H+  + DFHD+YGN VLASG  FCV  WV+ ATQI
+Sbjct  1   MFPLTRNALNQFKIRSIQQLRSRQSHKNHSQDFHDRYGNTVLASGTAFCVVAWVFTATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW ++
+Sbjct  61  GIEWNLSPVGRVTPKEWNDE  80
+
+
+> UniRef90_A0A287AWA5 Cytochrome c oxidase subunit 7B2 n=1 Tax=Sus 
+scrofa TaxID=9823 RepID=A0A287AWA5_PIG
+Length=80
+
+ Score = 120 bits (300),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 52/80 (65%), Positives = 61/80 (76%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL +N LS +R++SIQQ   RQ H K +PDFHDKYGN +LA G  FC+  WV +ATQI
+Sbjct  1   MFPLVRNVLSSIRIRSIQQIRTRQNHSKYSPDFHDKYGNILLAGGTAFCLVAWVLIATQI  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTPKEW + 
+Sbjct  61  GIEWNLSPVGRVTPKEWNDD  80
+
+
+> UniRef90_A0A2Y9KKN6 cytochrome c oxidase subunit 7B, mitochondrial-like 
+n=1 Tax=Enhydra lutris kenyoni TaxID=391180 RepID=A0A2Y9KKN6_ENHLU
+Length=82
+
+ Score = 119 bits (299),  Expect = 7e-41, Method: Compositional matrix adjust.
+ Identities = 57/82 (70%), Positives = 65/82 (79%), Gaps = 2/82 (2%)
+
+Query  1   MFPLAKNALSRLRVQSI--QQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMAT  58
+           MF +A+NALSRL+ QS+  QQA A Q HQK+  DFHDKYGNAVLASGATFC+AV  Y AT
+Sbjct  1   MFLMARNALSRLQDQSMHMQQATATQSHQKQTSDFHDKYGNAVLASGATFCIAVRAYTAT  60
+
+Query  59  QIGIEWNPSPVGRVTPKEWREQ  80
+           Q G EW  SPVG +TPKEWR+Q
+Sbjct  61  QTGTEWILSPVGSITPKEWRDQ  82
+
+
+> UniRef90_D7NY95 Cytochrome c oxidase subunit VIIb (Fragment) 
+n=2 Tax=Chiroptera TaxID=9397 RepID=D7NY95_CYNSP
+Length=63
+
+ Score = 118 bits (296),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 54/63 (86%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  14  VQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVT  73
+           VQSIQ+ +ARQIHQ+R PDFHDKYGNAVLASGATFCVA W Y ATQIGIEWN SPVGRVT
+Sbjct  1   VQSIQRTMARQIHQERTPDFHDKYGNAVLASGATFCVATWTYTATQIGIEWNLSPVGRVT  60
+
+Query  74  PKE  76
+           PKE
+Sbjct  61  PKE  63
+
+
+> UniRef90_A0A2I2UWQ6 Cytochrome c oxidase subunit 7B2 n=4 Tax=Felidae 
+TaxID=9681 RepID=A0A2I2UWQ6_FELCA
+Length=79
+
+ Score = 118 bits (296),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 53/80 (66%), Positives = 64/80 (80%), Gaps = 2/80 (3%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MF L +NAL R +++SIQQ   RQ H+K +PDFHDKYGN VLASG+ FCV  WV+ ATQI
+Sbjct  2   MFLLTRNALRRFKIRSIQQI--RQSHEKHSPDFHDKYGNIVLASGSAFCVVAWVFTATQI  59
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GIEWN SPVGRVTP+EW ++
+Sbjct  60  GIEWNLSPVGRVTPEEWNDK  79
+
+
+> UniRef90_G1Q9V8 Cytochrome c oxidase subunit 7B2 n=6 Tax=Vespertilionidae 
+TaxID=9431 RepID=G1Q9V8_MYOLU
+Length=80
+
+ Score = 117 bits (294),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 49/80 (61%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPLA+N L  ++++S QQ  ARQ H+K +PDFHDKYG+ +LASG+ FCV  W++ ATQ+
+Sbjct  1   MFPLARNILRSVKIRSFQQIRARQSHKKHSPDFHDKYGDTILASGSIFCVVAWLFTATQV  60
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GI WN SPVGRVTPKEW ++
+Sbjct  61  GIVWNLSPVGRVTPKEWNDK  80
+
+
+> UniRef90_A0A2U3X2P5 cytochrome c oxidase subunit 7B, mitochondrial-like 
+n=1 Tax=Odobenus rosmarus divergens TaxID=9708 RepID=A0A2U3X2P5_ODORO
+Length=81
+
+ Score = 115 bits (287),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 56/81 (69%), Positives = 64/81 (79%), Gaps = 1/81 (1%)
+
+Query  1   MFPLAKNALSRLRVQSI-QQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQ  59
+           MFP+AKNALS L+ QSI QQA+A Q HQ++ PDFH KYGN VLASGATFCVA+  Y ATQ
+Sbjct  1   MFPMAKNALSCLQDQSIMQQAMAMQNHQEQTPDFHYKYGNTVLASGATFCVALCAYAATQ  60
+
+Query  60  IGIEWNPSPVGRVTPKEWREQ  80
+            GIE   SP G +TPKEWR+Q
+Sbjct  61  TGIECILSPAGSITPKEWRDQ  81
+
+
+> UniRef90_A0A2Y9RJW7 cytochrome c oxidase subunit 7B, mitochondrial-like 
+n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=A0A2Y9RJW7_TRIMA
+Length=72
+
+ Score = 114 bits (284),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 51/71 (72%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           M P+AKN+L  L+ +++QQ +ARQ HQKRAPDFHDKYGNAVLASGAT CVAVW   ATQI
+Sbjct  2   MLPMAKNSLRHLQDRTMQQTIARQSHQKRAPDFHDKYGNAVLASGATVCVAVWTGTATQI  61
+
+Query  61  GIEWNPSPVGR  71
+           G EWN SP+GR
+Sbjct  62  GTEWNLSPMGR  72
+
+
+> UniRef90_A0A1S3AS38 cytochrome c oxidase subunit 7B2, mitochondrial 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3AS38_ERIEU
+Length=82
+
+ Score = 114 bits (284),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 52/82 (63%), Positives = 61/82 (74%), Gaps = 2/82 (2%)
+
+Query  1   MFPLAKNALSRLRVQ--SIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMAT  58
+           M+PLA+  LS L+ Q  S+QQ  AR I  K APDFHDKYGN +L SG TFCVA W Y  T
+Sbjct  1   MYPLARIVLSSLKTQIRSMQQMKARDIQGKYAPDFHDKYGNIILLSGTTFCVATWFYTIT  60
+
+Query  59  QIGIEWNPSPVGRVTPKEWREQ  80
+           QIG++WN SPVGRVTP+EW E+
+Sbjct  61  QIGVQWNLSPVGRVTPREWNEE  82
+
+
+> UniRef90_F7FZ47 Uncharacterized protein n=2 Tax=Metatheria TaxID=9263 
+RepID=F7FZ47_MONDO
+Length=122
+
+ Score = 113 bits (283),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 48/68 (71%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  13   RVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRV  72
+            RV+S QQ V RQ HQ R P+FHDKYG  +L SGATFC+A+W Y ATQIGIEWNPSPVGR+
+Sbjct  55   RVRSFQQTVERQNHQDRMPNFHDKYGTPILLSGATFCLAIWAYAATQIGIEWNPSPVGRI  114
+
+Query  73   TPKEWREQ  80
+             PK+WR Q
+Sbjct  115  APKDWRSQ  122
+
+
+> UniRef90_A0A2K5QRF8 Uncharacterized protein n=1 Tax=Cebus capucinus 
+imitator TaxID=1737458 RepID=A0A2K5QRF8_CEBCA
+Length=68
+
+ Score = 110 bits (274),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 49/67 (73%), Positives = 55/67 (82%), Gaps = 0/67 (0%)
+
+Query  14  VQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVT  73
+           +  +QQ +AR  HQK  PDFHDKYGNAVLAS  TFC+AVW Y+ATQIGIEWN SPVGRV 
+Sbjct  2   LSHLQQTMARLSHQKCTPDFHDKYGNAVLASRTTFCIAVWTYVATQIGIEWNLSPVGRVI  61
+
+Query  74  PKEWREQ  80
+           PKEWR+Q
+Sbjct  62  PKEWRDQ  68
+
+
+> UniRef90_A0A2K5JUS9 Uncharacterized protein n=1 Tax=Colobus angolensis 
+palliatus TaxID=336983 RepID=A0A2K5JUS9_COLAP
+Length=96
+
+ Score = 110 bits (275),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 51/75 (68%), Positives = 58/75 (77%), Gaps = 7/75 (9%)
+
+Query  2   FPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIG  61
+           FPL KN LSRL+V+SI        HQKR PDFHDKYGN VLASGATFC+A+W Y+ TQI 
+Sbjct  14  FPLVKNKLSRLQVRSIH-------HQKRTPDFHDKYGNTVLASGATFCIALWTYVTTQIR  66
+
+Query  62  IEWNPSPVGRVTPKE  76
+           IEW+ SPVGRVTP +
+Sbjct  67  IEWSLSPVGRVTPHK  81
+
+
+> UniRef90_A0A1D5QLR2 Uncharacterized protein n=9 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5QLR2_MACMU
+Length=72
+
+ Score = 109 bits (272),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 54/80 (68%), Positives = 61/80 (76%), Gaps = 8/80 (10%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MF L KNALS L++QSIQQ +ARQ H KR PDFHDKYG+AVLASGATF +        QI
+Sbjct  1   MFLLVKNALSCLQIQSIQQTMARQSHHKRTPDFHDKYGSAVLASGATFSI--------QI  52
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           G EWN SPVGRVTPKE R++
+Sbjct  53  GTEWNLSPVGRVTPKEGRDR  72
+
+
+> UniRef90_A0A3P4RCH1 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4RCH1_GULGU
+Length=64
+
+ Score = 103 bits (257),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 48/64 (75%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  17  IQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVTPKE  76
+           +QQA A Q HQK+  DFHDKYGNAVLASGATFCVAV  Y ATQ G EW  SPVG VTPKE
+Sbjct  1   MQQATATQSHQKKTHDFHDKYGNAVLASGATFCVAVRAYTATQTGTEWILSPVGSVTPKE  60
+
+Query  77  WREQ  80
+           WR+Q
+Sbjct  61  WRDQ  64
+
+
+> UniRef90_A0A2K5QQU6 Cytochrome c oxidase subunit 7B n=1 Tax=Cebus 
+capucinus imitator TaxID=1737458 RepID=A0A2K5QQU6_CEBCA
+Length=60
+
+ Score = 101 bits (251),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 43/58 (74%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMAT  58
+           MFPL KNALSRL+V+SIQQ +ARQ HQKR PDFHDKYGNA+LA GATFC+ +W Y++T
+Sbjct  1   MFPLVKNALSRLQVRSIQQTMARQSHQKRTPDFHDKYGNAILAGGATFCITMWTYVST  58
+
+
+> UniRef90_Q3SZX1 MGC127695 protein n=8 Tax=Pecora TaxID=35500 
+RepID=Q3SZX1_BOVIN
+Length=78
+
+ Score = 101 bits (252),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 48/80 (60%), Positives = 61/80 (76%), Gaps = 2/80 (3%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQI  60
+           MFPL +NALS LR++ IQQ      H K +PDFHDKYG+ +LASG +FC+  WV++ TQI
+Sbjct  1   MFPLVRNALSSLRIRRIQQIRQS--HSKHSPDFHDKYGDILLASGTSFCLVTWVFLVTQI  58
+
+Query  61  GIEWNPSPVGRVTPKEWREQ  80
+           GI+W  SPVGRVTP+EW E+
+Sbjct  59  GIQWGCSPVGRVTPQEWNEE  78
+
+
+> UniRef90_A0A3B3ITX0 Cytochrome c oxidase subunit 7B, mitochondrial 
+n=1 Tax=Homo sapiens TaxID=9606 RepID=A0A3B3ITX0_HUMAN
+Length=60
+
+ Score = 99.8 bits (247),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 43/58 (74%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  1   MFPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMAT  58
+           MFPL K+AL+RL+V+SIQQ +ARQ HQKR PDFHDKYGNAVLASGATFC+  W Y++T
+Sbjct  1   MFPLVKSALNRLQVRSIQQTMARQSHQKRTPDFHDKYGNAVLASGATFCIVTWTYVST  58
+
+
+> UniRef90_A0A287B105 Uncharacterized protein n=1 Tax=Sus scrofa 
+TaxID=9823 RepID=A0A287B105_PIG
+Length=83
+
+ Score = 97.4 bits (241),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 48/78 (62%), Positives = 57/78 (73%), Gaps = 4/78 (5%)
+
+Query  2   FPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIG  61
+           FPLAKNALS LRV+SIQQ +AR+ HQK+APDFHDKY NA+LASGATFCVAV  +     G
+Sbjct  1   FPLAKNALSHLRVRSIQQTMARRSHQKQAPDFHDKYSNAILASGATFCVAVLQHKLQSNG  60
+
+Query  62  IEWNPSPVGRVTPKEWRE  79
+                 P+G    K+WR+
+Sbjct  61  T----CPLGCKCKKQWRQ  74
+
+
+> UniRef90_G1Q9C8 Uncharacterized protein (Fragment) n=1 Tax=Myotis 
+lucifugus TaxID=59463 RepID=G1Q9C8_MYOLU
+Length=72
+
+ Score = 95.1 bits (235),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 47/79 (59%), Positives = 51/79 (65%), Gaps = 8/79 (10%)
+
+Query  2   FPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIG  61
+           FPL +N LS L V        R    +   DFHDKYGN VL SGATFCVA W   AT+ G
+Sbjct  2   FPLTQNLLSHLSV--------RTGPPEMDTDFHDKYGNTVLGSGATFCVATWTCTATRTG  53
+
+Query  62  IEWNPSPVGRVTPKEWREQ  80
+           IEWN SPVGR+TPKEWR Q
+Sbjct  54  IEWNLSPVGRITPKEWRGQ  72
+
+
+> UniRef90_A0A2I3SIM3 Uncharacterized protein n=2 Tax=Homininae 
+TaxID=207598 RepID=A0A2I3SIM3_PANTR
+Length=65
+
+ Score = 93.6 bits (231),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 47/79 (59%), Positives = 54/79 (68%), Gaps = 14/79 (18%)
+
+Query  2   FPLAKNALSRLRVQSIQQAVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIG  61
+           F  +KNALS L+ QSIQQ +ARQ HQK               SGATFC+A+W Y+ATQI 
+Sbjct  1   FACSKNALSHLQDQSIQQTMARQSHQK--------------TSGATFCIAIWTYVATQIR  46
+
+Query  62  IEWNPSPVGRVTPKEWREQ  80
+           IEWN  PVGRVTPKEWR+Q
+Sbjct  47  IEWNLCPVGRVTPKEWRDQ  65
+
+
+> UniRef90_S7MDZ0 Cytochrome c oxidase subunit 7B, mitochondrial 
+n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7MDZ0_MYOBR
+Length=59
+
+ Score = 93.2 bits (230),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 46/59 (78%), Gaps = 0/59 (0%)
+
+Query  21  VARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVTPKEWRE  79
+           +ARQ+HQKR PDFH++YG+  LA GA  CVA W Y ATQIGIEWN SPV RV PKEW +
+Sbjct  1   MARQMHQKRTPDFHEEYGSVTLAGGAPLCVATWTYTATQIGIEWNLSPVVRVNPKEWSD  59
+
+
+> UniRef90_S7NLS2 Cytochrome c oxidase subunit 7B, mitochondrial 
+n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7NLS2_MYOBR
+Length=52
+
+ Score = 80.5 bits (197),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 38/49 (78%), Gaps = 0/49 (0%)
+
+Query  32  DFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVTPKEWREQ  80
+           DFHDKYG+ VL S  T CVA W   AT+IGIEWN SPVGR+T KEWR+Q
+Sbjct  4   DFHDKYGSTVLTSRVTLCVATWTCTATRIGIEWNLSPVGRITSKEWRDQ  52
+
+
+> UniRef90_G3VQF4 Uncharacterized protein (Fragment) n=1 Tax=Sarcophilus 
+harrisii TaxID=9305 RepID=G3VQF4_SARHA
+Length=91
+
+ Score = 78.2 bits (191),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 32/56 (57%), Positives = 38/56 (68%), Gaps = 0/56 (0%)
+
+Query  20  AVARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVTPK  75
+            + RQ HQ R P+FHDK+   +L +GATFC+  W Y  TQIGI WN SP GRV PK
+Sbjct  1   TIERQNHQDRQPNFHDKHSTPILLNGATFCLVTWAYATTQIGIGWNLSPFGRVMPK  56
+
+
+> UniRef90_A0A3P4Q6W1 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4Q6W1_GULGU
+Length=55
+
+ Score = 68.2 bits (165),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 33/55 (60%), Positives = 38/55 (69%), Gaps = 0/55 (0%)
+
+Query  21  VARQIHQKRAPDFHDKYGNAVLASGATFCVAVWVYMATQIGIEWNPSPVGRVTPK  75
+           +ARQ H K + DF DKY NA  AS  T+CV VW++  TQI IEWN SPVG VT K
+Sbjct  1   MARQSHIKYSLDFLDKYANATPASRTTYCVVVWMFNITQIRIEWNLSPVGGVTTK  55
+
+
+> UniRef90_A0A3P4S3D8 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4S3D8_GULGU
+Length=76
+
+ Score = 59.3 bits (142),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 33/59 (56%), Positives = 37/59 (63%), Gaps = 8/59 (14%)
+
+Query  21  VARQIHQKRAPDFHDKYGNAVLASGATFCV-AVWVYMATQIGIEWN---PSPVGRVTPK  75
+           +ARQ HQKR PDFHDK GN VLASGATFC+  V +Y  T     WN   P P  +  PK
+Sbjct  1   MARQSHQKRTPDFHDKCGNTVLASGATFCICCVGIYSNT----NWNSMDPIPCWQSHPK  55
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.132    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 135044
+
+
+  Database: isar.db.131
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 4,585
+  Number of sequences in database:  59
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

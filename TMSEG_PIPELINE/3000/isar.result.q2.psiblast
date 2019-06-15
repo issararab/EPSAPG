@@ -1,0 +1,85 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.2
+           1 sequences; 186 total letters
+
+Results from round 1
+
+
+Query= A0A0B8R2U7|4tkrA|A0A0B8R2U7_LISMN 0.9838709677419355
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  A0A0B8R2U7|4tkrA|A0A0B8R2U7_LISMN 0.9838709677419355                366     2e-136
+
+
+> A0A0B8R2U7|4tkrA|A0A0B8R2U7_LISMN 0.9838709677419355
+Length=186
+
+ Score = 366 bits (939),  Expect = 2e-136, Method: Compositional matrix adjust.
+ Identities = 186/186 (100%), Positives = 186/186 (100%), Gaps = 0/186 (0%)
+
+Query  1    MQNKRLIILLECAIFAAVAMVLSFIPLDIGSSFSISLGMIPMYVIAIRRGFWAAGFAGLL  60
+            MQNKRLIILLECAIFAAVAMVLSFIPLDIGSSFSISLGMIPMYVIAIRRGFWAAGFAGLL
+Sbjct  1    MQNKRLIILLECAIFAAVAMVLSFIPLDIGSSFSISLGMIPMYVIAIRRGFWAAGFAGLL  60
+
+Query  61   WGLLHFLTGKAYILMPSQAIIEYILAFSFIAFSGVFSKQVRSNLAANQLKKAIEWAWGTM  120
+            WGLLHFLTGKAYILMPSQAIIEYILAFSFIAFSGVFSKQVRSNLAANQLKKAIEWAWGTM
+Sbjct  61   WGLLHFLTGKAYILMPSQAIIEYILAFSFIAFSGVFSKQVRSNLAANQLKKAIEWAWGTM  120
+
+Query  121  IIGGVARYFWHYVAGVLFWGAYAFQGWGAQLFSIVMNGASCLGTVLVSGIIISILLKTSP  180
+            IIGGVARYFWHYVAGVLFWGAYAFQGWGAQLFSIVMNGASCLGTVLVSGIIISILLKTSP
+Sbjct  121  IIGGVARYFWHYVAGVLFWGAYAFQGWGAQLFSIVMNGASCLGTVLVSGIIISILLKTSP  180
+
+Query  181  KLFLPK  186
+            KLFLPK
+Sbjct  181  KLFLPK  186
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.143    0.457    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 27556
+
+
+  Database: isar.db.2
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 186
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

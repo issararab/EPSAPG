@@ -1,0 +1,570 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.135
+           39 sequences; 7,000 total letters
+
+Results from round 1
+
+
+Query= P15785|5ndaA|PSPC_PIG 0.9428571428571428
+
+Length=35
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A0A287BNX3 Pulmonary surfactant-associated protein C n...  62.4    8e-18
+  UniRef90_P15785 Pulmonary surfactant-associated protein C n=2 T...  58.2    2e-17
+  UniRef90_A3R3H5 Surfactant protein C (Fragment) n=2 Tax=Cetarti...  38.1    1e-09
+  UniRef90_A5HB74 Surfactant protein C (Fragment) n=1 Tax=Cheirog...  37.4    3e-09
+  UniRef90_A3R3H7 Surfactant protein C (Fragment) n=2 Tax=Cetacea...  36.2    8e-09
+  UniRef90_S9YKJ5 Pulmonary surfactant-associated protein C n=4 T...  37.7    1e-08
+  UniRef90_G3X147 Surfactant protein C n=1 Tax=Sarcophilus harris...  37.7    1e-08
+  UniRef90_P11685 Pulmonary surfactant-associated protein C n=9 T...  36.6    5e-08
+  UniRef90_G1NX18 Surfactant protein C n=7 Tax=Vespertilionidae T...  36.2    5e-08
+  UniRef90_A3R3H9 Surfactant protein C (Fragment) n=2 Tax=Afrothe...  34.3    5e-08
+  UniRef90_L5L6I3 Pulmonary surfactant-associated protein C n=3 T...  36.2    5e-08
+  UniRef90_A5HB87 Surfactant protein C (Fragment) n=2 Tax=Tachygl...  33.5    8e-08
+  UniRef90_P15783 Pulmonary surfactant-associated protein C n=15 ...  35.4    1e-07
+  UniRef90_A0A383YZ61 pulmonary surfactant-associated protein C i...  35.4    1e-07
+  UniRef90_T1W420 Pulmonary surfactant-associated protein C n=1 T...  35.0    1e-07
+  UniRef90_A3R3G7 Surfactant protein C (Fragment) n=2 Tax=Condylu...  33.1    1e-07
+  UniRef90_G1L9D6 Surfactant protein C n=3 Tax=Ursidae TaxID=9632...  35.0    1e-07
+  UniRef90_A3R3F6 Surfactant protein C (Fragment) n=2 Tax=Theria ...  33.1    1e-07
+  UniRef90_A3R3H4 Surfactant protein C (Fragment) n=3 Tax=Perisso...  32.3    3e-07
+  UniRef90_H0WQW3 Surfactant protein C n=5 Tax=Strepsirrhini TaxI...  34.3    3e-07
+  UniRef90_A3R3G8 Surfactant protein C (Fragment) n=1 Tax=Scapanu...  32.0    3e-07
+  UniRef90_B4DNY9 cDNA FLJ52871, highly similar to Pulmonary surf...  33.5    4e-07
+  UniRef90_A0A1D5QCF4 Pulmonary surfactant-associated protein C n...  33.5    5e-07
+  UniRef90_P22398 Pulmonary surfactant-associated protein C n=2 T...  33.5    5e-07
+  UniRef90_A0A2J8X4H5 SFTPC isoform 6 n=1 Tax=Pongo abelii TaxID=...  33.5    6e-07
+  UniRef90_A0A0S2Z4Q0 Surfactant protein C isoform 1 (Fragment) n...  33.1    6e-07
+  UniRef90_P11686 Pulmonary surfactant-associated protein C n=22 ...  33.1    7e-07
+  UniRef90_F6URC7 Surfactant protein C n=3 Tax=Equus TaxID=35510 ...  33.1    8e-07
+  UniRef90_G1SGM9 Pulmonary surfactant-associated protein C n=2 T...  33.1    8e-07
+  UniRef90_C9JYF6 Pulmonary surfactant-associated protein C n=16 ...  32.7    9e-07
+  UniRef90_L9JR85 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxI...  32.7    9e-07
+  UniRef90_A0A1S3A4F5 pulmonary surfactant-associated protein C n...  32.7    1e-06
+  UniRef90_F7BJX5 Surfactant protein C n=5 Tax=Metatheria TaxID=9...  32.7    1e-06
+  UniRef90_A0A2I2YLM0 Uncharacterized protein n=2 Tax=Gorilla gor...  32.0    1e-06
+  UniRef90_A0A2Y9DXD0 pulmonary surfactant-associated protein C i...  32.3    2e-06
+  UniRef90_A0A2Y9FYT6 pulmonary surfactant-associated protein C i...  31.6    2e-06
+  UniRef90_A0A2Y9FM62 pulmonary surfactant-associated protein C i...  31.2    3e-06
+  UniRef90_A0A340WPC5 pulmonary surfactant-associated protein C i...  30.0    9e-06
+  UniRef90_A5HB72 Surfactant protein C (Fragment) n=1 Tax=Syconyc...  26.9    4e-05
+
+
+> UniRef90_A0A287BNX3 Pulmonary surfactant-associated protein C 
+n=8 Tax=Sus scrofa TaxID=9823 RepID=A0A287BNX3_PIG
+Length=189
+
+ Score = 62.4 bits (150),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 35/35 (100%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL
+Sbjct  24  LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_P15785 Pulmonary surfactant-associated protein C n=2 
+Tax=Sus scrofa TaxID=9823 RepID=PSPC_PIG
+Length=35
+
+ Score = 58.2 bits (139),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 35/35 (100%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL
+Sbjct  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+
+
+> UniRef90_A3R3H5 Surfactant protein C (Fragment) n=2 Tax=Cetartiodactyla 
+TaxID=91561 RepID=A3R3H5_HIPAM
+Length=35
+
+ Score = 38.1 bits (87),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 33/35 (94%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           LRIPCCPVN+KRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  1   LRIPCCPVNIKRLLIVVVVVVLVVVVIVGALLMGL  35
+
+
+> UniRef90_A5HB74 Surfactant protein C (Fragment) n=1 Tax=Cheirogaleus 
+medius TaxID=9460 RepID=A5HB74_CHEME
+Length=35
+
+ Score = 37.4 bits (85),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 31/35 (89%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           +RIPCCPVN+KRLL+VVVVVVL+VVVIVGALLMGL
+Sbjct  1   IRIPCCPVNIKRLLIVVVVVVLIVVVIVGALLMGL  35
+
+
+> UniRef90_A3R3H7 Surfactant protein C (Fragment) n=2 Tax=Cetacea 
+TaxID=9721 RepID=A3R3H7_PHYCD
+Length=35
+
+ Score = 36.2 bits (82),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 30/35 (86%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            +IPCCPVN+KRLL+VVVVVVLVV+VIVGALLMGL
+Sbjct  1   FQIPCCPVNIKRLLIVVVVVVLVVMVIVGALLMGL  35
+
+
+> UniRef90_S9YKJ5 Pulmonary surfactant-associated protein C n=4 
+Tax=Camelidae TaxID=9835 RepID=S9YKJ5_CAMFR
+Length=217
+
+ Score = 37.7 bits (86),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 33/35 (94%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           LRIPCCPVN+KRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  51  LRIPCCPVNIKRLLIVVVVVVLVVVVIVGALLMGL  85
+
+
+> UniRef90_G3X147 Surfactant protein C n=1 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3X147_SARHA
+Length=193
+
+ Score = 37.7 bits (86),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 29/35 (83%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           LRIPCCP+N+KRLL++VVVVVLVVVV++GALLMGL
+Sbjct  27  LRIPCCPLNIKRLLIIVVVVVLVVVVVLGALLMGL  61
+
+
+> UniRef90_P11685 Pulmonary surfactant-associated protein C n=9 
+Tax=Muroidea TaxID=337687 RepID=PSPC_RAT
+Length=194
+
+ Score = 36.6 bits (83),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            RIPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  24  FRIPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_G1NX18 Surfactant protein C n=7 Tax=Vespertilionidae 
+TaxID=9431 RepID=G1NX18_MYOLU
+Length=190
+
+ Score = 36.2 bits (82),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            RIPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  24  FRIPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A3R3H9 Surfactant protein C (Fragment) n=2 Tax=Afrotheria 
+TaxID=311790 RepID=A3R3H9_DUGDU
+Length=35
+
+ Score = 34.3 bits (77),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+             IPCCPV LKRLL++VVVVVLVV+VIVGALLMGL
+Sbjct  1   FSIPCCPVQLKRLLIIVVVVVLVVMVIVGALLMGL  35
+
+
+> UniRef90_L5L6I3 Pulmonary surfactant-associated protein C n=3 
+Tax=Pteropus TaxID=9401 RepID=L5L6I3_PTEAL
+Length=190
+
+ Score = 36.2 bits (82),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            RIPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  24  FRIPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A5HB87 Surfactant protein C (Fragment) n=2 Tax=Tachyglossidae 
+TaxID=9259 RepID=A5HB87_9MAMM
+Length=35
+
+ Score = 33.5 bits (75),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           L IPCCP +LKRLL++VVVVVL+VVV++GALLMGL
+Sbjct  1   LGIPCCPFHLKRLLIIVVVVVLIVVVVLGALLMGL  35
+
+
+> UniRef90_P15783 Pulmonary surfactant-associated protein C n=15 
+Tax=Cetartiodactyla TaxID=91561 RepID=PSPC_BOVIN
+Length=190
+
+ Score = 35.4 bits (80),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           L IPCCPVN+KRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  24  LLIPCCPVNIKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A0A383YZ61 pulmonary surfactant-associated protein C 
+isoform X1 n=2 Tax=Cetacea TaxID=9721 RepID=A0A383YZ61_BALAS
+Length=205
+
+ Score = 35.4 bits (80),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 31/35 (89%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            +IPCCPVN+KRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  24  FQIPCCPVNIKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_T1W420 Pulmonary surfactant-associated protein C n=1 
+Tax=Panthera tigris altaica TaxID=74533 RepID=T1W420_PANTA
+Length=199
+
+ Score = 35.0 bits (79),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPVNLKRLL++VVVVVLVVVVIVGALLMGL
+Sbjct  35  IPCCPVNLKRLLIIVVVVVLVVVVIVGALLMGL  67
+
+
+> UniRef90_A3R3G7 Surfactant protein C (Fragment) n=2 Tax=Condylura 
+cristata TaxID=143302 RepID=A3R3G7_CONCR
+Length=35
+
+ Score = 33.1 bits (74),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCP++LKRLL+VVVVVVL+VVV+VGALLMGL
+Sbjct  3   IPCCPLHLKRLLIVVVVVVLIVVVVVGALLMGL  35
+
+
+> UniRef90_G1L9D6 Surfactant protein C n=3 Tax=Ursidae TaxID=9632 
+RepID=G1L9D6_AILME
+Length=196
+
+ Score = 35.0 bits (79),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 30/33 (91%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPVNLKRLL++VVV+VLVVVVIVGALLMGL
+Sbjct  26  IPCCPVNLKRLLILVVVIVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A3R3F6 Surfactant protein C (Fragment) n=2 Tax=Theria 
+TaxID=722675 RepID=A3R3F6_DIDMR
+Length=35
+
+ Score = 33.1 bits (74),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            +IPCCP+ LKRLL++VVVVVLVVVVI+GALLMGL
+Sbjct  1   FKIPCCPLPLKRLLIIVVVVVLVVVVILGALLMGL  35
+
+
+> UniRef90_A3R3H4 Surfactant protein C (Fragment) n=3 Tax=Perissodactyla 
+TaxID=9787 RepID=A3R3H4_TAPTE
+Length=35
+
+ Score = 32.3 bits (72),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 31/33 (94%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  3   IPCCPVPLKRLLIVVVVVVLVVVVIVGALLMGL  35
+
+
+> UniRef90_H0WQW3 Surfactant protein C n=5 Tax=Strepsirrhini TaxID=376911 
+RepID=H0WQW3_OTOGA
+Length=192
+
+ Score = 34.3 bits (77),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A3R3G8 Surfactant protein C (Fragment) n=1 Tax=Scapanus 
+latimanus TaxID=182673 RepID=A3R3G8_SCALA
+Length=35
+
+ Score = 32.0 bits (71),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 30/33 (91%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCP+ LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  3   IPCCPLRLKRLLIVVVVVVLVVVVIVGALLMGL  35
+
+
+> UniRef90_B4DNY9 cDNA FLJ52871, highly similar to Pulmonary surfactant-associated 
+protein C n=1 Tax=Homo sapiens TaxID=9606 
+RepID=B4DNY9_HUMAN
+Length=121
+
+ Score = 33.5 bits (75),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 30/33 (91%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVL+VVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLIVVVIVGALLMGL  58
+
+
+> UniRef90_A0A1D5QCF4 Pulmonary surfactant-associated protein C 
+n=7 Tax=Cercopithecidae TaxID=9527 RepID=A0A1D5QCF4_MACMU
+Length=161
+
+ Score = 33.5 bits (75),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_P22398 Pulmonary surfactant-associated protein C n=2 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=PSPC_RABIT
+Length=188
+
+ Score = 33.5 bits (75),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A0A2J8X4H5 SFTPC isoform 6 n=1 Tax=Pongo abelii TaxID=9601 
+RepID=A0A2J8X4H5_PONAB
+Length=234
+
+ Score = 33.5 bits (75),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A0A0S2Z4Q0 Surfactant protein C isoform 1 (Fragment) 
+n=7 Tax=Haplorrhini TaxID=376913 RepID=A0A0S2Z4Q0_HUMAN
+Length=197
+
+ Score = 33.1 bits (74),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 30/33 (91%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVL+VVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLIVVVIVGALLMGL  58
+
+
+> UniRef90_P11686 Pulmonary surfactant-associated protein C n=22 
+Tax=Euarchontoglires TaxID=314146 RepID=PSPC_HUMAN
+Length=197
+
+ Score = 33.1 bits (74),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 30/33 (91%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVL+VVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLIVVVIVGALLMGL  58
+
+
+> UniRef90_F6URC7 Surfactant protein C n=3 Tax=Equus TaxID=35510 
+RepID=F6URC7_HORSE
+Length=190
+
+ Score = 33.1 bits (74),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPVPLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_G1SGM9 Pulmonary surfactant-associated protein C n=2 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1SGM9_RABIT
+Length=279
+
+ Score = 33.1 bits (74),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3    IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            IPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  117  IPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  149
+
+
+> UniRef90_C9JYF6 Pulmonary surfactant-associated protein C n=16 
+Tax=Simiiformes TaxID=314293 RepID=C9JYF6_HUMAN
+Length=161
+
+ Score = 32.7 bits (73),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 30/33 (91%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVL+VVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLIVVVIVGALLMGL  58
+
+
+> UniRef90_L9JR85 Metalloendopeptidase n=2 Tax=Boreoeutheria TaxID=1437010 
+RepID=L9JR85_TUPCH
+Length=1415
+
+ Score = 32.7 bits (73),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 32/35 (91%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           L IPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  24  LGIPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A0A1S3A4F5 pulmonary surfactant-associated protein C 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3A4F5_ERIEU
+Length=187
+
+ Score = 32.7 bits (73),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 30/33 (91%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCP++LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPLHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_F7BJX5 Surfactant protein C n=5 Tax=Metatheria TaxID=9263 
+RepID=F7BJX5_MONDO
+Length=193
+
+ Score = 32.7 bits (73),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 29/35 (83%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            +IPCCP+ LKRLL++VVVVVLVVVVIVGALLMGL
+Sbjct  27  FKIPCCPLPLKRLLIIVVVVVLVVVVIVGALLMGL  61
+
+
+> UniRef90_A0A2I2YLM0 Uncharacterized protein n=2 Tax=Gorilla gorilla 
+gorilla TaxID=9595 RepID=A0A2I2YLM0_GORGO
+Length=150
+
+ Score = 32.0 bits (71),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 31/33 (94%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCPV+LKRLL+VVVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPVHLKRLLIVVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A0A2Y9DXD0 pulmonary surfactant-associated protein C 
+isoform X1 n=8 Tax=Afrotheria TaxID=311790 RepID=A0A2Y9DXD0_TRIMA
+Length=202
+
+ Score = 32.3 bits (72),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 29/33 (88%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCP  LKRLL++VVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPAQLKRLLIIVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A0A2Y9FYT6 pulmonary surfactant-associated protein C 
+isoform X4 n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=A0A2Y9FYT6_TRIMA
+Length=183
+
+ Score = 31.6 bits (70),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 29/33 (88%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  3   IPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+           IPCCP  LKRLL++VVVVVLVVVVIVGALLMGL
+Sbjct  26  IPCCPAQLKRLLIIVVVVVLVVVVIVGALLMGL  58
+
+
+> UniRef90_A0A2Y9FM62 pulmonary surfactant-associated protein C 
+isoform X2 n=10 Tax=Cetacea TaxID=9721 RepID=A0A2Y9FM62_PHYCD
+Length=197
+
+ Score = 31.2 bits (69),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 28/35 (80%), Positives = 33/35 (94%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            +IPCCP ++KRLL+VVVVVVLVVV+IVGALLMGL
+Sbjct  24  FQIPCCPASIKRLLIVVVVVVLVVVLIVGALLMGL  58
+
+
+> UniRef90_A0A340WPC5 pulmonary surfactant-associated protein C 
+isoform X1 n=1 Tax=Lipotes vexillifer TaxID=118797 RepID=A0A340WPC5_LIPVE
+Length=205
+
+ Score = 30.0 bits (66),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 29/35 (83%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   LRIPCCPVNLKRLLVVVVVVVLVVVVIVGALLMGL  35
+            +IPCCPV +KRLL+VVVVVVLVVVVIVGALLM L
+Sbjct  24  FQIPCCPVKIKRLLIVVVVVVLVVVVIVGALLMSL  58
+
+
+> UniRef90_A5HB72 Surfactant protein C (Fragment) n=1 Tax=Syconycteris 
+australis TaxID=58085 RepID=A5HB72_SYCAU
+Length=35
+
+ Score = 26.9 bits (58),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 10/12 (83%), Positives = 11/12 (92%), Gaps = 0/12 (0%)
+
+Query  1   LRIPCCPVNLKR  12
+            RIPCCPV+LKR
+Sbjct  1   FRIPCCPVHLKR  12
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.157    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 172874
+
+
+  Database: isar.db.135
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 7,000
+  Number of sequences in database:  39
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

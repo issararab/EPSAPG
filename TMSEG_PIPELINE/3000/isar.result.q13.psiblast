@@ -1,0 +1,2690 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.13
+           107 sequences; 28,032 total letters
+
+Results from round 1
+
+
+Query= A9A677|3s0xA|FLAK_METM6 0.9652173913043478
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A9A677 Preflagellin peptidase n=9 Tax=Methanococcus ma...  452     4e-167
+  UniRef90_A6UNM3 Peptidase A24B, FlaK-like protein n=2 Tax=Metha...  319     2e-114
+  UniRef90_F8AMD9 Peptidase A24B, FlaK domain protein n=1 Tax=Met...  314     2e-112
+  UniRef90_A6UTN6 Peptidase A24B, FlaK-like protein n=1 Tax=Metha...  271     2e-95 
+  UniRef90_C9REH0 Peptidase A24B, FlaK domain protein n=1 Tax=Met...  261     3e-91 
+  UniRef90_A0A076LHB8 Peptidase A24B, FlaK domain protein n=1 Tax...  253     4e-88 
+  UniRef90_Q58312 Preflagellin peptidase n=2 Tax=Methanocaldococc...  247     1e-85 
+  UniRef90_Q8NKW5 Preflagellin peptidase n=2 Tax=Methanococcus vo...  231     2e-79 
+  UniRef90_C7P8Y1 Peptidase A24B, FlaK domain protein n=1 Tax=Met...  230     4e-79 
+  UniRef90_D5VSA0 Peptidase A24B, FlaK domain protein n=1 Tax=Met...  203     1e-68 
+  UniRef90_N6V0I0 Peptidase A24B, FlaK domain-containing protein ...  184     3e-61 
+  UniRef90_A0A2H6JYC5 Type IV leader peptidase family protein n=1...  116     1e-34 
+  UniRef90_A0A150J863 Preflagellin peptidase n=1 Tax=Arc I group ...  86.7    3e-23 
+  UniRef90_A0A150J2S7 Preflagellin peptidase n=1 Tax=Arc I group ...  85.5    7e-23 
+  UniRef90_A0A2H6GYD4 Type IV leader peptidase family protein n=1...  83.6    3e-22 
+  UniRef90_A0A150IXI7 Preflagellin peptidase n=3 Tax=Arc I group ...  84.0    4e-22 
+  UniRef90_A0A2G9MJN3 Uncharacterized protein n=1 Tax=Candidatus ...  79.0    4e-20 
+  UniRef90_A0A150JMX6 Preflagellin peptidase n=4 Tax=Euryarchaeot...  74.7    7e-19 
+  UniRef90_A0A139CQY9 Peptidase A24B, FlaK-like protein n=1 Tax=M...  75.1    8e-19 
+  UniRef90_D3S7M8 Peptidase A24B, FlaK domain protein n=1 Tax=Met...  73.6    3e-18 
+  UniRef90_Q0W2M7 Predicted peptidase (A24 family) n=1 Tax=Methan...  72.8    5e-18 
+  UniRef90_A0A256ZZQ9 Uncharacterized protein n=1 Tax=Euryarchaeo...  71.6    8e-18 
+  UniRef90_A0A1F9YJT2 Uncharacterized protein n=1 Tax=Euryarchaeo...  71.6    9e-18 
+  UniRef90_A0A1Y3GEG1 Peptidase A24A prepilin type IV FlaK n=1 Ta...  70.5    2e-17 
+  UniRef90_P81318 Uncharacterized protein MJ1282.1 n=1 Tax=Methan...  70.5    3e-17 
+  UniRef90_A0A3G1L816 Uncharacterized protein n=1 Tax=Methanosarc...  70.5    3e-17 
+  UniRef90_K4MBM9 Peptidase A24B, FlaK-like protein n=1 Tax=Metha...  70.5    4e-17 
+  UniRef90_A0A0E3SQ50 Signal peptidase, type IV-prepilin/preflage...  70.1    4e-17 
+  UniRef90_A0A1Q6DW06 Peptidase A24A prepilin type IV FlaK n=1 Ta...  69.7    5e-17 
+  UniRef90_A0A2A3T015 Uncharacterized protein n=2 Tax=root TaxID=...  70.1    8e-17 
+  UniRef90_A0A151EIV0 Uncharacterized protein n=1 Tax=Thermoplasm...  68.9    1e-16 
+  UniRef90_A0A2H5VG42 Uncharacterized protein n=1 Tax=archaeon HR...  68.2    1e-16 
+  UniRef90_A0A2J6H123 Uncharacterized protein n=1 Tax=Candidatus ...  69.7    2e-16 
+  UniRef90_D2RGC2 Peptidase A24B, FlaK domain protein n=1 Tax=Arc...  68.2    2e-16 
+  UniRef90_A0A2H1FDH6 Putative archaeal preflagellin peptidase, F...  68.2    2e-16 
+  UniRef90_N6WLT6 Archaeal peptidase A24, preflagellin n=1 Tax=Th...  67.8    3e-16 
+  UniRef90_A0A151DW52 Uncharacterized protein n=1 Tax=Thermoplasm...  67.4    4e-16 
+  UniRef90_A0A1I4TLQ2 Preflagellin peptidase FlaK n=1 Tax=Methano...  67.0    7e-16 
+  UniRef90_C7P5U5 Peptidase A24B, FlaK domain protein n=1 Tax=Met...  66.6    8e-16 
+  UniRef90_A0A1V4YYF0 Preflagellin peptidase n=1 Tax=Methanocella...  65.9    2e-15 
+  UniRef90_A0A256XSG6 Uncharacterized protein n=1 Tax=Thermoplasm...  65.9    2e-15 
+  UniRef90_A0A2R6CC64 Uncharacterized protein n=8 Tax=Candidatus ...  65.5    2e-15 
+  UniRef90_A0A099T422 Peptidase A24 n=2 Tax=Methanococcoides TaxI...  65.5    2e-15 
+  UniRef90_A0A2H5UW46 Uncharacterized protein n=1 Tax=archaeon HR...  64.7    3e-15 
+  UniRef90_A0A256XMR5 Uncharacterized protein n=1 Tax=Thermofilum...  64.7    4e-15 
+  UniRef90_E6N2V1 Archaeal preflagellin peptidase FlaK n=2 Tax=Ar...  63.9    7e-15 
+  UniRef90_A0A2D6W3F6 Uncharacterized protein n=1 Tax=archaeon Ta...  64.3    8e-15 
+  UniRef90_A0A0T5ZCN9 Uncharacterized protein n=1 Tax=Thaumarchae...  63.2    1e-14 
+  UniRef90_A0A1Q7XDR6 Peptidase n=2 Tax=unclassified Thaumarchaeo...  63.2    1e-14 
+  UniRef90_A0A1Z9SZB6 Uncharacterized protein n=2 Tax=cellular or...  63.9    1e-14 
+  UniRef90_A0A151EWG2 Uncharacterized protein n=1 Tax=Thermoplasm...  63.2    1e-14 
+  UniRef90_A0A0P8A7T0 Preflagellin peptidase n=2 Tax=Candidatus M...  63.2    1e-14 
+  UniRef90_A0A2P5K178 Preflagellin peptidase n=1 Tax=ANME-2 clust...  63.2    1e-14 
+  UniRef90_A0A284VRB2 Peptidase A24B, FlaK domain protein n=1 Tax...  63.2    1e-14 
+  UniRef90_A0A3G1B363 Peptidase n=1 Tax=Candidatus Nitrosotenuis ...  62.8    1e-14 
+  UniRef90_A0A1V4YWE8 Preflagellin peptidase n=1 Tax=Methanomassi...  63.5    2e-14 
+  UniRef90_A0A1V4ZCF1 Preflagellin peptidase n=1 Tax=Methanomassi...  63.5    2e-14 
+  UniRef90_F7XNZ8 Peptidase A24B, FlaK domain protein n=1 Tax=Met...  62.8    2e-14 
+  UniRef90_A0A2I0NKL9 Peptidase A24 n=1 Tax=Candidatus Methanoper...  62.4    2e-14 
+  UniRef90_A0A062VB27 Flp pilus assembly protein, protease CpaA n...  62.4    3e-14 
+  UniRef90_A0A315XG32 Peptidase A24 n=1 Tax=Candidatus Methanoper...  61.2    6e-14 
+  UniRef90_A0A2R6BFC7 Uncharacterized protein n=5 Tax=Candidatus ...  61.2    7e-14 
+  UniRef90_A0A075GBR5 Uncharacterized protein n=1 Tax=uncultured ...  61.2    1e-13 
+  UniRef90_A0A3M1RH94 A24 family peptidase n=1 Tax=Euryarchaeota ...  60.1    1e-13 
+  UniRef90_W9DRM3 Flp pilus assembly protein, protease CpaA n=2 T...  59.7    2e-13 
+  UniRef90_A0A1J5U3Z3 Uncharacterized protein n=2 Tax=Euryarchaeo...  60.1    2e-13 
+  UniRef90_A0A2E5ZV18 Uncharacterized protein n=1 Tax=Euryarchaeo...  60.1    2e-13 
+  UniRef90_A0A0A7GGH6 Peptidase A24B, FlaK-like n=1 Tax=Geoglobus...  59.7    2e-13 
+  UniRef90_A0A2D6LI45 Uncharacterized protein n=1 Tax=Candidatus ...  60.1    2e-13 
+  UniRef90_A0A2H9LTA0 Uncharacterized protein n=4 Tax=Candidatus ...  59.7    3e-13 
+  UniRef90_A0A2H9P0K3 Peptidase n=2 Tax=unclassified Nitrosopumil...  58.5    4e-13 
+  UniRef90_A0A2E9U4R5 Uncharacterized protein n=1 Tax=Candidatus ...  59.3    4e-13 
+  UniRef90_A0A0Q4BGJ4 Uncharacterized protein n=1 Tax=Methanomass...  58.9    5e-13 
+  UniRef90_A0A1V4Y9Y5 Preflagellin peptidase n=2 Tax=Methanomethy...  58.5    6e-13 
+  UniRef90_A0A0B3AFP2 Uncharacterized protein n=1 Tax=Archaeon GW...  58.9    6e-13 
+  UniRef90_A0A1S6HAN4 Uncharacterized protein n=1 Tax=uncultured ...  58.9    6e-13 
+  UniRef90_A0A151E542 Uncharacterized protein n=1 Tax=Thermoplasm...  58.2    7e-13 
+  UniRef90_A0A2A5NXF6 Uncharacterized protein n=1 Tax=Candidatus ...  58.2    7e-13 
+  UniRef90_A0A0B5HVT9 Peptidase A24A prepilin type IV n=2 Tax=Arc...  58.2    9e-13 
+  UniRef90_A0A2R6T5W5 Uncharacterized protein n=1 Tax=archaeon SC...  57.0    1e-12 
+  UniRef90_A0A2D5XF58 Uncharacterized protein n=1 Tax=Candidatus ...  57.8    1e-12 
+  UniRef90_A0A2E9U342 Uncharacterized protein n=1 Tax=Candidatus ...  57.4    2e-12 
+  UniRef90_A0A2D6NYM9 Uncharacterized protein n=1 Tax=Nanoarchaeo...  57.4    2e-12 
+  UniRef90_A0A2J2H5V8 Prepilin peptidase n=3 Tax=Vulcanisaeta Tax...  56.2    4e-12 
+  UniRef90_A0A2G9MBF1 Uncharacterized protein n=1 Tax=Candidatus ...  55.5    9e-12 
+  UniRef90_A0A0B5HX83 Peptidase A24A prepilin type IV n=1 Tax=Arc...  55.1    1e-11 
+  UniRef90_A0A0D5C261 Putative archaeal preflagellin peptidase Fl...  54.3    1e-11 
+  UniRef90_A0A2D6LUN1 Uncharacterized protein n=1 Tax=archaeon Ta...  54.7    2e-11 
+  UniRef90_A0A1G8X8L6 Preflagellin peptidase FlaK n=1 Tax=Methano...  54.3    2e-11 
+  UniRef90_A0A0M0BII1 Uncharacterized protein n=1 Tax=miscellaneo...  53.9    2e-11 
+  UniRef90_A0A2G9MR51 Uncharacterized protein n=1 Tax=Candidatus ...  53.5    3e-11 
+  UniRef90_A0A3M1LM67 A24 family peptidase n=1 Tax=Thaumarchaeota...  52.8    5e-11 
+  UniRef90_A0A2D6PDB3 Uncharacterized protein n=1 Tax=archaeon Ta...  53.1    5e-11 
+  UniRef90_A0A3M1NHM0 A24 family peptidase n=1 Tax=Candidatus Woe...  52.8    7e-11 
+  UniRef90_A0A3M1H8L5 Prepilin peptidase n=1 Tax=Candidatus Woese...  52.8    7e-11 
+  UniRef90_A0A1J5TT24 Uncharacterized protein n=1 Tax=Marine Grou...  52.8    8e-11 
+  UniRef90_A0A2H6H0N9 Type IV leader peptidase family protein n=1...  52.4    9e-11 
+  UniRef90_A0A151ERS4 Uncharacterized protein n=1 Tax=Theionarcha...  51.6    1e-10 
+  UniRef90_A0A3M1JL70 A24 family peptidase n=1 Tax=Candidatus Woe...  51.2    2e-10 
+  UniRef90_A0A2E3NX70 Uncharacterized protein n=3 Tax=Euryarchaeo...  51.2    3e-10 
+  UniRef90_A0A151EA00 Uncharacterized protein n=1 Tax=Euryarchaeo...  50.4    4e-10 
+  UniRef90_A0A2G9N7T9 Uncharacterized protein n=1 Tax=Candidatus ...  48.9    1e-09 
+  UniRef90_A0A2D6RMZ3 Uncharacterized protein n=1 Tax=Candidatus ...  48.1    2e-09 
+  UniRef90_A0A3M1F7U6 Prepilin peptidase n=1 Tax=Candidatus Woese...  47.0    5e-09 
+  UniRef90_A0A2I0N9B9 Uncharacterized protein n=1 Tax=Thermoplasm...  47.0    5e-09 
+  UniRef90_A0A2D6P2E1 Uncharacterized protein n=1 Tax=archaeon Ta...  44.7    3e-08 
+  UniRef90_A0A2G9PK90 Uncharacterized protein n=1 Tax=Candidatus ...  35.4    4e-05 
+
+
+> UniRef90_A9A677 Preflagellin peptidase n=9 Tax=Methanococcus 
+maripaludis TaxID=39152 RepID=FLAK_METM6
+Length=230
+
+ Score = 452 bits (1164),  Expect = 4e-167, Method: Compositional matrix adjust.
+ Identities = 230/230 (100%), Positives = 230/230 (100%), Gaps = 0/230 (0%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF
+Sbjct  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN
+Sbjct  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+            GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF
+Sbjct  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+
+Query  181  PAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF  230
+            PAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF
+Sbjct  181  PAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF  230
+
+
+> UniRef90_A6UNM3 Peptidase A24B, FlaK-like protein n=2 Tax=Methanococcus 
+vannielii TaxID=2187 RepID=A6UNM3_METVS
+Length=234
+
+ Score = 319 bits (818),  Expect = 2e-114, Method: Compositional matrix adjust.
+ Identities = 148/229 (65%), Positives = 192/229 (84%), Gaps = 0/229 (0%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            +I YIIGA+GL++AS QD + REIEDYIWI ++V G ++AIY S TL DY+ L+NS+SGF
+Sbjct  5    LINYIIGAVGLLLASFQDLKKREIEDYIWISMSVIGFIYAIYLSYTLSDYNFLLNSVSGF  64
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            VICF+LGY+MFL GIGGGDGK+LIGLG L+PK++MPI ++LG LL++NY+P FPI VFIN
+Sbjct  65   VICFVLGYLMFLLGIGGGDGKILIGLGTLIPKYEMPITSALGALLSMNYIPNFPITVFIN  124
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+            G+FFM FLP ++ F+NIL G RPKT KE+I +FFGEK+ V  AK  KRLIMG+ +KINF 
+Sbjct  125  GVFFMAFLPLLVFFKNILKGVRPKTKKEYIAIFFGEKITVKEAKTGKRLIMGKGNKINFT  184
+
+Query  181  PAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIP  229
+            P +D E++SKY + E+IWVTPQIP++IPIT+SY++TPIIGD+IL  +IP
+Sbjct  185  PQSDAENYSKYRDKEKIWVTPQIPMLIPITVSYILTPIIGDKILGIIIP  233
+
+
+> UniRef90_F8AMD9 Peptidase A24B, FlaK domain protein n=1 Tax=Methanothermococcus 
+okinawensis (strain DSM 14208 / JCM 11175 
+/ IH1) TaxID=647113 RepID=F8AMD9_METOI
+Length=231
+
+ Score = 314 bits (805),  Expect = 2e-112, Method: Compositional matrix adjust.
+ Identities = 145/230 (63%), Positives = 192/230 (83%), Gaps = 0/230 (0%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MI YI G +GL++AS+QDFRSREIEDYIW+ + VFG+ +  Y SIT  +Y  LI+S+SG 
+Sbjct  1    MINYIFGLMGLLLASIQDFRSREIEDYIWVSMVVFGLGYHTYLSITTGNYYYLISSVSGL  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            V+CFILGY+MFL G+GGGDGK+L+G+GAL PK+ MPIY++ G++LN+NYVPTFPIMVF+N
+Sbjct  61   VVCFILGYLMFLCGVGGGDGKVLMGMGALTPKYNMPIYSTFGSILNINYVPTFPIMVFVN  120
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+            G+FFM+FLP +IL +N++NGA+PK+ K+FI++ FGEKMKV  AK + RLIMG  +   FF
+Sbjct  121  GMFFMIFLPIIILLKNLINGAKPKSIKQFIILCFGEKMKVKDAKNKNRLIMGHENNFKFF  180
+
+Query  181  PAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF  230
+            P+++++DFSKY +NE I+VTP IPLIIPITLSYL+TP IGD ++  LIPF
+Sbjct  181  PSSEEDDFSKYDDNEYIYVTPMIPLIIPITLSYLITPFIGDYLIYMLIPF  230
+
+
+> UniRef90_A6UTN6 Peptidase A24B, FlaK-like protein n=1 Tax=Methanococcus 
+aeolicus (strain ATCC BAA-1280 / DSM 17508 / OCM 
+812 / Nankai-3) TaxID=419665 RepID=A6UTN6_META3
+Length=234
+
+ Score = 271 bits (694),  Expect = 2e-95, Method: Compositional matrix adjust.
+ Identities = 137/229 (60%), Positives = 187/229 (82%), Gaps = 1/229 (0%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            M+ YI G +GL++AS+QD +SREIEDYIWI + +FG+++ IY S+   +Y  +INSI GF
+Sbjct  1    MVTYIFGLIGLLVASIQDIKSREIEDYIWISMVIFGLIYNIYLSMATGNYFFIINSIFGF  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            +ICF+LGY+MFL G+GGGDGK+LIG+G L P + MPIY++LG +L + Y+P FPIMVFIN
+Sbjct  61   IICFVLGYLMFLFGVGGGDGKVLIGMGTLTPNYDMPIYSTLGNILTIGYIPAFPIMVFIN  120
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQ-NDKINF  179
+            G+FFM+FLP +IL +N+L G  PK  KE +++ FGEKMKV+ AK++ RLIMG+ NDKIN 
+Sbjct  121  GMFFMIFLPIIILIQNLLKGNTPKNFKEIMVLSFGEKMKVSEAKKKNRLIMGRDNDKINL  180
+
+Query  180  FPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLI  228
+            FP+++D+DFSKYS++E I+VTP IPLIIPIT+SY++TP IGD I+  +I
+Sbjct  181  FPSSEDDDFSKYSDDEIIYVTPMIPLIIPITISYIITPFIGDNIIYLII  229
+
+
+> UniRef90_C9REH0 Peptidase A24B, FlaK domain protein n=1 Tax=Methanocaldococcus 
+vulcanius (strain ATCC 700851 / DSM 12094 
+/ M7) TaxID=579137 RepID=C9REH0_METVM
+Length=237
+
+ Score = 261 bits (666),  Expect = 3e-91, Method: Compositional matrix adjust.
+ Identities = 122/224 (54%), Positives = 169/224 (75%), Gaps = 1/224 (0%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFV  61
+            I Y+IG +GLIIAS+ D + REI D IWIF+ +FG L+  Y S  + ++  +  S+ GF+
+Sbjct  3    INYLIGLVGLIIASICDLKDREINDCIWIFITIFGFLYWGYFSFLMHNFIYIGYSVVGFL  62
+
+Query  62   ICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFING  121
+            ICF +GY+MFL G+GGGDGK+L+GLGAL+PK++MPI+T  G LLN++ +P+FP+MV IN 
+Sbjct  63   ICFAIGYIMFLFGVGGGDGKLLMGLGALIPKYKMPIFTPFGNLLNISLIPSFPLMVLINA  122
+
+Query  122  IFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFP  181
+            IF  +FLP +I  +N+  G +P+T KEFI MF GEKMKV  AKE++RLIMG  D INF P
+Sbjct  123  IFLSIFLPIIIFLKNVAKGVKPETKKEFICMFIGEKMKVATAKEKERLIMGTQDNINFLP  182
+
+Query  182  AADDE-DFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRIL  224
+            +A+D  +F K+ +NEE+W TP IP  IP+ +SY++TP IGD+I+
+Sbjct  183  SAEDACNFLKFDDNEEVWATPAIPFAIPLLVSYILTPYIGDKII  226
+
+
+> UniRef90_A0A076LHB8 Peptidase A24B, FlaK domain protein n=1 Tax=Methanocaldococcus 
+bathoardescens TaxID=1301915 RepID=A0A076LHB8_9EURY
+Length=235
+
+ Score = 253 bits (646),  Expect = 4e-88, Method: Compositional matrix adjust.
+ Identities = 129/227 (57%), Positives = 174/227 (77%), Gaps = 2/227 (1%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MI ++IGA+GL+IAS+ D + REIEDYIWI +A+FG L++IY S+   +   +I S  GF
+Sbjct  1    MINFVIGAIGLLIASIYDLKCREIEDYIWISMAIFGFLYSIYLSLISHNILYVIQSFVGF  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLN-YVPTFPIMVFI  119
+            ++CF LG+ MFL G GGGDGK+L+G+GAL+PK+ MPIYT LG +LN + Y+P+FPIMV I
+Sbjct  61   IVCFFLGFFMFLLGAGGGDGKLLMGIGALIPKYNMPIYTPLGIILNYHPYIPSFPIMVII  120
+
+Query  120  NGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINF  179
+            N IFF + LP +I  +NI+ G +PKT KEFI MF GEKMKV+ A +++RLI+G  + +  
+Sbjct  121  NAIFFSITLPIIIFLKNIIRGVKPKTKKEFICMFIGEKMKVSEAMKKERLILGNQENLKL  180
+
+Query  180  FPAAD-DEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILD  225
+             P+A+ D DFS +  NEEIWVTP IP ++PI LSYL+TPIIGD+I+D
+Sbjct  181  LPSAEKDYDFSNFDKNEEIWVTPAIPFVVPIFLSYLLTPIIGDKIID  227
+
+
+> UniRef90_Q58312 Preflagellin peptidase n=2 Tax=Methanocaldococcus 
+TaxID=196118 RepID=FLAK_METJA
+Length=234
+
+ Score = 247 bits (630),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 122/225 (54%), Positives = 172/225 (76%), Gaps = 1/225 (0%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MI +I+GA+GL+IAS+ D +SREIEDY+W+ + +FG+++  Y S    D   +I SI GF
+Sbjct  1    MINFIVGAIGLLIASIYDLKSREIEDYVWVSMVIFGLIYNGYLSFISHDMLYVIQSIVGF  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            ++CF LG+ MFL G+GGGDGK+++GLGAL+PK+ MPI+T LG +LN  Y+P+FPIMV IN
+Sbjct  61   IVCFFLGFFMFLLGVGGGDGKLIMGLGALIPKYNMPIHTPLGAILNYLYLPSFPIMVVIN  120
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+             +FF + LP +I  RN++ G +PKT KE + MF GEKMKV+ A +++RLI+G ++ +   
+Sbjct  121  AMFFSITLPIIIFLRNVIRGVKPKTKKEVLCMFLGEKMKVSEAIKKERLILGNHENLKLL  180
+
+Query  181  PAAD-DEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRIL  224
+            P+A+ D DFSK+  NEEIWVTP IP ++PI LSYL+T IIGD+I+
+Sbjct  181  PSAEKDCDFSKFDKNEEIWVTPAIPFVVPIFLSYLLTSIIGDKII  225
+
+
+> UniRef90_Q8NKW5 Preflagellin peptidase n=2 Tax=Methanococcus 
+voltae TaxID=2188 RepID=FLAK_METVO
+Length=233
+
+ Score = 231 bits (588),  Expect = 2e-79, Method: Compositional matrix adjust.
+ Identities = 111/232 (48%), Positives = 169/232 (73%), Gaps = 3/232 (1%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MI Y IG LGL+IAS+QD +SREIE+YIWI +AV G+L + Y S T  ++  +I+SISGF
+Sbjct  1    MIAYAIGLLGLLIASIQDIKSREIENYIWIGMAVIGLLLSTYLSFTTGNFMPIISSISGF  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            +ICFI+GY+MF+ GIGG DGK+L+G+GAL+P +  P+Y+SL  L  + Y+P FP++VF N
+Sbjct  61   IICFIIGYLMFVLGIGGADGKILMGMGALIPSYAFPVYSSLQPLYTMEYIPWFPLLVFFN  120
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+            G+  M+ LP  + F+N+ NG +PK  KE++LM  GE + V  AK+  ++++G+   +   
+Sbjct  121  GVILMIVLPIYLFFKNLSNGVKPKKLKEYVLMLVGEYITVAEAKKGNKVVLGKGKDVKLI  180
+
+Query  181  PAADDE---DFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIP  229
+            P+ +D+   D SKY + + +W TP++PL++PI LSY++TP +GD+IL  ++P
+Sbjct  181  PSVNDDKNYDLSKYKDTQYVWATPELPLLVPIALSYIITPFLGDKILSIILP  232
+
+
+> UniRef90_C7P8Y1 Peptidase A24B, FlaK domain protein n=1 Tax=Methanocaldococcus 
+fervens (strain DSM 4213 / JCM 15782 / AG86) 
+TaxID=573064 RepID=C7P8Y1_METFA
+Length=235
+
+ Score = 230 bits (587),  Expect = 4e-79, Method: Compositional matrix adjust.
+ Identities = 120/227 (53%), Positives = 169/227 (74%), Gaps = 2/227 (1%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MI + +GA+GL+IAS+ D + REIEDYIWI + +FG L++   S    D   +  S  GF
+Sbjct  1    MINFAVGAIGLLIASIYDLKCREIEDYIWISMVIFGFLYSGCLSFVFHDSIYVFQSFVGF  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLN-YVPTFPIMVFI  119
+            ++CF LG+ MFL G+GGGDGK+L+G+GALVPK+ MPIYT LG +LN + Y+P+FPIMV I
+Sbjct  61   IVCFFLGFFMFLLGMGGGDGKLLMGIGALVPKYGMPIYTPLGIILNYHPYIPSFPIMVII  120
+
+Query  120  NGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINF  179
+            N IFF + +P ++  +NI+ G +PKT KEF+ MF GEKM+V+ A +++RLI+G  + +  
+Sbjct  121  NAIFFSIVIPIIVFLKNIIRGVKPKTKKEFMCMFLGEKMRVSEAMKKERLILGNQENLKL  180
+
+Query  180  FPAA-DDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILD  225
+             P+A +D +FS +  NEEIWVTP IP ++P+ LSYL+TPIIGD+I+D
+Sbjct  181  LPSAEEDYNFSNFDENEEIWVTPAIPFVVPMFLSYLITPIIGDKIID  227
+
+
+> UniRef90_D5VSA0 Peptidase A24B, FlaK domain protein n=1 Tax=Methanocaldococcus 
+infernus (strain DSM 11812 / JCM 15783 / ME) 
+TaxID=573063 RepID=D5VSA0_METIM
+Length=233
+
+ Score = 203 bits (517),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 104/231 (45%), Positives = 155/231 (67%), Gaps = 2/231 (1%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MI YIIG L LI+ S+QD + RE+EDYIW+ +  FG L+ ++ ++   + S LI      
+Sbjct  1    MINYIIGLLCLILGSIQDIKKREVEDYIWLAMVGFGFLYHLFLTLKFGNISFLILFFESL  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+             I FILGY MFL G GG DGK LIG+GALVP  +MPIY+S+  +L+L   PTFPI+VFIN
+Sbjct  61   FISFILGYFMFLLGSGGADGKALIGIGALVPSMKMPIYSSIFKVLSLLNFPTFPILVFIN  120
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+             +F ++F P VI  RN+  G +P+  KE +LMF  EKM+    K++KR+I+G+++++  F
+Sbjct  121  SLFLIIFYPIVIFLRNLRRG-KPRNLKELLLMFVAEKMRYEEIKKEKRIILGKDEEVEIF  179
+
+Query  181  PAADDE-DFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF  230
+               ++  +++ Y +++ +W +P IP I  I LSY++TP +GD I+  L+ F
+Sbjct  180  KHGEEALNYNGYKDDDLLWASPAIPFIFIILLSYILTPYMGDIIIAKLLEF  230
+
+
+> UniRef90_N6V0I0 Peptidase A24B, FlaK domain-containing protein 
+n=1 Tax=Methanocaldococcus villosus KIN24-T80 TaxID=1069083 
+RepID=N6V0I0_9EURY
+Length=229
+
+ Score = 184 bits (468),  Expect = 3e-61, Method: Compositional matrix adjust.
+ Identities = 99/223 (44%), Positives = 149/223 (67%), Gaps = 3/223 (1%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            MI Y  G L ++IA   D +SREI +YIWI + +FG+++ IY +    +   +  SI G 
+Sbjct  1    MINYAFGLLCILIALYCDIKSREINEYIWITMIIFGLMYHIYLTFVTGNLIYITQSILGI  60
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            VICF LGY MFL G+GGGDGK+LIGLGALVPK+ +PI + LG LL+  Y+PTFPI V IN
+Sbjct  61   VICFFLGYFMFLLGVGGGDGKLLIGLGALVPKYNIPISSPLGYLLSHPYLPTFPIFVLIN  120
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+             IF ++ +P ++  +NI +  +PK  KEF +MF  EK K +  K++  +++G++  IN  
+Sbjct  121  AIFLIILIPIIVFLKNI-SKYKPKNIKEFFMMFIAEKHKFSDIKDKNFVVLGKDGNINII  179
+
+Query  181  PAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+               + ++  +Y +++ +W +P+IP ++PI  SY++TP IGD I
+Sbjct  180  KNVEKKE--EYGDDDIVWASPEIPFVVPIFFSYILTPFIGDLI  220
+
+
+> UniRef90_A0A2H6JYC5 Type IV leader peptidase family protein n=1 
+Tax=archaeon BMS3Bbin15 TaxID=2005738 RepID=A0A2H6JYC5_9ARCH
+Length=234
+
+ Score = 116 bits (290),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 74/218 (34%), Positives = 121/218 (56%), Gaps = 18/218 (8%)
+
+Query  9    LGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSIL----INSISGFVICF  64
+            L L+ AS+ D++ REI++  W+ L V G +F IY       Y IL    I+S SGF++ +
+Sbjct  19   LVLLYASILDYKYREIDNKSWLSLVVMGFIFNIYEFFISGSYEILKFLIISSASGFLVAY  78
+
+Query  65   ILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFF  124
+            IL Y      +GGGDGK+ +G+ A+ P F    ++           P F + VF N +F 
+Sbjct  79   ILYYT---GTMGGGDGKIFMGIAAMFPLFPFTTFSLF---------PLFFLSVFANSVFL  126
+
+Query  125  MVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFPAAD  184
+              FLP +   +NI N    ++ KE +L+F G K +    KE + +I  ++ +IN F  A+
+Sbjct  127  SAFLPLIFFIKNIPNIKEIRSLKEVVLLFIGYKREEKDVKEFEAVI-ARDGEINIFQNAN  185
+
+Query  185  DEDF-SKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+              +  +   +++E+WVTP +P +IPITL ++++ + GD
+Sbjct  186  LMELGTTGKSSKEVWVTPALPFVIPITLGFILSLVYGD  223
+
+
+> UniRef90_A0A150J863 Preflagellin peptidase n=1 Tax=Arc I group 
+archaeon U1lsi0528_Bin055 TaxID=1705409 RepID=A0A150J863_9EURY
+Length=241
+
+ Score = 86.7 bits (213),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 75/246 (30%), Positives = 117/246 (48%), Gaps = 27/246 (11%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYS-ILINSISG  59
+            +++ I+G + L  AS  D + REIE++ W+ LA+ G + AIY S T   +  ILI     
+Sbjct  6    ILKIILGFVVLFHASYLDIKKREIEEWHWVILAIIGFVHAIYLSFTFQSFRPILITGGVF  65
+
+Query  60   FVICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFI  119
+             ++  +   + +L   GGGDGK+L+GLGAL+P      Y              FPI VF 
+Sbjct  66   LLMFGLALLLFYLGLFGGGDGKILMGLGALLPSIPGKEYA----------FGLFPISVFD  115
+
+Query  120  NGIFFMVFLPFVILFRNILNGARPK-----TGKEFILMFFGEKMKVNVAKEQ----KRLI  170
+            N +   +FLP VIL  N+     PK       K+ + M  G ++K     ++    +   
+Sbjct  116  NALIISIFLPIVILAYNLFRQDSPKEYDSGKMKKILAMMVGYRIKTEKLSDKFYPLEEFK  175
+
+Query  171  MGQNDKINFFPAADDEDFSKYSNN------EEIWVTPQIPLIIPITLSYLVTPIIGDRIL  224
+             G+   I  F    D D  KY         + +W TP +P ++PIT+ Y +    GD +L
+Sbjct  176  EGKR-TIRLFIGDLDFDVKKYREGLIQKGIDNLWATPGLPFVVPITIGYFIAVFFGDLML  234
+
+Query  225  DFLIPF  230
+            + ++ F
+Sbjct  235  EIVMSF  240
+
+
+> UniRef90_A0A150J2S7 Preflagellin peptidase n=1 Tax=Arc I group 
+archaeon U1lsi0528_Bin089 TaxID=1705564 RepID=A0A150J2S7_9EURY
+Length=241
+
+ Score = 85.5 bits (210),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 76/241 (32%), Positives = 119/241 (49%), Gaps = 27/241 (11%)
+
+Query  6    IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYS-ILINSISGFVICF  64
+            IG + L  AS  D + REIE++ W+FLAV G + AIY SI+   +  IL   +   ++  
+Sbjct  11   IGTVVLFHASYVDIKKREIEEWHWVFLAVVGFIHAIYLSISFESFRPILFTGVVFLLMFG  70
+
+Query  65   ILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFF  124
+            +   + +L   GGGDGK+L+GLGAL+P      Y              FP+ VF N +  
+Sbjct  71   LALLLFYLGLFGGGDGKILMGLGALLPSLSGKEYA----------FGLFPVSVFDNALIM  120
+
+Query  125  MVFLPFVILFRNILNGARPK---TG--KEFILMFFGEKMK----------VNVAKEQKRL  169
+             + LP  IL  NI+    PK   +G  K+ + M  G +++          +   K+ KR 
+Sbjct  121  SILLPIGILSYNIIKKDSPKEYESGKFKKILAMMVGYRLETAKLSDKFYPLEEFKDGKRS  180
+
+Query  170  IMGQNDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIP  229
+            I      ++F  A   E+ +K    + +W TP +P ++PIT+ YL+    GD +L  ++ 
+Sbjct  181  IRLFIGDLDFDVAEYKEELTK-KGIKNLWATPGLPFVVPITIGYLLAVFFGDIMLRIVMI  239
+
+Query  230  F  230
+            F
+Sbjct  240  F  240
+
+
+> UniRef90_A0A2H6GYD4 Type IV leader peptidase family protein n=1 
+Tax=archaeon BMS3Abin16 TaxID=2005740 RepID=A0A2H6GYD4_9ARCH
+Length=219
+
+ Score = 83.6 bits (205),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 64/218 (29%), Positives = 104/218 (48%), Gaps = 23/218 (11%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINS--ISGFVICFILGY  68
+            LI ASV D RSREI    W  +   G++  I         ++LI +  I G  + F +  
+Sbjct  16   LIYASVLDLRSREINRLAWQSMTGLGLILLIVDLAASKSLALLITAAIILGIAVVFAVS-  74
+
+Query  69   MMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFL  128
+            + +L  +GGGD K+LIGLGA+ P      Y           +P F + VF N I   + +
+Sbjct  75   IHYLGLMGGGDAKLLIGLGAMFPTLPPGTYV----------LPAFFLTVFSNAIIVSLLV  124
+
+Query  129  PFVILFRNI--LNGARPKTGKEFILMFFG-EKMKVNVAKEQKRLIMGQNDKINFFPAADD  185
+            P     RN+  L G R  + ++F+ +F   +K   ++ K +  L  GQ      F  A +
+Sbjct  125  PIAFFLRNLGELRGVR--SARDFLRLFIAYQKDSKDLGKFETVLDEGQ-----LFINARE  177
+
+Query  186  EDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+             +  +  +   IW TP +P ++ +TL ++++ + GD I
+Sbjct  178  VELGETEDTGRIWATPALPFVVFLTLGFIISVLHGDLI  215
+
+
+> UniRef90_A0A150IXI7 Preflagellin peptidase n=3 Tax=Arc I group 
+TaxID=1705400 RepID=A0A150IXI7_9EURY
+Length=241
+
+ Score = 84.0 bits (206),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 73/246 (30%), Positives = 116/246 (47%), Gaps = 27/246 (11%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYS-ILINSISG  59
+            +++ + G + L  AS  D + REIE++ WI LA+ G + AIY S     +  +LI     
+Sbjct  6    ILKIVFGGIVLFHASYLDIKKREIEEWHWIILAILGFIHAIYLSFAFQSFRPLLITGAVF  65
+
+Query  60   FVICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFI  119
+             ++  +   + +L   GGGDGK+L+G+GAL+P      Y              FP+ VF 
+Sbjct  66   LLMFGLALLLFYLGLFGGGDGKILMGIGALLPSLPGKEYA----------FGLFPMSVFD  115
+
+Query  120  NGIFFMVFLPFVILFRNILNGARPK---TG--KEFILMFFGEKMKVNVAKEQ----KRLI  170
+            N +   +FLP  IL  N+     PK   +G  K+ + M  G +++     E+    +   
+Sbjct  116  NALIISIFLPIFILIYNLSRKDSPKEYDSGKIKKILAMLVGYRLETEKLSEKFYPLEEFK  175
+
+Query  171  MGQNDKINFFPAADDEDFSKYSNN------EEIWVTPQIPLIIPITLSYLVTPIIGDRIL  224
+             G+  +I  F    D D +KY         E +W TP +P I+PIT  Y +    GD +L
+Sbjct  176  EGKR-RIKLFIGDLDFDINKYKKELKDKGIETLWATPGLPFIVPITFGYFIAIFFGDIML  234
+
+Query  225  DFLIPF  230
+              ++ F
+Sbjct  235  KLVMIF  240
+
+
+> UniRef90_A0A2G9MJN3 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_34_8 
+TaxID=1974461 RepID=A0A2G9MJN3_9ARCH
+Length=290
+
+ Score = 79.0 bits (193),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 52/144 (36%), Positives = 87/144 (60%), Gaps = 13/144 (9%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            M+ Y +  +GL+I S+ D ++RE+ DY+   L   G+   + SS+   DYS  + S+ GF
+Sbjct  4    MLVYAVCFIGLLIGSITDIKTREVPDYLNFSLIAIGLGLGLISSLVYWDYSYFVTSLLGF  63
+
+Query  61   VICFILGYMMF-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFP-----  114
+            V+CF+L  +MF  S  GGGD KML+ +GAL+    +P ++SL +L ++N     P     
+Sbjct  64   VVCFLLAALMFYTSQWGGGDAKMLMAMGALIG---LP-FSSLYSLYSINSFSDLPFLFVF  119
+
+Query  115  --IMVFINGIFFMVFLPFVILFRN  136
+              +++ I G++ +V+L FV+L +N
+Sbjct  120  IMLILVIGGVYGLVWL-FVLLVKN  142
+
+
+> UniRef90_A0A150JMX6 Preflagellin peptidase n=4 Tax=Euryarchaeota 
+TaxID=28890 RepID=A0A150JMX6_9EURY
+Length=241
+
+ Score = 74.7 bits (182),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 72/244 (30%), Positives = 119/244 (49%), Gaps = 25/244 (10%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFV  61
+            ++ I G   L  AS  D + REIE++ WI L++ G+ +A+Y S  L     L+ +++ F+
+Sbjct  7    LKIIFGGFILFHASYLDIKKREIEEWHWIALSLVGLAYAVYMSFVLHSIKPLLITVTVFM  66
+
+Query  62   IC-FILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            +   +   + +L   GGGDGK+L+G+GAL+P      Y              FP+ VF N
+Sbjct  67   LMFGLALLLFYLGLFGGGDGKILMGIGALLPSLSGREYA----------FGLFPMSVFDN  116
+
+Query  121  GIFFMVFLPFVILFRNILNGARPK-----TGKEFILMFFGEKMKVNVAKEQKRLIMGQND  175
+             +   + +P  IL  N+     P+       K+ I MF G ++K     ++   +    D
+Sbjct  117  ALIISILIPIFILIYNLTRRDFPREYNSSKVKKIISMFIGYRLKTENLSDKFYPLEEFKD  176
+
+Query  176  ---KINFFPAADDEDFSKYSNN------EEIWVTPQIPLIIPITLSYLVTPIIGDRILDF  226
+                I  F    D D +KY ++      E +W TP +P I+PIT+ Y ++  IGD +L  
+Sbjct  177  GDRTIRLFIGNLDFDIAKYKDDLKTKKIETLWATPGLPFIVPITIGYFISIFIGDIMLKI  236
+
+Query  227  LIPF  230
+            ++ F
+Sbjct  237  VMNF  240
+
+
+> UniRef90_A0A139CQY9 Peptidase A24B, FlaK-like protein n=1 Tax=Methanolobus 
+sp. T82-4 TaxID=1794908 RepID=A0A139CQY9_9EURY
+Length=253
+
+ Score = 75.1 bits (183),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 68/241 (28%), Positives = 112/241 (46%), Gaps = 25/241 (10%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-LDYSILINSISGFVICFILGYM  69
+            L+ A   D ++R + + +W+ +   G +F +Y  ITL L Y  LI +I  F   F   Y+
+Sbjct  14   LLYACYADIKTRRVANEVWVVMFGVGFVFIMYDLITLGLPY--LIRNILTFAFIFTFVYI  71
+
+Query  70   MF-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVP---TFPIMVFINGIFFM  125
+            +F L   GG D K+L+ +  ++P F  P     GT L +N VP    F   VF N +   
+Sbjct  72   LFQLGAFGGADAKVLMVISLIIPTF--PDIVINGTQLPINGVPPLGVFAFSVFGNSVILT  129
+
+Query  126  VFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQK-RLIMGQNDK---INF-F  180
+            V +P  +   N+L+    +  K  + M  G +  V+  ++   R+I   N+    ++F F
+Sbjct  130  VIVPIGLFIYNLLHNPLKENLKRPLYMLIGYRTPVSSLEQGHIRMIESYNETKEGVSFGF  189
+
+Query  181  PAADDE-------DFSKYSNN----EEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIP  229
+              +  E       +   Y  N    + +WVTP +P +IPIT  ++   + GD I    + 
+Sbjct  190  TRSGTELTTNVIAELKAYLRNGKINDSVWVTPGLPFMIPITAGFITAVVFGDLIFYLTLQ  249
+
+Query  230  F  230
+            F
+Sbjct  250  F  250
+
+
+> UniRef90_D3S7M8 Peptidase A24B, FlaK domain protein n=1 Tax=Methanocaldococcus 
+sp. (strain FS406-22) TaxID=644281 RepID=D3S7M8_METSF
+Length=254
+
+ Score = 73.6 bits (179),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 67/254 (26%), Positives = 114/254 (45%), Gaps = 57/254 (22%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLD-----YSILINS  56
+            + YI G +  I  +V+D++ RE+ D++WI +   GVL     + +LL       +IL  +
+Sbjct  3    LAYIYGLICSIYGAVEDWKKREVSDFLWISMLWVGVLVHFLYNKSLLTIFIEILAILFIT  62
+
+Query  57   IS------------------------------GFVICFILG-YMMFLSGIGGGDGKMLIG  85
+            IS                               F+I +++G ++ +L+ +GGGD K L+G
+Sbjct  63   ISVRYEKFNKLVYVGIFLFLLSFILFKSYFALSFLIFYLIGIFLYYLNFMGGGDCKFLMG  122
+
+Query  86   LGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFLPFVILFRNILNGARPKT  145
+            LG L   F                   F  ++F+N I F++     IL  NI N +    
+Sbjct  123  LGYLKGMF-------------------FTFVIFLNAILFVIPYCLAILLINIKNKSYKGL  163
+
+Query  146  G-KEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFPAADDEDFSKYSNNEEIWVTPQIP  204
+              K   L+F   K  ++  K+ +  IMG ++  +  P  ++E   K     ++WVTPQIP
+Sbjct  164  KLKNLPLLFIALKKDIDDVKKFES-IMGDDENFSLIPNINEEKEDKKIYKGKVWVTPQIP  222
+
+Query  205  LIIPITLSYLVTPI  218
+             ++ I+ SY++  I
+Sbjct  223  FLVFISFSYVLYMI  236
+
+
+> UniRef90_Q0W2M7 Predicted peptidase (A24 family) n=1 Tax=Methanocella 
+arvoryzae (strain DSM 22066 / NBRC 105507 / MRE50) 
+TaxID=351160 RepID=Q0W2M7_METAR
+Length=272
+
+ Score = 72.8 bits (177),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 62/239 (26%), Positives = 98/239 (41%), Gaps = 34/239 (14%)
+
+Query  14   ASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMM---  70
+            + + D++SR     +W  +   GV+  + + I    Y +  N +  F + F L Y++   
+Sbjct  24   SCITDWKSRRAPPILWEVMTAAGVILLL-TEIFTSSYEVRYNVLFFFALSFCLIYLLVNF  82
+
+Query  71   --------FLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPI---MVFI  119
+                         GG D   L+ +  L P +  P+   LG  L L   P  PI    VF 
+Sbjct  83   IYYLFNNVLKGAFGGADANALLAMSVLFPYY--PVMDILGVSLPLVKDPVTPIFTLAVFG  140
+
+Query  120  NGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKIN-  178
+            N +   + LP  I   N       +    FI  FFG KM +   K++   +M   ++ + 
+Sbjct  141  NALILNIVLPLSIFLYNAYKLPFRELKSNFITAFFGYKMSLKDLKDKHVRLMHNYEEEDG  200
+
+Query  179  ---------FFPAADDEDFSKYSN-------NEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+                      +P  DDE + +           + +WVTP+IPL+IPITL  +V    GD
+Sbjct  201  KVVRHMSMFRYPELDDELYGQLKKWRKEGKIEDTLWVTPKIPLLIPITLGVVVALAYGD  259
+
+
+> UniRef90_A0A256ZZQ9 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon ex4484_162 TaxID=1978125 RepID=A0A256ZZQ9_9EURY
+Length=222
+
+ Score = 71.6 bits (174),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 64/226 (28%), Positives = 107/226 (47%), Gaps = 25/226 (11%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            ++ +  G + L  AS  D ++R + + +W+ +   G+L  +    T+      +  + G 
+Sbjct  9    LLRFASGLVMLSFASYADLKTRTVSNNVWLLMGGLGILLLLVQYFTI---GFEMVQLVGI  65
+
+Query  61   VICFILGYMMFLSGI--GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNL-NYVPTFPIMV  117
+             I  +L Y++F  GI  GG D K+L+ L  LVP      +  L     L   +  FP ++
+Sbjct  66   PIMILLAYLLFKVGIIFGGADAKVLMALSFLVP-----FWPELNEFFPLWRSILPFPWVI  120
+
+Query  118  FINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRLIMG  172
+            F N I   VF+PF++LF N       K   EF    FG KM ++ AK       +R+   
+Sbjct  121  FSNSIILFVFIPFILLFINAY-----KRDLEFPYCLFGYKMSIDEAKRGFFWPLERIKEN  175
+
+Query  173  QNDKINFFPAAD--DEDFSKYSN--NEEIWVTPQIPLIIPITLSYL  214
+             +    + P  D  + +F K      +EIWVTP+IP +IP+ + ++
+Sbjct  176  GSRGFVWSPMDDEIENEFDKLEKIGKKEIWVTPKIPFMIPLLIGFI  221
+
+
+> UniRef90_A0A1F9YJT2 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon RBG_13_31_8 TaxID=1797976 RepID=A0A1F9YJT2_9EURY
+Length=238
+
+ Score = 71.6 bits (174),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 67/233 (29%), Positives = 108/233 (46%), Gaps = 27/233 (12%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL----LDYSILINSI  57
+            I ++ G   L+ AS  D ++R   + +W  +   G +  +    T     L Y + I  +
+Sbjct  11   IRFVTGITILLYASFTDIKTRRAPNLLWFLMGAMGAILLLVQYFTTGFQNLFYLLFIPIM  70
+
+Query  58   SGFVICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMV  117
+             G +       ++F    GG D K ++ L  LVP  +  IY+    L    ++P F   +
+Sbjct  71   IGLIYALYRVRLIF----GGADAKAIMALAILVP-IEPAIYSI--PLWKGGFMP-FSWSI  122
+
+Query  118  FINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRLIMG  172
+            F N +   +F+P  IL  NI      K   EF   F G KM +  AKE+     ++L+ G
+Sbjct  123  FSNSLIVFLFIPISILVFNI-----AKKNIEFPYSFLGYKMSIKKAKEKFVWPLEKLVDG  177
+
+Query  173  QNDKINFFPAADD--EDFSKYSNNE--EIWVTPQIPLIIPITLSYLVTPIIGD  221
+            +  K  + P   D  E+  ++  N   EIWVTP+IP +IP+T+ ++   I GD
+Sbjct  178  KR-KFIYMPKDFDAQEELLEFEKNNIAEIWVTPKIPFMIPLTIGFIFAFIFGD  229
+
+
+> UniRef90_A0A1Y3GEG1 Peptidase A24A prepilin type IV FlaK n=1 
+Tax=Methanonatronarchaeum thermophilum TaxID=1927129 RepID=A0A1Y3GEG1_9EURY
+Length=217
+
+ Score = 70.5 bits (171),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 61/214 (29%), Positives = 99/214 (46%), Gaps = 26/214 (12%)
+
+Query  12   IIASVQDFRSREIEDYIWIFLAVFGVLFAI--YSS--ITLLDYSILINSISGFVICFILG  67
+            IIA   D + R++ + +WI L +  V+F    Y++  IT+L  S+L+ +I    I FI+ 
+Sbjct  16   IIACFTDLKDRKVPNKLWIPLIIIAVVFLALQYNTEYITMLGISLLVIAI----IVFIMA  71
+
+Query  68   YMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVF  127
+             + F    GG D K LI +  L P +      ++G          F +   +NG+F  + 
+Sbjct  72   ALRF----GGADLKALIVIAILFPTYPETFNPTIGEY------SIFALTTIVNGLFIALI  121
+
+Query  128  LPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFPAADDED  187
+             P  IL  NI+ G   K    F  +   +K    V  +++    GQ   +     +++E 
+Sbjct  122  YPIAILITNIIKGDTEKPSHLFTSI---KKPTKKVTDKERVYHQGQYKTL-----SEEEV  173
+
+Query  188  FSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+             +      ++WVTP IP I+ ITL  +V   IGD
+Sbjct  174  KTLSKTKNKVWVTPWIPFIVFITLGLIVALTIGD  207
+
+
+> UniRef90_P81318 Uncharacterized protein MJ1282.1 n=1 Tax=Methanocaldococcus 
+jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 
+/ JCM 10045 / NBRC 100440) TaxID=243232 RepID=YC8A_METJA
+Length=254
+
+ Score = 70.5 bits (171),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 63/249 (25%), Positives = 113/249 (45%), Gaps = 57/249 (23%)
+
+Query  4    YIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSI------  57
+            Y+ G +  I  +V+D+R RE+ D++WI +   GV   +  + +LL + I I ++      
+Sbjct  5    YLYGLICSIYGAVEDWRKREVTDFLWISMLWVGVFIHLLYNKSLLLFFIEIFAVLFITLS  64
+
+Query  58   -------------------------SGFVICFILGYMM-----FLSGIGGGDGKMLIGLG  87
+                                     S F + F++ Y++     +L+ +GGGD K L+GL 
+Sbjct  65   VRYEKFNKLVYIGVFLFLLSFILFKSYFALSFLVFYLIGIFLYYLNFMGGGDCKFLMGLS  124
+
+Query  88   ALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFLPFVILFRNILNGARPKTG-  146
+             L   F                   F  ++F+N I F++     IL  N+ NG   +   
+Sbjct  125  YLKGMF-------------------FTFIIFLNAILFVIPYCIFILLINLKNGNHKRLKL  165
+
+Query  147  KEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFPAADDEDFSKYSNNEEIWVTPQIPLI  206
+            K   L+F   K  ++  K+ +  IMG ++ ++  P  ++E   K +   ++WVTPQ+P +
+Sbjct  166  KNLPLLFIALKKDIDKVKKFET-IMGDDENLSLIPNINEEKEEKKTYKGKVWVTPQLPFL  224
+
+Query  207  IPITLSYLV  215
+            + I LSY++
+Sbjct  225  VFICLSYIL  233
+
+
+> UniRef90_A0A3G1L816 Uncharacterized protein n=1 Tax=Methanosarcinales 
+archaeon Met12 TaxID=1914862 RepID=A0A3G1L816_9EURY
+Length=256
+
+ Score = 70.5 bits (171),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 56/235 (24%), Positives = 109/235 (46%), Gaps = 30/235 (13%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAI-----YSSITLLDYSILINSISGFVICFI  65
+            L+ A   D ++R + + +W+ +   G + A+     +  I+LL++ + +  IS F     
+Sbjct  16   LLYACYSDLKNRRVSNLVWLPMIGVGAVLALLDFIDHGFISLLNFGLSVMLISAF-----  70
+
+Query  66   LGYMMF-LSGIGGGDGKMLIGLGALVPKFQ-MPIYTSLGTLLNLNYVPTFPIMVFINGIF  123
+              Y++F +   GG D K +I L  +VP F  + ++     L  +  +  F    F N + 
+Sbjct  71   -AYVLFKMGAFGGADAKAIISLAIVVPTFHPIRLFEHSIPLAGIPPLNLFAFSTFGNALI  129
+
+Query  124  FMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQN---------  174
+                +PF +   N+++  R +  ++   +F G K K++  K ++ + + +N         
+Sbjct  130  LTSVVPFFVFIYNLVHLNRDEMMEKPAYLFLGYKSKISELKNRRHIRLMENYVEEGGRVI  189
+
+Query  175  DKINFFPAADDED-------FSKYSN-NEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+             K +    A DE+       F+K     E IW+TP +P +IP+TL ++   + GD
+Sbjct  190  RKFSRRGIAIDEEVVETLQRFAKEGKIPERIWITPGLPFMIPLTLGFITAVVYGD  244
+
+
+> UniRef90_K4MBM9 Peptidase A24B, FlaK-like protein n=1 Tax=Methanolobus 
+psychrophilus R15 TaxID=1094980 RepID=K4MBM9_9EURY
+Length=253
+
+ Score = 70.5 bits (171),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 64/235 (27%), Positives = 105/235 (45%), Gaps = 27/235 (11%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGV--LFAIYSSITLLDYSILINSISGFVICFILGY  68
+            L+ A   D +SR + + +W+  A+FGV  +F +Y  +T L    LI ++  F   ++  Y
+Sbjct  14   LLYACYSDIKSRRVVNEVWV--AMFGVCYVFILYDFMT-LGMPYLIRNLLTFAFVYLFVY  70
+
+Query  69   MMFLSG-IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIM---VFINGIFF  124
+            ++F  G  GG D K L+ +  +VP F  P      T L L   P F I    VF N I  
+Sbjct  71   ILFQFGAFGGADAKALMVISLIVPTF--PAIMVFNTSLPLQGTPIFDIFAFSVFGNSIIL  128
+
+Query  125  MVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN-VAKEQKRLIMGQND-----KIN  178
+             + +P  +   N+L     ++ +    MF G +  V+ + K+  R+I    +     K  
+Sbjct  129  TIVVPIGLFIYNLLQNPLKESLRRPFYMFIGYRTSVSGLGKDHIRMIESYEETEEGVKFR  188
+
+Query  179  FFPAADD----------EDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+            F  A  +                  ++ +WVTP +P +IPIT  ++   + GD I
+Sbjct  189  FTRAGTELTSNVVAQLKSHVKAGRMDDSVWVTPGLPFMIPITAGFITAVVFGDLI  243
+
+
+> UniRef90_A0A0E3SQ50 Signal peptidase, type IV-prepilin/preflagellin 
+n=1 Tax=Methanococcoides methylutens MM1 TaxID=1434104 
+RepID=A0A0E3SQ50_METMT
+Length=252
+
+ Score = 70.1 bits (170),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 64/250 (26%), Positives = 115/250 (46%), Gaps = 23/250 (9%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            +++ ++ A  LI A   D +SR + + +W  +   G +F +Y +       I   +IS F
+Sbjct  4    LLKVLVCAPFLIYACYSDIKSRRVTNRLWPKMLGAGAIFMLYDAYRFGIPYIKWTAIS-F  62
+
+Query  61   VICFILGYMMF-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPT---FPIM  116
+            ++ F   Y++F L+  GG D K+L+ +  ++P +  P     G  L +  +P    F   
+Sbjct  63   ILIFTFVYILFYLNAFGGADAKVLMVISLILPIY--PAMELFGRQLPIFGIPPLNLFTFS  120
+
+Query  117  VFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN-VAKEQKRLIMG---  172
+            VF N +   + +P  +   N+   +  +T K+   MF G +  V+ + K   RL+     
+Sbjct  121  VFGNSVILTIIVPIGLFLYNMTQPSLKETLKKPHYMFVGYRTPVSKLDKPHIRLMEAFEE  180
+
+Query  173  -QNDKINFFPAA----DDEDFSKYSN-------NEEIWVTPQIPLIIPITLSYLVTPIIG  220
+              ++  N F  +    DDE  S+          +E +WVTP +P +IPIT  ++   + G
+Sbjct  181  VDDEVRNKFTTSGTKLDDESISRLQEYAEKGLIDERVWVTPGLPFMIPITAGFIAAVVYG  240
+
+Query  221  DRILDFLIPF  230
+            D I    + F
+Sbjct  241  DLIFQLTLNF  250
+
+
+> UniRef90_A0A1Q6DW06 Peptidase A24A prepilin type IV FlaK n=1 
+Tax=Candidatus Methanohalarchaeum thermophilum TaxID=1903181 
+RepID=A0A1Q6DW06_9EURY
+Length=226
+
+ Score = 69.7 bits (169),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 61/226 (27%), Positives = 101/226 (45%), Gaps = 28/226 (12%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYS-SITLLDYSILINSISG  59
+            +I+ I+    L++AS+QD ++R+  +Y W+FL V  VL+   + + T L Y ++      
+Sbjct  7    LIKIILALFVLLLASMQDIKTRKASNYFWLFLLVLSVLYLFLNFNKTYLTYLLI-----S  61
+
+Query  60   FVICFILGYMM-FLSGIGGGDGKMLIGLGAL---VPKFQMPIYTSLGTLLNLNYVPTFPI  115
+            F   F L Y+  F +  GG D K L+ L  L    P +  P+Y              F  
+Sbjct  62   FGFIFPLSYLFYFFNFFGGADAKALMVLSLLFPVYPNYFNPVYGD---------ATVFTF  112
+
+Query  116  MVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQND  175
+             V +N +   +  P  +   N++ G   K  K    MF G K  V    E+ +++  +  
+Sbjct  113  TVLLNSLIISLIYPLALFLFNLIRGDTDKLSK----MFIGLKKPVKEVNEKDKIL--KES  166
+
+Query  176  KINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            K+  F +  +         + +W++P+IP I  I   YLV   IGD
+Sbjct  167  KL--FSSIKNRS-KLLKEKDYVWISPKIPFIASIFGGYLVAIFIGD  209
+
+
+> UniRef90_A0A2A3T015 Uncharacterized protein n=2 Tax=root TaxID=1 
+RepID=A0A2A3T015_9EURY
+Length=305
+
+ Score = 70.1 bits (170),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 69/254 (27%), Positives = 122/254 (48%), Gaps = 37/254 (15%)
+
+Query  3    EYIIGALGLIIASVQDFRSREIEDYI--------WIFLAVFGVLFAIY-------SSITL  47
+            EY +    L++A++  F +  +++Y+        W  + V G+L A+Y         +  
+Sbjct  53   EYSLHVWALLVATIVLFYNAFVDEYVLDNNQMMLWRAVQVLGILCAVYFLFSVESEELAA  112
+
+Query  48   LDYSIL-INSISGFVICFILGYMMFLSG--IGGGDGKMLIGLGALVPKFQMPIYTSLGTL  104
+             DY ++ + SIS   I  +L Y+ F  G  IGG D K ++ +G + P F +       T 
+Sbjct  113  QDYKLVDVVSIS---ILILLMYVWFYLGPTIGGADVKAIMTIGLVAP-FTLSFGGDTFTA  168
+
+Query  105  LNLNYVPTFPIMVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAK  164
+                  P +P +VF+N +   + +P  +   N++ G      K +  +FFG KMK+ +A+
+Sbjct  169  FETRGFP-YPFVVFMNSLLLYLLIPLSLAVYNVIKG---NLEKPYFQIFFGTKMKIVLAR  224
+
+Query  165  EQ-----KRLIMGQNDKINFFPAADDEDFSKYSNNEEI-----WVTPQIPLIIPITLSYL  214
+            E      +++I G+   + F    DD D +++   EE      W+T +IP IIP+ LS+ 
+Sbjct  225  ESFVWPMQQIIGGKVVMVAFVKNKDDSD-NQWDKLEESGVDNPWITFKIPYIIPLALSFF  283
+
+Query  215  VTPIIGDRILDFLI  228
+            V+   GD    +L+
+Sbjct  284  VSAFFGDLFSQYLV  297
+
+
+> UniRef90_A0A151EIV0 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon SG8-52-1 TaxID=1803816 RepID=A0A151EIV0_9EURY
+Length=239
+
+ Score = 68.9 bits (167),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 66/240 (28%), Positives = 119/240 (50%), Gaps = 40/240 (17%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFL-AVFGVLFAI-YSSITLLD---YSILINS  56
+            +  I+G   L  AS  D ++R  ++ +W+ + ++ G+L A+ Y +I   D   Y I I  
+Sbjct  11   LRLIVGVFILSYASYTDIKTRRAKNCLWLIMGSIGGILLAVQYFTIGFGDKIFYLIFIP-  69
+
+Query  57   ISGFVICFILGYMMFLSGI--GGGDGKMLIGLGALVPKF----QMPIYTSLGTLLNLNYV  110
+                 I  +L Y++F   +  GG D K L+ L  L+P      Q PI+         +++
+Sbjct  70   -----IMIVLVYVLFQMRLIFGGADAKALMALAILLPLQPSINQFPIWGE-------SFM  117
+
+Query  111  PTFPIMVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ----  166
+            P     +F N I   +F+P  ++  N+      K   +   MF G KM VN A+++    
+Sbjct  118  PA-SWSIFSNSIILFLFIPLSLIIFNL-----AKRDIKLPYMFLGYKMSVNKARDKFIWP  171
+
+Query  167  -KRLIMGQNDKINFFPAADD--EDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGD  221
+             ++++ G+  K ++ P   D  ++  ++ N+   EIWVTP+IP +IP+   ++ T ++GD
+Sbjct  172  LEKIVEGKR-KFSYMPKNFDVEDELDEFENHGFNEIWVTPKIPFMIPLLAGFICTFLLGD  230
+
+
+> UniRef90_A0A2H5VG42 Uncharacterized protein n=1 Tax=archaeon 
+HR06 TaxID=2035442 RepID=A0A2H5VG42_9ARCH
+Length=216
+
+ Score = 68.2 bits (165),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 69/235 (29%), Positives = 110/235 (47%), Gaps = 43/235 (18%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDY--SILINSISGFVICFILGY  68
+            L+  S  D + RE+ED +WI  ++ G++   YS   ++ Y  S+ I +   F + F+  Y
+Sbjct  2    LLYTSFLDVKKREVEDKVWIIFSLIGIILN-YSQYEIISYLFSLGITAAISFSLYFLGFY  60
+
+Query  69   MMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFL  128
+                   GG D K LI L      F +P Y +     N ++    PI+   NGIF  + L
+Sbjct  61   -------GGADAKALITLS-----FILPYYPA-----NYSFHTIAPIITLTNGIFITLTL  103
+
+Query  129  PFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMG-QNDKIN--FFPAADD  185
+            P   +  N L   R     E I   F E+ K+   K+   +I+G ++ K+    FP   +
+Sbjct  104  PLSFILINTLKIIRG----EKIFEGFEEEGKL---KKLIAIILGFRSKKVRKFMFPLEKE  156
+
+Query  186  ED------------FSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLI  228
+            E+            ++ Y   E+ WVTP IPL++ I+L +L   + GD I+ FL+
+Sbjct  157  EEGKRRFDFKLLGWYNDYVQEEDKWVTPAIPLLVFISLGFLFMILFGD-IISFLM  210
+
+
+> UniRef90_A0A2J6H123 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon TaxID=2026803 RepID=A0A2J6H123_9ARCH
+Length=404
+
+ Score = 69.7 bits (169),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 37/85 (44%), Positives = 57/85 (67%), Gaps = 1/85 (1%)
+
+Query  6   IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFI  65
+           +G + LII+SV D + RE+ DY+ + L  FG+++A   S+ L  +  L+NS+ G  + F+
+Sbjct  9   VGLIALIISSVTDIKKREVPDYVSVGLIFFGLIYASSISLILQSFEPLLNSLIGLGMGFL  68
+
+Query  66  LGYMMFLSG-IGGGDGKMLIGLGAL  89
+           +  +MF +G  GGGD KML+GLGAL
+Sbjct  69  IAALMFYTGQWGGGDAKMLMGLGAL  93
+
+
+> UniRef90_D2RGC2 Peptidase A24B, FlaK domain protein n=1 Tax=Archaeoglobus 
+profundus (strain DSM 5631 / JCM 9629 / NBRC 100127 
+/ Av18) TaxID=572546 RepID=D2RGC2_ARCPA
+Length=227
+
+ Score = 68.2 bits (165),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 64/231 (28%), Positives = 106/231 (46%), Gaps = 26/231 (11%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFV  61
+            ++ ++  L  I AS++D ++REI+D IW+F+    +   +   I   +   L  ++  FV
+Sbjct  6    VKVLVTLLIFIRASIEDLKTREIDDRIWLFMIALAIPLNVIQYIQ--EPFNLTFALIQFV  63
+
+Query  62   ICFILGYMM-FLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            + FIL  +M +L   GG D K LI L  +      PIY  +       ++  F + V  +
+Sbjct  64   LIFILANVMYYLLNFGGADCKALISLSIM-----FPIYPEIFEFTVKGFI--FALSVLTD  116
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN-VAKEQKRLIMGQNDK---  176
+             + F   +      RN L G   KT      MF G K+K++ + K    L   +N K   
+Sbjct  117  SVIFAPLISLYFFVRNALKGDFAKT------MFIGYKVKIDEIPKFHNLLEWVENGKVVR  170
+
+Query  177  ----INFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+                I F     +E   K    +E+WVTP +P ++ +T  ++V   +GD I
+Sbjct  171  SLRGIEFDSKVVEE--LKSLGVKEVWVTPALPFLVFMTFGFIVAVTLGDLI  219
+
+
+> UniRef90_A0A2H1FDH6 Putative archaeal preflagellin peptidase, 
+FlaK n=1 Tax=Nitrosotalea sp. CS TaxID=1903276 RepID=A0A2H1FDH6_9ARCH
+Length=230
+
+ Score = 68.2 bits (165),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 71/239 (30%), Positives = 117/239 (49%), Gaps = 27/239 (11%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIF---LAVFGVLFA--IYSSITLLDYSILINS  56
+            I  I+  L L IAS  D + REI+D IW+    LAVF + F   I++S+T + +S++I  
+Sbjct  8    IRVIMALLMLGIASYTDIKKREIDDKIWMIFGGLAVFLLFFTPNIFNSLTTVGFSLIIVP  67
+
+Query  57   ISGFVICFILGYMMFLSGIGGGDGKMLIGLGALVPK--FQMPIYTSLGTLLNLNYVPTFP  114
+            I+ FV  + +G+       GG D   LI L AL P+  F +       TLLN   +   P
+Sbjct  68   IAIFV--WRIGFF------GGADAFALIVLAALAPESTFSISQVNPFTTLLNTVLLSIIP  119
+
+Query  115  IMVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMK---VNVAKEQKRLIM  171
+            ++  I      + L    +F+   N  R     + I MF G + K    + + E++    
+Sbjct  120  VIANITRNIISI-LRHEDIFKGFENDTRKN---KIIAMFIGHRSKNPKFSFSIEKRE---  172
+
+Query  172  GQNDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF  230
+            G   K++F  A  + D  ++ ++ + WVTP IP +I I   +++  + GD I++ +  F
+Sbjct  173  GGMRKLDF--ALKNADNGEFCSSPDTWVTPGIPYMIYILGGFIIQLVYGDVIINIIKTF  229
+
+
+> UniRef90_N6WLT6 Archaeal peptidase A24, preflagellin n=1 Tax=Thermoplasmatales 
+archaeon SCGC AB-539-C06 TaxID=1242690 RepID=N6WLT6_9EURY
+Length=261
+
+ Score = 67.8 bits (164),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 58/238 (24%), Positives = 112/238 (47%), Gaps = 36/238 (15%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL----LDYSILINS  56
+            ++  ++G   L+ AS  D ++R   + +W+ +   G +  +   +T+    + Y I +  
+Sbjct  10   IVRLVVGTTILLYASYTDIKTRRASNMLWVIMGSVGAILLVIQYLTIGFDNIFYLIFVPI  69
+
+Query  57   ISGFVICFILGYMMFLSGIGGGDGKMLIGLGALVPK----FQMPIYTSLGTLLNLNYVPT  112
+            +   +  F    ++F    GG D K ++ L  LVP     F+ P+ +S        ++P 
+Sbjct  70   MIALMYIFFQLRLIF----GGADAKAMMTLAILVPLEPSIFEFPLESS--------FMP-  116
+
+Query  113  FPIMVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----K  167
+            F  ++  N +   + +P  +L  NI      +   +F  +  G K+ V  AKE+     +
+Sbjct  117  FSWVILSNSVLLFLLIPVSLLIFNI-----ARRNIKFPYLLLGYKLSVEKAKERFVWPLE  171
+
+Query  168  RLIMGQNDKINFFPAADD--EDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            +++ G+  K ++ P   D  +D   +  N   EIWVTP+IP +IP+   +L + I+GD
+Sbjct  172  KIVDGKR-KFSYMPKEFDVEDDLETFEKNGIMEIWVTPKIPFMIPLLAGFLCSFILGD  228
+
+
+> UniRef90_A0A151DW52 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon SG8-52-4 TaxID=1803819 RepID=A0A151DW52_9EURY
+Length=240
+
+ Score = 67.4 bits (163),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 64/239 (27%), Positives = 116/239 (49%), Gaps = 29/239 (12%)
+
+Query  6    IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-----LDYSILINSISGF  60
+            IG + L  AS  D ++R   + +W+ +   G +  +    T+     + Y I I  + G 
+Sbjct  15   IGVIILTYASYTDIKTRRASNCLWLIMGSIGGILLVLQYFTIGYEDKIFYLIFIPIMIGL  74
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            V       ++F    GG D K L+ L  L+P    P+  S   +   +++P     +F N
+Sbjct  75   VYVLFQLRLIF----GGADAKALMALAILLP--LQPLINSF-PIWGESFMPA-SWTIFSN  126
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRLIMGQND  175
+             I   +F+P  ++  N++     K    F  +F G KM VN A+E+     ++++ G+  
+Sbjct  127  SIILFLFIPLSLIVFNLV-----KRDIRFPYIFLGYKMDVNKAREKFIWPLEKIVDGKR-  180
+
+Query  176  KINFFPAADD--EDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF  230
+            K ++ P   D  ++  ++  N   EIWVTP++P +IP+   ++ T ++GD IL +L+ F
+Sbjct  181  KFSYMPKNFDVKDELDEFIKNGFREIWVTPKVPFMIPLLAGFVCTFLLGD-ILYYLLGF  238
+
+
+> UniRef90_A0A1I4TLQ2 Preflagellin peptidase FlaK n=1 Tax=Methanolobus 
+profundi TaxID=487685 RepID=A0A1I4TLQ2_9EURY
+Length=252
+
+ Score = 67.0 bits (162),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 60/235 (26%), Positives = 105/235 (45%), Gaps = 28/235 (12%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSI--LINSISGFVICFILGY  68
+            L+ A   D ++R + + +W+ +   G +F ++  +T   Y +  LI ++  F+  F   Y
+Sbjct  14   LLYACYADIKTRRVANEVWVLMFGVGFIFIMHDLVT---YGVPYLIRNVLTFLFIFAFVY  70
+
+Query  69   MMF-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVP---TFPIMVFINGIFF  124
+            ++F L   GG D K+L+ +  ++P F  P+ +   TL  LN VP    F   VF N +  
+Sbjct  71   VLFQLGAFGGADAKVLMVISLIIPTF--PVISVGSTLFPLNGVPFIDIFAFSVFGNSVIL  128
+
+Query  125  MVFLPFVILFRNILNGARPKTGKEFILMFFG--------EKMKVNVAKEQKRLIMG----  172
+             V +P  + F N++        + +  MF G        EK    +     R   G    
+Sbjct  129  TVIVPLGLFFYNLIKNPSESLKRPY-YMFIGYITPISKLEKGHFRMIDSYSRTKTGVEFR  187
+
+Query  173  ---QNDKINFFPAADDEDFSKYSNNEE-IWVTPQIPLIIPITLSYLVTPIIGDRI  223
+                  ++     ++ + F K    ++ +W+TP +P +IPIT  +L   I GD I
+Sbjct  188  FRRSGTELTSDVISELKTFQKEGKVKDGVWLTPGLPFMIPITAGFLTAVIFGDLI  242
+
+
+> UniRef90_C7P5U5 Peptidase A24B, FlaK domain protein n=1 Tax=Methanocaldococcus 
+fervens (strain DSM 4213 / JCM 15782 / AG86) 
+TaxID=573064 RepID=C7P5U5_METFA
+Length=253
+
+ Score = 66.6 bits (161),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 62/253 (25%), Positives = 111/253 (44%), Gaps = 62/253 (25%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGV------------------------  37
+            + Y+ G +  I  +V+D++ RE+ D++WI +   GV                        
+Sbjct  3    LSYLYGLICSIYGAVEDWKKREVSDFLWISMLWIGVILHSLHIKNLMLFFIEIVAILFIT  62
+
+Query  38   ----------LFAIYSSITLLDYSILINSIS-GFVICFILGYMMFLSGI-GGGDGKMLIG  85
+                      LF I   + LL + +  +  +  F++ +++G +++ S + GGGD K L+G
+Sbjct  63   MAVKYEKFSKLFYIGGFLFLLTFVVFKSYFALSFLVFYLVGILLYYSNLMGGGDCKFLMG  122
+
+Query  86   LGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFLPFVILFRNILN-GARPK  144
+            L  L                       F  ++F+N I F++    +I   N+ N   R  
+Sbjct  123  LSYLKG-------------------MVFTFIIFLNAILFVIPYCIIIFLINLKNKNYRGL  163
+
+Query  145  TGKEFILMFFGEKMKVNVAKEQKRL--IMGQNDKINFFPAADDEDFSKYSNNEEIWVTPQ  202
+              K  IL+F   K     AK+ K+   +MG + KI+  P  ++E+  K     ++WVTPQ
+Sbjct  164  RLKNLILLFIALKKD---AKDVKKFETVMGNDKKISLIPKINEEN-EKIVYEGKVWVTPQ  219
+
+Query  203  IPLIIPITLSYLV  215
+            +P ++ I  SY++
+Sbjct  220  LPFLVFICFSYVL  232
+
+
+> UniRef90_A0A1V4YYF0 Preflagellin peptidase n=1 Tax=Methanocella 
+sp. PtaU1.Bin125 TaxID=1811677 RepID=A0A1V4YYF0_9EURY
+Length=266
+
+ Score = 65.9 bits (159),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 59/229 (26%), Positives = 103/229 (45%), Gaps = 23/229 (10%)
+
+Query  14   ASVQDFRSREIEDYIWIFLAVFGVLFAIYS-SITLLDYSILINSISGFVICFILGYMMF-  71
+            + V D++ R   + +W  +    +LF +Y+  +   D   ++   +G +  + L Y++F 
+Sbjct  28   SCVTDWKIRRAPNKLWYIMGGIALLFDLYAFWLNDFDLMFVLWLAAGVLFIYALVYIIFR  87
+
+Query  72   LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGT---LLNLNYVPTFPIMVFINGIFFMVFL  128
+            + G GG D K LI +  + P +  P+    G    + N    P F + V  N +   V +
+Sbjct  88   VGGFGGADAKALIAIALMFPLY--PVIELAGVTFPVANAVMSPIFALSVLGNAVVLTVVV  145
+
+Query  129  PFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIM-------GQNDKINFF-  180
+            P  +L  N+L     +     I  F G K  ++  K +   +M       G+ +K   F 
+Sbjct  146  PLFMLVYNLLTAPFGEVIGNPIGAFTGYKAPIDRLKGKHLRLMHYYEETDGRVEKRMSFK  205
+
+Query  181  -PAADDE---DFSKYSNN----EEIWVTPQIPLIIPITLSYLVTPIIGD  221
+             P  DDE   + +K+       + +WVTP++P +IPITL +L     GD
+Sbjct  206  GPEIDDETLGELAKWRGEGKIGDRVWVTPKLPFLIPITLGFLAGIFYGD  254
+
+
+> UniRef90_A0A256XSG6 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon ex4572_165 TaxID=2012525 RepID=A0A256XSG6_9EURY
+Length=242
+
+ Score = 65.9 bits (159),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 65/234 (28%), Positives = 105/234 (45%), Gaps = 25/234 (11%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFG-VLFAIYSSIT----LLDYSILIN  55
+            +I +  G   L  AS  D ++R   + +WI + V G VL  I+  I      + Y I I 
+Sbjct  10   VIRFFTGFSILFYASYTDIKTRRAPNILWIIMGVIGCVLLGIHFMIDGFGDQIMYLIFIP  69
+
+Query  56   SISGFVICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPI  115
+             + G +  F    ++F    GG D K ++ L  L P F    + +  T      +  F  
+Sbjct  70   IMIGLMYLFFQLRLIF----GGADAKAIMALAILTPLFP---FQTGSTFPVFRSIMPFSW  122
+
+Query  116  MVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRLI  170
+            +VF N I   + +P  +L  NI+     K   +F   F G K+ +  AKE      +R+I
+Sbjct  123  VVFSNSILLFLCIPLSLLILNII-----KKNIKFPHCFIGYKVTIKKAKETFVWPLERII  177
+
+Query  171  MGQ---NDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+             G+   +   + F A+D     +    +EIWVTP+IP +IP+   ++    +GD
+Sbjct  178  DGKLRFSYVPHAFDASDQLTLFEKKGYKEIWVTPKIPFMIPLLAGFVTAFFVGD  231
+
+
+> UniRef90_A0A2R6CC64 Uncharacterized protein n=8 Tax=Candidatus 
+Marsarchaeota group 2 TaxID=2203771 RepID=A0A2R6CC64_9ARCH
+Length=265
+
+ Score = 65.5 bits (158),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 69/251 (27%), Positives = 106/251 (42%), Gaps = 49/251 (20%)
+
+Query  13   IASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYM---  69
+            I S QD R RE+EDY+W F+A   +   IY   T+L  S LI      V   +L  M   
+Sbjct  23   IGSAQDIRRREVEDYVW-FIAALPLALNIY---TILVGSALIEPRLWAVELALLTGMGLL  78
+
+Query  70   -MFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFL  128
+              +L   GG D K LI LG  +P+   P  + +G          F + VF NG+   V  
+Sbjct  79   FYYLGLFGGADAKALIALGLSMPRPIPPFESQIG---------LFGVTVFDNGVVLAVLY  129
+
+Query  129  P----FVILFRNIL------NGARPKTGKEFILMFFGEKMKV-NVAKEQKRLIMGQ----  173
+                  V LFR +L        A   +  +  ++ +  K  V N  +   +L + +    
+Sbjct  130  AALFVLVNLFRALLVKGYLGRYADASSRTKLGMILYAYKTSVENYMRNYYKLFLAEKPVV  189
+
+Query  174  --NDKINFFP------AADDEDFSKYSN---------NEEIWVTPQIPLIIPITLSYLVT  216
+                 + F P      A+DDE F++ S           +EIWV+  +PL+  + +  ++T
+Sbjct  190  DTQGSVTFTPIYGVRLASDDESFNELSALLASGKLDPKDEIWVSQGLPLVSFMFVGMIIT  249
+
+Query  217  PIIGDRILDFL  227
+            P  GD +   +
+Sbjct  250  PFTGDLVFHLI  260
+
+
+> UniRef90_A0A099T422 Peptidase A24 n=2 Tax=Methanococcoides TaxID=2225 
+RepID=A0A099T422_METMT
+Length=252
+
+ Score = 65.5 bits (158),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 64/250 (26%), Positives = 115/250 (46%), Gaps = 23/250 (9%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            +++ ++ A  LI A   D ++R + + +W  +   G +F  Y +       I   +IS F
+Sbjct  4    LLKVLVCAPFLIYACYSDIKTRRVTNSLWPKMLGAGAIFMAYDAFRYGIPYIKWTAIS-F  62
+
+Query  61   VICFILGYMMF-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPT---FPIM  116
+            ++ F   Y++F ++  GG D K+L+ +  ++P +  P     G  L +  +P    F   
+Sbjct  63   ILIFTFVYILFYMNAFGGADAKVLMVISLILPIY--PAIELFGRQLPIYGIPPLNLFTFS  120
+
+Query  117  VFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN-VAKEQKRLIMG---  172
+            VF N +   + +P  +   N+   +  +T K+   MF G +  V+ + K   RL+     
+Sbjct  121  VFGNSVILTIIVPIGLFLYNLSQPSLKETLKKPHYMFVGYRCPVSKLDKPHIRLMETFEE  180
+
+Query  173  QNDKI-----NFFPAADDEDFSK---YSN----NEEIWVTPQIPLIIPITLSYLVTPIIG  220
+             ND+I      +    D+   SK   Y+     +E +WVTP +P +IPIT  ++   I G
+Sbjct  181  GNDEIRNKFTKYGTKLDENTISKMEMYAEKGLIDERVWVTPGLPFMIPITAGFIAAVIYG  240
+
+Query  221  DRILDFLIPF  230
+            D I    + F
+Sbjct  241  DLIFQLTLSF  250
+
+
+> UniRef90_A0A2H5UW46 Uncharacterized protein n=1 Tax=archaeon 
+HR01 TaxID=2035437 RepID=A0A2H5UW46_9ARCH
+Length=237
+
+ Score = 64.7 bits (156),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 58/245 (24%), Positives = 107/245 (44%), Gaps = 46/245 (19%)
+
+Query  1    MIEYI---IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFA----IYSSITLLDYSIL  53
+            M+EY+   + +  L+  S  D ++RE++D +W+    FG+L      I+    ++ Y + 
+Sbjct  1    MLEYLRIAVASATLLYTSYLDLKTREVDDKVWLVAGAFGLLVNLPDLIWKPADIIPYLLS  60
+
+Query  54   INSISGFVICFILGYMMFLSGIGGGDGKMLIGLGALVP--KFQMPIYTSLGTLLNLNYVP  111
+            I + +G         + F+   GG D K L  L A+ P  ++ + ++  +G         
+Sbjct  61   IGATAGVAFS-----LYFVGLYGGADAKALTCLSAIHPFSRYGVQLHGIVG---------  106
+
+Query  112  TFPIMVFINGIFFMVFLPFVILFRN---------ILNGARPKTG-KEFILMFFGEKMKVN  161
+               +  F NG+     LP  +   N         I  G   + G ++F  +F G ++  +
+Sbjct  107  ---LTTFTNGMLLSALLPISLALYNSYRLVRGEEIFEGFESEPGYRKFFALFIGTRVMRS  163
+
+Query  162  VAKE-----QKRLIMGQNDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVT  216
+              K      +KR   G   +  F    DD D    +  +++W+TP IPL++  T  YL++
+Sbjct  164  SGKRFWSPVEKR--AGGVKRFTFNITIDDMD---EAFEDDMWITPGIPLLVFFTAGYLLS  218
+
+Query  217  PIIGD  221
+             + GD
+Sbjct  219  LVFGD  223
+
+
+> UniRef90_A0A256XMR5 Uncharacterized protein n=1 Tax=Thermofilum 
+sp. ex4484_79 TaxID=2012527 RepID=A0A256XMR5_9CREN
+Length=268
+
+ Score = 64.7 bits (156),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 67/255 (26%), Positives = 108/255 (42%), Gaps = 49/255 (19%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDY-SILINSIS-  58
+            M+  I+ ++ L+ AS  D R+REI D IWI + + G+   IY  I    Y + L+  IS 
+Sbjct  30   MVRDILVSILLLAASYMDLRTREISDIIWILMLLIGLPVTIYQLIAEFHYLTALLYVISL  89
+
+Query  59   --GFVICFILGYMMFLSGIGGGDGKMLIGLGAL-VPKFQMPIYTSLGTLLNLNYVPTFPI  115
+                V    LGY  F    GG D K  I LG + +P+     Y           +P+  I
+Sbjct  90   SIALVFSLTLGYSGFF---GGADAKAFIALGLIELPRLTASSYV----------IPSLSI  136
+
+Query  116  MVFINGIFFMVFLPFVILFRNILNGARPKT-GKEF--------ILMFFGEKMKVN-----  161
+            +V  N     +    ++  RN+L  A+ +   +E+        I++    +++V      
+Sbjct  137  IV--NSYVLSMLTILLLAIRNVLLYAKDRDIFREYEGNALLKIIILITSCRIRVRDLLNN  194
+
+Query  162  ---------VAKEQKRLIMGQNDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLS  212
+                        +++RLI+    K       D     KYS N+ IW  P IPLI+ I   
+Sbjct  195  PFFYFPSEIRNSKKRRLILSCRVK------EDSYFIGKYSPNDYIWAAPTIPLIVFIAFG  248
+
+Query  213  YLVTPIIGDRILDFL  227
+            ++   + G+ +L  L
+Sbjct  249  FITYRLYGNIVLKLL  263
+
+
+> UniRef90_E6N2V1 Archaeal preflagellin peptidase FlaK n=2 Tax=Archaea 
+TaxID=2157 RepID=E6N2V1_9ARCH
+Length=237
+
+ Score = 63.9 bits (154),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 55/225 (24%), Positives = 112/225 (50%), Gaps = 22/225 (10%)
+
+Query  8    ALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILG  67
+            +L L+ +S  D + RE++D +W+  ++ G+L  +Y ++ ++ +  L+   +  ++   +G
+Sbjct  10   SLTLLYSSYLDIKKREVDDIVWVIPSILGLLLNLY-TVYVVGFDYLVRYGAAVLVSAGVG  68
+
+Query  68   YMMFLSGI-GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMV  126
+            + ++ +G+ GG D K L+ + ALV  F    YT     L L+ V +  + V  NG+ F +
+Sbjct  69   FALYFAGLYGGADAKALVTI-ALVQPFS---YTG----LQLHGVTS--LTVLTNGMIFSL  118
+
+Query  127  FLP-FVILFRN--ILNGAR-------PKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDK  176
+             LP F + F +  +L G +        K+ ++   +F G +M+    K    +I    + 
+Sbjct  119  SLPVFFMAFNSYRLLRGEKIFSGFDGEKSLRKLAALFLGTRMRNAAGKNFWGVIESIENG  178
+
+Query  177  INFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            +  F      +  +  + +++WVTP IPL++  T+ Y      G+
+Sbjct  179  VRRFRFNIGIEELEKVDRDDVWVTPGIPLLVFFTVGYFFNLFAGE  223
+
+
+> UniRef90_A0A2D6W3F6 Uncharacterized protein n=1 Tax=archaeon 
+TaxID=1906665 RepID=A0A2D6W3F6_9ARCH
+Length=299
+
+ Score = 64.3 bits (155),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 44/136 (32%), Positives = 75/136 (55%), Gaps = 9/136 (7%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFV  61
+            I + +G + L+I S  DF++RE+ D+I + L  FG    +  S      + +INSI GF 
+Sbjct  16   IPFAVGFIALLIGSYTDFKTREVPDWINLGLIGFGFGINLLFSAIYWKLNFIINSIIGFA  75
+
+Query  62   ICFILGYMMFLSG-IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+              F + ++MF +G  GGGD K+L+GLGAL+    + I++      N  ++ +F I   + 
+Sbjct  76   ALFAIAWVMFYTGQWGGGDSKILMGLGALI---GIDIFSK-----NFPFLASFLINAMLI  127
+
+Query  121  GIFFMVFLPFVILFRN  136
+            G  + +   F ++F+N
+Sbjct  128  GALYGILWSFYLIFKN  143
+
+
+> UniRef90_A0A0T5ZCN9 Uncharacterized protein n=1 Tax=Thaumarchaeota 
+archaeon CSP1-1 TaxID=1640512 RepID=A0A0T5ZCN9_9ARCH
+Length=231
+
+ Score = 63.2 bits (152),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 62/234 (26%), Positives = 106/234 (45%), Gaps = 34/234 (15%)
+
+Query  6    IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYS-----SITLLDYSILINSISGF  60
+            IG LG   AS  D   REI DY+WI       +  I+      S+  +  S+++  ++  
+Sbjct  17   IGMLGY--ASFTDVTKREISDYVWIIFGAIAAILLIFEPNLSESLITIGISLIVAPVA--  72
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPK--FQMPIYTSLGTLLNLNYVPTFPIMVF  118
+            +I + +G        GG D   +I L ALVP+  F   + T    L N        +++ 
+Sbjct  73   IIIWRIGLF------GGADAFAIIVLAALVPQISFTDRMITPFTILTN-------AVLIS  119
+
+Query  119  INGIFFMVFLPFVILFR--NILNGARPKTGKEFILMFFGEKM---KVNVAKEQKRLIMGQ  173
+            I+ +F   F  F+ L R  +I  G    T K  + MF G +    K   + E+K   +G+
+Sbjct  120  ISPLFINFFRNFIELARRHDIFEGFEEPTRKRIMAMFLGYRAQNPKFGFSIEKK---VGK  176
+
+Query  174  NDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFL  227
+            + K+N        +++++ +    W+TP +P ++ IT   ++  + GD I  FL
+Sbjct  177  HKKLNL--VLHHAEYAEFCHTPNTWITPGVPYMLFITGGLIIQLMYGDVIFRFL  228
+
+
+> UniRef90_A0A1Q7XDR6 Peptidase n=2 Tax=unclassified Thaumarchaeota 
+(miscellaneous) TaxID=1104572 RepID=A0A1Q7XDR6_9ARCH
+Length=229
+
+ Score = 63.2 bits (152),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 63/227 (28%), Positives = 99/227 (44%), Gaps = 28/227 (12%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAI--------YSSITLLDYSILINSISGFVI  62
+            L +ASV D R REI D +WI   VFGV+ A+        +S+I ++ +S++I  ++ FV 
+Sbjct  19   LFVASVIDIRKREINDMLWI---VFGVIAAVIIFFEPDLWSAIKIMGFSMIIVPVALFV-  74
+
+Query  63   CFILGYMMFLSGIGGGDGKMLIGLGALVPK--FQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+                     +   GG D   LI L  L P   F     T   TL N   +   PI+V + 
+Sbjct  75   -------WRMGVFGGADALCLIVLAGLAPHATFTGKEITPFTTLTNGAILSISPIIVNV-  126
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFF  180
+                +  L  ++   NI  G       + I +F G + K          I     +++F 
+Sbjct  127  ----IRNLLAILKHENIFEGFNESRLNKVIAVFIGYRAKNPKYSFSIERIEDNAKRLDF-  181
+
+Query  181  PAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFL  227
+             +    + + + N    WVTP IP +I IT  +L+    GD + +F+
+Sbjct  182  -SVRHAENTAFCNAVNTWVTPGIPYLIYITGGFLIQVFFGDIVFNFV  227
+
+
+> UniRef90_A0A1Z9SZB6 Uncharacterized protein n=2 Tax=cellular 
+organisms TaxID=131567 RepID=A0A1Z9SZB6_9BACT
+Length=322
+
+ Score = 63.9 bits (154),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 51/171 (30%), Positives = 84/171 (49%), Gaps = 22/171 (13%)
+
+Query  65   ILGYMMFLSG--IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGI  122
+            IL Y+ F  G  IGG D K ++ +  + P F +       T  +    P +P ++F+N +
+Sbjct  145  ILMYIWFYFGPTIGGADVKAIMAISLITP-FTISFTNDSLTAFDSRGFP-YPFVIFMNSL  202
+
+Query  123  FFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ----------KRLIMG  172
+               +F+P  +   NI+ G        F  +FFG KM++N AKE           KR++M 
+Sbjct  203  LIYLFIPICLAIFNIVKG---NIESPFFQIFFGTKMELNKAKESFVWPMQQVVGKRVVMV  259
+
+Query  173  QNDKINFFPAADDEDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGD  221
+               K     +  D+D+++  +   +  WVT +IP IIP+ LS+++T   GD
+Sbjct  260  AFVK---HKSDSDKDWNRLKDKGIDYPWVTLKIPYIIPLALSFVITAFFGD  307
+
+
+ Score = 28.5 bits (62),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 12/49 (24%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  1   MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLD  49
+           ++ ++IG + L   S  D ++R + + +WI+  + G +  IY   T+ +
+Sbjct  21  ILRFLIGFVMLSYGSWSDLKTRRVPNLVWIYGGILGSVLLIYELSTIWE  69
+
+
+> UniRef90_A0A151EWG2 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon SG8-52-3 TaxID=1803818 RepID=A0A151EWG2_9EURY
+Length=239
+
+ Score = 63.2 bits (152),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 59/233 (25%), Positives = 110/233 (47%), Gaps = 37/233 (16%)
+
+Query  7    GALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSI----TLLDYSILINSISGFVI  62
+            G + L  AS  D ++R   +++W+ +    ++  +   +    T   Y I I  + G V 
+Sbjct  16   GIIILSYASYTDIKTRHASNFLWLIMGSIAIVLLVAQYLVGDFTNPYYLIFIPVMIGLV-  74
+
+Query  63   CFILGYMMFLSGI--GGGDGKMLIGLGALVPKFQMPIYTSL-GTLLNLNYVPTFPIMVFI  119
+                 Y++F   I  GG D K L+ +  LVP     +  SL G  +N      F   +F 
+Sbjct  75   -----YLLFQMRIIFGGADAKALMAIAILVP-----LEPSLIGFPINRGSFMPFSWTIFQ  124
+
+Query  120  NGIFFMVFLPFVILFRNIL--NGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRLIMG  172
+            N +   +F+P  +   N+   N   P +       F G KM +++A+++     +++I G
+Sbjct  125  NSLIIFLFIPVSLFIFNVFKRNIKMPHS-------FLGYKMNIDLARKRFVWPLEKIIDG  177
+
+Query  173  QNDKINFFPAA--DDEDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            +  K ++ P     D+++ K+     +EIWVTP++P +IP+ + +++  I GD
+Sbjct  178  KR-KFSYMPKEFNADQEYEKFEKQGIKEIWVTPKVPFMIPLLIGFIIAFIFGD  229
+
+
+> UniRef90_A0A0P8A7T0 Preflagellin peptidase n=2 Tax=Candidatus 
+Methanoperedens TaxID=1392997 RepID=A0A0P8A7T0_9EURY
+Length=253
+
+ Score = 63.2 bits (152),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 66/241 (27%), Positives = 108/241 (45%), Gaps = 35/241 (15%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMM  70
+            LI +   D ++R + + +W+ +   G  F  Y       Y +    IS  +I FI  Y++
+Sbjct  14   LIYSCYSDIKTRRVTNKLWLMMLAGGSFFIAYDIWFYGIYYLFYMLISTGLI-FIFVYLL  72
+
+Query  71   FLSGI-GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLN-----YVPTFPIMVFINGIFF  124
+            F  G+ GG D K LI L    P +  P  +  G    LN     +   F   +F N +  
+Sbjct  73   FQIGVFGGADAKSLIVLSLFFPSY--PDLSLFGYDFPLNEPLPLFSNLFAFGIFENAVLL  130
+
+Query  125  MVFLPFVILFRNI----LNGARPKTGKEFILMFFGEKMKVNVAKEQK--RLIMG---QND  175
+             + +P ++   N+    L+  +P      +  F G K +++    +K  R+I G    ND
+Sbjct  131  TIVVPLILAIYNVSKMGLHIDKP------LYAFIGYKTRISELSNKKHIRMIEGFEKTND  184
+
+Query  176  KINFFPAA-----DDE---DFSKYSNN---EEIWVTPQIPLIIPITLSYLVTPIIGDRIL  224
+             I F+        DD    +  K S+N   ++IWVTP +P +IPITL + ++   GD I 
+Sbjct  185  SIKFYFKRGGLEIDDNVMNELKKMSDNGFIKDIWVTPGLPFMIPITLGFYISIFYGDLIT  244
+
+Query  225  D  225
+            +
+Sbjct  245  E  245
+
+
+> UniRef90_A0A2P5K178 Preflagellin peptidase n=1 Tax=ANME-2 cluster 
+archaeon HR1 TaxID=1968520 RepID=A0A2P5K178_9EURY
+Length=255
+
+ Score = 63.2 bits (152),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 62/233 (27%), Positives = 109/233 (47%), Gaps = 23/233 (10%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMM  70
+            L+ +   D + R + + +W  + + G LF +Y  I     ++L   +S  +I FI  Y++
+Sbjct  16   LLYSCYTDLKIRRVSNQVWKVMLIGGGLFVVYDIINTGMPALLRLVLSAGII-FIFVYIL  74
+
+Query  71   FLSGI-GGGDGKMLIGLGALVPKF-QMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFL  128
+            F  G  GG D K LI L  ++P + Q+ ++     L+ +  +  F   VF N +   + +
+Sbjct  75   FQFGTFGGADAKCLIVLAIIIPVYPQIELFGVEYPLMGIPLINLFAFTVFGNAVLLTIVV  134
+
+Query  129  PFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDK--------INFF  180
+            P  + F N++     +  K+   +F G   K +++K Q R I   +++          F 
+Sbjct  135  PLGLFFYNLIALKPHEIIKDPAYLFVG--YKTDISKLQGRHIKLIHERFLVDGVLQTRFK  192
+
+Query  181  PAADD--EDFSK----YSNNE----EIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+                D  ED  K    +++N+     +WVTP +P IIPITL + +    GD I
+Sbjct  193  RGGVDIKEDIVKELETFAHNDLMDRYVWVTPGMPFIIPITLGFYMAIFFGDLI  245
+
+
+> UniRef90_A0A284VRB2 Peptidase A24B, FlaK domain protein n=1 Tax=Candidatus 
+Methanoperedens nitroreducens TaxID=1392998 RepID=A0A284VRB2_9EURY
+Length=250
+
+ Score = 63.2 bits (152),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 63/236 (27%), Positives = 105/236 (44%), Gaps = 28/236 (12%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMM  70
+            LI +   D ++R + + +W+ +   G  F  Y  I  L Y  +   +    + F+  Y++
+Sbjct  14   LIYSCYSDIKTRRVTNKLWLIMLAVGSFFVFYD-IYRLGYVYIPRVLISAGLIFVFVYII  72
+
+Query  71   F-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLN--YVPTFPIMVFINGIFFMVF  127
+            F L   GG D K LI L  ++P +  P +  LG    LN   +  F   +F N +   + 
+Sbjct  73   FQLGTFGGADAKSLIVLSIILPAY--PKFGVLGINFPLNEPLIDLFAFGIFGNAVLLTII  130
+
+Query  128  LPFVILFRNILN-------------GARPK----TGKEFILMFFGEKMKVNVAKEQKRLI  170
+            +PF +   N+               G + K     G+   L+   E+++ NV +  KR  
+Sbjct  131  VPFGLATYNLAKMGLHIDKPAYIFIGYKAKIKELAGRHIKLIENFEEIEGNVKQNFKRGG  190
+
+Query  171  MGQNDK-INFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILD  225
+            +  N+K I+   A  ++   K    EE+WVTP +P +I ITL + V    GD I +
+Sbjct  191  VEINEKVISELQALSEKGLIK----EEVWVTPGLPFMISITLGFFVAVFYGDLIFE  242
+
+
+> UniRef90_A0A3G1B363 Peptidase n=1 Tax=Candidatus Nitrosotenuis 
+cloacae TaxID=1603555 RepID=A0A3G1B363_9ARCH
+Length=233
+
+ Score = 62.8 bits (151),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 62/219 (28%), Positives = 96/219 (44%), Gaps = 24/219 (11%)
+
+Query  13   IASVQDFRSREIEDYIWI-FLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMMF  71
+            IA   D + REI D IWI F A+   L      IT     I I  I   ++  I  + +F
+Sbjct  21   IACASDVKKREINDIIWIIFGAIAACLIPFSGDITEELLKIGIAMIVAPIVIIIWRFGLF  80
+
+Query  72   LSGIGGGDGKMLIGLGALVPKFQMP--IYTSLGTLLNLNYVPTFPIMVFINGIFFMVFLP  129
+                GG D   LI L AL P F +     T    L N   +   P++V        V   
+Sbjct  81   ----GGADAFALIVLAALTPNFSLAHGTITPFTALTNAVLLSIIPMLV-------NVIRN  129
+
+Query  130  FVILFR--NILNGARPKTGKEFILMFFGEKM---KVNVAKEQKRLIMGQNDKINFFPAAD  184
+             ++L R  +I  G      K+ I MF G +    K   + EQK+   G+  K+N   +  
+Sbjct  130  SILLARKQDIFEGFNETKKKKIIAMFVGYRAANPKFGFSIEQKQ---GKYKKLNL--SLQ  184
+
+Query  185  DEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+              +++++   ++ W+TP IP ++ IT  +++  + GD I
+Sbjct  185  HAEYAEFCTKKDTWITPGIPYMLFITAGFVLQLVYGDVI  223
+
+
+> UniRef90_A0A1V4YWE8 Preflagellin peptidase n=1 Tax=Methanomassiliicoccales 
+archaeon PtaU1.Bin030 TaxID=1811729 RepID=A0A1V4YWE8_9EURY
+Length=294
+
+ Score = 63.5 bits (153),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 52/166 (31%), Positives = 80/166 (48%), Gaps = 22/166 (13%)
+
+Query  76   GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNY-----VPTFPIMVFINGIFFMVFLPF  130
+            GG D K LI L  + P +  PI      L++L Y     V  FP+++  N     V +P 
+Sbjct  136  GGADAKALIALSIMFPLY--PIIEPF-PLIDLPYDAAQFVLPFPLLILFNAAIITVIVPV  192
+
+Query  131  VILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQND----KINFFPAADD-  185
+            ++LF N+      K    F  M  G +M +  AK +    M + +    K + FP A + 
+Sbjct  193  LLLFYNL-----SKKQVRFPAMILGYRMPIEEAKGKFVWPMERVEEGAVKFSVFPPASET  247
+
+Query  186  --EDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGDRILDFL  227
+              ED  + S    +E+WVTP+IP +IPI  S L + I+G+ +  F+
+Sbjct  248  LNEDLDRLSAAGLKEVWVTPKIPFLIPIAASLLFSVIVGNLLFLFI  293
+
+
+> UniRef90_A0A1V4ZCF1 Preflagellin peptidase n=1 Tax=Methanomassiliicoccales 
+archaeon PtaU1.Bin124 TaxID=1811730 RepID=A0A1V4ZCF1_9EURY
+Length=317
+
+ Score = 63.5 bits (153),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 47/168 (28%), Positives = 76/168 (45%), Gaps = 34/168 (20%)
+
+Query  76   GGGDGKMLIGLGALVPKFQ---------MPIYTSLGTLLNLNYVPTFPIMVFINGIFFMV  126
+            GG D K L+ L  L+P +          +P Y +        ++  F ++V   G    +
+Sbjct  160  GGADAKALMALSLLIPTYPIIGPFPLIGLPTYEA-------QFIMPFSLLVLFYGALLTL  212
+
+Query  127  FLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIM------GQNDKINFF  180
+             +P   LF N++ G R      F  M FG +M  +VA  +KR +       G+  K++  
+Sbjct  213  AIPIYYLFYNLVKGDR-----AFPTMLFGIRM--DVADAKKRFVWPMEYVDGEEIKVSSM  265
+
+Query  181  PAADDEDFSKYSNNE-----EIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+            P   +     Y+  E      IWVTP+IP++IPIT   ++  I+G+ I
+Sbjct  266  PKGPESLEEHYAQLEAKGLQRIWVTPKIPMLIPITAGIVLAAILGNLI  313
+
+
+> UniRef90_F7XNZ8 Peptidase A24B, FlaK domain protein n=1 Tax=Methanosalsum 
+zhilinae (strain DSM 4017 / NBRC 107636 / OCM 62 
+/ WeN5) TaxID=679901 RepID=F7XNZ8_METZD
+Length=253
+
+ Score = 62.8 bits (151),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 62/246 (25%), Positives = 106/246 (43%), Gaps = 48/246 (20%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-LDYSILINSISGFVICFILGYM  69
+            LI A   D ++R + + +W  +   G +F I+  +   LD+  LI+ +  F   FI  Y+
+Sbjct  14   LIYACYSDIKTRRVSNRVWPLMLGAGSIFIIHDLVRYGLDH--LIHLVLSFAFIFIFVYI  71
+
+Query  70   MF-LSGIGGGDGKMLIGLGALVPKF--------QMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+            +F L+  GG D K+L+ +  ++P +         +PIY     L+NL     F   VF N
+Sbjct  72   LFYLNAFGGADAKVLMVISLIIPAYPVIELADATLPIYGV--PLINL-----FAFGVFTN  124
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN-VAKEQKRLIMGQNDKINF  179
+             I   V +P  +   N++     +  K    +F G    ++ + +   +LI    +    
+Sbjct  125  SIILTVVVPLGLFIYNLIKLPLNEIKKNPFYLFIGYMHPISELGQRHLKLIEAYQEN---  181
+
+Query  180  FPAADDEDFSKYSNN----------------------EEIWVTPQIPLIIPITLSYLVTP  217
+                D E  SK+S +                      +++WVTP +P +IPIT  ++   
+Sbjct  182  ---NDGEVSSKFSRSGVDIDDRQLSTLRSYAKKGLIGDKVWVTPGLPFMIPITAGFIAAV  238
+
+Query  218  IIGDRI  223
+            I GD I
+Sbjct  239  IFGDII  244
+
+
+> UniRef90_A0A2I0NKL9 Peptidase A24 n=1 Tax=Candidatus Methanoperedenaceae 
+archaeon HGW-Methanoperedenaceae-1 TaxID=2013824 
+RepID=A0A2I0NKL9_9EURY
+Length=251
+
+ Score = 62.4 bits (150),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 59/238 (25%), Positives = 105/238 (44%), Gaps = 32/238 (13%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-LDYSILINSISGFVICFILGYM  69
+            L+ +   D ++R + + +W+ +   G  F IY  IT  ++Y   +   +GF+  F+  Y+
+Sbjct  15   LLYSCYTDMKTRRVVNRVWVIMLSGGAFFVIYDIITKGVEYLPRLLISAGFIFVFV--YI  72
+
+Query  70   MFLSGI-GGGDGKMLIGLGALVPKFQMPIYTSLGTL-----LNLNYVPTFPIMVFINGIF  123
+            +F  G  GG D K LI L  +     MP Y S+  L     L    +  F + +F N + 
+Sbjct  73   LFRFGTFGGADAKSLIVLSII-----MPAYPSMQVLGYSFPLKTPLIDLFALGIFSNAVL  127
+
+Query  124  FMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFPAA  183
+              + +P  +   N++          +I  F G K +++    +   ++   ++IN     
+Sbjct  128  LTIIVPLGLAMINLVKMGYHIDKPLYI--FIGYKTRISALAGRHVRLIHDFEEINGAVQT  185
+
+Query  184  ---------DDEDFSKYSN-------NEEIWVTPQIPLIIPITLSYLVTPIIGDRILD  225
+                     D+E  SK  +        ++IWVTP +P +IPIT  + V  + GD I +
+Sbjct  186  RFKRGGVDIDEEIISKLKSLSKRGLIEDDIWVTPSLPFMIPITAGFFVAVLYGDMIFE  243
+
+
+> UniRef90_A0A062VB27 Flp pilus assembly protein, protease CpaA 
+n=1 Tax=Candidatus Methanoperedens nitroreducens TaxID=1392998 
+RepID=A0A062VB27_9EURY
+Length=248
+
+ Score = 62.4 bits (150),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 60/235 (26%), Positives = 111/235 (47%), Gaps = 26/235 (11%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYS-SITLLDYSILINSISGFVICFILGYM  69
+            L+ +   D ++R + + +W+ + V  + F +Y  S   + Y   +   +GF+  F+L Y+
+Sbjct  14   LLYSCYSDIKTRRVTNNLWLVMLVGSIFFILYDVSREGIGYLPGLFISTGFI--FLLVYI  71
+
+Query  70   MF-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLN--YVPTFPIMVFINGIFFMV  126
+             F L   GG D K LI L  ++P +  P + + G +  LN   +  F + +F N +   +
+Sbjct  72   FFQLGTFGGADAKSLIVLSLILPAY--PTFQAFGYIFPLNKPLIDIFALGIFGNAVLLTI  129
+
+Query  127  FLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN-VAKEQKRLIMGQ---NDKINFFPA  182
+             +P  +   NI+          +I  F G K +++ ++ +  RLI      N ++ F+  
+Sbjct  130  VVPAGLAVLNIIKMGLHIDKPAYI--FVGYKSRISELSGKHVRLIQDYEVINGEVRFYFK  187
+
+Query  183  ADDEDFSKYSN------------NEEIWVTPQIPLIIPITLSYLVTPIIGDRILD  225
+                + ++ +             +EE+WVTP +P +IPIT  +LV    GD IL+
+Sbjct  188  RGGVEINEKNILELKALSEKGLIDEEVWVTPSLPFMIPITAGFLVAVSYGDLILE  242
+
+
+> UniRef90_A0A315XG32 Peptidase A24 n=1 Tax=Candidatus Methanoperedenaceae 
+archaeon TaxID=2072416 RepID=A0A315XG32_9EURY
+Length=252
+
+ Score = 61.2 bits (147),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 65/244 (27%), Positives = 107/244 (44%), Gaps = 41/244 (17%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-LDY--SILINSISGFVICFILG  67
+            L+ +   D ++R + + +W  +   G  F +Y  +   +DY   I I++     + FI  
+Sbjct  14   LVYSCYTDIKTRRVTNKLWQIMLAGGSFFIVYDILVYGIDYLSRIFIST----ALIFIFV  69
+
+Query  68   YMMFLSGI-GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLN-----YVPTFPIMVFING  121
+            Y++F  G+ GG D K LI L    P +  P  T LG    +N     +   F   VF N 
+Sbjct  70   YLLFQLGVFGGADAKSLIVLSLFFPAY--PELTILGYDFPVNRPLPLFTDFFAFGVFENA  127
+
+Query  122  IFFMVFLPFVILFRNI----LNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQ----  173
+            +   + +P  +   N+    L+  +P      +  F G K +++    +K + M +    
+Sbjct  128  VLLTIVVPLSLAIYNVSKMGLHIDKP------LYAFIGYKTQISELSSKKHIKMIEGFEK  181
+
+Query  174  -NDKINFFPAAD----DED-------FSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+             ND I F+        DE         SK    ++IWVTP +P +IPITL + V+   GD
+Sbjct  182  INDNIKFYFKRGGLEIDEKVLKELNILSKKGLVKDIWVTPGLPFMIPITLGFYVSIFYGD  241
+
+Query  222  RILD  225
+             I +
+Sbjct  242  LITE  245
+
+
+> UniRef90_A0A2R6BFC7 Uncharacterized protein n=5 Tax=Candidatus 
+Marsarchaeota TaxID=1978152 RepID=A0A2R6BFC7_9ARCH
+Length=260
+
+ Score = 61.2 bits (147),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 65/261 (25%), Positives = 108/261 (41%), Gaps = 54/261 (21%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            +I  +  AL L I + +D + REI+D++W F+A  G    +Y    L  +S+LI  +   
+Sbjct  5    VIPVVSCALMLGIGAYEDLKKREIDDWVW-FIATAGFGTNLY---LLEKHSLLITPLQWA  60
+
+Query  61   VICFILGY----MMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIM  116
+            +   +L      + +L   GG D K L  +   +P   +P ++S         +P F + 
+Sbjct  61   IEVVVLSALGISLYYLQLFGGADAKALFAIALALPS-ALPPFSS--------QIPFFGLT  111
+
+Query  117  VFINGIFFMVFLPFVILFRNILNGARPKT--GKEFILMFFGEKMKVNVAKEQKRLIMGQ-  173
+            +F N +   V   F +   NI          G+     FF    K+ +A    +  +G+ 
+Sbjct  112  IFDNAVVISVLYSFSLFLSNICKALLSPNYFGRYSRSSFF---TKLGLAFSSYKTTLGKY  168
+
+Query  174  -NDKINFFPAA---------------------DDEDFSKYSN---------NEEIWVTPQ  202
+              +    FP+                        E   KY+N         N+EIWV+P 
+Sbjct  169  IKESYKLFPSEIPKLSEGKVVLTPILKRMTIDATELEEKYANLLKQGLLNENDEIWVSPG  228
+
+Query  203  IPLIIPITLSYLVTPIIGDRI  223
+            IPL+  + L Y++TP+ GD I
+Sbjct  229  IPLVTFMFLGYVLTPLFGDLI  249
+
+
+> UniRef90_A0A075GBR5 Uncharacterized protein n=1 Tax=uncultured 
+marine group II/III euryarchaeote KM3_139_C07 TaxID=1457870 
+RepID=A0A075GBR5_9EURY
+Length=286
+
+ Score = 61.2 bits (147),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 41/88 (47%), Positives = 58/88 (66%), Gaps = 3/88 (3%)
+
+Query  5   IIGALGLIIASVQDFRSREIEDYIWIFLAVFGV-LFAIYSSITLLDYSILINSISGFVIC  63
+           II  L L+IAS  D ++RE+ D++   L V G+ + AIYS+I+  + S +I SI G ++ 
+Sbjct  7   IICLLSLLIASYTDLKTREVPDWLNYSLIVVGLGINAIYSTIS-SNPSFIIQSILGLIVG  65
+
+Query  64  FILGYMMF-LSGIGGGDGKMLIGLGALV  90
+            I+ Y MF L   GGGD KM+IGLGAL+
+Sbjct  66  LIVAYSMFYLGQWGGGDSKMIIGLGALI  93
+
+
+> UniRef90_A0A3M1RH94 A24 family peptidase n=1 Tax=Euryarchaeota 
+archaeon TaxID=2026739 RepID=A0A3M1RH94_9EURY
+Length=221
+
+ Score = 60.1 bits (144),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 52/214 (24%), Positives = 95/214 (44%), Gaps = 24/214 (11%)
+
+Query  14   ASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMMFLS  73
+             S+QD + REI+  +W  + V    F +    +  +  +LI     F+   ++G ++F +
+Sbjct  19   GSLQDIKRREIDSIVWQAMVVLAAFFLVLDVYSEGEPRLLIP----FIFIVLVG-IVFSA  73
+
+Query  74   GI------GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVF  127
+            GI      GGGD K+LIGL A+      P+    G  +     P   + VF N I   + 
+Sbjct  74   GIHHLGLMGGGDAKLLIGLSAM-----FPLLPPGGRFI----FPALFLSVFTNAILISLL  124
+
+Query  128  LPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFPAADDED  187
+            +P      NI      +  ++ + +F   + +   AK+  R     +D    F +  + +
+Sbjct  125  IPLWFFISNIRMLPEVRGYRDLLRLFAARRKE---AKDVGRFEAVLDDD-RLFISTKNVE  180
+
+Query  188  FSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            F     + E+W  P +P I+ +T  ++V+ + GD
+Sbjct  181  FGAGDRDGEVWAAPALPFIVFLTAGFVVSILYGD  214
+
+
+> UniRef90_W9DRM3 Flp pilus assembly protein, protease CpaA n=2 
+Tax=Methanolobus TaxID=2220 RepID=W9DRM3_METTI
+Length=252
+
+ Score = 59.7 bits (143),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 60/241 (25%), Positives = 106/241 (44%), Gaps = 26/241 (11%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-LDYSILINSISGFVICFILGYM  69
+            L+ +   D ++R + + +W  +   G +F +Y  +T  L Y  L+ +I  F+  F   Y+
+Sbjct  14   LLYSCYSDIKTRRVSNNVWFMMFGVGFIFIMYDLMTYGLPY--LVRNILSFLFIFAFVYI  71
+
+Query  70   MFLSG-IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPT---FPIMVFINGIFFM  125
+            +F  G  GG D K+L+ +  ++P F  P      T L L  VP    F   VF N +   
+Sbjct  72   LFQVGAFGGADAKILMVISLIIPTF--PAIELGSTSLPLTGVPPINLFAFSVFGNSVILT  129
+
+Query  126  VFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN-VAKEQKRLIMGQND-----KINF  179
+            V +P  +   N++     ++ K  + MF G    ++ + K   R+I    D     K  F
+Sbjct  130  VIVPIGLCLYNLVKNPS-ESLKRPLYMFIGYITPISKLEKGHFRMIDSYEDTKDGLKFKF  188
+
+Query  180  FPAADD------EDFSKYSN----NEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIP  229
+              +  +      ++   Y       + +W+TP +P +IPIT  ++   + GD I    + 
+Sbjct  189  SRSGTEISSDVIKELKMYQKEGKVKDGVWITPGLPFMIPITAGFITAVVYGDLIFQLTMQ  248
+
+Query  230  F  230
+            F
+Sbjct  249  F  249
+
+
+> UniRef90_A0A1J5U3Z3 Uncharacterized protein n=2 Tax=Euryarchaeota 
+TaxID=28890 RepID=A0A1J5U3Z3_9EURY
+Length=305
+
+ Score = 60.1 bits (144),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 62/237 (26%), Positives = 109/237 (46%), Gaps = 31/237 (13%)
+
+Query  10   GLIIASVQDFRSREIEDYI--------WIFLAVFGVLFAIY-----SSITLLDYSILINS  56
+            GL+ A+V  F +  I++Y+        W F     V+  IY     +   + + +  I  
+Sbjct  60   GLLFATVILFFNAFIDEYVLDNNQMYLWRFTQALAVICTIYFIMIVNPEEMQENNYRIVD  119
+
+Query  57   ISGFVICFILGYMMFLSG--IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFP  114
+            I    +  +L Y  F  G  IGG D K ++ +G +VP F + +  S          P +P
+Sbjct  120  ILSISVLMLLMYTWFYFGPTIGGADVKAIMTIGLVVP-FTISLDNSALMAFETRGFP-YP  177
+
+Query  115  IMVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRL  169
+             +VF+N +   + +P  +L  NI    R      +  M FG KM +  A++      +++
+Sbjct  178  FVVFMNSLLIYLLIPIGLLIYNIF---RKNIDSPYFQMLFGTKMALEDARKSFVWPMEQV  234
+
+Query  170  IMGQNDKINFFPAADDEDFSKYSNNEEI-----WVTPQIPLIIPITLSYLVTPIIGD  221
+            + G+   + F     D D  ++   EE      W++ +IP IIP+TLS++V+ ++GD
+Sbjct  235  VGGKIVLVTFIKHKLDSD-KEWDKLEEAGVTNPWISFKIPYIIPLTLSFIVSFVLGD  290
+
+
+> UniRef90_A0A2E5ZV18 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon TaxID=2026739 RepID=A0A2E5ZV18_9EURY
+Length=307
+
+ Score = 60.1 bits (144),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 58/205 (28%), Positives = 98/205 (48%), Gaps = 20/205 (10%)
+
+Query  31   FLAVFGVLFAIYS--SITLLDYSILINSISGFVICFILGYMMFLSG--IGGGDGKMLIGL  86
+            +LA+F  ++ ++S  S  +  ++ LI  +       IL Y+ F  G  IGG D K ++ +
+Sbjct  94   YLAIFCSVYFLFSFNSEQVSKHNYLIIDLIAIPFLMILMYIWFYFGPTIGGADVKAIMTI  153
+
+Query  87   GALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFLPFVILFRNILNGARPKTG  146
+              + P F         T  +    P +P ++F+N +   +F+P  + F NI+ G      
+Sbjct  154  SLITP-FSFSFAEESLTAFDSRGFP-YPFVIFMNSLLIYLFIPIGLAFFNIIKG---NLE  208
+
+Query  147  KEFILMFFGEKMKVNVAKEQKRLIMGQ--NDKI---NFFPAADDEDFSKYSNNEEI----  197
+              F  +FFG KMK++ AK+     M Q   D++    F     D D  +++  EE     
+Sbjct  209  SPFFQIFFGTKMKLDEAKDSFVWPMQQVVGDRVVMVAFVKHKLDSD-KEWNKLEEKGIKN  267
+
+Query  198  -WVTPQIPLIIPITLSYLVTPIIGD  221
+             W+T +IP IIP+  S+++T   GD
+Sbjct  268  PWITFKIPYIIPLAFSFIITAFFGD  292
+
+
+ Score = 30.8 bits (68),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 17/76 (22%), Positives = 40/76 (53%), Gaps = 6/76 (8%)
+
+Query  1   MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLD------YSILI  54
+           ++ ++IG + L   S  DF++R + + +WI+  + G L  IY    + +      +++L 
+Sbjct  6   ILRFLIGVVMLSYGSWLDFKTRRVPNSVWIYGGILGSLLLIYDVSRIWEDYGFYLWALLF  65
+
+Query  55  NSISGFVICFILGYMM  70
+            +++ F   F+  Y++
+Sbjct  66  ATLTLFFNSFVDEYIL  81
+
+
+> UniRef90_A0A0A7GGH6 Peptidase A24B, FlaK-like n=1 Tax=Geoglobus 
+acetivorans TaxID=565033 RepID=A0A0A7GGH6_9EURY
+Length=244
+
+ Score = 59.7 bits (143),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 71/246 (29%), Positives = 106/246 (43%), Gaps = 31/246 (13%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIW-IFLA-----VFGVLFAIYSSITLLDYSILIN  55
+            I+++ G   LI AS  D++SR I + +W +FLA     VF  L  +Y  +    Y  +  
+Sbjct  7    IKFLTGLAILIYASRLDWKSRIIPNRVWKVFLAALLPFVFLEL-VLYPHLRFELYLAIFQ  65
+
+Query  56   SISGFVICFILGYMMFLSGI-GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFP  114
+            ++  FVI  ++ Y+ +  G  GG D K L     +V     P Y S      L    +F 
+Sbjct  66   AV--FVI--LISYVFYCLGFYGGADAKAL-----MVISVAFPFYPSFSVFPVLMKGFSFA  116
+
+Query  115  IMVFINGIFFMVFLPFVILFRNILN-GARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQ  173
+                 N + F        L RN+L  GAR      F   F G+++      E   L+   
+Sbjct  117  FSTLANAVIFAPLFVVYFLIRNLLKEGARGFRKYPF-YYFIGKRVDAESIPEHHALLEFV  175
+
+Query  174  NDKINFFPAADD-----------EDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDR  222
+            NDK  F                 +   +    E++WVTPQIP II IT+ Y++   +GD 
+Sbjct  176  NDKGEFTRVKRGVEPDSAMIKALKKAKREGKVEKVWVTPQIPFIIFITVGYVIAFFLGD-  234
+
+Query  223  ILDFLI  228
+            +L +LI
+Sbjct  235  VLTYLI  240
+
+
+> UniRef90_A0A2D6LI45 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon TaxID=2026803 RepID=A0A2D6LI45_9ARCH
+Length=293
+
+ Score = 60.1 bits (144),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 50/169 (30%), Positives = 88/169 (52%), Gaps = 17/169 (10%)
+
+Query  5    IIGALGLIIA-SVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVIC  63
+            I+ AL ++ A S  D + RE+ D++   L VFG+   +  SI    ++ +  SI+G +  
+Sbjct  6    IVIALAVLAAGSYTDIKKREVPDWLNYGLMVFGLGTNLLLSIVFWTWTYIAYSITGMLAF  65
+
+Query  64   FILGYMMFLSG-IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGI  122
+            F + Y+MF +G  GGGD KMLIGLGA+   F +P+  +   L + +++ +F   + + G+
+Sbjct  66   FAIAYVMFYTGQWGGGDSKMLIGLGAV---FGLPLSLTSPYLNSNSFLISFWFNLLLAGV  122
+
+Query  123  FFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIM  171
+             +      +I  RN     R K  KE        K+++N   + +R ++
+Sbjct  123  IYAFLWSIIIAVRN-----RKKFVKE-------AKIRLNKNVKTRRTLL  159
+
+
+> UniRef90_A0A2H9LTA0 Uncharacterized protein n=4 Tax=Candidatus 
+Woesearchaeota TaxID=1801616 RepID=A0A2H9LTA0_9ARCH
+Length=317
+
+ Score = 59.7 bits (143),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 46/153 (30%), Positives = 80/153 (52%), Gaps = 20/153 (13%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            ++  I   + LIIAS+ D ++RE+ D++   L +FG+   +  SI L D +  +  ++GF
+Sbjct  35   LLSNITAFISLIIASITDIKTREVPDWLNYGLIIFGLGSRLIYSIALSDINFFLYGLAGF  94
+
+Query  61   VICFILGYMMFLSG-IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVP---TFPIM  116
+             + F++  +MF S   GGGD K+L+GLGA++           G   N + +P    F I 
+Sbjct  95   FVFFVIANIMFYSAQWGGGDSKLLMGLGAVI-----------GLNFNFSEMPFLLIFWIN  143
+
+Query  117  VFINGIFFMVFLPFVILFRNILNGARPKTGKEF  149
+            + + G  + +F  F + F+N     R +  K+F
+Sbjct  144  IILIGAIYGLFWSFAVAFKN-----RKRFLKDF  171
+
+
+> UniRef90_A0A2H9P0K3 Peptidase n=2 Tax=unclassified Nitrosopumilales 
+TaxID=1915697 RepID=A0A2H9P0K3_9ARCH
+Length=216
+
+ Score = 58.5 bits (140),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 62/227 (27%), Positives = 97/227 (43%), Gaps = 26/227 (11%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMM  70
+            LI+ S+ D   REI DY WI   V GVL    +S     +  L+N     +I   + ++ 
+Sbjct  6    LIVGSIIDIWKREIHDYYWIVFGVIGVLLIFINSDI---WPYLLNIGIALIIAPFVIFIW  62
+
+Query  71   FLSGIGGGDGKMLIGLGALVPKF---QMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVF  127
+             +   GG D   LI L  + P     + P+ T L TL N   +   P ++ I     M  
+Sbjct  63   RIGLFGGADAFALIALAVIAPMATISENPV-TPLTTLSNAAILFIVPFIINI-----MRN  116
+
+Query  128  LPFVILFRNILNGARPKTGKEFILMFFGEKMK-----VNVAKEQKRLIMGQNDKINF-FP  181
+               +I   NI  G      K+   M  G + K      ++ K +K        K+N    
+Sbjct  117  SSSIIRHENIFEGFEENRLKKICAMLIGYRAKNPKFCFSIEKTEK-----GKKKLNLTIH  171
+
+Query  182  AADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLI  228
+             A++E++    N    W+TP IP ++ IT  +++  + GD IL + I
+Sbjct  172  HAENEEYCTTPNT---WITPGIPYLLLITGGFIIQILFGDLILSYFI  215
+
+
+> UniRef90_A0A2E9U4R5 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon TaxID=2026803 RepID=A0A2E9U4R5_9ARCH
+Length=298
+
+ Score = 59.3 bits (142),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 57/91 (63%), Gaps = 1/91 (1%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            +I Y I  L L+I S  D ++RE+ D++ + L   G+  ++  SI       ++ SI+GF
+Sbjct  15   LIPYTIAFLALLIGSYTDIKTREVPDWVNLGLIGTGIGISLLFSIIFFKADFILASIAGF  74
+
+Query  61   VICFILGYMMFLSG-IGGGDGKMLIGLGALV  90
+             I F++ ++MF +G  GGGD K+L+G+GA++
+Sbjct  75   GILFVIAWIMFYTGQWGGGDSKILMGMGAII  105
+
+
+> UniRef90_A0A0Q4BGJ4 Uncharacterized protein n=1 Tax=Methanomassiliicoccales 
+archaeon RumEn M1 TaxID=1713724 RepID=A0A0Q4BGJ4_9EURY
+Length=294
+
+ Score = 58.9 bits (141),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 74/291 (25%), Positives = 120/291 (41%), Gaps = 86/291 (30%)
+
+Query  5    IIGALGLII-ASVQDFRSREIEDYIWIFLAVFG-------------------VLFAIY--  42
+            I+ A GL++ AS  D+R+RE  D  W+ L V G                   +LF I   
+Sbjct  9    IVLAFGLLLLASRADWRTREASDAYWVALGVAGMAFLAAQIHLDAADPTYYLILFPIAVL  68
+
+Query  43   -------------------------SSITLLDYSILINSISGFVICFILGYMMFLSGI--  75
+                                     ++   L + +L +    ++   +L  +MFL  I  
+Sbjct  69   FLDIFWDRRGVLEDGVNLVPLLLYVAAFATLAWLVLEHHADLYLWELMLVPIMFLLFILF  128
+
+Query  76   -------GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPT--------FPIMVFIN  120
+                   GG D K LI L  + P +        G    L  +PT        FP+++  N
+Sbjct  129  YQFDLIKGGADAKALIALSIMFPMYPT------GDSFPLIALPTEMSDFLLPFPLLILFN  182
+
+Query  121  GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRLIMGQND  175
+                 + +P  +L    LN AR      F  M FG +M ++ AK +     +R++ G+  
+Sbjct  183  AALLTLAVPLAML---ALNLARRDV--RFPAMLFGYRMSIDDAKNKFVWPMERIVDGER-  236
+
+Query  176  KINFFPAADDEDFSKYSNNEE-----IWVTPQIPLIIPITLSYLVTPIIGD  221
+            ++N+FP + D+  +     EE      WVTP++P ++PIT+S LV+  IG+
+Sbjct  237  RMNYFPRSSDDAANGLMELEEAGVDSTWVTPKVPFLVPITISLLVSTFIGN  287
+
+
+> UniRef90_A0A1V4Y9Y5 Preflagellin peptidase n=2 Tax=Methanomethylovorans 
+TaxID=101191 RepID=A0A1V4Y9Y5_9EURY
+Length=255
+
+ Score = 58.5 bits (140),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 64/235 (27%), Positives = 105/235 (45%), Gaps = 27/235 (11%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-LDYSILINSISGFVICFILGYM  69
+            L  +   D ++R + + +W  +      F +Y  IT  L Y  +  ++  FV+ F+  Y+
+Sbjct  14   LAYSCYSDIKTRRVSNKVWPIMLGAASPFILYEMITFGLPY--IFRTVISFVVIFVFVYI  71
+
+Query  70   MF-LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTL-LNLNYVPT---FPIMVFINGIFF  124
+            +F L   GG D K+L+ +  ++P F      SLG+L L L  VP    F   VF N +  
+Sbjct  72   LFMLHAFGGADAKVLMVISIILPVFP---ELSLGSLQLPLWGVPLLDLFTFSVFGNSVLL  128
+
+Query  125  MVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKV-NVAKEQKRLIMGQNDKINFFPA-  182
+             + +P  +L  N+L     +  K+ +    G +  + N+ +   RLI    +  N   + 
+Sbjct  129  TIIVPLGLLLYNLLTVPPKELMKKPLYALIGYRQHIDNLEEGHFRLIEKHEETPNGVVSR  188
+
+Query  183  ------ADDED--------FSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRI  223
+                  + D D          K S  E +W+TP +P +IPIT  +L   I GD I
+Sbjct  189  FTRTGTSIDRDMILKLQGLHRKGSIGEHVWITPGLPFMIPITAGFLAAVIFGDLI  243
+
+
+> UniRef90_A0A0B3AFP2 Uncharacterized protein n=1 Tax=Archaeon 
+GW2011_AR11 TaxID=1579371 RepID=A0A0B3AFP2_ARCG7
+Length=302
+
+ Score = 58.9 bits (141),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 36/94 (38%), Positives = 55/94 (59%), Gaps = 4/94 (4%)
+
+Query  6    IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFI  65
+            +  + L++ASV D ++RE+ D +   L  FG+      S    DY  L+NS  G  + F 
+Sbjct  20   VCGIALLLASVTDLKTREVPDMLNYGLVFFGIFINTLLSALSGDYRFLLNSALGLGVGFG  79
+
+Query  66   LGYMMFLSG-IGGGDGKMLIGLGALVPKFQMPIY  98
+            +G++MF +G  GGGD KML+GLGA +    MP++
+Sbjct  80   IGWVMFYAGQWGGGDSKMLMGLGATI---GMPLH  110
+
+
+> UniRef90_A0A1S6HAN4 Uncharacterized protein n=1 Tax=uncultured 
+archaeon TaxID=115547 RepID=A0A1S6HAN4_9ARCH
+Length=292
+
+ Score = 58.9 bits (141),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 35/91 (38%), Positives = 55/91 (60%), Gaps = 1/91 (1%)
+
+Query  1   MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+           +I  I+  + L+I S+ DF+ RE+ DY+   L    V  +I  +I + DY+ L+ +I G 
+Sbjct  3   IISVIVALVALVIGSITDFKKREVHDYVSYGLTFIAVAISIIYTIIIWDYTPLVQTIMGL  62
+
+Query  61  VICFILGYMMF-LSGIGGGDGKMLIGLGALV  90
+           +I   + Y MF L   GGGD K++IGLGA++
+Sbjct  63  LIGLGIAYAMFYLGQWGGGDSKLIIGLGAVL  93
+
+
+> UniRef90_A0A151E542 Uncharacterized protein n=1 Tax=Thermoplasmatales 
+archaeon SM1-50 TaxID=1803815 RepID=A0A151E542_9EURY
+Length=238
+
+ Score = 58.2 bits (139),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 66/245 (27%), Positives = 104/245 (42%), Gaps = 42/245 (17%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            +I  I G + L  AS  D ++R   + +W+ +A+ GV+  +   I  LD         GF
+Sbjct  10   LIRLITGTILLAYASYTDIKTRRAANILWVIMALIGVILLL---IQYLD--------DGF  58
+
+Query  61   V---------ICFILGYMMFLSGI--GGGDGKMLIGLGALVPKFQMPIYTSLGTL-LNLN  108
+                      I  IL Y+ F   +  GG D K L+ L  LVP     I   +GT  L  +
+Sbjct  59   SNIWYLLFIPIMIILMYVFFQMRLLFGGADAKALMALAVLVP-----IQPLIGTFPLWES  113
+
+Query  109  YVPTFPIMVFINGIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ--  166
+            ++P     +F N     + +P  +L  N+      K    F     G  + V  AK    
+Sbjct  114  FLPG-SWSIFANATILFLLIPISLLMYNLY-----KHNLRFPHCLLGYVITVEQAKHSFV  167
+
+Query  167  --KRLIMGQNDKINFFPAA--DDEDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIG  220
+                 I     K+ + P     DE+ S++ N+   +IWVTP+IP +IP+   ++    +G
+Sbjct  168  WPMEKIKNGKRKLVYMPKNFDIDEELSEFENHGITDIWVTPKIPFMIPLLAGFITLFFLG  227
+
+Query  221  DRILD  225
+            D +L 
+Sbjct  228  DLLLQ  232
+
+
+> UniRef90_A0A2A5NXF6 Uncharacterized protein n=1 Tax=Candidatus 
+Geothermarchaeota archaeon ex4572_27 TaxID=2012530 RepID=A0A2A5NXF6_9ARCH
+Length=254
+
+ Score = 58.2 bits (139),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 58/236 (25%), Positives = 96/236 (41%), Gaps = 38/236 (16%)
+
+Query  15   SVQDFRSREIEDYIWIFLAVFGV-LFAIYSSITLLDYSILINSISGFVICFILGYMMFLS  73
+            S  D RSRE+ D +WI L V    + A+ +    L   +L+ SI+   +   LG +++L 
+Sbjct  20   SWSDLRSREVSDVVWIALVVAAAPMVALEAYTGHLPLHLLLGSIA---VSLALGAIIYLL  76
+
+Query  74   GI-GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFLPFVI  132
+            G+ GG D K L  LG  +P               +   P F + VF N +          
+Sbjct  77   GLFGGADAKALWCLGVALPTPPPSPAR------PMPVSPIFTLSVFDNTVALAALTSIYA  130
+
+Query  133  LFRNILNGAR---------PKTGKEFILMFFGEKMKVNVAKE-------------QKRLI  170
+            L RN+   AR             +  + M  G K+  +  +E             ++RL 
+Sbjct  131  LIRNLAYWARGGRLFEGLSEPLHRRALAMLIGYKVDPSRVREGGFYFLMEEVVEGRRRLK  190
+
+Query  171  MGQNDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDF  226
+            +G         AA  E+F +   + E+W TP +P+I+ +    +V   +GD ++  
+Sbjct  191  LGA-----LLRAAKAEEFVREGLSGEVWATPALPMIVYMLAGLVVALTVGDLVMSL  241
+
+
+> UniRef90_A0A0B5HVT9 Peptidase A24A prepilin type IV n=2 Tax=Archaea 
+TaxID=2157 RepID=A0A0B5HVT9_ARCG6
+Length=279
+
+ Score = 58.2 bits (139),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 36/92 (39%), Positives = 52/92 (57%), Gaps = 1/92 (1%)
+
+Query  1   MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+           +I  II  L LI AS QDF++RE+ D+I   L +    F +  S  L D   ++ S  G 
+Sbjct  4   LIVVIISLLWLIYASYQDFKTREVPDWISYSLIIIASAFYLIKSFALKDSGFILQSSFGL  63
+
+Query  61  VICFILGYMMFLS-GIGGGDGKMLIGLGALVP  91
+           +I ++ G +M+ +   GGGD K+L  LGAL P
+Sbjct  64  LIFYLTGSLMYYTRQWGGGDVKLLSALGALFP  95
+
+
+> UniRef90_A0A2R6T5W5 Uncharacterized protein n=1 Tax=archaeon 
+SCG-AAA382B04 TaxID=2137776 RepID=A0A2R6T5W5_9ARCH
+Length=210
+
+ Score = 57.0 bits (136),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 52/215 (24%), Positives = 93/215 (43%), Gaps = 36/215 (17%)
+
+Query  14   ASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSI--LINSISGFVICFILGYMMF  71
+            A+  D++ R + + +W  L + G+   ++      ++SI  LI       + F L Y++ 
+Sbjct  18   ATYTDYKDRRVSNKVW--LPLIGLALVVF----FFEFSISYLIKLCLSIGVMFPLAYLLM  71
+
+Query  72   LSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVP--TFPIMVFINGIFFMVFLP  129
+                GG D K L+ +  L P++          + N  YV    F   V +N +   +  P
+Sbjct  72   YFDFGGADAKFLMVVAILFPEYP--------AVFNPFYVEGWIFSFTVLLNALILALVYP  123
+
+Query  130  FVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKI---NFFPAADDE  186
+              I   N+    + K         F   +K+ +A  +K   + ++DK+     F     E
+Sbjct  124  LTIFLVNL----KKKN--------FTNPLKMIIALPKKPGCVNEDDKVIGDKIFLGKQVE  171
+
+Query  187  DFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            D  +    E++WV+P+IP IIP+   Y V+ + GD
+Sbjct  172  DVKE---KEKVWVSPKIPFIIPLVAGYFVSLVYGD  203
+
+
+> UniRef90_A0A2D5XF58 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon TaxID=2026803 RepID=A0A2D5XF58_9ARCH
+Length=304
+
+ Score = 57.8 bits (138),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 39/92 (42%), Positives = 53/92 (58%), Gaps = 5/92 (5%)
+
+Query  2    IEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAI--YSSITLLDYSILINSISG  59
+            I Y IG L L+I S  D R+RE+ D  W+   + G  F I    SI     + +  S+ G
+Sbjct  19   IPYSIGFLALLIGSYTDLRTREVPD--WLNFGLIGTGFGINLLFSIIYWKLNFITYSVIG  76
+
+Query  60   FVICFILGYMMFLSG-IGGGDGKMLIGLGALV  90
+            F I  ++ Y+MF +G  GGGD KML+GLGAL+
+Sbjct  77   FGIFLVIAYIMFYAGQWGGGDSKMLMGLGALI  108
+
+
+> UniRef90_A0A2E9U342 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon TaxID=2026803 RepID=A0A2E9U342_9ARCH
+Length=298
+
+ Score = 57.4 bits (137),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 36/93 (39%), Positives = 56/93 (60%), Gaps = 5/93 (5%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAI--YSSITLLDYSILINSIS  58
+            +I Y I  L L+I S  D R+RE+ D  W+   + GV F +    SI   +   +++S+ 
+Sbjct  15   LIPYTIAFLALLIGSYTDIRTREVPD--WVNFGLIGVGFGVNLLFSIIYWEIDFILSSVI  72
+
+Query  59   GFVICFILGYMMFLSG-IGGGDGKMLIGLGALV  90
+            GF I F + ++MF +G  GGGD K+L+GLGA++
+Sbjct  73   GFGIFFAIAWVMFYTGQWGGGDSKILMGLGAVI  105
+
+
+ Score = 19.2 bits (38),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 8/35 (23%), Positives = 19/35 (54%), Gaps = 0/35 (0%)
+
+Query  187  DFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            +F K    +++ +   IP +    ++Y+VT + G+
+Sbjct  258  EFYKKGKVKKVLIKEGIPFVPSFFIAYVVTLMFGN  292
+
+
+> UniRef90_A0A2D6NYM9 Uncharacterized protein n=1 Tax=Nanoarchaeota 
+archaeon TaxID=2026764 RepID=A0A2D6NYM9_9ARCH
+Length=291
+
+ Score = 57.4 bits (137),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 51/166 (31%), Positives = 80/166 (48%), Gaps = 24/166 (14%)
+
+Query  4    YIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVIC  63
+            ++IG+LGL+IA + D ++ EI DY   FL   G    I  S+   D++  + ++  F I 
+Sbjct  8    FLIGSLGLLIALISDIKTTEIPDYSNYFLIFSGFSLRILHSLISQDWNFTLIALKTFPII  67
+
+Query  64   FILGYMMFLSG-IGGGDGKMLIGLG---ALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFI  119
+              L + M+ +   GGGD K+L+GLG   A  P F   I+      L       FP ++F+
+Sbjct  68   LALAFFMYYTKQWGGGDAKLLMGLGIIFATYPSFLQNIFHPKILFLQ------FPFVLFL  121
+
+Query  120  N----GIFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVN  161
+            N    GI +      V++ +N          K+  L+ F EK+K N
+Sbjct  122  NILLIGIIYSFLYSLVLVIKN----------KKKFLIKFKEKLKQN  157
+
+
+> UniRef90_A0A2J2H5V8 Prepilin peptidase n=3 Tax=Vulcanisaeta TaxID=164450 
+RepID=A0A2J2H5V8_9CREN
+Length=253
+
+ Score = 56.2 bits (134),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 46/147 (31%), Positives = 79/147 (54%), Gaps = 12/147 (8%)
+
+Query  1    MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+            +++YII  L  +IAS+QD ++REI D+ WI  A+  V   IY +++L +  + I S+  F
+Sbjct  9    IMDYIIVILIQLIASIQDLKTREISDWTWIAGALVCVPLGIYLALSLHELFLYIASMV-F  67
+
+Query  61   VICFILGYMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN  120
+               F L    +L  +GG D K ++ + A +P   +P  T       L+ V   PI V IN
+Sbjct  68   GAAFGLA-AYWLRAMGGADSKSIMFISASIPPVTLPNMT-------LSIVNMTPISVLIN  119
+
+Query  121  G--IFFMVFLPFVILFRNILNGARPKT  145
+               I  ++++P+ ++ +NI  G + + 
+Sbjct  120  SLIIALIIYVPYNVI-QNIRYGKQCEA  145
+
+
+> UniRef90_A0A2G9MBF1 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_36_11 
+TaxID=1974462 RepID=A0A2G9MBF1_9ARCH
+Length=321
+
+ Score = 55.5 bits (132),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 34/98 (35%), Positives = 59/98 (60%), Gaps = 13/98 (13%)
+
+Query  1    MIEYIIGALGLI---IASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYS----IL  53
+            + E++I  + L    IAS  D ++RE+ D++      +G+LFA +   T+  +S    IL
+Sbjct  39   LFEFVISGITLCVLGIASWTDIKTREVPDWV-----DYGLLFAAFGIRTIFSFSEGWNIL  93
+
+Query  54   INSISGFVICF-ILGYMMFLSGIGGGDGKMLIGLGALV  90
+            I+ I GF+ICF +  ++ +    GGGD K+L+G+GA++
+Sbjct  94   ISGIIGFIICFGVACFLYYTHQWGGGDSKLLMGIGAVI  131
+
+
+> UniRef90_A0A0B5HX83 Peptidase A24A prepilin type IV n=1 Tax=Archaeon 
+GW2011_AR15 TaxID=1579373 RepID=A0A0B5HX83_ARCG3
+Length=290
+
+ Score = 55.1 bits (131),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 44/158 (28%), Positives = 77/158 (49%), Gaps = 16/158 (10%)
+
+Query  4    YIIGAL-GLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVI  62
+            +II AL  ++I +  D ++RE+ D+    L   G+   +  +I   DYS ++  ++G  +
+Sbjct  6    FIITALIAIVIGTYTDIKTREVPDWFNYSLIAIGIGLNLIYTIIYSDYSYILKGLTGLGV  65
+
+Query  63   CFILGYMMFLSG-IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFING  121
+               LG  M+ +G  GGGD KM+ GLGA++          LG  L  ++   F I +F  G
+Sbjct  66   ALALGCFMYYTGQWGGGDSKMIFGLGAML---------GLGFPLLDDFFVKFLINMFFAG  116
+
+Query  122  IFFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMK  159
+              ++     +   RN     R K G+ F+ +   +K++
+Sbjct  117  ALYVTVWTIIEGIRN-----RKKIGRNFMKLMKDDKLR  149
+
+
+> UniRef90_A0A0D5C261 Putative archaeal preflagellin peptidase 
+FlaK n=1 Tax=Candidatus Nitrosopumilus adriaticus TaxID=1580092 
+RepID=A0A0D5C261_9ARCH
+Length=230
+
+ Score = 54.3 bits (129),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 61/228 (27%), Positives = 95/228 (42%), Gaps = 40/228 (18%)
+
+Query  13   IASVQDFRSREIEDYIWIFLAVFGVLF-----AIYSSITLLDYSILINSISGFVICFILG  67
+            +ASV D   REI DY WI   V G L       + S +  L ++++I  I   +I + +G
+Sbjct  21   VASVIDVWKREIHDYFWIVFGVIGFLLIFLSPDLMSDLLTLGFALIIAPI--VIIMWRIG  78
+
+Query  68   YMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVF  127
+            +       GG D   LI L  + P            +  L+  P  P     N +   V 
+Sbjct  79   FF------GGADAFALIALAVIAP------------MATLSENPITPFTTLSNAVLLFV-  119
+
+Query  128  LPFVI-LFR---------NILNGARPKTGKEFILMFFGEKMK-VNVAKEQKRLIMGQNDK  176
+            +PF+I + R         NI  G    TG++ I +  G + K        ++   G+   
+Sbjct  120  IPFIINVLRNTIAQIKGENIFEGFDETTGRKIIAVLMGYRAKNPKFGFSIEKTKKGKKKL  179
+
+Query  177  INFFPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRIL  224
+                  A+++DF   S+    W+TP IP ++ IT  +L+    GD IL
+Sbjct  180  NLKLHHAENQDFCTKSDT---WITPGIPYLLLITGGFLIQIFYGDIIL  224
+
+
+> UniRef90_A0A2D6LUN1 Uncharacterized protein n=1 Tax=archaeon 
+TaxID=1906665 RepID=A0A2D6LUN1_9ARCH
+Length=279
+
+ Score = 54.7 bits (130),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 40/124 (32%), Positives = 73/124 (59%), Gaps = 8/124 (6%)
+
+Query  13   IASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMMFL  72
+            +AS+ DF+ RE+ D + I L +  ++  I  S  + D+SIL +S+ GF+I   +   M+ 
+Sbjct  16   VASLIDFKKREVPDTLSIGLIIVAIILKILHSYEINDFSILFSSLFGFLIFLGISLAMYY  75
+
+Query  73   S-GIGGGDGKMLIGLGALVPKF--QMPIYT-SLGTLLNLNYVPTFPIMV--FINGIFFMV  126
+            +   GGGD K+ + LG  +P +  ++ I+  SLG  +N  ++ +F I+   F+ GI +M+
+Sbjct  76   TRQWGGGDAKLFMALGIALPYYPKELTIFNPSLG--INFMFIISFNILFFGFLYGIGYMI  133
+
+Query  127  FLPF  130
+            ++ F
+Sbjct  134  YISF  137
+
+
+> UniRef90_A0A1G8X8L6 Preflagellin peptidase FlaK n=1 Tax=Methanoculleus 
+thermophilus TaxID=2200 RepID=A0A1G8X8L6_9EURY
+Length=266
+
+ Score = 54.3 bits (129),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 65/251 (26%), Positives = 95/251 (38%), Gaps = 49/251 (20%)
+
+Query  6    IGALGLIIASVQDFRSREIEDYIW--IFLAVFGVLFAIYSSITLLD------YSILINSI  57
+            IGA  LI ASV D R R +    W             +Y  I L D      Y +L+   
+Sbjct  18   IGAT-LIYASVLDARDRRVPHRTWRPALAIAIPAALWVYGQILLADWRTAAGYLVLVAVF  76
+
+Query  58   SGFVICFILGYMMFLSGI-GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIM  116
+             GF       Y+    G+ GG D   LI + A +P   +  Y  +  L        FP  
+Sbjct  77   CGFF------YLFQAKGLFGGADAYALIIITACIPLSPIEPYFGISPL------GFFPFT  124
+
+Query  117  VFINGIFFMVFLPFVILFRNILNGAR----------PKTGKEFILMFFGEKMK-------  159
+            V  N +   +  PF IL +N++ G R          P  GK+ I   FG  M+       
+Sbjct  125  VLTNAVLINIAAPFAILAKNLIEGNRAPLPCLFLGFPVDGKK-IQNEFGFVMEDIREEDG  183
+
+Query  160  ------VNVAKEQKRLIMGQN---DKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPIT  210
+                  V   +   R+  G+      +   P    ++ + Y    ++W++  IP IIPIT
+Sbjct  184  KIVRRFVGFTESLGRMTRGERRYTKDLRLHPEDYQKELALYRKAGKVWISYGIPFIIPIT  243
+
+Query  211  LSYLVTPIIGD  221
+              +L    +GD
+Sbjct  244  AGFLTALFMGD  254
+
+
+> UniRef90_A0A0M0BII1 Uncharacterized protein n=1 Tax=miscellaneous 
+Crenarchaeota group archaeon SMTZ-80 TaxID=1685135 RepID=A0A0M0BII1_9ARCH
+Length=261
+
+ Score = 53.9 bits (128),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 69/258 (27%), Positives = 111/258 (43%), Gaps = 49/258 (19%)
+
+Query  5    IIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICF  64
+            II  + LI  S  D R+R++ + +WI       +  ++      D  ++       +   
+Sbjct  11   IISFVFLIYGSFSDIRTRQVSNIVWITFLPIAFVLTLFRIFLYPDLLVISLLSILIITII  70
+
+Query  65   ILGYMMFLSG-IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFIN---  120
+             +  ++F  G IGG D K +I LG       MPIY      +   Y P FPI VFIN   
+Sbjct  71   SI--VIFYGGIIGGADSKAIICLG-----LAMPIYP---VFIKEFYHPFFPISVFINSYV  120
+
+Query  121  ---GIFFMVFLPFV--ILFRN--ILNGARPKTGKEFILMFFG------------------  155
+               GIF    L  +  +L R   + +G   ++  + IL F                    
+Sbjct  121  ISCGIFLYAILRNLKWLLLRKEELYSGLESESYWKKILAFISGYKIDLSDYNNGKLHYFP  180
+
+Query  156  -EKMKVNVAKEQKRL-----IMGQNDKINFFPAADDEDFSKYSNNEEIWVTPQIPLIIPI  209
+             E++K     + K       I  +N+K+ +    +  + SK   ++ IWVTP +P+++ I
+Sbjct  181  LEEIKSESGVKHKNFKFFLRIEPENNKLVY----NSIENSKMFKSKNIWVTPMLPMLLFI  236
+
+Query  210  TLSYLVTPIIGDRILDFL  227
+            TL YL+T I GD +L F+
+Sbjct  237  TLGYLLTLIFGDIVLRFV  254
+
+
+> UniRef90_A0A2G9MR51 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_32_9 
+TaxID=1974458 RepID=A0A2G9MR51_9ARCH
+Length=284
+
+ Score = 53.5 bits (127),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 29/78 (37%), Positives = 49/78 (63%), Gaps = 1/78 (1%)
+
+Query  14  ASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMMFLS  73
+            ++ D ++RE+ D +   L   G L A  SS+    +S LIN+ +GFV   ILG + + +
+Sbjct  14  GTIADMKTREVPDTLSFGLVGIGFLIATISSLFYTSFSPLINTAAGFVAGIILGLLFYFT  73
+
+Query  74  GI-GGGDGKMLIGLGALV  90
+           G+ GGGD K+++G+GA++
+Sbjct  74  GMWGGGDAKIIMGIGAVM  91
+
+
+> UniRef90_A0A3M1LM67 A24 family peptidase n=1 Tax=Thaumarchaeota 
+archaeon TaxID=2026795 RepID=A0A3M1LM67_9ARCH
+Length=224
+
+ Score = 52.8 bits (125),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 58/224 (26%), Positives = 101/224 (45%), Gaps = 36/224 (16%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITL-LDYSILINSISGFVICFILGYM  69
+            LIIAS+ D + REI D +WI     G++  I     L L Y+I +  +S      I+ Y 
+Sbjct  13   LIIASIMDLKKREISDKVWIISGSIGIILLIIDHSNLDLFYAISLGIVS------IIAYA  66
+
+Query  70   MFLSGI-GGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFP-IMVFINGIFFMVF  127
+            ++ +G+ GG D K L+ +  L+P +++            N +   P + V  NG+   + 
+Sbjct  67   IYGTGMFGGADAKALVVISLLLPYYEIN-----------NSIHNIPALTVLTNGVILTIV  115
+
+Query  128  LPFVILFRN---------ILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKIN  178
+              F  + RN         I +G      ++ +    G K K    K    L + +++   
+Sbjct  116  NVFHNIIRNSIDILRGNKIFDGFNEPLSRKILAFILGFKAK----KINGYLFLMEDEGKR  171
+
+Query  179  F-FPAADDEDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            F F     +DF +  +  ++WVT  +P II +T+ +++  I GD
+Sbjct  172  FRFHVNAYDDFVE--DARDVWVTAALPFIIYMTIGFVIMLIYGD  213
+
+
+> UniRef90_A0A2D6PDB3 Uncharacterized protein n=1 Tax=archaeon 
+TaxID=1906665 RepID=A0A2D6PDB3_9ARCH
+Length=290
+
+ Score = 53.1 bits (126),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 49/82 (60%), Gaps = 1/82 (1%)
+
+Query  13  IASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMMFL  72
+           IAS+ D ++RE+ D++   L + G+   ++ S+   ++  LI  + GF   FI+  +M+ 
+Sbjct  17  IASITDIKTREVPDWLSYSLIIIGLTLRLFYSLAYQEWLFLIQGLIGFASFFIIANLMYY  76
+
+Query  73  SG-IGGGDGKMLIGLGALVPKF  93
+           +   GGGD K+L+GLGAL   +
+Sbjct  77  TKQWGGGDSKLLMGLGALFATY  98
+
+
+> UniRef90_A0A3M1NHM0 A24 family peptidase n=1 Tax=Candidatus Woesearchaeota 
+archaeon TaxID=2026803 RepID=A0A3M1NHM0_9ARCH
+Length=286
+
+ Score = 52.8 bits (125),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 30/94 (32%), Positives = 53/94 (56%), Gaps = 4/94 (4%)
+
+Query  10   GLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYM  69
+             L++AS  D ++RE+ +++   L   G+   +  S T LD++  +  + G     ++G  
+Sbjct  12   ALLVASYTDIKTREVPNWLNYSLIATGIGLGLIKSSTALDWNFALTHLLGLAAGALVGCA  71
+
+Query  70   MFLSG-IGGGDGKMLIGLGALVP---KFQMPIYT  99
+            MF +G  GGGD KM+IGLGA++    + +MP + 
+Sbjct  72   MFYAGQWGGGDSKMIIGLGAIIGLPLEMRMPFFA  105
+
+
+> UniRef90_A0A3M1H8L5 Prepilin peptidase n=1 Tax=Candidatus Woesearchaeota 
+archaeon TaxID=2026803 RepID=A0A3M1H8L5_9ARCH
+Length=282
+
+ Score = 52.8 bits (125),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 33/83 (40%), Positives = 48/83 (58%), Gaps = 1/83 (1%)
+
+Query  9   LGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGY  68
+           + LII SV D ++RE+ D +  FL V G+      SI   D  ++I  + GF   F L  
+Sbjct  13  IALIIGSVTDLKTREVPDQLNYFLIVSGLGLRTVLSIIYSDPFVIIAGLMGFASMFALAM  72
+
+Query  69  MMFLSG-IGGGDGKMLIGLGALV  90
+            +F +G  GGGD K+L+GLGA++
+Sbjct  73  FLFYTGQWGGGDAKLLMGLGAMI  95
+
+
+> UniRef90_A0A1J5TT24 Uncharacterized protein n=1 Tax=Marine Group 
+III euryarchaeote CG-Epi3 TaxID=1888997 RepID=A0A1J5TT24_9EURY
+Length=307
+
+ Score = 52.8 bits (125),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 49/168 (29%), Positives = 77/168 (46%), Gaps = 16/168 (10%)
+
+Query  65   ILGYMMFLSG--IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGI  122
+            IL Y+ F  G  IGG D K ++ +  L P F         T       P +P ++F+N +
+Sbjct  130  ILMYIWFYFGPTIGGADVKAIMTISLLTP-FSFSFTDESLTAFESRGFP-YPFVIFMNSL  187
+
+Query  123  FFMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQ--NDKINFF  180
+               + +P  +   NIL G        F  +FFG KM+++ A+E     M Q   DK+   
+Sbjct  188  LLYLLIPIGLAIFNILKG---NLESPFFQIFFGTKMELDKARESFVWPMQQVVGDKVVMV  244
+
+Query  181  PAA-----DDEDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGD  221
+                     DE+++K      +  W+T +IP IIP+ LS+ ++   GD
+Sbjct  245  ALVKHKLDSDEEWNKLEKYGVDNPWITFKIPYIIPLGLSFALSAFYGD  292
+
+
+ Score = 33.5 bits (75),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 26/43 (60%), Gaps = 0/43 (0%)
+
+Query  1   MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYS  43
+           ++ ++IG + L   S  DF++R + +Y+WI+  + G L  IY 
+Sbjct  6   ILRFLIGIVMLSYGSWLDFKTRRVPNYVWIYGGILGSLMLIYE  48
+
+
+> UniRef90_A0A2H6H0N9 Type IV leader peptidase family protein n=1 
+Tax=archaeon BMS3Abin17 TaxID=2005741 RepID=A0A2H6H0N9_9ARCH
+Length=277
+
+ Score = 52.4 bits (124),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 31/88 (35%), Positives = 53/88 (60%), Gaps = 2/88 (2%)
+
+Query  6   IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFA-IYSSITLLDYSILINSISGFVICF  64
+           IG + +I AS+QD RSRE+ +++   L +F + F   YS  +  D++     + G  I F
+Sbjct  10  IGLIWIIFASIQDLRSREVANWLSFSLIIFALGFRFFYSLFSGGDFNFFYQGLIGLGIFF  69
+
+Query  65  ILGYMMFLSGI-GGGDGKMLIGLGALVP  91
+           +LG +++   +  GGD K++I LGA++P
+Sbjct  70  VLGNLLYYGRMFAGGDAKLMIALGAILP  97
+
+
+> UniRef90_A0A151ERS4 Uncharacterized protein n=1 Tax=Theionarchaea 
+archaeon DG-70-1 TaxID=1803814 RepID=A0A151ERS4_9EURY
+Length=223
+
+ Score = 51.6 bits (122),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 61/225 (27%), Positives = 95/225 (42%), Gaps = 14/225 (6%)
+
+Query  8    ALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILG  67
+            A+ L   S +D ++REI D +W+ +   GV+      + L D+   +  +S  V   +  
+Sbjct  8    AVCLGYGSYRDVKTREIPDTLWLIMGGVGVV------LRLFDHQWKVMGVSVGVALLLGA  61
+
+Query  68   YMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVF  127
+             ++     GG D K  I L  LVP+     Y     +L +  V  F  +  I  I  +V 
+Sbjct  62   VLLVSGLFGGADIKAFIALSLLVPQ-----YPGAAVVLPVFVVSVFNNLAVIRVIEILVV  116
+
+Query  128  LPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQKRLIMGQNDKINFFPAADD--  185
+              + I+  N   G  P+  K+ +L   G  MK      +   +      I+  P  D   
+Sbjct  117  FFYNIVKGNWYKGDIPQW-KKILLYMTGFPMKKEKVDYRFLPLQDLQGDIHLVPDIDTDI  175
+
+Query  186  EDFSKYSNNEEIWVTPQIPLIIPITLSYLVTPIIGDRILDFLIPF  230
+            E F K    +EIWVT   PLI  IT+   +  I GD +L  ++ F
+Sbjct  176  EQFKKECTLKEIWVTYGSPLIAYITVGCFIAFIKGDILLQLMMHF  220
+
+
+> UniRef90_A0A3M1JL70 A24 family peptidase n=1 Tax=Candidatus Woesearchaeota 
+archaeon TaxID=2026803 RepID=A0A3M1JL70_9ARCH
+Length=297
+
+ Score = 51.2 bits (121),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 33/109 (30%), Positives = 60/109 (55%), Gaps = 5/109 (5%)
+
+Query  4    YIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVIC  63
+            +++G   L I S  D ++RE+ D++   L +        +++    +SIL   + GF++ 
+Sbjct  14   FLLGLGALTIGSASDIKTREVPDWVSYGLIISAAAARTMAAVQYGSWSILTEGLLGFIVF  73
+
+Query  64   FILGYMMFLSG-IGGGDGKMLIGLG---ALVPKFQMPIYTSL-GTLLNL  107
+             ++ Y+MF +G  GGGD K+L+GLG    L P+    + + L G L+N+
+Sbjct  74   VLIAYLMFYTGQWGGGDAKLLMGLGMVIGLKPEISTALTSDLTGFLVNV  122
+
+
+> UniRef90_A0A2E3NX70 Uncharacterized protein n=3 Tax=Euryarchaeota 
+archaeon TaxID=2026739 RepID=A0A2E3NX70_9EURY
+Length=327
+
+ Score = 51.2 bits (121),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 46/168 (27%), Positives = 80/168 (48%), Gaps = 18/168 (11%)
+
+Query  66   LGYMMFLSG--IGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIF  123
+            L Y+ F  G  IGG D K ++    + P +      SL    +  +   +P++VF+N   
+Sbjct  151  LMYIWFYFGPTIGGADVKAIMAXSLITPFYXSFTDDSLXAFXSRGF--PYPLVVFMNS--  206
+
+Query  124  FMVFLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ-----KRLIMGQNDKIN  178
+             ++    + L   I N A+    K F  +FFG KM ++ A+E      ++++  +   + 
+Sbjct  207  -LLLYLLIPLGLAIFNIAKGNIEKPFFQIFFGIKMNIDEARESFVWPMQQVVGNRTVMVA  265
+
+Query  179  FFPAADDEDFSKYSNNEEI-----WVTPQIPLIIPITLSYLVTPIIGD  221
+            F     D D  ++   EE      WVT +IP I+P+T S+++T + GD
+Sbjct  266  FVKHKLDSD-KEWVKLEEKGIASPWVTFKIPYIVPLTFSFVITALYGD  312
+
+
+ Score = 30.4 bits (67),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 12/49 (24%), Positives = 27/49 (55%), Gaps = 0/49 (0%)
+
+Query  1   MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLD  49
+           ++ ++IG + L   S  D ++R + +++WI+   FG L   Y   ++ +
+Sbjct  26  ILRFLIGIVMLSXGSWTDLKTRRVPNWVWIYGGSFGSLLLXYEVXSIWE  74
+
+
+> UniRef90_A0A151EA00 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon SM23-78 TaxID=1803821 RepID=A0A151EA00_9EURY
+Length=287
+
+ Score = 50.4 bits (119),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 34/91 (37%), Positives = 55/91 (60%), Gaps = 1/91 (1%)
+
+Query  1   MIEYIIGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGF  60
+           +I  +IG + L  AS+ D ++RE+ D++   L  F +  ++  SI    Y I+IN+  G 
+Sbjct  6   IINLVIGFVALAGASLFDIKTREVPDWLNYGLIAFAIGSSLILSIFHGYYHIIINTFIGL  65
+
+Query  61  VICFILGYMMFLSG-IGGGDGKMLIGLGALV  90
+            I  ++G +MF +G  GGGD K++IGL AL+
+Sbjct  66  GIGLVIGLLMFYTGQWGGGDSKLIIGLSALI  96
+
+
+> UniRef90_A0A2G9N7T9 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_44_13 
+TaxID=1974464 RepID=A0A2G9N7T9_9ARCH
+Length=343
+
+ Score = 48.9 bits (115),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 31/84 (37%), Positives = 49/84 (58%), Gaps = 13/84 (15%)
+
+Query  14   ASVQDFRSREIEDYIWIFLAVFGVLFA------IYSSITLLDYSILINSISGFVICFILG  67
+             S  D R+RE+ D++      +G++F+      IYS+    D+S +I    GF++   L 
+Sbjct  73   GSYTDIRTREVPDWV-----NYGLIFSALGIRLIYSAAES-DWSYIIEGAFGFIVFLALA  126
+
+Query  68   YMMFLSG-IGGGDGKMLIGLGALV  90
+            Y MF +G  GGGD KM++GLGA++
+Sbjct  127  YAMFYAGQWGGGDAKMVMGLGAML  150
+
+
+> UniRef90_A0A2D6RMZ3 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon TaxID=2026773 RepID=A0A2D6RMZ3_9ARCH
+Length=278
+
+ Score = 48.1 bits (113),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 25/78 (32%), Positives = 46/78 (59%), Gaps = 1/78 (1%)
+
+Query  15  SVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILGYMMFLSG  74
+           S+QD R RE+ +++   L +F + F  + S  L +++     + G  I FI+G +++   
+Sbjct  19  SIQDLRKREVANWLNFSLIIFALGFRFFYSFFLENFNFFYQGLIGLGIFFIIGNLLYYGR  78
+
+Query  75  I-GGGDGKMLIGLGALVP  91
+           +  GGD K++I LGA++P
+Sbjct  79  MFAGGDAKLMIALGAILP  96
+
+
+> UniRef90_A0A3M1F7U6 Prepilin peptidase n=1 Tax=Candidatus Woesearchaeota 
+archaeon TaxID=2026803 RepID=A0A3M1F7U6_9ARCH
+Length=282
+
+ Score = 47.0 bits (110),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 27/84 (32%), Positives = 48/84 (57%), Gaps = 4/84 (5%)
+
+Query  2   IEYIIGALGLI---IASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSIS  58
+           +++II AL L+   I+++ D R+RE+ D+I       G+   +  +I    +  L+  ++
+Sbjct  1   MQFIIHALALLALFISTITDLRTREVPDWISYGTIFTGIFIGVVKTILEASWHPLLTMVA  60
+
+Query  59  GFVICFILGYMMFLSG-IGGGDGK  81
+           G  + F+LG +MF +G  GGGD K
+Sbjct  61  GLSLGFLLGTIMFYTGQWGGGDSK  84
+
+
+ Score = 21.9 bits (45),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 15/32 (47%), Gaps = 0/32 (0%)
+
+Query  190  KYSNNEEIWVTPQIPLIIPITLSYLVTPIIGD  221
+            K      +WV   IP +     +YL+T I G+
+Sbjct  245  KKHRITSVWVKEGIPFVPSFLFAYLLTLITGN  276
+
+
+> UniRef90_A0A2I0N9B9 Uncharacterized protein n=1 Tax=Thermoplasmata 
+archaeon HGW-Thermoplasmata-1 TaxID=2013852 RepID=A0A2I0N9B9_9EURY
+Length=249
+
+ Score = 47.0 bits (110),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 58/229 (25%), Positives = 100/229 (44%), Gaps = 34/229 (15%)
+
+Query  11   LIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLD---YSILINSISGFVICFILG  67
+            L  AS+ D ++R + +Y W+ LA  GV+ A++  I   +   + ++   +   VI F+  
+Sbjct  27   LAYASISDLKTRRVNNYAWVALAAVGVI-ALFVQIAFREADWFYLMFTPLLVIVIYFLYR  85
+
+Query  68   YMMFLSGIGGGDGKMLIGLGALVPKFQMPIYTSLGTL-LNLNYVPTFPIMVFINGIFFMV  126
+            + +     GG D K LI L    P +       LG   L  ++ P F  ++  N +  + 
+Sbjct  86   FRLIY---GGADAKALIALAITFPFWPS---VPLGAFPLWRSFFP-FAYVILANSVLMLS  138
+
+Query  127  FLPFVILFRNILNGARPKTGKEFILMFFGEKMKVNVAKEQ------------KRLIMGQN  174
+             LP + L  N++N  R K   EF     G K+    A+ +            +R +    
+Sbjct  139  LLPLLFLAYNLVN-LRGKV--EFPHCLLGFKIPTATARGRFLWPLEKLDDGKRRYVSSLR  195
+
+Query  175  DKINFFPAADDEDFSKYSNN--EEIWVTPQIPLIIPITLSYLVTPIIGD  221
+             K+       DE   +++    E IWVTP+IP I+ + +  +V+   GD
+Sbjct  196  TKLGL-----DETAVEFAAAGIERIWVTPKIPFIVVLNIGLIVSLFCGD  239
+
+
+> UniRef90_A0A2D6P2E1 Uncharacterized protein n=1 Tax=archaeon 
+TaxID=1906665 RepID=A0A2D6P2E1_9ARCH
+Length=288
+
+ Score = 44.7 bits (104),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 31/124 (25%), Positives = 60/124 (48%), Gaps = 1/124 (1%)
+
+Query  14   ASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFILG-YMMFL  72
+            AS+ DF+ REI D++   L    +   I  +I    ++ +I  + GF + F +  +M + 
+Sbjct  18   ASITDFKKREIPDFLSYSLLSTVIFIKILQAIIERSFTPIIYGLIGFTVFFAIALFMYYT  77
+
+Query  73   SGIGGGDGKMLIGLGALVPKFQMPIYTSLGTLLNLNYVPTFPIMVFINGIFFMVFLPFVI  132
+               GGGD K+L+ LG +  ++   +       LN+  + +  I + + G F+ +F    +
+Sbjct  78   KQWGGGDSKVLMSLGIVFSEYPKTLLNYFTPNLNIPILASLFINILLLGSFYGIFYSMFL  137
+
+Query  133  LFRN  136
+              +N
+Sbjct  138  AIKN  141
+
+
+> UniRef90_A0A2G9PK90 Uncharacterized protein n=1 Tax=Candidatus 
+Woesearchaeota archaeon CG08_land_8_20_14_0_20_47_9 TaxID=1974455 
+RepID=A0A2G9PK90_9ARCH
+Length=303
+
+ Score = 35.4 bits (80),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 27/77 (35%), Positives = 44/77 (57%), Gaps = 1/77 (1%)
+
+Query  6   IGALGLIIASVQDFRSREIEDYIWIFLAVFGVLFAIYSSITLLDYSILINSISGFVICFI  65
+           +  L L+IAS+ D ++RE+ D++   L   G+LF    S+ +  +  ++ SI+G V+   
+Sbjct  12  VALLCLVIASITDVKTREVPDWLNYGLISLGLLFNAAYSVIIGSWMPILFSIAGAVLLAG  71
+
+Query  66  LGYMMFLSG-IGGGDGK  81
+           L   MF +G  GGGD K
+Sbjct  72  LALAMFYTGQWGGGDSK  88
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.151    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3875725
+
+
+  Database: isar.db.13
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 28,032
+  Number of sequences in database:  107
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

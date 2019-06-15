@@ -1,0 +1,2402 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.112
+           179 sequences; 10,182 total letters
+
+Results from round 1
+
+
+Query= P0C0Y1|1dx7A|LHB1_RHOSH 0.9795918367346939
+
+Length=49
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0C0Y1 Light-harvesting protein B-875 beta chain n=17 ...  103     6e-35
+  UniRef90_A8LQ14 Light-harvesting protein B-870 beta chain n=6 T...  94.0    4e-31
+  UniRef90_A0A2N3CPQ2 Light-harvesting protein n=1 Tax=Alphaprote...  93.6    5e-31
+  UniRef90_A0A2R8BS66 Light-harvesting protein B-875 beta chain n...  89.4    2e-29
+  UniRef90_A0A0L6CV36 Light-harvesting complex 1 beta chain n=22 ...  89.4    3e-29
+  UniRef90_Q58PR6 Putative light-harvesting protein beta chain n=...  89.0    4e-29
+  UniRef90_A0A2D8PBU3 Light-harvesting protein n=1 Tax=Maritimiba...  88.2    6e-29
+  UniRef90_A0A0P8BHZ2 Light-harvesting complex I beta subunit Puf...  88.2    7e-29
+  UniRef90_A0A257GHB9 Light-harvesting protein n=1 Tax=Pseudorhod...  87.8    9e-29
+  UniRef90_A0A2V2LHI1 Light-harvesting protein n=1 Tax=Rhodobacte...  87.8    1e-28
+  UniRef90_A0A2T4JAH7 Light-harvesting protein n=1 Tax=Rhodobacte...  87.8    1e-28
+  UniRef90_A0A238JNU1 Light-harvesting protein B-875 beta chain n...  87.4    1e-28
+  UniRef90_A0A3L9Y689 Light-harvesting protein n=1 Tax=Rhodobacte...  87.0    2e-28
+  UniRef90_A6FQ05 Antenna complex, alpha/beta subunit n=6 Tax=Alp...  85.9    5e-28
+  UniRef90_Q28W20 Light-harvesting protein B-800-850 beta chain B...  86.3    5e-28
+  UniRef90_P02950 Light-harvesting protein B-870 beta chain n=7 T...  85.1    1e-27
+  UniRef90_A0A0X3TVT7 Light-harvesting protein n=1 Tax=Ruegeria p...  85.1    1e-27
+  UniRef90_A0A2R8A9U4 Light-harvesting protein B-875 beta chain n...  85.1    1e-27
+  UniRef90_A0A1G7B0Q4 Light-harvesting complex 1 beta chain n=1 T...  84.7    2e-27
+  UniRef90_A0A2T5BSI6 Light-harvesting complex 1 beta chain n=1 T...  83.2    8e-27
+  UniRef90_A0A2K8KDY5 Light-harvesting protein n=2 Tax=Rhodobacte...  82.8    1e-26
+  UniRef90_Q9WXD9 Light-harvesting protein n=5 Tax=Rhodovulum Tax...  82.4    1e-26
+  UniRef90_A0A1N7K2X1 Light-harvesting complex 1 beta chain n=1 T...  82.0    2e-26
+  UniRef90_A0A0T5NS36 Light-harvesting protein B-870 beta chain n...  82.0    2e-26
+  UniRef90_A0A1I0RKE9 Light-harvesting complex 1 beta chain n=5 T...  80.1    1e-25
+  UniRef90_A0A2D7SF95 Light-harvesting protein n=1 Tax=Marinovum ...  80.1    1e-25
+  UniRef90_A0A2E8Q4D1 Light-harvesting protein n=9 Tax=Proteobact...  79.7    2e-25
+  UniRef90_A0A2T4JIL7 Light-harvesting protein n=1 Tax=Rhodobacte...  79.3    2e-25
+  UniRef90_A0A2D7GAJ5 Light-harvesting protein n=2 Tax=Rhodobacte...  78.2    6e-25
+  UniRef90_A0A2T0X2Z0 Light-harvesting complex 1 beta chain n=1 T...  78.2    6e-25
+  UniRef90_A0A076K2T1 Light-harvesting protein B-870 beta chain P...  78.2    7e-25
+  UniRef90_A0A353V0V9 Light-harvesting protein n=1 Tax=Rhodobacte...  78.2    7e-25
+  UniRef90_A0A099T7A3 Light-harvesting protein B-870 beta chain n...  77.4    1e-24
+  UniRef90_A0A0M6YDP8 Uncharacterized protein n=3 Tax=Jannaschia ...  77.4    2e-24
+  UniRef90_C7DFP6 Conserved domain protein n=1 Tax=Thalassobium s...  77.4    2e-24
+  UniRef90_A0A0Q2Y8Y3 Light-harvesting protein n=3 Tax=Rhodobacte...  77.0    2e-24
+  UniRef90_A0A0P7W5S6 Light-harvesting complex 1 beta subunit Puf...  76.6    3e-24
+  UniRef90_A0A1M5Q694 Light-harvesting complex 1 beta chain n=1 T...  75.5    8e-24
+  UniRef90_A0A1I6MUT9 Light-harvesting complex 1 beta chain n=2 T...  75.1    1e-23
+  UniRef90_A0A2P6FQ12 Light-harvesting protein n=4 Tax=Alphaprote...  75.1    1e-23
+  UniRef90_A0A1I3CNM9 Light-harvesting complex 1 beta chain n=1 T...  74.3    2e-23
+  UniRef90_J7G540 Light-harvesting protein B-870 beta chain n=8 T...  73.6    5e-23
+  UniRef90_A0A2R8BP86 Light-harvesting protein B-875 beta chain n...  70.9    4e-22
+  UniRef90_A0A177HAV5 Light-harvesting protein B-875 beta chain n...  70.1    1e-21
+  UniRef90_C8RYQ7 Antenna complex alpha/beta subunit n=1 Tax=Rhod...  68.6    4e-21
+  UniRef90_P26274 Light-harvesting protein B-870 beta chain n=18 ...  64.7    2e-19
+  UniRef90_A0A0U1NPX1 Uncharacterized protein n=1 Tax=Nereida ign...  63.9    3e-19
+  UniRef90_A0A1P8N1J8 Light-harvesting protein n=3 Tax=Rhodobacte...  63.5    4e-19
+  UniRef90_A0A2D6IR73 Light-harvesting protein n=3 Tax=Proteobact...  60.5    8e-18
+  UniRef90_A0A2E2ME42 Light-harvesting protein n=2 Tax=Rhodobacte...  60.1    1e-17
+  UniRef90_A0A3D3SVT4 Light-harvesting protein n=1 Tax=Burkholder...  59.7    1e-17
+  UniRef90_A0A2E1Y1N7 Light-harvesting protein n=1 Tax=Phyllobact...  59.3    3e-17
+  UniRef90_K2JNK7 Antenna complex subunit alpha/beta n=1 Tax=Ocea...  58.9    5e-17
+  UniRef90_A0A1N7ATW6 Light-harvesting complex 1 beta chain n=1 T...  58.2    9e-17
+  UniRef90_A0A0N0KB98 Uncharacterized protein n=4 Tax=Alphaproteo...  57.8    1e-16
+  UniRef90_A0A1H4BAK3 Light-harvesting complex 1 beta chain n=1 T...  57.4    1e-16
+  UniRef90_Q9F214 LH1 beta subunit n=3 Tax=unclassified Burkholde...  56.6    2e-16
+  UniRef90_A0A0N1A7W8 Uncharacterized protein n=13 Tax=Rhizobiale...  57.0    2e-16
+  UniRef90_A0A0E3V0Y6 Antenna complex alpha/beta subunit n=6 Tax=...  56.2    3e-16
+  UniRef90_A0A3N5FNP1 Light-harvesting protein n=1 Tax=Burkholder...  56.2    3e-16
+  UniRef90_A0A254PWU4 Light-harvesting protein n=2 Tax=Polynucleo...  55.8    4e-16
+  UniRef90_A0A254NC62 Light-harvesting protein n=1 Tax=Pelomonas ...  55.8    5e-16
+  UniRef90_A0A1H2EMM4 Light-harvesting complex 1 beta chain n=3 T...  56.2    6e-16
+  UniRef90_A0A1Y2R527 Light-harvesting protein n=5 Tax=Burkholder...  55.1    8e-16
+  UniRef90_A0A2P5LVE5 Light-harvesting protein n=1 Tax=Methylobac...  55.8    8e-16
+  UniRef90_A0A1W1Z0Y7 Light-harvesting complex 1 beta chain n=1 T...  55.1    9e-16
+  UniRef90_A0A2M7YBE4 Light-harvesting protein n=3 Tax=unclassifi...  55.5    1e-15
+  UniRef90_A0A0P0M7H8 Light-harvesting protein B-870 beta chain n...  54.7    1e-15
+  UniRef90_A0A0C1YE51 Uncharacterized protein n=3 Tax=Bacteria Ta...  55.5    1e-15
+  UniRef90_A0A257DEF0 Light-harvesting protein n=1 Tax=Burkholder...  54.3    2e-15
+  UniRef90_A0A0L6T9L7 Light-harvesting protein B:885 subunit beta...  53.9    2e-15
+  UniRef90_A0A3E1RCC4 Light-harvesting protein n=1 Tax=Rhodoferax...  53.5    3e-15
+  UniRef90_A9DA66 Antenna complex alpha/beta subunit n=1 Tax=Hoef...  54.3    3e-15
+  UniRef90_P80104 Light-harvesting protein B800/850/890 beta-1 ch...  53.5    4e-15
+  UniRef90_A4ACQ5 Antenna complex alpha/beta subunit n=1 Tax=Cong...  53.5    4e-15
+  UniRef90_A0A2K8UJN5 Light-harvesting protein n=1 Tax=Candidatus...  53.1    5e-15
+  UniRef90_A0A0K8NVV6 Light-harvesting LHI, beta subunit n=1 Tax=...  53.1    5e-15
+  UniRef90_A0A1C1YYE0 Uncharacterized protein n=2 Tax=Hoeflea Tax...  53.5    6e-15
+  UniRef90_A0A0U5IHU2 Light-harvesting protein beta chain n=1 Tax...  52.8    6e-15
+  UniRef90_I0HUL8 Light-harvesting protein B-870 beta chain n=3 T...  52.8    7e-15
+  UniRef90_A0A327M5G5 Light-harvesting protein n=1 Tax=Paracrauro...  53.5    7e-15
+  UniRef90_A0A0Q8G552 Light-harvesting protein n=3 Tax=Pelomonas ...  52.8    8e-15
+  UniRef90_A0A1G7JP75 Light-harvesting complex 1 beta chain n=1 T...  53.1    1e-14
+  UniRef90_A0A0N1AFY2 Light-harvesting protein n=2 Tax=unclassifi...  52.4    1e-14
+  UniRef90_A0A2T4Z2H7 Light-harvesting complex 1 beta chain n=1 T...  52.8    1e-14
+  UniRef90_W0E1J8 Light-harvesting protein B:885 subunit beta n=1...  52.0    1e-14
+  UniRef90_A0A2E2CT61 Light-harvesting protein n=2 Tax=Rhodospiri...  52.4    2e-14
+  UniRef90_A0A2N2RH98 Uncharacterized protein n=1 Tax=Betaproteob...  51.2    3e-14
+  UniRef90_A0A1N7CB40 Antenna complex alpha/beta subunit n=1 Tax=...  52.4    3e-14
+  UniRef90_A0A2W5KH14 Light-harvesting protein n=1 Tax=Starkeya n...  51.6    5e-14
+  UniRef90_A0A0P6VLC8 Uncharacterized protein n=1 Tax=Prosthecomi...  51.2    5e-14
+  UniRef90_A0A095VVZ1 Light-harvesting LHI, beta subunit n=2 Tax=...  50.4    6e-14
+  UniRef90_Q9F101 Light harvesting 1 beta subunit n=5 Tax=Bradyrh...  51.2    6e-14
+  UniRef90_A0A1Y6KLH6 Light harvesting 1 beta subunit n=1 Tax=Bra...  51.2    6e-14
+  UniRef90_A0A1I4BDR9 Light-harvesting complex 1 beta chain n=1 T...  50.8    8e-14
+  UniRef90_A0A0C6F7P5 Antenna complex subunit alpha/beta n=13 Tax...  50.4    1e-13
+  UniRef90_A0A258FVP8 Light-harvesting protein n=1 Tax=Brevundimo...  50.1    1e-13
+  UniRef90_A0A258R9H1 Light-harvesting protein n=1 Tax=Burkholder...  49.7    1e-13
+  UniRef90_A0A3N5HHA9 Light-harvesting protein n=1 Tax=Rhizobiale...  50.1    1e-13
+  UniRef90_W0E6Q1 Light-harvesting protein B:885 subunit beta n=1...  49.7    1e-13
+  UniRef90_A0A0Q4Y8Z8 Light-harvesting protein n=2 Tax=Pseudorhod...  49.3    2e-13
+  UniRef90_B0UCN3 Antenna complex alpha/beta subunit n=2 Tax=Meth...  50.1    2e-13
+  UniRef90_A0A1B3NKY8 Light-harvesting protein n=2 Tax=Bosea TaxI...  49.3    2e-13
+  UniRef90_A0A161Q6K6 Light-harvesting protein n=3 Tax=Marichroma...  49.3    2e-13
+  UniRef90_A0A371X6V9 Light-harvesting protein n=1 Tax=Fulvimarin...  50.1    2e-13
+  UniRef90_I3YAE2 Antenna complex alpha/beta subunit n=1 Tax=Thio...  49.3    2e-13
+  UniRef90_A0A1Z8XKI3 Uncharacterized protein n=2 Tax=Hyphomicrob...  49.3    2e-13
+  UniRef90_A0A327LBT4 Light-harvesting protein n=3 Tax=Rhodoplane...  49.7    2e-13
+  UniRef90_A0A397Q6Z6 Light-harvesting complex 1 beta chain n=1 T...  49.7    2e-13
+  UniRef90_A0A2D9NLZ0 Light-harvesting protein n=1 Tax=Halieaceae...  48.5    3e-13
+  UniRef90_A0A0N1BUM4 Light-harvesting protein n=2 Tax=Caulobacte...  48.9    3e-13
+  UniRef90_A0A1X0T1P4 Light harvesting 1 subunit beta n=3 Tax=Aur...  49.3    3e-13
+  UniRef90_D3RP68 Antenna complex alpha/beta subunit n=6 Tax=Chro...  48.5    4e-13
+  UniRef90_V4JKT5 Light-harvesting protein B:885 subunit beta n=2...  48.5    4e-13
+  UniRef90_A0A2T6MC42 Light-harvesting complex 1 beta chain n=1 T...  48.5    4e-13
+  UniRef90_Q07S01 Antenna complex, alpha/beta subunit n=3 Tax=Rho...  48.5    5e-13
+  UniRef90_A0A2S7XSN5 Light-harvesting protein n=3 Tax=Chromatiac...  48.1    6e-13
+  UniRef90_Q219S7 Antenna complex, alpha/beta subunit n=3 Tax=Rho...  48.5    6e-13
+  UniRef90_V4JP36 Uncharacterized protein n=2 Tax=Chromatiaceae T...  48.1    7e-13
+  UniRef90_H1G2X8 Antenna complex alpha/subunit beta n=3 Tax=Ecto...  47.8    7e-13
+  UniRef90_A0A2W4X8U6 Light-harvesting protein n=1 Tax=Alphaprote...  48.5    8e-13
+  UniRef90_P80260 Light-harvesting protein B-880 beta chain n=3 T...  47.8    8e-13
+  UniRef90_P35106 Light-harvesting protein B-800-850 beta chain A...  47.4    9e-13
+  UniRef90_A0A3N5CTW7 Light-harvesting protein n=1 Tax=Erythrobac...  47.8    9e-13
+  UniRef90_Q8RTW8 Light-harvesting protein b-870, beta chain n=1 ...  47.4    1e-12
+  UniRef90_A0A258L0E1 Light-harvesting protein n=2 Tax=Hyphomicro...  48.1    1e-12
+  UniRef90_A0A1S6EY03 Light-harvesting protein n=1 Tax=Brevundimo...  47.4    1e-12
+  UniRef90_B8EPZ2 Antenna complex alpha/beta subunit n=2 Tax=Meth...  47.8    1e-12
+  UniRef90_V4JKT0 Light-harvesting protein B:885 subunit beta n=2...  47.0    1e-12
+  UniRef90_A0A2S6N3B2 Light-harvesting protein n=2 Tax=Rhodopila ...  47.0    1e-12
+  UniRef90_V4JM27 Light-harvesting protein B:800-850 subunit beta...  47.0    1e-12
+  UniRef90_A0A366EKN3 Light-harvesting complex 1 beta chain n=1 T...  47.8    1e-12
+  UniRef90_A0A1F4HIW8 Light-harvesting protein n=1 Tax=Burkholder...  47.0    2e-12
+  UniRef90_A0A2W4W0V4 Light-harvesting protein n=1 Tax=Alphaprote...  47.0    2e-12
+  UniRef90_D9QP85 Antenna complex alpha/beta subunit n=1 Tax=Brev...  46.6    2e-12
+  UniRef90_Q2RQ23 Light-harvesting protein B-870 beta chain n=3 T...  47.0    2e-12
+  UniRef90_A0A037UTC9 Light-harvesting protein B:800-850 subunit ...  46.6    2e-12
+  UniRef90_D2Z0P1 LH1 beta polypeptide n=1 Tax=Thermochromatium t...  46.2    3e-12
+  UniRef90_A0A2N3PTC9 Light-harvesting protein n=1 Tax=Telmatospi...  47.0    3e-12
+  UniRef90_A0A066PQ81 Light-harvesting complex 1 beta subunit n=6...  47.0    3e-12
+  UniRef90_H9LRY9 Light harvesting complex beta subunit pigment b...  46.2    3e-12
+  UniRef90_A0A354VGW1 Uncharacterized protein n=1 Tax=Gammaproteo...  47.0    3e-12
+  UniRef90_A0A1M2Z4E9 Light-harvesting protein n=2 Tax=Rhizobiale...  46.6    3e-12
+  UniRef90_A0A257GEE2 Light-harvesting protein n=2 Tax=Sphingomon...  46.2    4e-12
+  UniRef90_A0A2S6NEL9 Light-harvesting protein n=1 Tax=Rhodopila ...  46.6    4e-12
+  UniRef90_W9BR07 Uncharacterized protein n=9 Tax=Sphingomonadale...  46.2    5e-12
+  UniRef90_A0A257EQA5 Light-harvesting protein n=1 Tax=Alphaprote...  46.2    5e-12
+  UniRef90_G1BIX6 Beta subunit of light-harvesting 1 complex n=2 ...  45.4    5e-12
+  UniRef90_A0A210RWI7 Light-harvesting protein n=1 Tax=Polynucleo...  45.4    5e-12
+  UniRef90_J6UBG0 Light-harvesting protein n=1 Tax=Rhodovulum sp....  45.4    6e-12
+  UniRef90_A0A2M7LH14 Light-harvesting protein n=2 Tax=Proteobact...  46.2    6e-12
+  UniRef90_F9U7K7 Antenna complex subunit alpha/beta n=1 Tax=Thio...  45.1    7e-12
+  UniRef90_A0A2M6V5L0 Light-harvesting protein n=4 Tax=Limnohabit...  44.7    1e-11
+  UniRef90_W8L932 Light-harvesting protein B:800-850 subunit beta...  44.7    1e-11
+  UniRef90_A0A2S6NCB5 Light-harvesting protein n=1 Tax=Rhodoblast...  45.1    1e-11
+  UniRef90_L0H0E0 Antenna complex alpha/beta subunit n=5 Tax=Thio...  43.9    3e-11
+  UniRef90_E1IIF8 Antenna complex alpha/beta subunit n=1 Tax=Osci...  43.9    3e-11
+  UniRef90_A0A1W9JMB4 Light-harvesting protein n=4 Tax=Proteobact...  43.5    3e-11
+  UniRef90_A0A037UTH1 Light-harvesting protein B:800-850 subunit ...  43.5    3e-11
+  UniRef90_A0A2A6RM55 Light-harvesting protein n=1 Tax=Candidatus...  43.5    4e-11
+  UniRef90_A0A2E2NFK6 Light-harvesting protein n=3 Tax=Sphingomon...  43.5    4e-11
+  UniRef90_A0A316JYV6 Light-harvesting protein n=1 Tax=Altereryth...  43.1    5e-11
+  UniRef90_A0A258REX5 Light-harvesting protein n=2 Tax=Sphingomon...  43.5    6e-11
+  UniRef90_A0A1L9NU13 Light-harvesting protein B-800/850 beta cha...  42.7    6e-11
+  UniRef90_A0A0N1BM05 Antenna complex, alpha/beta subunit n=1 Tax...  43.5    7e-11
+  UniRef90_A0A2R7JXN2 Light-harvesting protein n=1 Tax=Sphingomon...  43.1    8e-11
+  UniRef90_A0A258VE10 Light-harvesting protein n=2 Tax=unclassifi...  43.1    1e-10
+  UniRef90_A0A258TDP6 Light-harvesting protein n=1 Tax=Sphingomon...  42.7    1e-10
+  UniRef90_A0A1W9JPJ6 Light-harvesting protein n=3 Tax=Proteobact...  42.7    1e-10
+  UniRef90_A0A348FW70 Uncharacterized protein n=2 Tax=Blastochlor...  43.1    1e-10
+  UniRef90_H6SR44 Uncharacterized protein n=2 Tax=Pararhodospiril...  42.0    2e-10
+  UniRef90_A0A1Q8YDN8 Light-harvesting 1 complex beta subunit n=3...  41.6    2e-10
+  UniRef90_H1G622 Light harvesting 1 subunit beta n=13 Tax=Ectoth...  38.5    3e-09
+  UniRef90_A0A1R3W5Q9 Light-harvesting complex 1 beta chain n=1 T...  37.0    2e-08
+  UniRef90_A0A0B9A3Z8 Light-harvesting protein B-870 beta chain n...  32.3    1e-06
+  UniRef90_A0A0L6T9K9 Light-harvesting protein B:800-850 subunit ...  30.4    5e-06
+  UniRef90_A0A258UZU5 Light-harvesting protein n=1 Tax=Novosphing...  30.4    5e-06
+  UniRef90_A0A2A4B791 Light-harvesting protein n=1 Tax=Sphingomon...  29.6    1e-05
+  UniRef90_W0AE33 Uncharacterized protein n=2 Tax=Sphingomonas sa...  28.1    7e-05
+
+
+> UniRef90_P0C0Y1 Light-harvesting protein B-875 beta chain n=17 
+Tax=Rhodobacterales TaxID=204455 RepID=LHB1_RHOSH
+Length=49
+
+ Score = 103 bits (257),  Expect = 6e-35, Method: Compositional matrix adjust.
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF
+Sbjct  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+
+
+> UniRef90_A8LQ14 Light-harvesting protein B-870 beta chain n=6 
+Tax=Rhodobacteraceae TaxID=31989 RepID=A8LQ14_DINSH
+Length=49
+
+ Score = 94.0 bits (232),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELHSVYMSGLW FSAVA+VAHLA +IWRPWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHSVYMSGLWLFSAVAVVAHLATFIWRPWF  49
+
+
+> UniRef90_A0A2N3CPQ2 Light-harvesting protein n=1 Tax=Alphaproteobacteria 
+bacterium HGW-Alphaproteobacteria-2 TaxID=2013665 
+RepID=A0A2N3CPQ2_9PROT
+Length=49
+
+ Score = 93.6 bits (231),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELHSVYMSGLW F+AVAI+AHLAVYIWRPW 
+Sbjct  1   MADKSDLSFTGLTDEQAQELHSVYMSGLWLFTAVAIIAHLAVYIWRPWL  49
+
+
+> UniRef90_A0A2R8BS66 Light-harvesting protein B-875 beta chain 
+n=4 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A2R8BS66_9RHOB
+Length=49
+
+ Score = 89.4 bits (220),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD++DL +TGLTDEQAQELHSVYMSGLW FS VA++AH+AV+IWRPWF
+Sbjct  1   MADRTDLSFTGLTDEQAQELHSVYMSGLWLFSIVAVLAHIAVFIWRPWF  49
+
+
+> UniRef90_A0A0L6CV36 Light-harvesting complex 1 beta chain n=22 
+Tax=Rhodobacterales TaxID=204455 RepID=A0A0L6CV36_9RHOB
+Length=49
+
+ Score = 89.4 bits (220),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELHSVYMSGLW FSA+A+VAH+A +IW PWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHSVYMSGLWLFSAIAVVAHIATFIWFPWF  49
+
+
+> UniRef90_Q58PR6 Putative light-harvesting protein beta chain 
+n=2 Tax=Proteobacteria TaxID=1224 RepID=Q58PR6_9PROT
+Length=49
+
+ Score = 89.0 bits (219),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTD+QAQELHSVYMSGLW F  +A+VAH+AVY+WRPWF
+Sbjct  1   MADKSDLSFTGLTDQQAQELHSVYMSGLWLFVTIAVVAHVAVYMWRPWF  49
+
+
+> UniRef90_A0A2D8PBU3 Light-harvesting protein n=1 Tax=Maritimibacter 
+sp. TaxID=2003363 RepID=A0A2D8PBU3_9RHOB
+Length=49
+
+ Score = 88.2 bits (217),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK+DL +TGLTDEQAQELHSVYMSGLW F+A+AI+AH+A YIW PWF
+Sbjct  1   MADKNDLSFTGLTDEQAQELHSVYMSGLWLFTAIAILAHIATYIWAPWF  49
+
+
+> UniRef90_A0A0P8BHZ2 Light-harvesting complex I beta subunit PufB 
+n=2 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A0P8BHZ2_9RHOB
+Length=49
+
+ Score = 88.2 bits (217),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +DL +TGLTD+QAQELHSVYM GLW FSAVA+VAHLA +IWRPWF
+Sbjct  1   MADNTDLSFTGLTDDQAQELHSVYMQGLWLFSAVAVVAHLATFIWRPWF  49
+
+
+> UniRef90_A0A257GHB9 Light-harvesting protein n=1 Tax=Pseudorhodobacter 
+sp. PARRP1 TaxID=2015560 RepID=A0A257GHB9_9RHOB
+Length=49
+
+ Score = 87.8 bits (216),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 36/49 (73%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD++DL +TGLTD+QAQELHSVYMSGLW F+ +A++AH+AV+IWRPWF
+Sbjct  1   MADRTDLSFTGLTDQQAQELHSVYMSGLWLFTTIAVIAHVAVFIWRPWF  49
+
+
+> UniRef90_A0A2V2LHI1 Light-harvesting protein n=1 Tax=Rhodobacteraceae 
+bacterium TG-679 TaxID=2072018 RepID=A0A2V2LHI1_9RHOB
+Length=49
+
+ Score = 87.8 bits (216),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +DL +TGLTDEQAQELHSVYMSGLW FSAVA VAHLAV IWRPWF
+Sbjct  1   MADDTDLSFTGLTDEQAQELHSVYMSGLWLFSAVAGVAHLAVLIWRPWF  49
+
+
+> UniRef90_A0A2T4JAH7 Light-harvesting protein n=1 Tax=Rhodobacter 
+blasticus DSM 2131 TaxID=1188250 RepID=A0A2T4JAH7_RHOBL
+Length=49
+
+ Score = 87.8 bits (216),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGL+DEQAQELHSVYMSGLW F  +A++AH+AVYIWRPW 
+Sbjct  1   MADKSDLSFTGLSDEQAQELHSVYMSGLWLFVTIAVIAHIAVYIWRPWL  49
+
+
+> UniRef90_A0A238JNU1 Light-harvesting protein B-875 beta chain 
+n=2 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A238JNU1_9RHOB
+Length=49
+
+ Score = 87.4 bits (215),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D  DL +TGLTDEQAQELHSVYMSGLW FSAVA+VAHLA YIW PWF
+Sbjct  1   MSDNGDLSFTGLTDEQAQELHSVYMSGLWLFSAVAVVAHLATYIWAPWF  49
+
+
+> UniRef90_A0A3L9Y689 Light-harvesting protein n=1 Tax=Rhodobacteraceae 
+bacterium MA-7-27 TaxID=1852017 RepID=A0A3L9Y689_9RHOB
+Length=50
+
+ Score = 87.0 bits (214),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD SDL +TGLTDEQAQELHSVYMSGLW F+ +A+ AH+A YIWRPWF
+Sbjct  1   MADNSDLSFTGLTDEQAQELHSVYMSGLWLFAGIALAAHIATYIWRPWF  49
+
+
+> UniRef90_A6FQ05 Antenna complex, alpha/beta subunit n=6 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=A6FQ05_9RHOB
+Length=49
+
+ Score = 85.9 bits (211),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELHSVYMSGLW F+ +A+VAH+A +IW PWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHSVYMSGLWLFALIAVVAHIATFIWFPWF  49
+
+
+> UniRef90_Q28W20 Light-harvesting protein B-800-850 beta chain 
+B n=5 Tax=Rhodobacteraceae TaxID=31989 RepID=Q28W20_JANSC
+Length=60
+
+ Score = 86.3 bits (212),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD SDL +TGLTDEQAQELH+VYMSGLW FSAVA+VAH+A Y W PWF
+Sbjct  12  MADNSDLSFTGLTDEQAQELHAVYMSGLWLFSAVALVAHIATYFWAPWF  60
+
+
+> UniRef90_P02950 Light-harvesting protein B-870 beta chain n=7 
+Tax=Rhodobacter TaxID=1060 RepID=LHB1_RHOCA
+Length=49
+
+ Score = 85.1 bits (209),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK+DL +TGLTDEQAQELH+VYMSGL  F AVA++AHLAV IWRPWF
+Sbjct  1   MADKNDLSFTGLTDEQAQELHAVYMSGLSAFIAVAVLAHLAVMIWRPWF  49
+
+
+> UniRef90_A0A0X3TVT7 Light-harvesting protein n=1 Tax=Ruegeria 
+profundi TaxID=1685378 RepID=A0A0X3TVT7_9RHOB
+Length=49
+
+ Score = 85.1 bits (209),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD  DL +TGLTDEQAQELHSVYMSGLW F+ VA+VAHLA YIW PWF
+Sbjct  1   MADNDDLSFTGLTDEQAQELHSVYMSGLWLFAIVALVAHLATYIWAPWF  49
+
+
+> UniRef90_A0A2R8A9U4 Light-harvesting protein B-875 beta chain 
+n=1 Tax=Pontivivens insulae TaxID=1639689 RepID=A0A2R8A9U4_9RHOB
+Length=49
+
+ Score = 85.1 bits (209),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +DL +TGLTDEQAQELH VYMSGL  FS +A+VAHLAV+IWRPWF
+Sbjct  1   MADSTDLSFTGLTDEQAQELHDVYMSGLILFSGIAVVAHLAVFIWRPWF  49
+
+
+> UniRef90_A0A1G7B0Q4 Light-harvesting complex 1 beta chain n=1 
+Tax=Limimaricola pyoseonensis TaxID=521013 RepID=A0A1G7B0Q4_9RHOB
+Length=49
+
+ Score = 84.7 bits (208),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +DL +TGLTDEQA ELHSVYMSG W F+AVA++AHLAV+IWRPW 
+Sbjct  1   MADNTDLSFTGLTDEQAAELHSVYMSGFWLFTAVAVLAHLAVFIWRPWL  49
+
+
+> UniRef90_A0A2T5BSI6 Light-harvesting complex 1 beta chain n=1 
+Tax=Rhodovulum imhoffii TaxID=365340 RepID=A0A2T5BSI6_9RHOB
+Length=49
+
+ Score = 83.2 bits (204),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +D+ +TGLTDEQAQE+H+VYMSGLW F AVA +AHLAVYIWRPW 
+Sbjct  1   MADNTDVSFTGLTDEQAQEIHAVYMSGLWLFVAVAGIAHLAVYIWRPWL  49
+
+
+> UniRef90_A0A2K8KDY5 Light-harvesting protein n=2 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A2K8KDY5_9RHOB
+Length=49
+
+ Score = 82.8 bits (203),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+ +DL +TGLTDEQAQELHSVYMSGL  F  VA+VAH+A YIWRPWF
+Sbjct  1   MAENTDLSFTGLTDEQAQELHSVYMSGLTLFVGVAVVAHIATYIWRPWF  49
+
+
+> UniRef90_Q9WXD9 Light-harvesting protein n=5 Tax=Rhodovulum TaxID=34008 
+RepID=Q9WXD9_RHOSU
+Length=48
+
+ Score = 82.4 bits (202),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 36/46 (78%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  4   KSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +SD+ +TGLTDEQAQE+H+VYMSGLW FSAVA++AHLAVYIWRPW 
+Sbjct  3   ESDVSFTGLTDEQAQEIHAVYMSGLWLFSAVAVLAHLAVYIWRPWL  48
+
+
+> UniRef90_A0A1N7K2X1 Light-harvesting complex 1 beta chain n=1 
+Tax=Rhodobacter vinaykumarii TaxID=407234 RepID=A0A1N7K2X1_9RHOB
+Length=48
+
+ Score = 82.0 bits (201),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 44/49 (90%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK DL +TGLTD+QAQELHSVY++GLW F AVAIVAHLAV+IW PWF
+Sbjct  1   MADK-DLSFTGLTDQQAQELHSVYLNGLWLFVAVAIVAHLAVFIWNPWF  48
+
+
+> UniRef90_A0A0T5NS36 Light-harvesting protein B-870 beta chain 
+n=1 Tax=Roseovarius atlanticus TaxID=1641875 RepID=A0A0T5NS36_9RHOB
+Length=49
+
+ Score = 82.0 bits (201),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 36/49 (73%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +DL +TGLTDEQAQELHSVYMSGL  F+ VA++AH+A YIW PWF
+Sbjct  1   MADNTDLSFTGLTDEQAQELHSVYMSGLTLFTLVAVIAHIATYIWAPWF  49
+
+
+> UniRef90_A0A1I0RKE9 Light-harvesting complex 1 beta chain n=5 
+Tax=Alphaproteobacteria TaxID=28211 RepID=A0A1I0RKE9_9RHOB
+Length=51
+
+ Score = 80.1 bits (196),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 36/49 (73%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELH+VYMSGLW F+ +A+VAH+  YI  PWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHAVYMSGLWIFTIIAVVAHILTYIKLPWF  49
+
+
+> UniRef90_A0A2D7SF95 Light-harvesting protein n=1 Tax=Marinovum 
+sp. TaxID=2024839 RepID=A0A2D7SF95_9RHOB
+Length=51
+
+ Score = 80.1 bits (196),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK+ L +TGLTDEQAQELHSVY+SG+W F    I+AH+A YI+RPWF
+Sbjct  1   MADKNGLSFTGLTDEQAQELHSVYLSGMWLFVTACIIAHIATYIYRPWF  49
+
+
+> UniRef90_A0A2E8Q4D1 Light-harvesting protein n=9 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A2E8Q4D1_9RHOB
+Length=51
+
+ Score = 79.7 bits (195),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+ K+DL +TGLTDEQAQELHSVY+SG+W F A  I+AH+A YI+RPWF
+Sbjct  1   MSSKNDLSFTGLTDEQAQELHSVYLSGMWLFVAACILAHVATYIYRPWF  49
+
+
+> UniRef90_A0A2T4JIL7 Light-harvesting protein n=1 Tax=Rhodobacter 
+veldkampii DSM 11550 TaxID=1185920 RepID=A0A2T4JIL7_9RHOB
+Length=48
+
+ Score = 79.3 bits (194),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 43/49 (88%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK DL +TGLTD+QAQELHSVY+ G+W F +VAIVAHLAV+IWRPW 
+Sbjct  1   MADK-DLSFTGLTDQQAQELHSVYLQGMWLFISVAIVAHLAVFIWRPWL  48
+
+
+> UniRef90_A0A2D7GAJ5 Light-harvesting protein n=2 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A2D7GAJ5_9RHOB
+Length=51
+
+ Score = 78.2 bits (191),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+SDL +TGLTDEQAQELHSVYMSGLW F+   ++AH+A Y+  PWF
+Sbjct  1   MADRSDLSFTGLTDEQAQELHSVYMSGLWLFAIACLIAHIATYMVLPWF  49
+
+
+> UniRef90_A0A2T0X2Z0 Light-harvesting complex 1 beta chain n=1 
+Tax=Hasllibacter halocynthiae TaxID=595589 RepID=A0A2T0X2Z0_9RHOB
+Length=49
+
+ Score = 78.2 bits (191),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD + L +TGLTD+QAQELHSVYMSGLW F  VA++AH+AV+IW PWF
+Sbjct  1   MADYTGLSFTGLTDDQAQELHSVYMSGLWLFVIVAVLAHIAVFIWAPWF  49
+
+
+> UniRef90_A0A076K2T1 Light-harvesting protein B-870 beta chain 
+PufB n=13 Tax=Proteobacteria TaxID=1224 RepID=A0A076K2T1_9RHOB
+Length=51
+
+ Score = 78.2 bits (191),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 36/49 (73%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK+DL +TGLTDEQAQELHSVYMSGL  F+ VA+VAH+  YI  PWF
+Sbjct  1   MADKNDLSFTGLTDEQAQELHSVYMSGLMIFTTVAVVAHVLTYIKLPWF  49
+
+
+> UniRef90_A0A353V0V9 Light-harvesting protein n=1 Tax=Rhodobacteraceae 
+bacterium TaxID=1904441 RepID=A0A353V0V9_9RHOB
+Length=49
+
+ Score = 78.2 bits (191),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +DL +TGLTDEQAQELH+VYM G   F  VA+VAHLAV+IWRPW 
+Sbjct  1   MADSTDLSFTGLTDEQAQELHAVYMQGFSLFVGVALVAHLAVFIWRPWL  49
+
+
+> UniRef90_A0A099T7A3 Light-harvesting protein B-870 beta chain 
+n=2 Tax=Thalassobacter TaxID=266808 RepID=A0A099T7A3_9RHOB
+Length=51
+
+ Score = 77.4 bits (189),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 39/49 (80%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELHSVYMSGL  F+ VA VAH   YI  PWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHSVYMSGLILFTIVACVAHFLTYIKFPWF  49
+
+
+> UniRef90_A0A0M6YDP8 Uncharacterized protein n=3 Tax=Jannaschia 
+TaxID=188905 RepID=A0A0M6YDP8_9RHOB
+Length=51
+
+ Score = 77.4 bits (189),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELHSVY+SG + F+AVA+VAH+  Y   PWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHSVYLSGFYLFTAVAVVAHILTYFKLPWF  49
+
+
+> UniRef90_C7DFP6 Conserved domain protein n=1 Tax=Thalassobium 
+sp. R2A62 TaxID=633131 RepID=C7DFP6_9RHOB
+Length=51
+
+ Score = 77.4 bits (189),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK DL +TGLTDEQAQELHSVYM GL  F+A+A+VAH+  YI  PWF
+Sbjct  1   MADKQDLSFTGLTDEQAQELHSVYMQGLMVFTAIAVVAHILTYIKLPWF  49
+
+
+> UniRef90_A0A0Q2Y8Y3 Light-harvesting protein n=3 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A0Q2Y8Y3_9RHOB
+Length=52
+
+ Score = 77.0 bits (188),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK+DL +TGLTDEQAQELH+VYMSG   F+AVA+VAH+  YI  PWF
+Sbjct  1   MADKTDLSFTGLTDEQAQELHTVYMSGFAIFTAVAVVAHVLTYIKLPWF  49
+
+
+> UniRef90_A0A0P7W5S6 Light-harvesting complex 1 beta subunit PufB 
+n=1 Tax=Rhodobacteraceae bacterium HLUCCA08 TaxID=1666913 
+RepID=A0A0P7W5S6_9RHOB
+Length=51
+
+ Score = 76.6 bits (187),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELHSVYMSG   F+ +A+VAH+  YI  PWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHSVYMSGFTIFAGIAVVAHILTYIKLPWF  49
+
+
+> UniRef90_A0A1M5Q694 Light-harvesting complex 1 beta chain n=1 
+Tax=Cognatiyoonia sediminum TaxID=1508389 RepID=A0A1M5Q694_9RHOB
+Length=51
+
+ Score = 75.5 bits (184),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD SDL +TGL+DEQAQELH+VYMSGLW F  +A+VAH+  YI  PWF
+Sbjct  1   MADNSDLSFTGLSDEQAQELHAVYMSGLWVFVMIAVVAHVLTYIKLPWF  49
+
+
+> UniRef90_A0A1I6MUT9 Light-harvesting complex 1 beta chain n=2 
+Tax=Yoonia TaxID=2211641 RepID=A0A1I6MUT9_9RHOB
+Length=51
+
+ Score = 75.1 bits (183),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADKSDL +TGLTDEQAQELH+VYMSG   F+ VA++AH+  YI  PWF
+Sbjct  1   MADKSDLSFTGLTDEQAQELHAVYMSGFTIFTIVAVIAHVLTYIKLPWF  49
+
+
+> UniRef90_A0A2P6FQ12 Light-harvesting protein n=4 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=A0A2P6FQ12_9RHOB
+Length=54
+
+ Score = 75.1 bits (183),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 31/49 (63%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA  +DL  +GLT++QAQELHSVYMSGLW F+ + ++AH+A +IWRPWF
+Sbjct  1   MAGNNDLSLSGLTEDQAQELHSVYMSGLWTFTLMCVLAHIATWIWRPWF  49
+
+
+> UniRef90_A0A1I3CNM9 Light-harvesting complex 1 beta chain n=1 
+Tax=Albimonas pacifica TaxID=1114924 RepID=A0A1I3CNM9_9RHOB
+Length=49
+
+ Score = 74.3 bits (181),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 32/49 (65%), Positives = 39/49 (80%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M +  D+ +TGLTD+QAQELHSVYMSG   F+AVA++AHL V IWRPW 
+Sbjct  1   MTEDKDVSFTGLTDDQAQELHSVYMSGFMLFTAVAVIAHLLVLIWRPWL  49
+
+
+> UniRef90_J7G540 Light-harvesting protein B-870 beta chain n=8 
+Tax=Rhodobacteraceae TaxID=31989 RepID=J7G540_9RHOB
+Length=51
+
+ Score = 73.6 bits (179),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 38/49 (78%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK+DL +TGLTDEQAQELHSVYMSG   F+ VA VAHL  Y   PWF
+Sbjct  1   MADKNDLSFTGLTDEQAQELHSVYMSGFMIFTIVASVAHLLTYFKLPWF  49
+
+
+> UniRef90_A0A2R8BP86 Light-harvesting protein B-875 beta chain 
+n=4 Tax=Bacteria TaxID=2 RepID=A0A2R8BP86_9RHOB
+Length=49
+
+ Score = 70.9 bits (172),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD ++L +TGLTDEQAQELHSVYMSGLW F+AVA+VAHLAV+IWRPWF
+Sbjct  1   MADNTNLSFTGLTDEQAQELHSVYMSGLWLFTAVAVVAHLAVFIWRPWF  49
+
+
+> UniRef90_A0A177HAV5 Light-harvesting protein B-875 beta chain 
+n=2 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A177HAV5_9RHOB
+Length=49
+
+ Score = 70.1 bits (170),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 36/49 (73%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+SDL +TGLTDEQAQELHSVY+SG+W F AVA+VAH+A +I  PWF
+Sbjct  1   MADRSDLSFTGLTDEQAQELHSVYLSGMWLFVAVAVVAHIATFIVFPWF  49
+
+
+> UniRef90_C8RYQ7 Antenna complex alpha/beta subunit n=1 Tax=Rhodobacter 
+sp. SW2 TaxID=371731 RepID=C8RYQ7_9RHOB
+Length=49
+
+ Score = 68.6 bits (166),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 39/48 (81%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MADKSDL +TGLTD+QAQELHSVY+SGLW F AVA+VAH AVY WRPW
+Sbjct  1   MADKSDLSFTGLTDQQAQELHSVYLSGLWLFVAVAVVAHAAVYFWRPW  48
+
+
+> UniRef90_P26274 Light-harvesting protein B-870 beta chain n=18 
+Tax=Rhodobacteraceae TaxID=31989 RepID=LHB_ROSDO
+Length=50
+
+ Score = 64.7 bits (156),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD +DL +TGLTDEQAQELHSVYMSGL+ F+AVA+VAHLA YIWRPWF
+Sbjct  1   MADNTDLSFTGLTDEQAQELHSVYMSGLFLFAAVAVVAHLATYIWRPWF  49
+
+
+> UniRef90_A0A0U1NPX1 Uncharacterized protein n=1 Tax=Nereida ignava 
+TaxID=282199 RepID=A0A0U1NPX1_9RHOB
+Length=46
+
+ Score = 63.9 bits (154),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 34/45 (76%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+
+Query  5   SDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +DL +TGLTDEQAQELHSVYMSGLW F AVA+VAH+A +I  PWF
+Sbjct  2   ADLSFTGLTDEQAQELHSVYMSGLWLFVAVAVVAHIATFIQFPWF  46
+
+
+> UniRef90_A0A1P8N1J8 Light-harvesting protein n=3 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A1P8N1J8_9RHOB
+Length=51
+
+ Score = 63.5 bits (153),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 37/45 (82%), Positives = 42/45 (93%), Gaps = 0/45 (0%)
+
+Query  5   SDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+            +L +TGLTDEQAQELH+VYMSGLW F+AVA+VAHLAVYIWRPWF
+Sbjct  3   ENLSFTGLTDEQAQELHAVYMSGLWLFTAVAVVAHLAVYIWRPWF  47
+
+
+> UniRef90_A0A2D6IR73 Light-harvesting protein n=3 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A2D6IR73_9PROT
+Length=49
+
+ Score = 60.5 bits (145),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 25/40 (63%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLTDE+AQE H+ YM GL  F+A+A+VAH+ V+ WRPWF
+Sbjct  9   SGLTDEEAQEFHTFYMQGLVGFTAIAVVAHILVWAWRPWF  48
+
+
+> UniRef90_A0A2E2ME42 Light-harvesting protein n=2 Tax=Rhodobacterales 
+TaxID=204455 RepID=A0A2E2ME42_9RHOB
+Length=53
+
+ Score = 60.1 bits (144),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 34/49 (69%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M  KSDL +TGLT++QA ELH VYMSGL  F    I+AHLA +   PWF
+Sbjct  1   MTGKSDLSFTGLTEDQAFELHRVYMSGLTVFVIACIIAHLATWQMFPWF  49
+
+
+> UniRef90_A0A3D3SVT4 Light-harvesting protein n=1 Tax=Burkholderiales 
+bacterium TaxID=1891238 RepID=A0A3D3SVT4_9BURK
+Length=48
+
+ Score = 59.7 bits (143),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 24/46 (52%), Positives = 35/46 (76%), Gaps = 0/46 (0%)
+
+Query  4   KSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+            ++   +GLTDE+AQE H+ YM GL  F+A+A++AH+ V+ WRPWF
+Sbjct  2   SNNTSISGLTDEEAQEFHTYYMQGLVGFAAIAVIAHILVWAWRPWF  47
+
+
+> UniRef90_A0A2E1Y1N7 Light-harvesting protein n=1 Tax=Phyllobacteriaceae 
+bacterium TaxID=1871068 RepID=A0A2E1Y1N7_9RHIZ
+Length=73
+
+ Score = 59.3 bits (142),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 38/49 (78%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD S++  +GLT+ +A+E+H +++ G   F+A+AIVAH+ V++WRPW 
+Sbjct  1   MADSSNVSLSGLTESEAREVHGLFIQGFLIFTAIAIVAHILVWMWRPWI  49
+
+
+> UniRef90_K2JNK7 Antenna complex subunit alpha/beta n=1 Tax=Oceanibaculum 
+indicum P24 TaxID=1207063 RepID=K2JNK7_9PROT
+Length=73
+
+ Score = 58.9 bits (141),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 37/49 (76%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD S++  +GLT+ +A+E+H  ++ G   F+A+AIVAH+ V++WRPW 
+Sbjct  1   MADSSNVSLSGLTESEAREVHGFFIQGFMIFTAIAIVAHILVWMWRPWI  49
+
+
+> UniRef90_A0A1N7ATW6 Light-harvesting complex 1 beta chain n=1 
+Tax=Rhizobium sp. RU20A TaxID=1907412 RepID=A0A1N7ATW6_9RHIZ
+Length=73
+
+ Score = 58.2 bits (139),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MAD S++  +GLT+ +A+E H +++ G   F+A+A+VAH+ V++WRPW
+Sbjct  1   MADPSNVSLSGLTESEAREFHGLFIQGFLMFTAIAVVAHILVWMWRPW  48
+
+
+> UniRef90_A0A0N0KB98 Uncharacterized protein n=4 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=A0A0N0KB98_9PROT
+Length=73
+
+ Score = 57.8 bits (138),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 37/49 (76%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD S++  +GLT+ +A+E+HS ++ G   F+A+AI AH+ V++WRPW 
+Sbjct  1   MADSSNVSLSGLTESEAREVHSFFIQGFLIFTAIAIAAHVLVWMWRPWI  49
+
+
+> UniRef90_A0A1H4BAK3 Light-harvesting complex 1 beta chain n=1 
+Tax=Rubrimonas cliftonensis TaxID=89524 RepID=A0A1H4BAK3_9RHOB
+Length=68
+
+ Score = 57.4 bits (137),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 35/49 (71%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+     +GLTD +A+ELH +YM GL  F+ VA+VAH  V++WRPW 
+Sbjct  1   MADEKT-SMSGLTDAEAKELHEIYMKGLVLFTGVAVVAHFLVWLWRPWL  48
+
+
+> UniRef90_Q9F214 LH1 beta subunit n=3 Tax=unclassified Burkholderiales 
+TaxID=119065 RepID=Q9F214_9BURK
+Length=49
+
+ Score = 56.6 bits (135),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 34/49 (69%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD      +GLTD +A+E H ++M+    F+A+A+VAH+ V++WRPW 
+Sbjct  1   MADNRSGSLSGLTDNEAREFHGIFMTSFIGFTAIAVVAHVLVWMWRPWL  49
+
+
+> UniRef90_A0A0N1A7W8 Uncharacterized protein n=13 Tax=Rhizobiales 
+TaxID=356 RepID=A0A0N1A7W8_9RHIZ
+Length=73
+
+ Score = 57.0 bits (136),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 37/49 (76%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+ S++  +GLT+ +A+E+H  ++ G   F+A+AIVAH+ V++WRPW 
+Sbjct  1   MAETSNVSLSGLTESEAREVHGFFIQGFMIFTAIAIVAHILVWMWRPWI  49
+
+
+> UniRef90_A0A0E3V0Y6 Antenna complex alpha/beta subunit n=6 Tax=Polynucleobacter 
+TaxID=44013 RepID=A0A0E3V0Y6_9BURK
+Length=48
+
+ Score = 56.2 bits (134),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 23/40 (58%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLTD +AQE H+ Y+ GL  F+A+A+VAH+ V+ WRPWF
+Sbjct  8   SGLTDAEAQEFHAFYVQGLLGFTAIAVVAHILVWAWRPWF  47
+
+
+> UniRef90_A0A3N5FNP1 Light-harvesting protein n=1 Tax=Burkholderiales 
+bacterium TaxID=1891238 RepID=A0A3N5FNP1_9BURK
+Length=49
+
+ Score = 56.2 bits (134),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+K     +GLTDE+AQE H  ++ G   F+AVA+VAH  V+ WRPWF
+Sbjct  1   MAEKRS-SISGLTDEEAQEFHKFWVQGFVGFTAVAVVAHFLVWAWRPWF  48
+
+
+> UniRef90_A0A254PWU4 Light-harvesting protein n=2 Tax=Polynucleobacter 
+TaxID=44013 RepID=A0A254PWU4_9BURK
+Length=50
+
+ Score = 55.8 bits (133),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D      +GLTD++A+E H +Y+ GL  F ++A+VAH+ V+ WRPWF
+Sbjct  1   MSDHRTGSISGLTDDEAKEFHQLYIQGLVGFVSIAVVAHILVWAWRPWF  49
+
+
+> UniRef90_A0A254NC62 Light-harvesting protein n=1 Tax=Pelomonas 
+puraquae TaxID=431059 RepID=A0A254NC62_9BURK
+Length=49
+
+ Score = 55.8 bits (133),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD      +GLT+ +A+E H ++MS    F+ VAIVAH+ V++WRPW 
+Sbjct  1   MADNRSGSLSGLTENEAREFHGIFMSSFIGFTVVAIVAHVLVWMWRPWL  49
+
+
+> UniRef90_A0A1H2EMM4 Light-harvesting complex 1 beta chain n=3 
+Tax=Rhodobacteraceae TaxID=31989 RepID=A0A1H2EMM4_9RHOB
+Length=73
+
+ Score = 56.2 bits (134),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA   ++  +GLT+ +AQE+H  ++ G   F+AVAIVAH+ V++WRPW 
+Sbjct  1   MASPDNVSLSGLTESEAQEIHKYFIQGFLGFTAVAIVAHILVWLWRPWI  49
+
+
+> UniRef90_A0A1Y2R527 Light-harvesting protein n=5 Tax=Burkholderiales 
+TaxID=80840 RepID=A0A1Y2R527_9BURK
+Length=47
+
+ Score = 55.1 bits (131),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 35/48 (73%), Gaps = 2/48 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M+ ++ +  +GLTDE+AQE H  Y+ G   F+A+A+VAH+ V+ WRPW
+Sbjct  1   MSQRTSI--SGLTDEEAQEFHQYYIQGFIGFTAIAVVAHILVWFWRPW  46
+
+
+> UniRef90_A0A2P5LVE5 Light-harvesting protein n=1 Tax=Methylobacterium 
+sp. TaxID=409 RepID=A0A2P5LVE5_9RHIZ
+Length=72
+
+ Score = 55.8 bits (133),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 33/49 (67%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+     TGLTDE+A+E H  +M+    F+ VAI+AH  V+ WRPWF
+Sbjct  1   MADRQG-SLTGLTDEEAREFHGFFMTSFIGFTVVAIIAHFLVWSWRPWF  48
+
+
+> UniRef90_A0A1W1Z0Y7 Light-harvesting complex 1 beta chain n=1 
+Tax=Polynucleobacter sp. VK13 TaxID=1938817 RepID=A0A1W1Z0Y7_9BURK
+Length=48
+
+ Score = 55.1 bits (131),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 24/49 (49%), Positives = 36/49 (73%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+   +  +GL+D +AQE H+ Y+ GL  F+A+A+VAH+ V+ WRPWF
+Sbjct  1   MAENRSI--SGLSDAEAQEFHTFYVQGLVGFAAIAVVAHILVWAWRPWF  47
+
+
+> UniRef90_A0A2M7YBE4 Light-harvesting protein n=3 Tax=unclassified 
+Rhodobacterales TaxID=285892 RepID=A0A2M7YBE4_9RHOB
+Length=69
+
+ Score = 55.5 bits (132),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+     +GLTD +A+ELH +YM G   F+ VA+VAH  V++WRPW 
+Sbjct  1   MADEHT-SLSGLTDAEARELHEIYMKGFVLFTGVAVVAHFLVWLWRPWL  48
+
+
+> UniRef90_A0A0P0M7H8 Light-harvesting protein B-870 beta chain 
+n=16 Tax=Comamonadaceae TaxID=80864 RepID=A0A0P0M7H8_9BURK
+Length=47
+
+ Score = 54.7 bits (130),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 36/49 (73%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+ K+ +  +GLTDE+AQE H  +M G   F+AVA++AH+ V+ WRPWF
+Sbjct  1   MSTKTSI--SGLTDEEAQEFHHYWMQGTVGFTAVAVLAHILVWAWRPWF  47
+
+
+> UniRef90_A0A0C1YE51 Uncharacterized protein n=3 Tax=Bacteria 
+TaxID=2 RepID=A0A0C1YE51_9CYAN
+Length=73
+
+ Score = 55.5 bits (132),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+    +  +G+T+ +AQE H  YM G   F+A+A+VAHL V++WRPW 
+Sbjct  1   MSSPQSVSLSGMTESEAQEFHGYYMQGFGIFTAIAVVAHLLVWLWRPWI  49
+
+
+> UniRef90_A0A257DEF0 Light-harvesting protein n=1 Tax=Burkholderiales 
+bacterium PBB1 TaxID=2015563 RepID=A0A257DEF0_9BURK
+Length=48
+
+ Score = 54.3 bits (129),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 33/48 (69%), Gaps = 1/48 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA++     +GLTDE+AQE H  Y+ G   F+AVA++AH  V+ WRPW
+Sbjct  1   MAERKG-SISGLTDEEAQEFHRFYVQGFIGFTAVAVIAHFLVWAWRPW  47
+
+
+> UniRef90_A0A0L6T9L7 Light-harvesting protein B:885 subunit beta 
+n=1 Tax=Methylibium sp. NZG TaxID=1686064 RepID=A0A0L6T9L7_9BURK
+Length=48
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/49 (49%), Positives = 34/49 (69%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+     +GLTD++AQE H  Y+ G   F+A+A+VAH+ V+ WRPW 
+Sbjct  1   MADRKG-SISGLTDDEAQEFHRYYVQGFVGFTAIAVVAHILVWAWRPWL  48
+
+
+> UniRef90_A0A3E1RCC4 Light-harvesting protein n=1 Tax=Rhodoferax 
+sp. IMCC26218 TaxID=2184758 RepID=A0A3E1RCC4_9BURK
+Length=47
+
+ Score = 53.5 bits (127),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 23/40 (58%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GL+DE+AQE H  +M GL  F+AVA+VAH+ V+ WRPW 
+Sbjct  8   SGLSDEEAQEFHHYWMQGLVGFTAVAVVAHILVWAWRPWL  47
+
+
+> UniRef90_A9DA66 Antenna complex alpha/beta subunit n=1 Tax=Hoeflea 
+phototrophica (strain DSM 17068 / NCIMB 14078 / DFL-43) 
+TaxID=411684 RepID=A9DA66_HOEPD
+Length=73
+
+ Score = 54.3 bits (129),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 34/49 (69%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+  + +  +G+T+ +AQE HS Y+ G+  F A+A+VAHL V+ WRPW 
+Sbjct  1   MSSPNTVSLSGMTEGEAQEFHSYYLQGMIAFVAIAVVAHLLVWFWRPWI  49
+
+
+> UniRef90_P80104 Light-harvesting protein B800/850/890 beta-1 
+chain (Fragment) n=2 Tax=Halorhodospira halophila (strain DSM 
+244 / SL1) TaxID=349124 RepID=LHB1_HALHL
+Length=53
+
+ Score = 53.5 bits (127),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 21/43 (49%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  6   DLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           ++  TGL+DE+A+E HS++M     F+AVA+VAH   + WRPW
+Sbjct  3   NMSLTGLSDEEAKEFHSIFMQSFLIFTAVAVVAHFLAWAWRPW  45
+
+
+> UniRef90_A4ACQ5 Antenna complex alpha/beta subunit n=1 Tax=Congregibacter 
+litoralis KT71 TaxID=314285 RepID=A4ACQ5_9GAMM
+Length=47
+
+ Score = 53.5 bits (127),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 34/49 (69%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D S L  TGL+D  A+E HS+Y+     F+AVA+VAHL V+ WRPW 
+Sbjct  1   MSDSSSL--TGLSDGAAREFHSLYVKSFLGFTAVAVVAHLLVWSWRPWL  47
+
+
+> UniRef90_A0A2K8UJN5 Light-harvesting protein n=1 Tax=Candidatus 
+Thiodictyon syntrophicum TaxID=1166950 RepID=A0A2K8UJN5_9GAMM
+Length=49
+
+ Score = 53.1 bits (126),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA+    G +GLT+++A+E H  + S +  F  VA+VAH+ V+ WRPW
+Sbjct  1   MAENKSFGLSGLTEDEAKEFHGFFSSSMTAFVGVAVVAHILVWAWRPW  48
+
+
+> UniRef90_A0A0K8NVV6 Light-harvesting LHI, beta subunit n=1 Tax=Ideonella 
+sakaiensis (strain 201-F6) TaxID=1547922 RepID=A0A0K8NVV6_IDESA
+Length=49
+
+ Score = 53.1 bits (126),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD      +GLT+ +AQE H ++M+    F+ +AIVAH+ V+ WRPW 
+Sbjct  1   MADDRKGSLSGLTEHEAQEFHGIFMTSFIGFTVIAIVAHVLVWQWRPWL  49
+
+
+> UniRef90_A0A1C1YYE0 Uncharacterized protein n=2 Tax=Hoeflea TaxID=274591 
+RepID=A0A1C1YYE0_9RHIZ
+Length=73
+
+ Score = 53.5 bits (127),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M+  + +  +GLT+ +AQE HS Y+ G+  F A+A+VAHL  + WRPW
+Sbjct  1   MSSPNTVSLSGLTEGEAQEFHSYYLQGMIAFVAIAVVAHLLAWFWRPW  48
+
+
+> UniRef90_A0A0U5IHU2 Light-harvesting protein beta chain n=1 Tax=Thiocapsa 
+sp. KS1 TaxID=610332 RepID=A0A0U5IHU2_9GAMM
+Length=48
+
+ Score = 52.8 bits (125),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 35/49 (71%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+  +  TGLTD +A+E H +++S    F+++ +VAH+ V++WRPW 
+Sbjct  1   MADQMSMT-TGLTDNEAEEFHGIFVSSFVAFTSIVVVAHILVWLWRPWL  48
+
+
+> UniRef90_I0HUL8 Light-harvesting protein B-870 beta chain n=3 
+Tax=Rubrivivax TaxID=28067 RepID=LHB1_RUBGI
+Length=48
+
+ Score = 52.8 bits (125),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 34/48 (71%), Gaps = 1/48 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA++     +GLTD++AQE H  ++ G   F+AVA+VAH  V++WRPW
+Sbjct  1   MAERKG-SISGLTDDEAQEFHKFWVQGFVGFTAVAVVAHFLVWVWRPW  47
+
+
+> UniRef90_A0A327M5G5 Light-harvesting protein n=1 Tax=Paracraurococcus 
+sp. DB1506 TaxID=2230885 RepID=A0A327M5G5_9PROT
+Length=74
+
+ Score = 53.5 bits (127),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           DK D+  +GLT+ +A+E HS++++    F+ +AI+AH  V+ WRPW 
+Sbjct  6   DKRDVSLSGLTEPEAREFHSIFVTSFIVFTVIAIIAHFLVWQWRPWL  52
+
+
+> UniRef90_A0A0Q8G552 Light-harvesting protein n=3 Tax=Pelomonas 
+TaxID=335058 RepID=A0A0Q8G552_9BURK
+Length=49
+
+ Score = 52.8 bits (125),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+      +GLTD +A+E H ++M+    F+A+A VAH+ V++WRPW 
+Sbjct  1   MAEHRTGSLSGLTDNEAREFHGIFMTSFIGFTAIAAVAHVLVWMWRPWL  49
+
+
+> UniRef90_A0A1G7JP75 Light-harvesting complex 1 beta chain n=1 
+Tax=Thalassobaculum litoreum DSM 18839 TaxID=1123362 RepID=A0A1G7JP75_9PROT
+Length=75
+
+ Score = 53.1 bits (126),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 35/48 (73%), Gaps = 1/48 (2%)
+
+Query  2   ADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           ++++D   +GLT+ +AQE H  YM G   F+A+A+VAH+ V++WRPW 
+Sbjct  4   SNRAD-SLSGLTEGEAQEFHRFYMQGFLIFTAIAVVAHILVWMWRPWI  50
+
+
+> UniRef90_A0A0N1AFY2 Light-harvesting protein n=2 Tax=unclassified 
+Betaproteobacteria (miscellaneous) TaxID=33809 RepID=A0A0N1AFY2_9PROT
+Length=48
+
+ Score = 52.4 bits (124),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/40 (53%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GL+D++AQE H  Y+ G   F+AVA+ AH+ V+IWRPW 
+Sbjct  9   SGLSDDEAQEFHRYYVQGFIGFTAVALAAHMLVWIWRPWL  48
+
+
+> UniRef90_A0A2T4Z2H7 Light-harvesting complex 1 beta chain n=1 
+Tax=Phreatobacter oligotrophus TaxID=1122261 RepID=A0A2T4Z2H7_9PROT
+Length=70
+
+ Score = 52.8 bits (125),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/49 (49%), Positives = 32/49 (65%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK  L  +GLT+E+AQE H  ++ G   F+ VAI+AH   + WRPW 
+Sbjct  1   MADKESL--SGLTEEEAQEFHKYFIQGFVGFTVVAIIAHFLAWQWRPWL  47
+
+
+> UniRef90_W0E1J8 Light-harvesting protein B:885 subunit beta n=1 
+Tax=Marichromatium purpuratum 984 TaxID=765910 RepID=W0E1J8_MARPU
+Length=47
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 31/48 (65%), Gaps = 2/48 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA++  +  TGLTDE+AQE H  +M G+  F  VA  AHL  + WRPW
+Sbjct  1   MANEKSV--TGLTDEEAQEFHGFFMQGMSGFIGVAAFAHLLAWFWRPW  46
+
+
+> UniRef90_A0A2E2CT61 Light-harvesting protein n=2 Tax=Rhodospirillales 
+TaxID=204441 RepID=A0A2E2CT61_9PROT
+Length=69
+
+ Score = 52.4 bits (124),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 21/40 (53%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GL++++AQE H  YM G + F AVA+VAH+ V+ WRPW 
+Sbjct  6   SGLSEQEAQEFHKYYMQGFFLFVAVAVVAHILVWAWRPWL  45
+
+
+> UniRef90_A0A2N2RH98 Uncharacterized protein n=1 Tax=Betaproteobacteria 
+bacterium HGW-Betaproteobacteria-3 TaxID=2013715 RepID=A0A2N2RH98_9PROT
+Length=49
+
+ Score = 51.2 bits (121),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M  +     +GLT+++A+E H ++M+    F+AVA+VAH+ V+ WRPW 
+Sbjct  1   MGAERTGSLSGLTEQEAREFHGIFMTSFIGFTAVAVVAHILVWAWRPWL  49
+
+
+> UniRef90_A0A1N7CB40 Antenna complex alpha/beta subunit n=1 Tax=Pseudacidovorax 
+sp. RU35E TaxID=1907403 RepID=A0A1N7CB40_9BURK
+Length=94
+
+ Score = 52.4 bits (124),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 34/49 (69%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA++     +GLT+ +A+E H ++MS    F+ VA++AH+ V++WRPW 
+Sbjct  46  MAEERKGSLSGLTEGEAREFHGIFMSSFIGFTVVAVIAHVLVWMWRPWL  94
+
+
+> UniRef90_A0A2W5KH14 Light-harvesting protein n=1 Tax=Starkeya 
+novella TaxID=921 RepID=A0A2W5KH14_STANO
+Length=77
+
+ Score = 51.6 bits (122),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/50 (46%), Positives = 35/50 (70%), Gaps = 1/50 (2%)
+
+Query  1   MADKSDLG-YTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD    G  +GLT+ +A+E HSV++S    F+ VA++AH+ V++WRPW 
+Sbjct  1   MADIDRRGSLSGLTENEAKEFHSVFISSFIGFTIVAVIAHILVWMWRPWI  50
+
+
+> UniRef90_A0A0P6VLC8 Uncharacterized protein n=1 Tax=Prosthecomicrobium 
+hirschii TaxID=665126 RepID=A0A0P6VLC8_9RHIZ
+Length=74
+
+ Score = 51.2 bits (121),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/46 (50%), Positives = 32/46 (70%), Gaps = 2/46 (4%)
+
+Query  4   KSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           KS L  +GLTD++AQE H ++M     F  VA+VAH+ V++WRPW 
+Sbjct  5   KSSL--SGLTDQEAQEFHGIFMKSFIGFVMVAVVAHVLVWMWRPWL  48
+
+
+> UniRef90_A0A095VVZ1 Light-harvesting LHI, beta subunit n=2 Tax=Halieaceae 
+TaxID=1706372 RepID=A0A095VVZ1_9GAMM
+Length=49
+
+ Score = 50.4 bits (119),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 19/39 (49%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           +GL+ ++A+E HS +M G   F+AVA+VAH+ V++W+PW
+Sbjct  9   SGLSSDEAKEFHSFFMQGFLGFTAVAVVAHILVWMWKPW  47
+
+
+> UniRef90_Q9F101 Light harvesting 1 beta subunit n=5 Tax=Bradyrhizobium 
+TaxID=374 RepID=Q9F101_BRASO
+Length=75
+
+ Score = 51.2 bits (121),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 20/40 (50%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT+ +A+E HS++M+    F+AVAIVAH+  ++WRPW 
+Sbjct  11  SGLTESEAREFHSIFMTSFVVFTAVAIVAHILAWMWRPWL  50
+
+
+> UniRef90_A0A1Y6KLH6 Light harvesting 1 beta subunit n=1 Tax=Bradyrhizobium 
+sp. ORS 285 TaxID=115808 RepID=A0A1Y6KLH6_9BRAD
+Length=75
+
+ Score = 51.2 bits (121),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 20/40 (50%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT+ +A+E HS++M+    F+AVAIVAH+  ++WRPW 
+Sbjct  11  SGLTESEAREFHSIFMTSFVVFTAVAIVAHILAWMWRPWL  50
+
+
+> UniRef90_A0A1I4BDR9 Light-harvesting complex 1 beta chain n=1 
+Tax=Methylocapsa palsarum TaxID=1612308 RepID=A0A1I4BDR9_9RHIZ
+Length=76
+
+ Score = 50.8 bits (120),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 22/50 (44%), Positives = 36/50 (72%), Gaps = 2/50 (4%)
+
+Query  1   MADKSDLG--YTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA + D G   +GLTD +A+E H ++++    F+A+A+VAH+ V++WRPW
+Sbjct  1   MALERDPGSSLSGLTDGEAREFHKIFVTSFLIFTAIAVVAHILVWMWRPW  50
+
+
+> UniRef90_A0A0C6F7P5 Antenna complex subunit alpha/beta n=13 Tax=Methylobacterium 
+TaxID=407 RepID=A0A0C6F7P5_9RHIZ
+Length=76
+
+ Score = 50.4 bits (119),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 34/47 (72%), Gaps = 1/47 (2%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           DK  +  +GLT+E+A+E H ++++    F+A+A+VAH  V++WRPW 
+Sbjct  6   DKPSV-LSGLTEEEAKEFHGIFVTSFIIFTAIAVVAHFLVWLWRPWL  51
+
+
+> UniRef90_A0A258FVP8 Light-harvesting protein n=1 Tax=Brevundimonas 
+subvibrioides TaxID=74313 RepID=A0A258FVP8_9CAUL
+Length=55
+
+ Score = 50.1 bits (118),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/47 (45%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           D+     TGLT E A+E H ++M+    F+ +AIVAH+ V+ WRPW 
+Sbjct  7   DRPTGSLTGLTPEAAKEFHGLFMTSFIAFTVIAIVAHVLVWYWRPWL  53
+
+
+> UniRef90_A0A258R9H1 Light-harvesting protein n=1 Tax=Burkholderiales 
+bacterium 28-67-8 TaxID=1970497 RepID=A0A258R9H1_9BURK
+Length=48
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 32/49 (65%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA++     +GL+DE+AQE H  ++ G   F AVA+VAH  V+ WRPW 
+Sbjct  1   MAERKG-SISGLSDEEAQEFHKFWVQGTIGFVAVAVVAHFLVWAWRPWL  48
+
+
+> UniRef90_A0A3N5HHA9 Light-harvesting protein n=1 Tax=Rhizobiales 
+bacterium TaxID=1909294 RepID=A0A3N5HHA9_9RHIZ
+Length=73
+
+ Score = 50.1 bits (118),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD    G +GLT+ +A+E H ++++    F+ VAI+AH   + WRPW 
+Sbjct  1   MADNKGSGSSGLTEAEAKEFHGMFVTSFIAFTVVAIIAHFLAWQWRPWL  49
+
+
+> UniRef90_W0E6Q1 Light-harvesting protein B:885 subunit beta n=1 
+Tax=Marichromatium purpuratum 984 TaxID=765910 RepID=W0E6Q1_MARPU
+Length=47
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 30/48 (63%), Gaps = 2/48 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA++  L   GLTDE+AQE +  +M G+  F  VA  AHL  + WRPW
+Sbjct  1   MANEKQL--AGLTDEEAQEFNGFFMQGMSAFIGVAAFAHLLAWFWRPW  46
+
+
+> UniRef90_A0A0Q4Y8Z8 Light-harvesting protein n=2 Tax=Pseudorhodoferax 
+TaxID=747294 RepID=A0A0Q4Y8Z8_9BURK
+Length=50
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT+ +A+E H ++M     F+A+A+VAH+ V++WRPW 
+Sbjct  11  SGLTEGEAREFHGIFMGSFMGFTAIAVVAHVLVWMWRPWL  50
+
+
+> UniRef90_B0UCN3 Antenna complex alpha/beta subunit n=2 Tax=Methylobacterium 
+sp. (strain 4-46) TaxID=426117 RepID=B0UCN3_METS4
+Length=76
+
+ Score = 50.1 bits (118),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT+E+A+E H ++++    F+A+A+VAH  V++WRPW 
+Sbjct  12  SGLTEEEAKEFHGIFVTSFIIFTAIAVVAHFLVWLWRPWL  51
+
+
+ Score = 16.9 bits (32),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 11/24 (46%), Gaps = 5/24 (21%)
+
+Query  8   GYTGLTDEQAQELHSVYMSGLWPF  31
+           GY+ LTD      H     GL PF
+Sbjct  56  GYSSLTDGVTYAAH-----GLLPF  74
+
+
+> UniRef90_A0A1B3NKY8 Light-harvesting protein n=2 Tax=Bosea TaxID=169215 
+RepID=A0A1B3NKY8_9BRAD
+Length=47
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 34/49 (69%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA++  L  +GLT  +A+E HS ++ G   F A++ VAHL +++WRPWF
+Sbjct  1   MAERDTL--SGLTAAEAKEFHSFFVQGTLGFVAISAVAHLLIWMWRPWF  47
+
+
+> UniRef90_A0A161Q6K6 Light-harvesting protein n=3 Tax=Marichromatium 
+TaxID=85076 RepID=A0A161Q6K6_MARGR
+Length=47
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 33/49 (67%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+  +  TGLT+E+A+E H +++  +  F  + +VAH+  ++WRPW 
+Sbjct  1   MADEKSM--TGLTEEEAKEFHGIFVQSMTTFFGIVVVAHILAWLWRPWL  47
+
+
+> UniRef90_A0A371X6V9 Light-harvesting protein n=1 Tax=Fulvimarina 
+sp. 85 TaxID=2293836 RepID=A0A371X6V9_9RHIZ
+Length=75
+
+ Score = 50.1 bits (118),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/46 (50%), Positives = 32/46 (70%), Gaps = 1/46 (2%)
+
+Query  5   SDLG-YTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           SD G  TGLT+ +A E +S+++     F+ VAIVAH+ V+IWRPW 
+Sbjct  9   SDAGTLTGLTEREANEFNSLFIKSFAGFTGVAIVAHILVWIWRPWL  54
+
+
+> UniRef90_I3YAE2 Antenna complex alpha/beta subunit n=1 Tax=Thiocystis 
+violascens (strain ATCC 17096 / DSM 198 / 6111) TaxID=765911 
+RepID=I3YAE2_THIV6
+Length=47
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 31/49 (63%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD + +  TGLTD +AQE H ++   +  F  + I+AH+  ++WRPW 
+Sbjct  1   MADNTSM--TGLTDAEAQEFHGIFTQSMTMFFGIVIIAHILAWLWRPWL  47
+
+
+> UniRef90_A0A1Z8XKI3 Uncharacterized protein n=2 Tax=Hyphomicrobiaceae 
+TaxID=45401 RepID=A0A1Z8XKI3_9RHIZ
+Length=53
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/47 (47%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           D    G +GLTDEQA+E+H  +M+    + A+A+VAH  ++IWRPW 
+Sbjct  5   DHPLYGASGLTDEQAKEVHGYFMTMTIVYVAIALVAHYLMWIWRPWL  51
+
+
+> UniRef90_A0A327LBT4 Light-harvesting protein n=3 Tax=Rhodoplanes 
+TaxID=29407 RepID=A0A327LBT4_9RHIZ
+Length=67
+
+ Score = 49.7 bits (117),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 33/48 (69%), Gaps = 3/48 (6%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MADKS    +GLT+ +A+E HSV++S    F  VA +AH+  ++WRPW
+Sbjct  1   MADKS---LSGLTEAEAKEFHSVFVSSFLGFVVVAAIAHVLAWMWRPW  45
+
+
+> UniRef90_A0A397Q6Z6 Light-harvesting complex 1 beta chain n=1 
+Tax=Dichotomicrobium thermohalophilum TaxID=933063 RepID=A0A397Q6Z6_9RHIZ
+Length=74
+
+ Score = 49.7 bits (117),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 20/48 (42%), Positives = 35/48 (73%), Gaps = 1/48 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MAD+ D   +GL++++A+E HS+++     F+ +A++AHL V+ WRPW
+Sbjct  1   MADR-DKSLSGLSEDEAKEFHSIFVISFIAFTVIALIAHLLVWNWRPW  47
+
+
+> UniRef90_A0A2D9NLZ0 Light-harvesting protein n=1 Tax=Halieaceae 
+bacterium TaxID=2026743 RepID=A0A2D9NLZ0_9GAMM
+Length=41
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           + L+D +A+E HS Y++G   F A+A+VAH  +Y W+PWF
+Sbjct  2   SSLSDSEAKEFHSAYLTGFSGFLAIALVAHWLLYTWKPWF  41
+
+
+> UniRef90_A0A0N1BUM4 Light-harvesting protein n=2 Tax=Caulobacteraceae 
+TaxID=76892 RepID=A0A0N1BUM4_9CAUL
+Length=52
+
+ Score = 48.9 bits (115),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D S    TGLT E A+E H ++M+    F+ +A+VAH  V+ W+PW 
+Sbjct  2   MSDHSGGSLTGLTPEAAKEFHGLFMTSFIGFTLIAVVAHGLVWAWKPWL  50
+
+
+> UniRef90_A0A1X0T1P4 Light harvesting 1 subunit beta n=3 Tax=Aurantimonadaceae 
+TaxID=255475 RepID=A0A1X0T1P4_9RHIZ
+Length=70
+
+ Score = 49.3 bits (116),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M  +     +G+T+ +AQE + ++ +    F+A+AIVAH+ V+IWRPW 
+Sbjct  1   MTGREAGTLSGMTEREAQEFNGLFTTSFLVFTAIAIVAHILVWIWRPWL  49
+
+
+> UniRef90_D3RP68 Antenna complex alpha/beta subunit n=6 Tax=Chromatiaceae 
+TaxID=1046 RepID=D3RP68_ALLVD
+Length=47
+
+ Score = 48.5 bits (114),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 32/49 (65%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+  +  TGLT+E+A+E H ++   +  F  + I+AH+  ++WRPW 
+Sbjct  1   MADQKSM--TGLTEEEAKEFHGIFTQSMTMFFGIVIIAHILAWLWRPWL  47
+
+
+> UniRef90_V4JKT5 Light-harvesting protein B:885 subunit beta n=2 
+Tax=Chromatiaceae TaxID=1046 RepID=V4JKT5_9GAMM
+Length=47
+
+ Score = 48.5 bits (114),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  5   SDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           +D   TG++DE+AQE H +++  +  F  V + AHL  ++WRPW
+Sbjct  3   NDKSITGISDEEAQEFHGIFVQSMTGFFGVVVFAHLLAWLWRPW  46
+
+
+> UniRef90_A0A2T6MC42 Light-harvesting complex 1 beta chain n=1 
+Tax=Novosphingobium sp. GV027 TaxID=2135689 RepID=A0A2T6MC42_9SPHN
+Length=51
+
+ Score = 48.5 bits (114),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 23/50 (46%), Positives = 35/50 (70%), Gaps = 2/50 (4%)
+
+Query  1   MADKSD-LGY-TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M+D+ D  G  T LT E+A+E H ++MS    F+ VA+VAH+ V++W+PW
+Sbjct  1   MSDRDDRFGLRTYLTPEEAKEFHKLFMSSFLGFTGVAVVAHVLVWMWKPW  50
+
+
+> UniRef90_Q07S01 Antenna complex, alpha/beta subunit n=3 Tax=Rhodopseudomonas 
+TaxID=1073 RepID=Q07S01_RHOP5
+Length=70
+
+ Score = 48.5 bits (114),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M   SD   +GL++ +A+E HS++++  + F  VA+VAH+  ++WRPW 
+Sbjct  1   MYQMSDGSISGLSEAEAKEFHSIFVTSFFMFIVVAVVAHILAWMWRPWL  49
+
+
+> UniRef90_A0A2S7XSN5 Light-harvesting protein n=3 Tax=Chromatiaceae 
+TaxID=1046 RepID=A0A2S7XSN5_9GAMM
+Length=49
+
+ Score = 48.1 bits (113),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 30/49 (61%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD      +GLTDEQA+E H  +  G W +  +A V H+  ++++PWF
+Sbjct  1   MADVKVANLSGLTDEQAKEFHEHWKHGTWSWVMIACVVHVVTWVYQPWF  49
+
+
+> UniRef90_Q219S7 Antenna complex, alpha/beta subunit n=3 Tax=Rhodopseudomonas 
+palustris TaxID=1076 RepID=Q219S7_RHOPB
+Length=70
+
+ Score = 48.5 bits (114),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M   SD   +GL++ +A+E HS++++  + F  VA+VAH+  ++WRPW
+Sbjct  1   MYQMSDGSISGLSEAEAKEFHSIFVTSFFLFIVVAVVAHILAWMWRPW  48
+
+
+> UniRef90_V4JP36 Uncharacterized protein n=2 Tax=Chromatiaceae 
+TaxID=1046 RepID=V4JP36_9GAMM
+Length=71
+
+ Score = 48.1 bits (113),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 31/49 (63%), Gaps = 3/49 (6%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+KS    TGL++E+AQE H ++   +  F  VA  AHL  ++WRPW 
+Sbjct  26  MAEKS---ITGLSEEEAQEFHGIFTQSMTGFLGVAAFAHLLAWLWRPWL  71
+
+
+> UniRef90_H1G2X8 Antenna complex alpha/subunit beta n=3 Tax=Ectothiorhodospira 
+TaxID=1051 RepID=H1G2X8_9GAMM
+Length=49
+
+ Score = 47.8 bits (112),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D+     +GLT+EQA+E H  + +    F A+A  AH  VY+WRP++
+Sbjct  1   MSDEYVQSISGLTEEQAKEFHEQFKTTFTVFMALAAAAHFLVYVWRPFY  49
+
+
+> UniRef90_A0A2W4X8U6 Light-harvesting protein n=1 Tax=Alphaproteobacteria 
+bacterium TaxID=1913988 RepID=A0A2W4X8U6_9PROT
+Length=76
+
+ Score = 48.5 bits (114),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           D      +GLT+ +A+E H V+M     F+ +AIVAH+ V++WRPW 
+Sbjct  5   DARTGSLSGLTEAEAKEFHRVFMGSFILFTLIAIVAHILVWMWRPWL  51
+
+
+> UniRef90_P80260 Light-harvesting protein B-880 beta chain n=3 
+Tax=Afifella TaxID=643217 RepID=LHB_AFIMA
+Length=56
+
+ Score = 47.8 bits (112),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 20/39 (51%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           +GLT+ +A+E H V+M+    F AVAIVAH+  ++WRPW
+Sbjct  10  SGLTEGEAREFHGVFMTSFMVFIAVAIVAHILAWMWRPW  48
+
+
+> UniRef90_P35106 Light-harvesting protein B-800-850 beta chain 
+A n=8 Tax=Rhodopseudomonas TaxID=1073 RepID=LHB1_RHOPA
+Length=47
+
+ Score = 47.4 bits (111),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 31/49 (63%), Gaps = 3/49 (6%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MADK+    TGLT E+++ELH   + G   F A+AIVAH   Y++ PW 
+Sbjct  1   MADKT---LTGLTVEESEELHKHVIDGTRIFGAIAIVAHFLAYVYSPWL  46
+
+
+> UniRef90_A0A3N5CTW7 Light-harvesting protein n=1 Tax=Erythrobacter 
+sp. HN-E23 TaxID=2488860 RepID=A0A3N5CTW7_9SPHN
+Length=58
+
+ Score = 47.8 bits (112),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 19/46 (41%), Positives = 29/46 (63%), Gaps = 0/46 (0%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           ++   G +GLT+ +A+E HS +      F A+AI+AH+  YIW PW
+Sbjct  9   ERDGYGLSGLTENEAREFHSYFTRSFLFFLAIAIIAHILTYIWAPW  54
+
+
+> UniRef90_Q8RTW8 Light-harvesting protein b-870, beta chain n=1 
+Tax=uncultured marine proteobacterium TaxID=482892 RepID=Q8RTW8_9PROT
+Length=49
+
+ Score = 47.4 bits (111),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT  +A+E HS Y+ G   F A+A+ AH+ +++W+PWF
+Sbjct  9   SGLTSNEAKEFHSAYVQGWVGFVAIAVTAHVLMFMWKPWF  48
+
+
+> UniRef90_A0A258L0E1 Light-harvesting protein n=2 Tax=Hyphomicrobium 
+TaxID=81 RepID=A0A258L0E1_9RHIZ
+Length=75
+
+ Score = 48.1 bits (113),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  2   ADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           AD      +G+T+ +A+E H ++M+    F+ +AI+AH  V+ WRPW 
+Sbjct  3   ADNRSGSVSGMTETEAKEFHGIFMTSFIIFTVIAIIAHFLVWQWRPWL  50
+
+
+> UniRef90_A0A1S6EY03 Light-harvesting protein n=1 Tax=Brevundimonas 
+sp. LM2 TaxID=1938605 RepID=A0A1S6EY03_9CAUL
+Length=55
+
+ Score = 47.4 bits (111),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/50 (42%), Positives = 33/50 (66%), Gaps = 1/50 (2%)
+
+Query  1   MADKSDLG-YTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           + D+  +G  TGLT E A+E H ++++    F+ +AIVAH+ V+ WRPW 
+Sbjct  4   LPDERPVGSLTGLTPEAAKEFHGIFVTSFIVFTLIAIVAHVLVWYWRPWL  53
+
+
+> UniRef90_B8EPZ2 Antenna complex alpha/beta subunit n=2 Tax=Methylocella 
+silvestris TaxID=199596 RepID=B8EPZ2_METSB
+Length=76
+
+ Score = 47.8 bits (112),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 17/40 (43%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GL+D +A+E H ++++    F+ +AIVAH+ V++WRPW 
+Sbjct  12  SGLSDSEAKEFHKLFVTSFLIFTGIAIVAHILVWMWRPWI  51
+
+
+> UniRef90_V4JKT0 Light-harvesting protein B:885 subunit beta n=2 
+Tax=Chromatiaceae TaxID=1046 RepID=V4JKT0_9GAMM
+Length=47
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 30/49 (61%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+   +  TGLT+E+AQE H ++   +  F  VA  AHL  ++WRPW 
+Sbjct  1   MAETKSI--TGLTEEEAQEFHGIFTQSMTGFLGVAAFAHLLAWLWRPWL  47
+
+
+> UniRef90_A0A2S6N3B2 Light-harvesting protein n=2 Tax=Rhodopila 
+globiformis TaxID=1071 RepID=A0A2S6N3B2_RHOGL
+Length=45
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 20/40 (50%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT+EQA+E    +  G   + A+AIVAH+ V+ WRPWF
+Sbjct  6   SGLTEEQAKEFQDQFKVGFQTWLAIAIVAHVLVFAWRPWF  45
+
+
+> UniRef90_V4JM27 Light-harvesting protein B:800-850 subunit beta 
+n=5 Tax=Chromatiaceae TaxID=1046 RepID=V4JM27_9GAMM
+Length=49
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA++     +GLTDEQA+E H  +  G+W +  +A V H   ++++PWF
+Sbjct  1   MAEQKSANLSGLTDEQAKEFHEHWKHGVWSWVMIASVVHGVTWVYQPWF  49
+
+
+> UniRef90_A0A366EKN3 Light-harvesting complex 1 beta chain n=1 
+Tax=Roseiarcus fermentans TaxID=1473586 RepID=A0A366EKN3_9RHIZ
+Length=73
+
+ Score = 47.8 bits (112),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/47 (45%), Positives = 32/47 (68%), Gaps = 2/47 (4%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           D+S L  +GLT+ +AQE HS+++S    F  V ++AH+ V+ WRPW 
+Sbjct  5   DRSTL--SGLTEAEAQEFHSLFVSSFIAFICVCVLAHILVWAWRPWI  49
+
+
+> UniRef90_A0A1F4HIW8 Light-harvesting protein n=1 Tax=Burkholderiales 
+bacterium RIFCSPHIGHO2_12_FULL_69_20 TaxID=1797561 RepID=A0A1F4HIW8_9BURK
+Length=49
+
+ Score = 47.0 bits (110),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+      +GLT+++A+E H +++S    F+ +AIVAH+ V+ WR W 
+Sbjct  1   MANDRQGSLSGLTEQEAREFHGMFVSSFIGFTVIAIVAHVLVWNWRSWL  49
+
+
+> UniRef90_A0A2W4W0V4 Light-harvesting protein n=1 Tax=Alphaproteobacteria 
+bacterium TaxID=1913988 RepID=A0A2W4W0V4_9PROT
+Length=54
+
+ Score = 47.0 bits (110),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           TGLT E A+ELH +++     F+A+A+VAH  ++ W+PWF
+Sbjct  14  TGLTPEAAKELHGLFVVNTISFTAIAVVAHGLIWFWKPWF  53
+
+
+> UniRef90_D9QP85 Antenna complex alpha/beta subunit n=1 Tax=Brevundimonas 
+subvibrioides (strain ATCC 15264 / DSM 4735 / LMG 
+14903 / NBRC 16000 / CB 81) TaxID=633149 RepID=D9QP85_BRESC
+Length=53
+
+ Score = 46.6 bits (109),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 17/39 (44%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           TGLT E A+E H ++++    F+ +A++AH+ V+ WRPW
+Sbjct  12  TGLTPEAAKEFHGLFLTSFIGFTTIAVIAHVLVWFWRPW  50
+
+
+> UniRef90_Q2RQ23 Light-harvesting protein B-870 beta chain n=3 
+Tax=Rhodospirillum rubrum TaxID=1085 RepID=LHB_RHORT
+Length=69
+
+ Score = 47.0 bits (110),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/48 (42%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA+      +G+T+ +A+E H ++ S +  F  VA  AHL V+IWRPW
+Sbjct  1   MAEVKQESLSGITEGEAKEFHKIFTSSILVFFGVAAFAHLLVWIWRPW  48
+
+
+> UniRef90_A0A037UTC9 Light-harvesting protein B:800-850 subunit 
+beta n=2 Tax=Rhodomicrobium TaxID=1068 RepID=A0A037UTC9_9RHIZ
+Length=51
+
+ Score = 46.6 bits (109),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD   +  TGLT  +A+ELH   ++G   F A+A+VAH+  YI+ PW 
+Sbjct  2   MADPVKVYPTGLTLAEAEELHGHVINGTRVFGAIAVVAHVLAYIYTPWL  50
+
+
+> UniRef90_D2Z0P1 LH1 beta polypeptide n=1 Tax=Thermochromatium 
+tepidum TaxID=1050 RepID=D2Z0P1_THETI
+Length=47
+
+ Score = 46.2 bits (108),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 35/49 (71%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA++  L  TGLTD++A+E H+++M  ++ +  + ++AHL  +++RPW 
+Sbjct  1   MAEQKSL--TGLTDDEAKEFHAIFMQSMYAWFGLVVIAHLLAWLYRPWL  47
+
+
+> UniRef90_A0A2N3PTC9 Light-harvesting protein n=1 Tax=Telmatospirillum 
+siberiense TaxID=382514 RepID=A0A2N3PTC9_9PROT
+Length=76
+
+ Score = 47.0 bits (110),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 20/46 (43%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           D+     +GLT+ +A+E HS+++     F+ VA VAHL V++WRPW
+Sbjct  5   DERSGTLSGLTETEAKEFHSIFVFSFVVFTLVAAVAHLLVWLWRPW  50
+
+
+> UniRef90_A0A066PQ81 Light-harvesting complex 1 beta subunit n=6 
+Tax=Acidiphilium TaxID=522 RepID=A0A066PQ81_9PROT
+Length=78
+
+ Score = 47.0 bits (110),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 17/39 (44%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           +GLT+ +A+E HS++++    F+ +AI+AH  V+ WRPW
+Sbjct  13  SGLTEREAKEFHSIFIASFIGFTVIAIIAHFLVWQWRPW  51
+
+
+> UniRef90_H9LRY9 Light harvesting complex beta subunit pigment 
+binding n=3 Tax=Thiocapsa TaxID=1056 RepID=H9LRY9_THIRO
+Length=47
+
+ Score = 46.2 bits (108),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 17/40 (43%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT+E+A+E H +++  +  F  V IVAH+  ++WRPW 
+Sbjct  8   SGLTEEEAKEFHGIFVQSMTGFFGVVIVAHILAWLWRPWL  47
+
+
+> UniRef90_A0A354VGW1 Uncharacterized protein n=1 Tax=Gammaproteobacteria 
+bacterium TaxID=1913989 RepID=A0A354VGW1_9GAMM
+Length=78
+
+ Score = 47.0 bits (110),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           + L++ +A+E HS Y+ G   F+ VAIVAH  +Y W+PWF
+Sbjct  39  SSLSESEAKEFHSAYIMGFTGFTIVAIVAHWLLYTWKPWF  78
+
+
+> UniRef90_A0A1M2Z4E9 Light-harvesting protein n=2 Tax=Rhizobiales 
+TaxID=356 RepID=A0A1M2Z4E9_9RHIZ
+Length=72
+
+ Score = 46.6 bits (109),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  4   KSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +++   +GLT+ +A+E HSV+M+    F  +A +AH+  ++WRPW 
+Sbjct  3   ENERSLSGLTEAEAREFHSVFMTSFLVFVVIAAIAHILAWMWRPWL  48
+
+
+> UniRef90_A0A257GEE2 Light-harvesting protein n=2 Tax=Sphingomonadaceae 
+TaxID=41297 RepID=A0A257GEE2_9SPHN
+Length=50
+
+ Score = 46.2 bits (108),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 30/48 (63%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M+D      T LT E+A+E H ++M+    F+ VA+VAH  V+ WRPW
+Sbjct  1   MSDDRLGLRTYLTPEEAKEFHKLFMTSFIGFTGVAVVAHFLVWSWRPW  48
+
+
+> UniRef90_A0A2S6NEL9 Light-harvesting protein n=1 Tax=Rhodopila 
+globiformis TaxID=1071 RepID=A0A2S6NEL9_RHOGL
+Length=73
+
+ Score = 46.6 bits (109),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           TGLT+ +A+E H ++++    F+ +AIVAHL  + WRPW 
+Sbjct  9   TGLTEAEAKEFHGIFITSFIVFTVIAIVAHLLAWQWRPWL  48
+
+
+> UniRef90_W9BR07 Uncharacterized protein n=9 Tax=Sphingomonadales 
+TaxID=204457 RepID=W9BR07_9SPHN
+Length=70
+
+ Score = 46.2 bits (108),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD+     T LT+ +A+E H ++++    F+ VAI+AH+ V+ WRPWF
+Sbjct  1   MADEGMGPTTYLTESEAKEFHKLFVASFAFFTIVAIIAHVLVWQWRPWF  49
+
+
+> UniRef90_A0A257EQA5 Light-harvesting protein n=1 Tax=Alphaproteobacteria 
+bacterium PA4 TaxID=2015572 RepID=A0A257EQA5_9PROT
+Length=74
+
+ Score = 46.2 bits (108),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D      T LTD +A+ELH  +++ +  F  VA++AH  V++WRPWF
+Sbjct  1   MSDNKIGPGTYLTDAEAKELHKGFVASMAFFVLVAVIAHFLVWVWRPWF  49
+
+
+> UniRef90_G1BIX6 Beta subunit of light-harvesting 1 complex n=2 
+Tax=Thiorhodovibrio winogradskyi TaxID=77007 RepID=G1BIX6_9GAMM
+Length=46
+
+ Score = 45.4 bits (106),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 20/48 (42%), Positives = 32/48 (67%), Gaps = 3/48 (6%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA+KS    TGLTD +A+E H ++MS +  +  + + AHL  +++RPW
+Sbjct  1   MAEKS---MTGLTDAEAKEFHGIFMSSMTAYFGLVVFAHLLAWMYRPW  45
+
+
+> UniRef90_A0A210RWI7 Light-harvesting protein n=1 Tax=Polynucleobacter 
+hirudinilacicola TaxID=1743166 RepID=A0A210RWI7_9BURK
+Length=49
+
+ Score = 45.4 bits (106),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 30/49 (61%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D   +  TGLT+EQ++ELH   + G   F  +A +AHL  YI+ PW 
+Sbjct  1   MSD-GKMSLTGLTEEQSEELHRNLIQGTQFFGMIAALAHLLAYIYSPWL  48
+
+
+> UniRef90_J6UBG0 Light-harvesting protein n=1 Tax=Rhodovulum sp. 
+PH10 TaxID=1187851 RepID=J6UBG0_9RHOB
+Length=48
+
+ Score = 45.4 bits (106),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 17/44 (39%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  6   DLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +   +GLTDE+A+E HS + +    F  + ++AH+ V+ WRPW+
+Sbjct  5   ERSLSGLTDEEAREFHSQFTTTFMAFMVLCVLAHVLVWAWRPWY  48
+
+
+> UniRef90_A0A2M7LH14 Light-harvesting protein n=2 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A2M7LH14_9SPHN
+Length=77
+
+ Score = 46.2 bits (108),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 34/52 (65%), Gaps = 3/52 (6%)
+
+Query  1   MADKSDLGYTG---LTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D SD  +     LT E+A+E H +++S    F+ +AI+AH+ V++WRPW 
+Sbjct  1   MSDLSDDRFGPGAYLTPEEAKEFHKIFVSSFIGFTIIAIIAHVLVWMWRPWL  52
+
+
+> UniRef90_F9U7K7 Antenna complex subunit alpha/beta n=1 Tax=Thiocapsa 
+marina 5811 TaxID=768671 RepID=F9U7K7_9GAMM
+Length=47
+
+ Score = 45.1 bits (105),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 33/49 (67%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MA+  +L  +GLTDEQA+E H  +  G+W +  +A + H+  ++++PWF
+Sbjct  1   MAEMKNL--SGLTDEQAKEFHEHWKHGVWSWVMIATLVHVMTWVYQPWF  47
+
+
+> UniRef90_A0A2M6V5L0 Light-harvesting protein n=4 Tax=Limnohabitans 
+TaxID=665874 RepID=A0A2M6V5L0_9BURK
+Length=47
+
+ Score = 44.7 bits (104),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GL+DE+AQE H+ ++ G   ++  A  AH  V+IWRPWF
+Sbjct  8   SGLSDEEAQEFHTYFIQGYLLWAVGAFFAHSLVWIWRPWF  47
+
+
+> UniRef90_W8L932 Light-harvesting protein B:800-850 subunit beta 
+n=2 Tax=Ectothiorhodospiraceae TaxID=72276 RepID=W8L932_HALHR
+Length=45
+
+ Score = 44.7 bits (104),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 25/40 (63%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           +GLT+EQA+E H  +      F  +A  AH  V++WRPWF
+Sbjct  6   SGLTEEQAKEFHEQFKVVFTTFVVLAAAAHFLVFLWRPWF  45
+
+
+> UniRef90_A0A2S6NCB5 Light-harvesting protein n=1 Tax=Rhodoblastus 
+sphagnicola TaxID=333368 RepID=A0A2S6NCB5_9RHIZ
+Length=68
+
+ Score = 45.1 bits (105),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 32/47 (68%), Gaps = 2/47 (4%)
+
+Query  3   DKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           D+S L  +GL+D +A+E HSV+++    F  VA++AH+  + WRPW 
+Sbjct  4   DRSSL--SGLSDAEAKEFHSVFVASFLGFHVVAVLAHVLSWAWRPWI  48
+
+
+> UniRef90_L0H0E0 Antenna complex alpha/beta subunit n=5 Tax=Thioflavicoccus 
+mobilis 8321 TaxID=765912 RepID=L0H0E0_9GAMM
+Length=47
+
+ Score = 43.9 bits (102),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 34/48 (71%), Gaps = 2/48 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           MA+K +L  TGLTDE+A+E HS++M  ++ +  + ++AH+  ++  PW
+Sbjct  1   MAEKYNL--TGLTDEEAKEFHSIFMPSMYGWFTLVVMAHVLTHLRFPW  46
+
+
+> UniRef90_E1IIF8 Antenna complex alpha/beta subunit n=1 Tax=Oscillochloris 
+trichoides DG-6 TaxID=765420 RepID=E1IIF8_9CHLR
+Length=56
+
+ Score = 43.9 bits (102),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 28/52 (54%), Gaps = 3/52 (6%)
+
+Query  1   MADKSDL---GYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M D  DL    +  L + Q   +H + +   W F  +A +AHLAV+IWRPW 
+Sbjct  1   MRDDDDLVPTRWRSLFNNQDWLMHDIMVKTFWAFGVIAAIAHLAVWIWRPWL  52
+
+
+> UniRef90_A0A1W9JMB4 Light-harvesting protein n=4 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A1W9JMB4_9PROT
+Length=51
+
+ Score = 43.5 bits (101),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 22/50 (44%), Positives = 32/50 (64%), Gaps = 1/50 (2%)
+
+Query  1   MADKSDLGY-TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD SD+ Y TGLT +QA+E+    M G   ++ +AI AH+  +I+ PW 
+Sbjct  1   MADDSDMVYPTGLTPKQAEEIQEGLMWGTRIYAGIAIAAHVLAFIYSPWL  50
+
+
+> UniRef90_A0A037UTH1 Light-harvesting protein B:800-850 subunit 
+beta n=3 Tax=Rhodomicrobium TaxID=1068 RepID=A0A037UTH1_9RHIZ
+Length=50
+
+ Score = 43.5 bits (101),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 29/49 (59%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD + +  TGLT  +A+ELH   ++G   F A A+VAH   Y + PW 
+Sbjct  1   MADPNKVYPTGLTLAEAEELHGYVINGTRVFGAAALVAHFLAYAFTPWL  49
+
+
+> UniRef90_A0A2A6RM55 Light-harvesting protein n=1 Tax=Candidatus 
+Viridilinea mediisalina TaxID=2024553 RepID=A0A2A6RM55_9CHLR
+Length=53
+
+ Score = 43.5 bits (101),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 28/52 (54%), Gaps = 3/52 (6%)
+
+Query  1   MADKSDL---GYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M D  DL    +  L + Q   +H + +   W F A+A VAHL V+IWRPW 
+Sbjct  1   MRDDDDLVPPKWRSLFNNQDWLMHDIMVKSFWGFGAIAAVAHLLVWIWRPWL  52
+
+
+> UniRef90_A0A2E2NFK6 Light-harvesting protein n=3 Tax=Sphingomonadales 
+TaxID=204457 RepID=A0A2E2NFK6_9SPHN
+Length=54
+
+ Score = 43.5 bits (101),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           T LT E+A+E H +++     F+ +A++AH+A++I++PW
+Sbjct  15  TYLTPEEAKEFHKIFLGSFMGFTGIAVLAHIALWIYKPW  53
+
+
+> UniRef90_A0A316JYV6 Light-harvesting protein n=1 Tax=Altererythrobacter 
+sp. XM-24bin4 TaxID=2133952 RepID=A0A316JYV6_9SPHN
+Length=49
+
+ Score = 43.1 bits (100),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 21/45 (47%), Positives = 30/45 (67%), Gaps = 1/45 (2%)
+
+Query  5   SDLGY-TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           SD+G  T LT E+A+E H ++M      + +A+VAHL V+ WRPW
+Sbjct  2   SDVGMSTYLTPEEAKEFHKLFMFWFAAHTGIAVVAHLLVWTWRPW  46
+
+
+> UniRef90_A0A258REX5 Light-harvesting protein n=2 Tax=Sphingomonas 
+TaxID=13687 RepID=A0A258REX5_9SPHN
+Length=74
+
+ Score = 43.5 bits (101),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D+     T LT ++A+E H +++  +  F+ VAI+AH  V+ WRPWF
+Sbjct  1   MSDERLGPGTYLTPDEAKEFHKLFVVSMGFFTIVAIIAHFLVWQWRPWF  49
+
+
+> UniRef90_A0A1L9NU13 Light-harvesting protein B-800/850 beta chain 
+n=1 Tax=Planktotalea frisia TaxID=696762 RepID=A0A1L9NU13_9RHOB
+Length=50
+
+ Score = 42.7 bits (99),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD++ +  TGLT ++A+E+HS  + G   F  +A++AH+ V I  PW 
+Sbjct  1   MADENKVWPTGLTLDEAEEVHSYLIDGTRVFGVIALLAHMLVAIATPWL  49
+
+
+> UniRef90_A0A0N1BM05 Antenna complex, alpha/beta subunit n=1 Tax=alpha 
+proteobacterium AAP81b TaxID=1523432 RepID=A0A0N1BM05_9PROT
+Length=75
+
+ Score = 43.5 bits (101),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           T LTD +A+E+H ++++    F  VA+VAH  V+ WRPWF
+Sbjct  10  TYLTDAEAKEVHKLFVASTAFFVLVAVVAHFLVWTWRPWF  49
+
+
+> UniRef90_A0A2R7JXN2 Light-harvesting protein n=1 Tax=Sphingomonas 
+sp. HMWF008 TaxID=2056845 RepID=A0A2R7JXN2_9SPHN
+Length=71
+
+ Score = 43.1 bits (100),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D+     T LT ++A+E H +++  +  F AVA+VAH  V+ WRPWF
+Sbjct  1   MSDERMGPGTYLTPDEAKEFHKLFVLSMGFFVAVALVAHFLVWEWRPWF  49
+
+
+> UniRef90_A0A258VE10 Light-harvesting protein n=2 Tax=unclassified 
+Sphingomonadales TaxID=451299 RepID=A0A258VE10_9SPHN
+Length=76
+
+ Score = 43.1 bits (100),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 30/49 (61%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D      T LTD +A+E H  ++  +  F  VA++AH  V++WRPWF
+Sbjct  1   MSDNKIGPGTYLTDAEAREFHKSFVVSMAFFVIVAVIAHWLVWVWRPWF  49
+
+
+> UniRef90_A0A258TDP6 Light-harvesting protein n=1 Tax=Sphingomonas 
+sp. 28-66-16 TaxID=1970435 RepID=A0A258TDP6_9SPHN
+Length=71
+
+ Score = 42.7 bits (99),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 30/49 (61%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M D+     T LT E+A+E H +++  +  F+ VAI+AH  V+ WRPW 
+Sbjct  1   MTDERMGPGTYLTPEEAKEFHKLFVVSMGFFTVVAIIAHFLVWQWRPWL  49
+
+
+> UniRef90_A0A1W9JPJ6 Light-harvesting protein n=3 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A1W9JPJ6_9PROT
+Length=74
+
+ Score = 42.7 bits (99),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D      T LT ++A+E H +++  +  F+ VAI+AH  V+ WRPWF
+Sbjct  1   MSDDRMGPGTYLTPDEAKEFHKLFVVSMGFFTIVAIIAHFLVWQWRPWF  49
+
+
+> UniRef90_A0A348FW70 Uncharacterized protein n=2 Tax=Blastochloris 
+sp. GI TaxID=2233851 RepID=A0A348FW70_9RHIZ
+Length=91
+
+ Score = 43.1 bits (100),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           TGLT+E+A+E HSV++S +  + A A++ H  V+  RPW 
+Sbjct  31  TGLTEEEAKEFHSVFVSSMVLYLATAVIVHYLVWTARPWI  70
+
+
+> UniRef90_H6SR44 Uncharacterized protein n=2 Tax=Pararhodospirillum 
+photometricum TaxID=1084 RepID=H6SR44_PARPM
+Length=58
+
+ Score = 42.0 bits (97),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 20/49 (41%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           MAD + +  +GLT+++AQE HS Y  GL  +  ++  AH+  Y + PWF
+Sbjct  10  MADNTKVYPSGLTEKEAQEFHSWYTQGLGAWIVLSAFAHVFTYHYLPWF  58
+
+
+> UniRef90_A0A1Q8YDN8 Light-harvesting 1 complex beta subunit n=3 
+Tax=Rhodoferax TaxID=28065 RepID=A0A1Q8YDN8_9BURK
+Length=47
+
+ Score = 41.6 bits (96),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 37/49 (76%), Gaps = 2/49 (4%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M++++ +  +GLTDE+AQE H  Y+ G   F+AVA+VAH+ V+ WRPWF
+Sbjct  1   MSNQTSI--SGLTDEEAQEFHKFYVQGFVGFTAVAVVAHVLVWAWRPWF  47
+
+
+> UniRef90_H1G622 Light harvesting 1 subunit beta n=13 Tax=Ectothiorhodospiraceae 
+TaxID=72276 RepID=H1G622_9GAMM
+Length=52
+
+ Score = 38.5 bits (88),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M D++    +GLT+++A E H V+M+ +  F AVA VAH+  ++WRPW
+Sbjct  1   MVDETKGSLSGLTEDEAMEFHGVFMTSMMGFLAVAAVAHVLAWMWRPW  48
+
+
+> UniRef90_A0A1R3W5Q9 Light-harvesting complex 1 beta chain n=1 
+Tax=Ectothiorhodosinus mongolicus TaxID=233100 RepID=A0A1R3W5Q9_9GAMM
+Length=50
+
+ Score = 37.0 bits (84),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 20/48 (42%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M D++    +GL +++A E H V+M+ +  F AVA VAH+  ++WRPW
+Sbjct  1   MVDETRGSLSGLNEDEAMEFHGVFMTSMLGFVAVAAVAHVLAWMWRPW  48
+
+
+> UniRef90_A0A0B9A3Z8 Light-harvesting protein B-870 beta chain 
+n=5 Tax=Sphingomonadaceae TaxID=41297 RepID=A0A0B9A3Z8_9SPHN
+Length=51
+
+ Score = 32.3 bits (72),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 20/39 (51%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           T LT E+A+E H ++MS    F+AVA+VAH+ V++W+PW
+Sbjct  12  TYLTPEEAKEFHKLFMSSFVGFTAVAVVAHVLVWMWKPW  50
+
+
+> UniRef90_A0A0L6T9K9 Light-harvesting protein B:800-850 subunit 
+beta n=1 Tax=Methylibium sp. NZG TaxID=1686064 RepID=A0A0L6T9K9_9BURK
+Length=50
+
+ Score = 30.4 bits (67),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  1   MADKSDLGYTGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           M+D + +  TGLT+ ++++LH   + G   F A+A +AHL  YI+ PW 
+Sbjct  1   MSDPNKVWPTGLTEAESEDLHRHIIQGTQIFGAIAALAHLLAYIYSPWL  49
+
+
+> UniRef90_A0A258UZU5 Light-harvesting protein n=1 Tax=Novosphingobium 
+sp. 28-62-57 TaxID=1970409 RepID=A0A258UZU5_9SPHN
+Length=51
+
+ Score = 30.4 bits (67),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 19/39 (49%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           T LT E+A+E H +++S    F+AVA+VAH+ V++W+PW
+Sbjct  12  TYLTPEEAKEFHKLFVSSFVGFTAVAVVAHVLVWMWKPW  50
+
+
+> UniRef90_A0A2A4B791 Light-harvesting protein n=1 Tax=Sphingomonas 
+spermidinifaciens TaxID=1141889 RepID=A0A2A4B791_9SPHN
+Length=50
+
+ Score = 29.6 bits (65),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 33/49 (67%), Gaps = 1/49 (2%)
+
+Query  1   MADKSDLGY-TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPW  48
+           M D   +G  T L+ E+A+E H ++++    F+AVA+VAH+ V+ WRPW
+Sbjct  1   MNDPERMGPGTYLSPEEAKEFHKLFITSFLIFTAVAVVAHVLVWNWRPW  49
+
+
+> UniRef90_W0AE33 Uncharacterized protein n=2 Tax=Sphingomonas 
+sanxanigenens TaxID=397260 RepID=W0AE33_9SPHN
+Length=71
+
+ Score = 28.1 bits (61),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  10  TGLTDEQAQELHSVYMSGLWPFSAVAIVAHLAVYIWRPWF  49
+           T LT ++A+E H +++     F+AVA+VAH+ V+ WRPW 
+Sbjct  32  TYLTQDEAKEFHKIFVMSFLIFTAVAVVAHVLVWNWRPWL  71
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 254898
+
+
+  Database: isar.db.112
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 10,182
+  Number of sequences in database:  179
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

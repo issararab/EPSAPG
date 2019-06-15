@@ -1,0 +1,331 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.215
+           16 sequences; 1,262 total letters
+
+Results from round 1
+
+
+Query= Q5SHE6|5awwG|Q5SHE6_THET8 0.6410256410256411
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q5SHE6 Protein-export membrane protein SecG n=6 Tax=Th...  227     6e-83
+  UniRef90_A0A1J1EU48 Preprotein translocase subunit SecG n=1 Tax...  152     1e-53
+  UniRef90_A0A1J0LT91 Protein-export membrane protein SecG n=8 Ta...  132     1e-45
+  UniRef90_E8PKF1 Protein-export membrane protein SecG n=8 Tax=Th...  130     3e-45
+  UniRef90_A0A0A2WQJ1 Protein-export membrane protein SecG n=1 Ta...  113     3e-38
+  UniRef90_A0A399F691 Protein-export membrane protein SecG n=2 Ta...  101     1e-33
+  UniRef90_D3PR22 Protein-export membrane protein SecG n=3 Tax=Me...  100     2e-33
+  UniRef90_A0A370JY60 Protein-export membrane protein SecG n=1 Ta...  99.8    7e-33
+  UniRef90_A0A399EEZ3 Protein-export membrane protein SecG n=2 Ta...  96.7    1e-31
+  UniRef90_A0A399EW16 Protein-export membrane protein SecG n=2 Ta...  94.0    1e-30
+  UniRef90_A0A399EW45 Protein-export membrane protein SecG n=2 Ta...  91.7    1e-29
+  UniRef90_D7BEL5 Protein-export membrane protein SecG n=2 Tax=Me...  80.5    2e-25
+  UniRef90_E4U4A7 Protein-export membrane protein SecG n=1 Tax=Oc...  56.6    6e-16
+  UniRef90_A0A2Z3JHQ8 Protein-export membrane protein SecG n=1 Ta...  47.4    2e-12
+  UniRef90_A0A3G8YEA0 Preprotein translocase subunit SecG n=1 Tax...  42.0    3e-10
+  UniRef90_E8U9F0 Protein-export membrane protein SecG n=1 Tax=De...  30.0    9e-06
+
+
+> UniRef90_Q5SHE6 Protein-export membrane protein SecG n=6 Tax=Thermus 
+TaxID=270 RepID=Q5SHE6_THET8
+Length=117
+
+ Score = 227 bits (579),  Expect = 6e-83, Method: Compositional matrix adjust.
+ Identities = 117/117 (100%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    MNRRPTAYEAVALPLSYTGPPLESVNQGATSRNRSPSGRVGGMDLLYTLVILFYLGVAGL  60
+            MNRRPTAYEAVALPLSYTGPPLESVNQGATSRNRSPSGRVGGMDLLYTLVILFYLGVAGL
+Sbjct  1    MNRRPTAYEAVALPLSYTGPPLESVNQGATSRNRSPSGRVGGMDLLYTLVILFYLGVAGL  60
+
+Query  61   LVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILGVVFAALALVIGLWPR  117
+            LVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILGVVFAALALVIGLWPR
+Sbjct  61   LVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILGVVFAALALVIGLWPR  117
+
+
+> UniRef90_A0A1J1EU48 Preprotein translocase subunit SecG n=1 Tax=Thermus 
+thermophilus TaxID=274 RepID=A0A1J1EU48_THETH
+Length=96
+
+ Score = 152 bits (385),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 77/79 (97%), Positives = 78/79 (99%), Gaps = 0/79 (0%)
+
+Query  1   MNRRPTAYEAVALPLSYTGPPLESVNQGATSRNRSPSGRVGGMDLLYTLVILFYLGVAGL  60
+           +NRRPTAYEAVALPLSYTGPPLESVNQGATSRNRSPSGRVGGMDLLYTLVIL YLGVAGL
+Sbjct  8   LNRRPTAYEAVALPLSYTGPPLESVNQGATSRNRSPSGRVGGMDLLYTLVILIYLGVAGL  67
+
+Query  61  LVYLVLVQEPKQGAGDLMG  79
+           LVYLVLVQEPKQGAGDLMG
+Sbjct  68  LVYLVLVQEPKQGAGDLMG  86
+
+
+> UniRef90_A0A1J0LT91 Protein-export membrane protein SecG n=8 
+Tax=Thermus TaxID=270 RepID=A0A1J0LT91_THEBO
+Length=75
+
+ Score = 132 bits (331),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 68/75 (91%), Positives = 71/75 (95%), Gaps = 0/75 (0%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILG  102
+            MD LYTLVIL YLGVAGLLVYLVLVQEP+QGAGDLMG S DLFSARGVTGGLYRLTV+LG
+Sbjct  1    MDFLYTLVILLYLGVAGLLVYLVLVQEPRQGAGDLMGASTDLFSARGVTGGLYRLTVVLG  60
+
+Query  103  VVFAALALVIGLWPR  117
+            VVFAALAL+IGLWPR
+Sbjct  61   VVFAALALLIGLWPR  75
+
+
+> UniRef90_E8PKF1 Protein-export membrane protein SecG n=8 Tax=Thermus 
+TaxID=270 RepID=E8PKF1_THESS
+Length=75
+
+ Score = 130 bits (328),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 67/75 (89%), Positives = 70/75 (93%), Gaps = 0/75 (0%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILG  102
+            MD LYTLVIL YLGVAGLLVYLVLVQEPKQGAGDLMG SADLFSARGVTGGLYRLT++LG
+Sbjct  1    MDFLYTLVILLYLGVAGLLVYLVLVQEPKQGAGDLMGASADLFSARGVTGGLYRLTILLG  60
+
+Query  103  VVFAALALVIGLWPR  117
+            V+F ALALVIGLW R
+Sbjct  61   VIFVALALVIGLWTR  75
+
+
+> UniRef90_A0A0A2WQJ1 Protein-export membrane protein SecG n=1 
+Tax=Thermus filiformis TaxID=276 RepID=A0A0A2WQJ1_THEFI
+Length=75
+
+ Score = 113 bits (282),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 68/75 (91%), Positives = 72/75 (96%), Gaps = 0/75 (0%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILG  102
+            MD+LYTL+IL YLGVAGLLVYLVL QEP+QGAGDLMGGS DLFSARGVTGGLYRLTVILG
+Sbjct  1    MDVLYTLLILLYLGVAGLLVYLVLAQEPRQGAGDLMGGSTDLFSARGVTGGLYRLTVILG  60
+
+Query  103  VVFAALALVIGLWPR  117
+            VVFAALALV+GLWPR
+Sbjct  61   VVFAALALVLGLWPR  75
+
+
+> UniRef90_A0A399F691 Protein-export membrane protein SecG n=2 
+Tax=Meiothermus TaxID=65551 RepID=A0A399F691_9DEIN
+Length=73
+
+ Score = 101 bits (252),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 53/73 (73%), Positives = 61/73 (84%), Gaps = 1/73 (1%)
+
+Query  45   LLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILGVV  104
+            L Y L++LF +  AGLLVYLVL QEPKQGAGDLMG + DLFSARGVTGGLYR+TVILGVV
+Sbjct  2    LFYILIVLFVIA-AGLLVYLVLSQEPKQGAGDLMGANTDLFSARGVTGGLYRITVILGVV  60
+
+Query  105  FAALALVIGLWPR  117
+            FA +A ++G  PR
+Sbjct  61   FALIAFILGHIPR  73
+
+
+> UniRef90_D3PR22 Protein-export membrane protein SecG n=3 Tax=Meiothermus 
+TaxID=65551 RepID=D3PR22_MEIRD
+Length=75
+
+ Score = 100 bits (250),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 48/75 (64%), Positives = 59/75 (79%), Gaps = 0/75 (0%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILG  102
+            M+ L  ++I FY+ +AGLLVYLVL QEP+QGAGD+ GGS DLFS RGVTGGLYR+TV+LG
+Sbjct  1    MEFLQNVLIFFYIAIAGLLVYLVLSQEPRQGAGDMFGGSTDLFSTRGVTGGLYRITVVLG  60
+
+Query  103  VVFAALALVIGLWPR  117
+            V+F ALA     + R
+Sbjct  61   VLFVALAFSFRFFTR  75
+
+
+> UniRef90_A0A370JY60 Protein-export membrane protein SecG n=1 
+Tax=Meiothermus sp. QL-1 TaxID=2058095 RepID=A0A370JY60_9DEIN
+Length=75
+
+ Score = 99.8 bits (247),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 48/75 (64%), Positives = 58/75 (77%), Gaps = 0/75 (0%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILG  102
+            MD L+ L++  Y+ VAG LVYLVL QEP+QGAGD+ GGS DLFS RGVTGGLYR+T+ILG
+Sbjct  1    MDFLHNLLVFLYILVAGFLVYLVLSQEPRQGAGDMFGGSTDLFSTRGVTGGLYRITIILG  60
+
+Query  103  VVFAALALVIGLWPR  117
+            V+FA LA     + R
+Sbjct  61   VIFALLAFSFRYFER  75
+
+
+> UniRef90_A0A399EEZ3 Protein-export membrane protein SecG n=2 
+Tax=Meiothermus TaxID=65551 RepID=A0A399EEZ3_9DEIN
+Length=75
+
+ Score = 96.7 bits (239),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 46/75 (61%), Positives = 56/75 (75%), Gaps = 0/75 (0%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILG  102
+            M++L  ++I  Y+ VAG LVYLVL QEPKQGAGD+ GGS DLFS RGVTGGLYR+TV+LG
+Sbjct  1    MEILQNILIFLYIAVAGFLVYLVLSQEPKQGAGDMFGGSTDLFSTRGVTGGLYRITVVLG  60
+
+Query  103  VVFAALALVIGLWPR  117
+             +F  LA     + R
+Sbjct  61   AIFVILAFSFRFFNR  75
+
+
+> UniRef90_A0A399EW16 Protein-export membrane protein SecG n=2 
+Tax=Meiothermus TaxID=65551 RepID=A0A399EW16_9DEIN
+Length=76
+
+ Score = 94.0 bits (232),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 50/74 (68%), Positives = 62/74 (84%), Gaps = 1/74 (1%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQ-GAGDLMGGSADLFSARGVTGGLYRLTVIL  101
+            M++L+TL ++ Y+ +A LLVYLVL QEPK  GAGDL+GGS DLFSARGVTGGLYRLTV+L
+Sbjct  1    MEILHTLFVIGYVLIAALLVYLVLNQEPKTTGAGDLLGGSGDLFSARGVTGGLYRLTVVL  60
+
+Query  102  GVVFAALALVIGLW  115
+            G VF   AL++G+W
+Sbjct  61   GAVFVLGALILGIW  74
+
+
+> UniRef90_A0A399EW45 Protein-export membrane protein SecG n=2 
+Tax=Deinococcus-Thermus TaxID=1297 RepID=A0A399EW45_9DEIN
+Length=75
+
+ Score = 91.7 bits (226),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 45/75 (60%), Positives = 56/75 (75%), Gaps = 0/75 (0%)
+
+Query  43   MDLLYTLVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILG  102
+            M+LL  ++I  Y+ VAG LVYLVL QEP+QGAGD+ GG+ DLFS RGVTGGLYR+T+ILG
+Sbjct  1    MELLQNVLIFLYILVAGFLVYLVLSQEPRQGAGDMFGGATDLFSTRGVTGGLYRITIILG  60
+
+Query  103  VVFAALALVIGLWPR  117
+             +F  LA     + R
+Sbjct  61   AIFVLLAFSFRYFQR  75
+
+
+> UniRef90_D7BEL5 Protein-export membrane protein SecG n=2 Tax=Meiothermus 
+TaxID=65551 RepID=D7BEL5_MEISD
+Length=75
+
+ Score = 80.5 bits (197),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 39/61 (64%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  57   VAGLLVYLVLVQEPKQGAGDLMGGSADLFSARGVTGGLYRLTVILGVVFAALALVIGLWP  116
+            +A  LVY VL QEPKQ  GD++GGS+DLF ARGVTGGLYR+TV+LG+ F  LA ++G  P
+Sbjct  15   IAAGLVYFVLAQEPKQTGGDILGGSSDLFQARGVTGGLYRITVVLGIAFVVLAWLLGRLP  74
+
+Query  117  R  117
+            R
+Sbjct  75   R  75
+
+
+> UniRef90_E4U4A7 Protein-export membrane protein SecG n=1 Tax=Oceanithermus 
+profundus (strain DSM 14977 / NBRC 100410 / VKM 
+B-2274 / 506) TaxID=670487 RepID=E4U4A7_OCEP5
+Length=76
+
+ Score = 56.6 bits (135),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 47/58 (81%), Gaps = 1/58 (2%)
+
+Query  61   LVYLVLVQEPKQGAGDLMGGSA-DLFSARGVTGGLYRLTVILGVVFAALALVIGLWPR  117
+            LV++VL+QEPKQG GD++GG A DLF+ARGVTGGLYR+T+ LG  F  L+++I   PR
+Sbjct  19   LVWVVLLQEPKQGGGDILGGGATDLFAARGVTGGLYRVTIWLGAAFLVLSVIINKIPR  76
+
+
+> UniRef90_A0A2Z3JHQ8 Protein-export membrane protein SecG n=1 
+Tax=Deinococcus irradiatisoli TaxID=2202254 RepID=A0A2Z3JHQ8_9DEIO
+Length=74
+
+ Score = 47.4 bits (111),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 32/74 (43%), Positives = 43/74 (58%), Gaps = 2/74 (3%)
+
+Query  45   LLYTLVILFYLGVAGLLVYLVLVQEPKQ-GAGDLMGGSADLFSARGVTGGLYRLTVILGV  103
+            LL   + LF L   GL ++ VL+Q PKQ G    +    DLF  RGV GGL R++ +LG 
+Sbjct  2    LLSVFIALFALICVGL-IFFVLLQVPKQAGLSASLASGGDLFGGRGVEGGLIRISSVLGG  60
+
+Query  104  VFAALALVIGLWPR  117
+            +F  LAL+I +  R
+Sbjct  61   LFMLLALLINILSR  74
+
+
+> UniRef90_A0A3G8YEA0 Preprotein translocase subunit SecG n=1 Tax=Deinococcus 
+sp. S14-83 TaxID=2489213 RepID=A0A3G8YEA0_9DEIO
+Length=76
+
+ Score = 42.0 bits (97),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 35/62 (56%), Gaps = 2/62 (3%)
+
+Query  45   LLYTLVILFYLGVAGLLVYLVLVQEPKQ-GAGDLMGGSADLFSARGVTGGLYRLTVILGV  103
+            LL   + LF L   GL V+ VL+Q PKQ G    +    DLF  RGV GGL R+T ILG 
+Sbjct  4    LLSIFIALFALICIGL-VFFVLLQVPKQAGLSASLASGGDLFGGRGVEGGLIRITSILGG  62
+
+Query  104  VF  105
+             F
+Sbjct  63   FF  64
+
+
+> UniRef90_E8U9F0 Protein-export membrane protein SecG n=1 Tax=Deinococcus 
+maricopensis (strain DSM 21211 / LMG 22137 / NRRL 
+B-23946 / LB-34) TaxID=709986 RepID=E8U9F0_DEIML
+Length=74
+
+ Score = 30.0 bits (66),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 27/70 (39%), Positives = 39/70 (56%), Gaps = 2/70 (3%)
+
+Query  49   LVILFYLGVAGLLVYLVLVQEPKQGAGDLMGGSADLFSAR-GVTGGLYRLTVILGVVFAA  107
+            LVILF L  A L+++ VL+Q P+Q       G         GV GGL R+T +LG +F  
+Sbjct  6    LVILFALICAALVLF-VLLQVPRQSGLSAGLGGGGDLFGGRGVEGGLVRITSVLGGLFML  64
+
+Query  108  LALVIGLWPR  117
+            +AL++ +  R
+Sbjct  65   MALLLNIIQR  74
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.142    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 74700
+
+
+  Database: isar.db.215
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 1,262
+  Number of sequences in database:  16
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

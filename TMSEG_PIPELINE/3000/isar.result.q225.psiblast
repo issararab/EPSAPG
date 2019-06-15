@@ -1,0 +1,374 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.225
+           24 sequences; 882 total letters
+
+Results from round 1
+
+
+Query= Q85FQ6|6fosI|Q85FQ6_CYAM1 1.0
+
+Length=32
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q85FQ6 Photosystem I reaction center subunit VIII n=2 ...  61.2    9e-20
+  UniRef90_E3UIU6 Photosystem I reaction center subunit VIII n=1 ...  47.4    4e-14
+  UniRef90_A0A1Z1XB03 Photosystem I reaction center subunit VIII ...  44.7    4e-13
+  UniRef90_W8DVS7 Photosystem I reaction center subunit VIII n=6 ...  44.3    6e-13
+  UniRef90_P51387 Photosystem I reaction center subunit VIII n=12...  44.3    7e-13
+  UniRef90_B4WII5 Photosystem I reaction center subunit VIII n=1 ...  44.3    7e-13
+  UniRef90_A0A1C9CCX0 Photosystem I reaction center subunit VIII ...  43.9    7e-13
+  UniRef90_A0A1I9KQZ1 Photosystem I reaction center subunit VIII ...  43.9    7e-13
+  UniRef90_Q32RX8 Photosystem I reaction center subunit VIII n=7 ...  43.9    7e-13
+  UniRef90_A0A1X9PV01 Photosystem I reaction center subunit VIII ...  43.9    8e-13
+  UniRef90_A0A1Z1MRV8 Photosystem I reaction center subunit VIII ...  43.9    8e-13
+  UniRef90_Q6B8K8 Photosystem I reaction center subunit VIII n=16...  43.9    8e-13
+  UniRef90_A0A1C9CEJ7 Photosystem I reaction center subunit VIII ...  43.9    8e-13
+  UniRef90_A6YGB3 Photosystem I reaction center subunit VIII n=2 ...  43.9    9e-13
+  UniRef90_A0A1Z1M8Z2 Photosystem I reaction center subunit VIII ...  43.5    1e-12
+  UniRef90_A0A097KLP9 Photosystem I reaction center subunit VIII ...  43.5    1e-12
+  UniRef90_A0A1C9CHR4 Photosystem I reaction center subunit VIII ...  43.5    1e-12
+  UniRef90_A0A1Z1G5D6 Photosystem I reaction center subunit VIII ...  43.5    1e-12
+  UniRef90_B7T217 Photosystem I reaction center subunit VIII n=1 ...  43.5    1e-12
+  UniRef90_A0A141SE41 Photosystem I reaction center subunit VIII ...  43.5    1e-12
+  UniRef90_Q85FL2 Photosystem I reaction center subunit VIII n=12...  43.5    1e-12
+  UniRef90_A0A1Z1MJX9 Photosystem I reaction center subunit VIII ...  43.5    1e-12
+  UniRef90_A0A1C9C7K5 Photosystem I reaction center subunit VIII ...  42.7    2e-12
+  UniRef90_A0A097KL36 Photosystem I reaction center subunit VIII ...  42.4    3e-12
+
+
+> UniRef90_Q85FQ6 Photosystem I reaction center subunit VIII n=2 
+Tax=Cyanidiaceae TaxID=265316 RepID=Q85FQ6_CYAM1
+Length=32
+
+ Score = 61.2 bits (147),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           MSASYLPSILVPTVGLILPFASMAILFIAIEK
+Sbjct  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+
+
+> UniRef90_E3UIU6 Photosystem I reaction center subunit VIII n=1 
+Tax=Galdieria sulphuraria TaxID=130081 RepID=E3UIU6_GALSU
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP +GL+ PF SMA+ FI +E+
+Sbjct  1   MTASYLPSILVPIIGLVFPFISMALFFIYVEQ  32
+
+
+> UniRef90_A0A1Z1XB03 Photosystem I reaction center subunit VIII 
+n=1 Tax=Compsopogon caeruleus TaxID=31354 RepID=A0A1Z1XB03_9RHOD
+Length=37
+
+ Score = 44.7 bits (104),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+A+YLPSILVP VGLI P  +MA+LFI IE+
+Sbjct  2   MNATYLPSILVPLVGLIFPAITMALLFIYIEQ  33
+
+
+> UniRef90_W8DVS7 Photosystem I reaction center subunit VIII n=6 
+Tax=Rhodymeniophycidae TaxID=2045261 RepID=W8DVS7_9FLOR
+Length=36
+
+ Score = 44.3 bits (103),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP VG+I P  SMA+LF+ IE+
+Sbjct  1   MTASYLPSILVPLVGIIFPGISMALLFLYIEQ  32
+
+
+> UniRef90_P51387 Photosystem I reaction center subunit VIII n=12 
+Tax=Bangiaceae TaxID=31345 RepID=PSAI_PORPU
+Length=36
+
+ Score = 44.3 bits (103),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+A+YLPSILVP VGLI P   MA+LFI IE+
+Sbjct  1   MTAAYLPSILVPLVGLIFPALGMALLFIYIER  32
+
+
+> UniRef90_B4WII5 Photosystem I reaction center subunit VIII n=1 
+Tax=Synechococcus sp. (strain ATCC 29403 / PCC 7335) TaxID=91464 
+RepID=B4WII5_SYNS7
+Length=56
+
+ Score = 44.3 bits (103),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           MSAS+LP+ILVPTVGL+ P  +MA LF+ IE+
+Sbjct  1   MSASFLPTILVPTVGLVFPAIAMAALFLYIER  32
+
+
+> UniRef90_A0A1C9CCX0 Photosystem I reaction center subunit VIII 
+n=1 Tax=Bangiopsis subsimplex TaxID=139980 RepID=A0A1C9CCX0_9RHOD
+Length=37
+
+ Score = 43.9 bits (102),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+A YLPSILVP VG+I P  SMA+LFI IE+
+Sbjct  1   MTADYLPSILVPLVGIIFPAFSMALLFIYIEQ  32
+
+
+> UniRef90_A0A1I9KQZ1 Photosystem I reaction center subunit VIII 
+n=11 Tax=Rhodymeniophycidae TaxID=2045261 RepID=A0A1I9KQZ1_9FLOR
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP VG+I P  SMA+LF+ IE+
+Sbjct  1   MTASYLPSILVPLVGIIFPGLSMALLFLYIEE  32
+
+
+> UniRef90_Q32RX8 Photosystem I reaction center subunit VIII n=7 
+Tax=Streptophytina TaxID=131221 RepID=PSAI_STAPU
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           MSASYLPSILVP VGL+ P  +MA LF+ IE+
+Sbjct  1   MSASYLPSILVPLVGLVFPAVTMASLFLYIEQ  32
+
+
+> UniRef90_A0A1X9PV01 Photosystem I reaction center subunit VIII 
+n=1 Tax=Rhodochaete parvula TaxID=110510 RepID=A0A1X9PV01_9RHOD
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+A YLPSILVP VGLI P  SMA+LFI IE+
+Sbjct  1   MTAIYLPSILVPLVGLIFPAISMALLFIYIEQ  32
+
+
+> UniRef90_A0A1Z1MRV8 Photosystem I reaction center subunit VIII 
+n=1 Tax=Taenioma perpusillum TaxID=210852 RepID=A0A1Z1MRV8_9FLOR
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP  G+I P  SMA+LFI IE+
+Sbjct  1   MTASYLPSILVPLTGIIFPALSMALLFIYIEQ  32
+
+
+> UniRef90_Q6B8K8 Photosystem I reaction center subunit VIII n=16 
+Tax=Rhodymeniophycidae TaxID=2045261 RepID=PSAI_GRATL
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ SYLPSILVP VG+I P  SMA+LFI IE+
+Sbjct  1   MTGSYLPSILVPLVGIIFPGISMALLFIYIEE  32
+
+
+> UniRef90_A0A1C9CEJ7 Photosystem I reaction center subunit VIII 
+n=2 Tax=Rhodophyta TaxID=2763 RepID=A0A1C9CEJ7_9RHOD
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+A YLPSILVP VGLI P  SMA+LFI IE+
+Sbjct  1   MTALYLPSILVPLVGLIFPAISMALLFIYIEQ  32
+
+
+> UniRef90_A6YGB3 Photosystem I reaction center subunit VIII n=2 
+Tax=Chlorophyta TaxID=3041 RepID=A6YGB3_PLETE
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 23/32 (72%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+A+YLPSILVP VGLI P  SMA LF+ IEK
+Sbjct  1   MTAAYLPSILVPLVGLIFPAISMASLFLYIEK  32
+
+
+> UniRef90_A0A1Z1M8Z2 Photosystem I reaction center subunit VIII 
+n=3 Tax=Ceramiales TaxID=2802 RepID=A0A1Z1M8Z2_9FLOR
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP  G+I P  SMA+LFI IE+
+Sbjct  1   MTASYLPSILVPLTGIIFPGLSMALLFIYIEQ  32
+
+
+> UniRef90_A0A097KLP9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Ettlia pseudoalveolaris TaxID=3102 RepID=A0A097KLP9_9CHLO
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP VGL+ P  +MA LF+ IEK
+Sbjct  1   MTASYLPSILVPLVGLVFPAITMASLFLYIEK  32
+
+
+> UniRef90_A0A1C9CHR4 Photosystem I reaction center subunit VIII 
+n=1 Tax=Plocamium cartilagineum TaxID=31452 RepID=A0A1C9CHR4_PLOCA
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP +G+I P  SMA+LF+ IE+
+Sbjct  1   MNASYLPSILVPLIGIIFPGLSMALLFLYIEE  32
+
+
+> UniRef90_A0A1Z1G5D6 Photosystem I reaction center subunit VIII 
+n=3 Tax=Aneura TaxID=70217 RepID=A0A1Z1G5D6_ANEPI
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP VGL+ P  +MA LFI IE+
+Sbjct  1   MTASYLPSILVPLVGLVFPAIAMASLFIYIER  32
+
+
+> UniRef90_B7T217 Photosystem I reaction center subunit VIII n=1 
+Tax=Vaucheria litorea TaxID=109269 RepID=B7T217_VAULI
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ SYLPSILVP VG++ P  SMA+LF+ IEK
+Sbjct  1   MTISYLPSILVPLVGIVFPGISMALLFVYIEK  32
+
+
+> UniRef90_A0A141SE41 Photosystem I reaction center subunit VIII 
+n=4 Tax=Gelidium TaxID=2811 RepID=A0A141SE41_GELVA
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP VG+I P   MA+LFI IE+
+Sbjct  1   MAASYLPSILVPLVGIIFPGLGMALLFIYIEE  32
+
+
+> UniRef90_Q85FL2 Photosystem I reaction center subunit VIII n=12 
+Tax=Pteridaceae TaxID=13819 RepID=PSAI_ADICA
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP VG++LP  +MA LF+ IE+
+Sbjct  1   MTASYLPSILVPLVGILLPAVTMASLFLYIER  32
+
+
+> UniRef90_A0A1Z1MJX9 Photosystem I reaction center subunit VIII 
+n=1 Tax=Thuretia quercifolia TaxID=189650 RepID=A0A1Z1MJX9_9FLOR
+Length=36
+
+ Score = 43.5 bits (101),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP +G+I P  SMA+LF+ IE+
+Sbjct  1   MTASYLPSILVPLIGIIFPALSMALLFLYIEE  32
+
+
+> UniRef90_A0A1C9C7K5 Photosystem I reaction center subunit VIII 
+n=1 Tax=Rhodymenia pseudopalmata TaxID=31502 RepID=A0A1C9C7K5_RHOPU
+Length=36
+
+ Score = 42.7 bits (99),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP +G++ P  SMA+LF+ IE+
+Sbjct  1   MTASYLPSILVPLIGIVFPGLSMALLFLYIEE  32
+
+
+> UniRef90_A0A097KL36 Photosystem I reaction center subunit VIII 
+n=2 Tax=Pedinomonas TaxID=3158 RepID=A0A097KL36_9CHLO
+Length=36
+
+ Score = 42.4 bits (98),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MSASYLPSILVPTVGLILPFASMAILFIAIEK  32
+           M+ASYLPSILVP VGL+ P  +MA +F+ IEK
+Sbjct  1   MAASYLPSILVPLVGLVFPAIAMASIFVYIEK  32
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.142    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 22008
+
+
+  Database: isar.db.225
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 882
+  Number of sequences in database:  24
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

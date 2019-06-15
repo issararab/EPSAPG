@@ -1,0 +1,661 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.189
+           46 sequences; 2,812 total letters
+
+Results from round 1
+
+
+Query= P97253|1lghA|LHA_PHAMO 0.9824561403508771
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P97253 Light-harvesting protein B-800/850 alpha chain ...  110     8e-38
+  UniRef90_H8FQ25 Light-harvesting protein B-800/850 alpha chain ...  89.4    1e-29
+  UniRef90_H8FQ26 Light-harvesting protein B-800/850 alpha chain ...  84.3    1e-27
+  UniRef90_A0A327KZG3 Light-harvesting protein n=4 Tax=Rhodoplane...  80.5    3e-26
+  UniRef90_A0A327L243 Light-harvesting protein n=1 Tax=Rhodoplane...  80.5    4e-26
+  UniRef90_A0A327K472 Light-harvesting protein n=1 Tax=Rhodoplane...  78.6    3e-25
+  UniRef90_A0A327KUD9 Light-harvesting protein n=3 Tax=Rhodoplane...  77.8    4e-25
+  UniRef90_Q7M119 Light-harvesting protein B800-820 alpha chain n...  77.4    6e-25
+  UniRef90_J5PGE7 Light-harvesting protein n=2 Tax=Rhodovulum sp....  76.6    1e-24
+  UniRef90_A0A327KAC4 Light-harvesting protein n=1 Tax=Rhodoplane...  76.3    2e-24
+  UniRef90_A0A327KZ09 Light-harvesting protein n=1 Tax=Rhodoplane...  76.3    2e-24
+  UniRef90_A0A327KFC3 Light-harvesting protein n=1 Tax=Rhodoplane...  75.1    5e-24
+  UniRef90_H8FN87 Light-harvesting protein B-800/850 alpha chain ...  73.2    2e-23
+  UniRef90_J6UCH5 Light-harvesting protein n=1 Tax=Rhodovulum sp....  72.8    5e-23
+  UniRef90_H8FX80 Light-harvesting protein B-800/850 alpha chain ...  65.9    2e-20
+  UniRef90_A0A166ZRL6 Light-harvesting protein B-800-850 alpha ch...  54.3    1e-15
+  UniRef90_A0A3M8NJ72 Light-harvesting protein n=3 Tax=Marichroma...  53.9    1e-15
+  UniRef90_A0A1R3W7V1 Light-harvesting protein B-800-850 alpha ch...  53.1    3e-15
+  UniRef90_G4E6J0 Uncharacterized protein n=1 Tax=Thiorhodospira ...  52.8    3e-15
+  UniRef90_H1G098 Uncharacterized protein n=6 Tax=Ectothiorhodosp...  53.1    4e-15
+  UniRef90_A0A1H7NTL0 Light-harvesting protein B-800-850 alpha ch...  52.4    7e-15
+  UniRef90_G2DXI9 Antenna complex subunit alpha/beta n=1 Tax=Thio...  50.4    3e-14
+  UniRef90_H1G2X7 Uncharacterized protein n=2 Tax=Ectothiorhodosp...  50.8    3e-14
+  UniRef90_I3YAC0 Antenna complex alpha/beta subunit n=3 Tax=Chro...  49.7    5e-14
+  UniRef90_C7G526 LH2 alpha polypeptide n=5 Tax=Chromatiaceae Tax...  49.3    8e-14
+  UniRef90_G4E562 Antenna complex alpha/beta subunit n=2 Tax=Thio...  48.9    1e-13
+  UniRef90_A0A0U5ICF5 Light-harvesting protein alpha chain n=7 Ta...  48.1    2e-13
+  UniRef90_A0A1I4PRN9 Light-harvesting protein B-800-850 alpha ch...  48.1    3e-13
+  UniRef90_I3Y5T6 Antenna complex alpha/beta subunit n=2 Tax=Thio...  47.8    3e-13
+  UniRef90_A0A2S6N383 Light-harvesting protein n=2 Tax=Rhodopila ...  47.4    5e-13
+  UniRef90_D3RPS0 Uncharacterized protein n=1 Tax=Allochromatium ...  47.0    7e-13
+  UniRef90_W9VY13 Uncharacterized protein n=1 Tax=Imhoffiella pur...  46.2    1e-12
+  UniRef90_G2E8R1 Antenna complex subunit alpha/beta n=1 Tax=Thio...  46.2    1e-12
+  UniRef90_I3YAC4 Uncharacterized protein n=1 Tax=Thiocystis viol...  45.8    2e-12
+  UniRef90_A0A1H3AV41 Light-harvesting complex 1 alpha chain n=2 ...  43.9    9e-12
+  UniRef90_A0A1H3AUW0 Light-harvesting complex 1 alpha chain n=1 ...  43.5    1e-11
+  UniRef90_A0A2K8UIF9 Light-harvesting protein n=2 Tax=Chromatiac...  43.9    2e-11
+  UniRef90_F9UGR4 Antenna complex alpha/beta subunit n=3 Tax=Thio...  43.1    2e-11
+  UniRef90_A0A167AQE2 Uncharacterized protein n=2 Tax=Ectothiorho...  43.1    3e-11
+  UniRef90_A0A3D4RYU8 Light-harvesting protein n=1 Tax=Chromatiac...  42.7    6e-11
+  UniRef90_A0A161HHF0 Uncharacterized protein n=2 Tax=Ectothiorho...  40.4    3e-10
+  UniRef90_A0A161HR03 Uncharacterized protein n=3 Tax=Ectothiorho...  37.7    4e-09
+  UniRef90_A0A161HGF4 Uncharacterized protein n=3 Tax=Ectothiorho...  37.4    6e-09
+  UniRef90_A0A3M8NY88 Light-harvesting protein n=5 Tax=Marichroma...  35.8    1e-08
+  UniRef90_A0A161NVC8 Uncharacterized protein n=3 Tax=Marichromat...  35.4    6e-08
+  UniRef90_I3YAC6 Antenna complex alpha/beta subunit n=3 Tax=Thio...  30.8    2e-06
+
+
+> UniRef90_P97253 Light-harvesting protein B-800/850 alpha chain 
+n=11 Tax=Phaeospirillum TaxID=85265 RepID=LHA_PHAMO
+Length=57
+
+ Score = 110 bits (274),  Expect = 8e-38, Method: Compositional matrix adjust.
+ Identities = 57/57 (100%), Positives = 57/57 (100%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK
+Sbjct  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+
+
+> UniRef90_H8FQ25 Light-harvesting protein B-800/850 alpha chain 
+A6 n=3 Tax=Phaeospirillum TaxID=85265 RepID=H8FQ25_PHAMO
+Length=57
+
+ Score = 89.4 bits (220),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 43/57 (75%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNPKDDYKIWLVINPSTWLPVIWIVA V A+AVH  VL+ PG+N++A  AAK A K
+Sbjct  1   MSNPKDDYKIWLVINPSTWLPVIWIVALVTALAVHTYVLSVPGYNFLATSAAKHATK  57
+
+
+> UniRef90_H8FQ26 Light-harvesting protein B-800/850 alpha chain 
+A5 n=5 Tax=Phaeospirillum TaxID=85265 RepID=H8FQ26_PHAMO
+Length=57
+
+ Score = 84.3 bits (207),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 41/57 (72%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNPKDDYKIWLVINPSTWLPVIWIV    A+AVH  VL+ PG+N++A  AAK A K
+Sbjct  1   MSNPKDDYKIWLVINPSTWLPVIWIVVLATALAVHTFVLSVPGYNFLASAAAKVATK  57
+
+
+> UniRef90_A0A327KZG3 Light-harvesting protein n=4 Tax=Rhodoplanes 
+TaxID=29407 RepID=A0A327KZG3_9RHIZ
+Length=59
+
+ Score = 80.5 bits (197),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 40/52 (77%), Positives = 44/52 (85%), Gaps = 0/52 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAA  52
+           MSNP+DDYKIWLVINPSTWLPVIWIVA +VAIAVHA VL  P +N+I   AA
+Sbjct  1   MSNPQDDYKIWLVINPSTWLPVIWIVALLVAIAVHAFVLNNPRYNFIDQKAA  52
+
+
+> UniRef90_A0A327L243 Light-harvesting protein n=1 Tax=Rhodoplanes 
+roseus TaxID=29409 RepID=A0A327L243_9RHIZ
+Length=59
+
+ Score = 80.5 bits (197),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAA  56
+           M+NP+DDYKIWLV+NPSTWLPVIWI A VVAIA+HA VL  P +N+I L AA   A
+Sbjct  1   MANPQDDYKIWLVLNPSTWLPVIWIAALVVAIAIHAFVLNNPRYNYIDLKAASEKA  56
+
+
+> UniRef90_A0A327K472 Light-harvesting protein n=1 Tax=Rhodoplanes 
+elegans TaxID=29408 RepID=A0A327K472_9RHIZ
+Length=59
+
+ Score = 78.6 bits (192),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 37/55 (67%), Positives = 43/55 (78%), Gaps = 0/55 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           MSNP+DDYKIWLVINPSTWLPVIWI A +VA+AVHA VL  P +N+I +  A   
+Sbjct  1   MSNPQDDYKIWLVINPSTWLPVIWIAALLVAVAVHAFVLNNPRYNFIDMKTASEQ  55
+
+
+> UniRef90_A0A327KUD9 Light-harvesting protein n=3 Tax=Rhodoplanes 
+TaxID=29407 RepID=A0A327KUD9_9RHIZ
+Length=59
+
+ Score = 77.8 bits (190),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 36/57 (63%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNP+DDYKIWLV+NPSTWLPVIWI A VVAIA+HA VL  P +N++ +  A    +
+Sbjct  1   MSNPQDDYKIWLVLNPSTWLPVIWIAALVVAIAIHAFVLNNPRYNYMDIKTAAEKVQ  57
+
+
+> UniRef90_Q7M119 Light-harvesting protein B800-820 alpha chain 
+n=1 Tax=Phaeospirillum molischianum TaxID=1083 RepID=Q7M119_PHAMO
+Length=56
+
+ Score = 77.4 bits (189),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 36/46 (78%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWI  47
+           SNPKDDYKIWLVINPSTWLPVIWIVA + AIAVH+ VL+ PG+N++
+Sbjct  1   SNPKDDYKIWLVINPSTWLPVIWIVALLTAIAVHSFVLSVPGYNFL  46
+
+
+> UniRef90_J5PGE7 Light-harvesting protein n=2 Tax=Rhodovulum sp. 
+PH10 TaxID=1187851 RepID=J5PGE7_9RHOB
+Length=59
+
+ Score = 76.6 bits (187),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 35/53 (66%), Positives = 43/53 (81%), Gaps = 0/53 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAK  53
+           M+NP+DDYKIWLV+NPSTWLPVIWI A VVAI +HA VL  P +N +++  AK
+Sbjct  1   MANPQDDYKIWLVLNPSTWLPVIWIAALVVAILIHALVLTHPRYNHMSIAQAK  53
+
+
+> UniRef90_A0A327KAC4 Light-harvesting protein n=1 Tax=Rhodoplanes 
+elegans TaxID=29408 RepID=A0A327KAC4_9RHIZ
+Length=59
+
+ Score = 76.3 bits (186),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 39/57 (68%), Positives = 47/57 (82%), Gaps = 3/57 (5%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           M+NP+DDYKIWLVINPSTWLPVIWI A V+A+AVHA VL  P +N+I    AK+AA+
+Sbjct  1   MANPQDDYKIWLVINPSTWLPVIWIAALVIALAVHAFVLNNPRYNFI---DAKTAAE  54
+
+
+> UniRef90_A0A327KZ09 Light-harvesting protein n=1 Tax=Rhodoplanes 
+roseus TaxID=29409 RepID=A0A327KZ09_9RHIZ
+Length=60
+
+ Score = 76.3 bits (186),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 34/55 (62%), Positives = 44/55 (80%), Gaps = 0/55 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSA  55
+           M+NP+DDYKIW+V+NPSTWLPVIWI A VVA+A+HA VL  P +N++ +  A  A
+Sbjct  1   MANPQDDYKIWMVLNPSTWLPVIWIAALVVALAIHAFVLKNPRYNYLDIKTASEA  55
+
+
+> UniRef90_A0A327KFC3 Light-harvesting protein n=1 Tax=Rhodoplanes 
+elegans TaxID=29408 RepID=A0A327KFC3_9RHIZ
+Length=58
+
+ Score = 75.1 bits (183),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 35/57 (61%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNP+DDYKIWLV+NPSTWLPVIWI A VVA+A+HA VL  P ++ +++     A K
+Sbjct  1   MSNPQDDYKIWLVLNPSTWLPVIWIAALVVAVAIHALVLTHPRYSHLSIADKIYAEK  57
+
+
+> UniRef90_H8FN87 Light-harvesting protein B-800/850 alpha chain 
+n=3 Tax=Phaeospirillum TaxID=85265 RepID=H8FN87_PHAMO
+Length=57
+
+ Score = 73.2 bits (178),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 51/57 (89%), Positives = 54/57 (95%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MSNPKDDYKIWLV+NPSTWLPVIW+VA VVAI+VHAAVLA PGFNWIALGAAKSA K
+Sbjct  1   MSNPKDDYKIWLVLNPSTWLPVIWVVAVVVAISVHAAVLAVPGFNWIALGAAKSAVK  57
+
+
+> UniRef90_J6UCH5 Light-harvesting protein n=1 Tax=Rhodovulum sp. 
+PH10 TaxID=1187851 RepID=J6UCH5_9RHOB
+Length=59
+
+ Score = 72.8 bits (177),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 38/56 (68%), Positives = 44/56 (79%), Gaps = 3/56 (5%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAA  56
+           MSNP+DDYKIWLVINPS WLPVIWI   +VA+AVHA VL    +N++   AAKSAA
+Sbjct  1   MSNPQDDYKIWLVINPSNWLPVIWITVLLVAMAVHAFVLNDARYNFL---AAKSAA  53
+
+
+> UniRef90_H8FX80 Light-harvesting protein B-800/850 alpha chain 
+n=2 Tax=Phaeospirillum molischianum TaxID=1083 RepID=H8FX80_PHAMO
+Length=57
+
+ Score = 65.9 bits (159),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 49/57 (86%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           MS  KDD+KIWLVINPSTWLPVIW+VA VVAI+VHAAVLAAPGFNWIALGAA+SA K
+Sbjct  1   MSALKDDHKIWLVINPSTWLPVIWVVAVVVAISVHAAVLAAPGFNWIALGAAQSANK  57
+
+
+> UniRef90_A0A166ZRL6 Light-harvesting protein B-800-850 alpha 
+chain n=6 Tax=Ectothiorhodospiraceae TaxID=72276 RepID=A0A166ZRL6_9GAMM
+Length=65
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/56 (46%), Positives = 37/56 (66%), Gaps = 0/56 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           SNP+DD+K+WLV+NP TWL  I I   VVA+AVHA V +   +N +   A+   ++
+Sbjct  10  SNPRDDWKLWLVVNPGTWLMPILITVLVVALAVHAFVYSNDNYNPLTYDASAEVSE  65
+
+
+> UniRef90_A0A3M8NJ72 Light-harvesting protein n=3 Tax=Marichromatium 
+TaxID=85076 RepID=A0A3M8NJ72_9GAMM
+Length=53
+
+ Score = 53.9 bits (128),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 27/45 (60%), Positives = 34/45 (76%), Gaps = 1/45 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           SNP+DD+KIW+V+NP+TWL  I     V+A+AVHA V AA GF W
+Sbjct  9   SNPQDDWKIWMVVNPATWLMPILYAVLVIALAVHAVVFAA-GFGW  52
+
+
+> UniRef90_A0A1R3W7V1 Light-harvesting protein B-800-850 alpha 
+chain n=1 Tax=Ectothiorhodosinus mongolicus TaxID=233100 RepID=A0A1R3W7V1_9GAMM
+Length=65
+
+ Score = 53.1 bits (126),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/56 (46%), Positives = 36/56 (64%), Gaps = 0/56 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           SNP+DD+K+WLV+NP TWL  I +   VVA+AVHA V +   +N +    + S  K
+Sbjct  10  SNPRDDWKLWLVVNPGTWLMPILMTVLVVALAVHAFVYSNDDYNPLRAEGSFSQTK  65
+
+
+> UniRef90_G4E6J0 Uncharacterized protein n=1 Tax=Thiorhodospira 
+sibirica ATCC 700588 TaxID=765914 RepID=G4E6J0_9GAMM
+Length=61
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 23/45 (51%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           SNP+DD+K+WLV+NPSTWL  I     V+ +A+H  V + PG  W
+Sbjct  13  SNPRDDWKLWLVVNPSTWLIPILFSLFVLGLAIHLYVFSIPGMGW  57
+
+
+> UniRef90_H1G098 Uncharacterized protein n=6 Tax=Ectothiorhodospira 
+TaxID=1051 RepID=H1G098_9GAMM
+Length=66
+
+ Score = 53.1 bits (126),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAA  52
+           SNP+DD+K+WLV+NP TWL  I +   VVA+AVHA V +   +N +   A+
+Sbjct  10  SNPRDDWKLWLVVNPGTWLMPILMAVLVVALAVHAFVYSNDNYNPLTFDAS  60
+
+
+> UniRef90_A0A1H7NTL0 Light-harvesting protein B-800-850 alpha 
+chain n=1 Tax=Ectothiorhodospira marina TaxID=1396821 RepID=A0A1H7NTL0_9GAMM
+Length=67
+
+ Score = 52.4 bits (124),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFN  45
+           SNP+DD+K+WLV+NP TWL  I +   VVA+AVHA V A   +N
+Sbjct  10  SNPRDDWKLWLVVNPGTWLMPILMAVLVVALAVHAFVYANDDYN  53
+
+
+> UniRef90_G2DXI9 Antenna complex subunit alpha/beta n=1 Tax=Thiorhodococcus 
+drewsii AZ1 TaxID=765913 RepID=G2DXI9_9GAMM
+Length=49
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 26/45 (58%), Positives = 32/45 (71%), Gaps = 1/45 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           SNP DD+KIWLV+NP+TWL  I+    V+AIAVHA V +  G  W
+Sbjct  5   SNPADDWKIWLVVNPATWLMPIFFAVLVLAIAVHAVVFSV-GLGW  48
+
+
+> UniRef90_H1G2X7 Uncharacterized protein n=2 Tax=Ectothiorhodospira 
+TaxID=1051 RepID=H1G2X7_9GAMM
+Length=68
+
+ Score = 50.8 bits (120),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFN  45
+           SNP DD+K+WLV+NP TWL  I +   VVA+AVHA V A   +N
+Sbjct  10  SNPADDWKLWLVVNPGTWLMPILMAVLVVALAVHAFVYANDDYN  53
+
+
+> UniRef90_I3YAC0 Antenna complex alpha/beta subunit n=3 Tax=Chromatiaceae 
+TaxID=1046 RepID=I3YAC0_THIV6
+Length=52
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 27/45 (60%), Positives = 32/45 (71%), Gaps = 1/45 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           SNP+DD+KIWLV+NPSTWL  I+    V+AIAVH  V A  G  W
+Sbjct  8   SNPEDDWKIWLVVNPSTWLMPIFYALLVLAIAVHWVVFAV-GLGW  51
+
+
+> UniRef90_C7G526 LH2 alpha polypeptide n=5 Tax=Chromatiaceae TaxID=1046 
+RepID=C7G526_THETI
+Length=52
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 25/45 (56%), Positives = 32/45 (71%), Gaps = 1/45 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+            NP+DD+KIWLV+NP+TWL  I+    V+AIAVHA V +  G  W
+Sbjct  8   RNPEDDWKIWLVVNPATWLMPIFYALLVLAIAVHAVVFSV-GLGW  51
+
+
+> UniRef90_G4E562 Antenna complex alpha/beta subunit n=2 Tax=Thiorhodospira 
+sibirica ATCC 700588 TaxID=765914 RepID=G4E562_9GAMM
+Length=58
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/45 (49%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           SNP DD+K+WLV+NP+ WL  I     V+ IA+H  V + PG  W
+Sbjct  10  SNPADDWKMWLVVNPANWLMPILFSLLVLGIAIHFYVFSIPGMGW  54
+
+
+> UniRef90_A0A0U5ICF5 Light-harvesting protein alpha chain n=7 
+Tax=Thiocapsa TaxID=1056 RepID=A0A0U5ICF5_9GAMM
+Length=54
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/45 (49%), Positives = 31/45 (69%), Gaps = 1/45 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+            NP+DD+K+WLV+NP+TWL  I+    V+A+ +HA V    GF W
+Sbjct  10  KNPEDDWKVWLVLNPATWLMPIFFALLVIALVLHAVVFKM-GFGW  53
+
+
+> UniRef90_A0A1I4PRN9 Light-harvesting protein B-800-850 alpha 
+chain n=1 Tax=Ectothiorhodospira mobilis TaxID=195064 RepID=A0A1I4PRN9_ECTMO
+Length=70
+
+ Score = 48.1 bits (113),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFN  45
+           SNP+DD+K+WLV+NP TWL  I +    VA+ VHA V +   +N
+Sbjct  10  SNPRDDWKLWLVVNPGTWLMPILMAVLFVALVVHAFVYSNDNYN  53
+
+
+> UniRef90_I3Y5T6 Antenna complex alpha/beta subunit n=2 Tax=Thiocystis 
+violascens (strain ATCC 17096 / DSM 198 / 6111) TaxID=765911 
+RepID=I3Y5T6_THIV6
+Length=53
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/45 (49%), Positives = 28/45 (62%), Gaps = 0/45 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+            NP DD+KIWLV+NPSTWL  I     ++ + VH  VL+   F W
+Sbjct  8   KNPDDDWKIWLVVNPSTWLMPILFAVLLIVLTVHVTVLSLGWFTW  52
+
+
+> UniRef90_A0A2S6N383 Light-harvesting protein n=2 Tax=Rhodopila 
+globiformis TaxID=1071 RepID=A0A2S6N383_RHOGL
+Length=57
+
+ Score = 47.4 bits (111),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 28/56 (50%), Positives = 36/56 (64%), Gaps = 1/56 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+            NP DDYK WLV+NP+ WL  I++    VA+ VH  VL +  +NWI+ G AK A K
+Sbjct  3   HNPADDYKFWLVVNPAQWLVPIFLALLAVAVVVHIEVLNSAKYNWIS-GPAKVAVK  57
+
+
+> UniRef90_D3RPS0 Uncharacterized protein n=1 Tax=Allochromatium 
+vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 / NCIMB 
+10441 / D) TaxID=572477 RepID=D3RPS0_ALLVD
+Length=53
+
+ Score = 47.0 bits (110),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 23/45 (51%), Positives = 27/45 (60%), Gaps = 0/45 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           SNP DD+KIWLV+NPSTWL  I      + + VH  VL    F W
+Sbjct  8   SNPADDWKIWLVVNPSTWLMPILFAVLAIVLTVHITVLQLGWFTW  52
+
+
+> UniRef90_W9VY13 Uncharacterized protein n=1 Tax=Imhoffiella purpurea 
+TaxID=1249627 RepID=W9VY13_9GAMM
+Length=49
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/45 (56%), Positives = 31/45 (69%), Gaps = 1/45 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           +NP DD+KIWLV+NP+TWL  I+    V+AIAVH  V A  G  W
+Sbjct  5   NNPADDWKIWLVVNPATWLMPIFYALLVLAIAVHWVVFAV-GLGW  48
+
+
+> UniRef90_G2E8R1 Antenna complex subunit alpha/beta n=1 Tax=Thiorhodococcus 
+drewsii AZ1 TaxID=765913 RepID=G2E8R1_9GAMM
+Length=53
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/47 (53%), Positives = 30/47 (64%), Gaps = 1/47 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIA  48
+            NP+DD+KIWLV+NP+TWL  I      +AIAVH  V A  G  W A
+Sbjct  8   KNPEDDWKIWLVVNPATWLMPILFTVLAIAIAVHWVVFAV-GLGWSA  53
+
+
+> UniRef90_I3YAC4 Uncharacterized protein n=1 Tax=Thiocystis violascens 
+(strain ATCC 17096 / DSM 198 / 6111) TaxID=765911 RepID=I3YAC4_THIV6
+Length=53
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 24/45 (53%), Positives = 30/45 (67%), Gaps = 1/45 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+            NP+DD+KIWLV+NP+TWL  +     +VAIAVH  V A  G  W
+Sbjct  8   KNPEDDWKIWLVVNPATWLMPVLFAVLLVAIAVHWVVFAI-GLGW  51
+
+
+> UniRef90_A0A1H3AV41 Light-harvesting complex 1 alpha chain n=2 
+Tax=Chromatiaceae TaxID=1046 RepID=A0A1H3AV41_ALLWA
+Length=53
+
+ Score = 43.9 bits (102),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 25/47 (53%), Positives = 30/47 (64%), Gaps = 1/47 (2%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIA  48
+            NP+DD+KIWLV+NP+TWL    +    VAIAVH  V A  G  W A
+Sbjct  8   KNPEDDWKIWLVVNPATWLMPYLLAVLGVAIAVHWVVFAV-GLGWHA  53
+
+
+> UniRef90_A0A1H3AUW0 Light-harvesting complex 1 alpha chain n=1 
+Tax=Allochromatium warmingii TaxID=61595 RepID=A0A1H3AUW0_ALLWA
+Length=52
+
+ Score = 43.5 bits (101),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 19/39 (49%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLA  40
+            NP++D+KIWLV+NP+ WL  I+    ++AIAVHA + +
+Sbjct  8   KNPEEDWKIWLVVNPANWLMPIFYALLLLAIAVHAVLFS  46
+
+
+> UniRef90_A0A2K8UIF9 Light-harvesting protein n=2 Tax=Chromatiaceae 
+TaxID=1046 RepID=A0A2K8UIF9_9GAMM
+Length=84
+
+ Score = 43.9 bits (102),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 20/46 (43%), Positives = 29/46 (63%), Gaps = 0/46 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           + +P+DD+KIW VINP+ W+   +IV  V    +H   LA PG+ W
+Sbjct  15  IEHPEDDWKIWTVINPANWMVPWFIVLMVQMWMIHTYALALPGYGW  60
+
+
+> UniRef90_F9UGR4 Antenna complex alpha/beta subunit n=3 Tax=Thiocapsa 
+TaxID=1056 RepID=F9UGR4_9GAMM
+Length=64
+
+ Score = 43.1 bits (100),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 19/42 (45%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  5   KDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           + DY+IWLV+NP+TWL  ++    V+A+AVH    + PG  W
+Sbjct  10  EQDYRIWLVLNPATWLIPMFAALLVIALAVHVYAFSLPGNAW  51
+
+
+> UniRef90_A0A167AQE2 Uncharacterized protein n=2 Tax=Ectothiorhodospiraceae 
+TaxID=72276 RepID=A0A167AQE2_9GAMM
+Length=66
+
+ Score = 43.1 bits (100),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFN  45
+           SNP+DD+K+WLV+NP TWL  I +   VVA+ VHA V +   +N
+Sbjct  10  SNPRDDWKLWLVVNPGTWLMPILMAVLVVALVVHAFVYSNDSYN  53
+
+
+> UniRef90_A0A3D4RYU8 Light-harvesting protein n=1 Tax=Chromatiaceae 
+bacterium TaxID=2049432 RepID=A0A3D4RYU8_9GAMM
+Length=84
+
+ Score = 42.7 bits (99),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 20/46 (43%), Positives = 29/46 (63%), Gaps = 0/46 (0%)
+
+Query  1   MSNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           + +P+DD+KIW VINP+ W+   +IV  V    +H   LA PG+ W
+Sbjct  14  IEHPEDDWKIWTVINPAVWMMPWFIVLMVQMWMIHWYALALPGYGW  59
+
+
+> UniRef90_A0A161HHF0 Uncharacterized protein n=2 Tax=Ectothiorhodospira 
+TaxID=1051 RepID=A0A161HHF0_9GAMM
+Length=65
+
+ Score = 40.4 bits (93),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 25/56 (45%), Positives = 36/56 (64%), Gaps = 0/56 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNWIALGAAKSAAK  57
+           SNPKDD+K+WLV+NP TWL  I +   VVA+ VHA V +   +N +   A+   ++
+Sbjct  10  SNPKDDWKLWLVVNPGTWLMPILMTVLVVALVVHAFVYSNDSYNPLTYDASAEVSE  65
+
+
+> UniRef90_A0A161HR03 Uncharacterized protein n=3 Tax=Ectothiorhodospiraceae 
+TaxID=72276 RepID=A0A161HR03_9GAMM
+Length=70
+
+ Score = 37.7 bits (86),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFN  45
+           SNP+DD+K+WLV+NP TWL  I +   VVA+ VHA V +   +N
+Sbjct  10  SNPRDDWKLWLVVNPGTWLMPILMTVLVVALVVHAFVYSNDSYN  53
+
+
+> UniRef90_A0A161HGF4 Uncharacterized protein n=3 Tax=Ectothiorhodospiraceae 
+TaxID=72276 RepID=A0A161HGF4_9GAMM
+Length=66
+
+ Score = 37.4 bits (85),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFN  45
+           SNP DD+K+WLV+NP TWL  I +   VVA+ VHA V +   +N
+Sbjct  10  SNPSDDWKLWLVVNPGTWLMPILMTVLVVALVVHAFVYSNDNYN  53
+
+
+> UniRef90_A0A3M8NY88 Light-harvesting protein n=5 Tax=Marichromatium 
+TaxID=85076 RepID=A0A3M8NY88_9GAMM
+Length=51
+
+ Score = 35.8 bits (81),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 13/19 (68%), Positives = 18/19 (95%), Gaps = 0/19 (0%)
+
+Query  2   SNPKDDYKIWLVINPSTWL  20
+            NP+DD+KIW+V+NP+TWL
+Sbjct  8   KNPEDDWKIWMVVNPATWL  26
+
+
+> UniRef90_A0A161NVC8 Uncharacterized protein n=3 Tax=Marichromatium 
+TaxID=85076 RepID=A0A161NVC8_MARGR
+Length=114
+
+ Score = 35.4 bits (80),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 21/42 (50%), Positives = 26/42 (62%), Gaps = 0/42 (0%)
+
+Query  5   KDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           + DY+IWLV+NPSTWL  I     VVA+AVH    + P   W
+Sbjct  10  EQDYRIWLVVNPSTWLIPILAAVLVVALAVHVYAFSLPDQGW  51
+
+
+> UniRef90_I3YAC6 Antenna complex alpha/beta subunit n=3 Tax=Thiocystis 
+violascens TaxID=73141 RepID=I3YAC6_THIV6
+Length=73
+
+ Score = 30.8 bits (68),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 19/42 (45%), Positives = 26/42 (62%), Gaps = 0/42 (0%)
+
+Query  5   KDDYKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPGFNW  46
+           + DY+ WLV+NP+TWL    +   VVA+ VHA   + PG  W
+Sbjct  12  EQDYRFWLVVNPATWLIPTLLAVLVVALLVHAVAFSLPGQGW  53
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.131    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 70004
+
+
+  Database: isar.db.189
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 2,812
+  Number of sequences in database:  46
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

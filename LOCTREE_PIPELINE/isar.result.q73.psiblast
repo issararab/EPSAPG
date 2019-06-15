@@ -1,0 +1,89 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.73
+           1 sequences; 262 total letters
+
+Results from round 1
+
+
+Query= Q12270 Golgi.apparatus-M test
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Q12270 Golgi.apparatus-M test                                       529     0.0  
+
+
+> Q12270 Golgi.apparatus-M test
+Length=262
+
+ Score = 529 bits (1363),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 262/262 (100%), Positives = 262/262 (100%), Gaps = 0/262 (0%)
+
+Query  1    MNWKSYVFPGGHPPAALTTGLVVFLTAIYLLSFIFALREDLSLAPESLFKLQMSRLSLYP  60
+            MNWKSYVFPGGHPPAALTTGLVVFLTAIYLLSFIFALREDLSLAPESLFKLQMSRLSLYP
+Sbjct  1    MNWKSYVFPGGHPPAALTTGLVVFLTAIYLLSFIFALREDLSLAPESLFKLQMSRLSLYP  60
+
+Query  61   LIHLSLPHLLFNVLAIWAPLNLFEETHGTVYTGVFLNLSALFAGILYCLLGKLLYPEALV  120
+            LIHLSLPHLLFNVLAIWAPLNLFEETHGTVYTGVFLNLSALFAGILYCLLGKLLYPEALV
+Sbjct  61   LIHLSLPHLLFNVLAIWAPLNLFEETHGTVYTGVFLNLSALFAGILYCLLGKLLYPEALV  120
+
+Query  121  AGASGWCFTLFAYYSFKESQIRPRTRIFRTDYSIPTLYTPLVLLVAIAVVIPGSSFWGHF  180
+            AGASGWCFTLFAYYSFKESQIRPRTRIFRTDYSIPTLYTPLVLLVAIAVVIPGSSFWGHF
+Sbjct  121  AGASGWCFTLFAYYSFKESQIRPRTRIFRTDYSIPTLYTPLVLLVAIAVVIPGSSFWGHF  180
+
+Query  181  FGLCVGYAIGYKESWFNKITPPGWIITKIEKSLDGLIRLIPWGIKYYRDEDIDRTKDYEP  240
+            FGLCVGYAIGYKESWFNKITPPGWIITKIEKSLDGLIRLIPWGIKYYRDEDIDRTKDYEP
+Sbjct  181  FGLCVGYAIGYKESWFNKITPPGWIITKIEKSLDGLIRLIPWGIKYYRDEDIDRTKDYEP  240
+
+Query  241  LMSTETPLPLHNDNSGTVLGTA  262
+            LMSTETPLPLHNDNSGTVLGTA
+Sbjct  241  LMSTETPLPLHNDNSGTVLGTA  262
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.143    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 56169
+
+
+  Database: isar.db.73
+    Posted date:  Jun 12, 2019  5:32 PM
+  Number of letters in database: 262
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

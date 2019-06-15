@@ -1,0 +1,2136 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.180
+           159 sequences; 7,290 total letters
+
+Results from round 1
+
+
+Query= P77921|1qleD|COX4_PARDE 0.86
+
+Length=50
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P77921 Cytochrome c oxidase subunit 4 n=2 Tax=Paracocc...  102     1e-34
+  UniRef90_A0A369TWC6 Aa3-type cytochrome c oxidase subunit IV n=...  91.7    2e-30
+  UniRef90_A0A0V0Q214 MFS transporter n=2 Tax=Paracoccus TaxID=24...  91.3    3e-30
+  UniRef90_A0A1X7L6L1 Aa3 type cytochrome c oxidase subunit IV n=...  89.7    1e-29
+  UniRef90_A0A368YLW6 Aa3 type cytochrome c oxidase subunit IV n=...  83.6    3e-27
+  UniRef90_A0A099EZ06 Aa3 type cytochrome c oxidase subunit IV n=...  80.9    5e-26
+  UniRef90_A0A1N6QJV4 Aa3 type cytochrome c oxidase subunit IV n=...  78.6    4e-25
+  UniRef90_A0A1H8L6Q9 Aa3 type cytochrome c oxidase subunit IV n=...  77.4    1e-24
+  UniRef90_A0A2D2BXH1 Aa3-type cytochrome c oxidase subunit IV n=...  76.6    2e-24
+  UniRef90_A0A3M0MSV8 Aa3-type cytochrome c oxidase subunit IV n=...  76.6    2e-24
+  UniRef90_A0A2T1L2K1 Aa3-type cytochrome c oxidase subunit IV n=...  73.6    3e-23
+  UniRef90_A0A2H5EZW6 Aa3-type cytochrome c oxidase subunit IV n=...  72.0    1e-22
+  UniRef90_A0A238VZ22 Aa3 type cytochrome c oxidase subunit IV n=...  70.5    5e-22
+  UniRef90_A0A239PRT5 Aa3 type cytochrome c oxidase subunit IV n=...  70.5    6e-22
+  UniRef90_A0A2D8X2H8 Aa3-type cytochrome c oxidase subunit IV n=...  68.2    4e-21
+  UniRef90_A3TV99 Aa3-type cytochrome c oxidase subunit IV n=1 Ta...  63.2    4e-19
+  UniRef90_A0A0A0EGB9 Cytochrome C oxidase subunit IV n=2 Tax=Pse...  63.2    4e-19
+  UniRef90_A0A2K9MJ42 Aa3-type cytochrome c oxidase subunit IV n=...  62.4    8e-19
+  UniRef90_A0A1G3GTC8 Cytochrome C oxidase subunit IV n=1 Tax=Rho...  61.2    2e-18
+  UniRef90_A0A1M6FDH6 Aa3 type cytochrome c oxidase subunit IV n=...  61.2    2e-18
+  UniRef90_A0A1G6Z1S9 Aa3 type cytochrome c oxidase subunit IV n=...  60.8    3e-18
+  UniRef90_A0A285IR45 Aa3 type cytochrome c oxidase subunit IV n=...  60.5    5e-18
+  UniRef90_A0A1X6YCL0 Cytochrome c oxidase subunit 4 n=1 Tax=Pseu...  60.1    7e-18
+  UniRef90_A0A1H7ZC87 Aa3 type cytochrome c oxidase subunit IV n=...  59.7    8e-18
+  UniRef90_A0A352UWH8 Aa3-type cytochrome c oxidase subunit IV n=...  59.7    1e-17
+  UniRef90_A0A2K8KID0 Aa3-type cytochrome c oxidase subunit IV n=...  59.3    1e-17
+  UniRef90_A0A258EK34 MFS transporter n=1 Tax=Rhodobacterales bac...  59.3    1e-17
+  UniRef90_A0A2U2C606 Aa3-type cytochrome c oxidase subunit IV n=...  58.9    2e-17
+  UniRef90_A0A3P3DXG4 Aa3-type cytochrome c oxidase subunit IV n=...  58.5    3e-17
+  UniRef90_A0A1Q4CUC1 Cytochrome C oxidase subunit IV n=3 Tax=Rho...  58.5    3e-17
+  UniRef90_A0A2S8S4J7 Aa3 type cytochrome c oxidase subunit IV n=...  58.2    3e-17
+  UniRef90_A0A2G2Q1L8 Aa3-type cytochrome c oxidase subunit IV n=...  57.8    5e-17
+  UniRef90_A0A1H8ABQ6 Aa3 type cytochrome c oxidase subunit IV n=...  57.8    5e-17
+  UniRef90_A0A0P7XSU9 Aa3 type cytochrome c oxidase subunit IV n=...  57.8    5e-17
+  UniRef90_A0A2N3BXB4 Aa3-type cytochrome c oxidase subunit IV n=...  57.8    5e-17
+  UniRef90_A0A1I3UJP3 Aa3 type cytochrome c oxidase subunit IV n=...  57.4    9e-17
+  UniRef90_A0A0B5E6C6 Aa3 type cytochrome c oxidase subunit IV n=...  57.4    9e-17
+  UniRef90_A0A258GHN1 Cytochrome C oxidase subunit IV n=1 Tax=Rho...  57.0    9e-17
+  UniRef90_A0A2E3H3R8 Aa3-type cytochrome c oxidase subunit IV n=...  57.0    9e-17
+  UniRef90_A0A2P8FH34 Aa3 type cytochrome c oxidase subunit IV n=...  57.0    9e-17
+  UniRef90_A0A1X6ZAV5 Cytochrome c oxidase subunit 4 n=1 Tax=Rose...  57.0    1e-16
+  UniRef90_A0A2M7EY53 Aa3-type cytochrome c oxidase subunit IV n=...  57.0    1e-16
+  UniRef90_A0A1G5IT69 Aa3 type cytochrome c oxidase subunit IV n=...  57.0    1e-16
+  UniRef90_A0A1I4HZK6 Aa3 type cytochrome c oxidase subunit IV n=...  57.0    1e-16
+  UniRef90_A0A257GJK9 Aa3-type cytochrome c oxidase subunit IV n=...  56.6    1e-16
+  UniRef90_A0A2R8ANE0 Cytochrome c oxidase subunit 4 n=1 Tax=Prim...  56.6    2e-16
+  UniRef90_A0A365U9P2 Aa3-type cytochrome c oxidase subunit IV n=...  56.6    2e-16
+  UniRef90_C7DCK8 Conserved domain protein n=1 Tax=Thalassobium s...  55.8    3e-16
+  UniRef90_A0A1I5DTG8 Aa3 type cytochrome c oxidase subunit IV n=...  55.8    3e-16
+  UniRef90_A0A1M7B977 Aa3 type cytochrome c oxidase subunit IV n=...  55.5    4e-16
+  UniRef90_A0A399J4Y1 Aa3-type cytochrome c oxidase subunit IV n=...  55.5    4e-16
+  UniRef90_A0A0T5P6S6 Aa3 type cytochrome c oxidase subunit IV n=...  55.1    5e-16
+  UniRef90_A0A2R8BIZ6 Cytochrome c oxidase subunit 4 n=1 Tax=Defl...  55.1    7e-16
+  UniRef90_A0A2E3FA92 Aa3-type cytochrome c oxidase subunit IV n=...  54.7    8e-16
+  UniRef90_A0A2S8ET69 Aa3-type cytochrome c oxidase subunit IV n=...  54.7    8e-16
+  UniRef90_A0A291GDG0 Aa3-type cytochrome c oxidase subunit IV n=...  54.7    8e-16
+  UniRef90_A0A1Y5TFS6 Cytochrome c oxidase subunit 4 n=1 Tax=Pseu...  54.7    9e-16
+  UniRef90_A0A357LTC2 Aa3-type cytochrome c oxidase subunit IV n=...  54.7    1e-15
+  UniRef90_A0A327LTJ9 Aa3-type cytochrome c oxidase subunit IV n=...  54.3    1e-15
+  UniRef90_A0A2M8MZN0 Aa3-type cytochrome c oxidase subunit IV n=...  54.3    1e-15
+  UniRef90_A0A058ZGT6 Aa3 type cytochrome c oxidase subunit IV n=...  54.3    1e-15
+  UniRef90_A0A259DE29 Uncharacterized protein n=3 Tax=unclassifie...  54.3    1e-15
+  UniRef90_A0A0P1EV28 Cytochrome c oxidase subunit 4 n=1 Tax=Shim...  54.3    1e-15
+  UniRef90_A0A1C2HT55 Cytochrome C oxidase subunit IV n=1 Tax=Thi...  54.3    1e-15
+  UniRef90_A0A0P1ICQ4 Cytochrome c oxidase subunit 4 n=2 Tax=Rhod...  53.9    2e-15
+  UniRef90_A0A3D9BX94 Aa3-type cytochrome c oxidase subunit IV n=...  53.9    2e-15
+  UniRef90_A0A0R2TVH0 Cytochrome C oxidase subunit IV n=3 Tax=Rho...  53.9    2e-15
+  UniRef90_A0A085TXT8 Aa3-type cytochrome c oxidase subunit IV n=...  53.9    2e-15
+  UniRef90_A0A159YY83 Aa3 type cytochrome c oxidase subunit IV n=...  53.9    2e-15
+  UniRef90_A0A2R8BAI9 Cytochrome c oxidase subunit 4 n=1 Tax=Asci...  53.9    2e-15
+  UniRef90_A0A1I0XFV5 Aa3 type cytochrome c oxidase subunit IV n=...  53.9    2e-15
+  UniRef90_A0A1Y5RMB1 Cytochrome c oxidase subunit 4 n=1 Tax=Pela...  53.5    2e-15
+  UniRef90_A0A3A3DHG2 Aa3-type cytochrome c oxidase subunit IV n=...  53.9    2e-15
+  UniRef90_A0A1I6HX30 Aa3 type cytochrome c oxidase subunit IV n=...  53.5    2e-15
+  UniRef90_A6FM32 Uncharacterized protein n=1 Tax=Roseobacter sp....  53.9    2e-15
+  UniRef90_A0A0L1JLF2 Cytochrome C oxidase subunit IV n=1 Tax=Pse...  53.5    3e-15
+  UniRef90_A4WVD4 Aa3 type cytochrome c oxidase subunit IV n=2 Ta...  53.9    3e-15
+  UniRef90_A0A2W7QS60 Aa3 type cytochrome c oxidase subunit IV n=...  53.1    4e-15
+  UniRef90_A0A1M5USU5 Aa3 type cytochrome c oxidase subunit IV n=...  53.1    4e-15
+  UniRef90_A0A2E2JQX5 Aa3-type cytochrome c oxidase subunit IV n=...  53.1    4e-15
+  UniRef90_A0A2E8PMM1 Aa3-type cytochrome c oxidase subunit IV n=...  53.1    4e-15
+  UniRef90_A0A2U2CW32 Aa3-type cytochrome c oxidase subunit IV n=...  52.8    5e-15
+  UniRef90_A0A176EX31 Cytochrome C oxidase subunit IV n=1 Tax=Ros...  52.8    5e-15
+  UniRef90_A0A2Y9AW36 Aa3 type cytochrome c oxidase subunit IV n=...  52.4    8e-15
+  UniRef90_K2IKS9 Uncharacterized protein n=3 Tax=Celeribacter ba...  52.0    9e-15
+  UniRef90_A0A1X7BVM2 Cytochrome c oxidase subunit 4 n=1 Tax=Rose...  52.0    9e-15
+  UniRef90_A0A1I4CSX4 Aa3 type cytochrome c oxidase subunit IV n=...  52.0    1e-14
+  UniRef90_A0A0A0HJY7 Bacterial aa3 type cytochrome c oxidase sub...  52.0    1e-14
+  UniRef90_A0A1M7AK60 Aa3 type cytochrome c oxidase subunit IV n=...  52.0    1e-14
+  UniRef90_A0A0P1G0R4 Cytochrome c oxidase subunit 4 n=1 Tax=Trop...  52.0    1e-14
+  UniRef90_A0A239C7E1 Aa3 type cytochrome c oxidase subunit IV n=...  52.0    1e-14
+  UniRef90_A0A099EUZ2 Cytochrome C oxidase subunit IV n=1 Tax=Par...  52.0    1e-14
+  UniRef90_A0A2T7UXJ8 Aa3-type cytochrome c oxidase subunit IV n=...  52.0    1e-14
+  UniRef90_A0A1M5RR61 Aa3 type cytochrome c oxidase subunit IV n=...  52.0    1e-14
+  UniRef90_Q8KRK5 Aa3-type cytochrome c oxidase subunit IV n=12 T...  52.0    1e-14
+  UniRef90_U4V566 Bacterial aa3 type cytochrome c oxidase subunit...  51.6    1e-14
+  UniRef90_A0A0N8K4Q7 Bacterial aa3 type cytochrome c oxidase sub...  51.6    1e-14
+  UniRef90_A0A2G6IME3 Aa3-type cytochrome c oxidase subunit IV n=...  51.6    1e-14
+  UniRef90_A0A1Y5TJP1 Cytochrome c oxidase subunit 4 n=1 Tax=Paci...  51.6    2e-14
+  UniRef90_A0A366JSZ9 Aa3 type cytochrome c oxidase subunit IV n=...  51.6    2e-14
+  UniRef90_A0A254R878 Cytochrome C oxidase subunit IV n=1 Tax=Oce...  51.6    2e-14
+  UniRef90_A0A3B0M6E7 Cytochrome c oxidase subunit 4 n=1 Tax=Rose...  51.2    2e-14
+  UniRef90_A0A0T5NYC9 Cytochrome C oxidase subunit IV n=1 Tax=Ros...  51.2    2e-14
+  UniRef90_A0A2N5IP16 Aa3-type cytochrome c oxidase subunit IV n=...  51.2    2e-14
+  UniRef90_A0A2T4JEV9 Aa3-type cytochrome c oxidase subunit IV n=...  51.2    2e-14
+  UniRef90_A0A2V4N1I1 Aa3-type cytochrome c oxidase subunit IV n=...  51.2    2e-14
+  UniRef90_A0A2S5JLJ7 Aa3 type cytochrome c oxidase subunit IV n=...  50.8    3e-14
+  UniRef90_A0A0P1GH13 Cytochrome c oxidase subunit 4 n=1 Tax=Thal...  50.8    3e-14
+  UniRef90_A0A1X4IZ26 Uncharacterized protein n=1 Tax=Pseudoruege...  50.4    4e-14
+  UniRef90_W8RZ13 Uncharacterized protein n=1 Tax=Roseibacterium ...  50.4    4e-14
+  UniRef90_A0A1Y5RNH7 Cytochrome c oxidase subunit 4 n=1 Tax=Aqui...  50.4    4e-14
+  UniRef90_A0A0P1FGS2 Cytochrome c oxidase subunit 4 n=1 Tax=Thal...  50.4    4e-14
+  UniRef90_A0A0P7WK54 Aa3-type cytochrome oxidase subunit IV CoxD...  50.4    4e-14
+  UniRef90_A0A355WGP1 Aa3-type cytochrome c oxidase subunit IV n=...  50.4    5e-14
+  UniRef90_A0A059IP31 Cytochrome C oxidase subunit IV n=1 Tax=Def...  50.4    5e-14
+  UniRef90_A0A259LU19 Cytochrome C oxidase subunit IV n=1 Tax=Rho...  50.1    6e-14
+  UniRef90_B9KLT4 Aa3-type cytochrome c oxidase subunit IV n=1 Ta...  49.7    7e-14
+  UniRef90_A0A2E3V4W9 Aa3-type cytochrome c oxidase subunit IV n=...  49.7    8e-14
+  UniRef90_A0A1H2U1H8 Aa3 type cytochrome c oxidase subunit IV n=...  50.1    9e-14
+  UniRef90_A0A2E8Q6F5 Aa3-type cytochrome c oxidase subunit IV n=...  49.7    1e-13
+  UniRef90_A0A350LXN1 Aa3-type cytochrome c oxidase subunit IV n=...  49.3    1e-13
+  UniRef90_A0A1L9BTI1 MFS transporter n=2 Tax=Paracoccus TaxID=24...  49.7    1e-13
+  UniRef90_A0A1H2S8R9 Aa3 type cytochrome c oxidase subunit IV n=...  49.3    1e-13
+  UniRef90_A0A1L9NW38 Cytochrome c oxidase subunit 4 n=3 Tax=Rhod...  49.3    1e-13
+  UniRef90_Q0FA25 Uncharacterized protein n=2 Tax=Alphaproteobact...  49.3    1e-13
+  UniRef90_A0A1H4JGF9 Aa3 type cytochrome c oxidase subunit IV n=...  49.3    1e-13
+  UniRef90_A0A2D5TDX9 Aa3-type cytochrome c oxidase subunit IV n=...  48.9    2e-13
+  UniRef90_A0A0H4LBN7 Bacterial aa3 type cytochrome c oxidase sub...  48.9    2e-13
+  UniRef90_A0A1G9NP40 Aa3 type cytochrome c oxidase subunit IV n=...  49.3    2e-13
+  UniRef90_A3VXS2 Uncharacterized protein n=2 Tax=Roseovarius Tax...  48.9    2e-13
+  UniRef90_A0A0L6CZZ6 Cytochrome c oxidase subunit 4 n=2 Tax=Rose...  48.9    2e-13
+  UniRef90_A6E4K6 Uncharacterized protein n=2 Tax=Roseovarius Tax...  48.5    2e-13
+  UniRef90_A0A2V1P451 Aa3-type cytochrome c oxidase subunit IV n=...  48.5    2e-13
+  UniRef90_A0A1I6EBV3 Aa3 type cytochrome c oxidase subunit IV n=...  48.5    3e-13
+  UniRef90_V7ELB5 MFS transporter n=1 Tax=Rhodobacter sp. CACIA14...  48.5    3e-13
+  UniRef90_A0A1H8SXU9 Aa3 type cytochrome c oxidase subunit IV n=...  48.1    3e-13
+  UniRef90_A0A238KSE8 Cytochrome c oxidase subunit 4 n=1 Tax=Conf...  48.1    3e-13
+  UniRef90_A0A221K2N6 Cytochrome c oxidase subunit 4 n=1 Tax=Sulf...  48.1    3e-13
+  UniRef90_A0A238J231 Cytochrome c oxidase subunit 4 n=1 Tax=Bose...  48.1    4e-13
+  UniRef90_A0A3N4U666 Aa3 type cytochrome c oxidase subunit IV n=...  48.1    4e-13
+  UniRef90_A0A1M5PWJ2 Aa3 type cytochrome c oxidase subunit IV n=...  48.1    4e-13
+  UniRef90_A0A3M2DR00 Aa3-type cytochrome c oxidase subunit IV n=...  47.8    5e-13
+  UniRef90_A0A3M1M8I5 Aa3-type cytochrome c oxidase subunit IV n=...  47.8    6e-13
+  UniRef90_A0A073J3Z0 Cytochrome C oxidase subunit IV n=1 Tax=Sul...  47.4    6e-13
+  UniRef90_A0A1H5S905 Aa3 type cytochrome c oxidase subunit IV n=...  47.4    6e-13
+  UniRef90_E0Y0A8 Uncharacterized protein n=1 Tax=uncultured alph...  47.4    6e-13
+  UniRef90_A0A1Y5T690 Cytochrome c oxidase subunit 4 n=1 Tax=Pseu...  47.4    7e-13
+  UniRef90_A0A0U1NL00 Cytochrome c oxidase subunit 4 n=1 Tax=Nere...  47.0    9e-13
+  UniRef90_A0A1X4NLF5 Cytochrome C oxidase subunit IV n=1 Tax=Mar...  47.0    1e-12
+  UniRef90_A0A1N7M7G9 Aa3 type cytochrome c oxidase subunit IV n=...  46.6    1e-12
+  UniRef90_A0A126UZS5 Cytochrome C oxidase subunit IV n=1 Tax=Hal...  45.4    4e-12
+  UniRef90_A0A365U249 Aa3-type cytochrome c oxidase subunit IV n=...  41.6    1e-10
+  UniRef90_A0A0P7W9K1 Bacterial aa3 type cytochrome c oxidase sub...  41.2    2e-10
+  UniRef90_A0A345RHS9 Aa3-type cytochrome c oxidase subunit IV n=...  41.2    2e-10
+  UniRef90_A0A2N4YLF2 Aa3-type cytochrome c oxidase subunit IV n=...  37.7    5e-09
+  UniRef90_A0A0P7YBT8 Bacterial aa3 type cytochrome c oxidase sub...  36.2    2e-08
+  UniRef90_A0A0P1H5D8 Cytochrome c oxidase subunit 4 n=1 Tax=Thal...  35.4    4e-08
+  UniRef90_A0A0K0Y901 Cytochrome c oxidase subunit 4 n=3 Tax=Octa...  34.7    7e-08
+  UniRef90_A0A316G9E5 Aa3 type cytochrome c oxidase subunit IV n=...  33.1    4e-07
+
+
+> UniRef90_P77921 Cytochrome c oxidase subunit 4 n=2 Tax=Paracoccus 
+denitrificans TaxID=266 RepID=COX4_PARDE
+Length=50
+
+ Score = 102 bits (254),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 50/50 (100%), Positives = 50/50 (100%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS
+Sbjct  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+
+
+> UniRef90_A0A369TWC6 Aa3-type cytochrome c oxidase subunit IV 
+n=5 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A369TWC6_PARVE
+Length=50
+
+ Score = 91.7 bits (226),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 42/50 (84%), Positives = 48/50 (96%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MASHHEIT+HKHGEMDIRH QATFAGFIK +TWVS+L+IAVLVF+ALAN+
+Sbjct  1   MASHHEITEHKHGEMDIRHHQATFAGFIKASTWVSVLAIAVLVFMALANA  50
+
+
+> UniRef90_A0A0V0Q214 MFS transporter n=2 Tax=Paracoccus TaxID=249411 
+RepID=A0A0V0Q214_9RHOB
+Length=50
+
+ Score = 91.3 bits (225),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 44/50 (88%), Positives = 47/50 (94%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MASHHEIT+HKHGEMDIR  QATFAGFIK ATWVS+LSIAVLVFLALAN+
+Sbjct  1   MASHHEITEHKHGEMDIRAHQATFAGFIKAATWVSVLSIAVLVFLALANA  50
+
+
+> UniRef90_A0A1X7L6L1 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus sp. J56 TaxID=935850 RepID=A0A1X7L6L1_9RHOB
+Length=50
+
+ Score = 89.7 bits (221),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 42/50 (84%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MASHHEITDHKHGEMDIRHQQATFAGFIK +TWV  L+I VLVFLAL N+
+Sbjct  1   MASHHEITDHKHGEMDIRHQQATFAGFIKASTWVGALAIVVLVFLALTNA  50
+
+
+> UniRef90_A0A368YLW6 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus lutimaris TaxID=1490030 RepID=A0A368YLW6_9RHOB
+Length=50
+
+ Score = 83.6 bits (205),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 37/50 (74%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MASHHEI++HKHGEMDIR QQATFAGF+K + WV  L+IAVL F+AL+NS
+Sbjct  1   MASHHEISEHKHGEMDIRAQQATFAGFVKASVWVCCLAIAVLAFMALSNS  50
+
+
+> UniRef90_A0A099EZ06 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus halophilus TaxID=376733 RepID=A0A099EZ06_9RHOB
+Length=50
+
+ Score = 80.9 bits (198),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 37/50 (74%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MASH+EIT+HKHG+MDIR QQATF GF++   WV ILSI VLVFLALAN 
+Sbjct  1   MASHNEITEHKHGDMDIRAQQATFTGFVRAGVWVCILSILVLVFLALANG  50
+
+
+> UniRef90_A0A1N6QJV4 Aa3 type cytochrome c oxidase subunit IV 
+n=2 Tax=Paracoccus thiocyanatus TaxID=34006 RepID=A0A1N6QJV4_9RHOB
+Length=50
+
+ Score = 78.6 bits (192),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 38/50 (76%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           M SHHEIT+HKHG MDI H QATF GFIK   WVS LSIAVLVF+ALAN+
+Sbjct  1   MVSHHEITEHKHGHMDISHHQATFRGFIKAGIWVSGLSIAVLVFMALANA  50
+
+
+> UniRef90_A0A1H8L6Q9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus alcaliphilus TaxID=34002 RepID=A0A1H8L6Q9_9RHOB
+Length=50
+
+ Score = 77.4 bits (189),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 34/50 (68%), Positives = 43/50 (86%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA+HHEIT+HK+GEMDI   + TFAGFIK ATWV++LSI VL+F+AL N+
+Sbjct  1   MATHHEITEHKYGEMDITEHKKTFAGFIKLATWVTVLSIVVLIFMALTNA  50
+
+
+> UniRef90_A0A2D2BXH1 Aa3-type cytochrome c oxidase subunit IV 
+n=3 Tax=Paracoccus TaxID=249411 RepID=A0A2D2BXH1_9RHOB
+Length=50
+
+ Score = 76.6 bits (187),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 37/50 (74%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MASHHE+T+HKHG MDI   Q TFAGFI+ +TWV  LSIAVL+FLALANS
+Sbjct  1   MASHHEVTEHKHGSMDISDHQKTFAGFIRVSTWVVGLSIAVLIFLALANS  50
+
+
+> UniRef90_A0A3M0MSV8 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus siganidrum TaxID=1276757 RepID=A0A3M0MSV8_9RHOB
+Length=50
+
+ Score = 76.6 bits (187),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 34/50 (68%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA+HHEIT+HKHG MDI  Q+ TF GFI+ + WV++LSI VL+FLALANS
+Sbjct  1   MATHHEITEHKHGSMDITEQKRTFVGFIRLSVWVTVLSILVLIFLALANS  50
+
+
+> UniRef90_A0A2T1L2K1 Aa3-type cytochrome c oxidase subunit IV 
+n=2 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A2T1L2K1_9RHOB
+Length=50
+
+ Score = 73.6 bits (179),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 31/50 (62%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA+HHEIT+H+HG MDI  Q+ TFAGF++ A WVS++SI VL+F+AL N+
+Sbjct  1   MATHHEITEHEHGSMDITQQKQTFAGFVRMAVWVSVISILVLIFMALTNA  50
+
+
+> UniRef90_A0A2H5EZW6 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus zhejiangensis TaxID=1077935 RepID=A0A2H5EZW6_9RHOB
+Length=50
+
+ Score = 72.0 bits (175),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 33/50 (66%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA+HHE T+HKHGEMDI   Q TFAGF+K +TWV I+S+ VLVF+AL N+
+Sbjct  1   MATHHEGTEHKHGEMDITAHQKTFAGFVKLSTWVVIISLGVLVFMALTNA  50
+
+
+> UniRef90_A0A238VZ22 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus sediminis TaxID=1214787 RepID=A0A238VZ22_9RHOB
+Length=51
+
+ Score = 70.5 bits (171),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 33/47 (70%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  4   HHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           HHEIT+HK G MDI  QQ TFAGFI+ ATW +ILSI VL+F+AL NS
+Sbjct  5   HHEITEHKVGTMDISEQQRTFAGFIRFATWTAILSILVLIFMALVNS  51
+
+
+> UniRef90_A0A239PRT5 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus seriniphilus TaxID=184748 RepID=A0A239PRT5_9RHOB
+Length=50
+
+ Score = 70.5 bits (171),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 32/50 (64%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA+HHEI++HK GEMDI  Q+ TFAGFI+  TWVS ++I VL+FLAL+N+
+Sbjct  1   MATHHEISEHKLGEMDITAQRKTFAGFIRMTTWVSGIAIVVLIFLALSNA  50
+
+
+> UniRef90_A0A2D8X2H8 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus sp. TaxID=267 RepID=A0A2D8X2H8_9RHOB
+Length=50
+
+ Score = 68.2 bits (165),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 32/50 (64%), Positives = 38/50 (76%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MAS H+  DHKHG MDI  QQATF GFI+ ATWV ILS+  L+F+AL N+
+Sbjct  1   MASEHDNQDHKHGSMDISQQQATFHGFIRFATWVVILSLLALIFMALTNA  50
+
+
+> UniRef90_A3TV99 Aa3-type cytochrome c oxidase subunit IV n=1 
+Tax=Pseudooceanicola batsensis (strain ATCC BAA-863 / DSM 15984 
+/ KCTC 12145 / HTCC2597) TaxID=252305 RepID=A3TV99_PSEBH
+Length=44
+
+ Score = 63.2 bits (152),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEMDI  Q+ TF GF+K +TWV+++SI +L+FLAL NS
+Sbjct  1   MAEHKHGEMDIEDQEKTFDGFVKMSTWVAVISIGILIFLALFNS  44
+
+
+> UniRef90_A0A0A0EGB9 Cytochrome C oxidase subunit IV n=2 Tax=Pseudooceanicola 
+TaxID=1679449 RepID=A0A0A0EGB9_9RHOB
+Length=44
+
+ Score = 63.2 bits (152),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEMDI  Q+ TF GFIK +TWV+ +SI +L+FLAL NS
+Sbjct  1   MADHKHGEMDIEVQEKTFEGFIKASTWVAGISIGILIFLALFNS  44
+
+
+> UniRef90_A0A2K9MJ42 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus sp. CBA4604 TaxID=2065379 RepID=A0A2K9MJ42_9RHOB
+Length=49
+
+ Score = 62.4 bits (150),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 29/50 (58%), Positives = 38/50 (76%), Gaps = 1/50 (2%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA H++ TDH HGEM+IR  Q TFAGF++ A W  I+S+ VLVF+AL N+
+Sbjct  1   MAEHNQ-TDHVHGEMEIREHQKTFAGFVRLAMWACIISLLVLVFMALTNA  49
+
+
+> UniRef90_A0A1G3GTC8 Cytochrome C oxidase subunit IV n=1 Tax=Rhodobacterales 
+bacterium RIFCSPHIGHO2_02_FULL_62_130 TaxID=1802014 
+RepID=A0A1G3GTC8_9RHOB
+Length=44
+
+ Score = 61.2 bits (147),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HK G MDIR Q+ TFAGF++ +TW +I+S+AVL+F+ALAN+
+Sbjct  1   MAEHKQGSMDIRTQEKTFAGFVRLSTWGAIISVAVLIFMALANA  44
+
+
+> UniRef90_A0A1M6FDH6 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Pseudopelagicola gijangensis TaxID=1470563 RepID=A0A1M6FDH6_9RHOB
+Length=44
+
+ Score = 61.2 bits (147),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           ++DHKHG M+   Q+ TF+GFIK +TWV+ LSIAVL+F+AL NS
+Sbjct  1   MSDHKHGSMNTDVQEKTFSGFIKASTWVAGLSIAVLIFMALVNS  44
+
+
+> UniRef90_A0A1G6Z1S9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus isoporae TaxID=591205 RepID=A0A1G6Z1S9_9RHOB
+Length=49
+
+ Score = 60.8 bits (146),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  3   SHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + ++ T+H+HG MDIR  +  FAGF+K ATW ++LS+ VLVFLAL N+
+Sbjct  2   AQNDATEHEHGTMDIREHEKMFAGFVKFATWSAVLSLGVLVFLALTNA  49
+
+
+> UniRef90_A0A285IR45 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Pseudooceanicola antarcticus TaxID=1247613 RepID=A0A285IR45_9RHOB
+Length=44
+
+ Score = 60.5 bits (145),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEM+I  Q+ TF GFIK + WV+ LSI VL+FLAL NS
+Sbjct  1   MAEHKHGEMEIETQEKTFEGFIKASAWVAGLSIGVLIFLALFNS  44
+
+
+> UniRef90_A0A1X6YCL0 Cytochrome c oxidase subunit 4 n=1 Tax=Pseudooceanicola 
+marinus TaxID=396013 RepID=A0A1X6YCL0_9RHOB
+Length=44
+
+ Score = 60.1 bits (144),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEMDI  Q+ TF GFIK A WV  +SI VLV LAL NS
+Sbjct  1   MAEHKHGEMDIEPQEKTFEGFIKAAMWVCGISIGVLVILALFNS  44
+
+
+> UniRef90_A0A1H7ZC87 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Gemmobacter aquatilis TaxID=933059 RepID=A0A1H7ZC87_9RHOB
+Length=44
+
+ Score = 59.7 bits (143),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 28/42 (67%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHK G MDIR Q+ TFAGFI+   W + +SIAVL+FLALANS
+Sbjct  3   DHKQGSMDIRAQEKTFAGFIRFTIWGAGISIAVLIFLALANS  44
+
+
+> UniRef90_A0A352UWH8 Aa3-type cytochrome c oxidase subunit IV 
+n=3 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A352UWH8_9RHOB
+Length=44
+
+ Score = 59.7 bits (143),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 27/41 (66%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           DHK G MDIR Q+ TFAGFI+   W S LSI VL+FLAL N
+Sbjct  3   DHKQGSMDIREQEKTFAGFIRFTIWGSALSIGVLIFLALTN  43
+
+
+> UniRef90_A0A2K8KID0 Aa3-type cytochrome c oxidase subunit IV 
+n=2 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A2K8KID0_9RHOB
+Length=44
+
+ Score = 59.3 bits (142),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +H+HG+MDI  Q+ TF GF++ +TW +++SI VL+FLALANS
+Sbjct  1   MAEHEHGKMDISEQEKTFNGFVRWSTWGAVISIGVLIFLALANS  44
+
+
+> UniRef90_A0A258EK34 MFS transporter n=1 Tax=Rhodobacterales bacterium 
+32-66-9 TaxID=1970559 RepID=A0A258EK34_9RHOB
+Length=49
+
+ Score = 59.3 bits (142),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 26/50 (52%), Positives = 38/50 (76%), Gaps = 1/50 (2%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA H++  +H HG MDIR ++ TFAGFI+ + WV  ++IAVL+F+AL N+
+Sbjct  1   MADHNQ-PEHAHGSMDIREKERTFAGFIRMSVWVVFITIAVLIFMALVNA  49
+
+
+> UniRef90_A0A2U2C606 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Pararhodobacter sp. CIC4N-9 TaxID=2184063 RepID=A0A2U2C606_9RHOB
+Length=43
+
+ Score = 58.9 bits (141),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 25/41 (61%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           H+HG MD + Q+ TFAGFIK + WV+ +SI +L+FLALANS
+Sbjct  3   HEHGSMDTKEQEKTFAGFIKVSVWVAAISIGILIFLALANS  43
+
+
+> UniRef90_A0A3P3DXG4 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Gemmobacter sp. YIM 102744-1 TaxID=2488730 RepID=A0A3P3DXG4_9RHOB
+Length=44
+
+ Score = 58.5 bits (140),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MD    QATF GFIK ATWV I+S  VL+FLALAN+
+Sbjct  1   MAEHKHGSMDTTVHQATFNGFIKFATWVGIISAVVLIFLALANA  44
+
+
+> UniRef90_A0A1Q4CUC1 Cytochrome C oxidase subunit IV n=3 Tax=Rhodobacterales 
+TaxID=204455 RepID=A0A1Q4CUC1_9RHOB
+Length=44
+
+ Score = 58.5 bits (140),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDIR  + TFAGFI+ +TW + ++I VL+F+ALANS
+Sbjct  1   MAEHKHGSMDIREHEKTFAGFIRMSTWGAGIAIGVLIFMALANS  44
+
+
+> UniRef90_A0A2S8S4J7 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Defluviimonas denitrificans TaxID=404881 RepID=A0A2S8S4J7_9RHOB
+Length=44
+
+ Score = 58.2 bits (139),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +H HG+M++R  + TFAGF++  TW++IL +AVLVFLALAN+
+Sbjct  1   MAEHTHGDMNVRDHEKTFAGFVRMVTWMTILILAVLVFLALANA  44
+
+
+> UniRef90_A0A2G2Q1L8 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Alcanivorax sp. TaxID=1872427 RepID=A0A2G2Q1L8_9GAMM
+Length=44
+
+ Score = 57.8 bits (138),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 23/42 (55%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +HKHGEMDI  Q+ TF GF+K +T+V++ S+ VL+FLA+ N+
+Sbjct  3   EHKHGEMDITEQEKTFDGFVKVSTYVAVFSVLVLIFLAIFNT  44
+
+
+> UniRef90_A0A1H8ABQ6 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Pseudorhodobacter antarcticus TaxID=1077947 RepID=A0A1H8ABQ6_9RHOB
+Length=44
+
+ Score = 57.8 bits (138),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MD + Q+ TF GFI+  TW S++SI VL+F+ALAN 
+Sbjct  1   MAEHKHGSMDTKEQEKTFDGFIRLVTWGSVISIGVLIFMALANG  44
+
+
+> UniRef90_A0A0P7XSU9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium HLUCCA24 TaxID=1666918 RepID=A0A0P7XSU9_9RHOB
+Length=45
+
+ Score = 57.8 bits (138),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 26/42 (62%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEMDI  Q+ TF GF+K + WV  +SI +LVFLA+ NS
+Sbjct  4   DHKHGEMDITEQEKTFEGFVKVSIWVGGVSIFILVFLAIFNS  45
+
+
+> UniRef90_A0A2N3BXB4 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Alphaproteobacteria bacterium HGW-Alphaproteobacteria-6 
+TaxID=2013669 RepID=A0A2N3BXB4_9PROT
+Length=44
+
+ Score = 57.8 bits (138),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +H+HG MD R Q+ATFAGFI+ ATW + ++I VL+F+ALAN+
+Sbjct  1   MAEHEHGNMDTRTQEATFAGFIRLATWGAGIAIVVLIFMALANA  44
+
+
+> UniRef90_A0A1I3UJP3 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Celeribacter neptunius TaxID=588602 RepID=A0A1I3UJP3_9RHOB
+Length=44
+
+ Score = 57.4 bits (137),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEMDI  Q+ TF GFIK ATWV+  +I VL+F+A+ NS
+Sbjct  1   MADHKHGEMDITVQEKTFDGFIKWATWVAGAAIFVLIFMAVFNS  44
+
+
+> UniRef90_A0A0B5E6C6 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Celeribacter indicus TaxID=1208324 RepID=A0A0B5E6C6_9RHOB
+Length=44
+
+ Score = 57.4 bits (137),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           ++D+KHGEMDI  Q+ TF GF+K AT+V+  S+ VL+FLA+ NS
+Sbjct  1   MSDYKHGEMDITAQEKTFNGFLKAATYVAGASVVVLLFLAIFNS  44
+
+
+> UniRef90_A0A258GHN1 Cytochrome C oxidase subunit IV n=1 Tax=Rhodobacterales 
+bacterium 32-67-9 TaxID=1970560 RepID=A0A258GHN1_9RHOB
+Length=44
+
+ Score = 57.0 bits (136),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MD+R Q+ TF  F++  TW +I++I VLVFLALAN+
+Sbjct  1   MAEHKHGSMDVRVQERTFGSFVRMVTWGAIIAIGVLVFLALANA  44
+
+
+> UniRef90_A0A2E3H3R8 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Pseudooceanicola sp. TaxID=1914328 RepID=A0A2E3H3R8_9RHOB
+Length=44
+
+ Score = 57.0 bits (136),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHK GEMD   Q+ TF GF+K +TWV+ +SI +L+FLAL N+
+Sbjct  3   DHKQGEMDTTVQEKTFEGFVKASTWVAGISIGILIFLALFNT  44
+
+
+> UniRef90_A0A2P8FH34 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Shimia abyssi TaxID=1662395 RepID=A0A2P8FH34_9RHOB
+Length=44
+
+ Score = 57.0 bits (136),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 25/43 (58%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           + +HKHG MDI  Q+ TF GFIK +TWV+ +SIA L+F+AL N
+Sbjct  1   MAEHKHGSMDIEVQKKTFEGFIKASTWVAGVSIAALIFIALVN  43
+
+
+> UniRef90_A0A1X6ZAV5 Cytochrome c oxidase subunit 4 n=1 Tax=Roseovarius 
+gaetbuli TaxID=1356575 RepID=A0A1X6ZAV5_9RHOB
+Length=44
+
+ Score = 57.0 bits (136),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEMDI+ Q+ TF GF+K  TW  ++ I VLVF+A+ N 
+Sbjct  3   DHKHGEMDIQVQEKTFDGFVKAVTWSVVVIIGVLVFIAIVNG  44
+
+
+> UniRef90_A0A2M7EY53 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium CG17_big_fil_post_rev_8_21_14_2_50_63_15 
+TaxID=1974082 RepID=A0A2M7EY53_9RHOB
+Length=44
+
+ Score = 57.0 bits (136),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +HKHGEM++  QQ TFAGFIK  TW  +  I +L+F+AL NS
+Sbjct  3   NHKHGEMNVDVQQKTFAGFIKTVTWSVVTIICILIFMALVNS  44
+
+
+> UniRef90_A0A1G5IT69 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus tibetensis TaxID=336292 RepID=A0A1G5IT69_9RHOB
+Length=50
+
+ Score = 57.0 bits (136),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA          G MD+ HQ+ TFAGF++ A WV+ LS+AVL+FLALANS
+Sbjct  1   MADLDNKPGATQGTMDVSHQKKTFAGFLRWAMWVTGLSLAVLIFLALANS  50
+
+
+> UniRef90_A0A1I4HZK6 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Shimia aestuarii TaxID=254406 RepID=A0A1I4HZK6_9RHOB
+Length=44
+
+ Score = 57.0 bits (136),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HK G MDI  Q+ TFAGFIK + WV+ +SI VL+FLAL NS
+Sbjct  1   MAEHKQGSMDISVQEKTFAGFIKASMWVAGVSIGVLIFLALFNS  44
+
+
+> UniRef90_A0A257GJK9 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Pseudorhodobacter sp. PARRP1 TaxID=2015560 RepID=A0A257GJK9_9RHOB
+Length=44
+
+ Score = 56.6 bits (135),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HK G MD R Q+ TF GFI+ ATW +I+ +AVL+F+ALAN+
+Sbjct  1   MAEHKPGSMDTRVQEKTFDGFIRMATWGAIICVAVLIFMALANA  44
+
+
+> UniRef90_A0A2R8ANE0 Cytochrome c oxidase subunit 4 n=1 Tax=Primorskyibacter 
+insulae TaxID=1695997 RepID=A0A2R8ANE0_9RHOB
+Length=44
+
+ Score = 56.6 bits (135),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEMD   Q+ATF GFIK +T+V+  +I  L+F+A+ NS
+Sbjct  1   MADHKHGEMDTSVQEATFVGFIKASTYVAAFAICALLFMAIFNS  44
+
+
+> UniRef90_A0A365U9P2 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodosalinus sp. E84 TaxID=2259333 RepID=A0A365U9P2_9RHOB
+Length=45
+
+ Score = 56.6 bits (135),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/42 (60%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHG MDI  Q+ TF GF+K + WV+ ++I VLVFLA+ NS
+Sbjct  4   DHKHGNMDITEQEKTFEGFVKASIWVAGVAIFVLVFLAIFNS  45
+
+
+> UniRef90_C7DCK8 Conserved domain protein n=1 Tax=Thalassobium 
+sp. R2A62 TaxID=633131 RepID=C7DCK8_9RHOB
+Length=44
+
+ Score = 55.8 bits (133),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           ++DHKHGEMD + Q+ TF GFIK  TW  ++ +A+LVFLAL  +
+Sbjct  1   MSDHKHGEMDTKVQEKTFDGFIKFTTWSVVIIVAILVFLALIGT  44
+
+
+> UniRef90_A0A1I5DTG8 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Roseovarius lutimaris TaxID=1005928 RepID=A0A1I5DTG8_9RHOB
+Length=44
+
+ Score = 55.8 bits (133),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEMDI+ Q+ TF GF+K  TW  ++ I VL+F AL N 
+Sbjct  3   DHKHGEMDIQVQEKTFDGFVKYVTWAVVVIIGVLIFTALVNG  44
+
+
+> UniRef90_A0A1M7B977 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Roseovarius pacificus TaxID=337701 RepID=A0A1M7B977_9RHOB
+Length=44
+
+ Score = 55.5 bits (132),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 24/43 (56%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           + DHKHGEM+I  Q+ TF GF+K  TW S++ + VLVF+AL N
+Sbjct  1   MADHKHGEMNIDVQEKTFNGFVKAVTWSSVVILFVLVFIALVN  43
+
+
+> UniRef90_A0A399J4Y1 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Pseudooceanicola sp. CY03 TaxID=2211117 RepID=A0A399J4Y1_9RHOB
+Length=44
+
+ Score = 55.5 bits (132),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +HKHG+MDI  Q+ TF GF++ +TWV+ L+I  L+FLAL NS
+Sbjct  3   EHKHGDMDIETQEKTFEGFLRTSTWVAGLAIFALIFLALFNS  44
+
+
+> UniRef90_A0A0T5P6S6 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Roseovarius indicus TaxID=540747 RepID=A0A0T5P6S6_9RHOB
+Length=44
+
+ Score = 55.1 bits (131),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEMDI  Q+ TF GFI+   W  +L +  L+F+AL N+
+Sbjct  1   MADHKHGEMDIETQEKTFEGFIRFTAWACVLIVVALIFMALVNA  44
+
+
+> UniRef90_A0A2R8BIZ6 Cytochrome c oxidase subunit 4 n=1 Tax=Defluviimonas 
+aquaemixtae TaxID=1542388 RepID=A0A2R8BIZ6_9RHOB
+Length=44
+
+ Score = 55.1 bits (131),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +H+HG MD +  + TF GFI+  TW +++SIAVL+FLALAN+
+Sbjct  1   MAEHEHGTMDTKDHEKTFEGFIRMVTWGAVISIAVLIFLALANA  44
+
+
+> UniRef90_A0A2E3FA92 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium TaxID=1904441 RepID=A0A2E3FA92_9RHOB
+Length=44
+
+ Score = 54.7 bits (130),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEMD+  Q+ TF GFIK  T+   + IA+L+F+AL NS
+Sbjct  3   DHKHGEMDVTVQEKTFDGFIKFTTYSVYVIIAILIFMALVNS  44
+
+
+> UniRef90_A0A2S8ET69 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium WD3A24 TaxID=2086263 RepID=A0A2S8ET69_9RHOB
+Length=44
+
+ Score = 54.7 bits (130),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 23/42 (55%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEMDI  ++ TF GFI+   W + + I VL+FLAL N+
+Sbjct  3   DHKHGEMDITEKEKTFEGFIRFTVWTTAIIILVLIFLALVNA  44
+
+
+> UniRef90_A0A291GDG0 Aa3-type cytochrome c oxidase subunit IV 
+n=2 Tax=Celeribacter TaxID=875170 RepID=A0A291GDG0_9RHOB
+Length=44
+
+ Score = 54.7 bits (130),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +++HKHG+MDI  Q+ TF GF+K ATWV+ +S+ VL+ LA+ NS
+Sbjct  1   MSEHKHGDMDISVQEKTFEGFVKWATWVAGVSVFVLIILAVFNS  44
+
+
+> UniRef90_A0A1Y5TFS6 Cytochrome c oxidase subunit 4 n=1 Tax=Pseudoruegeria 
+aquimaris TaxID=393663 RepID=A0A1Y5TFS6_9RHOB
+Length=44
+
+ Score = 54.7 bits (130),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 25/42 (60%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           D+K GEMDI  Q+ TFAGFIK  TW + ++I VL+FLA+ NS
+Sbjct  3   DYKPGEMDITVQEKTFAGFIKFVTWGAGIAIGVLIFLAIFNS  44
+
+
+> UniRef90_A0A357LTC2 Aa3-type cytochrome c oxidase subunit IV 
+n=4 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A357LTC2_9RHOB
+Length=44
+
+ Score = 54.7 bits (130),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 24/43 (56%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           +T+HKHGEMDI  Q+ TF G +K  T VSI SI +L+F+A+ N
+Sbjct  1   MTEHKHGEMDIEVQEKTFDGMLKAMTRVSIASIGLLIFIAIVN  43
+
+
+> UniRef90_A0A327LTJ9 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium AsT-22 TaxID=2230886 RepID=A0A327LTJ9_9RHOB
+Length=44
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +++HKHGEMDI+ Q+ TFAGF+K  TW  ++ + +L+F+A+ N+
+Sbjct  1   MSEHKHGEMDIKVQEKTFAGFVKFMTWSVVVIMFLLIFIAMVNA  44
+
+
+> UniRef90_A0A2M8MZN0 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Pseudorhodobacter sp. MZDSW-24AT TaxID=2052957 RepID=A0A2M8MZN0_9RHOB
+Length=44
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDI  Q+  FAGFI+  TW + +SI +L+FLAL N+
+Sbjct  1   MAEHKHGSMDITAQEKAFAGFIRLVTWGACISIGILIFLALVNA  44
+
+
+> UniRef90_A0A058ZGT6 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Actibacterium atlanticum TaxID=1461693 RepID=A0A058ZGT6_9RHOB
+Length=44
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +++HKHG MDI  Q+ TFAGF++ + +V+  SI VL+F+AL NS
+Sbjct  1   MSEHKHGSMDITEQEKTFAGFMRLSAYVAAGSIGVLIFMALVNS  44
+
+
+> UniRef90_A0A259DE29 Uncharacterized protein n=3 Tax=unclassified 
+Rhodobacterales TaxID=285892 RepID=A0A259DE29_9RHOB
+Length=48
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/50 (52%), Positives = 35/50 (70%), Gaps = 2/50 (4%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA H   T H+HG MDIR  + TFAGF++ A W   +++ VL+FLALAN+
+Sbjct  1   MADHD--TKHEHGSMDIRSHEKTFAGFVRMAVWAVAIAMLVLIFLALANA  48
+
+
+> UniRef90_A0A0P1EV28 Cytochrome c oxidase subunit 4 n=1 Tax=Shimia 
+marina TaxID=321267 RepID=A0A0P1EV28_9RHOB
+Length=44
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG M+I  Q+  FAGFIK +++V+  +IAVL+FLAL NS
+Sbjct  1   MAEHKHGSMNIEAQEKAFAGFIKASSYVAGAAIAVLIFLALFNS  44
+
+
+> UniRef90_A0A1C2HT55 Cytochrome C oxidase subunit IV n=1 Tax=Thioclava 
+sp. SK-1 TaxID=1889770 RepID=A0A1C2HT55_9RHOB
+Length=44
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEMDIR  + TFAGF+K  T+  ++ IA LVFLAL  +
+Sbjct  1   MAEHKHGEMDIRDHEKTFAGFVKFVTYTVVVIIAFLVFLALVGA  44
+
+
+> UniRef90_A0A0P1ICQ4 Cytochrome c oxidase subunit 4 n=2 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A0P1ICQ4_9RHOB
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/43 (53%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           ++D+KHG M+I  Q+ TFAGFIK +T+V+  SI  L+F+AL N
+Sbjct  1   MSDYKHGSMNIDVQEKTFAGFIKASTYVAAASIGALIFIALVN  43
+
+
+> UniRef90_A0A3D9BX94 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodosalinus sediminis TaxID=1940533 RepID=A0A3D9BX94_9RHOB
+Length=45
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/42 (52%), Positives = 33/42 (79%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +H+HG+MDI  Q+ TF GF+K + WV+ ++I +LVFLA+ NS
+Sbjct  4   NHEHGKMDITEQEKTFEGFVKASIWVAGVAIGILVFLAIFNS  45
+
+
+> UniRef90_A0A0R2TVH0 Cytochrome C oxidase subunit IV n=3 Tax=Rhodobacter 
+TaxID=1060 RepID=A0A0R2TVH0_9RHOB
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG +DI+ Q+ TFAGFI+  TW + +SI +LVF+AL N+
+Sbjct  1   MAEHKHGSVDIKVQEKTFAGFIRMVTWGAGISIGILVFMALVNA  44
+
+
+> UniRef90_A0A085TXT8 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Thioclava atlantica TaxID=1317124 RepID=A0A085TXT8_9RHOB
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DH+HG M+IR Q+ TF+GF++  T+  I  I VLVFLAL N+
+Sbjct  1   MVDHQHGSMNIRDQEKTFSGFVRFVTYAVIAIICVLVFLALVNA  44
+
+
+> UniRef90_A0A159YY83 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Defluviimonas alba TaxID=1335048 RepID=A0A159YY83_9RHOB
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HK G MDI  Q+ TFAGFI+ A W + LSIA L+FLAL NS
+Sbjct  1   MAEHKPGSMDITVQEKTFAGFIRFAMWGAGLSIAFLIFLALTNS  44
+
+
+> UniRef90_A0A2R8BAI9 Cytochrome c oxidase subunit 4 n=1 Tax=Ascidiaceihabitans 
+donghaensis TaxID=1510460 RepID=A0A2R8BAI9_9RHOB
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/41 (56%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLAL  47
+           + DHKHGEMD + QQ+TF GFIK  TW  +  + +LVF+AL
+Sbjct  1   MADHKHGEMDTKVQQSTFDGFIKFTTWSCVAIVGILVFMAL  41
+
+
+> UniRef90_A0A1I0XFV5 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Poseidonocella pacifica TaxID=871651 RepID=A0A1I0XFV5_9RHOB
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDI  Q+ TF GF++ +TWV+ +SI  +VFLA+ NS
+Sbjct  1   MAEHKHGSMDITDQEKTFEGFVRVSTWVAGISIGAVVFLAIFNS  44
+
+
+> UniRef90_A0A1Y5RMB1 Cytochrome c oxidase subunit 4 n=1 Tax=Pelagicola 
+litorisediminis TaxID=1312363 RepID=A0A1Y5RMB1_9RHOB
+Length=44
+
+ Score = 53.5 bits (127),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEM+I  Q+ TF GF+K   W  ++ IA L+F+AL N 
+Sbjct  3   DHKHGEMNIEVQEKTFDGFVKTVAWACVVIIATLIFIALVNG  44
+
+
+> UniRef90_A0A3A3DHG2 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Paracoccus sp. JM45 TaxID=2283626 RepID=A0A3A3DHG2_9RHOB
+Length=50
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/50 (52%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA   + +    G MDI  QQ TFAGFI+ A WV  LS A LVF+AL N+
+Sbjct  1   MAEQRDNSYSTPGTMDITEQQKTFAGFIRAAIWVIGLSCAALVFMALTNA  50
+
+
+> UniRef90_A0A1I6HX30 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Yoonia tamlensis TaxID=390270 RepID=A0A1I6HX30_9RHOB
+Length=44
+
+ Score = 53.5 bits (127),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/43 (58%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           ++DHKHGEMDI  Q+ TF GFI   T  +ILSI +L+F AL N
+Sbjct  1   MSDHKHGEMDISVQEKTFNGFISMVTKGAILSICILIFAALVN  43
+
+
+> UniRef90_A6FM32 Uncharacterized protein n=1 Tax=Roseobacter sp. 
+AzwK-3b TaxID=351016 RepID=A6FM32_9RHOB
+Length=59
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  3   SHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+            H  + +HKHGEM+I  Q+ TF GFIK  TW ++  I +L+F+A+ N 
+Sbjct  12  GHGNMAEHKHGEMNIEVQEKTFEGFIKWVTWTAVACIVLLLFIAMVNG  59
+
+
+> UniRef90_A0A0L1JLF2 Cytochrome C oxidase subunit IV n=1 Tax=Pseudaestuariivita 
+atlantica TaxID=1317121 RepID=A0A0L1JLF2_9RHOB
+Length=44
+
+ Score = 53.5 bits (127),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +  HKHGEMDI  Q+ TF GF+K + WV+++S+ +++F  L N 
+Sbjct  1   MAKHKHGEMDITEQEKTFEGFVKWSMWVAVVSVGLIIFAGLVNG  44
+
+
+> UniRef90_A4WVD4 Aa3 type cytochrome c oxidase subunit IV n=2 
+Tax=Rhodobacter TaxID=1060 RepID=A4WVD4_RHOS5
+Length=61
+
+ Score = 53.9 bits (128),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 34/50 (68%), Gaps = 1/50 (2%)
+
+Query  1   MASH-HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           MA H H    H  G MDIR QQ TFA FI+  +W +++ +AVL+FLALAN
+Sbjct  11  MADHTHPAHGHVPGTMDIREQQKTFAAFIRMVSWGAVIIVAVLIFLALAN  60
+
+
+> UniRef90_A0A2W7QS60 Aa3 type cytochrome c oxidase subunit IV 
+n=2 Tax=Cereibacter changlensis TaxID=402884 RepID=A0A2W7QS60_9RHOB
+Length=51
+
+ Score = 53.1 bits (126),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 28/51 (55%), Positives = 35/51 (69%), Gaps = 1/51 (2%)
+
+Query  1   MASH-HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA H H+  DH  G MDI   + TFAGFI+  TW +I+SI VLVF+ LAN+
+Sbjct  1   MADHSHDQHDHVVGTMDISDHEKTFAGFIRMVTWGAIISIGVLVFMGLANA  51
+
+
+> UniRef90_A0A1M5USU5 Aa3 type cytochrome c oxidase subunit IV 
+n=2 Tax=Marivita TaxID=659428 RepID=A0A1M5USU5_9RHOB
+Length=44
+
+ Score = 53.1 bits (126),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDI+ Q+ TF GF++ +  V + SIAVL+FLA+ NS
+Sbjct  1   MAEHKHGTMDIKAQEKTFEGFVRWSVRVVVFSIAVLIFLAIFNS  44
+
+
+> UniRef90_A0A2E2JQX5 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodovulum sp. TaxID=34009 RepID=A0A2E2JQX5_9RHOB
+Length=44
+
+ Score = 53.1 bits (126),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HK G MDI  Q+ TF GFIK ATWV+ +SI V++F+ L N 
+Sbjct  1   MAEHKVGSMDISEQEKTFDGFIKFATWVAAISIGVVIFIGLVNG  44
+
+
+> UniRef90_A0A2E8PMM1 Aa3-type cytochrome c oxidase subunit IV 
+n=2 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A2E8PMM1_9RHOB
+Length=50
+
+ Score = 53.1 bits (126),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 24/50 (48%), Positives = 35/50 (70%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA +H+    + G+MDI+ Q+ TF GF++  T  S+LSIA L+F+AL NS
+Sbjct  1   MADNHDAPHFEPGKMDIKEQEKTFEGFLRVITIGSVLSIATLIFMALVNS  50
+
+
+> UniRef90_A0A2U2CW32 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Pelagicola sp. LXJ1103 TaxID=2175247 RepID=A0A2U2CW32_9RHOB
+Length=44
+
+ Score = 52.8 bits (125),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +++HKHGEMDI  Q+  F GF+  +  VS++SI +LVFLAL NS
+Sbjct  1   MSEHKHGEMDITAQEKAFDGFVTWSVRVSVVSIGILVFLALFNS  44
+
+
+> UniRef90_A0A176EX31 Cytochrome C oxidase subunit IV n=1 Tax=Roseovarius 
+sp. HI0049 TaxID=1822235 RepID=A0A176EX31_9RHOB
+Length=44
+
+ Score = 52.8 bits (125),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEMDI   + TF GFI+   W  +L +AVL+ +AL N+
+Sbjct  1   MADHKHGEMDIEAHEKTFEGFIRFTAWNCVLIVAVLILMALVNA  44
+
+
+> UniRef90_A0A2Y9AW36 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Jannaschia seohaensis TaxID=475081 RepID=A0A2Y9AW36_9RHOB
+Length=45
+
+ Score = 52.4 bits (124),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 23/42 (55%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +HKHG MDI  Q+ TFAGF++   W  I+ IAVLVFLA+  +
+Sbjct  4   EHKHGSMDITQQEKTFAGFVQVTKWTVIVIIAVLVFLAIFRT  45
+
+
+> UniRef90_K2IKS9 Uncharacterized protein n=3 Tax=Celeribacter 
+baekdonensis TaxID=875171 RepID=K2IKS9_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + ++KHGEMD   Q+ TFAGFIK +TWV+  +I  L+F+A+ NS
+Sbjct  1   MAEYKHGEMDTSVQEKTFAGFIKWSTWVAGAAIFALIFMAVFNS  44
+
+
+> UniRef90_A0A1X7BVM2 Cytochrome c oxidase subunit 4 n=1 Tax=Roseovarius 
+aestuarii TaxID=475083 RepID=A0A1X7BVM2_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEM+I  Q+ TF GF+K   W  +L    LVFLAL N 
+Sbjct  1   MADHKHGEMNIDVQEKTFEGFVKTVGWSCVLICVFLVFLALVNG  44
+
+
+> UniRef90_A0A1I4CSX4 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Shimia haliotis TaxID=1280847 RepID=A0A1I4CSX4_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +++HG MDI+ Q+  FAGFIK +  VS+ SI VL+FLAL NS
+Sbjct  1   MAENEHGSMDIKVQEEAFAGFIKWSIRVSVFSIGVLIFLALFNS  44
+
+
+> UniRef90_A0A0A0HJY7 Bacterial aa3 type cytochrome c oxidase subunit 
+IV n=2 Tax=Roseovarius TaxID=74030 RepID=A0A0A0HJY7_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEM+I  QQ TF GFIK  T+V++  IA+L+F+A  N 
+Sbjct  1   MAEHKHGEMNIDVQQKTFDGFIKAVTYVAVGCIALLLFIAAVNG  44
+
+
+> UniRef90_A0A1M7AK60 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Roseovarius litoreus TaxID=1155722 RepID=A0A1M7AK60_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEM+I  Q+ TF GFIK  TW ++  I +L+F+A+ N 
+Sbjct  1   MAEHKHGEMNIEVQEKTFEGFIKWVTWTAVGCIVLLLFIAMVNG  44
+
+
+> UniRef90_A0A0P1G0R4 Cytochrome c oxidase subunit 4 n=1 Tax=Tropicibacter 
+naphthalenivorans TaxID=441103 RepID=A0A0P1G0R4_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDI  Q+ TF GFIK +T V+I  IA+ VFLA+ NS
+Sbjct  1   MAEHKHGSMDITVQEKTFEGFIKFSTRVAIACIAIAVFLAVFNS  44
+
+
+> UniRef90_A0A239C7E1 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Tropicimonas sediminicola TaxID=1031541 RepID=A0A239C7E1_9RHOB
+Length=46
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/40 (60%), Positives = 27/40 (68%), Gaps = 0/40 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           HKHG MDI  Q+ TF GFIK     SIL I VL+F+AL N
+Sbjct  6   HKHGSMDISTQEKTFDGFIKMVVRTSILCIVVLIFIALVN  45
+
+
+> UniRef90_A0A099EUZ2 Cytochrome C oxidase subunit IV n=1 Tax=Paracoccus 
+sphaerophysae TaxID=690417 RepID=A0A099EUZ2_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/41 (56%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           H+HG MD   QQ TF GF++  TW ++L+I VLVFLAL N+
+Sbjct  4   HEHGTMDSSAQQRTFEGFVRFMTWSAVLTILVLVFLALTNA  44
+
+
+> UniRef90_A0A2T7UXJ8 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Pararhodobacter aggregans TaxID=404875 RepID=A0A2T7UXJ8_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + ++KHG MD   Q+ TF GFIK + +V+  SIA L+F+ L NS
+Sbjct  1   MAEYKHGSMDTTEQEKTFNGFIKASIYVAAFSIACLIFMGLVNS  44
+
+
+> UniRef90_A0A1M5RR61 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Cognatishimia maritima TaxID=870908 RepID=A0A1M5RR61_9RHOB
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +H+HG M+   Q+ TF GFIK +T+V+  SIA+L+FLAL NS
+Sbjct  1   MAEHEHGTMNTDVQEKTFEGFIKASTYVAAASIAILIFLALFNS  44
+
+
+> UniRef90_Q8KRK5 Aa3-type cytochrome c oxidase subunit IV n=12 
+Tax=Rhodobacteraceae TaxID=31989 RepID=Q8KRK5_RHOSH
+Length=61
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 34/51 (67%), Gaps = 1/51 (2%)
+
+Query  1   MASH-HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           MA H H    H  G MDI  Q+ TFAGF++  TW +++ +A L+FLALAN+
+Sbjct  11  MADHSHPAHGHVAGSMDITQQEKTFAGFVRMVTWAAVVIVAALIFLALANA  61
+
+
+> UniRef90_U4V566 Bacterial aa3 type cytochrome c oxidase subunit 
+IV n=2 Tax=unclassified Rhodobacteraceae TaxID=58840 RepID=U4V566_9RHOB
+Length=44
+
+ Score = 51.6 bits (122),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MD + Q+ TF GFI     +S+LSI +LVF+AL NS
+Sbjct  1   MAEHKHGSMDTKVQEETFNGFISWTVKISLLSIGILVFMALVNS  44
+
+
+> UniRef90_A0A0N8K4Q7 Bacterial aa3 type cytochrome c oxidase subunit 
+IV n=1 Tax=Rhodobacteraceae bacterium HLUCCA08 TaxID=1666913 
+RepID=A0A0N8K4Q7_9RHOB
+Length=44
+
+ Score = 51.6 bits (122),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEMDIR Q+ TFAGF+      SI+ I  L+ LAL N+
+Sbjct  3   DHKHGEMDIRTQEQTFAGFMALTVRASIVIIVALILLALINA  44
+
+
+> UniRef90_A0A2G6IME3 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacterales bacterium TaxID=1948890 RepID=A0A2G6IME3_9RHOB
+Length=44
+
+ Score = 51.6 bits (122),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHK GEMD+  QQ TF GF+K  T  SI+ I +L+F+AL N+
+Sbjct  1   MADHKQGEMDVTVQQQTFDGFMKFMTRGSIVCILILIFMALVNA  44
+
+
+> UniRef90_A0A1Y5TJP1 Cytochrome c oxidase subunit 4 n=1 Tax=Pacificibacter 
+marinus TaxID=658057 RepID=A0A1Y5TJP1_9RHOB
+Length=44
+
+ Score = 51.6 bits (122),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +++HKHGEMDI  Q+ +F GF+K +T V++ SI VLVFLA+  +
+Sbjct  1   MSEHKHGEMDISVQEQSFEGFMKWSTRVAVFSILVLVFLAIFRT  44
+
+
+> UniRef90_A0A366JSZ9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacter sp. 140A TaxID=2183910 RepID=A0A366JSZ9_9RHOB
+Length=44
+
+ Score = 51.6 bits (122),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DH+ G MDIR Q+ TFAGF++  T  +++ +A LVFLALAN 
+Sbjct  1   MADHRMGSMDIRAQERTFAGFLRFVTVGAVVIVAFLVFLALANG  44
+
+
+> UniRef90_A0A254R878 Cytochrome C oxidase subunit IV n=1 Tax=Oceanicola 
+sp. 22II-s10i TaxID=1317116 RepID=A0A254R878_9RHOB
+Length=44
+
+ Score = 51.6 bits (122),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEMD+  Q+ TFAGF+K    V +L I +L+F+A+ NS
+Sbjct  1   MAEHKHGEMDMSAQEKTFAGFMKAVNIVVVLVIFILLFMAVFNS  44
+
+
+> UniRef90_A0A3B0M6E7 Cytochrome c oxidase subunit 4 n=1 Tax=Roseibaca 
+ekhonensis TaxID=254356 RepID=A0A3B0M6E7_9RHOB
+Length=44
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DH+HG+MD   QQ TF GF++  TW + +SI VL+F+AL N 
+Sbjct  1   MADHEHGKMDTTTQQKTFDGFMRMVTWGAGISIGVLIFIALVNG  44
+
+
+> UniRef90_A0A0T5NYC9 Cytochrome C oxidase subunit IV n=1 Tax=Roseovarius 
+atlanticus TaxID=1641875 RepID=A0A0T5NYC9_9RHOB
+Length=45
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/42 (55%), Positives = 31/42 (74%), Gaps = 0/42 (0%)
+
+Query  8   TDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+            +HKHGEMDI+ Q+ TF GFIK +T+V+  SI  L+ LA+ N
+Sbjct  3   NEHKHGEMDIKVQEKTFEGFIKVSTYVAAGSIIFLILLAMIN  44
+
+
+> UniRef90_A0A2N5IP16 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Amylibacter cionae TaxID=2035344 RepID=A0A2N5IP16_9RHOB
+Length=45
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +H+HG+M+I  Q+A F GFI+ +  VS+ SI VL+FLAL NS
+Sbjct  2   MANHEHGKMNIEAQEAAFEGFIRWSIRVSVFSIGVLIFLALFNS  45
+
+
+> UniRef90_A0A2T4JEV9 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacter blasticus DSM 2131 TaxID=1188250 RepID=A0A2T4JEV9_RHOBL
+Length=49
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 21/43 (49%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  8   TDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +++ HG MDIR Q+ TFAGFI+ +T+V+  +I +L+F+ L NS
+Sbjct  7   SEYVHGSMDIRAQEKTFAGFIRMSTFVATAAILILIFMGLVNS  49
+
+
+> UniRef90_A0A2V4N1I1 Aa3-type cytochrome c oxidase subunit IV 
+n=2 Tax=Rhodobacterales TaxID=204455 RepID=A0A2V4N1I1_9RHOB
+Length=44
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEM+   Q+ TF GF+K   WV+  SI VL+ +AL NS
+Sbjct  1   MADHKHGEMNTEVQEKTFEGFLKATAWVTGASIFVLIIMALFNS  44
+
+
+> UniRef90_A0A2S5JLJ7 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Albidovulum inexpectatum TaxID=196587 RepID=A0A2S5JLJ7_9RHOB
+Length=44
+
+ Score = 50.8 bits (120),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +H HG MDIR  + TF GFI+  TW ++  I VLVFLAL N+
+Sbjct  1   MAEHSHGNMDIREHEKTFHGFIRFLTWGAVAVIVVLVFLALTNA  44
+
+
+> UniRef90_A0A0P1GH13 Cytochrome c oxidase subunit 4 n=1 Tax=Thalassobius 
+autumnalis TaxID=2072972 RepID=A0A0P1GH13_9RHOB
+Length=44
+
+ Score = 50.8 bits (120),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEMDI  Q+ T+ GFI    W  +  IA+L+F+AL N+
+Sbjct  1   MAEHKHGEMDIEVQEKTYEGFINFTKWSVVAIIAILIFMALVNA  44
+
+
+> UniRef90_A0A1X4IZ26 Uncharacterized protein n=1 Tax=Pseudoruegeria 
+sp. SK021 TaxID=1933035 RepID=A0A1X4IZ26_9RHOB
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           ++D++HG+MDI  Q+ TFAGF K  T+ +I  I  L+FLALAN 
+Sbjct  1   MSDYEHGKMDIDVQEKTFAGFTKMVTYGTIAVILTLIFLALANG  44
+
+
+> UniRef90_W8RZ13 Uncharacterized protein n=1 Tax=Roseibacterium 
+elongatum DSM 19469 TaxID=1294273 RepID=W8RZ13_9RHOB
+Length=46
+
+ Score = 50.4 bits (119),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 21/40 (53%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  8   TDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLAL  47
+            DHK GEMDI  Q+ TFAGF+K +  ++I++I ++VFLA+
+Sbjct  4   NDHKRGEMDITEQEKTFAGFMKMSVNIAIVAILIVVFLAI  43
+
+
+> UniRef90_A0A1Y5RNH7 Cytochrome c oxidase subunit 4 n=1 Tax=Aquimixticola 
+soesokkakensis TaxID=1519096 RepID=A0A1Y5RNH7_9RHOB
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + ++K G MDI   + T+ GFIK AT+V++ SI VLVFLA+ NS
+Sbjct  1   MAEYKIGSMDISEHEKTYKGFIKVATYVAVASIGVLVFLAIFNS  44
+
+
+> UniRef90_A0A0P1FGS2 Cytochrome c oxidase subunit 4 n=1 Tax=Thalassobius 
+gelatinovorus TaxID=53501 RepID=A0A0P1FGS2_THAGE
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEMD   Q+ TFAGF+    W  +  IA+L+F+AL NS
+Sbjct  1   MAEHKHGEMDAHVQEETFAGFVTFVKWSVVAIIAILIFMALVNS  44
+
+
+> UniRef90_A0A0P7WK54 Aa3-type cytochrome oxidase subunit IV CoxD 
+n=1 Tax=Roseibaca calidilacus TaxID=1666912 RepID=A0A0P7WK54_9RHOB
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           H+HG+MDI  Q+ TF GF++  TW + +SI VL+F+ LAN 
+Sbjct  4   HEHGKMDISTQEKTFDGFMRMVTWGAAISIGVLIFIGLANG  44
+
+
+> UniRef90_A0A355WGP1 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium TaxID=1904441 RepID=A0A355WGP1_9RHOB
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           HKHG M    Q+ TFAGF++G  WV   SI  L+F+A+ NS
+Sbjct  4   HKHGTMGTEAQEKTFAGFVRGVIWVGAFSICALIFMAVFNS  44
+
+
+> UniRef90_A0A059IP31 Cytochrome C oxidase subunit IV n=1 Tax=Defluviimonas 
+sp. 20V17 TaxID=1417296 RepID=A0A059IP31_9RHOB
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           ++K G MDIR  + TF GF+K ATW   ++I  L+FLAL NS
+Sbjct  3   EYKRGTMDIRSHEKTFEGFVKLATWAGGIAILALIFLALVNS  44
+
+
+> UniRef90_A0A259LU19 Cytochrome C oxidase subunit IV n=1 Tax=Rhodobacterales 
+bacterium 34-62-10 TaxID=1970561 RepID=A0A259LU19_9RHOB
+Length=44
+
+ Score = 50.1 bits (118),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEM+   Q+ TF GF++   W  ++SI +L+FLA+ NS
+Sbjct  1   MAEHKHGEMNTEDQEKTFEGFVRYTIWGIVVSIGILLFLAIFNS  44
+
+
+> UniRef90_B9KLT4 Aa3-type cytochrome c oxidase subunit IV n=1 
+Tax=Rhodobacter sphaeroides (strain KD131 / KCTC 12085) TaxID=557760 
+RepID=B9KLT4_RHOSK
+Length=40
+
+ Score = 49.7 bits (117),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 20/38 (53%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  13  GEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           G MDI  Q+ TFAGF++  TW +++ +A L+FLALAN+
+Sbjct  3   GSMDITQQEKTFAGFVRMVTWAAVVIVAALIFLALANA  40
+
+
+> UniRef90_A0A2E3V4W9 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium TaxID=1904441 RepID=A0A2E3V4W9_9RHOB
+Length=44
+
+ Score = 49.7 bits (117),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +T H+HG MD + Q+  F GFIK    +S+ SI VL+FLA+ NS
+Sbjct  1   MTKHEHGSMDTKVQEKVFEGFIKWVVGISVFSIGVLIFLAIFNS  44
+
+
+> UniRef90_A0A1H2U1H8 Aa3 type cytochrome c oxidase subunit IV 
+n=3 Tax=Paracoccus sanguinis TaxID=1545044 RepID=A0A1H2U1H8_9RHOB
+Length=66
+
+ Score = 50.1 bits (118),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           H+HG MDI   + TF GF++  TW ++L+I VL+FLAL N+
+Sbjct  26  HEHGTMDIVEHERTFDGFVRFMTWSAVLTILVLIFLALTNA  66
+
+
+> UniRef90_A0A2E8Q6F5 Aa3-type cytochrome c oxidase subunit IV 
+n=4 Tax=Rhodobacteraceae TaxID=31989 RepID=A0A2E8Q6F5_9RHOB
+Length=44
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +++HKHG MD + Q+ TFAGF+K +T   I+ I +LV +AL N+
+Sbjct  1   MSEHKHGSMDTKDQEKTFAGFVKFSTNTVIVCIVLLVLIALINA  44
+
+
+> UniRef90_A0A350LXN1 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Roseovarius sp. TaxID=1486281 RepID=A0A350LXN1_9RHOB
+Length=44
+
+ Score = 49.3 bits (116),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 25/45 (56%), Positives = 32/45 (71%), Gaps = 2/45 (4%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAV-LVFLALANS  50
+           + DHKHGEMD   Q+ TF GFIK   W S++ IAV L+FLA+ N+
+Sbjct  1   MADHKHGEMDTTVQEKTFEGFIKMTVW-SVVGIAVFLIFLAMVNA  44
+
+
+> UniRef90_A0A1L9BTI1 MFS transporter n=2 Tax=Paracoccus TaxID=249411 
+RepID=A0A1L9BTI1_9RHOB
+Length=50
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/50 (44%), Positives = 30/50 (60%), Gaps = 0/50 (0%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           M +  + +    G MDI   Q TFAGFI+   WV  LS+A L+F+AL N+
+Sbjct  1   MTNKRDNSYSTPGTMDITEHQKTFAGFIRATIWVVCLSLAALIFMALTNA  50
+
+
+> UniRef90_A0A1H2S8R9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Roseicitreum antarcticum TaxID=564137 RepID=A0A1H2S8R9_9RHOB
+Length=44
+
+ Score = 49.3 bits (116),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +  H+HG+MD   Q+  FAGFI+ +TW + +SI VLVFL L N+
+Sbjct  1   MAKHEHGKMDTTQQERAFAGFIRLSTWGAGISIGVLVFLLLTNA  44
+
+
+> UniRef90_A0A1L9NW38 Cytochrome c oxidase subunit 4 n=3 Tax=Rhodobacteraceae 
+TaxID=31989 RepID=A0A1L9NW38_9RHOB
+Length=44
+
+ Score = 49.3 bits (116),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MD   Q+ TF GF+K  TW ++ SI +L+F AL N 
+Sbjct  1   MAEHKHGSMDTSVQEKTFDGFLKYVTWGAVASIGILIFAALVNG  44
+
+
+> UniRef90_Q0FA25 Uncharacterized protein n=2 Tax=Alphaproteobacteria 
+TaxID=28211 RepID=Q0FA25_9RHOB
+Length=45
+
+ Score = 49.3 bits (116),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           HKHGEMD+  Q+  F GFI+ +  +S +SIA+L+F+A+ NS
+Sbjct  5   HKHGEMDVSSQEHAFDGFIRWSIRISCISIAILIFMAIFNS  45
+
+
+> UniRef90_A0A1H4JGF9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacter sp. 24-YEA-8 TaxID=1884310 RepID=A0A1H4JGF9_9RHOB
+Length=49
+
+ Score = 49.3 bits (116),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 26/46 (57%), Positives = 33/46 (72%), Gaps = 0/46 (0%)
+
+Query  5   HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           H+  DH HG MDIR Q+ TFAGFI+ ATW  ++ + VLVFL LA +
+Sbjct  4   HQHGDHTHGSMDIRTQEKTFAGFIRVATWTVVVCVVVLVFLGLART  49
+
+
+> UniRef90_A0A2D5TDX9 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium TaxID=1904441 RepID=A0A2D5TDX9_9RHOB
+Length=44
+
+ Score = 48.9 bits (115),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DH+HG+MD   Q+A F GFI  +  +S+ SIA++VFLA+ NS
+Sbjct  1   MADHEHGKMDTSAQEAAFGGFITWSIRISVASIAIIVFLAIFNS  44
+
+
+> UniRef90_A0A0H4LBN7 Bacterial aa3 type cytochrome c oxidase subunit 
+IV n=1 Tax=Marinovum algicola DG 898 TaxID=988812 RepID=A0A0H4LBN7_9RHOB
+Length=44
+
+ Score = 48.9 bits (115),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/42 (50%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           DHKHGEMDI  Q+ TF GF+     V + +I +L+FLA+ N+
+Sbjct  3   DHKHGEMDITVQEETFNGFVTATIRVVVATILILLFLAIFNT  44
+
+
+> UniRef90_A0A1G9NP40 Aa3 type cytochrome c oxidase subunit IV 
+n=2 Tax=Paracoccus TaxID=249411 RepID=A0A1G9NP40_9RHOB
+Length=60
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/46 (46%), Positives = 30/46 (65%), Gaps = 0/46 (0%)
+
+Query  5   HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           H +  H HG MD+   Q TF GFI+  TW ++  + +L+FLALAN+
+Sbjct  15  HAVAHHDHGTMDVTDHQRTFDGFIRLMTWFAVGVVVILIFLALANA  60
+
+
+> UniRef90_A3VXS2 Uncharacterized protein n=2 Tax=Roseovarius TaxID=74030 
+RepID=A3VXS2_9RHOB
+Length=62
+
+ Score = 48.9 bits (115),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG+M+I  Q+ TF GFIK  T+ +++ IAVL+F+A  N 
+Sbjct  19  MAEHKHGDMNIDVQEKTFDGFIKWVTYTAVVCIAVLLFIAAVNG  62
+
+
+> UniRef90_A0A0L6CZZ6 Cytochrome c oxidase subunit 4 n=2 Tax=Roseovarius 
+tolerans TaxID=74031 RepID=A0A0L6CZZ6_9RHOB
+Length=54
+
+ Score = 48.9 bits (115),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 19/46 (41%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  5   HEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+            ++ +HKHGEM+   Q+ TF GFIK  TW +++ + +L+F+A  N 
+Sbjct  9   RDMAEHKHGEMNTDVQEKTFEGFIKAVTWSAVVIVGLLLFIAAVNG  54
+
+
+> UniRef90_A6E4K6 Uncharacterized protein n=2 Tax=Roseovarius TaxID=74030 
+RepID=A6E4K6_9RHOB
+Length=44
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEM+I  Q+ TF GFIK  T+V+I  I +L+F+A  N 
+Sbjct  1   MAEHKHGEMNIDVQEKTFDGFIKWVTYVAIACIVLLLFIAAVNG  44
+
+
+> UniRef90_A0A2V1P451 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Rhodobacteraceae bacterium WDS4C29 TaxID=1914409 RepID=A0A2V1P451_9RHOB
+Length=44
+
+ Score = 48.5 bits (114),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/41 (54%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           DHKHGEMDI  Q+ TFAGF+      +I+ I  L+ LAL N
+Sbjct  3   DHKHGEMDITEQEKTFAGFMTFTVRTTIVIIVALILLALIN  43
+
+
+> UniRef90_A0A1I6EBV3 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Poseidonocella sedimentorum TaxID=871652 RepID=A0A1I6EBV3_9RHOB
+Length=44
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG M+I  Q+ TF GF++ + W + +SI V++ LA+ NS
+Sbjct  1   MAEHKHGSMNIETQEKTFEGFLRFSAWTAAISIGVVILLAIYNS  44
+
+
+> UniRef90_V7ELB5 MFS transporter n=1 Tax=Rhodobacter sp. CACIA14H1 
+TaxID=1408890 RepID=V7ELB5_9RHOB
+Length=48
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 23/50 (46%), Positives = 32/50 (64%), Gaps = 2/50 (4%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           M  HH  ++H  G MDIR Q+ TFAGF+    W  I+  A+L+F+AL N+
+Sbjct  1   MGDHH--SEHVPGSMDIRAQEKTFAGFMSFTKWGVIIIFAILIFMALVNA  48
+
+
+> UniRef90_A0A1H8SXU9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Salinihabitans flavidus TaxID=569882 RepID=A0A1H8SXU9_9RHOB
+Length=46
+
+ Score = 48.1 bits (113),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/42 (50%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +HKHGEM+   Q+ TFAGF++   W +   IA+L+FLA+ NS
+Sbjct  5   EHKHGEMNTEVQEQTFAGFVRWMMWAAGGVIAILIFLAIFNS  46
+
+
+> UniRef90_A0A238KSE8 Cytochrome c oxidase subunit 4 n=1 Tax=Confluentimicrobium 
+lipolyticum TaxID=1524263 RepID=A0A238KSE8_9RHOB
+Length=44
+
+ Score = 48.1 bits (113),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 20/41 (49%), Positives = 29/41 (71%), Gaps = 0/41 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALAN  49
+           +HKHG MDI  Q+ TF GFI+ +   ++ SIA+L+F+ L N
+Sbjct  3   EHKHGSMDITTQEKTFEGFIRFSIATAVFSIALLIFIGLVN  43
+
+
+> UniRef90_A0A221K2N6 Cytochrome c oxidase subunit 4 n=1 Tax=Sulfitobacter 
+pseudonitzschiae TaxID=1402135 RepID=A0A221K2N6_9RHOB
+Length=44
+
+ Score = 48.1 bits (113),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 29/41 (71%), Gaps = 0/41 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLAL  47
+           + DHKHGEMD + Q+ATF GFI    W  I+ +A L+F+A+
+Sbjct  1   MADHKHGEMDTKVQEATFNGFIAWTKWSVIVILASLIFMAI  41
+
+
+> UniRef90_A0A238J231 Cytochrome c oxidase subunit 4 n=1 Tax=Boseongicola 
+aestuarii TaxID=1470561 RepID=A0A238J231_9RHOB
+Length=44
+
+ Score = 48.1 bits (113),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG M+I   + TFAGF+K +  V I +IAVL+FLA+ N+
+Sbjct  1   MAEHKHGSMNIEDHEKTFAGFMKWSKNVVIFAIAVLIFLAIFNT  44
+
+
+> UniRef90_A0A3N4U666 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Pacificibacter maritimus TaxID=762213 RepID=A0A3N4U666_9RHOB
+Length=44
+
+ Score = 48.1 bits (113),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 22/41 (54%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLAL  47
+           +++HKHGE DI  Q+  F GF+K +T V++ SI VLVFLA+
+Sbjct  1   MSEHKHGEQDIAAQEQAFEGFMKWSTRVAVASIVVLVFLAI  41
+
+
+> UniRef90_A0A1M5PWJ2 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Cognatiyoonia sediminum TaxID=1508389 RepID=A0A1M5PWJ2_9RHOB
+Length=44
+
+ Score = 48.1 bits (113),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +HKHGEMDI  Q+ TF GFI   T  +I+ + +LVFLAL  +
+Sbjct  3   EHKHGEMDISVQEKTFEGFISMTTKATIVILLILVFLALVGA  44
+
+
+> UniRef90_A0A3M2DR00 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Alphaproteobacteria bacterium TaxID=1913988 RepID=A0A3M2DR00_9PROT
+Length=44
+
+ Score = 47.8 bits (112),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDI+  + T+ GFIK   +   + IAVL+FLA+ NS
+Sbjct  1   MAEHKHGTMDIQEHEKTYHGFIKALVYAVAIVIAVLIFLAIFNS  44
+
+
+> UniRef90_A0A3M1M8I5 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Alphaproteobacteria bacterium TaxID=1913988 RepID=A0A3M1M8I5_9PROT
+Length=44
+
+ Score = 47.8 bits (112),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 20/44 (45%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           +  H+HG+MDI   + TF GF+K A W+ ++S  VL+FLA  N+
+Sbjct  1   MVSHRHGDMDIEDHRRTFHGFVKVAIWLCVVSAIVLLFLAAVNA  44
+
+
+> UniRef90_A0A073J3Z0 Cytochrome C oxidase subunit IV n=1 Tax=Sulfitobacter 
+pseudonitzschiae TaxID=1402135 RepID=A0A073J3Z0_9RHOB
+Length=44
+
+ Score = 47.4 bits (111),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 29/41 (71%), Gaps = 0/41 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLAL  47
+           + DHKHGEMDI+ Q+ TF GF+    W  I+ +AVLV +A+
+Sbjct  1   MADHKHGEMDIKVQEDTFNGFMAWTKWSVIVILAVLVLMAI  41
+
+
+> UniRef90_A0A1H5S905 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Jhaorihella thermophila TaxID=488547 RepID=A0A1H5S905_9RHOB
+Length=44
+
+ Score = 47.4 bits (111),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG+MDIR  +  F  F+K  TW  I+ +A+LVFLA+  S
+Sbjct  1   MAEHKHGDMDIREHEEMFHAFVKFMTWSVIVILAILVFLAIFAS  44
+
+
+> UniRef90_E0Y0A8 Uncharacterized protein n=1 Tax=uncultured alpha 
+proteobacterium EB080_L06A09 TaxID=710794 RepID=E0Y0A8_9PROT
+Length=45
+
+ Score = 47.4 bits (111),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 20/41 (49%), Positives = 31/41 (76%), Gaps = 0/41 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           HKHGEMD+  Q+  F GFI+ +  ++++SI VL+F+A+ NS
+Sbjct  5   HKHGEMDVSAQEHAFDGFIRWSIRITLISIGVLIFMAIFNS  45
+
+
+> UniRef90_A0A1Y5T690 Cytochrome c oxidase subunit 4 n=1 Tax=Pseudooctadecabacter 
+jejudonensis TaxID=1391910 RepID=A0A1Y5T690_9RHOB
+Length=44
+
+ Score = 47.4 bits (111),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + DHKHGEMDI  Q+ TFAGF+   T  SI+ I  L+ LA+ N 
+Sbjct  1   MADHKHGEMDISVQEKTFAGFMNWVTKGSIVIIVALILLAMING  44
+
+
+> UniRef90_A0A0U1NL00 Cytochrome c oxidase subunit 4 n=1 Tax=Nereida 
+ignava TaxID=282199 RepID=A0A0U1NL00_9RHOB
+Length=46
+
+ Score = 47.0 bits (110),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 20/38 (53%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  10  HKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLAL  47
+           H+HG+MDI  Q+ TFAGF+K  TW  ++ IA L+ LA+
+Sbjct  6   HEHGKMDIEVQEKTFAGFVKFTTWSVVIIIATLILLAI  43
+
+
+> UniRef90_A0A1X4NLF5 Cytochrome C oxidase subunit IV n=1 Tax=Marivita 
+geojedonensis TaxID=1123756 RepID=A0A1X4NLF5_9RHOB
+Length=44
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDI   + TF GFI+    V+ +SI VL+FLA+ NS
+Sbjct  1   MAEHKHGTMDISEHEKTFDGFIRWTIRVAAVSIGVLIFLAIFNS  44
+
+
+> UniRef90_A0A1N7M7G9 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Gemmobacter megaterium TaxID=1086013 RepID=A0A1N7M7G9_9RHOB
+Length=44
+
+ Score = 46.6 bits (109),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHG MDIR Q+ TFAGFI+   WV  L I +LVF+AL N+
+Sbjct  1   MAEHKHGSMDIRVQEKTFAGFIRFTNWVVALVIVLLVFMALVNA  44
+
+
+> UniRef90_A0A126UZS5 Cytochrome C oxidase subunit IV n=1 Tax=Halocynthiibacter 
+arcticus TaxID=1579316 RepID=A0A126UZS5_9RHOB
+Length=44
+
+ Score = 45.4 bits (106),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGE D+  Q+ TFAGFIK  TW   +SI +L+FLAL N+
+Sbjct  1   MAEHKHGEADVEVQENTFAGFIKLVTWGGGISIGILIFLALFNT  44
+
+
+> UniRef90_A0A365U249 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Roseovarius sp. TE539 TaxID=2249812 RepID=A0A365U249_9RHOB
+Length=44
+
+ Score = 41.6 bits (96),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSILSIAVLVFLALANS  50
+           + +HKHGEMD   Q+ TF GF+K + WV+ + I +L+ +A+ N+
+Sbjct  1   MAEHKHGEMDTTAQEKTFEGFVKASAWVAGICILLLILIAMVNA  44
+
+
+> UniRef90_A0A0P7W9K1 Bacterial aa3 type cytochrome c oxidase subunit 
+IV n=1 Tax=Rhodobacteraceae bacterium HLUCCO07 TaxID=1666914 
+RepID=A0A0P7W9K1_9RHOB
+Length=44
+
+ Score = 41.2 bits (95),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 16/30 (53%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSI  36
+           +++HKHGEMDI  Q+ TF GF+K  TW ++
+Sbjct  1   MSEHKHGEMDITVQEKTFEGFVKFMTWSAV  30
+
+
+> UniRef90_A0A345RHS9 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Sulfitobacter sp. JL08 TaxID=2070369 RepID=A0A345RHS9_9RHOB
+Length=44
+
+ Score = 41.2 bits (95),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 16/29 (55%), Positives = 22/29 (76%), Gaps = 0/29 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGATWVSIL  37
+           DHKHG+MDI+ Q+ TF GF++  TW  I+
+Sbjct  3   DHKHGDMDIKTQEKTFDGFMRFTTWSVIV  31
+
+
+> UniRef90_A0A2N4YLF2 Aa3-type cytochrome c oxidase subunit IV 
+n=1 Tax=Tabrizicola sp. TH137 TaxID=2067452 RepID=A0A2N4YLF2_9RHOB
+Length=48
+
+ Score = 37.7 bits (86),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 21/33 (64%), Gaps = 2/33 (6%)
+
+Query  1   MASHHEITDHKHGEMDIRHQQATFAGFIKGATW  33
+           MA HH   +HK G MDIR Q+ TFAGF+    W
+Sbjct  1   MADHH--PEHKPGSMDIRAQEKTFAGFLAFTKW  31
+
+
+> UniRef90_A0A0P7YBT8 Bacterial aa3 type cytochrome c oxidase subunit 
+IV n=1 Tax=Rhodobacteraceae bacterium HLUCCO18 TaxID=1666917 
+RepID=A0A0P7YBT8_9RHOB
+Length=46
+
+ Score = 36.2 bits (82),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 15/24 (63%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  9   DHKHGEMDIRHQQATFAGFIKGAT  32
+           DHK GEMDI  Q+ TF GFI+ +T
+Sbjct  5   DHKRGEMDITDQEKTFNGFIRLST  28
+
+
+> UniRef90_A0A0P1H5D8 Cytochrome c oxidase subunit 4 n=1 Tax=Thalassobius 
+mediterraneus TaxID=340021 RepID=A0A0P1H5D8_9RHOB
+Length=44
+
+ Score = 35.4 bits (80),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFIKGATWVSIL  37
+           + +HKHGEM+I  Q+ T+ GFI    W  I+
+Sbjct  1   MAEHKHGEMNIDVQEKTYVGFINYTKWSVIV  31
+
+
+> UniRef90_A0A0K0Y901 Cytochrome c oxidase subunit 4 n=3 Tax=Octadecabacter 
+TaxID=53945 RepID=A0A0K0Y901_9RHOB
+Length=44
+
+ Score = 34.7 bits (78),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 14/22 (64%), Positives = 17/22 (77%), Gaps = 0/22 (0%)
+
+Query  7   ITDHKHGEMDIRHQQATFAGFI  28
+           + DHKHGEMDI  Q+ TF GF+
+Sbjct  1   MADHKHGEMDISVQEKTFDGFM  22
+
+
+> UniRef90_A0A316G9E5 Aa3 type cytochrome c oxidase subunit IV 
+n=1 Tax=Silicimonas algicola TaxID=1826607 RepID=A0A316G9E5_9RHOB
+Length=51
+
+ Score = 33.1 bits (74),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  6   EITDHKHGEMDIRHQQATFAGFIK  29
+           ++ +HKHGEMDI   + TF GF++
+Sbjct  7   KMAEHKHGEMDISTHEKTFEGFVR  30
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.132    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 182304
+
+
+  Database: isar.db.180
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 7,290
+  Number of sequences in database:  159
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

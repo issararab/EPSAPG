@@ -1,0 +1,673 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.231
+           47 sequences; 2,105 total letters
+
+Results from round 1
+
+
+Query= Q8DKP6|1jb0X|Q8DKP6_THEEB 0.6410256410256411
+
+Length=39
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_V5V7G4 Photosystem I 4.8K protein PsaX n=5 Tax=Cyanoba...  78.2    7e-26
+  UniRef90_B8HYN3 Photosystem one PsaX n=1 Tax=Cyanothece sp. (st...  56.2    4e-17
+  UniRef90_D7DXC7 Photosystem one PsaX n=7 Tax=Nostocales TaxID=1...  55.8    5e-17
+  UniRef90_A0A2T1DNQ5 Uncharacterized protein n=1 Tax=Phormidesmi...  55.8    6e-17
+  UniRef90_K9PQL5 Photosystem one PsaX n=1 Tax=Calothrix sp. PCC ...  55.1    1e-16
+  UniRef90_A0A2Z6D0R8 Photosystem I 4.8K protein PsaX n=2 Tax=Nos...  55.1    1e-16
+  UniRef90_P23320 Photosystem I 4.8 kDa protein (Fragment) n=1 Ta...  54.3    2e-16
+  UniRef90_K9QVN4 PsaX family n=1 Tax=Nostoc sp. (strain ATCC 294...  54.7    2e-16
+  UniRef90_D4TUN6 Photosystem I 4.8K protein n=7 Tax=Aphanizomeno...  54.7    3e-16
+  UniRef90_A0A1Z4S818 Photosystem I 4.8K protein PsaX n=2 Tax=Nos...  53.9    3e-16
+  UniRef90_P58566 Photosystem I 4.8 kDa protein n=2 Tax=Nostocace...  53.9    3e-16
+  UniRef90_A0A367Q3N5 Photosystem I protein n=1 Tax=Nostoc sp. AT...  53.9    4e-16
+  UniRef90_A0A1Z4GSX5 Photosystem one PsaX n=5 Tax=Nostocales Tax...  53.9    4e-16
+  UniRef90_B2J499 Photosystem one PsaX n=6 Tax=Nostoc TaxID=1177 ...  53.9    4e-16
+  UniRef90_A0A1B7W5H8 Phosphorylase n=4 Tax=Nostocaceae TaxID=116...  53.1    6e-16
+  UniRef90_A0A0D6KLT7 Photosystem I reaction center n=12 Tax=Nost...  52.8    8e-16
+  UniRef90_A0A367RXC6 Photosystem I protein n=2 Tax=Nostoc TaxID=...  52.8    9e-16
+  UniRef90_A0A1Z4UJ89 Photosystem one PsaX n=2 Tax=Nostocales Tax...  52.8    1e-15
+  UniRef90_A0A0X8WTY5 Photosystem I 4.8 kDa protein n=1 Tax=Lepto...  52.4    1e-15
+  UniRef90_A0A1J1LJJ6 Photosystem I 4.8K protein n=1 Tax=Planktot...  52.0    2e-15
+  UniRef90_A0A2Z6C8L9 Photosystem I 4.8K protein n=4 Tax=Planktot...  51.6    2e-15
+  UniRef90_A0A370CKU0 Photosystem one PsaX n=2 Tax=Hapalosiphonac...  52.0    2e-15
+  UniRef90_A0A0S3TLN1 Photosystem I 4.8K protein PsaX n=10 Tax=Fi...  53.1    2e-15
+  UniRef90_A0A1B7VT37 Phosphorylase n=2 Tax=Nostocales TaxID=1161...  51.2    3e-15
+  UniRef90_A0A1Z4R7J8 Photosystem I 4.8K protein n=2 Tax=Calothri...  50.8    5e-15
+  UniRef90_A0A166JX46 Photosystem I protein n=2 Tax=Nodularia spu...  50.8    6e-15
+  UniRef90_W6FY64 Photosystem I 4.8K protein (PsaX) n=1 Tax=Nodul...  51.2    6e-15
+  UniRef90_P23319 Photosystem I 4.8 kDa protein n=2 Tax=Nostocace...  50.4    7e-15
+  UniRef90_A0A1Z4IBQ2 Photosystem I 4.8K protein PsaX n=1 Tax=Nos...  50.4    7e-15
+  UniRef90_A0A0M4SWK8 Photosystem I protein n=2 Tax=Nostoc TaxID=...  50.1    1e-14
+  UniRef90_A0A1U7IFV8 Photosystem one PsaX n=1 Tax=Phormidium amb...  50.1    1e-14
+  UniRef90_K8GHU1 PsaX family protein n=1 Tax=Oscillatoriales cya...  49.7    1e-14
+  UniRef90_A0A139X3E9 Photosystem I protein n=1 Tax=Scytonema hof...  49.3    2e-14
+  UniRef90_A0A1Y0RK82 Photosystem one PsaX n=1 Tax=Nostocales cya...  49.3    3e-14
+  UniRef90_A0A2T1DPP4 Photosystem one PsaX n=1 Tax=filamentous cy...  48.1    7e-14
+  UniRef90_A0A2W7ASG9 Phosphorylase n=1 Tax=Leptolyngbya sp. TaxI...  47.8    8e-14
+  UniRef90_K1WDT5 Uncharacterized protein n=1 Tax=Arthrospira pla...  47.8    1e-13
+  UniRef90_H1WC75 Subunit PsaX of photosystem I reaction centre, ...  47.4    1e-13
+  UniRef90_A0A2T1DUU5 Photosystem one PsaX n=1 Tax=Leptolyngbya f...  47.8    1e-13
+  UniRef90_A0A0C1NEN6 Photosystem I protein n=1 Tax=Tolypothrix b...  46.6    3e-13
+  UniRef90_A0A3M9Z227 Phosphorylase n=1 Tax=Leptolyngbya sp. IPPA...  45.4    6e-13
+  UniRef90_K9RXA6 PsaX family n=1 Tax=Synechococcus sp. (strain A...  40.4    6e-11
+  UniRef90_A0A218Q083 Photosystem I 4.8K protein PsaX n=1 Tax=Nod...  37.0    1e-09
+  UniRef90_K9QDB9 Photosystem one PsaX n=1 Tax=Nostoc sp. PCC 710...  31.2    4e-07
+  UniRef90_A0A1Z4JYF7 Photosystem one PsaX n=1 Tax=Calothrix brev...  30.8    4e-07
+  UniRef90_A0A2I8AGH6 Photosystem I protein n=1 Tax=Nostoc sp. CE...  28.1    5e-06
+  UniRef90_A0A1Z4TJC6 Photosystem I 4.8K protein PsaX n=3 Tax=Hap...  27.7    8e-06
+
+
+> UniRef90_V5V7G4 Photosystem I 4.8K protein PsaX n=5 Tax=Cyanobacteria 
+TaxID=1117 RepID=V5V7G4_9CYAN
+Length=39
+
+ Score = 78.2 bits (191),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK
+Sbjct  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+
+
+> UniRef90_B8HYN3 Photosystem one PsaX n=1 Tax=Cyanothece sp. (strain 
+PCC 7425 / ATCC 29141) TaxID=395961 RepID=B8HYN3_CYAP4
+Length=43
+
+ Score = 56.2 bits (134),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  7   KSAKPTYAFRTFWAVLLLAINFLVAAYYFGIL  38
+           K+ KPTY FRTFWA+LLLAINF+VAAYYF IL
+Sbjct  11  KTNKPTYVFRTFWALLLLAINFIVAAYYFHIL  42
+
+
+> UniRef90_D7DXC7 Photosystem one PsaX n=7 Tax=Nostocales TaxID=1161 
+RepID=D7DXC7_NOSA0
+Length=37
+
+ Score = 55.8 bits (133),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 27/33 (82%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  7   KSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           K+AKPTYAFRT WA+LLLAINFLVAAYYF I+ 
+Sbjct  5   KAAKPTYAFRTGWALLLLAINFLVAAYYFHIID  37
+
+
+> UniRef90_A0A2T1DNQ5 Uncharacterized protein n=1 Tax=Phormidesmis 
+priestleyi ULC007 TaxID=1920490 RepID=A0A2T1DNQ5_9CYAN
+Length=47
+
+ Score = 55.8 bits (133),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 25/33 (76%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  7   KSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           K++KP Y FRT WA+LLL INF+VAAYYFGILK
+Sbjct  15  KTSKPPYPFRTGWALLLLGINFVVAAYYFGILK  47
+
+
+> UniRef90_K9PQL5 Photosystem one PsaX n=1 Tax=Calothrix sp. PCC 
+7507 TaxID=99598 RepID=K9PQL5_9CYAN
+Length=36
+
+ Score = 55.1 bits (131),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  4   MATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           M  KS KP YAFRT WA+ LLAINFLVAAYYF I++
+Sbjct  1   MTAKSGKPNYAFRTGWALFLLAINFLVAAYYFHIIE  36
+
+
+> UniRef90_A0A2Z6D0R8 Photosystem I 4.8K protein PsaX n=2 Tax=Nostocales 
+TaxID=1161 RepID=A0A2Z6D0R8_9NOSO
+Length=45
+
+ Score = 55.1 bits (131),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+LLLA+NFLVAAYYF I++
+Sbjct  8   SPVADSGAKPPYPFRTGWALLLLAVNFLVAAYYFNIIQ  45
+
+
+> UniRef90_P23320 Photosystem I 4.8 kDa protein (Fragment) n=1 
+Tax=Thermosynechococcus vulcanus TaxID=32053 RepID=PSAX_THEVL
+Length=29
+
+ Score = 54.3 bits (129),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  5   ATKSAKPTYAFRTFWAVLLLAINFLVAAY  33
+           ATKSAKPTYAFRTF AVLLLAINFLVAAY
+Sbjct  1   ATKSAKPTYAFRTFXAVLLLAINFLVAAY  29
+
+
+> UniRef90_K9QVN4 PsaX family n=1 Tax=Nostoc sp. (strain ATCC 29411 
+/ PCC 7524) TaxID=28072 RepID=K9QVN4_NOSS7
+Length=44
+
+ Score = 54.7 bits (130),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  4   MATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           +A   AKP YAFRT WA+LLLA+NFLVAAYYF I++
+Sbjct  9   VADSGAKPPYAFRTGWAILLLAVNFLVAAYYFHIIE  44
+
+
+> UniRef90_D4TUN6 Photosystem I 4.8K protein n=7 Tax=Aphanizomenonaceae 
+TaxID=1892259 RepID=D4TUN6_9CYAN
+Length=65
+
+ Score = 54.7 bits (130),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/37 (68%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  3   TMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           T  TK  KP+Y FR  WA+LLLAINFLVAAYYF I++
+Sbjct  29  TSKTKETKPSYVFRASWAILLLAINFLVAAYYFHIIE  65
+
+
+> UniRef90_A0A1Z4S818 Photosystem I 4.8K protein PsaX n=2 Tax=Nostocaceae 
+TaxID=1162 RepID=A0A1Z4S818_9NOSO
+Length=45
+
+ Score = 53.9 bits (128),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 26/38 (68%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+LLLAINFLVAAYYF I++
+Sbjct  8   SAVAETGAKPPYPFRTGWALLLLAINFLVAAYYFHIIE  45
+
+
+> UniRef90_P58566 Photosystem I 4.8 kDa protein n=2 Tax=Nostocaceae 
+TaxID=1162 RepID=PSAX_NOSS1
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/39 (64%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           +S +A   AKP Y FRT WA+LLLA+NFLVAAYYF I++
+Sbjct  6   ISPVANTGAKPPYTFRTGWALLLLAVNFLVAAYYFHIIQ  44
+
+
+> UniRef90_A0A367Q3N5 Photosystem I protein n=1 Tax=Nostoc sp. 
+ATCC 43529 TaxID=1840705 RepID=A0A367Q3N5_9NOSO
+Length=45
+
+ Score = 53.9 bits (128),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP YA+RT WA+ LLAINFLVAAYYF I++
+Sbjct  8   SAVADSGAKPPYAYRTGWAIFLLAINFLVAAYYFHIIE  45
+
+
+> UniRef90_A0A1Z4GSX5 Photosystem one PsaX n=5 Tax=Nostocales TaxID=1161 
+RepID=A0A1Z4GSX5_9CYAN
+Length=45
+
+ Score = 53.9 bits (128),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+ LLAINFLVAAYYF I++
+Sbjct  8   SPVADSGAKPPYPFRTGWALFLLAINFLVAAYYFNIIQ  45
+
+
+> UniRef90_B2J499 Photosystem one PsaX n=6 Tax=Nostoc TaxID=1177 
+RepID=B2J499_NOSP7
+Length=49
+
+ Score = 53.9 bits (128),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 30/38 (79%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP YA+RT WA+ LLAINFLVAAYYF I++
+Sbjct  12  SAVADSGAKPPYAYRTGWAIFLLAINFLVAAYYFHIIE  49
+
+
+> UniRef90_A0A1B7W5H8 Phosphorylase n=4 Tax=Nostocaceae TaxID=1162 
+RepID=A0A1B7W5H8_9NOST
+Length=39
+
+ Score = 53.1 bits (126),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 25/39 (64%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           M+  +  +AKP+Y FRT WA+LLLAINFLVAAYYF I+ 
+Sbjct  1   MTAKSKPAAKPSYVFRTGWALLLLAINFLVAAYYFHIID  39
+
+
+> UniRef90_A0A0D6KLT7 Photosystem I reaction center n=12 Tax=Nostocales 
+TaxID=1161 RepID=A0A0D6KLT7_9CYAN
+Length=45
+
+ Score = 52.8 bits (125),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+ LLAINFLVAAYYF I++
+Sbjct  8   SPVADSGAKPPYPFRTGWALFLLAINFLVAAYYFHIIE  45
+
+
+> UniRef90_A0A367RXC6 Photosystem I protein n=2 Tax=Nostoc TaxID=1177 
+RepID=A0A367RXC6_9NOSO
+Length=45
+
+ Score = 52.8 bits (125),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+ LLAINFLVAAYYF I++
+Sbjct  8   SAVADSGAKPPYPFRTGWALFLLAINFLVAAYYFHIIQ  45
+
+
+> UniRef90_A0A1Z4UJ89 Photosystem one PsaX n=2 Tax=Nostocales TaxID=1161 
+RepID=A0A1Z4UJ89_9CYAN
+Length=38
+
+ Score = 52.8 bits (125),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/37 (68%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  3   TMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           T   K+AKP+Y FR  WA+LLLAINFLVAAYYF I++
+Sbjct  2   TSKGKAAKPSYVFRASWALLLLAINFLVAAYYFQIIE  38
+
+
+> UniRef90_A0A0X8WTY5 Photosystem I 4.8 kDa protein n=1 Tax=Leptolyngbya 
+sp. O-77 TaxID=1080068 RepID=A0A0X8WTY5_9CYAN
+Length=39
+
+ Score = 52.4 bits (124),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           M++    ++KP Y FR  WA+LLL INF+VAAYYFG+LK
+Sbjct  1   MTSKTKPASKPPYTFRAGWALLLLGINFVVAAYYFGVLK  39
+
+
+> UniRef90_A0A1J1LJJ6 Photosystem I 4.8K protein n=1 Tax=Planktothrix 
+tepida PCC 9214 TaxID=671072 RepID=A0A1J1LJJ6_9CYAN
+Length=38
+
+ Score = 52.0 bits (123),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 1/38 (3%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGIL  38
+           M++   KS  P Y FR FWA+LLL INFLVAAYYFGI+
+Sbjct  1   MTSKTQKSGGP-YTFRVFWALLLLGINFLVAAYYFGII  37
+
+
+> UniRef90_A0A2Z6C8L9 Photosystem I 4.8K protein n=4 Tax=Planktothrix 
+TaxID=54304 RepID=A0A2Z6C8L9_PLAAG
+Length=38
+
+ Score = 51.6 bits (122),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/33 (67%), Positives = 28/33 (85%), Gaps = 0/33 (0%)
+
+Query  6   TKSAKPTYAFRTFWAVLLLAINFLVAAYYFGIL  38
+           T+++  +Y FR FWA+LLL INFLVAAYYFGI+
+Sbjct  5   TQTSSGSYTFRAFWAILLLGINFLVAAYYFGII  37
+
+
+> UniRef90_A0A370CKU0 Photosystem one PsaX n=2 Tax=Hapalosiphonaceae 
+TaxID=1892263 RepID=A0A370CKU0_MASLA
+Length=48
+
+ Score = 52.0 bits (123),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  6   TKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           + +AKP Y FRT WA+LLLAINFLVAAYYF I++
+Sbjct  15  STTAKPPYTFRTAWALLLLAINFLVAAYYFHIIE  48
+
+
+> UniRef90_A0A0S3TLN1 Photosystem I 4.8K protein PsaX n=10 Tax=Fischerella 
+TaxID=1190 RepID=A0A0S3TLN1_9CYAN
+Length=94
+
+ Score = 53.1 bits (126),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  6   TKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           + +AKP Y FRT WA+LLLAINFLVAAYYF I++
+Sbjct  61  STTAKPPYTFRTGWALLLLAINFLVAAYYFHIIE  94
+
+
+> UniRef90_A0A1B7VT37 Phosphorylase n=2 Tax=Nostocales TaxID=1161 
+RepID=A0A1B7VT37_9NOST
+Length=39
+
+ Score = 51.2 bits (121),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           M+  +  +AKP+Y FRT WA+LLL +NFLVAAYYF I+ 
+Sbjct  1   MTAKSKPAAKPSYVFRTGWALLLLGVNFLVAAYYFHIID  39
+
+
+> UniRef90_A0A1Z4R7J8 Photosystem I 4.8K protein n=2 Tax=Calothrix 
+TaxID=1186 RepID=A0A1Z4R7J8_9CYAN
+Length=44
+
+ Score = 50.8 bits (120),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 23/37 (62%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGIL  38
+             +     KP Y FRT WA+LLLAINFLVAAYYF I+
+Sbjct  7   QDVPNPGPKPPYTFRTAWAILLLAINFLVAAYYFHII  43
+
+
+> UniRef90_A0A166JX46 Photosystem I protein n=2 Tax=Nodularia spumigena 
+TaxID=70799 RepID=A0A166JX46_NODSP
+Length=44
+
+ Score = 50.8 bits (120),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S + +  AKP Y FR  WA+LLLA+NFLVAAYYF I++
+Sbjct  7   SPVPSTGAKPPYTFRAGWALLLLAVNFLVAAYYFHIIE  44
+
+
+> UniRef90_W6FY64 Photosystem I 4.8K protein (PsaX) n=1 Tax=Nodularia 
+spumigena CCY9414 TaxID=313624 RepID=W6FY64_NODSP
+Length=61
+
+ Score = 51.2 bits (121),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S + +  AKP Y FR  WA+LLLA+NFLVAAYYF I++
+Sbjct  24  SPVPSTGAKPPYTFRAGWALLLLAVNFLVAAYYFHIIE  61
+
+
+> UniRef90_P23319 Photosystem I 4.8 kDa protein n=2 Tax=Nostocaceae 
+TaxID=1162 RepID=PSAX_ANAVT
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 28/36 (78%), Gaps = 0/36 (0%)
+
+Query  4   MATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           +A   AKP Y FRT WA+LLL +NFLVAAYYF I++
+Sbjct  9   VANTGAKPPYTFRTAWALLLLGVNFLVAAYYFHIIQ  44
+
+
+> UniRef90_A0A1Z4IBQ2 Photosystem I 4.8K protein PsaX n=1 Tax=Nostoc 
+sp. NIES-2111 TaxID=1973475 RepID=A0A1Z4IBQ2_9NOSO
+Length=44
+
+ Score = 50.4 bits (119),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +    AKP Y FRT WA+LLLA+NF+VAAYYF I++
+Sbjct  7   SAVPDTGAKPPYTFRTGWALLLLAVNFVVAAYYFHIIE  44
+
+
+> UniRef90_A0A0M4SWK8 Photosystem I protein n=2 Tax=Nostoc TaxID=1177 
+RepID=A0A0M4SWK8_9NOSO
+Length=45
+
+ Score = 50.1 bits (118),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+ LLA+N LVAAYYF I++
+Sbjct  8   SAVADSGAKPPYPFRTGWALFLLAVNLLVAAYYFHIIE  45
+
+
+> UniRef90_A0A1U7IFV8 Photosystem one PsaX n=1 Tax=Phormidium ambiguum 
+IAM M-71 TaxID=454136 RepID=A0A1U7IFV8_9CYAN
+Length=44
+
+ Score = 50.1 bits (118),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/33 (67%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  7   KSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           K+ KP Y FRT WA+ LLA+NFLVAAYYF I++
+Sbjct  12  KTGKPPYPFRTGWALFLLAVNFLVAAYYFHIIE  44
+
+
+> UniRef90_K8GHU1 PsaX family protein n=1 Tax=Oscillatoriales cyanobacterium 
+JSC-12 TaxID=864702 RepID=K8GHU1_9CYAN
+Length=37
+
+ Score = 49.7 bits (117),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/39 (64%), Positives = 28/39 (72%), Gaps = 2/39 (5%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           M+T A K  KP Y FR  WA+LLLAINFLVA YY G +K
+Sbjct  1   MTTQADK--KPNYTFRASWALLLLAINFLVAGYYHGFIK  37
+
+
+> UniRef90_A0A139X3E9 Photosystem I protein n=1 Tax=Scytonema hofmannii 
+PCC 7110 TaxID=128403 RepID=A0A139X3E9_9CYAN
+Length=48
+
+ Score = 49.3 bits (116),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/31 (81%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  8   SAKPTYAFRTFWAVLLLAINFLVAAYYFGIL  38
+            AK  Y FRT WAVLLLAINFLVAAYYF IL
+Sbjct  17  EAKAPYPFRTGWAVLLLAINFLVAAYYFQIL  47
+
+
+> UniRef90_A0A1Y0RK82 Photosystem one PsaX n=1 Tax=Nostocales cyanobacterium 
+HT-58-2 TaxID=1940762 RepID=A0A1Y0RK82_9CYAN
+Length=53
+
+ Score = 49.3 bits (116),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+             +A   AK  Y FRT WA++LLAINFLVAAYYF IL+
+Sbjct  16  EDVAKTGAKAPYPFRTTWAIVLLAINFLVAAYYFHILE  53
+
+
+> UniRef90_A0A2T1DPP4 Photosystem one PsaX n=1 Tax=filamentous 
+cyanobacterium CCP2 TaxID=2107700 RepID=A0A2T1DPP4_9CYAN
+Length=44
+
+ Score = 48.1 bits (113),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  6   TKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           T S    Y FRT WA++LLAINF+VAA+YFG+LK
+Sbjct  11  TPSGSAPYPFRTTWALVLLAINFVVAAFYFGLLK  44
+
+
+> UniRef90_A0A2W7ASG9 Phosphorylase n=1 Tax=Leptolyngbya sp. TaxID=47254 
+RepID=A0A2W7ASG9_9CYAN
+Length=39
+
+ Score = 47.8 bits (112),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 24/39 (62%), Positives = 30/39 (77%), Gaps = 1/39 (3%)
+
+Query  1   MSTMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           M+T AT + KP+Y FR FWA+LLLA+NFLVAA Y  I+ 
+Sbjct  1   MATQAT-TKKPSYTFRAFWAILLLAVNFLVAAIYAHIVN  38
+
+
+> UniRef90_K1WDT5 Uncharacterized protein n=1 Tax=Arthrospira platensis 
+C1 TaxID=459495 RepID=K1WDT5_ARTPT
+Length=50
+
+ Score = 47.8 bits (112),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/38 (55%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+             MA KS    Y FRTFWA++LL IN +VA YYF I++
+Sbjct  13  ENMAKKSGGFPYPFRTFWAIVLLGINLVVAGYYFHIIQ  50
+
+
+> UniRef90_H1WC75 Subunit PsaX of photosystem I reaction centre, 
+Photosystem I 4.8 kDa protein (Modular protein) n=3 Tax=Arthrospira 
+TaxID=35823 RepID=H1WC75_9CYAN
+Length=36
+
+ Score = 47.4 bits (111),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 21/36 (58%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  4   MATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           MA KS    Y FRTFWA++LL IN +VA YYF I++
+Sbjct  1   MANKSGGFPYPFRTFWAIVLLGINLVVAGYYFHIIQ  36
+
+
+> UniRef90_A0A2T1DUU5 Photosystem one PsaX n=1 Tax=Leptolyngbya 
+frigida ULC18 TaxID=2107698 RepID=A0A2T1DUU5_9CYAN
+Length=47
+
+ Score = 47.8 bits (112),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           +T  TK+  P Y FRTFWA+LLL +NF VAA Y G L 
+Sbjct  9   ATPVTKTGSPPYPFRTFWALLLLGVNFFVAAIYAGYLN  46
+
+
+> UniRef90_A0A0C1NEN6 Photosystem I protein n=1 Tax=Tolypothrix 
+bouteillei VB521301 TaxID=1479485 RepID=A0A0C1NEN6_9CYAN
+Length=48
+
+ Score = 46.6 bits (109),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 24/37 (65%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGIL  38
+             +A   A   Y FRT WAVLLLAINFLVAA+YF IL
+Sbjct  11  EDVAKTGATAPYPFRTGWAVLLLAINFLVAAFYFHIL  47
+
+
+> UniRef90_A0A3M9Z227 Phosphorylase n=1 Tax=Leptolyngbya sp. IPPAS 
+B-1204 TaxID=2483801 RepID=A0A3M9Z227_9CYAN
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 24/36 (67%), Positives = 28/36 (78%), Gaps = 0/36 (0%)
+
+Query  4   MATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           M TK+ KP Y FR  WA+LLL  NFLVAA+YFG+LK
+Sbjct  1   MTTKTGKPPYTFRASWALLLLLGNFLVAAFYFGLLK  36
+
+
+> UniRef90_K9RXA6 PsaX family n=1 Tax=Synechococcus sp. (strain 
+ATCC 27167 / PCC 6312) TaxID=195253 RepID=K9RXA6_SYNP3
+Length=39
+
+ Score = 40.4 bits (93),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 18/25 (72%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
+
+Query  15  FRTFWAVLLLAINFLVAAYYFGILK  39
+           FR  WAVLLL INF+VA YYFG++K
+Sbjct  15  FRASWAVLLLIINFVVAGYYFGVIK  39
+
+
+> UniRef90_A0A218Q083 Photosystem I 4.8K protein PsaX n=1 Tax=Nodularia 
+sp. NIES-3585 TaxID=1973477 RepID=A0A218Q083_9CYAN
+Length=44
+
+ Score = 37.0 bits (84),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 23/38 (61%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +    AKP Y FR  WA+LLLA+NFLVAAYYF I++
+Sbjct  7   SPVPATGAKPPYTFRAAWALLLLAVNFLVAAYYFHIIE  44
+
+
+> UniRef90_K9QDB9 Photosystem one PsaX n=1 Tax=Nostoc sp. PCC 7107 
+TaxID=317936 RepID=K9QDB9_9NOSO
+Length=45
+
+ Score = 31.2 bits (69),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 24/38 (63%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+LLLA+N LVAAYYF I++
+Sbjct  8   SPVADSGAKPPYPFRTGWALLLLALNLLVAAYYFHIIE  45
+
+
+> UniRef90_A0A1Z4JYF7 Photosystem one PsaX n=1 Tax=Calothrix brevissima 
+NIES-22 TaxID=1973478 RepID=A0A1Z4JYF7_9CYAN
+Length=45
+
+ Score = 30.8 bits (68),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  2   STMATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           S +A   AKP Y FRT WA+ LLA+N L+AAYYF I++
+Sbjct  8   SPVADSGAKPPYPFRTGWALFLLALNLLIAAYYFHIIE  45
+
+
+> UniRef90_A0A2I8AGH6 Photosystem I protein n=1 Tax=Nostoc sp. 
+CENA543 TaxID=1869241 RepID=A0A2I8AGH6_9NOSO
+Length=44
+
+ Score = 28.1 bits (61),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 28/36 (78%), Gaps = 0/36 (0%)
+
+Query  4   MATKSAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           +A   AKP Y FRT WA+LLLA+N LVAAYYF I++
+Sbjct  9   VAQTGAKPPYTFRTGWALLLLAVNLLVAAYYFHIIE  44
+
+
+> UniRef90_A0A1Z4TJC6 Photosystem I 4.8K protein PsaX n=3 Tax=Hapalosiphonaceae 
+TaxID=1892263 RepID=A0A1Z4TJC6_9CYAN
+Length=48
+
+ Score = 27.7 bits (60),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  8   SAKPTYAFRTFWAVLLLAINFLVAAYYFGILK  39
+           +AKP Y FRT WA+ LLA+N LVAAYYF I++
+Sbjct  17  AAKPPYPFRTGWALALLALNLLVAAYYFHIVE  48
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 53599
+
+
+  Database: isar.db.231
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 2,105
+  Number of sequences in database:  47
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

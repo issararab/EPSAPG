@@ -1,0 +1,774 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.242
+           41 sequences; 6,899 total letters
+
+Results from round 1
+
+
+Query= Q96I45|2lorA|TM141_HUMAN 1.0
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q96I45 Transmembrane protein 141 n=6 Tax=Catarrhini Ta...  226     3e-82
+  UniRef90_A0A1D5RG30 Transmembrane protein 141 n=11 Tax=Cercopit...  213     8e-77
+  UniRef90_A0A2K5KE54 Uncharacterized protein n=2 Tax=Colobus ang...  213     1e-76
+  UniRef90_U3FKG0 Transmembrane protein 141 n=2 Tax=Callithrix ja...  206     4e-74
+  UniRef90_A0A2K5HT50 Uncharacterized protein n=1 Tax=Colobus ang...  199     1e-70
+  UniRef90_A0A2I3SFY6 Transmembrane protein 141 n=4 Tax=Hominoide...  198     3e-70
+  UniRef90_A0A2K5QDA1 Transmembrane protein 141 n=3 Tax=Cebidae T...  196     4e-70
+  UniRef90_A0A2U3WTY4 transmembrane protein 141 n=3 Tax=Caniformi...  191     6e-68
+  UniRef90_A0A2Y9T267 transmembrane protein 141 isoform X1 n=8 Ta...  189     3e-67
+  UniRef90_Q3SZU9 Transmembrane protein 141 n=6 Tax=Pecora TaxID=...  188     4e-67
+  UniRef90_G1M3H1 Transmembrane protein 141 n=1 Tax=Ailuropoda me...  189     5e-67
+  UniRef90_M3X747 Transmembrane protein 141 n=2 Tax=Felidae TaxID...  188     5e-67
+  UniRef90_A0A2K6EJI1 Transmembrane protein 141 n=2 Tax=Lemurifor...  187     9e-67
+  UniRef90_A0A340XBZ2 transmembrane protein 141 n=1 Tax=Lipotes v...  187     9e-67
+  UniRef90_A0A2U3YN33 transmembrane protein 141 n=4 Tax=Caniformi...  187     1e-66
+  UniRef90_G3TP21 Transmembrane protein 141 n=2 Tax=Afrotheria Ta...  184     1e-65
+  UniRef90_H0XMP6 Transmembrane protein 141 n=1 Tax=Otolemur garn...  183     4e-65
+  UniRef90_A2AJB2 Transmembrane protein 141 n=6 Tax=Mus TaxID=862...  183     4e-65
+  UniRef90_M3YI98 Transmembrane protein 141 n=4 Tax=Mustelidae Ta...  182     2e-64
+  UniRef90_E2R1I2 Transmembrane protein 141 n=4 Tax=Canidae TaxID...  179     2e-63
+  UniRef90_A0A212CVT6 TMEM141 n=1 Tax=Cervus elaphus hippelaphus ...  179     5e-63
+  UniRef90_A0A3Q0DTU2 LOW QUALITY PROTEIN: transmembrane protein ...  177     2e-62
+  UniRef90_A0A1S3WA39 transmembrane protein 141 n=1 Tax=Erinaceus...  176     4e-62
+  UniRef90_F6WER8 Uncharacterized protein n=2 Tax=Monodelphis dom...  178     2e-61
+  UniRef90_A0A2K5E7K7 Transmembrane protein 141 n=1 Tax=Aotus nan...  167     2e-58
+  UniRef90_S7NJ65 Transmembrane protein 141 (Fragment) n=2 Tax=My...  164     2e-57
+  UniRef90_A0A384D662 transmembrane protein 141 n=1 Tax=Ursus mar...  150     2e-49
+  UniRef90_A0A3P4M008 Uncharacterized protein n=1 Tax=Gulo gulo T...  144     6e-49
+  UniRef90_L8YDT7 Uncharacterized protein n=2 Tax=Tupaia chinensi...  127     6e-39
+  UniRef90_F7B2B2 Uncharacterized protein n=1 Tax=Equus caballus ...  115     2e-38
+  UniRef90_Q0D285 Transmembrane protein 141 n=1 Tax=Danio rerio T...  115     4e-38
+  UniRef90_A0A2F0BE35 Transmembrane domain-containing protein (Fr...  97.4    3e-31
+  UniRef90_S9YQ59 Uncharacterized protein n=1 Tax=Camelus ferus T...  92.0    2e-26
+  UniRef90_A0A1I8NT12 Uncharacterized protein n=1 Tax=Stomoxys ca...  64.7    4e-18
+  UniRef90_A0A1A9YI28 Uncharacterized protein n=1 Tax=Glossina fu...  63.2    1e-17
+  UniRef90_L5KA89 Transmembrane protein 141 n=1 Tax=Pteropus alec...  63.5    4e-17
+  UniRef90_A0A1W0XD73 Uncharacterized protein n=1 Tax=Hypsibius d...  59.7    4e-16
+  UniRef90_W4XSC6 Uncharacterized protein n=3 Tax=Strongylocentro...  53.1    2e-13
+  UniRef90_A0A2G8K514 Putative transmembrane protein n=1 Tax=Stic...  50.1    5e-12
+  UniRef90_A0A3M7REU5 Kish-A n=1 Tax=Brachionus plicatilis TaxID=...  48.5    2e-11
+  UniRef90_A0A3M7RF17 Kish-A n=1 Tax=Brachionus plicatilis TaxID=...  48.9    3e-11
+
+
+> UniRef90_Q96I45 Transmembrane protein 141 n=6 Tax=Catarrhini 
+TaxID=9526 RepID=TM141_HUMAN
+Length=108
+
+ Score = 226 bits (577),  Expect = 3e-82, Method: Compositional matrix adjust.
+ Identities = 108/108 (100%), Positives = 108/108 (100%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS
+Sbjct  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+
+
+> UniRef90_A0A1D5RG30 Transmembrane protein 141 n=11 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5RG30_MACMU
+Length=121
+
+ Score = 213 bits (543),  Expect = 8e-77, Method: Compositional matrix adjust.
+ Identities = 101/108 (94%), Positives = 106/108 (98%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAA+HPGLGEYAACQSHAFMKGVFTFVTGTG+AFGLQMFIQRKFPYPL
+Sbjct  1    MVNLGLSRVDDAVAARHPGLGEYAACQSHAFMKGVFTFVTGTGVAFGLQMFIQRKFPYPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVVAGSV SYGVTRVES+KC+NLWLFLETGQLPKD STD+RS
+Sbjct  61   QWSLLVAVVAGSVASYGVTRVESKKCSNLWLFLETGQLPKDMSTDRRS  108
+
+
+> UniRef90_A0A2K5KE54 Uncharacterized protein n=2 Tax=Colobus angolensis 
+palliatus TaxID=336983 RepID=A0A2K5KE54_COLAP
+Length=108
+
+ Score = 213 bits (541),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 101/108 (94%), Positives = 104/108 (96%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYP 
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVVAGSV SYGVTRVES+KC+NLWLFLETGQLPKD S D+RS
+Sbjct  61   QWSLLVAVVAGSVASYGVTRVESKKCSNLWLFLETGQLPKDTSPDRRS  108
+
+
+> UniRef90_U3FKG0 Transmembrane protein 141 n=2 Tax=Callithrix 
+jacchus TaxID=9483 RepID=U3FKG0_CALJA
+Length=108
+
+ Score = 206 bits (524),  Expect = 4e-74, Method: Compositional matrix adjust.
+ Identities = 96/108 (89%), Positives = 102/108 (94%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGL EYAACQS AFM+GVF F+TGTG AFG Q+FIQRKFPYPL
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLREYAACQSQAFMEGVFAFITGTGAAFGFQVFIQRKFPYPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVVAGS+ SYGVTRVE+EKCNNLWLFLETGQLPKDRSTDQR+
+Sbjct  61   QWSLLVAVVAGSLASYGVTRVETEKCNNLWLFLETGQLPKDRSTDQRN  108
+
+
+> UniRef90_A0A2K5HT50 Uncharacterized protein n=1 Tax=Colobus angolensis 
+palliatus TaxID=336983 RepID=A0A2K5HT50_COLAP
+Length=162
+
+ Score = 199 bits (506),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 95/103 (92%), Positives = 98/103 (95%), Gaps = 0/103 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYP 
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRS  103
+            QWSLLVAVVAGSV SYGVTRVES+KC+NLWLFLETGQ  + RS
+Sbjct  61   QWSLLVAVVAGSVASYGVTRVESKKCSNLWLFLETGQSAEKRS  103
+
+
+> UniRef90_A0A2I3SFY6 Transmembrane protein 141 n=4 Tax=Hominoidea 
+TaxID=314295 RepID=A0A2I3SFY6_PANTR
+Length=161
+
+ Score = 198 bits (504),  Expect = 3e-70, Method: Compositional matrix adjust.
+ Identities = 103/108 (95%), Positives = 106/108 (98%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQSHAF KGVFTF+TGTGMAFGLQMFIQRKFPYPL
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFTKGVFTFITGTGMAFGLQMFIQRKFPYPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRST +R+
+Sbjct  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTGERA  108
+
+
+> UniRef90_A0A2K5QDA1 Transmembrane protein 141 n=3 Tax=Cebidae 
+TaxID=9498 RepID=A0A2K5QDA1_CEBCA
+Length=108
+
+ Score = 196 bits (498),  Expect = 4e-70, Method: Compositional matrix adjust.
+ Identities = 92/108 (85%), Positives = 98/108 (91%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGL EYA CQS AFM+GVF F+ GTG AFGLQM IQRKFPYPL
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLREYATCQSQAFMQGVFAFIAGTGAAFGLQMLIQRKFPYPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAV AGSV SYGVTRVE+EKC+NLWLFLETGQLPKD STD+R+
+Sbjct  61   QWSLLVAVGAGSVASYGVTRVETEKCSNLWLFLETGQLPKDMSTDRRT  108
+
+
+> UniRef90_A0A2U3WTY4 transmembrane protein 141 n=3 Tax=Caniformia 
+TaxID=379584 RepID=A0A2U3WTY4_ODORO
+Length=122
+
+ Score = 191 bits (485),  Expect = 6e-68, Method: Compositional matrix adjust.
+ Identities = 89/106 (84%), Positives = 96/106 (91%), Gaps = 0/106 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDD VAAKHPGLGEYAACQS AF+KG+FTFVTGTG  FGLQMFI+RKFPYP 
+Sbjct  1    MVNLGLSRVDDTVAAKHPGLGEYAACQSKAFVKGIFTFVTGTGATFGLQMFIRRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQ  106
+            QWS+LVAVV GSV SY VTRVES +C+NLWLFLETGQLPKDR TD+
+Sbjct  61   QWSVLVAVVTGSVASYWVTRVESHRCSNLWLFLETGQLPKDRGTDR  106
+
+
+> UniRef90_A0A2Y9T267 transmembrane protein 141 isoform X1 n=8 
+Tax=Cetartiodactyla TaxID=91561 RepID=A0A2Y9T267_PHYCD
+Length=108
+
+ Score = 189 bits (479),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 87/108 (81%), Positives = 97/108 (90%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAV++KHPGLGEYAACQS+AFMK +FTFVTGTG   GLQM +QRKFPYP 
+Sbjct  1    MVNLGLSRVDDAVSSKHPGLGEYAACQSNAFMKAIFTFVTGTGATVGLQMLVQRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QW++LVAVVAGSV SY VTRVES+KC+NLWLFLETGQLPKD  TD+ S
+Sbjct  61   QWNVLVAVVAGSVASYWVTRVESQKCSNLWLFLETGQLPKDMDTDRHS  108
+
+
+> UniRef90_Q3SZU9 Transmembrane protein 141 n=6 Tax=Pecora TaxID=35500 
+RepID=TM141_BOVIN
+Length=108
+
+ Score = 188 bits (478),  Expect = 4e-67, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 97/108 (90%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVA+KHPGLGEYAACQS+AF+KGV TFVTGTG  FGLQM +QRK PYP 
+Sbjct  1    MVNLGLSRVDDAVASKHPGLGEYAACQSNAFVKGVSTFVTGTGATFGLQMLVQRKLPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QW +L+AVVAGSV SY VTRVES+KC+NLWLFLETGQLPKD  TD+RS
+Sbjct  61   QWKVLLAVVAGSVASYWVTRVESQKCSNLWLFLETGQLPKDMGTDRRS  108
+
+
+> UniRef90_G1M3H1 Transmembrane protein 141 n=1 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=G1M3H1_AILME
+Length=124
+
+ Score = 189 bits (479),  Expect = 5e-67, Method: Compositional matrix adjust.
+ Identities = 88/107 (82%), Positives = 96/107 (90%), Gaps = 0/107 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDD VAAKHPGLGEYAACQS AF+KGVFTFVTGTG  FGLQMF++RKFPYP 
+Sbjct  1    MVNLGLSRVDDTVAAKHPGLGEYAACQSKAFVKGVFTFVTGTGATFGLQMFVRRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQR  107
+            QW++LVAVV GSV SY VTRVES +C+NLWLFLETGQLPKDR T +R
+Sbjct  61   QWNVLVAVVTGSVASYWVTRVESHRCSNLWLFLETGQLPKDRDTGER  107
+
+
+> UniRef90_M3X747 Transmembrane protein 141 n=2 Tax=Felidae TaxID=9681 
+RepID=M3X747_FELCA
+Length=108
+
+ Score = 188 bits (477),  Expect = 5e-67, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 96/108 (89%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGL EYAACQS AF+KG+FTFVTGTG  FGLQMF+QRKFPYP 
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLREYAACQSSAFVKGIFTFVTGTGATFGLQMFLQRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QW +LVAVV GSV SY VTRVES +C+NLWLFLETG+LPKD  TD+RS
+Sbjct  61   QWKVLVAVVTGSVASYWVTRVESHRCSNLWLFLETGRLPKDLGTDRRS  108
+
+
+> UniRef90_A0A2K6EJI1 Transmembrane protein 141 n=2 Tax=Lemuriformes 
+TaxID=376915 RepID=A0A2K6EJI1_PROCO
+Length=108
+
+ Score = 187 bits (476),  Expect = 9e-67, Method: Compositional matrix adjust.
+ Identities = 89/108 (82%), Positives = 97/108 (90%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQS AF+KGV TFVTGTG   GLQMF QR+ PYP 
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSRAFVKGVCTFVTGTGATLGLQMFFQRRCPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVV+GSV SY VTRVES+KC++LWLFLETG+LPKD STDQR+
+Sbjct  61   QWSLLVAVVSGSVASYWVTRVESQKCSDLWLFLETGKLPKDMSTDQRT  108
+
+
+> UniRef90_A0A340XBZ2 transmembrane protein 141 n=1 Tax=Lipotes 
+vexillifer TaxID=118797 RepID=A0A340XBZ2_LIPVE
+Length=108
+
+ Score = 187 bits (476),  Expect = 9e-67, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 96/108 (89%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLS+VDDAVA+KHPGLGEYAACQS AFMKG FTFVTGTG   GLQM +QRKFPYP 
+Sbjct  1    MVNLGLSQVDDAVASKHPGLGEYAACQSKAFMKGSFTFVTGTGATVGLQMLVQRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QW++LVAVVAGSV SY VTRVES+KC+NLWLFLETGQLPKD  TD+ S
+Sbjct  61   QWNVLVAVVAGSVASYWVTRVESQKCSNLWLFLETGQLPKDMDTDRHS  108
+
+
+> UniRef90_A0A2U3YN33 transmembrane protein 141 n=4 Tax=Caniformia 
+TaxID=379584 RepID=A0A2U3YN33_LEPWE
+Length=108
+
+ Score = 187 bits (476),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 88/108 (81%), Positives = 95/108 (88%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDD VAAKHPGLGEYAACQS AF+KG+FTFVTGTG  FGLQMFI+RKF YP 
+Sbjct  1    MVNLGLSRVDDTVAAKHPGLGEYAACQSEAFVKGIFTFVTGTGATFGLQMFIRRKFSYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWS+LVAVV GSV SY VTRVES +C+NLWLFLETGQLPKDR T + S
+Sbjct  61   QWSVLVAVVTGSVASYWVTRVESHRCSNLWLFLETGQLPKDRGTGRHS  108
+
+
+> UniRef90_G3TP21 Transmembrane protein 141 n=2 Tax=Afrotheria 
+TaxID=311790 RepID=G3TP21_LOXAF
+Length=108
+
+ Score = 184 bits (468),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 87/108 (81%), Positives = 94/108 (87%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MV LGLSRVDDAVAAKHPGLGEYA CQS AF+KGV TFVTGTG AFGLQM I RKF  PL
+Sbjct  1    MVTLGLSRVDDAVAAKHPGLGEYAVCQSKAFVKGVLTFVTGTGAAFGLQMLIHRKFACPL  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            +W++LVAVV GSV SYGVTRVE++KC+NLWLFLETGQLPKD  TDQ S
+Sbjct  61   RWTVLVAVVTGSVASYGVTRVETQKCSNLWLFLETGQLPKDAGTDQHS  108
+
+
+> UniRef90_H0XMP6 Transmembrane protein 141 n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XMP6_OTOGA
+Length=108
+
+ Score = 183 bits (465),  Expect = 4e-65, Method: Compositional matrix adjust.
+ Identities = 85/108 (79%), Positives = 95/108 (88%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MV LGLSRV+D VAAKHPGL EYA CQS+AFMKG+FT VTG+ + FGLQMFIQRKFPYP 
+Sbjct  1    MVTLGLSRVNDTVAAKHPGLREYATCQSNAFMKGIFTLVTGSCVTFGLQMFIQRKFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWSLLVAVV GS+ SYGVTR+ES+KC+NLWLFLETG+LPKD  TD RS
+Sbjct  61   QWSLLVAVVTGSMASYGVTRMESQKCSNLWLFLETGKLPKDIGTDPRS  108
+
+
+> UniRef90_A2AJB2 Transmembrane protein 141 n=6 Tax=Mus TaxID=862507 
+RepID=TM141_MOUSE
+Length=108
+
+ Score = 183 bits (465),  Expect = 4e-65, Method: Compositional matrix adjust.
+ Identities = 85/105 (81%), Positives = 94/105 (90%), Gaps = 0/105 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAA+HPGL E+AACQSHAFMKGVFTFVTGTG  FGL MFI+RKFPYP+
+Sbjct  1    MVNLGLSRVDDAVAARHPGLEEFAACQSHAFMKGVFTFVTGTGATFGLLMFIKRKFPYPV  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTD  105
+            QWS LV+ +AGSV SY VT +E +KC+NLWLFLETGQLPKD STD
+Sbjct  61   QWSFLVSAIAGSVASYRVTSMECQKCSNLWLFLETGQLPKDISTD  105
+
+
+> UniRef90_M3YI98 Transmembrane protein 141 n=4 Tax=Mustelidae 
+TaxID=9655 RepID=M3YI98_MUSPF
+Length=118
+
+ Score = 182 bits (461),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 85/107 (79%), Positives = 94/107 (88%), Gaps = 0/107 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAAKHPGLGEYAACQS AF+KG+F+FV GTG AFGLQMFI+RKF YP 
+Sbjct  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSKAFVKGIFSFVAGTGAAFGLQMFIRRKFLYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQR  107
+            QW +LVAVV GSV SY VTRVES +C+NLWLFLETGQLP+DR   +R
+Sbjct  61   QWHVLVAVVTGSVASYWVTRVESHRCSNLWLFLETGQLPEDRGAGER  107
+
+
+> UniRef90_E2R1I2 Transmembrane protein 141 n=4 Tax=Canidae TaxID=9608 
+RepID=E2R1I2_CANLF
+Length=108
+
+ Score = 179 bits (453),  Expect = 2e-63, Method: Compositional matrix adjust.
+ Identities = 83/107 (78%), Positives = 92/107 (86%), Gaps = 0/107 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDD VAAKHPGL EYAACQS AF+KG+FTF+TGTG A GLQM IQR+FPYP 
+Sbjct  1    MVNLGLSRVDDTVAAKHPGLEEYAACQSEAFVKGIFTFITGTGAAVGLQMLIQRRFPYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQR  107
+            QW +LVAVV GS+ SY VTRVES +C+NLWLFLETGQLPKD  T +R
+Sbjct  61   QWHVLVAVVTGSMASYWVTRVESHRCSNLWLFLETGQLPKDGGTGER  107
+
+
+> UniRef90_A0A212CVT6 TMEM141 n=1 Tax=Cervus elaphus hippelaphus 
+TaxID=46360 RepID=A0A212CVT6_CEREH
+Length=139
+
+ Score = 179 bits (454),  Expect = 5e-63, Method: Compositional matrix adjust.
+ Identities = 83/106 (78%), Positives = 94/106 (89%), Gaps = 0/106 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVA+KHPGLGEYAACQS+AF+KGV TFVTGTG  FGLQM +QR+ P+P 
+Sbjct  1    MVNLGLSRVDDAVASKHPGLGEYAACQSNAFVKGVSTFVTGTGATFGLQMLVQRRLPFPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQ  106
+            QW +LVAVVAGSV SY VTRVES+KC+NLWLFLETGQLP+D  T +
+Sbjct  61   QWKVLVAVVAGSVASYWVTRVESQKCSNLWLFLETGQLPRDMHTGE  106
+
+
+> UniRef90_A0A3Q0DTU2 LOW QUALITY PROTEIN: transmembrane protein 
+141 n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A3Q0DTU2_TARSY
+Length=113
+
+ Score = 177 bits (449),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 83/104 (80%), Positives = 93/104 (89%), Gaps = 0/104 (0%)
+
+Query  3    NLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQW  62
+             LGLS VD +VAAKHPGL EYAAC+S+AFMKGVFTFVTGTGM FGLQMFIQRKFPYPL+W
+Sbjct  5    TLGLSLVDXSVAAKHPGLREYAACRSNAFMKGVFTFVTGTGMTFGLQMFIQRKFPYPLRW  64
+
+Query  63   SLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQ  106
+            SLLVAVVAGS+ SYGVT VE+++C+NLWLFLETGQLP+D    Q
+Sbjct  65   SLLVAVVAGSMASYGVTXVETQRCSNLWLFLETGQLPEDTGAAQ  108
+
+
+> UniRef90_A0A1S3WA39 transmembrane protein 141 n=1 Tax=Erinaceus 
+europaeus TaxID=9365 RepID=A0A1S3WA39_ERIEU
+Length=107
+
+ Score = 176 bits (446),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 86/108 (80%), Positives = 90/108 (83%), Gaps = 1/108 (1%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAA+HPGLGEYAACQS AFMKGVFTFVTG G   GLQMF QRK  YP 
+Sbjct  1    MVNLGLSRVDDAVAARHPGLGEYAACQSRAFMKGVFTFVTGAGATLGLQMFFQRKLLYPF  60
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QWS+LVAVV GSV SY VTRVES+KC +LWLFLE  Q PKD STD RS
+Sbjct  61   QWSVLVAVVTGSVASYWVTRVESQKCRDLWLFLEMDQ-PKDTSTDHRS  107
+
+
+> UniRef90_F6WER8 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6WER8_MONDO
+Length=224
+
+ Score = 178 bits (452),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 79/108 (73%), Positives = 96/108 (89%), Gaps = 0/108 (0%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+            MVNLGLSRVDDAVAA+HPGL EYAACQS AFMKG+ TF+TGTG AF LQ F+QRK PYP+
+Sbjct  102  MVNLGLSRVDDAVAARHPGLQEYAACQSQAFMKGIVTFITGTGAAFFLQKFLQRKLPYPM  161
+
+Query  61   QWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            QW++L+A+VAGS+ SY VTRVE++KC+NLWLFLETGQLP++ + +Q S
+Sbjct  162  QWTVLLAMVAGSIGSYAVTRVETQKCSNLWLFLETGQLPQNHAPEQPS  209
+
+
+ Score = 15.8 bits (29),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 5/15 (33%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  55  KFPYPLQWSLLVAVV  69
+           +FP PL+   L++++
+Sbjct  32  QFPRPLERRGLLSLI  46
+
+
+> UniRef90_A0A2K5E7K7 Transmembrane protein 141 n=1 Tax=Aotus nancymaae 
+TaxID=37293 RepID=A0A2K5E7K7_AOTNA
+Length=118
+
+ Score = 167 bits (423),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 78/92 (85%), Positives = 84/92 (91%), Gaps = 0/92 (0%)
+
+Query  17   HPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLLVAVVAGSVVSY  76
+            H GL EYAACQS AFM+GVF F+TGTG AFGLQ+FIQRKFPYPLQWSLLVAVVAGSV SY
+Sbjct  11   HKGLREYAACQSQAFMEGVFAFITGTGAAFGLQLFIQRKFPYPLQWSLLVAVVAGSVASY  70
+
+Query  77   GVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            GVTRVE+EKCNNLWLFLETGQLPKD ST ++S
+Sbjct  71   GVTRVETEKCNNLWLFLETGQLPKDMSTGEKS  102
+
+
+> UniRef90_S7NJ65 Transmembrane protein 141 (Fragment) n=2 Tax=Myotis 
+TaxID=9434 RepID=S7NJ65_MYOBR
+Length=101
+
+ Score = 164 bits (415),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 75/101 (74%), Positives = 87/101 (86%), Gaps = 0/101 (0%)
+
+Query  8    RVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLLVA  67
+            RVDDAVAAKHPGLGEYAACQS AF+KG+ TFVTGTG A GLQM +QR+  YP QW++LVA
+Sbjct  1    RVDDAVAAKHPGLGEYAACQSRAFVKGIVTFVTGTGAALGLQMSVQRRLKYPFQWTVLVA  60
+
+Query  68   VVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            VVAGSV SY VTRVE++KC++LWLFLETG+LP D  TD R+
+Sbjct  61   VVAGSVASYWVTRVETQKCSDLWLFLETGKLPTDMGTDPRT  101
+
+
+> UniRef90_A0A384D662 transmembrane protein 141 n=1 Tax=Ursus maritimus 
+TaxID=29073 RepID=A0A384D662_URSMA
+Length=309
+
+ Score = 150 bits (378),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 70/90 (78%), Positives = 78/90 (87%), Gaps = 0/90 (0%)
+
+Query  19   GLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLLVAVVAGSVVSYGV  78
+            GLGEYAACQS AF+KGVFTFVTGTG  FGLQMF++RK PYP Q ++LVAVV GSV SY V
+Sbjct  220  GLGEYAACQSKAFVKGVFTFVTGTGATFGLQMFVRRKLPYPFQRNVLVAVVTGSVASYWV  279
+
+Query  79   TRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            TRVES +C+NLWLFLETGQLPKDR TD+ S
+Sbjct  280  TRVESHRCSNLWLFLETGQLPKDRDTDRHS  309
+
+
+> UniRef90_A0A3P4M008 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4M008_GULGU
+Length=161
+
+ Score = 144 bits (364),  Expect = 6e-49, Method: Compositional matrix adjust.
+ Identities = 65/89 (73%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  19   GLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLLVAVVAGSVVSYGV  78
+            GLG+YAACQS AF+KG+F+FV GTG  FGLQ FI+RKFPYP QW +LVAVV GSV SY V
+Sbjct  48   GLGQYAACQSEAFVKGIFSFVAGTGAVFGLQTFIRRKFPYPFQWHVLVAVVTGSVASYWV  107
+
+Query  79   TRVESEKCNNLWLFLETGQLPKDRSTDQR  107
+            TRVES +C+NLWLFLETGQLP+DR   +R
+Sbjct  108  TRVESHRCSNLWLFLETGQLPEDRGAGER  136
+
+
+> UniRef90_L8YDT7 Uncharacterized protein n=2 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L8YDT7_TUPCH
+Length=671
+
+ Score = 127 bits (320),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 66/105 (63%), Positives = 71/105 (68%), Gaps = 28/105 (27%)
+
+Query  2    VNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQ  61
+            V LGLSRVDDAVA+KHPGL EYAACQS AFMKGVFTFVT                     
+Sbjct  57   VTLGLSRVDDAVASKHPGLWEYAACQSGAFMKGVFTFVT---------------------  95
+
+Query  62   WSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQ  106
+                   VAGSV SYGVTRVES+KC++LWLFLETGQLPKD  T+Q
+Sbjct  96   -------VAGSVASYGVTRVESQKCSDLWLFLETGQLPKDMGTEQ  133
+
+
+ Score = 18.5 bits (36),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 11/34 (32%), Positives = 20/34 (59%), Gaps = 3/34 (9%)
+
+Query  74   VSYGVTRVESE-KCNNLWLFLETGQLPKDRSTDQ  106
+            V+  V RV+S  +C++LW     G+    R+T++
+Sbjct  410  VTAMVERVKSAVRCSHLWDI--AGRFLAQRNTEE  441
+
+
+> UniRef90_F7B2B2 Uncharacterized protein n=1 Tax=Equus caballus 
+TaxID=9796 RepID=F7B2B2_HORSE
+Length=66
+
+ Score = 115 bits (287),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 52/66 (79%), Positives = 60/66 (91%), Gaps = 0/66 (0%)
+
+Query  39   VTGTGMAFGLQMFIQRKFPYPLQWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQL  98
+            +TG+G+ FGLQMFIQRKFPYP QW++LVAVVAGSV SY +TRVES+KC+NLWLFLETGQL
+Sbjct  1    LTGSGVTFGLQMFIQRKFPYPFQWNVLVAVVAGSVASYWLTRVESQKCSNLWLFLETGQL  60
+
+Query  99   PKDRST  104
+            PKD  T
+Sbjct  61   PKDTGT  66
+
+
+> UniRef90_Q0D285 Transmembrane protein 141 n=1 Tax=Danio rerio 
+TaxID=7955 RepID=TM141_DANRE
+Length=124
+
+ Score = 115 bits (289),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 63/109 (58%), Positives = 85/109 (78%), Gaps = 3/109 (3%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGT-GMAFGLQMFIQRKFPYP  59
+            MVN+GLS+VDDA+ AKHPGL +Y ACQS+AFMKG  +F+ GT G+ FG Q  +Q+   YP
+Sbjct  1    MVNIGLSKVDDAIVAKHPGLQQYVACQSYAFMKGTASFILGTVGIFFG-QRALQKIIKYP  59
+
+Query  60   LQWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            LQW+L V++V+ SV SY VTR E+ KC+++WLFLETG +P DR++D+  
+Sbjct  60   LQWNLFVSIVSSSVFSYSVTRWETMKCSDVWLFLETGNIP-DRNSDKEE  107
+
+
+> UniRef90_A0A2F0BE35 Transmembrane domain-containing protein (Fragment) 
+n=1 Tax=Eschrichtius robustus TaxID=9764 RepID=A0A2F0BE35_ESCRO
+Length=88
+
+ Score = 97.4 bits (241),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 55/105 (52%), Positives = 63/105 (60%), Gaps = 32/105 (30%)
+
+Query  8    RVDDAVAAKHP----GLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWS  63
+            R D  ++ + P    GLGEYAACQS+AFMKG+FTFVT                       
+Sbjct  12   RRDGELSLQPPPPSQGLGEYAACQSNAFMKGIFTFVT-----------------------  48
+
+Query  64   LLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+                 VAGSV SY VTRVES+KC+NLWLFLETGQLPKD  TD+ S
+Sbjct  49   -----VAGSVASYWVTRVESQKCSNLWLFLETGQLPKDMDTDRHS  88
+
+
+> UniRef90_S9YQ59 Uncharacterized protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9YQ59_CAMFR
+Length=1113
+
+ Score = 92.0 bits (227),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 39/52 (75%), Positives = 45/52 (87%), Gaps = 0/52 (0%)
+
+Query  17  HPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLLVAV  68
+            PGLGEYAACQS+AFMKG+FTFVTGTG  FGLQ+ +QRK  YP QW++LVAV
+Sbjct  3   RPGLGEYAACQSNAFMKGIFTFVTGTGATFGLQLLVQRKCAYPFQWNVLVAV  54
+
+
+ Score = 18.1 bits (35),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 15/21 (71%), Gaps = 1/21 (5%)
+
+Query  74   VSYGVTRVESE-KCNNLWLFL  93
+            VS  V +V++  +C++LW+ L
+Sbjct  297  VSALVEKVKTAVRCSHLWVLL  317
+
+
+> UniRef90_A0A1I8NT12 Uncharacterized protein n=1 Tax=Stomoxys 
+calcitrans TaxID=35570 RepID=A0A1I8NT12_STOCA
+Length=103
+
+ Score = 64.7 bits (156),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 28/89 (31%), Positives = 46/89 (52%), Gaps = 0/89 (0%)
+
+Query  6   LSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLL  65
+           + R+ D    KHPG   Y  C + +   G+ +F  G    +  Q  IQ K  YPLQ+++L
+Sbjct  4   IKRLKDQQREKHPGFDAYMECMTRSLFTGLASFCLGFSGLYFAQKVIQSKIRYPLQYNIL  63
+
+Query  66  VAVVAGSVVSYGVTRVESEKCNNLWLFLE  94
+            + +A +++SY VT   ++ C   W+  E
+Sbjct  64  TSTLAATLISYEVTSRRTKACQAAWMAAE  92
+
+
+> UniRef90_A0A1A9YI28 Uncharacterized protein n=1 Tax=Glossina 
+fuscipes fuscipes TaxID=201502 RepID=A0A1A9YI28_GLOFF
+Length=103
+
+ Score = 63.2 bits (152),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 26/86 (30%), Positives = 46/86 (53%), Gaps = 0/86 (0%)
+
+Query  9   VDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLLVAV  68
+           + D    KHPG   Y  C + A   G+ +F  G    +  Q  IQ+K  YPLQ+++L++V
+Sbjct  7   LKDQQRDKHPGFDSYMNCMTRALFTGLASFCLGFSGTYFAQKVIQKKLYYPLQYNILISV  66
+
+Query  69  VAGSVVSYGVTRVESEKCNNLWLFLE  94
+           +  + ++Y +T + ++ C   W+  E
+Sbjct  67  LTATGIAYHLTSIRTKSCQAAWMAAE  92
+
+
+> UniRef90_L5KA89 Transmembrane protein 141 n=1 Tax=Pteropus alecto 
+TaxID=9402 RepID=L5KA89_PTEAL
+Length=176
+
+ Score = 63.5 bits (153),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 32/56 (57%), Positives = 38/56 (68%), Gaps = 1/56 (2%)
+
+Query  52   IQRKFPYPLQWSLLVAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQR  107
+            ++   P P   S L   V GSV SY VTRVES+KC++LWLFLETGQLP D  T +R
+Sbjct  78   VEAPAPQPTS-SRLCPPVTGSVASYWVTRVESQKCSHLWLFLETGQLPTDVDTGER  132
+
+
+> UniRef90_A0A1W0XD73 Uncharacterized protein n=1 Tax=Hypsibius 
+dujardini TaxID=232323 RepID=A0A1W0XD73_HYPDU
+Length=119
+
+ Score = 59.7 bits (143),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 26/79 (33%), Positives = 42/79 (53%), Gaps = 0/79 (0%)
+
+Query  16  KHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPLQWSLLVAVVAGSVVS  75
+           ++P L  Y  CQS AFM G+ TF     + +  Q   +++ PYP ++ +  AV   SV S
+Sbjct  14  EYPNLPSYMECQSRAFMYGLATFTLSFAVTYFAQELNKKRLPYPSKYIIFPAVAIASVAS  73
+
+Query  76  YGVTRVESEKCNNLWLFLE  94
+           + +TR  +  C  +W+  E
+Sbjct  74  WTMTRRRTRDCQLMWMAAE  92
+
+
+> UniRef90_W4XSC6 Uncharacterized protein n=3 Tax=Strongylocentrotus 
+purpuratus TaxID=7668 RepID=W4XSC6_STRPU
+Length=150
+
+ Score = 53.1 bits (126),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 28/95 (29%), Positives = 47/95 (49%), Gaps = 5/95 (5%)
+
+Query  1   MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKFPYPL  60
+           MV   ++ +DD V   +PG+ EYA CQS AF+KG   FV G        ++ ++++    
+Sbjct  1   MVLQSITDLDDDV---YPGVQEYARCQSKAFLKGFIGFVAGGAAGLTASIYARQRYAARF  57
+
+Query  61  QWSLLVAVVAGSVVSYG--VTRVESEKCNNLWLFL  93
+             S  V+ +AG  + +G     + S  C   W+ +
+Sbjct  58  TPSHTVSAIAGGAIVFGYLAASIASRDCQKNWVRM  92
+
+
+> UniRef90_A0A2G8K514 Putative transmembrane protein n=1 Tax=Stichopus 
+japonicus TaxID=307972 RepID=A0A2G8K514_STIJA
+Length=155
+
+ Score = 50.1 bits (118),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 44/117 (38%), Positives = 58/117 (50%), Gaps = 21/117 (18%)
+
+Query  1    MVNLGLSRVDDAVAAKHPGLGEYAACQSHAFMK----GVFTFVTGTGMAFGLQMFIQRKF  56
+            MV  GL  +D+  A+K+PG+G YA CQS AF++     V    TG    F  Q F    F
+Sbjct  1    MVLQGLDNLDEHTASKYPGIGNYATCQSRAFVQGLLGMVVGGGTGLLSTFAAQQF----F  56
+
+Query  57   P-YPLQWSLL----VAVVAGSVVSYGVTRVESEKCNNLWLFLETGQLPKDRSTDQRS  108
+            P  P ++++     VAV+AG    Y VT   S KC      L   QL K+R  DQ +
+Sbjct  57   PSLPSRYNVFYVTGVAVLAG----YLVTARASRKCQKT---LVQSQLNKNR-VDQEN  105
+
+
+> UniRef90_A0A3M7REU5 Kish-A n=1 Tax=Brachionus plicatilis TaxID=10195 
+RepID=A0A3M7REU5_BRAPC
+Length=174
+
+ Score = 48.5 bits (114),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 44/78 (56%), Gaps = 3/78 (4%)
+
+Query  18  PGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKF-PYPLQWSLLVAVVAGSVVSY  76
+           PG+ EY  CQS  F    FT +   G+ + +   + + F P PL+  ++ ++++G+  ++
+Sbjct  17  PGIAEYTKCQSAVFAYSSFTLLGVGGLTYSI--LLHKMFNPIPLKNRVMGSILSGAFCAW  74
+
+Query  77  GVTRVESEKCNNLWLFLE  94
+            + RV ++ C  LW+ L+
+Sbjct  75  YLARVRTKYCQELWMILD  92
+
+
+> UniRef90_A0A3M7RF17 Kish-A n=1 Tax=Brachionus plicatilis TaxID=10195 
+RepID=A0A3M7RF17_BRAPC
+Length=265
+
+ Score = 48.9 bits (115),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 44/78 (56%), Gaps = 3/78 (4%)
+
+Query  18  PGLGEYAACQSHAFMKGVFTFVTGTGMAFGLQMFIQRKF-PYPLQWSLLVAVVAGSVVSY  76
+           PG+ EY  CQS  F    FT +   G+ + +   + + F P PL+  ++ ++++G+  ++
+Sbjct  17  PGIAEYTKCQSAVFAYSSFTLLGVGGLTYSI--LLHKMFNPIPLKNRVMGSILSGAFCAW  74
+
+Query  77  GVTRVESEKCNNLWLFLE  94
+            + RV ++ C  LW+ L+
+Sbjct  75  YLARVRTKYCQELWMILD  92
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 373870
+
+
+  Database: isar.db.242
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 6,899
+  Number of sequences in database:  41
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

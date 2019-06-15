@@ -1,0 +1,778 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.99
+           55 sequences; 1,875 total letters
+
+Results from round 1
+
+
+Query= P0A403|1jb0M|PSAM_THEEB 1.0
+
+Length=31
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0A403 Photosystem I reaction center subunit XII n=6 T...  60.5    4e-19
+  UniRef90_K9VC21 Photosystem I reaction center subunit XII n=7 T...  57.4    7e-18
+  UniRef90_B8HWB8 Photosystem I reaction center subunit XII n=7 T...  57.0    1e-17
+  UniRef90_A0A351KY11 Photosystem I reaction center subunit XII n...  56.6    1e-17
+  UniRef90_L8LMP2 Photosystem I reaction center subunit XII n=1 T...  55.8    2e-17
+  UniRef90_K1WJI8 Photosystem I reaction center subunit XII n=4 T...  57.0    3e-17
+  UniRef90_K9RW51 Photosystem I reaction center subunit XII n=1 T...  55.8    3e-17
+  UniRef90_A0A2T1DBY9 Photosystem I reaction center subunit XII n...  55.1    6e-17
+  UniRef90_A0A2P8WBM5 Photosystem I reaction center subunit XII n...  53.9    2e-16
+  UniRef90_A0A2W7B1G2 Photosystem I reaction center subunit XII n...  53.9    2e-16
+  UniRef90_A0A372DEK2 Photosystem I reaction center subunit XII n...  53.9    2e-16
+  UniRef90_A0A2W7ALV4 Photosystem I reaction center subunit XII n...  53.1    3e-16
+  UniRef90_A0A1E5QCY3 Photosystem I reaction center subunit XII n...  52.4    8e-16
+  UniRef90_A0A254WDI0 Photosystem I reaction center subunit XII n...  52.4    8e-16
+  UniRef90_K9PYB7 Photosystem I reaction center subunit XII n=5 T...  52.0    8e-16
+  UniRef90_B7K994 Photosystem I reaction center subunit XII n=4 T...  52.0    8e-16
+  UniRef90_A0A0T7BPV4 Photosystem I reaction center subunit XII n...  51.6    1e-15
+  UniRef90_P72986 Photosystem I reaction center subunit XII n=3 T...  51.6    1e-15
+  UniRef90_A0A1Q8ZC21 Photosystem I reaction center subunit XII n...  51.2    2e-15
+  UniRef90_A0A1Z4RFB1 Photosystem I reaction center subunit XII n...  51.2    2e-15
+  UniRef90_A0A1B1U2E6 Photosystem I reaction center subunit XII n...  51.2    2e-15
+  UniRef90_K9Z6P4 Photosystem I reaction center subunit XII n=21 ...  51.2    2e-15
+  UniRef90_B7JYQ9 Photosystem I reaction center subunit XII n=1 T...  51.2    2e-15
+  UniRef90_A0A2T1DH98 Photosystem I reaction center subunit XII n...  50.8    2e-15
+  UniRef90_K8GG38 Photosystem I reaction center subunit XII n=1 T...  50.8    2e-15
+  UniRef90_A0YL15 Photosystem I reaction center subunit XII n=1 T...  50.4    4e-15
+  UniRef90_K9PG35 Photosystem I reaction center subunit XII n=1 T...  50.4    5e-15
+  UniRef90_A0A2T1CPE3 Photosystem I reaction center subunit XII n...  50.1    6e-15
+  UniRef90_D4THG9 Photosystem I reaction center subunit XII n=1 T...  49.7    8e-15
+  UniRef90_A0A1Z4SBF5 Photosystem I reaction center subunit XII n...  49.7    8e-15
+  UniRef90_K9XWK1 Photosystem I reaction center subunit XII n=5 T...  49.7    9e-15
+  UniRef90_A0A252DZM4 Photosystem I reaction center subunit XII n...  49.7    1e-14
+  UniRef90_A0A1Q4RWJ1 Photosystem I reaction center subunit XII n...  49.3    1e-14
+  UniRef90_A0A1Z4RU42 Photosystem I reaction center subunit XII n...  49.3    1e-14
+  UniRef90_D4TQS6 Photosystem I reaction center subunit XII n=8 T...  49.7    1e-14
+  UniRef90_A0A3B8Y4D2 Photosystem I reaction center subunit XII n...  49.3    1e-14
+  UniRef90_K9RGJ0 Photosystem I reaction center subunit XII n=7 T...  49.3    1e-14
+  UniRef90_A0A1E2WUH0 Photosystem I reaction center subunit XII n...  49.3    1e-14
+  UniRef90_A0A328IF39 Photosystem I reaction center subunit XII n...  49.3    1e-14
+  UniRef90_A0A2P8VXC9 Photosystem I reaction center subunit XII n...  48.9    1e-14
+  UniRef90_A0A2T1E6S1 Photosystem I reaction center subunit XII n...  48.9    2e-14
+  UniRef90_K9YUE2 Photosystem I reaction center subunit XII n=3 T...  48.9    2e-14
+  UniRef90_A0A2I8ACG8 Photosystem I reaction center subunit XII n...  48.5    2e-14
+  UniRef90_K9ULZ0 Photosystem I reaction center subunit XII n=2 T...  48.5    2e-14
+  UniRef90_W6FLG3 Photosystem I reaction center subunit XII n=8 T...  48.9    2e-14
+  UniRef90_B1WSP2 Photosystem I reaction center subunit XII n=18 ...  48.5    2e-14
+  UniRef90_Q8YNB0 Photosystem I reaction center subunit XII n=23 ...  48.5    3e-14
+  UniRef90_A0A1Z4QMG3 Photosystem I reaction center subunit XII n...  47.8    6e-14
+  UniRef90_K9S4N2 Photosystem I reaction center subunit XII n=1 T...  47.4    8e-14
+  UniRef90_A0A2T1EJI6 Photosystem I reaction center subunit XII n...  45.8    3e-13
+  UniRef90_A0A1Y0RGH7 Photosystem I reaction center subunit XII n...  45.8    3e-13
+  UniRef90_A0A3M1L4L8 Photosystem I reaction center subunit XII (...  45.4    3e-13
+  UniRef90_A0A352X9R4 Photosystem I reaction center subunit XII n...  45.4    4e-13
+  UniRef90_U9VKJ0 Photosystem I reaction center subunit XII n=2 T...  36.2    2e-09
+  UniRef90_Q5MZZ8 Photosystem I reaction center subunit XII n=2 T...  26.6    1e-05
+
+
+> UniRef90_P0A403 Photosystem I reaction center subunit XII n=6 
+Tax=Cyanobacteria TaxID=1117 RepID=PSAM_THEEB
+Length=31
+
+ Score = 60.5 bits (145),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 31/31 (100%), Positives = 31/31 (100%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MALTDTQVYVALVIALLPAVLAFRLSTELYK
+Sbjct  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+
+
+> UniRef90_K9VC21 Photosystem I reaction center subunit XII n=7 
+Tax=Cyanobacteria TaxID=1117 RepID=K9VC21_9CYAN
+Length=31
+
+ Score = 57.4 bits (137),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 27/31 (87%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+LTDTQVYVALVIAL+P +LAFRLSTELYK
+Sbjct  1   MSLTDTQVYVALVIALIPGILAFRLSTELYK  31
+
+
+> UniRef90_B8HWB8 Photosystem I reaction center subunit XII n=7 
+Tax=Oscillatoriales TaxID=1150 RepID=B8HWB8_CYAP4
+Length=31
+
+ Score = 57.0 bits (136),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 26/31 (84%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+LTDTQVY+ALVIAL+P +LAFRLSTELYK
+Sbjct  1   MSLTDTQVYIALVIALIPGILAFRLSTELYK  31
+
+
+> UniRef90_A0A351KY11 Photosystem I reaction center subunit XII 
+n=3 Tax=Cyanobacteria TaxID=1117 RepID=A0A351KY11_9CYAN
+Length=31
+
+ Score = 56.6 bits (135),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 26/31 (84%), Positives = 31/31 (100%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+L+DTQVYVALV+AL+PA+LAFRLSTELYK
+Sbjct  1   MSLSDTQVYVALVVALIPAILAFRLSTELYK  31
+
+
+> UniRef90_L8LMP2 Photosystem I reaction center subunit XII n=1 
+Tax=Gloeocapsa sp. PCC 73106 TaxID=102232 RepID=L8LMP2_9CHRO
+Length=31
+
+ Score = 55.8 bits (133),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 25/31 (81%), Positives = 31/31 (100%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+LTDTQVY+ALV+AL+PA+LAFRLSTEL+K
+Sbjct  1   MSLTDTQVYIALVVALIPAILAFRLSTELFK  31
+
+
+> UniRef90_K1WJI8 Photosystem I reaction center subunit XII n=4 
+Tax=Arthrospira TaxID=35823 RepID=K1WJI8_ARTPT
+Length=74
+
+ Score = 57.0 bits (136),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 26/31 (84%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+LTDTQV+VALVIAL+P +LAFRLSTELYK
+Sbjct  44  MSLTDTQVFVALVIALIPGILAFRLSTELYK  74
+
+
+> UniRef90_K9RW51 Photosystem I reaction center subunit XII n=1 
+Tax=Synechococcus sp. (strain ATCC 27167 / PCC 6312) TaxID=195253 
+RepID=K9RW51_SYNP3
+Length=31
+
+ Score = 55.8 bits (133),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/31 (87%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M LTDTQVY+AL IAL+PAVLAFRLSTELYK
+Sbjct  1   MTLTDTQVYIALAIALIPAVLAFRLSTELYK  31
+
+
+> UniRef90_A0A2T1DBY9 Photosystem I reaction center subunit XII 
+n=1 Tax=filamentous cyanobacterium CCP2 TaxID=2107700 RepID=A0A2T1DBY9_9CYAN
+Length=35
+
+ Score = 55.1 bits (131),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           AL++TQVYVALVIAL+PAVLAFRLSTELYK
+Sbjct  6   ALSNTQVYVALVIALIPAVLAFRLSTELYK  35
+
+
+> UniRef90_A0A2P8WBM5 Photosystem I reaction center subunit XII 
+n=1 Tax=filamentous cyanobacterium CCP5 TaxID=2107701 RepID=A0A2P8WBM5_9CYAN
+Length=31
+
+ Score = 53.9 bits (128),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/31 (84%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M L++TQVY+AL IALLPAVLAFRLSTELYK
+Sbjct  1   MELSNTQVYIALAIALLPAVLAFRLSTELYK  31
+
+
+> UniRef90_A0A2W7B1G2 Photosystem I reaction center subunit XII 
+n=2 Tax=Cyanobacteria TaxID=1117 RepID=A0A2W7B1G2_9CYAN
+Length=31
+
+ Score = 53.9 bits (128),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/31 (87%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M L+DTQ+ VALVIALLPAVLAFRLSTELYK
+Sbjct  1   MPLSDTQILVALVIALLPAVLAFRLSTELYK  31
+
+
+> UniRef90_A0A372DEK2 Photosystem I reaction center subunit XII 
+n=1 Tax=Limnothrix sp. CACIAM 69d TaxID=1890733 RepID=A0A372DEK2_9CYAN
+Length=30
+
+ Score = 53.9 bits (128),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           L+DTQVYVALVIA++PA+LAFRLSTELYK
+Sbjct  2   LSDTQVYVALVIAIIPAILAFRLSTELYK  30
+
+
+> UniRef90_A0A2W7ALV4 Photosystem I reaction center subunit XII 
+n=3 Tax=Cyanobacteria TaxID=1117 RepID=A0A2W7ALV4_9CYAN
+Length=31
+
+ Score = 53.1 bits (126),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+L+D+QV+VALV+AL+P +LAFRLSTELYK
+Sbjct  1   MSLSDSQVFVALVVALIPGILAFRLSTELYK  31
+
+
+> UniRef90_A0A1E5QCY3 Photosystem I reaction center subunit XII 
+n=2 Tax=Cyanobacteria TaxID=1117 RepID=A0A1E5QCY3_9CYAN
+Length=31
+
+ Score = 52.4 bits (124),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+L+DTQV++ALV+AL+P V+AFRL+TELYK
+Sbjct  1   MSLSDTQVFIALVVALIPGVMAFRLATELYK  31
+
+
+> UniRef90_A0A254WDI0 Photosystem I reaction center subunit XII 
+n=1 Tax=cyanobacterium TDX16 TaxID=1503470 RepID=A0A254WDI0_9CYAN
+Length=31
+
+ Score = 52.4 bits (124),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 24/31 (77%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M ++DTQVYVALV+ALLP +LAFRL+TELYK
+Sbjct  1   MNISDTQVYVALVVALLPGLLAFRLATELYK  31
+
+
+> UniRef90_K9PYB7 Photosystem I reaction center subunit XII n=5 
+Tax=Cyanobacteria TaxID=1117 RepID=K9PYB7_9CYAN
+Length=31
+
+ Score = 52.0 bits (123),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M +++TQVYVAL+IAL+P +LAFRLSTELYK
+Sbjct  1   MGISETQVYVALLIALVPGILAFRLSTELYK  31
+
+
+> UniRef90_B7K994 Photosystem I reaction center subunit XII n=4 
+Tax=Cyanobacteria TaxID=1117 RepID=B7K994_CYAP7
+Length=31
+
+ Score = 52.0 bits (123),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 25/31 (81%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MA++DTQV VALVIALLP +LAFRL+TELYK
+Sbjct  1   MAVSDTQVLVALVIALLPGILAFRLATELYK  31
+
+
+> UniRef90_A0A0T7BPV4 Photosystem I reaction center subunit XII 
+n=1 Tax=Calothrix sp. 336/3 TaxID=1337936 RepID=A0A0T7BPV4_9CYAN
+Length=31
+
+ Score = 51.6 bits (122),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MALTDTQVY+AL +A+LP +LA+RL+TELYK
+Sbjct  1   MALTDTQVYIALAVAILPGLLAWRLATELYK  31
+
+
+> UniRef90_P72986 Photosystem I reaction center subunit XII n=3 
+Tax=Terrabacteria group TaxID=1783272 RepID=PSAM_SYNY3
+Length=31
+
+ Score = 51.6 bits (122),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/31 (81%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MAL+DTQ+  ALV+ALLPA LAFRLSTELYK
+Sbjct  1   MALSDTQILAALVVALLPAFLAFRLSTELYK  31
+
+
+> UniRef90_A0A1Q8ZC21 Photosystem I reaction center subunit XII 
+n=1 Tax=Leptolyngbya sp. 'hensonii' TaxID=1922337 RepID=A0A1Q8ZC21_9CYAN
+Length=31
+
+ Score = 51.2 bits (121),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+L+D Q+Y+ALVIAL+P +LA+RLSTELYK
+Sbjct  1   MSLSDGQIYMALVIALIPGILAYRLSTELYK  31
+
+
+> UniRef90_A0A1Z4RFB1 Photosystem I reaction center subunit XII 
+n=8 Tax=Nostocales TaxID=1161 RepID=A0A1Z4RFB1_9CYAN
+Length=32
+
+ Score = 51.2 bits (121),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+L+DTQVY+ALV+AL+P +LA+RL+TELYK
+Sbjct  1   MSLSDTQVYIALVVALIPGLLAWRLATELYK  31
+
+
+> UniRef90_A0A1B1U2E6 Photosystem I reaction center subunit XII 
+n=4 Tax=Synechococcus TaxID=1129 RepID=A0A1B1U2E6_9SYNE
+Length=31
+
+ Score = 51.2 bits (121),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/31 (77%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M ++DTQV VAL IAL+P VLAFRLSTELYK
+Sbjct  1   MGISDTQVLVALAIALIPGVLAFRLSTELYK  31
+
+
+> UniRef90_K9Z6P4 Photosystem I reaction center subunit XII n=21 
+Tax=Cyanobacteria TaxID=1117 RepID=K9Z6P4_CYAAP
+Length=31
+
+ Score = 51.2 bits (121),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 30/31 (97%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M++++TQV+VALVIAL+P +LAFRL+TELYK
+Sbjct  1   MSISETQVFVALVIALIPGILAFRLATELYK  31
+
+
+> UniRef90_B7JYQ9 Photosystem I reaction center subunit XII n=1 
+Tax=Cyanothece sp. (strain PCC 8801) TaxID=41431 RepID=B7JYQ9_CYAP8
+Length=31
+
+ Score = 51.2 bits (121),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/31 (77%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MAL+DTQ+ VAL+IALLP  LAFRL+TELYK
+Sbjct  1   MALSDTQIIVALIIALLPGFLAFRLATELYK  31
+
+
+> UniRef90_A0A2T1DH98 Photosystem I reaction center subunit XII 
+n=1 Tax=Phormidesmis priestleyi ULC007 TaxID=1920490 RepID=A0A2T1DH98_9CYAN
+Length=31
+
+ Score = 50.8 bits (120),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M L+DTQ+ VALV+AL+P +LAFRLSTELYK
+Sbjct  1   MPLSDTQILVALVVALIPGILAFRLSTELYK  31
+
+
+> UniRef90_K8GG38 Photosystem I reaction center subunit XII n=1 
+Tax=Oscillatoriales cyanobacterium JSC-12 TaxID=864702 RepID=K8GG38_9CYAN
+Length=31
+
+ Score = 50.8 bits (120),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M L+D Q+Y ALVIAL+P +LAFRLSTELYK
+Sbjct  1   MNLSDAQIYWALVIALIPGILAFRLSTELYK  31
+
+
+> UniRef90_A0YL15 Photosystem I reaction center subunit XII n=1 
+Tax=Lyngbya sp. (strain PCC 8106) TaxID=313612 RepID=A0YL15_LYNSP
+Length=31
+
+ Score = 50.4 bits (119),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+L+DTQV VALVIAL P ++AFRL+TELYK
+Sbjct  1   MSLSDTQVLVALVIALFPGIMAFRLATELYK  31
+
+
+> UniRef90_K9PG35 Photosystem I reaction center subunit XII n=1 
+Tax=Calothrix sp. PCC 7507 TaxID=99598 RepID=K9PG35_9CYAN
+Length=43
+
+ Score = 50.4 bits (119),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +L+DTQVY+ALV+AL+P VLA+RL+TELYK
+Sbjct  14  SLSDTQVYIALVVALIPGVLAWRLATELYK  43
+
+
+> UniRef90_A0A2T1CPE3 Photosystem I reaction center subunit XII 
+n=1 Tax=Pleurocapsa sp. CCALA 161 TaxID=2107688 RepID=A0A2T1CPE3_9CYAN
+Length=31
+
+ Score = 50.1 bits (118),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MAL+DTQV++AL +AL+P ++A RLSTELYK
+Sbjct  1   MALSDTQVFIALAVALIPGIMAIRLSTELYK  31
+
+
+> UniRef90_D4THG9 Photosystem I reaction center subunit XII n=1 
+Tax=Cylindrospermopsis raciborskii CS-505 TaxID=533240 RepID=D4THG9_9CYAN
+Length=43
+
+ Score = 49.7 bits (117),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+++DTQVY+AL +AL+P +LA+RL+TELYK
+Sbjct  13  MSISDTQVYIALAVALIPGILAWRLATELYK  43
+
+
+> UniRef90_A0A1Z4SBF5 Photosystem I reaction center subunit XII 
+n=2 Tax=Nostoc TaxID=1177 RepID=A0A1Z4SBF5_9NOSO
+Length=41
+
+ Score = 49.7 bits (117),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +++DTQVY+ALV+AL+P VLA+RL+TELYK
+Sbjct  12  SISDTQVYIALVVALIPGVLAWRLATELYK  41
+
+
+> UniRef90_K9XWK1 Photosystem I reaction center subunit XII n=5 
+Tax=Cyanobacteria TaxID=1117 RepID=K9XWK1_STAC7
+Length=32
+
+ Score = 49.7 bits (117),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M L+DTQV +ALVIAL+P +LA RLSTELYK
+Sbjct  1   MPLSDTQVLIALVIALIPGILALRLSTELYK  31
+
+
+> UniRef90_A0A252DZM4 Photosystem I reaction center subunit XII 
+n=7 Tax=Nostocales TaxID=1161 RepID=A0A252DZM4_9NOSO
+Length=42
+
+ Score = 49.7 bits (117),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +++DTQVY+ALV+AL+P VLA+RL+TELYK
+Sbjct  13  SISDTQVYIALVVALIPGVLAWRLATELYK  42
+
+
+> UniRef90_A0A1Q4RWJ1 Photosystem I reaction center subunit XII 
+n=4 Tax=Calothrix TaxID=1186 RepID=A0A1Q4RWJ1_9CYAN
+Length=32
+
+ Score = 49.3 bits (116),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+++DTQVYVALV+AL+P +LA+RL++ELY 
+Sbjct  1   MSISDTQVYVALVVALIPGILAWRLASELYN  31
+
+
+> UniRef90_A0A1Z4RU42 Photosystem I reaction center subunit XII 
+n=1 Tax=Chondrocystis sp. NIES-4102 TaxID=2005460 RepID=A0A1Z4RU42_9CHRO
+Length=31
+
+ Score = 49.3 bits (116),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M +TDTQ+++ALV+AL+P ++A RLSTELYK
+Sbjct  1   MPITDTQIFIALVVALVPGIMAIRLSTELYK  31
+
+
+> UniRef90_D4TQS6 Photosystem I reaction center subunit XII n=8 
+Tax=Nostocales TaxID=1161 RepID=D4TQS6_9CYAN
+Length=47
+
+ Score = 49.7 bits (117),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+++DTQVY+AL +AL+P +LA+RL+TELYK
+Sbjct  17  MSISDTQVYIALAVALIPGILAWRLATELYK  47
+
+
+> UniRef90_A0A3B8Y4D2 Photosystem I reaction center subunit XII 
+n=1 Tax=Cyanothece sp. UBA12306 TaxID=2055757 RepID=A0A3B8Y4D2_9CYAN
+Length=31
+
+ Score = 49.3 bits (116),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+++DTQ++VAL+IAL P  LAFRL+TELYK
+Sbjct  1   MSISDTQIFVALLIALFPGFLAFRLATELYK  31
+
+
+> UniRef90_K9RGJ0 Photosystem I reaction center subunit XII n=7 
+Tax=Cyanobacteria TaxID=1117 RepID=K9RGJ0_9CYAN
+Length=31
+
+ Score = 49.3 bits (116),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M ++DTQVY+AL +AL+P VLA+RL+TELYK
+Sbjct  1   MPISDTQVYIALAVALIPGVLAWRLATELYK  31
+
+
+> UniRef90_A0A1E2WUH0 Photosystem I reaction center subunit XII 
+n=15 Tax=Nostoc TaxID=1177 RepID=A0A1E2WUH0_9NOSO
+Length=43
+
+ Score = 49.3 bits (116),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/30 (70%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +++DTQVY+ALV+AL+P VLA+RL+TELYK
+Sbjct  14  SISDTQVYIALVVALIPGVLAWRLATELYK  43
+
+
+> UniRef90_A0A328IF39 Photosystem I reaction center subunit XII 
+n=3 Tax=Hapalosiphonaceae TaxID=1892263 RepID=A0A328IF39_9CYAN
+Length=29
+
+ Score = 49.3 bits (116),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +TDTQVY+ALV+ALLP  LA+RL+TELYK
+Sbjct  1   MTDTQVYIALVVALLPGFLAWRLATELYK  29
+
+
+> UniRef90_A0A2P8VXC9 Photosystem I reaction center subunit XII 
+n=5 Tax=Cyanobacteria TaxID=1117 RepID=A0A2P8VXC9_9CYAN
+Length=31
+
+ Score = 48.9 bits (115),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M L+DTQ+++AL +ALLP +LA RLSTELYK
+Sbjct  1   MPLSDTQIFIALAVALLPGILALRLSTELYK  31
+
+
+> UniRef90_A0A2T1E6S1 Photosystem I reaction center subunit XII 
+n=1 Tax=Leptolyngbya frigida ULC18 TaxID=2107698 RepID=A0A2T1E6S1_9CYAN
+Length=30
+
+ Score = 48.9 bits (115),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           L++TQ+++ALV+ALLP VLAFRL+TELYK
+Sbjct  2   LSETQIFIALVVALLPGVLAFRLATELYK  30
+
+
+> UniRef90_K9YUE2 Photosystem I reaction center subunit XII n=3 
+Tax=Cyanobacteria TaxID=1117 RepID=K9YUE2_DACSA
+Length=31
+
+ Score = 48.9 bits (115),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M+L+DTQV +AL +AL+P VLAFRL+TELYK
+Sbjct  1   MSLSDTQVLIALAVALVPGVLAFRLATELYK  31
+
+
+> UniRef90_A0A2I8ACG8 Photosystem I reaction center subunit XII 
+n=1 Tax=Nostoc sp. CENA543 TaxID=1869241 RepID=A0A2I8ACG8_9NOSO
+Length=31
+
+ Score = 48.5 bits (114),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M ++D+QVY+ALV+ALLP  LA+RL+TELYK
+Sbjct  1   MPISDSQVYIALVVALLPGFLAWRLATELYK  31
+
+
+> UniRef90_K9ULZ0 Photosystem I reaction center subunit XII n=2 
+Tax=Chamaesiphon TaxID=217161 RepID=K9ULZ0_CHAP6
+Length=29
+
+ Score = 48.5 bits (114),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           ++DTQV++AL IAL+P +LAFRLSTELYK
+Sbjct  1   MSDTQVFIALAIALIPGLLAFRLSTELYK  29
+
+
+> UniRef90_W6FLG3 Photosystem I reaction center subunit XII n=8 
+Tax=Nostocales TaxID=1161 RepID=W6FLG3_NODSP
+Length=50
+
+ Score = 48.9 bits (115),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           M ++DTQVY+AL +AL+P +LA+RL+TELYK
+Sbjct  20  MPISDTQVYIALAVALIPGILAWRLATELYK  50
+
+
+> UniRef90_B1WSP2 Photosystem I reaction center subunit XII n=18 
+Tax=Oscillatoriophycideae TaxID=1301283 RepID=B1WSP2_CYAA5
+Length=30
+
+ Score = 48.5 bits (114),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           L+DTQV VALVIAL+P +LAFRL+TELYK
+Sbjct  2   LSDTQVLVALVIALVPGILAFRLATELYK  30
+
+
+> UniRef90_Q8YNB0 Photosystem I reaction center subunit XII n=23 
+Tax=Cyanobacteria TaxID=1117 RepID=PSAM_NOSS1
+Length=32
+
+ Score = 48.5 bits (114),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +++DTQVY+ALV+AL+P +LA+RL+TELYK
+Sbjct  3   SISDTQVYIALVVALIPGLLAWRLATELYK  32
+
+
+> UniRef90_A0A1Z4QMG3 Photosystem I reaction center subunit XII 
+n=1 Tax=Cylindrospermum sp. NIES-4074 TaxID=2005457 RepID=A0A1Z4QMG3_9NOST
+Length=43
+
+ Score = 47.8 bits (112),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 19/30 (63%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +++DTQVY+AL +AL+P +LA+RL+TELYK
+Sbjct  14  SISDTQVYIALAVALIPGILAWRLATELYK  43
+
+
+> UniRef90_K9S4N2 Photosystem I reaction center subunit XII n=1 
+Tax=Geitlerinema sp. PCC 7407 TaxID=1173025 RepID=K9S4N2_9CYAN
+Length=44
+
+ Score = 47.4 bits (111),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MAL+D Q+Y AL IAL+P +LA RL+TELYK
+Sbjct  14  MALSDMQIYAALAIALVPGILAIRLATELYK  44
+
+
+> UniRef90_A0A2T1EJI6 Photosystem I reaction center subunit XII 
+n=1 Tax=Chlorogloea sp. CCALA 695 TaxID=2107693 RepID=A0A2T1EJI6_9CHRO
+Length=32
+
+ Score = 45.8 bits (107),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 20/30 (67%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +L+D Q+Y AL++AL+P VLA RLSTELYK
+Sbjct  3   SLSDIQIYAALLVALIPGVLALRLSTELYK  32
+
+
+> UniRef90_A0A1Y0RGH7 Photosystem I reaction center subunit XII 
+n=6 Tax=Nostocales TaxID=1161 RepID=A0A1Y0RGH7_9CYAN
+Length=45
+
+ Score = 45.8 bits (107),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 18/30 (60%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  2   ALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +++DTQVY+AL++AL+P +LA+RL+TELY 
+Sbjct  15  SISDTQVYIALLVALIPGILAWRLATELYN  44
+
+
+> UniRef90_A0A3M1L4L8 Photosystem I reaction center subunit XII 
+(Fragment) n=1 Tax=Cyanobacteria bacterium J083 TaxID=2420336 
+RepID=A0A3M1L4L8_9CYAN
+Length=29
+
+ Score = 45.4 bits (106),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +TDTQV  +L++AL+P +LAFRLSTELYK
+Sbjct  1   MTDTQVIASLLLALIPGILAFRLSTELYK  29
+
+
+> UniRef90_A0A352X9R4 Photosystem I reaction center subunit XII 
+n=1 Tax=Cyanobacteria bacterium UBA11367 TaxID=2055774 RepID=A0A352X9R4_9CYAN
+Length=29
+
+ Score = 45.4 bits (106),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 17/29 (59%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           ++D+Q+++AL++AL+PA+LA+RL TELYK
+Sbjct  1   MSDSQIFIALILALVPAILAYRLGTELYK  29
+
+
+> UniRef90_U9VKJ0 Photosystem I reaction center subunit XII n=2 
+Tax=Leptolyngbya TaxID=47251 RepID=U9VKJ0_9CYAN
+Length=31
+
+ Score = 36.2 bits (82),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MALTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           MAL+DTQ+ +AL+IAL+P VLA RL TELYK
+Sbjct  1   MALSDTQIIIALLIALIPGVLALRLGTELYK  31
+
+
+> UniRef90_Q5MZZ8 Photosystem I reaction center subunit XII n=2 
+Tax=Synechococcus elongatus TaxID=32046 RepID=PSAM_SYNP6
+Length=29
+
+ Score = 26.6 bits (57),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  3   LTDTQVYVALVIALLPAVLAFRLSTELYK  31
+           +TDTQV+VAL++AL+PAVLA+RL TELY+
+Sbjct  1   MTDTQVFVALLLALVPAVLAYRLGTELYR  29
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.138    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 47880
+
+
+  Database: isar.db.99
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 1,875
+  Number of sequences in database:  55
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

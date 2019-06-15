@@ -1,0 +1,1071 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.182
+           59 sequences; 4,184 total letters
+
+Results from round 1
+
+
+Query= P81451|6b2zT|ATP19_YEAST 0.35294117647058826
+
+Length=68
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P81451 ATP synthase subunit K, mitochondrial n=9 Tax=S...  140     2e-49
+  UniRef90_J8PZK8 Atp19p n=1 Tax=Saccharomyces arboricola (strain...  129     5e-45
+  UniRef90_A0A0L8RI08 ATP19-like protein n=1 Tax=Saccharomyces eu...  126     5e-44
+  UniRef90_A0A1G4K9C2 LAME_0G10990g1_1 n=1 Tax=Lachancea meyersii...  92.0    3e-30
+  UniRef90_G8ZTY5 Uncharacterized protein n=1 Tax=Torulaspora del...  89.7    3e-29
+  UniRef90_A0A1G4J6K3 LANO_0C04082g1_1 n=1 Tax=Lachancea nothofag...  88.2    9e-29
+  UniRef90_C5DND0 KLTH0G15972p n=2 Tax=Lachancea TaxID=300275 Rep...  84.3    3e-27
+  UniRef90_A0A1S7H9F0 ATP19 (YOL077W-A) n=4 Tax=Zygosaccharomyces...  83.2    1e-26
+  UniRef90_A0A1G4JK16 LADA_0F05644g1_1 n=1 Tax=Lachancea dasiensi...  82.8    2e-26
+  UniRef90_A7TEG4 Uncharacterized protein n=1 Tax=Vanderwaltozyma...  82.4    2e-26
+  UniRef90_J7S374 Uncharacterized protein n=1 Tax=Kazachstania na...  82.0    2e-26
+  UniRef90_C5DR56 ZYRO0B05698p n=3 Tax=Zygosaccharomyces rouxii T...  82.4    2e-26
+  UniRef90_B4UN19 Uncharacterized protein n=2 Tax=Candida glabrat...  81.6    4e-26
+  UniRef90_Q757J2 AER021Cp n=2 Tax=Saccharomycetaceae TaxID=4893 ...  80.5    1e-25
+  UniRef90_A0A0C7N237 LALA0S10e05688g1_1 n=2 Tax=Lachancea TaxID=...  79.0    4e-25
+  UniRef90_A0A1E3NEX3 Uncharacterized protein n=1 Tax=Pichia memb...  78.2    8e-25
+  UniRef90_A0A1G4J407 LAMI_0C06876g1_1 n=1 Tax=Lachancea mirantin...  78.2    8e-25
+  UniRef90_A0A1G4MA21 LAFE_0C08834g1_1 n=1 Tax=Lachancea fermenta...  77.0    3e-24
+  UniRef90_G8C0D8 Uncharacterized protein n=1 Tax=Tetrapisispora ...  76.3    5e-24
+  UniRef90_I6NDD6 Uncharacterized protein n=1 Tax=Eremothecium cy...  75.9    6e-24
+  UniRef90_H2ARW7 Uncharacterized protein n=1 Tax=Kazachstania af...  75.1    2e-23
+  UniRef90_A0A0A8L9F7 WGS project CCBQ000000000 data, contig 0000...  74.3    4e-23
+  UniRef90_A0A1X7RBP8 Similar to Saccharomyces cerevisiae YOL077W...  73.6    5e-23
+  UniRef90_A0A0L0P8S9 Uncharacterized protein n=2 Tax=Candida aur...  72.8    1e-22
+  UniRef90_A0A1D8PFD4 F1F0 ATP synthase subunit k n=2 Tax=Candida...  72.4    2e-22
+  UniRef90_A0A367YCR9 ATP synthase subunit K, mitochondrial n=2 T...  71.6    4e-22
+  UniRef90_A0A1E5R0B8 ATP synthase subunit K, mitochondrial n=1 T...  70.5    1e-21
+  UniRef90_A0A376B980 Uncharacterized protein n=1 Tax=Saccharomyc...  70.5    1e-21
+  UniRef90_C5MBS4 Uncharacterized protein n=1 Tax=Candida tropica...  72.0    3e-21
+  UniRef90_A0A0H5C923 Uncharacterized protein n=2 Tax=Cyberlindne...  68.6    7e-21
+  UniRef90_F2QX90 Uncharacterized protein n=2 Tax=Komagataella ph...  68.2    7e-21
+  UniRef90_A0A0X8HWR6 HHR081Wp n=1 Tax=Eremothecium sinecaudum Ta...  67.8    9e-21
+  UniRef90_A0A1E4SFL3 Uncharacterized protein n=1 Tax=Suhomyces t...  67.4    1e-20
+  UniRef90_G0V9K0 Uncharacterized protein n=1 Tax=Naumovozyma cas...  67.0    3e-20
+  UniRef90_A0A0V1PTX9 Uncharacterized protein n=1 Tax=Debaryomyce...  66.6    3e-20
+  UniRef90_G8BL85 Uncharacterized protein n=2 Tax=Candida TaxID=1...  66.2    5e-20
+  UniRef90_A5DHK1 Uncharacterized protein n=1 Tax=Meyerozyma guil...  66.2    5e-20
+  UniRef90_I2H4U2 Uncharacterized protein n=1 Tax=Tetrapisispora ...  65.1    1e-19
+  UniRef90_A0A2U9R807 Uncharacterized protein n=1 Tax=Pichia kudr...  65.1    1e-19
+  UniRef90_W0TEE5 ATP synthase subunit K n=1 Tax=Kluyveromyces ma...  64.3    3e-19
+  UniRef90_G0W6A9 Uncharacterized protein n=1 Tax=Naumovozyma dai...  64.3    3e-19
+  UniRef90_A0A1A0H578 Uncharacterized protein n=1 Tax=Metschnikow...  63.9    4e-19
+  UniRef90_B5FVB3 ATP synthase subunit K, mitochondrial n=2 Tax=Y...  62.8    1e-18
+  UniRef90_A0A1L0BUB3 CIC11C00000000980 n=1 Tax=[Candida] interme...  62.4    2e-18
+  UniRef90_Q6BIK4 DEHA2G09680p n=1 Tax=Debaryomyces hansenii (str...  61.6    3e-18
+  UniRef90_A0A1E4RRI8 Putative secreted protein n=1 Tax=Hyphopich...  60.8    5e-18
+  UniRef90_A5E1W9 Uncharacterized protein n=1 Tax=Lodderomyces el...  60.5    9e-18
+  UniRef90_A0A1E4SY96 Uncharacterized protein n=1 Tax=[Candida] a...  59.7    2e-17
+  UniRef90_G3ANJ3 Uncharacterized protein ATP19 n=1 Tax=Spathaspo...  58.9    5e-17
+  UniRef90_A0A202G4T5 Putative f1F0 ATP synthase subunit n=1 Tax=...  59.7    5e-17
+  UniRef90_C0HK66 ATP synthase subunit K, mitochondrial n=1 Tax=P...  56.6    2e-16
+  UniRef90_A0A1E4TZ70 Uncharacterized protein n=1 Tax=Pachysolen ...  56.2    4e-16
+  UniRef90_A0A397TP84 Uncharacterized protein n=1 Tax=Glomus cere...  54.7    2e-15
+  UniRef90_A0A1E3NVS0 Uncharacterized protein n=1 Tax=Wickerhamom...  54.3    3e-15
+  UniRef90_A0A1V2LJW6 ATP synthase subunit K, mitochondrial n=1 T...  54.7    9e-15
+  UniRef90_A0A1E3QA70 Uncharacterized protein n=1 Tax=Lipomyces s...  52.4    2e-14
+  UniRef90_G3B2M8 Uncharacterized protein n=1 Tax=Candida tenuis ...  51.2    4e-14
+  UniRef90_A0A015NH67 Atp19p n=5 Tax=Rhizophagus TaxID=1129544 Re...  46.6    3e-12
+  UniRef90_A0A3F2Y312 Uncharacterized protein n=1 Tax=Dekkera bru...  44.3    2e-11
+
+
+> UniRef90_P81451 ATP synthase subunit K, mitochondrial n=9 Tax=Saccharomyces 
+TaxID=4930 RepID=ATP19_YEAST
+Length=68
+
+ Score = 140 bits (352),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK
+Sbjct  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+
+Query  61  KHSEKQDA  68
+           KHSEKQDA
+Sbjct  61  KHSEKQDA  68
+
+
+> UniRef90_J8PZK8 Atp19p n=1 Tax=Saccharomyces arboricola (strain 
+H-6 / AS 2.3317 / CBS 10644) TaxID=1160507 RepID=J8PZK8_SACAR
+Length=68
+
+ Score = 129 bits (324),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 61/68 (90%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH MGKAIPPHQLAIGTLGLL LLVVPNPFKSAKPKTVDI TDNKDEE+FI+NYLK
+Sbjct  1   MGAAYHVMGKAIPPHQLAIGTLGLLSLLVVPNPFKSAKPKTVDITTDNKDEERFIKNYLK  60
+
+Query  61  KHSEKQDA  68
+           +HSEKQ+A
+Sbjct  61  EHSEKQEA  68
+
+
+> UniRef90_A0A0L8RI08 ATP19-like protein n=1 Tax=Saccharomyces 
+eubayanus TaxID=1080349 RepID=A0A0L8RI08_SACEU
+Length=68
+
+ Score = 126 bits (317),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 61/68 (90%), Positives = 64/68 (94%), Gaps = 0/68 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH MGKAIPPHQLAIGTLGLL LLVVPNPFKSAKPKTVDIKT NK+EE+FIENYLK
+Sbjct  1   MGAAYHVMGKAIPPHQLAIGTLGLLSLLVVPNPFKSAKPKTVDIKTGNKEEEQFIENYLK  60
+
+Query  61  KHSEKQDA  68
+           +H EKQDA
+Sbjct  61  QHLEKQDA  68
+
+
+> UniRef90_A0A1G4K9C2 LAME_0G10990g1_1 n=1 Tax=Lachancea meyersii 
+CBS 8951 TaxID=1266667 RepID=A0A1G4K9C2_9SACH
+Length=67
+
+ Score = 92.0 bits (227),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH +G+ + PHQLA+GT+  + +LVVPNPF S+  K V+IK ++K+EEKFI  YL+
+Sbjct  1   MGAAYHILGRTVQPHQLALGTIAAVSMLVVPNPFASSSAKQVEIKANSKEEEKFIAEYLQ  60
+
+Query  61  KHSEKQ  66
+           KHS KQ
+Sbjct  61  KHSGKQ  66
+
+
+> UniRef90_G8ZTY5 Uncharacterized protein n=1 Tax=Torulaspora delbrueckii 
+(strain ATCC 10662 / CBS 1146 / NBRC 0425 / NCYC 
+2629 / NRRL Y-866) TaxID=1076872 RepID=G8ZTY5_TORDC
+Length=69
+
+ Score = 89.7 bits (221),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 37/67 (55%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGA Y  +G+ +P HQLA+GTLGL+ L+V PNPF + KPK+VD    +K+EE+FI+NYL 
+Sbjct  1   MGAGYQILGRHVPSHQLALGTLGLVALIVAPNPFAAKKPKSVDFNAGSKEEEQFIQNYLA  60
+
+Query  61  KHSEKQD  67
+           KH+E ++
+Sbjct  61  KHAEAKE  67
+
+
+> UniRef90_A0A1G4J6K3 LANO_0C04082g1_1 n=1 Tax=Lachancea nothofagi 
+CBS 11611 TaxID=1266666 RepID=A0A1G4J6K3_9SACH
+Length=66
+
+ Score = 88.2 bits (217),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 36/65 (55%), Positives = 50/65 (77%), Gaps = 0/65 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH +G+ + PHQLA+GT+  + +L +PNPF S+  K V+IK  +K+EEKFI  YL+
+Sbjct  1   MGAAYHILGRTVQPHQLALGTIAAVAMLAIPNPFASSASKQVEIKAGSKEEEKFIAEYLQ  60
+
+Query  61  KHSEK  65
+           KH+EK
+Sbjct  61  KHAEK  65
+
+
+> UniRef90_C5DND0 KLTH0G15972p n=2 Tax=Lachancea TaxID=300275 RepID=C5DND0_LACTC
+Length=69
+
+ Score = 84.3 bits (207),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 38/63 (60%), Positives = 48/63 (76%), Gaps = 0/63 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY+ +GK + PHQLA+GTL  + LLVVPNPF S+  K  +IK  ++DEEKFI  YLK
+Sbjct  1   MGAAYNILGKTVQPHQLALGTLAAVSLLVVPNPFASSARKQPEIKASSEDEEKFIAEYLK  60
+
+Query  61  KHS  63
+           KH+
+Sbjct  61  KHT  63
+
+
+> UniRef90_A0A1S7H9F0 ATP19 (YOL077W-A) n=4 Tax=Zygosaccharomyces 
+TaxID=4953 RepID=A0A1S7H9F0_9SACH
+Length=67
+
+ Score = 83.2 bits (204),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 47/67 (70%), Gaps = 0/67 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG AY  +G+   PHQ+AI TLG + LL VPNPF   +PKTVD    + DEEKFI+ Y++
+Sbjct  1   MGHAYQILGRTCQPHQIAIATLGFVALLAVPNPFSKKQPKTVDFSASSPDEEKFIKEYVQ  60
+
+Query  61  KHSEKQD  67
+           KHS+ ++
+Sbjct  61  KHSKAEN  67
+
+
+> UniRef90_A0A1G4JK16 LADA_0F05644g1_1 n=1 Tax=Lachancea dasiensis 
+CBS 10888 TaxID=1266660 RepID=A0A1G4JK16_9SACH
+Length=66
+
+ Score = 82.8 bits (203),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 34/66 (52%), Positives = 47/66 (71%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+AYH +G+   PHQLA+GT+  +    +PNPF S+  K V+IK  +K+EEKFI  YL+
+Sbjct  1   MGSAYHILGRTFQPHQLALGTIAAVAAFAIPNPFASSAAKEVEIKAGSKEEEKFITEYLQ  60
+
+Query  61  KHSEKQ  66
+           KH+EK 
+Sbjct  61  KHAEKH  66
+
+
+> UniRef90_A7TEG4 Uncharacterized protein n=1 Tax=Vanderwaltozyma 
+polyspora (strain ATCC 22028 / DSM 70294) TaxID=436907 RepID=A7TEG4_VANPO
+Length=69
+
+ Score = 82.4 bits (202),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 35/65 (54%), Positives = 49/65 (75%), Gaps = 0/65 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+AY  +GK +P H LAIGTL  L L+ +PNPFK+++PK V+  + +KDEEKFI+ YL 
+Sbjct  1   MGSAYKILGKNVPSHYLAIGTLSALALVAIPNPFKASEPKKVEFNSSSKDEEKFIQEYLA  60
+
+Query  61  KHSEK  65
+           KH+ +
+Sbjct  61  KHASE  65
+
+
+> UniRef90_J7S374 Uncharacterized protein n=1 Tax=Kazachstania 
+naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797 / CCRC 
+22969 / KCTC 17520 / NBRC 10181 / NCYC 3082) TaxID=1071383 
+RepID=J7S374_KAZNA
+Length=64
+
+ Score = 82.0 bits (201),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 35/63 (56%), Positives = 48/63 (76%), Gaps = 0/63 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+ Y  +G+   PHQLA+GTLG L L+V+PNPF + K K VDIK  +K+EE+FI+ YL+
+Sbjct  1   MGSTYEILGRTFKPHQLALGTLGFLSLIVMPNPFAAKKEKVVDIKAGSKEEEQFIKAYLE  60
+
+Query  61  KHS  63
+           KH+
+Sbjct  61  KHT  63
+
+
+> UniRef90_C5DR56 ZYRO0B05698p n=3 Tax=Zygosaccharomyces rouxii 
+TaxID=4956 RepID=C5DR56_ZYGRC
+Length=67
+
+ Score = 82.4 bits (202),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 32/66 (48%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG AYH +G+ + PHQ+++ TL L+ LL VPNPF   +P+T+D    + DEEKFI+NY++
+Sbjct  1   MGNAYHILGRTVQPHQISLATLSLVALLAVPNPFAKKQPQTLDFAASSADEEKFIKNYVE  60
+
+Query  61  KHSEKQ  66
+           +HS+ +
+Sbjct  61  QHSKAE  66
+
+
+> UniRef90_B4UN19 Uncharacterized protein n=2 Tax=Candida glabrata 
+TaxID=5478 RepID=B4UN19_CANGA
+Length=63
+
+ Score = 81.6 bits (200),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 34/62 (55%), Positives = 48/62 (77%), Gaps = 0/62 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+AY  +G++  PHQLAIGTL L+ L+ +PNPF + K K V+I+  +K+EEKFI+ YL+
+Sbjct  1   MGSAYQILGRSFQPHQLAIGTLSLVALVAMPNPFAAKKAKEVEIQASSKEEEKFIKEYLE  60
+
+Query  61  KH  62
+           KH
+Sbjct  61  KH  62
+
+
+> UniRef90_Q757J2 AER021Cp n=2 Tax=Saccharomycetaceae TaxID=4893 
+RepID=Q757J2_ASHGO
+Length=65
+
+ Score = 80.5 bits (197),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 49/66 (74%), Gaps = 1/66 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY  +G+   PHQL++ T+GL  LLV+PNPFK A+ K V  K  ++DEEKFI+ YL+
+Sbjct  1   MGAAYTILGRTFQPHQLSLATIGLASLLVIPNPFKKAEAKPV-WKAASEDEEKFIQEYLE  59
+
+Query  61  KHSEKQ  66
+           KHS KQ
+Sbjct  60  KHSAKQ  65
+
+
+> UniRef90_A0A0C7N237 LALA0S10e05688g1_1 n=2 Tax=Lachancea TaxID=300275 
+RepID=A0A0C7N237_9SACH
+Length=69
+
+ Score = 79.0 bits (193),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 48/67 (72%), Gaps = 1/67 (1%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH +G+ + PHQLA+ T+  + L+ +PNPF S+  K VDIK  +K+EEKFI  YL 
+Sbjct  1   MGAAYHILGRTVLPHQLALATIAAVSLVALPNPFASS-AKQVDIKAGSKEEEKFIAEYLA  59
+
+Query  61  KHSEKQD  67
+           KH+E  +
+Sbjct  60  KHTENAE  66
+
+
+> UniRef90_A0A1E3NEX3 Uncharacterized protein n=1 Tax=Pichia membranifaciens 
+NRRL Y-2026 TaxID=763406 RepID=A0A1E3NEX3_9ASCO
+Length=63
+
+ Score = 78.2 bits (191),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 35/63 (56%), Positives = 47/63 (75%), Gaps = 0/63 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY+ +GKA+PPHQLA+GT+G + LLV+P P+ +   K   I   N DEEKFI+ YL+
+Sbjct  1   MGAAYNILGKAVPPHQLALGTIGAVVLLVLPKPWATTPKKEAKIDAANADEEKFIKAYLE  60
+
+Query  61  KHS  63
+           KH+
+Sbjct  61  KHA  63
+
+
+> UniRef90_A0A1G4J407 LAMI_0C06876g1_1 n=1 Tax=Lachancea mirantina 
+TaxID=1230905 RepID=A0A1G4J407_9SACH
+Length=69
+
+ Score = 78.2 bits (191),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 32/67 (48%), Positives = 48/67 (72%), Gaps = 0/67 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH +G+ + PHQL+I T+  + LL +PNPF +  PK  ++K  + +EEKFI NY+K
+Sbjct  1   MGAAYHILGRTVQPHQLSIATISAVVLLALPNPFATKVPKKPEVKAASAEEEKFIANYIK  60
+
+Query  61  KHSEKQD  67
+           +H+ K +
+Sbjct  61  EHTAKAE  67
+
+
+> UniRef90_A0A1G4MA21 LAFE_0C08834g1_1 n=1 Tax=Lachancea fermentati 
+TaxID=4955 RepID=A0A1G4MA21_LACFM
+Length=68
+
+ Score = 77.0 bits (188),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 31/63 (49%), Positives = 47/63 (75%), Gaps = 0/63 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH +G+ + P+QL++ T+  +  L +PNPF S+ PK  +IK  +++EEKFI +YLK
+Sbjct  1   MGAAYHILGRTVQPYQLSLATISAVVFLALPNPFSSSAPKQPEIKASSEEEEKFIADYLK  60
+
+Query  61  KHS  63
+           KH+
+Sbjct  61  KHT  63
+
+
+> UniRef90_G8C0D8 Uncharacterized protein n=1 Tax=Tetrapisispora 
+phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL Y-8282 
+/ UCD 70-5) TaxID=1071381 RepID=G8C0D8_TETPH
+Length=67
+
+ Score = 76.3 bits (186),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 31/63 (49%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG AY   G++ P HQLA+ T+GL+GLL+ PNPF   +   +D K  + +EEKFI++Y+K
+Sbjct  1   MGGAYTIFGRSFPSHQLALATIGLMGLLIAPNPFAKKEESKIDFKASSPEEEKFIKDYIK  60
+
+Query  61  KHS  63
+           KH+
+Sbjct  61  KHA  63
+
+
+> UniRef90_I6NDD6 Uncharacterized protein n=1 Tax=Eremothecium 
+cymbalariae (strain CBS 270.75 / DBVPG 7215 / KCTC 17166 / NRRL 
+Y-17582) TaxID=931890 RepID=I6NDD6_ERECY
+Length=65
+
+ Score = 75.9 bits (185),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 36/65 (55%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY  +G+   PHQLA+GT+  + LLVVPNPFK ++PK++  K  +  EEK+IE YL 
+Sbjct  1   MGAAYTILGRTFKPHQLALGTISAVLLLVVPNPFKKSEPKSL-WKASSHGEEKYIEEYLA  59
+
+Query  61  KHSEK  65
+           KH+EK
+Sbjct  60  KHAEK  64
+
+
+> UniRef90_H2ARW7 Uncharacterized protein n=1 Tax=Kazachstania 
+africana (strain ATCC 22294 / BCRC 22015 / CBS 2517 / CECT 1963 
+/ NBRC 1671 / NRRL Y-8276) TaxID=1071382 RepID=H2ARW7_KAZAF
+Length=68
+
+ Score = 75.1 bits (183),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 32/68 (47%), Positives = 44/68 (65%), Gaps = 0/68 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG  Y  MG+A  PHQLA+ TLG + LL++P+ F S   K  +IK D+K+EE FI NY+ 
+Sbjct  1   MGNTYQIMGRAFQPHQLALATLGTVSLLILPSNFSSKSGKAAEIKADSKEEEDFIRNYIS  60
+
+Query  61  KHSEKQDA  68
+            H  K+ +
+Sbjct  61  THKGKESS  68
+
+
+> UniRef90_A0A0A8L9F7 WGS project CCBQ000000000 data, contig 00008 
+n=1 Tax=Kluyveromyces dobzhanskii CBS 2104 TaxID=1427455 
+RepID=A0A0A8L9F7_9SACH
+Length=69
+
+ Score = 74.3 bits (181),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M AAY  +G+ + PHQLA+GTLG + LLVVPNPFKS +P        +K EE FI+ YL+
+Sbjct  1   MSAAYTILGRTVQPHQLALGTLGAVLLLVVPNPFKSKQPAKPLYTASSKGEEDFIKAYLE  60
+
+Query  61  KHSEKQD  67
+           KH+ K +
+Sbjct  61  KHTAKAE  67
+
+
+> UniRef90_A0A1X7RBP8 Similar to Saccharomyces cerevisiae YOL077W-A 
+ATP19 Subunit k of the mitochondrial F1F0 ATP synthase, 
+which is a large enzyme complex required for ATP synthesis 
+n=1 Tax=Kazachstania saulgeensis TaxID=1789683 RepID=A0A1X7RBP8_9SACH
+Length=67
+
+ Score = 73.6 bits (179),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 30/63 (48%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG AY   G+   PHQLAI TL  + ++  PNPF + KPK  +IK ++ +EE FI+ Y++
+Sbjct  1   MGGAYKIFGRTFQPHQLAIATLTTVAVIAAPNPFAAKKPKVAEIKAESAEEEAFIKTYIE  60
+
+Query  61  KHS  63
+           KHS
+Sbjct  61  KHS  63
+
+
+> UniRef90_A0A0L0P8S9 Uncharacterized protein n=2 Tax=Candida auris 
+TaxID=498019 RepID=A0A0L0P8S9_CANAR
+Length=70
+
+ Score = 72.8 bits (177),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 31/65 (48%), Positives = 46/65 (71%), Gaps = 0/65 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY  +GK++ PH L++ TLGL+  + +P P+  AKP T  I   +K+EEKF++++L 
+Sbjct  1   MGAAYQILGKSVQPHVLSLATLGLVAFVAMPKPWGPAKPTTPAINASSKEEEKFVQDFLA  60
+
+Query  61  KHSEK  65
+           KH EK
+Sbjct  61  KHLEK  65
+
+
+> UniRef90_A0A1D8PFD4 F1F0 ATP synthase subunit k n=2 Tax=Candida 
+albicans TaxID=5476 RepID=A0A1D8PFD4_CANAL
+Length=67
+
+ Score = 72.4 bits (176),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 33/66 (50%), Positives = 44/66 (67%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY   GK   PHQLA+ TLG + LLV+P P+    P T  IK  + +EEKFI+ +L 
+Sbjct  1   MGAAYQIFGKTFQPHQLALATLGSVVLLVLPKPWGPPSPTTPPIKASSPEEEKFIQEWLA  60
+
+Query  61  KHSEKQ  66
+           KH+E++
+Sbjct  61  KHTEEK  66
+
+
+> UniRef90_A0A367YCR9 ATP synthase subunit K, mitochondrial n=2 
+Tax=Candida viswanathii TaxID=5486 RepID=A0A367YCR9_9ASCO
+Length=70
+
+ Score = 71.6 bits (174),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 44/67 (66%), Gaps = 0/67 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH +GK + PHQLA+ TLG +    +P P+   KP T  I   + +EEKFI+++L 
+Sbjct  1   MGAAYHILGKTVQPHQLALATLGTVVFFTLPKPWGPPKPTTPPINASSPEEEKFIKDFLA  60
+
+Query  61  KHSEKQD  67
+           KH+E  +
+Sbjct  61  KHTETAE  67
+
+
+> UniRef90_A0A1E5R0B8 ATP synthase subunit K, mitochondrial n=1 
+Tax=Hanseniaspora osmophila TaxID=56408 RepID=A0A1E5R0B8_9ASCO
+Length=69
+
+ Score = 70.5 bits (171),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 34/68 (50%), Positives = 50/68 (74%), Gaps = 3/68 (4%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKP--KTVDIKTDNKDEEKFIENY  58
+           MGAAY+ +G+++ PHQLA+GT G +   ++PNPF S KP  ++V IK  +KDEE FI+ Y
+Sbjct  1   MGAAYNILGRSVLPHQLALGTFGAVIFFLLPNPFAS-KPQVQSVPIKAGSKDEEDFIKKY  59
+
+Query  59  LKKHSEKQ  66
+           L++HS  +
+Sbjct  60  LQEHSTTE  67
+
+
+> UniRef90_A0A376B980 Uncharacterized protein n=1 Tax=Saccharomycodes 
+ludwigii TaxID=36035 RepID=A0A376B980_9ASCO
+Length=69
+
+ Score = 70.5 bits (171),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M   Y  +GK IP HQLA+ T GL+ LLV+PNPFKS K     I   NK+EE F+++Y+K
+Sbjct  1   MAGGYTILGKHIPSHQLALTTFGLVSLLVIPNPFKSTKLPEPSINASNKEEEAFVKSYIK  60
+
+Query  61  KHSE  64
+             +E
+Sbjct  61  SKNE  64
+
+
+> UniRef90_C5MBS4 Uncharacterized protein n=1 Tax=Candida tropicalis 
+(strain ATCC MYA-3404 / T1) TaxID=294747 RepID=C5MBS4_CANTT
+Length=174
+
+ Score = 72.0 bits (175),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  1    MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+            MGAAYH +G+ + PHQLAI TLG +    +P P+ +A+P T  I   + +EEK+I+++L 
+Sbjct  105  MGAAYHILGRTVQPHQLAIATLGTVVFFTLPKPWGAAQPTTPPINAASPEEEKYIQDFLA  164
+
+Query  61   KHSE  64
+            KH+E
+Sbjct  165  KHTE  168
+
+
+> UniRef90_A0A0H5C923 Uncharacterized protein n=2 Tax=Cyberlindnera 
+jadinii TaxID=4903 RepID=A0A0H5C923_CYBJA
+Length=70
+
+ Score = 68.6 bits (166),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 31/65 (48%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+AY  +G+ +P HQ+AIGTL    LL +PNPF +A   T  I+  + +E+KFIE+YLK
+Sbjct  1   MGSAYTILGRTVPAHQIAIGTLSAALLLAIPNPFAAAVKPTPKIEASSPEEKKFIEDYLK  60
+
+Query  61  KHSEK  65
+           +   K
+Sbjct  61  QAEAK  65
+
+
+> UniRef90_F2QX90 Uncharacterized protein n=2 Tax=Komagataella 
+phaffii TaxID=460519 RepID=F2QX90_KOMPC
+Length=67
+
+ Score = 68.2 bits (165),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 32/67 (48%), Positives = 42/67 (63%), Gaps = 0/67 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY  +GK   PHQLA+ T+GL+ LL +P P  + K  T  I   + +EE FI+ YL 
+Sbjct  1   MGAAYTILGKTFQPHQLALATIGLVTLLAIPKPGGAKKETTPQINASSPEEEAFIKEYLA  60
+
+Query  61  KHSEKQD  67
+           KH +K D
+Sbjct  61  KHDQKHD  67
+
+
+> UniRef90_A0A0X8HWR6 HHR081Wp n=1 Tax=Eremothecium sinecaudum 
+TaxID=45286 RepID=A0A0X8HWR6_9SACH
+Length=64
+
+ Score = 67.8 bits (164),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 42/62 (68%), Gaps = 1/62 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+AY   G+++P H LAIGT+    LL VPNPFK ++PK V     +++E+KF+  YL 
+Sbjct  1   MGSAYTIFGRSVPSHYLAIGTISATALLAVPNPFKKSEPKKV-WNASSEEEDKFVSEYLA  59
+
+Query  61  KH  62
+           KH
+Sbjct  60  KH  61
+
+
+> UniRef90_A0A1E4SFL3 Uncharacterized protein n=1 Tax=Suhomyces 
+tanzawaensis NRRL Y-17324 TaxID=984487 RepID=A0A1E4SFL3_9ASCO
+Length=69
+
+ Score = 67.4 bits (163),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 28/63 (44%), Positives = 43/63 (68%), Gaps = 0/63 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+AY  +G+++P HQLAI TLGL+  + VP P+  A PK   I   + +EEKF++ +L 
+Sbjct  1   MGSAYTILGRSVPSHQLAIATLGLVTFVAVPKPWGPAAPKHPSINASSAEEEKFVKEWLA  60
+
+Query  61  KHS  63
+           K++
+Sbjct  61  KNA  63
+
+
+> UniRef90_G0V9K0 Uncharacterized protein n=1 Tax=Naumovozyma castellii 
+(strain ATCC 76901 / CBS 4309 / NBRC 1992 / NRRL Y-12630) 
+TaxID=1064592 RepID=G0V9K0_NAUCC
+Length=65
+
+ Score = 67.0 bits (162),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 41/65 (63%), Gaps = 0/65 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M   Y  MG+ I PHQLA+ T+G + L+ +PNPF   K K  +IK  + +E+KFI+ YL+
+Sbjct  1   MANTYEIMGRVIQPHQLAVATIGAVALIALPNPFACKKEKVAEIKGKSPEEDKFIKEYLE  60
+
+Query  61  KHSEK  65
+            H  K
+Sbjct  61  AHKLK  65
+
+
+> UniRef90_A0A0V1PTX9 Uncharacterized protein n=1 Tax=Debaryomyces 
+fabryi TaxID=58627 RepID=A0A0V1PTX9_9ASCO
+Length=67
+
+ Score = 66.6 bits (161),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 45/66 (68%), Gaps = 1/66 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGA Y  +GK++P HQLA+ TLG + L+  P P+ +A PK   I   +K+EEKF++ +L 
+Sbjct  1   MGA-YTILGKSVPSHQLALATLGSVILVAAPKPWGTAAPKHPQINASSKEEEKFVQEWLA  59
+
+Query  61  KHSEKQ  66
+           KHS ++
+Sbjct  60  KHSAEE  65
+
+
+> UniRef90_G8BL85 Uncharacterized protein n=2 Tax=Candida TaxID=1535326 
+RepID=G8BL85_CANPC
+Length=65
+
+ Score = 66.2 bits (160),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 42/62 (68%), Gaps = 1/62 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAYH  GK + PHQLA+ TLG + LLV+P P+ + KP    I   + +E+KF++ +L 
+Sbjct  1   MGAAYHIFGKTVQPHQLALATLGSVVLLVIPKPW-TVKPAHPSINASSPEEDKFVKEWLA  59
+
+Query  61  KH  62
+           KH
+Sbjct  60  KH  61
+
+
+> UniRef90_A5DHK1 Uncharacterized protein n=1 Tax=Meyerozyma guilliermondii 
+(strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 
+/ NBRC 10279 / NRRL Y-324) TaxID=294746 RepID=A5DHK1_PICGU
+Length=66
+
+ Score = 66.2 bits (160),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 42/66 (64%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY  +GK++P H L++ TLG + L V P P+  A P    I   + +EEK+++ +L 
+Sbjct  1   MGAAYQILGKSVPSHYLSLATLGAVVLTVAPKPWGPAAPAHPQISASSPEEEKYVKEWLA  60
+
+Query  61  KHSEKQ  66
+           KH+EK 
+Sbjct  61  KHAEKH  66
+
+
+> UniRef90_I2H4U2 Uncharacterized protein n=1 Tax=Tetrapisispora 
+blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC 10599 
+/ NRRL Y-10934 / UCD 77-7) TaxID=1071380 RepID=I2H4U2_TETBL
+Length=65
+
+ Score = 65.1 bits (157),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 42/64 (66%), Gaps = 2/64 (3%)
+
+Query  3   AAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIK--TDNKDEEKFIENYLK  60
+           AAY  MG+ +P H LA+GTLG L L ++PNPFKS KP   D+    D++ E+KF+  YL 
+Sbjct  2   AAYVIMGRTVPNHYLALGTLGTLSLFLIPNPFKSKKPLVPDLAKLCDSEKEQKFVSEYLA  61
+
+Query  61  KHSE  64
+             ++
+Sbjct  62  ARAK  65
+
+
+> UniRef90_A0A2U9R807 Uncharacterized protein n=1 Tax=Pichia kudriavzevii 
+TaxID=4909 RepID=A0A2U9R807_PICKU
+Length=63
+
+ Score = 65.1 bits (157),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 42/62 (68%), Gaps = 0/62 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGA Y+ +G++IPPH L++ T+G + LL  P P+  A  K  +I   +K+EE F++ YL+
+Sbjct  1   MGANYNLLGRSIPPHYLSLATIGAVVLLAAPKPWAPAVKKEAEINASSKEEEAFVKAYLE  60
+
+Query  61  KH  62
+           KH
+Sbjct  61  KH  62
+
+
+> UniRef90_W0TEE5 ATP synthase subunit K n=1 Tax=Kluyveromyces 
+marxianus (strain DMKU3-1042 / BCC 29191 / NBRC 104275) TaxID=1003335 
+RepID=W0TEE5_KLUMD
+Length=69
+
+ Score = 64.3 bits (155),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M  AY  +G+ + PHQLA+GTLG + LLVVPNPFK            +K+EE FI+ YL 
+Sbjct  1   MSGAYTILGRTVQPHQLALGTLGAVLLLVVPNPFKGKPAAKPLFTASSKEEEDFIKAYLD  60
+
+Query  61  KH  62
+           KH
+Sbjct  61  KH  62
+
+
+> UniRef90_G0W6A9 Uncharacterized protein n=1 Tax=Naumovozyma dairenensis 
+(strain ATCC 10597 / BCRC 20456 / CBS 421 / NBRC 
+0211 / NRRL Y-12639) TaxID=1071378 RepID=G0W6A9_NAUDC
+Length=66
+
+ Score = 64.3 bits (155),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 41/65 (63%), Gaps = 0/65 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MG+AY  MG+++P H LA+GT+GL+ L ++P+     K K   I   + DE+ F+  YL+
+Sbjct  1   MGSAYQIMGRSVPSHYLAMGTIGLVSLCILPSLVGGKKEKVASINAISDDEDAFVRKYLQ  60
+
+Query  61  KHSEK  65
+           +H  K
+Sbjct  61  EHKTK  65
+
+
+> UniRef90_A0A1A0H578 Uncharacterized protein n=1 Tax=Metschnikowia 
+bicuspidata var. bicuspidata NRRL YB-4993 TaxID=869754 
+RepID=A0A1A0H578_9ASCO
+Length=66
+
+ Score = 63.9 bits (154),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 45/66 (68%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY+ +G+++ P+ LA+ TLG +  +V P P+  AKP    I   + +EEKF++++L 
+Sbjct  1   MGAAYNILGRSVQPYILALATLGSVVFVVAPKPWGPAKPVHPPINAASPEEEKFVQDFLA  60
+
+Query  61  KHSEKQ  66
+           KH+EK 
+Sbjct  61  KHAEKH  66
+
+
+> UniRef90_B5FVB3 ATP synthase subunit K, mitochondrial n=2 Tax=Yarrowia 
+lipolytica TaxID=4952 RepID=ATP19_YARLI
+Length=70
+
+ Score = 62.8 bits (151),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 44/64 (69%), Gaps = 2/64 (3%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTL-GLLGLLVVPNPFKSA-KPKTVDIKTDNKDEEKFIENY  58
+           MGAAYH +GK + PHQLAIGT+  ++G +V+ +  K A KP    I+  + DEEKFI N+
+Sbjct  1   MGAAYHILGKTVYPHQLAIGTIVSVVGGIVIASSGKKAEKPAAPAIQAGSSDEEKFIANF  60
+
+Query  59  LKKH  62
+           LK+ 
+Sbjct  61  LKEQ  64
+
+
+> UniRef90_A0A1L0BUB3 CIC11C00000000980 n=1 Tax=[Candida] intermedia 
+TaxID=45354 RepID=A0A1L0BUB3_9ASCO
+Length=66
+
+ Score = 62.4 bits (150),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 41/66 (62%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY  +G+++ PH LA+ TLG +  +  P P+   KP    I   + +EEKF++++L 
+Sbjct  1   MGAAYQILGRSVQPHVLALATLGAVVFVAAPKPWGPPKPTHPAIGASSPEEEKFVQDFLA  60
+
+Query  61  KHSEKQ  66
+           KH EK 
+Sbjct  61  KHLEKH  66
+
+
+> UniRef90_Q6BIK4 DEHA2G09680p n=1 Tax=Debaryomyces hansenii (strain 
+ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968) 
+TaxID=284592 RepID=Q6BIK4_DEBHA
+Length=67
+
+ Score = 61.6 bits (148),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 43/66 (65%), Gaps = 1/66 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGA Y  +GK++P H+LA+ TLG + L+V P P+    P    I   +K+EEKF++ +L 
+Sbjct  1   MGA-YSILGKSVPSHKLALATLGSVVLVVAPKPWGPPAPNHPQINASSKEEEKFVQEWLA  59
+
+Query  61  KHSEKQ  66
+           KHS ++
+Sbjct  60  KHSAEE  65
+
+
+> UniRef90_A0A1E4RRI8 Putative secreted protein n=1 Tax=Hyphopichia 
+burtonii NRRL Y-1933 TaxID=984485 RepID=A0A1E4RRI8_9ASCO
+Length=65
+
+ Score = 60.8 bits (146),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M AAY  +GK++P H L++ TLG + L VVP P+    P    I   + DEEKF++++L 
+Sbjct  1   MAAAYTILGKSVPAHYLSLATLGAVTLAVVPKPWAPGPPAHPAINAASADEEKFVKDFLA  60
+
+Query  61  KH  62
+           KH
+Sbjct  61  KH  62
+
+
+> UniRef90_A5E1W9 Uncharacterized protein n=1 Tax=Lodderomyces 
+elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 
+1676 / NRRL YB-4239) TaxID=379508 RepID=A5E1W9_LODEL
+Length=67
+
+ Score = 60.5 bits (145),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 41/62 (66%), Gaps = 1/62 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           MGAAY  +G+   PHQLA+ TLG + LLV+P P+ + KP+   I   +  EEKF++ YL 
+Sbjct  1   MGAAYTVLGRTFQPHQLALITLGSVVLLVMPKPW-NPKPQHPSINASSPAEEKFVKEYLS  59
+
+Query  61  KH  62
+           KH
+Sbjct  60  KH  61
+
+
+> UniRef90_A0A1E4SY96 Uncharacterized protein n=1 Tax=[Candida] 
+arabinofermentans NRRL YB-2248 TaxID=983967 RepID=A0A1E4SY96_9ASCO
+Length=67
+
+ Score = 59.7 bits (143),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 39/66 (59%), Gaps = 0/66 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M  AY  +G+A+PPH LAI T+G +  LV P P+         I   + +EEKFI+++L 
+Sbjct  1   MAGAYTILGRAVPPHHLAIATIGTVVALVAPKPWTPKVKNEPKIDASSPEEEKFIKDFLA  60
+
+Query  61  KHSEKQ  66
+           KH E +
+Sbjct  61  KHEEAK  66
+
+
+> UniRef90_G3ANJ3 Uncharacterized protein ATP19 n=1 Tax=Spathaspora 
+passalidarum (strain NRRL Y-27907 / 11-Y1) TaxID=619300 
+RepID=G3ANJ3_SPAPN
+Length=69
+
+ Score = 58.9 bits (141),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 30/70 (43%), Positives = 42/70 (60%), Gaps = 7/70 (10%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFK----SAKPKTVDIKTDNKDEEKFIE  56
+           MGAAY  +G+   PHQLAI TLG +  LV P P+     SA P    I   + +EEKF++
+Sbjct  1   MGAAYTILGRTFQPHQLAIATLGAVVYLVAPKPWAAKEVSAGP---AINASSPEEEKFVK  57
+
+Query  57  NYLKKHSEKQ  66
+            +L KH+ ++
+Sbjct  58  EWLAKHTAEE  67
+
+
+> UniRef90_A0A202G4T5 Putative f1F0 ATP synthase subunit n=1 Tax=Clavispora 
+lusitaniae TaxID=36911 RepID=A0A202G4T5_CLALS
+Length=103
+
+ Score = 59.7 bits (143),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 26/66 (39%), Positives = 42/66 (64%), Gaps = 0/66 (0%)
+
+Query  1    MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+            MGAAY  +G+++ PH LA+ TLG +  +  P P+   KP    I   + +EEKF++++L 
+Sbjct  37   MGAAYTILGRSVQPHVLALATLGAVVFVAAPKPWGPPKPTHPAIGASSPEEEKFVKDFLA  96
+
+Query  61   KHSEKQ  66
+            KH E++
+Sbjct  97   KHLEEK  102
+
+
+> UniRef90_C0HK66 ATP synthase subunit K, mitochondrial n=1 Tax=Pichia 
+angusta TaxID=870730 RepID=ATP19_PICAN
+Length=62
+
+ Score = 56.6 bits (135),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 28/61 (46%), Positives = 35/61 (57%), Gaps = 0/61 (0%)
+
+Query  2   GAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLKK  61
+             AY   GKAIPPH LAI T+G +  LV P P+         I   + +EEKFI+ YL+K
+Sbjct  1   AGAYTLFGKAIPPHHLAIATIGTVVALVAPKPWSPKVKLEPKIDASSPEEEKFIKEYLEK  60
+
+Query  62  H  62
+           H
+Sbjct  61  H  61
+
+
+> UniRef90_A0A1E4TZ70 Uncharacterized protein n=1 Tax=Pachysolen 
+tannophilus NRRL Y-2460 TaxID=669874 RepID=A0A1E4TZ70_PACTA
+Length=67
+
+ Score = 56.2 bits (134),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 36/60 (60%), Gaps = 0/60 (0%)
+
+Query  2   GAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLKK  61
+           G AY  +G+++ PHQLAI TL  +   V+P P+ S    +  I   + +EEKFI+ YL K
+Sbjct  3   GPAYQILGRSVQPHQLAIATLSTVLFFVIPKPWGSKTLASPSIGASSPEEEKFIKEYLAK  62
+
+
+> UniRef90_A0A397TP84 Uncharacterized protein n=1 Tax=Glomus cerebriforme 
+TaxID=658196 RepID=A0A397TP84_9GLOM
+Length=74
+
+ Score = 54.7 bits (130),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 40/69 (58%), Gaps = 3/69 (4%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGL--LGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENY  58
+           MG +Y   G+ +P H LAI TL    LG+  V    KS KP T  I   + DEE FI+ +
+Sbjct  1   MGGSYLIAGRNVPTHYLAITTLATFGLGIFAVSRRAKSKKPTTPPINASSSDEEAFIKEF  60
+
+Query  59  LKKHSEKQD  67
+           + KH+E+QD
+Sbjct  61  I-KHAEEQD  68
+
+
+> UniRef90_A0A1E3NVS0 Uncharacterized protein n=1 Tax=Wickerhamomyces 
+anomalus (strain ATCC 58044 / CBS 1984 / NCYC 433 / NRRL 
+Y-366-8) TaxID=683960 RepID=A0A1E3NVS0_WICAA
+Length=70
+
+ Score = 54.3 bits (129),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/59 (44%), Positives = 37/59 (63%), Gaps = 1/59 (2%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYL  59
+           MG+AY   GK +P H ++I TL    L+ +PNPF +A+  T  I   + +EEKFI +YL
+Sbjct  1   MGSAYVIFGKTVPAHYISIATLSAALLVALPNPFAAAQ-TTPKINASSPEEEKFINDYL  58
+
+
+> UniRef90_A0A1V2LJW6 ATP synthase subunit K, mitochondrial n=1 
+Tax=Pichia kudriavzevii TaxID=4909 RepID=A0A1V2LJW6_PICKU
+Length=135
+
+ Score = 54.7 bits (130),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 35/54 (65%), Gaps = 0/54 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKF  54
+           MGA Y+ +G++IPPH L++ T+G + LL  P P+  A  K  +I   +K+EE F
+Sbjct  1   MGANYNLLGRSIPPHYLSLATIGAVVLLAAPKPWAPAVKKEAEINASSKEEEAF  54
+
+
+> UniRef90_A0A1E3QA70 Uncharacterized protein n=1 Tax=Lipomyces 
+starkeyi NRRL Y-11557 TaxID=675824 RepID=A0A1E3QA70_LIPST
+Length=72
+
+ Score = 52.4 bits (124),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 39/69 (57%), Gaps = 2/69 (3%)
+
+Query  2   GAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPF--KSAKPKTVDIKTDNKDEEKFIENYL  59
+           GA YH +G+ + PHQLAI TLG   LLV  +    KS K     I   + +EE F++ +L
+Sbjct  3   GAVYHILGRTVKPHQLAIATLGTTALLVYGSTGGKKSEKAALPPINASSPEEEDFVKTFL  62
+
+Query  60  KKHSEKQDA  68
+           K   EK+ A
+Sbjct  63  KSLEEKKPA  71
+
+
+> UniRef90_G3B2M8 Uncharacterized protein n=1 Tax=Candida tenuis 
+(strain ATCC 10573 / BCRC 21748 / CBS 615 / JCM 9827 / NBRC 
+10315 / NRRL Y-1498 / VKM Y-70) TaxID=590646 RepID=G3B2M8_CANTC
+Length=67
+
+ Score = 51.2 bits (121),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 37/62 (60%), Gaps = 0/62 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M AAY  +GK++P HQLAI TLG +  + +P P+    P        + +EEKFI+ +L 
+Sbjct  1   MAAAYTILGKSVPSHQLAIATLGAVAFVCIPKPWAPPAPAHPPTNASSAEEEKFIKEFLS  60
+
+Query  61  KH  62
+           K+
+Sbjct  61  KN  62
+
+
+> UniRef90_A0A015NH67 Atp19p n=5 Tax=Rhizophagus TaxID=1129544 
+RepID=A0A015NH67_9GLOM
+Length=71
+
+ Score = 46.6 bits (109),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 32/62 (52%), Gaps = 2/62 (3%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGL--LVVPNPFKSAKPKTVDIKTDNKDEEKFIENY  58
+           MG +Y   G+ +  H LAI TL   GL    +    KS KP T  I   + DEE FI+ +
+Sbjct  1   MGGSYLIAGRNVSSHYLAITTLATFGLGAFAISKRIKSKKPNTPPINASSADEEAFIKEF  60
+
+Query  59  LK  60
+           LK
+Sbjct  61  LK  62
+
+
+> UniRef90_A0A3F2Y312 Uncharacterized protein n=1 Tax=Dekkera bruxellensis 
+TaxID=5007 RepID=A0A3F2Y312_DEKBR
+Length=70
+
+ Score = 44.3 bits (103),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 28/67 (42%), Positives = 41/67 (61%), Gaps = 0/67 (0%)
+
+Query  1   MGAAYHFMGKAIPPHQLAIGTLGLLGLLVVPNPFKSAKPKTVDIKTDNKDEEKFIENYLK  60
+           M A Y   GK IP H L+I TL L+ LLV+PNPFK+   K   ++    +E  FI+ Y++
+Sbjct  1   MVATYTIAGKVIPSHYLSIATLSLVTLLVLPNPFKTVPVKQPKVEGSTPEETAFIKKYIE  60
+
+Query  61  KHSEKQD  67
+           +H  K++
+Sbjct  61  EHEPKKE  67
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 106231
+
+
+  Database: isar.db.182
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 4,184
+  Number of sequences in database:  59
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

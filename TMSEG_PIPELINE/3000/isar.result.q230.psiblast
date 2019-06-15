@@ -1,0 +1,217 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.230
+           12 sequences; 423 total letters
+
+Results from round 1
+
+
+Query= Q8DIQ0|4fbyT|PSBT_THEEB 1.0
+
+Length=32
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q8DIQ0 Photosystem II reaction center protein T n=5 Ta...  63.2    9e-21
+  UniRef90_B8HWU5 Photosystem II reaction center protein T n=2 Ta...  57.4    1e-18
+  UniRef90_A0A2N5JSM4 Photosystem II reaction center protein T n=...  54.3    3e-17
+  UniRef90_K9SGT3 Photosystem II reaction center protein T n=1 Ta...  53.5    6e-17
+  UniRef90_A0A3C1M5Q6 Photosystem II reaction center protein T n=...  52.4    2e-16
+  UniRef90_K9SR44 Photosystem II reaction center protein T n=1 Ta...  51.6    3e-16
+  UniRef90_A0A256BGQ7 Photosystem II reaction center protein T n=...  51.6    4e-16
+  UniRef90_A0A2W7AQ31 Photosystem II reaction center protein T n=...  50.1    1e-15
+  UniRef90_A0A0C1YIG0 Photosystem II reaction center protein T n=...  49.7    2e-15
+  UniRef90_A0A2W1JXA6 Photosystem II reaction center protein T n=...  49.3    3e-15
+  UniRef90_B0C605 Photosystem II protein PsbT n=1 Tax=Acaryochlor...  47.0    3e-14
+  UniRef90_A0A222AID2 Photosystem II reaction center protein T n=...  45.8    6e-14
+
+
+> UniRef90_Q8DIQ0 Photosystem II reaction center protein T n=5 
+Tax=Cyanobacteria TaxID=1117 RepID=PSBT_THEEB
+Length=32
+
+ Score = 63.2 bits (152),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITKK  32
+           METITYVFIFACIIALFFFAIFFREPPRITKK
+Sbjct  1   METITYVFIFACIIALFFFAIFFREPPRITKK  32
+
+
+> UniRef90_B8HWU5 Photosystem II reaction center protein T n=2 
+Tax=Cyanobacteria TaxID=1117 RepID=PSBT_CYAP4
+Length=32
+
+ Score = 57.4 bits (137),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 27/32 (84%), Positives = 29/32 (91%), Gaps = 0/32 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITKK  32
+           ME+I YV IFAC+I LFFFAIFFREPPRITKK
+Sbjct  1   MESIAYVLIFACLIGLFFFAIFFREPPRITKK  32
+
+
+> UniRef90_A0A2N5JSM4 Photosystem II reaction center protein T 
+n=1 Tax=Cyanobacteria bacterium M5B4 TaxID=2054928 RepID=A0A2N5JSM4_9CYAN
+Length=37
+
+ Score = 54.3 bits (129),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITKK  32
+           METITY FIFACII LFFFAIFFREPP+I   
+Sbjct  1   METITYTFIFACIIGLFFFAIFFREPPKIESD  32
+
+
+> UniRef90_K9SGT3 Photosystem II reaction center protein T n=1 
+Tax=Pseudanabaena sp. PCC 7367 TaxID=82654 RepID=K9SGT3_9CYAN
+Length=36
+
+ Score = 53.5 bits (127),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 27/32 (84%), Gaps = 0/32 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITKK  32
+           METITYV IFA II LFFFAIFFREPP+I  K
+Sbjct  1   METITYVLIFAGIIGLFFFAIFFREPPKIVSK  32
+
+
+> UniRef90_A0A3C1M5Q6 Photosystem II reaction center protein T 
+n=1 Tax=Cyanobacteria bacterium UBA8156 TaxID=2055767 RepID=A0A3C1M5Q6_9CYAN
+Length=36
+
+ Score = 52.4 bits (124),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRIT  30
+           METITY  IFAC I LFFFAIFFREPP+I+
+Sbjct  1   METITYTLIFACTIGLFFFAIFFREPPKIS  30
+
+
+> UniRef90_K9SR44 Photosystem II reaction center protein T n=1 
+Tax=Synechococcus sp. PCC 7502 TaxID=1173263 RepID=K9SR44_9SYNE
+Length=35
+
+ Score = 51.6 bits (122),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 24/30 (80%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRIT  30
+           METITYV IFA +I LFFFAIFFREPP+I 
+Sbjct  1   METITYVLIFASLIGLFFFAIFFREPPKIN  30
+
+
+> UniRef90_A0A256BGQ7 Photosystem II reaction center protein T 
+n=5 Tax=Pseudanabaena TaxID=1152 RepID=A0A256BGQ7_9CYAN
+Length=37
+
+ Score = 51.6 bits (122),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRI  29
+           ME +TY FIFAC+I LFFFAIFFREPP++
+Sbjct  1   MEALTYTFIFACLIGLFFFAIFFREPPKV  29
+
+
+> UniRef90_A0A2W7AQ31 Photosystem II reaction center protein T 
+n=1 Tax=Pseudanabaena sp. TaxID=1153 RepID=A0A2W7AQ31_9CYAN
+Length=37
+
+ Score = 50.1 bits (118),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 21/29 (72%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRI  29
+           ME +TY  IFAC+I LFFFAIFFREPP++
+Sbjct  1   MEALTYTLIFACLIGLFFFAIFFREPPKV  29
+
+
+> UniRef90_A0A0C1YIG0 Photosystem II reaction center protein T 
+n=11 Tax=Cyanobacteria TaxID=1117 RepID=A0A0C1YIG0_9CYAN
+Length=32
+
+ Score = 49.7 bits (117),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/32 (69%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITKK  32
+           ME + Y+FIFAC+I   FFAI FREPPRITK 
+Sbjct  1   MEAVAYIFIFACVIGTLFFAIAFREPPRITKD  32
+
+
+> UniRef90_A0A2W1JXA6 Photosystem II reaction center protein T 
+n=1 Tax=Acaryochloris sp. RCC1774 TaxID=1764569 RepID=A0A2W1JXA6_9CYAN
+Length=31
+
+ Score = 49.3 bits (116),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITK  31
+           M T  Y  IFACII LFFFAIFFREPP+I K
+Sbjct  1   MSTFAYTLIFACIIGLFFFAIFFREPPKINK  31
+
+
+> UniRef90_B0C605 Photosystem II protein PsbT n=1 Tax=Acaryochloris 
+marina (strain MBIC 11017) TaxID=329726 RepID=B0C605_ACAM1
+Length=46
+
+ Score = 47.0 bits (110),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 24/31 (77%), Gaps = 0/31 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITK  31
+           M+ I YVFI ACII LFFFA+FFRE P + K
+Sbjct  1   MDVIAYVFILACIIGLFFFAVFFREKPTLDK  31
+
+
+> UniRef90_A0A222AID2 Photosystem II reaction center protein T 
+n=3 Tax=Cryptophyta TaxID=3027 RepID=A0A222AID2_9CRYP
+Length=32
+
+ Score = 45.8 bits (107),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 19/32 (59%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  1   METITYVFIFACIIALFFFAIFFREPPRITKK  32
+           MET+ YVF+ A  + + FFA+FFR+PPRI KK
+Sbjct  1   METLVYVFLLAGTLGVIFFAVFFRDPPRIAKK  32
+
+
+
+Lambda      K        H        a         alpha
+   0.348    0.156    0.500    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10500
+
+
+  Database: isar.db.230
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 423
+  Number of sequences in database:  12
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

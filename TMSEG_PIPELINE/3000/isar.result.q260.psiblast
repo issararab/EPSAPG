@@ -1,0 +1,4357 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.260
+           330 sequences; 41,442 total letters
+
+Results from round 1
+
+
+Query= Q9Y241|2lomA|HIG1A_HUMAN 1.0
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9Y241 HIG1 domain family member 1A, mitochondrial n=7...  192     4e-68
+  UniRef90_A0A2K6NX39 HIG1 hypoxia inducible domain family member...  192     4e-68
+  UniRef90_A0A2I3G1S9 Uncharacterized protein n=1 Tax=Nomascus le...  180     3e-63
+  UniRef90_H0X4N8 HIG1 hypoxia inducible domain family member 1A ...  179     7e-63
+  UniRef90_F6Q442 Uncharacterized protein n=8 Tax=Eutheria TaxID=...  177     4e-62
+  UniRef90_G3U0N9 HIG1 hypoxia inducible domain family member 1A ...  176     5e-62
+  UniRef90_A0A2I2UQ51 Uncharacterized protein n=2 Tax=Felis catus...  176     1e-61
+  UniRef90_A0A384B1H7 HIG1 domain family member 1A, mitochondrial...  175     4e-61
+  UniRef90_A0A384B1D8 HIG1 domain family member 1A, mitochondrial...  174     6e-61
+  UniRef90_G3RY47 Uncharacterized protein n=3 Tax=Homininae TaxID...  173     1e-60
+  UniRef90_L5KEX8 HIG1 domain family member 1A n=4 Tax=Boreoeuthe...  173     3e-60
+  UniRef90_Q1LZ70 HIG1 domain family, member 1D n=28 Tax=Boreoeut...  171     5e-60
+  UniRef90_A0A2I3SCP6 Uncharacterized protein n=1 Tax=Pan troglod...  170     2e-59
+  UniRef90_Q9JLR9 HIG1 domain family member 1A, mitochondrial n=1...  170     2e-59
+  UniRef90_A0A2U3XU76 HIG1 domain family member 1A, mitochondrial...  169     1e-58
+  UniRef90_A0A212C8X4 Uncharacterized protein n=1 Tax=Cervus elap...  172     1e-58
+  UniRef90_F6VVJ0 Uncharacterized protein n=2 Tax=Monodelphis dom...  165     2e-57
+  UniRef90_A0A340XVG0 HIG1 domain family member 1A, mitochondrial...  164     2e-57
+  UniRef90_A0A2R8MJE6 Uncharacterized protein n=1 Tax=Callithrix ...  164     4e-57
+  UniRef90_G3VRQ3 HIG1 hypoxia inducible domain family member 1A ...  163     1e-56
+  UniRef90_K9J184 Putative conserved plasma membrane protein (Fra...  162     4e-56
+  UniRef90_A0A2K5PAB2 Uncharacterized protein n=1 Tax=Cebus capuc...  161     6e-56
+  UniRef90_F7GHT0 Uncharacterized protein n=1 Tax=Callithrix jacc...  161     7e-56
+  UniRef90_A0A2K5DAH9 Uncharacterized protein n=1 Tax=Aotus nancy...  160     2e-55
+  UniRef90_F6R5S0 HIG1 hypoxia inducible domain family member 1A ...  159     4e-55
+  UniRef90_A0A1D5R150 Uncharacterized protein n=4 Tax=Cercopithec...  159     6e-55
+  UniRef90_C9JNU6 HIG1 domain family member 1A, mitochondrial n=4...  157     2e-54
+  UniRef90_A0A2U3XC86 HIG1 domain family member 1A, mitochondrial...  156     7e-54
+  UniRef90_A0A2U3XA40 HIG1 domain family member 1A, mitochondrial...  155     8e-54
+  UniRef90_L9JAL9 HIG1 domain family member 1A n=1 Tax=Tupaia chi...  148     2e-50
+  UniRef90_A0A2I2Z1S7 Uncharacterized protein n=1 Tax=Gorilla gor...  148     3e-50
+  UniRef90_A0A2I3HF83 Uncharacterized protein n=1 Tax=Nomascus le...  146     3e-50
+  UniRef90_A0A2K6GW04 Uncharacterized protein n=1 Tax=Propithecus...  144     2e-49
+  UniRef90_L9KST5 HIG1 domain family member 1A n=1 Tax=Tupaia chi...  143     7e-49
+  UniRef90_A0A2I2YME8 Uncharacterized protein n=1 Tax=Gorilla gor...  142     2e-48
+  UniRef90_M3VUY4 Uncharacterized protein n=1 Tax=Felis catus Tax...  142     2e-48
+  UniRef90_L8I9Y7 Uncharacterized protein (Fragment) n=5 Tax=Bos ...  141     4e-48
+  UniRef90_L8IJX4 Uncharacterized protein (Fragment) n=1 Tax=Bos ...  140     1e-47
+  UniRef90_A0A3P4RHQ3 Uncharacterized protein n=1 Tax=Gulo gulo T...  137     2e-46
+  UniRef90_A0A2K6GW57 Uncharacterized protein n=1 Tax=Propithecus...  134     2e-45
+  UniRef90_A0A2I2URN4 Uncharacterized protein n=1 Tax=Felis catus...  129     6e-43
+  UniRef90_A0A1D5Q7I7 Uncharacterized protein n=2 Tax=Cercopithec...  128     7e-43
+  UniRef90_A0A2K5UEA1 Uncharacterized protein n=5 Tax=Cercopithec...  125     6e-42
+  UniRef90_A0A2K6BPI3 Uncharacterized protein n=1 Tax=Macaca neme...  125     8e-42
+  UniRef90_J9NVR9 Uncharacterized protein n=2 Tax=Laurasiatheria ...  123     5e-41
+  UniRef90_A0A2K6L2G3 Uncharacterized protein n=1 Tax=Rhinopithec...  120     8e-40
+  UniRef90_D2HUN7 Uncharacterized protein (Fragment) n=1 Tax=Ailu...  117     6e-39
+  UniRef90_G3MXZ2 HIG1 hypoxia inducible domain family member 1C ...  116     4e-38
+  UniRef90_M3Y1U9 HIG1 hypoxia inducible domain family member 1C ...  115     6e-38
+  UniRef90_G1S7W4 HIG1 hypoxia inducible domain family member 1C ...  115     9e-38
+  UniRef90_A0A2U4BFF3 HIG1 domain family member 1A, mitochondrial...  115     2e-37
+  UniRef90_L7N1G1 Uncharacterized protein n=2 Tax=Myotis TaxID=94...  119     2e-37
+  UniRef90_A0A2K5MMI3 HIG1 hypoxia inducible domain family member...  114     2e-37
+  UniRef90_A8MV81 HIG1 domain family member 1C n=4 Tax=Hominidae ...  112     1e-36
+  UniRef90_F7BJG9 HIG1 hypoxia inducible domain family member 1C ...  112     1e-36
+  UniRef90_A0A2I2U9W9 Methyltransferase like 7A n=3 Tax=Felidae T...  110     1e-35
+  UniRef90_F7FL79 Uncharacterized protein n=2 Tax=Ornithorhynchus...  110     2e-35
+  UniRef90_Q76I25 HIG1 domain family member 1C n=4 Tax=Mus muscul...  107     2e-34
+  UniRef90_A0A2I2UKJ1 Uncharacterized protein n=2 Tax=Felis catus...  106     3e-34
+  UniRef90_G3TM51 HIG1 hypoxia inducible domain family member 1C ...  105     5e-34
+  UniRef90_H2NHA6 HIG1 hypoxia inducible domain family member 1C ...  105     6e-34
+  UniRef90_A0A2K5DHQ2 Uncharacterized protein n=1 Tax=Aotus nancy...  102     6e-33
+  UniRef90_A0A287ADX4 HIG1 hypoxia inducible domain family member...  102     1e-32
+  UniRef90_A0A2Y9SJS1 HIG1 domain family member 1C n=1 Tax=Physet...  102     1e-32
+  UniRef90_A0A2U3XUU5 methyltransferase-like protein 7A n=1 Tax=L...  105     6e-32
+  UniRef90_A0A341ANI6 HIG1 domain family member 1C n=1 Tax=Neopho...  99.4    2e-31
+  UniRef90_L9LBB6 HIG1 domain family member 1A n=1 Tax=Tupaia chi...  97.4    6e-31
+  UniRef90_A0A1S3AIQ9 HIG1 domain family member 1B n=1 Tax=Erinac...  97.1    2e-30
+  UniRef90_A0A1L8E0J0 Putative hig1 domain family member 1a mitoc...  97.1    2e-30
+  UniRef90_Q99JY6 HIG1 domain family member 1B n=8 Tax=Muroidea T...  97.1    2e-30
+  UniRef90_A0A287BN51 Uncharacterized protein n=1 Tax=Sus scrofa ...  95.9    4e-30
+  UniRef90_A0A2Y9NF48 HIG1 domain family member 1C n=1 Tax=Delphi...  97.8    7e-30
+  UniRef90_A0A2K6F8W6 HIG1 hypoxia inducible domain family member...  95.5    8e-30
+  UniRef90_L8Y1I6 HIG1 domain family member 1B n=1 Tax=Tupaia chi...  95.5    9e-30
+  UniRef90_A0JNP7 HIG1 domain family, member 1B n=9 Tax=Laurasiat...  95.1    1e-29
+  UniRef90_G1MJ95 HIG1 hypoxia inducible domain family member 1B ...  95.1    1e-29
+  UniRef90_F1RQZ8 HIG1 hypoxia inducible domain family member 1B ...  95.1    1e-29
+  UniRef90_A0A182WE50 Uncharacterized protein n=1 Tax=Anopheles m...  94.0    2e-29
+  UniRef90_W5JI78 HIG1 domain family member 1A n=6 Tax=Nyssorhync...  93.6    4e-29
+  UniRef90_Q9P298 HIG1 domain family member 1B n=21 Tax=Catarrhin...  92.8    8e-29
+  UniRef90_T1DQL4 Putative plasma membrane protein (Fragment) n=1...  93.2    1e-28
+  UniRef90_A0A1U7T3S4 HIG1 domain family member 1B n=1 Tax=Tarsiu...  93.6    1e-28
+  UniRef90_G3TEY1 HIG1 hypoxia inducible domain family member 1B ...  92.0    2e-28
+  UniRef90_A0A2K6UT95 HIG1 hypoxia inducible domain family member...  91.7    3e-28
+  UniRef90_A0A1B0CJ30 Uncharacterized protein n=1 Tax=Lutzomyia l...  94.0    3e-28
+  UniRef90_A0A023ECJ9 Uncharacterized protein n=3 Tax=Stegomyia T...  91.3    4e-28
+  UniRef90_A0A182VHQ2 Uncharacterized protein n=1 Tax=Anopheles m...  91.7    5e-28
+  UniRef90_A0A084WNK2 AGAP010716-PA-like protein n=5 Tax=Anophele...  90.1    7e-28
+  UniRef90_W8BMG1 HIG1 domain family member 1A, mitochondrial n=2...  90.5    7e-28
+  UniRef90_F6T5E4 HIG1 hypoxia inducible domain family member 1B ...  91.3    1e-27
+  UniRef90_A0A182PM22 Uncharacterized protein n=5 Tax=Pyretophoru...  91.3    1e-27
+  UniRef90_G1SRW0 Uncharacterized protein n=1 Tax=Oryctolagus cun...  91.7    2e-27
+  UniRef90_A0A067QPA3 HIG1 domain family member 1A n=1 Tax=Zooter...  90.1    3e-27
+  UniRef90_A0A023EFU6 Uncharacterized protein (Fragment) n=2 Tax=...  90.1    3e-27
+  UniRef90_A0A1B0DQY2 Uncharacterized protein n=1 Tax=Phlebotomus...  89.0    3e-27
+  UniRef90_A0A2P8Z1R7 Uncharacterized protein n=1 Tax=Blattella g...  90.1    4e-27
+  UniRef90_A0A0L0BN83 Uncharacterized protein n=1 Tax=Lucilia cup...  87.8    8e-27
+  UniRef90_A0A194RD06 HIG1 domain family member 1A n=1 Tax=Papili...  88.2    9e-27
+  UniRef90_B0XDC9 HIG1 domain family member 1A n=4 Tax=Culicinae ...  87.4    1e-26
+  UniRef90_A0A226E2J6 HIG1 domain family member 1A, mitochondrial...  87.4    2e-26
+  UniRef90_A0A182K180 Uncharacterized protein n=1 Tax=Anopheles c...  87.4    2e-26
+  UniRef90_A0A194PJD0 HIG1 domain family member 1A n=2 Tax=Papili...  88.2    2e-26
+  UniRef90_A0A0A1WG42 HIG1 domain family member 1A n=5 Tax=Holome...  87.0    2e-26
+  UniRef90_G3W1S1 HIG1 hypoxia inducible domain family member 1B ...  86.7    3e-26
+  UniRef90_R4WNN7 Uncharacterized protein n=1 Tax=Riptortus pedes...  85.9    3e-26
+  UniRef90_R4UKW7 Hypoxia induced protein conserved region n=1 Ta...  85.9    5e-26
+  UniRef90_A0A212F015 Uncharacterized protein n=1 Tax=Danaus plex...  85.9    5e-26
+  UniRef90_A0A1Y1MKT1 Uncharacterized protein n=1 Tax=Photinus py...  85.5    7e-26
+  UniRef90_Q9VGQ2 RE71331p n=17 Tax=Drosophila TaxID=2081351 RepI...  85.5    7e-26
+  UniRef90_Q8INK7 GEO12665p1 n=2 Tax=Drosophila melanogaster TaxI...  85.1    1e-25
+  UniRef90_B4LXM6 Uncharacterized protein, isoform A n=6 Tax=Dros...  84.3    2e-25
+  UniRef90_A0A383ZYW0 HIG1 domain family member 1B n=1 Tax=Balaen...  84.3    2e-25
+  UniRef90_B4NKV9 Uncharacterized protein n=1 Tax=Drosophila will...  84.0    3e-25
+  UniRef90_A0A2Y9TAB8 HIG1 domain family member 1B n=1 Tax=Physet...  85.1    4e-25
+  UniRef90_A0A0M4EEG2 CG11825 n=2 Tax=Drosophila busckii TaxID=30...  83.6    4e-25
+  UniRef90_A0A1I8NFK2 Uncharacterized protein n=5 Tax=Muscinae Ta...  83.6    4e-25
+  UniRef90_B4GLP6 GL12612 n=4 Tax=obscura group TaxID=32355 RepID...  83.2    5e-25
+  UniRef90_A0A0B4KEI1 Uncharacterized protein, isoform C n=4 Tax=...  83.6    1e-24
+  UniRef90_A0A1W4VQ53 HIG1 domain family member 1A, mitochondrial...  83.2    1e-24
+  UniRef90_B4HMP5 GM20525 n=4 Tax=melanogaster group TaxID=32346 ...  82.4    1e-24
+  UniRef90_A0A287B173 Uncharacterized protein n=1 Tax=Sus scrofa ...  81.3    2e-24
+  UniRef90_A0A340X1M3 HIG1 domain family member 1B n=1 Tax=Lipote...  83.2    2e-24
+  UniRef90_H9J1G9 Uncharacterized protein n=1 Tax=Bombyx mori Tax...  81.6    2e-24
+  UniRef90_B3LXD6 Uncharacterized protein, isoform A n=2 Tax=Dros...  81.6    3e-24
+  UniRef90_A0A1W4WT46 HIG1 domain family member 1A, mitochondrial...  81.3    4e-24
+  UniRef90_A0A2U4BPG9 HIG1 domain family member 1B n=2 Tax=Odonto...  82.4    4e-24
+  UniRef90_A0A341CP33 HIG1 domain family member 1B n=2 Tax=Odonto...  82.4    4e-24
+  UniRef90_A0A3P4LZP3 Uncharacterized protein n=1 Tax=Gulo gulo T...  79.3    5e-24
+  UniRef90_M3WJP2 Methyltransferase like 7A n=1 Tax=Felis catus T...  85.1    9e-24
+  UniRef90_A0A023FCS0 Putative induced by hypoxia (Fragment) n=1 ...  79.7    1e-23
+  UniRef90_A0A0J9R9N6 Uncharacterized protein n=2 Tax=Drosophila ...  81.3    1e-23
+  UniRef90_T1I5P0 Uncharacterized protein n=1 Tax=Rhodnius prolix...  79.3    1e-23
+  UniRef90_U5EHM4 Putative conserved plasma membrane protein (Fra...  79.3    2e-23
+  UniRef90_A0A069DNT7 Putative induced by hypoxia n=3 Tax=Triatom...  79.0    2e-23
+  UniRef90_W4XPD1 Uncharacterized protein n=2 Tax=Strongylocentro...  78.2    4e-23
+  UniRef90_A0A1E1WDW2 Uncharacterized protein n=2 Tax=Pectinophor...  78.6    5e-23
+  UniRef90_A0A2I9LP35 HIG1 domain family protein n=2 Tax=Centruro...  77.8    9e-23
+  UniRef90_A0A2A4J6H5 Uncharacterized protein n=5 Tax=Noctuidae T...  77.0    1e-22
+  UniRef90_D6WIG9 HIG1 domain family member 1A, mitochondrial-lik...  77.0    2e-22
+  UniRef90_H9J1H1 Uncharacterized protein n=1 Tax=Bombyx mori Tax...  76.6    2e-22
+  UniRef90_A0A1D2NEJ2 HIG1 domain family member 1A, mitochondrial...  76.6    3e-22
+  UniRef90_A0A2R7VVY5 Uncharacterized protein n=1 Tax=Oncopeltus ...  75.9    3e-22
+  UniRef90_L5KSG5 HIG1 domain family member 1B n=1 Tax=Pteropus a...  75.9    3e-22
+  UniRef90_A0A0K8TRA6 Putative conserved plasma membrane protein ...  75.5    5e-22
+  UniRef90_A0A182RW80 Uncharacterized protein n=1 Tax=Anopheles f...  74.7    5e-22
+  UniRef90_A0A0B7BR50 Uncharacterized protein n=1 Tax=Arion vulga...  75.9    6e-22
+  UniRef90_A0A2A4J5S6 Uncharacterized protein n=4 Tax=Noctuidae T...  75.9    6e-22
+  UniRef90_A0A336MUQ4 CSON006458 protein n=2 Tax=Culicoides sonor...  79.3    6e-22
+  UniRef90_A0A0P5HV51 HIG1 domain family member 1A, mitochondrial...  75.9    1e-21
+  UniRef90_A0A0P5KT71 HIG1 domain family member 1A, mitochondrial...  75.9    1e-21
+  UniRef90_S4NSW2 HIG1 domain family member 1A n=1 Tax=Pararge ae...  73.9    2e-21
+  UniRef90_A0A0P6B988 HIG1 domain family member 1A, mitochondrial...  76.3    3e-21
+  UniRef90_A0A1B0AZE3 Uncharacterized protein n=3 Tax=Glossina Ta...  73.6    3e-21
+  UniRef90_A0A0P5LI62 HIG1 domain family member 1A, mitochondrial...  76.3    3e-21
+  UniRef90_E9H6U7 Uncharacterized protein n=1 Tax=Daphnia pulex T...  72.8    7e-21
+  UniRef90_J9KX54 Uncharacterized protein n=5 Tax=Aphidinae TaxID...  71.6    1e-20
+  UniRef90_N6TG59 Uncharacterized protein (Fragment) n=2 Tax=Dend...  71.6    2e-20
+  UniRef90_A0A182MUH4 Uncharacterized protein n=1 Tax=Anopheles c...  70.5    5e-20
+  UniRef90_A0A1J1J4G3 CLUMA_CG019626, isoform A n=1 Tax=Clunio ma...  70.1    7e-20
+  UniRef90_A0A023FYF4 Putative conserved plasma membrane protein ...  69.7    1e-19
+  UniRef90_A0A131XCE3 Putative induced by hypoxia n=1 Tax=Hyalomm...  69.3    2e-19
+  UniRef90_T1G581 Uncharacterized protein n=1 Tax=Helobdella robu...  68.2    3e-19
+  UniRef90_A0A293N5B7 Uncharacterized protein (Fragment) n=1 Tax=...  68.9    3e-19
+  UniRef90_A0A023FQR4 Putative conserved plasma membrane protein ...  68.6    5e-19
+  UniRef90_A0A194R7I3 HIG1 domain family member 1C n=3 Tax=Papili...  66.2    3e-18
+  UniRef90_A0A2R5L4V9 Putative induced by hypoxia n=1 Tax=Ornitho...  66.2    3e-18
+  UniRef90_E0VI99 Uncharacterized protein n=1 Tax=Pediculus human...  65.9    4e-18
+  UniRef90_A0A131YM16 Hypoxia-inducbile protein n=4 Tax=Rhipiceph...  65.9    5e-18
+  UniRef90_R7TVT3 Uncharacterized protein n=1 Tax=Capitella telet...  65.1    7e-18
+  UniRef90_A7RP71 Predicted protein (Fragment) n=1 Tax=Nematostel...  64.7    8e-18
+  UniRef90_A0A087TAK9 Uncharacterized protein (Fragment) n=1 Tax=...  64.3    2e-17
+  UniRef90_B7Q7J4 Hypoxia-inducbile protein, putative n=4 Tax=Ixo...  63.9    3e-17
+  UniRef90_A0A2J7QCI7 HIG1 domain family member 2A, mitochondrial...  63.5    3e-17
+  UniRef90_A0A0P5A480 HIG1 domain family member 1A, mitochondrial...  65.5    3e-17
+  UniRef90_A0A3M7SY01 HIG1 domain family member mitochondrial n=1...  63.5    4e-17
+  UniRef90_A0A0P5A484 HIG1 domain family member 1A, mitochondrial...  64.7    4e-17
+  UniRef90_A0A3P4LTQ5 Uncharacterized protein n=1 Tax=Gulo gulo T...  62.4    6e-17
+  UniRef90_G3MTK2 Uncharacterized protein n=3 Tax=Amblyomma TaxID...  62.8    8e-17
+  UniRef90_A0A2T7P8H6 Uncharacterized protein n=1 Tax=Pomacea can...  62.4    1e-16
+  UniRef90_A0A1Y3BBQ3 HIG1 domain family member 1C-like protein n...  62.4    1e-16
+  UniRef90_A0A1I8MPR8 Uncharacterized protein n=3 Tax=Muscinae Ta...  62.0    1e-16
+  UniRef90_A0A154NXF0 HIG1 domain family member 1C n=2 Tax=Dufour...  60.8    2e-16
+  UniRef90_D6WZM3 HIG1 domain family member 2A, mitochondrial-lik...  61.6    2e-16
+  UniRef90_A0A1E1WYF1 Putative conserved plasma membrane protein ...  61.6    2e-16
+  UniRef90_M3YM96 Uncharacterized protein n=9 Tax=Caniformia TaxI...  61.2    3e-16
+  UniRef90_A0A132AHD9 HIG1 domain family member 1C-like protein n...  61.6    3e-16
+  UniRef90_A0A0L0BNR6 Uncharacterized protein n=1 Tax=Lucilia cup...  60.8    3e-16
+  UniRef90_A0A1B0APJ2 Uncharacterized protein n=5 Tax=Glossina Ta...  60.8    4e-16
+  UniRef90_A0A2P8Y9G4 HIG1 domain family member 2A n=1 Tax=Blatte...  60.5    5e-16
+  UniRef90_W4XX80 Uncharacterized protein n=1 Tax=Strongylocentro...  60.8    5e-16
+  UniRef90_A0A1Y1JYK0 Uncharacterized protein n=1 Tax=Photinus py...  60.5    6e-16
+  UniRef90_A0A2Y9DC87 HIG1 domain family member 2A, mitochondrial...  60.1    7e-16
+  UniRef90_Q05AT5 HIG1 domain family, member 2A n=10 Tax=Cetartio...  60.1    8e-16
+  UniRef90_A0A2B4SGA8 HIG1 domain family member 1C n=2 Tax=Pocill...  60.1    8e-16
+  UniRef90_A0A067QT97 HIG1 domain family member 2A n=1 Tax=Zooter...  60.1    8e-16
+  UniRef90_A0A026WN42 HIG1 domain family member 2A n=1 Tax=Oocera...  59.7    9e-16
+  UniRef90_A0A1B6IKV4 Uncharacterized protein (Fragment) n=1 Tax=...  59.7    1e-15
+  UniRef90_V5HDG4 Putative induced by hypoxia (Fragment) n=1 Tax=...  58.9    1e-15
+  UniRef90_A0A1S3CVH5 HIG1 domain family member 2A, mitochondrial...  59.3    2e-15
+  UniRef90_A7S0L4 Predicted protein n=1 Tax=Nematostella vectensi...  58.9    2e-15
+  UniRef90_H0WH99 Uncharacterized protein n=2 Tax=Otolemur garnet...  58.9    2e-15
+  UniRef90_M3W7A4 Uncharacterized protein n=18 Tax=Boreoeutheria ...  58.9    2e-15
+  UniRef90_K7J0N7 Uncharacterized protein n=1 Tax=Nasonia vitripe...  58.9    2e-15
+  UniRef90_A0A1A9W628 Uncharacterized protein n=1 Tax=Glossina br...  58.9    2e-15
+  UniRef90_A0A3M7Q2I2 HIG1 domain family member 1C n=1 Tax=Brachi...  58.9    3e-15
+  UniRef90_C3YL34 Uncharacterized protein n=1 Tax=Branchiostoma f...  58.9    3e-15
+  UniRef90_A0A2K6G7Q0 Uncharacterized protein n=3 Tax=Euarchontog...  58.9    3e-15
+  UniRef90_A0A194RR32 HIG1 domain family member 2A n=3 Tax=Papili...  58.5    3e-15
+  UniRef90_T0MI48 HIG1 domain family member 2A n=2 Tax=Camelidae ...  58.5    3e-15
+  UniRef90_A0A2J7RNA6 Uncharacterized protein (Fragment) n=2 Tax=...  57.4    3e-15
+  UniRef90_Q9BW72 HIG1 domain family member 2A, mitochondrial n=1...  58.5    3e-15
+  UniRef90_B4M291 Uncharacterized protein n=3 Tax=Drosophila TaxI...  58.2    4e-15
+  UniRef90_A0A1J1IVD2 CLUMA_CG017169, isoform A n=1 Tax=Clunio ma...  58.5    4e-15
+  UniRef90_A0A195DFH7 HIG1 domain family member 1A n=1 Tax=Trachy...  57.8    4e-15
+  UniRef90_A1XQS4 Higd2a n=1 Tax=Sus scrofa TaxID=9823 RepID=A1XQ...  58.2    5e-15
+  UniRef90_B0WM78 HIG1 domain family member 2A n=2 Tax=Culex TaxI...  57.8    8e-15
+  UniRef90_A0A0N1IU32 HIG1 domain family member 2A n=1 Tax=Melipo...  57.4    9e-15
+  UniRef90_A0A1S2ZTR5 HIG1 domain family member 2A, mitochondrial...  57.4    1e-14
+  UniRef90_A0A0L8HHM5 Uncharacterized protein n=1 Tax=Octopus bim...  57.0    1e-14
+  UniRef90_A0A212F004 Uncharacterized protein n=1 Tax=Danaus plex...  55.8    1e-14
+  UniRef90_Q9CQJ1 HIG1 domain family member 2A n=9 Tax=Muroidea T...  57.0    1e-14
+  UniRef90_A0A0L7KVE3 HIG1 domain family member 2A n=1 Tax=Operop...  56.6    1e-14
+  UniRef90_A0A2B4S710 HIG1 domain family member 2A, mitochondrial...  56.6    1e-14
+  UniRef90_T1GWP0 Uncharacterized protein n=1 Tax=Megaselia scala...  56.6    2e-14
+  UniRef90_F7IAW2 HIG1 domain family member 2A n=5 Tax=Platyrrhin...  56.6    2e-14
+  UniRef90_A0A0M8ZQZ1 HIG1 domain family member 1C n=1 Tax=Melipo...  56.2    2e-14
+  UniRef90_A0A0K8TP00 Putative conserved plasma membrane protein ...  56.2    3e-14
+  UniRef90_A0A232F3Z8 Uncharacterized protein n=1 Tax=Trichomalop...  56.2    3e-14
+  UniRef90_A0A336LYT3 CSON003966 protein n=1 Tax=Culicoides sonor...  55.8    3e-14
+  UniRef90_A0A2K5L5Z2 HIG1 hypoxia inducible domain family member...  55.8    3e-14
+  UniRef90_A0A1B0DR83 Uncharacterized protein n=1 Tax=Phlebotomus...  55.8    3e-14
+  UniRef90_Q17CX4 AAEL004404-PA n=7 Tax=Stegomyia TaxID=53541 Rep...  55.8    4e-14
+  UniRef90_G3TUC8 Uncharacterized protein n=1 Tax=Loxodonta afric...  55.5    5e-14
+  UniRef90_A0A369SH63 HIG1 domain family member 1C n=1 Tax=Tricho...  55.1    6e-14
+  UniRef90_A0A182LTA7 Uncharacterized protein n=5 Tax=Cellia TaxI...  55.1    9e-14
+  UniRef90_A0A0L7KNI9 HIG1 domain family member 1A n=1 Tax=Operop...  53.9    1e-13
+  UniRef90_A0A088AQM3 Uncharacterized protein n=4 Tax=Apis TaxID=...  54.7    1e-13
+  UniRef90_A0A182IX28 Uncharacterized protein n=1 Tax=Anopheles a...  55.1    1e-13
+  UniRef90_A0A1D2MQ39 HIG1 domain family member 2A n=1 Tax=Orches...  55.1    1e-13
+  UniRef90_A0A336N2X0 CSON011893 protein (Fragment) n=1 Tax=Culic...  53.5    2e-13
+  UniRef90_A0A2K6VAZ8 Putative conserved plasma membrane protein ...  54.3    2e-13
+  UniRef90_A0A1B6EH42 Uncharacterized protein n=1 Tax=Clastoptera...  53.9    2e-13
+  UniRef90_A0A026X3F2 HIG1 domain family member 1A n=1 Tax=Oocera...  53.5    2e-13
+  UniRef90_A0A1L8DZU5 Putative hig1 domain family member 2a mitoc...  53.5    3e-13
+  UniRef90_T2M6P8 HIG1 domain family member 2A n=1 Tax=Hydra vulg...  53.1    4e-13
+  UniRef90_A0A2G8JXR1 Putative HIG1 domain family member 2A, mito...  53.5    4e-13
+  UniRef90_A0A310SNX2 HIG1 domain family member 1C n=1 Tax=Eufrie...  53.1    4e-13
+  UniRef90_A0A1W4XTN3 HIG1 domain family member 2A, mitochondrial...  53.1    4e-13
+  UniRef90_A0A069DNS5 Putative conserved plasma membrane protein ...  53.1    5e-13
+  UniRef90_A0A182HGN6 Uncharacterized protein n=8 Tax=Pyretophoru...  52.8    6e-13
+  UniRef90_A0A369S147 HIG1 domain family member 2A, mitochondrial...  53.9    6e-13
+  UniRef90_T1IQI7 Uncharacterized protein n=1 Tax=Strigamia marit...  53.1    6e-13
+  UniRef90_A0A179GQE6 Mitochondrial hypoxia responsive domain-con...  54.7    6e-13
+  UniRef90_V5GEG7 HIG1 domain family member 2A, mitochondrial (Fr...  53.1    6e-13
+  UniRef90_A0A2S4KQD2 Respiratory supercomplex factor 1, mitochon...  54.3    9e-13
+  UniRef90_A0A287B607 Uncharacterized protein n=1 Tax=Sus scrofa ...  51.6    1e-12
+  UniRef90_A0A0P4W2P7 Uncharacterized protein n=1 Tax=Scylla oliv...  52.0    1e-12
+  UniRef90_A0A167XKV8 Mitochondrial hypoxia responsive domain-con...  54.7    1e-12
+  UniRef90_A0A182QB37 Uncharacterized protein n=1 Tax=Anopheles f...  52.0    1e-12
+  UniRef90_A0A1B6H792 Uncharacterized protein n=2 Tax=Proconiini ...  52.0    1e-12
+  UniRef90_A0A2P6KVN3 HIG1 domain family member 2A n=1 Tax=Nephil...  51.6    2e-12
+  UniRef90_A0A158P2S0 Uncharacterized protein n=2 Tax=Atta TaxID=...  51.2    2e-12
+  UniRef90_A0A088AEU5 Uncharacterized protein n=1 Tax=Apis mellif...  51.6    2e-12
+  UniRef90_A0A0F4ZC11 Uncharacterized protein n=1 Tax=Thielaviops...  53.5    2e-12
+  UniRef90_C7YJ02 Respiratory supercomplex factor 1, mitochondria...  53.5    2e-12
+  UniRef90_A0A0B6XYV5 Uncharacterized protein n=1 Tax=Arion vulga...  51.6    2e-12
+  UniRef90_A0A151GKF4 Mitochondrial hypoxia responsive domain-con...  53.5    2e-12
+  UniRef90_A0A0D2WMN8 Uncharacterized protein (Fragment) n=1 Tax=...  53.9    2e-12
+  UniRef90_A0A0L7K1S3 Uncharacterized protein (Fragment) n=1 Tax=...  50.1    3e-12
+  UniRef90_A0A2L2YC02 HIG1 domain family member 2A n=1 Tax=Parast...  51.2    3e-12
+  UniRef90_A0A167C0Q3 Mitochondrial hypoxia responsive domain-con...  52.8    3e-12
+  UniRef90_A0A0L0NAI8 Respiratory supercomplex factor 1, mitochon...  52.8    3e-12
+  UniRef90_A0A0B2WLF4 Mitochondrial hypoxia responsive domain-con...  52.8    3e-12
+  UniRef90_A0A179FB27 Mitochondrial hypoxia responsive domain-con...  52.4    4e-12
+  UniRef90_A0A084Q8B9 Uncharacterized protein n=3 Tax=Stachybotry...  52.4    4e-12
+  UniRef90_E9EH25 Mitochondrial hypoxia responsive domain-contain...  52.4    5e-12
+  UniRef90_W7MB45 Altered inheritance-mitochondria protein 31, mi...  52.4    5e-12
+  UniRef90_G9PBR5 Uncharacterized protein n=4 Tax=Trichoderma Tax...  52.4    5e-12
+  UniRef90_T1ICY2 Uncharacterized protein (Fragment) n=2 Tax=Rhod...  50.4    5e-12
+  UniRef90_A0A084WFI7 AGAP000491-PA-like protein n=1 Tax=Anophele...  50.4    6e-12
+  UniRef90_A0A1Y2F9B4 Hypoxia induced protein conserved region-do...  50.8    7e-12
+  UniRef90_G0RNG1 Predicted protein n=3 Tax=Trichoderma TaxID=554...  51.6    8e-12
+  UniRef90_I1CGL1 Uncharacterized protein n=1 Tax=Rhizopus delema...  49.7    8e-12
+  UniRef90_A0A0B4IDS8 Mitochondrial hypoxia responsive domain-con...  51.2    8e-12
+  UniRef90_T1G126 Uncharacterized protein n=1 Tax=Helobdella robu...  49.7    9e-12
+  UniRef90_A0A0B4FWM7 Mitochondrial hypoxia responsive domain-con...  51.2    1e-11
+  UniRef90_A0A2T4BHI5 Uncharacterized protein n=1 Tax=Trichoderma...  51.2    1e-11
+  UniRef90_A0A0M8N7D4 Respiratory supercomplex factor 1 n=1 Tax=E...  51.2    1e-11
+  UniRef90_A0A165JH96 Uncharacterized protein n=1 Tax=Xylona heve...  50.4    1e-11
+  UniRef90_A0A063BPT5 Mitochondrial hypoxia responsive domain-con...  50.8    2e-11
+  UniRef90_A0A167V5H4 Mitochondrial hypoxia responsive protein n=...  50.4    2e-11
+  UniRef90_A0A2N6NUX7 Respiratory supercomplex factor 1, mitochon...  50.4    2e-11
+  UniRef90_G9MIR9 Uncharacterized protein n=6 Tax=Trichoderma Tax...  50.4    2e-11
+  UniRef90_A0A1X7VNG8 Uncharacterized protein n=1 Tax=Amphimedon ...  48.1    3e-11
+  UniRef90_A0A0L0T608 Uncharacterized protein n=1 Tax=Allomyces m...  48.5    3e-11
+  UniRef90_R7V5B2 Uncharacterized protein n=1 Tax=Capitella telet...  48.5    3e-11
+  UniRef90_A0A167E6L4 Rcf1p n=1 Tax=Sugiyamaella lignohabitans Ta...  49.3    3e-11
+  UniRef90_I1RYE5 Uncharacterized protein n=11 Tax=Fusarium TaxID...  50.1    3e-11
+  UniRef90_A0A168JXG5 Mitochondrial hypoxia responsive protein n=...  50.1    3e-11
+  UniRef90_A0A0C3D6E5 Uncharacterized protein n=1 Tax=Oidiodendro...  49.7    4e-11
+  UniRef90_A0A2A9PB34 Uncharacterized protein n=1 Tax=Ophiocordyc...  49.7    4e-11
+  UniRef90_A0A0F8B0X2 Respiratory supercomplex factor 1 mitochond...  49.3    5e-11
+  UniRef90_A0A2K3QQQ4 Respiratory supercomplex factor 1, mitochon...  49.3    6e-11
+  UniRef90_A0A395NRK2 Mitochondrial hypoxia responsive domain-con...  49.3    6e-11
+  UniRef90_A0A1Q8RYZ1 Respiratory supercomplex factor 1, mitochon...  48.9    8e-11
+  UniRef90_A0A0L7QKH1 HIG1 domain family member 2A n=1 Tax=Habrop...  47.0    8e-11
+  UniRef90_A0A369H971 Uncharacterized protein n=1 Tax=Ophiocordyc...  48.5    1e-10
+  UniRef90_A0A2C9KYC7 Uncharacterized protein n=1 Tax=Biomphalari...  47.0    1e-10
+  UniRef90_A0A261Y754 Uncharacterized protein n=1 Tax=Bifiguratus...  47.0    1e-10
+  UniRef90_A0A369GLA8 Uncharacterized protein n=1 Tax=Ophiocordyc...  48.5    1e-10
+  UniRef90_A0A168RA19 Uncharacterized protein n=2 Tax=Absidia gla...  47.0    1e-10
+  UniRef90_A0A1C7NCQ6 Respiratory supercomplex factor 1, mitochon...  46.6    1e-10
+  UniRef90_A0A0L0SWY9 Uncharacterized protein n=1 Tax=Allomyces m...  48.5    2e-10
+  UniRef90_A0A2H8TGR3 HIG1 domain family member 2A n=2 Tax=Aphidi...  46.6    2e-10
+  UniRef90_A0A367L0P0 Uncharacterized protein n=1 Tax=Ophiocordyc...  47.8    2e-10
+  UniRef90_A0A2C5ZC37 Uncharacterized protein n=1 Tax=Ophiocordyc...  47.8    2e-10
+  UniRef90_L2FBV5 Mitochondrial hypoxia responsive domain-contain...  47.4    3e-10
+  UniRef90_A0A135V021 Uncharacterized protein n=3 Tax=Colletotric...  47.4    3e-10
+  UniRef90_A0A010SLE0 Uncharacterized protein n=2 Tax=Colletotric...  47.4    3e-10
+  UniRef90_A0A1X2IKE1 Hypoxia induced protein conserved region-do...  45.4    3e-10
+  UniRef90_A0A086T6A5 Respiratory supercomplex factor-like protei...  47.0    5e-10
+  UniRef90_A0A367K5T9 Respiratory supercomplex factor 1, mitochon...  45.1    5e-10
+  UniRef90_A0A0J0XLB2 Uncharacterized protein n=1 Tax=Cutaneotric...  46.2    5e-10
+  UniRef90_A0A163KX84 Uncharacterized protein n=1 Tax=Absidia gla...  45.8    6e-10
+  UniRef90_A0A2A9NVP9 Uncharacterized protein n=1 Tax=Amanita thi...  45.8    9e-10
+  UniRef90_A0A0B7JIV2 Uncharacterized protein n=1 Tax=Bionectria ...  46.2    9e-10
+  UniRef90_G2QHY1 Uncharacterized protein n=1 Tax=Myceliophthora ...  46.2    9e-10
+  UniRef90_A0A1X2H4R0 Hypoxia induced protein conserved region-do...  44.7    1e-09
+  UniRef90_H1VT54 Mitochondrial hypoxia responsive domain-contain...  45.8    1e-09
+  UniRef90_Q2GMG9 Respiratory supercomplex factor 1, mitochondria...  45.4    1e-09
+
+
+> UniRef90_Q9Y241 HIG1 domain family member 1A, mitochondrial n=77 
+Tax=Eutheria TaxID=9347 RepID=HIG1A_HUMAN
+Length=93
+
+ Score = 192 bits (487),  Expect = 4e-68, Method: Compositional matrix adjust.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL
+Sbjct  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP
+Sbjct  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+
+
+> UniRef90_A0A2K6NX39 HIG1 hypoxia inducible domain family member 
+1A n=7 Tax=Catarrhini TaxID=9526 RepID=A0A2K6NX39_RHIRO
+Length=107
+
+ Score = 192 bits (488),  Expect = 4e-68, Method: Compositional matrix adjust.
+ Identities = 92/93 (99%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMS+HL
+Sbjct  15   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSLHL  74
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP
+Sbjct  75   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  107
+
+
+> UniRef90_A0A2I3G1S9 Uncharacterized protein n=1 Tax=Nomascus 
+leucogenys TaxID=61853 RepID=A0A2I3G1S9_NOMLE
+Length=106
+
+ Score = 180 bits (456),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 85/92 (92%), Positives = 89/92 (97%), Gaps = 0/92 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MSTDTGVSLPSYEEDQGSKLI+KAKEAPFVPVGIAGFAAIVAYGLYKLK RGNTKMSIHL
+Sbjct  14   MSTDTGVSLPSYEEDQGSKLIQKAKEAPFVPVGIAGFAAIVAYGLYKLKGRGNTKMSIHL  73
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+            IHMR AAQ FV+GAMTVG+GYSMY+EFWAKPK
+Sbjct  74   IHMRAAAQAFVIGAMTVGIGYSMYQEFWAKPK  105
+
+
+> UniRef90_H0X4N8 HIG1 hypoxia inducible domain family member 1A 
+n=9 Tax=Boreoeutheria TaxID=1437010 RepID=H0X4N8_OTOGA
+Length=101
+
+ Score = 179 bits (453),  Expect = 7e-63, Method: Compositional matrix adjust.
+ Identities = 83/93 (89%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MSTDT +SL SY+EDQGSK IRKAKEAPFVP+G+AGFAAIVAYGLY+LKSRGNTKMS+HL
+Sbjct  9    MSTDTDLSLSSYDEDQGSKFIRKAKEAPFVPIGMAGFAAIVAYGLYRLKSRGNTKMSLHL  68
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYSMYREFWAKPKP
+Sbjct  69   IHMRVAAQGFVVGAMTLGMGYSMYREFWAKPKP  101
+
+
+> UniRef90_F6Q442 Uncharacterized protein n=8 Tax=Eutheria TaxID=9347 
+RepID=F6Q442_CALJA
+Length=107
+
+ Score = 177 bits (448),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 82/93 (88%), Positives = 89/93 (96%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MSTD  +SL SY+EDQGSKLIRK KEAPFVP+G+AGFAAIVAYGLYKLKSRGNTKMS+HL
+Sbjct  15   MSTDPDISLSSYDEDQGSKLIRKVKEAPFVPIGMAGFAAIVAYGLYKLKSRGNTKMSVHL  74
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYSMYRE+WAKPKP
+Sbjct  75   IHMRVAAQGFVVGAMTIGMGYSMYREYWAKPKP  107
+
+
+> UniRef90_G3U0N9 HIG1 hypoxia inducible domain family member 1A 
+n=1 Tax=Loxodonta africana TaxID=9785 RepID=G3U0N9_LOXAF
+Length=93
+
+ Score = 176 bits (447),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 81/93 (87%), Positives = 91/93 (98%), Gaps = 0/93 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS++  VSLPSY+EDQGSKLIRKAK+APFVP+G+AGFAAIVAYGLYKLKSRGNTKMS+HL
+Sbjct  1   MSSNADVSLPSYDEDQGSKLIRKAKDAPFVPIGVAGFAAIVAYGLYKLKSRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHMRVAAQGFVVGAMTVGMGYS+Y+E+WAKPKP
+Sbjct  61  IHMRVAAQGFVVGAMTVGMGYSLYKEYWAKPKP  93
+
+
+> UniRef90_A0A2I2UQ51 Uncharacterized protein n=2 Tax=Felis catus 
+TaxID=9685 RepID=A0A2I2UQ51_FELCA
+Length=104
+
+ Score = 176 bits (446),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 82/93 (88%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MST T VSL SY+EDQGSKLIRKA+EAPFVP+G+AGFAAIVAYGLY+LKSRGNTKMS+HL
+Sbjct  12   MSTGTDVSLSSYDEDQGSKLIRKAREAPFVPIGMAGFAAIVAYGLYRLKSRGNTKMSVHL  71
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYSMY+EFWAKPKP
+Sbjct  72   IHMRVAAQGFVVGAMTLGMGYSMYKEFWAKPKP  104
+
+
+> UniRef90_A0A384B1H7 HIG1 domain family member 1A, mitochondrial 
+isoform X1 n=7 Tax=Cetacea TaxID=9721 RepID=A0A384B1H7_BALAS
+Length=118
+
+ Score = 175 bits (443),  Expect = 4e-61, Method: Compositional matrix adjust.
+ Identities = 81/93 (87%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS+DT VSL SY+E QGSKLIRKA+EAPFVP+G+AGFAA+VAYGLYKLKSRGNTKMS+HL
+Sbjct  26   MSSDTDVSLSSYDEGQGSKLIRKAREAPFVPIGLAGFAAVVAYGLYKLKSRGNTKMSLHL  85
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYSMY+EFWAKPKP
+Sbjct  86   IHMRVAAQGFVVGAMTLGMGYSMYQEFWAKPKP  118
+
+
+> UniRef90_A0A384B1D8 HIG1 domain family member 1A, mitochondrial 
+isoform X2 n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=A0A384B1D8_BALAS
+Length=117
+
+ Score = 174 bits (442),  Expect = 6e-61, Method: Compositional matrix adjust.
+ Identities = 81/93 (87%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS+DT VSL SY+E QGSKLIRKA+EAPFVP+G+AGFAA+VAYGLYKLKSRGNTKMS+HL
+Sbjct  25   MSSDTDVSLSSYDEGQGSKLIRKAREAPFVPIGLAGFAAVVAYGLYKLKSRGNTKMSLHL  84
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYSMY+EFWAKPKP
+Sbjct  85   IHMRVAAQGFVVGAMTLGMGYSMYQEFWAKPKP  117
+
+
+> UniRef90_G3RY47 Uncharacterized protein n=3 Tax=Homininae TaxID=207598 
+RepID=G3RY47_GORGO
+Length=105
+
+ Score = 173 bits (439),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 82/93 (88%), Positives = 86/93 (92%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            +STDT VSL SY E QGSKLIRKAKE P VPVGIAGFAA+V YGLYKLKSRGNT+MS+HL
+Sbjct  13   ISTDTDVSLSSYNEAQGSKLIRKAKETPLVPVGIAGFAALVTYGLYKLKSRGNTQMSLHL  72
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP
+Sbjct  73   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  105
+
+
+> UniRef90_L5KEX8 HIG1 domain family member 1A n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=L5KEX8_PTEAL
+Length=133
+
+ Score = 173 bits (439),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 82/93 (88%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS+DT VSL SY+E QGSKLIRKAKEAPFVP+G+AGFAAIVAYGLYKLKSRG+TKMSIHL
+Sbjct  41   MSSDTDVSLSSYDEGQGSKLIRKAKEAPFVPIGMAGFAAIVAYGLYKLKSRGSTKMSIHL  100
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYSMY+EFW+KPKP
+Sbjct  101  IHMRVAAQGFVVGAMTLGMGYSMYQEFWSKPKP  133
+
+
+> UniRef90_Q1LZ70 HIG1 domain family, member 1D n=28 Tax=Boreoeutheria 
+TaxID=1437010 RepID=Q1LZ70_BOVIN
+Length=93
+
+ Score = 171 bits (434),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 78/93 (84%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+DT +SL SY+EDQGSKLIRKA+EAPFVP+G+AGFAAIVAYGLY+LKSRG+TKMS+HL
+Sbjct  1   MSSDTDISLSSYDEDQGSKLIRKAREAPFVPIGMAGFAAIVAYGLYRLKSRGHTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHMRVAAQGFVVGAMT+GMGYS+Y+EFW KPKP
+Sbjct  61  IHMRVAAQGFVVGAMTLGMGYSLYQEFWGKPKP  93
+
+
+> UniRef90_A0A2I3SCP6 Uncharacterized protein n=1 Tax=Pan troglodytes 
+TaxID=9598 RepID=A0A2I3SCP6_PANTR
+Length=97
+
+ Score = 170 bits (430),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 82/87 (94%), Positives = 85/87 (98%), Gaps = 0/87 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTDTGVSLPSYEE QGSKLIRKAKEAPFVP+GIAGFAA+VAYGL+KLKSRGNTKMSIHL
+Sbjct  11  MSTDTGVSLPSYEEYQGSKLIRKAKEAPFVPIGIAGFAAVVAYGLHKLKSRGNTKMSIHL  70
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           IHMRV AQGFVVGAMTVGMGYSMYREF
+Sbjct  71  IHMRVVAQGFVVGAMTVGMGYSMYREF  97
+
+
+> UniRef90_Q9JLR9 HIG1 domain family member 1A, mitochondrial n=15 
+Tax=Eutheria TaxID=9347 RepID=HIG1A_MOUSE
+Length=95
+
+ Score = 170 bits (430),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 80/93 (86%), Positives = 87/93 (94%), Gaps = 0/93 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MST+T +SL SY+E QGSK IRKAKE PFVP+G+AGFAAIVAYGLYKLKSRGNTKMSIHL
+Sbjct  1   MSTNTDLSLSSYDEGQGSKFIRKAKETPFVPIGMAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHMRVAAQGFVVGAMT+GMGYSMY+EFWA PKP
+Sbjct  61  IHMRVAAQGFVVGAMTLGMGYSMYQEFWANPKP  93
+
+
+> UniRef90_A0A2U3XU76 HIG1 domain family member 1A, mitochondrial-like 
+n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3XU76_LEPWE
+Length=129
+
+ Score = 169 bits (428),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 79/93 (85%), Positives = 87/93 (94%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            +ST T VSL SY+EDQGSKLI+KA+EA FVP+G+ GFAAIVAYGLYKLKSRGNTKMS HL
+Sbjct  37   LSTGTDVSLSSYDEDQGSKLIQKAREALFVPIGMVGFAAIVAYGLYKLKSRGNTKMSAHL  96
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYSMY+EFWAKPKP
+Sbjct  97   IHMRVAAQGFVVGAMTLGMGYSMYKEFWAKPKP  129
+
+
+> UniRef90_A0A212C8X4 Uncharacterized protein n=1 Tax=Cervus elaphus 
+hippelaphus TaxID=46360 RepID=A0A212C8X4_CEREH
+Length=224
+
+ Score = 172 bits (436),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 78/93 (84%), Positives = 90/93 (97%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS+DT +SL SY+ED+GSKLIRKA+EAPFVP+G+AGFAAIVAYGLY+LKSRGNTKMS+HL
+Sbjct  132  MSSDTDISLSSYDEDEGSKLIRKAREAPFVPIGMAGFAAIVAYGLYRLKSRGNTKMSVHL  191
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFVVGAMT+GMGYS+Y+EFW KPKP
+Sbjct  192  IHMRVAAQGFVVGAMTLGMGYSLYQEFWGKPKP  224
+
+
+> UniRef90_F6VVJ0 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6VVJ0_MONDO
+Length=93
+
+ Score = 165 bits (417),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 77/93 (83%), Positives = 86/93 (92%), Gaps = 0/93 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+D+ VSL +Y+E  GSKL RKAKEAPFVP+GIAGFAAIVAYGLY+LKSRGNTKMS+HL
+Sbjct  1   MSSDSDVSLSTYDESSGSKLARKAKEAPFVPIGIAGFAAIVAYGLYRLKSRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHMRV AQGFVVGAMTVGM YSM+RE+WAKPKP
+Sbjct  61  IHMRVGAQGFVVGAMTVGMLYSMFREYWAKPKP  93
+
+
+> UniRef90_A0A340XVG0 HIG1 domain family member 1A, mitochondrial-like 
+n=1 Tax=Lipotes vexillifer TaxID=118797 RepID=A0A340XVG0_LIPVE
+Length=93
+
+ Score = 164 bits (416),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 77/93 (83%), Positives = 84/93 (90%), Gaps = 0/93 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+D  VSL SY+ED GSKLIRKA+EAPFVP G+AGFA IVAY LYKLKSRGNTKMS+HL
+Sbjct  1   MSSDADVSLSSYDEDHGSKLIRKAREAPFVPTGMAGFATIVAYRLYKLKSRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHM +AAQGFVVG MT+GMGYSMYREFWAKPKP
+Sbjct  61  IHMCMAAQGFVVGTMTLGMGYSMYREFWAKPKP  93
+
+
+> UniRef90_A0A2R8MJE6 Uncharacterized protein n=1 Tax=Callithrix 
+jacchus TaxID=9483 RepID=A0A2R8MJE6_CALJA
+Length=105
+
+ Score = 164 bits (416),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 78/93 (84%), Positives = 85/93 (91%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MSTD  +SL SY+EDQGSKLIRKAKEA FVP+G+AGFAAIVAYGL KLKSRGNTKMS+HL
+Sbjct  13   MSTDPDISLSSYDEDQGSKLIRKAKEAQFVPIGMAGFAAIVAYGLCKLKSRGNTKMSVHL  72
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFV GA+TVG GYSMY E+WAKPKP
+Sbjct  73   IHMRVAAQGFVAGAVTVGTGYSMYWEYWAKPKP  105
+
+
+> UniRef90_G3VRQ3 HIG1 hypoxia inducible domain family member 1A 
+n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=G3VRQ3_SARHA
+Length=93
+
+ Score = 163 bits (412),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 75/93 (81%), Positives = 85/93 (91%), Gaps = 0/93 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTD+ ++L +Y+E  GSKL RKAKEAPFVP+G+AGFAAIVAYGLYKLK RGNTKMS+HL
+Sbjct  1   MSTDSDITLSTYDETSGSKLARKAKEAPFVPIGMAGFAAIVAYGLYKLKHRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHMRV AQGFVVGAMT+GM YSMYRE+WAKPKP
+Sbjct  61  IHMRVGAQGFVVGAMTIGMLYSMYREYWAKPKP  93
+
+
+> UniRef90_K9J184 Putative conserved plasma membrane protein (Fragment) 
+n=1 Tax=Desmodus rotundus TaxID=9430 RepID=K9J184_DESRO
+Length=104
+
+ Score = 162 bits (409),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 73/93 (78%), Positives = 85/93 (91%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS++T VSL SY+EDQGSK +RKAKEAPFVP+G+ GFAAIVAYGLYKLKS+G+TKMS+HL
+Sbjct  12   MSSNTDVSLSSYDEDQGSKFVRKAKEAPFVPIGMEGFAAIVAYGLYKLKSQGSTKMSVHL  71
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMR AAQGFVVGAMT+GM YS+Y+E W KPKP
+Sbjct  72   IHMREAAQGFVVGAMTLGMAYSLYKELWTKPKP  104
+
+
+> UniRef90_A0A2K5PAB2 Uncharacterized protein n=1 Tax=Cebus capucinus 
+imitator TaxID=1737458 RepID=A0A2K5PAB2_CEBCA
+Length=105
+
+ Score = 161 bits (408),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 76/93 (82%), Positives = 84/93 (90%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS D  + L SY+ DQGSKLIRKA+EAPFVP+G+AGF AIVAYGLYKLKSRGNTKMS+HL
+Sbjct  13   MSADPDIFLSSYDGDQGSKLIRKAQEAPFVPIGMAGFIAIVAYGLYKLKSRGNTKMSVHL  72
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHM VAAQGFVVGA+TVGMGYS YRE+WAKPKP
+Sbjct  73   IHMHVAAQGFVVGAVTVGMGYSTYREYWAKPKP  105
+
+
+> UniRef90_F7GHT0 Uncharacterized protein n=1 Tax=Callithrix jacchus 
+TaxID=9483 RepID=F7GHT0_CALJA
+Length=101
+
+ Score = 161 bits (407),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 74/93 (80%), Positives = 87/93 (94%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS D  +SL SY+EDQGSKLI+KAK+APF+P+G++GFAAIVAYGLYKLKSRGNTKMS+HL
+Sbjct  9    MSADPEISLSSYDEDQGSKLIQKAKKAPFMPIGMSGFAAIVAYGLYKLKSRGNTKMSVHL  68
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHM VAAQGFVVGA+TVGMGY +YRE+W+KPKP
+Sbjct  69   IHMHVAAQGFVVGAVTVGMGYPVYREYWSKPKP  101
+
+
+> UniRef90_A0A2K5DAH9 Uncharacterized protein n=1 Tax=Aotus nancymaae 
+TaxID=37293 RepID=A0A2K5DAH9_AOTNA
+Length=100
+
+ Score = 160 bits (405),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 76/91 (84%), Positives = 83/91 (91%), Gaps = 0/91 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTD  +SL SY+EDQGSKLIRKAKEAPFVP+ +AGF AIVAYGLYKLKSRGNT+MS+HL
+Sbjct  1   MSTDPDISLSSYDEDQGSKLIRKAKEAPFVPIEMAGFEAIVAYGLYKLKSRGNTEMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKP  91
+           IHM VAAQGFVV A TVGMGYSMYRE+WAKP
+Sbjct  61  IHMHVAAQGFVVVARTVGMGYSMYREYWAKP  91
+
+
+> UniRef90_F6R5S0 HIG1 hypoxia inducible domain family member 1A 
+n=1 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=F6R5S0_ORNAN
+Length=95
+
+ Score = 159 bits (402),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 77/95 (81%), Positives = 85/95 (89%), Gaps = 2/95 (2%)
+
+Query  1   MSTDTGVSLPSY--EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSI  58
+           MS++  V+L SY  +EDQGSKLIRKAKEAPFVPV IAG  A+VAYGLYKLKSRGNTKMS+
+Sbjct  1   MSSNADVALSSYQSDEDQGSKLIRKAKEAPFVPVEIAGCMAVVAYGLYKLKSRGNTKMSV  60
+
+Query  59  HLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           HLIHMRVAAQGFVVGAMT+GM YSMYRE+W KPKP
+Sbjct  61  HLIHMRVAAQGFVVGAMTLGMVYSMYREYWVKPKP  95
+
+
+> UniRef90_A0A1D5R150 Uncharacterized protein n=4 Tax=Cercopithecinae 
+TaxID=9528 RepID=A0A1D5R150_MACMU
+Length=93
+
+ Score = 159 bits (401),  Expect = 6e-55, Method: Compositional matrix adjust.
+ Identities = 76/92 (83%), Positives = 82/92 (89%), Gaps = 0/92 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTDT VSL S +EDQGSKLIRKAKEA FVP+GIAGFAA+V YGLY LKSRGNT+MS+ L
+Sbjct  1   MSTDTDVSLSSNDEDQGSKLIRKAKEALFVPIGIAGFAALVTYGLYTLKSRGNTQMSLQL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+           IHM VAAQGFVVGAMTVG G S+YREFWAKPK
+Sbjct  61  IHMCVAAQGFVVGAMTVGKGCSVYREFWAKPK  92
+
+
+> UniRef90_C9JNU6 HIG1 domain family member 1A, mitochondrial n=4 
+Tax=Hominidae TaxID=9604 RepID=C9JNU6_HUMAN
+Length=96
+
+ Score = 157 bits (398),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 79/87 (91%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL
+Sbjct  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           IHMRVAAQGFVVGAMTV   +  Y  F
+Sbjct  61  IHMRVAAQGFVVGAMTVAFFFFRYGLF  87
+
+
+> UniRef90_A0A2U3XC86 HIG1 domain family member 1A, mitochondrial-like 
+n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3XC86_LEPWE
+Length=110
+
+ Score = 156 bits (395),  Expect = 7e-54, Method: Compositional matrix adjust.
+ Identities = 72/93 (77%), Positives = 85/93 (91%), Gaps = 0/93 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            +ST T VSL S++EDQGSKL  KA+EAPFV +G+AGFAAI+AYGLYKLKSRGNTKMS+HL
+Sbjct  18   ISTGTDVSLSSHDEDQGSKLTWKAREAPFVSIGMAGFAAIIAYGLYKLKSRGNTKMSVHL  77
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IHMRVAAQGFV+GAMT+G  +S+Y+EFWAKPKP
+Sbjct  78   IHMRVAAQGFVMGAMTLGTSHSVYKEFWAKPKP  110
+
+
+> UniRef90_A0A2U3XA40 HIG1 domain family member 1A, mitochondrial-like 
+n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3XA40_LEPWE
+Length=96
+
+ Score = 155 bits (393),  Expect = 8e-54, Method: Compositional matrix adjust.
+ Identities = 73/88 (83%), Positives = 82/88 (93%), Gaps = 0/88 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MST T +SL SY+EDQGSKLIRKA+EAPFVP+G+AGFAAIVAYGLYKLKSRGNTKMS+HL
+Sbjct  1   MSTGTDISLSSYDEDQGSKLIRKAREAPFVPIGMAGFAAIVAYGLYKLKSRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFW  88
+           IHMRVAAQG+VVGAMT+ MGYSMY  F+
+Sbjct  61  IHMRVAAQGYVVGAMTLSMGYSMYNIFF  88
+
+
+> UniRef90_L9JAL9 HIG1 domain family member 1A n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JAL9_TUPCH
+Length=113
+
+ Score = 148 bits (373),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 69/81 (85%), Positives = 75/81 (93%), Gaps = 0/81 (0%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            +EDQGSKLIRKAKEAPFVP G+AGF AIVA GLYKLK++GNTKMS+HLIHM VAAQGFVV
+Sbjct  33   DEDQGSKLIRKAKEAPFVPTGMAGFTAIVANGLYKLKNQGNTKMSVHLIHMCVAAQGFVV  92
+
+Query  73   GAMTVGMGYSMYREFWAKPKP  93
+            G MT+GMGYSMYREFWAK KP
+Sbjct  93   GVMTLGMGYSMYREFWAKLKP  113
+
+
+> UniRef90_A0A2I2Z1S7 Uncharacterized protein n=1 Tax=Gorilla gorilla 
+gorilla TaxID=9595 RepID=A0A2I2Z1S7_GORGO
+Length=142
+
+ Score = 148 bits (374),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 70/93 (75%), Positives = 81/93 (87%), Gaps = 5/93 (5%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            +STDT  SL SY+EDQGSKLI +AK+APF+P+G+AGFAAIVA GLYKLKSRGNTKMS+HL
+Sbjct  30   LSTDTDASLSSYDEDQGSKLISRAKDAPFIPIGMAGFAAIVAQGLYKLKSRGNTKMSLHL  89
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            IH  VAAQGF+VGAMT     SM++EFWAKPKP
+Sbjct  90   IHTHVAAQGFLVGAMT-----SMFQEFWAKPKP  117
+
+
+> UniRef90_A0A2I3HF83 Uncharacterized protein n=1 Tax=Nomascus 
+leucogenys TaxID=61853 RepID=A0A2I3HF83_NOMLE
+Length=93
+
+ Score = 146 bits (369),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 75/93 (81%), Positives = 78/93 (84%), Gaps = 11/93 (12%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTDTG+           +  RKAKEA FVPVGIAGFAAIVAYGLYKLKSR NTKMSIHL
+Sbjct  12  MSTDTGI-----------QTYRKAKEALFVPVGIAGFAAIVAYGLYKLKSRRNTKMSIHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHMRVAAQGFVVGAMTVGMGYS+YREFWAKPKP
+Sbjct  61  IHMRVAAQGFVVGAMTVGMGYSVYREFWAKPKP  93
+
+
+> UniRef90_A0A2K6GW04 Uncharacterized protein n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=A0A2K6GW04_PROCO
+Length=87
+
+ Score = 144 bits (363),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 67/72 (93%), Positives = 71/72 (99%), Gaps = 0/72 (0%)
+
+Query  22  RKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGY  81
+           R AKEAPFVP+G+AGFAAIVAYGLYKLKSRGNTKMS+HLIHMRVAAQGFVVGAMT+GMGY
+Sbjct  16  RSAKEAPFVPIGMAGFAAIVAYGLYKLKSRGNTKMSVHLIHMRVAAQGFVVGAMTLGMGY  75
+
+Query  82  SMYREFWAKPKP  93
+           SMYREFWAKPKP
+Sbjct  76  SMYREFWAKPKP  87
+
+
+> UniRef90_L9KST5 HIG1 domain family member 1A n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KST5_TUPCH
+Length=92
+
+ Score = 143 bits (360),  Expect = 7e-49, Method: Compositional matrix adjust.
+ Identities = 68/92 (74%), Positives = 78/92 (85%), Gaps = 1/92 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MST+  VSL SY+E Q SK  +KAK+A F+P+GIA FAAIV YGLYKLKSRGNTKMS+HL
+Sbjct  1   MSTNNDVSLSSYDEGQESKCTQKAKKASFIPIGIADFAAIVVYGLYKLKSRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+           IH+ VA QGF VG MT+GMGYSMYREFWAKP+
+Sbjct  61  IHLCVAVQGF-VGVMTLGMGYSMYREFWAKPE  91
+
+
+> UniRef90_A0A2I2YME8 Uncharacterized protein n=1 Tax=Gorilla gorilla 
+gorilla TaxID=9595 RepID=A0A2I2YME8_GORGO
+Length=87
+
+ Score = 142 bits (358),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 66/70 (94%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  24  AKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSM  83
+           AKEAPFVP+GIAGFAA+VAYGL+KLKSRGNTKMSIHLIHMRV AQGFVVGAMTVGMGYSM
+Sbjct  18  AKEAPFVPIGIAGFAAVVAYGLHKLKSRGNTKMSIHLIHMRVVAQGFVVGAMTVGMGYSM  77
+
+Query  84  YREFWAKPKP  93
+           YREFWAKPKP
+Sbjct  78  YREFWAKPKP  87
+
+
+> UniRef90_M3VUY4 Uncharacterized protein n=1 Tax=Felis catus TaxID=9685 
+RepID=M3VUY4_FELCA
+Length=95
+
+ Score = 142 bits (358),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 69/87 (79%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MST T VSL SY+EDQGSKLIRKA+EAPFVP+G+AGFAAIVAYGLY+LKSRGNTKMS+HL
+Sbjct  1   MSTGTDVSLSSYDEDQGSKLIRKAREAPFVPIGMAGFAAIVAYGLYRLKSRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           IHMRVAAQGFVVGAMT+   +  Y  F
+Sbjct  61  IHMRVAAQGFVVGAMTLAFFFFRYGLF  87
+
+
+> UniRef90_L8I9Y7 Uncharacterized protein (Fragment) n=5 Tax=Bos 
+mutus TaxID=72004 RepID=L8I9Y7_9CETA
+Length=93
+
+ Score = 141 bits (356),  Expect = 4e-48, Method: Compositional matrix adjust.
+ Identities = 66/78 (85%), Positives = 75/78 (96%), Gaps = 0/78 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+DT +SL SY+EDQGSKLIRKA+EAPFVP+G+AGFAAIVAYGLY+LKSRG TKMS+HL
+Sbjct  1   MSSDTDISLSSYDEDQGSKLIRKAREAPFVPIGMAGFAAIVAYGLYRLKSRGPTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTVG  78
+           IHMRVAAQGFVVGAMT+G
+Sbjct  61  IHMRVAAQGFVVGAMTLG  78
+
+
+> UniRef90_L8IJX4 Uncharacterized protein (Fragment) n=1 Tax=Bos 
+mutus TaxID=72004 RepID=L8IJX4_9CETA
+Length=98
+
+ Score = 140 bits (353),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 63/77 (82%), Positives = 75/77 (97%), Gaps = 0/77 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+DT +SL SY+EDQGSKLIRKA+EAPFVP+G+AGFAAIVA+GLY+LKSRGNTKMS+HL
+Sbjct  1   MSSDTDISLSSYDEDQGSKLIRKAREAPFVPIGMAGFAAIVAHGLYRLKSRGNTKMSVHL  60
+
+Query  61  IHMRVAAQGFVVGAMTV  77
+           IHMRVAAQGF+VGA+T+
+Sbjct  61  IHMRVAAQGFIVGAVTL  77
+
+
+> UniRef90_A0A3P4RHQ3 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4RHQ3_GULGU
+Length=90
+
+ Score = 137 bits (344),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 68/88 (77%), Positives = 76/88 (86%), Gaps = 1/88 (1%)
+
+Query  7   VSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLI-HMRV  65
+           VSL SY+E QGSKL +KA+EA  VP GIAGFA IVAYGL KLK+RGN KMS+HLI H RV
+Sbjct  3   VSLSSYDEVQGSKLTQKAREASSVPTGIAGFATIVAYGLLKLKNRGNPKMSVHLIHHTRV  62
+
+Query  66  AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           AA+GFVVGAMT+GMGYSM +EFWAKPKP
+Sbjct  63  AAEGFVVGAMTLGMGYSMDKEFWAKPKP  90
+
+
+> UniRef90_A0A2K6GW57 Uncharacterized protein n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=A0A2K6GW57_PROCO
+Length=88
+
+ Score = 134 bits (338),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 62/66 (94%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  28  PFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           PFVP+G+AGFAAIVAYGLYKLKSRGNTKMS+HLIHMRVAAQGFVVGAMT+GMGYSMYREF
+Sbjct  23  PFVPIGMAGFAAIVAYGLYKLKSRGNTKMSVHLIHMRVAAQGFVVGAMTLGMGYSMYREF  82
+
+Query  88  WAKPKP  93
+           WAKPKP
+Sbjct  83  WAKPKP  88
+
+
+> UniRef90_A0A2I2URN4 Uncharacterized protein n=1 Tax=Felis catus 
+TaxID=9685 RepID=A0A2I2URN4_FELCA
+Length=114
+
+ Score = 129 bits (323),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 66/93 (71%), Positives = 77/93 (83%), Gaps = 3/93 (3%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           +S  T VSL SY+ DQGS+  R  +EAPFVP G+AGFAAIVAYG Y+LKSRG T+ S+ L
+Sbjct  1   LSAGTDVSLSSYD-DQGSE--RLGREAPFVPGGMAGFAAIVAYGPYQLKSRGGTRRSVQL  57
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IH+RVAAQGFVVGAMT+GMGY M +EFWAKPKP
+Sbjct  58  IHVRVAAQGFVVGAMTLGMGYPMCKEFWAKPKP  90
+
+
+> UniRef90_A0A1D5Q7I7 Uncharacterized protein n=2 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5Q7I7_MACMU
+Length=82
+
+ Score = 128 bits (321),  Expect = 7e-43, Method: Compositional matrix adjust.
+ Identities = 63/92 (68%), Positives = 72/92 (78%), Gaps = 11/92 (12%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MST+T VSL SY++           +APFV + +AGF AIVAYGLY+LKSRGN KMS+HL
+Sbjct  1   MSTETDVSLSSYDD-----------QAPFVCIVMAGFVAIVAYGLYRLKSRGNNKMSLHL  49
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+            HMRVAAQGFVVG+MTV MGYSMYRE WAKPK
+Sbjct  50  NHMRVAAQGFVVGSMTVRMGYSMYRELWAKPK  81
+
+
+> UniRef90_A0A2K5UEA1 Uncharacterized protein n=5 Tax=Cercopithecinae 
+TaxID=9528 RepID=A0A2K5UEA1_MACFA
+Length=94
+
+ Score = 125 bits (315),  Expect = 6e-42, Method: Compositional matrix adjust.
+ Identities = 64/93 (69%), Positives = 70/93 (75%), Gaps = 15/93 (16%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           +STDT VSL S                PFVP+G+AGFAAIVAYGL+ LKSRGNTKMS+HL
+Sbjct  1   ISTDTDVSLSS---------------CPFVPIGMAGFAAIVAYGLHTLKSRGNTKMSLHL  45
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHM VAAQG VVGAMTV  GYSMY+EFWAKPKP
+Sbjct  46  IHMHVAAQGCVVGAMTVVTGYSMYQEFWAKPKP  78
+
+
+> UniRef90_A0A2K6BPI3 Uncharacterized protein n=1 Tax=Macaca nemestrina 
+TaxID=9545 RepID=A0A2K6BPI3_MACNE
+Length=88
+
+ Score = 125 bits (314),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 64/93 (69%), Positives = 70/93 (75%), Gaps = 15/93 (16%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           +STDT VSL S                PFVP+G+AGFAAIVAYGL+ LKSRGNTKMS+HL
+Sbjct  1   ISTDTDVSLSS---------------CPFVPIGMAGFAAIVAYGLHTLKSRGNTKMSLHL  45
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           IHM VAAQG VVGAMTV  GYSMY+EFWAKPKP
+Sbjct  46  IHMHVAAQGCVVGAMTVVTGYSMYQEFWAKPKP  78
+
+
+> UniRef90_J9NVR9 Uncharacterized protein n=2 Tax=Laurasiatheria 
+TaxID=314145 RepID=J9NVR9_CANLF
+Length=72
+
+ Score = 123 bits (308),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 57/61 (93%), Positives = 61/61 (100%), Gaps = 0/61 (0%)
+
+Query  33  GIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+           G+AGFAAIVAYGLYKLKSRGNTKMS+HLIHMRVAAQGFVVGAMT+GMGYSMY+EFWAKPK
+Sbjct  12  GMAGFAAIVAYGLYKLKSRGNTKMSVHLIHMRVAAQGFVVGAMTLGMGYSMYKEFWAKPK  71
+
+Query  93  P  93
+           P
+Sbjct  72  P  72
+
+
+> UniRef90_A0A2K6L2G3 Uncharacterized protein n=1 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=A0A2K6L2G3_RHIBE
+Length=96
+
+ Score = 120 bits (301),  Expect = 8e-40, Method: Compositional matrix adjust.
+ Identities = 59/69 (86%), Positives = 62/69 (90%), Gaps = 1/69 (1%)
+
+Query  26  EAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMG-YSMY  84
+            APF+P+G+AGFAAIVAYGLYKLKSRGNTKM  HLIHM VAAQGFV GAMTVGMG YSMY
+Sbjct  28  NAPFIPIGMAGFAAIVAYGLYKLKSRGNTKMLHHLIHMCVAAQGFVEGAMTVGMGYYSMY  87
+
+Query  85  REFWAKPKP  93
+           REFWAKP P
+Sbjct  88  REFWAKPTP  96
+
+
+> UniRef90_D2HUN7 Uncharacterized protein (Fragment) n=1 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2HUN7_AILME
+Length=71
+
+ Score = 117 bits (294),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 56/71 (79%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  22  RKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGY  81
+           RKA EAP VP+G+AGFAAI AYGLYKLKSRGNTK S HL H+RVAAQGFVVGA+T   G 
+Sbjct  1   RKATEAPCVPIGMAGFAAIAAYGLYKLKSRGNTKTSAHLTHVRVAAQGFVVGAITPDTGS  60
+
+Query  82  SMYREFWAKPK  92
+           SMY+EFWAKPK
+Sbjct  61  SMYKEFWAKPK  71
+
+
+> UniRef90_G3MXZ2 HIG1 hypoxia inducible domain family member 1C 
+n=5 Tax=Pecora TaxID=35500 RepID=G3MXZ2_BOVIN
+Length=97
+
+ Score = 116 bits (290),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 56/87 (64%), Positives = 72/87 (83%), Gaps = 1/87 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+D   S    +E Q S+LIRK++++PFVPVGIAGF  +V+YGLYKLK R + KMSIHL
+Sbjct  1   MSSDNQWSADE-DEGQLSRLIRKSRDSPFVPVGIAGFVTVVSYGLYKLKYRRDQKMSIHL  59
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           IHMRVAAQGFVVGA+T+G+ YSMY+++
+Sbjct  60  IHMRVAAQGFVVGAVTLGVLYSMYKDY  86
+
+
+> UniRef90_M3Y1U9 HIG1 hypoxia inducible domain family member 1C 
+n=10 Tax=Laurasiatheria TaxID=314145 RepID=M3Y1U9_MUSPF
+Length=97
+
+ Score = 115 bits (289),  Expect = 6e-38, Method: Compositional matrix adjust.
+ Identities = 56/87 (64%), Positives = 71/87 (82%), Gaps = 1/87 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS D   S    EE Q S+LIRK++++PFVP+GIAGF  +V+YGLYKLK R + KMSIHL
+Sbjct  1   MSADNQWSADE-EEGQLSRLIRKSRDSPFVPIGIAGFMTVVSYGLYKLKYRKDQKMSIHL  59
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           IHMRVAAQGFVVGA+T+G+ YSMY+++
+Sbjct  60  IHMRVAAQGFVVGAVTLGVLYSMYKDY  86
+
+
+> UniRef90_G1S7W4 HIG1 hypoxia inducible domain family member 1C 
+n=35 Tax=Boreoeutheria TaxID=1437010 RepID=G1S7W4_NOMLE
+Length=97
+
+ Score = 115 bits (288),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 55/86 (64%), Positives = 71/86 (83%), Gaps = 1/86 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+D   S    +E Q S+LIRK++++PFVP+GIAGF  +V+YGLYKLK R + KMSIHL
+Sbjct  1   MSSDNQWSADE-DEGQLSRLIRKSRDSPFVPIGIAGFVTVVSYGLYKLKYRRDQKMSIHL  59
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYRE  86
+           IHMRVAAQGFVVGA+T+G+ YSMY++
+Sbjct  60  IHMRVAAQGFVVGALTLGVLYSMYKD  85
+
+
+> UniRef90_A0A2U4BFF3 HIG1 domain family member 1A, mitochondrial-like 
+n=2 Tax=Delphinidae TaxID=9726 RepID=A0A2U4BFF3_TURTR
+Length=119
+
+ Score = 115 bits (288),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 54/60 (90%), Positives = 59/60 (98%), Gaps = 0/60 (0%)
+
+Query  34   IAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            +AGFAAIVAYGLYKLKSRGNTK+SIH IHMRVAAQGFVVGA+T+G+GYSMYREFWAKPKP
+Sbjct  60   MAGFAAIVAYGLYKLKSRGNTKVSIHPIHMRVAAQGFVVGAVTLGVGYSMYREFWAKPKP  119
+
+
+> UniRef90_L7N1G1 Uncharacterized protein n=2 Tax=Myotis TaxID=9434 
+RepID=L7N1G1_MYOLU
+Length=266
+
+ Score = 119 bits (299),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 57/87 (66%), Positives = 73/87 (84%), Gaps = 1/87 (1%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS+D   S    +E Q S+LIRK++++PFVPVGIAGF  +V+YGLYKLK+R N KMSIHL
+Sbjct  170  MSSDNQWS-ADEDEGQFSRLIRKSRDSPFVPVGIAGFMTVVSYGLYKLKNRRNQKMSIHL  228
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+            IHMRVAAQGFVVGA+T+G+ YSMY+++
+Sbjct  229  IHMRVAAQGFVVGAVTLGVLYSMYKDY  255
+
+
+> UniRef90_A0A2K5MMI3 HIG1 hypoxia inducible domain family member 
+1C n=2 Tax=Cercocebus atys TaxID=9531 RepID=A0A2K5MMI3_CERAT
+Length=97
+
+ Score = 114 bits (285),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 54/78 (69%), Positives = 70/78 (90%), Gaps = 2/78 (3%)
+
+Query  11  SYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           S EED+G  S+LIRK++++PFVPVGIAGF ++V+YGLYKLK R + K+SIHLIHMRVAAQ
+Sbjct  8   SAEEDEGQLSRLIRKSRDSPFVPVGIAGFVSVVSYGLYKLKYRRDQKVSIHLIHMRVAAQ  67
+
+Query  69  GFVVGAMTVGMGYSMYRE  86
+           GFVVGA+T+G+ YSMY++
+Sbjct  68  GFVVGAVTLGVLYSMYKD  85
+
+
+> UniRef90_A8MV81 HIG1 domain family member 1C n=4 Tax=Hominidae 
+TaxID=9604 RepID=HIG1C_HUMAN
+Length=97
+
+ Score = 112 bits (281),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 54/87 (62%), Positives = 71/87 (82%), Gaps = 1/87 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+D   S    +E Q S+LIRK++++PFVP+GIAGF  +V+ GLYKLK R + KMSIHL
+Sbjct  1   MSSDNQWSADE-DEGQLSRLIRKSRDSPFVPIGIAGFVTVVSCGLYKLKYRRDQKMSIHL  59
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           IHMRVAAQGFVVGA+T+G+ YSMY+++
+Sbjct  60  IHMRVAAQGFVVGAVTLGVLYSMYKDY  86
+
+
+> UniRef90_F7BJG9 HIG1 hypoxia inducible domain family member 1C 
+n=9 Tax=Boreoeutheria TaxID=1437010 RepID=F7BJG9_HORSE
+Length=97
+
+ Score = 112 bits (281),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 55/89 (62%), Positives = 74/89 (83%), Gaps = 5/89 (6%)
+
+Query  1   MSTDTGVSLPSYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSI  58
+           MS+D   S    +ED+G  S+LIRK++++PFVP+GIAGF  +V+YGLYKLK R + KMSI
+Sbjct  1   MSSDNQWSA---DEDKGQLSRLIRKSRDSPFVPIGIAGFMTVVSYGLYKLKYRRDQKMSI  57
+
+Query  59  HLIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           +LIHMRVAAQGFVVGA+T+G+ YSMY+++
+Sbjct  58  YLIHMRVAAQGFVVGAVTLGVLYSMYKDY  86
+
+
+> UniRef90_A0A2I2U9W9 Methyltransferase like 7A n=3 Tax=Felidae 
+TaxID=9681 RepID=A0A2I2U9W9_FELCA
+Length=97
+
+ Score = 110 bits (275),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 54/87 (62%), Positives = 70/87 (80%), Gaps = 1/87 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MS+D   S    EE   S+LIRK++++PFVPVGIAGF  +V+YGLY LK+R + KMSIHL
+Sbjct  1   MSSDNQWSADG-EESPLSRLIRKSRDSPFVPVGIAGFMTVVSYGLYTLKNRRDQKMSIHL  59
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           IHMRVAAQG VVGA+T+G+ YSMY+++
+Sbjct  60  IHMRVAAQGCVVGAVTLGVLYSMYKDY  86
+
+
+> UniRef90_F7FL79 Uncharacterized protein n=2 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F7FL79_ORNAN
+Length=131
+
+ Score = 110 bits (275),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 49/75 (65%), Positives = 65/75 (87%), Gaps = 0/75 (0%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            E+ Q SKL+RK+++ PF+PVG+AG AA+V + LYKL+ RG  KMS++LIHMRVAAQGFVV
+Sbjct  46   EDSQVSKLLRKSQDFPFIPVGLAGCAAVVCFSLYKLRYRGQRKMSLYLIHMRVAAQGFVV  105
+
+Query  73   GAMTVGMGYSMYREF  87
+            GAMT+G+ YSMY++F
+Sbjct  106  GAMTIGVLYSMYKDF  120
+
+
+> UniRef90_Q76I25 HIG1 domain family member 1C n=4 Tax=Mus musculus 
+TaxID=10090 RepID=HIG1C_MOUSE
+Length=96
+
+ Score = 107 bits (266),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 47/75 (63%), Positives = 66/75 (88%), Gaps = 0/75 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E Q S+L+RK++++PFVPVG+AGF A+++YGLYKL SR   KMS+HLIH+RVAAQG VV
+Sbjct  11  DEGQLSRLLRKSRDSPFVPVGMAGFVAVLSYGLYKLNSRREQKMSLHLIHVRVAAQGCVV  70
+
+Query  73  GAMTVGMGYSMYREF  87
+           GA+T+G+ YSMY+++
+Sbjct  71  GAVTLGVLYSMYKDY  85
+
+
+> UniRef90_A0A2I2UKJ1 Uncharacterized protein n=2 Tax=Felis catus 
+TaxID=9685 RepID=A0A2I2UKJ1_FELCA
+Length=82
+
+ Score = 106 bits (264),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 52/86 (60%), Positives = 62/86 (72%), Gaps = 11/86 (13%)
+
+Query  8   SLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAA  67
+           S+PS E D+GSKL +KA+EAPFVP+ +AGFAAI+  GLY LKSR NTK           +
+Sbjct  8   SVPSMEPDRGSKLTQKAREAPFVPIAMAGFAAIIMCGLYNLKSRTNTK-----------S  56
+
+Query  68  QGFVVGAMTVGMGYSMYREFWAKPKP  93
+           QGF VGA  +GM YSMY EFWA+PKP
+Sbjct  57  QGFAVGARILGMSYSMYEEFWARPKP  82
+
+
+> UniRef90_G3TM51 HIG1 hypoxia inducible domain family member 1C 
+n=2 Tax=Loxodonta africana TaxID=9785 RepID=G3TM51_LOXAF
+Length=83
+
+ Score = 105 bits (262),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 52/86 (60%), Positives = 68/86 (79%), Gaps = 5/86 (6%)
+
+Query  1   MSTDTGVSLPSYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSI  58
+           MS+D   S    +ED+   S+L RK++++PFVPVGIAGF  +V+YGLYKLK R + KMSI
+Sbjct  1   MSSDNQWSA---DEDESPLSRLTRKSRDSPFVPVGIAGFVTVVSYGLYKLKYRRDQKMSI  57
+
+Query  59  HLIHMRVAAQGFVVGAMTVGMGYSMY  84
+           HLIHMRVAAQGFVVGA+T+G  +++Y
+Sbjct  58  HLIHMRVAAQGFVVGALTLGNLFNLY  83
+
+
+> UniRef90_H2NHA6 HIG1 hypoxia inducible domain family member 1C 
+n=6 Tax=Eutheria TaxID=9347 RepID=H2NHA6_PONAB
+Length=89
+
+ Score = 105 bits (262),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 50/79 (63%), Positives = 65/79 (82%), Gaps = 2/79 (3%)
+
+Query  11  SYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           S +ED+G  S+LIRK++++PFVP+GIAGF  +V+ GLYKLK R + KMSIHLIHMRVAAQ
+Sbjct  8   SADEDEGQLSRLIRKSRDSPFVPIGIAGFVTVVSCGLYKLKYRRDQKMSIHLIHMRVAAQ  67
+
+Query  69  GFVVGAMTVGMGYSMYREF  87
+           GFVVGA+T+G   ++Y  F
+Sbjct  68  GFVVGAVTLGNLLNLYLMF  86
+
+
+> UniRef90_A0A2K5DHQ2 Uncharacterized protein n=1 Tax=Aotus nancymaae 
+TaxID=37293 RepID=A0A2K5DHQ2_AOTNA
+Length=88
+
+ Score = 102 bits (255),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 56/88 (64%), Positives = 63/88 (72%), Gaps = 17/88 (19%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           MSTD  VSL SY              APFVP+G+AGFAAIVAYGLY+LKS   TKMS+ L
+Sbjct  1   MSTDIDVSLSSY--------------APFVPIGMAGFAAIVAYGLYRLKS---TKMSLRL  43
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFW  88
+           IHM VAAQGFV  A+T+GMGYSM +EFW
+Sbjct  44  IHMCVAAQGFVARAVTIGMGYSMCQEFW  71
+
+
+> UniRef90_A0A287ADX4 HIG1 hypoxia inducible domain family member 
+1C n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A287ADX4_PIG
+Length=89
+
+ Score = 102 bits (254),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 48/79 (61%), Positives = 63/79 (80%), Gaps = 2/79 (3%)
+
+Query  11  SYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           S +ED+G  S+LIRK++++PFVPVGIAGF ++V+YGLYKLK R +  MS+HLIHMRVAA 
+Sbjct  8   SADEDEGQLSRLIRKSRDSPFVPVGIAGFVSVVSYGLYKLKYRRDQNMSVHLIHMRVAAH  67
+
+Query  69  GFVVGAMTVGMGYSMYREF  87
+           GF VGA+T+G    +Y  F
+Sbjct  68  GFAVGAVTLGNQLHLYLLF  86
+
+
+> UniRef90_A0A2Y9SJS1 HIG1 domain family member 1C n=1 Tax=Physeter 
+catodon TaxID=9755 RepID=A0A2Y9SJS1_PHYCD
+Length=97
+
+ Score = 102 bits (254),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 50/89 (56%), Positives = 69/89 (78%), Gaps = 5/89 (6%)
+
+Query  1   MSTDTGVSLPSYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSI  58
+           MS+D   S    +ED+G  S+LIRK++++PFVP GIAGF  + +YGLYKLK R + KM+I
+Sbjct  1   MSSDNQCSA---DEDEGQLSRLIRKSRDSPFVPAGIAGFTTVGSYGLYKLKYRRDQKMAI  57
+
+Query  59  HLIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           HLI MRVAAQGFVV + T+G+ YS+Y+++
+Sbjct  58  HLIDMRVAAQGFVVKSWTLGVLYSVYKDY  86
+
+
+> UniRef90_A0A2U3XUU5 methyltransferase-like protein 7A n=1 Tax=Leptonychotes 
+weddellii TaxID=9713 RepID=A0A2U3XUU5_LEPWE
+Length=277
+
+ Score = 105 bits (263),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 53/83 (64%), Positives = 64/83 (77%), Gaps = 1/83 (1%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            MS+D   S    EE Q S+LIRK++++PFVPVGIAGF  + +YGLYKLK R + KMSIHL
+Sbjct  169  MSSDNQWS-ADEEEGQLSRLIRKSRDSPFVPVGIAGFMTVASYGLYKLKYRKDQKMSIHL  227
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSM  83
+            IHMRVAAQGFVVGA+T+  G  M
+Sbjct  228  IHMRVAAQGFVVGAVTLVTGEKM  250
+
+
+> UniRef90_A0A341ANI6 HIG1 domain family member 1C n=1 Tax=Neophocaena 
+asiaeorientalis asiaeorientalis TaxID=1706337 RepID=A0A341ANI6_9CETA
+Length=89
+
+ Score = 99.4 bits (246),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 48/79 (61%), Positives = 63/79 (80%), Gaps = 2/79 (3%)
+
+Query  11  SYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           S +ED+G  S+LIRK++++PFVPVGIAGF  + +YGLYKLK R + +MSIHLIH RVAAQ
+Sbjct  8   SADEDEGLLSRLIRKSRDSPFVPVGIAGFTTVGSYGLYKLKYRRDQRMSIHLIHTRVAAQ  67
+
+Query  69  GFVVGAMTVGMGYSMYREF  87
+           GFVV A+T+G   ++Y  F
+Sbjct  68  GFVVRAVTLGNLLNLYLVF  86
+
+
+> UniRef90_L9LBB6 HIG1 domain family member 1A n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9LBB6_TUPCH
+Length=60
+
+ Score = 97.4 bits (241),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 47/60 (78%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  34  IAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           + GFAAIVAYGLYKLKS GNTKMSI+LIHM VA  GFVV AMT+GMGY MY+E WA PKP
+Sbjct  1   MTGFAAIVAYGLYKLKSWGNTKMSIYLIHMCVATLGFVVEAMTLGMGYPMYQELWAIPKP  60
+
+
+> UniRef90_A0A1S3AIQ9 HIG1 domain family member 1B n=1 Tax=Erinaceus 
+europaeus TaxID=9365 RepID=A0A1S3AIQ9_ERIEU
+Length=99
+
+ Score = 97.1 bits (240),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 46/88 (52%), Positives = 62/88 (70%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G  +PS  ED  S K +RK +E+P VP+G+ G   + AY +Y+LK+RG TKMSIH
+Sbjct  1   MSANKGWWVPSESEDTMSEKFLRKTRESPLVPIGVGGCLVVAAYRIYRLKARGPTKMSIH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VGA+ +G  Y+MYR++
+Sbjct  61  LIHTRVAAQACAVGAIMLGAVYTMYRDY  88
+
+
+> UniRef90_A0A1L8E0J0 Putative hig1 domain family member 1a mitochondrial 
+n=1 Tax=Nyssomyia neivai TaxID=330878 RepID=A0A1L8E0J0_9DIPT
+Length=100
+
+ Score = 97.1 bits (240),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 48/85 (56%), Positives = 61/85 (72%), Gaps = 5/85 (6%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E  GSKL RK+KEAPF+P+GIAGF A V YG YK + RG    S+ L+ +RVAAQG VV
+Sbjct  12  DESHGSKLARKSKEAPFMPIGIAGFLAAVGYGAYKYRHRGTMSTSVFLMQLRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYRE-----FWAKPK  92
+           GA+T+G+ Y+M RE     F +KPK
+Sbjct  72  GALTIGLAYTMAREYLFPLFDSKPK  96
+
+
+> UniRef90_Q99JY6 HIG1 domain family member 1B n=8 Tax=Muroidea 
+TaxID=337687 RepID=HIG1B_MOUSE
+Length=98
+
+ Score = 97.1 bits (240),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 46/88 (52%), Positives = 63/88 (72%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSK-LIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G  +P   ED  SK  +RK +E+P VP+G+AG   I AY +Y+LK+RG+TK+SIH
+Sbjct  1   MSANKGWWVPPEGEDNLSKKFLRKTRESPLVPIGVAGCLVIAAYRIYRLKARGSTKLSIH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VGA+ +G  Y+MYR++
+Sbjct  61  LIHTRVAAQACAVGAIMLGAMYTMYRDY  88
+
+
+> UniRef90_A0A287BN51 Uncharacterized protein n=1 Tax=Sus scrofa 
+TaxID=9823 RepID=A0A287BN51_PIG
+Length=85
+
+ Score = 95.9 bits (237),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 45/56 (80%), Positives = 50/56 (89%), Gaps = 0/56 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKM  56
+           MS DT VSL S++EDQGSKLI+KAKEAPFVP  +AGFAAI AYGLYKLKSRGNTK+
+Sbjct  1   MSADTDVSLSSHDEDQGSKLIQKAKEAPFVPTAMAGFAAITAYGLYKLKSRGNTKI  56
+
+
+> UniRef90_A0A2Y9NF48 HIG1 domain family member 1C n=1 Tax=Delphinapterus 
+leucas TaxID=9749 RepID=A0A2Y9NF48_DELLE
+Length=171
+
+ Score = 97.8 bits (242),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 49/80 (61%), Positives = 63/80 (79%), Gaps = 5/80 (6%)
+
+Query  1   MSTDTGVSLPSYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSI  58
+           MS+D   S    +E++G  S+LIRK++++PFVPVGIAGF  + +YGLYKLK R + KMSI
+Sbjct  1   MSSDNQWS---ADENEGLLSRLIRKSRDSPFVPVGIAGFTTVGSYGLYKLKHRRDQKMSI  57
+
+Query  59  HLIHMRVAAQGFVVGAMTVG  78
+           HLIHMRVA QGFVV A+T+G
+Sbjct  58  HLIHMRVAPQGFVVRAVTLG  77
+
+
+> UniRef90_A0A2K6F8W6 HIG1 hypoxia inducible domain family member 
+1B n=10 Tax=Eutheria TaxID=9347 RepID=A0A2K6F8W6_PROCO
+Length=99
+
+ Score = 95.5 bits (236),  Expect = 8e-30, Method: Compositional matrix adjust.
+ Identities = 46/88 (52%), Positives = 63/88 (72%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G  +PS  ED  S K +RK +E+P VPVG+ G   + AY +Y+LK+RG+TKMSIH
+Sbjct  1   MSANKGWWVPSEGEDSVSEKFLRKTRESPLVPVGLGGCLVVAAYRIYRLKARGSTKMSIH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VGA+ +G  Y+MY+++
+Sbjct  61  LIHTRVAAQACAVGAIMLGAVYTMYKDY  88
+
+
+> UniRef90_L8Y1I6 HIG1 domain family member 1B n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L8Y1I6_TUPCH
+Length=99
+
+ Score = 95.5 bits (236),  Expect = 9e-30, Method: Compositional matrix adjust.
+ Identities = 45/88 (51%), Positives = 62/88 (70%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G  LP   ED  S K +RK +E+P VP+G+ G   + AY +Y+LK+RG TKMS+H
+Sbjct  1   MSANKGWCLPPEGEDGVSAKFLRKTRESPLVPIGLGGCLVVAAYRIYRLKARGPTKMSVH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ F VGA+ +G  Y+MY+++
+Sbjct  61  LIHTRVAAQAFAVGAIMLGAVYTMYKDY  88
+
+
+> UniRef90_A0JNP7 HIG1 domain family, member 1B n=9 Tax=Laurasiatheria 
+TaxID=314145 RepID=A0JNP7_BOVIN
+Length=99
+
+ Score = 95.1 bits (235),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 46/88 (52%), Positives = 62/88 (70%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G   P   ED  S KL+RK +E+P VP+G+ G   + AY +Y+LK+RG+TKMSIH
+Sbjct  1   MSANRGWWAPPEGEDSVSEKLLRKTRESPLVPIGLGGCLLVAAYRIYRLKARGSTKMSIH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VGA+ +G  Y+MYR++
+Sbjct  61  LIHTRVAAQACAVGAIMLGAVYTMYRDY  88
+
+
+> UniRef90_G1MJ95 HIG1 hypoxia inducible domain family member 1B 
+n=38 Tax=Eutheria TaxID=9347 RepID=G1MJ95_AILME
+Length=99
+
+ Score = 95.1 bits (235),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 46/88 (52%), Positives = 62/88 (70%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G  +P   ED  S K +RK +E+P VP G+ G  A+ AY +Y+LK+RG+TKMSIH
+Sbjct  1   MSANKGWWVPPEGEDSVSQKFLRKTRESPLVPAGLGGCLAVAAYRIYRLKARGSTKMSIH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VGA+ +G  Y+MYR++
+Sbjct  61  LIHTRVAAQACAVGAVMLGAVYTMYRDY  88
+
+
+> UniRef90_F1RQZ8 HIG1 hypoxia inducible domain family member 1B 
+n=3 Tax=Sus scrofa TaxID=9823 RepID=F1RQZ8_PIG
+Length=98
+
+ Score = 95.1 bits (235),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 42/78 (54%), Positives = 57/78 (73%), Gaps = 0/78 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P  E+    KL+RK +E+P VPVG+ G   + AY +Y+LK+RG+TKMSIHLIH RVAAQ 
+Sbjct  10  PEGEDSVSEKLLRKTRESPLVPVGLGGCLVVAAYRIYRLKARGSTKMSIHLIHTRVAAQA  69
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+             VGA+ +G  Y+MYR++
+Sbjct  70  CAVGAIMLGAVYTMYRDY  87
+
+
+> UniRef90_A0A182WE50 Uncharacterized protein n=1 Tax=Anopheles 
+minimus TaxID=112268 RepID=A0A182WE50_9DIPT
+Length=90
+
+ Score = 94.0 bits (232),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 41/84 (49%), Positives = 59/84 (70%), Gaps = 0/84 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +PS++E    KL RKA+E+PF+P+GIAG  A+ A G YK K+RG    S+ L+ +RVAAQ
+Sbjct  5   IPSFDETHSDKLARKARESPFMPIGIAGLCAVCAIGAYKYKNRGGMSTSVFLMQLRVAAQ  64
+
+Query  69  GFVVGAMTVGMGYSMYREFWAKPK  92
+           G VV A+++G+GY+M  E+    K
+Sbjct  65  GTVVAALSIGLGYTMANEYIFNKK  88
+
+
+> UniRef90_W5JI78 HIG1 domain family member 1A n=6 Tax=Nyssorhynchus 
+TaxID=44543 RepID=W5JI78_ANODA
+Length=94
+
+ Score = 93.6 bits (231),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 41/84 (49%), Positives = 59/84 (70%), Gaps = 0/84 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +PSY+E    KL RKA+E+PF+P+G+AG  A+ A G YK K+RG    S+ L+ +RVAAQ
+Sbjct  9   MPSYDETHSDKLARKARESPFMPIGLAGLVAVCAIGAYKYKNRGGMSTSVFLMQLRVAAQ  68
+
+Query  69  GFVVGAMTVGMGYSMYREFWAKPK  92
+           G VV A+++G+GY+M  E+    K
+Sbjct  69  GTVVAALSIGLGYTMANEYIFNKK  92
+
+
+> UniRef90_Q9P298 HIG1 domain family member 1B n=21 Tax=Catarrhini 
+TaxID=9526 RepID=HIG1B_HUMAN
+Length=99
+
+ Score = 92.8 bits (229),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 44/88 (50%), Positives = 62/88 (70%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS +    +P  +ED  S KL+RK +E+P VP+G+ G   + AY +Y+L+SRG+TKMSIH
+Sbjct  1   MSANRRWWVPPDDEDCVSEKLLRKTRESPLVPIGLGGCLVVAAYRIYRLRSRGSTKMSIH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VGA+ +G  Y+MY ++
+Sbjct  61  LIHTRVAAQACAVGAIMLGAVYTMYSDY  88
+
+
+> UniRef90_T1DQL4 Putative plasma membrane protein (Fragment) n=1 
+Tax=Anopheles aquasalis TaxID=42839 RepID=T1DQL4_ANOAQ
+Length=113
+
+ Score = 93.2 bits (230),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  9    LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+            +PSY+E    KL RKA+E+PF+P+G+AG  A+   G YK K+RG    S+ L+ +RVAAQ
+Sbjct  28   MPSYDETHSDKLARKARESPFMPIGLAGLVAVCGIGAYKYKNRGGMSTSVFLMQLRVAAQ  87
+
+Query  69   GFVVGAMTVGMGYSMYREF  87
+            G VV A+++G+GYSM  E+
+Sbjct  88   GTVVAALSIGLGYSMANEY  106
+
+
+> UniRef90_A0A1U7T3S4 HIG1 domain family member 1B n=1 Tax=Tarsius 
+syrichta TaxID=1868482 RepID=A0A1U7T3S4_TARSY
+Length=146
+
+ Score = 93.6 bits (231),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 45/88 (51%), Positives = 61/88 (69%), Gaps = 1/88 (1%)
+
+Query  1    MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+            MS + G  +P   ED  S K +RK +E+P VP+G+ G   + AY +Y+LK+RG TKMSIH
+Sbjct  48   MSANKGWWVPPEGEDSVSEKFLRKTQESPLVPIGLGGCLVVAAYRIYRLKARGPTKMSIH  107
+
+Query  60   LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+            LIH RVAAQ   VGA+ +G  Y+MYR++
+Sbjct  108  LIHTRVAAQACAVGAIMLGAVYTMYRDY  135
+
+
+> UniRef90_G3TEY1 HIG1 hypoxia inducible domain family member 1B 
+n=1 Tax=Loxodonta africana TaxID=9785 RepID=G3TEY1_LOXAF
+Length=99
+
+ Score = 92.0 bits (227),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 40/78 (51%), Positives = 57/78 (73%), Gaps = 0/78 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P  ++    KL++K +E+P VPVG+AG   + AY +Y+LK+RG+TKMSIHLIH RVAAQ 
+Sbjct  11  PEGKDSVSEKLLKKTRESPLVPVGLAGCLVVAAYRIYRLKARGSTKMSIHLIHTRVAAQA  70
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+             VGA+ +G  Y+ YR++
+Sbjct  71  CAVGAIMLGAVYTTYRDY  88
+
+
+> UniRef90_A0A2K6UT95 HIG1 hypoxia inducible domain family member 
+1B n=6 Tax=Platyrrhini TaxID=9479 RepID=A0A2K6UT95_SAIBB
+Length=99
+
+ Score = 91.7 bits (226),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 40/78 (51%), Positives = 56/78 (72%), Gaps = 0/78 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P  E+    KL+RK +E+P VP+G  G   + AY +Y+L++RG+TKMSIHLIH RVAAQ 
+Sbjct  11  PEDEDSVRKKLLRKTRESPLVPIGFGGCLVVAAYRIYQLRARGSTKMSIHLIHTRVAAQA  70
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+            VVGA+ +G  Y+MY ++
+Sbjct  71  CVVGAIMLGTVYTMYSDY  88
+
+
+> UniRef90_A0A1B0CJ30 Uncharacterized protein n=1 Tax=Lutzomyia 
+longipalpis TaxID=7200 RepID=A0A1B0CJ30_LUTLO
+Length=178
+
+ Score = 94.0 bits (232),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 46/85 (54%), Positives = 60/85 (71%), Gaps = 5/85 (6%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            +E  GSKL RKAKEAPF+P+GI GF A +  G YK K RG+   S+ L+ +RVAAQG VV
+Sbjct  90   DESHGSKLARKAKEAPFMPIGIVGFLAAIGIGAYKYKHRGSMSTSVFLMQLRVAAQGTVV  149
+
+Query  73   GAMTVGMGYSMYREFW-----AKPK  92
+            GA+T+G+ Y+M RE+      +KPK
+Sbjct  150  GALTIGLAYTMTREYLLPLLDSKPK  174
+
+
+ Score = 71.2 bits (173),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 34/59 (58%), Positives = 42/59 (71%), Gaps = 0/59 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           +E  GSKL RKAKEAPF+P+GI GF A +  G YK K RG+   S+ L+ +RVAAQG V
+Sbjct  12  DESHGSKLARKAKEAPFMPIGIVGFLAAIGIGAYKYKHRGSMSTSVFLMQLRVAAQGTV  70
+
+
+> UniRef90_A0A023ECJ9 Uncharacterized protein n=3 Tax=Stegomyia 
+TaxID=53541 RepID=A0A023ECJ9_AEDAL
+Length=96
+
+ Score = 91.3 bits (225),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 42/86 (49%), Positives = 59/86 (69%), Gaps = 0/86 (0%)
+
+Query  7   VSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVA  66
+           V+ P  EE+ G KL RKA+E+PF+ +G+AG  A+   G YK K+RG    S+ L+ +RVA
+Sbjct  8   VNHPGLEEESGDKLARKARESPFMLIGLAGLVAVCGIGAYKYKNRGEMSTSVFLMQLRVA  67
+
+Query  67  AQGFVVGAMTVGMGYSMYREFWAKPK  92
+           AQG VVGA+++G+ YSM  E+  K K
+Sbjct  68  AQGTVVGALSLGLAYSMANEYLFKKK  93
+
+
+> UniRef90_A0A182VHQ2 Uncharacterized protein n=1 Tax=Anopheles 
+merus TaxID=30066 RepID=A0A182VHQ2_ANOME
+Length=123
+
+ Score = 91.7 bits (226),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  9    LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+            +PS++E    KL RKA+E+PF+P+GIAG  A+ A G YK K RG    S+ L+ +RVAAQ
+Sbjct  38   VPSFDETHSDKLARKARESPFMPIGIAGLVAVCAIGAYKYKHRGAMSTSVFLMQLRVAAQ  97
+
+Query  69   GFVVGAMTVGMGYSMYREF  87
+            G VV A+++G+GY+M  E+
+Sbjct  98   GTVVAALSIGLGYTMANEY  116
+
+
+> UniRef90_A0A084WNK2 AGAP010716-PA-like protein n=5 Tax=Anopheles 
+TaxID=44484 RepID=A0A084WNK2_ANOSI
+Length=89
+
+ Score = 90.1 bits (222),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 40/84 (48%), Positives = 57/84 (68%), Gaps = 0/84 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +P+Y+E    KL RKA+E+PF+P+GIAG  A+   G YK K RG    S+ L+ +RVAAQ
+Sbjct  5   MPTYDETHSDKLARKARESPFMPIGIAGLVAVCGIGAYKYKHRGAMSTSVFLMQLRVAAQ  64
+
+Query  69  GFVVGAMTVGMGYSMYREFWAKPK  92
+           G VV A+++G+GY+M  E+    K
+Sbjct  65  GTVVAALSIGLGYTMANEYIFNKK  88
+
+
+> UniRef90_W8BMG1 HIG1 domain family member 1A, mitochondrial n=2 
+Tax=Tephritidae TaxID=7211 RepID=W8BMG1_CERCA
+Length=101
+
+ Score = 90.5 bits (223),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 44/82 (54%), Positives = 58/82 (71%), Gaps = 0/82 (0%)
+
+Query  11  SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+           S +E QGSKL RK K++PF+ +G+AGFAA    G YK K+RG    S+ L+ +RVAAQG 
+Sbjct  10  SRDESQGSKLSRKVKDSPFMIIGLAGFAAAGLIGAYKYKNRGTMSTSVFLMQLRVAAQGT  69
+
+Query  71  VVGAMTVGMGYSMYREFWAKPK  92
+           VVGA+T+G+ YSM  E+  K K
+Sbjct  70  VVGALTIGLAYSMANEYLFKDK  91
+
+
+> UniRef90_F6T5E4 HIG1 hypoxia inducible domain family member 1B 
+n=2 Tax=Monodelphis domestica TaxID=13616 RepID=F6T5E4_MONDO
+Length=139
+
+ Score = 91.3 bits (225),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 43/84 (51%), Positives = 59/84 (70%), Gaps = 1/84 (1%)
+
+Query  4    DTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHM  63
+            D GV  P  E    +KL+RK++E+P VPVG+ G   + AYG+Y+LK+RG  KMS+HLIH 
+Sbjct  46   DWGVP-PEVEGSVSAKLLRKSRESPLVPVGLGGCLVVTAYGMYRLKARGPLKMSLHLIHT  104
+
+Query  64   RVAAQGFVVGAMTVGMGYSMYREF  87
+            RVAAQ   VGA+ +G  Y+MY ++
+Sbjct  105  RVAAQACAVGAIMLGAVYTMYCDY  128
+
+
+> UniRef90_A0A182PM22 Uncharacterized protein n=5 Tax=Pyretophorus 
+TaxID=44537 RepID=A0A182PM22_9DIPT
+Length=143
+
+ Score = 91.3 bits (225),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 57/79 (72%), Gaps = 0/79 (0%)
+
+Query  9    LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+            +PS++E    KL RKA+E+PF+P+GIAG  A+ A G YK K RG    S+ L+ +RVAAQ
+Sbjct  58   VPSFDETHSDKLARKARESPFMPIGIAGLVAVCAIGAYKYKHRGAMSTSVFLMQLRVAAQ  117
+
+Query  69   GFVVGAMTVGMGYSMYREF  87
+            G VV A+++G+GY+M  E+
+Sbjct  118  GTVVAALSIGLGYTMANEY  136
+
+
+> UniRef90_G1SRW0 Uncharacterized protein n=1 Tax=Oryctolagus cuniculus 
+TaxID=9986 RepID=G1SRW0_RABIT
+Length=168
+
+ Score = 91.7 bits (226),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 44/94 (47%), Positives = 62/94 (66%), Gaps = 1/94 (1%)
+
+Query  1    MSTDTGVSLPSY-EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+            MS + G  +P   EE    K +RK +E+P VP+G+ G   +  Y +Y+LK+RG+TKMSIH
+Sbjct  70   MSANKGWWVPPEGEESVSGKFLRKTRESPLVPIGLGGCLLVATYRIYRLKARGSTKMSIH  129
+
+Query  60   LIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            LIH RVAAQ   VGA+ +G  Y+MYR++  +  P
+Sbjct  130  LIHTRVAAQACAVGAIMLGAVYTMYRDYSKRTAP  163
+
+
+> UniRef90_A0A067QPA3 HIG1 domain family member 1A n=1 Tax=Zootermopsis 
+nevadensis TaxID=136037 RepID=A0A067QPA3_ZOONE
+Length=137
+
+ Score = 90.1 bits (222),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 41/91 (45%), Positives = 58/91 (64%), Gaps = 0/91 (0%)
+
+Query  1    MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+            M T++       +E Q S+L RKAKEAPF+P+G+AG      YG YK K RG    S+ L
+Sbjct  41   MVTESAALQTFSDETQSSRLARKAKEAPFMPIGLAGLTLACLYGAYKFKHRGTMSTSVFL  100
+
+Query  61   IHMRVAAQGFVVGAMTVGMGYSMYREFWAKP  91
+            + +RVAAQG VV  ++ G+GYS++R++  K 
+Sbjct  101  MQLRVAAQGTVVACLSAGIGYSLFRDYVLKS  131
+
+
+> UniRef90_A0A023EFU6 Uncharacterized protein (Fragment) n=2 Tax=Aedes 
+albopictus TaxID=7160 RepID=A0A023EFU6_AEDAL
+Length=132
+
+ Score = 90.1 bits (222),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 42/86 (49%), Positives = 59/86 (69%), Gaps = 0/86 (0%)
+
+Query  7    VSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVA  66
+            V+ P  EE+ G KL RKA+E+PF+ +G+AG  A+   G YK K+RG    S+ L+ +RVA
+Sbjct  44   VNHPGLEEESGDKLARKARESPFMLIGLAGLVAVCGIGAYKYKNRGEMSTSVFLMQLRVA  103
+
+Query  67   AQGFVVGAMTVGMGYSMYREFWAKPK  92
+            AQG VVGA+++G+ YSM  E+  K K
+Sbjct  104  AQGTVVGALSLGLAYSMANEYLFKKK  129
+
+
+> UniRef90_A0A1B0DQY2 Uncharacterized protein n=1 Tax=Phlebotomus 
+papatasi TaxID=29031 RepID=A0A1B0DQY2_PHLPP
+Length=100
+
+ Score = 89.0 bits (219),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 45/84 (54%), Positives = 57/84 (68%), Gaps = 5/84 (6%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE  GSKL RKAKE+PF+P+GI GF A    G YK K RG    S+ L+ +RVAAQG VV
+Sbjct  12  EETHGSKLARKAKESPFMPIGIVGFLAAGVIGAYKYKHRGTMSTSVFLMQLRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYRE-----FWAKP  91
+           GA+T+G+ Y+M +E     F +KP
+Sbjct  72  GALTIGLAYTMAKEYLFPMFQSKP  95
+
+
+> UniRef90_A0A2P8Z1R7 Uncharacterized protein n=1 Tax=Blattella 
+germanica TaxID=6973 RepID=A0A2P8Z1R7_BLAGE
+Length=152
+
+ Score = 90.1 bits (222),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 42/86 (49%), Positives = 57/86 (66%), Gaps = 1/86 (1%)
+
+Query  8    SLPSY-EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVA  66
+            SL  Y +E QGS+L RK KEAP  P+G+AG      YG YK K RG    S+ L+ +RVA
+Sbjct  61   SLTRYADESQGSRLARKTKEAPLFPIGLAGLTLACLYGAYKFKHRGTMSTSVFLMQLRVA  120
+
+Query  67   AQGFVVGAMTVGMGYSMYREFWAKPK  92
+            AQG VV  +T G+GYS+++++  KP+
+Sbjct  121  AQGTVVACLTAGIGYSLFKDYVWKPE  146
+
+
+> UniRef90_A0A0L0BN83 Uncharacterized protein n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0BN83_LUCCU
+Length=98
+
+ Score = 87.8 bits (216),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 40/76 (53%), Positives = 54/76 (71%), Gaps = 0/76 (0%)
+
+Query  15  DQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGA  74
+           D G KL +KAK++PF+ VG+AGF A  A G YK K RG    S+ L+ +RVAAQG VV  
+Sbjct  13  DDGGKLAKKAKDSPFMVVGLAGFVAAAAIGAYKYKHRGTMSTSVFLMQLRVAAQGTVVAC  72
+
+Query  75  MTVGMGYSMYREFWAK  90
+           +T G+GY+MY+E++ K
+Sbjct  73  LTAGLGYTMYKEYFNK  88
+
+
+> UniRef90_A0A194RD06 HIG1 domain family member 1A n=1 Tax=Papilio 
+machaon TaxID=76193 RepID=A0A194RD06_PAPMA
+Length=108
+
+ Score = 88.2 bits (217),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 37/82 (45%), Positives = 56/82 (68%), Gaps = 0/82 (0%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           +EE    +L RK+KE+PF+  G+AG A+ V YG+Y  ++RG    S++L+  RV +QG  
+Sbjct  11  HEETHAERLSRKSKESPFMVFGLAGLASAVGYGVYSFRNRGKMSTSVYLMQFRVISQGIA  70
+
+Query  72  VGAMTVGMGYSMYREFWAKPKP  93
+           VGA+TVGM Y++Y   + KP+P
+Sbjct  71  VGAITVGMAYTLYNNHFNKPRP  92
+
+
+> UniRef90_B0XDC9 HIG1 domain family member 1A n=4 Tax=Culicinae 
+TaxID=43817 RepID=B0XDC9_CULQU
+Length=89
+
+ Score = 87.4 bits (215),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 39/78 (50%), Positives = 55/78 (71%), Gaps = 0/78 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P  EE  G KL RKA+E+PF+P+G+AG A +   G YK K+RG    S+ L+ +RVAAQG
+Sbjct  4   PHMEEGSGDKLARKARESPFMPIGLAGLAIVCGIGAYKYKNRGAMSTSVFLMQLRVAAQG  63
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+            VVGA+++G+ Y+M  E+
+Sbjct  64  TVVGALSLGLAYTMANEY  81
+
+
+> UniRef90_A0A226E2J6 HIG1 domain family member 1A, mitochondrial 
+n=2 Tax=Folsomia candida TaxID=158441 RepID=A0A226E2J6_FOLCA
+Length=103
+
+ Score = 87.4 bits (215),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 46/83 (55%), Positives = 59/83 (71%), Gaps = 1/83 (1%)
+
+Query  11   SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+            SY++ + SK I KAKE PFVP GI G    +AY  +K K+RG+ K+S+ LIH RVAAQG 
+Sbjct  21   SYDDTEKSKFISKAKENPFVPAGIGGALFALAYAAFKFKNRGDQKVSVFLIHTRVAAQGA  80
+
+Query  71   VVGAMTVGMGYSMYREF-WAKPK  92
+            VVGA+TVG  Y +++EF W K K
+Sbjct  81   VVGALTVGCIYQIFQEFIWNKKK  103
+
+
+> UniRef90_A0A182K180 Uncharacterized protein n=1 Tax=Anopheles 
+christyi TaxID=43041 RepID=A0A182K180_9DIPT
+Length=112
+
+ Score = 87.4 bits (215),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 39/78 (50%), Positives = 54/78 (69%), Gaps = 0/78 (0%)
+
+Query  9    LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+            +PS +E    KL RKA+E+PF+P+GIAG  A+ A G YK K RG    S+ L+ +RVAAQ
+Sbjct  33   IPSLDETHSDKLARKARESPFMPIGIAGLVAVCAIGAYKYKHRGAMSTSVFLMQLRVAAQ  92
+
+Query  69   GFVVGAMTVGMGYSMYRE  86
+            G VV A+++G+ Y+M  E
+Sbjct  93   GTVVSALSIGLAYTMANE  110
+
+
+> UniRef90_A0A194PJD0 HIG1 domain family member 1A n=2 Tax=Papilio 
+xuthus TaxID=66420 RepID=A0A194PJD0_PAPXU
+Length=138
+
+ Score = 88.2 bits (217),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 37/82 (45%), Positives = 56/82 (68%), Gaps = 0/82 (0%)
+
+Query  12   YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+            +EE    +L RK+KE+PF+  G+AG A+ V YG+Y  ++RG    S++L+  RV +QG  
+Sbjct  41   HEETHAERLSRKSKESPFMVFGLAGLASAVGYGVYSFRNRGKMSTSVYLMQFRVISQGIA  100
+
+Query  72   VGAMTVGMGYSMYREFWAKPKP  93
+            VGA+TVGM Y++Y   + KP+P
+Sbjct  101  VGAITVGMAYTLYNNHFNKPRP  122
+
+
+> UniRef90_A0A0A1WG42 HIG1 domain family member 1A n=5 Tax=Holometabola 
+TaxID=33392 RepID=A0A0A1WG42_ZEUCU
+Length=100
+
+ Score = 87.0 bits (214),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 41/81 (51%), Positives = 55/81 (68%), Gaps = 0/81 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E QG KL RK K++PF+ +G+AGF A    G YK K+RG    S+ L+ +RVAAQG VV
+Sbjct  12  DESQGGKLSRKIKDSPFMIIGLAGFVAAGVIGAYKYKNRGTMSTSVFLMQLRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYREFWAKPKP  93
+           GA+T+G+GYSM  E+     P
+Sbjct  72  GALTLGLGYSMANEYLFNKTP  92
+
+
+> UniRef90_G3W1S1 HIG1 hypoxia inducible domain family member 1B 
+n=2 Tax=Metatheria TaxID=9263 RepID=G3W1S1_SARHA
+Length=99
+
+ Score = 86.7 bits (213),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 39/78 (50%), Positives = 54/78 (69%), Gaps = 0/78 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P  E     KL+RK++E+P VPVG+ G   + AYG+Y+LK+RG  KMS+HLIH RVAAQ 
+Sbjct  11  PEGEGGVSEKLLRKSRESPLVPVGLGGCLLVTAYGIYRLKARGPLKMSLHLIHTRVAAQA  70
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+             VG + +G  Y+MY ++
+Sbjct  71  CAVGTIMLGTVYTMYCDY  88
+
+
+> UniRef90_R4WNN7 Uncharacterized protein n=1 Tax=Riptortus pedestris 
+TaxID=329032 RepID=R4WNN7_RIPPE
+Length=88
+
+ Score = 85.9 bits (211),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 39/78 (50%), Positives = 53/78 (68%), Gaps = 0/78 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +  YEE QGSKL RK  E PF+PVGI G     AYG Y+ K+RG    S++L+ +RV AQ
+Sbjct  1   MDHYEESQGSKLSRKIAENPFMPVGILGLIGACAYGAYQFKNRGKMSTSVYLMQLRVGAQ  60
+
+Query  69  GFVVGAMTVGMGYSMYRE  86
+           G VVG +T+G+ Y++ R+
+Sbjct  61  GAVVGTLTLGVAYTILRD  78
+
+
+> UniRef90_R4UKW7 Hypoxia induced protein conserved region n=1 
+Tax=Coptotermes formosanus TaxID=36987 RepID=R4UKW7_COPFO
+Length=98
+
+ Score = 85.9 bits (211),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 40/91 (44%), Positives = 58/91 (64%), Gaps = 1/91 (1%)
+
+Query  1   MSTDTGVSLPSY-EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           M+TD+      Y +E   S+L RK+KEAPF P+G+AG      YG YK K RG    S+ 
+Sbjct  1   MATDSASLAAVYSDESHSSRLSRKSKEAPFFPIGLAGLTLACLYGAYKYKHRGTMSTSVF  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREFWAK  90
+           L+ +RVAAQG VV  +T G+GY++++++  K
+Sbjct  61  LMQLRVAAQGTVVACLTAGIGYTLFKDYIMK  91
+
+
+> UniRef90_A0A212F015 Uncharacterized protein n=1 Tax=Danaus plexippus 
+plexippus TaxID=278856 RepID=A0A212F015_DANPL
+Length=98
+
+ Score = 85.9 bits (211),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 40/81 (49%), Positives = 54/81 (67%), Gaps = 0/81 (0%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           +EE  G KL RK+KE+PF+ +G+A  AA V YG+Y  K+RG    S+ L+  RV AQG  
+Sbjct  11  HEESHGEKLARKSKESPFMVIGLASLAAAVGYGVYSFKNRGPMSTSVFLMQFRVIAQGAT  70
+
+Query  72  VGAMTVGMGYSMYREFWAKPK  92
+           VGA+T G+ YSMY  ++ K K
+Sbjct  71  VGALTAGITYSMYSNYFNKTK  91
+
+
+> UniRef90_A0A1Y1MKT1 Uncharacterized protein n=1 Tax=Photinus 
+pyralis TaxID=7054 RepID=A0A1Y1MKT1_PHOPY
+Length=100
+
+ Score = 85.5 bits (210),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 42/96 (44%), Positives = 58/96 (60%), Gaps = 4/96 (4%)
+
+Query  1   MSTDTGVSLPS----YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKM  56
+           MS+ T ++ P     ++E Q  +L RK+K+APF P+ I   A   AYG Y  K RG    
+Sbjct  1   MSSTTAMANPPPAFFHDESQSERLARKSKDAPFFPIAIGICAVTCAYGAYMFKRRGKMSP  60
+
+Query  57  SIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+           SI L+ +RV AQG  VG +T+G+GY+MY E + K K
+Sbjct  61  SIFLMQLRVTAQGLAVGTLTLGLGYTMYNEHFGKAK  96
+
+
+> UniRef90_Q9VGQ2 RE71331p n=17 Tax=Drosophila TaxID=2081351 RepID=Q9VGQ2_DROME
+Length=101
+
+ Score = 85.5 bits (210),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 44/88 (50%), Positives = 57/88 (65%), Gaps = 2/88 (2%)
+
+Query  8   SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+           SL   EED  Q +KL RKAKE+PF+ VGI GF A    G YK ++RG    S+ L+ +RV
+Sbjct  5   SLFDSEEDAAQANKLSRKAKESPFMLVGITGFVAAGLIGAYKYRNRGTMSTSVFLMQLRV  64
+
+Query  66  AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           AAQG VVG +T+G+ YSM +E+     P
+Sbjct  65  AAQGTVVGCLTLGLAYSMAKEYLFDKAP  92
+
+
+> UniRef90_Q8INK7 GEO12665p1 n=2 Tax=Drosophila melanogaster TaxID=7227 
+RepID=Q8INK7_DROME
+Length=95
+
+ Score = 85.1 bits (209),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 44/88 (50%), Positives = 57/88 (65%), Gaps = 2/88 (2%)
+
+Query  8   SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+           SL   EED  Q +KL RKAKE+PF+ VGI GF A    G YK ++RG    S+ L+ +RV
+Sbjct  5   SLFDSEEDAAQANKLSRKAKESPFMLVGITGFVAAGLIGAYKYRNRGTMSTSVFLMQLRV  64
+
+Query  66  AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           AAQG VVG +T+G+ YSM +E+     P
+Sbjct  65  AAQGTVVGCLTLGLAYSMAKEYLFDKAP  92
+
+
+> UniRef90_B4LXM6 Uncharacterized protein, isoform A n=6 Tax=Drosophila 
+TaxID=2081351 RepID=B4LXM6_DROVI
+Length=101
+
+ Score = 84.3 bits (207),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 43/88 (49%), Positives = 56/88 (64%), Gaps = 2/88 (2%)
+
+Query  8   SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+           SL   E+D  Q +K   KAKE+PF+ +GIAGF A    G YK K+RG    S+ L+ +RV
+Sbjct  5   SLFETEDDVAQANKFANKAKESPFMLIGIAGFVAAGLIGAYKYKNRGTMSTSVFLMQLRV  64
+
+Query  66  AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           AAQG VVG +TVG+GY M +E+     P
+Sbjct  65  AAQGTVVGCLTVGLGYQMAKEYLFDKAP  92
+
+
+> UniRef90_A0A383ZYW0 HIG1 domain family member 1B n=1 Tax=Balaenoptera 
+acutorostrata scammoni TaxID=310752 RepID=A0A383ZYW0_BALAS
+Length=99
+
+ Score = 84.3 bits (207),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 41/88 (47%), Positives = 58/88 (66%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G   P   ED  S K++RK +E+  VP+G+ G   + A  +Y+LK+ G+TKMS H
+Sbjct  1   MSANKGSWAPPEGEDSMSEKILRKTRESLLVPIGLGGCVVVAACRIYRLKAHGSTKMSTH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VGA+ +G  Y+MYR++
+Sbjct  61  LIHTRVAAQACAVGAIMLGAVYTMYRDY  88
+
+
+> UniRef90_B4NKV9 Uncharacterized protein n=1 Tax=Drosophila willistoni 
+TaxID=7260 RepID=B4NKV9_DROWI
+Length=102
+
+ Score = 84.0 bits (206),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 42/83 (51%), Positives = 55/83 (66%), Gaps = 2/83 (2%)
+
+Query  13  EED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+           EED  Q +KL RKAKE+PF+ VGIAGF A    G YK K RG    S+ L+ +RVAAQG 
+Sbjct  11  EEDVAQSNKLARKAKESPFMLVGIAGFVAAGLIGAYKYKHRGTMSTSVFLMQLRVAAQGT  70
+
+Query  71  VVGAMTVGMGYSMYREFWAKPKP  93
+           VV  +T+G+ Y+M +E+    +P
+Sbjct  71  VVSCLTIGLAYTMAKEYLFDKQP  93
+
+
+> UniRef90_A0A2Y9TAB8 HIG1 domain family member 1B n=1 Tax=Physeter 
+catodon TaxID=9755 RepID=A0A2Y9TAB8_PHYCD
+Length=148
+
+ Score = 85.1 bits (209),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 40/88 (45%), Positives = 57/88 (65%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQ-GSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G   P   ED    K +RK +E+  VP+G+ G   + AY +Y+LK+RG+TKMS H
+Sbjct  1   MSANKGWWAPPEGEDSMPEKFLRKTRESLLVPIGLGGCVVVAAYRIYRLKARGSTKMSTH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH R AAQ   VG + +G G++MYR++
+Sbjct  61  LIHTRAAAQACAVGVIMLGAGHTMYRDY  88
+
+
+> UniRef90_A0A0M4EEG2 CG11825 n=2 Tax=Drosophila busckii TaxID=30019 
+RepID=A0A0M4EEG2_DROBS
+Length=94
+
+ Score = 83.6 bits (205),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 44/88 (50%), Positives = 57/88 (65%), Gaps = 2/88 (2%)
+
+Query  8   SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+           SL    ED  Q +K  RKAKE+PF+ VGIAGF A    G YK K+RG    S+ L+ +RV
+Sbjct  4   SLFDSAEDVQQENKFARKAKESPFMLVGIAGFLAAGLIGAYKYKNRGTMSTSVFLMQLRV  63
+
+Query  66  AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           AAQG VVG +T+G+GY M +E+    +P
+Sbjct  64  AAQGTVVGCLTLGLGYQMAKEYLFDKEP  91
+
+
+> UniRef90_A0A1I8NFK2 Uncharacterized protein n=5 Tax=Muscinae 
+TaxID=43910 RepID=A0A1I8NFK2_MUSDO
+Length=97
+
+ Score = 83.6 bits (205),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 40/79 (51%), Positives = 56/79 (71%), Gaps = 1/79 (1%)
+
+Query  15  DQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGA  74
+           D+G KL +KAK++PF+ VG+AGF A    G YK K RG    S+ L+ +RVAAQG VVG 
+Sbjct  12  DEGGKLSKKAKDSPFMVVGLAGFVAAGLIGAYKYKHRGTMSTSVFLMQLRVAAQGTVVGC  71
+
+Query  75  MTVGMGYSMYREFWA-KPK  92
+           +T+G+ Y+MY +++  KPK
+Sbjct  72  LTLGLAYTMYNQYFVQKPK  90
+
+
+> UniRef90_B4GLP6 GL12612 n=4 Tax=obscura group TaxID=32355 RepID=B4GLP6_DROPE
+Length=100
+
+ Score = 83.2 bits (204),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 40/81 (49%), Positives = 54/81 (67%), Gaps = 0/81 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           + +Q +KL RKAKE+PF+ VGIAGF A    G YK K RG    S+ L+ +RVAAQG VV
+Sbjct  11  DAEQSNKLARKAKESPFMLVGIAGFVAAGLIGAYKYKHRGTMSTSVFLMQLRVAAQGTVV  70
+
+Query  73  GAMTVGMGYSMYREFWAKPKP  93
+           G +T G+ Y+M +E+    +P
+Sbjct  71  GCLTAGLAYTMAKEYLFDKEP  91
+
+
+> UniRef90_A0A0B4KEI1 Uncharacterized protein, isoform C n=4 Tax=melanogaster 
+group TaxID=32346 RepID=A0A0B4KEI1_DROME
+Length=136
+
+ Score = 83.6 bits (205),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 42/88 (48%), Positives = 58/88 (66%), Gaps = 2/88 (2%)
+
+Query  8    SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+            SL   +ED  Q +KL RK KE+PF+ VGIAGF A    G YK ++RG+   S+ L+ +RV
+Sbjct  41   SLFETDEDVAQANKLSRKVKESPFMLVGIAGFVAAGLIGAYKYRNRGSMSTSVFLMQLRV  100
+
+Query  66   AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+            AAQG VVG +T G+ Y+M +E+    +P
+Sbjct  101  AAQGTVVGCLTAGLAYTMAKEYLLHEEP  128
+
+
+> UniRef90_A0A1W4VQ53 HIG1 domain family member 1A, mitochondrial-like 
+n=2 Tax=melanogaster group TaxID=32346 RepID=A0A1W4VQ53_DROFC
+Length=122
+
+ Score = 83.2 bits (204),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 43/88 (49%), Positives = 57/88 (65%), Gaps = 2/88 (2%)
+
+Query  8   SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+           SL   EED  Q +KL RK KE+PF+ VGIAGF A    G YK ++RG+   S+ L+ +RV
+Sbjct  5   SLFETEEDFAQANKLSRKMKESPFMLVGIAGFVAAGLVGAYKYRNRGSMSTSVFLMQLRV  64
+
+Query  66  AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           AAQG VVG +T G+ Y+M +E+     P
+Sbjct  65  AAQGTVVGCLTAGLAYTMAKEYLLHEDP  92
+
+
+> UniRef90_B4HMP5 GM20525 n=4 Tax=melanogaster group TaxID=32346 
+RepID=B4HMP5_DROSE
+Length=100
+
+ Score = 82.4 bits (202),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 42/88 (48%), Positives = 57/88 (65%), Gaps = 2/88 (2%)
+
+Query  8   SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+           SL   +ED  Q +KL RK KE+PF+ VGIAGF A    G YK ++RG    S+ L+ +RV
+Sbjct  5   SLFETDEDVAQANKLSRKVKESPFMLVGIAGFVAAGLVGAYKYRNRGTMSTSVFLMQLRV  64
+
+Query  66  AAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           AAQG VVG +T G+ Y+M +E+    +P
+Sbjct  65  AAQGTVVGCLTAGLAYTMAKEYLFHEEP  92
+
+
+> UniRef90_A0A287B173 Uncharacterized protein n=1 Tax=Sus scrofa 
+TaxID=9823 RepID=A0A287B173_PIG
+Length=78
+
+ Score = 81.3 bits (199),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 47/78 (60%), Positives = 56/78 (72%), Gaps = 11/78 (14%)
+
+Query  6   GVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+           G SL S   D+   L+R    APFVP+G+AGFAA++A GLYKLKSRGNT+MS        
+Sbjct  4   GSSL-SKARDRTRVLMRT--NAPFVPIGMAGFAAVIACGLYKLKSRGNTEMS--------  52
+
+Query  66  AAQGFVVGAMTVGMGYSM  83
+           AAQGFVVGAMT+ MGYS+
+Sbjct  53  AAQGFVVGAMTLSMGYSL  70
+
+
+> UniRef90_A0A340X1M3 HIG1 domain family member 1B n=1 Tax=Lipotes 
+vexillifer TaxID=118797 RepID=A0A340X1M3_LIPVE
+Length=141
+
+ Score = 83.2 bits (204),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 42/88 (48%), Positives = 57/88 (65%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G   P   ED  S KL+RK +E+  VP+G+ G   + AY +Y+LK RG+TKMS H
+Sbjct  1   MSANKGWWAPPEGEDSMSEKLLRKTRESLLVPLGLGGCVVVAAYRIYQLKPRGSTKMSTH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VG + +G  Y+MY ++
+Sbjct  61  LIHTRVAAQACAVGVIMLGAVYTMYGDY  88
+
+
+> UniRef90_H9J1G9 Uncharacterized protein n=1 Tax=Bombyx mori TaxID=7091 
+RepID=H9J1G9_BOMMO
+Length=95
+
+ Score = 81.6 bits (200),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 40/81 (49%), Positives = 52/81 (64%), Gaps = 0/81 (0%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           +EE Q  KL RK+KE+PF+ +GI G  A V YG Y  K RG    S+ L+  RV AQG V
+Sbjct  11  HEESQTEKLARKSKESPFMVIGITGLVAAVGYGAYAYKRRGAMSTSVFLMQFRVIAQGTV  70
+
+Query  72  VGAMTVGMGYSMYREFWAKPK  92
+           VGA+T GM Y++Y+  + K K
+Sbjct  71  VGALTAGMMYTLYKNHFNKLK  91
+
+
+> UniRef90_B3LXD6 Uncharacterized protein, isoform A n=2 Tax=Drosophila 
+ananassae TaxID=7217 RepID=B3LXD6_DROAN
+Length=101
+
+ Score = 81.6 bits (200),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 41/83 (49%), Positives = 54/83 (65%), Gaps = 2/83 (2%)
+
+Query  13  EED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+           +ED  Q +KL RKAKE+PF+ VGIAGF A    G YK ++RG    S+ L+ +RVAAQG 
+Sbjct  10  DEDAAQSNKLSRKAKESPFMLVGIAGFVAAGVIGAYKYRNRGTMSTSVFLMQLRVAAQGT  69
+
+Query  71  VVGAMTVGMGYSMYREFWAKPKP  93
+           VV  +T G+ YSM +E+     P
+Sbjct  70  VVACLTAGLAYSMTKEYIFDKAP  92
+
+
+> UniRef90_A0A1W4WT46 HIG1 domain family member 1A, mitochondrial-like 
+isoform X1 n=3 Tax=Agrilus planipennis TaxID=224129 
+RepID=A0A1W4WT46_AGRPL
+Length=103
+
+ Score = 81.3 bits (199),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 37/80 (46%), Positives = 49/80 (61%), Gaps = 0/80 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E Q  +L RK+KE P  P+ IAG  A VAYG YK KSRG    S+ L+ +RV AQG  V
+Sbjct  21  QESQSDRLARKSKETPVFPIAIAGCVAAVAYGAYKFKSRGQMSPSVFLMQLRVGAQGIAV  80
+
+Query  73  GAMTVGMGYSMYREFWAKPK  92
+           G +T+G+ Y+M +      K
+Sbjct  81  GTLTIGLAYTMIQNILHDSK  100
+
+
+> UniRef90_A0A2U4BPG9 HIG1 domain family member 1B n=2 Tax=Odontoceti 
+TaxID=9722 RepID=A0A2U4BPG9_TURTR
+Length=149
+
+ Score = 82.4 bits (202),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 41/88 (47%), Positives = 56/88 (64%), Gaps = 1/88 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS + G   P   ED  S K +RK +E+  VP+G+ G   + A  +Y+LK RG+TKMS H
+Sbjct  1   MSANKGWWAPPEGEDSMSEKFLRKTRESLLVPIGLGGCVVVAANRIYRLKPRGSTKMSTH  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+           LIH RVAAQ   VG + +G  Y+MYR++
+Sbjct  61  LIHTRVAAQACAVGVIMLGAVYTMYRDY  88
+
+
+> UniRef90_A0A341CP33 HIG1 domain family member 1B n=2 Tax=Odontoceti 
+TaxID=9722 RepID=A0A341CP33_9CETA
+Length=147
+
+ Score = 82.4 bits (202),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 35/78 (45%), Positives = 53/78 (68%), Gaps = 0/78 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P  E+   +K +RK + +  VP+G+ G   + AY +Y+LK RG+T+M+ HLIH RVAAQ 
+Sbjct  11  PEGEDGMSAKFLRKTRGSLLVPIGLGGCVVVAAYRIYRLKPRGSTRMATHLIHTRVAAQA  70
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+             VG +T+G  Y+MYR++
+Sbjct  71  CAVGVITLGTVYTMYRDY  88
+
+
+> UniRef90_A0A3P4LZP3 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4LZP3_GULGU
+Length=47
+
+ Score = 79.3 bits (194),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 37/47 (79%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  34  IAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMG  80
+           +AGFA IV YGL+KLKS+GNTKMS+HLIH+R+AAQGFVV AMT+GMG
+Sbjct  1   MAGFATIVVYGLHKLKSKGNTKMSVHLIHVRMAAQGFVVRAMTLGMG  47
+
+
+> UniRef90_M3WJP2 Methyltransferase like 7A n=1 Tax=Felis catus 
+TaxID=9685 RepID=M3WJP2_FELCA
+Length=325
+
+ Score = 85.1 bits (209),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 38/55 (69%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  33   GIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREF  87
+            GIAGF  +V+YGLY LK+R + KMSIHLIHMRVAAQG VVGA+T+G+ YSMY+++
+Sbjct  260  GIAGFMTVVSYGLYTLKNRRDQKMSIHLIHMRVAAQGCVVGAVTLGVLYSMYKDY  314
+
+
+> UniRef90_A0A023FCS0 Putative induced by hypoxia (Fragment) n=1 
+Tax=Triatoma infestans TaxID=30076 RepID=A0A023FCS0_TRIIF
+Length=84
+
+ Score = 79.7 bits (195),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 37/84 (44%), Positives = 53/84 (63%), Gaps = 3/84 (4%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           YEE   +KL RK KE PF+P+GI G      YG Y  K RG    S++L+ +RVAAQG V
+Sbjct  1   YEESHTNKLSRKVKENPFMPLGICGLIMACGYGAYMYKHRGKMSTSVYLMQLRVAAQGTV  60
+
+Query  72  VGAMTVGMGYSMYR---EFWAKPK  92
+           VG + +G+ Y+++R   ++ +KP 
+Sbjct  61  VGTLAIGVAYNIFRQLKQYESKPN  84
+
+
+> UniRef90_A0A0J9R9N6 Uncharacterized protein n=2 Tax=Drosophila 
+simulans TaxID=7240 RepID=A0A0J9R9N6_DROSI
+Length=160
+
+ Score = 81.3 bits (199),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 41/83 (49%), Positives = 55/83 (66%), Gaps = 2/83 (2%)
+
+Query  8    SLPSYEED--QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRV  65
+            SL   +ED  Q +KL RK KE+PF+ VGIAGF A    G YK ++RG    S+ L+ +RV
+Sbjct  65   SLFETDEDVAQANKLSRKVKESPFMLVGIAGFVAAGLVGAYKYRNRGTMSTSVFLMQLRV  124
+
+Query  66   AAQGFVVGAMTVGMGYSMYREFW  88
+            AAQG VVG +T G+ Y+M +E+ 
+Sbjct  125  AAQGTVVGCLTAGLAYTMAKEYL  147
+
+
+> UniRef90_T1I5P0 Uncharacterized protein n=1 Tax=Rhodnius prolixus 
+TaxID=13249 RepID=T1I5P0_RHOPR
+Length=89
+
+ Score = 79.3 bits (194),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 50/82 (61%), Gaps = 0/82 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +  Y+E   +KL RK KE PF+P+GI G      YG Y  K RG    S++L+ +RVAAQ
+Sbjct  1   MEEYDESHTNKLSRKVKENPFMPIGICGLLMACGYGAYMFKRRGKMSTSVYLMQLRVAAQ  60
+
+Query  69  GFVVGAMTVGMGYSMYREFWAK  90
+           G VVG +T+G+ +SM   +  K
+Sbjct  61  GTVVGTLTIGVIFSMINRYVLK  82
+
+
+> UniRef90_U5EHM4 Putative conserved plasma membrane protein (Fragment) 
+n=1 Tax=Corethrella appendiculata TaxID=1370023 RepID=U5EHM4_9DIPT
+Length=91
+
+ Score = 79.3 bits (194),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 35/84 (42%), Positives = 51/84 (61%), Gaps = 0/84 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P Y+E Q  +L RK +E+PF+  G+ G       G YK K+RG    S+ L+ +RVAAQG
+Sbjct  1   PPYDETQSERLARKTRESPFMLAGLLGLVTACGIGAYKWKTRGEMSPSVFLMQLRVAAQG  60
+
+Query  70  FVVGAMTVGMGYSMYREFWAKPKP  93
+            VV  +T G+ Y+M  E++ K +P
+Sbjct  61  TVVACLTAGLAYTMANEYYFKKQP  84
+
+
+> UniRef90_A0A069DNT7 Putative induced by hypoxia n=3 Tax=Triatominae 
+TaxID=70999 RepID=A0A069DNT7_9HEMI
+Length=89
+
+ Score = 79.0 bits (193),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 50/82 (61%), Gaps = 0/82 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +  YEE   +KL RK KE PF+P+GI G      YG Y  K RG    S++L+ +RVAAQ
+Sbjct  1   MEDYEESHTNKLSRKVKENPFMPLGICGLLMACGYGAYMYKRRGTMSTSVYLMQLRVAAQ  60
+
+Query  69  GFVVGAMTVGMGYSMYREFWAK  90
+           G VVG + VG+ +S+++    K
+Sbjct  61  GTVVGTLAVGVAFSIFQRLKLK  82
+
+
+> UniRef90_W4XPD1 Uncharacterized protein n=2 Tax=Strongylocentrotus 
+purpuratus TaxID=7668 RepID=W4XPD1_STRPU
+Length=90
+
+ Score = 78.2 bits (191),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 43/83 (52%), Positives = 52/83 (63%), Gaps = 3/83 (4%)
+
+Query  7   VSLPSYEEDQGS---KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHM  63
+           +S P  E D  S   KL RKA   P+VPVGI GF   +A+G Y  KSRGNT  SI L+ +
+Sbjct  1   MSRPVIEYDTESATDKLKRKALADPYVPVGILGFVGALAWGAYSYKSRGNTSTSIFLMRL  60
+
+Query  64  RVAAQGFVVGAMTVGMGYSMYRE  86
+           RV AQ  VVGAM VG G +M++ 
+Sbjct  61  RVVAQTCVVGAMAVGAGVTMWKR  83
+
+
+> UniRef90_A0A1E1WDW2 Uncharacterized protein n=2 Tax=Pectinophora 
+gossypiella TaxID=13191 RepID=A0A1E1WDW2_PECGO
+Length=102
+
+ Score = 78.6 bits (192),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 36/77 (47%), Positives = 50/77 (65%), Gaps = 0/77 (0%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           +EE  G KL RKAKE+PF+ +G+A  A  V  G YK K+RG    S++L+  RV +QG V
+Sbjct  11  HEESHGEKLTRKAKESPFMIIGLASLAGAVGLGAYKYKTRGAMSTSVYLMQFRVISQGAV  70
+
+Query  72  VGAMTVGMGYSMYREFW  88
+           V A+T GM Y++Y   +
+Sbjct  71  VAALTAGMAYTLYNNHF  87
+
+
+> UniRef90_A0A2I9LP35 HIG1 domain family protein n=2 Tax=Centruroides 
+TaxID=6875 RepID=A0A2I9LP35_9SCOR
+Length=99
+
+ Score = 77.8 bits (190),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 36/88 (41%), Positives = 56/88 (64%), Gaps = 1/88 (1%)
+
+Query  4   DTGVSLPSYEEDQGS-KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIH  62
+           D+   + SY ++ GS KL RK K+APF+ +G+AG      YG+Y  + RG    SI+L+ 
+Sbjct  3   DSLEDISSYSQESGSQKLARKTKDAPFMVIGLAGCTLACLYGIYNYRRRGKMTTSIYLMQ  62
+
+Query  63  MRVAAQGFVVGAMTVGMGYSMYREFWAK  90
+           +RV AQG VV  +T+G  YS+Y++  ++
+Sbjct  63  LRVTAQGTVVACLTLGALYSIYQKLQSR  90
+
+
+> UniRef90_A0A2A4J6H5 Uncharacterized protein n=5 Tax=Noctuidae 
+TaxID=7100 RepID=A0A2A4J6H5_HELVI
+Length=95
+
+ Score = 77.0 bits (188),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 32/79 (41%), Positives = 52/79 (66%), Gaps = 0/79 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E Q  +L RK+K++PF+ +GI G   +  +G YK K+RG    S+ L+ +RVAAQG VV
+Sbjct  12  DESQADRLARKSKDSPFMIIGILGLIGVCGFGAYKYKTRGKMSTSVFLMQLRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYREFWAKP  91
+            A+T+G+ Y++ ++   K 
+Sbjct  72  SALTIGLAYTLVKDHLLKD  90
+
+
+> UniRef90_D6WIG9 HIG1 domain family member 1A, mitochondrial-like 
+Protein n=2 Tax=Tribolium castaneum TaxID=7070 RepID=D6WIG9_TRICA
+Length=94
+
+ Score = 77.0 bits (188),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 37/92 (40%), Positives = 55/92 (60%), Gaps = 0/92 (0%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           ++T +   +  +EE+  S+L RK+KE PF P+ I      V YG Y  K+RG    S++L
+Sbjct  3   LTTMSDSKVFKFEEETESRLARKSKETPFFPIAIGVCTLAVGYGAYMFKNRGKMSTSVYL  62
+
+Query  61  IHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+           +H+RV AQG  V ++TVG+ Y+M  E   K K
+Sbjct  63  MHLRVGAQGAAVASLTVGLIYTMINEHILKKK  94
+
+
+> UniRef90_H9J1H1 Uncharacterized protein n=1 Tax=Bombyx mori TaxID=7091 
+RepID=H9J1H1_BOMMO
+Length=94
+
+ Score = 76.6 bits (187),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 33/79 (42%), Positives = 50/79 (63%), Gaps = 0/79 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE Q  +L RK+K++PF+ +G+ G   +  YG Y  K RG    S+ L+ +RVAAQG VV
+Sbjct  12  EESQSERLARKSKDSPFMIIGLLGLVGVCGYGAYSYKKRGKMSTSVFLMQLRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYREFWAKP  91
+            A+T+G+ Y++ +E   K 
+Sbjct  72  SALTIGLAYTLAKEHLFKD  90
+
+
+> UniRef90_A0A1D2NEJ2 HIG1 domain family member 1A, mitochondrial 
+n=1 Tax=Orchesella cincta TaxID=48709 RepID=A0A1D2NEJ2_ORCCI
+Length=106
+
+ Score = 76.6 bits (187),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 47/94 (50%), Positives = 61/94 (65%), Gaps = 1/94 (1%)
+
+Query  1   MSTDTGVSLPS-YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           MS D      S Y+E Q SK I KAK  PFVP GI G  + + Y  YK ++RG+ K+S++
+Sbjct  1   MSDDKTFGFKSAYDEGQESKFIAKAKANPFVPAGIFGAVSALLYSAYKFRNRGDQKVSVY  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           LIH RVAAQG VV A+T+G+G  MYRE++    P
+Sbjct  61  LIHTRVAAQGAVVAALTIGVGIQMYREYFLGESP  94
+
+
+> UniRef90_A0A2R7VVY5 Uncharacterized protein n=1 Tax=Oncopeltus 
+fasciatus TaxID=7536 RepID=A0A2R7VVY5_ONCFA
+Length=84
+
+ Score = 75.9 bits (185),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 31/78 (40%), Positives = 51/78 (65%), Gaps = 0/78 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +  + + Q  KL +K  E PF+P+GI G     AYG Y+ K+RG    S++L+ +RV AQ
+Sbjct  1   MEDFSDSQTDKLSKKIVENPFMPIGIVGLVGACAYGAYQYKNRGKMSTSVYLMRLRVIAQ  60
+
+Query  69  GFVVGAMTVGMGYSMYRE  86
+            +VVGA+ +G+GY++ ++
+Sbjct  61  SYVVGALCIGVGYTLVKD  78
+
+
+> UniRef90_L5KSG5 HIG1 domain family member 1B n=1 Tax=Pteropus 
+alecto TaxID=9402 RepID=L5KSG5_PTEAL
+Length=81
+
+ Score = 75.9 bits (185),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 34/72 (47%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  20  LIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGM  79
+           L+ +A+ +  +  G+ G   + AY +Y+LKSRG+TKMSIHLIH RVAAQ   VGA+ +G 
+Sbjct  3   LVDEAQGSCSLTTGLGGCLVVAAYRIYRLKSRGSTKMSIHLIHTRVAAQACAVGAIMLGA  62
+
+Query  80  GYSMYREFWAKP  91
+            Y+MYR++  + 
+Sbjct  63  LYTMYRDYIKRT  74
+
+
+> UniRef90_A0A0K8TRA6 Putative conserved plasma membrane protein 
+n=1 Tax=Tabanus bromius TaxID=304241 RepID=A0A0K8TRA6_TABBR
+Length=94
+
+ Score = 75.5 bits (184),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 37/81 (46%), Positives = 52/81 (64%), Gaps = 1/81 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E    KL RKAKE+PF+ +G+AG       G YK K RG    S+ L+ +RV AQG VV
+Sbjct  11  DETSSGKLARKAKESPFMLIGLAGLIGACGVGAYKFKHRGQMSPSVFLMQLRVIAQGTVV  70
+
+Query  73  GAMTVGMGYSMYREF-WAKPK  92
+           G +TVG+  +M +E+ ++KPK
+Sbjct  71  GCLTVGLAVTMAKEYLFSKPK  91
+
+
+> UniRef90_A0A182RW80 Uncharacterized protein n=1 Tax=Anopheles 
+funestus TaxID=62324 RepID=A0A182RW80_ANOFN
+Length=67
+
+ Score = 74.7 bits (182),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 33/63 (52%), Positives = 45/63 (71%), Gaps = 0/63 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +PS++E    KL RKA+E+PF+P+GIAG  A+ A G YK K+RG    S+ L+ +RVAAQ
+Sbjct  5   VPSFDETHSDKLARKARESPFMPIGIAGLVAVCAIGAYKYKNRGGMSTSVFLMQLRVAAQ  64
+
+Query  69  GFV  71
+           G V
+Sbjct  65  GTV  67
+
+
+> UniRef90_A0A0B7BR50 Uncharacterized protein n=1 Tax=Arion vulgaris 
+TaxID=1028688 RepID=A0A0B7BR50_9EUPU
+Length=104
+
+ Score = 75.9 bits (185),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 39/92 (42%), Positives = 58/92 (63%), Gaps = 1/92 (1%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSR-GNTKMSIH  59
+           MS+D       Y E+ GSK +RK KE P VP+G+ GF A V YG+   K+R  N  +S++
+Sbjct  1   MSSDKKPVQFKYGEEAGSKTVRKMKENPMVPIGMFGFFAAVVYGIRNYKNRPKNMSLSMY  60
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREFWAKP  91
+           ++  RV AQ   VGAM +G+GY++ +E ++ P
+Sbjct  61  IMRFRVFAQSIAVGAMGIGIGYAILQEKFSTP  92
+
+
+> UniRef90_A0A2A4J5S6 Uncharacterized protein n=4 Tax=Noctuidae 
+TaxID=7100 RepID=A0A2A4J5S6_HELVI
+Length=103
+
+ Score = 75.9 bits (185),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 36/81 (44%), Positives = 50/81 (62%), Gaps = 0/81 (0%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           ++E Q  KL+RK KE+PF+ + IAG    V YG +  K+RG    S+ L+  RV AQG  
+Sbjct  11  HDETQSDKLMRKTKESPFMVLAIAGCLGAVGYGGWAYKNRGTMSTSVFLMQFRVIAQGTA  70
+
+Query  72  VGAMTVGMGYSMYREFWAKPK  92
+           VGA+  GM Y++Y   + KPK
+Sbjct  71  VGALCAGMVYTLYNNHFNKPK  91
+
+
+> UniRef90_A0A336MUQ4 CSON006458 protein n=2 Tax=Culicoides sonorensis 
+TaxID=179676 RepID=A0A336MUQ4_CULSO
+Length=262
+
+ Score = 79.3 bits (194),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 37/81 (46%), Positives = 51/81 (63%), Gaps = 1/81 (1%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            EE Q  K+ RKA+E+PF+ VG+ G A     G YK K+RG    S+ L+ +RVAAQG VV
+Sbjct  176  EESQADKISRKARESPFMVVGLVGLATACGIGAYKFKNRGTMSTSVFLMQLRVAAQGTVV  235
+
+Query  73   GAMTVGMGYSMYREF-WAKPK  92
+              +T G+ Y M  E+ + KP+
+Sbjct  236  ACLTAGIAYQMASEYLFNKPE  256
+
+
+> UniRef90_A0A0P5HV51 HIG1 domain family member 1A, mitochondrial 
+(Fragment) n=1 Tax=Daphnia magna TaxID=35525 RepID=A0A0P5HV51_9CRUS
+Length=128
+
+ Score = 75.9 bits (185),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 34/75 (45%), Positives = 51/75 (68%), Gaps = 0/75 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE Q  +L RK +EAP+VP+G+AG    V YGLY+ K+RG+   S++++  RV AQ  VV
+Sbjct  14  EESQAERLARKTREAPYVPIGLAGCLGAVLYGLYQYKNRGDMSTSVYVMKFRVVAQSAVV  73
+
+Query  73  GAMTVGMGYSMYREF  87
+             + +G+GYSM  ++
+Sbjct  74  LTLGLGVGYSMIDKY  88
+
+
+> UniRef90_A0A0P5KT71 HIG1 domain family member 1A, mitochondrial 
+n=1 Tax=Daphnia magna TaxID=35525 RepID=A0A0P5KT71_9CRUS
+Length=131
+
+ Score = 75.9 bits (185),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 34/75 (45%), Positives = 51/75 (68%), Gaps = 0/75 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE Q  +L RK +EAP+VP+G+AG    V YGLY+ K+RG+   S++++  RV AQ  VV
+Sbjct  14  EESQAERLARKTREAPYVPIGLAGCLGAVLYGLYQYKNRGDMSTSVYVMKFRVVAQSAVV  73
+
+Query  73  GAMTVGMGYSMYREF  87
+             + +G+GYSM  ++
+Sbjct  74  LTLGLGVGYSMIDKY  88
+
+
+> UniRef90_S4NSW2 HIG1 domain family member 1A n=1 Tax=Pararge 
+aegeria TaxID=116150 RepID=S4NSW2_9NEOP
+Length=94
+
+ Score = 73.9 bits (180),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 34/78 (44%), Positives = 49/78 (63%), Gaps = 0/78 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E Q  +  RK+K++PF+ +GI G   +  YG Y  KSRG    S+ L+ +RVAAQG VV
+Sbjct  12  DESQTERFARKSKDSPFMIIGILGLIGVCGYGAYAYKSRGKMSTSVFLMQLRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYREFWAK  90
+            A+TVG+ YS+ +    K
+Sbjct  72  AALTVGVAYSLSQRLLHK  89
+
+
+> UniRef90_A0A0P6B988 HIG1 domain family member 1A, mitochondrial 
+n=1 Tax=Daphnia magna TaxID=35525 RepID=A0A0P6B988_9CRUS
+Length=192
+
+ Score = 76.3 bits (186),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 34/75 (45%), Positives = 51/75 (68%), Gaps = 0/75 (0%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            EE Q  +L RK +EAP+VP+G+AG    V YGLY+ K+RG+   S++++  RV AQ  VV
+Sbjct  105  EESQAERLARKTREAPYVPIGLAGCLGAVLYGLYQYKNRGDMSTSVYVMKFRVVAQSAVV  164
+
+Query  73   GAMTVGMGYSMYREF  87
+              + +G+GYSM  ++
+Sbjct  165  LTLGLGVGYSMIDKY  179
+
+
+> UniRef90_A0A1B0AZE3 Uncharacterized protein n=3 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0AZE3_9MUSC
+Length=97
+
+ Score = 73.6 bits (179),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 40/87 (46%), Positives = 55/87 (63%), Gaps = 3/87 (3%)
+
+Query  7   VSLPSYEEDQG---SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHM  63
+           +S  SY E+ G   SKL +KAK++PF+ VG+AGF      G YK + RG    S+ L+ +
+Sbjct  1   MSSKSYFEEPGEDSSKLAKKAKDSPFMIVGMAGFVVAGLIGAYKYRHRGTMSTSVFLMQL  60
+
+Query  64  RVAAQGFVVGAMTVGMGYSMYREFWAK  90
+           RVAAQG VVG +T+G+ Y+M  E   K
+Sbjct  61  RVAAQGTVVGCLTIGLAYAMINEHVLK  87
+
+
+> UniRef90_A0A0P5LI62 HIG1 domain family member 1A, mitochondrial 
+n=2 Tax=Daphnia magna TaxID=35525 RepID=A0A0P5LI62_9CRUS
+Length=194
+
+ Score = 76.3 bits (186),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 34/75 (45%), Positives = 51/75 (68%), Gaps = 0/75 (0%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            EE Q  +L RK +EAP+VP+G+AG    V YGLY+ K+RG+   S++++  RV AQ  VV
+Sbjct  107  EESQAERLARKTREAPYVPIGLAGCLGAVLYGLYQYKNRGDMSTSVYVMKFRVVAQSAVV  166
+
+Query  73   GAMTVGMGYSMYREF  87
+              + +G+GYSM  ++
+Sbjct  167  LTLGLGVGYSMIDKY  181
+
+
+> UniRef90_E9H6U7 Uncharacterized protein n=1 Tax=Daphnia pulex 
+TaxID=6669 RepID=E9H6U7_DAPPU
+Length=101
+
+ Score = 72.8 bits (177),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 33/76 (43%), Positives = 49/76 (64%), Gaps = 0/76 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE Q  +  RKAKEAP+VP+G+AG    V YG Y+ +++G    S++L+  RV AQ  VV
+Sbjct  14  EESQSERFARKAKEAPYVPIGMAGCIGAVLYGAYQFRNKGEMSTSVYLMKFRVVAQSMVV  73
+
+Query  73  GAMTVGMGYSMYREFW  88
+             + +G+GYSM  ++ 
+Sbjct  74  VTLGLGVGYSMIDKYL  89
+
+
+> UniRef90_J9KX54 Uncharacterized protein n=5 Tax=Aphidinae TaxID=133076 
+RepID=J9KX54_ACYPI
+Length=84
+
+ Score = 71.6 bits (174),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 35/80 (44%), Positives = 53/80 (66%), Gaps = 3/80 (4%)
+
+Query  13  EEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+           EED    S+  +K+++ P  PVGI GF  + AYGLYK KSR   + S++LI +R+AAQG 
+Sbjct  2   EEDNSFSSRFTKKSQQMPLYPVGILGFGLVAAYGLYKFKSR-QGRTSLYLIQLRLAAQGT  60
+
+Query  71  VVGAMTVGMGYSMYREFWAK  90
+            VG + +G+ Y++Y +  +K
+Sbjct  61  AVGIIGIGVLYNIYTDITSK  80
+
+
+> UniRef90_N6TG59 Uncharacterized protein (Fragment) n=2 Tax=Dendroctonus 
+ponderosae TaxID=77166 RepID=N6TG59_DENPD
+Length=100
+
+ Score = 71.6 bits (174),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 31/80 (39%), Positives = 49/80 (61%), Gaps = 0/80 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE Q  +L RK KEAP  P+ I      + YG+Y  K++G    S++L+ +RV AQG  V
+Sbjct  17  EESQSDRLSRKTKEAPMFPIAIGVCLGAIGYGVYMYKNKGKMSTSVYLMQLRVGAQGAAV  76
+
+Query  73  GAMTVGMGYSMYREFWAKPK  92
+           GA+T+G+ Y+M++    + +
+Sbjct  77  GALTLGLAYTMWKNHLERQQ  96
+
+
+> UniRef90_A0A182MUH4 Uncharacterized protein n=1 Tax=Anopheles 
+culicifacies TaxID=139723 RepID=A0A182MUH4_9DIPT
+Length=90
+
+ Score = 70.5 bits (171),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 31/60 (52%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  9   LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+           +PS++E    KL RKA+E+PF+P+GIAG  A+ A G YK K RG    S+ L+ +RVAAQ
+Sbjct  5   IPSFDETHSDKLARKARESPFMPIGIAGLVAVCAIGAYKYKHRGGMSTSVFLMQLRVAAQ  64
+
+
+> UniRef90_A0A1J1J4G3 CLUMA_CG019626, isoform A n=1 Tax=Clunio 
+marinus TaxID=568069 RepID=A0A1J1J4G3_9DIPT
+Length=94
+
+ Score = 70.1 bits (170),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 34/75 (45%), Positives = 48/75 (64%), Gaps = 0/75 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE  GSKL RKAKE+PF+  G+ G    +    YK + RG+   S+ L+  RVAAQG VV
+Sbjct  12  EEAAGSKLKRKAKESPFMIAGLGGLVVALGIAAYKFRHRGSMPTSVFLMQTRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYREF  87
+            A+T+G+ Y M+ ++
+Sbjct  72  SALTIGVAYHMFNKW  86
+
+
+> UniRef90_A0A023FYF4 Putative conserved plasma membrane protein 
+n=1 Tax=Amblyomma parvum TaxID=251391 RepID=A0A023FYF4_9ACAR
+Length=99
+
+ Score = 69.7 bits (169),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 32/80 (40%), Positives = 49/80 (61%), Gaps = 0/80 (0%)
+
+Query  8   SLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAA  67
+            +P  EE    K  RKAKE+PF+ +G++G  A  AYG +  +  G    S+ L+ +RV A
+Sbjct  10  DIPYKEESSTEKFKRKAKESPFMIIGLSGCIAACAYGAFLFRRHGRANPSLFLMQLRVTA  69
+
+Query  68  QGFVVGAMTVGMGYSMYREF  87
+           QG V+G +T+G+ YS+ + F
+Sbjct  70  QGTVIGCLTLGVIYSLSQRF  89
+
+
+> UniRef90_A0A131XCE3 Putative induced by hypoxia n=1 Tax=Hyalomma 
+excavatum TaxID=257692 RepID=A0A131XCE3_9ACAR
+Length=101
+
+ Score = 69.3 bits (168),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 31/84 (37%), Positives = 50/84 (60%), Gaps = 0/84 (0%)
+
+Query  7   VSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVA  66
+           V  P  EE    K  RKA+E+PF+ +G++G   I AYG +  + R     S+ L+ +RV 
+Sbjct  8   VDSPYKEETATEKFKRKARESPFMVIGLSGCVFICAYGAFLFRRRRKIDPSLFLMQLRVT  67
+
+Query  67  AQGFVVGAMTVGMGYSMYREFWAK  90
+           AQG V+G + VG+ Y++++ F  +
+Sbjct  68  AQGTVIGCLMVGVTYNLFQRFLNR  91
+
+
+> UniRef90_T1G581 Uncharacterized protein n=1 Tax=Helobdella robusta 
+TaxID=6412 RepID=T1G581_HELRO
+Length=86
+
+ Score = 68.2 bits (165),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  20  LIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGM  79
+            ++KAK+ PFVP+GI G   +V Y +   K RGN  +S++++  RV AQ  +VGAMT+G+
+Sbjct  11  FMQKAKDEPFVPLGILGTLGMVGYAVSHYKQRGNMSLSVYVMQYRVIAQSVIVGAMTLGV  70
+
+Query  80  GYSMYREF  87
+           GY M + +
+Sbjct  71  GYHMMKNY  78
+
+
+> UniRef90_A0A293N5B7 Uncharacterized protein (Fragment) n=1 Tax=Ornithodoros 
+erraticus TaxID=265619 RepID=A0A293N5B7_ORNER
+Length=110
+
+ Score = 68.9 bits (167),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 32/77 (42%), Positives = 48/77 (62%), Gaps = 0/77 (0%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    K  RK KE+PF+ VG+ G    VAYG +  + R     SI+L+ +RVA+QG VVG
+Sbjct  22  ETSTDKFKRKFKESPFMVVGLGGCVCAVAYGAFMYRRRKFVSTSIYLMQLRVASQGTVVG  81
+
+Query  74  AMTVGMGYSMYREFWAK  90
+            +T+GM Y++Y+ +  +
+Sbjct  82  CLTIGMFYNLYQHYQRR  98
+
+
+> UniRef90_A0A023FQR4 Putative conserved plasma membrane protein 
+n=2 Tax=Amblyomma TaxID=6942 RepID=A0A023FQR4_9ACAR
+Length=109
+
+ Score = 68.6 bits (166),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 49/81 (60%), Gaps = 0/81 (0%)
+
+Query  7   VSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVA  66
+           + +P  EE    K  RKAKE+PF+ +G++G  A  AYG +  +  G    S+ L+ +RV 
+Sbjct  19  LDMPYREETATEKFKRKAKESPFMIIGLSGCIAACAYGAFLFRRHGRANPSLFLMKLRVT  78
+
+Query  67  AQGFVVGAMTVGMGYSMYREF  87
+           AQG V+G + VG+ YS+ + F
+Sbjct  79  AQGTVIGCLMVGVMYSLSQRF  99
+
+
+> UniRef90_A0A194R7I3 HIG1 domain family member 1C n=3 Tax=Papilio 
+TaxID=7145 RepID=A0A194R7I3_PAPMA
+Length=94
+
+ Score = 66.2 bits (160),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 32/78 (41%), Positives = 51/78 (65%), Gaps = 0/78 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E    KL RK+K++PF+ +GI G   +  +G YK K+RG    S+ L+ +RVAAQG VV
+Sbjct  12  DESHADKLARKSKDSPFMIIGIIGLIGVCGFGAYKFKTRGQMSTSVFLMQLRVAAQGTVV  71
+
+Query  73  GAMTVGMGYSMYREFWAK  90
+            A+T+G+ Y++ ++   K
+Sbjct  72  SALTLGLAYTLAKKHLFK  89
+
+
+> UniRef90_A0A2R5L4V9 Putative induced by hypoxia n=1 Tax=Ornithodoros 
+turicata TaxID=34597 RepID=A0A2R5L4V9_9ACAR
+Length=110
+
+ Score = 66.2 bits (160),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 34/91 (37%), Positives = 53/91 (58%), Gaps = 1/91 (1%)
+
+Query  1   MSTDTGVSLPSY-EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIH  59
+           M+T +     +Y  E   SK  RK +E+PF+  G+ G    VAYG +  + R     SI+
+Sbjct  8   MATQSAFDPETYVPETSMSKFKRKFQESPFMVFGLGGCICAVAYGAFMYRRRKFVSTSIY  67
+
+Query  60  LIHMRVAAQGFVVGAMTVGMGYSMYREFWAK  90
+           ++ +RVAAQG VVG +T+GM Y++Y  +  +
+Sbjct  68  MMQLRVAAQGTVVGCLTIGMVYNLYHHYQRR  98
+
+
+> UniRef90_E0VI99 Uncharacterized protein n=1 Tax=Pediculus humanus 
+subsp. corporis TaxID=121224 RepID=E0VI99_PEDHC
+Length=98
+
+ Score = 65.9 bits (159),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 52/89 (58%), Gaps = 3/89 (3%)
+
+Query  2   STDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLI  61
+           + D G  +  Y E        K  + P VP+G  G   +V+Y LY  K+RG+T+ S++LI
+Sbjct  8   NEDVGYDVSQYHE---RTFWEKVSQEPAVPIGFCGLTGVVSYFLYNYKNRGDTRTSLYLI  64
+
+Query  62  HMRVAAQGFVVGAMTVGMGYSMYREFWAK  90
+           +MR+ AQG ++  + V + YS+ ++ ++K
+Sbjct  65  NMRLIAQGTLLSTLAVALVYSLSQKDYSK  93
+
+
+> UniRef90_A0A131YM16 Hypoxia-inducbile protein n=4 Tax=Rhipicephalus 
+TaxID=426455 RepID=A0A131YM16_RHIAP
+Length=111
+
+ Score = 65.9 bits (159),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 51/89 (57%), Gaps = 0/89 (0%)
+
+Query  2    STDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLI  61
+            ST   V  P  EE    KL RKA+E+PF+ +G+ G   +  YG +  + R     S+ L+
+Sbjct  13   STLATVESPYKEETATEKLKRKARESPFMIIGLTGCVFVCTYGAFLFRRRKKLDPSLFLM  72
+
+Query  62   HMRVAAQGFVVGAMTVGMGYSMYREFWAK  90
+             +RV+AQG V+G + +G+ Y++++    +
+Sbjct  73   QLRVSAQGTVIGCLMLGVTYNLFQRVLNR  101
+
+
+> UniRef90_R7TVT3 Uncharacterized protein n=1 Tax=Capitella teleta 
+TaxID=283909 RepID=R7TVT3_CAPTE
+Length=99
+
+ Score = 65.1 bits (157),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 27/70 (39%), Positives = 45/70 (64%), Gaps = 0/70 (0%)
+
+Query  20  LIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGM  79
+            + K  + PFVP+GI G   ++ YG    K+RG+   S++L+H+RV AQ  VVGAM +G+
+Sbjct  18  FMDKCLDQPFVPLGILGTLGMLGYGAVNFKNRGSMSTSVYLMHLRVKAQSMVVGAMALGV  77
+
+Query  80  GYSMYREFWA  89
+            Y++ ++ + 
+Sbjct  78  SYALLKDHFT  87
+
+
+> UniRef90_A7RP71 Predicted protein (Fragment) n=1 Tax=Nematostella 
+vectensis TaxID=45351 RepID=A7RP71_NEMVE
+Length=85
+
+ Score = 64.7 bits (156),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 46/73 (63%), Gaps = 0/73 (0%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            E +  KLIRK+K  PF+P+GI G  A + +G+   + RG    S +++ +RV AQ  VV
+Sbjct  2   RETETEKLIRKSKAQPFIPIGILGTTAAIVWGVIAYRHRGPMSTSRYIMRLRVIAQSCVV  61
+
+Query  73  GAMTVGMGYSMYR  85
+           G++ VGMG + Y+
+Sbjct  62  GSIMVGMGITAYQ  74
+
+
+> UniRef90_A0A087TAK9 Uncharacterized protein (Fragment) n=1 Tax=Stegodyphus 
+mimosarum TaxID=407821 RepID=A0A087TAK9_9ARAC
+Length=100
+
+ Score = 64.3 bits (155),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 29/77 (38%), Positives = 47/77 (61%), Gaps = 0/77 (0%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    KL RK+K+ P + +G+ G   +  YG+YK + RG    S +L+ +RV AQG V+G
+Sbjct  21  ESSVQKLARKSKDNPLMVIGLTGCFLVATYGIYKFRQRGKLSASNYLMQLRVMAQGTVIG  80
+
+Query  74  AMTVGMGYSMYREFWAK  90
+            +T+G+  S+Y +  +K
+Sbjct  81  CLTLGIVKSIYDKVASK  97
+
+
+> UniRef90_B7Q7J4 Hypoxia-inducbile protein, putative n=4 Tax=Ixodes 
+TaxID=6944 RepID=B7Q7J4_IXOSC
+Length=108
+
+ Score = 63.9 bits (154),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 47/76 (62%), Gaps = 0/76 (0%)
+
+Query  18   SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTV  77
+            SKL RK KE+PF+  G+ G     AYG Y  + R     S++++ +RVAAQG VVG +T+
+Sbjct  26   SKLKRKYKESPFMVFGLTGCLCACAYGAYMYRRRKFFDTSVYMMQLRVAAQGTVVGFLTL  85
+
+Query  78   GMGYSMYREFWAKPKP  93
+            G+ YS+ + +  + + 
+Sbjct  86   GVSYSLVQRYLHRNQD  101
+
+
+> UniRef90_A0A2J7QCI7 HIG1 domain family member 2A, mitochondrial 
+n=1 Tax=Cryptotermes secundus TaxID=105785 RepID=A0A2J7QCI7_9NEOP
+Length=102
+
+ Score = 63.5 bits (153),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 47/73 (64%), Gaps = 1/73 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E    K +RK KE PFVP+G     + ++YGL+  + +G  +MS +++ +R+AAQGF V
+Sbjct  28  DESTQDKFLRKVKENPFVPIGCLATFSALSYGLWSFR-QGRRQMSQYMMRVRIAAQGFTV  86
+
+Query  73  GAMTVGMGYSMYR  85
+            A+ VG+G S  R
+Sbjct  87  VALIVGIGISATR  99
+
+
+> UniRef90_A0A0P5A480 HIG1 domain family member 1A, mitochondrial 
+n=1 Tax=Daphnia magna TaxID=35525 RepID=A0A0P5A480_9CRUS
+Length=182
+
+ Score = 65.5 bits (158),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 45/65 (69%), Gaps = 0/65 (0%)
+
+Query  23   KAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYS  82
+            K +EAP+VP+G+AG    V YGLY+ K+RG+   S++++  RV AQ  VV  + +G+GYS
+Sbjct  105  KPREAPYVPIGLAGCLGAVLYGLYQYKNRGDMSTSVYVMKFRVVAQSAVVLTLGLGVGYS  164
+
+Query  83   MYREF  87
+            M  ++
+Sbjct  165  MIDKY  169
+
+
+> UniRef90_A0A3M7SY01 HIG1 domain family member mitochondrial n=1 
+Tax=Brachionus plicatilis TaxID=10195 RepID=A0A3M7SY01_BRAPC
+Length=104
+
+ Score = 63.5 bits (153),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 48/73 (66%), Gaps = 1/73 (1%)
+
+Query  22  RKAKEAPFVPVGIAGFAAIVAYGLYKLKSR-GNTKMSIHLIHMRVAAQGFVVGAMTVGMG  80
+            K K+ P   +G+AGF  +V Y LY  +++  +TK S+++I  RVAAQG V+G +TV +G
+Sbjct  11  EKFKKDPVPAIGMAGFFGVVGYSLYNYRNKSASTKPSVYVIQTRVAAQGLVIGILTVSLG  70
+
+Query  81  YSMYREFWAKPKP  93
+           + MY+ +  + +P
+Sbjct  71  FHMYQNYLHRNEP  83
+
+
+> UniRef90_A0A0P5A484 HIG1 domain family member 1A, mitochondrial 
+n=1 Tax=Daphnia magna TaxID=35525 RepID=A0A0P5A484_9CRUS
+Length=152
+
+ Score = 64.7 bits (156),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 45/65 (69%), Gaps = 0/65 (0%)
+
+Query  23   KAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYS  82
+            K +EAP+VP+G+AG    V YGLY+ K+RG+   S++++  RV AQ  VV  + +G+GYS
+Sbjct  75   KPREAPYVPIGLAGCLGAVLYGLYQYKNRGDMSTSVYVMKFRVVAQSAVVLTLGLGVGYS  134
+
+Query  83   MYREF  87
+            M  ++
+Sbjct  135  MIDKY  139
+
+
+> UniRef90_A0A3P4LTQ5 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4LTQ5_GULGU
+Length=81
+
+ Score = 62.4 bits (150),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 27/38 (71%), Positives = 32/38 (84%), Gaps = 0/38 (0%)
+
+Query  56  MSIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           MS+HLIHM VAAQ FV+GA+T+ MG SM +EFW KPKP
+Sbjct  1   MSVHLIHMHVAAQNFVMGAVTLVMGCSMCKEFWTKPKP  38
+
+
+> UniRef90_G3MTK2 Uncharacterized protein n=3 Tax=Amblyomma TaxID=6942 
+RepID=G3MTK2_9ACAR
+Length=109
+
+ Score = 62.8 bits (151),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 30/78 (38%), Positives = 45/78 (58%), Gaps = 0/78 (0%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P  EE    K  RKAKE+PF+ +G++G      YG +  K       S+ L+ +RV AQG
+Sbjct  22  PYKEETATDKFKRKAKESPFMIIGLSGCIIACTYGAFLFKRHKQINPSLFLMKLRVTAQG  81
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+            V+G +TVG+ Y++ + F
+Sbjct  82  TVIGCLTVGVIYNLAQRF  99
+
+
+> UniRef90_A0A2T7P8H6 Uncharacterized protein n=1 Tax=Pomacea canaliculata 
+TaxID=400727 RepID=A0A2T7P8H6_POMCA
+Length=109
+
+ Score = 62.4 bits (150),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE    KL+RK KE PFVP+G+      ++YGL+++K+ GN +MS +++ +R+  QGF V
+Sbjct  33  EEGVKEKLLRKTKENPFVPIGVLVTTFALSYGLWQMKT-GNKRMSQNMMRLRIVGQGFTV  91
+
+Query  73  GAMTVGMGY  81
+            A+  G+ Y
+Sbjct  92  MAVLAGVAY  100
+
+
+> UniRef90_A0A1Y3BBQ3 HIG1 domain family member 1C-like protein 
+n=1 Tax=Euroglyphus maynei TaxID=6958 RepID=A0A1Y3BBQ3_EURMA
+Length=119
+
+ Score = 62.4 bits (150),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 29/78 (37%), Positives = 49/78 (63%), Gaps = 1/78 (1%)
+
+Query  12  YEED-QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+           +E++ + ++ ++K K  P +P+  AGF  I  Y +YK + RG  K+S  LIH R+AAQGF
+Sbjct  22  FEDNPEENRFMKKLKSGPMLPIATAGFLGIAGYRVYKARERGGMKLSFFLIHTRLAAQGF  81
+
+Query  71  VVGAMTVGMGYSMYREFW  88
+            V A+   + +S+ + F+
+Sbjct  82  AVAALGSIVLWSLGKRFY  99
+
+
+> UniRef90_A0A1I8MPR8 Uncharacterized protein n=3 Tax=Muscinae 
+TaxID=43910 RepID=A0A1I8MPR8_MUSDO
+Length=104
+
+ Score = 62.0 bits (149),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 29/70 (41%), Positives = 42/70 (60%), Gaps = 1/70 (1%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P + E    K++RK KE P VP+G    A  + YGLY  ++ GN +MS  ++  R+AAQG
+Sbjct  27  PVFPESTKEKMMRKIKENPLVPIGCIATACALGYGLYNFRT-GNRRMSQMMMRARIAAQG  85
+
+Query  70  FVVGAMTVGM  79
+           F V A+  G+
+Sbjct  86  FTVVALITGV  95
+
+
+> UniRef90_A0A154NXF0 HIG1 domain family member 1C n=2 Tax=Dufourea 
+novaeangliae TaxID=178035 RepID=A0A154NXF0_9HYME
+Length=79
+
+ Score = 60.8 bits (146),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 1/68 (1%)
+
+Query  20  LIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGM  79
+           L  KAK++PF+  G+ GF A+   G YK ++R    +S+ LI +RVAAQG VVG +T+GM
+Sbjct  5   LYAKAKKSPFLVAGMVGFVAVGGIGAYKWRTR-TIPVSLFLIQLRVAAQGTVVGCLTIGM  63
+
+Query  80  GYSMYREF  87
+            + MY+ +
+Sbjct  64  LHQMYKGY  71
+
+
+> UniRef90_D6WZM3 HIG1 domain family member 2A, mitochondrial-like 
+Protein n=1 Tax=Tribolium castaneum TaxID=7070 RepID=D6WZM3_TRICA
+Length=103
+
+ Score = 61.6 bits (148),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/73 (37%), Positives = 44/73 (60%), Gaps = 1/73 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E +  KL+RK KE P +P+G       + YGL+  ++ GN KMS +++  R+ AQGF V
+Sbjct  26  DETRKEKLLRKIKENPMIPIGCLATTCALCYGLWSFRT-GNRKMSQYMMRTRIVAQGFTV  84
+
+Query  73  GAMTVGMGYSMYR  85
+            A+  G+G  + +
+Sbjct  85  VALLAGIGTGLSK  97
+
+
+> UniRef90_A0A1E1WYF1 Putative conserved plasma membrane protein 
+n=1 Tax=Amblyomma aureolatum TaxID=187763 RepID=A0A1E1WYF1_9ACAR
+Length=109
+
+ Score = 61.6 bits (148),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 30/86 (35%), Positives = 48/86 (56%), Gaps = 0/86 (0%)
+
+Query  2   STDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLI  61
+           S  T + +P  EE    K  RKAKE+PF+ +G++G      YG    +  G    S+ L+
+Sbjct  14  SEPTRLGMPYGEETATEKFKRKAKESPFMIIGLSGCIFACTYGALLFRKHGKANPSLFLM  73
+
+Query  62  HMRVAAQGFVVGAMTVGMGYSMYREF  87
+            +RV AQG V+G + +G+ Y++ + F
+Sbjct  74  QLRVTAQGTVIGCLMLGVTYNLAQRF  99
+
+
+> UniRef90_M3YM96 Uncharacterized protein n=9 Tax=Caniformia TaxID=379584 
+RepID=M3YM96_MUSPF
+Length=106
+
+ Score = 61.2 bits (147),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 31/73 (42%), Positives = 43/73 (59%), Gaps = 1/73 (1%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            +E    K IRK +E P VP+G  G AA + YGLY    RG ++ S  ++  R+AAQGF V
+Sbjct  32   QESFKEKFIRKTRENPMVPIGCLGTAAALTYGLYCFH-RGQSRRSQLMMRTRIAAQGFTV  90
+
+Query  73   GAMTVGMGYSMYR  85
+             A+ +G+  S  R
+Sbjct  91   AAILLGLAASAMR  103
+
+
+> UniRef90_A0A132AHD9 HIG1 domain family member 1C-like protein 
+n=1 Tax=Sarcoptes scabiei TaxID=52283 RepID=A0A132AHD9_SARSC
+Length=120
+
+ Score = 61.6 bits (148),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 29/84 (35%), Positives = 51/84 (61%), Gaps = 4/84 (5%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF--  70
+            E D+ +++ +K K++P +P+   GF  I  Y +YK + RG+  +S  LIH R+AAQGF  
+Sbjct  18   ESDEENRVWKKIKQSPVLPLATIGFLGIAGYRIYKFRERGSMPLSFFLIHTRLAAQGFGV  77
+
+Query  71   -VVGAMTV-GMGYSMYREFWAKPK  92
+             V+G++ +  +G  +Y  F++   
+Sbjct  78   AVLGSLVLYQLGERVYNAFFSNDN  101
+
+
+> UniRef90_A0A0L0BNR6 Uncharacterized protein n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0BNR6_LUCCU
+Length=100
+
+ Score = 60.8 bits (146),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 41/69 (59%), Gaps = 1/69 (1%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P + E    K++RK KE P VP+G    A+ + +GLY  ++ GN KMS  ++  R+ AQG
+Sbjct  24  PVFPESTKEKMMRKIKENPLVPIGCLATASALGFGLYNFRT-GNRKMSQMMMRARILAQG  82
+
+Query  70  FVVGAMTVG  78
+           F V A+  G
+Sbjct  83  FTVAALVTG  91
+
+
+> UniRef90_A0A1B0APJ2 Uncharacterized protein n=5 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0APJ2_9MUSC
+Length=102
+
+ Score = 60.8 bits (146),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 30/79 (38%), Positives = 47/79 (59%), Gaps = 4/79 (5%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           +  +TG + P   E    K++RK KE P VP+G    A+ + +GLY  ++ GN +MS  +
+Sbjct  20  LREETGSAFP---ETTKEKMMRKIKENPLVPIGCLATASALGFGLYNFRT-GNRRMSQMM  75
+
+Query  61  IHMRVAAQGFVVGAMTVGM  79
+           +  R+ AQGF V A+ VG+
+Sbjct  76  MRARIIAQGFTVAALVVGV  94
+
+
+> UniRef90_A0A2P8Y9G4 HIG1 domain family member 2A n=1 Tax=Blattella 
+germanica TaxID=6973 RepID=A0A2P8Y9G4_BLAGE
+Length=103
+
+ Score = 60.5 bits (145),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 30/72 (42%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  14   EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+            E    K IRK K+ PFVP+G       +AYGL+  + +G  +MS +++ +R+AAQGF V 
+Sbjct  32   ETTQDKFIRKFKDNPFVPLGCLATFGALAYGLWSFR-KGRRQMSQYMMRLRIAAQGFTVV  90
+
+Query  74   AMTVGMGYSMYR  85
+            A+  G+G S  R
+Sbjct  91   ALIAGIGISATR  102
+
+
+> UniRef90_W4XX80 Uncharacterized protein n=1 Tax=Strongylocentrotus 
+purpuratus TaxID=7668 RepID=W4XX80_STRPU
+Length=117
+
+ Score = 60.8 bits (146),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 44/71 (62%), Gaps = 1/71 (1%)
+
+Query  9    LPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQ  68
+            +P+ +E    KLI+K K+ PFVP+G    A  + YGL   K RGNT  S  ++  RVAAQ
+Sbjct  34   VPAQQEGFREKLIKKLKQNPFVPIGCLATAGALTYGLVMFK-RGNTARSQTMMRARVAAQ  92
+
+Query  69   GFVVGAMTVGM  79
+            GF + A+ VG+
+Sbjct  93   GFTIAAILVGV  103
+
+
+> UniRef90_A0A1Y1JYK0 Uncharacterized protein n=1 Tax=Photinus 
+pyralis TaxID=7054 RepID=A0A1Y1JYK0_PHOPY
+Length=102
+
+ Score = 60.5 bits (145),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E   +K+ RK KE P VP+G     A + YGL+  K +G  +MS  ++ MR+AAQGF + 
+Sbjct  28  ETMQAKMKRKMKENPLVPIGCLATVAALCYGLWSFK-QGRPQMSQKMMRMRIAAQGFTIV  86
+
+Query  74  AMTVGMGYS  82
+           A  VG+G +
+Sbjct  87  AFIVGLGLT  95
+
+
+> UniRef90_A0A2Y9DC87 HIG1 domain family member 2A, mitochondrial 
+n=1 Tax=Trichechus manatus latirostris TaxID=127582 RepID=A0A2Y9DC87_TRIMA
+Length=106
+
+ Score = 60.1 bits (144),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 31/72 (43%), Positives = 42/72 (58%), Gaps = 1/72 (1%)
+
+Query  11  SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+           S  E    K +RK +E P VP+G  G AA + YGLY    RG ++ S  ++  R+AAQGF
+Sbjct  30  SNSESFKEKFLRKTRENPMVPIGCLGTAAALGYGLYCFH-RGQSRRSQLMMRTRIAAQGF  88
+
+Query  71  VVGAMTVGMGYS  82
+            V A+ VG+  S
+Sbjct  89  TVAAILVGLAVS  100
+
+
+> UniRef90_Q05AT5 HIG1 domain family, member 2A n=10 Tax=Cetartiodactyla 
+TaxID=91561 RepID=Q05AT5_BOVIN
+Length=106
+
+ Score = 60.1 bits (144),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query  11   SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+            S  E    K IRK +E P VP+G  G AA + YGLY    RG ++ S  ++  R+AAQGF
+Sbjct  30   STSESFKEKFIRKTRENPLVPIGCLGTAAALTYGLYCFH-RGQSQRSQLMMRTRIAAQGF  88
+
+Query  71   VVGAMTVGMGYSMYR  85
+             + A+ VG+  S  +
+Sbjct  89   TIVAILVGLAASTLK  103
+
+
+> UniRef90_A0A2B4SGA8 HIG1 domain family member 1C n=2 Tax=Pocilloporidae 
+TaxID=46729 RepID=A0A2B4SGA8_STYPI
+Length=104
+
+ Score = 60.1 bits (144),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 29/75 (39%), Positives = 47/75 (63%), Gaps = 1/75 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRG-NTKMSIHLIHMRVAAQGFV  71
+           +E +  +L+RK+K+ PF+P+GIAG  A   +G    K+RG     S +L+ +RV AQ  V
+Sbjct  19  KETETDRLVRKSKQQPFIPIGIAGTVAACVWGAIAYKNRGPAMTTSRYLMRLRVIAQSCV  78
+
+Query  72  VGAMTVGMGYSMYRE  86
+           VG++  G+G +  +E
+Sbjct  79  VGSIIAGIGVTALQE  93
+
+
+> UniRef90_A0A067QT97 HIG1 domain family member 2A n=1 Tax=Zootermopsis 
+nevadensis TaxID=136037 RepID=A0A067QT97_ZOONE
+Length=105
+
+ Score = 60.1 bits (144),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  18   SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTV  77
+             KL+RK KE P VP+G       ++YGL+  + +G  +MS +++ +R+AAQGF + AM V
+Sbjct  36   DKLLRKVKENPLVPIGCLATFGALSYGLWSFR-KGRHQMSQYMMRLRIAAQGFTIVAMMV  94
+
+Query  78   GMGYSMYR  85
+            G+  S  R
+Sbjct  95   GIAASATR  102
+
+
+> UniRef90_A0A026WN42 HIG1 domain family member 2A n=1 Tax=Ooceraea 
+biroi TaxID=2015173 RepID=A0A026WN42_OOCBI
+Length=97
+
+ Score = 59.7 bits (143),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 28/57 (49%), Positives = 37/57 (65%), Gaps = 1/57 (2%)
+
+Query  22  RKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVG  78
+           RK++E PFVP+G  G AA + YGLY    RGN +M  +++  RVAAQ F + AM  G
+Sbjct  33  RKSRENPFVPIGCIGTAAALTYGLYNF-YRGNRQMQQYMMRTRVAAQAFTIFAMVAG  88
+
+
+> UniRef90_A0A1B6IKV4 Uncharacterized protein (Fragment) n=1 Tax=Homalodisca 
+liturata TaxID=320908 RepID=A0A1B6IKV4_9HEMI
+Length=106
+
+ Score = 59.7 bits (143),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/83 (40%), Positives = 52/83 (63%), Gaps = 3/83 (4%)
+
+Query  7   VSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKM--SIHLIHMR  64
+           +++ + +E    KL RK KE P V VG+AG  A+ A G  + + RG   +  S++L+ +R
+Sbjct  12  INMLNQQESLAEKLTRKLKEDPAVGVGMAGLVAVCAVGGNRYR-RGAFSIPSSLYLLQLR  70
+
+Query  65  VAAQGFVVGAMTVGMGYSMYREF  87
+           V AQG VVG++  G+ Y+MY+ F
+Sbjct  71  VLAQGAVVGSLAGGIAYTMYQHF  93
+
+
+> UniRef90_V5HDG4 Putative induced by hypoxia (Fragment) n=1 Tax=Ixodes 
+ricinus TaxID=34613 RepID=V5HDG4_IXORI
+Length=85
+
+ Score = 58.9 bits (141),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 30/77 (39%), Positives = 46/77 (60%), Gaps = 1/77 (1%)
+
+Query  18  SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG-AMT  76
+           SKL RK KE+PF+  G+ G     AYG Y  + R     S++++ +RVAAQG VVG   T
+Sbjct  2   SKLKRKYKESPFMVFGLTGCLCACAYGAYMYRRRKFFDTSVYMMQLRVAAQGTVVGXXXT  61
+
+Query  77  VGMGYSMYREFWAKPKP  93
+           +G+ YS+ + +  + + 
+Sbjct  62  LGVSYSLVQRYLHRNQD  78
+
+
+> UniRef90_A0A1S3CVH5 HIG1 domain family member 2A, mitochondrial 
+isoform X1 n=1 Tax=Diaphorina citri TaxID=121845 RepID=A0A1S3CVH5_DIACI
+Length=104
+
+ Score = 59.3 bits (142),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 31/73 (42%), Positives = 45/73 (62%), Gaps = 1/73 (1%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            +E    KLIRK KE P VP+G    +A +  GLY +K  G+ ++S  ++  RV AQGF V
+Sbjct  32   QETGTEKLIRKFKENPLVPIGCVATSAALGVGLYSMK-LGDRRLSQMMMRTRVVAQGFTV  90
+
+Query  73   GAMTVGMGYSMYR  85
+             A+T G+ Y+ Y+
+Sbjct  91   LALTGGLIYTAYQ  103
+
+
+> UniRef90_A7S0L4 Predicted protein n=1 Tax=Nematostella vectensis 
+TaxID=45351 RepID=A7S0L4_NEMVE
+Length=99
+
+ Score = 58.9 bits (141),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/86 (38%), Positives = 47/86 (55%), Gaps = 3/86 (3%)
+
+Query  7   VSLPSYEEDQGSK--LIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMR  64
+           V +P    D+ +K    RK KE PFVP+G    A  + YGL   K RGN K+   ++  R
+Sbjct  14  VYIPDNTRDETTKEKFARKVKENPFVPIGCFATAGALVYGLLSFK-RGNQKVQQQMMRAR  72
+
+Query  65  VAAQGFVVGAMTVGMGYSMYREFWAK  90
+           V AQG  + A+  G+GY+M ++   K
+Sbjct  73  VLAQGSTLIAVIGGLGYTMLKDHANK  98
+
+
+> UniRef90_H0WH99 Uncharacterized protein n=2 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0WH99_OTOGA
+Length=105
+
+ Score = 58.9 bits (141),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 30/72 (42%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  11  SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+           S  E+   K +RK +E P VP+G  G AA + YGLY    RG+++ S  ++  R+AAQGF
+Sbjct  30  SNTENFKEKFLRKTRENPVVPIGCLGTAAALTYGLYCFH-RGHSQRSQLMMRTRIAAQGF  88
+
+Query  71  VVGAMTVGMGYS  82
+            V A+ +G+  S
+Sbjct  89  TVTAILLGLAAS  100
+
+
+> UniRef90_M3W7A4 Uncharacterized protein n=18 Tax=Boreoeutheria 
+TaxID=1437010 RepID=M3W7A4_FELCA
+Length=106
+
+ Score = 58.9 bits (141),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 42/75 (56%), Gaps = 1/75 (1%)
+
+Query  11   SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+            S  E    K +RK +E P VP+G  G AA + YGLY    RG +  S  ++  R+AAQGF
+Sbjct  30   STPESFKEKFLRKTRENPMVPIGCLGTAAALTYGLYCFH-RGQSHRSQLMMRTRIAAQGF  88
+
+Query  71   VVGAMTVGMGYSMYR  85
+             V A+ +G+  S  R
+Sbjct  89   TVAAILLGLAASAMR  103
+
+
+> UniRef90_K7J0N7 Uncharacterized protein n=1 Tax=Nasonia vitripennis 
+TaxID=7425 RepID=K7J0N7_NASVI
+Length=104
+
+ Score = 58.9 bits (141),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 32/84 (38%), Positives = 50/84 (60%), Gaps = 2/84 (2%)
+
+Query  11  SYEEDQ-GSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGN-TKMSIHLIHMRVAAQ  68
+           +YEE++ GS ++R+ +E P V  GI G    + YG  + K++G     S+ L+ +RV AQ
+Sbjct  16  TYEEERFGSGIVRQIQEKPVVMTGIVGMIGALGYGYNRYKTKGFLVSPSLFLMQLRVGAQ  75
+
+Query  69  GFVVGAMTVGMGYSMYREFWAKPK  92
+             VVG +T GM Y+M ++   K K
+Sbjct  76  AMVVGCITCGMVYNMVQQHLLKKK  99
+
+
+> UniRef90_A0A1A9W628 Uncharacterized protein n=1 Tax=Glossina 
+brevipalpis TaxID=37001 RepID=A0A1A9W628_9MUSC
+Length=102
+
+ Score = 58.9 bits (141),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 29/79 (37%), Positives = 46/79 (58%), Gaps = 4/79 (5%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           +  +TG + P   E    +++RK KE P VP+G    A+ + +GLY  ++ GN KMS  +
+Sbjct  20  LREETGSAFP---ETTKERMMRKIKENPLVPIGCLATASALGFGLYNFRT-GNRKMSQMM  75
+
+Query  61  IHMRVAAQGFVVGAMTVGM  79
+           +  R+ AQGF V A+  G+
+Sbjct  76  MRARIIAQGFTVAALIAGV  94
+
+
+> UniRef90_A0A3M7Q2I2 HIG1 domain family member 1C n=1 Tax=Brachionus 
+plicatilis TaxID=10195 RepID=A0A3M7Q2I2_BRAPC
+Length=109
+
+ Score = 58.9 bits (141),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 31/78 (40%), Positives = 49/78 (63%), Gaps = 2/78 (3%)
+
+Query  12  YEEDQ-GSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRG-NTKMSIHLIHMRVAAQG  69
+           +E+++  ++L  K K+ P   +GIAG   +V Y L+    R  + K S+++I  RV AQG
+Sbjct  5   FEDNKPRNRLWDKIKKDPTPVIGIAGLVGVVGYSLFHFTKRDKDLKPSVYVIQTRVFAQG  64
+
+Query  70  FVVGAMTVGMGYSMYREF  87
+            VVGA+T+G+ Y MY+ F
+Sbjct  65  MVVGALTLGLIYHMYQTF  82
+
+
+> UniRef90_C3YL34 Uncharacterized protein n=1 Tax=Branchiostoma 
+floridae TaxID=7739 RepID=C3YL34_BRAFL
+Length=106
+
+ Score = 58.9 bits (141),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 48/86 (56%), Gaps = 2/86 (2%)
+
+Query  7    VSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGL--YKLKSRGNTKMSIHLIHMR  64
+             S  + + +  SKL  K+ + P VP+G+AG  A V YG   Y+   R     S+ L+  R
+Sbjct  16   TSTDAQDYEHRSKLWEKSMKEPMVPIGLAGTVAAVMYGAVNYRKYRRAGMSTSVFLMQFR  75
+
+Query  65   VAAQGFVVGAMTVGMGYSMYREFWAK  90
+            V AQ  VVG MT+G+GY++  ++  K
+Sbjct  76   VIAQSMVVGCMTLGVGYTLVSDYILK  101
+
+
+> UniRef90_A0A2K6G7Q0 Uncharacterized protein n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=A0A2K6G7Q0_PROCO
+Length=106
+
+ Score = 58.9 bits (141),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 32/79 (41%), Positives = 46/79 (58%), Gaps = 3/79 (4%)
+
+Query  6   GVSLPSYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHM  63
+           G S   Y   +G   K +RK +E P VP+G  G AA + YGLY    RG+++ S  ++  
+Sbjct  23  GFSPTMYRNPEGFKEKFLRKTRENPMVPIGCLGTAAALTYGLYSFH-RGHSQRSQLMMRT  81
+
+Query  64  RVAAQGFVVGAMTVGMGYS  82
+           R+AAQGF V A+ +G+  S
+Sbjct  82  RIAAQGFTVTAILLGLAAS  100
+
+
+> UniRef90_A0A194RR32 HIG1 domain family member 2A n=3 Tax=Papilio 
+TaxID=7145 RepID=A0A194RR32_PAPMA
+Length=100
+
+ Score = 58.5 bits (140),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/62 (42%), Positives = 40/62 (65%), Gaps = 1/62 (2%)
+
+Query  18  SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTV  77
+            K +RK  E PFVP+G    A  ++YGL+  ++ G TK+S  ++ MR+ AQGF + A+ V
+Sbjct  31  EKFVRKFGENPFVPIGCLATAGALSYGLWCFRT-GRTKLSQQMMRMRIVAQGFTITALVV  89
+
+Query  78  GM  79
+           G+
+Sbjct  90  GV  91
+
+
+> UniRef90_T0MI48 HIG1 domain family member 2A n=2 Tax=Camelidae 
+TaxID=9835 RepID=T0MI48_CAMFR
+Length=106
+
+ Score = 58.5 bits (140),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 31/75 (41%), Positives = 42/75 (56%), Gaps = 1/75 (1%)
+
+Query  11   SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+            S  E    K IRK +E P VP+G  G AA + YGL+    RG ++ S  ++  R+AAQGF
+Sbjct  30   STSESFKDKFIRKTRENPMVPIGCLGTAAALTYGLFCFH-RGQSQRSQLMMRTRIAAQGF  88
+
+Query  71   VVGAMTVGMGYSMYR  85
+             V A+  G+  S  R
+Sbjct  89   TVVAILAGLAVSSMR  103
+
+
+> UniRef90_A0A2J7RNA6 Uncharacterized protein (Fragment) n=2 Tax=Cryptotermes 
+secundus TaxID=105785 RepID=A0A2J7RNA6_9NEOP
+Length=64
+
+ Score = 57.4 bits (137),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 36/60 (60%), Gaps = 0/60 (0%)
+
+Query  34  IAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPKP  93
+           +AG      YG YK K RG    S+ L+ +RVAAQG VV  +T G+GYS+++++  K   
+Sbjct  1   LAGLTLACLYGAYKFKHRGTMSTSVFLMQLRVAAQGTVVACLTAGIGYSLFKDYVLKSDE  60
+
+
+> UniRef90_Q9BW72 HIG1 domain family member 2A, mitochondrial n=18 
+Tax=Catarrhini TaxID=9526 RepID=HIG2A_HUMAN
+Length=106
+
+ Score = 58.5 bits (140),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 41/69 (59%), Gaps = 1/69 (1%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    K +RK +E P VP+G    AA + YGLY    RGN++ S  ++  R+AAQGF V 
+Sbjct  33  ESFKEKFVRKTRENPVVPIGCLATAAALTYGLYSFH-RGNSQRSQLMMRTRIAAQGFTVA  91
+
+Query  74  AMTVGMGYS  82
+           A+ +G+  +
+Sbjct  92  AILLGLAVT  100
+
+
+> UniRef90_B4M291 Uncharacterized protein n=3 Tax=Drosophila TaxID=2081351 
+RepID=B4M291_DROVI
+Length=102
+
+ Score = 58.2 bits (139),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 40/66 (61%), Gaps = 1/66 (2%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    +L+RK KE P VP+G     A +  GLY  ++ GN +MS  ++  R+AAQGF V 
+Sbjct  30  ETTKERLVRKIKENPLVPIGCLATTAALTAGLYNFRT-GNRRMSQFMMRTRIAAQGFTVL  88
+
+Query  74  AMTVGM  79
+           A+ VG+
+Sbjct  89  ALIVGV  94
+
+
+> UniRef90_A0A1J1IVD2 CLUMA_CG017169, isoform A n=1 Tax=Clunio 
+marinus TaxID=568069 RepID=A0A1J1IVD2_9DIPT
+Length=109
+
+ Score = 58.5 bits (140),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 33/78 (42%), Positives = 44/78 (56%), Gaps = 7/78 (9%)
+
+Query  2   STDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLI  61
+           S D+GV      E    K IRK K  P VP G    AA + YGLY  + +G  KMS  ++
+Sbjct  25  SADSGV------ETNKEKFIRKFKSNPLVPTGCLLTAAALTYGLYSFR-KGERKMSQMMM  77
+
+Query  62  HMRVAAQGFVVGAMTVGM  79
+            +R+AAQGF V A+ +G+
+Sbjct  78  RVRIAAQGFTVVALVIGV  95
+
+
+> UniRef90_A0A195DFH7 HIG1 domain family member 1A n=1 Tax=Trachymyrmex 
+cornetzi TaxID=471704 RepID=A0A195DFH7_9HYME
+Length=94
+
+ Score = 57.8 bits (138),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 45/75 (60%), Gaps = 1/75 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           ++    KL++K +++PF+   +   A I  YG+Y  K +      ++L+ +RVAAQG  +
+Sbjct  13  DQTLSEKLLQKGQKSPFLIASLISLAGICGYGVYAFKKK-KISTQLYLLQLRVAAQGTAI  71
+
+Query  73  GAMTVGMGYSMYREF  87
+             +T+GMGY M R++
+Sbjct  72  AFLTIGMGYHMIRKY  86
+
+
+> UniRef90_A1XQS4 Higd2a n=1 Tax=Sus scrofa TaxID=9823 RepID=A1XQS4_PIG
+Length=106
+
+ Score = 58.2 bits (139),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/75 (40%), Positives = 42/75 (56%), Gaps = 1/75 (1%)
+
+Query  11   SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+            S  E    K IRK +E P VP+G  G A+ + YGLY    RG ++ S  ++  R+AAQGF
+Sbjct  30   STSESFKKKFIRKTRENPMVPIGCLGTASALTYGLYCFH-RGQSQRSQLMMRTRIAAQGF  88
+
+Query  71   VVGAMTVGMGYSMYR  85
+             +  + VG+  S  R
+Sbjct  89   TIVVILVGLAASTMR  103
+
+
+> UniRef90_B0WM78 HIG1 domain family member 2A n=2 Tax=Culex TaxID=53527 
+RepID=B0WM78_CULQU
+Length=108
+
+ Score = 57.8 bits (138),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    KL RK KE P VP+G A     + YGL+  + +G  +MS +++  R+AAQGF V 
+Sbjct  31  ETTSEKLARKLKENPLVPIGCAATLGALGYGLWSFR-QGRRQMSQYMMRARIAAQGFTVI  89
+
+Query  74  AMTVGMGYS  82
+           A+ +G+G +
+Sbjct  90  ALIIGVGMT  98
+
+
+> UniRef90_A0A0N1IU32 HIG1 domain family member 2A n=1 Tax=Melipona 
+quadrifasciata TaxID=166423 RepID=A0A0N1IU32_9HYME
+Length=105
+
+ Score = 57.4 bits (137),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  16   QGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAM  75
+            + S++I+K KE P +P+G+      + YGLY    +GN+ MS +++  RVAAQ F + AM
+Sbjct  31   EESRVIKKLKENPLIPIGLTATCFALCYGLY-CTYKGNSVMSQYMMRGRVAAQSFTILAM  89
+
+Query  76   TVGMGYSMYREF  87
+              G+  +M ++ 
+Sbjct  90   LSGLSLTMTKKI  101
+
+
+> UniRef90_A0A1S2ZTR5 HIG1 domain family member 2A, mitochondrial 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S2ZTR5_ERIEU
+Length=106
+
+ Score = 57.4 bits (137),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 42/66 (64%), Gaps = 1/66 (2%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    K +RK +E P VP+G  G AA ++YGL+    RG+++ S  ++  R+AAQGF V 
+Sbjct  33  ESFKEKFLRKTRENPVVPIGCLGTAAALSYGLFCFH-RGHSQRSQLMMRTRIAAQGFTVA  91
+
+Query  74  AMTVGM  79
+           A+ VG+
+Sbjct  92  AILVGL  97
+
+
+> UniRef90_A0A0L8HHM5 Uncharacterized protein n=1 Tax=Octopus bimaculoides 
+TaxID=37653 RepID=A0A0L8HHM5_OCTBM
+Length=106
+
+ Score = 57.0 bits (136),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 29/71 (41%), Positives = 45/71 (63%), Gaps = 1/71 (1%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           YEE    KLIRK KE P VP G+A     ++YG++++++ GN + S  ++ +R+  QGF 
+Sbjct  31  YEEGLREKLIRKTKENPAVPFGLALTTFALSYGIWQMRT-GNQRRSQMMMRLRIMGQGFT  89
+
+Query  72  VGAMTVGMGYS  82
+           V A+  G+ YS
+Sbjct  90  VVAILAGVLYS  100
+
+
+> UniRef90_A0A212F004 Uncharacterized protein n=1 Tax=Danaus plexippus 
+plexippus TaxID=278856 RepID=A0A212F004_DANPL
+Length=66
+
+ Score = 55.8 bits (133),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/62 (35%), Positives = 40/62 (65%), Gaps = 0/62 (0%)
+
+Query  32  VGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKP  91
+           +GI G   +  YG+Y+ +++G    S+ L+ +RVAAQG VV ++T+G+GY++   ++ K 
+Sbjct  3   LGIVGLIGMCGYGVYQYRNKGRMSTSVFLMQLRVAAQGTVVASLTIGLGYNLLSRYFVKD  62
+
+Query  92  KP  93
+             
+Sbjct  63  DK  64
+
+
+> UniRef90_Q9CQJ1 HIG1 domain family member 2A n=9 Tax=Muroidea 
+TaxID=337687 RepID=HIG2A_MOUSE
+Length=106
+
+ Score = 57.0 bits (136),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 33/79 (42%), Positives = 44/79 (56%), Gaps = 3/79 (4%)
+
+Query  6   GVSLPSYEEDQG--SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHM  63
+           G S   Y   +G   K IRK +E P VP+G  G AA + YGLY    RG +  S  ++  
+Sbjct  23  GFSPTVYSNPEGFKEKFIRKTRENPMVPIGCLGTAAALTYGLYCFH-RGQSHRSQLMMRT  81
+
+Query  64  RVAAQGFVVGAMTVGMGYS  82
+           R+AAQGF V A+ +G+  S
+Sbjct  82  RIAAQGFTVVAILLGLAAS  100
+
+
+> UniRef90_A0A0L7KVE3 HIG1 domain family member 2A n=1 Tax=Operophtera 
+brumata TaxID=104452 RepID=A0A0L7KVE3_9NEOP
+Length=97
+
+ Score = 56.6 bits (135),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 41/66 (62%), Gaps = 1/66 (2%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    KL+RK  E PFVP+G    A  ++YGL+  ++ G  +MS  ++ +R+ AQGF + 
+Sbjct  25  ESTRDKLVRKISENPFVPIGCFATAGALSYGLWSFRT-GRRQMSQKMMRLRIVAQGFTIT  83
+
+Query  74  AMTVGM  79
+           A+ +G+
+Sbjct  84  ALVLGV  89
+
+
+> UniRef90_A0A2B4S710 HIG1 domain family member 2A, mitochondrial 
+n=3 Tax=Pocilloporidae TaxID=46729 RepID=A0A2B4S710_STYPI
+Length=93
+
+ Score = 56.6 bits (135),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 33/77 (43%), Positives = 44/77 (57%), Gaps = 1/77 (1%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    KL RK KE P VPVG       +AYGL+    RG+ KM  +++  RVAAQG  + 
+Sbjct  14  ETMTGKLKRKVKENPLVPVGAVCTLGALAYGLFSF-VRGDQKMQQYMMRTRVAAQGGTLV  72
+
+Query  74  AMTVGMGYSMYREFWAK  90
+           A+  G+ Y +Y+E  AK
+Sbjct  73  AVVAGVFYMLYQERQAK  89
+
+
+> UniRef90_T1GWP0 Uncharacterized protein n=1 Tax=Megaselia scalaris 
+TaxID=36166 RepID=T1GWP0_MEGSC
+Length=100
+
+ Score = 56.6 bits (135),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 39/69 (57%), Gaps = 1/69 (1%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    K +RK KE P VPVG       + YGLY  ++ GN KMS  ++  R+AAQGF V 
+Sbjct  29  ETFSDKFMRKVKENPVVPVGCLATTMALCYGLYNFRT-GNRKMSQIMMRTRIAAQGFTVA  87
+
+Query  74  AMTVGMGYS  82
+           A+  G+  S
+Sbjct  88  ALIGGVVMS  96
+
+
+> UniRef90_F7IAW2 HIG1 domain family member 2A n=5 Tax=Platyrrhini 
+TaxID=9479 RepID=F7IAW2_CALJA
+Length=106
+
+ Score = 56.6 bits (135),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/75 (39%), Positives = 44/75 (59%), Gaps = 1/75 (1%)
+
+Query  8   SLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAA  67
+           +L S  E    K IRK +E P VP+G    A  + YGLY    +G+++ S  ++  R+AA
+Sbjct  27  TLYSKPESFKEKFIRKVRENPMVPIGCLATATALGYGLYCFH-KGHSRRSQLMMRTRIAA  85
+
+Query  68  QGFVVGAMTVGMGYS  82
+           QGF + A+ VG+G +
+Sbjct  86  QGFTIAAILVGLGVT  100
+
+
+> UniRef90_A0A0M8ZQZ1 HIG1 domain family member 1C n=1 Tax=Melipona 
+quadrifasciata TaxID=166423 RepID=A0A0M8ZQZ1_9HYME
+Length=107
+
+ Score = 56.2 bits (134),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 30/80 (38%), Positives = 44/80 (55%), Gaps = 1/80 (1%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            E+    ++    K +PF   G+ GF+ I   G+YK K+R     SI L  +RV AQG  V
+Sbjct  27   EKSLSDRIYSVVKRSPFGIAGLVGFSTICGIGMYKWKTR-TVSPSIFLTQLRVIAQGTAV  85
+
+Query  73   GAMTVGMGYSMYREFWAKPK  92
+            G +++GM Y MY ++  K K
+Sbjct  86   GIISLGMLYGMYNDYIKKKK  105
+
+
+> UniRef90_A0A0K8TP00 Putative conserved plasma membrane protein 
+n=1 Tax=Tabanus bromius TaxID=304241 RepID=A0A0K8TP00_TABBR
+Length=103
+
+ Score = 56.2 bits (134),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 28/72 (39%), Positives = 43/72 (60%), Gaps = 1/72 (1%)
+
+Query  11  SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+            + E    KL RK K+ P VP+G    A  ++YGL+  + +G  KMS +++  R+AAQGF
+Sbjct  26  QHAETTKEKLQRKIKQNPLVPIGCLATAGALSYGLWSFR-QGRPKMSQYMMRARIAAQGF  84
+
+Query  71  VVGAMTVGMGYS  82
+            V A+ VG+  +
+Sbjct  85  TVVALMVGVAMT  96
+
+
+> UniRef90_A0A232F3Z8 Uncharacterized protein n=1 Tax=Trichomalopsis 
+sarcophagae TaxID=543379 RepID=A0A232F3Z8_9HYME
+Length=104
+
+ Score = 56.2 bits (134),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 32/84 (38%), Positives = 48/84 (57%), Gaps = 2/84 (2%)
+
+Query  11  SYEEDQ-GSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGN-TKMSIHLIHMRVAAQ  68
+           SYEE+  GS ++R+ +E P    GI G    + YG  + K++G     S+ L+ +RV AQ
+Sbjct  16  SYEEEGIGSGIVRQFQEKPIAMTGIVGMIGALGYGYNRYKTKGFLVSPSLFLMQLRVGAQ  75
+
+Query  69  GFVVGAMTVGMGYSMYREFWAKPK  92
+             VVG +T GM Y+M ++   K K
+Sbjct  76  AMVVGCITCGMIYNMVQQHLLKKK  99
+
+
+> UniRef90_A0A336LYT3 CSON003966 protein n=1 Tax=Culicoides sonorensis 
+TaxID=179676 RepID=A0A336LYT3_CULSO
+Length=98
+
+ Score = 55.8 bits (133),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 30/74 (41%), Positives = 43/74 (58%), Gaps = 2/74 (3%)
+
+Query  8   SLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAA  67
+           SLP   E Q  K IRK  + PFVP+G    A  + YGL+  + +G  K S +++  R+ A
+Sbjct  22  SLPK-PETQREKFIRKFNQNPFVPIGCLMTAGALTYGLWSFR-QGRYKTSQYMMRARIGA  79
+
+Query  68  QGFVVGAMTVGMGY  81
+           QGF V A+ +G+ Y
+Sbjct  80  QGFTVAALILGVLY  93
+
+
+> UniRef90_A0A2K5L5Z2 HIG1 hypoxia inducible domain family member 
+2A n=2 Tax=Cercopithecinae TaxID=9528 RepID=A0A2K5L5Z2_CERAT
+Length=106
+
+ Score = 55.8 bits (133),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 27/69 (39%), Positives = 40/69 (58%), Gaps = 1/69 (1%)
+
+Query  14  EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+           E    K +RK +E P VP+G     A + YGLY    RGN++ S  ++  R+AAQGF V 
+Sbjct  33  ETFKEKFLRKTRENPVVPIGCLATVAALTYGLYSF-YRGNSRRSQLMMRTRIAAQGFTVT  91
+
+Query  74  AMTVGMGYS  82
+           A+ +G+  +
+Sbjct  92  ALLLGLAVT  100
+
+
+> UniRef90_A0A1B0DR83 Uncharacterized protein n=1 Tax=Phlebotomus 
+papatasi TaxID=29031 RepID=A0A1B0DR83_PHLPP
+Length=101
+
+ Score = 55.8 bits (133),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 30/78 (38%), Positives = 44/78 (56%), Gaps = 3/78 (4%)
+
+Query  1   MSTDTGVSLPSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHL  60
+           +  D G SL    E    K++RK KE P VP+G       ++YGL+  + RG  K+S ++
+Sbjct  19  LKKDFGSSLAG--ETTKEKMLRKIKENPLVPIGCMATIGALSYGLWNFR-RGEQKISQYM  75
+
+Query  61  IHMRVAAQGFVVGAMTVG  78
+           +  R+ AQGF V A+ VG
+Sbjct  76  MRTRIIAQGFTVVALMVG  93
+
+
+> UniRef90_Q17CX4 AAEL004404-PA n=7 Tax=Stegomyia TaxID=53541 RepID=Q17CX4_AEDAE
+Length=108
+
+ Score = 55.8 bits (133),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 43/71 (61%), Gaps = 1/71 (1%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           + E    K+ RK KE P VP+G A   + + YGL+  + +G  +MS +++  R+ AQGF 
+Sbjct  30  HAETTREKMERKVKENPLVPIGCAATISCLGYGLWSFR-KGRRQMSQYMMRARIFAQGFT  88
+
+Query  72  VGAMTVGMGYS  82
+           V A+ VG+G +
+Sbjct  89  VVALIVGVGMT  99
+
+
+> UniRef90_G3TUC8 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3TUC8_LOXAF
+Length=106
+
+ Score = 55.5 bits (132),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 37/64 (58%), Gaps = 1/64 (2%)
+
+Query  19  KLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVG  78
+           K +RK  E P VP+G  G AA + YGLY    RG +  S  ++  R+ AQGF V A+ VG
+Sbjct  38  KFLRKTCENPLVPLGCLGTAAALTYGLYCFH-RGQSHRSQLMMRTRILAQGFTVAAVLVG  96
+
+Query  79  MGYS  82
+           M  S
+Sbjct  97  MAVS  100
+
+
+> UniRef90_A0A369SH63 HIG1 domain family member 1C n=1 Tax=Trichoplax 
+sp. H2 TaxID=287889 RepID=A0A369SH63_9METZ
+Length=96
+
+ Score = 55.1 bits (131),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 48/81 (59%), Gaps = 4/81 (5%)
+
+Query  10  PSYEEDQG---SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSR-GNTKMSIHLIHMRV  65
+           P +  D     +KL +K  + PFVP+G+ G    VAYG+++ K+R     +S +++  RV
+Sbjct  13  PQWRPDDDVSENKLKKKFLDEPFVPLGMLGTFGAVAYGIHQYKNRPAGMNLSRYILKFRV  72
+
+Query  66  AAQGFVVGAMTVGMGYSMYRE  86
+            AQG  VGA+ VG+ YS  ++
+Sbjct  73  LAQGVTVGAIMVGVCYSYLKD  93
+
+
+> UniRef90_A0A182LTA7 Uncharacterized protein n=5 Tax=Cellia TaxID=44534 
+RepID=A0A182LTA7_9DIPT
+Length=109
+
+ Score = 55.1 bits (131),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 43/71 (61%), Gaps = 1/71 (1%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           + E    K++RK  E P VP+G A     + +GL+  + +G ++MS +++  R+ AQGF 
+Sbjct  31  HAETTKEKMVRKINENPLVPIGCAATLTALGFGLWNFR-QGRSQMSQYMMRARILAQGFT  89
+
+Query  72  VGAMTVGMGYS  82
+           V A+ +G+G +
+Sbjct  90  VLALIIGVGMT  100
+
+
+> UniRef90_A0A0L7KNI9 HIG1 domain family member 1A n=1 Tax=Operophtera 
+brumata TaxID=104452 RepID=A0A0L7KNI9_9NEOP
+Length=78
+
+ Score = 53.9 bits (128),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 35/60 (58%), Gaps = 0/60 (0%)
+
+Query  33  GIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREFWAKPK  92
+           GI G   +  YG Y  K RG    S+ L+ +RVAAQG VV A+T+G+ Y++ ++   K  
+Sbjct  16  GIMGLMGVCGYGAYAYKKRGKMSTSVFLMQLRVAAQGTVVSALTIGLAYTLVKDHLLKDN  75
+
+
+> UniRef90_A0A088AQM3 Uncharacterized protein n=4 Tax=Apis TaxID=7459 
+RepID=A0A088AQM3_APIME
+Length=106
+
+ Score = 54.7 bits (130),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 29/80 (36%), Positives = 44/80 (55%), Gaps = 1/80 (1%)
+
+Query  13   EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+            E+    KL    K +PF   G+ G + +   G+YK K++     SI+L+ +RVAAQ   +
+Sbjct  26   EKSITEKLYALVKRSPFAVAGLTGLSIVCGIGVYKWKTK-TVNPSIYLVQLRVAAQATAL  84
+
+Query  73   GAMTVGMGYSMYREFWAKPK  92
+              + +GM YSMY +F  K K
+Sbjct  85   SIIGLGMMYSMYNDFILKKK  104
+
+
+> UniRef90_A0A182IX28 Uncharacterized protein n=1 Tax=Anopheles 
+atroparvus TaxID=41427 RepID=A0A182IX28_9DIPT
+Length=121
+
+ Score = 55.1 bits (131),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 25/71 (35%), Positives = 43/71 (61%), Gaps = 1/71 (1%)
+
+Query  12   YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+            + E    K+ RK KE P VP+G A     + +GL+  + +G ++MS +++  R+ AQGF 
+Sbjct  43   HAETTKEKMARKVKENPLVPIGCAATLTALGFGLWNFR-QGRSQMSQYMMRARILAQGFT  101
+
+Query  72   VGAMTVGMGYS  82
+            V A+ +G+G +
+Sbjct  102  VIALIIGVGMT  112
+
+
+> UniRef90_A0A1D2MQ39 HIG1 domain family member 2A n=1 Tax=Orchesella 
+cincta TaxID=48709 RepID=A0A1D2MQ39_ORCCI
+Length=129
+
+ Score = 55.1 bits (131),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 43/69 (62%), Gaps = 1/69 (1%)
+
+Query  11   SYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGF  70
+            +Y E  GSKL+RK KE PFVP+G       ++YGL+  + +G  + S  ++  R+AAQGF
+Sbjct  35   AYGEAAGSKLVRKMKENPFVPLGAFSTLGALSYGLWCFR-QGRARDSQMMMRARIAAQGF  93
+
+Query  71   VVGAMTVGM  79
+             + A+  G+
+Sbjct  94   TIVAIMAGV  102
+
+
+> UniRef90_A0A336N2X0 CSON011893 protein (Fragment) n=1 Tax=Culicoides 
+sonorensis TaxID=179676 RepID=A0A336N2X0_CULSO
+Length=79
+
+ Score = 53.5 bits (127),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 37/65 (57%), Gaps = 1/65 (2%)
+
+Query  29  FVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMYREF-  87
+           F   G+ G A     G YK K+RG    S+ L+ +RVAAQG VV  +T G+ Y M  E+ 
+Sbjct  9   FFLSGLVGLATACGIGAYKFKNRGTMSTSVFLMQLRVAAQGTVVACLTAGIAYQMASEYL  68
+
+Query  88  WAKPK  92
+           + KP+
+Sbjct  69  FNKPE  73
+
+
+> UniRef90_A0A2K6VAZ8 Putative conserved plasma membrane protein 
+n=8 Tax=Nyssorhynchus TaxID=44543 RepID=A0A2K6VAZ8_ANODA
+Length=110
+
+ Score = 54.3 bits (129),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 42/71 (59%), Gaps = 1/71 (1%)
+
+Query  12   YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+            + E    K+ RK KE P VP+G A     +  GL+  + +G ++MS +++  R+ AQGF 
+Sbjct  32   HAETTKEKMARKVKENPLVPIGCAATLTALGLGLWNFR-KGRSQMSQYMMRARILAQGFT  90
+
+Query  72   VGAMTVGMGYS  82
+            V A+ VG+G +
+Sbjct  91   VIALIVGVGMT  101
+
+
+> UniRef90_A0A1B6EH42 Uncharacterized protein n=1 Tax=Clastoptera 
+arizonana TaxID=38151 RepID=A0A1B6EH42_9HEMI
+Length=102
+
+ Score = 53.9 bits (128),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 42/71 (59%), Gaps = 1/71 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE    K IRK KE+P VP+G       + +GL  ++ +G ++ S  L+  R+ AQGF V
+Sbjct  29  EESIKEKFIRKFKESPLVPIGALATTLCLLFGLQSMR-KGRSRHSQLLMRGRILAQGFTV  87
+
+Query  73  GAMTVGMGYSM  83
+            A+  G+GY++
+Sbjct  88  VAIITGLGYTV  98
+
+
+> UniRef90_A0A026X3F2 HIG1 domain family member 1A n=1 Tax=Ooceraea 
+biroi TaxID=2015173 RepID=A0A026X3F2_OOCBI
+Length=92
+
+ Score = 53.5 bits (127),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 43/80 (54%), Gaps = 1/80 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           ++    +L+ K +++PF+   +   A I  YG Y  K+R      ++L+ +RV AQG  V
+Sbjct  11  DQTWSDRLLAKGRKSPFLVASVITLAGICGYGAYSYKTR-KISTQMYLLQLRVIAQGSAV  69
+
+Query  73  GAMTVGMGYSMYREFWAKPK  92
+             +T GM Y M R+F+   K
+Sbjct  70  ACLTGGMLYHMVRKFYLHEK  89
+
+
+> UniRef90_A0A1L8DZU5 Putative hig1 domain family member 2a mitochondrial 
+n=1 Tax=Nyssomyia neivai TaxID=330878 RepID=A0A1L8DZU5_9DIPT
+Length=101
+
+ Score = 53.5 bits (127),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 26/73 (36%), Positives = 41/73 (56%), Gaps = 1/73 (1%)
+
+Query  14   EDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVG  73
+            E    K+IRK KE P VP+G    A  + YGL+  + RGN + +  ++  R+ AQG  V 
+Sbjct  30   EPTKDKMIRKIKENPLVPIGCLATAGALTYGLWNFR-RGNQRTAQLMMRTRIIAQGLTVV  88
+
+Query  74   AMTVGMGYSMYRE  86
+            A+ VG+  +  ++
+Sbjct  89   ALMVGVVLTTLKK  101
+
+
+> UniRef90_T2M6P8 HIG1 domain family member 2A n=1 Tax=Hydra vulgaris 
+TaxID=6087 RepID=T2M6P8_HYDVU
+Length=95
+
+ Score = 53.1 bits (126),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/77 (39%), Positives = 39/77 (51%), Gaps = 1/77 (1%)
+
+Query  10  PSYEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQG  69
+           P   E Q  K IRK KE PFVP+G       +  GL  LK RGN+     ++  RV AQG
+Sbjct  18  PKPAETQSDKFIRKFKENPFVPIGAGLTVTALVIGLVNLK-RGNSAKQQTMMRARVVAQG  76
+
+Query  70  FVVGAMTVGMGYSMYRE  86
+             + A+  G  Y  Y++
+Sbjct  77  STIVAIIAGFLYHQYKK  93
+
+
+> UniRef90_A0A2G8JXR1 Putative HIG1 domain family member 2A, mitochondrial-like 
+n=2 Tax=Stichopus japonicus TaxID=307972 RepID=A0A2G8JXR1_STIJA
+Length=123
+
+ Score = 53.5 bits (127),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 38/63 (60%), Gaps = 1/63 (2%)
+
+Query  18  SKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTV  77
+            K + K K+ PFVP+G A  A  +  GL + + +G TK S  ++  RVAAQ F VGA+ V
+Sbjct  38  EKFMEKVKQNPFVPIGCAATAVALTLGLIQFR-KGQTKKSQLMMRFRVAAQAFTVGAIIV  96
+
+Query  78  GMG  80
+           G+ 
+Sbjct  97  GVA  99
+
+
+> UniRef90_A0A310SNX2 HIG1 domain family member 1C n=1 Tax=Eufriesea 
+mexicana TaxID=516756 RepID=A0A310SNX2_9HYME
+Length=105
+
+ Score = 53.1 bits (126),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 26/68 (38%), Positives = 41/68 (60%), Gaps = 1/68 (1%)
+
+Query  25   KEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVVGAMTVGMGYSMY  84
+            + +P   VGI G  AI   G Y  KS+   K SI+L+ +R+AAQG ++G +  G  Y+MY
+Sbjct  38   QRSPSFVVGIVGLCAICGIGAYNWKSK-KIKPSIYLLQLRLAAQGTIIGCLGFGTLYAMY  96
+
+Query  85   REFWAKPK  92
+            ++  ++ K
+Sbjct  97   KDLMSEKK  104
+
+
+> UniRef90_A0A1W4XTN3 HIG1 domain family member 2A, mitochondrial 
+isoform X1 n=2 Tax=Agrilus planipennis TaxID=224129 RepID=A0A1W4XTN3_AGRPL
+Length=109
+
+ Score = 53.1 bits (126),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 28/70 (40%), Positives = 41/70 (59%), Gaps = 1/70 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           +E    K  RK KE PFVP+G    A  +  GL+  K+ G  K+S +++  R+ AQGF V
+Sbjct  31  QETVLEKFNRKFKENPFVPIGCLATATALVVGLWSFKA-GKRKLSQYMMRTRILAQGFTV  89
+
+Query  73  GAMTVGMGYS  82
+            A+ +G+G S
+Sbjct  90  FAIVLGIGIS  99
+
+
+> UniRef90_A0A069DNS5 Putative conserved plasma membrane protein 
+(Fragment) n=1 Tax=Panstrongylus megistus TaxID=65343 RepID=A0A069DNS5_9HEMI
+Length=106
+
+ Score = 53.1 bits (126),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 28/70 (40%), Positives = 41/70 (59%), Gaps = 1/70 (1%)
+
+Query  13  EEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFVV  72
+           EE   +KL RK KE PFVP+G       +++GLY  + RG  +MS  ++  R+ AQGF V
+Sbjct  28  EELPQAKLWRKIKENPFVPIGALVTVGCLSFGLYSFR-RGERRMSQMMMRARIVAQGFTV  86
+
+Query  73  GAMTVGMGYS  82
+            A+  G+  +
+Sbjct  87  MALVGGIAIT  96
+
+
+> UniRef90_A0A182HGN6 Uncharacterized protein n=8 Tax=Pyretophorus 
+TaxID=44537 RepID=A0A182HGN6_ANOAR
+Length=110
+
+ Score = 52.8 bits (125),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 42/71 (59%), Gaps = 1/71 (1%)
+
+Query  12  YEEDQGSKLIRKAKEAPFVPVGIAGFAAIVAYGLYKLKSRGNTKMSIHLIHMRVAAQGFV  71
+           + E    K+ RK  E P VP+G A     + +GL+  + +G ++MS +++  R+ AQGF 
+Sbjct  31  HAETTKEKMARKINENPLVPIGCAATLTALGFGLWNFR-QGRSQMSQYMMRARILAQGFT  89
+
+Query  72  VGAMTVGMGYS  82
+           V A+ +G+G +
+Sbjct  90  VIALIIGVGMT  100
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1234314
+
+
+  Database: isar.db.260
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 41,442
+  Number of sequences in database:  330
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

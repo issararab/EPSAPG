@@ -1,0 +1,2728 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.161
+           205 sequences; 7,946 total letters
+
+Results from round 1
+
+
+Query= P58246|2zt9G|PETG_NOSS1 1.0
+
+Length=37
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P58246 Cytochrome b6-f complex subunit 5 n=25 Tax=Nost...  73.9    1e-23
+  UniRef90_A0A0M0SG55 Cytochrome b6-f complex subunit 5 n=2 Tax=H...  68.6    2e-21
+  UniRef90_A0A2N6M2H6 Cytochrome b6-f complex subunit 5 n=9 Tax=F...  66.6    9e-21
+  UniRef90_A0A0R0MAQ4 Cytochrome b6-f complex subunit 5 n=10 Tax=...  65.5    2e-20
+  UniRef90_K9TG38 Cytochrome b6-f complex subunit 5 n=1 Tax=Oscil...  64.7    4e-20
+  UniRef90_A0A0S3TKB5 Cytochrome b6-f complex subunit 5 n=2 Tax=F...  65.5    5e-20
+  UniRef90_Q113E9 Cytochrome b6-f complex subunit 5 n=1 Tax=Trich...  62.4    5e-19
+  UniRef90_A0A352X7B8 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  62.0    7e-19
+  UniRef90_A0A073CVN1 Cytochrome b6-f complex subunit 5 n=14 Tax=...  61.6    8e-19
+  UniRef90_X5JWY4 Cytochrome b6-f complex subunit 5 n=4 Tax=Riche...  61.2    1e-18
+  UniRef90_A0A3M2GFJ1 Cytochrome b6-f complex subunit PetG n=1 Ta...  60.8    2e-18
+  UniRef90_A0A0C1QZA3 Cytochrome b6-f complex subunit 5 n=4 Tax=C...  60.8    2e-18
+  UniRef90_A0A0C2LEM2 Cytochrome b6-f complex subunit 5 n=2 Tax=N...  60.5    3e-18
+  UniRef90_K9RJF4 Cytochrome b6-f complex subunit 5 n=2 Tax=Rivul...  60.5    3e-18
+  UniRef90_A0A3M1T4Y6 Cytochrome b6-f complex subunit PetG n=1 Ta...  60.1    3e-18
+  UniRef90_A0A1U7IPJ0 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  60.1    4e-18
+  UniRef90_A0A2T1EP75 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  59.7    6e-18
+  UniRef90_A0A2T2RPV7 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  58.2    2e-17
+  UniRef90_K9WKR1 Cytochrome b6-f complex subunit 5 n=11 Tax=Cyan...  57.8    3e-17
+  UniRef90_K9YGX9 Cytochrome b6-f complex subunit 5 n=3 Tax=Cyano...  57.8    3e-17
+  UniRef90_K9ULX1 Cytochrome b6-f complex subunit 5 n=2 Tax=Chama...  57.4    4e-17
+  UniRef90_B8HUQ7 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyano...  57.4    5e-17
+  UniRef90_A0A1E5QFR6 Cytochrome b6-f complex subunit 5 n=3 Tax=C...  57.0    5e-17
+  UniRef90_A0A0D3ML41 Cytochrome b6-f complex subunit 5 n=1 Tax=O...  57.0    5e-17
+  UniRef90_Q2JJ29 Cytochrome b6-f complex subunit 5 n=3 Tax=Synec...  57.0    6e-17
+  UniRef90_A0A3G2QYJ1 Cytochrome b6/f complex subunit V n=1 Tax=S...  57.0    6e-17
+  UniRef90_A0A1D9G6M9 Cytochrome b6-f complex subunit 5 n=3 Tax=M...  57.0    6e-17
+  UniRef90_A0A2W6YWI8 Cytochrome b6-f complex subunit 5 n=2 Tax=C...  56.6    8e-17
+  UniRef90_A0A1X9PV39 Cytochrome b6-f complex subunit 5 n=1 Tax=R...  56.6    9e-17
+  UniRef90_A0A3G2QZH1 Cytochrome b6/f complex subunit V n=1 Tax=M...  56.2    1e-16
+  UniRef90_Q8DKI2 Cytochrome b6-f complex subunit 5 n=5 Tax=Cyano...  56.2    1e-16
+  UniRef90_Q9Z3G1 Cytochrome b6-f complex subunit 5 n=3 Tax=Synec...  55.8    2e-16
+  UniRef90_B0BYQ1 Cytochrome b6-f complex subunit 5 n=1 Tax=Acary...  55.5    2e-16
+  UniRef90_A0A0C1XLJ7 Cytochrome b6-f complex subunit 5 n=2 Tax=T...  56.2    2e-16
+  UniRef90_A0A1Z4R7Z9 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  55.5    2e-16
+  UniRef90_A0A3G2QYY8 Cytochrome b6/f complex subunit V n=1 Tax=S...  55.5    3e-16
+  UniRef90_K9RT76 Cytochrome b6-f complex subunit 5 n=1 Tax=Synec...  55.5    3e-16
+  UniRef90_B4WIH0 Cytochrome b6-f complex subunit 5 n=3 Tax=Synec...  55.5    3e-16
+  UniRef90_K9U1I7 Cytochrome b6-f complex subunit 5 n=5 Tax=Cyano...  55.1    3e-16
+  UniRef90_A0A2A2TEU2 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  55.1    4e-16
+  UniRef90_K8GJW3 Cytochrome b6-f complex subunit 5 n=2 Tax=Cyano...  55.1    4e-16
+  UniRef90_A0A1C9CCX2 Cytochrome b6-f complex subunit 5 n=1 Tax=B...  54.7    4e-16
+  UniRef90_A0A1X9PTM2 Cytochrome b6-f complex subunit 5 n=1 Tax=B...  54.7    6e-16
+  UniRef90_A0A1Z1MS60 Cytochrome b6-f complex subunit 5 n=6 Tax=P...  54.3    7e-16
+  UniRef90_K9V6F5 Cytochrome b6-f complex subunit 5 n=2 Tax=Calot...  54.3    9e-16
+  UniRef90_A0A098TN63 Cytochrome b6-f complex subunit 5 n=1 Tax=N...  53.9    1e-15
+  UniRef90_P51318 Cytochrome b6-f complex subunit 5 n=6 Tax=Rhodo...  53.9    1e-15
+  UniRef90_A0A075W7V8 Cytochrome b6-f complex subunit 5 n=1 Tax=G...  53.5    1e-15
+  UniRef90_B2XTJ5 Cytochrome b6-f complex subunit 5 n=2 Tax=Heter...  53.5    1e-15
+  UniRef90_A0A088CI64 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  53.5    2e-15
+  UniRef90_A0A1C9C7B2 Cytochrome b6-f complex subunit 5 n=19 Tax=...  53.1    2e-15
+  UniRef90_A0A3G1IVL1 Cytochrome b6/f complex subunit V n=2 Tax=G...  53.1    2e-15
+  UniRef90_A0A086CHU4 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  53.1    2e-15
+  UniRef90_A0A1C9CGX6 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  52.8    2e-15
+  UniRef90_A0A1C9CBG7 Cytochrome b6-f complex subunit 5 n=1 Tax=A...  52.8    3e-15
+  UniRef90_A0A1C9CA96 Cytochrome b6-f complex subunit 5 n=1 Tax=T...  52.8    3e-15
+  UniRef90_Q05XR0 Cytochrome b6-f complex subunit 5 n=1 Tax=Synec...  52.8    3e-15
+  UniRef90_A5GM56 Cytochrome b6-f complex subunit 5 n=17 Tax=Bact...  52.8    3e-15
+  UniRef90_M1K3W3 Cytochrome b6-f complex subunit 5 n=1 Tax=Diacr...  52.8    3e-15
+  UniRef90_A0A3G2QZ48 Cytochrome b6/f complex subunit V n=1 Tax=S...  52.8    3e-15
+  UniRef90_A0A0S3U7Y5 Cytochrome b6-f complex subunit 5 n=3 Tax=L...  52.4    3e-15
+  UniRef90_A0A0P8DMK8 Cytochrome b6-f complex subunit 5 n=2 Tax=P...  52.4    3e-15
+  UniRef90_Q19VC5 Cytochrome b6-f complex subunit 5 n=5 Tax=Virid...  52.4    4e-15
+  UniRef90_Q1ACI5 Cytochrome b6-f complex subunit 5 n=2 Tax=Chara...  52.4    4e-15
+  UniRef90_P14236 Cytochrome b6-f complex subunit 5 n=12 Tax=Euka...  52.4    4e-15
+  UniRef90_A0A3G1IW98 Cytochrome b6/f complex subunit V n=1 Tax=C...  52.4    4e-15
+  UniRef90_G4FIT4 Cytochrome b6-f complex subunit 5 n=4 Tax=Terra...  52.8    4e-15
+  UniRef90_A0A2U9NQ82 Cytochrome b6-f complex subunit 5 n=1 Tax=A...  52.4    5e-15
+  UniRef90_A0A2Z5X1C8 Cytochrome b6-f complex subunit 5 n=5 Tax=S...  52.0    5e-15
+  UniRef90_A0A2T1DJI9 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  52.0    5e-15
+  UniRef90_A0A1C9CD16 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  52.0    5e-15
+  UniRef90_O78505 Cytochrome b6-f complex subunit 5 n=14 Tax=cell...  52.0    5e-15
+  UniRef90_A0A2Z5DYB6 Cytochrome b6-f complex subunit 5 n=4 Tax=C...  52.0    6e-15
+  UniRef90_H8ZXF0 Cytochrome b6-f complex subunit 5 n=1 Tax=Eutre...  52.0    7e-15
+  UniRef90_Q6B8U9 Cytochrome b6-f complex subunit 5 n=88 Tax=Rhod...  51.6    8e-15
+  UniRef90_A0A2H4G3C5 Cytochrome b6-f complex subunit 5 n=1 Tax=N...  52.0    8e-15
+  UniRef90_A0A1C9CFS4 Cytochrome b6-f complex subunit 5 n=2 Tax=H...  51.6    8e-15
+  UniRef90_A0A251WG46 Cytochrome b6-f complex subunit 5 n=1 Tax=A...  51.6    9e-15
+  UniRef90_A0A081GJ62 Cytochrome b6-f complex subunit 5 n=2 Tax=S...  51.6    9e-15
+  UniRef90_I4HZ27 Cytochrome b6-f complex subunit 5 n=3 Tax=Micro...  51.2    1e-14
+  UniRef90_A0A2H4ZQD5 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  51.2    1e-14
+  UniRef90_A0A1D8DCM9 Cytochrome b6-f complex subunit 5 n=1 Tax=T...  50.8    1e-14
+  UniRef90_K9SIC0 Cytochrome b6-f complex subunit 5 n=1 Tax=Pseud...  50.8    2e-14
+  UniRef90_A0A2T1LZY8 Cytochrome b6-f complex subunit 5 n=1 Tax=A...  50.8    2e-14
+  UniRef90_A0A1X9PVV5 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  50.4    2e-14
+  UniRef90_A0A1L2F1U7 Cytochrome b6-f complex subunit 5 n=12 Tax=...  50.4    2e-14
+  UniRef90_B2X1V8 Cytochrome b6-f complex subunit 5 n=59 Tax=Chlo...  50.4    2e-14
+  UniRef90_A0A3G1IVR1 Cytochrome b6/f complex subunit V n=1 Tax=G...  50.4    3e-14
+  UniRef90_Q4G378 Cytochrome b6-f complex subunit 5 n=6 Tax=Hapto...  50.1    3e-14
+  UniRef90_A0A166QHX9 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  50.1    3e-14
+  UniRef90_Q20EX4 Cytochrome b6-f complex subunit 5 n=16 Tax=Chlo...  50.1    3e-14
+  UniRef90_Q85FK3 Cytochrome b6-f complex subunit 5 n=340 Tax=Vir...  49.7    4e-14
+  UniRef90_A0A1C9JBA6 Cytochrome b6-f complex subunit 5 n=2 Tax=B...  49.7    4e-14
+  UniRef90_Q6YXM1 Cytochrome b6-f complex subunit 5 n=37 Tax=Viri...  49.7    4e-14
+  UniRef90_A0A386AXJ7 Cytochrome b6-f complex subunit 5 n=3 Tax=H...  49.7    5e-14
+  UniRef90_B1X5G6 Cytochrome b6-f complex subunit 5 n=10 Tax=cell...  49.7    5e-14
+  UniRef90_B7T220 Cytochrome b6-f complex subunit 5 n=1 Tax=Vauch...  49.7    5e-14
+  UniRef90_A0T0A0 Cytochrome b6-f complex subunit 5 n=33 Tax=Euka...  49.7    5e-14
+  UniRef90_I0J3M7 Cytochrome b6-f complex subunit 5 n=2 Tax=Eukar...  49.7    5e-14
+  UniRef90_A0A2W6ZHU6 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  49.7    5e-14
+  UniRef90_A0A3C1M0U5 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  49.3    5e-14
+  UniRef90_B7KHU9 Cytochrome b6-f complex subunit 5 n=2 Tax=Cyano...  49.7    6e-14
+  UniRef90_C0JWT3 Cytochrome b6-f complex subunit 5 n=1 Tax=Pycno...  49.3    6e-14
+  UniRef90_A0A023HHZ4 Cytochrome b6-f complex subunit 5 n=12 Tax=...  49.3    7e-14
+  UniRef90_Q7V6M3 Cytochrome b6-f complex subunit 5 n=2 Tax=Proch...  49.3    7e-14
+  UniRef90_A0A023HA74 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  49.3    7e-14
+  UniRef90_Q0P3J2 Cytochrome b6-f complex subunit 5 n=3 Tax=prasi...  49.3    8e-14
+  UniRef90_A0A1I9LK55 Cytochrome b6-f complex subunit 5 n=20 Tax=...  48.9    8e-14
+  UniRef90_A0A2N5JSE1 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  48.9    9e-14
+  UniRef90_A0A0C5BQV9 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  48.9    1e-13
+  UniRef90_A0A088CKF4 Cytochrome b6-f complex subunit 5 n=2 Tax=c...  48.9    1e-13
+  UniRef90_A0A1C9CHH5 Cytochrome b6-f complex subunit 5 n=6 Tax=F...  48.9    1e-13
+  UniRef90_P56305 Cytochrome b6-f complex subunit 5 n=18 Tax=Viri...  48.5    1e-13
+  UniRef90_K9ZXA8 Cytochrome b6-f complex subunit 5 n=8 Tax=Eusti...  48.5    1e-13
+  UniRef90_A0A097KNQ5 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  48.9    1e-13
+  UniRef90_B5INH7 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyano...  48.5    1e-13
+  UniRef90_A0A182AM81 Cytochrome b6-f complex subunit 5 n=4 Tax=C...  48.5    1e-13
+  UniRef90_A0A0F7R4L5 Cytochrome b6-f complex subunit 5 n=1 Tax=L...  48.9    2e-13
+  UniRef90_P83797 Cytochrome b6-f complex subunit 5 n=1 Tax=Masti...  48.1    2e-13
+  UniRef90_A0A286QHP2 Cytochrome b6-f complex subunit 5 n=2 Tax=S...  48.1    2e-13
+  UniRef90_Q7U8A1 Cytochrome b6-f complex subunit 5 n=14 Tax=Cyan...  48.1    2e-13
+  UniRef90_A0A3G3LLD2 Cytochrome b6/f complex subunit V n=1 Tax=D...  48.1    2e-13
+  UniRef90_A0A1Y1B7D5 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  48.1    2e-13
+  UniRef90_A0A223FLY9 Cytochrome b6-f complex subunit 5 n=1 Tax=E...  47.8    3e-13
+  UniRef90_A0A097KND4 Cytochrome b6-f complex subunit 5 n=2 Tax=M...  47.8    3e-13
+  UniRef90_J9QLT8 Cytochrome b6-f complex subunit 5 n=3 Tax=cellu...  47.8    3e-13
+  UniRef90_A0A1J0AE70 Cytochrome b6-f complex subunit 5 n=1 Tax=G...  47.4    3e-13
+  UniRef90_A0A1X9GCR6 Cytochrome b6-f complex subunit 5 n=1 Tax=E...  47.8    3e-13
+  UniRef90_A0A2I4Q2V3 Cytochrome b6-f complex subunit 5 n=1 Tax=D...  47.4    3e-13
+  UniRef90_Q46JZ3 Cytochrome b6-f complex subunit 5 n=4 Tax=Proch...  47.4    3e-13
+  UniRef90_A0A345K4X5 Cytochrome b6-f complex subunit 5 n=2 Tax=C...  47.4    4e-13
+  UniRef90_Q7VBF3 Cytochrome b6-f complex subunit 5 n=2 Tax=Proch...  47.4    4e-13
+  UniRef90_C7BED4 Cytochrome b6-f complex subunit 5 n=1 Tax=Negle...  47.4    4e-13
+  UniRef90_C1IXT8 Cytochrome b6-f complex subunit 5 n=2 Tax=Pinus...  47.4    4e-13
+  UniRef90_H2EV23 Cytochrome b6-f complex subunit 5 n=7 Tax=Bacil...  47.0    5e-13
+  UniRef90_A0A097KKE6 Cytochrome b6-f complex subunit 5 n=2 Tax=T...  47.0    5e-13
+  UniRef90_A0A2Z4YXF8 Cytochrome b6-f complex subunit 5 n=1 Tax=E...  47.0    5e-13
+  UniRef90_A0A3M1KUD4 Cytochrome b6-f complex subunit PetG (Fragm...  47.0    5e-13
+  UniRef90_A0A023HI06 Cytochrome b6-f complex subunit 5 n=2 Tax=E...  47.0    5e-13
+  UniRef90_A0A1C9CDR8 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  47.0    6e-13
+  UniRef90_A0A2U9NSN3 Cytochrome b6-f complex subunit 5 n=2 Tax=B...  47.0    6e-13
+  UniRef90_A0A0G3SFL4 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  47.0    6e-13
+  UniRef90_A0A3B6GPW8 Uncharacterized protein n=1 Tax=Triticum ae...  46.6    7e-13
+  UniRef90_Q06FK7 Cytochrome b6-f complex subunit 5 n=27 Tax=Pent...  46.6    7e-13
+  UniRef90_A0A1C9JBM3 Cytochrome b6-f complex subunit 5 n=4 Tax=C...  46.6    7e-13
+  UniRef90_A0A345UC55 Cytochrome b6-f complex subunit 5 n=1 Tax=E...  46.6    8e-13
+  UniRef90_A9BB51 Cytochrome b6-f complex subunit 5 n=1 Tax=Proch...  46.6    9e-13
+  UniRef90_Q3ZJ64 Cytochrome b6-f complex subunit 5 n=16 Tax=Ulvo...  46.6    9e-13
+  UniRef90_Q7V129 Cytochrome b6-f complex subunit 5 n=3 Tax=Proch...  46.6    9e-13
+  UniRef90_A3PDG2 Cytochrome b6-f complex subunit 5 n=14 Tax=root...  46.6    9e-13
+  UniRef90_M1EV36 Cytochrome b6-f complex subunit 5 n=2 Tax=Eugle...  46.6    9e-13
+  UniRef90_A0A0G2HJN8 Cytochrome b6-f complex subunit 5 n=8 Tax=S...  46.2    1e-12
+  UniRef90_A0A2P0MSZ4 Cytochrome b6-f complex subunit 5 n=1 Tax=K...  46.2    1e-12
+  UniRef90_E2DSJ8 Cytochrome b6-f complex subunit 5 n=1 Tax=Floyd...  46.2    1e-12
+  UniRef90_A0A1I9LKI8 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  46.2    1e-12
+  UniRef90_A0A088CJ68 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  46.2    1e-12
+  UniRef90_A0A2D5RB36 Cytochrome b6-f complex subunit 5 n=1 Tax=S...  46.2    1e-12
+  UniRef90_A0A2Z5D4H7 Cytochrome b6-f complex subunit 5 n=3 Tax=P...  45.8    1e-12
+  UniRef90_A0A2P6FLQ8 Cytochrome b6-f complex subunit PetG n=1 Ta...  45.8    2e-12
+  UniRef90_Q5SD34 Cytochrome b6-f complex subunit 5 n=28 Tax=Embr...  45.8    2e-12
+  UniRef90_L0BGK3 Cytochrome b6-f complex subunit 5 n=2 Tax=Monom...  45.8    2e-12
+  UniRef90_A0A0G3VR37 Cytochrome b6-f complex subunit 5 n=1 Tax=T...  45.4    2e-12
+  UniRef90_B7ZIH3 Cytochrome b6-f complex subunit 5 n=1 Tax=Ephed...  45.4    2e-12
+  UniRef90_Q08362 Cytochrome b6-f complex subunit 5 n=12 Tax=Chla...  45.4    2e-12
+  UniRef90_C6KIY6 Cytochrome b6-f complex subunit 5 n=1 Tax=Aureo...  45.4    2e-12
+  UniRef90_A0A2P0QI44 Cytochrome b6-f complex subunit 5 n=2 Tax=C...  45.4    2e-12
+  UniRef90_A0A3G5CRE3 Cytochrome b6/f complex subunit V n=1 Tax=J...  45.4    2e-12
+  UniRef90_C1KR39 Cytochrome b6-f complex subunit 5 n=1 Tax=Micro...  45.1    3e-12
+  UniRef90_A0A1B0UL40 Cytochrome b6-f complex subunit 5 n=1 Tax=E...  45.1    3e-12
+  UniRef90_A0A0B5H7V3 Cytochrome b6-f complex subunit 5 n=1 Tax=S...  45.1    3e-12
+  UniRef90_P30396 Cytochrome b6-f complex subunit 5 n=2 Tax=Eugle...  45.1    3e-12
+  UniRef90_A0A0G3FB99 Cytochrome b6-f complex subunit 5 n=1 Tax=E...  45.1    4e-12
+  UniRef90_P56775 Cytochrome b6-f complex subunit 5 n=986 Tax=Mag...  44.7    4e-12
+  UniRef90_V5IZ39 Cytochrome b6-f complex subunit 5 n=2 Tax=Sedum...  44.7    4e-12
+  UniRef90_B3TN69 Cytochrome b6-f complex subunit 5 n=3100 Tax=Vi...  44.7    4e-12
+  UniRef90_A0A172F1Z2 Cytochrome b6-f complex subunit 5 n=1 Tax=P...  44.7    5e-12
+  UniRef90_A6YG69 Cytochrome b6-f complex subunit 5 n=15 Tax=cell...  44.7    5e-12
+  UniRef90_A0A0D3M5D0 Cytochrome b6-f complex subunit 5 n=1 Tax=T...  44.3    5e-12
+  UniRef90_A0A2T1D901 Cytochrome b6-f complex subunit 5 n=1 Tax=f...  44.3    8e-12
+  UniRef90_Q0G9U3 Cytochrome b6-f complex subunit 5 n=66 Tax=Mesa...  43.9    8e-12
+  UniRef90_A0A1X9RPY1 Cytochrome b6-f complex subunit 5 n=5 Tax=B...  43.9    9e-12
+  UniRef90_B0YPP7 Cytochrome b6-f complex subunit 5 n=2 Tax=Aneur...  43.5    1e-11
+  UniRef90_A8W3E0 Cytochrome b6-f complex subunit 5 n=2 Tax=Monog...  43.1    2e-11
+  UniRef90_A0A3B6FIZ2 Uncharacterized protein n=1 Tax=Triticum ae...  43.1    2e-11
+  UniRef90_G7JFY6 Cytochrome b6-F complex subunit 5 n=1 Tax=Medic...  43.9    2e-11
+  UniRef90_G7L7R5 Cytochrome b6-F complex subunit 5 n=28 Tax=Sper...  45.4    3e-11
+  UniRef90_Q7NNA0 Cytochrome b6-f complex subunit 5 n=2 Tax=Gloeo...  42.0    6e-11
+  UniRef90_K9T7L3 Cytochrome b6-f complex subunit 5 n=6 Tax=Pleur...  41.6    8e-11
+  UniRef90_A0A1Z4RM42 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  40.0    3e-10
+  UniRef90_K9Z6N5 Cytochrome b6-f complex subunit 5 n=5 Tax=Cyano...  39.3    6e-10
+  UniRef90_B1XNK6 Cytochrome b6-f complex subunit 5 n=5 Tax=Synec...  38.5    1e-09
+  UniRef90_U5DK56 Cytochrome b6-f complex subunit 5 n=1 Tax=Rubid...  36.2    9e-09
+  UniRef90_A0A1C0UZ44 Cytochrome b6-f complex subunit 5 n=2 Tax=L...  36.2    1e-08
+  UniRef90_K9YVL9 Cytochrome b6-f complex subunit 5 n=4 Tax=Cyano...  35.8    1e-08
+  UniRef90_B1WY29 Cytochrome b6-f complex subunit 5 n=46 Tax=Terr...  35.8    1e-08
+  UniRef90_U9VYH6 Cytochrome b6-f complex subunit 5 n=2 Tax=Lepto...  34.7    5e-08
+  UniRef90_A0A2T2RY87 Cytochrome b6-f complex subunit 5 n=1 Tax=C...  34.3    5e-08
+  UniRef90_A0A2T1BY06 Cytochrome b6-f complex subunit 5 n=1 Tax=M...  33.5    1e-07
+  UniRef90_A0A2W7B6X9 Cytochrome b6-f complex subunit 5 n=1 Tax=S...  33.5    1e-07
+  UniRef90_A0A3G2QZV8 Cytochrome b6/f complex subunit V n=1 Tax=N...  33.1    2e-07
+  UniRef90_A0A1X9PUZ0 Cytochrome b6-f complex subunit 5 n=1 Tax=B...  32.7    2e-07
+  UniRef90_A0A1C9CEH3 Cytochrome b6-f complex subunit 5 n=1 Tax=E...  28.9    8e-06
+  UniRef90_A0A3G3LLY3 Cytochrome b6/f complex subunit V n=1 Tax=P...  25.4    2e-04
+  UniRef90_A0A3G3LKV5 Cytochrome b6/f complex subunit V n=1 Tax=P...  24.6    4e-04
+  UniRef90_I6NJW2 Cytochrome b6-f complex subunit 5 n=1 Tax=Colac...  17.7    0.23 
+
+
+> UniRef90_P58246 Cytochrome b6-f complex subunit 5 n=25 Tax=Nostocales 
+TaxID=1161 RepID=PETG_NOSS1
+Length=37
+
+ Score = 73.9 bits (180),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 37/37 (100%), Positives = 37/37 (100%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG
+Sbjct  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+
+
+> UniRef90_A0A0M0SG55 Cytochrome b6-f complex subunit 5 n=2 Tax=Hapalosiphonaceae 
+TaxID=1892263 RepID=A0A0M0SG55_9CYAN
+Length=62
+
+ Score = 68.6 bits (166),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 33/37 (89%), Positives = 35/37 (95%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           +VEPLL GIVLGLI VTL+GLFYAAYKQYKRPNELGG
+Sbjct  26  VVEPLLDGIVLGLIFVTLSGLFYAAYKQYKRPNELGG  62
+
+
+> UniRef90_A0A2N6M2H6 Cytochrome b6-f complex subunit 5 n=9 Tax=Fischerella 
+TaxID=1190 RepID=A0A2N6M2H6_9CYAN
+Length=37
+
+ Score = 66.6 bits (161),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 32/37 (86%), Positives = 34/37 (92%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLL GIVLGLI VTLAGLFY AY+QYKRPN+LGG
+Sbjct  1   MVEPLLDGIVLGLIFVTLAGLFYKAYQQYKRPNQLGG  37
+
+
+> UniRef90_A0A0R0MAQ4 Cytochrome b6-f complex subunit 5 n=10 Tax=Nostocales 
+TaxID=1161 RepID=A0A0R0MAQ4_9CYAN
+Length=37
+
+ Score = 65.5 bits (158),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 32/37 (86%), Positives = 35/37 (95%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLLSGIVLGLI VTL+GLFYAAY+QYKRP+ LGG
+Sbjct  1   MVEPLLSGIVLGLIFVTLSGLFYAAYRQYKRPSGLGG  37
+
+
+> UniRef90_K9TG38 Cytochrome b6-f complex subunit 5 n=1 Tax=Oscillatoria 
+acuminata PCC 6304 TaxID=56110 RepID=K9TG38_9CYAN
+Length=37
+
+ Score = 64.7 bits (156),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 31/36 (86%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGL+VVTLAGLF+AAY+QYKR N+LG
+Sbjct  1   MVEPLLSGIVLGLVVVTLAGLFFAAYQQYKRGNDLG  36
+
+
+> UniRef90_A0A0S3TKB5 Cytochrome b6-f complex subunit 5 n=2 Tax=Fischerella 
+TaxID=1190 RepID=A0A0S3TKB5_9CYAN
+Length=62
+
+ Score = 65.5 bits (158),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 31/37 (84%), Positives = 34/37 (92%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           +VEPLL GIVLGLI VTLAGLFY AY+QYKRPN+LGG
+Sbjct  26  VVEPLLDGIVLGLIFVTLAGLFYKAYQQYKRPNQLGG  62
+
+
+> UniRef90_Q113E9 Cytochrome b6-f complex subunit 5 n=1 Tax=Trichodesmium 
+erythraeum (strain IMS101) TaxID=203124 RepID=PETG_TRIEI
+Length=37
+
+ Score = 62.4 bits (150),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 29/37 (78%), Positives = 35/37 (95%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLLSG+VLGLI+VTL+GLF+AAY+QYKR N+L G
+Sbjct  1   MVEPLLSGVVLGLILVTLSGLFFAAYQQYKRGNQLNG  37
+
+
+> UniRef90_A0A352X7B8 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanobacteria 
+bacterium UBA11367 TaxID=2055774 RepID=A0A352X7B8_9CYAN
+Length=38
+
+ Score = 62.0 bits (149),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI VTL+GLF+AAY QYKR N+LG
+Sbjct  1   MVEPLLSGIVLGLIAVTLSGLFFAAYMQYKRGNQLG  36
+
+
+> UniRef90_A0A073CVN1 Cytochrome b6-f complex subunit 5 n=14 Tax=Oscillatoriales 
+TaxID=1150 RepID=A0A073CVN1_PLAAG
+Length=38
+
+ Score = 61.6 bits (148),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 34/36 (94%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLIVVTL+GLF+AAY+QY+R N+L 
+Sbjct  1   MVEPLLSGIVLGLIVVTLSGLFFAAYQQYRRGNQLN  36
+
+
+> UniRef90_X5JWY4 Cytochrome b6-f complex subunit 5 n=4 Tax=Richelia 
+TaxID=98443 RepID=X5JWY4_9NOST
+Length=37
+
+ Score = 61.2 bits (147),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 30/37 (81%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLL GIVLGLI VTL GL +AAY+QYKRP ELGG
+Sbjct  1   MVEPLLCGIVLGLIPVTLGGLLFAAYQQYKRPTELGG  37
+
+
+> UniRef90_A0A3M2GFJ1 Cytochrome b6-f complex subunit PetG n=1 
+Tax=Cyanobacteria bacterium J007 TaxID=2420339 RepID=A0A3M2GFJ1_9CYAN
+Length=37
+
+ Score = 60.8 bits (146),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 29/35 (83%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI VTLAGLF+AAY+QYKR N+ 
+Sbjct  1   MVEPLLSGIVLGLITVTLAGLFFAAYQQYKRGNQF  35
+
+
+> UniRef90_A0A0C1QZA3 Cytochrome b6-f complex subunit 5 n=4 Tax=Cyanobacteria 
+TaxID=1117 RepID=A0A0C1QZA3_9CYAN
+Length=37
+
+ Score = 60.8 bits (146),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL GIVLGLI VTLAGLFY AY+QYKR N+LG
+Sbjct  1   MVEPLLDGIVLGLIFVTLAGLFYKAYEQYKRGNQLG  36
+
+
+> UniRef90_A0A0C2LEM2 Cytochrome b6-f complex subunit 5 n=2 Tax=Nostocales 
+TaxID=1161 RepID=A0A0C2LEM2_9CYAN
+Length=37
+
+ Score = 60.5 bits (145),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL GIVLGLI VTL+GLFY AY+QYKR N+LG
+Sbjct  1   MVEPLLDGIVLGLIFVTLSGLFYKAYQQYKRGNQLG  36
+
+
+> UniRef90_K9RJF4 Cytochrome b6-f complex subunit 5 n=2 Tax=Rivulariaceae 
+TaxID=1185 RepID=K9RJF4_9CYAN
+Length=37
+
+ Score = 60.5 bits (145),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL G+VLGL+ VTLAGLFY AY+QYKR NELG
+Sbjct  1   MVEPLLDGMVLGLVFVTLAGLFYKAYEQYKRGNELG  36
+
+
+> UniRef90_A0A3M1T4Y6 Cytochrome b6-f complex subunit PetG n=1 
+Tax=Cyanobacteria bacterium J055 TaxID=2420338 RepID=A0A3M1T4Y6_9CYAN
+Length=39
+
+ Score = 60.1 bits (144),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 30/31 (97%), Positives = 31/31 (100%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEPLLSGIVLGLIVVTLAGLFYAAY+QYKR
+Sbjct  1   MVEPLLSGIVLGLIVVTLAGLFYAAYEQYKR  31
+
+
+> UniRef90_A0A1U7IPJ0 Cytochrome b6-f complex subunit 5 n=1 Tax=Phormidium 
+ambiguum IAM M-71 TaxID=454136 RepID=A0A1U7IPJ0_9CYAN
+Length=37
+
+ Score = 60.1 bits (144),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGL++VTLAGLF AAY QYKR N+LG
+Sbjct  1   MVEPLLSGIVLGLVLVTLAGLFVAAYLQYKRGNQLG  36
+
+
+> UniRef90_A0A2T1EP75 Cytochrome b6-f complex subunit 5 n=1 Tax=Chlorogloea 
+sp. CCALA 695 TaxID=2107693 RepID=A0A2T1EP75_9CHRO
+Length=37
+
+ Score = 59.7 bits (143),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL G+VLGLI +TLAGLF+AAYKQYKR  +LG
+Sbjct  1   MVEPLLDGMVLGLIAITLAGLFFAAYKQYKRGKQLG  36
+
+
+> UniRef90_A0A2T2RPV7 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanobacteria 
+bacterium QH_9_48_43 TaxID=1919126 RepID=A0A2T2RPV7_9CYAN
+Length=34
+
+ Score = 58.2 bits (139),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 26/34 (76%), Positives = 32/34 (94%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           M+EPLLSGIVLGLI+VTLAGLF+ AY+QY+R N+
+Sbjct  1   MLEPLLSGIVLGLILVTLAGLFFDAYRQYRRSNQ  34
+
+
+> UniRef90_K9WKR1 Cytochrome b6-f complex subunit 5 n=11 Tax=Cyanobacteria 
+TaxID=1117 RepID=K9WKR1_9CYAN
+Length=39
+
+ Score = 57.8 bits (138),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 30/36 (83%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI VTLAGLF AAY QYKR ++LG
+Sbjct  1   MVEPLLSGIVLGLIPVTLAGLFVAAYMQYKRGDQLG  36
+
+
+> UniRef90_K9YGX9 Cytochrome b6-f complex subunit 5 n=3 Tax=Cyanobacterium 
+TaxID=102234 RepID=K9YGX9_CYASC
+Length=38
+
+ Score = 57.8 bits (138),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL GIV+GLI VTL GLF+AAY+QYKR NE+G
+Sbjct  1   MVEPLLLGIVIGLIPVTLLGLFFAAYRQYKRTNEIG  36
+
+
+> UniRef90_K9ULX1 Cytochrome b6-f complex subunit 5 n=2 Tax=Chamaesiphon 
+TaxID=217161 RepID=K9ULX1_CHAP6
+Length=37
+
+ Score = 57.4 bits (137),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGL+ +TL+GLF AAY QYKR N++G
+Sbjct  1   MVEPLLSGIVLGLVFITLSGLFAAAYMQYKRGNQIG  36
+
+
+> UniRef90_B8HUQ7 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanothece 
+sp. (strain PCC 7425 / ATCC 29141) TaxID=395961 RepID=PETG_CYAP4
+Length=37
+
+ Score = 57.4 bits (137),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL GIVLGLI +TLAGLF AAY+QYKR  ELG
+Sbjct  1   MVEPLLCGIVLGLIPITLAGLFVAAYQQYKRGKELG  36
+
+
+> UniRef90_A0A1E5QFR6 Cytochrome b6-f complex subunit 5 n=3 Tax=Cyanobacteria 
+TaxID=1117 RepID=A0A1E5QFR6_9CYAN
+Length=37
+
+ Score = 57.0 bits (136),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPL+SGIVLGLI VT+AGLF AAY QYKR N+LG
+Sbjct  1   MVEPLISGIVLGLIPVTIAGLFVAAYLQYKRGNQLG  36
+
+
+> UniRef90_A0A0D3ML41 Cytochrome b6-f complex subunit 5 n=1 Tax=Ochromonas 
+sp. CCMP1393 TaxID=420556 RepID=A0A0D3ML41_9STRA
+Length=37
+
+ Score = 57.0 bits (136),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGL+ +TLAGLF AAY Q+KR NEL 
+Sbjct  1   MVEPLLSGIVLGLMAITLAGLFVAAYLQFKRGNELA  36
+
+
+> UniRef90_Q2JJ29 Cytochrome b6-f complex subunit 5 n=3 Tax=Synechococcus 
+TaxID=1129 RepID=PETG_SYNJB
+Length=37
+
+ Score = 57.0 bits (136),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EP+L GIVLG++VVTLAGLF AAY+QY+R N++G
+Sbjct  1   MIEPILLGIVLGMVVVTLAGLFVAAYRQYQRSNKIG  36
+
+
+> UniRef90_A0A3G2QYJ1 Cytochrome b6/f complex subunit V n=1 Tax=Synura 
+petersenii TaxID=52555 RepID=A0A3G2QYJ1_9STRA
+Length=37
+
+ Score = 57.0 bits (136),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGI+LGL+ VTLAGLF AAY Q+KR NEL
+Sbjct  1   MVEPLLSGIILGLMAVTLAGLFVAAYLQFKRGNEL  35
+
+
+> UniRef90_A0A1D9G6M9 Cytochrome b6-f complex subunit 5 n=3 Tax=Moorea 
+TaxID=1155738 RepID=A0A1D9G6M9_9CYAN
+Length=37
+
+ Score = 57.0 bits (136),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 29/37 (78%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLL GIVLGLI VTL GLF+AAY QY+R N+LGG
+Sbjct  1   MVEPLLVGIVLGLIPVTLLGLFFAAYMQYQRGNQLGG  37
+
+
+> UniRef90_A0A2W6YWI8 Cytochrome b6-f complex subunit 5 n=2 Tax=Cyanobacteria 
+TaxID=1117 RepID=A0A2W6YWI8_9CYAN
+Length=37
+
+ Score = 56.6 bits (135),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 28/37 (76%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLLSGIVLG I VTLAGLF AAY QY+R N+L  
+Sbjct  1   MVEPLLSGIVLGFIPVTLAGLFVAAYMQYRRDNQLNS  37
+
+
+> UniRef90_A0A1X9PV39 Cytochrome b6-f complex subunit 5 n=1 Tax=Rhodochaete 
+parvula TaxID=110510 RepID=A0A1X9PV39_9RHOD
+Length=37
+
+ Score = 56.6 bits (135),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGI+LGLI VTLAGLF AAY Q++R N+LG
+Sbjct  1   MVEPLLSGIILGLIPVTLAGLFVAAYLQFRRGNQLG  36
+
+
+> UniRef90_A0A3G2QZH1 Cytochrome b6/f complex subunit V n=1 Tax=Mallomonas 
+splendens TaxID=52552 RepID=A0A3G2QZH1_9STRA
+Length=37
+
+ Score = 56.2 bits (134),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI +TL GLF AAY Q+KR NEL 
+Sbjct  1   MVEPLLSGIVLGLITITLLGLFVAAYLQFKRGNELA  36
+
+
+> UniRef90_Q8DKI2 Cytochrome b6-f complex subunit 5 n=5 Tax=Cyanobacteria 
+TaxID=1117 RepID=PETG_THEEB
+Length=37
+
+ Score = 56.2 bits (134),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+EPLL GIVLGLI VTLAGLF+AAY+QYKR ++L
+Sbjct  1   MIEPLLCGIVLGLIPVTLAGLFFAAYQQYKRGSQL  35
+
+
+> UniRef90_Q9Z3G1 Cytochrome b6-f complex subunit 5 n=3 Tax=Synechococcus 
+elongatus TaxID=32046 RepID=PETG_SYNE7
+Length=37
+
+ Score = 55.8 bits (133),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI +TLAGLF AAY QY+R N+LG
+Sbjct  1   MIEPLLCGIVLGLIPITLAGLFMAAYLQYRRGNQLG  36
+
+
+> UniRef90_B0BYQ1 Cytochrome b6-f complex subunit 5 n=1 Tax=Acaryochloris 
+marina (strain MBIC 11017) TaxID=329726 RepID=PETG_ACAM1
+Length=36
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL+GIVLGL+ VTLAGLF AA++QYKR  E+G
+Sbjct  1   MVEPLLAGIVLGLVPVTLAGLFVAAWQQYKRGEEVG  36
+
+
+> UniRef90_A0A0C1XLJ7 Cytochrome b6-f complex subunit 5 n=2 Tax=Tolypothrichaceae 
+TaxID=119859 RepID=A0A0C1XLJ7_9CYAN
+Length=62
+
+ Score = 56.2 bits (134),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           +VEPLLSGIV+GLI+VTLAGLFY AY+Q+KR  +LG
+Sbjct  26  VVEPLLSGIVIGLILVTLAGLFYKAYEQFKRGEKLG  61
+
+
+> UniRef90_A0A1Z4R7Z9 Cytochrome b6-f complex subunit 5 n=1 Tax=Calothrix 
+sp. NIES-4101 TaxID=2005461 RepID=A0A1Z4R7Z9_9CYAN
+Length=45
+
+ Score = 55.5 bits (132),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           +VEPLL GIV+GLI VTLAGLFY AY QYKR N+LG
+Sbjct  9   VVEPLLCGIVIGLIPVTLAGLFYKAYIQYKRGNQLG  44
+
+
+> UniRef90_A0A3G2QYY8 Cytochrome b6/f complex subunit V n=1 Tax=Synura 
+sphagnicola TaxID=52556 RepID=A0A3G2QYY8_9STRA
+Length=37
+
+ Score = 55.5 bits (132),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLL+GIVLGLI VTL GLF AAY Q+KR NEL
+Sbjct  1   MVEPLLTGIVLGLITVTLFGLFVAAYLQFKRGNEL  35
+
+
+> UniRef90_K9RT76 Cytochrome b6-f complex subunit 5 n=1 Tax=Synechococcus 
+sp. (strain ATCC 27167 / PCC 6312) TaxID=195253 RepID=K9RT76_SYNP3
+Length=37
+
+ Score = 55.5 bits (132),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI VTLAGLF AAY QYKR ++LG
+Sbjct  1   MIEPLLCGIVLGLIPVTLAGLFVAAYLQYKRGDQLG  36
+
+
+> UniRef90_B4WIH0 Cytochrome b6-f complex subunit 5 n=3 Tax=Synechococcales 
+TaxID=1890424 RepID=B4WIH0_SYNS7
+Length=37
+
+ Score = 55.5 bits (132),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/37 (76%), Positives = 31/37 (84%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLLSGIVLGLI  TL GLF AAY QY+R ++LGG
+Sbjct  1   MVEPLLSGIVLGLIPATLIGLFVAAYMQYRRGDQLGG  37
+
+
+> UniRef90_K9U1I7 Cytochrome b6-f complex subunit 5 n=5 Tax=Cyanobacteria 
+TaxID=1117 RepID=K9U1I7_9CYAN
+Length=38
+
+ Score = 55.1 bits (131),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL G+VLGLI VTLAGLF+ AY+Q+KR  +LG
+Sbjct  1   MVEPLLDGMVLGLIFVTLAGLFFKAYEQFKRGKKLG  36
+
+
+> UniRef90_A0A2A2TEU2 Cytochrome b6-f complex subunit 5 n=1 Tax=Calothrix 
+elsteri CCALA 953 TaxID=987040 RepID=A0A2A2TEU2_9CYAN
+Length=37
+
+ Score = 55.1 bits (131),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL G+VLGL ++TL+GLFY AY QYKR N+LG
+Sbjct  1   MVEPLLCGMVLGLSLITLSGLFYKAYIQYKRGNQLG  36
+
+
+> UniRef90_K8GJW3 Cytochrome b6-f complex subunit 5 n=2 Tax=Cyanobacteria 
+TaxID=1117 RepID=K8GJW3_9CYAN
+Length=37
+
+ Score = 55.1 bits (131),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EP+L GIVLGLI VTLAGLF AAY QY+R NELG
+Sbjct  1   MIEPILLGIVLGLIPVTLAGLFVAAYLQYRRGNELG  36
+
+
+> UniRef90_A0A1C9CCX2 Cytochrome b6-f complex subunit 5 n=1 Tax=Bangiopsis 
+subsimplex TaxID=139980 RepID=A0A1C9CCX2_9RHOD
+Length=37
+
+ Score = 54.7 bits (130),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI VTL GLF AAY QY+R N++G
+Sbjct  1   MVEPLLSGIVLGLIPVTLLGLFSAAYLQYRRGNQIG  36
+
+
+> UniRef90_A0A1X9PTM2 Cytochrome b6-f complex subunit 5 n=1 Tax=Bulboplastis 
+apyrenoidosa TaxID=1070855 RepID=A0A1X9PTM2_9RHOD
+Length=37
+
+ Score = 54.7 bits (130),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEP+LSGI+LGLIVVTL+GLF AA+ QYKR  +  
+Sbjct  1   MVEPMLSGIILGLIVVTLSGLFVAAFLQYKRSQQFN  36
+
+
+> UniRef90_A0A1Z1MS60 Cytochrome b6-f complex subunit 5 n=6 Tax=Polysiphonioideae 
+TaxID=2008651 RepID=A0A1Z1MS60_9FLOR
+Length=37
+
+ Score = 54.3 bits (129),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI +TL+GL  AAY QY+R N+LG
+Sbjct  1   MVEPLLSGIVLGLIPITLSGLLVAAYLQYRRGNQLG  36
+
+
+> UniRef90_K9V6F5 Cytochrome b6-f complex subunit 5 n=2 Tax=Calothrix 
+TaxID=1186 RepID=K9V6F5_9CYAN
+Length=45
+
+ Score = 54.3 bits (129),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           ++EPLL GIVLGLI +TLAGLFY AY QYKR ++LG
+Sbjct  9   VIEPLLCGIVLGLIPITLAGLFYKAYVQYKRGDQLG  44
+
+
+> UniRef90_A0A098TN63 Cytochrome b6-f complex subunit 5 n=1 Tax=Neosynechococcus 
+sphagnicola sy1 TaxID=1497020 RepID=A0A098TN63_9CYAN
+Length=37
+
+ Score = 53.9 bits (128),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL+GIV+GLI VTL GLF AAY QY+R N+LG
+Sbjct  1   MVEPLLTGIVMGLIPVTLLGLFVAAYLQYRRGNQLG  36
+
+
+> UniRef90_P51318 Cytochrome b6-f complex subunit 5 n=6 Tax=Rhodophyta 
+TaxID=2763 RepID=PETG_PORPU
+Length=37
+
+ Score = 53.9 bits (128),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGI+LGLI VTL+GL  AAY QY+R N+LG
+Sbjct  1   MVEPLLSGIILGLIPVTLSGLLVAAYLQYQRGNQLG  36
+
+
+> UniRef90_A0A075W7V8 Cytochrome b6-f complex subunit 5 n=1 Tax=Galdieria 
+sulphuraria TaxID=130081 RepID=A0A075W7V8_GALSU
+Length=35
+
+ Score = 53.5 bits (127),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGLI +TL+GLF AAY QYKR +E 
+Sbjct  1   MVETLLSGIVLGLIFITLSGLFIAAYLQYKRSSEF  35
+
+
+> UniRef90_B2XTJ5 Cytochrome b6-f complex subunit 5 n=2 Tax=Heterosigma 
+akashiwo TaxID=2829 RepID=B2XTJ5_HETA4
+Length=37
+
+ Score = 53.5 bits (127),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLG+I VTL GLF AAY QYKR N+LG
+Sbjct  1   MIEPLLFGIVLGMIPVTLTGLFVAAYLQYKRGNQLG  36
+
+
+> UniRef90_A0A088CI64 Cytochrome b6-f complex subunit 5 n=1 Tax=Prasinococcus 
+sp. CCMP1194 TaxID=110672 RepID=A0A088CI64_9CHLO
+Length=37
+
+ Score = 53.5 bits (127),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI VTL GLF+AAY QY+R +++
+Sbjct  1   MVEPLLSGIVLGLIPVTLIGLFFAAYLQYRRGDQM  35
+
+
+> UniRef90_A0A1C9C7B2 Cytochrome b6-f complex subunit 5 n=19 Tax=cellular 
+organisms TaxID=131567 RepID=A0A1C9C7B2_RHOPU
+Length=37
+
+ Score = 53.1 bits (126),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI VTL GL  AAY QY+R N+LG
+Sbjct  1   MVEPLLSGIVLGLIPVTLLGLLVAAYLQYRRGNQLG  36
+
+
+> UniRef90_A0A3G1IVL1 Cytochrome b6/f complex subunit V n=2 Tax=Glaucocystis 
+TaxID=38258 RepID=A0A3G1IVL1_9EUKA
+Length=37
+
+ Score = 53.1 bits (126),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI VTL GLF AAY QY+R N+L
+Sbjct  1   MVEPLLSGIVLGLIPVTLFGLFTAAYLQYRRGNQL  35
+
+
+> UniRef90_A0A086CHU4 Cytochrome b6-f complex subunit 5 n=1 Tax=Candidatus 
+Atelocyanobacterium thalassa isolate SIO64986 TaxID=1527444 
+RepID=A0A086CHU4_9CHRO
+Length=38
+
+ Score = 53.1 bits (126),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI +TL+GLF +AY QYKR N+L 
+Sbjct  1   MIEPLLMGIVLGLIPITLSGLFVSAYLQYKRSNQLN  36
+
+
+> UniRef90_A0A1C9CGX6 Cytochrome b6-f complex subunit 5 n=1 Tax=Palmaria 
+palmata TaxID=2822 RepID=A0A1C9CGX6_PALPL
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI +T+AGL  AAY QY+R N+ G
+Sbjct  1   MVEPLLSGIVLGLIPITIAGLLVAAYIQYRRGNQFG  36
+
+
+> UniRef90_A0A1C9CBG7 Cytochrome b6-f complex subunit 5 n=1 Tax=Apophlaea 
+sinclairii TaxID=212746 RepID=A0A1C9CBG7_9FLOR
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGL+ VTL GLF AAY Q++R N+LG
+Sbjct  1   MIEPLLFGIVLGLVAVTLLGLFVAAYLQFRRANKLG  36
+
+
+> UniRef90_A0A1C9CA96 Cytochrome b6-f complex subunit 5 n=1 Tax=Thorea 
+hispida TaxID=202687 RepID=A0A1C9CA96_9FLOR
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGL+ +TLAGL  AAY QYKR +++G
+Sbjct  1   MVEPLLSGIVLGLVPITLAGLLTAAYLQYKRGSQIG  36
+
+
+> UniRef90_Q05XR0 Cytochrome b6-f complex subunit 5 n=1 Tax=Synechococcus 
+sp. RS9916 TaxID=221359 RepID=Q05XR0_9SYNE
+Length=47
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           M+EPLL GIVLGLI VTL GLF AA+ QY+R + LGG
+Sbjct  11  MIEPLLCGIVLGLIPVTLLGLFVAAWNQYRRGSALGG  47
+
+
+> UniRef90_A5GM56 Cytochrome b6-f complex subunit 5 n=17 Tax=Bacteria 
+TaxID=2 RepID=PETG_SYNPW
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           M+EPLL GIVLGLI VTL GLF AA+ QY+R + LGG
+Sbjct  1   MIEPLLCGIVLGLIPVTLLGLFVAAWNQYRRGSALGG  37
+
+
+> UniRef90_M1K3W3 Cytochrome b6-f complex subunit 5 n=1 Tax=Diacronema 
+lutheri TaxID=2081491 RepID=M1K3W3_DIALT
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI VT  GLF AA+ QY+R N+LG
+Sbjct  1   MVEPLLSGIVLGLIPVTALGLFVAAFLQYRRGNQLG  36
+
+
+> UniRef90_A0A3G2QZ48 Cytochrome b6/f complex subunit V n=1 Tax=Synura 
+uvella TaxID=52557 RepID=A0A3G2QZ48_9STRA
+Length=37
+
+ Score = 52.8 bits (125),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLL+GIVLGLI VTL GLF AAY Q+KR N L
+Sbjct  1   MVEPLLTGIVLGLISVTLLGLFVAAYLQFKRGNAL  35
+
+
+> UniRef90_A0A0S3U7Y5 Cytochrome b6-f complex subunit 5 n=3 Tax=Leptolyngbya 
+TaxID=47251 RepID=A0A0S3U7Y5_9CYAN
+Length=37
+
+ Score = 52.4 bits (124),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEP+L GIVLGL+ VTLAGLF AAY QY+R N+L 
+Sbjct  1   MVEPILLGIVLGLVPVTLAGLFVAAYTQYRRGNQLN  36
+
+
+> UniRef90_A0A0P8DMK8 Cytochrome b6-f complex subunit 5 n=2 Tax=Phormidium 
+TaxID=1198 RepID=A0A0P8DMK8_9CYAN
+Length=38
+
+ Score = 52.4 bits (124),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLL+GIVLGL+ +TLAGLF AAY QY+R N L
+Sbjct  1   MVEPLLAGIVLGLVPITLAGLFVAAYLQYRRGNAL  35
+
+
+> UniRef90_Q19VC5 Cytochrome b6-f complex subunit 5 n=5 Tax=Viridiplantae 
+TaxID=33090 RepID=PETG_CHLAT
+Length=37
+
+ Score = 52.4 bits (124),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI VTLAGLF  AY QY+R ++L
+Sbjct  1   MVEPLLSGIVLGLIPVTLAGLFVTAYLQYRRGDKL  35
+
+
+> UniRef90_Q1ACI5 Cytochrome b6-f complex subunit 5 n=2 Tax=Chara 
+vulgaris TaxID=55564 RepID=PETG_CHAVU
+Length=37
+
+ Score = 52.4 bits (124),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MVEPLLSGIVLGLIPITLAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_P14236 Cytochrome b6-f complex subunit 5 n=12 Tax=Eukaryota 
+TaxID=2759 RepID=PETG_CYAPA
+Length=37
+
+ Score = 52.4 bits (124),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI VTL GLF AAY QY+R N+ 
+Sbjct  1   MVEPLLSGIVLGLIPVTLIGLFVAAYLQYRRGNQF  35
+
+
+> UniRef90_A0A3G1IW98 Cytochrome b6/f complex subunit V n=1 Tax=Cyanoptyche 
+gloeocystis TaxID=77922 RepID=A0A3G1IW98_9EUKA
+Length=37
+
+ Score = 52.4 bits (124),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLL+GIVLGLI VTL GLF AAY QY+R N+L
+Sbjct  1   MVEPLLAGIVLGLIPVTLLGLFVAAYLQYRRGNQL  35
+
+
+> UniRef90_G4FIT4 Cytochrome b6-f complex subunit 5 n=4 Tax=Terrabacteria 
+group TaxID=1783272 RepID=G4FIT4_9SYNE
+Length=61
+
+ Score = 52.8 bits (125),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 25/37 (68%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           M+EPLL GIVLGLI +TL GLF AA+ QY+R + LGG
+Sbjct  25  MIEPLLCGIVLGLIPITLMGLFVAAWNQYRRGSALGG  61
+
+
+> UniRef90_A0A2U9NQ82 Cytochrome b6-f complex subunit 5 n=1 Tax=Actinocyclus 
+subtilis TaxID=1630683 RepID=A0A2U9NQ82_9STRA
+Length=37
+
+ Score = 52.4 bits (124),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 26/35 (74%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI VT  GLF AAY QY+R N+ 
+Sbjct  1   MVEPLLSGIVLGLITVTAIGLFVAAYFQYRRGNQF  35
+
+
+> UniRef90_A0A2Z5X1C8 Cytochrome b6-f complex subunit 5 n=5 Tax=Synechococcales 
+TaxID=1890424 RepID=A0A2Z5X1C8_9CYAN
+Length=32
+
+ Score = 52.0 bits (123),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEP+LSGI LGLI +TL GLF+AAY+QY+R
+Sbjct  1   MVEPILSGICLGLIFITLGGLFFAAYQQYRR  31
+
+
+> UniRef90_A0A2T1DJI9 Cytochrome b6-f complex subunit 5 n=1 Tax=Phormidesmis 
+priestleyi ULC007 TaxID=1920490 RepID=A0A2T1DJI9_9CYAN
+Length=37
+
+ Score = 52.0 bits (123),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 24/36 (67%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EP+L GIVLGL+ +TLAGLF AAY QY+R N L 
+Sbjct  1   MIEPILLGIVLGLVPITLAGLFVAAYTQYRRDNRLN  36
+
+
+> UniRef90_A0A1C9CD16 Cytochrome b6-f complex subunit 5 n=1 Tax=Ceramium 
+japonicum TaxID=218448 RepID=A0A1C9CD16_CERJP
+Length=37
+
+ Score = 52.0 bits (123),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI VTL GL  AA+ QY+R NE G
+Sbjct  1   MVEPLLSGIVLGLIPVTLLGLLIAAFLQYRRGNEFG  36
+
+
+> UniRef90_O78505 Cytochrome b6-f complex subunit 5 n=14 Tax=cellular 
+organisms TaxID=131567 RepID=PETG_GUITH
+Length=37
+
+ Score = 52.0 bits (123),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI VTL GLF AAY QY+R N+ G
+Sbjct  1   MIEPLLFGIVLGLIPVTLTGLFVAAYLQYRRGNQFG  36
+
+
+> UniRef90_A0A2Z5DYB6 Cytochrome b6-f complex subunit 5 n=4 Tax=Chlorophyceae 
+TaxID=3166 RepID=A0A2Z5DYB6_9CHLO
+Length=37
+
+ Score = 52.0 bits (123),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 25/33 (76%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPN  33
+           MVEPLLSGIVLGL+VVT+AGLF  AY QY+R +
+Sbjct  1   MVEPLLSGIVLGLLVVTIAGLFVTAYLQYRRGD  33
+
+
+> UniRef90_H8ZXF0 Cytochrome b6-f complex subunit 5 n=1 Tax=Eutreptia 
+viridis TaxID=96908 RepID=H8ZXF0_9EUGL
+Length=37
+
+ Score = 52.0 bits (123),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI +TL+GLF  AY QY+R +++
+Sbjct  1   MVEPLLSGIVLGLIPITLSGLFVTAYLQYRRSDQI  35
+
+
+> UniRef90_Q6B8U9 Cytochrome b6-f complex subunit 5 n=88 Tax=Rhodophyta 
+TaxID=2763 RepID=PETG_GRATL
+Length=37
+
+ Score = 51.6 bits (122),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI VTL GL  AAY QY+R N+ G
+Sbjct  1   MVEPLLSGIVLGLIPVTLFGLLVAAYLQYRRGNQFG  36
+
+
+> UniRef90_A0A2H4G3C5 Cytochrome b6-f complex subunit 5 n=1 Tax=Nitella 
+hyalina TaxID=181804 RepID=A0A2H4G3C5_NITHY
+Length=55
+
+ Score = 52.0 bits (123),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLLSGIVLGLI +TLAGLF  AY QY+R ++L 
+Sbjct  19  MIEPLLSGIVLGLIPITLAGLFVTAYLQYRRGDQLN  54
+
+
+> UniRef90_A0A1C9CFS4 Cytochrome b6-f complex subunit 5 n=2 Tax=Hildenbrandia 
+TaxID=31479 RepID=A0A1C9CFS4_9FLOR
+Length=37
+
+ Score = 51.6 bits (122),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI +TL GLF AAY Q++R N+LG
+Sbjct  1   MIEPLLFGIVLGLIPITLLGLFVAAYLQFRRANKLG  36
+
+
+> UniRef90_A0A251WG46 Cytochrome b6-f complex subunit 5 n=1 Tax=Alkalinema 
+sp. CACIAM 70d TaxID=1934309 RepID=A0A251WG46_9CYAN
+Length=36
+
+ Score = 51.6 bits (122),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEP+L GIVLGL+ VT+AGLF AAY QY+R N+ 
+Sbjct  1   MVEPILLGIVLGLVPVTIAGLFVAAYTQYRRSNQF  35
+
+
+> UniRef90_A0A081GJ62 Cytochrome b6-f complex subunit 5 n=2 Tax=Synechococcaceae 
+TaxID=1890426 RepID=A0A081GJ62_9CYAN
+Length=37
+
+ Score = 51.6 bits (122),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 25/37 (68%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           M+EPLL GIVLGLI +TL GLF AA+ QY+R   LGG
+Sbjct  1   MIEPLLCGIVLGLIPITLVGLFVAAWNQYRRGGVLGG  37
+
+
+> UniRef90_I4HZ27 Cytochrome b6-f complex subunit 5 n=3 Tax=Microcystis 
+aeruginosa TaxID=1126 RepID=I4HZ27_MICAE
+Length=38
+
+ Score = 51.2 bits (121),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPL+ GI LGLI +TLAGLF AAY QYKR N+ G
+Sbjct  1   MIEPLVLGITLGLIPITLAGLFVAAYLQYKRGNQFG  36
+
+
+> UniRef90_A0A2H4ZQD5 Cytochrome b6-f complex subunit 5 n=1 Tax=Paulinella 
+longichromatophora TaxID=1708747 RepID=A0A2H4ZQD5_9EUKA
+Length=37
+
+ Score = 51.2 bits (121),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           M+EPLL GIVLGLI VTLAGLF AA+ QY+R   L G
+Sbjct  1   MIEPLLCGIVLGLIPVTLAGLFIAAWNQYRRGAALEG  37
+
+
+> UniRef90_A0A1D8DCM9 Cytochrome b6-f complex subunit 5 n=1 Tax=Toxarium 
+undulatum TaxID=210620 RepID=A0A1D8DCM9_9STRA
+Length=37
+
+ Score = 50.8 bits (120),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ V+  GLF AAY QY+R N+L
+Sbjct  1   MVEPLLSGIVLGLVTVSAFGLFVAAYLQYRRGNQL  35
+
+
+> UniRef90_K9SIC0 Cytochrome b6-f complex subunit 5 n=1 Tax=Pseudanabaena 
+sp. PCC 7367 TaxID=82654 RepID=K9SIC0_9CYAN
+Length=35
+
+ Score = 50.8 bits (120),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEP+L GI LGL+ +TLAGLF+AAY+QY+R
+Sbjct  1   MVEPILVGIALGLVFITLAGLFFAAYQQYRR  31
+
+
+> UniRef90_A0A2T1LZY8 Cytochrome b6-f complex subunit 5 n=1 Tax=Aphanothece 
+hegewaldii CCALA 016 TaxID=2107694 RepID=A0A2T1LZY8_9CHRO
+Length=38
+
+ Score = 50.8 bits (120),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/36 (67%), Positives = 27/36 (75%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPL  GI LGLI +TL GLF+AAY QYKR   LG
+Sbjct  1   MIEPLTLGIALGLIFITLTGLFFAAYMQYKRGKRLG  36
+
+
+> UniRef90_A0A1X9PVV5 Cytochrome b6-f complex subunit 5 n=1 Tax=Corynoplastis 
+japonica TaxID=700918 RepID=A0A1X9PVV5_9RHOD
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGI+LGLI VTL GLF +AY QY+R N+ 
+Sbjct  1   MVEPLLSGIILGLIPVTLLGLFVSAYLQYQRGNQF  35
+
+
+> UniRef90_A0A1L2F1U7 Cytochrome b6-f complex subunit 5 n=12 Tax=Phaeophyceae 
+TaxID=2870 RepID=A0A1L2F1U7_9PHAE
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI VTL GLF AA+ QY+R N+LG
+Sbjct  1   MLEPLLFGIVLGLIPVTLIGLFIAAFLQYRRGNKLG  36
+
+
+> UniRef90_B2X1V8 Cytochrome b6-f complex subunit 5 n=59 Tax=Chlorophyta 
+TaxID=3041 RepID=PETG_OEDCA
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 29/34 (85%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVEPLLSGIVLGL+ VT+AGLF  AY QY+R ++
+Sbjct  1   MVEPLLSGIVLGLVPVTIAGLFVTAYLQYRRGDQ  34
+
+
+> UniRef90_A0A3G1IVR1 Cytochrome b6/f complex subunit V n=1 Tax=Gloeochaete 
+wittrockiana TaxID=38269 RepID=A0A3G1IVR1_9EUKA
+Length=37
+
+ Score = 50.4 bits (119),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPL++GIVLGLI VT+ GLF +AY QYKR N+L
+Sbjct  1   MVEPLIAGIVLGLIPVTILGLFVSAYLQYKRGNQL  35
+
+
+> UniRef90_Q4G378 Cytochrome b6-f complex subunit 5 n=6 Tax=Haptophyceae 
+TaxID=2830 RepID=PETG_EMIHU
+Length=37
+
+ Score = 50.1 bits (118),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/36 (69%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVE LLSGIVLGL+ VT+ GLF AAY QY+R N+ G
+Sbjct  1   MVEVLLSGIVLGLVPVTITGLFVAAYLQYRRGNQFG  36
+
+
+> UniRef90_A0A166QHX9 Cytochrome b6-f complex subunit 5 n=1 Tax=Cymbomonas 
+tetramitiformis TaxID=36881 RepID=A0A166QHX9_9CHLO
+Length=37
+
+ Score = 50.1 bits (118),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLG++ VTL+GLF  AY QY+R ++L
+Sbjct  1   MVEPLLSGIVLGMLPVTLSGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_Q20EX4 Cytochrome b6-f complex subunit 5 n=16 Tax=Chlorophyta 
+TaxID=3041 RepID=PETG_OLTVI
+Length=34
+
+ Score = 50.1 bits (118),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/31 (81%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEPLLSGIVLGL+ VTLAGLF  AY QY+R
+Sbjct  1   MVEPLLSGIVLGLVPVTLAGLFVTAYLQYRR  31
+
+
+> UniRef90_Q85FK3 Cytochrome b6-f complex subunit 5 n=340 Tax=Viridiplantae 
+TaxID=33090 RepID=PETG_ADICA
+Length=38
+
+ Score = 49.7 bits (117),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MVEALLSGIVLGLIPITLAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A1C9JBA6 Cytochrome b6-f complex subunit 5 n=2 Tax=Bryopsidales 
+TaxID=33104 RepID=A0A1C9JBA6_9CHLO
+Length=36
+
+ Score = 49.7 bits (117),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ VT+ GLF  AY QYKR ++L
+Sbjct  1   MVEPLLSGIVLGLVPVTIFGLFITAYLQYKRGDQL  35
+
+
+> UniRef90_Q6YXM1 Cytochrome b6-f complex subunit 5 n=37 Tax=Viridiplantae 
+TaxID=33090 RepID=PETG_PHYPA
+Length=37
+
+ Score = 49.7 bits (117),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MVEALLSGIVLGLIPITLAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A386AXJ7 Cytochrome b6-f complex subunit 5 n=3 Tax=Halimeda 
+TaxID=118221 RepID=A0A386AXJ7_9CHLO
+Length=35
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI VT+ GLF  AY QYKR  EL
+Sbjct  1   MVEPLLSGIVLGLIPVTIIGLFVTAYLQYKRGLEL  35
+
+
+> UniRef90_B1X5G6 Cytochrome b6-f complex subunit 5 n=10 Tax=cellular 
+organisms TaxID=131567 RepID=PETG_PAUCH
+Length=35
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+EPLL GIVLGLI VTL GLF AA+ QY+R + L
+Sbjct  1   MIEPLLCGIVLGLIPVTLTGLFVAAWNQYRRGSAL  35
+
+
+> UniRef90_B7T220 Cytochrome b6-f complex subunit 5 n=1 Tax=Vaucheria 
+litorea TaxID=109269 RepID=B7T220_VAULI
+Length=37
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLG++ VT+ GLF AAY QY+R N++G
+Sbjct  1   MIEPLLFGIVLGIVPVTIIGLFIAAYLQYRRGNQIG  36
+
+
+> UniRef90_A0T0A0 Cytochrome b6-f complex subunit 5 n=33 Tax=Eukaryota 
+TaxID=2759 RepID=PETG_PHATC
+Length=37
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI V+  GLF AA+ QY+R N+ 
+Sbjct  1   MVEPLLSGIVLGLITVSALGLFVAAFLQYRRGNQF  35
+
+
+> UniRef90_I0J3M7 Cytochrome b6-f complex subunit 5 n=2 Tax=Eukaryota 
+TaxID=2759 RepID=I0J3M7_9EUGL
+Length=37
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLL GIVLGLI VT+AGLF  AY QY+R ++L
+Sbjct  1   MVEPLLFGIVLGLIPVTIAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A2W6ZHU6 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanobium 
+sp. TaxID=2164130 RepID=A0A2W6ZHU6_9CYAN
+Length=36
+
+ Score = 49.7 bits (117),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 22/36 (61%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGL+ +T+ GLF AA+ QY+R + LG
+Sbjct  1   MIEPLLCGIVLGLVPITIVGLFVAAWNQYRRGSALG  36
+
+
+> UniRef90_A0A3C1M0U5 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanobacteria 
+bacterium UBA8156 TaxID=2055767 RepID=A0A3C1M0U5_9CYAN
+Length=34
+
+ Score = 49.3 bits (116),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 29/31 (94%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EP+L GIVLGLI +TL+GLF+AAY+QY+R
+Sbjct  1   MIEPILLGIVLGLIGITLSGLFFAAYQQYRR  31
+
+
+> UniRef90_B7KHU9 Cytochrome b6-f complex subunit 5 n=2 Tax=Cyanothece 
+TaxID=43988 RepID=PETG_CYAP7
+Length=38
+
+ Score = 49.7 bits (117),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPL+ G+V+GL+ +TLAGLF AAY QYKR N+L 
+Sbjct  1   MIEPLVLGLVMGLVPITLAGLFVAAYLQYKRGNQLN  36
+
+
+> UniRef90_C0JWT3 Cytochrome b6-f complex subunit 5 n=1 Tax=Pycnococcus 
+provasolii TaxID=41880 RepID=C0JWT3_9CHLO
+Length=37
+
+ Score = 49.3 bits (116),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ VT+AGLF  A+ QY+R ++L
+Sbjct  1   MVEPLLSGIVLGLMPVTIAGLFVTAFLQYRRGSQL  35
+
+
+> UniRef90_A0A023HHZ4 Cytochrome b6-f complex subunit 5 n=12 Tax=Chlorophyta 
+TaxID=3041 RepID=A0A023HHZ4_AUXPR
+Length=37
+
+ Score = 49.3 bits (116),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ VT+ GLF  AY QY+R ++L
+Sbjct  1   MVEPLLSGIVLGLVPVTIIGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_Q7V6M3 Cytochrome b6-f complex subunit 5 n=2 Tax=Prochlorococcus 
+TaxID=1218 RepID=PETG_PROMM
+Length=38
+
+ Score = 49.3 bits (116),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 24/36 (67%), Positives = 27/36 (75%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI VTL GLF  A+ QY+R   LG
+Sbjct  1   MIEPLLCGIVLGLIPVTLLGLFVDAWNQYRRDTVLG  36
+
+
+> UniRef90_A0A023HA74 Cytochrome b6-f complex subunit 5 n=1 Tax=Coscinodiscus 
+radiatus TaxID=33642 RepID=A0A023HA74_9STRA
+Length=37
+
+ Score = 49.3 bits (116),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLG+I V+  GLF AA+ QYKR N+ 
+Sbjct  1   MVEPLLSGIVLGMISVSAFGLFVAAFLQYKRGNQF  35
+
+
+> UniRef90_Q0P3J2 Cytochrome b6-f complex subunit 5 n=3 Tax=prasinophytes 
+TaxID=3152 RepID=PETG_OSTTA
+Length=37
+
+ Score = 49.3 bits (116),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGL+ VTLAGLF  AY QY+R ++L
+Sbjct  1   MVETLLSGIVLGLMPVTLAGLFTTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A1I9LK55 Cytochrome b6-f complex subunit 5 n=20 Tax=Bryopsidales 
+TaxID=33104 RepID=A0A1I9LK55_CAURA
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ VT+ GLF  AY QYKR + +
+Sbjct  1   MVEPLLSGIVLGLVPVTIGGLFVTAYLQYKRGDRI  35
+
+
+> UniRef90_A0A2N5JSE1 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanobacteria 
+bacterium M5B4 TaxID=2054928 RepID=A0A2N5JSE1_9CYAN
+Length=36
+
+ Score = 48.9 bits (115),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EP+L GIV+GLI +TL GLF+AAY+QY+R
+Sbjct  1   MIEPILLGIVIGLIFITLGGLFFAAYQQYQR  31
+
+
+> UniRef90_A0A0C5BQV9 Cytochrome b6-f complex subunit 5 n=1 Tax=Cephaleuros 
+parasiticus TaxID=173370 RepID=A0A0C5BQV9_9CHLO
+Length=38
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVEPLLSGIVLGL+VVT  GLF  AY Q+ R +E
+Sbjct  1   MVEPLLSGIVLGLVVVTAGGLFTTAYLQWVRGSE  34
+
+
+> UniRef90_A0A088CKF4 Cytochrome b6-f complex subunit 5 n=2 Tax=cellular 
+organisms TaxID=131567 RepID=A0A088CKF4_9CHLO
+Length=37
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGLI VTL GLF  AY QY+R ++L
+Sbjct  1   MVEALLSGIVLGLIPVTLTGLFITAYLQYRRGDQL  35
+
+
+> UniRef90_A0A1C9CHH5 Cytochrome b6-f complex subunit 5 n=6 Tax=Florideophyceae 
+TaxID=2806 RepID=A0A1C9CHH5_PLOCA
+Length=37
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVEPLLSGIVLGLI +T+ GL  AAY QY+R N+
+Sbjct  1   MVEPLLSGIVLGLIPITILGLLVAAYLQYRRGNQ  34
+
+
+> UniRef90_P56305 Cytochrome b6-f complex subunit 5 n=18 Tax=Viridiplantae 
+TaxID=33090 RepID=PETG_CHLVU
+Length=37
+
+ Score = 48.5 bits (114),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGL+ VT+AGLF  AY QY+R ++L
+Sbjct  1   MVEALLSGIVLGLVPVTIAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_K9ZXA8 Cytochrome b6-f complex subunit 5 n=8 Tax=Eustigmatales 
+TaxID=425074 RepID=K9ZXA8_9STRA
+Length=34
+
+ Score = 48.5 bits (114),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 24/31 (77%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGLIVVTL GLF +AY QY+R
+Sbjct  1   MIEPLLFGIVLGLIVVTLIGLFVSAYFQYRR  31
+
+
+> UniRef90_A0A097KNQ5 Cytochrome b6-f complex subunit 5 n=1 Tax=Choricystis 
+parasitica TaxID=41300 RepID=A0A097KNQ5_9CHLO
+Length=50
+
+ Score = 48.9 bits (115),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ VT+ GLF  AY QY+R + +
+Sbjct  12  MVEPLLSGIVLGLVPVTMTGLFVTAYLQYRRGDRI  46
+
+
+> UniRef90_B5INH7 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanobium 
+sp. PCC 7001 TaxID=180281 RepID=B5INH7_9CYAN
+Length=37
+
+ Score = 48.5 bits (114),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGLI VTL GLF AA+ QY+R
+Sbjct  1   MIEPLLCGIVLGLIPVTLLGLFVAAWNQYRR  31
+
+
+> UniRef90_A0A182AM81 Cytochrome b6-f complex subunit 5 n=4 Tax=Cyanobacteria 
+TaxID=1117 RepID=A0A182AM81_9CYAN
+Length=37
+
+ Score = 48.5 bits (114),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGLI VTL GLF AA+ QY+R
+Sbjct  1   MIEPLLCGIVLGLIPVTLLGLFVAAWNQYRR  31
+
+
+> UniRef90_A0A0F7R4L5 Cytochrome b6-f complex subunit 5 n=1 Tax=Lepidodinium 
+chlorophorum TaxID=107758 RepID=A0A0F7R4L5_LEPCH
+Length=56
+
+ Score = 48.9 bits (115),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/36 (64%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLLSGIVLGLI V ++GLF  AY Q++R ++L 
+Sbjct  1   MVEPLLSGIVLGLIPVVISGLFTIAYLQFRRRDQLS  36
+
+
+> UniRef90_P83797 Cytochrome b6-f complex subunit 5 n=1 Tax=Mastigocladus 
+laminosus TaxID=83541 RepID=PETG_MASLA
+Length=37
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/37 (81%), Positives = 33/37 (89%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           MVEPLL G+VLGL+  TL GLFYAAY+QYKRPNELGG
+Sbjct  1   MVEPLLDGLVLGLVFATLGGLFYAAYQQYKRPNELGG  37
+
+
+> UniRef90_A0A286QHP2 Cytochrome b6-f complex subunit 5 n=2 Tax=Schizaea 
+TaxID=32178 RepID=A0A286QHP2_9MONI
+Length=38
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGLI +TL GLF  AY QY+R + L
+Sbjct  1   MVEALLSGIVLGLIPITLIGLFVTAYSQYRRGDRL  35
+
+
+> UniRef90_Q7U8A1 Cytochrome b6-f complex subunit 5 n=14 Tax=Cyanobacteria 
+TaxID=1117 RepID=PETG_SYNPX
+Length=38
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGLI VTL GLF AA+ QY+R
+Sbjct  1   MIEPLLCGIVLGLIPVTLLGLFVAAWNQYRR  31
+
+
+> UniRef90_A0A3G3LLD2 Cytochrome b6/f complex subunit V n=1 Tax=Discoplastis 
+spathirhyncha TaxID=215771 RepID=A0A3G3LLD2_9EUGL
+Length=38
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/34 (68%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI VT+ GLFY AY QY R + 
+Sbjct  1   MVEALLSGIILGLIPVTVCGLFYTAYLQYTRSDN  34
+
+
+> UniRef90_A0A1Y1B7D5 Cytochrome b6-f complex subunit 5 n=1 Tax=Callitris 
+rhomboidea TaxID=13383 RepID=A0A1Y1B7D5_9SPER
+Length=37
+
+ Score = 48.1 bits (113),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E LLSGIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MIEVLLSGIVLGLIPITLAGLFVTAYLQYRRGDKL  35
+
+
+> UniRef90_A0A223FLY9 Cytochrome b6-f complex subunit 5 n=1 Tax=Eutreptiella 
+pomquetensis TaxID=215699 RepID=A0A223FLY9_9EUGL
+Length=37
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGLI  ++AGLF  AY QY+R  +L
+Sbjct  1   MVEPLLSGIVLGLIPSSIAGLFVTAYLQYRRGEQL  35
+
+
+> UniRef90_A0A097KND4 Cytochrome b6-f complex subunit 5 n=2 Tax=Microthamniales 
+TaxID=42111 RepID=A0A097KND4_9CHLO
+Length=39
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ VT+ GLF  AY QY+R + +
+Sbjct  1   MVEPLLSGIVLGLVPVTIIGLFVTAYLQYRRGDRV  35
+
+
+> UniRef90_J9QLT8 Cytochrome b6-f complex subunit 5 n=3 Tax=cellular 
+organisms TaxID=131567 RepID=J9QLT8_9STRA
+Length=39
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVEPLL GIV+G++ V+LAGLF AAY QY+R  +
+Sbjct  1   MVEPLLFGIVMGMMAVSLAGLFVAAYLQYRRGQD  34
+
+
+> UniRef90_A0A1J0AE70 Cytochrome b6-f complex subunit 5 n=1 Tax=Gloeomargarita 
+lithophora Alchichica-D10 TaxID=1188229 RepID=A0A1J0AE70_9CYAN
+Length=32
+
+ Score = 47.4 bits (111),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPL+  IVLGL+ VTLAGLF AAY QYKR
+Sbjct  1   MIEPLVLSIVLGLVSVTLAGLFVAAYMQYKR  31
+
+
+> UniRef90_A0A1X9GCR6 Cytochrome b6-f complex subunit 5 n=1 Tax=Euglena 
+archaeoplastidiata TaxID=1188008 RepID=A0A1X9GCR6_9EUGL
+Length=39
+
+ Score = 47.8 bits (112),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI +T+ GLF+ AY QY R + 
+Sbjct  1   MVEALLSGIILGLIFITVCGLFFTAYLQYIRSDS  34
+
+
+> UniRef90_A0A2I4Q2V3 Cytochrome b6-f complex subunit 5 n=1 Tax=Dictyopteris 
+divaricata TaxID=156996 RepID=A0A2I4Q2V3_9PHAE
+Length=37
+
+ Score = 47.4 bits (111),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+EPLL GIVLG+I VTL GLF AA+ QY+R N  
+Sbjct  1   MIEPLLFGIVLGIIPVTLIGLFVAAFLQYRRQNTF  35
+
+
+> UniRef90_Q46JZ3 Cytochrome b6-f complex subunit 5 n=4 Tax=Prochlorococcus 
+marinus TaxID=1219 RepID=PETG_PROMT
+Length=39
+
+ Score = 47.4 bits (111),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 20/35 (57%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+EPLL GIVLGL+ +TL GLF +A+ QY+R + +
+Sbjct  1   MIEPLLCGIVLGLVPITLLGLFVSAWNQYRRSSSM  35
+
+
+> UniRef90_A0A345K4X5 Cytochrome b6-f complex subunit 5 n=2 Tax=Chlamydomonadaceae 
+TaxID=3051 RepID=A0A345K4X5_9CHLO
+Length=37
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 24/33 (73%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPN  33
+           MVEPLLSGIVLGLI VT+ GLF  AY QY+R +
+Sbjct  1   MVEPLLSGIVLGLIGVTIPGLFVTAYLQYRRGD  33
+
+
+> UniRef90_Q7VBF3 Cytochrome b6-f complex subunit 5 n=2 Tax=Prochlorococcus 
+TaxID=1218 RepID=PETG_PROMA
+Length=39
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGL+ +TL GLF AA+ QY+R
+Sbjct  1   MIEPLLCGIVLGLVPITLLGLFVAAWNQYRR  31
+
+
+> UniRef90_C7BED4 Cytochrome b6-f complex subunit 5 n=1 Tax=Neglectella 
+solitaria TaxID=120749 RepID=C7BED4_NEGSO
+Length=37
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLG++ VT+AGLF  A+ QY+R ++L
+Sbjct  1   MVESLLSGIVLGMVPVTIAGLFVTAFLQYRRGDQL  35
+
+
+> UniRef90_C1IXT8 Cytochrome b6-f complex subunit 5 n=2 Tax=Pinus 
+TaxID=139271 RepID=C1IXT8_PINGE
+Length=37
+
+ Score = 47.4 bits (111),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E L SGIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MIEALPSGIVLGLIPITLAGLFVTAYSQYQRGDQL  35
+
+
+> UniRef90_H2EV23 Cytochrome b6-f complex subunit 5 n=7 Tax=Bacillariophyta 
+TaxID=2836 RepID=H2EV23_9STRA
+Length=37
+
+ Score = 47.0 bits (110),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLG+I V+  GLF AA+ QY+R ++ 
+Sbjct  1   MVEPLLSGIVLGMITVSAFGLFVAAFLQYRRGSQF  35
+
+
+> UniRef90_A0A097KKE6 Cytochrome b6-f complex subunit 5 n=2 Tax=Trebouxiophyceae 
+TaxID=75966 RepID=A0A097KKE6_9CHLO
+Length=37
+
+ Score = 47.0 bits (110),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ VTL GLF  AY QY R + L
+Sbjct  1   MVEPLLSGIVLGLVPVTLTGLFVTAYLQYLRGDVL  35
+
+
+> UniRef90_A0A2Z4YXF8 Cytochrome b6-f complex subunit 5 n=1 Tax=Euglena 
+clara TaxID=215708 RepID=A0A2Z4YXF8_9EUGL
+Length=38
+
+ Score = 47.0 bits (110),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI VT+ GLF+ AY QY R + 
+Sbjct  1   MVETLLSGIILGLIPVTICGLFFTAYLQYMRSDS  34
+
+
+> UniRef90_A0A3M1KUD4 Cytochrome b6-f complex subunit PetG (Fragment) 
+n=1 Tax=Cyanobacteria bacterium J083 TaxID=2420336 RepID=A0A3M1KUD4_9CYAN
+Length=29
+
+ Score = 47.0 bits (110),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 21/27 (78%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  10  VLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           VLGLI++TLAGLF+AAY QYKR N+LG
+Sbjct  1   VLGLIIITLAGLFFAAYMQYKRGNQLG  27
+
+
+> UniRef90_A0A023HI06 Cytochrome b6-f complex subunit 5 n=2 Tax=Euglenaceae 
+TaxID=1131320 RepID=A0A023HI06_9EUGL
+Length=38
+
+ Score = 47.0 bits (110),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI +T+AGLF+ AY QY R + 
+Sbjct  1   MVEALLSGIILGLIPITIAGLFFTAYLQYIRSDN  34
+
+
+> UniRef90_A0A1C9CDR8 Cytochrome b6-f complex subunit 5 n=1 Tax=Porphyridium 
+sordidum TaxID=28024 RepID=A0A1C9CDR8_PORSO
+Length=42
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEPLLSGI+LGL+ V+L GLF AAY QY+R
+Sbjct  1   MVEPLLSGIILGLMPVSLIGLFVAAYLQYRR  31
+
+
+> UniRef90_A0A2U9NSN3 Cytochrome b6-f complex subunit 5 n=2 Tax=Biddulphia 
+TaxID=420276 RepID=A0A2U9NSN3_9STRA
+Length=37
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLG++ V+  GLF  AY QY+R N+ 
+Sbjct  1   MVEPLLSGIVLGMVSVSALGLFIVAYLQYRRGNQF  35
+
+
+> UniRef90_A0A0G3SFL4 Cytochrome b6-f complex subunit 5 n=1 Tax=Cryptoglena 
+skujai TaxID=161229 RepID=A0A0G3SFL4_9EUGL
+Length=38
+
+ Score = 47.0 bits (110),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI +T++GLF+ AY QY R + 
+Sbjct  1   MVEALLSGIILGLIPITVSGLFFTAYLQYTRSDS  34
+
+
+> UniRef90_A0A3B6GPW8 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A3B6GPW8_WHEAT
+Length=37
+
+ Score = 46.6 bits (109),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E  L GIVLGLI +TLAGLF  AY QYKR ++L
+Sbjct  1   MIEVFLFGIVLGLIAITLAGLFVNAYLQYKRGDQL  35
+
+
+> UniRef90_Q06FK7 Cytochrome b6-f complex subunit 5 n=27 Tax=Pentapetalae 
+TaxID=1437201 RepID=PETG_PELHO
+Length=37
+
+ Score = 46.6 bits (109),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 24/36 (67%), Positives = 27/36 (75%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+E  L GIVLGLI +TLAGLF  AY QYKR + LG
+Sbjct  1   MIEVFLFGIVLGLIPITLAGLFVTAYLQYKRGDRLG  36
+
+
+> UniRef90_A0A1C9JBM3 Cytochrome b6-f complex subunit 5 n=4 Tax=Caulerpa 
+TaxID=76312 RepID=A0A1C9JBM3_9CHLO
+Length=36
+
+ Score = 46.6 bits (109),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLL GIVLGL+ VT+ GLF  AY QYKR + +
+Sbjct  1   MVEPLLVGIVLGLVPVTIGGLFVTAYLQYKRGDRI  35
+
+
+> UniRef90_A0A345UC55 Cytochrome b6-f complex subunit 5 n=1 Tax=Euglena 
+hiemalis TaxID=392896 RepID=A0A345UC55_9EUGL
+Length=39
+
+ Score = 46.6 bits (109),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI VT+ GLF+ AY QY R + 
+Sbjct  1   MVETLLSGIILGLIPVTVCGLFFTAYLQYMRSDN  34
+
+
+> UniRef90_A9BB51 Cytochrome b6-f complex subunit 5 n=1 Tax=Prochlorococcus 
+marinus (strain MIT 9211) TaxID=93059 RepID=PETG_PROM4
+Length=39
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 19/31 (61%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGL+ +T+ GLF +A+ QY+R
+Sbjct  1   MIEPLLCGIVLGLVPITIVGLFVSAWNQYRR  31
+
+
+> UniRef90_Q3ZJ64 Cytochrome b6-f complex subunit 5 n=16 Tax=Ulvophyceae 
+TaxID=33103 RepID=PETG_TUPAK
+Length=37
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLLSGIVLGL+ +T+ GL   AY QY+R + L
+Sbjct  1   MVEPLLSGIVLGLVPITITGLLVTAYLQYRRGDSL  35
+
+
+> UniRef90_Q7V129 Cytochrome b6-f complex subunit 5 n=3 Tax=Prochlorococcus 
+marinus TaxID=1219 RepID=PETG_PROMP
+Length=39
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGL+ +TL GLF +A+ QY+R
+Sbjct  1   MIEPLLCGIVLGLVPITLLGLFVSAWNQYRR  31
+
+
+> UniRef90_A3PDG2 Cytochrome b6-f complex subunit 5 n=14 Tax=root 
+TaxID=1 RepID=PETG_PROM0
+Length=39
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGL+ +TL GLF +A+ QY+R
+Sbjct  1   MIEPLLCGIVLGLVPITLLGLFVSAWNQYRR  31
+
+
+> UniRef90_M1EV36 Cytochrome b6-f complex subunit 5 n=2 Tax=Euglena 
+viridis TaxID=3040 RepID=M1EV36_EUGVI
+Length=38
+
+ Score = 46.6 bits (109),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI +T+ GLF+ AY QY R + 
+Sbjct  1   MVESLLSGIILGLIPITVCGLFFTAYLQYMRSDN  34
+
+
+> UniRef90_A0A0G2HJN8 Cytochrome b6-f complex subunit 5 n=8 Tax=Synechococcus 
+TaxID=1129 RepID=A0A0G2HJN8_9SYNE
+Length=38
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/31 (68%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEPLL GIVLGL+ +T+ GLF +AY QY+R
+Sbjct  1   MVEPLLCGIVLGLVPITILGLFVSAYNQYRR  31
+
+
+> UniRef90_A0A2P0MSZ4 Cytochrome b6-f complex subunit 5 n=1 Tax=Khaya 
+senegalensis TaxID=587579 RepID=A0A2P0MSZ4_9ROSI
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E  L GIVLGLI +TLAGLF  AY QY+R + L
+Sbjct  1   MIEVFLFGIVLGLITITLAGLFLTAYLQYRRGDRL  35
+
+
+> UniRef90_E2DSJ8 Cytochrome b6-f complex subunit 5 n=1 Tax=Floydiella 
+terrestris TaxID=51328 RepID=E2DSJ8_FLOTE
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVE LLSGIVLGL+ VT+AGLF  AY QY+R
+Sbjct  1   MVEALLSGIVLGLVPVTIAGLFVTAYLQYRR  31
+
+
+> UniRef90_A0A1I9LKI8 Cytochrome b6-f complex subunit 5 n=1 Tax=Codium 
+decorticatum TaxID=414126 RepID=A0A1I9LKI8_9CHLO
+Length=36
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/35 (71%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LL GIVLGLI VTL GLF  AY QYKR ++L
+Sbjct  1   MVETLLVGIVLGLIPVTLFGLFVTAYLQYKRGDQL  35
+
+
+> UniRef90_A0A088CJ68 Cytochrome b6-f complex subunit 5 n=1 Tax=Picocystis 
+salinarum TaxID=88271 RepID=A0A088CJ68_9CHLO
+Length=37
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGL  VT+ GLF  AY QY+R ++L
+Sbjct  1   MVEALLSGIVLGLSFVTILGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A2D5RB36 Cytochrome b6-f complex subunit 5 n=1 Tax=Synechococcus 
+sp. CPC100 TaxID=2024879 RepID=A0A2D5RB36_9SYNE
+Length=46
+
+ Score = 46.2 bits (108),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/37 (62%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELGG  37
+           M+EPLL GIVLGLI +TL GLF AA+ QY      GG
+Sbjct  1   MIEPLLCGIVLGLIPITLLGLFVAAWNQYSPRQSSGG  37
+
+
+> UniRef90_A0A2Z5D4H7 Cytochrome b6-f complex subunit 5 n=3 Tax=Pentapetalae 
+TaxID=1437201 RepID=A0A2Z5D4H7_PASAR
+Length=37
+
+ Score = 45.8 bits (107),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E  L GIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MIEVFLFGIVLGLISITLAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A2P6FLQ8 Cytochrome b6-f complex subunit PetG n=1 
+Tax=Deltaproteobacteria bacterium TaxID=2026735 RepID=A0A2P6FLQ8_9DELT
+Length=37
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGLI VT+ GLF  AY QY+R  +L
+Sbjct  1   MVETLLSGIVLGLIPVTMLGLFVTAYLQYRRGXQL  35
+
+
+> UniRef90_Q5SD34 Cytochrome b6-f complex subunit 5 n=28 Tax=Embryophyta 
+TaxID=3193 RepID=PETG_HUPLU
+Length=38
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLG I +TLAG F  AY QY+R ++L
+Sbjct  1   MVEALLSGIVLGSIPITLAGSFVTAYPQYRRGDQL  35
+
+
+> UniRef90_L0BGK3 Cytochrome b6-f complex subunit 5 n=2 Tax=Monomorphina 
+TaxID=298266 RepID=L0BGK3_MONAE
+Length=38
+
+ Score = 45.8 bits (107),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI +T+ GLF+ AY QY R + 
+Sbjct  1   MVETLLSGIILGLIPITVCGLFFTAYLQYIRSDS  34
+
+
+> UniRef90_A0A0G3VR37 Cytochrome b6-f complex subunit 5 n=1 Tax=Trachelomonas 
+volvocina TaxID=103340 RepID=A0A0G3VR37_9EUGL
+Length=37
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI +T+ GLF+ AY QY R + 
+Sbjct  1   MVETLLSGIILGLIPITVVGLFFTAYLQYMRSDN  34
+
+
+> UniRef90_B7ZIH3 Cytochrome b6-f complex subunit 5 n=1 Tax=Ephedra 
+equisetina TaxID=173280 RepID=B7ZIH3_EPHEU
+Length=37
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGLI +TLAG+F  AY QY+  ++L
+Sbjct  1   MVETLLSGIVLGLIPITLAGIFVTAYLQYRCGDQL  35
+
+
+> UniRef90_Q08362 Cytochrome b6-f complex subunit 5 n=12 Tax=Chlamydomonadales 
+TaxID=3042 RepID=PETG_CHLRE
+Length=37
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEPLL GIVLGL+ VT+AGLF  AY QY R
+Sbjct  1   MVEPLLCGIVLGLVPVTIAGLFVTAYLQYLR  31
+
+
+> UniRef90_C6KIY6 Cytochrome b6-f complex subunit 5 n=1 Tax=Aureoumbra 
+lagunensis TaxID=44058 RepID=C6KIY6_9STRA
+Length=39
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVEPLL GIVLG++ V+L GLF AAY QY+R  +
+Sbjct  1   MVEPLLFGIVLGMMSVSLLGLFVAAYLQYRRGQD  34
+
+
+> UniRef90_A0A2P0QI44 Cytochrome b6-f complex subunit 5 n=2 Tax=Codium 
+TaxID=3132 RepID=A0A2P0QI44_9CHLO
+Length=36
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LL GIVLGLI VT+ GLF  AY QYKR ++L
+Sbjct  1   MVETLLVGIVLGLIPVTIFGLFVTAYLQYKRGDQL  35
+
+
+> UniRef90_A0A3G5CRE3 Cytochrome b6/f complex subunit V n=1 Tax=Jamesonia 
+brasiliensis TaxID=170592 RepID=A0A3G5CRE3_9MONI
+Length=38
+
+ Score = 45.4 bits (106),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE  LSGIV GLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MVEASLSGIVSGLIPITLAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_C1KR39 Cytochrome b6-f complex subunit 5 n=1 Tax=Micromonas 
+commoda (strain RCC299 / NOUM17 / CCMP2709) TaxID=296587 
+RepID=C1KR39_MICCC
+Length=37
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 28/35 (80%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E LL GIVLG+I VTL+GLF  AY QY+R ++L
+Sbjct  1   MIEALLFGIVLGMIPVTLSGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A1B0UL40 Cytochrome b6-f complex subunit 5 n=1 Tax=Euglena 
+mutabilis TaxID=38275 RepID=A0A1B0UL40_EUGMU
+Length=38
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/34 (62%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI +T+ GLF+ AY QY R + 
+Sbjct  1   MVETLLSGIILGLIPITILGLFFTAYLQYIRSDS  34
+
+
+> UniRef90_A0A0B5H7V3 Cytochrome b6-f complex subunit 5 n=1 Tax=Strombomonas 
+acuminata TaxID=201859 RepID=A0A0B5H7V3_9EUGL
+Length=38
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 26/32 (81%), Gaps = 0/32 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRP  32
+           MVE LLSGI+LGLI +T++GLF+ AY QY R 
+Sbjct  1   MVESLLSGIILGLIPITVSGLFFTAYLQYIRS  32
+
+
+> UniRef90_P30396 Cytochrome b6-f complex subunit 5 n=2 Tax=Euglena 
+gracilis TaxID=3039 RepID=PETG_EUGGR
+Length=37
+
+ Score = 45.1 bits (105),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/32 (66%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRP  32
+           MVE LLSGI+LGLI +T+ GLF+ AY QY R 
+Sbjct  1   MVETLLSGIILGLIPITICGLFFTAYLQYMRS  32
+
+
+> UniRef90_A0A0G3FB99 Cytochrome b6-f complex subunit 5 n=1 Tax=Euglena 
+anabaena TaxID=38273 RepID=A0A0G3FB99_EUGAN
+Length=38
+
+ Score = 45.1 bits (105),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 22/33 (67%), Positives = 26/33 (79%), Gaps = 0/33 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPN  33
+           MVE LLSGI+LGLI VT+ GLF+ AY QY R +
+Sbjct  1   MVETLLSGIILGLIPVTVLGLFFTAYLQYIRSD  33
+
+
+> UniRef90_P56775 Cytochrome b6-f complex subunit 5 n=986 Tax=Magnoliophyta 
+TaxID=3398 RepID=PETG_ARATH
+Length=37
+
+ Score = 44.7 bits (104),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E  L GIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MIEVFLFGIVLGLIPITLAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_V5IZ39 Cytochrome b6-f complex subunit 5 n=2 Tax=Sedum 
+TaxID=3784 RepID=V5IZ39_9MAGN
+Length=37
+
+ Score = 44.7 bits (104),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E  L GIVLGLI +TLAGLF  A+ QYKR ++L
+Sbjct  1   MIEVFLFGIVLGLIPITLAGLFVTAFLQYKRGDQL  35
+
+
+> UniRef90_B3TN69 Cytochrome b6-f complex subunit 5 n=3100 Tax=Viridiplantae 
+TaxID=33090 RepID=PETG_BRADI
+Length=37
+
+ Score = 44.7 bits (104),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E  L GIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  1   MIEVFLFGIVLGLIPITLAGLFVTAYLQYRRGDQL  35
+
+
+> UniRef90_A0A172F1Z2 Cytochrome b6-f complex subunit 5 n=1 Tax=Phacus 
+orbicularis TaxID=158829 RepID=A0A172F1Z2_9EUGL
+Length=37
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           MVE LLSGI+LGLI VT+ GLF+ AY QY R + 
+Sbjct  1   MVESLLSGIILGLIPVTIIGLFFTAYLQYIRGDN  34
+
+
+> UniRef90_A6YG69 Cytochrome b6-f complex subunit 5 n=15 Tax=cellular 
+organisms TaxID=131567 RepID=PETG_PLETE
+Length=39
+
+ Score = 44.7 bits (104),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLGL+ VT+ GLF  AY QY+R + +
+Sbjct  1   MVEALLSGIVLGLVPVTILGLFVTAYLQYRRGDRV  35
+
+
+> UniRef90_A0A0D3M5D0 Cytochrome b6-f complex subunit 5 n=1 Tax=Trachydiscus 
+minutus TaxID=1032745 RepID=A0A0D3M5D0_9STRA
+Length=34
+
+ Score = 44.3 bits (103),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGL+ V++ GLF +AY QY+R
+Sbjct  1   MIEPLLFGIVLGLVTVSMIGLFVSAYFQYRR  31
+
+
+> UniRef90_A0A2T1D901 Cytochrome b6-f complex subunit 5 n=1 Tax=filamentous 
+cyanobacterium CCP2 TaxID=2107700 RepID=A0A2T1D901_9CYAN
+Length=45
+
+ Score = 44.3 bits (103),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 25/35 (71%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVEPLL GIVLGLI  T+ GL   AY QY+R  +L
+Sbjct  1   MVEPLLDGIVLGLIAATILGLLVDAYFQYQRTEKL  35
+
+
+> UniRef90_Q0G9U3 Cytochrome b6-f complex subunit 5 n=66 Tax=Mesangiospermae 
+TaxID=1437183 RepID=PETG_DAUCA
+Length=37
+
+ Score = 43.9 bits (102),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 22/34 (65%), Positives = 26/34 (76%), Gaps = 0/34 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNE  34
+           M+E  L GIVLGLI VTLAGLF  AY QY+R ++
+Sbjct  1   MIEVFLFGIVLGLIPVTLAGLFVTAYLQYRRGDQ  34
+
+
+> UniRef90_A0A1X9RPY1 Cytochrome b6-f complex subunit 5 n=5 Tax=Bryopsidales 
+TaxID=33104 RepID=A0A1X9RPY1_9CHLO
+Length=36
+
+ Score = 43.9 bits (102),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 21/35 (60%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIVLG I +T+ GLF  AY QY+R ++ 
+Sbjct  1   MVESLLSGIVLGFIPITIIGLFITAYLQYRRGSQF  35
+
+
+> UniRef90_B0YPP7 Cytochrome b6-f complex subunit 5 n=2 Tax=Aneura 
+TaxID=70217 RepID=PETG_ANEMR
+Length=37
+
+ Score = 43.5 bits (101),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 23/35 (66%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           MVE LLSGIV GLI +TLAG F  AY QY+R ++L
+Sbjct  1   MVEALLSGIVPGLIPITLAGSFVIAYLQYRRGDQL  35
+
+
+> UniRef90_A8W3E0 Cytochrome b6-f complex subunit 5 n=2 Tax=Monogynella 
+TaxID=1824619 RepID=PETG_CUSEX
+Length=37
+
+ Score = 43.1 bits (100),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 21/35 (60%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E  L GIVLG+I +TLAGLF  AY QY+R + L
+Sbjct  1   MIEVFLFGIVLGIIPITLAGLFVTAYLQYRRGDRL  35
+
+
+> UniRef90_A0A3B6FIZ2 Uncharacterized protein n=1 Tax=Triticum 
+aestivum TaxID=4565 RepID=A0A3B6FIZ2_WHEAT
+Length=37
+
+ Score = 43.1 bits (100),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 22/35 (63%), Positives = 26/35 (74%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+E    GIVLGLI +TLAGLF  AY QYKR ++L
+Sbjct  1   MIEAFPFGIVLGLIPITLAGLFVTAYLQYKRGDQL  35
+
+
+> UniRef90_G7JFY6 Cytochrome b6-F complex subunit 5 n=1 Tax=Medicago 
+truncatula TaxID=3880 RepID=G7JFY6_MEDTR
+Length=71
+
+ Score = 43.9 bits (102),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 22/36 (61%), Positives = 27/36 (75%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+E  L GIVLGLI +TLAGLF  AY QY+R ++L 
+Sbjct  35  MIEVSLFGIVLGLIPITLAGLFVTAYLQYRRGDQLD  70
+
+
+> UniRef90_G7L7R5 Cytochrome b6-F complex subunit 5 n=28 Tax=Spermatophyta 
+TaxID=58024 RepID=G7L7R5_MEDTR
+Length=170
+
+ Score = 45.4 bits (106),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 22/35 (63%), Positives = 27/35 (77%), Gaps = 0/35 (0%)
+
+Query  1    MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+            M+E  L GIVLGLI +TLAGLF  AY QY+R ++L
+Sbjct  134  MIEVSLFGIVLGLIPITLAGLFVTAYLQYRRGDQL  168
+
+
+> UniRef90_Q7NNA0 Cytochrome b6-f complex subunit 5 n=2 Tax=Gloeobacter 
+TaxID=33071 RepID=PETG_GLOVI
+Length=40
+
+ Score = 42.0 bits (97),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 20/36 (56%), Positives = 27/36 (75%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EP+L G+VLG + VT+AGL  AA+ QYK+ N  G
+Sbjct  1   MIEPILLGMVLGFVPVTIAGLLVAAWLQYKQGNPSG  36
+
+
+> UniRef90_K9T7L3 Cytochrome b6-f complex subunit 5 n=6 Tax=Pleurocapsales 
+TaxID=52604 RepID=K9T7L3_9CYAN
+Length=38
+
+ Score = 41.6 bits (96),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 28/36 (78%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI +TLAGLF+AAY QYKR N+LG
+Sbjct  1   MIEPLLLGIVLGLIFITLAGLFFAAYMQYKRGNQLG  36
+
+
+> UniRef90_A0A1Z4RM42 Cytochrome b6-f complex subunit 5 n=1 Tax=Chondrocystis 
+sp. NIES-4102 TaxID=2005460 RepID=A0A1Z4RM42_9CHRO
+Length=38
+
+ Score = 40.0 bits (92),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGL+ +TL+GLF+AAY QYKR N+LG
+Sbjct  1   MIEPLLLGIVLGLVFMTLSGLFFAAYMQYKRGNQLG  36
+
+
+> UniRef90_K9Z6N5 Cytochrome b6-f complex subunit 5 n=5 Tax=Cyanobacteria 
+TaxID=1117 RepID=K9Z6N5_CYAAP
+Length=38
+
+ Score = 39.3 bits (90),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 32/36 (89%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL GIVLGLI VTL GLF+AAY+QY+R +E+G
+Sbjct  1   MVEPLLLGIVLGLIPVTLIGLFFAAYRQYRRSSEIG  36
+
+
+> UniRef90_B1XNK6 Cytochrome b6-f complex subunit 5 n=5 Tax=Synechococcales 
+TaxID=1890424 RepID=PETG_SYNP2
+Length=38
+
+ Score = 38.5 bits (88),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI VTLAGLF AAY QYKR N+LG
+Sbjct  1   MIEPLLLGIVLGLIPVTLAGLFVAAYLQYKRGNDLG  36
+
+
+> UniRef90_U5DK56 Cytochrome b6-f complex subunit 5 n=1 Tax=Rubidibacter 
+lacunae KORDI 51-2 TaxID=582515 RepID=U5DK56_9CHRO
+Length=33
+
+ Score = 36.2 bits (82),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 23/33 (70%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPN  33
+           M+EPLL GIVLGL+ +TLAGL++AAY QY+R N
+Sbjct  1   MIEPLLLGIVLGLVAITLAGLYWAAYMQYRRSN  33
+
+
+> UniRef90_A0A1C0UZ44 Cytochrome b6-f complex subunit 5 n=2 Tax=Limnothrix 
+TaxID=132605 RepID=A0A1C0UZ44_9CYAN
+Length=37
+
+ Score = 36.2 bits (82),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/35 (69%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+EP L GIVLGLI+VTL+GLF+AAY+QY+R N+ 
+Sbjct  1   MIEPRLLGIVLGLILVTLSGLFFAAYQQYRRGNQF  35
+
+
+> UniRef90_K9YVL9 Cytochrome b6-f complex subunit 5 n=4 Tax=Cyanobacteria 
+TaxID=1117 RepID=K9YVL9_DACSA
+Length=33
+
+ Score = 35.8 bits (81),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 25/33 (76%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPN  33
+           M+EPLL GIVLGLI VTLAGLF+AAY QY+R +
+Sbjct  1   MIEPLLLGIVLGLIFVTLAGLFFAAYMQYRRTS  33
+
+
+> UniRef90_B1WY29 Cytochrome b6-f complex subunit 5 n=46 Tax=Terrabacteria 
+group TaxID=1783272 RepID=PETG_CYAA5
+Length=38
+
+ Score = 35.8 bits (81),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/36 (75%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI +TLAGLF AAY QYKR N+L 
+Sbjct  1   MIEPLLLGIVLGLIPITLAGLFVAAYLQYKRGNQLN  36
+
+
+> UniRef90_U9VYH6 Cytochrome b6-f complex subunit 5 n=2 Tax=Leptolyngbya 
+TaxID=47251 RepID=U9VYH6_9CYAN
+Length=37
+
+ Score = 34.7 bits (78),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI VTLAGLF AAY QY+R ++L 
+Sbjct  1   MIEPLLLGIVLGLIPVTLAGLFVAAYMQYRRGDQLN  36
+
+
+> UniRef90_A0A2T2RY87 Cytochrome b6-f complex subunit 5 n=1 Tax=Cyanobacteria 
+bacterium QS_8_64_29 TaxID=1919134 RepID=A0A2T2RY87_9CYAN
+Length=33
+
+ Score = 34.3 bits (77),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           M+EPLL GIVLGL+ +TLAGLF+ AY+QY+R
+Sbjct  1   MIEPLLLGIVLGLVFITLAGLFFDAYRQYRR  31
+
+
+> UniRef90_A0A2T1BY06 Cytochrome b6-f complex subunit 5 n=1 Tax=Merismopedia 
+glauca CCAP 1448/3 TaxID=1296344 RepID=A0A2T1BY06_9CYAN
+Length=37
+
+ Score = 33.5 bits (75),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 27/35 (77%), Positives = 30/35 (86%), Gaps = 0/35 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNEL  35
+           M+EPLL GIVLGLI+VTLAGLF AAY QYKR + L
+Sbjct  1   MIEPLLLGIVLGLILVTLAGLFAAAYWQYKRGDNL  35
+
+
+> UniRef90_A0A2W7B6X9 Cytochrome b6-f complex subunit 5 n=1 Tax=Snowella 
+sp. TaxID=2164131 RepID=A0A2W7B6X9_9CYAN
+Length=38
+
+ Score = 33.5 bits (75),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 29/36 (81%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           M+EPLL GIVLGLI VTLAGLF AAY QYKR ++  
+Sbjct  1   MIEPLLLGIVLGLIPVTLAGLFTAAYLQYKRGSQFD  36
+
+
+> UniRef90_A0A3G2QZV8 Cytochrome b6/f complex subunit V n=1 Tax=Neotessella 
+volvocina TaxID=2419522 RepID=A0A3G2QZV8_9STRA
+Length=38
+
+ Score = 33.1 bits (74),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 26/36 (72%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPNELG  36
+           MVEPLL+GIVLGL+VV L GL+ AAY QY+R NEL 
+Sbjct  1   MVEPLLTGIVLGLMVVVLVGLYVAAYLQYRRSNELS  36
+
+
+> UniRef90_A0A1X9PUZ0 Cytochrome b6-f complex subunit 5 n=1 Tax=Boldia 
+erythrosiphon TaxID=74908 RepID=A0A1X9PUZ0_9RHOD
+Length=33
+
+ Score = 32.7 bits (73),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/31 (74%), Positives = 26/31 (84%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVEPLLSGI+LGL+ VTLAGL  AAY Q+ R
+Sbjct  1   MVEPLLSGIILGLVPVTLAGLLLAAYLQFSR  31
+
+
+> UniRef90_A0A1C9CEH3 Cytochrome b6-f complex subunit 5 n=1 Tax=Erythrotrichia 
+carnea TaxID=35151 RepID=A0A1C9CEH3_9RHOD
+Length=35
+
+ Score = 28.9 bits (63),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 12/20 (60%), Positives = 16/20 (80%), Gaps = 0/20 (0%)
+
+Query  17  TLAGLFYAAYKQYKRPNELG  36
+           +LAGL  AAY Q++R N+LG
+Sbjct  15  SLAGLLVAAYLQFRRGNQLG  34
+
+
+> UniRef90_A0A3G3LLY3 Cytochrome b6/f complex subunit V n=1 Tax=Phacus 
+pleuronectes TaxID=102908 RepID=A0A3G3LLY3_9EUGL
+Length=39
+
+ Score = 25.4 bits (54),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVE LLSGI+LGLI VT+ GLF+ AY QY R
+Sbjct  1   MVESLLSGILLGLIPVTIIGLFFTAYLQYTR  31
+
+
+> UniRef90_A0A3G3LKV5 Cytochrome b6/f complex subunit V n=1 Tax=Phacus 
+inflexus TaxID=461210 RepID=A0A3G3LKV5_9EUGL
+Length=38
+
+ Score = 24.6 bits (52),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 22/31 (71%), Positives = 25/31 (81%), Gaps = 0/31 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKR  31
+           MVE LLSGI+LGLI VT+ GLF+ AY QY R
+Sbjct  1   MVESLLSGILLGLIPVTIMGLFFTAYLQYVR  31
+
+
+> UniRef90_I6NJW2 Cytochrome b6-f complex subunit 5 n=1 Tax=Colacium 
+vesiculosum TaxID=102910 RepID=I6NJW2_9EUGL
+Length=38
+
+ Score = 17.7 bits (34),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 20/33 (61%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  1   MVEPLLSGIVLGLIVVTLAGLFYAAYKQYKRPN  33
+           MVE LLSGI++GLI++T+ GLF+ AY QY R +
+Sbjct  1   MVETLLSGIIIGLIIITILGLFFTAYLQYIRSD  33
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.146    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 195330
+
+
+  Database: isar.db.161
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 7,946
+  Number of sequences in database:  205
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,182 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.164
+           9 sequences; 480 total letters
+
+Results from round 1
+
+
+Query= P60460|1rh5C|SECG_METJA 0.6037735849056604
+
+Length=53
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P60460 Preprotein translocase subunit SecG n=5 Tax=Met...  107     1e-37
+  UniRef90_C9REH9 Uncharacterized protein n=1 Tax=Methanocaldococ...  100     3e-35
+  UniRef90_N6VQ51 Uncharacterized protein n=1 Tax=Methanocaldococ...  94.4    1e-32
+  UniRef90_D5VS04 Uncharacterized protein n=1 Tax=Methanocaldococ...  90.5    5e-31
+  UniRef90_F6BAC2 Uncharacterized protein n=2 Tax=Methanotorris T...  78.6    3e-26
+  UniRef90_F8AM84 Preprotein translocase subunit SecG n=1 Tax=Met...  73.2    4e-24
+  UniRef90_D7DUB4 Uncharacterized protein n=1 Tax=Methanococcus v...  63.2    4e-20
+  UniRef90_A6UWW7 Preprotein translocase subunit SecG n=1 Tax=Met...  62.8    6e-20
+  UniRef90_A6UQ73 Uncharacterized protein n=9 Tax=Methanococcus T...  58.9    2e-18
+
+
+> UniRef90_P60460 Preprotein translocase subunit SecG n=5 Tax=Methanocaldococcus 
+TaxID=196118 RepID=SECG_METJA
+Length=53
+
+ Score = 107 bits (266),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 53/53 (100%), Positives = 53/53 (100%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL
+Sbjct  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+
+
+> UniRef90_C9REH9 Uncharacterized protein n=1 Tax=Methanocaldococcus 
+vulcanius (strain ATCC 700851 / DSM 12094 / M7) TaxID=579137 
+RepID=C9REH9_METVM
+Length=53
+
+ Score = 100 bits (250),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 47/53 (89%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MSKREETGLATSAGLIRYMDETFSK++VKPEHVIG+T AF+IIEAILTYGRF 
+Sbjct  1   MSKREETGLATSAGLIRYMDETFSKVKVKPEHVIGITTAFIIIEAILTYGRFF  53
+
+
+> UniRef90_N6VQ51 Uncharacterized protein n=1 Tax=Methanocaldococcus 
+villosus KIN24-T80 TaxID=1069083 RepID=N6VQ51_9EURY
+Length=53
+
+ Score = 94.4 bits (233),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 44/53 (83%), Positives = 49/53 (92%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MSKREE GLATSAGL+RYMDE+ SKI+VKPEHVIG+TVAF+IIE ILTYGR L
+Sbjct  1   MSKREERGLATSAGLVRYMDESLSKIKVKPEHVIGLTVAFIIIETILTYGRLL  53
+
+
+> UniRef90_D5VS04 Uncharacterized protein n=1 Tax=Methanocaldococcus 
+infernus (strain DSM 11812 / JCM 15783 / ME) TaxID=573063 
+RepID=D5VS04_METIM
+Length=53
+
+ Score = 90.5 bits (223),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 42/53 (79%), Positives = 47/53 (89%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MS+REE GLATSAGLIRYMDE+ SKIRVKPEHVIGVTV  +++E ILTYGRF 
+Sbjct  1   MSRREERGLATSAGLIRYMDESLSKIRVKPEHVIGVTVGIIVLEVILTYGRFF  53
+
+
+> UniRef90_F6BAC2 Uncharacterized protein n=2 Tax=Methanotorris 
+TaxID=196119 RepID=F6BAC2_METIK
+Length=53
+
+ Score = 78.6 bits (192),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           MSKRE+ GLATSAGL+RYMDE+ SKIR++PE VIG+T+  ++ E ILTYG FL
+Sbjct  1   MSKREDRGLATSAGLVRYMDESLSKIRIEPEKVIGITLFIIVAEIILTYGVFL  53
+
+
+> UniRef90_F8AM84 Preprotein translocase subunit SecG n=1 Tax=Methanothermococcus 
+okinawensis (strain DSM 14208 / JCM 11175 
+/ IH1) TaxID=647113 RepID=F8AM84_METOI
+Length=54
+
+ Score = 73.2 bits (178),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 31/51 (61%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  3   KREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           K E+ GL+TSAGL+RYMDE  SKI++ PE V+G+TVA +++EAIL YG F+
+Sbjct  4   KNEDVGLSTSAGLVRYMDEDISKIKIAPEKVLGITVAIMVLEAILNYGIFI  54
+
+
+> UniRef90_D7DUB4 Uncharacterized protein n=1 Tax=Methanococcus 
+voltae (strain ATCC BAA-1334 / A3) TaxID=456320 RepID=D7DUB4_METV3
+Length=54
+
+ Score = 63.2 bits (152),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 26/47 (55%), Positives = 37/47 (79%), Gaps = 0/47 (0%)
+
+Query  4   REETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYG  50
+           + + GL+TSAGL+RYMD   SKI+V+PE V+G+T A ++ EA+L YG
+Sbjct  5   KNDEGLSTSAGLVRYMDTDISKIKVEPEKVLGITFAIIVAEALLNYG  51
+
+
+> UniRef90_A6UWW7 Preprotein translocase subunit SecG n=1 Tax=Methanococcus 
+aeolicus (strain ATCC BAA-1280 / DSM 17508 / OCM 
+812 / Nankai-3) TaxID=419665 RepID=SECG_META3
+Length=54
+
+ Score = 62.8 bits (151),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 27/51 (53%), Positives = 41/51 (80%), Gaps = 1/51 (2%)
+
+Query  1   MSK-REETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYG  50
+           MSK +++ GL+TSAGL+RYMDE  SKI++ PE V+G+T++ +++  IL YG
+Sbjct  1   MSKNKQDAGLSTSAGLVRYMDEDASKIKIAPEKVLGITISIMVLLFILNYG  51
+
+
+> UniRef90_A6UQ73 Uncharacterized protein n=9 Tax=Methanococcus 
+TaxID=2184 RepID=A6UQ73_METVS
+Length=53
+
+ Score = 58.9 bits (141),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 33/53 (62%), Positives = 42/53 (79%), Gaps = 0/53 (0%)
+
+Query  1   MSKREETGLATSAGLIRYMDETFSKIRVKPEHVIGVTVAFVIIEAILTYGRFL  53
+           M+K  + GL+TSAGL+RYMDE  SKI+V PE VIG+TV+ +IIEA+L YG  L
+Sbjct  1   MAKNSDAGLSTSAGLVRYMDEDVSKIKVAPEKVIGITVSIIIIEAVLNYGILL  53
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 13806
+
+
+  Database: isar.db.164
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 480
+  Number of sequences in database:  9
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

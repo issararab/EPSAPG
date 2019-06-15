@@ -1,0 +1,4245 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.206
+           291 sequences; 28,043 total letters
+
+Results from round 1
+
+
+Query= Q3E7B6|6c6lM|VA0E_YEAST 0.9452054794520548
+
+Length=73
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q3E7B6 V-type proton ATPase subunit e n=6 Tax=Saccharo...  149     8e-52
+  UniRef90_A0A1S7HZX3 VMA9 (YCL005W-A) n=4 Tax=Zygosaccharomyces ...  120     2e-40
+  UniRef90_A0A1G4K4Y0 LADA_0H15676g1_1 n=2 Tax=Lachancea TaxID=30...  119     5e-40
+  UniRef90_G8BPX2 Uncharacterized protein n=1 Tax=Tetrapisispora ...  117     2e-39
+  UniRef90_J7S943 Uncharacterized protein n=1 Tax=Kazachstania na...  117     3e-39
+  UniRef90_A0A1G4K301 LAFA_0G14114g1_1 n=2 Tax=Lachancea TaxID=30...  115     1e-38
+  UniRef90_A7TG53 Uncharacterized protein n=1 Tax=Vanderwaltozyma...  115     2e-38
+  UniRef90_G0W9R0 Uncharacterized protein n=1 Tax=Naumovozyma dai...  114     3e-38
+  UniRef90_I2H0Q8 Uncharacterized protein n=1 Tax=Tetrapisispora ...  113     1e-37
+  UniRef90_G8JN64 Uncharacterized protein n=2 Tax=Eremothecium Ta...  112     1e-37
+  UniRef90_Q75EU0 V-type proton ATPase subunit e n=2 Tax=Saccharo...  112     2e-37
+  UniRef90_G8ZQ28 Uncharacterized protein n=1 Tax=Torulaspora del...  112     2e-37
+  UniRef90_G0V711 Uncharacterized protein n=1 Tax=Naumovozyma cas...  108     8e-36
+  UniRef90_A0A1G4KKG1 LANO_0G14158g1_1 n=1 Tax=Lachancea nothofag...  108     1e-35
+  UniRef90_A0A1E4TNC2 Uncharacterized protein n=1 Tax=Pachysolen ...  107     2e-35
+  UniRef90_A0A1D2VGT2 Uncharacterized protein (Fragment) n=1 Tax=...  107     3e-35
+  UniRef90_A0A1G4IPS0 LAMI_0A05512g1_1 n=1 Tax=Lachancea mirantin...  106     5e-35
+  UniRef90_A0A1E3NNZ1 Uncharacterized protein n=1 Tax=Pichia memb...  105     2e-34
+  UniRef90_A0A1G4MFF6 LAFE_0F09626g1_1 n=1 Tax=Lachancea fermenta...  105     2e-34
+  UniRef90_A0A1E3PLX9 Putative secreted protein n=1 Tax=Nadsonia ...  104     4e-34
+  UniRef90_A0A1E4T8C0 Uncharacterized protein n=1 Tax=[Candida] a...  102     1e-33
+  UniRef90_A0A0L8RNE5 VMA9-like protein n=1 Tax=Saccharomyces eub...  101     3e-33
+  UniRef90_A0A0J9XKS0 Similar to Saccharomyces cerevisiae YCL005W...  103     1e-32
+  UniRef90_B5RUR1 DEHA2G11682p n=2 Tax=Debaryomyces TaxID=4958 Re...  100     2e-32
+  UniRef90_F2QXB5 V-type proton ATPase subunit e of the V0 integr...  100     2e-32
+  UniRef90_A0A1E3QMR2 Uncharacterized protein n=1 Tax=Babjeviella...  99.8    3e-32
+  UniRef90_A0A1E5RZ81 V-type proton ATPase subunit e n=1 Tax=Hans...  99.4    3e-32
+  UniRef90_A0A1V2LJV8 V-type proton ATPase subunit e n=1 Tax=Pich...  99.0    5e-32
+  UniRef90_A0A1X7R8D1 Similar to Saccharomyces cerevisiae YCL005W...  98.2    7e-32
+  UniRef90_A0A1E4RI12 Uncharacterized protein n=1 Tax=Hyphopichia...  97.4    2e-31
+  UniRef90_A0A1E4S5F1 Vacuolar ATP synthase subunit E n=1 Tax=Cyb...  97.4    2e-31
+  UniRef90_H2B057 Uncharacterized protein n=1 Tax=Kazachstania af...  96.3    5e-31
+  UniRef90_A0A1E3P7R3 Uncharacterized protein (Fragment) n=1 Tax=...  95.9    8e-31
+  UniRef90_G3BDK2 Uncharacterized protein n=1 Tax=Candida tenuis ...  95.1    2e-30
+  UniRef90_A3GFP9 ATP synthase subunit H family protein (Va0H) (A...  93.2    9e-30
+  UniRef90_A0A1B7TK09 V-type proton ATPase subunit E n=1 Tax=Hans...  92.4    3e-29
+  UniRef90_G3AGD7 Uncharacterized protein n=1 Tax=Spathaspora pas...  92.0    3e-29
+  UniRef90_A0A1E4SPF5 Uncharacterized protein (Fragment) n=1 Tax=...  91.3    5e-29
+  UniRef90_A0A1E3Q608 Uncharacterized protein n=1 Tax=Lipomyces s...  91.3    6e-29
+  UniRef90_A0A1L0DLX0 CIC11C00000005398 n=1 Tax=[Candida] interme...  89.7    2e-28
+  UniRef90_G8YL74 Piso0_001593 protein n=2 Tax=Pichia sorbitophil...  89.4    3e-28
+  UniRef90_A0A1H6PTJ4 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Y...  89.0    4e-28
+  UniRef90_C9SJ76 Uncharacterized protein n=6 Tax=Verticillium Ta...  88.2    9e-28
+  UniRef90_A0A3N4LN96 Putative vacuolar ATP synthase subunit E n=...  87.8    2e-27
+  UniRef90_A0A2H1A1Q4 Uncharacterized protein n=1 Tax=Candida aur...  86.7    4e-27
+  UniRef90_G8BEC0 Uncharacterized protein n=2 Tax=Candida TaxID=1...  85.9    7e-27
+  UniRef90_A0A317SGK1 Uncharacterized protein (Fragment) n=1 Tax=...  85.1    2e-26
+  UniRef90_B9W982 Vacuolar atp synthase subunit E, putative n=2 T...  84.3    3e-26
+  UniRef90_Q2H0J2 Uncharacterized protein n=1 Tax=Chaetomium glob...  84.3    3e-26
+  UniRef90_M3JTF3 ATP synthase subunit H family protein n=1 Tax=C...  83.6    6e-26
+  UniRef90_A0A084QC69 Uncharacterized protein n=3 Tax=Stachybotry...  82.8    1e-25
+  UniRef90_A0A1D8PEY4 H(+)-transporting V0 sector ATPase subunit ...  84.3    2e-25
+  UniRef90_A0A061BBU5 CYFA0S17e02388g1_1 n=1 Tax=Cyberlindnera fa...  83.2    2e-25
+  UniRef90_L8FTC9 Uncharacterized protein n=18 Tax=Pseudogymnoasc...  82.0    3e-25
+  UniRef90_G9NN84 Uncharacterized protein n=3 Tax=Trichoderma Tax...  81.6    4e-25
+  UniRef90_F0XUS7 Vacuolar ATP synthase subunit n=1 Tax=Grosmanni...  81.3    6e-25
+  UniRef90_G2Q4A1 Uncharacterized protein n=1 Tax=Myceliophthora ...  80.9    7e-25
+  UniRef90_A0A202GBF4 Putative H(+)-transporting V0 sector ATPase...  80.9    8e-25
+  UniRef90_Q7S9M0 Vacuolar ATPase subunit E n=3 Tax=Sordariaceae ...  80.5    1e-24
+  UniRef90_A0A3N2PYA6 Vacuolar ATP synthase subunit n=1 Tax=Sodio...  80.5    1e-24
+  UniRef90_G9MYQ3 Uncharacterized protein n=11 Tax=Trichoderma Ta...  79.7    2e-24
+  UniRef90_A0A2D3UY60 Probable VMA9 Subunit e of the Vo (Membrane...  80.1    2e-24
+  UniRef90_A0A094DRL9 Uncharacterized protein n=1 Tax=Pseudogymno...  79.7    3e-24
+  UniRef90_U4LDA8 Similar to V-type proton ATPase subunit e acc. ...  79.7    3e-24
+  UniRef90_N1PMZ4 Uncharacterized protein n=1 Tax=Dothistroma sep...  79.3    4e-24
+  UniRef90_A0A139HJU9 Uncharacterized protein n=1 Tax=Pseudocerco...  80.1    6e-24
+  UniRef90_A0A2C5XV14 Uncharacterized protein n=2 Tax=Ophiocordyc...  78.6    6e-24
+  UniRef90_A0A178DX97 Uncharacterized protein n=1 Tax=Pyrenochaet...  78.6    7e-24
+  UniRef90_A0A1R3RYR5 Uncharacterized protein n=11 Tax=Aspergillu...  78.2    8e-24
+  UniRef90_A0A0A1UVB5 ATP synthase subunit H domain protein n=3 T...  78.2    8e-24
+  UniRef90_B2WMY1 Uncharacterized protein n=7 Tax=Pleosporaceae T...  78.2    1e-23
+  UniRef90_A0A3N4KJQ5 Uncharacterized protein n=1 Tax=Morchella c...  78.2    1e-23
+  UniRef90_M2YPN8 Uncharacterized protein (Fragment) n=1 Tax=Pseu...  78.2    1e-23
+  UniRef90_A0A168AQG6 ATPase, V0 complex, subunit E n=5 Tax=Cordy...  77.8    1e-23
+  UniRef90_A0A2T7A0Q3 ATP synthase subunit H-domain-containing pr...  77.8    1e-23
+  UniRef90_C4R3N0 Vacuolar H+ ATPase subunit e of the V-ATPase V0...  76.6    2e-23
+  UniRef90_A0A0U5FPQ8 Putative V-type H-transporting ATPase subun...  77.4    2e-23
+  UniRef90_C7ZPP1 Uncharacterized protein (Fragment) n=1 Tax=Nect...  77.0    2e-23
+  UniRef90_A0A1Y2DUY1 ATPase, V0 complex, subunit E1/e2 n=1 Tax=P...  77.0    2e-23
+  UniRef90_A0A367L955 Uncharacterized protein n=1 Tax=Ophiocordyc...  77.4    2e-23
+  UniRef90_A0A1Y2LV31 Uncharacterized protein n=1 Tax=Epicoccum n...  77.0    2e-23
+  UniRef90_A0A178B062 Uncharacterized protein n=2 Tax=Pleosporale...  77.0    3e-23
+  UniRef90_A0A384K5K6 Bcvma9 n=4 Tax=Sclerotiniaceae TaxID=28983 ...  76.6    3e-23
+  UniRef90_A0A1A0HL45 Uncharacterized protein n=1 Tax=Metschnikow...  75.9    6e-23
+  UniRef90_A0A150VH76 Uncharacterized protein n=1 Tax=Acidomyces ...  76.3    6e-23
+  UniRef90_A0A0C2ILZ8 Vacuolar ATP synthase subunit n=3 Tax=Sporo...  77.4    6e-23
+  UniRef90_A0A2U3E832 6-phosphogluconate dehydrogenase 2 n=1 Tax=...  82.4    6e-23
+  UniRef90_A0A0L1J6H4 V-type proton ATPase subunit e n=4 Tax=Aspe...  75.9    7e-23
+  UniRef90_G0S5H5 Uncharacterized protein n=1 Tax=Chaetomium ther...  82.0    8e-23
+  UniRef90_A0A1C7N8P8 V-type proton ATPase subunit e n=2 Tax=Muco...  75.9    8e-23
+  UniRef90_A0A0A1SJE1 Putative V-type proton ATPase subunit e n=1...  75.9    8e-23
+  UniRef90_A0A0G2FRW4 Putative vacuolar atp synthase subunit n=5 ...  75.5    1e-22
+  UniRef90_A0A0G2EHL5 Putative v-type proton atpase subunit e n=1...  75.5    1e-22
+  UniRef90_A0A3M2S834 Uncharacterized protein n=1 Tax=Fusarium ku...  77.0    1e-22
+  UniRef90_X0JMU4 V-type H+-transporting ATPase subunit H n=19 Ta...  76.6    1e-22
+  UniRef90_A0A1L9VEG5 Uncharacterized protein n=3 Tax=Aspergillus...  75.1    1e-22
+  UniRef90_G2R4D5 Uncharacterized protein n=2 Tax=Sordariales Tax...  75.1    1e-22
+  UniRef90_A0A0F7TFV1 Uncharacterized protein n=1 Tax=Penicillium...  75.1    2e-22
+  UniRef90_A0A2A9P253 Uncharacterized protein n=1 Tax=Ophiocordyc...  74.7    2e-22
+  UniRef90_A0A1D9QG12 Uncharacterized protein n=2 Tax=Sclerotinia...  75.1    2e-22
+  UniRef90_A0A3N4JYR7 Uncharacterized protein n=1 Tax=Choiromyces...  74.7    2e-22
+  UniRef90_A0A395IBE6 V-type proton ATPase subunit E n=1 Tax=Aspe...  74.7    2e-22
+  UniRef90_A0A319EKN4 V-type proton ATPase subunit E n=2 Tax=Aspe...  74.7    2e-22
+  UniRef90_R1GHB0 Putative vacuolar atp synthase subunit protein ...  74.7    2e-22
+  UniRef90_J3P4M3 Uncharacterized protein n=2 Tax=Magnaporthaceae...  74.7    2e-22
+  UniRef90_M7SG14 Putative vacuolar atp synthase subunit protein ...  74.3    3e-22
+  UniRef90_A0A167QWQ3 ATPase, V0 complex, subunit E n=1 Tax=Sporo...  80.1    3e-22
+  UniRef90_A0A0E9NLN4 Uncharacterized protein n=1 Tax=Saitoella c...  74.3    3e-22
+  UniRef90_A0A1Q3A1E0 Uncharacterized protein n=1 Tax=Zygosacchar...  73.6    3e-22
+  UniRef90_A0A1V6PEA6 Uncharacterized protein n=1 Tax=Penicillium...  74.3    3e-22
+  UniRef90_M1WF26 Uncharacterized protein n=1 Tax=Claviceps purpu...  74.3    3e-22
+  UniRef90_A0A2J5HI90 ATPase, V0 complex, subunit E1/e2 n=3 Tax=A...  73.9    4e-22
+  UniRef90_A0A0C3B5U4 Uncharacterized protein n=1 Tax=Serendipita...  73.9    4e-22
+  UniRef90_L7JKK1 Uncharacterized protein n=3 Tax=Magnaporthe ory...  73.9    4e-22
+  UniRef90_A0A0F4GYZ8 Vacuolar ATP synthase subunit e like protei...  73.6    6e-22
+  UniRef90_A0A1L9RBC3 Uncharacterized protein n=1 Tax=Aspergillus...  73.6    7e-22
+  UniRef90_K3VDM2 Uncharacterized protein n=9 Tax=Fusarium TaxID=...  73.2    7e-22
+  UniRef90_A0A2S4L2K0 Vacuolar ATP synthase subunit e n=1 Tax=Tol...  73.2    9e-22
+  UniRef90_C5GP29 V-type H+-transporting ATPase subunit H n=4 Tax...  73.2    1e-21
+  UniRef90_A0A1Y1Y9H5 ATPase, V0 complex, subunit E1/e2 n=1 Tax=C...  72.8    1e-21
+  UniRef90_S7ZHL5 Uncharacterized protein n=1 Tax=Penicillium oxa...  72.8    1e-21
+  UniRef90_A0A1Z5SUN4 Uncharacterized protein n=10 Tax=Hortaea we...  72.8    1e-21
+  UniRef90_Q0CY04 Uncharacterized protein n=1 Tax=Aspergillus ter...  72.4    1e-21
+  UniRef90_A0A0G4PKF2 ATPase, V0 complex, subunit E n=8 Tax=Penic...  72.4    2e-21
+  UniRef90_A0A0S6XHJ4 Uncharacterized protein n=1 Tax=fungal sp. ...  72.4    2e-21
+  UniRef90_I1BSN3 Uncharacterized protein n=6 Tax=Rhizopus TaxID=...  72.0    2e-21
+  UniRef90_A0A3N4IHK7 Uncharacterized protein n=1 Tax=Ascobolus i...  72.4    2e-21
+  UniRef90_A0A1L9SI42 Uncharacterized protein n=1 Tax=Penicilliop...  72.0    2e-21
+  UniRef90_A0A1L9X1Y0 Uncharacterized protein n=6 Tax=Aspergillus...  72.0    2e-21
+  UniRef90_A0A0F7SPH2 Vacuolar atp synthase subunit n=1 Tax=Phaff...  71.6    3e-21
+  UniRef90_A0A1V6X8E4 Uncharacterized protein n=1 Tax=Penicillium...  72.8    4e-21
+  UniRef90_A0A0D1ZC01 Uncharacterized protein n=1 Tax=Exophiala s...  71.6    4e-21
+  UniRef90_A0A232LXC0 Uncharacterized protein (Fragment) n=1 Tax=...  73.9    4e-21
+  UniRef90_A0A2I1CMX2 V-type proton ATPase subunit E n=1 Tax=Aspe...  71.2    6e-21
+  UniRef90_A0A2V1D4A7 Uncharacterized protein n=1 Tax=Periconia m...  71.2    6e-21
+  UniRef90_A0A1V1SQZ7 Uncharacterized protein n=1 Tax=fungal sp. ...  70.9    7e-21
+  UniRef90_Q0U6P8 Uncharacterized protein n=1 Tax=Phaeosphaeria n...  70.9    7e-21
+  UniRef90_W2S1U4 Uncharacterized protein (Fragment) n=1 Tax=Cyph...  70.9    7e-21
+  UniRef90_C5PJJ7 Vacuolar ATP synthase subunit H, putative n=7 T...  70.1    1e-20
+  UniRef90_A0A2I2G4Y3 V-type proton ATPase subunit E n=1 Tax=Aspe...  70.1    2e-20
+  UniRef90_A0A0M8PA63 Uncharacterized protein n=1 Tax=Penicillium...  69.7    2e-20
+  UniRef90_A0A1E3IWL8 V-type proton ATPase subunit E n=1 Tax=Cryp...  69.7    2e-20
+  UniRef90_M2MA50 Uncharacterized protein n=1 Tax=Baudoinia panam...  70.1    2e-20
+  UniRef90_A0A084GGN0 Uncharacterized protein n=1 Tax=Scedosporiu...  69.7    2e-20
+  UniRef90_A0A167ZV79 ATPase, V0 complex, subunit E n=1 Tax=Ascos...  69.3    3e-20
+  UniRef90_E3L349 Uncharacterized protein n=2 Tax=Puccinia TaxID=...  69.3    3e-20
+  UniRef90_A0A2T4HC15 Uncharacterized protein n=1 Tax=Fusarium cu...  74.7    3e-20
+  UniRef90_A0A1Y2XD35 Uncharacterized protein n=2 Tax=Hypoxylacea...  68.9    4e-20
+  UniRef90_A0A074WQE9 Uncharacterized protein n=5 Tax=Aureobasidi...  68.9    5e-20
+  UniRef90_G4TV77 Uncharacterized protein n=1 Tax=Serendipita ind...  68.9    5e-20
+  UniRef90_A0A2V1CCG7 Uncharacterized protein n=2 Tax=Helotiales ...  68.9    5e-20
+  UniRef90_A0A136ILJ7 ATPase, V0 complex, subunit E1/e2 n=1 Tax=M...  68.6    6e-20
+  UniRef90_A0A0J0XFV5 Uncharacterized protein n=1 Tax=Cutaneotric...  68.6    6e-20
+  UniRef90_A0A1E1L005 Probable VMA9 Subunit e of the Vo (Membrane...  68.9    6e-20
+  UniRef90_W9XUE8 V-type H+-transporting ATPase subunit H (Fragme...  68.6    6e-20
+  UniRef90_A0A067N6A2 Uncharacterized protein n=1 Tax=Botryobasid...  68.2    7e-20
+  UniRef90_A0A2T2NVL7 Uncharacterized protein n=1 Tax=Corynespora...  68.2    7e-20
+  UniRef90_R4XDX4 Uncharacterized protein n=1 Tax=Taphrina deform...  68.2    8e-20
+  UniRef90_X8JMA7 Vacuolar ATP synthase subunit H, putative n=2 T...  68.2    9e-20
+  UniRef90_A0A1Y2W0C3 Uncharacterized protein n=1 Tax=Hypoxylon s...  67.8    1e-19
+  UniRef90_M3CIK0 Uncharacterized protein n=3 Tax=Mycosphaerellac...  67.8    1e-19
+  UniRef90_A0A2N6NVQ0 V-type proton ATPase subunit e n=1 Tax=Beau...  68.2    1e-19
+  UniRef90_A0A0F4Z940 Uncharacterized protein n=1 Tax=Thielaviops...  67.4    1e-19
+  UniRef90_B6QPL3 Vacuolar ATP synthase subunit e, putative n=2 T...  67.4    2e-19
+  UniRef90_B6K3R9 V-type ATPase V0 subunit E n=1 Tax=Schizosaccha...  67.0    2e-19
+  UniRef90_A0A2T3BBI1 Uncharacterized protein (Fragment) n=2 Tax=...  67.0    2e-19
+  UniRef90_A0A1Y2FIG1 ATPase, V0 complex, subunit E1/e2 n=1 Tax=P...  67.0    2e-19
+  UniRef90_A0A2N5SF50 Uncharacterized protein n=2 Tax=Puccinia co...  68.2    3e-19
+  UniRef90_A0A1Y1UC98 ATPase, V0 complex, subunit E1/e2 n=1 Tax=K...  66.6    3e-19
+  UniRef90_A0A068RUU8 Uncharacterized protein n=1 Tax=Lichtheimia...  66.6    3e-19
+  UniRef90_A0A0D2AHU3 Uncharacterized protein n=1 Tax=Verruconis ...  66.6    3e-19
+  UniRef90_A0A1Y2TVF9 Uncharacterized protein n=1 Tax=Hypoxylon s...  67.4    4e-19
+  UniRef90_A0A1L9PI01 Uncharacterized protein n=1 Tax=Aspergillus...  66.6    4e-19
+  UniRef90_F2Q220 Uncharacterized protein n=2 Tax=Trichophyton Ta...  66.2    4e-19
+  UniRef90_W6YFS7 Uncharacterized protein n=1 Tax=Bipolaris zeico...  68.2    4e-19
+  UniRef90_A0A1A6A506 V-type proton ATPase subunit E n=4 Tax=Kwon...  66.2    5e-19
+  UniRef90_S2JKM3 Uncharacterized protein n=3 Tax=Mucor TaxID=483...  66.2    5e-19
+  UniRef90_F4SAG9 Uncharacterized protein n=1 Tax=Melampsora lari...  66.2    6e-19
+  UniRef90_A0A3D8T0H9 V-type proton ATPase subunit e-like protein...  66.6    6e-19
+  UniRef90_A0A1X2H0I5 ATPase, V0 complex, subunit E1/e2 n=1 Tax=S...  65.9    6e-19
+  UniRef90_A0A0F8B5Y5 V-type proton ATPase subunit e n=2 Tax=Cera...  65.9    7e-19
+  UniRef90_A0A177CA48 Uncharacterized protein n=1 Tax=Paraphaeosp...  65.5    1e-18
+  UniRef90_K1WQV0 Vacuolar ATP synthase subunit n=1 Tax=Marssonin...  65.1    1e-18
+  UniRef90_A0A0D1E452 Uncharacterized protein n=11 Tax=Ustilagina...  65.1    1e-18
+  UniRef90_A0A2J6S9J5 Uncharacterized protein n=2 Tax=Hyaloscypha...  65.1    1e-18
+  UniRef90_A0A316ULR9 Uncharacterized protein n=1 Tax=Pseudomicro...  64.7    2e-18
+  UniRef90_S3E731 Uncharacterized protein n=1 Tax=Glarea lozoyens...  64.7    2e-18
+  UniRef90_A0A194XAR1 Uncharacterized protein n=2 Tax=Phialocepha...  64.7    2e-18
+  UniRef90_N1JAB4 Vacuolar ATP synthase subunit e, putative n=2 T...  64.3    3e-18
+  UniRef90_A0A0M9VVY7 V-type proton ATPase subunit e n=1 Tax=Esco...  63.9    3e-18
+  UniRef90_A0A1E3K071 V-type proton ATPase subunit E n=3 Tax=Cryp...  64.3    3e-18
+  UniRef90_R7YW58 Uncharacterized protein n=1 Tax=Coniosporium ap...  64.3    4e-18
+  UniRef90_L2FE40 6-phosphogluconate dehydrogenase 2 n=2 Tax=Coll...  68.6    4e-18
+  UniRef90_A0A0C3E266 Uncharacterized protein n=1 Tax=Oidiodendro...  63.9    4e-18
+  UniRef90_A0A1V6PSK5 Uncharacterized protein n=1 Tax=Penicillium...  63.5    5e-18
+  UniRef90_S8BT85 Uncharacterized protein n=1 Tax=Dactylellina ha...  63.5    5e-18
+  UniRef90_A0A167JPU6 Uncharacterized protein n=1 Tax=Phycomyces ...  63.5    5e-18
+  UniRef90_A0A0M9VQT3 Vacuolar atp synthase subunit h n=1 Tax=Mal...  63.2    6e-18
+  UniRef90_A0A2N3NGN9 Uncharacterized protein n=1 Tax=Lomentospor...  68.2    6e-18
+  UniRef90_A0A066XG49 Putative ATP synthase subunit H n=3 Tax=Col...  63.5    6e-18
+  UniRef90_A0A1Y2EXC0 ATP synthase subunit H-domain-containing pr...  63.2    8e-18
+  UniRef90_A0A1B7NUT6 Uncharacterized protein n=1 Tax=Emmonsia sp...  63.2    1e-17
+  UniRef90_A0A1B9H5J2 V-type proton ATPase subunit E n=2 Tax=Kwon...  62.4    1e-17
+  UniRef90_A0A135SBF2 Uncharacterized protein n=3 Tax=Colletotric...  66.6    2e-17
+  UniRef90_A0A1B7YJH7 ATP synthase subunit H n=3 Tax=Colletotrich...  63.9    2e-17
+  UniRef90_A0A2J6QAF1 Uncharacterized protein n=1 Tax=Pezoloma er...  66.6    2e-17
+  UniRef90_A0A1Y1XB92 Uncharacterized protein (Fragment) n=1 Tax=...  61.6    2e-17
+  UniRef90_A0A0P1BIR0 Related to vacuolar atp synthase subunit h ...  62.0    2e-17
+  UniRef90_A0A0C3LKK5 Uncharacterized protein n=1 Tax=Tulasnella ...  62.0    2e-17
+  UniRef90_A0A0B7JQE0 Uncharacterized protein n=1 Tax=Bionectria ...  62.0    2e-17
+  UniRef90_A0A1Y1X7V8 V-type ATPase V0 subunit E n=2 Tax=Basidiob...  61.6    3e-17
+  UniRef90_A0A3M7DKV5 Uncharacterized protein n=1 Tax=Hortaea wer...  62.4    3e-17
+  UniRef90_A0A1Y1V1P1 ATPase, V0 complex, subunit E n=1 Tax=Pirom...  61.2    4e-17
+  UniRef90_A0A1X2G263 Uncharacterized protein n=1 Tax=Hesseltinel...  61.2    4e-17
+  UniRef90_A0A1G4APF0 Uncharacterized protein n=4 Tax=Colletotric...  65.1    6e-17
+  UniRef90_A0A1Y1WIK5 Uncharacterized protein (Fragment) n=1 Tax=...  60.5    8e-17
+  UniRef90_A0A167R3B8 ATPase, V0 complex, subunit E n=3 Tax=Dacry...  60.5    8e-17
+  UniRef90_A0A366S0D0 Uncharacterized protein n=1 Tax=Fusarium sp...  64.7    1e-16
+  UniRef90_A0A0C3AWR5 Uncharacterized protein n=1 Tax=Scleroderma...  59.7    1e-16
+  UniRef90_A0A1X2J2B5 ATPase, V0 complex, subunit E1/e2 n=1 Tax=A...  59.7    1e-16
+  UniRef90_A0A109FKD0 Uncharacterized protein n=2 Tax=Rhodotorula...  59.7    2e-16
+  UniRef90_A0A2K1QHM2 Uncharacterized protein n=1 Tax=Sphaceloma ...  60.5    3e-16
+  UniRef90_J0WU28 Uncharacterized protein n=1 Tax=Auricularia sub...  59.3    3e-16
+  UniRef90_M7WYD6 ATPase, V0 complex, subunit E n=3 Tax=Rhodospor...  59.3    3e-16
+  UniRef90_A0A077WZF0 Uncharacterized protein n=1 Tax=Lichtheimia...  59.3    3e-16
+  UniRef90_F9FPE0 Uncharacterized protein n=1 Tax=Fusarium oxyspo...  58.5    4e-16
+  UniRef90_A0A0C9ZQ25 Unplaced genomic scaffold scaffold_9, whole...  58.5    4e-16
+  UniRef90_A0A2H5SJ79 40S ribosomal protein S8 n=6 Tax=Rhizophagu...  62.4    4e-16
+  UniRef90_W6MFM0 Uncharacterized protein n=1 Tax=Kuraishia capsu...  57.8    5e-16
+  UniRef90_A0A316YKY8 Uncharacterized protein n=1 Tax=Acaromyces ...  58.5    5e-16
+  UniRef90_A0A2G5BAU7 Uncharacterized protein n=1 Tax=Coemansia r...  58.2    6e-16
+  UniRef90_A0A316UMA3 Uncharacterized protein n=1 Tax=Jaminaea ro...  58.2    6e-16
+  UniRef90_A0A1Y2GF87 ATP synthase subunit H-domain-containing pr...  58.5    7e-16
+  UniRef90_U5HCI0 Uncharacterized protein n=2 Tax=Microbotryum Ta...  58.2    7e-16
+  UniRef90_A0A1Q8S2J7 V-type proton ATPase subunit e 1 n=1 Tax=Co...  58.5    9e-16
+  UniRef90_A0A066WGI4 Putative secreted protein n=1 Tax=Tilletiar...  57.8    9e-16
+  UniRef90_A0A165J6T3 Uncharacterized protein n=1 Tax=Exidia glan...  57.8    1e-15
+  UniRef90_A0A317XVP4 Uncharacterized protein n=1 Tax=Testiculari...  57.8    1e-15
+  UniRef90_A0A1X2IZJ7 ATPase, V0 complex, subunit E1/e2 n=1 Tax=A...  57.4    1e-15
+  UniRef90_A0A2P8A0Y7 Uncharacterized protein n=1 Tax=Elsinoe aus...  58.5    2e-15
+  UniRef90_A0A0L0MYA8 Putative oxidoreductase YfjR n=1 Tax=Tolypo...  60.8    2e-15
+  UniRef90_Q5K8S8 V-type proton ATPase subunit e n=9 Tax=Cryptoco...  57.0    2e-15
+  UniRef90_A0A261XTQ8 Uncharacterized protein n=1 Tax=Bifiguratus...  56.6    3e-15
+  UniRef90_A0A0C3JKE8 Uncharacterized protein n=1 Tax=Pisolithus ...  56.2    3e-15
+  UniRef90_A0A397TLM1 V-type proton ATPase subunit E n=1 Tax=Glom...  56.2    4e-15
+  UniRef90_Q69Z14 V-type proton ATPase subunit e n=1 Tax=Schizosa...  55.1    1e-14
+  UniRef90_A0A371DXV6 Uncharacterized protein n=1 Tax=Polyporus b...  54.7    1e-14
+  UniRef90_A0A0P9FC61 Uncharacterized protein n=1 Tax=Rhodotorula...  54.7    1e-14
+  UniRef90_A8Q272 Uncharacterized protein n=1 Tax=Malassezia glob...  54.7    2e-14
+  UniRef90_A0A1Y2AUD9 ATPase, V0 complex, subunit E1/e2 n=1 Tax=N...  54.7    2e-14
+  UniRef90_A0A2Z6RGS5 Uncharacterized protein n=2 Tax=Rhizophagus...  54.7    2e-14
+  UniRef90_A0A1B7NG60 Uncharacterized protein n=1 Tax=Rhizopogon ...  54.7    2e-14
+  UniRef90_A0A0C9SYP0 Unplaced genomic scaffold PLICRscaffold_15,...  54.7    2e-14
+  UniRef90_A0A137Q0U4 V-type proton ATPase subunit e n=1 Tax=Leuc...  53.9    3e-14
+  UniRef90_A0A2G8SPJ7 Uncharacterized protein n=1 Tax=Ganoderma s...  53.9    3e-14
+  UniRef90_A0A397HPI1 Uncharacterized protein n=1 Tax=Diversispor...  53.9    3e-14
+  UniRef90_A0A1B7NBK6 Uncharacterized protein n=2 Tax=Rhizopogon ...  53.9    4e-14
+  UniRef90_A0A286U9K0 V-type proton atpase subunit e n=1 Tax=Pyrr...  53.5    5e-14
+  UniRef90_A0A370JLW2 Uncharacterized protein n=1 Tax=Venturia in...  54.3    7e-14
+  UniRef90_A0A1C7M760 Lanosterol 14-alpha demethylase n=1 Tax=Gri...  56.6    7e-14
+  UniRef90_A0A0H2RYJ5 Uncharacterized protein n=1 Tax=Schizopora ...  52.8    8e-14
+  UniRef90_A0A0D0DLQ9 Unplaced genomic scaffold scaffold_33, whol...  52.8    9e-14
+  UniRef90_S9PQV9 V-type ATPase V0 subunit E n=2 Tax=Schizosaccha...  52.8    9e-14
+  UniRef90_A0A0D0BFM3 Unplaced genomic scaffold CY34scaffold_118,...  52.8    1e-13
+  UniRef90_A0A166LBX0 ATPase, V0 complex, subunit E n=1 Tax=Fibul...  52.8    1e-13
+  UniRef90_A0A1Y2ENU1 Uncharacterized protein n=1 Tax=Neocallimas...  52.4    1e-13
+  UniRef90_A0A2A9NM37 Uncharacterized protein n=1 Tax=Amanita thi...  52.0    2e-13
+  UniRef90_A0A1M8A7I6 Similar to S.cerevisiae protein VMA9 (Vacuo...  52.0    2e-13
+  UniRef90_A0A165CD77 Uncharacterized protein n=1 Tax=Laetiporus ...  51.6    2e-13
+  UniRef90_A0A067N8R4 Uncharacterized protein n=1 Tax=Pleurotus o...  51.2    3e-13
+  UniRef90_F8PY96 Uncharacterized protein n=2 Tax=Serpula lacryma...  50.8    5e-13
+  UniRef90_A0A146FN79 Lysophospholipase Nte1 n=1 Tax=Aspergillus ...  50.8    5e-13
+  UniRef90_A0A1Y2IZB0 Uncharacterized protein n=1 Tax=Trametes co...  50.4    7e-13
+  UniRef90_A0A1S1VXS8 ATP synthase subunit h n=1 Tax=Colletotrich...  51.2    8e-13
+  UniRef90_A0A3M7NE89 Uncharacterized protein (Fragment) n=2 Tax=...  53.5    9e-13
+  UniRef90_A0A0L0SKE3 Uncharacterized protein n=2 Tax=Allomyces m...  50.1    1e-12
+  UniRef90_A0A238FLX1 BQ2448_7779 protein n=1 Tax=Microbotryum in...  49.7    1e-12
+  UniRef90_D5G789 Uncharacterized protein n=1 Tax=Tuber melanospo...  48.9    1e-12
+  UniRef90_E2L9A8 Uncharacterized protein n=3 Tax=Moniliophthora ...  49.3    2e-12
+  UniRef90_A0A0D7B3S7 Uncharacterized protein n=1 Tax=Cylindrobas...  48.9    3e-12
+  UniRef90_A0A166GN84 Uncharacterized protein (Fragment) n=1 Tax=...  48.5    4e-12
+  UniRef90_A0A3M7B911 Uncharacterized protein n=2 Tax=Hortaea wer...  49.7    6e-12
+  UniRef90_A0A164TU28 Uncharacterized protein n=1 Tax=Sistotremas...  47.8    1e-11
+  UniRef90_A0A369K4W5 V-type proton ATPase subunit e n=1 Tax=Hyps...  47.0    1e-11
+  UniRef90_J4IB92 Uncharacterized protein n=1 Tax=Fibroporia radi...  47.0    2e-11
+  UniRef90_A0A086SWC1 V-type proton ATPase subunit e-like protein...  45.8    2e-11
+  UniRef90_A0A2S7QR67 V-type proton ATPase subunit e protein n=1 ...  45.4    7e-11
+  UniRef90_A0A067PX01 Uncharacterized protein n=1 Tax=Jaapia argi...  45.1    9e-11
+  UniRef90_A0A3M7AT30 Uncharacterized protein n=2 Tax=Hortaea wer...  46.2    1e-10
+  UniRef90_W4KCR5 Vacuolar H+-ATPase V0 sector, subunit M9.7 n=1 ...  43.5    4e-10
+  UniRef90_A0A1E3HW92 V-type proton ATPase subunit E n=1 Tax=Cryp...  40.8    7e-09
+
+
+> UniRef90_Q3E7B6 V-type proton ATPase subunit e n=6 Tax=Saccharomyces 
+cerevisiae TaxID=4932 RepID=VA0E_YEAST
+Length=73
+
+ Score = 149 bits (375),  Expect = 8e-52, Method: Compositional matrix adjust.
+ Identities = 73/73 (100%), Positives = 73/73 (100%), Gaps = 0/73 (0%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV
+Sbjct  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+
+Query  61  APRRSDLRPEFAE  73
+           APRRSDLRPEFAE
+Sbjct  61  APRRSDLRPEFAE  73
+
+
+> UniRef90_A0A1S7HZX3 VMA9 (YCL005W-A) n=4 Tax=Zygosaccharomyces 
+TaxID=4953 RepID=A0A1S7HZX3_9SACH
+Length=72
+
+ Score = 120 bits (301),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 53/71 (75%), Positives = 64/71 (90%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTV+  F+VV+ +S +FW+ APK NQ VWRSTVIL+++MMFLMWAIT+LCQLHPL+AP
+Sbjct  2   SFYTVIATFLVVAILSGIFWVCAPKRNQTVWRSTVILSMSMMFLMWAITYLCQLHPLIAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_A0A1G4K4Y0 LADA_0H15676g1_1 n=2 Tax=Lachancea TaxID=300275 
+RepID=A0A1G4K4Y0_9SACH
+Length=72
+
+ Score = 119 bits (298),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 56/71 (79%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV VF  V+  SV+FW +APK NQ VWRSTVIL+LAMMFLMWA T+L QLHPLVAP
+Sbjct  2   SFYTVVAVFFTVALASVIFWFLAPKENQTVWRSTVILSLAMMFLMWAFTYLAQLHPLVAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_G8BPX2 Uncharacterized protein n=1 Tax=Tetrapisispora 
+phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL Y-8282 
+/ UCD 70-5) TaxID=1071381 RepID=G8BPX2_TETPH
+Length=72
+
+ Score = 117 bits (294),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 56/71 (79%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV  FIVV+  S  FW+ APK NQ VWRSTVIL LAMM+LMWAIT+LCQLHPLV P
+Sbjct  2   SFYTVVITFIVVALASGAFWVFAPKQNQTVWRSTVILALAMMYLMWAITYLCQLHPLVVP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_J7S943 Uncharacterized protein n=1 Tax=Kazachstania 
+naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797 / CCRC 
+22969 / KCTC 17520 / NBRC 10181 / NCYC 3082) TaxID=1071383 
+RepID=J7S943_KAZNA
+Length=69
+
+ Score = 117 bits (292),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 55/68 (81%), Positives = 61/68 (90%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV V IVVS +SV FW +APK NQ VWR+TVIL+LAMM+LMWAIT+LCQLHPLVAP
+Sbjct  2   SFYTVVAVLIVVSLLSVGFWFVAPKENQTVWRNTVILSLAMMYLMWAITYLCQLHPLVAP  61
+
+Query  63  RRSDLRPE  70
+           RRSDLRPE
+Sbjct  62  RRSDLRPE  69
+
+
+> UniRef90_A0A1G4K301 LAFA_0G14114g1_1 n=2 Tax=Lachancea TaxID=300275 
+RepID=A0A1G4K301_9SACH
+Length=72
+
+ Score = 115 bits (289),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 54/71 (76%), Positives = 62/71 (87%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SF+TVV  F+ VS +SV+FW +APK N+ VWRSTVIL+LAMMFLMWA T+L QLHPLVAP
+Sbjct  2   SFFTVVAAFLAVSLVSVVFWFLAPKENRTVWRSTVILSLAMMFLMWAFTYLAQLHPLVAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_A7TG53 Uncharacterized protein n=1 Tax=Vanderwaltozyma 
+polyspora (strain ATCC 22028 / DSM 70294) TaxID=436907 RepID=A7TG53_VANPO
+Length=72
+
+ Score = 115 bits (288),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 53/71 (75%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SF+TVV  F++VS  S LFW+ APK NQ VWRSTVIL+LAMM+LMWAIT+LCQLHPLV P
+Sbjct  2   SFWTVVVTFVIVSLASALFWVFAPKQNQTVWRSTVILSLAMMYLMWAITYLCQLHPLVQP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPE  E
+Sbjct  62  RRSDLRPELVE  72
+
+
+> UniRef90_G0W9R0 Uncharacterized protein n=1 Tax=Naumovozyma dairenensis 
+(strain ATCC 10597 / BCRC 20456 / CBS 421 / NBRC 
+0211 / NRRL Y-12639) TaxID=1071378 RepID=G0W9R0_NAUDC
+Length=72
+
+ Score = 114 bits (286),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 52/71 (73%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTV+GV   V  +SV+FW++APK NQ VWRSTV L+LAMMFLMWAIT+L QLHPL+ P
+Sbjct  2   SFYTVLGVLFTVIIISVVFWVLAPKENQTVWRSTVTLSLAMMFLMWAITYLTQLHPLIEP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEF E
+Sbjct  62  RRSDLRPEFVE  72
+
+
+> UniRef90_I2H0Q8 Uncharacterized protein n=1 Tax=Tetrapisispora 
+blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC 10599 
+/ NRRL Y-10934 / UCD 77-7) TaxID=1071380 RepID=I2H0Q8_TETBL
+Length=72
+
+ Score = 113 bits (282),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 53/71 (75%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV  F+ VSA+S +FW  AP+ N+ VWRSTVIL+LAMMFLMWAIT+L QLHPLV P
+Sbjct  2   SFYTVVFTFLAVSAISAIFWRFAPQENRTVWRSTVILSLAMMFLMWAITYLAQLHPLVVP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFA+
+Sbjct  62  RRSDLRPEFAD  72
+
+
+> UniRef90_G8JN64 Uncharacterized protein n=2 Tax=Eremothecium 
+TaxID=33170 RepID=G8JN64_ERECY
+Length=72
+
+ Score = 112 bits (281),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 52/71 (73%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV  F+ V   S +FW+ APK NQ VWRSTVIL++AMMFLMWAIT+L Q+HPLV P
+Sbjct  2   SFYTVVATFLSVVLASAVFWVFAPKENQTVWRSTVILSMAMMFLMWAITYLSQIHPLVVP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_Q75EU0 V-type proton ATPase subunit e n=2 Tax=Saccharomycetaceae 
+TaxID=4893 RepID=VA0E_ASHGO
+Length=72
+
+ Score = 112 bits (281),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 50/71 (70%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV  F+ V   S +FW++APK NQ VWRST+IL+++MMFLMWA+T+L QLHPLV P
+Sbjct  2   SFYTVVATFLSVVLASAVFWVLAPKENQTVWRSTIILSMSMMFLMWAVTYLSQLHPLVVP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_G8ZQ28 Uncharacterized protein n=1 Tax=Torulaspora delbrueckii 
+(strain ATCC 10662 / CBS 1146 / NBRC 0425 / NCYC 
+2629 / NRRL Y-866) TaxID=1076872 RepID=G8ZQ28_TORDC
+Length=72
+
+ Score = 112 bits (280),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 51/71 (72%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTV+  F+V + +S+  W+ APK NQ VWRSTVIL+L+MMFLMWAIT+L QLHPLV P
+Sbjct  2   SFYTVIAAFLVTALISLAVWVFAPKKNQTVWRSTVILSLSMMFLMWAITYLSQLHPLVMP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_G0V711 Uncharacterized protein n=1 Tax=Naumovozyma castellii 
+(strain ATCC 76901 / CBS 4309 / NBRC 1992 / NRRL Y-12630) 
+TaxID=1064592 RepID=G0V711_NAUCC
+Length=72
+
+ Score = 108 bits (270),  Expect = 8e-36, Method: Compositional matrix adjust.
+ Identities = 58/71 (82%), Positives = 65/71 (92%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV VFIVV+A+S  FW++APK +Q VWRSTVIL+LAMMFLMWAIT+LCQLHPLV P
+Sbjct  2   SFYTVVAVFIVVAALSAGFWVVAPKKDQTVWRSTVILSLAMMFLMWAITYLCQLHPLVVP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_A0A1G4KKG1 LANO_0G14158g1_1 n=1 Tax=Lachancea nothofagi 
+CBS 11611 TaxID=1266666 RepID=A0A1G4KKG1_9SACH
+Length=72
+
+ Score = 108 bits (269),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 51/71 (72%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+  F  V+  SV+FW +APK N+ VWRSTVIL++AMMFLMWA T+L QLHPLVAP
+Sbjct  2   SSYTVLVAFFAVALASVIFWFVAPKENRTVWRSTVILSMAMMFLMWAFTYLAQLHPLVAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_A0A1E4TNC2 Uncharacterized protein n=1 Tax=Pachysolen 
+tannophilus NRRL Y-2460 TaxID=669874 RepID=A0A1E4TNC2_PACTA
+Length=72
+
+ Score = 107 bits (267),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 48/71 (68%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S +TVV   I++  +SV+FWI APK NQ VWRS+VILTL+M +LMWAIT+LCQLHPLV P
+Sbjct  2   SGWTVVAALILIVIVSVVFWIFAPKQNQTVWRSSVILTLSMCYLMWAITYLCQLHPLVEP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPE+++
+Sbjct  62  RRSDLRPEYSD  72
+
+
+> UniRef90_A0A1D2VGT2 Uncharacterized protein (Fragment) n=1 Tax=Ascoidea 
+rubescens DSM 1968 TaxID=1344418 RepID=A0A1D2VGT2_9ASCO
+Length=71
+
+ Score = 107 bits (266),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 48/71 (68%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S +TVV   ++V  ++ L W++APKN+Q VWRS++ILTLAM +LMWAIT+LCQLHPLVAP
+Sbjct  1   SRWTVVFGLVIVVLLAALTWVVAPKNDQTVWRSSIILTLAMCYLMWAITYLCQLHPLVAP  60
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPE+AE
+Sbjct  61  RRSDLRPEYAE  71
+
+
+> UniRef90_A0A1G4IPS0 LAMI_0A05512g1_1 n=1 Tax=Lachancea mirantina 
+TaxID=1230905 RepID=A0A1G4IPS0_9SACH
+Length=72
+
+ Score = 106 bits (264),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 55/71 (77%), Positives = 62/71 (87%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVVG F+VV   S +FW++APK NQ VWRSTVIL+L+MMFLMWAIT+L QLHPLV P
+Sbjct  2   SFYTVVGAFVVVVLSSAIFWVLAPKKNQTVWRSTVILSLSMMFLMWAITYLSQLHPLVEP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_A0A1E3NNZ1 Uncharacterized protein n=1 Tax=Pichia membranifaciens 
+NRRL Y-2026 TaxID=763406 RepID=A0A1E3NNZ1_9ASCO
+Length=72
+
+ Score = 105 bits (261),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 48/71 (68%), Positives = 57/71 (80%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+ V +V   +  +FW +APK ++ VWRSTV L LAMMFLMWA T+LCQLHPLVAP
+Sbjct  2   SGYTVLAVMVVTMVLGAVFWRVAPKEDRTVWRSTVSLVLAMMFLMWAFTYLCQLHPLVAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPE+AE
+Sbjct  62  RRSDLRPEYAE  72
+
+
+> UniRef90_A0A1G4MFF6 LAFE_0F09626g1_1 n=1 Tax=Lachancea fermentati 
+TaxID=4955 RepID=A0A1G4MFF6_LACFM
+Length=72
+
+ Score = 105 bits (261),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 53/71 (75%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVV V +VV+  S +FW+ APK NQ VWRSTVILTL+MM+LMWAIT+L QLHPLV P
+Sbjct  2   SFYTVVAVLLVVALTSAVFWVFAPKQNQTVWRSTVILTLSMMYLMWAITYLSQLHPLVEP  61
+
+Query  63  RRSDLRPEFAE  73
+           RR+DLRPEFAE
+Sbjct  62  RRADLRPEFAE  72
+
+
+> UniRef90_A0A1E3PLX9 Putative secreted protein n=1 Tax=Nadsonia 
+fulvescens var. elongata DSM 6958 TaxID=857566 RepID=A0A1E3PLX9_9ASCO
+Length=73
+
+ Score = 104 bits (259),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 49/72 (68%), Positives = 59/72 (82%), Gaps = 1/72 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +TV+GV +VVS  S+  W +APK +NQ VWRS+VILTLAM +LMWAIT+L QLHPL  
+Sbjct  2   SGWTVIGVLVVVSLASIAAWYLAPKGDNQTVWRSSVILTLAMCYLMWAITYLAQLHPLAQ  61
+
+Query  62  PRRSDLRPEFAE  73
+           PRRSDLRPE+AE
+Sbjct  62  PRRSDLRPEYAE  73
+
+
+> UniRef90_A0A1E4T8C0 Uncharacterized protein n=1 Tax=[Candida] 
+arabinofermentans NRRL YB-2248 TaxID=983967 RepID=A0A1E4T8C0_9ASCO
+Length=72
+
+ Score = 102 bits (255),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 49/71 (69%), Positives = 55/71 (77%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S +TV+   I+  A+  +FW  APK NQ VWRSTV LTLAMMFLMWA T+L QLHPLV P
+Sbjct  2   SGWTVIFTMIITFAIGAIFWRFAPKENQTVWRSTVCLTLAMMFLMWAFTYLAQLHPLVEP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPEFAE
+Sbjct  62  RRSDLRPEFAE  72
+
+
+> UniRef90_A0A0L8RNE5 VMA9-like protein n=1 Tax=Saccharomyces eubayanus 
+TaxID=1080349 RepID=A0A0L8RNE5_SACEU
+Length=50
+
+ Score = 101 bits (252),  Expect = 3e-33, Method: Compositional matrix adjust.
+ Identities = 48/50 (96%), Positives = 48/50 (96%), Gaps = 0/50 (0%)
+
+Query  24  MAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           MAPKNNQ VWRSTVILTLAMMFLMWAITFL QLHPLVAPRRSDLRPEFAE
+Sbjct  1   MAPKNNQTVWRSTVILTLAMMFLMWAITFLSQLHPLVAPRRSDLRPEFAE  50
+
+
+> UniRef90_A0A0J9XKS0 Similar to Saccharomyces cerevisiae YCL005W-A 
+VMA9 Vacuolar H+ ATPase subunit e of the V-ATPase V0 subcomplex 
+n=1 Tax=Geotrichum candidum TaxID=2282360 RepID=A0A0J9XKS0_GEOCN
+Length=192
+
+ Score = 103 bits (258),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 48/71 (68%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  3    SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+            S +TV+GV IVV+A+S   W++A   N+ VWRS+VILTL+M +LMWAIT+L QLHPLV P
+Sbjct  120  SGWTVIGVLIVVAALSGATWVLAKGENKTVWRSSVILTLSMCYLMWAITYLVQLHPLVNP  179
+
+Query  63   RRSDLRPEFAE  73
+            RRSDLRPEFAE
+Sbjct  180  RRSDLRPEFAE  190
+
+
+> UniRef90_B5RUR1 DEHA2G11682p n=2 Tax=Debaryomyces TaxID=4958 
+RepID=B5RUR1_DEBHA
+Length=70
+
+ Score = 100 bits (248),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+  FI+ +A+S L WI APK N  VWRS+VIL L+M +LMWAITFL QLHPL AP
+Sbjct  2   SGYTVIIAFIITAALSTLAWIFAPKENTTVWRSSVILGLSMCYLMWAITFLSQLHPLEAP  61
+
+Query  63  RRSDLRPE  70
+           RRSDLRPE
+Sbjct  62  RRSDLRPE  69
+
+
+> UniRef90_F2QXB5 V-type proton ATPase subunit e of the V0 integral 
+membrane domain n=1 Tax=Komagataella phaffii (strain ATCC 
+76273 / CBS 7435 / CECT 11047 / NRRL Y-11430 / Wegner 21-1) 
+TaxID=981350 RepID=F2QXB5_KOMPC
+Length=72
+
+ Score = 100 bits (248),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 47/71 (66%), Positives = 57/71 (80%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S +TV+   +VV A+   FW +APK +Q VWRSTV+LTLAM +LMWA T+L QLHPLVAP
+Sbjct  2   SGWTVIITLLVVIAIGTGFWFVAPKQDQTVWRSTVLLTLAMCWLMWAFTYLAQLHPLVAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPE+AE
+Sbjct  62  RRSDLRPEYAE  72
+
+
+> UniRef90_A0A1E3QMR2 Uncharacterized protein n=1 Tax=Babjeviella 
+inositovora NRRL Y-12698 TaxID=984486 RepID=A0A1E3QMR2_9ASCO
+Length=71
+
+ Score = 99.8 bits (247),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+  FI+V   S++ W +APK N+ VWRS++ILTLAM +LMWAIT+L QLHPLVAP
+Sbjct  2   SGYTVLAGFILVVVASIVTWNLAPKQNRTVWRSSIILTLAMCYLMWAITYLAQLHPLVAP  61
+
+Query  63  RRSDLRPEFA  72
+           RRSDLRP +A
+Sbjct  62  RRSDLRPGYA  71
+
+
+> UniRef90_A0A1E5RZ81 V-type proton ATPase subunit e n=1 Tax=Hanseniaspora 
+osmophila TaxID=56408 RepID=A0A1E5RZ81_9ASCO
+Length=76
+
+ Score = 99.4 bits (246),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 49/74 (66%), Positives = 59/74 (80%), Gaps = 2/74 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPK--NNQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           SSFYTVV VF+VV+ ++ + W +APK   N  V+RST IL L+MM+LMWAIT+L QLHPL
+Sbjct  3   SSFYTVVIVFLVVALINTIAWFLAPKKGGNTTVFRSTFILALSMMYLMWAITYLAQLHPL  62
+
+Query  60  VAPRRSDLRPEFAE  73
+           V PRRSDLRPEF E
+Sbjct  63  VVPRRSDLRPEFVE  76
+
+
+> UniRef90_A0A1V2LJV8 V-type proton ATPase subunit e n=1 Tax=Pichia 
+kudriavzevii TaxID=4909 RepID=A0A1V2LJV8_PICKU
+Length=73
+
+ Score = 99.0 bits (245),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 47/71 (66%), Positives = 54/71 (76%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+ V  V      +FW  APK +Q VWRSTV L+LAMMFLMWA T+L QLHPLVAP
+Sbjct  2   SGYTVLIVMAVTIITGAVFWKYAPKQDQTVWRSTVSLSLAMMFLMWAFTYLAQLHPLVAP  61
+
+Query  63  RRSDLRPEFAE  73
+           +RSDLRPE+AE
+Sbjct  62  KRSDLRPEYAE  72
+
+
+> UniRef90_A0A1X7R8D1 Similar to Saccharomyces cerevisiae YCL005W-A 
+VMA9 Vacuolar H+ ATPase subunit e of the V-ATPase V0 subcomplex 
+n=1 Tax=Kazachstania saulgeensis TaxID=1789683 RepID=A0A1X7R8D1_9SACH
+Length=60
+
+ Score = 98.2 bits (243),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 45/58 (78%), Positives = 50/58 (86%), Gaps = 0/58 (0%)
+
+Query  13  VVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           VV   S +FWIMAPK N+ VWRSTVIL LAMM+LMWAIT+LCQLHPLV PRRSD+RPE
+Sbjct  3   VVVISSYVFWIMAPKENRTVWRSTVILALAMMYLMWAITYLCQLHPLVEPRRSDMRPE  60
+
+
+> UniRef90_A0A1E4RI12 Uncharacterized protein n=1 Tax=Hyphopichia 
+burtonii NRRL Y-1933 TaxID=984485 RepID=A0A1E4RI12_9ASCO
+Length=69
+
+ Score = 97.4 bits (241),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+ VF++ + +S L W+ APK N+ VWRS++IL L+M +LMWAIT+L QLHPL AP
+Sbjct  2   SGYTVIVVFLITAVLSALAWVAAPKENRTVWRSSIILGLSMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPE  70
+           RRSDLRPE
+Sbjct  62  RRSDLRPE  69
+
+
+> UniRef90_A0A1E4S5F1 Vacuolar ATP synthase subunit E n=1 Tax=Cyberlindnera 
+jadinii (strain ATCC 18201 / CBS 1600 / CCRC 20928 
+/ JCM 3617 / NBRC 0987 / NRRL Y-1542) TaxID=983966 RepID=A0A1E4S5F1_CYBJN
+Length=71
+
+ Score = 97.4 bits (241),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 50/66 (76%), Gaps = 0/66 (0%)
+
+Query  6   TVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           TV  VF +      +FW  APK NQ VWRSTV LTL MMFLMWAIT+L QLHPLVAPRRS
+Sbjct  5   TVWVVFFITLVSGAVFWKFAPKENQTVWRSTVSLTLGMMFLMWAITYLAQLHPLVAPRRS  64
+
+Query  66  DLRPEF  71
+           DLRPEF
+Sbjct  65  DLRPEF  70
+
+
+> UniRef90_H2B057 Uncharacterized protein n=1 Tax=Kazachstania 
+africana (strain ATCC 22294 / BCRC 22015 / CBS 2517 / CECT 1963 
+/ NBRC 1671 / NRRL Y-8276) TaxID=1071382 RepID=H2B057_KAZAF
+Length=69
+
+ Score = 96.3 bits (238),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 50/68 (74%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           SFYTVVGV +VV   S +FW +APK NQ VWRSTVIL++AMM+LMWAIT+LCQLHPLV P
+Sbjct  2   SFYTVVGVLLVVVISSCIFWTIAPKENQTVWRSTVILSMAMMYLMWAITYLCQLHPLVFP  61
+
+Query  63  RRSDLRPE  70
+           RRSD+R E
+Sbjct  62  RRSDMRAE  69
+
+
+> UniRef90_A0A1E3P7R3 Uncharacterized protein (Fragment) n=1 Tax=Wickerhamomyces 
+anomalus (strain ATCC 58044 / CBS 1984 / NCYC 
+433 / NRRL Y-366-8) TaxID=683960 RepID=A0A1E3P7R3_WICAA
+Length=69
+
+ Score = 95.9 bits (237),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 50/69 (72%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRR  64
+           Y V+     V A+SV+FWI APK NQ VWRSTVILTLAM +LMWAIT+L QLHPLV PRR
+Sbjct  1   YNVIIALFAVVAVSVVFWIFAPKENQTVWRSTVILTLAMCYLMWAITYLAQLHPLVVPRR  60
+
+Query  65  SDLRPEFAE  73
+           SDLRPEFA+
+Sbjct  61  SDLRPEFAD  69
+
+
+> UniRef90_G3BDK2 Uncharacterized protein n=1 Tax=Candida tenuis 
+(strain ATCC 10573 / BCRC 21748 / CBS 615 / JCM 9827 / NBRC 
+10315 / NRRL Y-1498 / VKM Y-70) TaxID=590646 RepID=G3BDK2_CANTC
+Length=70
+
+ Score = 95.1 bits (235),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 44/68 (65%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+ VFI+V+A+  +FW+ APK ++ VWRS+VIL ++MMFLMWA T+L QLHPLV P
+Sbjct  2   SGYTVLVVFILVAAICSIFWVTAPKQDRTVWRSSVILGISMMFLMWAFTYLSQLHPLVVP  61
+
+Query  63  RRSDLRPE  70
+            RSDLRPE
+Sbjct  62  IRSDLRPE  69
+
+
+> UniRef90_A3GFP9 ATP synthase subunit H family protein (Va0H) 
+(ATP6H) (Atp6v0e) (Fragment) n=1 Tax=Scheffersomyces stipitis 
+(strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545) 
+TaxID=322104 RepID=A3GFP9_PICST
+Length=69
+
+ Score = 93.2 bits (230),  Expect = 9e-30, Method: Compositional matrix adjust.
+ Identities = 44/66 (67%), Positives = 53/66 (80%), Gaps = 0/66 (0%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRR  64
+           YTV+ V I V A++ L W+ APK N+ V+RS+VIL LAM +LMWAIT+L QLHPL APRR
+Sbjct  1   YTVIIVLIFVVALATLAWVFAPKENRTVFRSSVILALAMCYLMWAITYLAQLHPLEAPRR  60
+
+Query  65  SDLRPE  70
+           SDLRPE
+Sbjct  61  SDLRPE  66
+
+
+> UniRef90_A0A1B7TK09 V-type proton ATPase subunit E n=1 Tax=Hanseniaspora 
+valbyensis NRRL Y-1626 TaxID=766949 RepID=A0A1B7TK09_9ASCO
+Length=80
+
+ Score = 92.4 bits (228),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 46/77 (60%), Positives = 57/77 (74%), Gaps = 7/77 (9%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQ-------AVWRSTVILTLAMMFLMWAITFL  53
+           MSSFYTVV +F++VS +++  W+ AP+N          V+RST ILT +MMFLMWAIT+L
+Sbjct  1   MSSFYTVVQIFLIVSMVNIAAWLYAPRNQALRAKKSITVFRSTFILTTSMMFLMWAITYL  60
+
+Query  54  CQLHPLVAPRRSDLRPE  70
+            QLHPLV PRRSDLR E
+Sbjct  61  SQLHPLVEPRRSDLRVE  77
+
+
+> UniRef90_G3AGD7 Uncharacterized protein n=1 Tax=Spathaspora passalidarum 
+(strain NRRL Y-27907 / 11-Y1) TaxID=619300 RepID=G3AGD7_SPAPN
+Length=71
+
+ Score = 92.0 bits (227),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+ VFI+   +S   W+ APK N  V+RS+VIL +AM +LMWAIT+L QLHPL AP
+Sbjct  2   SGYTVLIVFIITVGLSCCAWVFAPKENTTVFRSSVILGMAMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPE  70
+           RRSDLRPE
+Sbjct  62  RRSDLRPE  69
+
+
+> UniRef90_A0A1E4SPF5 Uncharacterized protein (Fragment) n=1 Tax=Suhomyces 
+tanzawaensis NRRL Y-17324 TaxID=984487 RepID=A0A1E4SPF5_9ASCO
+Length=68
+
+ Score = 91.3 bits (225),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 44/69 (64%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           SS+  V+G+ +  + +S L WI APK NQ VWRS+VIL LAM +LMWAIT+L QLHPL A
+Sbjct  1   SSYLVVLGL-VFTALLSTLAWIFAPKTNQTVWRSSVILGLAMCYLMWAITYLAQLHPLEA  59
+
+Query  62  PRRSDLRPE  70
+           PRRS+LRPE
+Sbjct  60  PRRSNLRPE  68
+
+
+> UniRef90_A0A1E3Q608 Uncharacterized protein n=1 Tax=Lipomyces 
+starkeyi NRRL Y-11557 TaxID=675824 RepID=A0A1E3Q608_LIPST
+Length=79
+
+ Score = 91.3 bits (225),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 43/74 (58%), Positives = 56/74 (76%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+S   V+ + +VV  +S+  W + PK +NQ VWRS++ILTLAM +LMWAIT+L QLHPL
+Sbjct  1   MASGAAVIYILLVVVGLSLATWFLTPKGDNQTVWRSSIILTLAMCYLMWAITYLSQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + P RSDLRP FAE
+Sbjct  61  IQPMRSDLRPAFAE  74
+
+
+> UniRef90_A0A1L0DLX0 CIC11C00000005398 n=1 Tax=[Candida] intermedia 
+TaxID=45354 RepID=A0A1L0DLX0_9ASCO
+Length=70
+
+ Score = 89.7 bits (221),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+ V ++  A+SVL W  APK N+ V+RS+VIL L M +LMWAIT+L QLHPL AP
+Sbjct  2   SGYTVLLVLLITVALSVLAWNFAPKENRTVFRSSVILGLTMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPE  70
+           RR+DLRPE
+Sbjct  62  RRADLRPE  69
+
+
+> UniRef90_G8YL74 Piso0_001593 protein n=2 Tax=Pichia sorbitophila 
+(strain ATCC MYA-4447 / BCRC 22081 / CBS 7064 / NBRC 10061 
+/ NRRL Y-12695) TaxID=559304 RepID=G8YL74_PICSO
+Length=71
+
+ Score = 89.4 bits (220),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 43/68 (63%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S Y VV V I   A+S L W  APK NQ VWRS++IL L+M +LMWA T+L QLHPL  P
+Sbjct  2   SGYNVVIVLIFTIALSGLIWTFAPKQNQTVWRSSLILGLSMCYLMWAFTYLSQLHPLEVP  61
+
+Query  63  RRSDLRPE  70
+           RRSDLRPE
+Sbjct  62  RRSDLRPE  69
+
+
+> UniRef90_A0A1H6PTJ4 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Yarrowia 
+lipolytica TaxID=4952 RepID=A0A1H6PTJ4_YARLL
+Length=75
+
+ Score = 89.0 bits (219),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 43/70 (61%), Positives = 54/70 (77%), Gaps = 1/70 (1%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+           +TV+ V  +V  +    W+ APK +NQ VWRS++IL +AMM+LMWAIT+L QLHPLV P 
+Sbjct  4   WTVIIVLALVVGLCFGAWVFAPKGDNQTVWRSSLILAMAMMYLMWAITYLAQLHPLVRPT  63
+
+Query  64  RSDLRPEFAE  73
+           RSDLRPEFAE
+Sbjct  64  RSDLRPEFAE  73
+
+
+> UniRef90_C9SJ76 Uncharacterized protein n=6 Tax=Verticillium 
+TaxID=1036719 RepID=C9SJ76_VERA1
+Length=75
+
+ Score = 88.2 bits (217),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 40/74 (54%), Positives = 55/74 (74%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y+++  F+VV+A+S + W ++PK  NQ +WRS++IL     +LMWAITFL QLHPL
+Sbjct  1   MAQGYSIIIGFVVVAALSAIAWFLSPKGENQIIWRSSLILAFVSCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + PRRSDLR EF E
+Sbjct  61  IEPRRSDLRGEFLE  74
+
+
+> UniRef90_A0A3N4LN96 Putative vacuolar ATP synthase subunit E 
+n=1 Tax=Terfezia boudieri ATCC MYA-4762 TaxID=1051890 RepID=A0A3N4LN96_9PEZI
+Length=84
+
+ Score = 87.8 bits (216),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 40/71 (56%), Positives = 57/71 (80%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ YT+    I+V+A+ ++ +I+APK  NQ VWRS++IL L+ M++MWA+T L QLHPL
+Sbjct  1   MANSYTIFVGLILVAALCLVAYILAPKGENQTVWRSSIILALSAMYIMWALTILAQLHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           VAPRR+DLRPE
+Sbjct  61  VAPRRNDLRPE  71
+
+
+> UniRef90_A0A2H1A1Q4 Uncharacterized protein n=1 Tax=Candida auris 
+TaxID=498019 RepID=A0A2H1A1Q4_CANAR
+Length=70
+
+ Score = 86.7 bits (213),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 42/68 (62%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTV+ V  V  A+ VL W  APK +Q VWRS++IL L+M +LMWAIT+L QLHPL AP
+Sbjct  2   SGYTVLFVLAVTVALCVLSWNFAPKQDQTVWRSSLILGLSMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPE  70
+           +RSDLR E
+Sbjct  62  KRSDLRRE  69
+
+
+> UniRef90_G8BEC0 Uncharacterized protein n=2 Tax=Candida TaxID=1535326 
+RepID=G8BEC0_CANPC
+Length=72
+
+ Score = 85.9 bits (211),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 45/71 (63%), Positives = 55/71 (77%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTVV V +VV  +S L W+ AP+ N+ V+RS+VIL LAM +LMWAIT+L QLHPL AP
+Sbjct  2   SGYTVVIVLVVVVGLSALAWVFAPQENRTVFRSSVILGLAMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPE  +
+Sbjct  62  RRSDLRPEHVK  72
+
+
+> UniRef90_A0A317SGK1 Uncharacterized protein (Fragment) n=1 Tax=Tuber 
+magnatum TaxID=42249 RepID=A0A317SGK1_9PEZI
+Length=75
+
+ Score = 85.1 bits (209),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 40/64 (63%), Positives = 52/64 (81%), Gaps = 2/64 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+F+VV A+S + W+ APK  NQ +WRS++ILT A  ++MWAITF+ QLHPLV PRRSD
+Sbjct  5   IGLFVVV-ALSAVVWVFAPKGENQTIWRSSLILTFAACYIMWAITFMAQLHPLVMPRRSD  63
+
+Query  67  LRPE  70
+           LRPE
+Sbjct  64  LRPE  67
+
+
+> UniRef90_B9W982 Vacuolar atp synthase subunit E, putative n=2 
+Tax=Candida TaxID=1535326 RepID=B9W982_CANDC
+Length=72
+
+ Score = 84.3 bits (207),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 47/71 (66%), Positives = 56/71 (79%), Gaps = 0/71 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S Y+VV VFIVV A+S L W+ APK N  V+RS+VIL L+M +LMWAIT+L QLHPL AP
+Sbjct  2   SGYSVVAVFIVVVALSCLAWVFAPKENTTVFRSSVILALSMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPEFAE  73
+           RRSDLRPE  +
+Sbjct  62  RRSDLRPEHKD  72
+
+
+> UniRef90_Q2H0J2 Uncharacterized protein n=1 Tax=Chaetomium globosum 
+(strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 
+/ NRRL 1970) TaxID=306901 RepID=Q2H0J2_CHAGB
+Length=75
+
+ Score = 84.3 bits (207),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 38/72 (53%), Positives = 56/72 (78%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++V+  F++V AM++  W  +PK  NQ +WRS++IL++A  FLMWA+TFL QLHPL
+Sbjct  1   MANGWSVIIGFVIVVAMALAAWFFSPKGENQVLWRSSIILSIASCFLMWAVTFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRSDLR E+
+Sbjct  61  IEPRRSDLRKEY  72
+
+
+> UniRef90_M3JTF3 ATP synthase subunit H family protein n=1 Tax=Candida 
+maltosa (strain Xu316) TaxID=1245528 RepID=M3JTF3_CANMX
+Length=70
+
+ Score = 83.6 bits (205),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 47/66 (71%), Positives = 53/66 (80%), Gaps = 0/66 (0%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRR  64
+           YTVV V IVV A+S L W  APK N+ V+RS+VIL LAM +LMWAIT+L QLHPL APRR
+Sbjct  3   YTVVAVLIVVVALSCLAWAFAPKENRTVFRSSVILALAMCYLMWAITYLAQLHPLEAPRR  62
+
+Query  65  SDLRPE  70
+           SDLRPE
+Sbjct  63  SDLRPE  68
+
+
+> UniRef90_A0A084QC69 Uncharacterized protein n=3 Tax=Stachybotrys 
+TaxID=74721 RepID=A0A084QC69_STAC4
+Length=74
+
+ Score = 82.8 bits (203),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 37/74 (50%), Positives = 54/74 (73%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y++    +++ A+ V  W ++PK  +Q +WRS++IL++   +LMWAITFL QLHPL
+Sbjct  1   MAQGYSIFIGLVIIVALCVASWFLSPKGEHQVLWRSSLILSIVSCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + PRRSDLRPEF E
+Sbjct  61  IEPRRSDLRPEFLE  74
+
+
+> UniRef90_A0A1D8PEY4 H(+)-transporting V0 sector ATPase subunit 
+e n=1 Tax=Candida albicans (strain SC5314 / ATCC MYA-2876) 
+TaxID=237561 RepID=A0A1D8PEY4_CANAL
+Length=129
+
+ Score = 84.3 bits (207),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 47/68 (69%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  3    SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+            S Y+VV VFIVV A+S L W+ APK N  V+RS+VIL L+M +LMWAIT+L QLHPL AP
+Sbjct  59   SGYSVVAVFIVVVALSCLAWVFAPKENTTVFRSSVILALSMCYLMWAITYLAQLHPLEAP  118
+
+Query  63   RRSDLRPE  70
+            RRSDLRPE
+Sbjct  119  RRSDLRPE  126
+
+
+> UniRef90_A0A061BBU5 CYFA0S17e02388g1_1 n=1 Tax=Cyberlindnera 
+fabianii TaxID=36022 RepID=A0A061BBU5_CYBFA
+Length=105
+
+ Score = 83.2 bits (204),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 37/45 (82%), Positives = 42/45 (93%), Gaps = 0/45 (0%)
+
+Query  29   NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+            + +VWRSTVILTLAM++LMWAIT+L QLHPLV PRRSDLRPEFAE
+Sbjct  58   HSSVWRSTVILTLAMVYLMWAITYLAQLHPLVQPRRSDLRPEFAE  102
+
+
+> UniRef90_L8FTC9 Uncharacterized protein n=18 Tax=Pseudogymnoascus 
+TaxID=78156 RepID=L8FTC9_PSED2
+Length=75
+
+ Score = 82.0 bits (201),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 38/74 (51%), Positives = 53/74 (72%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  + +   F+V+   SV  W ++PK  NQ VWRST+IL+ A  ++MWAITFL QLHPL
+Sbjct  1   MAGSWNIFIGFVVIVLASVAAWFLSPKGENQTVWRSTLILSFASCYIMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + P+RS+LRPE+A 
+Sbjct  61  INPKRSELRPEYAS  74
+
+
+> UniRef90_G9NN84 Uncharacterized protein n=3 Tax=Trichoderma TaxID=5543 
+RepID=G9NN84_HYPAI
+Length=77
+
+ Score = 81.6 bits (200),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 37/72 (51%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y++    +V++A+S   W M+PK  NQ +WRS++IL +   +LMW ITFL QLHPL
+Sbjct  1   MAQGYSIFIGLVVIAALSAAAWFMSPKGENQVLWRSSLILAIVSCYLMWLITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           +AP+RSDLR EF
+Sbjct  61  IAPKRSDLREEF  72
+
+
+> UniRef90_F0XUS7 Vacuolar ATP synthase subunit n=1 Tax=Grosmannia 
+clavigera (strain kw1407 / UAMH 11150) TaxID=655863 RepID=F0XUS7_GROCL
+Length=75
+
+ Score = 81.3 bits (199),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 39/65 (60%), Positives = 51/65 (78%), Gaps = 2/65 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+F+VV  MSV  W+++PK  NQ +WRS+++LT A  +LMWAITFL QLHPL+ PRRSD
+Sbjct  9   IGLFVVV-CMSVGAWVLSPKGENQVLWRSSLLLTFACCYLMWAITFLAQLHPLIEPRRSD  67
+
+Query  67  LRPEF  71
+           LR  F
+Sbjct  68  LRAAF  72
+
+
+> UniRef90_G2Q4A1 Uncharacterized protein n=1 Tax=Myceliophthora 
+thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799) TaxID=573729 
+RepID=G2Q4A1_MYCTT
+Length=75
+
+ Score = 80.9 bits (198),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 36/72 (50%), Positives = 53/72 (74%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++V+   ++  A+ +  W  APK  NQ +WRS++IL++A  +LMWAITFL QLHPL
+Sbjct  1   MANGWSVIIGLVICVALGIAGWSFAPKGENQVLWRSSIILSIASCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRSDLR E+
+Sbjct  61  IEPRRSDLRAEY  72
+
+
+> UniRef90_A0A202GBF4 Putative H(+)-transporting V0 sector ATPase 
+subunit n=1 Tax=Clavispora lusitaniae TaxID=36911 RepID=A0A202GBF4_CLALS
+Length=71
+
+ Score = 80.9 bits (198),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 43/69 (62%), Positives = 53/69 (77%), Gaps = 0/69 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTVV V ++   +SVL W  APK N+ VWRS++IL LAM +LMWAIT+L QLHPL AP
+Sbjct  2   SGYTVVIVLVLTVVLSVLAWNFAPKENRTVWRSSIILGLAMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPEF  71
+           RR+D+RPE 
+Sbjct  62  RRADMRPEH  70
+
+
+> UniRef90_Q7S9M0 Vacuolar ATPase subunit E n=3 Tax=Sordariaceae 
+TaxID=5148 RepID=Q7S9M0_NEUCR
+Length=75
+
+ Score = 80.5 bits (197),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 36/72 (50%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   ++V+ M V  WI +PK  NQ +WRS++IL     +LMWAITFL QLHPL
+Sbjct  1   MANGWSIIIGLVIVAGMCVAAWIFSPKGENQVLWRSSLILAFVSCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRSDLR E+
+Sbjct  61  IEPRRSDLRKEY  72
+
+
+> UniRef90_A0A3N2PYA6 Vacuolar ATP synthase subunit n=1 Tax=Sodiomyces 
+alkalinus F11 TaxID=1314773 RepID=A0A3N2PYA6_9PEZI
+Length=75
+
+ Score = 80.5 bits (197),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 37/72 (51%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y++    +V+  +SV  W +APK+ NQ +WRS++IL  +  +LMWAITFL QLHPL
+Sbjct  1   MAQGYSIFIGLLVIVVLSVAAWFLAPKSENQIIWRSSLILAFSCCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRSDLR E+
+Sbjct  61  IEPRRSDLRKEY  72
+
+
+> UniRef90_G9MYQ3 Uncharacterized protein n=11 Tax=Trichoderma 
+TaxID=5543 RepID=G9MYQ3_HYPVG
+Length=77
+
+ Score = 79.7 bits (195),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 37/72 (51%), Positives = 51/72 (71%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y++    +V+ A+S   W ++PK  NQ +WRS++IL +   +LMW ITFL QLHPL
+Sbjct  1   MAQGYSIFIGLLVIVALSAAAWFLSPKGENQVLWRSSLILAIVSCYLMWLITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           +APRRSDLR EF
+Sbjct  61  IAPRRSDLREEF  72
+
+
+> UniRef90_A0A2D3UY60 Probable VMA9 Subunit e of the Vo (Membrane) 
+sector of the vacuolar H+-ATPase, essential for vacuolar 
+acidification n=1 Tax=Ramularia collo-cygni TaxID=112498 RepID=A0A2D3UY60_9PEZI
+Length=83
+
+ Score = 80.1 bits (196),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 39/72 (54%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   +VV  + +L W  +PK  NQ VWRSTVIL+ A  +LMWAITFL Q HPL
+Sbjct  1   MANGWSLLISILVVVGVQLLAWFFSPKGENQTVWRSTVILSAAACWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + P RSDLRPEF
+Sbjct  61  IVPERSDLRPEF  72
+
+
+> UniRef90_A0A094DRL9 Uncharacterized protein n=1 Tax=Pseudogymnoascus 
+sp. VKM F-4513 (FW-928) TaxID=1420907 RepID=A0A094DRL9_9PEZI
+Length=75
+
+ Score = 79.7 bits (195),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 40/72 (56%), Positives = 52/72 (72%), Gaps = 2/72 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+            S+   +G+  VV A SV  W  +PK  NQ VWRS++IL+ A  ++MWAITFL QLHPL+
+Sbjct  3   GSWSIFIGLVFVVLA-SVAAWFFSPKGENQTVWRSSLILSFASCYIMWAITFLAQLHPLI  61
+
+Query  61  APRRSDLRPEFA  72
+            P+RSDLRPE+A
+Sbjct  62  NPKRSDLRPEYA  73
+
+
+> UniRef90_U4LDA8 Similar to V-type proton ATPase subunit e acc. 
+no. Q3E7B6 n=1 Tax=Pyronema omphalodes (strain CBS 100304) 
+TaxID=1076935 RepID=U4LDA8_PYROM
+Length=82
+
+ Score = 79.7 bits (195),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 36/65 (55%), Positives = 48/65 (74%), Gaps = 2/65 (3%)
+
+Query  11  FIVVSAMSVLFWIMAPK--NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+           F++V+  SVL +  +PK  N  ++WRS++IL    M+LMWA+T L QLHPL+APRRSDLR
+Sbjct  11  FVIVAIASVLAYFFSPKGENQTSIWRSSLILAFVAMYLMWALTLLAQLHPLIAPRRSDLR  70
+
+Query  69  PEFAE  73
+           PE  E
+Sbjct  71  PEHVE  75
+
+
+> UniRef90_N1PMZ4 Uncharacterized protein n=1 Tax=Dothistroma septosporum 
+(strain NZE10 / CBS 128990) TaxID=675120 RepID=N1PMZ4_DOTSN
+Length=87
+
+ Score = 79.3 bits (194),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 38/72 (53%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   IVV+ + V  W  +PK  NQAVWRST+IL  A  +LMWAITFL Q HPL
+Sbjct  1   MANGWSLIISIIVVALIGVAAWFFSPKGENQAVWRSTIILATASCWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           ++P R DLRP+F
+Sbjct  61  ISPERKDLRPQF  72
+
+
+> UniRef90_A0A139HJU9 Uncharacterized protein n=1 Tax=Pseudocercospora 
+musae TaxID=113226 RepID=A0A139HJU9_9PEZI
+Length=122
+
+ Score = 80.1 bits (196),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 38/74 (51%), Positives = 55/74 (74%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   +VV A++V  W  +PK  NQ VWRST+IL+ A  +LMWAITFL Q HPL
+Sbjct  1   MANGWSILISILVVLAVAVGAWFFSPKGENQTVWRSTIILSAASCWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           ++P R+DLRPEF +
+Sbjct  61  ISPERNDLRPEFNQ  74
+
+
+> UniRef90_A0A2C5XV14 Uncharacterized protein n=2 Tax=Ophiocordyceps 
+australis TaxID=1399860 RepID=A0A2C5XV14_9HYPO
+Length=75
+
+ Score = 78.6 bits (192),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 37/74 (50%), Positives = 51/74 (69%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y++    +VV  + +  W +APK  N+ +WRS++IL++   FLMWAITFL QLHPL
+Sbjct  1   MAKGYSIFVGLVVVGILCLASWFLAPKGENRVLWRSSLILSIVSCFLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + PRRSDLR  F E
+Sbjct  61  IVPRRSDLRESFLE  74
+
+
+> UniRef90_A0A178DX97 Uncharacterized protein n=1 Tax=Pyrenochaeta 
+sp. DS3sAY3a TaxID=765867 RepID=A0A178DX97_9PLEO
+Length=76
+
+ Score = 78.6 bits (192),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 37/71 (52%), Positives = 52/71 (73%), Gaps = 2/71 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           + F   +G+ +VV    +  W++APK  NQ VWRST++L+ A M++MWAITFL QLHPL+
+Sbjct  3   NGFAPFIGLVVVV-LFCIGAWVLAPKGENQTVWRSTLVLSAAAMYIMWAITFLAQLHPLI  61
+
+Query  61  APRRSDLRPEF  71
+           +P R+DLRPE 
+Sbjct  62  SPVRNDLRPEL  72
+
+
+> UniRef90_A0A1R3RYR5 Uncharacterized protein n=11 Tax=Aspergillus 
+TaxID=5052 RepID=A0A1R3RYR5_ASPC5
+Length=75
+
+ Score = 78.2 bits (191),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 41/71 (58%), Positives = 55/71 (77%), Gaps = 4/71 (6%)
+
+Query  2   SSFYTVVG-VFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           S +  ++G +F+VV+A  VL WI +PK  NQAV+RST+IL+    +LMWAITFL Q HPL
+Sbjct  3   SGWSLIIGLIFVVVAA--VLAWIFSPKGENQAVFRSTLILSFTCCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           +AP+RSD+RPE
+Sbjct  61  IAPKRSDIRPE  71
+
+
+> UniRef90_A0A0A1UVB5 ATP synthase subunit H domain protein n=3 
+Tax=Metarhizium TaxID=5529 RepID=A0A0A1UVB5_9HYPO
+Length=75
+
+ Score = 78.2 bits (191),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 35/72 (49%), Positives = 51/72 (71%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y V    +++ A+ V  W +APK  NQ +WRS++IL++   +LMWAITFL QLHPL
+Sbjct  1   MAQGYAVFIGLVIIVALCVASWFLAPKGQNQVLWRSSLILSIVSCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + P+R+DLR E+
+Sbjct  61  IEPKRNDLREEY  72
+
+
+> UniRef90_B2WMY1 Uncharacterized protein n=7 Tax=Pleosporaceae 
+TaxID=28556 RepID=B2WMY1_PYRTR
+Length=76
+
+ Score = 78.2 bits (191),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 37/72 (51%), Positives = 50/72 (69%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ +  +   IVV       W++APK  NQ VWRST++L+ A M++MWAITFL QLHPL
+Sbjct  1   MANGWAPIIGLIVVVIFCAASWVLAPKGENQTVWRSTLVLSAAAMYIMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           ++P R DLRPE 
+Sbjct  61  ISPVRGDLRPEL  72
+
+
+> UniRef90_A0A3N4KJQ5 Uncharacterized protein n=1 Tax=Morchella 
+conica CCBAS932 TaxID=1392247 RepID=A0A3N4KJQ5_9PEZI
+Length=81
+
+ Score = 78.2 bits (191),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 39/71 (55%), Positives = 52/71 (73%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ Y+++  FIVV A+S   W  +PK  NQ VWRS++ILT    +LMW+IT L QL+PL
+Sbjct  1   MANGYSLLVGFIVVVAISGAAWFFSPKGENQTVWRSSLILTFVACYLMWSITLLAQLYPL  60
+
+Query  60  VAPRRSDLRPE  70
+           +APRRSDLR E
+Sbjct  61  IAPRRSDLRLE  71
+
+
+> UniRef90_M2YPN8 Uncharacterized protein (Fragment) n=1 Tax=Pseudocercospora 
+fijiensis (strain CIRAD86) TaxID=383855 RepID=M2YPN8_PSEFD
+Length=83
+
+ Score = 78.2 bits (191),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 37/74 (50%), Positives = 54/74 (73%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           +++ ++++   IVV A++   W  +PK  NQ VWRST+IL+ A  +LMWAITFL Q HPL
+Sbjct  1   IATSWSILISIIVVLAVAAGAWFFSPKGENQTVWRSTIILSAASCWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           ++P R+DLRPEF +
+Sbjct  61  ISPERNDLRPEFNQ  74
+
+
+> UniRef90_A0A168AQG6 ATPase, V0 complex, subunit E n=5 Tax=Cordycipitaceae 
+TaxID=474943 RepID=A0A168AQG6_9HYPO
+Length=75
+
+ Score = 77.8 bits (190),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 38/75 (51%), Positives = 54/75 (72%), Gaps = 3/75 (4%)
+
+Query  1   MSSFYTV-VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHP  58
+           M+  Y+V +G+F++V AM    W ++PK  NQ +WRS++IL +   +LMWAITFL QLHP
+Sbjct  1   MAQGYSVFIGLFVIV-AMCAAAWFLSPKGENQVLWRSSLILAIVSCYLMWAITFLAQLHP  59
+
+Query  59  LVAPRRSDLRPEFAE  73
+           L+ P+R DLR +F E
+Sbjct  60  LIRPKRHDLREQFLE  74
+
+
+> UniRef90_A0A2T7A0Q3 ATP synthase subunit H-domain-containing 
+protein n=1 Tax=Tuber borchii TaxID=42251 RepID=A0A2T7A0Q3_TUBBO
+Length=79
+
+ Score = 77.8 bits (190),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 35/71 (49%), Positives = 51/71 (72%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++V      +  +S + W+ APK  NQ VWRS++ILT A  +++WAITF+ QLHPL
+Sbjct  1   MANGWSVFISLFAIVGLSAVVWVFAPKGENQTVWRSSLILTFAACYILWAITFMAQLHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           + PRRS+LRPE
+Sbjct  61  ITPRRSNLRPE  71
+
+
+> UniRef90_C4R3N0 Vacuolar H+ ATPase subunit e of the V-ATPase 
+V0 subcomplex n=1 Tax=Komagataella phaffii (strain GS115 / ATCC 
+20864) TaxID=644223 RepID=C4R3N0_KOMPG
+Length=45
+
+ Score = 76.6 bits (187),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 35/43 (81%), Positives = 39/43 (91%), Gaps = 0/43 (0%)
+
+Query  31  AVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+            VWRSTV+LTLAM +LMWA T+L QLHPLVAPRRSDLRPE+AE
+Sbjct  3   GVWRSTVLLTLAMCWLMWAFTYLAQLHPLVAPRRSDLRPEYAE  45
+
+
+> UniRef90_A0A0U5FPQ8 Putative V-type H-transporting ATPase subunit 
+H n=1 Tax=Aspergillus calidoustus TaxID=454130 RepID=A0A0U5FPQ8_9EURO
+Length=75
+
+ Score = 77.4 bits (189),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 40/71 (56%), Positives = 54/71 (76%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   IVV A  V  W+ +PK  NQ VWRST+IL+LA  +LMWAITFL Q HPL
+Sbjct  1   MANGWSLLIGLIVVVAAGVAAWLFSPKGENQTVWRSTIILSLASCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           +APRRSD+RP+
+Sbjct  61  IAPRRSDIRPD  71
+
+
+> UniRef90_C7ZPP1 Uncharacterized protein (Fragment) n=1 Tax=Nectria 
+haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 
+/ MPVI) TaxID=660122 RepID=C7ZPP1_NECH7
+Length=71
+
+ Score = 77.0 bits (188),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 34/70 (49%), Positives = 51/70 (73%), Gaps = 1/70 (1%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+           Y V    +V++A+ V  W++APK  NQ +WRS++IL +   +LMWAITF+ QLHPL+APR
+Sbjct  1   YAVFIGLVVIAALCVASWLLAPKGENQVLWRSSLILAIVSCYLMWAITFMAQLHPLIAPR  60
+
+Query  64  RSDLRPEFAE  73
+           R+ +R E+ +
+Sbjct  61  RTGIREEYLD  70
+
+
+> UniRef90_A0A1Y2DUY1 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Pseudomassariella 
+vexata TaxID=1141098 RepID=A0A1Y2DUY1_9PEZI
+Length=75
+
+ Score = 77.0 bits (188),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 35/74 (47%), Positives = 50/74 (68%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y+V    ++V+AM V  W ++PK  NQ  WRS++I+     +LMW +TF+ QLHPL
+Sbjct  1   MAQGYSVFIGLVIVAAMCVAAWFLSPKGENQTTWRSSLIIAFISCYLMWFVTFMAQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + PRRSD+R EFA 
+Sbjct  61  IEPRRSDVRAEFAH  74
+
+
+> UniRef90_A0A367L955 Uncharacterized protein n=1 Tax=Ophiocordyceps 
+polyrhachis-furcata BCC 54312 TaxID=1330021 RepID=A0A367L955_9HYPO
+Length=87
+
+ Score = 77.4 bits (189),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 37/72 (51%), Positives = 52/72 (72%), Gaps = 2/72 (3%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           SF  VVG  IV++A+    W+ APK  NQ +WRS++IL++   ++MWA+TFL QL+PL+ 
+Sbjct  16  SFSIVVG-LIVIAALCAASWLFAPKGVNQVLWRSSLILSIVSCYIMWAVTFLAQLNPLIV  74
+
+Query  62  PRRSDLRPEFAE  73
+           P+RSDLR  F E
+Sbjct  75  PKRSDLREHFLE  86
+
+
+> UniRef90_A0A1Y2LV31 Uncharacterized protein n=1 Tax=Epicoccum 
+nigrum TaxID=105696 RepID=A0A1Y2LV31_EPING
+Length=75
+
+ Score = 77.0 bits (188),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 34/64 (53%), Positives = 47/64 (73%), Gaps = 1/64 (2%)
+
+Query  11  FIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRP  69
+            +V +      W +APK  NQ VWRST++L+ A M++MWAITFL QLHPL++P R+DLRP
+Sbjct  11  LVVTAIFCAAAWFLAPKGENQTVWRSTLVLSAAAMYIMWAITFLAQLHPLISPIRNDLRP  70
+
+Query  70  EFAE  73
+           E+ +
+Sbjct  71  EYNQ  74
+
+
+> UniRef90_A0A178B062 Uncharacterized protein n=2 Tax=Pleosporales 
+TaxID=92860 RepID=A0A178B062_9PLEO
+Length=76
+
+ Score = 77.0 bits (188),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 36/65 (55%), Positives = 49/65 (75%), Gaps = 2/65 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+ +VV       WI+APK  NQ VWRST++L+ A M++MWAITFL QLHPL++P+R+ 
+Sbjct  9   IGLLVVV-VFCAAAWILAPKGENQTVWRSTLVLSAAAMYIMWAITFLAQLHPLISPQRNG  67
+
+Query  67  LRPEF  71
+           LRPE 
+Sbjct  68  LRPEL  72
+
+
+> UniRef90_A0A384K5K6 Bcvma9 n=4 Tax=Sclerotiniaceae TaxID=28983 
+RepID=A0A384K5K6_BOTFB
+Length=77
+
+ Score = 76.6 bits (187),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 36/73 (49%), Positives = 52/73 (71%), Gaps = 2/73 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           + +  V+G+ IVV A +   WI++PK  NQ +WRS++IL+ A  ++MWAITFL Q HPL+
+Sbjct  3   NGWSIVIGLIIVVLACAAA-WILSPKGENQTIWRSSLILSFASCYIMWAITFLAQWHPLI  61
+
+Query  61  APRRSDLRPEFAE  73
+            PRR DLR ++A 
+Sbjct  62  VPRRGDLRDDYAR  74
+
+
+> UniRef90_A0A1A0HL45 Uncharacterized protein n=1 Tax=Metschnikowia 
+bicuspidata var. bicuspidata NRRL YB-4993 TaxID=869754 
+RepID=A0A1A0HL45_9ASCO
+Length=70
+
+ Score = 75.9 bits (185),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 42/68 (62%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAP  62
+           S YTVV V ++  A+SVL W  AP+ N+ VWRS++IL LAM +LMWAIT+L QLHPL AP
+Sbjct  2   SGYTVVVVLLLTVALSVLAWNFAPRENRTVWRSSLILGLAMCYLMWAITYLAQLHPLEAP  61
+
+Query  63  RRSDLRPE  70
+           RR+D+R E
+Sbjct  62  RRADMRKE  69
+
+
+> UniRef90_A0A150VH76 Uncharacterized protein n=1 Tax=Acidomyces 
+richmondensis BFW TaxID=766039 RepID=A0A150VH76_9PEZI
+Length=83
+
+ Score = 76.3 bits (186),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 36/72 (50%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   I ++A S + W  +PK  NQ VWRST+IL+    +LMWAITFL Q HPL
+Sbjct  1   MANGWSLLVSIIFIAAFSAVSWFASPKGENQTVWRSTLILSAWSCWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           +AP R+DLRPE+
+Sbjct  61  IAPERNDLRPEY  72
+
+
+> UniRef90_A0A0C2ILZ8 Vacuolar ATP synthase subunit n=3 Tax=Sporothrix 
+TaxID=29907 RepID=A0A0C2ILZ8_9PEZI
+Length=116
+
+ Score = 77.4 bits (189),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 38/65 (58%), Positives = 50/65 (77%), Gaps = 2/65 (3%)
+
+Query  8    VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+            +G+F VV+AMSV  W ++PK  NQ +WRS++IL  +  +LMWAITFL QL+PL+ PRRSD
+Sbjct  50   IGLF-VVAAMSVGAWFLSPKGENQVLWRSSLILAFSCCYLMWAITFLAQLNPLIEPRRSD  108
+
+Query  67   LRPEF  71
+            LR  F
+Sbjct  109  LRAAF  113
+
+
+> UniRef90_A0A2U3E832 6-phosphogluconate dehydrogenase 2 n=1 Tax=Purpureocillium 
+lilacinum TaxID=33203 RepID=A0A2U3E832_9HYPO
+Length=625
+
+ Score = 82.4 bits (202),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 35/70 (50%), Positives = 49/70 (70%), Gaps = 1/70 (1%)
+
+Query  5    YTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+            Y V    +V++ +    W +APK  NQ +WRS++IL++   +LMWAITFL QLHPL+ P+
+Sbjct  555  YAVFIGLVVIAILCAASWFLAPKGENQVLWRSSLILSIVSCYLMWAITFLAQLHPLIVPK  614
+
+Query  64   RSDLRPEFAE  73
+            RSDLR +F E
+Sbjct  615  RSDLREQFLE  624
+
+
+> UniRef90_A0A0L1J6H4 V-type proton ATPase subunit e n=4 Tax=Aspergillus 
+TaxID=5052 RepID=A0A0L1J6H4_ASPNO
+Length=75
+
+ Score = 75.9 bits (185),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 33/71 (46%), Positives = 54/71 (76%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   IV++  SV+ W+ +PK  NQ +WRST+IL+    +LMWAITFL Q HPL
+Sbjct  1   MANGWSLIIGLIVIAVASVVAWLFSPKGENQTLWRSTLILSFVSCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           ++P+R+D+RP+
+Sbjct  61  ISPKRADIRPD  71
+
+
+> UniRef90_G0S5H5 Uncharacterized protein n=1 Tax=Chaetomium thermophilum 
+(strain DSM 1495 / CBS 144.50 / IMI 039719) TaxID=759272 
+RepID=G0S5H5_CHATD
+Length=428
+
+ Score = 82.0 bits (201),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 35/62 (56%), Positives = 47/62 (76%), Gaps = 1/62 (2%)
+
+Query  11   FIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRP  69
+             ++VS M V  W+ +PK  NQ +WRS++IL++   +LMWAITFL QLHPL+ PRRSDLR 
+Sbjct  364  LVIVSGMCVAAWVFSPKGENQVLWRSSLILSIVSCYLMWAITFLAQLHPLIEPRRSDLRK  423
+
+Query  70   EF  71
+            E+
+Sbjct  424  EY  425
+
+
+> UniRef90_A0A1C7N8P8 V-type proton ATPase subunit e n=2 Tax=Mucorineae 
+TaxID=1344963 RepID=A0A1C7N8P8_9FUNG
+Length=73
+
+ Score = 75.9 bits (185),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 36/74 (49%), Positives = 53/74 (72%), Gaps = 2/74 (3%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           MS +  V+G F+VV+A+S L + + PK  +Q V R+ +I++LA  +LMWA+T+L QLHPL
+Sbjct  1   MSGYNIVLG-FLVVAALSALGYFLTPKGKDQTVIRTVIIMSLACCYLMWAVTYLAQLHPL  59
+
+Query  60  VAPRRSDLRPEFAE  73
+           + PR+S LRP   E
+Sbjct  60  IYPRKSGLRPPHHE  73
+
+
+> UniRef90_A0A0A1SJE1 Putative V-type proton ATPase subunit e n=1 
+Tax=Torrubiella hemipterigena TaxID=1531966 RepID=A0A0A1SJE1_9HYPO
+Length=74
+
+ Score = 75.9 bits (185),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 36/75 (48%), Positives = 54/75 (72%), Gaps = 3/75 (4%)
+
+Query  1   MSSFYTV-VGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHP  58
+           M+S Y++ +G+FI++  +    W +APK   Q +WRS++IL +   +LMWAITFL QLHP
+Sbjct  1   MASGYSIFIGLFIIL-GLCAASWFLAPKGEYQVMWRSSLILAIVSCYLMWAITFLAQLHP  59
+
+Query  59  LVAPRRSDLRPEFAE  73
+           L AP+R+DLR ++ E
+Sbjct  60  LTAPKRNDLRSDYLE  74
+
+
+> UniRef90_A0A0G2FRW4 Putative vacuolar atp synthase subunit n=5 
+Tax=Diaporthales TaxID=5114 RepID=A0A0G2FRW4_9PEZI
+Length=75
+
+ Score = 75.5 bits (184),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 35/65 (54%), Positives = 49/65 (75%), Gaps = 2/65 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+FI+ +AM V  W ++PK  NQ +WRS++IL     +LMWA+TFL QLHPL+ P+RSD
+Sbjct  9   IGLFII-AAMCVGAWFLSPKGENQVLWRSSLILAFVCCYLMWALTFLAQLHPLIEPKRSD  67
+
+Query  67  LRPEF  71
+           LR +F
+Sbjct  68  LREKF  72
+
+
+> UniRef90_A0A0G2EHL5 Putative v-type proton atpase subunit e n=1 
+Tax=Diplodia seriata TaxID=420778 RepID=A0A0G2EHL5_9PEZI
+Length=80
+
+ Score = 75.5 bits (184),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 35/74 (47%), Positives = 51/74 (69%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   + + A S + W  +PK  NQ VWRS++IL+    +LMWAITFL Q HPL
+Sbjct  1   MANGWSLIIGLVFIVAFSAVSWFASPKGENQTVWRSSLILSAWSCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + PRRSDLRPE  +
+Sbjct  61  INPRRSDLRPEGGD  74
+
+
+> UniRef90_A0A3M2S834 Uncharacterized protein n=1 Tax=Fusarium 
+kuroshium TaxID=2010991 RepID=A0A3M2S834_9HYPO
+Length=133
+
+ Score = 77.0 bits (188),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 35/74 (47%), Positives = 52/74 (70%), Gaps = 1/74 (1%)
+
+Query  1    MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+            M+  Y V    +V++A+ V  W +APK  NQ +WRS++IL +   +LMWAITF+ QLHPL
+Sbjct  60   MAQGYAVFIGLVVIAALCVASWFLAPKGENQVLWRSSLILAIVSCYLMWAITFMAQLHPL  119
+
+Query  60   VAPRRSDLRPEFAE  73
+            +APRR+ +R E+ +
+Sbjct  120  IAPRRTGIREEYLD  133
+
+
+> UniRef90_X0JMU4 V-type H+-transporting ATPase subunit H n=19 
+Tax=Fusarium TaxID=5506 RepID=X0JMU4_FUSOX
+Length=126
+
+ Score = 76.6 bits (187),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 36/71 (51%), Positives = 49/71 (69%), Gaps = 1/71 (1%)
+
+Query  1    MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+            M+  Y V    +V++A+ V  W +APK  NQ +WRS+ IL +   +LMWAITFL QLHPL
+Sbjct  53   MAQGYAVFIGLVVIAALCVASWFLAPKGENQVLWRSSAILAIVSCYLMWAITFLAQLHPL  112
+
+Query  60   VAPRRSDLRPE  70
+            +APR+S +R E
+Sbjct  113  IAPRKSGIREE  123
+
+
+> UniRef90_A0A1L9VEG5 Uncharacterized protein n=3 Tax=Aspergillus 
+TaxID=5052 RepID=A0A1L9VEG5_ASPGL
+Length=75
+
+ Score = 75.1 bits (183),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 35/65 (54%), Positives = 51/65 (78%), Gaps = 2/65 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           ++G+ IVV A S++ W+ +PK +NQ +WRST+IL+    FLMWAI F+ Q HPL+AP+RS
+Sbjct  8   IIGLVIVVLA-SIVAWVFSPKGDNQTLWRSTLILSFVSCFLMWAIIFMAQWHPLIAPKRS  66
+
+Query  66  DLRPE  70
+           D+RP+
+Sbjct  67  DIRPD  71
+
+
+> UniRef90_G2R4D5 Uncharacterized protein n=2 Tax=Sordariales TaxID=5139 
+RepID=G2R4D5_THITE
+Length=75
+
+ Score = 75.1 bits (183),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 36/72 (50%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ +++    +VV AM +  W  APK  NQ +WRS++IL++   +LMWAITFL QL+PL
+Sbjct  1   MANGWSIFIGLVVVIAMCLASWFFAPKGENQVLWRSSLILSIVSCYLMWAITFLAQLNPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRSDLR E+
+Sbjct  61  IEPRRSDLRKEY  72
+
+
+> UniRef90_A0A0F7TFV1 Uncharacterized protein n=1 Tax=Penicillium 
+brasilianum TaxID=104259 RepID=A0A0F7TFV1_9EURO
+Length=75
+
+ Score = 75.1 bits (183),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 34/71 (48%), Positives = 52/71 (73%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+S +++    IV+ A+ +  W  +PK  NQ VWRST+IL++   +LMWAI F+ QLHPL
+Sbjct  1   MASGWSLFVGLIVIVALCLAAWFFSPKGENQTVWRSTLILSIVSCYLMWAIVFMAQLHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           +AP+R+D+RP+
+Sbjct  61  IAPKRADIRPD  71
+
+
+> UniRef90_A0A2A9P253 Uncharacterized protein n=1 Tax=Ophiocordyceps 
+unilateralis TaxID=268505 RepID=A0A2A9P253_9HYPO
+Length=75
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 33/63 (52%), Positives = 48/63 (76%), Gaps = 1/63 (2%)
+
+Query  12  IVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           +V++A+    W +APK  NQ +WRS++IL++   FLMWAIT+L QL+PL+ P+RSDLR +
+Sbjct  12  VVIAALCTASWFLAPKGANQVLWRSSLILSIVSCFLMWAITYLAQLNPLIVPKRSDLREQ  71
+
+Query  71  FAE  73
+           F E
+Sbjct  72  FLE  74
+
+
+> UniRef90_A0A1D9QG12 Uncharacterized protein n=2 Tax=Sclerotinia 
+sclerotiorum (strain ATCC 18683 / 1980 / Ss-1) TaxID=665079 
+RepID=A0A1D9QG12_SCLS1
+Length=79
+
+ Score = 75.1 bits (183),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 32/57 (56%), Positives = 43/57 (75%), Gaps = 1/57 (2%)
+
+Query  18  SVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           SV+ W ++PK   Q +WRS++IL+ A  ++MWAITFL Q HPL+ PRR DLRPE+A 
+Sbjct  18  SVIAWFLSPKGETQTIWRSSLILSFASCYIMWAITFLAQWHPLIVPRRGDLRPEYAR  74
+
+
+> UniRef90_A0A3N4JYR7 Uncharacterized protein n=1 Tax=Choiromyces 
+venosus 120613-1 TaxID=1336337 RepID=A0A3N4JYR7_9PEZI
+Length=81
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 35/73 (48%), Positives = 53/73 (73%), Gaps = 1/73 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ +++     VV  +S + W+ APK  NQ +WRS++IL+LA  ++MWAIT + QLHPL
+Sbjct  1   MANGWSIFVGLFVVVVLSAVAWMFAPKGENQTIWRSSLILSLAACYIMWAITLMAQLHPL  60
+
+Query  60  VAPRRSDLRPEFA  72
+           V P+RSD+RPE +
+Sbjct  61  VVPKRSDMRPEHS  73
+
+
+> UniRef90_A0A395IBE6 V-type proton ATPase subunit E n=1 Tax=Aspergillus 
+homomorphus CBS 101889 TaxID=1450537 RepID=A0A395IBE6_9EURO
+Length=75
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 36/71 (51%), Positives = 53/71 (75%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   IVV   +VL WI +PK  NQ V+RST+IL+ A  +LMWAITFL Q HPL
+Sbjct  1   MATGWSLIIGLIVVVIAAVLAWIFSPKGENQTVFRSTLILSFACCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           + P+R+D+RP+
+Sbjct  61  ITPKRADMRPD  71
+
+
+> UniRef90_A0A319EKN4 V-type proton ATPase subunit E n=2 Tax=Aspergillus 
+TaxID=5052 RepID=A0A319EKN4_9EURO
+Length=75
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 37/62 (60%), Positives = 49/62 (79%), Gaps = 3/62 (5%)
+
+Query  10  VFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+           VF+V++A  VL WI +PK  NQ V+RST++L+ A  +LMWAIT L Q HPL+AP+RSD+R
+Sbjct  12  VFVVIAA--VLAWIFSPKGENQTVFRSTLVLSFACCYLMWAITLLAQWHPLIAPKRSDIR  69
+
+Query  69  PE  70
+           PE
+Sbjct  70  PE  71
+
+
+> UniRef90_R1GHB0 Putative vacuolar atp synthase subunit protein 
+n=1 Tax=Botryosphaeria parva (strain UCR-NP2) TaxID=1287680 
+RepID=R1GHB0_BOTPV
+Length=79
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 34/71 (48%), Positives = 51/71 (72%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   +++ A S + W  +PK  NQ VWRS++IL+    +LMWAITFL Q HPL
+Sbjct  1   MANGWSLIIGLVIIVAFSAVSWFASPKGENQTVWRSSLILSAWSCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           + P+RSDLRPE
+Sbjct  61  INPKRSDLRPE  71
+
+
+> UniRef90_J3P4M3 Uncharacterized protein n=2 Tax=Magnaporthaceae 
+TaxID=81093 RepID=J3P4M3_GAGT3
+Length=75
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 37/65 (57%), Positives = 47/65 (72%), Gaps = 2/65 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+FIV   M  + W  +PK  NQ +WRS++IL L   +LMWAITFL QL+PL+ PRRSD
+Sbjct  9   IGLFIV-GVMCAVAWFFSPKGENQVLWRSSLILALVSCYLMWAITFLAQLNPLIVPRRSD  67
+
+Query  67  LRPEF  71
+           LR EF
+Sbjct  68  LRKEF  72
+
+
+> UniRef90_M7SG14 Putative vacuolar atp synthase subunit protein 
+n=1 Tax=Eutypa lata (strain UCR-EL1) TaxID=1287681 RepID=M7SG14_EUTLA
+Length=75
+
+ Score = 74.3 bits (181),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 34/72 (47%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y+V    ++V AMSV  W ++PK  NQ  WRS++IL  A  +LMW +TF+ QLHPL
+Sbjct  1   MAGGYSVFVGLVIVVAMSVAAWFLSPKGENQTTWRSSLILAFASCYLMWFVTFMAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRR++LR  +
+Sbjct  61  IEPRRNNLREAY  72
+
+
+> UniRef90_A0A167QWQ3 ATPase, V0 complex, subunit E n=1 Tax=Sporothrix 
+insectorum RCEF 264 TaxID=1081102 RepID=A0A167QWQ3_9PEZI
+Length=361
+
+ Score = 80.1 bits (196),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 38/65 (58%), Positives = 48/65 (74%), Gaps = 2/65 (3%)
+
+Query  8    VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+            +G+F+VV  MSV  W ++PK  NQ +WRS++IL     +LMWAITFL QLHPL+ PRRSD
+Sbjct  295  IGLFVVV-CMSVGAWFLSPKGENQVLWRSSLILAFTCCYLMWAITFLAQLHPLIEPRRSD  353
+
+Query  67   LRPEF  71
+            LR  F
+Sbjct  354  LRAAF  358
+
+
+> UniRef90_A0A0E9NLN4 Uncharacterized protein n=1 Tax=Saitoella 
+complicata (strain BCRC 22490 / CBS 7301 / JCM 7358 / NBRC 
+10748 / NRRL Y-17804) TaxID=698492 RepID=A0A0E9NLN4_SAICN
+Length=73
+
+ Score = 74.3 bits (181),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 32/49 (65%), Positives = 42/49 (86%), Gaps = 1/49 (2%)
+
+Query  26  PK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           PK +NQ+VWRST+IL++  M+L+WAIT+L QLHPL+ PRRSDLRPE  +
+Sbjct  25  PKGDNQSVWRSTLILSMVSMYLVWAITYLAQLHPLIQPRRSDLRPEMVD  73
+
+
+> UniRef90_A0A1Q3A1E0 Uncharacterized protein n=1 Tax=Zygosaccharomyces 
+rouxii TaxID=4956 RepID=A0A1Q3A1E0_ZYGRO
+Length=46
+
+ Score = 73.6 bits (179),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 31/38 (82%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  36  TVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           T+IL+++MMFLMWAIT+LCQLHPL+APRRSDLRPEF E
+Sbjct  9   TLILSMSMMFLMWAITYLCQLHPLIAPRRSDLRPEFTE  46
+
+
+> UniRef90_A0A1V6PEA6 Uncharacterized protein n=1 Tax=Penicillium 
+decumbens TaxID=69771 RepID=A0A1V6PEA6_9EURO
+Length=75
+
+ Score = 74.3 bits (181),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 36/70 (51%), Positives = 51/70 (73%), Gaps = 2/70 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           S +  ++G+ IVV+A S+  W  +PK  N  VWRST+IL+    +LMWAI FL QLHPL+
+Sbjct  3   SGWSLIIGLLIVVAA-SLAAWFFSPKGENLTVWRSTLILSFVSCYLMWAIVFLAQLHPLI  61
+
+Query  61  APRRSDLRPE  70
+           AP+R+D+RP+
+Sbjct  62  APKRADIRPD  71
+
+
+> UniRef90_M1WF26 Uncharacterized protein n=1 Tax=Claviceps purpurea 
+(strain 20.1) TaxID=1111077 RepID=M1WF26_CLAP2
+Length=75
+
+ Score = 74.3 bits (181),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 33/72 (46%), Positives = 50/72 (69%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y V     +++ +  + W+ APK  NQ +WRS++IL++   +LMWAITFL QLHPL
+Sbjct  1   MAQSYAVFIGLAIIAVLCAVSWLAAPKGANQVLWRSSLILSIVSCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + P+R++LR EF
+Sbjct  61  IEPKRNNLREEF  72
+
+
+> UniRef90_A0A2J5HI90 ATPase, V0 complex, subunit E1/e2 n=3 Tax=Aspergillus 
+TaxID=5052 RepID=A0A2J5HI90_9EURO
+Length=75
+
+ Score = 73.9 bits (180),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 37/69 (54%), Positives = 51/69 (74%), Gaps = 2/69 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           S +  +VG+ +VV A SV+ W  +PK +NQ +WRST+IL+ A  +LMWAI FL Q HPL+
+Sbjct  3   SGWSLIVGLILVVIA-SVVAWFFSPKGDNQTLWRSTLILSFASCYLMWAIVFLAQWHPLI  61
+
+Query  61  APRRSDLRP  69
+            P+RSD+RP
+Sbjct  62  VPKRSDIRP  70
+
+
+> UniRef90_A0A0C3B5U4 Uncharacterized protein n=1 Tax=Serendipita 
+vermifera MAFF 305830 TaxID=933852 RepID=A0A0C3B5U4_9HOMO
+Length=76
+
+ Score = 73.9 bits (180),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 36/74 (49%), Positives = 51/74 (69%), Gaps = 2/74 (3%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQ-AVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           MS F  ++ + IV S + ++ W   PK NQ  + R+ +ILTLA  FLMW+IT+L QLHPL
+Sbjct  1   MSGFLVLIALAIV-SGLGIIGWFATPKGNQQTLARTMIILTLACCFLMWSITYLAQLHPL  59
+
+Query  60  VAPRRSDLRPEFAE  73
+           +AP+R D+R E A+
+Sbjct  60  IAPKRGDVRFEEAD  73
+
+
+> UniRef90_L7JKK1 Uncharacterized protein n=3 Tax=Magnaporthe oryzae 
+TaxID=318829 RepID=L7JKK1_MAGOP
+Length=75
+
+ Score = 73.9 bits (180),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 36/65 (55%), Positives = 45/65 (69%), Gaps = 2/65 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+FIV  AM    W  APK  NQ +WRS++IL     ++MWAITFL QLHPL+ PRRSD
+Sbjct  9   IGLFIV-GAMCAGAWFFAPKGENQVLWRSSLILAFVSCYMMWAITFLAQLHPLIEPRRSD  67
+
+Query  67  LRPEF  71
+           LR  +
+Sbjct  68  LRKAY  72
+
+
+> UniRef90_A0A0F4GYZ8 Vacuolar ATP synthase subunit e like protein 
+n=5 Tax=Zymoseptoria TaxID=1047167 RepID=A0A0F4GYZ8_9PEZI
+Length=83
+
+ Score = 73.6 bits (179),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 39/72 (54%), Positives = 54/72 (75%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ +T++   IVV A+++  W  +PK  NQ VWRS++IL++A  +LMWAITFL Q HPL
+Sbjct  1   MANGWTLIISIIVVVAIAMAAWFFSPKGENQTVWRSSIILSVASCWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + P RSDLRPEF
+Sbjct  61  IVPERSDLRPEF  72
+
+
+> UniRef90_A0A1L9RBC3 Uncharacterized protein n=1 Tax=Aspergillus 
+wentii DTO 134E9 TaxID=1073089 RepID=A0A1L9RBC3_ASPWE
+Length=75
+
+ Score = 73.6 bits (179),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 35/64 (55%), Positives = 49/64 (77%), Gaps = 2/64 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           V+G+  +V A SV+ W+ +PK  NQ +WRST+IL+ A  +LMWAI FL Q HPL++P+RS
+Sbjct  8   VIGLIFIVLA-SVVAWVFSPKGENQTLWRSTLILSFASCYLMWAIVFLAQWHPLISPKRS  66
+
+Query  66  DLRP  69
+           D+RP
+Sbjct  67  DIRP  70
+
+
+> UniRef90_K3VDM2 Uncharacterized protein n=9 Tax=Fusarium TaxID=5506 
+RepID=K3VDM2_FUSPC
+Length=75
+
+ Score = 73.2 bits (178),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 34/74 (46%), Positives = 47/74 (64%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y V     V++ + V  W  APK  NQ +WRS+ IL +   +LMWAITFL QLHPL
+Sbjct  1   MAQGYAVFIGLAVIAVLCVASWFFAPKGENQVLWRSSAILAIVSCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           +APR+  +R E+ +
+Sbjct  61  IAPRKGGIREEYLD  74
+
+
+> UniRef90_A0A2S4L2K0 Vacuolar ATP synthase subunit e n=1 Tax=Tolypocladium 
+paradoxum TaxID=94208 RepID=A0A2S4L2K0_9HYPO
+Length=75
+
+ Score = 73.2 bits (178),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 36/72 (50%), Positives = 51/72 (71%), Gaps = 4/72 (6%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +  + V +V+ A S   W +APK  NQ +WRS++IL++   +LMWAITFL QL+PL+ 
+Sbjct  6   SIFIGLAVIVVLCAAS---WFLAPKGQNQVLWRSSLILSIVSCYLMWAITFLAQLNPLIV  62
+
+Query  62  PRRSDLRPEFAE  73
+           P+RSDLR +F E
+Sbjct  63  PKRSDLREKFLE  74
+
+
+> UniRef90_C5GP29 V-type H+-transporting ATPase subunit H n=4 Tax=Blastomyces 
+TaxID=229219 RepID=C5GP29_AJEDR
+Length=78
+
+ Score = 73.2 bits (178),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 34/70 (49%), Positives = 52/70 (74%), Gaps = 2/70 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           + +  ++G+  VV A ++L W+ +PK  ++ VWRS++IL     +LMWAITFL QLHPL+
+Sbjct  6   NGWSIIIGLVFVVIA-NLLAWVFSPKGEDRTVWRSSLILAFTACYLMWAITFLAQLHPLI  64
+
+Query  61  APRRSDLRPE  70
+           AP+RSD+RP+
+Sbjct  65  APKRSDMRPD  74
+
+
+> UniRef90_A0A1Y1Y9H5 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Clohesyomyces 
+aquaticus TaxID=1231657 RepID=A0A1Y1Y9H5_9PLEO
+Length=71
+
+ Score = 72.8 bits (177),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 33/50 (66%), Positives = 40/50 (80%), Gaps = 1/50 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           W +APK  NQ VWRST+IL+   M+LMWAITFL Q+HPL++P R DLRPE
+Sbjct  22  WFLAPKGENQTVWRSTLILSAVAMYLMWAITFLAQMHPLISPIRYDLRPE  71
+
+
+> UniRef90_S7ZHL5 Uncharacterized protein n=1 Tax=Penicillium oxalicum 
+(strain 114-2 / CGMCC 5302) TaxID=933388 RepID=S7ZHL5_PENO1
+Length=75
+
+ Score = 72.8 bits (177),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 33/74 (45%), Positives = 52/74 (70%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   IV+ A+S+  W  +PK   Q VWRST+IL+    +LMWAI F+ QLHPL
+Sbjct  1   MANGWSLLVGLIVIVALSLAAWFFSPKGETQTVWRSTLILSFVSCYLMWAIVFMAQLHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           +AP+R+D+RP  + 
+Sbjct  61  IAPKRTDIRPGHSS  74
+
+
+> UniRef90_A0A1Z5SUN4 Uncharacterized protein n=10 Tax=Hortaea 
+werneckii TaxID=91943 RepID=A0A1Z5SUN4_HORWE
+Length=83
+
+ Score = 72.8 bits (177),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 34/72 (47%), Positives = 50/72 (69%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   I ++  SV  W ++PK + Q VWRST+IL+    +LMWAITFL Q HPL
+Sbjct  1   MANGWSLIISIIFIAVFSVAAWFLSPKGDTQTVWRSTLILSAWSCWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + P R DLRPE+
+Sbjct  61  IVPERGDLRPEY  72
+
+
+> UniRef90_Q0CY04 Uncharacterized protein n=1 Tax=Aspergillus terreus 
+(strain NIH 2624 / FGSC A1156) TaxID=341663 RepID=Q0CY04_ASPTN
+Length=75
+
+ Score = 72.4 bits (176),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 35/70 (50%), Positives = 52/70 (74%), Gaps = 1/70 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+S ++++   I++   SVL WI +PK +NQ +WRST+IL+    +LMWAITF+ Q HPL
+Sbjct  1   MASGWSLIIGLIIIVVASVLAWIFSPKGDNQTLWRSTLILSFVSCYLMWAITFMAQWHPL  60
+
+Query  60  VAPRRSDLRP  69
+           + P+RSD+RP
+Sbjct  61  IVPKRSDIRP  70
+
+
+> UniRef90_A0A0G4PKF2 ATPase, V0 complex, subunit E n=8 Tax=Penicillium 
+TaxID=5073 RepID=A0A0G4PKF2_PENCA
+Length=75
+
+ Score = 72.4 bits (176),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 34/71 (48%), Positives = 52/71 (73%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ +++V   I++ A S   W ++PK +NQ ++RST+ILT    +LMWAI FL Q HPL
+Sbjct  1   MANGWSLVIGLIIIIAFSTAAWFLSPKGDNQTLFRSTLILTFVSCYLMWAIVFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           +AP+RSD+RP+
+Sbjct  61  IAPKRSDIRPD  71
+
+
+> UniRef90_A0A0S6XHJ4 Uncharacterized protein n=1 Tax=fungal sp. 
+No.11243 TaxID=1603295 RepID=A0A0S6XHJ4_9FUNG
+Length=77
+
+ Score = 72.4 bits (176),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 35/71 (49%), Positives = 50/71 (70%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++V+   I + A S + W+ +PK  NQ VWRST+IL+    +LMWAITFL QL+PL
+Sbjct  1   MANGWSVIIGLIFILAFSAVSWVASPKGENQTVWRSTLILSAFACYLMWAITFLAQLNPL  60
+
+Query  60  VAPRRSDLRPE  70
+           + P RSD RP+
+Sbjct  61  IMPERSDYRPD  71
+
+
+> UniRef90_I1BSN3 Uncharacterized protein n=6 Tax=Rhizopus TaxID=4842 
+RepID=I1BSN3_RHIO9
+Length=73
+
+ Score = 72.0 bits (175),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 35/72 (49%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y ++ VF  V+A+S L ++  PK NNQ V R+ +I++LA  +LMWAIT+L QLHPL+ 
+Sbjct  2   SGYNIIWVFFAVAAVSALGYVATPKGNNQTVIRTVIIMSLACCYLMWAITYLAQLHPLIN  61
+
+Query  62  PRRSDLRPEFAE  73
+           P +  LRP   E
+Sbjct  62  PIKVGLRPPHHE  73
+
+
+> UniRef90_A0A3N4IHK7 Uncharacterized protein n=1 Tax=Ascobolus 
+immersus RN42 TaxID=1160509 RepID=A0A3N4IHK7_ASCIM
+Length=80
+
+ Score = 72.4 bits (176),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 36/71 (51%), Positives = 48/71 (68%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++V+   IVV  + V  +  APK  NQ +WR   +LTLA  ++MWA+T L QLHPL
+Sbjct  1   MANGWSVIHGLIVVILLGVASYFFAPKGENQTIWRFGFLLTLASTYMMWALTLLAQLHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           V P RSDLRPE
+Sbjct  61  VQPLRSDLRPE  71
+
+
+> UniRef90_A0A1L9SI42 Uncharacterized protein n=1 Tax=Penicilliopsis 
+zonata CBS 506.65 TaxID=1073090 RepID=A0A1L9SI42_9EURO
+Length=75
+
+ Score = 72.0 bits (175),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 35/65 (54%), Positives = 49/65 (75%), Gaps = 2/65 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           ++G+  VV A  ++ W+ +PK  NQ ++RST+ILT A  +LMWAITFL Q HPL+ PRRS
+Sbjct  8   IIGLIFVVIA-CLVAWVFSPKGENQTLYRSTLILTFASCYLMWAITFLAQWHPLIVPRRS  66
+
+Query  66  DLRPE  70
+           D+RP+
+Sbjct  67  DIRPD  71
+
+
+> UniRef90_A0A1L9X1Y0 Uncharacterized protein n=6 Tax=Aspergillus 
+TaxID=5052 RepID=A0A1L9X1Y0_ASPAC
+Length=75
+
+ Score = 72.0 bits (175),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 34/54 (63%), Positives = 43/54 (80%), Gaps = 1/54 (2%)
+
+Query  18  SVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           SVL WI +PK  NQ V+RST+IL+    +LMWAITFL Q HPL+AP+RSD+RP+
+Sbjct  18  SVLAWIFSPKGENQTVFRSTLILSFVCCYLMWAITFLAQWHPLIAPKRSDIRPD  71
+
+
+> UniRef90_A0A0F7SPH2 Vacuolar atp synthase subunit n=1 Tax=Phaffia 
+rhodozyma TaxID=264483 RepID=A0A0F7SPH2_PHARH
+Length=73
+
+ Score = 71.6 bits (174),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 32/72 (44%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y VV + ++ +A+    W + PK  NQ + R++++L L   +LMW IT+L QLHPL++
+Sbjct  2   SGYLVVVIALIAAALGSGSWFVIPKGPNQTLIRTSILLALTSCYLMWGITYLSQLHPLLS  61
+
+Query  62  PRRSDLRPEFAE  73
+           PRR+DLRP + E
+Sbjct  62  PRRADLRPAYQE  73
+
+
+> UniRef90_A0A1V6X8E4 Uncharacterized protein n=1 Tax=Penicillium 
+nalgiovense TaxID=60175 RepID=A0A1V6X8E4_PENNA
+Length=116
+
+ Score = 72.8 bits (177),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 35/70 (50%), Positives = 53/70 (76%), Gaps = 2/70 (3%)
+
+Query  2    SSFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+            +S+  V+G+ I++ A+S   W ++PK +NQ ++RST+ILT    +LMWAI FL Q HPL+
+Sbjct  44   NSWSLVIGLVIII-ALSTAAWFLSPKGDNQTLFRSTLILTFVSCYLMWAIVFLSQWHPLI  102
+
+Query  61   APRRSDLRPE  70
+            AP+RSD+RP+
+Sbjct  103  APKRSDIRPD  112
+
+
+> UniRef90_A0A0D1ZC01 Uncharacterized protein n=1 Tax=Exophiala 
+sideris TaxID=1016849 RepID=A0A0D1ZC01_9EURO
+Length=76
+
+ Score = 71.6 bits (174),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 34/73 (47%), Positives = 52/73 (71%), Gaps = 1/73 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   +V+ AM V  + ++PK  NQ +WRST+ILT A  ++MWAITFL QLHPL
+Sbjct  1   MANGWSLLIGLVVIVAMCVGAYFLSPKGENQTIWRSTLILTFASCYIMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLRPEFA  72
+           + PR + LR  +A
+Sbjct  61  IEPRMAKLRHGYA  73
+
+
+> UniRef90_A0A232LXC0 Uncharacterized protein (Fragment) n=1 Tax=Elaphomyces 
+granulatus TaxID=519963 RepID=A0A232LXC0_9EURO
+Length=164
+
+ Score = 73.9 bits (180),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 35/65 (54%), Positives = 49/65 (75%), Gaps = 2/65 (3%)
+
+Query  7    VVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+            ++G+  VV A S+  W+ +PK +NQ VWRS++IL+    +LMWAITFL Q HPL+ PRRS
+Sbjct  97   IIGLVFVVLA-SLCAWVFSPKGDNQTVWRSSLILSFTACYLMWAITFLAQWHPLIHPRRS  155
+
+Query  66   DLRPE  70
+            D+RP+
+Sbjct  156  DIRPD  160
+
+
+> UniRef90_A0A2I1CMX2 V-type proton ATPase subunit E n=1 Tax=Aspergillus 
+novofumigatus IBT 16806 TaxID=1392255 RepID=A0A2I1CMX2_9EURO
+Length=75
+
+ Score = 71.2 bits (173),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 31/50 (62%), Positives = 41/50 (82%), Gaps = 1/50 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           WI +PK  NQ +WRST+IL+LA  +LMWAITFL Q HPL+ P+R+D+RP+
+Sbjct  22  WIFSPKGENQTLWRSTLILSLASCYLMWAITFLAQWHPLIVPKRADIRPD  71
+
+
+> UniRef90_A0A2V1D4A7 Uncharacterized protein n=1 Tax=Periconia 
+macrospinosa TaxID=97972 RepID=A0A2V1D4A7_9PLEO
+Length=79
+
+ Score = 71.2 bits (173),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 36/62 (58%), Positives = 44/62 (71%), Gaps = 2/62 (3%)
+
+Query  11  FIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR-  68
+            +VV    V  W +APK  NQ VWRST++L+ A M++MWAITFL QLHPL+ P R DLR 
+Sbjct  11  LVVVVIFCVAAWFLAPKGENQTVWRSTLVLSAAAMYIMWAITFLAQLHPLIHPIRKDLRS  70
+
+Query  69  PE  70
+           PE
+Sbjct  71  PE  72
+
+
+> UniRef90_A0A1V1SQZ7 Uncharacterized protein n=1 Tax=fungal sp. 
+No.14919 TaxID=1813822 RepID=A0A1V1SQZ7_9FUNG
+Length=75
+
+ Score = 70.9 bits (172),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 31/72 (43%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y+++   ++V+AM V  W ++PK  NQ  WRS++I+     +LMW ITF+ QLHPL
+Sbjct  1   MAQGYSILIGLVIVAAMCVGAWFLSPKGENQTTWRSSLIIAFISCYLMWFITFMAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRS+++  F
+Sbjct  61  IEPRRSNIKEGF  72
+
+
+> UniRef90_Q0U6P8 Uncharacterized protein n=1 Tax=Phaeosphaeria 
+nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173) TaxID=321614 
+RepID=Q0U6P8_PHANO
+Length=76
+
+ Score = 70.9 bits (172),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 30/53 (57%), Positives = 41/53 (77%), Gaps = 1/53 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           W ++PK  NQ VWRST++L+ A M++MWAITFL QLHPL+ P+R+ LR E  +
+Sbjct  22  WFLSPKGENQTVWRSTIVLSAAAMYIMWAITFLAQLHPLITPQRNGLRAELNQ  74
+
+
+> UniRef90_W2S1U4 Uncharacterized protein (Fragment) n=1 Tax=Cyphellophora 
+europaea CBS 101466 TaxID=1220924 RepID=W2S1U4_9EURO
+Length=70
+
+ Score = 70.9 bits (172),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 50/69 (72%), Gaps = 2/69 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           +S+  ++G+ +VV A+S+  W+++PK  NQ VWRST++L+ A  ++MWAI FL Q HPL+
+Sbjct  3   NSWSLIIGLLVVV-ALSIAAWVLSPKGENQTVWRSTLVLSFASCYIMWAIVFLAQWHPLI  61
+
+Query  61  APRRSDLRP  69
+            P+   LRP
+Sbjct  62  EPKMGKLRP  70
+
+
+> UniRef90_C5PJJ7 Vacuolar ATP synthase subunit H, putative n=7 
+Tax=Coccidioides TaxID=5500 RepID=C5PJJ7_COCP7
+Length=75
+
+ Score = 70.1 bits (170),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 34/72 (47%), Positives = 51/72 (71%), Gaps = 2/72 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           + +  ++G+  VV A +++ W+ +PK  N+ VWRS++IL     +LMWAITFL Q HPL+
+Sbjct  3   NGWSIIIGLVFVVLA-NLVAWVFSPKGENRTVWRSSLILAFTACYLMWAITFLSQWHPLI  61
+
+Query  61  APRRSDLRPEFA  72
+           AP+RSD+RP  A
+Sbjct  62  APQRSDIRPGMA  73
+
+
+> UniRef90_A0A2I2G4Y3 V-type proton ATPase subunit E n=1 Tax=Aspergillus 
+steynii IBT 23096 TaxID=1392250 RepID=A0A2I2G4Y3_9EURO
+Length=75
+
+ Score = 70.1 bits (170),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 34/65 (52%), Positives = 49/65 (75%), Gaps = 2/65 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           V+G+ I+V A SVL W+ +PK  NQ ++RST+IL+    +LMWAI F+ Q HPL+ P+RS
+Sbjct  8   VIGLIIIVVA-SVLAWVFSPKGENQTLFRSTLILSFVSCYLMWAIVFMAQWHPLITPKRS  66
+
+Query  66  DLRPE  70
+           ++RPE
+Sbjct  67  NIRPE  71
+
+
+> UniRef90_A0A0M8PA63 Uncharacterized protein n=1 Tax=Penicillium 
+nordicum TaxID=229535 RepID=A0A0M8PA63_9EURO
+Length=75
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 51/71 (72%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ +++V   +++ A+S   W ++PK  NQ ++RS+ ILT    +LMWAI FL Q HPL
+Sbjct  1   MANGWSMVIGLVIIIALSTAAWFLSPKGENQTLFRSSFILTFVSCYLMWAIVFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           +AP+RSD+RP+
+Sbjct  61  IAPKRSDMRPD  71
+
+
+> UniRef90_A0A1E3IWL8 V-type proton ATPase subunit E n=1 Tax=Cryptococcus 
+depauperatus CBS 7855 TaxID=1295532 RepID=A0A1E3IWL8_9TREE
+Length=71
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 35/70 (50%), Positives = 53/70 (76%), Gaps = 1/70 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           SF  ++ V IV++A+  + W + PK  NQ ++RS+++LTL   +LMWA+T+LCQLHPL+ 
+Sbjct  2   SFLHIIWVAIVIAAVGAVGWFIVPKGKNQTLFRSSLLLTLTCCYLMWAVTYLCQLHPLIT  61
+
+Query  62  PRRSDLRPEF  71
+           PRRSDL+ E+
+Sbjct  62  PRRSDLKTEY  71
+
+
+> UniRef90_M2MA50 Uncharacterized protein n=1 Tax=Baudoinia panamericana 
+(strain UAMH 10762) TaxID=717646 RepID=M2MA50_BAUPA
+Length=85
+
+ Score = 70.1 bits (170),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 34/63 (54%), Positives = 46/63 (73%), Gaps = 3/63 (5%)
+
+Query  10  VFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+           +FIVV   S++ W  +PK   Q VWRST++L+    +LMWAITFL Q HPL+ P+R+DLR
+Sbjct  12  IFIVV--FSIVSWFASPKGETQTVWRSTLVLSAWACWLMWAITFLAQWHPLITPQRADLR  69
+
+Query  69  PEF  71
+           PE+
+Sbjct  70  PEY  72
+
+
+> UniRef90_A0A084GGN0 Uncharacterized protein n=1 Tax=Scedosporium 
+apiospermum TaxID=563466 RepID=A0A084GGN0_9PEZI
+Length=74
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 30/45 (67%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  26  PKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           P+  Q VWRS++IL +   +LMWAIT+L QLHPLVAPRRSDLR E
+Sbjct  29  PRETQLVWRSSLILAIVSCYLMWAITYLAQLHPLVAPRRSDLRAE  73
+
+
+> UniRef90_A0A167ZV79 ATPase, V0 complex, subunit E n=1 Tax=Ascosphaera 
+apis ARSEF 7405 TaxID=392613 RepID=A0A167ZV79_9EURO
+Length=74
+
+ Score = 69.3 bits (168),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 33/74 (45%), Positives = 51/74 (69%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++V+   IV    S+  W  +PK  ++ VWRS++IL  ++ ++MWAITFL QL+PL
+Sbjct  1   MANGWSVIVGLIVTVLASIAAWFFSPKGTDRTVWRSSLILGFSLCYIMWAITFLAQLNPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + PRRS+LRP   E
+Sbjct  61  IEPRRSNLRPGALE  74
+
+
+> UniRef90_E3L349 Uncharacterized protein n=2 Tax=Puccinia TaxID=5296 
+RepID=E3L349_PUCGT
+Length=71
+
+ Score = 69.3 bits (168),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 32/62 (52%), Positives = 43/62 (69%), Gaps = 1/62 (2%)
+
+Query  10  VFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+           V I+   +S L W+ APK ++Q V R+ VI T+   +LMWAI +L QLHPL+ P+R DLR
+Sbjct  9   VLILAVGLSFLGWVSAPKGDDQIVIRTAVIATITCCYLMWAIVYLAQLHPLIQPKRGDLR  68
+
+Query  69  PE  70
+           PE
+Sbjct  69  PE  70
+
+
+> UniRef90_A0A2T4HC15 Uncharacterized protein n=1 Tax=Fusarium 
+culmorum TaxID=5516 RepID=A0A2T4HC15_FUSCU
+Length=425
+
+ Score = 74.7 bits (182),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 31/73 (42%), Positives = 45/73 (62%), Gaps = 0/73 (0%)
+
+Query  1    MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+            M+  Y V     V++ + V  W  AP+    +WRS+ IL +   +LMWAITFL QLHPL+
+Sbjct  353  MAQGYAVFIGLAVIAVLCVASWFFAPREKTKLWRSSAILAIVSCYLMWAITFLAQLHPLI  412
+
+Query  61   APRRSDLRPEFAE  73
+            APR+  +R E+ +
+Sbjct  413  APRKGGIREEYLD  425
+
+
+> UniRef90_A0A1Y2XD35 Uncharacterized protein n=2 Tax=Hypoxylaceae 
+TaxID=2033035 RepID=A0A1Y2XD35_9PEZI
+Length=75
+
+ Score = 68.9 bits (167),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 37/75 (49%), Positives = 50/75 (67%), Gaps = 3/75 (4%)
+
+Query  1   MSSFYTV-VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHP  58
+           M+  Y+V VG+ IVV A+ V  W+ +PK  NQ  WRS++IL     +LMW ITF+ QLHP
+Sbjct  1   MAKGYSVFVGLAIVV-ALCVAAWVFSPKGENQTTWRSSLILAFVSCYLMWFITFMAQLHP  59
+
+Query  59  LVAPRRSDLRPEFAE  73
+           L+ PRRS++R  F  
+Sbjct  60  LIEPRRSNVRIGFEH  74
+
+
+> UniRef90_A0A074WQE9 Uncharacterized protein n=5 Tax=Aureobasidium 
+TaxID=5579 RepID=A0A074WQE9_9PEZI
+Length=76
+
+ Score = 68.9 bits (167),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 32/72 (44%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   + + A   + W  +PK   Q VWRST+IL+    +LMWAITFL Q HPL
+Sbjct  1   MANGWSLLVGLLFILAFCAVSWFASPKGETQTVWRSTLILSAWSCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + P+R DLRPE+
+Sbjct  61  IQPQRGDLRPEY  72
+
+
+> UniRef90_G4TV77 Uncharacterized protein n=1 Tax=Serendipita indica 
+(strain DSM 11827) TaxID=1109443 RepID=G4TV77_SERID
+Length=78
+
+ Score = 68.9 bits (167),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 36/67 (54%), Positives = 45/67 (67%), Gaps = 1/67 (1%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+           + V+ VF  V  ++ L W   PK   Q + R+ VILTL   FLMW+IT+L QLHPL+APR
+Sbjct  4   FLVLLVFAAVIGLNFLGWFAVPKGPQQTLIRTMVILTLTCCFLMWSITYLAQLHPLIAPR  63
+
+Query  64  RSDLRPE  70
+           RSDLR E
+Sbjct  64  RSDLRFE  70
+
+
+> UniRef90_A0A2V1CCG7 Uncharacterized protein n=2 Tax=Helotiales 
+incertae sedis TaxID=159639 RepID=A0A2V1CCG7_9HELO
+Length=93
+
+ Score = 68.9 bits (167),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 34/69 (49%), Positives = 48/69 (70%), Gaps = 2/69 (3%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           +SS+  ++G F+VV+   V  W +APK   Q +WRS++IL+ A  ++MWAITFL Q HPL
+Sbjct  20  LSSWSIIIG-FVVVALACVAGWFLAPKGETQTIWRSSLILSFASCYIMWAITFLAQWHPL  78
+
+Query  60  VAPRRSDLR  68
+           + PR S LR
+Sbjct  79  IEPRASGLR  87
+
+
+> UniRef90_A0A136ILJ7 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Microdochium 
+bolleyi TaxID=196109 RepID=A0A136ILJ7_9PEZI
+Length=75
+
+ Score = 68.6 bits (166),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 29/53 (55%), Positives = 38/53 (72%), Gaps = 1/53 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           W ++PK  NQ  WRS++I+     +LMWAITFL QLHPL+ P+R+DLR EF  
+Sbjct  22  WFLSPKGENQTTWRSSLIIAFISCYLMWAITFLAQLHPLIVPKRNDLRKEFVH  74
+
+
+> UniRef90_A0A0J0XFV5 Uncharacterized protein n=1 Tax=Cutaneotrichosporon 
+oleaginosum TaxID=879819 RepID=A0A0J0XFV5_9TREE
+Length=73
+
+ Score = 68.6 bits (166),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 27/52 (52%), Positives = 39/52 (75%), Gaps = 0/52 (0%)
+
+Query  22  WIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           W +APK N  ++RS+ +LT+A ++LMW  T+LCQL+PL+ P+R DLR E  E
+Sbjct  21  WFLAPKKNLTLFRSSAVLTIACLYLMWMCTYLCQLNPLIYPKRGDLRVEHKE  72
+
+
+> UniRef90_A0A1E1L005 Probable VMA9 Subunit e of the Vo (Membrane) 
+sector of the vacuolar H+-ATPase, essential for vacuolar 
+acidification n=3 Tax=Helotiales TaxID=5178 RepID=A0A1E1L005_9HELO
+Length=92
+
+ Score = 68.9 bits (167),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++  F+VV+   V  W +APK   Q +WRS++IL+ A  ++MWAITFL Q HPL
+Sbjct  18  MANGWSIIIGFVVVALACVAGWFLAPKGETQTIWRSSLILSFASCYIMWAITFLAQWHPL  77
+
+Query  60  VAPRRSDLR  68
+           + PR S LR
+Sbjct  78  IEPRASGLR  86
+
+
+> UniRef90_W9XUE8 V-type H+-transporting ATPase subunit H (Fragment) 
+n=1 Tax=Capronia epimyces CBS 606.96 TaxID=1182542 RepID=W9XUE8_9EURO
+Length=76
+
+ Score = 68.6 bits (166),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 32/66 (48%), Positives = 48/66 (73%), Gaps = 2/66 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           ++G+ I+V A+SV  W ++PK  NQ +WR+T+IL+ A  ++MWAITFL Q HPL+ PR +
+Sbjct  8   IIGLVIIV-ALSVGAWFLSPKGENQTIWRNTLILSFASCYIMWAITFLAQWHPLIEPRMA  66
+
+Query  66  DLRPEF  71
+            LR  +
+Sbjct  67  KLRHGY  72
+
+
+> UniRef90_A0A067N6A2 Uncharacterized protein n=1 Tax=Botryobasidium 
+botryosum FD-172 SS1 TaxID=930990 RepID=A0A067N6A2_9HOMO
+Length=72
+
+ Score = 68.2 bits (165),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 33/63 (52%), Positives = 46/63 (73%), Gaps = 1/63 (2%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           V+ VF+ V  +S L W + PK+ +Q + R++V LTL   +LMWAIT+L QLHPL+ PRRS
+Sbjct  6   VLYVFVAVVLLSALTWTLTPKSEHQTLIRTSVSLTLVSCYLMWAITYLAQLHPLIEPRRS  65
+
+Query  66  DLR  68
+           D+R
+Sbjct  66  DVR  68
+
+
+> UniRef90_A0A2T2NVL7 Uncharacterized protein n=1 Tax=Corynespora 
+cassiicola Philippines TaxID=1448308 RepID=A0A2T2NVL7_CORCC
+Length=73
+
+ Score = 68.2 bits (165),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 32/61 (52%), Positives = 42/61 (69%), Gaps = 1/61 (2%)
+
+Query  11  FIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRP  69
+            +VV+      W ++PK  NQ VWRST++L+   M++MWAITFL QLHPL+ P R DLR 
+Sbjct  11  LVVVAIFCGAAWFLSPKGENQTVWRSTLLLSAVSMYIMWAITFLAQLHPLINPIRGDLRA  70
+
+Query  70  E  70
+           E
+Sbjct  71  E  71
+
+
+> UniRef90_R4XDX4 Uncharacterized protein n=1 Tax=Taphrina deformans 
+(strain PYCC 5710 / ATCC 11124 / CBS 356.35 / IMI 108563 
+/ JCM 9778 / NBRC 8474) TaxID=1097556 RepID=R4XDX4_TAPDE
+Length=74
+
+ Score = 68.2 bits (165),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 33/62 (53%), Positives = 46/62 (74%), Gaps = 1/62 (2%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S YT++ VF ++  +S   +I++PK +NQ VWR T ILTL  M+LMW +T++ QLHPLVA
+Sbjct  2   SGYTILVVFAILVGLSGACYILSPKGDNQTVWRMTSILTLVSMYLMWMLTYVAQLHPLVA  61
+
+Query  62  PR  63
+           PR
+Sbjct  62  PR  63
+
+
+> UniRef90_X8JMA7 Vacuolar ATP synthase subunit H, putative n=2 
+Tax=Rhizoctonia solani AG-3 TaxID=1086053 RepID=X8JMA7_9HOMO
+Length=73
+
+ Score = 68.2 bits (165),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 31/72 (43%), Positives = 50/72 (69%), Gaps = 1/72 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S ++V+ V +V  A+ V+ W + PK   Q + R++++LTL   +LMWAIT++ Q+HPL+A
+Sbjct  2   SGWSVIFVGLVCVALGVIAWFVTPKGETQTLLRTSILLTLTCCYLMWAITYMAQMHPLIA  61
+
+Query  62  PRRSDLRPEFAE  73
+           PRRSD+R +   
+Sbjct  62  PRRSDVRYDIHH  73
+
+
+> UniRef90_A0A1Y2W0C3 Uncharacterized protein n=1 Tax=Hypoxylon 
+sp. CI-4A TaxID=1001833 RepID=A0A1Y2W0C3_9PEZI
+Length=75
+
+ Score = 67.8 bits (164),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 32/72 (44%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y++     +V+A+ V  W  +PK  NQ  WRS++IL     +LMW ITF+ QLHPL
+Sbjct  1   MAKGYSIFIGLAIVAALCVAAWFFSPKGENQTTWRSSLILAFISCYLMWFITFMAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRS +R  F
+Sbjct  61  IEPRRSTIRDGF  72
+
+
+> UniRef90_M3CIK0 Uncharacterized protein n=3 Tax=Mycosphaerellaceae 
+TaxID=93133 RepID=M3CIK0_SPHMS
+Length=78
+
+ Score = 67.8 bits (164),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 37/71 (52%), Positives = 52/71 (73%), Gaps = 1/71 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   IVV+A+ +  W ++PK  NQ VWRST+IL+ A  +LMWAITFL Q HPL
+Sbjct  1   MANGWSLIISIIVVAAIGLAAWFLSPKGENQTVWRSTIILSTASCWLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPE  70
+           + P RSDLR E
+Sbjct  61  IVPERSDLRME  71
+
+
+> UniRef90_A0A2N6NVQ0 V-type proton ATPase subunit e n=1 Tax=Beauveria 
+bassiana TaxID=176275 RepID=A0A2N6NVQ0_BEABA
+Length=94
+
+ Score = 68.2 bits (165),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 38/94 (40%), Positives = 53/94 (56%), Gaps = 22/94 (23%)
+
+Query  1   MSSFYTV-VGVFIVVSAMSVLFWIMAPKNNQAV--------------------WRSTVIL  39
+           M+  Y+V +G+F++V AM    W++APK    V                    WRS++IL
+Sbjct  1   MAQGYSVFIGLFVIV-AMCTAAWLLAPKGENRVYVENPPPSIRQPPANARFRLWRSSLIL  59
+
+Query  40  TLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+            +   +LMWAITFL QLHPL+ P+R DLR +F E
+Sbjct  60  AIVSCYLMWAITFLAQLHPLIRPKRHDLREQFLE  93
+
+
+> UniRef90_A0A0F4Z940 Uncharacterized protein n=1 Tax=Thielaviopsis 
+punctulata TaxID=72032 RepID=A0A0F4Z940_9PEZI
+Length=76
+
+ Score = 67.4 bits (163),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 35/62 (56%), Positives = 47/62 (76%), Gaps = 2/62 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           VG+FI + AM+V  ++ +PK  NQ +WRS++IL +   +LMWAITFL QL+PLVAP R D
+Sbjct  9   VGLFICI-AMAVASYMFSPKGPNQILWRSSLILAIVSCYLMWAITFLAQLNPLVAPNRID  67
+
+Query  67  LR  68
+           LR
+Sbjct  68  LR  69
+
+
+> UniRef90_B6QPL3 Vacuolar ATP synthase subunit e, putative n=2 
+Tax=Talaromyces marneffei TaxID=37727 RepID=B6QPL3_TALMQ
+Length=75
+
+ Score = 67.4 bits (163),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 45/64 (70%), Gaps = 2/64 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           ++G+   + A S+  W  APK +NQ VWRS++IL  +  ++MWAITFL Q HPL+ P RS
+Sbjct  8   IIGLVFAILA-SLCAWFFAPKGDNQTVWRSSLILAFSACYIMWAITFLAQWHPLIVPTRS  66
+
+Query  66  DLRP  69
+           D+RP
+Sbjct  67  DMRP  70
+
+
+> UniRef90_B6K3R9 V-type ATPase V0 subunit E n=1 Tax=Schizosaccharomyces 
+japonicus (strain yFS275 / FY16936) TaxID=402676 RepID=B6K3R9_SCHJY
+Length=67
+
+ Score = 67.0 bits (162),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 48/64 (75%), Gaps = 1/64 (2%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S YTV+ V +V + +SV  + +APK +N + W+ ++ILT+A  +L+WAIT+LCQLHPL A
+Sbjct  2   SGYTVIFVGVVSAVLSVASYYLAPKGDNHSTWQMSLILTIACFYLLWAITYLCQLHPLEA  61
+
+Query  62  PRRS  65
+           P ++
+Sbjct  62  PAKA  65
+
+
+> UniRef90_A0A2T3BBI1 Uncharacterized protein (Fragment) n=2 Tax=Leotiomycetes 
+TaxID=147548 RepID=A0A2T3BBI1_AMORE
+Length=66
+
+ Score = 67.0 bits (162),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 32/63 (51%), Positives = 45/63 (71%), Gaps = 2/63 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           ++G+ +VV A S+  W ++PK   Q  WRS++IL+ A  ++MWAITFL Q HPL+ PRR 
+Sbjct  4   IIGLVVVVLA-SLAAWFLSPKGETQTTWRSSLILSFASCYIMWAITFLAQWHPLIVPRRG  62
+
+Query  66  DLR  68
+           DLR
+Sbjct  63  DLR  65
+
+
+> UniRef90_A0A1Y2FIG1 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Protomyces 
+lactucaedebilis TaxID=56484 RepID=A0A1Y2FIG1_PROLT
+Length=73
+
+ Score = 67.0 bits (162),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 32/65 (49%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S  TV+ V  V++A+  + ++ +PK +NQ VWR T ILTL  M+LMW +T++ QLHPLVA
+Sbjct  2   SGLTVLLVAAVIAALCAVCYVFSPKGDNQTVWRMTSILTLVSMYLMWMLTYMAQLHPLVA  61
+
+Query  62  PRRSD  66
+           PR+++
+Sbjct  62  PRKAN  66
+
+
+> UniRef90_A0A2N5SF50 Uncharacterized protein n=2 Tax=Puccinia 
+coronata var. avenae f. sp. avenae TaxID=200324 RepID=A0A2N5SF50_9BASI
+Length=115
+
+ Score = 68.2 bits (165),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 44/62 (71%), Gaps = 1/62 (2%)
+
+Query  10   VFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+            V ++   +S L W+ APK ++Q V R+++I T+   +LMWAI +L QLHPL+ P+R DLR
+Sbjct  53   VLLLAIGLSFLGWVSAPKGDDQIVIRTSIIATITCCYLMWAIVYLAQLHPLIQPKRGDLR  112
+
+Query  69   PE  70
+            PE
+Sbjct  113  PE  114
+
+
+> UniRef90_A0A1Y1UC98 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Kockovaella 
+imperatae TaxID=4999 RepID=A0A1Y1UC98_9TREE
+Length=72
+
+ Score = 66.6 bits (161),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 49/67 (73%), Gaps = 1/67 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           +F  VV V +V++A++   W + P+  NQ + RS+V LTL   +LMWAIT+L QLHPL+A
+Sbjct  2   AFLHVVFVGLVIAAIAAAAWFLTPRGKNQVLIRSSVTLTLICCYLMWAITYLAQLHPLIA  61
+
+Query  62  PRRSDLR  68
+           PR+SDLR
+Sbjct  62  PRKSDLR  68
+
+
+> UniRef90_A0A068RUU8 Uncharacterized protein n=1 Tax=Lichtheimia 
+corymbifera JMRC:FSU:9682 TaxID=1263082 RepID=A0A068RUU8_9FUNG
+Length=74
+
+ Score = 66.6 bits (161),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y ++  FI ++ +S L +++ PK  NQ V R+ +++T+A  ++ WAIT+L QLHPL+ 
+Sbjct  2   SGYNLIWAFIGLAVLSALGYVVVPKGTNQTVIRTMIVMTIACCYMTWAITYLAQLHPLIF  61
+
+Query  62  PRRSDLRPE  70
+           PR+++LRP 
+Sbjct  62  PRKTNLRPH  70
+
+
+> UniRef90_A0A0D2AHU3 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D2AHU3_9PEZI
+Length=73
+
+ Score = 66.6 bits (161),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 32/72 (44%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   I + A S+  W ++PK  NQ VWRS++IL+    FLMWAITFL Q HPL
+Sbjct  1   MANGWSLIIGLIFIIAFSIASWFLSPKGENQTVWRSSLILSAWSCFLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           ++P  + LRP +
+Sbjct  61  ISPINNTLRPGY  72
+
+
+> UniRef90_A0A1Y2TVF9 Uncharacterized protein n=1 Tax=Hypoxylon 
+sp. EC38 TaxID=1001937 RepID=A0A1Y2TVF9_9PEZI
+Length=99
+
+ Score = 67.4 bits (163),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 32/68 (47%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+           Y+V     +V+A+ V  W  APK  NQ  WRS++IL     +LMW ITF+ QLHPL+ PR
+Sbjct  29  YSVFVGLAIVAALCVAAWFFAPKGENQTTWRSSLILAFVSCYLMWFITFMAQLHPLIEPR  88
+
+Query  64  RSDLRPEF  71
+           R+ +R  F
+Sbjct  89  RTTVRDGF  96
+
+
+> UniRef90_A0A1L9PI01 Uncharacterized protein n=1 Tax=Aspergillus 
+versicolor CBS 583.65 TaxID=1036611 RepID=A0A1L9PI01_ASPVE
+Length=75
+
+ Score = 66.6 bits (161),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 28/47 (60%), Positives = 40/47 (85%), Gaps = 1/47 (2%)
+
+Query  25  APK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           +PK +NQ +WRST+IL++   +LMWAITFL Q HPL+AP+R+D+RP+
+Sbjct  25  SPKGDNQTLWRSTLILSIVSCYLMWAITFLAQWHPLIAPKRADIRPD  71
+
+
+> UniRef90_F2Q220 Uncharacterized protein n=2 Tax=Trichophyton 
+TaxID=5550 RepID=F2Q220_TRIEC
+Length=74
+
+ Score = 66.2 bits (160),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 34/68 (50%), Positives = 45/68 (66%), Gaps = 2/68 (3%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           +VG+  VV A S L W+ +PK  ++ VWRS++IL     +LMWA+TFL QLHPL  P+ S
+Sbjct  8   IVGLVFVVLANS-LAWVFSPKGESRPVWRSSLILGFTFCYLMWAVTFLAQLHPLFVPKSS  66
+
+Query  66  DLRPEFAE  73
+           D RP  A 
+Sbjct  67  DRRPHHAH  74
+
+
+> UniRef90_W6YFS7 Uncharacterized protein n=1 Tax=Bipolaris zeicola 
+26-R-13 TaxID=930089 RepID=W6YFS7_COCCA
+Length=139
+
+ Score = 68.2 bits (165),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  28   NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEF  71
+            + + VWRST++L+ A M++MWAITFL QLHPL++P R+DLRPE 
+Sbjct  92   DGETVWRSTLVLSAAAMYIMWAITFLAQLHPLISPVRNDLRPEL  135
+
+
+ Score = 18.1 bits (35),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 18/31 (58%), Gaps = 3/31 (10%)
+
+Query  7   VVGVFIVVSAMSVLFWIMAPK--NNQAVWRS  35
+           ++G+ +VV       W++APK  N   V+R+
+Sbjct  8   IIGLIVVV-IFCAAAWVLAPKGENQTYVYRT  37
+
+
+> UniRef90_A0A1A6A506 V-type proton ATPase subunit E n=4 Tax=Kwoniella 
+TaxID=490731 RepID=A0A1A6A506_9TREE
+Length=71
+
+ Score = 66.2 bits (160),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 30/51 (59%), Positives = 38/51 (75%), Gaps = 1/51 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEF  71
+           W + PK  NQ + R+ V+LTL   +LMWAIT+L QLHPL+ PRRSDLR E+
+Sbjct  21  WFVMPKGKNQTLLRTAVLLTLTCCYLMWAITYLAQLHPLIKPRRSDLRAEY  71
+
+
+> UniRef90_S2JKM3 Uncharacterized protein n=3 Tax=Mucor TaxID=4830 
+RepID=S2JKM3_MUCC1
+Length=73
+
+ Score = 66.2 bits (160),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 30/72 (42%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y +V  F  ++ +S L +++ PK N+Q V R+ +I++L   +LMWA+T+L QLHPL+ 
+Sbjct  2   SGYNIVWAFFGIAILSALAYVLTPKGNDQTVIRTVIIMSLICCYLMWAVTYLAQLHPLIF  61
+
+Query  62  PRRSDLRPEFAE  73
+           P++  LRP   E
+Sbjct  62  PKKVGLRPPHHE  73
+
+
+> UniRef90_F4SAG9 Uncharacterized protein n=1 Tax=Melampsora larici-populina 
+(strain 98AG31 / pathotype 3-4-7) TaxID=747676 
+RepID=F4SAG9_MELLP
+Length=76
+
+ Score = 66.2 bits (160),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 47/67 (70%), Gaps = 1/67 (1%)
+
+Query  5   YTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+           + + G+ I+ + ++ L W  APK +NQ V RS+++ ++   +LMWAI +L QL+PL+ P+
+Sbjct  4   FLIFGILIIAALLAGLGWSAAPKGDNQVVVRSSILASIICCYLMWAIVYLAQLNPLIQPK  63
+
+Query  64  RSDLRPE  70
+           RSDLR E
+Sbjct  64  RSDLRQE  70
+
+
+> UniRef90_A0A3D8T0H9 V-type proton ATPase subunit e-like protein 
+n=1 Tax=Coleophoma crateriformis TaxID=565419 RepID=A0A3D8T0H9_9HELO
+Length=98
+
+ Score = 66.6 bits (161),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 36/94 (38%), Positives = 51/94 (54%), Gaps = 21/94 (22%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMW-----------  48
+           M++ + ++   IVV   SV  W ++PK   Q +WRS++IL+ A  ++MW           
+Sbjct  1   MATGWAIIIGLIVVVLASVAAWFLSPKGETQTIWRSSLILSFASCYIMWGTQQFQRSAMA  60
+
+Query  49  ---------AITFLCQLHPLVAPRRSDLRPEFAE  73
+                    AITF+ Q HPL+ PRR DLRPEFA 
+Sbjct  61  APGLTDLDIAITFMAQWHPLIVPRRGDLRPEFAH  94
+
+
+> UniRef90_A0A1X2H0I5 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Syncephalastrum 
+racemosum TaxID=13706 RepID=A0A1X2H0I5_SYNRA
+Length=72
+
+ Score = 65.9 bits (159),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y ++ VF+V+SA+    ++  PK +NQ V R+ +I+++A  ++MWA+T+L QLHPL+ 
+Sbjct  2   SGYNIIWVFLVLSAVCGAAYVFTPKGDNQTVIRTLIIMSIACCYIMWAVTYLAQLHPLIF  61
+
+Query  62  PRRSDLRPE  70
+           P++  LRP 
+Sbjct  62  PKKVGLRPH  70
+
+
+> UniRef90_A0A0F8B5Y5 V-type proton ATPase subunit e n=2 Tax=Ceratocystis 
+TaxID=5157 RepID=A0A0F8B5Y5_CERFI
+Length=76
+
+ Score = 65.9 bits (159),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 34/62 (55%), Positives = 46/62 (74%), Gaps = 2/62 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+FI  +A++V  +  APK  NQ +WRS++IL +   +LMWAITFL QL+PLVAP R D
+Sbjct  9   IGLFIC-AALAVAAYFFAPKGPNQILWRSSLILAIVSCYLMWAITFLAQLNPLVAPNRID  67
+
+Query  67  LR  68
+           LR
+Sbjct  68  LR  69
+
+
+> UniRef90_A0A177CA48 Uncharacterized protein n=1 Tax=Paraphaeosphaeria 
+sporulosa TaxID=1460663 RepID=A0A177CA48_9PLEO
+Length=76
+
+ Score = 65.5 bits (158),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 44/61 (72%), Gaps = 2/61 (3%)
+
+Query  12  IVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR-P  69
+           +VV+      W ++PK   Q +WRST+IL+ + M++MWAITFL QLHPL+ P R+DL+ P
+Sbjct  12  VVVAIFCGAAWFLSPKGEEQTIWRSTLILSASAMYIMWAITFLAQLHPLIQPVRTDLKGP  71
+
+Query  70  E  70
+           E
+Sbjct  72  E  72
+
+
+> UniRef90_K1WQV0 Vacuolar ATP synthase subunit n=1 Tax=Marssonina 
+brunnea f. sp. multigermtubi (strain MB_m1) TaxID=1072389 
+RepID=K1WQV0_MARBU
+Length=75
+
+ Score = 65.1 bits (157),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 47/69 (68%), Gaps = 1/69 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   +VV   S+  W ++PK   Q +WRS+++L+ A  +LMWAITFL Q HPL
+Sbjct  1   MANGWSIIIGLVVVILASIAGWFLSPKGETQTIWRSSLLLSFASCYLMWAITFLAQWHPL  60
+
+Query  60  VAPRRSDLR  68
+           + PR S LR
+Sbjct  61  IEPRASGLR  69
+
+
+> UniRef90_A0A0D1E452 Uncharacterized protein n=11 Tax=Ustilaginaceae 
+TaxID=5268 RepID=A0A0D1E452_USTMA
+Length=72
+
+ Score = 65.1 bits (157),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 30/67 (45%), Positives = 45/67 (67%), Gaps = 1/67 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +T V VF++ +  S   W+ APK  NQ + R++V+L L  M+LMW I ++ QLHP+V 
+Sbjct  2   SGWTTVWVFLIAAGASSAVWVTAPKGPNQVLIRTSVVLALTCMYLMWFIIYMAQLHPIVK  61
+
+Query  62  PRRSDLR  68
+           P+R D+R
+Sbjct  62  PKRGDVR  68
+
+
+> UniRef90_A0A2J6S9J5 Uncharacterized protein n=2 Tax=Hyaloscypha 
+TaxID=47747 RepID=A0A2J6S9J5_9HELO
+Length=76
+
+ Score = 65.1 bits (157),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  2   SSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           + +  ++G+ +V+ A     W  +PK   Q +WRS++IL+ A  ++MWAITFL Q HPL+
+Sbjct  3   NGWSIIIGLVVVLLACGAA-WFFSPKGETQTIWRSSLILSFASCYIMWAITFLAQWHPLI  61
+
+Query  61  APRRSDLR  68
+            PRR+DLR
+Sbjct  62  VPRRNDLR  69
+
+
+> UniRef90_A0A316ULR9 Uncharacterized protein n=1 Tax=Pseudomicrostroma 
+glucosiphilum TaxID=1684307 RepID=A0A316ULR9_9BASI
+Length=70
+
+ Score = 64.7 bits (156),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 44/69 (64%), Gaps = 1/69 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +TV+   + V   S   W +  K  NQ + R++VILT+   +LMW+I +L QLHPL+ 
+Sbjct  2   SGWTVIWAGVAVGGASFGSWGLVRKGENQVLIRTSVILTMICCYLMWSIIYLAQLHPLIK  61
+
+Query  62  PRRSDLRPE  70
+           P+R DLRPE
+Sbjct  62  PKRGDLRPE  70
+
+
+> UniRef90_S3E731 Uncharacterized protein n=1 Tax=Glarea lozoyensis 
+(strain ATCC 20868 / MF5171) TaxID=1116229 RepID=S3E731_GLAL2
+Length=75
+
+ Score = 64.7 bits (156),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 32/55 (58%), Positives = 38/55 (69%), Gaps = 2/55 (4%)
+
+Query  19  VLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFA  72
+           V  W  APK   Q +WRS++IL+ A  +LMWAITFL Q HPL+ PRR  LR EFA
+Sbjct  19  VAGWFFAPKGETQTIWRSSLILSFASCYLMWAITFLAQWHPLIVPRRGGLR-EFA  72
+
+
+> UniRef90_A0A194XAR1 Uncharacterized protein n=2 Tax=Phialocephala 
+TaxID=310291 RepID=A0A194XAR1_9HELO
+Length=80
+
+ Score = 64.7 bits (156),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++  F+VV+      W ++PK   Q +WRS++IL+ A  +LMW ITFL Q HPL
+Sbjct  1   MANGWSILIGFVVVALACAAGWFLSPKGETQTIWRSSLILSFASCYLMWVITFLAQWHPL  60
+
+Query  60  VAPRRSDLR  68
+           + PR S LR
+Sbjct  61  IEPRASGLR  69
+
+
+> UniRef90_N1JAB4 Vacuolar ATP synthase subunit e, putative n=2 
+Tax=Blumeria graminis TaxID=34373 RepID=N1JAB4_BLUG1
+Length=75
+
+ Score = 64.3 bits (155),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 33/65 (51%), Positives = 45/65 (69%), Gaps = 2/65 (3%)
+
+Query  6   TVVGVFIVVSAMSVLF-WIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+           T + V +VV+ ++ L  WI +PK   Q +WRST+IL+ +  F+MWAITFL Q HPL+ PR
+Sbjct  5   TSIIVGLVVAILACLAAWIFSPKGETQTIWRSTLILSFSSCFIMWAITFLAQWHPLIVPR  64
+
+Query  64  RSDLR  68
+           R  LR
+Sbjct  65  RGGLR  69
+
+
+> UniRef90_A0A0M9VVY7 V-type proton ATPase subunit e n=1 Tax=Escovopsis 
+weberi TaxID=150374 RepID=A0A0M9VVY7_9HYPO
+Length=60
+
+ Score = 63.9 bits (154),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 33/71 (46%), Positives = 44/71 (62%), Gaps = 14/71 (20%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+           M+  Y+V    IV++AM              +WRS++IL +   +LMWAITFL QLHPL+
+Sbjct  1   MAQGYSVFVGLIVIAAM--------------LWRSSLILAIVSCYLMWAITFLAQLHPLI  46
+
+Query  61  APRRSDLRPEF  71
+            P+RSDLR EF
+Sbjct  47  QPKRSDLREEF  57
+
+
+> UniRef90_A0A1E3K071 V-type proton ATPase subunit E n=3 Tax=Cryptococcaceae 
+TaxID=1884633 RepID=A0A1E3K071_9TREE
+Length=72
+
+ Score = 64.3 bits (155),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 36/72 (50%), Positives = 51/72 (71%), Gaps = 1/72 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+SF+ +V V  V++A+    W + PK  NQ + R++ +LTL   +LMWAIT+L QLHPL
+Sbjct  1   MASFFHIVFVGAVLAAIGAASWFLFPKGQNQTLLRTSTLLTLTACYLMWAITYLAQLHPL  60
+
+Query  60  VAPRRSDLRPEF  71
+           + PRRSDLR E+
+Sbjct  61  INPRRSDLRQEY  72
+
+
+> UniRef90_R7YW58 Uncharacterized protein n=1 Tax=Coniosporium 
+apollinis (strain CBS 100218) TaxID=1168221 RepID=R7YW58_CONA1
+Length=81
+
+ Score = 64.3 bits (155),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 29/74 (39%), Positives = 46/74 (62%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   I +     + W  +PK  NQ +WRST+IL+    ++MWA+TFL Q HPL
+Sbjct  1   MANGWSLLVGLIFILVFCAVAWFASPKGENQTIWRSTLILSAWSCYIMWAVTFLAQWHPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           + P R DLRP   +
+Sbjct  61  IRPERGDLRPRVVD  74
+
+
+> UniRef90_L2FE40 6-phosphogluconate dehydrogenase 2 n=2 Tax=Colletotrichum 
+TaxID=5455 RepID=L2FE40_COLFN
+Length=373
+
+ Score = 68.6 bits (166),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 35/68 (51%), Positives = 51/68 (75%), Gaps = 1/68 (1%)
+
+Query  5    YTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+            Y++    ++V+AM+   W ++PK  NQ +WRS+++L LA  +LMWAITFL QL+PL+ PR
+Sbjct  303  YSIFVGLVIVAAMAAAAWFLSPKGENQIIWRSSLLLALACCYLMWAITFLAQLNPLIEPR  362
+
+Query  64   RSDLRPEF  71
+            RSD+RP F
+Sbjct  363  RSDIRPGF  370
+
+
+> UniRef90_A0A0C3E266 Uncharacterized protein n=1 Tax=Oidiodendron 
+maius Zn TaxID=913774 RepID=A0A0C3E266_9PEZI
+Length=75
+
+ Score = 63.9 bits (154),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 30/62 (48%), Positives = 44/62 (71%), Gaps = 2/62 (3%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           +G+ IV+ A  +  W ++PK   Q  WRS++IL+    +LMWAITFL QLHPL+ P+R+D
+Sbjct  9   IGLIIVILA-CLAAWFLSPKGETQTTWRSSLILSFTSCYLMWAITFLAQLHPLIHPQRTD  67
+
+Query  67  LR  68
+           L+
+Sbjct  68  LK  69
+
+
+> UniRef90_A0A1V6PSK5 Uncharacterized protein n=1 Tax=Penicillium 
+antarcticum TaxID=416450 RepID=A0A1V6PSK5_9EURO
+Length=75
+
+ Score = 63.5 bits (153),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 37/49 (76%), Gaps = 1/49 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRP  69
+           W ++PK  NQ ++RST ILT    +LMWAI FL Q HPL+AP+RSD+RP
+Sbjct  22  WFLSPKGENQTLFRSTFILTFVSCYLMWAIVFLSQWHPLIAPKRSDIRP  70
+
+
+> UniRef90_S8BT85 Uncharacterized protein n=1 Tax=Dactylellina 
+haptotyla (strain CBS 200.50) TaxID=1284197 RepID=S8BT85_DACHA
+Length=74
+
+ Score = 63.5 bits (153),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 28/74 (38%), Positives = 51/74 (69%), Gaps = 1/74 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M++ ++++   ++   ++V  +++APK  N  VWRS+++LT+A  ++MWA+T L QL+PL
+Sbjct  1   MANGWSIIIGLVICLIVAVAGYVLAPKGENLTVWRSSILLTVACTYIMWALTLLAQLNPL  60
+
+Query  60  VAPRRSDLRPEFAE  73
+           V P  SD R ++ E
+Sbjct  61  VQPNASDFRKQYIE  74
+
+
+> UniRef90_A0A167JPU6 Uncharacterized protein n=1 Tax=Phycomyces 
+blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / 
+NBRC 33097 / NRRL 1555) TaxID=763407 RepID=A0A167JPU6_PHYB8
+Length=74
+
+ Score = 63.5 bits (153),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 45/69 (65%), Gaps = 1/69 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y ++   + V  +S + +I+ PK NNQ V R+ +I++L   +LMWAIT+L QLHPL+ 
+Sbjct  2   SGYNILWALLGVVLVSAIVYILTPKGNNQTVIRTIIIMSLVCCYLMWAITYLAQLHPLIN  61
+
+Query  62  PRRSDLRPE  70
+           P R  LRP 
+Sbjct  62  PIRVGLRPS  70
+
+
+> UniRef90_A0A0M9VQT3 Vacuolar atp synthase subunit h n=1 Tax=Malassezia 
+pachydermatis TaxID=77020 RepID=A0A0M9VQT3_9BASI
+Length=71
+
+ Score = 63.2 bits (152),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 27/67 (40%), Positives = 43/67 (64%), Gaps = 1/67 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +T +GV I+   +    W+  PK  NQ + R++ ++TLA  ++MWA  +L QLHPL+ 
+Sbjct  2   SGWTTIGVLILAVLVGTAIWMTTPKGPNQVLIRTSAVMTLACCYIMWACVYLAQLHPLIQ  61
+
+Query  62  PRRSDLR  68
+           P+R D+R
+Sbjct  62  PKRGDVR  68
+
+
+> UniRef90_A0A2N3NGN9 Uncharacterized protein n=1 Tax=Lomentospora 
+prolificans TaxID=41688 RepID=A0A2N3NGN9_9PEZI
+Length=380
+
+ Score = 68.2 bits (165),  Expect = 6e-18, Method: Composition-based stats.
+ Identities = 32/70 (46%), Positives = 48/70 (69%), Gaps = 4/70 (6%)
+
+Query  5    YTVVGVFIVVSAMSVLFWIMAPK----NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLV  60
+            + ++ V +VV+A+ +  ++  P+      Q + RS+VIL L   +LMWA+T+L QLHPLV
+Sbjct  309  FVILFVAVVVAALCIATYVFVPRFFPRETQLLLRSSVILALISCYLMWALTYLAQLHPLV  368
+
+Query  61   APRRSDLRPE  70
+            AP+RSDLR E
+Sbjct  369  APKRSDLRRE  378
+
+
+> UniRef90_A0A066XG49 Putative ATP synthase subunit H n=3 Tax=Colletotrichum 
+TaxID=5455 RepID=A0A066XG49_COLSU
+Length=75
+
+ Score = 63.5 bits (153),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 33/69 (48%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+  Y++    ++V AM    W ++PK   Q +WRS+++L LA  +LMWAITFL QLHPL
+Sbjct  1   MAQGYSIFIGLVIVVAMGAGAWFLSPKGETQIIWRSSLLLALACCYLMWAITFLAQLHPL  60
+
+Query  60  VAPRRSDLR  68
+           + P+RS+LR
+Sbjct  61  IEPKRSNLR  69
+
+
+> UniRef90_A0A1Y2EXC0 ATP synthase subunit H-domain-containing 
+protein n=1 Tax=Leucosporidium creatinivorum TaxID=106004 RepID=A0A1Y2EXC0_9BASI
+Length=80
+
+ Score = 63.2 bits (152),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 36/49 (73%), Gaps = 0/49 (0%)
+
+Query  21  FWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRP  69
+           F  +    NQ V R+++IL ++  +LMWAIT+L QLHPL+ PRRSDL+P
+Sbjct  21  FMAVRKGENQVVIRTSIILVISACYLMWAITYLAQLHPLIKPRRSDLKP  69
+
+
+> UniRef90_A0A1B7NUT6 Uncharacterized protein n=1 Tax=Emmonsia 
+sp. CAC-2015a TaxID=1658172 RepID=A0A1B7NUT6_9EURO
+Length=85
+
+ Score = 63.2 bits (152),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 26/39 (67%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  32  VWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           VWRS++IL     +LMWAITFL QLHPL+AP+RSD+RP+
+Sbjct  43  VWRSSLILAFTACYLMWAITFLAQLHPLIAPKRSDMRPD  81
+
+
+> UniRef90_A0A1B9H5J2 V-type proton ATPase subunit E n=2 Tax=Kwoniella 
+heveanensis TaxID=89924 RepID=A0A1B9H5J2_9TREE
+Length=71
+
+ Score = 62.4 bits (150),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 27/51 (53%), Positives = 38/51 (75%), Gaps = 1/51 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEF  71
+           W + PK  NQ + R++ ++TL   +LMWAIT+L QL+PL+ PRRSDLR E+
+Sbjct  21  WFITPKGKNQTLLRTSALMTLTCCYLMWAITYLAQLNPLITPRRSDLRAEY  71
+
+
+> UniRef90_A0A135SBF2 Uncharacterized protein n=3 Tax=Colletotrichum 
+TaxID=5455 RepID=A0A135SBF2_9PEZI
+Length=422
+
+ Score = 66.6 bits (161),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 33/69 (48%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  1    MSSFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+            M+  Y++    ++V AM    W ++PK + Q +WRS+++L LA  +LMWAITFL QLHPL
+Sbjct  348  MAQGYSIFVGLVIVVAMGAGAWFLSPKGDTQIIWRSSLLLALACCYLMWAITFLAQLHPL  407
+
+Query  60   VAPRRSDLR  68
+            + P+RS+LR
+Sbjct  408  IEPKRSNLR  416
+
+
+> UniRef90_A0A1B7YJH7 ATP synthase subunit H n=3 Tax=Colletotrichum 
+TaxID=5455 RepID=A0A1B7YJH7_COLHI
+Length=144
+
+ Score = 63.9 bits (154),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 34/69 (49%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  1    MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+            M+  Y++    +VV AM    W ++PK   Q +WRS+++L LA  +LMWAITFL QLHPL
+Sbjct  70   MAQGYSIFIGLVVVVAMGAGAWFLSPKGETQIIWRSSLLLALACCYLMWAITFLAQLHPL  129
+
+Query  60   VAPRRSDLR  68
+            + P+RS+LR
+Sbjct  130  IEPKRSNLR  138
+
+
+> UniRef90_A0A2J6QAF1 Uncharacterized protein n=1 Tax=Pezoloma 
+ericae TaxID=1745343 RepID=A0A2J6QAF1_9HELO
+Length=416
+
+ Score = 66.6 bits (161),  Expect = 2e-17, Method: Composition-based stats.
+ Identities = 29/66 (44%), Positives = 44/66 (67%), Gaps = 2/66 (3%)
+
+Query  3    SFYTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+            S+  ++G+ +V+ A     W  +PK   Q +WRS++IL+ A  ++MWAITFL Q HPL+ 
+Sbjct  344  SWSIIIGLVVVLLACGAA-WFFSPKGETQTIWRSSLILSFASCYIMWAITFLAQWHPLIV  402
+
+Query  62   PRRSDL  67
+            PRR+ L
+Sbjct  403  PRRNTL  408
+
+
+> UniRef90_A0A1Y1XB92 Uncharacterized protein (Fragment) n=1 Tax=Anaeromyces 
+robustus TaxID=1754192 RepID=A0A1Y1XB92_9FUNG
+Length=58
+
+ Score = 61.6 bits (148),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 28/56 (50%), Positives = 42/56 (75%), Gaps = 1/56 (2%)
+
+Query  10  VFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRR  64
+           VF VV  +S+L  +  PK  NQAV R++++LTL   +LMWA+T++CQL+PL++P R
+Sbjct  1   VFAVVFVLSILALLFTPKGPNQAVIRTSIVLTLCCCYLMWAVTYMCQLNPLISPER  56
+
+
+> UniRef90_A0A0P1BIR0 Related to vacuolar atp synthase subunit 
+h n=2 Tax=Ceraceosorus TaxID=401624 RepID=A0A0P1BIR0_9BASI
+Length=72
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 28/67 (42%), Positives = 44/67 (66%), Gaps = 1/67 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +TV+ V +  +      W++ PK  NQ + R++ ILTL   +LMW I +L QLHPL++
+Sbjct  2   SGFTVIWVLVAAAIAGAGSWLVTPKGPNQVLIRTSAILTLTCCYLMWTIVYLAQLHPLIS  61
+
+Query  62  PRRSDLR  68
+           P+R+D+R
+Sbjct  62  PKRADVR  68
+
+
+> UniRef90_A0A0C3LKK5 Uncharacterized protein n=1 Tax=Tulasnella 
+calospora MUT 4182 TaxID=1051891 RepID=A0A0C3LKK5_9HOMO
+Length=74
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 28/69 (41%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y V+ V +    ++   W + P+  +Q + RS+V+L++   +LMW+IT++ QLHPL+A
+Sbjct  2   SGYNVLIVLVAAILLAAFSWTITPRGKHQTLIRSSVLLSITCCYLMWSITYMAQLHPLIA  61
+
+Query  62  PRRSDLRPE  70
+           PRR D+R E
+Sbjct  62  PRRGDVRFE  70
+
+
+> UniRef90_A0A0B7JQE0 Uncharacterized protein n=1 Tax=Bionectria 
+ochroleuca TaxID=29856 RepID=A0A0B7JQE0_BIOOC
+Length=74
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 29/53 (55%), Positives = 40/53 (75%), Gaps = 2/53 (4%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           W ++PK  NQ +WRS++IL++   +LMWAITFL QLHPL+ PR++ L  EF E
+Sbjct  22  WFLSPKGENQVLWRSSLILSVVSCYLMWAITFLAQLHPLIEPRKA-LSEEFWE  73
+
+
+> UniRef90_A0A1Y1X7V8 V-type ATPase V0 subunit E n=2 Tax=Basidiobolus 
+meristosporus CBS 931.73 TaxID=1314790 RepID=A0A1Y1X7V8_9FUNG
+Length=71
+
+ Score = 61.6 bits (148),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 40/49 (82%), Gaps = 1/49 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRP  69
+           +  +PK  +Q ++R+++IL L  M+LMWAIT++ QL+PL+AP+RSDL+P
+Sbjct  21  YFFSPKGPDQTLYRTSIILALICMYLMWAITYMAQLNPLIAPKRSDLKP  69
+
+
+> UniRef90_A0A3M7DKV5 Uncharacterized protein n=1 Tax=Hortaea werneckii 
+TaxID=91943 RepID=A0A3M7DKV5_HORWE
+Length=100
+
+ Score = 62.4 bits (150),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 34/89 (38%), Positives = 50/89 (56%), Gaps = 18/89 (20%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN-QAVWRSTVILTLAMMFLMW-----------  48
+           M++ ++++   I ++  SV  W ++PK + Q VWRST+IL+    +LMW           
+Sbjct  1   MANGWSLIISIIFIAVFSVAAWFLSPKGDTQTVWRSTLILSAWSCWLMWDAEVVTGIGTS  60
+
+Query  49  ------AITFLCQLHPLVAPRRSDLRPEF  71
+                 AITFL Q HPL+ P R DLRPE+
+Sbjct  61  QLTMNTAITFLAQWHPLIVPERGDLRPEY  89
+
+
+> UniRef90_A0A1Y1V1P1 ATPase, V0 complex, subunit E n=1 Tax=Piromyces 
+finnis TaxID=1754191 RepID=A0A1Y1V1P1_9FUNG
+Length=71
+
+ Score = 61.2 bits (147),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 43/58 (74%), Gaps = 1/58 (2%)
+
+Query  10  VFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSD  66
+           V  V+  +SVL  +  PK  NQAV R++++LTLA  +LMWAIT++CQ++PL++P R +
+Sbjct  9   VLAVIFVLSVLALLFTPKGPNQAVIRTSIVLTLACCYLMWAITYMCQMNPLISPERVE  66
+
+
+> UniRef90_A0A1X2G263 Uncharacterized protein n=1 Tax=Hesseltinella 
+vesiculosa TaxID=101127 RepID=A0A1X2G263_9FUNG
+Length=72
+
+ Score = 61.2 bits (147),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 43/69 (62%), Gaps = 1/69 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S YT++ +F   +  S   +I  PK  NQ V R+ +I+T+   +LMWAIT+L QLHPL+ 
+Sbjct  2   SGYTIIWMFFAAAIASGASYIFTPKGINQTVIRTMLIMTITCCYLMWAITYLAQLHPLIN  61
+
+Query  62  PRRSDLRPE  70
+           P R  LRP 
+Sbjct  62  PVRVGLRPH  70
+
+
+> UniRef90_A0A1G4APF0 Uncharacterized protein n=4 Tax=Colletotrichum 
+TaxID=5455 RepID=A0A1G4APF0_9PEZI
+Length=373
+
+ Score = 65.1 bits (157),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 32/65 (49%), Positives = 47/65 (72%), Gaps = 1/65 (2%)
+
+Query  5    YTVVGVFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPR  63
+            Y++    ++V AM    W ++PK + Q +WRS+++L LA  +LMWAITFL QLHPL+ P+
+Sbjct  303  YSIFVGLVIVVAMGAGAWFLSPKGDTQIIWRSSLLLALACCYLMWAITFLAQLHPLIEPK  362
+
+Query  64   RSDLR  68
+            RS+LR
+Sbjct  363  RSNLR  367
+
+
+> UniRef90_A0A1Y1WIK5 Uncharacterized protein (Fragment) n=1 Tax=Linderina 
+pennispora TaxID=61395 RepID=A0A1Y1WIK5_9FUNG
+Length=68
+
+ Score = 60.5 bits (145),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 41/61 (67%), Gaps = 1/61 (2%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDL  67
+           +G+ +V   +  +F +   KN+  +WR+  ILTL+  +LMW IT+L QLHP++ P+R DL
+Sbjct  9   IGLLVVGLCVLSMF-VFNGKNDPTLWRTCTILTLSSCYLMWGITYLAQLHPIIVPKRDDL  67
+
+Query  68  R  68
+           R
+Sbjct  68  R  68
+
+
+> UniRef90_A0A167R3B8 ATPase, V0 complex, subunit E n=3 Tax=Dacrymycetaceae 
+TaxID=5254 RepID=A0A167R3B8_9BASI
+Length=77
+
+ Score = 60.5 bits (145),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 27/55 (49%), Positives = 41/55 (75%), Gaps = 0/55 (0%)
+
+Query  19  VLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           V +W+    + Q + R++++LTLA  +LMWAIT++ QL+PL+APRR+DLR E  E
+Sbjct  19  VGWWLTPKGDQQTLIRTSILLTLACCYLMWAITYMAQLNPLIAPRRADLRFETLE  73
+
+
+> UniRef90_A0A366S0D0 Uncharacterized protein n=1 Tax=Fusarium 
+sp. FIESC_28 TaxID=2109339 RepID=A0A366S0D0_9HYPO
+Length=411
+
+ Score = 64.7 bits (156),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 35/96 (36%), Positives = 45/96 (47%), Gaps = 27/96 (28%)
+
+Query  5    YTVVGVFIVVSAMSVLFWIMAPKNNQAV---------------------------WRSTV  37
+            Y V     VV A+ V  W +APK    V                           WRS+ 
+Sbjct  316  YAVFIGLAVVGALCVASWFLAPKGENQVSVNPSPPMRFLPGRSRCSIADMYPHRLWRSST  375
+
+Query  38   ILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+            IL +   +LMWAITFL QLHPL+APR+S +R E+ +
+Sbjct  376  ILAIVCCYLMWAITFLAQLHPLIAPRKSGIREEYLD  411
+
+
+> UniRef90_A0A0C3AWR5 Uncharacterized protein n=1 Tax=Scleroderma 
+citrinum Foug A TaxID=1036808 RepID=A0A0C3AWR5_9HOMO
+Length=71
+
+ Score = 59.7 bits (143),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 29/66 (44%), Positives = 44/66 (67%), Gaps = 1/66 (2%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           MSS + V+ + +VV  + V  +I+ PK   Q   R+ ++LTLA  +LMW +T++ QLHPL
+Sbjct  1   MSSIFPVIFILLVVLGLEVFSYILVPKGPQQTTIRTALMLTLASCYLMWMVTYMAQLHPL  60
+
+Query  60  VAPRRS  65
+           VAP R+
+Sbjct  61  VAPYRT  66
+
+
+> UniRef90_A0A1X2J2B5 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Absidia 
+repens TaxID=90262 RepID=A0A1X2J2B5_9FUNG
+Length=72
+
+ Score = 59.7 bits (143),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y ++ VFI  +  S   +I  PK  NQ V R+ +I+++   +LMWAIT+L QLHPL+ 
+Sbjct  2   SGYNIIWVFIASAIASAFSYIATPKGANQTVIRTMIIMSITCCYLMWAITYLAQLHPLIN  61
+
+Query  62  PRRSDLRPE  70
+           P R  LR  
+Sbjct  62  PIRVGLRQH  70
+
+
+> UniRef90_A0A109FKD0 Uncharacterized protein n=2 Tax=Rhodotorula 
+TaxID=5533 RepID=A0A109FKD0_9BASI
+Length=77
+
+ Score = 59.7 bits (143),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 28/61 (46%), Positives = 40/61 (66%), Gaps = 1/61 (2%)
+
+Query  10  VFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+           V IV   ++   W   PK  NQ V R++++L +   +LMWAIT+L QLHPL+ P R++LR
+Sbjct  9   VLIVAVGIAAGGWYAIPKGENQVVIRTSILLAVTCCWLMWAITYLAQLHPLIKPHRANLR  68
+
+Query  69  P  69
+           P
+Sbjct  69  P  69
+
+
+> UniRef90_A0A2K1QHM2 Uncharacterized protein n=1 Tax=Sphaceloma 
+murrayae TaxID=2082308 RepID=A0A2K1QHM2_9PEZI
+Length=127
+
+ Score = 60.5 bits (145),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 34/75 (45%), Positives = 45/75 (60%), Gaps = 11/75 (15%)
+
+Query  7    VVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWA---------ITFLCQL  56
+            +VG+  +   M+V  W  +PK  NQ VWRS+++L+    +LMW          ITFL Q 
+Sbjct  46   IVGLVFIAVFMAVS-WFASPKGENQTVWRSSLMLSAFFCYLMWRKSLPIFIQLITFLAQW  104
+
+Query  57   HPLVAPRRSDLRPEF  71
+            HPL+ P RSDLRPEF
+Sbjct  105  HPLIVPERSDLRPEF  119
+
+
+> UniRef90_J0WU28 Uncharacterized protein n=1 Tax=Auricularia subglabra 
+(strain TFB-10046 / SS5) TaxID=717982 RepID=J0WU28_AURST
+Length=71
+
+ Score = 59.3 bits (142),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 43/66 (65%), Gaps = 1/66 (2%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+S + V   FI+ + +  L W   PK  +Q + RS+ +LT+   +LMWAIT+L QLHPL
+Sbjct  1   MASSFPVFAFFIISAGLMALAWFGTPKGPHQVLLRSSFLLTIVCCYLMWAITYLAQLHPL  60
+
+Query  60  VAPRRS  65
+           + P+R+
+Sbjct  61  IVPKRA  66
+
+
+> UniRef90_M7WYD6 ATPase, V0 complex, subunit E n=3 Tax=Rhodosporidium 
+toruloides TaxID=5286 RepID=M7WYD6_RHOT1
+Length=75
+
+ Score = 59.3 bits (142),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 27/49 (55%), Positives = 35/49 (71%), Gaps = 1/49 (2%)
+
+Query  22  WIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRP  69
+           W+  PK  NQ V R+++ L +   +LMWAIT+L QLHPL+ P RSDLRP
+Sbjct  21  WVSVPKGENQVVIRTSITLAITCCWLMWAITYLAQLHPLIKPIRSDLRP  69
+
+
+> UniRef90_A0A077WZF0 Uncharacterized protein n=1 Tax=Lichtheimia 
+ramosa TaxID=688394 RepID=A0A077WZF0_9FUNG
+Length=84
+
+ Score = 59.3 bits (142),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 51/82 (62%), Gaps = 11/82 (13%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQ----------AVWRSTVILTLAMMFLMWAIT  51
+           S Y ++  FI ++ +S L +++ PK  NQ          +V R+ +++T+A  ++ WA+T
+Sbjct  2   SGYNLIWAFIGLAVLSALGYVVVPKGTNQTDSSHALKRHSVIRTMIVMTIACCYMTWAVT  61
+
+Query  52  FLCQLHPLVAPRRSDLRPEFAE  73
+           +L QLHPL+ PR+++LRP   +
+Sbjct  62  YLAQLHPLIFPRKTNLRPHVED  83
+
+
+> UniRef90_F9FPE0 Uncharacterized protein n=1 Tax=Fusarium oxysporum 
+(strain Fo5176) TaxID=660025 RepID=F9FPE0_FUSOF
+Length=59
+
+ Score = 58.5 bits (140),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 24/39 (62%), Positives = 31/39 (79%), Gaps = 0/39 (0%)
+
+Query  32  VWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           +WRS+ IL +   +LMWAITFL QLHPL+APR+S +R E
+Sbjct  18  LWRSSAILAIVSCYLMWAITFLAQLHPLIAPRKSGIREE  56
+
+
+> UniRef90_A0A0C9ZQ25 Unplaced genomic scaffold scaffold_9, whole 
+genome shotgun sequence n=1 Tax=Pisolithus microcarpus 441 
+TaxID=765257 RepID=A0A0C9ZQ25_9HOMO
+Length=71
+
+ Score = 58.5 bits (140),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 45/66 (68%), Gaps = 1/66 (2%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVW-RSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+S + VV +FIV+  + V  +++ PK  Q V  R+ ++LT A  +LMW +T++ Q+HPL
+Sbjct  1   MASLFPVVFLFIVLLGLEVCTYLLVPKGPQQVTIRTAIMLTFAACYLMWMVTYMAQVHPL  60
+
+Query  60  VAPRRS  65
+           +AP RS
+Sbjct  61  IAPYRS  66
+
+
+> UniRef90_A0A2H5SJ79 40S ribosomal protein S8 n=6 Tax=Rhizophagus 
+irregularis TaxID=588596 RepID=A0A2H5SJ79_RHIID
+Length=287
+
+ Score = 62.4 bits (150),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 29/66 (44%), Positives = 45/66 (68%), Gaps = 2/66 (3%)
+
+Query  1    MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+            MS F  +V V   ++ +  + +I+ PK  NQ   R+++ILTL  ++LMWAIT+L QLHPL
+Sbjct  218  MSGF-NIVWVGCAIAGLVAISYIVVPKGPNQTTIRTSIILTLICIYLMWAITYLSQLHPL  276
+
+Query  60   VAPRRS  65
+            + P++S
+Sbjct  277  IVPKKS  282
+
+
+> UniRef90_W6MFM0 Uncharacterized protein n=1 Tax=Kuraishia capsulata 
+CBS 1993 TaxID=1382522 RepID=W6MFM0_9ASCO
+Length=31
+
+ Score = 57.8 bits (138),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  47  MWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           MWAIT+L QLHPLVAPRRSDLRPEFAE
+Sbjct  1   MWAITYLSQLHPLVAPRRSDLRPEFAE  27
+
+
+> UniRef90_A0A316YKY8 Uncharacterized protein n=1 Tax=Acaromyces 
+ingoldii TaxID=215250 RepID=A0A316YKY8_9BASI
+Length=72
+
+ Score = 58.5 bits (140),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 40/67 (60%), Gaps = 1/67 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +T + V I   A     W   PK  NQ + RS+ +LTL   ++MWAI +L QLHP++ 
+Sbjct  2   SGWTTIWVLIAAVAAGSGTWFATPKGPNQVLIRSSTLLTLTCCYVMWAIVYLAQLHPMIK  61
+
+Query  62  PRRSDLR  68
+           P RSD+R
+Sbjct  62  PTRSDVR  68
+
+
+> UniRef90_A0A2G5BAU7 Uncharacterized protein n=1 Tax=Coemansia 
+reversa (strain ATCC 12441 / NRRL 1564) TaxID=763665 RepID=A0A2G5BAU7_COERN
+Length=71
+
+ Score = 58.2 bits (139),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 25/64 (39%), Positives = 40/64 (63%), Gaps = 1/64 (2%)
+
+Query  8   VGVFIVVSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDL  67
+           VG+ I    +  +F     +++  +WR+  IL+L   +LMWAIT+L QLHP++ P+R DL
+Sbjct  9   VGLLICGVCVGAMF-TFKSRSDPTLWRTCTILSLTCCYLMWAITYLAQLHPIIVPKRDDL  67
+
+Query  68  RPEF  71
+           R + 
+Sbjct  68  RIDL  71
+
+
+> UniRef90_A0A316UMA3 Uncharacterized protein n=1 Tax=Jaminaea 
+rosea TaxID=1569628 RepID=A0A316UMA3_9BASI
+Length=71
+
+ Score = 58.2 bits (139),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 36/58 (62%), Gaps = 1/58 (2%)
+
+Query  14  VSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           V  +S   W    K  NQ + RS +ILTL   +LMWAI +L QLHP++ P+R DLR E
+Sbjct  13  VGGISFFSWGAVRKGENQVLIRSCIILTLVCCYLMWAIMYLAQLHPVIKPKRGDLRLE  70
+
+
+> UniRef90_A0A1Y2GF87 ATP synthase subunit H-domain-containing 
+protein n=1 Tax=Lobosporangium transversale TaxID=64571 RepID=A0A1Y2GF87_9FUNG
+Length=78
+
+ Score = 58.5 bits (140),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 29/57 (51%), Positives = 38/57 (67%), Gaps = 2/57 (4%)
+
+Query  14  VSAMSVLFWIMAPKNNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+           +S+ S LF    P  NQ V R+ +I+TL   FLMW+IT+L QLHPL+ PR S +RP 
+Sbjct  16  LSSASYLFTPRGP--NQTVIRTALIMTLVSCFLMWSITYLAQLHPLMRPRHSKIRPH  70
+
+
+> UniRef90_U5HCI0 Uncharacterized protein n=2 Tax=Microbotryum 
+TaxID=34416 RepID=U5HCI0_USTV1
+Length=73
+
+ Score = 58.2 bits (139),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 43/60 (72%), Gaps = 1/60 (2%)
+
+Query  10  VFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+           V ++++ ++   +I  PK  NQ V R++++L +   +LMWAIT+L QL+PL+ PRRSDLR
+Sbjct  9   VGLILAGLAAGGFISVPKGENQVVIRTSILLVVTCCYLMWAITYLAQLNPLIRPRRSDLR  68
+
+
+> UniRef90_A0A1Q8S2J7 V-type proton ATPase subunit e 1 n=1 Tax=Colletotrichum 
+chlorophyti TaxID=708187 RepID=A0A1Q8S2J7_9PEZI
+Length=94
+
+ Score = 58.5 bits (140),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 32/93 (34%), Positives = 51/93 (55%), Gaps = 20/93 (22%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNN--------------------QAVWRSTVILT  40
+           M+  Y++    ++V AM    W ++PK                       ++WRS+++L 
+Sbjct  1   MAQGYSIFVGLVIVVAMGAGAWFLSPKGETQMRGNILLRSCDITLTLSANSIWRSSLLLA  60
+
+Query  41  LAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+           LA  +LMWAITFL QLHPL+ P+R+ +R E+A+
+Sbjct  61  LACCYLMWAITFLAQLHPLIEPKRTGIRAEYAD  93
+
+
+> UniRef90_A0A066WGI4 Putative secreted protein n=1 Tax=Tilletiaria 
+anomala UBC 951 TaxID=1037660 RepID=A0A066WGI4_9BASI
+Length=72
+
+ Score = 57.8 bits (138),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 43/65 (66%), Gaps = 4/65 (6%)
+
+Query  10  VFIVVSAMSVLF--WIMAPKN--NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRS  65
+           V++ ++A+   F  W+   K   NQ V R+ +ILTL   ++MWAI +L QLHPL+ P+R+
+Sbjct  7   VWVGIAAVGAGFGSWVATAKRGPNQVVIRTAIILTLTCCYMMWAIIYLAQLHPLIKPKRA  66
+
+Query  66  DLRPE  70
+           DLR E
+Sbjct  67  DLRFE  71
+
+
+> UniRef90_A0A165J6T3 Uncharacterized protein n=1 Tax=Exidia glandulosa 
+HHB12029 TaxID=1314781 RepID=A0A165J6T3_EXIGL
+Length=71
+
+ Score = 57.8 bits (138),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+S + V  + +V   +    W   PK   Q + RS+ +LT+A  +L+WAIT+L QLHPL
+Sbjct  1   MASGFPVFALLVVALGLMAASWFGVPKGPQQTLLRSSFMLTVACCYLLWAITYLAQLHPL  60
+
+Query  60  VAPRRSDL  67
+           +APRR+ L
+Sbjct  61  IAPRRTVL  68
+
+
+> UniRef90_A0A317XVP4 Uncharacterized protein n=1 Tax=Testicularia 
+cyperi TaxID=1882483 RepID=A0A317XVP4_9BASI
+Length=72
+
+ Score = 57.8 bits (138),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 41/67 (61%), Gaps = 1/67 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +T + V ++ +      W+  PK  NQ + R++V L    M+LMW I ++ QLHP+V 
+Sbjct  2   SGWTTIWVLLIAAGAGSAVWLTTPKGPNQVLIRTSVALAFTCMYLMWFIIYMAQLHPIVK  61
+
+Query  62  PRRSDLR  68
+           P+RSD+R
+Sbjct  62  PKRSDVR  68
+
+
+> UniRef90_A0A1X2IZJ7 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Absidia 
+repens TaxID=90262 RepID=A0A1X2IZJ7_9FUNG
+Length=72
+
+ Score = 57.4 bits (137),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 30/70 (43%), Positives = 42/70 (60%), Gaps = 1/70 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S Y ++ V I     S + +I  PK  NQ V R+ +I+++   +LMWAIT+L QLHPL+ 
+Sbjct  2   SGYNIIWVLIAAVVASAIAYIATPKGVNQTVIRTMIIMSIVCCYLMWAITYLAQLHPLIN  61
+
+Query  62  PRRSDLRPEF  71
+           P R  LRP  
+Sbjct  62  PIRVGLRPHH  71
+
+
+> UniRef90_A0A2P8A0Y7 Uncharacterized protein n=1 Tax=Elsinoe australis 
+TaxID=40998 RepID=A0A2P8A0Y7_9PEZI
+Length=143
+
+ Score = 58.5 bits (140),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/40 (65%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  32   VWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEF  71
+            VWRS++IL+    +LMW ITFL Q HPL+ P RSDLRPEF
+Sbjct  97   VWRSSLILSAFFCYLMWLITFLAQWHPLIVPERSDLRPEF  136
+
+
+> UniRef90_A0A0L0MYA8 Putative oxidoreductase YfjR n=1 Tax=Tolypocladium 
+ophioglossoides CBS 100239 TaxID=1163406 RepID=A0A0L0MYA8_9HYPO
+Length=450
+
+ Score = 60.8 bits (146),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/42 (62%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  32   VWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEFAE  73
+            +WRS++IL++   FLMWAITFL QL+PL+ P+RSDLR +F E
+Sbjct  408  LWRSSLILSIVSCFLMWAITFLAQLNPLIVPKRSDLREKFLE  449
+
+
+> UniRef90_Q5K8S8 V-type proton ATPase subunit e n=9 Tax=Cryptococcus 
+TaxID=79213 RepID=VA0E_CRYNJ
+Length=71
+
+ Score = 57.0 bits (136),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 44/59 (75%), Gaps = 1/59 (2%)
+
+Query  14  VSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPEF  71
+           ++A+    W + PK  NQ + R++++LTL   +LMWAIT+LCQLHPL+ PRRSDLR E+
+Sbjct  13  IAAIGAAGWFVTPKGKNQTLLRTSLLLTLTCCYLMWAITYLCQLHPLITPRRSDLRMEY  71
+
+
+> UniRef90_A0A261XTQ8 Uncharacterized protein n=1 Tax=Bifiguratus 
+adelaidae TaxID=1938954 RepID=A0A261XTQ8_9FUNG
+Length=74
+
+ Score = 56.6 bits (135),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 42/65 (65%), Gaps = 1/65 (2%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S + VV   +V   +    +  AP+  NQ V R+++I+TL   +LMWAIT+L QLHP++ 
+Sbjct  2   SGWNVVWGALVTGGLCAGSYFGAPRGENQTVIRTSLIMTLVCCYLMWAITYLAQLHPIIN  61
+
+Query  62  PRRSD  66
+           P++SD
+Sbjct  62  PKKSD  66
+
+
+> UniRef90_A0A0C3JKE8 Uncharacterized protein n=1 Tax=Pisolithus 
+tinctorius Marx 270 TaxID=870435 RepID=A0A0C3JKE8_PISTI
+Length=71
+
+ Score = 56.2 bits (134),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 43/66 (65%), Gaps = 1/66 (2%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKNNQAVW-RSTVILTLAMMFLMWAITFLCQLHPL  59
+           M+S + V+ + I+V  +    +++ PK  Q V  R+ ++LT A  +LMW +T++ QLHPL
+Sbjct  1   MASLFPVIFLLIIVLGLEACTYLLVPKGPQQVTIRTALMLTFAACYLMWMVTYMAQLHPL  60
+
+Query  60  VAPRRS  65
+           VAP RS
+Sbjct  61  VAPYRS  66
+
+
+> UniRef90_A0A397TLM1 V-type proton ATPase subunit E n=1 Tax=Glomus 
+cerebriforme TaxID=658196 RepID=A0A397TLM1_9GLOM
+Length=69
+
+ Score = 56.2 bits (134),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 42/64 (66%), Gaps = 1/64 (2%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S + +V V   ++ +  L +I+ PK  NQ   R+++IL+    +LMWAIT+L QLHPL+ 
+Sbjct  2   SGFNIVWVGCAIAGLVALSYIVVPKGPNQTTIRTSLILSFICTYLMWAITYLSQLHPLIV  61
+
+Query  62  PRRS  65
+           PRR+
+Sbjct  62  PRRN  65
+
+
+> UniRef90_Q69Z14 V-type proton ATPase subunit e n=1 Tax=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) TaxID=284812 RepID=VA0E_SCHPO
+Length=67
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 37/49 (76%), Gaps = 1/49 (2%)
+
+Query  17  MSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRR  64
+           MSV+ + ++PK NN + W+ ++ILT +  +L+WAIT+L QLHPL AP R
+Sbjct  16  MSVVSYYVSPKGNNTSTWQMSLILTFSCCYLLWAITYLAQLHPLEAPSR  64
+
+
+> UniRef90_A0A371DXV6 Uncharacterized protein n=1 Tax=Polyporus 
+brumalis TaxID=139420 RepID=A0A371DXV6_9APHY
+Length=70
+
+ Score = 54.7 bits (130),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 42/65 (65%), Gaps = 1/65 (2%)
+
+Query  1   MSSFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPL  59
+           MSS    + +  V  A+ V+ W    K  NQ + R++++LTLA  +LMW++T+L Q+HPL
+Sbjct  1   MSSSLPTLFILAVAIALGVIGWFTTRKGPNQTLIRTSILLTLACCYLMWSVTYLAQVHPL  60
+
+Query  60  VAPRR  64
+            +PRR
+Sbjct  61  ESPRR  65
+
+
+> UniRef90_A0A0P9FC61 Uncharacterized protein n=1 Tax=Rhodotorula 
+graminis (strain WP1) TaxID=578459 RepID=A0A0P9FC61_RHOGW
+Length=73
+
+ Score = 54.7 bits (130),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/61 (41%), Positives = 39/61 (64%), Gaps = 1/61 (2%)
+
+Query  10  VFIVVSAMSVLFWIMAPK-NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLR  68
+           + +V    +   W   PK +NQ   R++++L ++  +LMWAI +L QLHPL+ P RS+LR
+Sbjct  9   ILLVAIGAAAGGWFATPKGDNQVTIRTSLLLAISCCWLMWAIAYLAQLHPLIKPIRSNLR  68
+
+Query  69  P  69
+           P
+Sbjct  69  P  69
+
+
+> UniRef90_A8Q272 Uncharacterized protein n=1 Tax=Malassezia globosa 
+(strain ATCC MYA-4612 / CBS 7966) TaxID=425265 RepID=A8Q272_MALGO
+Length=71
+
+ Score = 54.7 bits (130),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 39/67 (58%), Gaps = 1/67 (1%)
+
+Query  3   SFYTVVGVFIVVSAMSVLFWIMAPKN-NQAVWRSTVILTLAMMFLMWAITFLCQLHPLVA  61
+           S +T + V         + W   PK  NQ + R++VI+ LA  ++MWA  +L QLHPL+ 
+Sbjct  2   SGWTTIWVLFAAILTGAVSWYTTPKGPNQLLIRTSVIMVLACCYMMWACAYLAQLHPLIQ  61
+
+Query  62  PRRSDLR  68
+           P+R D+R
+Sbjct  62  PKRGDVR  68
+
+
+> UniRef90_A0A1Y2AUD9 ATPase, V0 complex, subunit E1/e2 n=1 Tax=Naematelia 
+encephala TaxID=71784 RepID=A0A1Y2AUD9_9TREE
+Length=72
+
+ Score = 54.7 bits (130),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/43 (53%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  28  NNQAVWRSTVILTLAMMFLMWAITFLCQLHPLVAPRRSDLRPE  70
+            NQ + R+++ L L   +LMWAIT+L QLHPL+ PRR +LR E
+Sbjct  28  KNQTLIRTSIALALTCCYLMWAITYLAQLHPLIRPRRGNLRVE  70
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.137    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 707811
+
+
+  Database: isar.db.206
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 28,043
+  Number of sequences in database:  291
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

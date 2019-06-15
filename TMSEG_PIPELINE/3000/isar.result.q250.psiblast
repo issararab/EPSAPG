@@ -1,0 +1,82 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.250
+           1 sequences; 125 total letters
+
+Results from round 1
+
+
+Query= Q9JS17|3nymA|Q9JS17_NEIMB 0.984
+
+Length=125
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_X5EHB4 Uncharacterized protein n=13 Tax=Neisseria TaxI...  253     8e-94
+
+
+> UniRef90_X5EHB4 Uncharacterized protein n=13 Tax=Neisseria TaxID=482 
+RepID=X5EHB4_NEIME
+Length=125
+
+ Score = 253 bits (646),  Expect = 8e-94, Method: Compositional matrix adjust.
+ Identities = 125/125 (100%), Positives = 125/125 (100%), Gaps = 0/125 (0%)
+
+Query  1    METLNDIKKILINVGLYQGFDLTDPKVSEEVNHETANMKWIKDYTSDGNWDNEFKEDLKN  60
+            METLNDIKKILINVGLYQGFDLTDPKVSEEVNHETANMKWIKDYTSDGNWDNEFKEDLKN
+Sbjct  1    METLNDIKKILINVGLYQGFDLTDPKVSEEVNHETANMKWIKDYTSDGNWDNEFKEDLKN  60
+
+Query  61   FLDYMEVCQLALNDKNFKIASNSLFMAMIYAGNLSLIFDSIKTDISTLLSAEYKKNSFSW  120
+            FLDYMEVCQLALNDKNFKIASNSLFMAMIYAGNLSLIFDSIKTDISTLLSAEYKKNSFSW
+Sbjct  61   FLDYMEVCQLALNDKNFKIASNSLFMAMIYAGNLSLIFDSIKTDISTLLSAEYKKNSFSW  120
+
+Query  121  PSLDE  125
+            PSLDE
+Sbjct  121  PSLDE  125
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12321
+
+
+  Database: isar.db.250
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 125
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

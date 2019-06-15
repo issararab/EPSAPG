@@ -1,0 +1,946 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.8
+           41 sequences; 11,981 total letters
+
+Results from round 1
+
+
+Query= A0A1L3MZ94|5xsyB|A0A1L3MZ94_ELEEL 0.8229665071770335
+
+Length=209
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_M0QSP6 Sodium channel subunit beta-1 (Fragment) n=2 Ta...  169     4e-56
+  UniRef90_W5P3K3 Sodium voltage-gated channel beta subunit 1 n=6...  169     7e-56
+  UniRef90_F1PJY6 Sodium channel subunit beta-1 n=15 Tax=Boreoeut...  169     1e-55
+  UniRef90_Q07699 Sodium channel subunit beta-1 n=75 Tax=Eutheria...  167     2e-55
+  UniRef90_L8Y2T7 GRAM domain-containing protein 1A n=1 Tax=Tupai...  169     1e-51
+  UniRef90_S7P5D0 Serine protease hepsin n=1 Tax=Myotis brandtii ...  165     7e-51
+  UniRef90_G3U3M7 Sodium voltage-gated channel beta subunit 1 n=1...  155     1e-50
+  UniRef90_S9Y1X1 Uncharacterized protein n=1 Tax=Camelus ferus T...  167     1e-50
+  UniRef90_A0A2K5V2A2 Sodium voltage-gated channel beta subunit 1...  145     6e-47
+  UniRef90_G1Q8T1 Uncharacterized protein n=3 Tax=Laurasiatheria ...  137     6e-44
+  UniRef90_M3Y3E8 Sodium voltage-gated channel beta subunit 3 n=3...  135     2e-42
+  UniRef90_Q9NY72 Sodium channel subunit beta-3 n=98 Tax=Theria T...  134     2e-42
+  UniRef90_G3W8Q1 Sodium voltage-gated channel beta subunit 3 n=3...  132     2e-41
+  UniRef90_F6PQ19 Sodium voltage-gated channel beta subunit 3 n=1...  131     2e-41
+  UniRef90_S7MPJ2 Cob(I)yrinic acid a,c-diamide adenosyltransfera...  135     5e-41
+  UniRef90_F6X5N0 Uncharacterized protein n=1 Tax=Monodelphis dom...  124     2e-38
+  UniRef90_A0A2J8X085 SCN3B isoform 6 n=7 Tax=Hominidae TaxID=960...  124     3e-38
+  UniRef90_A0A1D5R912 Uncharacterized protein n=1 Tax=Macaca mula...  124     4e-38
+  UniRef90_A0A2K6RI19 Sodium voltage-gated channel beta subunit 1...  124     5e-38
+  UniRef90_A0A2I3TLR8 SCN1B isoform 3 n=14 Tax=Catarrhini TaxID=9...  123     2e-37
+  UniRef90_L5K5K4 Sodium channel subunit beta-1 n=3 Tax=Laurasiat...  117     1e-36
+  UniRef90_A0A2K6SIZ2 Sodium voltage-gated channel beta subunit 1...  119     1e-36
+  UniRef90_F6YMP0 Uncharacterized protein n=3 Tax=Euarchontoglire...  115     2e-35
+  UniRef90_A0A2K5YZB5 Sodium voltage-gated channel beta subunit 1...  100     3e-29
+  UniRef90_A0A2I3HWG7 Uncharacterized protein n=2 Tax=Nomascus le...  98.6    6e-29
+  UniRef90_A0A2K6L4L0 Sodium voltage-gated channel beta subunit 3...  97.4    2e-28
+  UniRef90_A0A1U7UGJ4 sodium channel subunit beta-3 isoform X3 n=...  95.9    5e-28
+  UniRef90_L5JR61 Sodium channel subunit beta-3 n=1 Tax=Pteropus ...  95.5    7e-27
+  UniRef90_A0A2U3YS30 sodium channel subunit beta-3 n=1 Tax=Lepto...  90.9    2e-26
+  UniRef90_L5LGU9 Sodium channel subunit beta-3 n=1 Tax=Myotis da...  91.7    2e-25
+  UniRef90_A0A1U7URK4 sodium channel subunit beta-3 isoform X2 n=...  89.7    2e-25
+  UniRef90_A0A2F0B394 Sodium channel subunit beta-3 (Fragment) n=...  75.1    1e-20
+  UniRef90_G1RJA2 Uncharacterized protein n=1 Tax=Nomascus leucog...  71.2    3e-18
+  UniRef90_B4DI92 Sodium channel subunit beta-1 n=4 Tax=Eutheria ...  61.2    5e-15
+  UniRef90_A0A2U3Z3S6 sodium channel subunit beta-3-like n=1 Tax=...  54.7    5e-13
+  UniRef90_M0QT24 Sodium channel subunit beta-3 n=1 Tax=Tupaia ch...  55.8    6e-13
+  UniRef90_L5K232 Serine protease hepsin n=1 Tax=Pteropus alecto ...  57.4    8e-13
+  UniRef90_Q3V3F6 Myelin protein zero-like protein 3 n=10 Tax=Mur...  52.4    2e-11
+  UniRef90_D2HYH7 Uncharacterized protein (Fragment) n=3 Tax=Ailu...  49.3    2e-10
+  UniRef90_G1M3I8 Myelin protein zero like 3 n=14 Tax=Caniformia ...  48.1    7e-10
+  UniRef90_A5D7C3 Myelin protein zero-like protein 3 n=14 Tax=Pec...  48.1    7e-10
+
+
+> UniRef90_M0QSP6 Sodium channel subunit beta-1 (Fragment) n=2 
+Tax=Cetartiodactyla TaxID=91561 RepID=M0QSP6_9CETA
+Length=202
+
+ Score = 169 bits (427),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 88/167 (53%), Positives = 108/167 (65%), Gaps = 1/167 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++ 
+Sbjct  6    GGCVEVDSETEAVYGMTFKILCISCKRRSETNAETFTEWTFRQKGTEEFVKILRYENEVL  65
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F+ YE  T++
+Sbjct  66   QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFDNYEHNTSV  125
+
+Query  142  NKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+             K I L VV KA R  ASI+SE+MMYV I+ L +WL+ EMVYCY+KI
+Sbjct  126  VKKIHLEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMVYCYKKI  172
+
+
+> UniRef90_W5P3K3 Sodium voltage-gated channel beta subunit 1 n=6 
+Tax=Laurasiatheria TaxID=314145 RepID=W5P3K3_SHEEP
+Length=237
+
+ Score = 169 bits (428),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 88/167 (53%), Positives = 107/167 (64%), Gaps = 1/167 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++ 
+Sbjct  38   GGCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVL  97
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++
+Sbjct  98   QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSV  157
+
+Query  142  NKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+             K I L VV KA R  ASI+SE+MMYV I+ L +WL+ EMVYCY+KI
+Sbjct  158  VKKIHLEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMVYCYKKI  204
+
+
+> UniRef90_F1PJY6 Sodium channel subunit beta-1 n=15 Tax=Boreoeutheria 
+TaxID=1437010 RepID=F1PJY6_CANLF
+Length=237
+
+ Score = 169 bits (427),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 87/167 (52%), Positives = 107/167 (64%), Gaps = 1/167 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++ 
+Sbjct  38   GGCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVL  97
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++
+Sbjct  98   QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSV  157
+
+Query  142  NKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+             K I + VV KA R  ASI+SE+MMYV I+ L +WL+ EMVYCY+KI
+Sbjct  158  VKKIHIEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMVYCYKKI  204
+
+
+> UniRef90_Q07699 Sodium channel subunit beta-1 n=75 Tax=Eutheria 
+TaxID=9347 RepID=SCN1B_HUMAN
+Length=218
+
+ Score = 167 bits (424),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 86/167 (51%), Positives = 107/167 (64%), Gaps = 1/167 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++ 
+Sbjct  19   GGCVEVDSETEAVYGMTFKILCISCKRRSETNAETFTEWTFRQKGTEEFVKILRYENEVL  78
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++
+Sbjct  79   QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSV  138
+
+Query  142  NKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+             K I + VV KA R  ASI+SE+MMYV I+ L +WL+ EM+YCY+KI
+Sbjct  139  VKKIHIEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMIYCYKKI  185
+
+
+> UniRef90_L8Y2T7 GRAM domain-containing protein 1A n=1 Tax=Tupaia 
+chinensis TaxID=246437 RepID=L8Y2T7_TUPCH
+Length=1411
+
+ Score = 169 bits (429),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 88/169 (52%), Positives = 109/169 (64%), Gaps = 1/169 (1%)
+
+Query  21   SNGACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-D  79
+            ++G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  +
+Sbjct  806  ASGGCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENE  865
+
+Query  80   MTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRT  139
+            +  +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T
+Sbjct  866  VLQLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNT  925
+
+Query  140  NINKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+            ++ K I L VV KA R  ASI+SE+MMYV I+ L +WL+ EMVYCY+KI
+Sbjct  926  SVVKKIHLEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMVYCYKKI  974
+
+
+ Score = 18.1 bits (35),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 14/21 (67%), Gaps = 1/21 (5%)
+
+Query  113  NVTLND-TGTYRCYFDRTLTF  132
+            +VTL+  +G  +C+  R LT+
+Sbjct  492  DVTLSPWSGDSKCHQRRVLTY  512
+
+
+> UniRef90_S7P5D0 Serine protease hepsin n=1 Tax=Myotis brandtii 
+TaxID=109478 RepID=S7P5D0_MYOBR
+Length=606
+
+ Score = 165 bits (417),  Expect = 7e-51, Method: Compositional matrix adjust.
+ Identities = 87/166 (52%), Positives = 105/166 (63%), Gaps = 1/166 (1%)
+
+Query  24   ACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMTG  82
+             CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++  
+Sbjct  15   GCVEVDSETEAVYGETFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVLQ  74
+
+Query  83   MVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNIN  142
+            +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T + 
+Sbjct  75   LEEDERFEGRVVWNGSRGTRDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTTVV  134
+
+Query  143  KTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+            K I L VV KA R  ASI+SE+MMYV I+ L +WL+ EMVYCY+KI
+Sbjct  135  KKIHLEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMVYCYKKI  180
+
+
+> UniRef90_G3U3M7 Sodium voltage-gated channel beta subunit 1 n=10 
+Tax=Eutheria TaxID=9347 RepID=G3U3M7_LOXAF
+Length=205
+
+ Score = 155 bits (391),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 86/168 (51%), Positives = 105/168 (63%), Gaps = 5/168 (3%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHI---YSYID  79
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  +   Y   +
+Sbjct  6    GGCVEVDSETEAVYGMTFKILCISCKRRSETNAETFTEWTFRQKGTEEFVKVDLRYEN-E  64
+
+Query  80   MTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRT  139
+            +  +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T
+Sbjct  65   VLQLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNT  124
+
+Query  140  NINKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRK  187
+            ++ K I L VV KA R  ASI+SE+MMYV I+ L LW L EMVYCY++
+Sbjct  125  SVVKKIHLEVVDKANRDMASIVSEIMMYVLIVVLTLW-LAEMVYCYKE  171
+
+
+> UniRef90_S9Y1X1 Uncharacterized protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9Y1X1_CAMFR
+Length=1413
+
+ Score = 167 bits (422),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 86/167 (51%), Positives = 107/167 (64%), Gaps = 1/167 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  +F  I  Y  ++ 
+Sbjct  778  GGCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEDFVKILRYENEVL  837
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++
+Sbjct  838  QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSV  897
+
+Query  142  NKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+             K I L VV KA R  ASI+SE+MMYV I+ L +WL+ EM+YCY+KI
+Sbjct  898  VKKIHLEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMIYCYKKI  944
+
+
+ Score = 18.5 bits (36),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 14/21 (67%), Gaps = 1/21 (5%)
+
+Query  113  NVTLND-TGTYRCYFDRTLTF  132
+            +VTL+  +G  +C+  R LT+
+Sbjct  477  DVTLSPWSGDSKCHQRRVLTY  497
+
+
+> UniRef90_A0A2K5V2A2 Sodium voltage-gated channel beta subunit 
+1 n=10 Tax=Cercopithecidae TaxID=9527 RepID=A0A2K5V2A2_MACFA
+Length=185
+
+ Score = 145 bits (365),  Expect = 6e-47, Method: Compositional matrix adjust.
+ Identities = 75/150 (50%), Positives = 94/150 (63%), Gaps = 1/150 (1%)
+
+Query  40   FKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMTGMVNDERFLDRLNWMGS  98
+            FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++  +  DERF  R+ W GS
+Sbjct  3    FKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVLQLEEDERFEGRVVWNGS  62
+
+Query  99   KNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKTITLNVVPKATRGTA  158
+            + T DLQD SI+I NVT N +G Y C+  R L F  YE  T++ K I + VV KA R  A
+Sbjct  63   RGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSVVKKIHIEVVDKANRDMA  122
+
+Query  159  SILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+            SI+SE+MMYV I+ L +WL+ EMVYCY+KI
+Sbjct  123  SIVSEIMMYVLIVVLTIWLVAEMVYCYKKI  152
+
+
+> UniRef90_G1Q8T1 Uncharacterized protein n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=G1Q8T1_MYOLU
+Length=206
+
+ Score = 137 bits (346),  Expect = 6e-44, Method: Compositional matrix adjust.
+ Identities = 79/168 (47%), Positives = 97/168 (58%), Gaps = 2/168 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQA-SATVDWWFMAKGESEFSHIYSYI-DM  80
+              CVEVDS+TEAV    FK+   S              +W F  KG  EF  I  Y  ++
+Sbjct  6    AGCVEVDSETEAVYEETFKISGASLASAAAKSPLRPFTEWTFRQKGTEEFVKILRYENEV  65
+
+Query  81   TGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTN  140
+              +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T 
+Sbjct  66   LQLEEDERFEGRVVWNGSRGTRDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTT  125
+
+Query  141  INKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+            + K I L VV KA R  ASI+SE+MMYV I+ L +WL+ EMVYCY+KI
+Sbjct  126  VVKKIHLEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMVYCYKKI  173
+
+
+> UniRef90_M3Y3E8 Sodium voltage-gated channel beta subunit 3 n=3 
+Tax=Caniformia TaxID=379584 RepID=M3Y3E8_MUSPF
+Length=253
+
+ Score = 135 bits (341),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 86/200 (43%), Positives = 117/200 (59%), Gaps = 15/200 (8%)
+
+Query  2    SAVQLLWMPVVLCVMQGRLSNGACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDW  61
+            S V + W+ V   V         CVEV S+TEAV G+  KL CISC  R EV+A+  V+W
+Sbjct  50   SLVLIFWVSVCFPV---------CVEVPSETEAVQGNPMKLRCISCMKREEVEATTVVEW  100
+
+Query  62   WFMAKGESEFSHIYSYIDMTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGT  121
+            ++  +G  +F  IY Y +    V +  F  RL W GSK   DLQD SI +LNVTLND+G 
+Sbjct  101  FYRPEGGKDF-LIYEYRNGQQEV-ESPFQGRLQWNGSK---DLQDVSITVLNVTLNDSGL  155
+
+Query  122  YRCYFDRTLTFNYYEFRTNINKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEM  181
+            Y C   R   F  +       + I L V  +A     S++SE+MMY+ ++ L LWLL+EM
+Sbjct  156  YTCNVSREFAFEAHRPFVKTTRLIPLRVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEM  215
+
+Query  182  VYCYRKIAAAGEEALRESAA  201
+            +YCYRK++ A EEA +E+A+
+Sbjct  216  IYCYRKVSKA-EEAAQENAS  234
+
+
+> UniRef90_Q9NY72 Sodium channel subunit beta-3 n=98 Tax=Theria 
+TaxID=722675 RepID=SCN3B_HUMAN
+Length=215
+
+ Score = 134 bits (337),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 81/177 (46%), Positives = 110/177 (62%), Gaps = 6/177 (3%)
+
+Query  25   CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMV  84
+            CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +F  IY Y +    V
+Sbjct  26   CVEVPSETEAVQGNPMKLRCISCMKREEVEATTVVEWFYRPEGGKDF-LIYEYRNGHQEV  84
+
+Query  85   NDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKT  144
+             +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F  +       + 
+Sbjct  85   -ESPFQGRLQWNGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEFEAHRPFVKTTRL  140
+
+Query  145  ITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAGEEALRESAA  201
+            I L V  +A     S++SE+MMY+ ++ L LWLL+EM+YCYRK++ A EEA +E+A+
+Sbjct  141  IPLRVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEMIYCYRKVSKA-EEAAQENAS  196
+
+
+> UniRef90_G3W8Q1 Sodium voltage-gated channel beta subunit 3 n=3 
+Tax=Theria TaxID=722675 RepID=G3W8Q1_SARHA
+Length=215
+
+ Score = 132 bits (331),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 80/177 (45%), Positives = 109/177 (62%), Gaps = 6/177 (3%)
+
+Query  25   CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMV  84
+            CVEV S+TEAV G   KL CISC  R EV AS  V+W++  +G  +F  IY + +    V
+Sbjct  26   CVEVPSETEAVQGKHMKLRCISCMKREEVTASTVVEWFYRPEGGKDF-LIYEFRNGNREV  84
+
+Query  85   NDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKT  144
+             +  F  RL W GSK   DLQD S+ +LNVTLND+G Y C   R   F+ +       + 
+Sbjct  85   -ESPFQGRLQWNGSK---DLQDVSLTVLNVTLNDSGIYTCNVSREFEFDSHRPFVKTTRL  140
+
+Query  145  ITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAGEEALRESAA  201
+            I L V  +A     S++SE+MMY+ ++ L LWLL+EM+YCYRK++ A EEA +E+A+
+Sbjct  141  IPLKVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEMIYCYRKVSKA-EEAAQENAS  196
+
+
+> UniRef90_F6PQ19 Sodium voltage-gated channel beta subunit 3 n=1 
+Tax=Ornithorhynchus anatinus TaxID=9258 RepID=F6PQ19_ORNAN
+Length=215
+
+ Score = 131 bits (330),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 82/182 (45%), Positives = 109/182 (60%), Gaps = 6/182 (3%)
+
+Query  20   LSNGACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYID  79
+            + +  CVEV S+TEAV G   KL CISC  R EV A+  V+W++   G  +F  IY Y +
+Sbjct  21   IGSPVCVEVPSETEAVQGTHMKLLCISCMKREEVMATTVVEWFYRPDGGKDFL-IYEYRN  79
+
+Query  80   MTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRT  139
+                V +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F  +    
+Sbjct  80   GHQEV-ESPFQSRLQWNGSK---DLQDVSITVLNVTLNDSGVYTCNVSREFEFEEHRPFV  135
+
+Query  140  NINKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAGEEALRES  199
+               + I L V  +A     S++SE+MMY+ ++ L LWLL+EMVYCYRK++ A EEA +E+
+Sbjct  136  KTTRLIHLRVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEMVYCYRKVSKA-EEAAQET  194
+
+Query  200  AA  201
+            A+
+Sbjct  195  AS  196
+
+
+> UniRef90_S7MPJ2 Cob(I)yrinic acid a,c-diamide adenosyltransferase, 
+mitochondrial n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7MPJ2_MYOBR
+Length=422
+
+ Score = 135 bits (341),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 82/176 (47%), Positives = 108/176 (61%), Gaps = 6/176 (3%)
+
+Query  25   CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMV  84
+            CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +F  IY Y +    V
+Sbjct  253  CVEVPSETEAVQGNAMKLRCISCMKREEVEATTVVEWFYRPEGGKDF-LIYEYRNGHQEV  311
+
+Query  85   NDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKT  144
+                F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F  +       + 
+Sbjct  312  ESP-FQGRLQWDGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEFEAHRPFVKTTRL  367
+
+Query  145  ITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAGEEALRESA  200
+            I L V  +A     S++SE+MMY+ ++ L LWLL+EM+YCYRK++ A EEA +ESA
+Sbjct  368  IPLRVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEMIYCYRKVSKA-EEAAQESA  422
+
+
+> UniRef90_F6X5N0 Uncharacterized protein n=1 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6X5N0_MONDO
+Length=225
+
+ Score = 124 bits (311),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 77/191 (40%), Positives = 105/191 (55%), Gaps = 14/191 (7%)
+
+Query  6    LLWMPVVLCVMQGRLSNGACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMA  65
+            LLW+ +V  V       G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  
+Sbjct  8    LLWIALVSSVW------GGCVEVDSETEAVYGMTFKILCISCKRRSETVAETFTEWTFRQ  61
+
+Query  66   KGESEFSHIYSYI-DMTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYR-  123
+            KG  EF  I  Y  +M  +  DE F  R+ W GS+ + DL      I N    D G +  
+Sbjct  62   KGTEEFVKILRYENEMLQLEEDEPFEGRVVWNGSRGSKDLHRLGHLITNTCFADDGLFLY  121
+
+Query  124  --CYFDRTLT--FNYYEFRTNINKTI--TLNVVPKATRGTASILSEVMMYVSIIGLQLWL  177
+              C + +  +   + +   T++  ++  TL ++P A R  ASI+SE+MMYV I+ L +WL
+Sbjct  122  CCCIYFQCFSPPSHQHSLLTSLLPSVPLTLPLLPAANRDMASIVSEIMMYVLIVVLTIWL  181
+
+Query  178  LVEMVYCYRKI  188
+            + EMVYCY+KI
+Sbjct  182  VAEMVYCYKKI  192
+
+
+> UniRef90_A0A2J8X085 SCN3B isoform 6 n=7 Tax=Hominidae TaxID=9604 
+RepID=A0A2J8X085_PONAB
+Length=237
+
+ Score = 124 bits (310),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 82/199 (41%), Positives = 111/199 (56%), Gaps = 28/199 (14%)
+
+Query  25   CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMV  84
+            CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +F  IY Y +    V
+Sbjct  26   CVEVPSETEAVQGNPMKLRCISCMKREEVEATTVVEWFYRPEGGKDF-LIYEYRNGHQEV  84
+
+Query  85   NDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKT  144
+             +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F  +       + 
+Sbjct  85   -ESPFQGRLQWNGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEFEAHRPFVKTTRL  140
+
+Query  145  ITLNVVPKATR----------------------GTASILSEVMMYVSIIGLQLWLLVEMV  182
+            I L V  +A R                         S++SE+MMY+ ++ L LWLL+EM+
+Sbjct  141  IPLRVTEEALRVNEQRRKRHNGSDDMTKMEAGEDFTSVVSEIMMYILLVFLTLWLLIEMI  200
+
+Query  183  YCYRKIAAAGEEALRESAA  201
+            YCYRK++ A EEA +E+A+
+Sbjct  201  YCYRKVSKA-EEAAQENAS  218
+
+
+> UniRef90_A0A1D5R912 Uncharacterized protein n=1 Tax=Macaca mulatta 
+TaxID=9544 RepID=A0A1D5R912_MACMU
+Length=246
+
+ Score = 124 bits (311),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 67/137 (49%), Positives = 81/137 (59%), Gaps = 1/137 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++ 
+Sbjct  19   GGCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVL  78
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++
+Sbjct  79   QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSV  138
+
+Query  142  NKTITLNVVPKATRGTA  158
+             K I + VV K   GTA
+Sbjct  139  VKKIHIEVVDKGELGTA  155
+
+
+> UniRef90_A0A2K6RI19 Sodium voltage-gated channel beta subunit 
+1 n=1 Tax=Rhinopithecus roxellana TaxID=61622 RepID=A0A2K6RI19_RHIRO
+Length=245
+
+ Score = 124 bits (310),  Expect = 5e-38, Method: Compositional matrix adjust.
+ Identities = 73/187 (39%), Positives = 96/187 (51%), Gaps = 5/187 (3%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++ 
+Sbjct  15   GGCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVL  74
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++
+Sbjct  75   QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSV  134
+
+Query  142  NKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLV-EMVYCYRKIAAAGEEALRESA  200
+             K I + VV K   G A   ++        G   WL     +   ++    GE+ L  + 
+Sbjct  135  VKKIHIEVVDKGESGAACPFADRWQVADRTG---WLCAWPAIRPQQRAGGRGEQPLPPTP  191
+
+Query  201  AKPPLKL  207
+                ++L
+Sbjct  192  VLASMRL  198
+
+
+> UniRef90_A0A2I3TLR8 SCN1B isoform 3 n=14 Tax=Catarrhini TaxID=9526 
+RepID=A0A2I3TLR8_PANTR
+Length=268
+
+ Score = 123 bits (308),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 66/137 (48%), Positives = 80/137 (58%), Gaps = 1/137 (1%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMT  81
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++ 
+Sbjct  19   GGCVEVDSETEAVYGMTFKILCISCKRRSETNAETFTEWTFRQKGTEEFVKILRYENEVL  78
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNI  141
+             +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++
+Sbjct  79   QLEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSV  138
+
+Query  142  NKTITLNVVPKATRGTA  158
+             K I + VV K   G A
+Sbjct  139  VKKIHIEVVDKGESGAA  155
+
+
+> UniRef90_L5K5K4 Sodium channel subunit beta-1 n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=L5K5K4_PTEAL
+Length=146
+
+ Score = 117 bits (293),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 64/131 (49%), Positives = 77/131 (59%), Gaps = 1/131 (1%)
+
+Query  24   ACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMTG  82
+             CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++  
+Sbjct  15   GCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVLQ  74
+
+Query  83   MVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNIN  142
+            +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++ 
+Sbjct  75   LEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSVV  134
+
+Query  143  KTITLNVVPKA  153
+            K I L VV K 
+Sbjct  135  KKIHLEVVDKG  145
+
+
+> UniRef90_A0A2K6SIZ2 Sodium voltage-gated channel beta subunit 
+1 n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=A0A2K6SIZ2_SAIBB
+Length=221
+
+ Score = 119 bits (299),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 71/164 (43%), Positives = 88/164 (54%), Gaps = 12/164 (7%)
+
+Query  24   ACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMTG  82
+             CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++  
+Sbjct  1    GCVEVDSETEAVYGMTFKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVLQ  60
+
+Query  83   MVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNIN  142
+            +  DERF  R+ W GS+ T DLQD SI+I NVT N +G Y C+  R L F  YE  T++ 
+Sbjct  61   LEEDERFEGRVVWNGSRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSVV  120
+
+Query  143  KTITLNVVPKATRGTASILSEVMMYVSIIG--------LQLWLL  178
+            K I + VV K   G + +L        + G        LQLW L
+Sbjct  121  KKIHIEVVDK---GESFVLPPTTHSSGLEGEGRSPCRPLQLWPL  161
+
+
+> UniRef90_F6YMP0 Uncharacterized protein n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=F6YMP0_MACMU
+Length=175
+
+ Score = 115 bits (287),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 71/161 (44%), Positives = 98/161 (61%), Gaps = 6/161 (4%)
+
+Query  41   KLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMVNDERFLDRLNWMGSKN  100
+            KL CISC  R EV+A+  V+W++  +G  +F  IY Y +    V +  F  RL W GSK 
+Sbjct  2    KLRCISCMKREEVEATTVVEWFYRPEGGKDF-LIYEYRNGHQEV-ESPFQGRLQWNGSK-  58
+
+Query  101  TFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKTITLNVVPKATRGTASI  160
+              DLQD SI +LNVTLND+G Y C   R   F  +       + I L V  +A     S+
+Sbjct  59   --DLQDVSITVLNVTLNDSGLYTCNVSREFEFEAHRPFVKTTRLIPLRVTEEAGEDFTSV  116
+
+Query  161  LSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAGEEALRESAA  201
+            +SE+MMY+ ++ L LWLL+EM+YCYRK++ A EEA +E+A+
+Sbjct  117  VSEIMMYILLVFLTLWLLIEMIYCYRKVSKA-EEAAQENAS  156
+
+
+> UniRef90_A0A2K5YZB5 Sodium voltage-gated channel beta subunit 
+1 n=2 Tax=Cercopithecinae TaxID=9528 RepID=A0A2K5YZB5_MANLE
+Length=208
+
+ Score = 100 bits (248),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 54/124 (44%), Positives = 69/124 (56%), Gaps = 1/124 (1%)
+
+Query  40   FKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYI-DMTGMVNDERFLDRLNWMGS  98
+            FK+ CISCK R E  A    +W F  KG  EF  I  Y  ++  +  DERF  R+ W GS
+Sbjct  3    FKILCISCKRRSETTAETFTEWTFRQKGTEEFVKILRYENEVLQLEEDERFEGRVVWNGS  62
+
+Query  99   KNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKTITLNVVPKATRGTA  158
+            + T DLQD SI+I NVT N +G Y C+  R L F  YE  T++ K I + VV K   G A
+Sbjct  63   RGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSVVKKIHIEVVDKGELGAA  122
+
+Query  159  SILS  162
+             + +
+Sbjct  123  CLFA  126
+
+
+> UniRef90_A0A2I3HWG7 Uncharacterized protein n=2 Tax=Nomascus 
+leucogenys TaxID=61853 RepID=A0A2I3HWG7_NOMLE
+Length=176
+
+ Score = 98.6 bits (244),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 62/149 (42%), Positives = 78/149 (52%), Gaps = 13/149 (9%)
+
+Query  23   GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTG  82
+            G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF      + + G
+Sbjct  15   GGCVEVDSETEAVYGMTFKILCISCKRRSETNAETFTEWTFRQKGTEEF------VKVCG  68
+
+Query  83   MVNDE-----RFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEF  137
+                E       +        + T DLQD SI+I NVT N +G Y C+  R L F  YE 
+Sbjct  69   CRAREWEGRGPRVGGGGAGRGRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEH  128
+
+Query  138  RTNINKTITLNVVPKATRGTASILSEVMM  166
+             T++ K I + VV K     ASI+SE+M+
+Sbjct  129  NTSVVKKIHIEVVDKGEH--ASIVSEIMI  155
+
+
+> UniRef90_A0A2K6L4L0 Sodium voltage-gated channel beta subunit 
+3 n=3 Tax=Rhinopithecus bieti TaxID=61621 RepID=A0A2K6L4L0_RHIBE
+Length=185
+
+ Score = 97.4 bits (241),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 56/125 (45%), Positives = 71/125 (57%), Gaps = 5/125 (4%)
+
+Query  25   CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMV  84
+            CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +F  IY Y +    V
+Sbjct  26   CVEVPSETEAVQGNPMKLRCISCMKREEVEATTVVEWFYRPEGGKDF-LIYEYRNGHQEV  84
+
+Query  85   NDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKT  144
+             +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F  +       + 
+Sbjct  85   -ESPFRGRLQWDGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEFEAHRPFVKTTRL  140
+
+Query  145  ITLNV  149
+            I L V
+Sbjct  141  IPLRV  145
+
+
+> UniRef90_A0A1U7UGJ4 sodium channel subunit beta-3 isoform X3 
+n=2 Tax=Boreoeutheria TaxID=1437010 RepID=A0A1U7UGJ4_TARSY
+Length=174
+
+ Score = 95.9 bits (237),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 56/126 (44%), Positives = 71/126 (56%), Gaps = 5/126 (4%)
+
+Query  24   ACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGM  83
+             CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +F  IY Y +    
+Sbjct  25   VCVEVPSETEAVQGNPMKLRCISCMKREEVEATTVVEWFYRPEGGKDFL-IYEYRNGHQE  83
+
+Query  84   VNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINK  143
+            V +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F  +       +
+Sbjct  84   V-ESPFQGRLQWNGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEFEAHRPFVKTTR  139
+
+Query  144  TITLNV  149
+             I L V
+Sbjct  140  LIPLRV  145
+
+
+> UniRef90_L5JR61 Sodium channel subunit beta-3 n=1 Tax=Pteropus 
+alecto TaxID=9402 RepID=L5JR61_PTEAL
+Length=281
+
+ Score = 95.5 bits (236),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 55/125 (44%), Positives = 70/125 (56%), Gaps = 5/125 (4%)
+
+Query  25   CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMV  84
+            CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +   IY Y +    V
+Sbjct  26   CVEVPSETEAVQGNPMKLRCISCMKREEVEATTVVEWFYRPEGGKDLL-IYEYRNGHQEV  84
+
+Query  85   NDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKT  144
+             +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F  +       + 
+Sbjct  85   -ESPFQGRLQWNGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEFEAHRPFVKTTRL  140
+
+Query  145  ITLNV  149
+            I L V
+Sbjct  141  IPLRV  145
+
+
+> UniRef90_A0A2U3YS30 sodium channel subunit beta-3 n=1 Tax=Leptonychotes 
+weddellii TaxID=9713 RepID=A0A2U3YS30_LEPWE
+Length=143
+
+ Score = 90.9 bits (224),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 58/130 (45%), Positives = 77/130 (59%), Gaps = 5/130 (4%)
+
+Query  71   FSHIYSYIDMTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTL  130
+            F  IY Y +    V +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R  
+Sbjct  19   FETIYEYRNGQQEV-ESPFQGRLQWNGSK---DLQDVSITVLNVTLNDSGLYTCNVSREF  74
+
+Query  131  TFNYYEFRTNINKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKIAA  190
+             F  +       + I L V  +A     S++SE+MMY+ ++ L LWLL+EM+YCYRK++ 
+Sbjct  75   AFEAHRPFVKTTRLIPLRVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEMIYCYRKVSK  134
+
+Query  191  AGEEALRESA  200
+            A EEA +E+A
+Sbjct  135  A-EEAAQENA  143
+
+
+> UniRef90_L5LGU9 Sodium channel subunit beta-3 n=1 Tax=Myotis 
+davidii TaxID=225400 RepID=L5LGU9_MYODS
+Length=283
+
+ Score = 91.7 bits (226),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 58/128 (45%), Positives = 75/128 (59%), Gaps = 5/128 (4%)
+
+Query  73   HIYSYIDMTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTF  132
+             IY Y +    V    F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F
+Sbjct  161  EIYEYRNGHQEVESP-FQGRLQWDGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEF  216
+
+Query  133  NYYEFRTNINKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAG  192
+              +       + I L V  +A     S++SE+MMY+ ++ L LWLL+EM+YCYRK++ A 
+Sbjct  217  EAHRPFVKTTRLIPLRVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEMIYCYRKVSKA-  275
+
+Query  193  EEALRESA  200
+            EEA +ESA
+Sbjct  276  EEAAQESA  283
+
+
+ Score = 59.3 bits (142),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 36/107 (34%), Positives = 51/107 (48%), Gaps = 13/107 (12%)
+
+Query  22   NGACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMT  81
+            +  CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +F  +      T
+Sbjct  39   SPVCVEVPSETEAVQGNAMKLRCISCMRREEVEATTVVEWFYRPEGGKDFLQL-----RT  93
+
+Query  82   GMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDR  128
+              + D  FL        ++   L+D       V L      RC  DR
+Sbjct  94   PFLRDPVFL--------RDPVFLRDPVFLRDPVFLRAASPQRCDGDR  132
+
+
+> UniRef90_A0A1U7URK4 sodium channel subunit beta-3 isoform X2 
+n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7URK4_TARSY
+Length=199
+
+ Score = 89.7 bits (221),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 57/128 (45%), Positives = 77/128 (60%), Gaps = 5/128 (4%)
+
+Query  74   IYSYIDMTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFN  133
+            IY Y +    V +  F  RL W GSK   DLQD SI +LNVTLND+G Y C   R   F 
+Sbjct  58   IYEYRNGHQEV-ESPFQGRLQWNGSK---DLQDVSITVLNVTLNDSGLYTCNVSREFEFE  113
+
+Query  134  YYEFRTNINKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAGE  193
+             +       + I L V  +A     S++SE+MMY+ ++ L LWLL+EM+YCYRK++ A E
+Sbjct  114  AHRPFVKTTRLIPLRVTEEAGEDFTSVVSEIMMYILLVFLTLWLLIEMIYCYRKVSKA-E  172
+
+Query  194  EALRESAA  201
+            EA +E+A+
+Sbjct  173  EAAQENAS  180
+
+
+> UniRef90_A0A2F0B394 Sodium channel subunit beta-3 (Fragment) 
+n=1 Tax=Eschrichtius robustus TaxID=9764 RepID=A0A2F0B394_ESCRO
+Length=117
+
+ Score = 75.1 bits (183),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 45/110 (41%), Positives = 59/110 (54%), Gaps = 5/110 (5%)
+
+Query  41   KLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMVNDERFLDRLNWMGSKN  100
+            KL CISC  R +V+A+  V+W++  +G  +F  IY Y +    V +  F  RL W GSK 
+Sbjct  2    KLRCISCMKREDVEATTVVEWFYRPEGGKDFL-IYEYRNGHQEV-ESPFQGRLQWNGSK-  58
+
+Query  101  TFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKTITLNVV  150
+              DLQD SI +LNVTLND+G Y C   R   F  +       + I L V 
+Sbjct  59   --DLQDVSITVLNVTLNDSGLYTCNVSREFEFETHRPFVKTTRLIPLRVT  106
+
+
+> UniRef90_G1RJA2 Uncharacterized protein n=1 Tax=Nomascus leucogenys 
+TaxID=61853 RepID=G1RJA2_NOMLE
+Length=221
+
+ Score = 71.2 bits (173),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 46/124 (37%), Positives = 58/124 (47%), Gaps = 11/124 (9%)
+
+Query  40   FKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMVNDE-----RFLDRLN  94
+            FK+ CISCK R E  A    +W F  KG  EF      + + G    E       +    
+Sbjct  3    FKILCISCKRRSETNAETFTEWTFRQKGTEEF------VKVCGCRAREWEGRGPRVGGGG  56
+
+Query  95   WMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKTITLNVVPKAT  154
+                + T DLQD SI+I NVT N +G Y C+  R L F  YE  T++ K I + VV K  
+Sbjct  57   AGRGRGTKDLQDLSIFITNVTYNHSGDYECHVYRLLFFENYEHNTSVVKKIHIEVVDKGE  116
+
+Query  155  RGTA  158
+             G A
+Sbjct  117  SGAA  120
+
+
+> UniRef90_B4DI92 Sodium channel subunit beta-1 n=4 Tax=Eutheria 
+TaxID=9347 RepID=B4DI92_HUMAN
+Length=147
+
+ Score = 61.2 bits (147),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 40/62 (65%), Gaps = 4/62 (6%)
+
+Query  131  TFNYYEFRTN----INKTITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYR  186
+            TF  + FR        K I + VV KA R  ASI+SE+MMYV I+ L +WL+ EM+YCY+
+Sbjct  53   TFTEWTFRQKGTEEFVKKIHIEVVDKANRDMASIVSEIMMYVLIVVLTIWLVAEMIYCYK  112
+
+Query  187  KI  188
+            KI
+Sbjct  113  KI  114
+
+
+ Score = 60.5 bits (145),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 28/49 (57%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  23  GACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEF  71
+           G CVEVDS+TEAV G  FK+ CISCK R E  A    +W F  KG  EF
+Sbjct  19  GGCVEVDSETEAVYGMTFKILCISCKRRSETNAETFTEWTFRQKGTEEF  67
+
+
+> UniRef90_A0A2U3Z3S6 sodium channel subunit beta-3-like n=1 Tax=Leptonychotes 
+weddellii TaxID=9713 RepID=A0A2U3Z3S6_LEPWE
+Length=113
+
+ Score = 54.7 bits (130),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 24/47 (51%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  25  CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEF  71
+           CVEV S+TEAV G+  KL CISC  R EV+A+  V+W++  +G  +F
+Sbjct  26  CVEVPSETEAVQGNPMKLRCISCMKREEVEATTVVEWFYRPEGGKDF  72
+
+
+> UniRef90_M0QT24 Sodium channel subunit beta-3 n=1 Tax=Tupaia 
+chinensis TaxID=246437 RepID=M0QT24_TUPCH
+Length=160
+
+ Score = 55.8 bits (133),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 28/57 (49%), Positives = 37/57 (65%), Gaps = 1/57 (2%)
+
+Query  25   CVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESE-FSHIYSYIDM  80
+            CVEV S+TEAV G   KL CISC  R EV+A+  V+W++  +G  E F+ + S I M
+Sbjct  51   CVEVPSETEAVQGSPMKLRCISCMKREEVEATTVVEWFYRPEGAGEDFTSVVSEIMM  107
+
+
+ Score = 43.5 bits (101),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 37/43 (86%), Gaps = 1/43 (2%)
+
+Query  159  SILSEVMMYVSIIGLQLWLLVEMVYCYRKIAAAGEEALRESAA  201
+            S++SE+MMY+ ++ L LWLL+EMVYCYRK++ A EEA +ESA+
+Sbjct  100  SVVSEIMMYILLVFLTLWLLIEMVYCYRKVSKA-EEAAQESAS  141
+
+
+> UniRef90_L5K232 Serine protease hepsin n=1 Tax=Pteropus alecto 
+TaxID=9402 RepID=L5K232_PTEAL
+Length=683
+
+ Score = 57.4 bits (137),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 29/55 (53%), Positives = 39/55 (71%), Gaps = 1/55 (2%)
+
+Query  135  YEFRTNINK-TITLNVVPKATRGTASILSEVMMYVSIIGLQLWLLVEMVYCYRKI  188
+            ++FR N  K T    V+ KA R  ASI+SE+MMYV I+ L +WL+ EM+YCY+KI
+Sbjct  19   FKFRLNERKLTEQEPVLRKANRDMASIVSEIMMYVLIVVLTIWLVAEMIYCYKKI  73
+
+
+> UniRef90_Q3V3F6 Myelin protein zero-like protein 3 n=10 Tax=Muroidea 
+TaxID=337687 RepID=MPZL3_MOUSE
+Length=237
+
+ Score = 52.4 bits (124),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 46/175 (26%), Positives = 69/175 (39%), Gaps = 18/175 (10%)
+
+Query  12   VLCVMQGRLSNGACVEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEF  71
+            +L V   R+     +  D+     VG   KL C + K   +V    T+DW +     S  
+Sbjct  21   ILVVQGARIVLSLEISADAHVRGYVGEKIKLKC-TFKSSSDVTDKLTIDWTYRPPSSSRT  79
+
+Query  72   SHIYSYIDMTGMVNDERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLT  131
+              I+ Y           F DR++W G  N +   D SI I N TL D GT+ C       
+Sbjct  80   ESIFHYQSFQYPTTAGTFRDRISWAG--NVYK-GDASISISNPTLKDNGTFSCAVKNP--  134
+
+Query  132  FNYYEFRTNINKTITLNVVPKATRGTASILSEV-----MMYVSIIGLQLWLLVEM  181
+                    ++   I L  +    RG  ++LS V     +++V    + + LLV M
+Sbjct  135  -------PDVYHNIPLTELTVTERGFGTMLSSVALLSILVFVPSAVVVILLLVRM  182
+
+
+> UniRef90_D2HYH7 Uncharacterized protein (Fragment) n=3 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2HYH7_AILME
+Length=182
+
+ Score = 49.3 bits (116),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/99 (30%), Positives = 41/99 (41%), Gaps = 4/99 (4%)
+
+Query  26   VEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMVN  85
+            ++ D+     VG   KL C + K    V    T+DW +     S    I+ Y        
+Sbjct  10   IKADAHVRGYVGEKIKLKC-TFKSTSSVTDKLTIDWTYRPPSSSRTESIFHYQSFQYPTT  68
+
+Query  86   DERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRC  124
+               F DR++W+G        D SI I N TL D GT+ C
+Sbjct  69   AGTFRDRISWVGD---VYRGDASISISNPTLKDNGTFSC  104
+
+
+> UniRef90_G1M3I8 Myelin protein zero like 3 n=14 Tax=Caniformia 
+TaxID=379584 RepID=G1M3I8_AILME
+Length=235
+
+ Score = 48.1 bits (113),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 30/99 (30%), Positives = 41/99 (41%), Gaps = 4/99 (4%)
+
+Query  26   VEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMVN  85
+            ++ D+     VG   KL C + K    V    T+DW +     S    I+ Y        
+Sbjct  34   IKADAHVRGYVGEKIKLKC-TFKSTSSVTDKLTIDWTYRPPSSSRTESIFHYQSFQYPTT  92
+
+Query  86   DERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRC  124
+               F DR++W+G        D SI I N TL D GT+ C
+Sbjct  93   AGTFRDRISWVGD---VYRGDASISISNPTLKDNGTFSC  128
+
+
+> UniRef90_A5D7C3 Myelin protein zero-like protein 3 n=14 Tax=Pecora 
+TaxID=35500 RepID=MPZL3_BOVIN
+Length=234
+
+ Score = 48.1 bits (113),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 43/161 (27%), Positives = 65/161 (40%), Gaps = 18/161 (11%)
+
+Query  26   VEVDSDTEAVVGHGFKLGCISCKMRGEVQASATVDWWFMAKGESEFSHIYSYIDMTGMVN  85
+            ++ D+     VG   KL C + K    +    T+DW +     S    I+ Y        
+Sbjct  34   IKADAHVRGYVGENIKLRC-TFKSSSSITDKLTIDWTYRPPSSSRTESIFHYQSFQYPTT  92
+
+Query  86   DERFLDRLNWMGSKNTFDLQDGSIYILNVTLNDTGTYRCYFDRTLTFNYYEFRTNINKTI  145
+               F DR++W+G        D SI I N T+ D GT+ C        N  +   NI  T 
+Sbjct  93   AGTFRDRISWVGDVYK---GDASISISNPTMKDNGTFSCAVK-----NPPDVHHNIPAT-  143
+
+Query  146  TLNVVPKATRGTASILSEV-----MMYVSIIGLQLWLLVEM  181
+             L V     RG  ++LS V     ++++    + + LLV M
+Sbjct  144  ELTVT---ERGFGTMLSSVALLSILVFIPSTVVVILLLVRM  181
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1612093
+
+
+  Database: isar.db.8
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 11,981
+  Number of sequences in database:  41
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

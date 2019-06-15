@@ -1,0 +1,2344 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.251
+           122 sequences; 19,535 total letters
+
+Results from round 1
+
+
+Query= Q9NX14|5xtce|NDUBB_HUMAN 0.6339869281045751
+
+Length=153
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q9NX14 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  313     1e-114
+  UniRef90_A0A1U7SVP5 NADH dehydrogenase [ubiquinone] 1 beta subc...  278     9e-101
+  UniRef90_M3YNV9 NADH:ubiquinone oxidoreductase subunit B11 n=3 ...  277     3e-100
+  UniRef90_Q8HXG5 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  275     1e-99 
+  UniRef90_A0A2K6FVH6 NADH:ubiquinone oxidoreductase subunit B11 ...  274     5e-99 
+  UniRef90_L5L1V8 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  271     7e-98 
+  UniRef90_K9IGI4 Putative conserved plasma membrane protein n=1 ...  269     3e-97 
+  UniRef90_F6VVE5 NADH:ubiquinone oxidoreductase subunit B11 n=6 ...  268     8e-97 
+  UniRef90_A0A2Y9DLV1 NADH dehydrogenase [ubiquinone] 1 beta subc...  268     1e-96 
+  UniRef90_A0A2K6T1B9 Uncharacterized protein n=1 Tax=Saimiri bol...  266     9e-96 
+  UniRef90_H0XTF4 Uncharacterized protein n=2 Tax=Otolemur garnet...  264     3e-95 
+  UniRef90_A0A287BMW6 NADH:ubiquinone oxidoreductase subunit B11 ...  259     5e-93 
+  UniRef90_G1SV04 NADH:ubiquinone oxidoreductase subunit B11 n=2 ...  252     2e-90 
+  UniRef90_Q6DQX6 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  245     7e-88 
+  UniRef90_G1M2Z7 NADH:ubiquinone oxidoreductase subunit B11 n=13...  245     1e-87 
+  UniRef90_A0A2K5Y3T7 NADH:ubiquinone oxidoreductase subunit B11 ...  240     1e-85 
+  UniRef90_G1PM03 NADH:ubiquinone oxidoreductase subunit B11 n=3 ...  239     4e-85 
+  UniRef90_O09111 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  238     4e-85 
+  UniRef90_L5MHJ1 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  236     6e-84 
+  UniRef90_A0A1S3A5I6 NADH dehydrogenase [ubiquinone] 1 beta subc...  233     1e-82 
+  UniRef90_W5NUM0 Uncharacterized protein n=1 Tax=Ovis aries TaxI...  221     2e-78 
+  UniRef90_G7Q2K8 Uncharacterized protein (Fragment) n=1 Tax=Maca...  215     7e-76 
+  UniRef90_D7NYG0 NADH dehydrogenase 1 beta subcomplex 11 (Fragme...  213     2e-75 
+  UniRef90_G3SRC0 NADH:ubiquinone oxidoreductase subunit B11 n=1 ...  209     1e-73 
+  UniRef90_D7NYG2 NADH dehydrogenase 1 beta subcomplex 11 (Fragme...  193     1e-67 
+  UniRef90_F7BRP5 NADH:ubiquinone oxidoreductase subunit B11 n=2 ...  194     1e-67 
+  UniRef90_L9LEC8 Transcription factor AP-4 n=1 Tax=Tupaia chinen...  194     6e-65 
+  UniRef90_A0A2K6M0B5 NADH:ubiquinone oxidoreductase subunit B11 ...  182     1e-62 
+  UniRef90_A0A384CQ05 LOW QUALITY PROTEIN: NADH dehydrogenase [ub...  179     1e-61 
+  UniRef90_A0A384A8Q7 NADH dehydrogenase [ubiquinone] 1 beta subc...  174     2e-59 
+  UniRef90_G3WLX8 NADH:ubiquinone oxidoreductase subunit B11 n=2 ...  171     3e-58 
+  UniRef90_A0A151XDY3 NADH dehydrogenase [ubiquinone] 1 beta subc...  82.4    2e-23 
+  UniRef90_A0A1B0DJQ5 Uncharacterized protein n=1 Tax=Phlebotomus...  82.0    2e-23 
+  UniRef90_A0A195F5A2 NADH dehydrogenase [ubiquinone] 1 beta subc...  81.6    3e-23 
+  UniRef90_E1ZWY6 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  80.1    1e-22 
+  UniRef90_A0A0J7KT58 Nadh dehydrogenase n=1 Tax=Lasius niger Tax...  80.1    1e-22 
+  UniRef90_A0A026VWT8 NADH dehydrogenase [ubiquinone] 1 beta subc...  79.3    2e-22 
+  UniRef90_E2BBS0 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  79.0    3e-22 
+  UniRef90_T1ERM6 Uncharacterized protein n=1 Tax=Helobdella robu...  78.6    8e-22 
+  UniRef90_A0A2A3E6R9 NADH dehydrogenase [ubiquinone] 1 beta subc...  77.8    1e-21 
+  UniRef90_A0A1B0CV98 Uncharacterized protein n=1 Tax=Lutzomyia l...  77.4    2e-21 
+  UniRef90_W4XFE2 Uncharacterized protein n=1 Tax=Strongylocentro...  77.8    2e-21 
+  UniRef90_R7VHB6 Uncharacterized protein n=1 Tax=Capitella telet...  78.2    2e-21 
+  UniRef90_A0A310SUN2 NADH dehydrogenase [ubiquinone] 1 beta subc...  78.6    4e-21 
+  UniRef90_A0A154NZ72 NADH dehydrogenase [ubiquinone] 1 beta subc...  75.9    5e-21 
+  UniRef90_D6X340 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  74.3    6e-21 
+  UniRef90_A0A2T7NUR1 Uncharacterized protein n=1 Tax=Pomacea can...  75.9    9e-21 
+  UniRef90_A0A0K8TPL1 Putative conserved plasma membrane protein ...  75.1    1e-20 
+  UniRef90_A0A0L7QXD1 NADH dehydrogenase [ubiquinone] 1 beta subc...  74.7    1e-20 
+  UniRef90_A0A158NWV3 Uncharacterized protein n=4 Tax=Attini TaxI...  73.9    3e-20 
+  UniRef90_A0A195BHS7 NADH dehydrogenase [ubiquinone] 1 beta subc...  73.6    3e-20 
+  UniRef90_A0A1L8DZQ3 Putative nadh dehydrogenase ubiquinone 1 be...  73.6    4e-20 
+  UniRef90_A0A2G8KBV0 Putative NADH dehydrogenase n=1 Tax=Stichop...  73.9    4e-20 
+  UniRef90_V5GV76 NADH dehydrogenase (Ubiquinone) beta subcomplex...  72.4    8e-20 
+  UniRef90_A0A1I8MQN3 Uncharacterized protein n=4 Tax=Muscinae Ta...  72.4    1e-19 
+  UniRef90_A0A2J7Q8H0 Uncharacterized protein n=1 Tax=Cryptoterme...  70.9    4e-19 
+  UniRef90_A0A0M9ACY3 NADH dehydrogenase [ubiquinone] 1 beta subc...  70.9    4e-19 
+  UniRef90_K7IRR4 Uncharacterized protein n=2 Tax=Pteromalinae Ta...  70.9    5e-19 
+  UniRef90_A0A067RH50 NADH dehydrogenase [ubiquinone] 1 beta subc...  70.1    9e-19 
+  UniRef90_U5EES5 Uncharacterized protein n=1 Tax=Corethrella app...  69.7    1e-18 
+  UniRef90_A0A0P5C054 NADH dehydrogenase [ubiquinone] 1 beta subc...  68.6    2e-18 
+  UniRef90_A0A0P5ACX9 NADH dehydrogenase [ubiquinone] 1 beta subc...  68.6    2e-18 
+  UniRef90_A0A0P5KU61 NADH dehydrogenase [ubiquinone] 1 beta subc...  68.9    2e-18 
+  UniRef90_A0A0P4Y9C2 NADH dehydrogenase [ubiquinone] 1 beta subc...  68.6    3e-18 
+  UniRef90_B4JYK5 GH14310 n=3 Tax=Drosophila TaxID=2081351 RepID=...  68.6    4e-18 
+  UniRef90_T1JFL1 Uncharacterized protein n=1 Tax=Strigamia marit...  68.2    5e-18 
+  UniRef90_A0A0P5RF83 NADH dehydrogenase [ubiquinone] 1 beta subc...  68.9    5e-18 
+  UniRef90_A0A0P5ESD5 NADH dehydrogenase [ubiquinone] 1 beta subc...  68.6    9e-18 
+  UniRef90_A0A1B6CJL6 Uncharacterized protein (Fragment) n=1 Tax=...  67.8    1e-17 
+  UniRef90_A0A0P5H8A6 NADH dehydrogenase [ubiquinone] 1 beta subc...  69.3    1e-17 
+  UniRef90_A0A1Q3FYR9 Putative ubiquinone oxidoreductase esss sub...  67.4    1e-17 
+  UniRef90_W5JJY1 Mitochondrial NADH:ubiquinone oxidoreductase ES...  67.0    2e-17 
+  UniRef90_A0A0P6JTR7 NADH dehydrogenase [ubiquinone] 1 beta subc...  69.3    2e-17 
+  UniRef90_B4K5Z1 Uncharacterized protein n=3 Tax=mojavensis spec...  66.6    2e-17 
+  UniRef90_E9H5E9 Uncharacterized protein n=1 Tax=Daphnia pulex T...  66.6    2e-17 
+  UniRef90_A0A0L0CB83 Uncharacterized protein n=1 Tax=Lucilia cup...  65.9    4e-17 
+  UniRef90_Q9V3L7 GEO04710p1 n=11 Tax=melanogaster group TaxID=32...  65.5    5e-17 
+  UniRef90_C1BPZ7 NADH dehydrogenase 1 beta subcomplex subunit 11...  65.1    6e-17 
+  UniRef90_B3LVB5 Uncharacterized protein n=2 Tax=ananassae subgr...  65.1    7e-17 
+  UniRef90_A0A0N7ZDC2 Uncharacterized protein n=1 Tax=Scylla oliv...  65.1    8e-17 
+  UniRef90_A0A182FDE3 Uncharacterized protein n=1 Tax=Anopheles a...  67.8    1e-16 
+  UniRef90_B4NHZ0 Uncharacterized protein n=1 Tax=Drosophila will...  64.3    2e-16 
+  UniRef90_A0A087TLE2 NADH dehydrogenase [ubiquinone] 1 beta subc...  64.3    2e-16 
+  UniRef90_A0A0L8G2R8 Uncharacterized protein n=1 Tax=Octopus bim...  63.5    3e-16 
+  UniRef90_J9K6Q7 Uncharacterized protein n=4 Tax=Aphidinae TaxID...  63.2    4e-16 
+  UniRef90_A0A2H1VIK0 SFRICE_000553 n=2 Tax=Spodoptera TaxID=7106...  62.8    6e-16 
+  UniRef90_A0A212F6X2 Putative mitochondrial NADH:ubiquinone oxid...  62.4    7e-16 
+  UniRef90_A0A1D2NFC4 NADH dehydrogenase [ubiquinone] 1 beta subc...  62.0    8e-16 
+  UniRef90_B7PGT5 Uncharacterized protein n=2 Tax=Ixodes TaxID=69...  62.4    9e-16 
+  UniRef90_Q29BT2 Uncharacterized protein n=5 Tax=Sophophora TaxI...  62.4    9e-16 
+  UniRef90_A0A195CKB8 NADH dehydrogenase [ubiquinone] 1 beta subc...  61.2    2e-15 
+  UniRef90_V5H8R3 Uncharacterized protein (Fragment) n=1 Tax=Ixod...  60.5    2e-15 
+  UniRef90_A0A0L7LTQ9 Putative Mitochondrial NADH:ubiquinone oxid...  60.1    5e-15 
+  UniRef90_A0A2A4JX06 Uncharacterized protein n=2 Tax=Heliothinae...  59.7    7e-15 
+  UniRef90_A0A1A9YUG3 Uncharacterized protein n=1 Tax=Glossina mo...  59.7    8e-15 
+  UniRef90_A0A1W4WQC4 NADH dehydrogenase [ubiquinone] 1 beta subc...  59.3    9e-15 
+  UniRef90_A0A1A9W6P5 Uncharacterized protein n=1 Tax=Glossina br...  59.3    1e-14 
+  UniRef90_A0A194RBW0 NADH dehydrogenase [ubiquinone] 1 beta subc...  58.9    1e-14 
+  UniRef90_K1QKK2 NADH dehydrogenase [ubiquinone] 1 beta subcompl...  59.7    2e-14 
+  UniRef90_H9JBG4 Uncharacterized protein n=1 Tax=Bombyx mori Tax...  58.9    2e-14 
+  UniRef90_A0A1B0C382 Uncharacterized protein n=3 Tax=Glossina Ta...  58.9    2e-14 
+  UniRef90_A0A2P8YJT3 Uncharacterized protein n=1 Tax=Blattella g...  58.5    3e-14 
+  UniRef90_S4PGP5 NP15.6 n=1 Tax=Pararge aegeria TaxID=116150 Rep...  57.8    4e-14 
+  UniRef90_A0A210QSD5 NADH dehydrogenase [ubiquinone] 1 beta subc...  57.8    5e-14 
+  UniRef90_G3MLW2 Uncharacterized protein n=2 Tax=Amblyomma TaxID...  56.6    1e-13 
+  UniRef90_A0A0C9S0P0 Putative conserved plasma membrane protein ...  56.2    1e-13 
+  UniRef90_A0A1B6JUA4 Uncharacterized protein n=1 Tax=Homalodisca...  55.1    6e-13 
+  UniRef90_N6SYZ1 Uncharacterized protein (Fragment) n=2 Tax=Dend...  53.9    6e-13 
+  UniRef90_A0A023G0E9 Uncharacterized protein n=1 Tax=Amblyomma p...  54.3    1e-12 
+  UniRef90_A0A1B6LK36 Uncharacterized protein n=1 Tax=Graphocepha...  54.3    1e-12 
+  UniRef90_A0A2C9JGK4 Uncharacterized protein n=1 Tax=Biomphalari...  54.3    1e-12 
+  UniRef90_A0A1B6FHV7 Uncharacterized protein n=1 Tax=Cuerna arid...  52.4    5e-12 
+  UniRef90_V4AMV8 Uncharacterized protein n=1 Tax=Lottia gigantea...  51.6    1e-11 
+  UniRef90_A0A293M0L0 Uncharacterized protein (Fragment) n=1 Tax=...  51.2    2e-11 
+  UniRef90_A0A131XMJ9 Uncharacterized protein n=1 Tax=Hyalomma ex...  50.8    2e-11 
+  UniRef90_L7M3F0 Uncharacterized protein n=3 Tax=Rhipicephalus T...  50.8    2e-11 
+  UniRef90_A0A0U2T6D4 NADH dehydrogenase n=1 Tax=Calanus sinicus ...  49.7    6e-11 
+  UniRef90_V5I2R4 Uncharacterized protein n=2 Tax=Ixodes ricinus ...  49.3    9e-11 
+  UniRef90_A0A1S3I884 NADH dehydrogenase [ubiquinone] 1 beta subc...  48.9    9e-11 
+  UniRef90_A0A088A569 Uncharacterized protein n=1 Tax=Apis mellif...  46.6    1e-10 
+  UniRef90_U4UIV9 Uncharacterized protein n=1 Tax=Dendroctonus po...  49.3    2e-10 
+  UniRef90_A0A075AHT0 Uncharacterized protein n=3 Tax=Opisthorchi...  46.2    1e-09 
+
+
+> UniRef90_Q9NX14 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=19 Tax=Catarrhini TaxID=9526 
+RepID=NDUBB_HUMAN
+Length=153
+
+ Score = 313 bits (802),  Expect = 1e-114, Method: Compositional matrix adjust.
+ Identities = 153/153 (100%), Positives = 153/153 (100%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE
+Sbjct  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR
+Sbjct  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLPIMESNCFDPSKIQLPEDE
+Sbjct  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+
+
+> UniRef90_A0A1U7SVP5 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Tarsius syrichta 
+TaxID=1868482 RepID=A0A1U7SVP5_TARSY
+Length=154
+
+ Score = 278 bits (711),  Expect = 9e-101, Method: Compositional matrix adjust.
+ Identities = 133/153 (87%), Positives = 141/153 (92%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL   S RRLLAA ATRGLPAARVRWESS SR VVAPS VAGKR PEPT  WQEDPE
+Sbjct  1    MAAGLLSFSVRRLLAAVATRGLPAARVRWESSSSRAVVAPSTVAGKRAPEPTIRWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDPV+DVWNMR+VFFFG+SI+LVLGSTFVAYLPDYRM+EW+RR
+Sbjct  61   PEDENLYEKNPDSHGYDKDPVIDVWNMRVVFFFGISIVLVLGSTFVAYLPDYRMQEWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLP+MESN FDPS+IQLPEDE
+Sbjct  121  EAERLVKYREANGLPLMESNRFDPSRIQLPEDE  153
+
+
+> UniRef90_M3YNV9 NADH:ubiquinone oxidoreductase subunit B11 n=3 
+Tax=Laurasiatheria TaxID=314145 RepID=M3YNV9_MUSPF
+Length=159
+
+ Score = 277 bits (708),  Expect = 3e-100, Method: Compositional matrix adjust.
+ Identities = 131/153 (86%), Positives = 142/153 (93%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL   SARRLLA AATRGLPAARVRWESS +R V+APSA+AGKR P PT  WQEDP+
+Sbjct  7    MAAGLLSWSARRLLAVAATRGLPAARVRWESSSARAVIAPSAMAGKRTPAPTVRWQEDPD  66
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDPV+D+WNMR+VFFFG SI+LVLGSTF+AYLPDYRM+EW+RR
+Sbjct  67   PEDENLYEKNPDSHGYDKDPVVDLWNMRVVFFFGFSIVLVLGSTFIAYLPDYRMQEWARR  126
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLPIMESNCFDPSKIQLPEDE
+Sbjct  127  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  159
+
+
+> UniRef90_Q8HXG5 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=24 Tax=Laurasiatheria TaxID=314145 
+RepID=NDUBB_BOVIN
+Length=154
+
+ Score = 275 bits (704),  Expect = 1e-99, Method: Compositional matrix adjust.
+ Identities = 130/153 (85%), Positives = 140/153 (92%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAA + GL  RRLLA AATRGLPAARVRWESS SR V+APS +AGKRP EPT  WQEDPE
+Sbjct  1    MAARMLGLCGRRLLAVAATRGLPAARVRWESSSSRAVIAPSTLAGKRPSEPTLRWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDP +D+WNMR+VFFFG SI+LVLGSTFVAYLPDYRM+EW+RR
+Sbjct  61   PEDENLYEKNPDSHGYDKDPAVDIWNMRVVFFFGFSIVLVLGSTFVAYLPDYRMQEWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREA+GLPIMESNCFDPSKIQLPEDE
+Sbjct  121  EAERLVKYREAHGLPIMESNCFDPSKIQLPEDE  153
+
+
+> UniRef90_A0A2K6FVH6 NADH:ubiquinone oxidoreductase subunit B11 
+n=2 Tax=Lemuriformes TaxID=376915 RepID=A0A2K6FVH6_PROCO
+Length=154
+
+ Score = 274 bits (700),  Expect = 5e-99, Method: Compositional matrix adjust.
+ Identities = 130/153 (85%), Positives = 137/153 (90%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MA GL GL ARRLL   ATRGLPAARVRWES  SR V+ PSAVAGKRPPEPT  WQEDP+
+Sbjct  1    MAGGLLGLCARRLLVTVATRGLPAARVRWESGSSRAVITPSAVAGKRPPEPTMRWQEDPD  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+             EDENLYEKNPDSHGYD+DPVLDVWNMR+VFFFG SI++VLG TFVAYLPD RM+EWSRR
+Sbjct  61   TEDENLYEKNPDSHGYDEDPVLDVWNMRVVFFFGFSIVMVLGGTFVAYLPDNRMQEWSRR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLPIMESNCFDPSKIQLPEDE
+Sbjct  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+
+
+> UniRef90_L5L1V8 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=5 Tax=Chiroptera TaxID=9397 
+RepID=L5L1V8_PTEAL
+Length=154
+
+ Score = 271 bits (693),  Expect = 7e-98, Method: Compositional matrix adjust.
+ Identities = 128/153 (84%), Positives = 139/153 (91%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL GL ARR+LA AAT+G  AARVRWESS SR V+APSAV GKR PEP   WQEDP+
+Sbjct  1    MAAGLLGLCARRILAVAATQGRLAARVRWESSSSRAVIAPSAVVGKRAPEPNMRWQEDPD  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDPV+D+WNMR+VFFFG SI+LVLG+TFVAYLPDYRM+EW+RR
+Sbjct  61   PEDENLYEKNPDSHGYDKDPVVDMWNMRVVFFFGFSIVLVLGTTFVAYLPDYRMQEWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLPIMESNCFDPSKIQL EDE
+Sbjct  121  EAERLVKYREANGLPIMESNCFDPSKIQLTEDE  153
+
+
+> UniRef90_K9IGI4 Putative conserved plasma membrane protein n=1 
+Tax=Desmodus rotundus TaxID=9430 RepID=K9IGI4_DESRO
+Length=153
+
+ Score = 269 bits (688),  Expect = 3e-97, Method: Compositional matrix adjust.
+ Identities = 127/153 (83%), Positives = 137/153 (90%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAA L GL +RRLLA AATRG  A RVRWESS +R V+APS+V GKR PEP T WQEDPE
+Sbjct  1    MAARLLGLCSRRLLATAATRGRLAVRVRWESSSARAVIAPSSVVGKRAPEPATQWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYD+DPVLDVWNMR+VFFFG SI+LV GSTFVAYLPDYRM EW+RR
+Sbjct  61   PEDENLYEKNPDSHGYDRDPVLDVWNMRVVFFFGFSIVLVFGSTFVAYLPDYRMHEWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLP+MESNCFDPSKIQLPED+
+Sbjct  121  EAERLVKYREANGLPVMESNCFDPSKIQLPEDD  153
+
+
+> UniRef90_F6VVE5 NADH:ubiquinone oxidoreductase subunit B11 n=6 
+Tax=Platyrrhini TaxID=9479 RepID=F6VVE5_CALJA
+Length=163
+
+ Score = 268 bits (686),  Expect = 8e-97, Method: Compositional matrix adjust.
+ Identities = 132/163 (81%), Positives = 141/163 (87%), Gaps = 10/163 (6%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL GL+ARRL AAAATRGLPAARVRWES+FSRTV AP   AGKRPPEPT  WQEDPE
+Sbjct  1    MAAGLLGLTARRLWAAAATRGLPAARVRWESTFSRTVAAPPVAAGKRPPEPTVEWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYR-------  113
+             EDEN YE NPDSHGYDKDPVLD+WNMR+VFFFGVSI+LVLGSTFVAYLPD R       
+Sbjct  61   TEDENFYETNPDSHGYDKDPVLDLWNMRIVFFFGVSIVLVLGSTFVAYLPDQRCMGCPRV  120
+
+Query  114  ---MKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+               M++WSRREAERLVKYREANGLPI+ESNCFDPSKIQLPED+
+Sbjct  121  WDGMEQWSRREAERLVKYREANGLPILESNCFDPSKIQLPEDD  163
+
+
+> UniRef90_A0A2Y9DLV1 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=2 Tax=Afrotheria TaxID=311790 
+RepID=A0A2Y9DLV1_TRIMA
+Length=154
+
+ Score = 268 bits (685),  Expect = 1e-96, Method: Compositional matrix adjust.
+ Identities = 127/153 (83%), Positives = 139/153 (91%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL GL +RRLLAA A RGLPA  VRWES+ SRTVVAP A+ GKRP EP   WQEDP+
+Sbjct  1    MAAGLLGLWSRRLLAATAMRGLPAVHVRWESTASRTVVAPPAITGKRPREPIIRWQEDPD  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDK+PV+D+WNMR+VFFFG SI+LVLGSTFVAYLPDYRM+EW+RR
+Sbjct  61   PEDENLYEKNPDSHGYDKNPVVDLWNMRVVFFFGFSIVLVLGSTFVAYLPDYRMREWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLPIMESNCFDPSKIQLPE+E
+Sbjct  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEEE  153
+
+
+> UniRef90_A0A2K6T1B9 Uncharacterized protein n=1 Tax=Saimiri boliviensis 
+boliviensis TaxID=39432 RepID=A0A2K6T1B9_SAIBB
+Length=153
+
+ Score = 266 bits (679),  Expect = 9e-96, Method: Compositional matrix adjust.
+ Identities = 125/153 (82%), Positives = 139/153 (91%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL GL+ARRL AAAATRGLPAARVRWES+FSRTV AP   A KRPPEPT  WQEDPE
+Sbjct  1    MAAGLLGLTARRLWAAAATRGLPAARVRWESTFSRTVAAPPTEARKRPPEPTVEWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PED+N YE NPDSHG+ KDP++D+WNMR+VFFFG+SI LVLGSTFVAYLPD RM+EWSRR
+Sbjct  61   PEDDNFYETNPDSHGFHKDPLIDLWNMRVVFFFGISIALVLGSTFVAYLPDKRMEEWSRR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAE+LVKYREANGLP++ESNCFDPSKIQLPED+
+Sbjct  121  EAEKLVKYREANGLPLLESNCFDPSKIQLPEDD  153
+
+
+> UniRef90_H0XTF4 Uncharacterized protein n=2 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0XTF4_OTOGA
+Length=153
+
+ Score = 264 bits (675),  Expect = 3e-95, Method: Compositional matrix adjust.
+ Identities = 124/153 (81%), Positives = 135/153 (88%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MA+GL GLSARRLL A ATRGL AA VRW+S  SR VV PS VAGKRPPEPT  WQEDPE
+Sbjct  1    MASGLLGLSARRLLVAVATRGLLAAHVRWDSGSSRAVVTPSTVAGKRPPEPTIHWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PE+ENLY  NPDSHG+DKDPV+DVWNMR+VFF G SI++VLG TFVAYLPDY M+EW+RR
+Sbjct  61   PEEENLYGTNPDSHGFDKDPVIDVWNMRVVFFLGFSIVMVLGGTFVAYLPDYGMQEWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLP+MESNCFDPSKIQLPEDE
+Sbjct  121  EAERLVKYREANGLPLMESNCFDPSKIQLPEDE  153
+
+
+> UniRef90_A0A287BMW6 NADH:ubiquinone oxidoreductase subunit B11 
+n=6 Tax=Laurasiatheria TaxID=314145 RepID=A0A287BMW6_PIG
+Length=154
+
+ Score = 259 bits (661),  Expect = 5e-93, Method: Compositional matrix adjust.
+ Identities = 130/153 (85%), Positives = 143/153 (93%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAG+ GL ARRLLAAAATRGLPAARVRWES  SR V+APSA+ GKRPPEPT   QEDP+
+Sbjct  1    MAAGVLGLCARRLLAAAATRGLPAARVRWESGSSRAVIAPSALVGKRPPEPTIRLQEDPD  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDP++D+WNMR+VFFFG SI+LVLGSTFVAYLPDYRM+EW+RR
+Sbjct  61   PEDENLYEKNPDSHGYDKDPIVDLWNMRVVFFFGFSIVLVLGSTFVAYLPDYRMQEWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLP+MESNCFDP+KIQLPEDE
+Sbjct  121  EAERLVKYREANGLPLMESNCFDPNKIQLPEDE  153
+
+
+> UniRef90_G1SV04 NADH:ubiquinone oxidoreductase subunit B11 n=2 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1SV04_RABIT
+Length=160
+
+ Score = 252 bits (644),  Expect = 2e-90, Method: Compositional matrix adjust.
+ Identities = 128/153 (84%), Positives = 139/153 (91%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAG+ GL ARR  AAAATR LPA R RW+SS SR VVAPSAVAGKRP EPT  WQEDP+
+Sbjct  7    MAAGMLGLCARRFWAAAATRALPAVRARWQSSSSRAVVAPSAVAGKRPAEPTIRWQEDPD  66
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PED+NLYEKNPDSHGYDKDPV+D+WNMR VFFFG SI+LVLG+TFVAYLPDYRM+EW+RR
+Sbjct  67   PEDDNLYEKNPDSHGYDKDPVVDLWNMRTVFFFGFSIVLVLGTTFVAYLPDYRMQEWARR  126
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLP+MESNCFDPSKIQLPEDE
+Sbjct  127  EAERLVKYREANGLPLMESNCFDPSKIQLPEDE  159
+
+
+> UniRef90_Q6DQX6 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=4 Tax=Cricetinae TaxID=10026 
+RepID=NDUBB_CRIGR
+Length=151
+
+ Score = 245 bits (626),  Expect = 7e-88, Method: Compositional matrix adjust.
+ Identities = 118/153 (77%), Positives = 130/153 (85%), Gaps = 2/153 (1%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAA L  L ARRL   AA RGLPAA VRWESS  R V++PS V  KR  +PT  WQEDPE
+Sbjct  1    MAARLLSLCARRLSVTAAVRGLPAAGVRWESS--RAVISPSTVERKRQRQPTMHWQEDPE  58
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+             EDEN+Y KNPD HGYD+DPV+DVWNMR+VFFFG SI+LVLG+TF+AYLPDYRM+EW+RR
+Sbjct  59   SEDENVYAKNPDFHGYDQDPVVDVWNMRVVFFFGFSIVLVLGTTFMAYLPDYRMQEWARR  118
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREANGLPIMESNCFDPSKIQLPEDE
+Sbjct  119  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  151
+
+
+> UniRef90_G1M2Z7 NADH:ubiquinone oxidoreductase subunit B11 n=13 
+Tax=Carnivora TaxID=33554 RepID=G1M2Z7_AILME
+Length=163
+
+ Score = 245 bits (626),  Expect = 1e-87, Method: Compositional matrix adjust.
+ Identities = 131/163 (80%), Positives = 142/163 (87%), Gaps = 10/163 (6%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL GL +RRLLA AATRGLPAARVRWES  SR V+APSAVAGKR PEPT  WQEDP+
+Sbjct  1    MAAGLLGLCSRRLLAVAATRGLPAARVRWESGSSRAVIAPSAVAGKRMPEPTVRWQEDPD  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYR-------  113
+            PEDENLYEKNPDSHGYDKDPV+D+WNMR+VFFFG S++LVLGSTF+AYLPDYR       
+Sbjct  61   PEDENLYEKNPDSHGYDKDPVVDLWNMRVVFFFGFSVVLVLGSTFIAYLPDYRCMGCLRE  120
+
+Query  114  ---MKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+               M+EW+RREAERLVKYREANGLPIMESNCFDPSKIQL EDE
+Sbjct  121  WNGMQEWARREAERLVKYREANGLPIMESNCFDPSKIQLLEDE  163
+
+
+> UniRef90_A0A2K5Y3T7 NADH:ubiquinone oxidoreductase subunit B11 
+n=23 Tax=Cercopithecidae TaxID=9527 RepID=A0A2K5Y3T7_MANLE
+Length=163
+
+ Score = 240 bits (613),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 143/163 (88%), Positives = 148/163 (91%), Gaps = 10/163 (6%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVA KR PEPTT WQEDPE
+Sbjct  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVARKRAPEPTTQWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYR-------  113
+            PEDENLYE NPDSHGYDKDPVLDVWNMR+VFFFGVS++LVLGST+VAYLPDYR       
+Sbjct  61   PEDENLYETNPDSHGYDKDPVLDVWNMRVVFFFGVSVVLVLGSTYVAYLPDYRCMGCPRA  120
+
+Query  114  ---MKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+               MKEWSRREAERLVKYREANGLP+MESN FDPSKIQLPEDE
+Sbjct  121  WDGMKEWSRREAERLVKYREANGLPLMESNYFDPSKIQLPEDE  163
+
+
+> UniRef90_G1PM03 NADH:ubiquinone oxidoreductase subunit B11 n=3 
+Tax=Vespertilionidae TaxID=9431 RepID=G1PM03_MYOLU
+Length=159
+
+ Score = 239 bits (609),  Expect = 4e-85, Method: Compositional matrix adjust.
+ Identities = 124/153 (81%), Positives = 135/153 (88%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MA GL GL ARRLLAAAATRG  AA VRWESS +R V+APSA  GKR PEPT  WQEDPE
+Sbjct  7    MAPGLLGLYARRLLAAAATRGRLAAPVRWESSSARAVIAPSAAVGKRAPEPTVHWQEDPE  66
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDPV+DVWNMR VFFFG SI+LV G+TFVAYLPDYRM EW+RR
+Sbjct  67   PEDENLYEKNPDSHGYDKDPVVDVWNMRAVFFFGFSIVLVFGTTFVAYLPDYRMHEWARR  126
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAE+LVKYREA+GLPIMESN FDPSKIQLP+++
+Sbjct  127  EAEKLVKYREAHGLPIMESNRFDPSKIQLPDED  159
+
+
+> UniRef90_O09111 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=4 Tax=Murinae TaxID=39107 RepID=NDUBB_MOUSE
+Length=151
+
+ Score = 238 bits (608),  Expect = 4e-85, Method: Compositional matrix adjust.
+ Identities = 117/153 (76%), Positives = 126/153 (82%), Gaps = 2/153 (1%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAA L  L  R L AA A RGLPAARVRWESS  R V+APS V  KR  EPT  WQEDPE
+Sbjct  1    MAARLLSLYGRCLSAAGAMRGLPAARVRWESS--RAVIAPSGVEKKRQREPTMQWQEDPE  58
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDEN+Y KNPD HGYD DPV+DVWNMR VFFFG SI+LV G+TFVAY+PDYRM+EW+RR
+Sbjct  59   PEDENVYAKNPDFHGYDSDPVVDVWNMRAVFFFGFSIVLVFGTTFVAYVPDYRMQEWARR  118
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYRE NGLPIMESN FDPSKIQLPED+
+Sbjct  119  EAERLVKYREVNGLPIMESNYFDPSKIQLPEDD  151
+
+
+> UniRef90_L5MHJ1 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=4 Tax=Vespertilionidae TaxID=9431 
+RepID=L5MHJ1_MYODS
+Length=153
+
+ Score = 236 bits (601),  Expect = 6e-84, Method: Compositional matrix adjust.
+ Identities = 122/153 (80%), Positives = 133/153 (87%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MA GL GL ARRLLAAAATRG  AA  RWESS +R V+APSA  GKR PEPT  WQEDPE
+Sbjct  1    MAPGLLGLYARRLLAAAATRGRLAAPARWESSSARAVIAPSAAVGKRAPEPTVHWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPDSHGYDKDPV+D WNMR VFFFG SI+LV G+TFVAYLPDYRM EW+RR
+Sbjct  61   PEDENLYEKNPDSHGYDKDPVVDAWNMRAVFFFGFSIVLVFGTTFVAYLPDYRMHEWARR  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAE+LVKYREA+GLPIMESN FDPSKIQLP+++
+Sbjct  121  EAEKLVKYREAHGLPIMESNRFDPSKIQLPDED  153
+
+
+> UniRef90_A0A1S3A5I6 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Erinaceus europaeus 
+TaxID=9365 RepID=A0A1S3A5I6_ERIEU
+Length=154
+
+ Score = 233 bits (593),  Expect = 1e-82, Method: Compositional matrix adjust.
+ Identities = 110/153 (72%), Positives = 129/153 (84%), Gaps = 0/153 (0%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGL GL +RRLL   ATRG   A VRWESS SR V+AP+A+A KR P  T  WQEDP+
+Sbjct  1    MAAGLLGLCSRRLLGGLATRGRLVAPVRWESSSSRAVIAPAALARKRVPPATVHWQEDPD  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PEDENLYEKNPD+HG+DKDPV+D+WNMR+VFFFG SI+LVLG+ FVAYLPD   ++W+R+
+Sbjct  61   PEDENLYEKNPDTHGFDKDPVIDLWNMRVVFFFGFSIVLVLGTAFVAYLPDTSAQDWARQ  120
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREA+GLP+MESN FDPSKIQLP D+
+Sbjct  121  EAERLVKYREAHGLPLMESNYFDPSKIQLPADK  153
+
+
+> UniRef90_W5NUM0 Uncharacterized protein n=1 Tax=Ovis aries TaxID=9940 
+RepID=W5NUM0_SHEEP
+Length=146
+
+ Score = 221 bits (564),  Expect = 2e-78, Method: Compositional matrix adjust.
+ Identities = 112/153 (73%), Positives = 122/153 (80%), Gaps = 8/153 (5%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAG+ GL   RLLA  AT+GLPAA VRWESS SR V+APS +AGK P EPT  WQEDPE
+Sbjct  1    MAAGMLGLCGHRLLAVVATQGLPAAHVRWESSSSRAVIAPSTLAGKWPSEPTLRWQEDPE  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            PED NLYE NPD HGYDK P +DVWN+        +IILVLGSTFVAYL D RM+E +R 
+Sbjct  61   PEDTNLYENNPD-HGYDKGPAVDVWNI-------FTIILVLGSTFVAYLSDCRMQERARL  112
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EAERLVKYREA+GLPIMESNCFDPSKIQLPEDE
+Sbjct  113  EAERLVKYREAHGLPIMESNCFDPSKIQLPEDE  145
+
+
+> UniRef90_G7Q2K8 Uncharacterized protein (Fragment) n=1 Tax=Macaca 
+fascicularis TaxID=9541 RepID=G7Q2K8_MACFA
+Length=144
+
+ Score = 215 bits (547),  Expect = 7e-76, Method: Compositional matrix adjust.
+ Identities = 119/144 (83%), Positives = 128/144 (89%), Gaps = 10/144 (7%)
+
+Query  20   RGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKD  79
+            + +PAARVRWESSFSRTVVAPSAVA KR  EPTT WQEDPEPED+NLYEKNPDSHGYDKD
+Sbjct  1    KQIPAARVRWESSFSRTVVAPSAVARKRALEPTTQWQEDPEPEDQNLYEKNPDSHGYDKD  60
+
+Query  80   PVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYR----------MKEWSRREAERLVKYR  129
+            PVLDVWNMR+VFFFGVS++LVLGST+VAYLPDYR          MKEWSRREAERLVKYR
+Sbjct  61   PVLDVWNMRVVFFFGVSVVLVLGSTYVAYLPDYRCMGCPRAWDGMKEWSRREAERLVKYR  120
+
+Query  130  EANGLPIMESNCFDPSKIQLPEDE  153
+            EANGLP++ESN FDPSKIQLPEDE
+Sbjct  121  EANGLPLIESNYFDPSKIQLPEDE  144
+
+
+> UniRef90_D7NYG0 NADH dehydrogenase 1 beta subcomplex 11 (Fragment) 
+n=1 Tax=Scotophilus kuhlii TaxID=153297 RepID=D7NYG0_SCOKU
+Length=128
+
+ Score = 213 bits (543),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 101/128 (79%), Positives = 111/128 (87%), Gaps = 0/128 (0%)
+
+Query  19   TRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDK  78
+            TRG  AARVR ESS +R VV+P     KR PEPT  WQEDPEPEDENLYEKNPDSHGYD+
+Sbjct  1    TRGRLAARVRCESSSARAVVSPPVALRKREPEPTVRWQEDPEPEDENLYEKNPDSHGYDR  60
+
+Query  79   DPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIME  138
+            DPV+DVWNMR VFFFG SI+LV G+TFVAYLPD+R +EW+RREAE+LVKYREANGLPIME
+Sbjct  61   DPVIDVWNMRAVFFFGFSIVLVFGTTFVAYLPDHRNQEWARREAEKLVKYREANGLPIME  120
+
+Query  139  SNCFDPSK  146
+            SNCFDPSK
+Sbjct  121  SNCFDPSK  128
+
+
+> UniRef90_G3SRC0 NADH:ubiquinone oxidoreductase subunit B11 n=1 
+Tax=Loxodonta africana TaxID=9785 RepID=G3SRC0_LOXAF
+Length=122
+
+ Score = 209 bits (531),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 99/120 (83%), Positives = 108/120 (90%), Gaps = 0/120 (0%)
+
+Query  34   SRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFF  93
+            SR V AP A+AGKRP EPT   QEDP+P  E+LYEKNPDSHGYDKDPV+D+WNMR+VFFF
+Sbjct  3    SRPVAAPPAIAGKRPREPTIRSQEDPDPGAESLYEKNPDSHGYDKDPVVDLWNMRVVFFF  62
+
+Query  94   GVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            G SI+LVLGSTFVAYLPDYRM EW+RREAERLVKYREANG PIMESNCFDPSKIQLPE+E
+Sbjct  63   GFSIVLVLGSTFVAYLPDYRMHEWARREAERLVKYREANGFPIMESNCFDPSKIQLPEEE  122
+
+
+> UniRef90_D7NYG2 NADH dehydrogenase 1 beta subcomplex 11 (Fragment) 
+n=1 Tax=Cynopterus sphinx TaxID=9400 RepID=D7NYG2_CYNSP
+Length=105
+
+ Score = 193 bits (490),  Expect = 1e-67, Method: Compositional matrix adjust.
+ Identities = 89/105 (85%), Positives = 98/105 (93%), Gaps = 0/105 (0%)
+
+Query  28   RWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNM  87
+            RWESS SR V+APSAV GKR PEPT  WQEDP+PEDENLYEKNPDSHGYDKDPV+D+WNM
+Sbjct  1    RWESSSSRAVIAPSAVVGKRAPEPTMRWQEDPDPEDENLYEKNPDSHGYDKDPVVDLWNM  60
+
+Query  88   RLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREAN  132
+            R+VFFFG SI+LVLG+TFVAYLPDYRM+EW+RREAERLVKYREAN
+Sbjct  61   RVVFFFGFSIVLVLGTTFVAYLPDYRMQEWARREAERLVKYREAN  105
+
+
+> UniRef90_F7BRP5 NADH:ubiquinone oxidoreductase subunit B11 n=2 
+Tax=Monodelphis domestica TaxID=13616 RepID=F7BRP5_MONDO
+Length=156
+
+ Score = 194 bits (494),  Expect = 1e-67, Method: Compositional matrix adjust.
+ Identities = 96/152 (63%), Positives = 115/152 (76%), Gaps = 4/152 (3%)
+
+Query  3    AGLFGLSARRLLAAAATRGLPAAR-VRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEP  61
+             GL G+ +RRLL AA  R +P A  +RW S+ +  VV P  V  KRP  P   WQEDPE 
+Sbjct  8    GGLLGVCSRRLLGAA--RRVPVANALRWRSATTGAVVTPPEVK-KRPKAPEVAWQEDPEH  64
+
+Query  62   EDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRRE  121
+            ED NLYEKNPD+HG+D DP +D+WNMR+VFF GVS+ +VLGSTFVAYLPD++MKEW+RRE
+Sbjct  65   EDVNLYEKNPDAHGFDDDPFIDLWNMRIVFFLGVSVAIVLGSTFVAYLPDHKMKEWARRE  124
+
+Query  122  AERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            AE LVK RE  GLP+MESN FDP KI LP+D+
+Sbjct  125  AEILVKIRETQGLPLMESNYFDPKKIILPDDD  156
+
+
+> UniRef90_L9LEC8 Transcription factor AP-4 n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9LEC8_TUPCH
+Length=340
+
+ Score = 194 bits (492),  Expect = 6e-65, Method: Compositional matrix adjust.
+ Identities = 91/110 (83%), Positives = 97/110 (88%), Gaps = 0/110 (0%)
+
+Query  44   AGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGS  103
+            AGKRP EPT  WQEDP+PEDENLYEKNPDSHGYD+DPVLD+WNMR VFFFG SI+LVLGS
+Sbjct  230  AGKRPWEPTVGWQEDPDPEDENLYEKNPDSHGYDQDPVLDLWNMRTVFFFGFSIVLVLGS  289
+
+Query  104  TFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            TFVAYL     KE +RREAERLVKYREANGLPIM+S CFDPSKIQL EDE
+Sbjct  290  TFVAYLAVSGRKEGARREAERLVKYREANGLPIMDSYCFDPSKIQLSEDE  339
+
+
+> UniRef90_A0A2K6M0B5 NADH:ubiquinone oxidoreductase subunit B11 
+n=1 Tax=Rhinopithecus bieti TaxID=61621 RepID=A0A2K6M0B5_RHIBE
+Length=153
+
+ Score = 182 bits (462),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 103/163 (63%), Positives = 115/163 (71%), Gaps = 20/163 (12%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAGLFGL  R          + AARVRWESS      +P  +  +  P+ T  W    +
+Sbjct  1    MAAGLFGLK-RASFGGQRQPRVTAARVRWESS------SPPGLGPE--PDHTALWSSR-K  50
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYR-------  113
+            P   +L  +NPDSHGYDKDP+LDVWNMR+VFFFGVSI+LVLGST+VAYLPDYR       
+Sbjct  51   PSLTSLSPQNPDSHGYDKDPILDVWNMRVVFFFGVSIVLVLGSTYVAYLPDYRCMGCPRA  110
+
+Query  114  ---MKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+               MKEWSRREAERLVKYREANGLPIMESN FDPSKIQLPEDE
+Sbjct  111  WDGMKEWSRREAERLVKYREANGLPIMESNYFDPSKIQLPEDE  153
+
+
+> UniRef90_A0A384CQ05 LOW QUALITY PROTEIN: NADH dehydrogenase [ubiquinone] 
+1 beta subcomplex subunit 11, mitochondrial n=1 
+Tax=Ursus maritimus TaxID=29073 RepID=A0A384CQ05_URSMA
+Length=130
+
+ Score = 179 bits (453),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 95/112 (85%), Positives = 104/112 (93%), Gaps = 4/112 (4%)
+
+Query  46   KRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTF  105
+            KR PEPT  WQEDP+PEDENLYEKNPDSHGYDKDPV+D+WNMR+VFFFG S++LVLGSTF
+Sbjct  18   KRMPEPTVRWQEDPDPEDENLYEKNPDSHGYDKDPVVDLWNMRVVFFFGFSVVLVLGSTF  77
+
+Query  106  VAYLPDYRMKEW----SRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +AYLPDYRM+EW    +RREAERLVKYREANGLPIMESNCFDPSKIQLPEDE
+Sbjct  78   IAYLPDYRMQEWPQKRARREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  129
+
+
+> UniRef90_A0A384A8Q7 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial isoform X1 n=1 Tax=Balaenoptera 
+acutorostrata scammoni TaxID=310752 RepID=A0A384A8Q7_BALAS
+Length=173
+
+ Score = 174 bits (441),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 96/140 (69%), Positives = 111/140 (79%), Gaps = 4/140 (3%)
+
+Query  1    MAAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPE  60
+            MAAG+ GL  RRLLA AA RGLPAARVRWESS SR V+APSAVAGKRPPEPT  WQEDP+
+Sbjct  1    MAAGMLGLCGRRLLALAARRGLPAARVRWESSSSRAVIAPSAVAGKRPPEPTLRWQEDPD  60
+
+Query  61   PEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRM----KE  116
+            PEDENLYEKNPDSHGYD+DP +D+WNMR+VFFFG SI+LVLGSTFVAYLP +R     +E
+Sbjct  61   PEDENLYEKNPDSHGYDRDPAVDLWNMRVVFFFGFSIVLVLGSTFVAYLPAHRCMGCQRE  120
+
+Query  117  WSRREAERLVKYREANGLPI  136
+            W     ++  + +E    P+
+Sbjct  121  WDGSGQKQGWRLKETARNPV  140
+
+
+> UniRef90_G3WLX8 NADH:ubiquinone oxidoreductase subunit B11 n=2 
+Tax=Sarcophilus harrisii TaxID=9305 RepID=G3WLX8_SARHA
+Length=152
+
+ Score = 171 bits (432),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 87/152 (57%), Positives = 107/152 (70%), Gaps = 2/152 (1%)
+
+Query  2    AAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEP  61
+            + G  G  + RL  AA      A+  R  ++    V  P+     R  E    WQEDP+ 
+Sbjct  2    SGGFLGFCSGRLPGAAGGMPAAASLRRISTTPGSVVAPPAEEKPSRVSE--VHWQEDPDK  59
+
+Query  62   EDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRRE  121
+            ED NLYEKNP+SHG+D+DP +D+WNMRLVFFFG+S+ +VLGSTFVAYLPD++MKEW+RRE
+Sbjct  60   EDVNLYEKNPESHGFDEDPFIDLWNMRLVFFFGISVAIVLGSTFVAYLPDHKMKEWARRE  119
+
+Query  122  AERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            AE LVK REA GLP++ SN FDPSKI LPEDE
+Sbjct  120  AEYLVKLREAQGLPLLNSNYFDPSKIILPEDE  151
+
+
+> UniRef90_A0A151XDY3 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Trachymyrmex zeteki 
+TaxID=64791 RepID=A0A151XDY3_9HYME
+Length=145
+
+ Score = 82.4 bits (202),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 44/103 (43%), Positives = 62/103 (60%), Gaps = 1/103 (1%)
+
+Query  52   TTPWQEDPEPEDENLYEKNPDSHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLP  110
+            TTP + D   E+    ++   S+G+  K  V D   +    F  V+I+LV+G T +AYLP
+Sbjct  34   TTPSRHDEPKEETKSIKRKWVSYGFSQKSEVEDTHALHQTMFVCVTIVLVIGCTVMAYLP  93
+
+Query  111  DYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            D R K+W++REA   ++YRE +GLP +  N  DPSKI LP DE
+Sbjct  94   DVRGKDWAQREAYLQLRYREEHGLPPISPNYIDPSKIILPTDE  136
+
+
+> UniRef90_A0A1B0DJQ5 Uncharacterized protein n=1 Tax=Phlebotomus 
+papatasi TaxID=29031 RepID=A0A1B0DJQ5_PHLPP
+Length=150
+
+ Score = 82.0 bits (201),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 45/107 (42%), Positives = 66/107 (62%), Gaps = 4/107 (4%)
+
+Query  48   PPEPTTPWQEDPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFV  106
+            P  PTTP   D    DE L +KN  S+G++  D   D  +MR  FFF V++ +V GS   
+Sbjct  38   PISPTTPI--DTTKTDEEL-KKNWQSYGFEAHDKYQDRSHMRATFFFSVTLCIVWGSFLF  94
+
+Query  107  AYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            AY+PDYR+++W++REA   ++ RE+ GLP +  +  DP+ + LP DE
+Sbjct  95   AYMPDYRLRDWAQREAFLEIRRRESLGLPHVNKDYVDPATVVLPSDE  141
+
+
+> UniRef90_A0A195F5A2 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Trachymyrmex septentrionalis 
+TaxID=34720 RepID=A0A195F5A2_9HYME
+Length=144
+
+ Score = 81.6 bits (200),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 43/103 (42%), Positives = 63/103 (61%), Gaps = 1/103 (1%)
+
+Query  52   TTPWQEDPEPEDENLYEKNPDSHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLP  110
+            TTP + D   E+    ++   S+G+ DK  + D   +    F  V+I+ V+G T +AYLP
+Sbjct  33   TTPNRYDGIKEETKPVKRKWVSYGFSDKSEIEDHHALHQTMFVCVTIVFVIGCTVMAYLP  92
+
+Query  111  DYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            D R K+W++REA   ++YRE +GLP++  N  DPSKI LP DE
+Sbjct  93   DIRGKDWAQREAYLQIRYREEHGLPLVSPNYIDPSKIILPTDE  135
+
+
+> UniRef90_E1ZWY6 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Camponotus floridanus 
+TaxID=104421 RepID=E1ZWY6_CAMFO
+Length=143
+
+ Score = 80.1 bits (196),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/103 (42%), Positives = 68/103 (66%), Gaps = 2/103 (2%)
+
+Query  52   TTPWQEDPEPEDENLYEKNPDSHGYDKDP-VLDVWNMRLVFFFGVSIILVLGSTFVAYLP  110
+            TTP   D + ++++L +K   S+G+ ++  V D   + +  F  V+I+ VLG T +AYLP
+Sbjct  33   TTPKYYD-DVKEKSLVKKKWVSYGFSEESEVEDRHTLHVTMFVLVTIVFVLGFTVMAYLP  91
+
+Query  111  DYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            D R ++W++REA   ++YRE +GLP+++ N  DPSKI LP DE
+Sbjct  92   DVRGRDWAQREAYLQLRYREEHGLPLIDPNLIDPSKIILPSDE  134
+
+
+> UniRef90_A0A0J7KT58 Nadh dehydrogenase n=1 Tax=Lasius niger TaxID=67767 
+RepID=A0A0J7KT58_LASNI
+Length=148
+
+ Score = 80.1 bits (196),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 42/107 (39%), Positives = 65/107 (61%), Gaps = 5/107 (5%)
+
+Query  52   TTPWQEDPEPE----DENLYEKNPDSHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFV  106
+            TTP   D   E    ++ L ++   S+G+ + D   D   + +  F  V+I+ VLG T +
+Sbjct  33   TTPKYYDDAKESTCQEKTLVKRKWVSYGFSETDEAEDRHTLHVTMFIVVTIVFVLGCTVM  92
+
+Query  107  AYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            AYLPD R ++W++REA   ++YRE +GLP+++ N  DPSK+ LP DE
+Sbjct  93   AYLPDVRGRDWAQREAYLQLRYREEHGLPLIDPNLIDPSKVTLPSDE  139
+
+
+> UniRef90_A0A026VWT8 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Ooceraea biroi TaxID=2015173 
+RepID=A0A026VWT8_OOCBI
+Length=143
+
+ Score = 79.3 bits (194),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 41/103 (40%), Positives = 64/103 (62%), Gaps = 2/103 (2%)
+
+Query  52   TTPWQEDPEPEDENLYEKNPDSHGYDK-DPVLDVWNMRLVFFFGVSIILVLGSTFVAYLP  110
+            TTP +    P+ EN  ++   S+G+ K D  LD  ++  + F  ++I L+ G T +AYLP
+Sbjct  33   TTPGRYSAGPK-ENPTKRKWISYGFSKTDEALDRHSLHQILFCSITIALICGGTIMAYLP  91
+
+Query  111  DYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            D  + +W++REA   ++Y+E +GLP ++ N  DPSKI LP DE
+Sbjct  92   DVNLTDWAQREAYLQLRYKEEHGLPPVDRNLIDPSKIILPTDE  134
+
+
+> UniRef90_E2BBS0 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Harpegnathos saltator 
+TaxID=610380 RepID=E2BBS0_HARSA
+Length=141
+
+ Score = 79.0 bits (193),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 39/95 (41%), Positives = 59/95 (62%), Gaps = 1/95 (1%)
+
+Query  60   EPEDENLYEKNPDSHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWS  118
+            + E+  L +K   S+GY D+D   DV ++    F  V+I  V G+  VAY PD    +W+
+Sbjct  38   DKEETQLVKKKWVSYGYSDEDEAEDVHSLHQTMFITVTICFVFGAAVVAYFPDMTQVDWA  97
+
+Query  119  RREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +REA   +++RE +GLP+++ N  DPSKI+LP DE
+Sbjct  98   QREAYLQLRHREEHGLPLIDPNVVDPSKIKLPSDE  132
+
+
+> UniRef90_T1ERM6 Uncharacterized protein n=1 Tax=Helobdella robusta 
+TaxID=6412 RepID=T1ERM6_HELRO
+Length=170
+
+ Score = 78.6 bits (192),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 50/149 (34%), Positives = 82/149 (55%), Gaps = 12/149 (8%)
+
+Query  11   RRLLAAAATRGLPAARVRWESSF---SRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLY  67
+            RRL+  +A       R+ ++S F   S+      A       +P  P ++  + ED+   
+Sbjct  19   RRLVKPSAV-SFFNKRLNFQSRFISTSKKNKDAVAAGHHHVDQPVAPAEKLEKLEDK---  74
+
+Query  68   EKNPDSHGY---DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAER  124
+            E+N  S+GY   D+D   D ++  ++FF G++I +  GS   AY PDY+   W++REA  
+Sbjct  75   EENWISYGYSLVDRDS--DEFSHHIIFFGGITICICFGSFLFAYFPDYKDVAWTQREAYL  132
+
+Query  125  LVKYREANGLPIMESNCFDPSKIQLPEDE  153
+             ++ R A G P++++N  DP+KIQLP+DE
+Sbjct  133  ELERRRAAGKPLIDANLIDPAKIQLPDDE  161
+
+
+> UniRef90_A0A2A3E6R9 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit n=4 Tax=Apis TaxID=7459 RepID=A0A2A3E6R9_APICC
+Length=145
+
+ Score = 77.8 bits (190),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 41/95 (43%), Positives = 62/95 (65%), Gaps = 3/95 (3%)
+
+Query  62   EDENLYE-KNP-DSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWS  118
+            E ENLYE KN   S+G+D ++   D   M + FF  +S++L+ G+  + Y PD  +K+W+
+Sbjct  42   EKENLYEVKNAWVSYGFDNENKENDRQAMHITFFTCISVVLIFGALIIGYAPDPLLKDWA  101
+
+Query  119  RREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +REA   ++YRE NGLP+++ N  DPSK  LP +E
+Sbjct  102  QREAYLQLRYREENGLPLIDPNLIDPSKFTLPSEE  136
+
+
+> UniRef90_A0A1B0CV98 Uncharacterized protein n=1 Tax=Lutzomyia 
+longipalpis TaxID=7200 RepID=A0A1B0CV98_LUTLO
+Length=150
+
+ Score = 77.4 bits (189),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 50/142 (35%), Positives = 77/142 (54%), Gaps = 5/142 (4%)
+
+Query  13   LLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPD  72
+            L+  +A RGL    +      +R +      +   P  PTTP   D    D  L +KN  
+Sbjct  4    LVRLSALRGLRNT-IHTAYRQTRAISTSPKNSETEPISPTTPI--DTTKLDAEL-KKNWM  59
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G++ KD   D    +  FFF +++ +V GS   AYLPDYR+++W++REA   ++ REA
+Sbjct  60   SYGFETKDEYQDRSQTKASFFFTITLCIVWGSFIYAYLPDYRLRDWAQREAFLEIRRREA  119
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+             GL  ++ N  DP+ ++LP DE
+Sbjct  120  LGLDHIDKNYIDPATMELPSDE  141
+
+
+> UniRef90_W4XFE2 Uncharacterized protein n=1 Tax=Strongylocentrotus 
+purpuratus TaxID=7668 RepID=W4XFE2_STRPU
+Length=169
+
+ Score = 77.8 bits (190),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 34/81 (42%), Positives = 53/81 (65%), Gaps = 0/81 (0%)
+
+Query  73   SHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREAN  132
+            +HG+  DP  D +  R++FF  +SI++V G  FV YLPD   +EW+R+EA  ++  R A 
+Sbjct  82   THGFHDDPYWDTYAYRVIFFTTISIVMVFGPAFVHYLPDPTGREWARKEALVVLDERRAA  141
+
+Query  133  GLPIMESNCFDPSKIQLPEDE  153
+            G  +++ N  DPSK+ LPE++
+Sbjct  142  GALVIDPNFIDPSKLVLPEED  162
+
+
+> UniRef90_R7VHB6 Uncharacterized protein n=1 Tax=Capitella teleta 
+TaxID=283909 RepID=R7VHB6_CAPTE
+Length=182
+
+ Score = 78.2 bits (191),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 41/87 (47%), Positives = 54/87 (62%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            E+N  S GYD  D   D +    + FF V++ LV G  ++ Y PDYRM+EWS+REA   +
+Sbjct  87   EENWISFGYDFVDRDQDEFAHHTILFFSVTLALVCGGYYLMYAPDYRMREWSQREAYLEL  146
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+              REA GLP+++ N  D SKI LP DE
+Sbjct  147  ARREAKGLPLVDGNLIDVSKITLPPDE  173
+
+
+> UniRef90_A0A310SUN2 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=2 Tax=Eufriesea mexicana 
+TaxID=516756 RepID=A0A310SUN2_9HYME
+Length=265
+
+ Score = 78.6 bits (192),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 38/82 (46%), Positives = 54/82 (66%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S G+D KD  +D   M L  F  +SI LV GS  + Y+PD R+K+WS+REA   ++Y+E 
+Sbjct  175  SFGFDDKDKKVDRQAMHLTLFVSISICLVCGSFVLGYMPDPRLKDWSQREAFLQIRYKEE  234
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            +GLP+++ N  DPSK  LP +E
+Sbjct  235  HGLPLIDPNIVDPSKFTLPSEE  256
+
+
+> UniRef90_A0A154NZ72 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Dufourea novaeangliae 
+TaxID=178035 RepID=A0A154NZ72_9HYME
+Length=149
+
+ Score = 75.9 bits (185),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 38/82 (46%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+D K+  +D   M L  F  V+I LVL +  + Y+PD  MK+W+ REA   ++YRE 
+Sbjct  59   SYGFDYKNKEVDRHKMHLTTFVCVTIGLVLHAFILGYMPDVTMKDWALREAFLQLRYREE  118
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP++  N  DPSK+ LP DE
+Sbjct  119  NGLPLVNPNVIDPSKVILPTDE  140
+
+
+> UniRef90_D6X340 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial-like Protein (Fragment) n=2 Tax=Tribolium 
+castaneum TaxID=7070 RepID=D6X340_TRICA
+Length=99
+
+ Score = 74.3 bits (181),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 39/87 (45%), Positives = 54/87 (62%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+             KN  S+G+D K    D   M  + F  V++ LV G  F+ Y PDY +K+WS+REA   +
+Sbjct  4    HKNWVSYGFDAKGKESDRTAMHSIMFASVTLCLVCGGYFMMYAPDYNLKDWSQREAFLEL  63
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            + RE  GLP+++ N  DP+KIQLP DE
+Sbjct  64   RRREKMGLPLVDPNLIDPAKIQLPSDE  90
+
+
+> UniRef90_A0A2T7NUR1 Uncharacterized protein n=1 Tax=Pomacea canaliculata 
+TaxID=400727 RepID=A0A2T7NUR1_POMCA
+Length=166
+
+ Score = 75.9 bits (185),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 35/87 (40%), Positives = 55/87 (63%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYDK-DPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            +KN  S+GY+  DP LD +   +  F  +++ +  GS  +AY+PDY+++ W +REA   +
+Sbjct  71   DKNWVSYGYETADPQLDYFAHHVTMFLAITVCICWGSFILAYMPDYKLRSWCQREAYLEL  130
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            + RE  GLP++  +  DPSKI LP DE
+Sbjct  131  ERREREGLPLVSPDYVDPSKINLPSDE  157
+
+
+> UniRef90_A0A0K8TPL1 Putative conserved plasma membrane protein 
+n=1 Tax=Tabanus bromius TaxID=304241 RepID=A0A0K8TPL1_TABBR
+Length=150
+
+ Score = 75.1 bits (183),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 39/97 (40%), Positives = 61/97 (63%), Gaps = 1/97 (1%)
+
+Query  58   DPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKE  116
+            D + E  +  +KN  S+G+D KD   D  +M+  FFF V++ +V G+   AYLPD ++++
+Sbjct  45   DAKTETASGQKKNWVSYGFDYKDEARDRSSMKASFFFSVTLCIVWGTFIWAYLPDTQLRD  104
+
+Query  117  WSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            W++RE    ++ REA GL ++  N  DPS+I LP DE
+Sbjct  105  WAQREGFLELRRREAAGLDLISPNYVDPSQIALPSDE  141
+
+
+> UniRef90_A0A0L7QXD1 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Habropoda laboriosa 
+TaxID=597456 RepID=A0A0L7QXD1_9HYME
+Length=146
+
+ Score = 74.7 bits (182),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 38/82 (46%), Positives = 50/82 (61%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G++  D  +D   M   FF  +SI LV GS  V Y PD  +K+W+ REA   ++YRE 
+Sbjct  56   SYGFNYNDKKMDRHFMHHTFFITISICLVFGSLIVGYAPDPLLKDWALREAYLQLRYREE  115
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP ++ N  DPSK  LP DE
+Sbjct  116  NGLPHIDPNLIDPSKFTLPSDE  137
+
+
+> UniRef90_A0A158NWV3 Uncharacterized protein n=4 Tax=Attini TaxID=143999 
+RepID=A0A158NWV3_ATTCE
+Length=143
+
+ Score = 73.9 bits (180),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 41/103 (40%), Positives = 60/103 (58%), Gaps = 1/103 (1%)
+
+Query  52   TTPWQEDPEPEDENLYEKNPDSHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLP  110
+            TT  + D   E+    ++   S+G+  K+ + D   +    F  VSI+ V+G T +AYLP
+Sbjct  32   TTSSRHDGIKEETKPVKRKWVSYGFSHKNEIEDRHALHQTMFVCVSIVFVIGCTVMAYLP  91
+
+Query  111  DYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            D R K+W++REA   ++YRE +GLP +  N  D SKI LP DE
+Sbjct  92   DVRGKDWAQREAYLQLRYREEHGLPPISPNYIDASKIILPTDE  134
+
+
+> UniRef90_A0A195BHS7 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Atta colombica TaxID=520822 
+RepID=A0A195BHS7_9HYME
+Length=139
+
+ Score = 73.6 bits (179),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 41/103 (40%), Positives = 60/103 (58%), Gaps = 1/103 (1%)
+
+Query  52   TTPWQEDPEPEDENLYEKNPDSHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLP  110
+            TT  + D   E+    ++   S+G+  K+ + D   +    F  VSI+ V+G T +AYLP
+Sbjct  33   TTSNRHDGIKEETKPVKRKWVSYGFSHKNEIEDRHALHQTMFVCVSIVFVIGCTVMAYLP  92
+
+Query  111  DYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            D R K+W++REA   ++YRE +GLP +  N  D SKI LP DE
+Sbjct  93   DVRGKDWAQREAYLQLRYREEHGLPPISPNYIDASKIILPTDE  135
+
+
+> UniRef90_A0A1L8DZQ3 Putative nadh dehydrogenase ubiquinone 1 
+beta subcomplex subunit 11 mitochondrial n=1 Tax=Nyssomyia neivai 
+TaxID=330878 RepID=A0A1L8DZQ3_9DIPT
+Length=150
+
+ Score = 73.6 bits (179),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 45/121 (37%), Positives = 68/121 (56%), Gaps = 4/121 (3%)
+
+Query  34   SRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFF  92
+            +RT+      +   P  PTTP   D    D  L +KN  S+G++ KD   D    R  FF
+Sbjct  24   TRTLSTSPKNSETEPISPTTPI--DTSKLDAEL-KKNWMSYGFEAKDEYRDRSQTRATFF  80
+
+Query  93   FGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPED  152
+              +++ +V GS   AYLPD+R+++W++REA   ++ REA GL  ++ N  DP+ + LP D
+Sbjct  81   VTITLCIVWGSFIYAYLPDWRLRDWAQREAFLEIRRREALGLDYIDMNYVDPATVVLPTD  140
+
+Query  153  E  153
+            E
+Sbjct  141  E  141
+
+
+> UniRef90_A0A2G8KBV0 Putative NADH dehydrogenase n=1 Tax=Stichopus 
+japonicus TaxID=307972 RepID=A0A2G8KBV0_STIJA
+Length=164
+
+ Score = 73.9 bits (180),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 54/79 (68%), Gaps = 0/79 (0%)
+
+Query  75   GYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGL  134
+            G+DK+  +D+W+ R + FFGVS++LVLG  +  +LPD +  +W+R EA R+++ R   GL
+Sbjct  82   GFDKNNFIDLWSKRFILFFGVSVVLVLGPVYYHFLPDNKNIKWNRAEALRVLQERREAGL  141
+
+Query  135  PIMESNCFDPSKIQLPEDE  153
+            P+++ +     KI LP+++
+Sbjct  142  PLIDPDFVSRDKIVLPDED  160
+
+
+> UniRef90_V5GV76 NADH dehydrogenase (Ubiquinone) beta subcomplex 
+subunit, mitochondrial (Fragment) n=1 Tax=Anoplophora glabripennis 
+TaxID=217634 RepID=V5GV76_ANOGL
+Length=133
+
+ Score = 72.4 bits (176),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 37/87 (43%), Positives = 55/87 (63%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            EKN  S+G+D      D   +  + F  +++ LV+G  F+AY+PDY  ++W++REA   +
+Sbjct  38   EKNWISYGFDYTTKAGDRNALHSIMFGSITLCLVVGGFFLAYMPDYNNRDWAQREAFLEL  97
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            + RE NGLP++  N  DPSKI LP DE
+Sbjct  98   RRREQNGLPLINPNFVDPSKIPLPSDE  124
+
+
+> UniRef90_A0A1I8MQN3 Uncharacterized protein n=4 Tax=Muscinae 
+TaxID=43910 RepID=A0A1I8MQN3_MUSDO
+Length=143
+
+ Score = 72.4 bits (176),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 39/86 (45%), Positives = 55/86 (64%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S+G+D KD   D  + +  FFF V++ LV G+ F AYLPD +M++W++REA   ++
+Sbjct  49   KNWVSYGFDHKDEANDRNSTKASFFFAVTLCLVWGTFFWAYLPDTQMRDWAQREAFLELR  108
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             RE  GL ++  N  DPS I LP DE
+Sbjct  109  RREKAGLDLVSPNYVDPSTIVLPSDE  134
+
+
+> UniRef90_A0A2J7Q8H0 Uncharacterized protein n=1 Tax=Cryptotermes 
+secundus TaxID=105785 RepID=A0A2J7Q8H0_9NEOP
+Length=152
+
+ Score = 70.9 bits (172),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 39/101 (39%), Positives = 57/101 (56%), Gaps = 1/101 (1%)
+
+Query  54   PWQEDPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDY  112
+            P  +    E   + +KN  S+G+D K+   D   M   FFF +++ +V G     Y PD 
+Sbjct  43   PTSKSETTESTAVSKKNWVSYGFDFKNEEDDRNAMHSAFFFSITLCIVFGGFVFTYYPDV  102
+
+Query  113  RMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+             +++WS+REA   ++ REA GLP ++ N  DPSKI LP DE
+Sbjct  103  MLRDWSQREAYLELRRREALGLPPIDRNLIDPSKIVLPSDE  143
+
+
+> UniRef90_A0A0M9ACY3 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Melipona quadrifasciata 
+TaxID=166423 RepID=A0A0M9ACY3_9HYME
+Length=142
+
+ Score = 70.9 bits (172),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 37/82 (45%), Positives = 52/82 (63%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+GY   D   D   M L FFF +SI LVL    + Y PD  +K+W++REA   ++Y+E 
+Sbjct  52   SYGYYYDDEKKDRQAMHLSFFFSISITLVLSFLILGYTPDPFLKDWAQREAYLQLRYKEE  111
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            +GLP ++ N  DPSKI+LP +E
+Sbjct  112  HGLPPIDPNLIDPSKIKLPTEE  133
+
+
+> UniRef90_K7IRR4 Uncharacterized protein n=2 Tax=Pteromalinae 
+TaxID=272242 RepID=K7IRR4_NASVI
+Length=161
+
+ Score = 70.9 bits (172),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 51/159 (32%), Positives = 81/159 (51%), Gaps = 16/159 (10%)
+
+Query  3    AGLFGL-SARRLLAAAATRGLPA--ARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDP  59
+            AG+  L +A+RL+     R  PA  +R R   +  R V      +G +  E TT  Q   
+Sbjct  2    AGIMCLRNAQRLVG----RLSPAVVSRTRQPLNLCRAV----GTSGTQKSETTTVDQTKT  53
+
+Query  60   EPEDENLYEKNPD----SHGYDKDP-VLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRM  114
+                    E  P     S+G+ ++   LD   M +  F  +S++  +G   + YLPD+RM
+Sbjct  54   ATTTATECEIKPKKYWVSYGFSEESEYLDRHFMHMFTFISISVVFGIGGYILIYLPDFRM  113
+
+Query  115  KEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            ++W+ REA   ++ RE +GLP+++ N  DP+K+ LP DE
+Sbjct  114  RDWALREAYLELRRREQSGLPLIDPNVIDPAKVILPSDE  152
+
+
+> UniRef90_A0A067RH50 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Zootermopsis nevadensis 
+TaxID=136037 RepID=A0A067RH50_ZOONE
+Length=152
+
+ Score = 70.1 bits (170),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 38/101 (38%), Positives = 55/101 (54%), Gaps = 1/101 (1%)
+
+Query  54   PWQEDPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDY  112
+            P  +    E   + +KN  S+GYD K    D   M   FFF +++ +V G     Y PD 
+Sbjct  43   PTDKSETTESTIVSKKNWVSYGYDFKRQEDDTNAMHSTFFFSITLCIVFGGFVFTYYPDV  102
+
+Query  113  RMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+             +++W++REA   ++ REA GLP ++ N  DP KI LP DE
+Sbjct  103  LLRDWAQREAYLELRRREAQGLPPIDRNLIDPQKIVLPSDE  143
+
+
+> UniRef90_U5EES5 Uncharacterized protein n=1 Tax=Corethrella appendiculata 
+TaxID=1370023 RepID=U5EES5_9DIPT
+Length=157
+
+ Score = 69.7 bits (169),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 38/87 (44%), Positives = 56/87 (64%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            +KN  S+G+D KD   D   M+  FFF V++ +V+G  F AYLPD  +++WS+REA  ++
+Sbjct  62   KKNWVSYGWDFKDKKTDRDAMKASFFFSVTLCMVIGGFFWAYLPDPNLRDWSQREAYLVL  121
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            + REA G   +  N  DP+K+ LP DE
+Sbjct  122  RRREAAGEEPVNPNYIDPAKLILPSDE  148
+
+
+> UniRef90_A0A0P5C054 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Daphnia magna TaxID=35525 
+RepID=A0A0P5C054_9CRUS
+Length=116
+
+ Score = 68.6 bits (166),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  26   SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  85
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  86   NGLPLLDPNYVEESKIVLPSEE  107
+
+
+> UniRef90_A0A0P5ACX9 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Daphnia magna TaxID=35525 
+RepID=A0A0P5ACX9_9CRUS
+Length=121
+
+ Score = 68.6 bits (166),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  31   SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  90
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  91   NGLPLLDPNYVEESKIVLPSEE  112
+
+
+> UniRef90_A0A0P5KU61 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Daphnia magna TaxID=35525 
+RepID=A0A0P5KU61_9CRUS
+Length=148
+
+ Score = 68.9 bits (167),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  58   SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  117
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  118  NGLPLLDPNYVEESKIVLPSEE  139
+
+
+> UniRef90_A0A0P4Y9C2 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Daphnia magna TaxID=35525 
+RepID=A0A0P4Y9C2_9CRUS
+Length=151
+
+ Score = 68.6 bits (166),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  61   SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  120
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  121  NGLPLLDPNYVEESKIVLPSEE  142
+
+
+> UniRef90_B4JYK5 GH14310 n=3 Tax=Drosophila TaxID=2081351 RepID=B4JYK5_DROGR
+Length=156
+
+ Score = 68.6 bits (166),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 53/161 (33%), Positives = 80/161 (50%), Gaps = 25/161 (16%)
+
+Query  3    AGLFGLSARRL-------LAAAAT--RGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTT  53
+            + LF L++R +       ++ AAT  R      ++       TV AP++V        TT
+Sbjct  2    SALFRLTSRAVALQRSVAISQAATLQRATSCRSIKTSPKKDETVAAPASV--------TT  53
+
+Query  54   PWQEDPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDY  112
+                +P P       KN  S+G+D K    D    +  FFF V++ LV G+ + AYLPD 
+Sbjct  54   EDFANPSP-------KNWMSYGFDYKTEADDRKATKSTFFFAVTLCLVWGTFYWAYLPDT  106
+
+Query  113  RMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +++ W++RE    ++ RE  GL ++  N  DPSKI LP DE
+Sbjct  107  QLRSWAQREGFLELRRREQAGLDLISPNYVDPSKIVLPSDE  147
+
+
+> UniRef90_T1JFL1 Uncharacterized protein n=1 Tax=Strigamia maritima 
+TaxID=126957 RepID=T1JFL1_STRMM
+Length=155
+
+ Score = 68.2 bits (165),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 38/93 (41%), Positives = 57/93 (61%), Gaps = 1/93 (1%)
+
+Query  62   EDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRR  120
+            E++ L +K+  S+GYD  +   D     L +F G+S+ L+ GS  V Y+PDYRMK+W+ R
+Sbjct  54   EEKILQKKDWVSYGYDYTNETQDRIAAHLTWFGGLSLALIGGSFLVRYMPDYRMKDWAVR  113
+
+Query  121  EAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            EA   +  RE NGLP+++ +     KI LP +E
+Sbjct  114  EAFLEIHRRETNGLPLIDEDLIPRDKIILPTEE  146
+
+
+> UniRef90_A0A0P5RF83 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial (Fragment) n=2 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P5RF83_9CRUS
+Length=186
+
+ Score = 68.9 bits (167),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  96   SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  155
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  156  NGLPLLDPNYVEESKIVLPSEE  177
+
+
+> UniRef90_A0A0P5ESD5 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial (Fragment) n=19 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P5ESD5_9CRUS
+Length=190
+
+ Score = 68.6 bits (166),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  100  SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  159
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  160  NGLPLLDPNYVEESKIVLPSEE  181
+
+
+> UniRef90_A0A1B6CJL6 Uncharacterized protein (Fragment) n=1 Tax=Clastoptera 
+arizonana TaxID=38151 RepID=A0A1B6CJL6_9HEMI
+Length=163
+
+ Score = 67.8 bits (164),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  86   NMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPS  145
+            NM  VFFF V+I L LG+  +AY PD  + +W+ RE    ++ RE  GLP+++ N  DP+
+Sbjct  87   NMHSVFFFAVTIGLTLGAFSLAYQPDLLLNDWAHREGYLELRRREKLGLPLIDPNYVDPA  146
+
+Query  146  KIQLPEDE  153
+            ++QLP DE
+Sbjct  147  QVQLPSDE  154
+
+
+> UniRef90_A0A0P5H8A6 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial (Fragment) n=1 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P5H8A6_9CRUS
+Length=254
+
+ Score = 69.3 bits (168),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  164  SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  223
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  224  NGLPLLDPNYVEESKIVLPSEE  245
+
+
+> UniRef90_A0A1Q3FYR9 Putative ubiquinone oxidoreductase esss subunit 
+n=1 Tax=Culex tarsalis TaxID=7177 RepID=A0A1Q3FYR9_CULTA
+Length=157
+
+ Score = 67.4 bits (163),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 34/82 (41%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+D K+   D   M   FFF V++ LV G+ + +YLPD ++++WS+REA   ++ REA
+Sbjct  67   SYGFDTKNETDDKNAMHASFFFSVTLCLVFGTFYWSYLPDTQLQDWSQREAYLELRRREA  126
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+             GL  +  +  DP++I LP DE
+Sbjct  127  AGLEPISKDFIDPARIVLPSDE  148
+
+
+> UniRef90_W5JJY1 Mitochondrial NADH:ubiquinone oxidoreductase 
+ESSS subunit n=6 Tax=Nyssorhynchus TaxID=44543 RepID=W5JJY1_ANODA
+Length=152
+
+ Score = 67.0 bits (162),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 36/86 (42%), Positives = 54/86 (63%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYDK-DPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S+G+D+ D   D       FFF V++ LVLG  + +YLPD ++++WS+REA   ++
+Sbjct  58   KNWVSYGFDRHDEAEDRSATHASFFFAVTLCLVLGGAYWSYLPDPQLQDWSQREAYLELR  117
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             REA GL  +  +  DP++I LP DE
+Sbjct  118  RREAAGLEPISKDFIDPAQIVLPSDE  143
+
+
+> UniRef90_A0A0P6JTR7 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial (Fragment) n=1 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P6JTR7_9CRUS
+Length=347
+
+ Score = 69.3 bits (168),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 53/82 (65%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+G+   D   DV +  +  F GV++ +VLGS    Y PD  +K+W++REA  LV+ REA
+Sbjct  257  SYGFHPTDQYEDVASAHVFSFLGVTLCMVLGSLVYYYGPDRTLKDWAQREAYLLVREREA  316
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+            NGLP+++ N  + SKI LP +E
+Sbjct  317  NGLPLLDPNYVEESKIVLPSEE  338
+
+
+> UniRef90_B4K5Z1 Uncharacterized protein n=3 Tax=mojavensis species 
+complex TaxID=198037 RepID=B4K5Z1_DROMO
+Length=153
+
+ Score = 66.6 bits (161),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 48/152 (32%), Positives = 76/152 (50%), Gaps = 10/152 (7%)
+
+Query  3    AGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPE  62
+            + LF L++R +    +     AA +R   S   +      VA   P   TT    +P P 
+Sbjct  2    SALFRLTSRAVALQRSAALNQAAALRLCRSIKTSPKKDETVAA--PATVTTEDFANPNP-  58
+
+Query  63   DENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRRE  121
+                  KN  S+G+D K    D  + +  FFF V++ LV G+ + +YLPD ++++W++RE
+Sbjct  59   ------KNWISYGFDYKSEAEDRKSTKSTFFFAVTLCLVWGTFYWSYLPDTKLRDWAQRE  112
+
+Query  122  AERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+                ++ RE  G+ ++  N  DP KI LP DE
+Sbjct  113  GFLELRRREEAGVDLISPNYVDPDKIVLPSDE  144
+
+
+> UniRef90_E9H5E9 Uncharacterized protein n=1 Tax=Daphnia pulex 
+TaxID=6669 RepID=E9H5E9_DAPPU
+Length=156
+
+ Score = 66.6 bits (161),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 48/76 (63%), Gaps = 0/76 (0%)
+
+Query  78   KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIM  137
+            +D   DV    L   FG+++ +V+GS    Y PD+ +++WS+REA  LV+ REA GLP++
+Sbjct  72   QDETEDVALAHLFSLFGITLCIVIGSLAYMYGPDHALRDWSQREAYLLVREREAKGLPLL  131
+
+Query  138  ESNCFDPSKIQLPEDE  153
+            + N  D S + LP +E
+Sbjct  132  DPNYVDESTVVLPSEE  147
+
+
+> UniRef90_A0A0L0CB83 Uncharacterized protein n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0CB83_LUCCU
+Length=150
+
+ Score = 65.9 bits (159),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 34/86 (40%), Positives = 53/86 (62%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S G+D KD   D  + +  FFF V++ L  G+ F AYLPD ++++W++REA   ++
+Sbjct  56   KNWVSFGFDTKDETNDRNSTKSSFFFAVTLCLAWGTFFWAYLPDTQLRDWAQREAYLELR  115
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             RE  G+ ++  N  DP+ I LP D+
+Sbjct  116  RREKAGVDLVSPNYVDPASISLPSDD  141
+
+
+> UniRef90_Q9V3L7 GEO04710p1 n=11 Tax=melanogaster group TaxID=32346 
+RepID=Q9V3L7_DROME
+Length=150
+
+ Score = 65.5 bits (158),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 35/86 (41%), Positives = 51/86 (59%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S+G+D KD V D    +  FF  V++ LV GS + AYLPD + + W++RE    ++
+Sbjct  56   KNWQSYGFDYKDQVEDRKATKSTFFVTVTLCLVWGSFYWAYLPDTQFRNWAQREGFLELR  115
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             RE  G+ ++  N  DP+ I LP DE
+Sbjct  116  RRELAGVDLVSPNYVDPASITLPSDE  141
+
+
+> UniRef90_C1BPZ7 NADH dehydrogenase 1 beta subcomplex subunit 
+11, mitochondrial n=1 Tax=Caligus rogercresseyi TaxID=217165 
+RepID=C1BPZ7_CALRO
+Length=146
+
+ Score = 65.1 bits (157),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 50/150 (33%), Positives = 73/150 (49%), Gaps = 15/150 (10%)
+
+Query  4    GLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPED  63
+             L+G S+R L+     +  PA   +  S+ SR V+A       R  E  T + +  E   
+Sbjct  3    ALYGRSSRILIQNILCKRHPALLKQCLST-SRPVLA-------RTDEEITEYVKKIEA--  52
+
+Query  64   ENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAE  123
+                 K+  S+GYD+D       M     F    I   GS ++ YLPDY+ ++WS REA 
+Sbjct  53   -----KHWTSYGYDEDNQKQDKLMMNFACFLFMFIFAYGSFWLYYLPDYKYRDWSLREAY  107
+
+Query  124  RLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+             ++  RE  GLP ++ N  DP+ I+LP DE
+Sbjct  108  IVLNQRERAGLPPVDKNFIDPALIELPSDE  137
+
+
+> UniRef90_B3LVB5 Uncharacterized protein n=2 Tax=ananassae subgroup 
+TaxID=32347 RepID=B3LVB5_DROAN
+Length=150
+
+ Score = 65.1 bits (157),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 48/155 (31%), Positives = 79/155 (51%), Gaps = 19/155 (12%)
+
+Query  3    AGLFGLSARRLLAAAATRGLPAARVRWESSFSR---TVVAPSAVAGKRPPEPTTPWQEDP  59
+            + LF L++R +    +    PA  VR  ++  +   TV AP++V        TT    +P
+Sbjct  2    SALFRLTSRAVAMQRSLVARPAVAVRAINTSQKKDETVAAPTSV--------TTEDFANP  53
+
+Query  60   EPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWS  118
+             P       KN  S+G+D K+   D    +  FF  V++ LV G+ + AYLPD + ++W+
+Sbjct  54   SP-------KNWQSYGFDYKEQAEDRKATKSTFFVTVTLCLVWGTFYWAYLPDTQFRDWA  106
+
+Query  119  RREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +RE    ++ RE  GL ++  +  DP+ I LP D+
+Sbjct  107  QREGFLELRRREQAGLDLVSPDYVDPASITLPSDD  141
+
+
+> UniRef90_A0A0N7ZDC2 Uncharacterized protein n=1 Tax=Scylla olivacea 
+TaxID=85551 RepID=A0A0N7ZDC2_9EUCA
+Length=155
+
+ Score = 65.1 bits (157),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 34/86 (40%), Positives = 53/86 (62%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYDK-DPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S G+D+   V D   M + FF  +++ +V      +YLPD+RM++W++REA   ++
+Sbjct  61   KNWVSWGFDRFSQVEDNSTMHMTFFVAITLCIVTTGFIWSYLPDFRMRDWAQREAFLELR  120
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             REA GLP ++ +     KI+LPEDE
+Sbjct  121  RREALGLPAIDPDLVPLDKIELPEDE  146
+
+
+> UniRef90_A0A182FDE3 Uncharacterized protein n=1 Tax=Anopheles 
+albimanus TaxID=7167 RepID=A0A182FDE3_ANOAL
+Length=624
+
+ Score = 67.8 bits (164),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/87 (41%), Positives = 54/87 (62%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYDK-DPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+             KN  S+G+D+ D   D       FFF V++ LVLG  + +YLPD ++++WS+REA   +
+Sbjct  529  NKNWVSYGFDRHDEAEDRSATHASFFFAVTLCLVLGGAYWSYLPDPQLQDWSQREAYLEL  588
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            + REA GL  +  +  DP++I LP DE
+Sbjct  589  RRREAAGLDPISKDFIDPAQIVLPSDE  615
+
+
+> UniRef90_B4NHZ0 Uncharacterized protein n=1 Tax=Drosophila willistoni 
+TaxID=7260 RepID=B4NHZ0_DROWI
+Length=154
+
+ Score = 64.3 bits (155),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 51/159 (32%), Positives = 77/159 (48%), Gaps = 23/159 (14%)
+
+Query  3    AGLFGLSAR------RLLAAAATRGLPAAR-VRWESSFSRTVVAPSAVAGKRPPEPTTPW  55
+            + LF L++R       L    A   L A R ++       T+ AP++V        TT  
+Sbjct  2    SALFRLTSRAVALQRSLAIKQAYSSLHACRTIKTSPKKDETIAAPASV--------TTED  53
+
+Query  56   QEDPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRM  114
+              +P P       KN  S+G+D K    D    +  FFF V++ LV G+ + AYLPD ++
+Sbjct  54   FANPNP-------KNWVSYGFDYKTEADDRKATKSTFFFAVTLCLVWGTFYWAYLPDTQI  106
+
+Query  115  KEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            + W++RE    ++ RE  G+ ++  N  DPS I LP DE
+Sbjct  107  RNWAQREGFLELRRREQAGVDLVSPNYVDPSSIVLPSDE  145
+
+
+> UniRef90_A0A087TLE2 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial (Fragment) n=1 Tax=Stegodyphus 
+mimosarum TaxID=407821 RepID=A0A087TLE2_9ARAC
+Length=160
+
+ Score = 64.3 bits (155),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 41/122 (34%), Positives = 65/122 (53%), Gaps = 11/122 (9%)
+
+Query  36   TVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDS---HGYDK-DPVLDVWNMRLVF  91
+            T+V P  +  K+ P P       P   ++    KNP S   +G+D+ D   D +    ++
+Sbjct  37   TLVYPDDLFPKKQPPP-------PRTVEDFAETKNPKSWISYGFDENDYEEDRFQSNYLY  89
+
+Query  92   FFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPE  151
+            F  +S+++  G+  +AY PD++ K+W  REA   +  RE  GLP+++ N  DP KI LP 
+Sbjct  90   FLLISVLICGGTFLLAYAPDFQDKDWIAREARLELHRRETLGLPLVDKNYIDPEKIVLPT  149
+
+Query  152  DE  153
+            DE
+Sbjct  150  DE  151
+
+
+> UniRef90_A0A0L8G2R8 Uncharacterized protein n=1 Tax=Octopus bimaculoides 
+TaxID=37653 RepID=A0A0L8G2R8_OCTBM
+Length=164
+
+ Score = 63.5 bits (153),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 40/105 (38%), Positives = 59/105 (56%), Gaps = 4/105 (4%)
+
+Query  53   TPWQEDPEPEDENLYE---KNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAY  108
+            TP  +  E   ENL E   KN  ++GYD  D  LD +   +  F  +++ +V G+  +AY
+Sbjct  52   TPELKGLEKHFENLDESDDKNWINYGYDFVDKDLDRFIHNMTMFISITLCVVGGTYLLAY  111
+
+Query  109  LPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            LPD R+KEWS REA   +  RE+ GL ++  +   P  I+LP D+
+Sbjct  112  LPDGRLKEWSLREAYLELDRRESEGLDLISPDFLSPESIELPPDD  156
+
+
+> UniRef90_J9K6Q7 Uncharacterized protein n=4 Tax=Aphidinae TaxID=133076 
+RepID=J9K6Q7_ACYPI
+Length=143
+
+ Score = 63.2 bits (152),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 32/87 (37%), Positives = 50/87 (57%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYDKDPVLDVWN-MRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            ++N  S+G++KD   +  N M    FF +++ +V G    AY+PDY  K W  REA   +
+Sbjct  48   KRNWQSYGFEKDDETEDLNAMHATGFFSITLCIVGGIFMFAYMPDYNYKNWGEREAFLEL  107
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            + RE  GLP+++ N   P  +QLP +E
+Sbjct  108  RRREDQGLPLIDPNYIQPHLMQLPTEE  134
+
+
+> UniRef90_A0A2H1VIK0 SFRICE_000553 n=2 Tax=Spodoptera TaxID=7106 
+RepID=A0A2H1VIK0_SPOFR
+Length=143
+
+ Score = 62.8 bits (151),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 36/94 (38%), Positives = 54/94 (57%), Gaps = 6/94 (6%)
+
+Query  60   EPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWS  118
+            +PED+N       S+G+D K    D       FFF V++ LV G    AY PD  +++W+
+Sbjct  45   KPEDKNWV-----SYGFDYKSKEEDTNAHNASFFFSVTLCLVFGGFAWAYAPDTHLRDWA  99
+
+Query  119  RREAERLVKYREANGLPIMESNCFDPSKIQLPED  152
+            +REA   ++ RE  GLP ++ N  DP +I+LP+D
+Sbjct  100  QREAFLELRRREKAGLPPIDPNFIDPKQIKLPKD  133
+
+
+> UniRef90_A0A212F6X2 Putative mitochondrial NADH:ubiquinone oxidoreductase 
+ESSS subunit n=1 Tax=Danaus plexippus plexippus 
+TaxID=278856 RepID=A0A212F6X2_DANPL
+Length=141
+
+ Score = 62.4 bits (150),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 37/88 (42%), Positives = 51/88 (58%), Gaps = 2/88 (2%)
+
+Query  68   EKNPDSHGYDKDPVLDVWN-MRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            EKN  S+G+D D   +  N     FFF VS+ LV G    AY PD  M++W++REA   +
+Sbjct  46   EKNWVSYGFDYDSKEEDTNAHHAAFFFSVSLCLVFGGFCWAYAPDVHMRDWAQREAYIEL  105
+
+Query  127  KYREANGLPIMESNCFDPSKIQLP-EDE  153
+              RE  GLP ++ N  +P  ++LP EDE
+Sbjct  106  HRREKAGLPPIDPNYVNPKTVKLPSEDE  133
+
+
+> UniRef90_A0A1D2NFC4 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Orchesella cincta 
+TaxID=48709 RepID=A0A1D2NFC4_ORCCI
+Length=137
+
+ Score = 62.0 bits (149),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 42/138 (30%), Positives = 63/138 (46%), Gaps = 23/138 (17%)
+
+Query  23   PAARVRWESSFSRTVVAPSAVAGKRPP------EPTTPWQEDPEPEDENLYEKNPDSHGY  76
+            PAA +        T +   A+    P        P T WQ                S+G+
+Sbjct  7    PAAFISTSKKNRDTTIVTGAIHDAPPKTVEDFANPKTTWQ----------------SYGF  50
+
+Query  77   D-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLP  135
+            D KDP LD+     +FF  ++I +V     + Y PD RMK+W++REA   +  REA GLP
+Sbjct  51   DSKDPDLDINRRNFMFFITITIGIVGSGFIMTYSPDVRMKDWNQREAYIELARREALGLP  110
+
+Query  136  IMESNCFDPSKIQLPEDE  153
+             ++ N     +++LP +E
+Sbjct  111  PVDRNLVPVDQVELPSEE  128
+
+
+> UniRef90_B7PGT5 Uncharacterized protein n=2 Tax=Ixodes TaxID=6944 
+RepID=B7PGT5_IXOSC
+Length=155
+
+ Score = 62.4 bits (150),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 34/82 (41%), Positives = 51/82 (62%), Gaps = 2/82 (2%)
+
+Query  73   SHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+GY + D  +D     LV FFGV+ +L LG   + Y+PD+R  +W+ REA   ++ RE 
+Sbjct  66   SYGYSETDYTMDRDYHHLVMFFGVTFMLGLGF-IMMYIPDFRDLDWTEREAYLRLERREK  124
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+             GLP ++ N  DPS++ LP +E
+Sbjct  125  LGLPKIDRNLVDPSRLTLPSEE  146
+
+
+> UniRef90_Q29BT2 Uncharacterized protein n=5 Tax=Sophophora TaxID=32341 
+RepID=Q29BT2_DROPS
+Length=153
+
+ Score = 62.4 bits (150),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 48/158 (30%), Positives = 79/158 (50%), Gaps = 22/158 (14%)
+
+Query  3    AGLFGLSAR-----RLLAAAATRGLPAAR-VRWESSFSRTVVAPSAVAGKRPPEPTTPWQ  56
+            + LF +++R     R L A     L A R ++       T+ AP++V        TT   
+Sbjct  2    SALFRVTSRAVALQRSLVANQAATLRACRSIKTSPKKDETIAAPASV--------TTEDF  53
+
+Query  57   EDPEPEDENLYEKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMK  115
+             +P P       KN  S+G+D KD   D    +  FF  V++ LV G+ + +YLPD +++
+Sbjct  54   ANPSP-------KNWMSYGFDYKDQAEDRKATKATFFVTVTLCLVWGTFYWSYLPDTQIR  106
+
+Query  116  EWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +W++RE    ++ RE  G+ ++  +  DP+ I LP DE
+Sbjct  107  DWAQREGFLELRRREQAGVDLVSPDYVDPASISLPSDE  144
+
+
+> UniRef90_A0A195CKB8 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=2 Tax=Cyphomyrmex costatus 
+TaxID=456900 RepID=A0A195CKB8_9HYME
+Length=135
+
+ Score = 61.2 bits (147),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 41/103 (40%), Positives = 61/103 (59%), Gaps = 1/103 (1%)
+
+Query  52   TTPWQEDPEPEDENLYEKNPDSHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLP  110
+            TTP + D   E+    ++   S+G+ +KD   D+  +    F  +SI+ V+G   VAYLP
+Sbjct  24   TTPCRYDGIKEETKPVKRKWMSYGFSEKDEAEDIHALHQTMFVCISIVFVVGFAVVAYLP  83
+
+Query  111  DYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            D R K+W++REA   ++YRE +GL  +  +  DPSKI LP DE
+Sbjct  84   DVRGKDWAQREAYLRLRYREEHGLLPISPDYIDPSKIILPTDE  126
+
+
+> UniRef90_V5H8R3 Uncharacterized protein (Fragment) n=1 Tax=Ixodes 
+ricinus TaxID=34613 RepID=V5H8R3_IXORI
+Length=105
+
+ Score = 60.5 bits (145),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 32/82 (39%), Positives = 51/82 (62%), Gaps = 2/82 (2%)
+
+Query  73   SHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            ++GY + D  +D     LV FFG++ +L LG   + Y+PD+R ++W+ REA   ++ RE 
+Sbjct  16   TYGYSETDYTMDRDYHHLVMFFGITFMLGLGF-IMMYIPDFRDQDWTEREAYLRLERREK  74
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+             GLP ++ N  DPS + LP +E
+Sbjct  75   LGLPKIDRNLVDPSGLTLPSEE  96
+
+
+> UniRef90_A0A0L7LTQ9 Putative Mitochondrial NADH:ubiquinone oxidoreductase 
+ESSS subunit n=1 Tax=Operophtera brumata TaxID=104452 
+RepID=A0A0L7LTQ9_9NEOP
+Length=144
+
+ Score = 60.1 bits (144),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 49/86 (57%), Gaps = 1/86 (1%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            +KN  S+G+D K    D       FFF V++ LV G    AY PD  M++W++REA   +
+Sbjct  49   DKNWVSYGFDFKSKEEDTNAHHSSFFFSVTLCLVFGGFAWAYAPDVHMRDWAQREAFLEL  108
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPED  152
+            + RE  GLP+++ N  +P  + LP +
+Sbjct  109  RRREKAGLPLIDPNYINPKSVSLPSE  134
+
+
+> UniRef90_A0A2A4JX06 Uncharacterized protein n=2 Tax=Heliothinae 
+TaxID=95178 RepID=A0A2A4JX06_HELVI
+Length=143
+
+ Score = 59.7 bits (143),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 33/87 (38%), Positives = 52/87 (60%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYDKDPVLDVWNMRLV-FFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            +KN  S+G+D +   +  N+    FFF V++ LV G    AY PD  +++W++REA   +
+Sbjct  48   DKNWVSYGFDYNSKQEDTNVHHASFFFSVTLCLVFGGFAWAYAPDTHLRDWAQREAFLEL  107
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            + RE  GLP ++ N  D   I+LP+DE
+Sbjct  108  RRRERAGLPPIDPNYIDAKLIKLPKDE  134
+
+
+> UniRef90_A0A1A9YUG3 Uncharacterized protein n=1 Tax=Glossina 
+morsitans morsitans TaxID=37546 RepID=A0A1A9YUG3_GLOMM
+Length=151
+
+ Score = 59.7 bits (143),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 33/86 (38%), Positives = 50/86 (58%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S+G+D K    D    R  FFFG+++ +V G+   AYLPD  M++W++RE    ++
+Sbjct  57   KNWVSYGFDYKSEKNDRNATRSSFFFGLTLCIVWGTFIWAYLPDTLMRDWAQREGYLELR  116
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             RE  G  ++  N  DP+ I LP D+
+Sbjct  117  RREEAGADLVSPNYVDPASIILPSDD  142
+
+
+> UniRef90_A0A1W4WQC4 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Agrilus planipennis 
+TaxID=224129 RepID=A0A1W4WQC4_AGRPL
+Length=139
+
+ Score = 59.3 bits (142),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 29/87 (33%), Positives = 50/87 (57%), Gaps = 1/87 (1%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            EK   S+G++ +  + D   +    F  V++ LV+G     Y PDY +++W++REA   +
+Sbjct  44   EKQWISYGFEYESEIGDRLALHCTMFASVTLCLVVGGYVFMYAPDYALRDWAQREAYLEI  103
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+            K RE   LP+++    +P KI+LP +E
+Sbjct  104  KRREEANLPLIDKELINPKKIRLPSEE  130
+
+
+> UniRef90_A0A1A9W6P5 Uncharacterized protein n=1 Tax=Glossina 
+brevipalpis TaxID=37001 RepID=A0A1A9W6P5_9MUSC
+Length=150
+
+ Score = 59.3 bits (142),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 31/86 (36%), Positives = 52/86 (60%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S+G+D K    D    +  FFFG+++ +V G+   +YLPD  M++W++RE    ++
+Sbjct  56   KNWVSYGFDYKSETNDRNVTKSSFFFGLTLCIVWGTFVWSYLPDTLMRDWAQREGYLELR  115
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             REA G+ ++  N  +P+ I LP D+
+Sbjct  116  RREAAGVDLVSPNYINPASIILPSDD  141
+
+
+> UniRef90_A0A194RBW0 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=3 Tax=Papilio TaxID=7145 
+RepID=A0A194RBW0_PAPMA
+Length=142
+
+ Score = 58.9 bits (141),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 34/89 (38%), Positives = 52/89 (58%), Gaps = 5/89 (6%)
+
+Query  68   EKNPDSHGYD---KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAER  124
+            +KN  S+G+D   K+   +V N    FFF V++ LV G    AY PD  M++W++REA  
+Sbjct  47   DKNWVSYGFDYKSKEEDTNVHNAS--FFFSVTLCLVFGGFAWAYSPDIHMRDWAQREAYL  104
+
+Query  125  LVKYREANGLPIMESNCFDPSKIQLPEDE  153
+             ++ RE  GLP +  N  +P  ++LP +E
+Sbjct  105  ELRRREKAGLPPISPNYIEPKTVKLPSEE  133
+
+
+> UniRef90_K1QKK2 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=2 Tax=Crassostrea gigas TaxID=29159 
+RepID=K1QKK2_CRAGI
+Length=192
+
+ Score = 59.7 bits (143),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 37/95 (39%), Positives = 59/95 (62%), Gaps = 3/95 (3%)
+
+Query  62   EDENLYE-KNPDSHGYDKD-PVLDVWNMRLVFFFGVSIILVLG-STFVAYLPDYRMKEWS  118
+            +DE+L   KN   +GY+++ P +D +N   V++F   I +++G + F   L DY ++ WS
+Sbjct  67   KDEDLNSPKNRIPYGYEENVPEVDKFNYHTVWWFWFVIPVIVGIAIFNFSLNDYGLRSWS  126
+
+Query  119  RREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+             REA  +++ RE  GLP +E N  DPS I+LP +E
+Sbjct  127  EREARLVMEEREKKGLPYVEKNYIDPSMIELPSEE  161
+
+
+> UniRef90_H9JBG4 Uncharacterized protein n=1 Tax=Bombyx mori TaxID=7091 
+RepID=H9JBG4_BOMMO
+Length=143
+
+ Score = 58.9 bits (141),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 48/86 (56%), Gaps = 1/86 (1%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            +KN  S+G+D      D       FFF V++ +V G    AY PD  M++W++REA   +
+Sbjct  48   DKNWVSYGFDYTSKEEDTNAHHATFFFSVTLCIVFGGVCWAYSPDVHMRDWAQREAFLEL  107
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPED  152
+            + RE  GLP +  N  DP  I+LP++
+Sbjct  108  RRREKAGLPPISPNFIDPKLIKLPDE  133
+
+
+> UniRef90_A0A1B0C382 Uncharacterized protein n=3 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0C382_9MUSC
+Length=151
+
+ Score = 58.9 bits (141),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 51/86 (59%), Gaps = 1/86 (1%)
+
+Query  69   KNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            KN  S+G++ K+   D    R  FFFG+++ +V G+   +YLPD  M++W++RE    ++
+Sbjct  57   KNWVSYGFEYKNETDDRNATRSSFFFGLTLCIVWGTFVWSYLPDTLMRDWAQREGFLELR  116
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             RE  G  ++  N  DP+ I LP DE
+Sbjct  117  RREEAGADLVSPNYVDPANIILPSDE  142
+
+
+> UniRef90_A0A2P8YJT3 Uncharacterized protein n=1 Tax=Blattella 
+germanica TaxID=6973 RepID=A0A2P8YJT3_BLAGE
+Length=156
+
+ Score = 58.5 bits (140),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 40/146 (27%), Positives = 72/146 (49%), Gaps = 8/146 (5%)
+
+Query  16   AAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQ---EDPEPEDENLYEKNPD  72
+            AA  R L ++ +R   + S+     +    K+  +  +  Q   ++   +  N  ++N  
+Sbjct  2    AAVVRILQSSALRRSITLSKGNYVRAISTSKKNRDTVSVDQTADKNKVIDFSNPEKQNWV  61
+
+Query  73   SHGYDKDPVLD-VWNMRLVFFFGVSII----LVLGSTFVAYLPDYRMKEWSRREAERLVK  127
+            S+G+D +   D   +M   FFF ++ +    + +      Y PD  +++W +REA   +K
+Sbjct  62   SYGFDHEKQQDDTDSMHASFFFSITFVPRIEMCIRDRLYTYYPDVILRDWGQREAYLELK  121
+
+Query  128  YREANGLPIMESNCFDPSKIQLPEDE  153
+             RE  GLP+++ N  DP+KI LP DE
+Sbjct  122  RREDLGLPLIDRNLIDPAKIDLPSDE  147
+
+
+> UniRef90_S4PGP5 NP15.6 n=1 Tax=Pararge aegeria TaxID=116150 RepID=S4PGP5_9NEOP
+Length=149
+
+ Score = 57.8 bits (138),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 41/125 (33%), Positives = 61/125 (49%), Gaps = 7/125 (6%)
+
+Query  31   SSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKDPVLDVWNMRL-  89
+            S  SR +      +       T+   E P PED+N       S+G+D     +  N    
+Sbjct  22   SKASRNISTSKKNSDTVTHTATSECPEVPVPEDKNWV-----SYGFDYTSKEEDTNAHHS  76
+
+Query  90   VFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQL  149
+             FFF V++ LV GS   AY PD  +++W++REA   +  RE  GL  ++ N  +P  ++L
+Sbjct  77   AFFFSVTLCLVFGSFAWAYAPDVHLRDWAQREAYLELHRREKTGLKPIDPNYVNPKSVKL  136
+
+Query  150  P-EDE  153
+            P EDE
+Sbjct  137  PSEDE  141
+
+
+> UniRef90_A0A210QSD5 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Mizuhopecten yessoensis 
+TaxID=6573 RepID=A0A210QSD5_MIZYE
+Length=165
+
+ Score = 57.8 bits (138),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 33/87 (38%), Positives = 51/87 (59%), Gaps = 2/87 (2%)
+
+Query  68   EKNPDSHGYDK-DPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            +KN  S G+D+ D   D +   +  F  V++ +VL   F +Y PD+++ +WS REA   +
+Sbjct  71   DKNWMSFGHDEVDRDYDTFAHNMTLFTSVTLSVVL-IFFFSYCPDHKLNDWSMREAHLEL  129
+
+Query  127  KYREANGLPIMESNCFDPSKIQLPEDE  153
+              RE  GLP+++ N  DPS I LP +E
+Sbjct  130  ARREKLGLPLIDRNIVDPSNIVLPPEE  156
+
+
+> UniRef90_G3MLW2 Uncharacterized protein n=2 Tax=Amblyomma TaxID=6942 
+RepID=G3MLW2_9ACAR
+Length=155
+
+ Score = 56.6 bits (135),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 30/82 (37%), Positives = 47/82 (57%), Gaps = 1/82 (1%)
+
+Query  73   SHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+GY ++D   D     ++ F GV+++L     F  Y PD+   +W  REA   ++ RE 
+Sbjct  65   SYGYSEEDYNEDRDAHHVIMFMGVTVVLCGSVFFAMYAPDFNDADWYEREAYLELERREK  124
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+             GLP+++ N  DPS+I LP +E
+Sbjct  125  LGLPLVDPNLVDPSRINLPSEE  146
+
+
+> UniRef90_A0A0C9S0P0 Putative conserved plasma membrane protein 
+(Fragment) n=1 Tax=Amblyomma americanum TaxID=6943 RepID=A0A0C9S0P0_AMBAM
+Length=141
+
+ Score = 56.2 bits (134),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 33/83 (40%), Positives = 49/83 (59%), Gaps = 3/83 (4%)
+
+Query  73   SHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTF-VAYLPDYRMKEWSRREAERLVKYRE  130
+            S+GY +KD  +D  ++  V  F V  ++  G TF V Y PD+   +W  REA   ++ RE
+Sbjct  51   SYGYCEKDYNMD-RDLHHVIMFTVITLVFCGCTFAVMYAPDFSRADWIEREAYLELERRE  109
+
+Query  131  ANGLPIMESNCFDPSKIQLPEDE  153
+              GLP+++ N  DPS+I LP +E
+Sbjct  110  KLGLPLVDPNLVDPSRINLPSEE  132
+
+
+> UniRef90_A0A1B6JUA4 Uncharacterized protein n=1 Tax=Homalodisca 
+liturata TaxID=320908 RepID=A0A1B6JUA4_9HEMI
+Length=155
+
+ Score = 55.1 bits (131),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  87   MRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSK  146
+            M  +FF  ++I  VL   ++ Y P   M++W+ REA   ++ RE  GLP+++ N  DPS 
+Sbjct  80   MHAMFFTYITIGFVLSGFYIYYKPSTSMRDWALREAYLELRRREQLGLPLIDPNYVDPST  139
+
+Query  147  IQLPEDE  153
+            + LP DE
+Sbjct  140  VYLPSDE  146
+
+
+> UniRef90_N6SYZ1 Uncharacterized protein (Fragment) n=2 Tax=Dendroctonus 
+ponderosae TaxID=77166 RepID=N6SYZ1_DENPD
+Length=115
+
+ Score = 53.9 bits (128),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 29/82 (35%), Positives = 47/82 (57%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S GYD +D   D+     + F G+++ L++G    AY PD  +++W+ REA   ++ REA
+Sbjct  25   SFGYDIRDQKEDLHAHHSLMFVGITLCLMIGGYVWAYAPDLNLRDWAGREAFLELRRREA  84
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+             G P+++ N     +I LP DE
+Sbjct  85   AGGPLIDPNFLPVDRIVLPTDE  106
+
+
+> UniRef90_A0A023G0E9 Uncharacterized protein n=1 Tax=Amblyomma 
+parvum TaxID=251391 RepID=A0A023G0E9_9ACAR
+Length=155
+
+ Score = 54.3 bits (129),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 31/83 (37%), Positives = 49/83 (59%), Gaps = 3/83 (4%)
+
+Query  73   SHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTF-VAYLPDYRMKEWSRREAERLVKYRE  130
+            S+GY D+D   D     ++ F G+++ ++ G TF + Y PD+   +W  REA   ++ RE
+Sbjct  65   SYGYSDEDYNEDRDIHHVIMFMGITV-MICGCTFALMYAPDFANADWFEREAYLELERRE  123
+
+Query  131  ANGLPIMESNCFDPSKIQLPEDE  153
+              GLP+++ N  DPS I LP +E
+Sbjct  124  KLGLPLVDPNLVDPSSISLPSEE  146
+
+
+> UniRef90_A0A1B6LK36 Uncharacterized protein n=1 Tax=Graphocephala 
+atropunctata TaxID=36148 RepID=A0A1B6LK36_9HEMI
+Length=155
+
+ Score = 54.3 bits (129),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/68 (37%), Positives = 40/68 (59%), Gaps = 0/68 (0%)
+
+Query  86   NMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPS  145
+            NM  +FF  +++  V    F+ Y P++ M +W+ RE    ++ RE  GLP+++ N  DPS
+Sbjct  79   NMHAMFFTYITMGAVFLGFFIYYKPNHNMHDWALREGYLELRRREQLGLPLIDPNYVDPS  138
+
+Query  146  KIQLPEDE  153
+             + LP DE
+Sbjct  139  TVFLPSDE  146
+
+
+> UniRef90_A0A2C9JGK4 Uncharacterized protein n=1 Tax=Biomphalaria 
+glabrata TaxID=6526 RepID=A0A2C9JGK4_BIOGL
+Length=169
+
+ Score = 54.3 bits (129),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 42/158 (27%), Positives = 78/158 (49%), Gaps = 10/158 (6%)
+
+Query  2    AAGLFGLSARRLLAAAATRGLPAARVRWESSFSRTVVAPSAVAGKRPPEPTTPWQEDPEP  61
+            + G  G + + ++   + R L    ++ ++S S +       A  +P E +   ++  E 
+Sbjct  7    SVGRQGRALQTIVNNKSFRSLIFPLLKHKASISTSEKKKDVGAVVQPMEKSEELKKLTEK  66
+
+Query  62   -EDENLYEKNPDSHGY-----DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMK  115
+             +D +  E+N  S+GY     DKD  L      ++ F  +S+ +  G   +AY+PDY+++
+Sbjct  67   FKDTSDTEENYVSYGYEPGNRDKDWFL----YHMIMFACISLGVCWGGFILAYMPDYKLR  122
+
+Query  116  EWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +WS REA   ++ RE  GLP+++ +        LP DE
+Sbjct  123  DWSHREAFLELERREKEGLPLVDPDYTKIELSSLPSDE  160
+
+
+> UniRef90_A0A1B6FHV7 Uncharacterized protein n=1 Tax=Cuerna arida 
+TaxID=1464854 RepID=A0A1B6FHV7_9HEMI
+Length=157
+
+ Score = 52.4 bits (124),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 24/67 (36%), Positives = 38/67 (57%), Gaps = 0/67 (0%)
+
+Query  87   MRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSK  146
+            M  +FF  +++  V    ++ Y P   M +W+ REA   ++ RE  GLP+++ N  DPS 
+Sbjct  82   MHAMFFAYITVGFVFSGFYIYYKPSSNMHDWALREAYLELRRREQLGLPLIDPNYVDPST  141
+
+Query  147  IQLPEDE  153
+            + LP DE
+Sbjct  142  VYLPSDE  148
+
+
+> UniRef90_V4AMV8 Uncharacterized protein n=1 Tax=Lottia gigantea 
+TaxID=225164 RepID=V4AMV8_LOTGI
+Length=166
+
+ Score = 51.6 bits (122),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 40/137 (29%), Positives = 65/137 (47%), Gaps = 19/137 (14%)
+
+Query  31   SSFSRTVVAPSAVAGKRPPEPTTPWQEDPEPEDENLYEKNPDSHGYDKDPVLDV-W----  85
+            SSFS T +    ++  +  + TT     P P  ++L  K  + H  D DP  D  W    
+Sbjct  24   SSFSCTCI--RTISTSKNKKETTIGAIQPMPNTKDL--KKLEEHFADDDPTKDKNWISAG  79
+
+Query  86   ------NMRLVFFFG----VSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLP  135
+                   M    + G    +S+I V     + Y PD+ M++W+ REA   +++RE NGLP
+Sbjct  80   ISYTDKEMDTFVYQGYAAMLSLIFVAFGFVLYYQPDHLMQDWALREAYLEIEHREKNGLP  139
+
+Query  136  IMESNCFDPSKIQLPED  152
+            +++ N     +I LP++
+Sbjct  140  LVDPNLIPLDQISLPDE  156
+
+
+> UniRef90_A0A293M0L0 Uncharacterized protein (Fragment) n=1 Tax=Ornithodoros 
+erraticus TaxID=265619 RepID=A0A293M0L0_ORNER
+Length=154
+
+ Score = 51.2 bits (121),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 23/66 (35%), Positives = 37/66 (56%), Gaps = 0/66 (0%)
+
+Query  88   RLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKI  147
+            R+ FF  +++ +   S  + Y+PD+R ++W  REA   +  RE  GLP ++ N     +I
+Sbjct  80   RIAFFMCITVTMCGISFIIMYIPDFRRQDWVAREARLELARRERLGLPKVDRNLISVDRI  139
+
+Query  148  QLPEDE  153
+             LP DE
+Sbjct  140  VLPSDE  145
+
+
+> UniRef90_A0A131XMJ9 Uncharacterized protein n=1 Tax=Hyalomma 
+excavatum TaxID=257692 RepID=A0A131XMJ9_9ACAR
+Length=155
+
+ Score = 50.8 bits (120),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 27/82 (33%), Positives = 45/82 (55%), Gaps = 1/82 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S+GY  +D   D     ++ F  +S++L        Y PD++ ++W  REA   +  RE 
+Sbjct  65   SYGYSTEDYHEDNDAHHILMFTSISVVLCGCVLLFMYAPDFKDEDWLEREASLELDRREK  124
+
+Query  132  NGLPIMESNCFDPSKIQLPEDE  153
+             GLP+++ N  DPS++ LP +E
+Sbjct  125  LGLPLVDPNLIDPSRVVLPPEE  146
+
+
+> UniRef90_L7M3F0 Uncharacterized protein n=3 Tax=Rhipicephalus 
+TaxID=426455 RepID=L7M3F0_9ACAR
+Length=157
+
+ Score = 50.8 bits (120),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 22/64 (34%), Positives = 38/64 (59%), Gaps = 0/64 (0%)
+
+Query  90   VFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREANGLPIMESNCFDPSKIQL  149
+            + F G++++  +      Y PD++  +W  REA   ++ RE  GLP+++ N  DPS+I L
+Sbjct  85   LMFTGITLVTCISIVLFMYAPDFKDVDWVAREALLELERREKLGLPLVDPNLIDPSRIVL  144
+
+Query  150  PEDE  153
+            P +E
+Sbjct  145  PPEE  148
+
+
+> UniRef90_A0A0U2T6D4 NADH dehydrogenase n=1 Tax=Calanus sinicus 
+TaxID=114070 RepID=A0A0U2T6D4_CALSV
+Length=166
+
+ Score = 49.7 bits (117),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 36/89 (40%), Positives = 47/89 (53%), Gaps = 4/89 (4%)
+
+Query  68   EKNPDSHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLV  126
+            E    S GYD  D  LD    RL  F  VSI ++   TF  YLP+  M++W+ REA  ++
+Sbjct  68   ESGWQSKGYDYNDEKLDNEWHRLWMFCLVSIPVIF-VTFYCYLPNRTMRDWAIREAYLVL  126
+
+Query  127  KYREANGLPIMESNCFDPSKI--QLPEDE  153
+              REA G+  +  +  DP KI   LP DE
+Sbjct  127  AEREAAGVEPISRDLVDPEKILAALPSDE  155
+
+
+> UniRef90_V5I2R4 Uncharacterized protein n=2 Tax=Ixodes ricinus 
+TaxID=34613 RepID=V5I2R4_IXORI
+Length=173
+
+ Score = 49.3 bits (116),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 26/75 (35%), Positives = 43/75 (57%), Gaps = 1/75 (1%)
+
+Query  73   SHGY-DKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            ++GY + D  +D     L+ FF   I + +    + Y+PD+R ++W+ REA   ++ RE 
+Sbjct  66   TYGYSETDYTMDRDYHHLIMFFWYHIYVGVLGFIMMYIPDFRDQDWTEREAYLRLERREK  125
+
+Query  132  NGLPIMESNCFDPSK  146
+             GLP ++ N  DPSK
+Sbjct  126  LGLPKIDRNLVDPSK  140
+
+
+> UniRef90_A0A1S3I884 NADH dehydrogenase [ubiquinone] 1 beta subcomplex 
+subunit 11, mitochondrial n=1 Tax=Lingula unguis TaxID=7574 
+RepID=A0A1S3I884_LINUN
+Length=156
+
+ Score = 48.9 bits (115),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 32/97 (33%), Positives = 49/97 (51%), Gaps = 1/97 (1%)
+
+Query  58   DPEPEDENLYEKNPDSHGYDKDPVLDVWNMRLVFFFGVSIILVLGSTF-VAYLPDYRMKE  116
+            DP P +     KN  + G+  D   +      +  F +  + V+GS F V YLPD ++K 
+Sbjct  51   DPSPVNSFEKPKNAINFGFSLDSEKEASMDYQLTLFCIITVAVVGSAFLVLYLPDKKLKY  110
+
+Query  117  WSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            WS+REA   +  RE  GLP ++ N     ++ LP +E
+Sbjct  111  WSQREAYLDLYKREKEGLPPIDKNYIPEDQMVLPSEE  147
+
+
+> UniRef90_A0A088A569 Uncharacterized protein n=1 Tax=Apis mellifera 
+TaxID=7460 RepID=A0A088A569_APIME
+Length=64
+
+ Score = 46.6 bits (109),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  114  MKEWSRREAERLVKYREANGLPIMESNCFDPSKIQLPEDE  153
+            +K+W++REA   +++RE NGLP+++ N  DPSK  LP +E
+Sbjct  16   LKDWAQREAYLQLRHREENGLPLIDPNLIDPSKFTLPSEE  55
+
+
+> UniRef90_U4UIV9 Uncharacterized protein n=1 Tax=Dendroctonus 
+ponderosae TaxID=77166 RepID=U4UIV9_DENPD
+Length=273
+
+ Score = 49.3 bits (116),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 25/69 (36%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  73   SHGYD-KDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREA  131
+            S GYD +D   D+     + F G+S+ L++G    AY PD  +++W+ REA   ++ REA
+Sbjct  54   SFGYDIRDQKEDLHAHHSLMFVGISLCLMIGGYVWAYAPDLNLRDWAGREAFLELRRREA  113
+
+Query  132  NGLPIMESN  140
+            +G P+++ N
+Sbjct  114  SGGPLIDPN  122
+
+
+> UniRef90_A0A075AHT0 Uncharacterized protein n=3 Tax=Opisthorchiidae 
+TaxID=6196 RepID=A0A075AHT0_9TREM
+Length=172
+
+ Score = 46.2 bits (108),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 24/81 (30%), Positives = 42/81 (52%), Gaps = 1/81 (1%)
+
+Query  74   HG-YDKDPVLDVWNMRLVFFFGVSIILVLGSTFVAYLPDYRMKEWSRREAERLVKYREAN  132
+            HG ++ D   D++  + + F   S+        + Y PD   +EW RREA   ++ R  +
+Sbjct  82   HGMHETDKNEDIYRFKFLTFMSYSVFTAGVFLLLWYTPDRGQEEWCRREAYLELERRRRD  141
+
+Query  133  GLPIMESNCFDPSKIQLPEDE  153
+            GLP++  +   P +++LP DE
+Sbjct  142  GLPLIIPDLVPPERVKLPSDE  162
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1436295
+
+
+  Database: isar.db.251
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 19,535
+  Number of sequences in database:  122
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,159 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.64
+           6 sequences; 576 total letters
+
+Results from round 1
+
+
+Query= O75324|1zzaA|SNN_HUMAN 1.0
+
+Length=88
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_O75324 Stannin n=20 Tax=Euarchontoglires TaxID=314146 ...  181     4e-66
+  UniRef90_G1TAS2 Stannin n=92 Tax=Gnathostomata TaxID=35060 RepI...  179     6e-65
+  UniRef90_P61807 Stannin n=30 Tax=Gnathostomata TaxID=35060 RepI...  177     2e-64
+  UniRef90_Q17Q87 Stannin n=4 Tax=Laurasiatheria TaxID=314145 Rep...  173     1e-62
+  UniRef90_S9WJI9 Stannin n=4 Tax=Camelidae TaxID=9835 RepID=S9WJ...  172     1e-61
+  UniRef90_A0A1S3ABJ7 stannin n=1 Tax=Erinaceus europaeus TaxID=9...  149     4e-53
+
+
+> UniRef90_O75324 Stannin n=20 Tax=Euarchontoglires TaxID=314146 
+RepID=SNN_HUMAN
+Length=88
+
+ Score = 181 bits (460),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 88/88 (100%), Positives = 88/88 (100%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMTPNGPEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+
+
+> UniRef90_G1TAS2 Stannin n=92 Tax=Gnathostomata TaxID=35060 RepID=G1TAS2_RABIT
+Length=88
+
+ Score = 179 bits (453),  Expect = 6e-65, Method: Compositional matrix adjust.
+ Identities = 87/88 (99%), Positives = 87/88 (99%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKG CVERKAKLMTPNGPEVHG
+Sbjct  61  LLVQYSAKGQCVERKAKLMTPNGPEVHG  88
+
+
+> UniRef90_P61807 Stannin n=30 Tax=Gnathostomata TaxID=35060 RepID=SNN_MOUSE
+Length=88
+
+ Score = 177 bits (449),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 86/88 (98%), Positives = 86/88 (98%), Gaps = 0/88 (0%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSAKGPCVERKAKLMT N PEVHG
+Sbjct  61  LLVQYSAKGPCVERKAKLMTANSPEVHG  88
+
+
+> UniRef90_Q17Q87 Stannin n=4 Tax=Laurasiatheria TaxID=314145 RepID=SNN_BOVIN
+Length=87
+
+ Score = 173 bits (438),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 86/87 (99%), Positives = 86/87 (99%), Gaps = 1/87 (1%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVH  87
+           LLVQYSAKGPCVERKAKL TPNGPEVH
+Sbjct  61  LLVQYSAKGPCVERKAKL-TPNGPEVH  86
+
+
+> UniRef90_S9WJI9 Stannin n=4 Tax=Camelidae TaxID=9835 RepID=S9WJI9_CAMFR
+Length=141
+
+ Score = 172 bits (435),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 86/88 (98%), Positives = 86/88 (98%), Gaps = 1/88 (1%)
+
+Query  1    MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+            MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF
+Sbjct  55   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  114
+
+Query  61   LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+            LLVQYSAKGPCVERKAKL TP GPEVHG
+Sbjct  115  LLVQYSAKGPCVERKAKL-TPGGPEVHG  141
+
+
+> UniRef90_A0A1S3ABJ7 stannin n=1 Tax=Erinaceus europaeus TaxID=9365 
+RepID=A0A1S3ABJ7_ERIEU
+Length=84
+
+ Score = 149 bits (375),  Expect = 4e-53, Method: Compositional matrix adjust.
+ Identities = 74/88 (84%), Positives = 80/88 (91%), Gaps = 4/88 (5%)
+
+Query  1   MSIMDHSPTTGVVTVIVILIAIAALGALILGCWCYLRLQRISQSEDEESIVGDGETKEPF  60
+           MSIMDHSPTTGV TV+VILIA+AALGALILGCWCYLRLQR+SQ EDEESIVGDG+TKEPF
+Sbjct  1   MSIMDHSPTTGVATVLVILIAVAALGALILGCWCYLRLQRLSQPEDEESIVGDGDTKEPF  60
+
+Query  61  LLVQYSAKGPCVERKAKLMTPNGPEVHG  88
+           LLVQYSA+GPC ERKA+L    GPE HG
+Sbjct  61  LLVQYSARGPC-ERKARL---AGPEPHG  84
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 31008
+
+
+  Database: isar.db.64
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 576
+  Number of sequences in database:  6
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,701 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.91
+           37 sequences; 3,572 total letters
+
+Results from round 1
+
+
+Query= Q6UW78 Mitochondrion-M test
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q6UW78 Ubiquinol-cytochrome-c reductase complex assemb...  185     2e-66
+  UniRef90_A0A2I3GF95 Ubiquinol-cytochrome c reductase complex as...  176     4e-63
+  UniRef90_A0A2I3LHZ5 Ubiquinol-cytochrome c reductase complex as...  159     3e-56
+  UniRef90_A0A2K6NBX1 Ubiquinol-cytochrome c reductase complex as...  155     1e-54
+  UniRef90_A0A2K6ULW6 Ubiquinol-cytochrome c reductase complex as...  139     2e-48
+  UniRef90_A0A2K5EPW0 Ubiquinol-cytochrome c reductase complex as...  136     4e-47
+  UniRef90_G9L1M4 Protein UNQ655/PRO1286 (Fragment) n=4 Tax=Muste...  134     4e-46
+  UniRef90_M3X8X0 Ubiquinol-cytochrome c reductase complex assemb...  132     1e-45
+  UniRef90_K9IW36 Putative secreted protein n=1 Tax=Desmodus rotu...  132     1e-45
+  UniRef90_A0A2R8MHM2 Ubiquinol-cytochrome c reductase complex as...  132     2e-45
+  UniRef90_A0A2K5R8W9 Ubiquinol-cytochrome c reductase complex as...  132     2e-45
+  UniRef90_A0A384DFE7 UPF0723 protein C11orf83 homolog isoform X1...  130     1e-44
+  UniRef90_F6Z6U5 Ubiquinol-cytochrome c reductase complex assemb...  129     3e-44
+  UniRef90_A0A1U7SVB4 ubiquinol-cytochrome-c reductase complex as...  128     4e-44
+  UniRef90_E2RGR8 Ubiquinol-cytochrome c reductase complex assemb...  127     2e-43
+  UniRef90_A0A384BE17 UPF0723 protein C11orf83 homolog n=4 Tax=Ce...  126     4e-43
+  UniRef90_A0A287BK40 Ubiquinol-cytochrome c reductase complex as...  125     1e-42
+  UniRef90_H0XZE8 Ubiquinol-cytochrome c reductase complex assemb...  123     6e-42
+  UniRef90_A0A2U3V341 ubiquinol-cytochrome-c reductase complex as...  122     5e-41
+  UniRef90_G1QBC8 Ubiquinol-cytochrome c reductase complex assemb...  119     2e-40
+  UniRef90_A0A2Y9EWB5 ubiquinol-cytochrome-c reductase complex as...  114     3e-38
+  UniRef90_L9JNW1 Uncharacterized protein n=2 Tax=Tupaia chinensi...  112     9e-38
+  UniRef90_A0A383ZH92 UPF0723 protein C11orf83 homolog n=2 Tax=My...  108     7e-36
+  UniRef90_A0A212DG39 UQCC3 n=3 Tax=Pecora TaxID=35500 RepID=A0A2...  107     2e-35
+  UniRef90_G3TAS5 Ubiquinol-cytochrome c reductase complex assemb...  105     5e-35
+  UniRef90_A0A1S3WFU9 ubiquinol-cytochrome-c reductase complex as...  102     5e-34
+  UniRef90_G1TDB1 Ubiquinol-cytochrome c reductase complex assemb...  100     8e-33
+  UniRef90_A0A2K6FNI8 Ubiquinol-cytochrome c reductase complex as...  98.6    3e-32
+  UniRef90_Q148G8 Ubiquinol-cytochrome-c reductase complex assemb...  97.8    8e-32
+  UniRef90_H9H6I9 Ubiquinol-cytochrome c reductase complex assemb...  93.6    3e-30
+  UniRef90_A0A2Y9DYX0 ubiquinol-cytochrome-c reductase complex as...  90.1    7e-29
+  UniRef90_P0CD94 Ubiquinol-cytochrome-c reductase complex assemb...  84.3    1e-26
+  UniRef90_G1MPL1 Uncharacterized protein n=1 Tax=Ailuropoda mela...  80.9    2e-25
+  UniRef90_G3VQZ4 Ubiquinol-cytochrome c reductase complex assemb...  70.1    5e-21
+  UniRef90_Q2KP58 Ubiquinol-cytochrome-c reductase complex assemb...  55.1    4e-15
+  UniRef90_B3DFP2 Ubiquinol-cytochrome-c reductase complex assemb...  54.7    4e-15
+  UniRef90_L5KQE5 Uncharacterized protein n=1 Tax=Pteropus alecto...  54.3    4e-14
+
+
+> UniRef90_Q6UW78 Ubiquinol-cytochrome-c reductase complex assembly 
+factor 3 n=7 Tax=Hominidae TaxID=9604 RepID=UQCC3_HUMAN
+Length=93
+
+ Score = 185 bits (469),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 93/93 (100%), Positives = 93/93 (100%), Gaps = 0/93 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL
+Sbjct  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRSP  93
+           LATLQEAATTQENVAWRKNWMVGGEGGAGGRSP
+Sbjct  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRSP  93
+
+
+> UniRef90_A0A2I3GF95 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=2 Tax=Nomascus leucogenys TaxID=61853 RepID=A0A2I3GF95_NOMLE
+Length=93
+
+ Score = 176 bits (447),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 89/92 (97%), Positives = 91/92 (99%), Gaps = 0/92 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           MDSLRKMLISVA+LGAGAGVG ALL+IVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL
+Sbjct  1   MDSLRKMLISVALLGAGAGVGSALLLIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+           LATLQEAATTQENVAWRKNWMVGGEGGAGGRS
+Sbjct  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+
+
+> UniRef90_A0A2I3LHZ5 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=7 Tax=Cercopithecinae TaxID=9528 RepID=A0A2I3LHZ5_PAPAN
+Length=92
+
+ Score = 159 bits (402),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 80/93 (86%), Positives = 87/93 (94%), Gaps = 1/93 (1%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M+ LRK LI+VA+LGAGAGVG+ALL IVTPGE+RKQEMLKEMPLQDPRSREE A+TQQLL
+Sbjct  1   MEFLRKTLITVAVLGAGAGVGFALLAIVTPGEQRKQEMLKEMPLQDPRSREEMAKTQQLL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRSP  93
+           +ATLQEAATTQENVAWRKNWMV  EGGAGGRSP
+Sbjct  61  VATLQEAATTQENVAWRKNWMV-SEGGAGGRSP  92
+
+
+> UniRef90_A0A2K6NBX1 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=6 Tax=Colobinae TaxID=9569 RepID=A0A2K6NBX1_RHIRO
+Length=92
+
+ Score = 155 bits (392),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 80/93 (86%), Positives = 85/93 (91%), Gaps = 1/93 (1%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M  LRKMLI+VA+LGAGAGVG ALL IVTPGE+RKQEMLKEM LQDPRSREE A+TQQLL
+Sbjct  1   MAFLRKMLITVALLGAGAGVGLALLAIVTPGEQRKQEMLKEMALQDPRSREEMAKTQQLL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRSP  93
+           +ATLQEAATTQENVAWRKNWMV  EGGAGGRSP
+Sbjct  61  VATLQEAATTQENVAWRKNWMV-SEGGAGGRSP  92
+
+
+> UniRef90_A0A2K6ULW6 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 
+RepID=A0A2K6ULW6_SAIBB
+Length=90
+
+ Score = 139 bits (351),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 70/87 (80%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M SLRK LI+VAMLGAGAGVG ALLVIVTP  +RKQEMLKEMPLQDP  R+E  RTQQL+
+Sbjct  1   MQSLRKTLITVAMLGAGAGVGSALLVIVTPRGQRKQEMLKEMPLQDPLRRDEVTRTQQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGG  87
+           +  LQEAATTQENVAWRKNWMVGG+GG
+Sbjct  61  MDVLQEAATTQENVAWRKNWMVGGKGG  87
+
+
+> UniRef90_A0A2K5EPW0 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=1 Tax=Aotus nancymaae TaxID=37293 RepID=A0A2K5EPW0_AOTNA
+Length=90
+
+ Score = 136 bits (342),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 66/87 (76%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M SLRK+LI+VA+LGAGAGVG AL VIVTP  +RKQEMLKEMPLQDP SR+E ART+QL+
+Sbjct  1   MQSLRKLLITVAVLGAGAGVGSALFVIVTPRGQRKQEMLKEMPLQDPLSRDEVARTKQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGG  87
+           +  LQEAATTQENV WRKNW++GG+GG
+Sbjct  61  MDVLQEAATTQENVTWRKNWILGGKGG  87
+
+
+> UniRef90_G9L1M4 Protein UNQ655/PRO1286 (Fragment) n=4 Tax=Mustelidae 
+TaxID=9655 RepID=G9L1M4_MUSPF
+Length=96
+
+ Score = 134 bits (336),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 68/92 (74%), Positives = 78/92 (85%), Gaps = 4/92 (4%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M++LRK LI  A+LGAGAGVG AL V+VTPGE +KQ MLKE+P QDPR R+EA RT++L+
+Sbjct  8   METLRKALIVGALLGAGAGVGSALFVLVTPGEEKKQAMLKEIPEQDPRRRDEATRTKELV  67
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+           LATLQEAATTQENVAWRKNWMVGG    GGRS
+Sbjct  68  LATLQEAATTQENVAWRKNWMVGG----GGRS  95
+
+
+> UniRef90_M3X8X0 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=4 Tax=Carnivora TaxID=33554 RepID=M3X8X0_FELCA
+Length=89
+
+ Score = 132 bits (332),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 68/92 (74%), Positives = 77/92 (84%), Gaps = 4/92 (4%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M++LRK LI  A+LGAGAGVG AL V+V PGE+RKQEMLKEMP QDPR REEA RT++L+
+Sbjct  1   METLRKALIVGALLGAGAGVGSALFVLVAPGEQRKQEMLKEMPEQDPRRREEAVRTKELV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+           LATLQEAA TQENVAWRKNWM    GG GG+S
+Sbjct  61  LATLQEAAATQENVAWRKNWM----GGGGGKS  88
+
+
+> UniRef90_K9IW36 Putative secreted protein n=1 Tax=Desmodus rotundus 
+TaxID=9430 RepID=K9IW36_DESRO
+Length=87
+
+ Score = 132 bits (332),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 66/85 (78%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M SLRK+LI+VA++GA AGVG AL V+VTPGE R Q MLKEMP QDPRSREEAART+QL+
+Sbjct  1   MGSLRKVLIAVAIVGAWAGVGSALFVLVTPGEERVQTMLKEMPGQDPRSREEAARTKQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGE  85
+           LATLQEAATTQENVAWRKNW+  G+
+Sbjct  61  LATLQEAATTQENVAWRKNWVSSGK  85
+
+
+> UniRef90_A0A2R8MHM2 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=2 Tax=Callithrix jacchus TaxID=9483 RepID=A0A2R8MHM2_CALJA
+Length=93
+
+ Score = 132 bits (331),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 65/82 (79%), Positives = 73/82 (89%), Gaps = 0/82 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M SLRKMLI+VA+LGAGAGVG AL VIVTP  +RKQEMLKEMPLQDP SR+E ART+QL+
+Sbjct  1   MQSLRKMLITVAVLGAGAGVGSALFVIVTPRGQRKQEMLKEMPLQDPLSRDEVARTKQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMV  82
+           +  LQEAATTQENVAWRKNW+V
+Sbjct  61  MDVLQEAATTQENVAWRKNWIV  82
+
+
+> UniRef90_A0A2K5R8W9 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=1 Tax=Cebus capucinus imitator TaxID=1737458 
+RepID=A0A2K5R8W9_CEBCA
+Length=93
+
+ Score = 132 bits (331),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 65/82 (79%), Positives = 74/82 (90%), Gaps = 0/82 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M SLRKML++VA+LGAGAGVGYALLVIVTP  +RKQEMLKEMPLQDP SR+E ART QL+
+Sbjct  1   MQSLRKMLMTVAVLGAGAGVGYALLVIVTPRGQRKQEMLKEMPLQDPLSRDEMARTTQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMV  82
+           +  L+EAATTQENVAWRKNW+V
+Sbjct  61  MDVLKEAATTQENVAWRKNWIV  82
+
+
+> UniRef90_A0A384DFE7 UPF0723 protein C11orf83 homolog isoform 
+X1 n=9 Tax=Caniformia TaxID=379584 RepID=A0A384DFE7_URSMA
+Length=110
+
+ Score = 130 bits (327),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 68/91 (75%), Positives = 78/91 (86%), Gaps = 1/91 (1%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M+ LRK L+  A+LGAGAGVG AL V+VTPGE++KQ MLKEMP QDPR R+EAART++L+
+Sbjct  1   MEGLRKALLVGALLGAGAGVGSALFVLVTPGEQQKQAMLKEMPEQDPRRRDEAARTKELV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGR  91
+           LATLQEAA TQENVAWRKNWMVGG GG  GR
+Sbjct  61  LATLQEAAATQENVAWRKNWMVGG-GGRPGR  90
+
+
+> UniRef90_F6Z6U5 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=2 Tax=Perissodactyla TaxID=9787 RepID=F6Z6U5_HORSE
+Length=89
+
+ Score = 129 bits (323),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 65/89 (73%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M ++RK LI  A+LGAGAGVG AL V+VTPGE++KQ MLKEMP QDPR R+EAART+QL+
+Sbjct  1   MGTVRKALIVGAVLGAGAGVGSALFVLVTPGEQQKQAMLKEMPEQDPRRRDEAARTKQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAG  89
+            ATLQEAATTQENVAWRKNW  GG G +G
+Sbjct  61  FATLQEAATTQENVAWRKNWNDGGGGRSG  89
+
+
+> UniRef90_A0A1U7SVB4 ubiquinol-cytochrome-c reductase complex 
+assembly factor 3 n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7SVB4_TARSY
+Length=89
+
+ Score = 128 bits (322),  Expect = 4e-44, Method: Compositional matrix adjust.
+ Identities = 63/86 (73%), Positives = 72/86 (84%), Gaps = 0/86 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M  +RK L++VA+LGAG GVG AL  +VTPGE +KQ MLKE+P QDPR R+EAARTQQL+
+Sbjct  1   MAFVRKALLTVAVLGAGTGVGVALFALVTPGELQKQAMLKEIPEQDPRRRDEAARTQQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEG  86
+           LATLQEAA TQENVAWRKNW VGG G
+Sbjct  61  LATLQEAAATQENVAWRKNWTVGGSG  86
+
+
+> UniRef90_E2RGR8 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=2 Tax=Canis lupus TaxID=9612 RepID=E2RGR8_CANLF
+Length=96
+
+ Score = 127 bits (319),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 66/92 (72%), Positives = 78/92 (85%), Gaps = 4/92 (4%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M++LR+ LI  A+LGAGAGVG AL V+V+PGE++KQ MLKEMP QDPR R+EAART++L+
+Sbjct  8   METLRRSLIVGALLGAGAGVGSALFVLVSPGEQQKQAMLKEMPEQDPRRRDEAARTKELV  67
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+           LATLQEAA TQENVA RKNWMVGG    GGRS
+Sbjct  68  LATLQEAAATQENVARRKNWMVGG----GGRS  95
+
+
+> UniRef90_A0A384BE17 UPF0723 protein C11orf83 homolog n=4 Tax=Cetacea 
+TaxID=9721 RepID=A0A384BE17_BALAS
+Length=89
+
+ Score = 126 bits (316),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 62/86 (72%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M++LRK LI+ A+LG GAGVG AL V+V PGE++KQ MLKEMP QDP+ R+EAART++LL
+Sbjct  1   METLRKALIAGAVLGTGAGVGTALFVLVAPGEQQKQAMLKEMPEQDPQRRDEAARTKELL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEG  86
+           LA+LQEAA TQENVAWRKNWM GG G
+Sbjct  61  LASLQEAAATQENVAWRKNWMSGGGG  86
+
+
+> UniRef90_A0A287BK40 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A287BK40_PIG
+Length=90
+
+ Score = 125 bits (313),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 63/87 (72%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M+ LRK LI  A+ G GAGVG AL V+VTPGE++KQ +LKE+P QDP+ R+EAART+QLL
+Sbjct  1   MEPLRKALIVGAVRGVGAGVGSALFVLVTPGEQQKQAILKEIPEQDPQRRDEAARTKQLL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGG  87
+           LATLQEAA TQENVAWRKNWM GG GG
+Sbjct  61  LATLQEAAATQENVAWRKNWMSGGGGG  87
+
+
+> UniRef90_H0XZE8 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=1 Tax=Otolemur garnettii TaxID=30611 RepID=H0XZE8_OTOGA
+Length=89
+
+ Score = 123 bits (308),  Expect = 6e-42, Method: Compositional matrix adjust.
+ Identities = 59/84 (70%), Positives = 73/84 (87%), Gaps = 0/84 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M +LRKML++VA+LGAG GVG AL  +VTPGE +KQEMLKEMP Q+P+ R+EA RTQ+L+
+Sbjct  1   MGALRKMLVAVALLGAGTGVGSALFALVTPGELQKQEMLKEMPEQNPQRRDEAVRTQELV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGG  84
+           LATLQ+AA TQENVAWRK+W +GG
+Sbjct  61  LATLQQAAATQENVAWRKDWRLGG  84
+
+
+> UniRef90_A0A2U3V341 ubiquinol-cytochrome-c reductase complex 
+assembly factor 3 n=3 Tax=Odontoceti TaxID=9722 RepID=A0A2U3V341_TURTR
+Length=125
+
+ Score = 122 bits (305),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 62/92 (67%), Positives = 74/92 (80%), Gaps = 4/92 (4%)
+
+Query  1    MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+            M++LRK L+  A+LG GAGVG AL V+VTPGE++KQ MLKEMP QDP+ R+E A T++LL
+Sbjct  37   METLRKALVVGAVLGVGAGVGTALFVLVTPGEQQKQAMLKEMPEQDPQRRDEVAGTKELL  96
+
+Query  61   LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+            LATLQEA  TQENVAWRKNWM GG    GG+S
+Sbjct  97   LATLQEAVATQENVAWRKNWMSGG----GGKS  124
+
+
+> UniRef90_G1QBC8 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=3 Tax=Myotis TaxID=9434 RepID=G1QBC8_MYOLU
+Length=95
+
+ Score = 119 bits (298),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 61/81 (75%), Positives = 67/81 (83%), Gaps = 0/81 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M  LRK LISVA+LGA AGVG AL V+VTPGE R Q MLKEMP QD RSREEAART+QL+
+Sbjct  1   MGFLRKALISVAVLGAWAGVGSALFVLVTPGEERVQAMLKEMPGQDLRSREEAARTKQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWM  81
+           +A LQEAA TQENV WRKNW+
+Sbjct  61  MAALQEAAATQENVTWRKNWL  81
+
+
+> UniRef90_A0A2Y9EWB5 ubiquinol-cytochrome-c reductase complex 
+assembly factor 3 n=1 Tax=Physeter catodon TaxID=9755 RepID=A0A2Y9EWB5_PHYCD
+Length=125
+
+ Score = 114 bits (286),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 65/86 (76%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  1    MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+            M +LRK LI+ A+LGAGAGVG AL  +VTPGE++KQ MLKEMP QDP+ R+EAART+QLL
+Sbjct  37   MGTLRKTLIAGALLGAGAGVGTALFALVTPGEQQKQAMLKEMPKQDPQGRDEAARTKQLL  96
+
+Query  61   LATLQEAATTQENVAWRKNWMVGGEG  86
+            LATLQEAA TQENVAWRKNWM GG G
+Sbjct  97   LATLQEAAATQENVAWRKNWMSGGGG  122
+
+
+> UniRef90_L9JNW1 Uncharacterized protein n=2 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9JNW1_TUPCH
+Length=90
+
+ Score = 112 bits (281),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 56/87 (64%), Positives = 71/87 (82%), Gaps = 1/87 (1%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M +++K L++VA+L AGAGVG AL   V PGE +KQ MLKEMP Q+ + ++EAARTQQL+
+Sbjct  1   MGTMQKALVTVAVLVAGAGVGSALFAFVAPGELQKQAMLKEMPEQNSQRKDEAARTQQLV  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVG-GEG  86
+           LATLQEAA TQ+NVAWRKNW+V  G+G
+Sbjct  61  LATLQEAAATQQNVAWRKNWVVSRGDG  87
+
+
+> UniRef90_A0A383ZH92 UPF0723 protein C11orf83 homolog n=2 Tax=Mysticeti 
+TaxID=9761 RepID=A0A383ZH92_BALAS
+Length=125
+
+ Score = 108 bits (271),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 65/92 (71%), Positives = 78/92 (85%), Gaps = 4/92 (4%)
+
+Query  1    MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+            M++LRK LI+ A+LGAGAGVG AL V+V PGE++KQ MLKEMP QDP+ R+EAART++LL
+Sbjct  37   METLRKALIAGAVLGAGAGVGTALFVLVAPGEQQKQAMLKEMPEQDPQRRDEAARTKELL  96
+
+Query  61   LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+            LA+LQEAA TQENVAWRKNWM GG    GG+S
+Sbjct  97   LASLQEAAATQENVAWRKNWMSGG----GGKS  124
+
+
+> UniRef90_A0A212DG39 UQCC3 n=3 Tax=Pecora TaxID=35500 RepID=A0A212DG39_CEREH
+Length=125
+
+ Score = 107 bits (268),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 67/92 (73%), Positives = 77/92 (84%), Gaps = 4/92 (4%)
+
+Query  1    MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+            M++L K+L++ A+LGAGAGVG AL  +VTPGE RKQ MLKEMP QDP+ R+EAART+QLL
+Sbjct  37   MENLHKLLLAGAVLGAGAGVGTALFALVTPGEERKQAMLKEMPEQDPQRRDEAARTKQLL  96
+
+Query  61   LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+            LATLQEAA TQENVAWRKNWM GG    GGRS
+Sbjct  97   LATLQEAAATQENVAWRKNWMNGG----GGRS  124
+
+
+> UniRef90_G3TAS5 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=2 Tax=Loxodonta africana TaxID=9785 RepID=G3TAS5_LOXAF
+Length=90
+
+ Score = 105 bits (262),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 56/92 (61%), Positives = 68/92 (74%), Gaps = 2/92 (2%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M ++RK+L    +LG G G G AL V+VTPGE+R QEMLKEMP QD + R EA ++++LL
+Sbjct  1   MAAVRKVLTMGVVLGLGVGFGSALFVLVTPGEQRTQEMLKEMPGQDAQRRAEAVKSKELL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+           LATLQEAA TQENV  RKNWM G   G+ GRS
+Sbjct  61  LATLQEAAATQENVTRRKNWMHG--SGSSGRS  90
+
+
+> UniRef90_A0A1S3WFU9 ubiquinol-cytochrome-c reductase complex 
+assembly factor 3 n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3WFU9_ERIEU
+Length=84
+
+ Score = 102 bits (255),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 52/82 (63%), Positives = 62/82 (76%), Gaps = 0/82 (0%)
+
+Query  3   SLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLLLA  62
+           +LRK L    +L AGAGVG AL ++VTPGERRK+ ML EMP +  R RE+ +R+ QL+LA
+Sbjct  2   ALRKSLTVGVLLAAGAGVGSALFLLVTPGERRKETMLTEMPEKHWRQREDRSRSNQLVLA  61
+
+Query  63  TLQEAATTQENVAWRKNWMVGG  84
+           TLQEAA TQENVAWRK WM  G
+Sbjct  62  TLQEAAATQENVAWRKKWMESG  83
+
+
+> UniRef90_G1TDB1 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=2 Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1TDB1_RABIT
+Length=96
+
+ Score = 100 bits (249),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 49/69 (71%), Positives = 56/69 (81%), Gaps = 4/69 (6%)
+
+Query  25  LVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLLLATLQEAATTQENVAWRKNWMVGG  84
+             +VTPGE RKQ MLKEMP QDPR R+EAARTQQL++ATL+E+  TQENVAWRKNWMV G
+Sbjct  25  FALVTPGELRKQAMLKEMPEQDPRRRDEAARTQQLVMATLRESVATQENVAWRKNWMVSG  84
+
+Query  85  EGGAGGRSP  93
+               GGR+P
+Sbjct  85  ----GGRTP  89
+
+
+> UniRef90_A0A2K6FNI8 Ubiquinol-cytochrome c reductase complex 
+assembly factor 3 n=1 Tax=Propithecus coquereli TaxID=379532 
+RepID=A0A2K6FNI8_PROCO
+Length=89
+
+ Score = 98.6 bits (244),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 46/62 (74%), Positives = 53/62 (85%), Gaps = 0/62 (0%)
+
+Query  25  LVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLLLATLQEAATTQENVAWRKNWMVGG  84
+             +VTPGE +KQ MLKEMP Q+P+ R+E ARTQ+L+LATLQEAA TQENVAWRKNWMVGG
+Sbjct  25  FALVTPGELQKQAMLKEMPEQNPQHRDEVARTQELVLATLQEAAATQENVAWRKNWMVGG  84
+
+Query  85  EG  86
+            G
+Sbjct  85  SG  86
+
+
+> UniRef90_Q148G8 Ubiquinol-cytochrome-c reductase complex assembly 
+factor 3 n=5 Tax=Bovidae TaxID=9895 RepID=UQCC3_BOVIN
+Length=95
+
+ Score = 97.8 bits (242),  Expect = 8e-32, Method: Compositional matrix adjust.
+ Identities = 60/81 (74%), Positives = 69/81 (85%), Gaps = 0/81 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M +LRK+L+  A+LGAGAGVG AL  +VTPGE RKQ MLKEMP Q P+ R+EAART++LL
+Sbjct  1   MTTLRKLLLVGALLGAGAGVGTALFALVTPGEERKQAMLKEMPEQYPQRRDEAARTKELL  60
+
+Query  61  LATLQEAATTQENVAWRKNWM  81
+           LATLQEAA TQENVAWRKNWM
+Sbjct  61  LATLQEAAATQENVAWRKNWM  81
+
+
+> UniRef90_H9H6I9 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=2 Tax=Monodelphis domestica TaxID=13616 RepID=H9H6I9_MONDO
+Length=89
+
+ Score = 93.6 bits (231),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 48/92 (52%), Positives = 70/92 (76%), Gaps = 4/92 (4%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M+SLRK L +VA+LGAGAG+G  L V+VTPGE+R +++LK++  ++P+  +EA +++ L 
+Sbjct  1   MESLRKSLQAVAVLGAGAGLGVFLFVLVTPGEQRTRDLLKDIQEKNPQHLDEATKSKILW  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAGGRS  92
+           + TL+EAA TQENVAWRK+W       AGGR+
+Sbjct  61  MDTLREAAETQENVAWRKDW----NRQAGGRA  88
+
+
+> UniRef90_A0A2Y9DYX0 ubiquinol-cytochrome-c reductase complex 
+assembly factor 3 n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=A0A2Y9DYX0_TRIMA
+Length=91
+
+ Score = 90.1 bits (222),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 61/89 (69%), Positives = 69/89 (78%), Gaps = 1/89 (1%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M  +RK LI  A+LGAGAG+G AL V+VTPGE+R Q ML+EMP QDP  R EAART++LL
+Sbjct  1   MAVVRKALIVGALLGAGAGLGSALFVLVTPGEQRTQAMLEEMPAQDPLRRAEAARTKELL  60
+
+Query  61  LATLQEAATTQENVAWRKNWMVGGEGGAG  89
+           LATLQEAA TQENVA RKN  V G GG G
+Sbjct  61  LATLQEAAATQENVACRKNR-VDGSGGGG  88
+
+
+> UniRef90_P0CD94 Ubiquinol-cytochrome-c reductase complex assembly 
+factor 3 n=5 Tax=Murinae TaxID=39107 RepID=UQCC3_RAT
+Length=89
+
+ Score = 84.3 bits (207),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 38/63 (60%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  24  LLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLLLATLQEAATTQENVAWRKNWMVG  83
+           L  +VTPGE +KQ ML+EMP +D R R+EA RT++L++ATL++AA T+ENVAWR+NW V 
+Sbjct  24  LFALVTPGELQKQLMLQEMPERDSRRRDEAVRTKELVMATLKDAAATKENVAWRRNWTVR  83
+
+Query  84  GEG  86
+           G+G
+Sbjct  84  GDG  86
+
+
+> UniRef90_G1MPL1 Uncharacterized protein n=1 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1MPL1_AILME
+Length=74
+
+ Score = 80.9 bits (198),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 38/47 (81%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  40  KEMPLQDPRSREEAARTQQLLLATLQEAATTQENVAWRKNWMVGGEG  86
+           +EMP QDPR R+EAART++L+LATLQEAA TQENVAWRKNWMVGG G
+Sbjct  27  QEMPGQDPRRRDEAARTKELVLATLQEAAATQENVAWRKNWMVGGGG  73
+
+
+> UniRef90_G3VQZ4 Ubiquinol-cytochrome c reductase complex assembly 
+factor 3 n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=G3VQZ4_SARHA
+Length=89
+
+ Score = 70.1 bits (170),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 45/80 (56%), Positives = 59/80 (74%), Gaps = 0/80 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M SL K L   A+LGAG G+G  L V+VTPGE+R +E+LKE+P  +P+  +EA +T+ LL
+Sbjct  1   MGSLFKALQVAAVLGAGGGLGVFLFVLVTPGEQRTRELLKEIPEGNPQRWDEATKTKMLL  60
+
+Query  61  LATLQEAATTQENVAWRKNW  80
+           L TL+EA  T ENVAWRK+W
+Sbjct  61  LDTLREATETHENVAWRKDW  80
+
+
+> UniRef90_Q2KP58 Ubiquinol-cytochrome-c reductase complex assembly 
+factor 3 n=2 Tax=Xenopus laevis TaxID=8355 RepID=UQCC3_XENLA
+Length=82
+
+ Score = 55.1 bits (131),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 27/80 (34%), Positives = 47/80 (59%), Gaps = 0/80 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M+++R+++    +LG   G+G  L V+V PG+ R+ EM    P  +P    EA +  +++
+Sbjct  1   METVRRIVKGTLLLGFCTGIGGDLWVLVAPGQERRLEMRMNYPEANPPMLAEAHKRNEMV  60
+
+Query  61  LATLQEAATTQENVAWRKNW  80
+           L  ++E+A T EN+A R  W
+Sbjct  61  LKVIEESAKTNENMARRSPW  80
+
+
+> UniRef90_B3DFP2 Ubiquinol-cytochrome-c reductase complex assembly 
+factor 3 n=1 Tax=Danio rerio TaxID=7955 RepID=UQCC3_DANRE
+Length=78
+
+ Score = 54.7 bits (130),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 46/75 (61%), Gaps = 4/75 (5%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPRSREEAARTQQLL  60
+           M  +R +  SVA+     G+ YA+ +I +PGE RK+E+LK +P  +P   EE  +   ++
+Sbjct  1   MSGMRILTGSVAL----GGLTYAIWIIFSPGEERKKEILKSLPEANPVRMEETRKRNAIM  56
+
+Query  61  LATLQEAATTQENVA  75
+           L  L++AA T +N+A
+Sbjct  57  LQVLKDAAETNDNIA  71
+
+
+> UniRef90_L5KQE5 Uncharacterized protein n=1 Tax=Pteropus alecto 
+TaxID=9402 RepID=L5KQE5_PTEAL
+Length=181
+
+ Score = 54.3 bits (129),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 29/48 (60%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MDSLRKMLISVAMLGAGAGVGYALLVIVTPGERRKQEMLKEMPLQDPR  48
+           M + RK LI  A+LGAGAGVG AL V+VTPGE R Q MLK     +PR
+Sbjct  1   MQAFRKALIVGAVLGAGAGVGSALFVLVTPGEERIQAMLKVGATGNPR  48
+
+
+ Score = 15.0 bits (27),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 4/12 (33%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  33   RRKQEMLKEMPL  44
+            RR+  + +++PL
+Sbjct  116  RREVSVTRDLPL  127
+
+
+ Score = 14.6 bits (26),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  75  AWRKNWMVGGEGGAG  89
+           A+RK  +VG   GAG
+Sbjct  3   AFRKALIVGAVLGAG  17
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.130    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 150350
+
+
+  Database: isar.db.91
+    Posted date:  Jun 12, 2019  5:32 PM
+  Number of letters in database: 3,572
+  Number of sequences in database:  37
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

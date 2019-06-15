@@ -1,0 +1,1929 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.80
+           143 sequences; 8,174 total letters
+
+Results from round 1
+
+
+Query= P00856|6b2zL|ATP8_YEAST 1.0
+
+Length=48
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P00856 ATP synthase protein 8 n=21 Tax=cellular organi...  90.5    7e-30
+  UniRef90_A0A0H3V366 ATP synthase F0 subunit 8 n=18 Tax=Saccharo...  82.4    1e-26
+  UniRef90_A6H4Q7 ATP synthase protein 8 n=1 Tax=Vanderwaltozyma ...  80.9    3e-26
+  UniRef90_S5U534 ATP synthase F0 subunit 8 n=1 Tax=Cyberlindnera...  78.2    5e-25
+  UniRef90_Q8M351 ATP synthase subunit 8 n=2 Tax=Naumovozyma cast...  77.4    9e-25
+  UniRef90_C3W8H7 ATP synthase subunit 8 n=1 Tax=Nakaseomyces bac...  77.4    1e-24
+  UniRef90_Q00608 ATP synthase protein 8 n=2 Tax=Kluyveromyces Ta...  75.9    5e-24
+  UniRef90_P05040 ATP synthase protein 8 n=5 Tax=Nakaseomyces Tax...  72.4    1e-22
+  UniRef90_P48882 ATP synthase protein 8 n=6 Tax=Saccharomycetale...  68.9    2e-21
+  UniRef90_Q75G40 ATP synthase protein 8 n=1 Tax=Ashbya gossypii ...  68.6    3e-21
+  UniRef90_A0A2U7M360 ATP synthase F0 subunit 8 n=1 Tax=Saccharom...  68.6    3e-21
+  UniRef90_A0A060D9S1 AaceriMI005Wp n=1 Tax=Ashbya aceri TaxID=56...  68.2    5e-21
+  UniRef90_A0A2D0W3T0 ATP synthase F0 subunit 8 n=1 Tax=Naumovozy...  66.2    2e-20
+  UniRef90_A0A2H4ZR49 Atp8p n=1 Tax=Kazachstania sinensis TaxID=5...  66.2    3e-20
+  UniRef90_A0A0X8HWZ0 HMI005Wp n=1 Tax=Eremothecium sinecaudum Ta...  64.3    2e-19
+  UniRef90_A0A0K0PU19 ATPase subunit 8 n=4 Tax=Helotiales TaxID=5...  62.8    6e-19
+  UniRef90_A0A1P8SC15 ATP synthase F0 subunit 8 n=3 Tax=leotiomyc...  62.4    9e-19
+  UniRef90_S5TGR7 ATP synthase F0 subunit 8 n=3 Tax=Phaffomycetac...  62.4    1e-18
+  UniRef90_A0A2D0W3T1 ATP synthase F0 subunit 8 n=2 Tax=Kazachsta...  62.0    1e-18
+  UniRef90_A0A2G9FVN3 Uncharacterized protein n=2 Tax=cellular or...  60.5    5e-18
+  UniRef90_V5W7B2 Atp8 n=4 Tax=Rhynchosporium TaxID=38037 RepID=V...  60.5    6e-18
+  UniRef90_F8V3Z8 ATP synthase subunit 8 n=2 Tax=Helotiales TaxID...  60.1    8e-18
+  UniRef90_A0A2U8LKM8 ATP synthase F0 subunit 8 n=1 Tax=Gamarada ...  59.7    1e-17
+  UniRef90_A0A220T579 ATP synthase F0 subunit 8 n=7 Tax=Parmeliac...  58.9    2e-17
+  UniRef90_A0A2Z4KCM6 ATPase subunit 8 n=1 Tax=Lecanora markjohns...  58.9    2e-17
+  UniRef90_M1F6S1 ATP synthase subunit 8 n=2 Tax=Ceratocystidacea...  58.5    3e-17
+  UniRef90_E3CUA2 ATP synthase subunit 8 n=1 Tax=Colletotrichum g...  58.5    3e-17
+  UniRef90_A0A2Z5RDC4 ATP synthase F0 subunit 8 n=3 Tax=Taphrina ...  58.5    4e-17
+  UniRef90_A0A097KZR2 ATP synthase subunit 8 n=3 Tax=Aspergillus ...  58.2    4e-17
+  UniRef90_A0A220XKA4 Atp8 n=1 Tax=Colletotrichum salicis TaxID=1...  58.2    4e-17
+  UniRef90_A0A140IMX3 ATP synthase subunit 8 n=1 Tax=Pyronema omp...  58.2    5e-17
+  UniRef90_A0A370JUN2 Uncharacterized protein n=1 Tax=Venturia in...  59.7    5e-17
+  UniRef90_A0A290YM33 ATP synthase F0 subunit 8 n=1 Tax=Lepraria ...  57.8    6e-17
+  UniRef90_A0A141IQH4 ATP synthase subunit 8 n=4 Tax=Hypocreales ...  57.4    8e-17
+  UniRef90_A0A1Y2M698 Uncharacterized protein n=1 Tax=Epicoccum n...  59.7    1e-16
+  UniRef90_A0A2G9FVU4 Uncharacterized protein n=2 Tax=Eukaryota T...  57.0    1e-16
+  UniRef90_A0A0D2AL63 Uncharacterized protein n=1 Tax=Verruconis ...  58.2    2e-16
+  UniRef90_A0A163GC52 Hydrogen ion transmembrane transporter n=1 ...  58.5    2e-16
+  UniRef90_A0A385I1R5 ATP synthase F0 subunit 8 n=4 Tax=Cladonia ...  56.2    2e-16
+  UniRef90_A0A023UMY0 ATP synthase F0 subunit 8 n=1 Tax=Magnusiom...  56.2    2e-16
+  UniRef90_P0CY41 ATP synthase protein 8 n=2 Tax=Emericella nidul...  56.2    2e-16
+  UniRef90_C3W8G7 ATP synthase subunit 8 n=1 Tax=[Candida] castel...  56.2    2e-16
+  UniRef90_A9Y5I8 ATP synthase subunit 8 n=2 Tax=Zymoseptoria tri...  56.2    3e-16
+  UniRef90_A0A364MTR0 F-box lrr repeat-containing protein 2 n=11 ...  57.4    3e-16
+  UniRef90_A0A023UPK1 ATP synthase F0 subunit 8 n=1 Tax=Magnusiom...  55.8    3e-16
+  UniRef90_G5CET0 ATP synthase F0 subunit 8 n=3 Tax=Peltigera Tax...  55.8    3e-16
+  UniRef90_P00858 ATP synthase protein 8 n=6 Tax=Aspergillaceae T...  55.8    3e-16
+  UniRef90_A2V6C2 ATP synthase subunit 8 n=5 Tax=cellular organis...  55.8    3e-16
+  UniRef90_A0A173CU79 ATP synthase subunit 8 n=1 Tax=Zasmidium ce...  55.5    4e-16
+  UniRef90_A0A060REV7 ARAD0ZZ00110p n=1 Tax=Blastobotrys adeniniv...  55.5    4e-16
+  UniRef90_R9UQ19 ATP synthase subunit 8 n=2 Tax=Glarea lozoyensi...  55.5    4e-16
+  UniRef90_A0A0U2ETC6 ATP synthase F0 subunit 8 n=2 Tax=Hirsutell...  55.5    4e-16
+  UniRef90_R0KLN5 Uncharacterized protein n=1 Tax=Setosphaeria tu...  57.0    5e-16
+  UniRef90_H5WH75 ATP synthase subunit 8 n=1 Tax=Exophiala dermat...  55.8    5e-16
+  UniRef90_K9L360 ATP synthase F0 subunit 8 n=1 Tax=Magnusiomyces...  55.5    5e-16
+  UniRef90_A0A1L2MD79 ATP synthase F0 subunit 8 n=2 Tax=Hypocreal...  55.5    5e-16
+  UniRef90_A0A1S6LNF3 ATP synthase F0 subunit 8 n=10 Tax=Colletot...  55.5    5e-16
+  UniRef90_A0A0U1Z038 ATP synthase F0 subunit 8 n=1 Tax=Sarocladi...  55.5    5e-16
+  UniRef90_A0A3G2Z7E3 ATP synthase F0 subunit 8 n=1 Tax=Heteroder...  55.1    7e-16
+  UniRef90_Q5FYS9 ATP synthase F0 subunit 8 n=28 Tax=cellular org...  55.1    8e-16
+  UniRef90_A0A0E3SX59 ATP synthase 8 n=9 Tax=Fusarium TaxID=5506 ...  54.7    9e-16
+  UniRef90_A0A177CYH1 Uncharacterized protein n=1 Tax=Paraphaeosp...  55.5    9e-16
+  UniRef90_Q0H8Y5 ATP synthase protein 8 n=3 Tax=Ustilaginaceae T...  54.7    1e-15
+  UniRef90_A0A286QI11 ATP synthase F0 subunit 8 n=4 Tax=Usnea Tax...  54.7    1e-15
+  UniRef90_A0A2W6XTJ0 Uncharacterized protein n=1 Tax=Chryseobact...  54.7    1e-15
+  UniRef90_E4ZKC7 Uncharacterized protein n=1 Tax=Leptosphaeria m...  57.0    1e-15
+  UniRef90_Q36257 ATP synthase protein 8 n=3 Tax=Saccharomycetale...  54.3    1e-15
+  UniRef90_A0A2H4EZM6 ATP synthase F0 subunit 8 n=1 Tax=Bionectri...  54.3    1e-15
+  UniRef90_Q3HM81 ATP synthase subunit 8 n=6 Tax=cellular organis...  53.9    2e-15
+  UniRef90_A0A2V1DDR0 Uncharacterized protein n=1 Tax=Periconia m...  55.5    2e-15
+  UniRef90_C9SZA0 ATP synthase F0 subunit 8 n=3 Tax=Verticillium ...  54.3    2e-15
+  UniRef90_U5QQP8 ATP synthase F0 subunit 8 n=11 Tax=Hypocreales ...  53.9    2e-15
+  UniRef90_A0A2D1P9R5 ATP synthase subunit 8 n=2 Tax=Cladonia Tax...  53.9    2e-15
+  UniRef90_B2VRM3 Uncharacterized protein n=3 Tax=Pyrenophora Tax...  55.5    2e-15
+  UniRef90_Q08656 ATP synthase protein 8 n=2 Tax=Neurospora crass...  53.9    2e-15
+  UniRef90_A0A0A1I5R3 ATPase subunit 8 n=1 Tax=Geotrichum candidu...  53.9    2e-15
+  UniRef90_M1GLV9 ATP synthase F0 subunit 8 n=2 Tax=Microbotryum ...  53.5    3e-15
+  UniRef90_A0A2G9FVH4 Uncharacterized protein n=1 Tax=Handroanthu...  56.6    3e-15
+  UniRef90_G4U505 Subunit 8 of ATP synthetase n=3 Tax=Saccharomyc...  53.5    3e-15
+  UniRef90_A0A2T2NS36 Uncharacterized protein n=1 Tax=Corynespora...  54.7    3e-15
+  UniRef90_Q02653 ATP synthase protein 8 n=3 Tax=Sordariales TaxI...  53.1    4e-15
+  UniRef90_A0A191MWR0 ATP synthase F0 subunit 8 n=7 Tax=Diaportha...  53.1    4e-15
+  UniRef90_A0A1J0D0D8 ATP synthase F0 subunit 8 n=12 Tax=Hypocrea...  53.1    5e-15
+  UniRef90_A0A291F811 ATP synthase F0 subunit 8 n=1 Tax=[Candida]...  52.8    5e-15
+  UniRef90_A0A1Z1GDN6 ATP synthase F0 subunit 8 n=5 Tax=Ophiostom...  52.8    6e-15
+  UniRef90_M4GGS5 ATP synthase subunit 8 n=11 Tax=Eurotiales TaxI...  52.4    8e-15
+  UniRef90_S5U5M1 ATP synthase F0 subunit 8 n=1 Tax=Ogataea philo...  52.4    8e-15
+  UniRef90_A0A2C9DSE4 ATP synt containse F0 subunit 8 n=1 Tax=Oph...  52.4    9e-15
+  UniRef90_K2RRJ3 ATPase F0 complex subunit 8 mitochondrial funga...  53.9    9e-15
+  UniRef90_A0A385I6C9 ATP synthase F0 subunit 8 n=1 Tax=Cladonia ...  52.0    1e-14
+  UniRef90_I6TSV3 Uncharacterized protein n=4 Tax=Aspergillus Tax...  52.0    1e-14
+  UniRef90_A0A286QSI5 ATP Synthase Subunit 8 n=1 Tax=Opegrapha vu...  52.0    1e-14
+  UniRef90_A0A101M5L4 Uncharacterized protein n=1 Tax=Picea glauc...  52.0    1e-14
+  UniRef90_R7YNN3 Uncharacterized protein n=1 Tax=Coniosporium ap...  53.5    2e-14
+  UniRef90_A0A1D8RE32 ATP synthase F0 subunit 8 n=1 Tax=Pestaloti...  51.2    3e-14
+  UniRef90_A0A0C3NAC9 Uncharacterized protein n=3 Tax=cellular or...  51.2    3e-14
+  UniRef90_V5RFC7 ATP synthase F0 subunit 8 n=3 Tax=Xylariales Ta...  50.8    3e-14
+  UniRef90_Q751Q6 Putative ATP synthase protein 8-like protein n=...  50.8    3e-14
+  UniRef90_A0A1Y1Z7F6 Fungal ATP synthase protein 8-domain-contai...  52.0    3e-14
+  UniRef90_A0A286QTH6 ATPase subunit 8 n=1 Tax=Ricasolia amplissi...  50.4    4e-14
+  UniRef90_D2XDV2 ATP synthase subunit 8 n=1 Tax=Pneumocystis car...  50.4    5e-14
+  UniRef90_B5KQ11 ATP synthase F0 subunit 8 n=1 Tax=Beauveria bro...  50.4    5e-14
+  UniRef90_S5TDY2 ATP synthase F0 subunit 8 n=1 Tax=Meyerozyma gu...  50.4    5e-14
+  UniRef90_Q8HHC9 ATP synthase F0 subunit 8 n=1 Tax=Cryphonectria...  50.4    6e-14
+  UniRef90_S5U5D2 ATP synthase F0 subunit 8 n=1 Tax=Clavispora lu...  50.1    6e-14
+  UniRef90_A0A286MUL9 ATP synthase subunit 8 n=1 Tax=Mycocalicium...  49.7    9e-14
+  UniRef90_M1K4I4 ATP synthase F0 subunit 8 n=2 Tax=Cantharellus ...  49.7    1e-13
+  UniRef90_A9RAH3 ATP synthase protein 8 n=1 Tax=Debaryomyces han...  49.7    1e-13
+  UniRef90_A0A2I6QCH6 ATP synthase F0 subunit 8 n=1 Tax=Malassezi...  49.3    2e-13
+  UniRef90_A8DU66 ATP synthase F0 subunit 8 n=2 Tax=Tilletia TaxI...  48.9    2e-13
+  UniRef90_S5U5S9 ATP synthase F0 subunit 8 n=1 Tax=Candida sake ...  48.9    2e-13
+  UniRef90_M1X4R2 ATP synthase subunit 8 n=2 Tax=Malassezia sympo...  48.5    3e-13
+  UniRef90_A0A1P8NNM4 ATP synthase F0 subunit 8 n=8 Tax=Agaricomy...  48.5    3e-13
+  UniRef90_A0A2I6QCM1 ATP synthase F0 subunit 8 n=2 Tax=Malassezi...  48.5    3e-13
+  UniRef90_A0A2S0S4D4 ATP synthase F0 subunit 8 n=1 Tax=Cantharel...  48.5    3e-13
+  UniRef90_A0A2I6QCT4 ATP synthase F0 subunit 8 n=3 Tax=Malassezi...  48.9    3e-13
+  UniRef90_C7FEW1 Atp8p n=1 Tax=Brettanomyces custersianus TaxID=...  48.1    4e-13
+  UniRef90_F2R0K9 Uncharacterized protein n=1 Tax=Komagataella ph...  48.1    4e-13
+  UniRef90_A0A2K9YPG1 ATP synthase F0 subunit 8 n=6 Tax=Pleurotus...  48.1    5e-13
+  UniRef90_M5BJJ6 ATP synthase subunit 8 n=3 Tax=Agaricomycetes i...  48.1    5e-13
+  UniRef90_A0A1V1G912 ATP synthase F0 subunit 8 n=2 Tax=Polyporal...  47.8    6e-13
+  UniRef90_A0A385JG89 ATP synthase F0 subunit 8 n=1 Tax=Hannaella...  47.8    6e-13
+  UniRef90_A0A2I6QD02 ATP synthase F0 subunit 8 n=1 Tax=Malassezi...  47.8    7e-13
+  UniRef90_A0A2S0U3L1 ATP synthase F0 subunit 8 n=7 Tax=Russulace...  47.4    7e-13
+  UniRef90_E5L093 ATP synthase F0 subunit 8 n=1 Tax=Groenewaldozy...  47.4    8e-13
+  UniRef90_A0A2P1M533 ATP synthase F0 subunit 8 n=2 Tax=Pertusari...  47.4    9e-13
+  UniRef90_A0A0C2W0E4 Uncharacterized protein n=1 Tax=Serendipita...  47.4    9e-13
+  UniRef90_G4U3F5 ATP synthase subunit 8 n=1 Tax=Serendipita indi...  47.0    1e-12
+  UniRef90_A0A192ID76 Atp8 n=1 Tax=Xylohypha bantiana TaxID=89940...  48.1    1e-12
+  UniRef90_Q6ED57 ATP synthase F0 subunit 8 n=1 Tax=Starmerella b...  47.0    1e-12
+  UniRef90_F7WD53 Putative ATP synthase F0 subunit 8 n=1 Tax=Sord...  47.0    1e-12
+  UniRef90_C0P1F6 ATP synthase F0 subunit 8 n=3 Tax=Ajellomyces c...  46.6    2e-12
+  UniRef90_I7HDS4 ATP synthase A chain subunit 8 n=1 Tax=Lentinul...  46.2    3e-12
+  UniRef90_L8B9F3 ATP synthase subunit 8 n=2 Tax=Agaricomycetes i...  46.2    3e-12
+  UniRef90_S4UVR2 ATP synthase F0 subunit 8 n=10 Tax=Polyporaceae...  45.8    4e-12
+  UniRef90_A0A1C1C686 ATP synthase protein 8 n=1 Tax=Cladophialop...  45.1    7e-12
+  UniRef90_A0A1X9QGZ3 ATP synthase F0 subunit 8 n=1 Tax=Leptogium...  43.9    2e-11
+  UniRef90_C0HK68 ATP synthase protein 8 n=3 Tax=Ogataea TaxID=46...  43.1    3e-11
+  UniRef90_C7FEY4 Atp8p n=1 Tax=Dekkera bruxellensis TaxID=5007 R...  40.8    3e-10
+  UniRef90_Q3T4D7 ATP synthase F0 subunit 8 n=6 Tax=Mucorales Tax...  40.8    3e-10
+  UniRef90_A0A2I6QC06 ATP synthase F0 subunit 8 n=1 Tax=Malassezi...  40.0    7e-10
+  UniRef90_E2JE45 ATP synthase F0 subunit 8 n=11 Tax=Glomeraceae ...  38.9    2e-09
+  UniRef90_H9EBE0 ATP synthase F0 subunit 8 n=2 Tax=cellular orga...  39.3    2e-09
+
+
+> UniRef90_P00856 ATP synthase protein 8 n=21 Tax=cellular organisms 
+TaxID=131567 RepID=ATP8_YEAST
+Length=48
+
+ Score = 90.5 bits (223),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 48/48 (100%), Positives = 48/48 (100%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL
+Sbjct  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+
+
+> UniRef90_A0A0H3V366 ATP synthase F0 subunit 8 n=18 Tax=Saccharomycetaceae 
+TaxID=4893 RepID=A0A0H3V366_9SACH
+Length=48
+
+ Score = 82.4 bits (202),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQLTYGFLL+  LL+LFSQ+FLPMILRLYVSRLFISKL
+Sbjct  1   MPQLVPFYFLNQLTYGFLLITVLLVLFSQYFLPMILRLYVSRLFISKL  48
+
+
+> UniRef90_A6H4Q7 ATP synthase protein 8 n=1 Tax=Vanderwaltozyma 
+polyspora (strain ATCC 22028 / DSM 70294) TaxID=436907 RepID=ATP8_VANPO
+Length=48
+
+ Score = 80.9 bits (198),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 41/48 (85%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQLTYGFLLM  LL+LFSQFFLPMILRLY++RLFISKL
+Sbjct  1   MPQLIPFYFLNQLTYGFLLMTILLVLFSQFFLPMILRLYLTRLFISKL  48
+
+
+> UniRef90_S5U534 ATP synthase F0 subunit 8 n=1 Tax=Cyberlindnera 
+suaveolens TaxID=907738 RepID=S5U534_9ASCO
+Length=48
+
+ Score = 78.2 bits (191),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 39/48 (81%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQLTYGF+L++ LL+LFSQF LP ILRLYV+RLFISKL
+Sbjct  1   MPQLVPFYFLNQLTYGFILIVILLVLFSQFLLPRILRLYVTRLFISKL  48
+
+
+> UniRef90_Q8M351 ATP synthase subunit 8 n=2 Tax=Naumovozyma castellii 
+TaxID=27288 RepID=Q8M351_NAUCC
+Length=48
+
+ Score = 77.4 bits (189),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 39/48 (81%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+N LTYGF+L++ LL+LFSQ+FLPMILRLYVSRLFISKL
+Sbjct  1   MPQLLPFYFLNTLTYGFILIMILLVLFSQYFLPMILRLYVSRLFISKL  48
+
+
+> UniRef90_C3W8H7 ATP synthase subunit 8 n=1 Tax=Nakaseomyces bacillisporus 
+TaxID=51660 RepID=C3W8H7_9SACH
+Length=48
+
+ Score = 77.4 bits (189),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 39/48 (81%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMNQLTYGFLL+  LLILFS+ FLPMIL+L+V+RL+ISKL
+Sbjct  1   MPQLVPFYFMNQLTYGFLLITVLLILFSKVFLPMILKLHVTRLYISKL  48
+
+
+> UniRef90_Q00608 ATP synthase protein 8 n=2 Tax=Kluyveromyces 
+TaxID=4910 RepID=ATP8_KLULA
+Length=48
+
+ Score = 75.9 bits (185),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQL YGF L+  LL+LF+Q+FLP ILRLYVSRLFISKL
+Sbjct  1   MPQLVPFYFLNQLVYGFALVTILLVLFAQYFLPQILRLYVSRLFISKL  48
+
+
+> UniRef90_P05040 ATP synthase protein 8 n=5 Tax=Nakaseomyces TaxID=374468 
+RepID=ATP8_CANGA
+Length=48
+
+ Score = 72.4 bits (176),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 43/48 (90%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYFMNQLTYG LL+  LLILFSQFFLPMILRLYVSRLFISKL
+Sbjct  1   MPQLIPFYFMNQLTYGLLLITVLLILFSQFFLPMILRLYVSRLFISKL  48
+
+
+> UniRef90_P48882 ATP synthase protein 8 n=6 Tax=Saccharomycetales 
+TaxID=4892 RepID=ATP8_WICCA
+Length=48
+
+ Score = 68.9 bits (167),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 41/48 (85%), Positives = 45/48 (94%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQLTYGFLL+I LL+LFSQF LP ILRLY+SRLFISKL
+Sbjct  1   MPQLVPFYFLNQLTYGFLLLIILLVLFSQFLLPRILRLYISRLFISKL  48
+
+
+> UniRef90_Q75G40 ATP synthase protein 8 n=1 Tax=Ashbya gossypii 
+(strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056) 
+TaxID=284811 RepID=ATP8_ASHGO
+Length=48
+
+ Score = 68.6 bits (166),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 34/48 (71%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQ++PF+FMNQLTYGF  ++T+L L S  FLPMILRLY+SRL+ISKL
+Sbjct  1   MPQMIPFFFMNQLTYGFTFILTILFLTSYVFLPMILRLYISRLYISKL  48
+
+
+> UniRef90_A0A2U7M360 ATP synthase F0 subunit 8 n=1 Tax=Saccharomycodes 
+ludwigii TaxID=36035 RepID=A0A2U7M360_9ASCO
+Length=48
+
+ Score = 68.6 bits (166),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 39/48 (81%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQLTYGFL MI LLIL SQ FLP +++LYVSRLFISKL
+Sbjct  1   MPQLVPFYFLNQLTYGFLTMIILLILLSQVFLPKVMKLYVSRLFISKL  48
+
+
+> UniRef90_A0A060D9S1 AaceriMI005Wp n=1 Tax=Ashbya aceri TaxID=566037 
+RepID=A0A060D9S1_ASHAC
+Length=56
+
+ Score = 68.2 bits (165),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 33/47 (70%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  2   PQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           PQ++PF+FMNQLTYGF  ++T+L+L S FFLP ILRLY SRLF+SKL
+Sbjct  10  PQMIPFFFMNQLTYGFTFILTILLLTSYFFLPTILRLYTSRLFVSKL  56
+
+
+> UniRef90_A0A2D0W3T0 ATP synthase F0 subunit 8 n=1 Tax=Naumovozyma 
+dairenensis TaxID=27289 RepID=A0A2D0W3T0_9SACH
+Length=48
+
+ Score = 66.2 bits (160),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 40/48 (83%), Positives = 46/48 (96%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMN +TYGF+L++ LL+LFSQ+FLPMILRLYVSRLFISKL
+Sbjct  1   MPQLVPFYFMNMVTYGFILILVLLVLFSQYFLPMILRLYVSRLFISKL  48
+
+
+> UniRef90_A0A2H4ZR49 Atp8p n=1 Tax=Kazachstania sinensis TaxID=588727 
+RepID=A0A2H4ZR49_9SACH
+Length=48
+
+ Score = 66.2 bits (160),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYFMNQLTYGFLL+  LL+LFS   LPMIL+LYVSRL+ISKL
+Sbjct  1   MPQLIPFYFMNQLTYGFLLLTILLVLFSTILLPMILKLYVSRLYISKL  48
+
+
+> UniRef90_A0A0X8HWZ0 HMI005Wp n=1 Tax=Eremothecium sinecaudum 
+TaxID=45286 RepID=A0A0X8HWZ0_9SACH
+Length=48
+
+ Score = 64.3 bits (155),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 33/48 (69%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMNQL YGFL +  +LI  SQ+ LP I++LYVSRL I+KL
+Sbjct  1   MPQLVPFYFMNQLFYGFLTLSLILITVSQYILPTIIKLYVSRLLITKL  48
+
+
+> UniRef90_A0A0K0PU19 ATPase subunit 8 n=4 Tax=Helotiales TaxID=5178 
+RepID=A0A0K0PU19_SCLS1
+Length=48
+
+ Score = 62.8 bits (151),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F+L+I ++ +FS++ LP  +RL++SR+FISKL
+Sbjct  1   MPQLVPFYFINQVTFAFILLIVMIYVFSKYILPRFVRLFISRVFISKL  48
+
+
+> UniRef90_A0A1P8SC15 ATP synthase F0 subunit 8 n=3 Tax=leotiomyceta 
+TaxID=716546 RepID=A0A1P8SC15_9PEZI
+Length=48
+
+ Score = 62.4 bits (150),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F++++T++ +FS++ LP  +RL++SR+FISKL
+Sbjct  1   MPQLVPFYFINQVTFAFVILVTMIYVFSKYILPRFVRLFLSRVFISKL  48
+
+
+> UniRef90_S5TGR7 ATP synthase F0 subunit 8 n=3 Tax=Phaffomycetaceae 
+TaxID=115784 RepID=S5TGR7_9ASCO
+Length=51
+
+ Score = 62.4 bits (150),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 36/46 (78%), Positives = 42/46 (91%), Gaps = 0/46 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFIS  46
+           MPQLVPFYF+NQL YGFLL+I LL+LF+QF LP ILRLY++RLFIS
+Sbjct  1   MPQLVPFYFLNQLNYGFLLLIILLVLFAQFLLPRILRLYITRLFIS  46
+
+
+> UniRef90_A0A2D0W3T1 ATP synthase F0 subunit 8 n=2 Tax=Kazachstania 
+TaxID=71245 RepID=A0A2D0W3T1_9SACH
+Length=48
+
+ Score = 62.0 bits (149),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 38/48 (79%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYFMNQLTYGFLL + LL+LFS   LPMIL+LYVSRLFI+KL
+Sbjct  1   MPQLIPFYFMNQLTYGFLLFVVLLVLFSTILLPMILKLYVSRLFITKL  48
+
+
+> UniRef90_A0A2G9FVN3 Uncharacterized protein n=2 Tax=cellular 
+organisms TaxID=131567 RepID=A0A2G9FVN3_9LAMI
+Length=48
+
+ Score = 60.5 bits (145),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F +++TL+ +FS++ LP  +RL+ +R+FISKL
+Sbjct  1   MPQLVPFYFVNEVTFAFAVLVTLIYVFSKYVLPRFVRLFSARVFISKL  48
+
+
+> UniRef90_V5W7B2 Atp8 n=4 Tax=Rhynchosporium TaxID=38037 RepID=V5W7B2_9HELO
+Length=48
+
+ Score = 60.5 bits (145),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F+L + ++ +FS+F LP  +RL+ +R+FISKL
+Sbjct  1   MPQLVPFYFINQVTFAFILFVIMIYVFSKFILPRFVRLFTTRVFISKL  48
+
+
+> UniRef90_F8V3Z8 ATP synthase subunit 8 n=2 Tax=Helotiales TaxID=5178 
+RepID=F8V3Z8_9HELO
+Length=48
+
+ Score = 60.1 bits (144),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F+L++ ++ +FS++ LP  +RL+ +R+FISKL
+Sbjct  1   MPQLVPFYFINQVTFAFILLVIMIYVFSKYILPRFVRLFTTRIFISKL  48
+
+
+> UniRef90_A0A2U8LKM8 ATP synthase F0 subunit 8 n=1 Tax=Gamarada 
+debralockiae TaxID=2037899 RepID=A0A2U8LKM8_9HELO
+Length=48
+
+ Score = 59.7 bits (143),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F+L++ ++ +FS F LP  +RL+ SR+FISKL
+Sbjct  1   MPQLVPFYFINEVTFAFILLVVMIYVFSIFVLPRFVRLFTSRIFISKL  48
+
+
+> UniRef90_A0A220T579 ATP synthase F0 subunit 8 n=7 Tax=Parmeliaceae 
+TaxID=78060 RepID=A0A220T579_9LECA
+Length=48
+
+ Score = 58.9 bits (141),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F+L+I ++ +FS++ LP  +RL+ +R+FI+KL
+Sbjct  1   MPQLVPFYFLNQITFAFILLIVMIYIFSKYILPRFVRLFNTRVFITKL  48
+
+
+> UniRef90_A0A2Z4KCM6 ATPase subunit 8 n=1 Tax=Lecanora markjohnstonii 
+TaxID=2217878 RepID=A0A2Z4KCM6_9LECA
+Length=48
+
+ Score = 58.9 bits (141),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F L+I ++ +FS++ L +I+RL+ +R+FI+KL
+Sbjct  1   MPQLVPFYFLNQITFAFTLLILMIYIFSKYILAIIVRLFATRVFITKL  48
+
+
+> UniRef90_M1F6S1 ATP synthase subunit 8 n=2 Tax=Ceratocystidaceae 
+TaxID=1028423 RepID=M1F6S1_9PEZI
+Length=50
+
+ Score = 58.5 bits (140),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFY+MN+L + F L++ +L L S++ LP I+RL++SR+FI K+
+Sbjct  1   MPQLVPFYYMNELVFSFSLIVVILYLLSKYILPRIVRLFISRIFIKKI  48
+
+
+> UniRef90_E3CUA2 ATP synthase subunit 8 n=1 Tax=Colletotrichum 
+graminicola (strain M1.001 / M2 / FGSC 10212) TaxID=645133 
+RepID=E3CUA2_COLGM
+Length=54
+
+ Score = 58.5 bits (140),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F +++ L  +FS++ LP I+ L+V+RLFIS L
+Sbjct  1   MPQLVPFYFINEVTFAFAIIVVLTYVFSKYVLPRIVNLFVARLFISNL  48
+
+
+> UniRef90_A0A2Z5RDC4 ATP synthase F0 subunit 8 n=3 Tax=Taphrina 
+TaxID=5010 RepID=A0A2Z5RDC4_9ASCO
+Length=59
+
+ Score = 58.5 bits (140),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+GF +++ +L LFS++ LP  L L+++R FI+KL
+Sbjct  12  MPQLVPFYFVNQVTFGFAVLLVMLYLFSKYILPKYLELFLTRTFITKL  59
+
+
+> UniRef90_A0A097KZR2 ATP synthase subunit 8 n=3 Tax=Aspergillus 
+TaxID=5052 RepID=A0A097KZR2_9EURO
+Length=48
+
+ Score = 58.2 bits (139),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+ + FL++I L+  FS++ LP  +R+++SR++I+KL
+Sbjct  1   MPQLVPFYFVNQVVFAFLVLIVLIYAFSKYILPRFVRIFISRIYINKL  48
+
+
+> UniRef90_A0A220XKA4 Atp8 n=1 Tax=Colletotrichum salicis TaxID=1209931 
+RepID=A0A220XKA4_9PEZI
+Length=54
+
+ Score = 58.2 bits (139),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F ++I L  +FS++ LP I+ L+VSRLFIS L
+Sbjct  1   MPQLVPFYFVNEITFAFAIIILLTYVFSKYVLPRIVSLFVSRLFISTL  48
+
+
+> UniRef90_A0A140IMX3 ATP synthase subunit 8 n=1 Tax=Pyronema omphalodes 
+TaxID=337075 RepID=A0A140IMX3_9PEZI
+Length=48
+
+ Score = 58.2 bits (139),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F+++  LL + S+  LP ILRL++SR+F++KL
+Sbjct  1   MPQLVPFYFINQVTFTFVILTVLLYILSKHILPRILRLFLSRVFVTKL  48
+
+
+> UniRef90_A0A370JUN2 Uncharacterized protein n=1 Tax=Venturia 
+inaequalis TaxID=5025 RepID=A0A370JUN2_VENIN
+Length=119
+
+ Score = 59.7 bits (143),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQLVPFYF+N+ T  F+L+ TL+ LFS++ LP  +R+  +RLFISKL
+Sbjct  72   MPQLVPFYFVNETTMAFVLLPTLIYLFSKYLLPQRVRVMAARLFISKL  119
+
+
+> UniRef90_A0A290YM33 ATP synthase F0 subunit 8 n=1 Tax=Lepraria 
+oxybapha TaxID=1225178 RepID=A0A290YM33_9LECA
+Length=48
+
+ Score = 57.8 bits (138),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F L+I ++ +FS++ LP  +RL+ +R+F++KL
+Sbjct  1   MPQLVPFYFLNQVTFAFTLLIVMIYIFSKYILPRFVRLFTARVFLTKL  48
+
+
+> UniRef90_A0A141IQH4 ATP synthase subunit 8 n=4 Tax=Hypocreales 
+incertae sedis TaxID=162454 RepID=A0A141IQH4_9HYPO
+Length=48
+
+ Score = 57.4 bits (137),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFY+MN++ + F L++ +L + S+F LP I+RL+VSR+FI+K+
+Sbjct  1   MPQLVPFYYMNEIIFSFGLIVIILYVLSKFILPRIVRLFVSRVFINKI  48
+
+
+> UniRef90_A0A1Y2M698 Uncharacterized protein n=1 Tax=Epicoccum 
+nigrum TaxID=105696 RepID=A0A1Y2M698_EPING
+Length=152
+
+ Score = 59.7 bits (143),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQL+PF+F+N+ T  F+L+ TL+ +FS++ LP  LRL+ +RLFISKL
+Sbjct  105  MPQLIPFFFVNETTVAFVLLPTLIYIFSKYILPQRLRLFAARLFISKL  152
+
+
+> UniRef90_A0A2G9FVU4 Uncharacterized protein n=2 Tax=Eukaryota 
+TaxID=2759 RepID=A0A2G9FVU4_9LAMI
+Length=48
+
+ Score = 57.0 bits (136),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F++ + L+ +FS++ LP  +RL+ +R+FISKL
+Sbjct  1   MPQLVPFFFINQIVFAFIIFVALIYVFSKYILPRFVRLFATRVFISKL  48
+
+
+> UniRef90_A0A0D2AL63 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D2AL63_9PEZI
+Length=106
+
+ Score = 58.2 bits (139),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQL+PFYF+N++T  F++M TL+ +FS++ LP  +R   +RLFISKL
+Sbjct  59   MPQLIPFYFVNEVTTAFIIMPTLIYIFSKYLLPQRVRTMCARLFISKL  106
+
+
+> UniRef90_A0A163GC52 Hydrogen ion transmembrane transporter n=1 
+Tax=Didymella rabiei TaxID=5454 RepID=A0A163GC52_DIDRA
+Length=119
+
+ Score = 58.5 bits (140),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQL+PF+F+N+ T  F+L+ TL+ +FS++ LP  +RL+ +RLFISKL
+Sbjct  72   MPQLIPFFFVNETTVAFVLLPTLIYVFSKYILPQRVRLFAARLFISKL  119
+
+
+> UniRef90_A0A385I1R5 ATP synthase F0 subunit 8 n=4 Tax=Cladonia 
+TaxID=5199 RepID=A0A385I1R5_9LECA
+Length=48
+
+ Score = 56.2 bits (134),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+ + F L+  ++ +FS++ LP  +RL+ +RLF++KL
+Sbjct  1   MPQLVPFYFLNQIIFAFALLAAMIYIFSKYILPRFIRLFTARLFVTKL  48
+
+
+> UniRef90_A0A023UMY0 ATP synthase F0 subunit 8 n=1 Tax=Magnusiomyces 
+capitatus TaxID=1095183 RepID=A0A023UMY0_9ASCO
+Length=48
+
+ Score = 56.2 bits (134),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMNQL YG   M+ L+++FS + LP +L +++SR+F++KL
+Sbjct  1   MPQLVPFYFMNQLVYGLSFMLILIMIFSHYILPRMLFIFLSRIFMTKL  48
+
+
+> UniRef90_P0CY41 ATP synthase protein 8 n=2 Tax=Emericella nidulans 
+TaxID=162425 RepID=ATP8_EMENI
+Length=48
+
+ Score = 56.2 bits (134),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F+++  L+  FS++ LP +LR Y+SR++I+KL
+Sbjct  1   MPQLVPFFFVNQVVFAFIVLTVLIYAFSKYILPRLLRTYISRIYINKL  48
+
+
+> UniRef90_C3W8G7 ATP synthase subunit 8 n=1 Tax=[Candida] castellii 
+TaxID=51914 RepID=C3W8G7_9SACH
+Length=48
+
+ Score = 56.2 bits (134),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 39/48 (81%), Positives = 44/48 (92%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMNQLT+G LL+  LLILF+Q FLPMILRLY++RLFISKL
+Sbjct  1   MPQLVPFYFMNQLTFGLLLITLLLILFAQVFLPMILRLYITRLFISKL  48
+
+
+> UniRef90_A9Y5I8 ATP synthase subunit 8 n=2 Tax=Zymoseptoria tritici 
+TaxID=1047171 RepID=A9Y5I8_ZYMTI
+Length=48
+
+ Score = 56.2 bits (134),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F++ + L+ +FS++ LP  +RL+ +RLFISKL
+Sbjct  1   MPQLVPFFFINQVVFAFVIFVLLVYVFSKYILPRFVRLFAARLFISKL  48
+
+
+> UniRef90_A0A364MTR0 F-box lrr repeat-containing protein 2 n=11 
+Tax=Pleosporales TaxID=92860 RepID=A0A364MTR0_9PLEO
+Length=99
+
+ Score = 57.4 bits (137),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PF+F+N+ T  F+L+ +L+ +FS++ LP  +RL+ +RLFISKL
+Sbjct  52  MPQLIPFFFVNETTVAFILLPSLIYVFSKYILPQRVRLFAARLFISKL  99
+
+
+> UniRef90_A0A023UPK1 ATP synthase F0 subunit 8 n=1 Tax=Magnusiomyces 
+ingens TaxID=44077 RepID=A0A023UPK1_9ASCO
+Length=48
+
+ Score = 55.8 bits (133),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQL YG   M+ LL +FSQ+ LP +L +++SR+F++KL
+Sbjct  1   MPQLVPFYFVNQLVYGLSFMLMLLYMFSQYMLPRMLFMFLSRMFMTKL  48
+
+
+> UniRef90_G5CET0 ATP synthase F0 subunit 8 n=3 Tax=Peltigera TaxID=48861 
+RepID=G5CET0_9LECA
+Length=48
+
+ Score = 55.8 bits (133),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF +Q+T+ F+L+  ++ +FS++ LP  +RL+++RLFISKL
+Sbjct  1   MPQLIPFYFTDQVTFTFILLTVMVYVFSKYILPRFVRLFLTRLFISKL  48
+
+
+> UniRef90_P00858 ATP synthase protein 8 n=6 Tax=Aspergillaceae 
+TaxID=1131492 RepID=ATP8_ASPAM
+Length=48
+
+ Score = 55.8 bits (133),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ Y F+++  L+  F++F LP  +R+++SR++I+KL
+Sbjct  1   MPQLVPFFFVNQVVYAFVILTVLIYAFTKFILPKFVRIFISRIYINKL  48
+
+
+> UniRef90_A2V6C2 ATP synthase subunit 8 n=5 Tax=cellular organisms 
+TaxID=131567 RepID=A2V6C2_RHOGU
+Length=48
+
+ Score = 55.8 bits (133),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL++ITL+ +F  + LP    L+V+R++I+KL
+Sbjct  1   MPQLLPFYFINQLSFAFLVLITLVYVFGTYILPAFAELFVTRMYITKL  48
+
+
+> UniRef90_A0A173CU79 ATP synthase subunit 8 n=1 Tax=Zasmidium 
+cellare TaxID=395010 RepID=A0A173CU79_9PEZI
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F + + L+ +FS++ LP  +RL+ +RLFISKL
+Sbjct  1   MPQLVPFFFVNQVVFAFAIFVMLIYVFSKYILPRFVRLFATRLFISKL  48
+
+
+> UniRef90_A0A060REV7 ARAD0ZZ00110p n=1 Tax=Blastobotrys adeninivorans 
+TaxID=409370 RepID=A0A060REV7_BLAAD
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 30/48 (63%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFY++NQL YGF  +  LLI+ S F LP IL + VSRL+I+KL
+Sbjct  1   MPQLVPFYYINQLFYGFSTLTILLIVMSLFILPTILYIIVSRLYITKL  48
+
+
+> UniRef90_R9UQ19 ATP synthase subunit 8 n=2 Tax=Glarea lozoyensis 
+TaxID=101852 RepID=R9UQ19_GLAL7
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMNQ+ + F+L++  + +FS + L   +RL+ SR+FISKL
+Sbjct  1   MPQLVPFYFMNQILFAFVLLVITIYIFSNYVLARFVRLFTSRVFISKL  48
+
+
+> UniRef90_A0A0U2ETC6 ATP synthase F0 subunit 8 n=2 Tax=Hirsutella 
+TaxID=42367 RepID=A0A0U2ETC6_9HYPO
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFY+MN++ + F +++ +L + S++ LP I+RL+VSR+FI+K+
+Sbjct  1   MPQLTPFYYMNEIVFAFAVIVLVLYILSKYILPRIVRLFVSRMFINKI  48
+
+
+> UniRef90_R0KLN5 Uncharacterized protein n=1 Tax=Setosphaeria 
+turcica (strain 28A) TaxID=671987 RepID=R0KLN5_SETT2
+Length=99
+
+ Score = 57.0 bits (136),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PF+F+N+ T  F+L+ +L+ +FS++ LP  +RL+ +RLFISKL
+Sbjct  52  MPQLIPFFFVNETTVAFVLLPSLIYIFSKYILPQRVRLFAARLFISKL  99
+
+
+> UniRef90_H5WH75 ATP synthase subunit 8 n=1 Tax=Exophiala dermatitidis 
+(strain ATCC 34100 / CBS 525.76 / NIH/UT8656) TaxID=858893 
+RepID=H5WH75_EXODN
+Length=56
+
+ Score = 55.8 bits (133),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+TY FLL++ ++ LFS++ LP  +RL+ +R+F+  L
+Sbjct  1   MPQLVPFFFVNQVTYNFLLLVIIIYLFSKYILPRFVRLFRTRVFLKTL  48
+
+
+> UniRef90_K9L360 ATP synthase F0 subunit 8 n=1 Tax=Magnusiomyces 
+magnusii TaxID=43963 RepID=K9L360_MAGMU
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQL YG   +  LL++ SQ+FLP +  +++SR+FI+KL
+Sbjct  1   MPQLVPFYFVNQLVYGLSFLFILLVIASQYFLPRLFFIFLSRIFITKL  48
+
+
+> UniRef90_A0A1L2MD79 ATP synthase F0 subunit 8 n=2 Tax=Hypocreales 
+TaxID=5125 RepID=A0A1L2MD79_PARAQ
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFY+MN++ + F +++ +L + S++ LP I+RL++SR+FI+K+
+Sbjct  1   MPQLTPFYYMNEIAFAFAIIVLVLYILSKYILPRIVRLFISRMFINKI  48
+
+
+> UniRef90_A0A1S6LNF3 ATP synthase F0 subunit 8 n=10 Tax=Colletotrichum 
+TaxID=5455 RepID=A0A1S6LNF3_9PEZI
+Length=54
+
+ Score = 55.5 bits (132),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F +++ L  +FS++ LP I+ L+VSRLFI  L
+Sbjct  1   MPQLVPFYFINEVTFAFAIIVLLTYVFSKYVLPRIVSLFVSRLFIVNL  48
+
+
+> UniRef90_A0A0U1Z038 ATP synthase F0 subunit 8 n=1 Tax=Sarocladium 
+implicatum TaxID=1610689 RepID=A0A0U1Z038_9HYPO
+Length=48
+
+ Score = 55.5 bits (132),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFY+MN++ + F L++  L + S++ LP I+RL+V+R+FI K+
+Sbjct  1   MPQLVPFYYMNEIVFSFSLIVITLYILSKYILPRIVRLFVTRMFIDKI  48
+
+
+> UniRef90_A0A3G2Z7E3 ATP synthase F0 subunit 8 n=1 Tax=Heterodermia 
+speciosa TaxID=116794 RepID=A0A3G2Z7E3_9LECA
+Length=48
+
+ Score = 55.1 bits (131),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F+L++ ++ +FS++ LP  +RL+++R+FISKL
+Sbjct  1   MPQLVPFFFINQIIFAFILLLIIIYVFSKYILPRFVRLFLTRVFISKL  48
+
+
+> UniRef90_Q5FYS9 ATP synthase F0 subunit 8 n=28 Tax=cellular organisms 
+TaxID=131567 RepID=Q5FYS9_FUSOX
+Length=48
+
+ Score = 55.1 bits (131),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFY+MN++ + F +++ +L + S++ LP I+RL++SR+FI+K+
+Sbjct  1   MPQLVPFYYMNEIVFAFAIIVFILYVLSKYILPRIVRLFLSRMFINKI  48
+
+
+> UniRef90_A0A0E3SX59 ATP synthase 8 n=9 Tax=Fusarium TaxID=5506 
+RepID=A0A0E3SX59_GIBZA
+Length=48
+
+ Score = 54.7 bits (130),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFY+MN++ + F +++ +L + S++ LP I+RL++SR+FI+K+
+Sbjct  1   MPQLVPFYYMNEVVFAFAIIVFILYVLSKYILPRIVRLFLSRMFINKI  48
+
+
+> UniRef90_A0A177CYH1 Uncharacterized protein n=1 Tax=Paraphaeosphaeria 
+sporulosa TaxID=1460663 RepID=A0A177CYH1_9PLEO
+Length=81
+
+ Score = 55.5 bits (132),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PF+F+N+ T  F+L+ TL+ + S++ LP  +RL+ +RLFISKL
+Sbjct  34  MPQLIPFFFVNETTMAFVLLPTLIYVMSKYILPQRVRLFAARLFISKL  81
+
+
+> UniRef90_Q0H8Y5 ATP synthase protein 8 n=3 Tax=Ustilaginaceae 
+TaxID=5268 RepID=ATP8_USTMA
+Length=48
+
+ Score = 54.7 bits (130),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQ+++ FL +  LL +FS++ LP  + L+VSR++I+KL
+Sbjct  1   MPQLLPFYFVNQISFAFLGLFVLLFVFSKYILPAFVELFVSRMYITKL  48
+
+
+> UniRef90_A0A286QI11 ATP synthase F0 subunit 8 n=4 Tax=Usnea TaxID=86620 
+RepID=A0A286QI11_9LECA
+Length=48
+
+ Score = 54.7 bits (130),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F L+I ++ +FS++ LP  +RL+ +R+FISKL
+Sbjct  1   MPQLVPFFFLNQVAFTFTLLIVMIYIFSKYILPRFVRLFNTRVFISKL  48
+
+
+> UniRef90_A0A2W6XTJ0 Uncharacterized protein n=1 Tax=Chryseobacterium 
+sp. TaxID=1871047 RepID=A0A2W6XTJ0_9FLAO
+Length=48
+
+ Score = 54.7 bits (130),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+ + FLL+  ++ +FS++ LP  +RLY SR+ I KL
+Sbjct  1   MPQLVPFYFVNQVIFNFLLLSLIIYIFSKYILPRFVRLYTSRVLIKKL  48
+
+
+> UniRef90_E4ZKC7 Uncharacterized protein n=1 Tax=Leptosphaeria 
+maculans (strain JN3 / isolate v23.1.3 / race Av1-4-5-6-7-8) 
+TaxID=985895 RepID=E4ZKC7_LEPMJ
+Length=147
+
+ Score = 57.0 bits (136),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQL+PF+F+N+ T  F+L+ +L+ +FS++ LP  +RL+ +RLFISKL
+Sbjct  100  MPQLIPFFFVNETTVAFILLPSLIYVFSKYILPNRVRLFAARLFISKL  147
+
+
+> UniRef90_Q36257 ATP synthase protein 8 n=3 Tax=Saccharomycetales 
+TaxID=4892 RepID=ATP8_YARLI
+Length=48
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/47 (55%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           MPQLVPFYF NQ+ YGF  +  ++ LFS + LP  L +YV+R+FI+K
+Sbjct  1   MPQLVPFYFTNQIFYGFASLSVIVYLFSIYILPHYLEIYVTRIFITK  47
+
+
+> UniRef90_A0A2H4EZM6 ATP synthase F0 subunit 8 n=1 Tax=Bionectria 
+ochroleuca TaxID=29856 RepID=A0A2H4EZM6_BIOOC
+Length=48
+
+ Score = 54.3 bits (129),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFY+MN++ + F L++ +L + S++ LP I+RL+VSR++I+K+
+Sbjct  1   MPQLAPFYYMNEIVFSFGLIVLILYILSKYILPRIVRLFVSRIYINKI  48
+
+
+> UniRef90_Q3HM81 ATP synthase subunit 8 n=6 Tax=cellular organisms 
+TaxID=131567 RepID=Q3HM81_ASPNC
+Length=48
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F+++  L+  FS++ LP  +R+++SR++I+KL
+Sbjct  1   MPQLVPFFFVNQVVFAFVILTVLIYAFSKYILPKFVRIFISRIYINKL  48
+
+
+> UniRef90_A0A2V1DDR0 Uncharacterized protein n=1 Tax=Periconia 
+macrospinosa TaxID=97972 RepID=A0A2V1DDR0_9PLEO
+Length=104
+
+ Score = 55.5 bits (132),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQL+PF+F+N++T  F+L+ +L+ + S++ LP  +RL+ +RLFISKL
+Sbjct  57   MPQLIPFFFVNEVTVAFILLPSLIYVMSKYLLPQRVRLFAARLFISKL  104
+
+
+> UniRef90_C9SZA0 ATP synthase F0 subunit 8 n=3 Tax=Verticillium 
+TaxID=1036719 RepID=C9SZA0_VERA1
+Length=57
+
+ Score = 54.3 bits (129),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/44 (52%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLF  44
+           MPQLVPFYFMN++ YGF +++ +  + S++ LP I+ L++SRLF
+Sbjct  1   MPQLVPFYFMNEVVYGFAVIVIVHYILSKYILPRIINLFISRLF  44
+
+
+> UniRef90_U5QQP8 ATP synthase F0 subunit 8 n=11 Tax=Hypocreales 
+TaxID=5125 RepID=U5QQP8_CORMI
+Length=48
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFY+MN++ + F +++ +L + S++ LP I+RL++SR+FI+K+
+Sbjct  1   MPQLTPFYYMNEIVFAFAIIVIVLYISSKYILPRIVRLFLSRMFINKI  48
+
+
+> UniRef90_A0A2D1P9R5 ATP synthase subunit 8 n=2 Tax=Cladonia TaxID=5199 
+RepID=A0A2D1P9R5_9LECA
+Length=48
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+ + F L+  ++ +FS++ LP  +RL+ +R+F++KL
+Sbjct  1   MPQLVPFYFLNQIIFAFALLTIMIYMFSKYILPKFIRLFTARIFLTKL  48
+
+
+> UniRef90_B2VRM3 Uncharacterized protein n=3 Tax=Pyrenophora TaxID=5027 
+RepID=B2VRM3_PYRTR
+Length=120
+
+ Score = 55.5 bits (132),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/47 (53%), Positives = 37/47 (79%), Gaps = 0/47 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           MPQL+PF+F+N+ T  F+L+  L+ +FS++ LP  LRL+ +RLFISK
+Sbjct  53  MPQLIPFFFVNETTVAFILLPGLIYIFSKYILPQRLRLFAARLFISK  99
+
+
+> UniRef90_Q08656 ATP synthase protein 8 n=2 Tax=Neurospora crassa 
+TaxID=5141 RepID=ATP8_NEUCR
+Length=54
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F+++  ++ + S++ LP  +RL++SR FISKL
+Sbjct  1   MPQLVPFYFVNEITFTFVIITLMVYILSKYILPRFVRLFLSRTFISKL  48
+
+
+> UniRef90_A0A0A1I5R3 ATPase subunit 8 n=1 Tax=Geotrichum candidum 
+TaxID=2282360 RepID=A0A0A1I5R3_GEOCN
+Length=52
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+ YG+ +++ L+ + S+F LP +L +++SR+F++KL
+Sbjct  3   MPQLVPFYFLNQMMYGYTVLLMLMYVSSKFMLPRMLNMFLSRMFMTKL  50
+
+
+> UniRef90_M1GLV9 ATP synthase F0 subunit 8 n=2 Tax=Microbotryum 
+TaxID=34416 RepID=M1GLV9_9BASI
+Length=48
+
+ Score = 53.5 bits (127),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL++ T++ LF  + LP+   L+V+R++I+KL
+Sbjct  1   MPQLLPFYFINQLSFTFLVLTTMIYLFGTYILPVFTELFVTRMYITKL  48
+
+
+> UniRef90_A0A2G9FVH4 Uncharacterized protein n=1 Tax=Handroanthus 
+impetiginosus TaxID=429701 RepID=A0A2G9FVH4_9LAMI
+Length=188
+
+ Score = 56.6 bits (135),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 22/44 (50%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  5    VPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            VPF+F+NQ+ + F + + LL +FS++ LP  LRL+ +R+FISKL
+Sbjct  145  VPFFFINQVVFAFAIFVILLYVFSKYILPGFLRLFATRVFISKL  188
+
+
+> UniRef90_G4U505 Subunit 8 of ATP synthetase n=3 Tax=Saccharomycetales 
+TaxID=4892 RepID=G4U505_9ASCO
+Length=48
+
+ Score = 53.5 bits (127),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 25/47 (53%), Positives = 34/47 (72%), Gaps = 0/47 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           MPQLVPFYF NQ+ YGF  +  ++ LFS + LP    +YV+R+FI+K
+Sbjct  1   MPQLVPFYFTNQMFYGFASLSVIVYLFSMYILPHYTEMYVTRMFITK  47
+
+
+> UniRef90_A0A2T2NS36 Uncharacterized protein n=1 Tax=Corynespora 
+cassiicola Philippines TaxID=1448308 RepID=A0A2T2NS36_CORCC
+Length=99
+
+ Score = 54.7 bits (130),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PF+F+N+ T  F+L+ +L+ + S++ LP  +RL+ +RLFISKL
+Sbjct  52  MPQLIPFFFVNETTVAFVLLPSLIYIMSKYILPQRVRLFAARLFISKL  99
+
+
+> UniRef90_Q02653 ATP synthase protein 8 n=3 Tax=Sordariales TaxID=5139 
+RepID=ATP8_PODAN
+Length=50
+
+ Score = 53.1 bits (126),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F+++   + + S++ LP  +RL++SR FISKL
+Sbjct  1   MPQLVPFYFVNEITFTFIILAITVYILSKYILPRFVRLFLSRTFISKL  48
+
+
+> UniRef90_A0A191MWR0 ATP synthase F0 subunit 8 n=7 Tax=Diaporthales 
+TaxID=5114 RepID=A0A191MWR0_9PEZI
+Length=54
+
+ Score = 53.1 bits (126),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++T+ F ++   + + S++ LP  +RL++SR FISKL
+Sbjct  1   MPQLVPFYFINEVTFTFAIIAITVYMLSKYILPRFVRLFLSRTFISKL  48
+
+
+> UniRef90_A0A1J0D0D8 ATP synthase F0 subunit 8 n=12 Tax=Hypocreales 
+TaxID=5125 RepID=A0A1J0D0D8_EPINE
+Length=48
+
+ Score = 53.1 bits (126),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFY+MN++ + F +++ +L + S++ LP I+RL++SR+FI+K+
+Sbjct  1   MPQLTPFYYMNEVVFSFTIIVLVLYVLSKYILPRIVRLFLSRMFINKI  48
+
+
+> UniRef90_A0A291F811 ATP synthase F0 subunit 8 n=1 Tax=[Candida] 
+psychrophila TaxID=45577 RepID=A0A291F811_9ASCO
+Length=48
+
+ Score = 52.8 bits (125),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/48 (63%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF N LT+G L M  LL L S   LP ILRL V+R  I+KL
+Sbjct  1   MPQLVPFYFTNLLTFGILAMSMLLYLISTIVLPNILRLLVARTTITKL  48
+
+
+> UniRef90_A0A1Z1GDN6 ATP synthase F0 subunit 8 n=5 Tax=Ophiostomataceae 
+TaxID=5152 RepID=A0A1Z1GDN6_9PEZI
+Length=52
+
+ Score = 52.8 bits (125),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++ + F ++  +L + S++ LP  +RL++SR FISKL
+Sbjct  1   MPQLVPFYFLNEVVFAFAVITIILYISSKYILPRFVRLFLSRTFISKL  48
+
+
+> UniRef90_M4GGS5 ATP synthase subunit 8 n=11 Tax=Eurotiales TaxID=5042 
+RepID=M4GGS5_TALMQ
+Length=48
+
+ Score = 52.4 bits (124),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PF+F+NQ+ + F+++  L+  FS+F LP  +R ++SR++I+KL
+Sbjct  1   MPQLIPFFFVNQVVFTFVILTVLVYTFSKFILPKFVRTFISRIYINKL  48
+
+
+> UniRef90_S5U5M1 ATP synthase F0 subunit 8 n=1 Tax=Ogataea philodendri 
+TaxID=1378263 RepID=S5U5M1_9ASCO
+Length=48
+
+ Score = 52.4 bits (124),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 25/47 (53%), Positives = 37/47 (79%), Gaps = 0/47 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           MPQLVPF+F+NQL YG+L++  +L+L S   LP IL+L ++R+ I+K
+Sbjct  1   MPQLVPFFFLNQLFYGYLILFAILVLSSYVILPYILKLRIARIIIAK  47
+
+
+> UniRef90_A0A2C9DSE4 ATP synt containse F0 subunit 8 n=1 Tax=Ophiognomonia 
+clavigignenti-juglandacearum TaxID=218668 RepID=A0A2C9DSE4_9PEZI
+Length=54
+
+ Score = 52.4 bits (124),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++++ F+++   + +FS++ LP  +RL++SR FI KL
+Sbjct  1   MPQLVPFYFINEVSFSFVIIGITVYIFSKYILPRFVRLFISRTFIYKL  48
+
+
+> UniRef90_K2RRJ3 ATPase F0 complex subunit 8 mitochondrial fungal 
+n=1 Tax=Macrophomina phaseolina (strain MS6) TaxID=1126212 
+RepID=K2RRJ3_MACPH
+Length=107
+
+ Score = 53.9 bits (128),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 34/48 (71%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQLVPFY++N+ T  F ++ T +   S++FLP  LR   +RLFISKL
+Sbjct  60   MPQLVPFYWVNETTVAFAIIPTFVYFLSKYFLPQDLRRMAARLFISKL  107
+
+
+> UniRef90_A0A385I6C9 ATP synthase F0 subunit 8 n=1 Tax=Cladonia 
+leporina TaxID=195770 RepID=A0A385I6C9_9LECA
+Length=48
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+ + F+L+  ++  FS++ LP   RL+ +R+F++KL
+Sbjct  1   MPQLVPFYFLNQIIFAFVLLTLMIYTFSKYILPRFTRLFTARIFLTKL  48
+
+
+> UniRef90_I6TSV3 Uncharacterized protein n=4 Tax=Aspergillus TaxID=5052 
+RepID=I6TSV3_ASPO3
+Length=48
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ + F+++  L+   S++ LP  +RL++SR++I+KL
+Sbjct  1   MPQLVPFFFVNQVVFAFVVLTVLIYALSKYILPRFVRLFISRIYINKL  48
+
+
+> UniRef90_A0A286QSI5 ATP Synthase Subunit 8 n=1 Tax=Opegrapha 
+vulgata TaxID=543791 RepID=A0A286QSI5_9PEZI
+Length=48
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYFMNQL + +L+MI  +  FS++ LP  + L+ SR+ ISKL
+Sbjct  1   MPQLVPFYFMNQLFFVYLIMIVSVYFFSKYILPGFVSLFASRMSISKL  48
+
+
+> UniRef90_A0A101M5L4 Uncharacterized protein n=1 Tax=Picea glauca 
+TaxID=3330 RepID=A0A101M5L4_PICGL
+Length=48
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL++  L+ +FS + LP  + L VSR +I+KL
+Sbjct  1   MPQLLPFYFVNQLSFAFLVLGVLVDVFSTYILPFFVELQVSRTYITKL  48
+
+
+> UniRef90_R7YNN3 Uncharacterized protein n=1 Tax=Coniosporium 
+apollinis (strain CBS 100218) TaxID=1168221 RepID=R7YNN3_CONA1
+Length=130
+
+ Score = 53.5 bits (127),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQL+PF+F+N+    F+L+ TL+ +FS++ LP  +RL  +RLFISKL
+Sbjct  83   MPQLIPFFFVNETIIAFVLLPTLVYMFSKYILPQRVRLMAARLFISKL  130
+
+
+> UniRef90_A0A1D8RE32 ATP synthase F0 subunit 8 n=1 Tax=Pestalotiopsis 
+fici TaxID=393283 RepID=A0A1D8RE32_9PEZI
+Length=50
+
+ Score = 51.2 bits (121),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFYF+N++T+ F +++  + + S++ LP  +RL+++R FISKL
+Sbjct  1   MPQLTPFYFVNEVTFAFAVILITVYMLSKYILPRFVRLFLARTFISKL  48
+
+
+> UniRef90_A0A0C3NAC9 Uncharacterized protein n=3 Tax=cellular 
+organisms TaxID=131567 RepID=A0A0C3NAC9_PISTI
+Length=52
+
+ Score = 51.2 bits (121),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL +I L+ +FS++ LP+     V RL+I+KL
+Sbjct  1   MPQLIPFYFVNQLSFAFLTLIALVYIFSKYILPLFTFQQVIRLYITKL  48
+
+
+> UniRef90_V5RFC7 ATP synthase F0 subunit 8 n=3 Tax=Xylariales 
+TaxID=37989 RepID=V5RFC7_9PEZI
+Length=50
+
+ Score = 50.8 bits (120),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFYF N++T+ F++++  + + S++ LP  +RL+++R FISKL
+Sbjct  1   MPQLTPFYFFNEVTFAFVILLITIYMLSKYVLPRFVRLFLARTFISKL  48
+
+
+> UniRef90_Q751Q6 Putative ATP synthase protein 8-like protein 
+n=1 Tax=Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 
+9923 / NRRL Y-1056) TaxID=284811 RepID=ATP8L_ASHGO
+Length=48
+
+ Score = 50.8 bits (120),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 27/46 (59%), Positives = 39/46 (85%), Gaps = 0/46 (0%)
+
+Query  2   PQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           PQ++PF+FM+Q TYGFL+++  L+L S  FL MILRLY+SR+++SK
+Sbjct  3   PQIIPFFFMHQFTYGFLVILLTLLLLSYAFLSMILRLYLSRIYLSK  48
+
+
+> UniRef90_A0A1Y1Z7F6 Fungal ATP synthase protein 8-domain-containing 
+protein n=1 Tax=Clohesyomyces aquaticus TaxID=1231657 
+RepID=A0A1Y1Z7F6_9PLEO
+Length=101
+
+ Score = 52.0 bits (123),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1    MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+            MPQL+PF+F+N+ T  F+L+ +L+ + S++ LP  +R+  +RLFISKL
+Sbjct  54   MPQLIPFFFVNETTAAFILLPSLIYVMSKYILPQRVRMMAARLFISKL  101
+
+
+> UniRef90_A0A286QTH6 ATPase subunit 8 n=1 Tax=Ricasolia amplissima 
+TaxID=209564 RepID=A0A286QTH6_9LECA
+Length=48
+
+ Score = 50.4 bits (119),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFY+ +Q  + F+ ++ ++ LFS++ LP+++RL+ SR FI+KL
+Sbjct  1   MPQLVPFYYTDQENFSFIPVLFMVYLFSKYILPIVVRLFNSRYFINKL  48
+
+
+> UniRef90_D2XDV2 ATP synthase subunit 8 n=1 Tax=Pneumocystis carinii 
+TaxID=4754 RepID=D2XDV2_PNECA
+Length=48
+
+ Score = 50.4 bits (119),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+  GF +++ L  L+S++ LP  LR++V R +I+KL
+Sbjct  1   MPQLVPFYFVNQVLCGFTVLLFLTYLYSKWILPKYLRIFVIRSYITKL  48
+
+
+> UniRef90_B5KQ11 ATP synthase F0 subunit 8 n=1 Tax=Beauveria brongniartii 
+TaxID=118266 RepID=B5KQ11_9HYPO
+Length=48
+
+ Score = 50.4 bits (119),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 20/48 (42%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFY+MN++ + F +++ +L + S++ LP I+RL++SR+F + +
+Sbjct  1   MPQLTPFYYMNEIVFAFAIIVIVLYISSKYILPRIVRLFLSRMFTNNI  48
+
+
+> UniRef90_S5TDY2 ATP synthase F0 subunit 8 n=1 Tax=Meyerozyma 
+guilliermondii TaxID=4929 RepID=S5TDY2_PICGM
+Length=48
+
+ Score = 50.4 bits (119),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N LT+G L +  LL   S   LP ILRL ++R+ I KL
+Sbjct  1   MPQLVPFYFLNLLTFGILAIALLLFFISTLILPNILRLLIARILIVKL  48
+
+
+> UniRef90_Q8HHC9 ATP synthase F0 subunit 8 n=1 Tax=Cryphonectria 
+parasitica TaxID=5116 RepID=Q8HHC9_CRYPA
+Length=55
+
+ Score = 50.4 bits (119),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N++ + F ++   + + S++ LP  +RL++SR FISKL
+Sbjct  1   MPQLVPFYFINEVIFTFAVIAITVYMMSKYILPRFVRLFLSRTFISKL  48
+
+
+> UniRef90_S5U5D2 ATP synthase F0 subunit 8 n=1 Tax=Clavispora 
+lusitaniae TaxID=36911 RepID=S5U5D2_CLALS
+Length=48
+
+ Score = 50.1 bits (118),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF++ LT+G L +  L+ + S++ LP ILRL ++R+ I KL
+Sbjct  1   MPQLVPFYFLHLLTFGILALSILIFIISKYLLPNILRLLIARILIVKL  48
+
+
+> UniRef90_A0A286MUL9 ATP synthase subunit 8 n=1 Tax=Mycocalicium 
+subtile TaxID=124099 RepID=A0A286MUL9_9EURO
+Length=48
+
+ Score = 49.7 bits (117),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F+L++ ++ +FS++ LP  +RL++ RLF++KL
+Sbjct  1   MPQLVPFYFINQVTFTFILLLLIIYIFSKYILPRFIRLFLIRLFMNKL  48
+
+
+> UniRef90_M1K4I4 ATP synthase F0 subunit 8 n=2 Tax=Cantharellus 
+TaxID=36065 RepID=M1K4I4_CANCI
+Length=52
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL ++ L+ +FS++ LP+     V+R++I KL
+Sbjct  1   MPQLIPFYFLNQLSFSFLTLLALIFIFSKYILPLFTLQQVTRMYIVKL  48
+
+
+> UniRef90_A9RAH3 ATP synthase protein 8 n=1 Tax=Debaryomyces hansenii 
+(strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 
+/ IGC 2968) TaxID=284592 RepID=ATP8_DEBHA
+Length=48
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF N LT+G L +  LL L S   LP ILRL V+R  ++KL
+Sbjct  1   MPQLVPFYFTNLLTFGMLAISMLLYLVSTIILPNILRLLVARTTMTKL  48
+
+
+> UniRef90_A0A2I6QCH6 ATP synthase F0 subunit 8 n=1 Tax=Malassezia 
+globosa TaxID=76773 RepID=A0A2I6QCH6_9BASI
+Length=50
+
+ Score = 49.3 bits (116),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQL++    +  L+ LFS++ LP  L L V RL+I+KL
+Sbjct  1   MPQLVPFYFVNQLSFVLFGLFVLIFLFSRYILPAFLELQVVRLYITKL  48
+
+
+> UniRef90_A8DU66 ATP synthase F0 subunit 8 n=2 Tax=Tilletia TaxID=13289 
+RepID=A8DU66_9BASI
+Length=48
+
+ Score = 48.9 bits (115),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQ+++ F  +  ++ +FS++ LP  + L+++R+FI+KL
+Sbjct  1   MPQLLPFYFLNQISFRFFGLFIMIYIFSRYILPSFIELFITRMFITKL  48
+
+
+> UniRef90_S5U5S9 ATP synthase F0 subunit 8 n=1 Tax=Candida sake 
+TaxID=39397 RepID=S5U5S9_9ASCO
+Length=48
+
+ Score = 48.9 bits (115),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+N LT+G L +  LL   S   LP ILRL ++R+ I KL
+Sbjct  1   MPQLVPFYFLNLLTFGILTIGILLYFISTILLPNILRLLIARILIIKL  48
+
+
+> UniRef90_M1X4R2 ATP synthase subunit 8 n=2 Tax=Malassezia sympodialis 
+TaxID=76777 RepID=M1X4R2_MALS4
+Length=49
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ ++    +  L+ +FS++ LP  L L VSRL+I+KL
+Sbjct  1   MPQLVPFYFVNQFSFLVFGLFVLVFVFSRYILPAFLELNVSRLYITKL  48
+
+
+> UniRef90_A0A1P8NNM4 ATP synthase F0 subunit 8 n=8 Tax=Agaricomycetes 
+TaxID=155619 RepID=A0A1P8NNM4_HERCO
+Length=52
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL ++ L+ +FS++ LP+     V R++I+KL
+Sbjct  1   MPQLIPFYFINQLSFSFLTLLALIYVFSKYILPLFTFQQVIRMYITKL  48
+
+
+> UniRef90_A0A2I6QCM1 ATP synthase F0 subunit 8 n=2 Tax=Malassezia 
+TaxID=55193 RepID=A0A2I6QCM1_9BASI
+Length=49
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++    +  L+ +FS++ LP  L + +SRL+I+K+
+Sbjct  1   MPQLIPFYFINQLSFTLFALFVLIYVFSRYILPAFLEVNLSRLYITKI  48
+
+
+> UniRef90_A0A2S0S4D4 ATP synthase F0 subunit 8 n=1 Tax=Cantharellus 
+lutescens TaxID=104198 RepID=A0A2S0S4D4_9HOMO
+Length=52
+
+ Score = 48.5 bits (114),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL ++ L+ +FS++ LP+     V+R++I K+
+Sbjct  1   MPQLIPFYFLNQLSFSFLTLLVLIFVFSKYILPLFTLQQVARMYIVKV  48
+
+
+> UniRef90_A0A2I6QCT4 ATP synthase F0 subunit 8 n=3 Tax=Malassezia 
+restricta TaxID=76775 RepID=A0A2I6QCT4_9BASI
+Length=77
+
+ Score = 48.9 bits (115),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQL++    +  L+ LFS++ LP  + L V RL+I+KL
+Sbjct  1   MPQLVPFYFLNQLSFVLFGLFVLIFLFSRYILPAFVELNVVRLYITKL  48
+
+
+> UniRef90_C7FEW1 Atp8p n=1 Tax=Brettanomyces custersianus TaxID=13368 
+RepID=C7FEW1_BRECS
+Length=48
+
+ Score = 48.1 bits (113),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           MPQLVPF+F+NQL YGFL +  LLI+ S   LP IL+L + R  I K
+Sbjct  1   MPQLVPFFFLNQLFYGFLSLFILLIIVSVVILPYILKLDIVRSIIVK  47
+
+
+> UniRef90_F2R0K9 Uncharacterized protein n=1 Tax=Komagataella 
+phaffii (strain ATCC 76273 / CBS 7435 / CECT 11047 / NRRL Y-11430 
+/ Wegner 21-1) TaxID=981350 RepID=F2R0K9_KOMPC
+Length=48
+
+ Score = 48.1 bits (113),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 29/48 (60%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQLTYG LLM  +L+L S   LP ++ LY+ R+ +SKL
+Sbjct  1   MPQLVPFYFLNQLTYGLLLMYLMLVLVSTKMLPYMMELYIMRMTMSKL  48
+
+
+> UniRef90_A0A2K9YPG1 ATP synthase F0 subunit 8 n=6 Tax=Pleurotus 
+TaxID=5320 RepID=A0A2K9YPG1_PLECI
+Length=52
+
+ Score = 48.1 bits (113),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ F+ ++ L+ +FS++ LP+     V R++I+KL
+Sbjct  1   MPQLIPFYFVNQLSFAFITLLALVYIFSKYILPLYTFQQVIRMYITKL  48
+
+
+> UniRef90_M5BJJ6 ATP synthase subunit 8 n=3 Tax=Agaricomycetes 
+incertae sedis TaxID=355688 RepID=M5BJJ6_THACB
+Length=52
+
+ Score = 48.1 bits (113),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQ+++ FL +I L+ +FS++ LP+     V R++I+KL
+Sbjct  1   MPQLLPFYFVNQMSFSFLTLIALIYVFSKYILPVFTFQQVIRMYITKL  48
+
+
+> UniRef90_A0A1V1G912 ATP synthase F0 subunit 8 n=2 Tax=Polyporales 
+TaxID=5303 RepID=A0A1V1G912_9APHY
+Length=52
+
+ Score = 47.8 bits (112),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL +  L+ + S++FLP+     V R++I+KL
+Sbjct  1   MPQLIPFYFINQLSFSFLTLFALIYIMSKYFLPLFTFQQVIRMYITKL  48
+
+
+> UniRef90_A0A385JG89 ATP synthase F0 subunit 8 n=1 Tax=Hannaella 
+oryzae TaxID=4979 RepID=A0A385JG89_9TREE
+Length=48
+
+ Score = 47.8 bits (112),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQ+T+  + + T+  + S + LP  ++L+V+R++I+KL
+Sbjct  1   MPQLLPFYFVNQITFALVALFTITYVMSVYILPYFVQLFVTRVYITKL  48
+
+
+> UniRef90_A0A2I6QD02 ATP synthase F0 subunit 8 n=1 Tax=Malassezia 
+slooffiae TaxID=76776 RepID=A0A2I6QD02_9BASI
+Length=48
+
+ Score = 47.8 bits (112),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++    +  L+ +FS++ LP  + L+++RL+I+KL
+Sbjct  1   MPQLIPFYFVNQLSFLLFGLFVLIFVFSRYILPAFVELHLTRLYITKL  48
+
+
+> UniRef90_A0A2S0U3L1 ATP synthase F0 subunit 8 n=7 Tax=Russulaceae 
+TaxID=5401 RepID=A0A2S0U3L1_9HOMO
+Length=52
+
+ Score = 47.4 bits (111),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQ ++ FL +++L+ +FS++ LP+     V R++I+KL
+Sbjct  1   MPQLIPFYFVNQFSFSFLTLLSLIYIFSKYVLPLFTFQQVIRMYITKL  48
+
+
+> UniRef90_E5L093 ATP synthase F0 subunit 8 n=1 Tax=Groenewaldozyma 
+salmanticensis TaxID=49332 RepID=E5L093_9ASCO
+Length=48
+
+ Score = 47.4 bits (111),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL PFYF++ L +GF+ ++ ++ L +++ LP IL +Y+SR+ ISKL
+Sbjct  1   MPQLEPFYFVHLLVWGFINLLIIIYLNTKYILPRILYIYLSRILISKL  48
+
+
+> UniRef90_A0A2P1M533 ATP synthase F0 subunit 8 n=2 Tax=Pertusaria 
+TaxID=50932 RepID=A0A2P1M533_9LECA
+Length=48
+
+ Score = 47.4 bits (111),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 28/48 (58%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF+NQ+T+ F+L+I ++ +FS++FLP  +RL+++RL ISKL
+Sbjct  1   MPQLVPFYFINQVTFSFILLIIIIYIFSKYFLPKFIRLFITRLLISKL  48
+
+
+> UniRef90_A0A0C2W0E4 Uncharacterized protein n=1 Tax=Serendipita 
+vermifera MAFF 305830 TaxID=933852 RepID=A0A0C2W0E4_9HOMO
+Length=50
+
+ Score = 47.4 bits (111),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVP++F+NQ+++ F +++TL+ LFS++ LP  + L ++R +I+ L
+Sbjct  1   MPQLVPYFFVNQISFTFFVLVTLIFLFSRYILPYFVYLSLTRYYITTL  48
+
+
+> UniRef90_G4U3F5 ATP synthase subunit 8 n=1 Tax=Serendipita indica 
+(strain DSM 11827) TaxID=1109443 RepID=G4U3F5_SERID
+Length=49
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQ+++ FL++++L+ + S++ LP  + L+V+R +I+ L
+Sbjct  1   MPQLMPFYFVNQISFTFLVLLSLIFVLSKYILPYFVYLFVTRFYITVL  48
+
+
+> UniRef90_A0A192ID76 Atp8 n=1 Tax=Xylohypha bantiana TaxID=89940 
+RepID=A0A192ID76_XYLBA
+Length=99
+
+ Score = 48.1 bits (113),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PF+F+NQ+TY FLL+I ++ LFS++ LP  +RL+ +R+F+  L
+Sbjct  44  MPQLIPFFFVNQVTYNFLLLIIIIYLFSKYILPRFVRLFKTRIFLKTL  91
+
+
+> UniRef90_Q6ED57 ATP synthase F0 subunit 8 n=1 Tax=Starmerella 
+bacillaris TaxID=1247836 RepID=Q6ED57_STABA
+Length=50
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 41/48 (85%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ+ +G+L+++ ++IL S+F LP +L +Y+SR+F+ KL
+Sbjct  1   MPQLVPFFFLNQMFWGYLIILIMIILSSKFVLPRVLSIYLSRMFMLKL  48
+
+
+> UniRef90_F7WD53 Putative ATP synthase F0 subunit 8 n=1 Tax=Sordaria 
+macrospora (strain ATCC MYA-333 / DSM 997 / K(L3346) 
+/ K-hell) TaxID=771870 RepID=F7WD53_SORMK
+Length=55
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 21/47 (45%), Positives = 36/47 (77%), Gaps = 0/47 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           MPQLVPFYF+N++T+ F+++  ++ + S++ LP  +RL++SR F  K
+Sbjct  1   MPQLVPFYFVNEITFTFVIITLMVYILSKYILPRFVRLFLSRTFYIK  47
+
+
+> UniRef90_C0P1F6 ATP synthase F0 subunit 8 n=3 Tax=Ajellomyces 
+capsulatus TaxID=5037 RepID=C0P1F6_AJECG
+Length=48
+
+ Score = 46.6 bits (109),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPF+F+NQ  + F+L+  +   FS++ LP ++ L+++RLFI+KL
+Sbjct  1   MPQLVPFFFVNQALFVFILLSFITYTFSKYILPRLVHLFLTRLFINKL  48
+
+
+> UniRef90_I7HDS4 ATP synthase A chain subunit 8 n=1 Tax=Lentinula 
+edodes TaxID=5353 RepID=I7HDS4_LENED
+Length=52
+
+ Score = 46.2 bits (108),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 21/48 (44%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+P+YF+NQ+T+ F++++ L+ + S++ LP+   L V+R++I+KL
+Sbjct  1   MPQLIPYYFLNQITFAFVVLLVLVYILSKYILPLFTLLQVARIYITKL  48
+
+
+> UniRef90_L8B9F3 ATP synthase subunit 8 n=2 Tax=Agaricomycetes 
+incertae sedis TaxID=355688 RepID=L8B9F3_PHLRA
+Length=52
+
+ Score = 46.2 bits (108),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++ FL ++ L+ + S++ LP+     V R++I+KL
+Sbjct  1   MPQLIPFYFLNQLSFSFLSLLALIYIISKYILPVFTFQQVIRMYITKL  48
+
+
+> UniRef90_S4UVR2 ATP synthase F0 subunit 8 n=10 Tax=Polyporaceae 
+TaxID=5317 RepID=S4UVR2_GANLU
+Length=52
+
+ Score = 45.8 bits (107),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL + F+++  ++ + S++FLP+     V RLFI KL
+Sbjct  1   MPQLIPFYFLNQLYFSFVVLFVVIYILSKYFLPLFTLQQVIRLFIVKL  48
+
+
+> UniRef90_A0A1C1C686 ATP synthase protein 8 n=1 Tax=Cladophialophora 
+carrionii TaxID=86049 RepID=A0A1C1C686_9EURO
+Length=57
+
+ Score = 45.1 bits (105),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 23/46 (50%), Positives = 37/46 (80%), Gaps = 0/46 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFIS  46
+           MPQL+PF F+NQ+T+ FLL+I ++ LFS++ LP  +RL+ +R+F+ 
+Sbjct  1   MPQLIPFSFVNQVTFNFLLLIIIIYLFSKYILPRFVRLFKTRIFLK  46
+
+
+> UniRef90_A0A1X9QGZ3 ATP synthase F0 subunit 8 n=1 Tax=Leptogium 
+hirsutum TaxID=1486872 RepID=A0A1X9QGZ3_9LECA
+Length=48
+
+ Score = 43.9 bits (102),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQLVPFYF++Q  + F+L+I ++ LFS++ LP+++R +V+R+FIS L
+Sbjct  1   MPQLVPFYFIHQAIFAFILLIIIIYLFSKYILPLLVRFFVTRVFISIL  48
+
+
+> UniRef90_C0HK68 ATP synthase protein 8 n=3 Tax=Ogataea TaxID=461281 
+RepID=ATP8_PICAN
+Length=48
+
+ Score = 43.1 bits (100),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PF+F+NQL YG+L +  LL+L S   LP +L+L + RL I+KL
+Sbjct  1   MPQLIPFFFLNQLFYGYLALFALLVLVSWVILPYLLQLQIVRLLITKL  48
+
+
+> UniRef90_C7FEY4 Atp8p n=1 Tax=Dekkera bruxellensis TaxID=5007 
+RepID=C7FEY4_DEKBR
+Length=48
+
+ Score = 40.8 bits (94),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 27/47 (57%), Positives = 34/47 (72%), Gaps = 0/47 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISK  47
+           MPQL+PF+F+NQL YGFL +  LLIL S+  LP IL+L + R  I K
+Sbjct  1   MPQLIPFFFLNQLFYGFLTLFILLILVSKIILPYILKLNIVRSIIVK  47
+
+
+> UniRef90_Q3T4D7 ATP synthase F0 subunit 8 n=6 Tax=Mucorales TaxID=4827 
+RepID=Q3T4D7_RHIOR
+Length=48
+
+ Score = 40.8 bits (94),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 23/46 (50%), Positives = 35/46 (76%), Gaps = 0/46 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFIS  46
+           MPQLVPFYF+NQ+++ FLL++ LL + S+F LP    +  SR+F++
+Sbjct  1   MPQLVPFYFLNQVSFAFLLLMVLLYVVSKFILPNFKLVQSSRMFLA  46
+
+
+> UniRef90_A0A2I6QC06 ATP synthase F0 subunit 8 n=1 Tax=Malassezia 
+furfur TaxID=55194 RepID=A0A2I6QC06_MALFU
+Length=49
+
+ Score = 40.0 bits (92),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 23/48 (48%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFISKL  48
+           MPQL+PFYF+NQL++    +  L+ LFS++ LP  L + +SRL+I+K+
+Sbjct  1   MPQLIPFYFINQLSFTLFALFLLVFLFSRYILPAFLEVNLSRLYITKV  48
+
+
+> UniRef90_E2JE45 ATP synthase F0 subunit 8 n=11 Tax=Glomeraceae 
+TaxID=36751 RepID=E2JE45_RHIID
+Length=48
+
+ Score = 38.9 bits (89),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 24/46 (52%), Positives = 37/46 (80%), Gaps = 0/46 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLPMILRLYVSRLFIS  46
+           MPQLVPFYF+NQL++G +L+  L+ L S+  LP +L+ ++SR+FI+
+Sbjct  1   MPQLVPFYFINQLSFGLILLSLLIYLASKRLLPQLLQRFISRIFIT  46
+
+
+> UniRef90_H9EBE0 ATP synthase F0 subunit 8 n=2 Tax=cellular organisms 
+TaxID=131567 RepID=H9EBE0_9GLOM
+Length=59
+
+ Score = 39.3 bits (90),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 19/33 (58%), Positives = 25/33 (76%), Gaps = 0/33 (0%)
+
+Query  1   MPQLVPFYFMNQLTYGFLLMITLLILFSQFFLP  33
+           MPQL+PFY +NQL+ G + +  LLIL S +FLP
+Sbjct  1   MPQLLPFYLVNQLSAGLVTVAFLLILISWYFLP  33
+
+
+
+Lambda      K        H        a         alpha
+   0.346    0.157    0.469    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 209848
+
+
+  Database: isar.db.80
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 8,174
+  Number of sequences in database:  143
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

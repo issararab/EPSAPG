@@ -1,0 +1,100 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.145
+           3 sequences; 156 total letters
+
+Results from round 1
+
+
+Query= P26678|1zllA|PPLA_HUMAN 1.0
+
+Length=52
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P26678 Cardiac phospholamban n=65 Tax=cellular organis...  101     7e-36
+  UniRef90_F6YC22 Cardiac phospholamban n=1 Tax=Ornithorhynchus a...  65.1    2e-21
+  UniRef90_P26677 Cardiac phospholamban n=51 Tax=Sauria TaxID=325...  60.8    9e-20
+
+
+> UniRef90_P26678 Cardiac phospholamban n=65 Tax=cellular organisms 
+TaxID=131567 RepID=PPLA_HUMAN
+Length=52
+
+ Score = 101 bits (252),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+
+Query  1   MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL  52
+           MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL  52
+
+
+> UniRef90_F6YC22 Cardiac phospholamban n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6YC22_ORNAN
+Length=52
+
+ Score = 65.1 bits (157),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 45/52 (87%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  1   MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL  52
+           MEKVQ+LTRSA+RRAS IEMP QARQ LQ LF+NFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQHLTRSALRRASNIEMPPQARQNLQELFVNFCLILICLLLICIIVMLL  52
+
+
+> UniRef90_P26677 Cardiac phospholamban n=51 Tax=Sauria TaxID=32561 
+RepID=PPLA_CHICK
+Length=52
+
+ Score = 60.8 bits (146),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 43/52 (83%), Positives = 49/52 (94%), Gaps = 0/52 (0%)
+
+Query  1   MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL  52
+           MEKVQY+TRSA+RRAST+E+  QARQ+LQ LF+NFCLILICLLLICIIVMLL
+Sbjct  1   MEKVQYITRSALRRASTLEVNPQARQRLQELFVNFCLILICLLLICIIVMLL  52
+
+
+
+Lambda      K        H        a         alpha
+   0.340    0.146    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5808
+
+
+  Database: isar.db.145
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 156
+  Number of sequences in database:  3
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

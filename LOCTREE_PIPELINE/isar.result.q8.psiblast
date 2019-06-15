@@ -1,0 +1,1054 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.8
+           53 sequences; 10,684 total letters
+
+Results from round 1
+
+
+Query= Q8IZS7 Cell.membrane-M test
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q8IZS7 C-type lectin-like domain family 1 n=11 Tax=Hom...  346     1e-127
+  UniRef90_A0A0D9RAB0 C-type lectin like 1 n=5 Tax=Cercopithecina...  303     3e-110
+  UniRef90_A0A2K5QZM2 C-type lectin like 1 n=3 Tax=Cebidae TaxID=...  261     1e-93 
+  UniRef90_G3QDE0 Uncharacterized protein n=1 Tax=Gorilla gorilla...  251     1e-89 
+  UniRef90_A0A096NBL1 Uncharacterized protein n=7 Tax=Cercopithec...  249     4e-89 
+  UniRef90_A0A1D5QWS2 Uncharacterized protein n=9 Tax=Cercopithec...  249     6e-89 
+  UniRef90_H0YFK3 C-type lectin-like domain family 1 (Fragment) n...  239     8e-86 
+  UniRef90_A0A2Y9H3C5 LOW QUALITY PROTEIN: C-type lectin-like dom...  206     5e-72 
+  UniRef90_A0A3Q0DMT2 LOW QUALITY PROTEIN: C-type lectin-like dom...  185     5e-63 
+  UniRef90_D2HS41 Uncharacterized protein (Fragment) n=1 Tax=Ailu...  165     1e-56 
+  UniRef90_A0A2R8PFC0 Uncharacterized protein n=1 Tax=Callithrix ...  136     1e-44 
+  UniRef90_F6QEY4 Uncharacterized protein n=2 Tax=Macaca TaxID=95...  127     8e-42 
+  UniRef90_A0A384CLJ2 LOW QUALITY PROTEIN: C-type lectin-like dom...  117     2e-35 
+  UniRef90_L9L9A2 Killer cell lectin-like receptor subfamily B me...  112     1e-33 
+  UniRef90_A0A2U3WTK0 C-type lectin-like domain family 1 n=4 Tax=...  104     2e-31 
+  UniRef90_A0A337SHG7 Uncharacterized protein n=3 Tax=Felidae Tax...  100     3e-30 
+  UniRef90_G1LBA5 Uncharacterized protein n=2 Tax=Ailuropoda mela...  100     1e-29 
+  UniRef90_A0A2U3XL35 C-type lectin domain family 4 member F-like...  102     1e-29 
+  UniRef90_M3Y460 Uncharacterized protein n=1 Tax=Mustela putoriu...  100     2e-29 
+  UniRef90_A0A2Y9IRJ3 killer cell lectin-like receptor subfamily ...  98.2    6e-29 
+  UniRef90_A0A384B8Z3 killer cell lectin-like receptor subfamily ...  94.7    6e-28 
+  UniRef90_A0A2I2UYY9 Uncharacterized protein n=6 Tax=Felidae Tax...  92.0    1e-26 
+  UniRef90_A0A384B907 killer cell lectin-like receptor subfamily ...  92.0    1e-26 
+  UniRef90_A0A212CCF3 Uncharacterized protein n=1 Tax=Cervus elap...  90.1    4e-26 
+  UniRef90_A0A2F0AWJ5 C-type lectin-like domain family 1 (Fragmen...  85.1    1e-25 
+  UniRef90_F6ZDS2 Uncharacterized protein n=3 Tax=Equus TaxID=355...  88.6    3e-25 
+  UniRef90_H0Y0S6 Uncharacterized protein n=2 Tax=Otolemur garnet...  87.4    7e-25 
+  UniRef90_A0A2U3UZ26 LOW QUALITY PROTEIN: C-type lectin-like dom...  87.0    4e-24 
+  UniRef90_A6QQ73 LOC618591 protein n=4 Tax=Bovinae TaxID=27592 R...  84.0    1e-23 
+  UniRef90_A0A341AEU7 killer cell lectin-like receptor subfamily ...  83.6    1e-23 
+  UniRef90_W5QIU0 Uncharacterized protein n=7 Tax=Bovidae TaxID=9...  83.6    2e-23 
+  UniRef90_A0A2Y9NPI2 killer cell lectin-like receptor subfamily ...  82.4    6e-23 
+  UniRef90_A0A286ZNW8 Uncharacterized protein n=1 Tax=Sus scrofa ...  81.6    1e-22 
+  UniRef90_A0A2Y9G0J2 killer cell lectin-like receptor subfamily ...  79.0    1e-21 
+  UniRef90_G3TMC2 Uncharacterized protein n=1 Tax=Loxodonta afric...  78.6    2e-21 
+  UniRef90_H2NGG8 Uncharacterized protein n=1 Tax=Pongo abelii Ta...  54.3    8e-14 
+  UniRef90_F6YF52 Uncharacterized protein n=1 Tax=Ornithorhynchus...  55.8    2e-13 
+  UniRef90_G1LZU0 Uncharacterized protein n=2 Tax=Ailuropoda mela...  52.0    7e-12 
+  UniRef90_K7EHH0 Uncharacterized protein n=1 Tax=Ornithorhynchus...  52.0    1e-11 
+  UniRef90_A0A3P4M829 Uncharacterized protein n=1 Tax=Gulo gulo T...  51.6    1e-11 
+  UniRef90_G1LZU3 Uncharacterized protein n=1 Tax=Ailuropoda mela...  49.3    5e-11 
+  UniRef90_A0A2K6K125 Killer cell lectin like receptor F2 n=6 Tax...  49.7    6e-11 
+  UniRef90_A0A384CLG0 NKG2-A/NKG2-B type II integral membrane pro...  50.1    6e-11 
+  UniRef90_A0A1D5QU51 Killer cell lectin like receptor F2 n=6 Tax...  49.3    8e-11 
+  UniRef90_D3W0D1 Killer cell lectin-like receptor subfamily F me...  48.9    1e-10 
+  UniRef90_A0A337SKL1 Uncharacterized protein n=3 Tax=Felidae Tax...  49.3    1e-10 
+  UniRef90_M3Y5A4 Uncharacterized protein n=1 Tax=Mustela putoriu...  46.2    6e-10 
+  UniRef90_A0A2U3ZXU8 LOW QUALITY PROTEIN: NKG2-A/NKG2-B type II ...  46.6    7e-10 
+  UniRef90_A0A384CLJ0 LOW QUALITY PROTEIN: killer cell lectin-lik...  46.2    1e-09 
+  UniRef90_A0A337SDX8 Uncharacterized protein n=1 Tax=Felis catus...  45.4    1e-09 
+  UniRef90_G1LZU5 Uncharacterized protein n=2 Tax=Ailuropoda mela...  44.7    3e-09 
+  UniRef90_L9KLI9 Asialoglycoprotein receptor 2 n=1 Tax=Tupaia ch...  45.1    5e-09 
+  UniRef90_P49300 C-type lectin domain family 10 member A n=7 Tax...  44.3    8e-09 
+
+
+> UniRef90_Q8IZS7 C-type lectin-like domain family 1 n=11 Tax=Homininae 
+TaxID=207598 RepID=CLCL1_HUMAN
+Length=167
+
+ Score = 346 bits (888),  Expect = 1e-127, Method: Compositional matrix adjust.
+ Identities = 167/167 (100%), Positives = 167/167 (100%), Gaps = 0/167 (0%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+            MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD
+Sbjct  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+
+Query  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK  120
+            CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK
+Sbjct  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK  120
+
+Query  121  DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFNI  167
+            DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFNI
+Sbjct  121  DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFNI  167
+
+
+> UniRef90_A0A0D9RAB0 C-type lectin like 1 n=5 Tax=Cercopithecinae 
+TaxID=9528 RepID=A0A0D9RAB0_CHLSB
+Length=167
+
+ Score = 303 bits (775),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 148/167 (89%), Positives = 155/167 (93%), Gaps = 0/167 (0%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+            MVSNFFHVIQVF KSATLISKTEHIGFVIYSWRKSTTHLGSRRK AISIYL+EVSLQKYD
+Sbjct  1    MVSNFFHVIQVFRKSATLISKTEHIGFVIYSWRKSTTHLGSRRKSAISIYLTEVSLQKYD  60
+
+Query  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK  120
+            C FSGTSFV F LFL+ A+AGDVVYADIKTVRTSPLEL  PLQRSVSFNF+TV KSCPAK
+Sbjct  61   CSFSGTSFVGFCLFLVYALAGDVVYADIKTVRTSPLELPSPLQRSVSFNFATVLKSCPAK  120
+
+Query  121  DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFNI  167
+            DWKVHKGKC+WIAETKKSWN+SQND A  NSYLMVIQDITAMVRF+I
+Sbjct  121  DWKVHKGKCHWIAETKKSWNESQNDYATKNSYLMVIQDITAMVRFDI  167
+
+
+> UniRef90_A0A2K5QZM2 C-type lectin like 1 n=3 Tax=Cebidae TaxID=9498 
+RepID=A0A2K5QZM2_CEBCA
+Length=187
+
+ Score = 261 bits (668),  Expect = 1e-93, Method: Compositional matrix adjust.
+ Identities = 133/163 (82%), Positives = 139/163 (85%), Gaps = 6/163 (4%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+            MVS FFH+I VF+KS TLI+KTEHIGFVIYSWRKSTTHLGSRRK AISIYL EVSLQKYD
+Sbjct  1    MVSYFFHIIHVFKKSVTLINKTEHIGFVIYSWRKSTTHLGSRRKSAISIYLPEVSLQKYD  60
+
+Query  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK  120
+            CPFSGTS VVFSLFL       VV A IKTVRT PLE   PLQ SVSFNFSTV K CPAK
+Sbjct  61   CPFSGTSLVVFSLFL------HVVCAVIKTVRTYPLERPSPLQGSVSFNFSTVQKLCPAK  114
+
+Query  121  DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+            DWKVHKGKCYWIAETKKSWNKSQND A+ NSYLM+IQDITAM+
+Sbjct  115  DWKVHKGKCYWIAETKKSWNKSQNDRAMKNSYLMMIQDITAMM  157
+
+
+> UniRef90_G3QDE0 Uncharacterized protein n=1 Tax=Gorilla gorilla 
+gorilla TaxID=9595 RepID=G3QDE0_GORGO
+Length=174
+
+ Score = 251 bits (640),  Expect = 1e-89, Method: Compositional matrix adjust.
+ Identities = 130/165 (79%), Positives = 136/165 (82%), Gaps = 22/165 (13%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+            MVSNFFHVIQ+FEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKF            KYD
+Sbjct  1    MVSNFFHVIQIFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKF------------KYD  48
+
+Query  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKT--VRTSPLELAFPLQRSVSFNFSTVHKSCP  118
+            CPFSGTSFVVFSLFL+CAMAGDVVYADIKT  +  + L   FP    +SFNFSTVHKSCP
+Sbjct  49   CPFSGTSFVVFSLFLVCAMAGDVVYADIKTFYIDFNCLSSFFP----ISFNFSTVHKSCP  104
+
+Query  119  AKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+            AKDWK HKGKCYWI    KSWNKSQNDCAINNSYLMVIQDITAM+
+Sbjct  105  AKDWKGHKGKCYWI----KSWNKSQNDCAINNSYLMVIQDITAML  145
+
+
+> UniRef90_A0A096NBL1 Uncharacterized protein n=7 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A096NBL1_PAPAN
+Length=168
+
+ Score = 249 bits (636),  Expect = 4e-89, Method: Compositional matrix adjust.
+ Identities = 128/163 (79%), Positives = 134/163 (82%), Gaps = 17/163 (10%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+            MVSNFFHVIQVF KSATLISKTEHIGFVIYSWRKSTTHLGSRRK             KYD
+Sbjct  1    MVSNFFHVIQVFRKSATLISKTEHIGFVIYSWRKSTTHLGSRRK------------SKYD  48
+
+Query  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK  120
+            C FSGTSFV F LFL+ A+AGDVVYADIKTVRTSPLEL  PLQRSVSFNF+TV KSCP  
+Sbjct  49   CSFSGTSFVGFCLFLVYALAGDVVYADIKTVRTSPLELPSPLQRSVSFNFATVLKSCP--  106
+
+Query  121  DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+               VHKGKC+WIAETKKSWN+SQND A  NSYLMVIQDITAM+
+Sbjct  107  ---VHKGKCHWIAETKKSWNESQNDYATKNSYLMVIQDITAMM  146
+
+
+> UniRef90_A0A1D5QWS2 Uncharacterized protein n=9 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5QWS2_MACMU
+Length=172
+
+ Score = 249 bits (635),  Expect = 6e-89, Method: Compositional matrix adjust.
+ Identities = 128/163 (79%), Positives = 134/163 (82%), Gaps = 17/163 (10%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+            MVSNFFHVIQVF KSATLISKTEHIGFVIYSWRKSTTHLGSRRK             KYD
+Sbjct  1    MVSNFFHVIQVFRKSATLISKTEHIGFVIYSWRKSTTHLGSRRK------------SKYD  48
+
+Query  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK  120
+            C FSGTSFV F LFL+ A+AGDVVYADIKTVRTSPLEL  PLQRSVSFNF+TV KSCP  
+Sbjct  49   CSFSGTSFVGFCLFLVYALAGDVVYADIKTVRTSPLELPSPLQRSVSFNFATVLKSCP--  106
+
+Query  121  DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+               VHKGKC+WIAETKKSWN+SQND A  NSYLMVIQDITAM+
+Sbjct  107  ---VHKGKCHWIAETKKSWNESQNDYATKNSYLMVIQDITAMM  146
+
+
+> UniRef90_H0YFK3 C-type lectin-like domain family 1 (Fragment) 
+n=2 Tax=Homininae TaxID=207598 RepID=H0YFK3_HUMAN
+Length=119
+
+ Score = 239 bits (610),  Expect = 8e-86, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  50   YLSEVSLQKYDCPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFN  109
+            YLSEVSLQKYDCPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFN
+Sbjct  2    YLSEVSLQKYDCPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFN  61
+
+Query  110  FSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            FSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM
+Sbjct  62   FSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  114
+
+
+> UniRef90_A0A2Y9H3C5 LOW QUALITY PROTEIN: C-type lectin-like domain 
+family 1 n=1 Tax=Neomonachus schauinslandi TaxID=29088 
+RepID=A0A2Y9H3C5_NEOSC
+Length=175
+
+ Score = 206 bits (525),  Expect = 5e-72, Method: Compositional matrix adjust.
+ Identities = 103/156 (66%), Positives = 120/156 (77%), Gaps = 9/156 (6%)
+
+Query  13   EKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLS--EVSLQKYDCPFSGTSFVV  70
+            +KS TLI KTEHI FV+YSWRKST       KF  + YL+  EV LQ  D PFS TSF+V
+Sbjct  26   QKSITLIGKTEHIAFVLYSWRKST-------KFGRADYLTSPEVYLQNXDXPFSKTSFLV  78
+
+Query  71   FSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAKDWKVHKGKCY  130
+            FSLFLICAMAGD+VYADIK      LE +  LQ+SVSFNFSTVHKSCP+KDW +H GKCY
+Sbjct  79   FSLFLICAMAGDIVYADIKIDGNFSLENSSSLQKSVSFNFSTVHKSCPSKDWTLHGGKCY  138
+
+Query  131  WIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFN  166
+            WIAE KKSW++S+NDCA+ NS+LMVIQD+  MVR+ 
+Sbjct  139  WIAEDKKSWDESKNDCAMKNSHLMVIQDLIDMVRYQ  174
+
+
+> UniRef90_A0A3Q0DMT2 LOW QUALITY PROTEIN: C-type lectin-like domain 
+family 1 n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A3Q0DMT2_TARSY
+Length=219
+
+ Score = 185 bits (469),  Expect = 5e-63, Method: Compositional matrix adjust.
+ Identities = 97/162 (60%), Positives = 117/162 (72%), Gaps = 5/162 (3%)
+
+Query  5    FFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYDCPFS  64
+            FFH++QVF+KS  LI K  HIGFVI SWRKSTT+LG+R+K  IS Y     L       S
+Sbjct  60   FFHIMQVFKKSIPLIGKIAHIGFVIXSWRKSTTYLGNRKKSTISTY---XKLLAXIIILS  116
+
+Query  65   GTSFVVFS-LFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAKDWK  123
+                 ++S LF I AMAGD+VYADIKTV++S  EL+ PL RSVS N STV +SCP++DWK
+Sbjct  117  SIEHRLWSPLFFIYAMAGDIVYADIKTVKSS-FELSSPLPRSVSLNSSTVRQSCPSEDWK  175
+
+Query  124  VHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRF  165
+            +H  KCYWIA+TK SWNKS  DCA+  S+LMVIQD T +VRF
+Sbjct  176  LHGEKCYWIAKTKDSWNKSHKDCAMKKSHLMVIQDFTDLVRF  217
+
+
+> UniRef90_D2HS41 Uncharacterized protein (Fragment) n=1 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2HS41_AILME
+Length=115
+
+ Score = 165 bits (418),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 77/115 (67%), Positives = 92/115 (80%), Gaps = 0/115 (0%)
+
+Query  51   LSEVSLQKYDCPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNF  110
+            L EV LQ Y+ P+  TSF VFSLFLI AMAGD+VYAD+K  RT   E +  LQ+SVSFNF
+Sbjct  1    LPEVYLQNYETPYRRTSFFVFSLFLIRAMAGDIVYADVKIDRTFSSENSSSLQKSVSFNF  60
+
+Query  111  STVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRF  165
+            S+ HKSCP+KDWK+H GKCYWIAE KKSW++S+NDC + NS+LMVIQDI  MVR+
+Sbjct  61   SSAHKSCPSKDWKLHGGKCYWIAEDKKSWDESKNDCVMKNSHLMVIQDIIDMVRY  115
+
+
+> UniRef90_A0A2R8PFC0 Uncharacterized protein n=1 Tax=Callithrix 
+jacchus TaxID=9483 RepID=A0A2R8PFC0_CALJA
+Length=156
+
+ Score = 136 bits (342),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 81/130 (62%), Positives = 88/130 (68%), Gaps = 22/130 (17%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+            MVS FFH+IQVF+KS TLI+KTEHIGFVIYSWRK TTHLGSRRK             KYD
+Sbjct  1    MVSYFFHIIQVFKKSVTLINKTEHIGFVIYSWRKFTTHLGSRRK------------SKYD  48
+
+Query  61   CPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCP--  118
+            CPFSGTS VVFSLFL      DVV A IKTVRT PLE   PLQRS   N ST H +C   
+Sbjct  49   CPFSGTSSVVFSLFL------DVVCAVIKTVRTYPLECPSPLQRSG--NCSTFHNNCTLI  100
+
+Query  119  AKDWKVHKGK  128
+             K++ + K K
+Sbjct  101  QKEFDLGKSK  110
+
+
+> UniRef90_F6QEY4 Uncharacterized protein n=2 Tax=Macaca TaxID=9539 
+RepID=F6QEY4_MACMU
+Length=96
+
+ Score = 127 bits (319),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 62/75 (83%), Positives = 66/75 (88%), Gaps = 0/75 (0%)
+
+Query  49   IYLSEVSLQKYDCPFSGTSFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSF  108
+            + L EVSLQKYDC FSGTSFV F LFL+ A+AGDVVYADIKTVRTSPLEL  PLQRSVSF
+Sbjct  20   LNLPEVSLQKYDCSFSGTSFVGFCLFLVYALAGDVVYADIKTVRTSPLELPSPLQRSVSF  79
+
+Query  109  NFSTVHKSCPAKDWK  123
+            NF+TV KSCPAKDWK
+Sbjct  80   NFATVLKSCPAKDWK  94
+
+
+> UniRef90_A0A384CLJ2 LOW QUALITY PROTEIN: C-type lectin-like domain 
+family 1 n=1 Tax=Ursus maritimus TaxID=29073 RepID=A0A384CLJ2_URSMA
+Length=301
+
+ Score = 117 bits (292),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 75/226 (33%), Positives = 106/226 (47%), Gaps = 64/226 (28%)
+
+Query  1    MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRK----------------  44
+            M SNF    +VFE S +L+ KTEHI FV YS R ++ +LG ++                 
+Sbjct  1    MNSNFLPYHEVFEXSVSLLGKTEHIAFVXYSHRGNSPNLGKQKNIAHLDLFDLPEVYLQN  60
+
+Query  45   ----------FAISIYL----------------------SEVSLQKYDCPFSG----TSF  68
+                      F  S++L                      +  SLQK D    G       
+Sbjct  61   YETPYRITSFFVFSLFLIRAMAGDIVYADVKIDRTFSSENSSSLQKSDPHHHGIFLKVGC  120
+
+Query  69   VVFSLFLICAMAGDVVYADIKTVRTSPLE------------LAFPLQRSVSFNFSTVHKS  116
+             +  +  +  +   V+    K+ R + +E             +  +  +VSFNFS+ HKS
+Sbjct  121  AMIVILCVTVIVLSVLVTQFKSARLNTVENESKEKFCTGKNKSGAITSTVSFNFSSAHKS  180
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            CP+KDWK+H GKCYW+AE KKSW++S+NDC + NS+LMVIQDI  M
+Sbjct  181  CPSKDWKLHGGKCYWVAEDKKSWDESKNDCVMKNSHLMVIQDIIDM  226
+
+
+> UniRef90_L9L9A2 Killer cell lectin-like receptor subfamily B 
+member 1 n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L9A2_TUPCH
+Length=297
+
+ Score = 112 bits (280),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 53/86 (62%), Positives = 65/86 (76%), Gaps = 1/86 (1%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKS  138
+            MAGDVVYADIK  + S +E + P  RSVS+N ST HKSCP+ DWK+  GKCYWI+E+ +S
+Sbjct  1    MAGDVVYADIKIAKAS-VEHSPPPHRSVSWNSSTTHKSCPSGDWKLFGGKCYWISESMQS  59
+
+Query  139  WNKSQNDCAINNSYLMVIQDITAMVR  164
+            W KSQ DCA+ NS LM+IQD   MV+
+Sbjct  60   WTKSQRDCAMKNSNLMIIQDFIDMVQ  85
+
+
+ Score = 50.1 bits (118),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 38/123 (31%), Positives = 62/123 (50%), Gaps = 11/123 (9%)
+
+Query  39   LGSRRKFAISIYLSEVSLQKYDCPFSGTSFVVFSLF---LICAMAGDVVYADIKTVRTSP  95
+            +G++R+ +IS    E +L     PF+  +  +++     L  AM   V+YAD+   R S 
+Sbjct  105  VGTQRQHSIS----EGTLPLLTLPFTTGALSLYTRLVPILPPAMDRPVIYADLNLFRNSG  160
+
+Query  96   LELAFPLQRSVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMV  155
+             E + P  RS+     +  K CP  +W+  + KC        SWN S+ DC+  +S L++
+Sbjct  161  PESSSP--RSLPREKPSQFK-CPM-NWQQVREKCLIFETNVSSWNNSRTDCSRKDSTLLL  216
+
+Query  156  IQD  158
+            IQD
+Sbjct  217  IQD  219
+
+
+ Score = 21.2 bits (43),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 14/54 (26%), Positives = 22/54 (41%), Gaps = 9/54 (17%)
+
+Query  31  SWRKSTTHL----GSRRKFAISIYLSEVSLQKY-----DCPFSGTSFVVFSLFL  75
+           SW  STTH     G  + F    Y    S+Q +     DC    ++ ++   F+
+Sbjct  28  SWNSSTTHKSCPSGDWKLFGGKCYWISESMQSWTKSQRDCAMKNSNLMIIQDFI  81
+
+
+> UniRef90_A0A2U3WTK0 C-type lectin-like domain family 1 n=4 Tax=Caniformia 
+TaxID=379584 RepID=A0A2U3WTK0_ODORO
+Length=221
+
+ Score = 104 bits (260),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 45/58 (78%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  105  SVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            +VSFNFSTVHKSCP+KDWK+H GKCYWIAE KKSW++S+NDCA+ NS+LMVIQD T M
+Sbjct  89   TVSFNFSTVHKSCPSKDWKLHGGKCYWIAEDKKSWDESKNDCAMKNSHLMVIQDFTDM  146
+
+
+ Score = 31.2 bits (69),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 15/27 (56%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRS  105
+            MAGD+VYADIK      LE +  LQ+S
+Sbjct  1    MAGDIVYADIKIDGNFSLENSSSLQKS  27
+
+
+> UniRef90_A0A337SHG7 Uncharacterized protein n=3 Tax=Felidae TaxID=9681 
+RepID=A0A337SHG7_FELCA
+Length=192
+
+ Score = 100 bits (249),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 52/117 (44%), Positives = 66/117 (56%), Gaps = 33/117 (28%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVS-------------------------------  107
+            MAGD++YADIKT     L  +  LQ+SVS                               
+Sbjct  1    MAGDIIYADIKTDGAFSLGNSSSLQKSVSQFKSARHNTMDDESKEKFCAGENKSGTIASK  60
+
+Query  108  --FNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+              FN ST HKSCP+KDW++H GKCYW+AE  KSW++S+NDCA+ NS+LMVI+D   M
+Sbjct  61   VSFNSSTAHKSCPSKDWRLHGGKCYWVAEANKSWHESKNDCAMKNSHLMVIRDFIDM  117
+
+
+> UniRef90_G1LBA5 Uncharacterized protein n=2 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1LBA5_AILME
+Length=221
+
+ Score = 100 bits (248),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 42/61 (69%), Positives = 52/61 (85%), Gaps = 0/61 (0%)
+
+Query  102  LQRSVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITA  161
+            +  +VSFNFS+ HKSCP+KDWK+H GKCYWIAE KKSW++S+NDC + NS+LMVIQDI  
+Sbjct  86   ITSTVSFNFSSAHKSCPSKDWKLHGGKCYWIAEDKKSWDESKNDCVMKNSHLMVIQDIID  145
+
+Query  162  M  162
+            M
+Sbjct  146  M  146
+
+
+ Score = 32.3 bits (72),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 15/27 (56%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRS  105
+            MAGD+VYAD+K  RT   E +  LQ+S
+Sbjct  1    MAGDIVYADVKIDRTFSSENSSSLQKS  27
+
+
+> UniRef90_A0A2U3XL35 C-type lectin domain family 4 member F-like 
+n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3XL35_LEPWE
+Length=318
+
+ Score = 102 bits (253),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 43/59 (73%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  105  SVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+            SVSFNFSTVHKSCP+K+W +H GKCYWIAE KKSW++S+NDCA+ NS+LMVIQD+  M+
+Sbjct  62   SVSFNFSTVHKSCPSKNWTLHGGKCYWIAEDKKSWDESKNDCAMKNSHLMVIQDLIDML  120
+
+
+ Score = 27.7 bits (60),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  122  WKVHKGKCYWIAETKKSWNKSQNDCA  147
+            W  + GKC + +E  ++W  SQN CA
+Sbjct  243  WIGYLGKCGYFSENTRTWAASQNFCA  268
+
+
+> UniRef90_M3Y460 Uncharacterized protein n=1 Tax=Mustela putorius 
+furo TaxID=9669 RepID=M3Y460_MUSPF
+Length=295
+
+ Score = 100 bits (250),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 42/62 (68%), Positives = 53/62 (85%), Gaps = 0/62 (0%)
+
+Query  105  SVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVR  164
+            +VSFNFS  HKSCP+KDWK+H GKCYWIAE KKSW++S+NDCA+ NS+L+VI+D   M+R
+Sbjct  89   TVSFNFSAAHKSCPSKDWKLHGGKCYWIAEDKKSWDESKNDCAMKNSHLLVIRDFIDMIR  148
+
+Query  165  FN  166
+             N
+Sbjct  149  KN  150
+
+
+ Score = 31.2 bits (69),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 14/26 (54%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQR  104
+            MAGD +YADIK  RT  L+ +  LQ+
+Sbjct  1    MAGDTIYADIKIDRTVSLKKSSSLQK  26
+
+
+> UniRef90_A0A2Y9IRJ3 killer cell lectin-like receptor subfamily 
+B member 1B allele B n=2 Tax=Mustelidae TaxID=9655 RepID=A0A2Y9IRJ3_ENHLU
+Length=221
+
+ Score = 98.2 bits (243),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 41/58 (71%), Positives = 51/58 (88%), Gaps = 0/58 (0%)
+
+Query  105  SVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            +VSFNFST HKSCP+KDWK+H GKCYWIAE KKSW++S+NDCA+ NS+L+VI+D   M
+Sbjct  89   TVSFNFSTAHKSCPSKDWKLHGGKCYWIAEDKKSWDESKNDCAMKNSHLLVIRDFIDM  146
+
+
+ Score = 36.2 bits (82),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 18/29 (62%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVS  107
+            MAGD+VYADIK  RT  LE +  LQ+S S
+Sbjct  1    MAGDIVYADIKIDRTFSLENSSSLQKSDS  29
+
+
+> UniRef90_A0A384B8Z3 killer cell lectin-like receptor subfamily 
+F member 1-like isoform X2 n=3 Tax=Cetacea TaxID=9721 RepID=A0A384B8Z3_BALAS
+Length=186
+
+ Score = 94.7 bits (234),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 49/111 (44%), Positives = 65/111 (59%), Gaps = 26/111 (23%)
+
+Query  79   MAGDVVYADIKTVRTSP---------------LELAFPLQRS-----------VSFNFST  112
+            MAGD+VYADIK   +                 L++   +              VSFN ST
+Sbjct  1    MAGDIVYADIKHSSSEHSSSRQRSDSHHHGIFLKVGCAMIIILLVIVIVLSIFVSFNSST  60
+
+Query  113  VHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+              KSCP++DWK+H GKCYW+AE++KSWN+S+NDC + NS+LMVI+DI  M 
+Sbjct  61   ARKSCPSEDWKLHGGKCYWVAESEKSWNESKNDCVMKNSHLMVIRDIIDMT  111
+
+
+> UniRef90_A0A2I2UYY9 Uncharacterized protein n=6 Tax=Felidae TaxID=9681 
+RepID=A0A2I2UYY9_FELCA
+Length=221
+
+ Score = 92.0 bits (227),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 38/57 (67%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  106  VSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            VSFN ST HKSCP+KDW++H GKCYW+AE  KSW++S+NDCA+ NS+LMVI+D   M
+Sbjct  90   VSFNSSTAHKSCPSKDWRLHGGKCYWVAEANKSWHESKNDCAMKNSHLMVIRDFIDM  146
+
+
+ Score = 31.6 bits (70),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 20/36 (56%), Gaps = 6/36 (17%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVH  114
+            MAGD++YADIKT      + AF L  S S   S  H
+Sbjct  1    MAGDIIYADIKT------DGAFSLGNSSSLQKSDTH  30
+
+
+> UniRef90_A0A384B907 killer cell lectin-like receptor subfamily 
+F member 1-like isoform X1 n=5 Tax=Cetacea TaxID=9721 RepID=A0A384B907_BALAS
+Length=219
+
+ Score = 92.0 bits (227),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 38/58 (66%), Positives = 49/58 (84%), Gaps = 0/58 (0%)
+
+Query  106  VSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+            VSFN ST  KSCP++DWK+H GKCYW+AE++KSWN+S+NDC + NS+LMVI+DI  M 
+Sbjct  87   VSFNSSTARKSCPSEDWKLHGGKCYWVAESEKSWNESKNDCVMKNSHLMVIRDIIDMT  144
+
+
+> UniRef90_A0A212CCF3 Uncharacterized protein n=1 Tax=Cervus elaphus 
+hippelaphus TaxID=46360 RepID=A0A212CCF3_CEREH
+Length=183
+
+ Score = 90.1 bits (222),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 50/113 (44%), Positives = 64/113 (57%), Gaps = 34/113 (30%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRS-----------------------------VSFN  109
+            MAG++VYADIK   +   E +  LQRS                             VSF+
+Sbjct  1    MAGEIVYADIKHTSS---EHSSSLQRSDSQHHGIFLKVGCAMIIILLVIVIVLSMLVSFD  57
+
+Query  110  FSTVHKSCPAKDWKVHKGKCYWIA--ETKKSWNKSQNDCAINNSYLMVIQDIT  160
+             STV  SCP KDW+ H+GKCYW+A  E KKSWN+S+NDC + N++LMVI+D T
+Sbjct  58   SSTVRTSCPTKDWRPHRGKCYWVAENENKKSWNESKNDCVMKNAHLMVIRDFT  110
+
+
+> UniRef90_A0A2F0AWJ5 C-type lectin-like domain family 1 (Fragment) 
+n=1 Tax=Eschrichtius robustus TaxID=9764 RepID=A0A2F0AWJ5_ESCRO
+Length=56
+
+ Score = 85.1 bits (209),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  107  SFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            SFN ST  KSCP++DWK+H GKCYW+A+T+KSWN+S+ DC + NS+LMVI+DI  M
+Sbjct  1    SFNSSTASKSCPSEDWKLHGGKCYWVAKTEKSWNESKYDCVMKNSHLMVIRDIIDM  56
+
+
+> UniRef90_F6ZDS2 Uncharacterized protein n=3 Tax=Equus TaxID=35510 
+RepID=F6ZDS2_HORSE
+Length=222
+
+ Score = 88.6 bits (218),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 39/57 (68%), Positives = 45/57 (79%), Gaps = 0/57 (0%)
+
+Query  106  VSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            VS N  T HKSC +KDWK+H GKCYW+AE KKSW  S+NDCA+ NS+LMVIQD T M
+Sbjct  90   VSSNSPTAHKSCLSKDWKLHGGKCYWVAENKKSWAGSKNDCAMKNSHLMVIQDFTDM  146
+
+
+ Score = 49.3 bits (116),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVS  107
+            MAG++VYADIKTVR SPLE + PLQRS S
+Sbjct  1    MAGEIVYADIKTVRASPLEHSSPLQRSDS  29
+
+
+> UniRef90_H0Y0S6 Uncharacterized protein n=2 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0Y0S6_OTOGA
+Length=223
+
+ Score = 87.4 bits (215),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 50/123 (41%), Positives = 66/123 (54%), Gaps = 18/123 (15%)
+
+Query  57   QKYDCPFSGTSFVVFSLFLICAMAGDVVYADIKTV--------------RTSPLELA---  99
+            QK DC   G  F+     +I  + G V+   I  V              +T P       
+Sbjct  25   QKSDCHHHGI-FMKVGCVMIIILLGIVITLSIFVVQFHSARHLQVDNEGKTKPCARGNKS  83
+
+Query  100  FPLQRSVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDI  159
+              +   VS NFSTVHKSCP KDWK+  GKCYW+AETK++W++SQ++C   NS+L+VIQD 
+Sbjct  84   GTISSRVSSNFSTVHKSCPTKDWKLLGGKCYWVAETKETWDRSQDECTKKNSHLIVIQDF  143
+
+Query  160  TAM  162
+              M
+Sbjct  144  IDM  146
+
+
+ Score = 43.1 bits (100),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRS  105
+            MAGD+VYADIKTVRTSP   + P Q+S
+Sbjct  1    MAGDIVYADIKTVRTSPSGCSSPPQKS  27
+
+
+> UniRef90_A0A2U3UZ26 LOW QUALITY PROTEIN: C-type lectin-like domain 
+family 1 n=1 Tax=Tursiops truncatus TaxID=9739 RepID=A0A2U3UZ26_TURTR
+Length=297
+
+ Score = 87.0 bits (214),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 35/55 (64%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  108  FNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            FN ST  KSCP++DWK+H GKCYW+A+++KSWN+S+NDC + NS+LMVIQD   M
+Sbjct  167  FNSSTASKSCPSEDWKLHGGKCYWVAKSEKSWNESKNDCVMKNSHLMVIQDFIDM  221
+
+
+ Score = 62.8 bits (151),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 38/89 (43%), Positives = 45/89 (51%), Gaps = 0/89 (0%)
+
+Query  1   MVSNFFHVIQVFEKSATLISKTEHIGFVIYSWRKSTTHLGSRRKFAISIYLSEVSLQKYD  60
+           M S+F       +KS  LI K EHI  + YS  K T                  SLQKY 
+Sbjct  1   MDSSFLPYHARVQKSIALIDKAEHIALIFYSQGKPTKLWRGEGNHPSQFISLTGSLQKYG  60
+
+Query  61  CPFSGTSFVVFSLFLICAMAGDVVYADIK  89
+            P + T+   FSLFLI AMAGD++YADIK
+Sbjct  61  TPSAXTTTCDFSLFLIYAMAGDIIYADIK  89
+
+
+> UniRef90_A6QQ73 LOC618591 protein n=4 Tax=Bovinae TaxID=27592 
+RepID=A6QQ73_BOVIN
+Length=215
+
+ Score = 84.0 bits (206),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 37/56 (66%), Positives = 45/56 (80%), Gaps = 1/56 (2%)
+
+Query  106  VSFNFSTVHKSCPAKDWKVHKGKCYWIAETK-KSWNKSQNDCAINNSYLMVIQDIT  160
+            VSFN STVH SCP KDWK+H GKCYW+AE + KSWN+S+NDC    S+LMV++D T
+Sbjct  87   VSFNSSTVHTSCPTKDWKLHGGKCYWVAEHENKSWNESKNDCVTKKSHLMVVRDFT  142
+
+
+ Score = 26.2 bits (56),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 3/31 (10%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVSFN  109
+            MAG++VYADIK   +   E +  LQ+S S +
+Sbjct  1    MAGEIVYADIKHTSS---EHSSSLQKSDSHH  28
+
+
+> UniRef90_A0A341AEU7 killer cell lectin-like receptor subfamily 
+F member 1 isoform X2 n=1 Tax=Neophocaena asiaeorientalis 
+asiaeorientalis TaxID=1706337 RepID=A0A341AEU7_9CETA
+Length=190
+
+ Score = 83.6 bits (205),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 47/117 (40%), Positives = 61/117 (52%), Gaps = 36/117 (31%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSV--------------------------------  106
+            MA D+VYADIK   +     +   QRSV                                
+Sbjct  1    MAEDIVYADIKHSSSE---HSSSCQRSVIRFKSARHTKVNNESKEKYCTGQNKSETSTSI  57
+
+Query  107  -SFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+              FN ST  KSCP++DWK+H GKCYW+A+++KSW +S+NDC + NS+LMVIQD   M
+Sbjct  58   GCFNSSTARKSCPSEDWKLHGGKCYWVAKSEKSWYESKNDCVMKNSHLMVIQDFIDM  114
+
+
+> UniRef90_W5QIU0 Uncharacterized protein n=7 Tax=Bovidae TaxID=9895 
+RepID=W5QIU0_SHEEP
+Length=216
+
+ Score = 83.6 bits (205),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 36/60 (60%), Positives = 47/60 (78%), Gaps = 2/60 (3%)
+
+Query  106  VSFNFSTVHKSCPAKDWKVHKGKCYWIAE--TKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+            V FN STV+ SCP+KDWK+H GKCYW+AE   KKSWN+S+NDC +  S+LMV++D + M 
+Sbjct  87   VPFNSSTVYTSCPSKDWKLHGGKCYWVAEHGNKKSWNESKNDCVMKESHLMVVRDFSDMT  146
+
+
+ Score = 26.6 bits (57),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 15/29 (52%), Positives = 19/29 (66%), Gaps = 3/29 (10%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVS  107
+            MA ++VYADIK    +P E +  LQRS S
+Sbjct  1    MAEEIVYADIK---RTPSEHSSSLQRSDS  26
+
+
+ Score = 17.3 bits (33),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 5/9 (56%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  128  KCYWIAETK  136
+            KC W++ TK
+Sbjct  192  KCAWVSSTK  200
+
+
+> UniRef90_A0A2Y9NPI2 killer cell lectin-like receptor subfamily 
+F member 1 n=1 Tax=Delphinapterus leucas TaxID=9749 RepID=A0A2Y9NPI2_DELLE
+Length=219
+
+ Score = 82.4 bits (202),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 34/55 (62%), Positives = 45/55 (82%), Gaps = 0/55 (0%)
+
+Query  108  FNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            FN ST  KSCP++DWK+H GKCYW+A+++KSW +S+NDC + NS+LMVIQD   M
+Sbjct  89   FNSSTASKSCPSEDWKLHGGKCYWVAKSEKSWYESKNDCIMKNSHLMVIQDFIDM  143
+
+
+ Score = 26.6 bits (57),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 10/11 (91%), Positives = 11/11 (100%), Gaps = 0/11 (0%)
+
+Query  79  MAGDVVYADIK  89
+           MAGD+VYADIK
+Sbjct  1   MAGDIVYADIK  11
+
+
+> UniRef90_A0A286ZNW8 Uncharacterized protein n=1 Tax=Sus scrofa 
+TaxID=9823 RepID=A0A286ZNW8_PIG
+Length=222
+
+ Score = 81.6 bits (200),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  114  HKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            HK CP KDWK+H GKCYW+AE KKSWN+S+NDCA   S+LMVI+D T M
+Sbjct  98   HKPCPFKDWKLHGGKCYWVAEKKKSWNESKNDCAQKESHLMVIRDFTDM  146
+
+
+ Score = 33.5 bits (75),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 16/29 (55%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  79   MAGDVVYADIKTVRTSPLELAFPLQRSVS  107
+            MAGD+VYADI   RT   E +  +QRS S
+Sbjct  1    MAGDIVYADINIARTLSSEHSSSVQRSDS  29
+
+
+> UniRef90_A0A2Y9G0J2 killer cell lectin-like receptor subfamily 
+B member 1B allele A n=1 Tax=Trichechus manatus latirostris 
+TaxID=127582 RepID=A0A2Y9G0J2_TRIMA
+Length=219
+
+ Score = 79.0 bits (193),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  105  SVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            + S N S VH+ CP+KDW  H GKCYWIA+  +SW+KSQ+DCA+ NS+L VIQD+  M
+Sbjct  86   TASSNSSIVHQLCPSKDWISHGGKCYWIAKNTQSWSKSQDDCAMKNSHLFVIQDVIDM  143
+
+
+> UniRef90_G3TMC2 Uncharacterized protein n=1 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3TMC2_LOXAF
+Length=222
+
+ Score = 78.6 bits (192),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/99 (44%), Positives = 60/99 (61%), Gaps = 4/99 (4%)
+
+Query  67   SFVVFSLFLIC---AMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAKDWK  123
+            + +V S+F+I    A   +V    IK   T   E +  +   VS N  TVH+SCP + W 
+Sbjct  49   TVIVLSIFVIQFNYARHNEVNNESIKKNCTGKNE-SKTITSKVSSNSPTVHQSCPCQSWT  107
+
+Query  124  VHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+             H GKCYWIAE ++SW+KS++ CA+ NS+L VIQDI  M
+Sbjct  108  PHGGKCYWIAENEESWDKSRDICAMKNSHLFVIQDIIDM  146
+
+
+> UniRef90_H2NGG8 Uncharacterized protein n=1 Tax=Pongo abelii 
+TaxID=9601 RepID=H2NGG8_PONAB
+Length=47
+
+ Score = 54.3 bits (129),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 22/48 (46%), Positives = 35/48 (73%), Gaps = 1/48 (2%)
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVR  164
+            CP  DW ++KGKCYW + + K+W +SQ+DC    ++L+VIQ++  +VR
+Sbjct  1    CP-NDWLLNKGKCYWFSTSFKTWKESQHDCTQLQAHLLVIQNLDELVR  47
+
+
+> UniRef90_F6YF52 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=F6YF52_ORNAN
+Length=168
+
+ Score = 55.8 bits (133),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 25/46 (54%), Positives = 37/46 (80%), Gaps = 2/46 (4%)
+
+Query  115  KSCPAKDWKVHKGKCYWIAET-KKSWNKSQNDCAINNSYLMVIQDI  159
+            K+CPA DWK H+GKCYWI++T KK+WN+S+ +C   +S L +I+D+
+Sbjct  49   KTCPA-DWKWHQGKCYWISQTEKKTWNESKANCTQKDSNLTIIKDM  93
+
+
+> UniRef90_G1LZU0 Uncharacterized protein n=2 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1LZU0_AILME
+Length=175
+
+ Score = 52.0 bits (123),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 35/107 (33%), Positives = 49/107 (46%), Gaps = 7/107 (7%)
+
+Query  62   PFSGTSFVVFSLFLIC-AMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAK  120
+            P      +   L +IC  +   VV   + T    P +     Q S+       +  CP K
+Sbjct  66   PSCPGKLIAGVLGIICLVLMSSVVTIAVITFTEGPEQN----QTSMETRIQKPYHCCP-K  120
+
+Query  121  DWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFNI  167
+            +W  H   CY+I+  KK+WN+S   CAI NS L+ I D   MVRF +
+Sbjct  121  EWLTHSNNCYYISTEKKTWNESSMSCAIKNSNLLSI-DEEDMVRFQM  166
+
+
+> UniRef90_K7EHH0 Uncharacterized protein n=1 Tax=Ornithorhynchus 
+anatinus TaxID=9258 RepID=K7EHH0_ORNAN
+Length=222
+
+ Score = 52.0 bits (123),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 43/60 (72%), Gaps = 3/60 (5%)
+
+Query  104  RSVSFNFSTVHKSCPAKDWKVHKGKCYWIAET-KKSWNKSQNDCAINNSYLMVIQDITAM  162
+            +S+S     V K+CPA DWK+H+GKCYWI++T KK+W +S+ +C   +S L +I+D+  +
+Sbjct  93   KSISTETPRV-KTCPA-DWKLHQGKCYWISKTEKKTWYESKVNCTQKHSNLAMIRDMCDL  150
+
+
+> UniRef90_A0A3P4M829 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4M829_GULGU
+Length=182
+
+ Score = 51.6 bits (122),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/96 (32%), Positives = 48/96 (50%), Gaps = 4/96 (4%)
+
+Query  73   LFLIC-AMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAKDWKVHKGKCYW  131
+            L +IC  +   VV   +  V   P +    L+  +   +   H  CP K+W  +   CY+
+Sbjct  76   LGIICLVLMSTVVTIAVIPVTEGPKQNKTSLETRIQKAYYCGH--CP-KEWMTYSNNCYY  132
+
+Query  132  IAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFNI  167
+            I+  +KSWN+S + CA  NS L  I+D   +VRF +
+Sbjct  133  ISTERKSWNESLSACASENSTLFSIEDEEELVRFQM  168
+
+
+> UniRef90_G1LZU3 Uncharacterized protein n=1 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1LZU3_AILME
+Length=150
+
+ Score = 49.3 bits (116),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 22/58 (38%), Positives = 32/58 (55%), Gaps = 1/58 (2%)
+
+Query  106  VSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+            +S N S  +  CP K+W  +   CY+I+  +KSWN+S   CA   S L+ I D   M+
+Sbjct  83   ISHNLSPAYHCCP-KEWLTYSNSCYYISTERKSWNESSTSCAAKGSTLLSIDDKEDMI  139
+
+
+> UniRef90_A0A2K6K125 Killer cell lectin like receptor F2 n=6 Tax=Colobinae 
+TaxID=9569 RepID=A0A2K6K125_RHIBE
+Length=205
+
+ Score = 49.7 bits (117),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 19/46 (41%), Positives = 32/46 (70%), Gaps = 1/46 (2%)
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            CP  DW +++GKCYW + + K+W +SQ DC    ++L+VIQ++  +
+Sbjct  77   CP-NDWLLNRGKCYWFSTSFKTWKESQRDCTQLQAHLLVIQNVDEL  121
+
+
+> UniRef90_A0A384CLG0 NKG2-A/NKG2-B type II integral membrane protein-like 
+n=3 Tax=Ursidae TaxID=9632 RepID=A0A384CLG0_URSMA
+Length=220
+
+ Score = 50.1 bits (118),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 32/56 (57%), Gaps = 1/56 (2%)
+
+Query  103  QRSVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQD  158
+            Q SV       +  CP K+W VH   CY+I+  KK+WN+S   CAI NS L+ I +
+Sbjct  97   QTSVETRIQKPYHCCP-KEWLVHSNNCYYISTEKKTWNESSMSCAIKNSNLLSIDE  151
+
+
+> UniRef90_A0A1D5QU51 Killer cell lectin like receptor F2 n=6 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A1D5QU51_MACMU
+Length=190
+
+ Score = 49.3 bits (116),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 19/46 (41%), Positives = 32/46 (70%), Gaps = 1/46 (2%)
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            CP  DW +++GKCYW + + K+W +SQ DC    ++L+VIQ++  +
+Sbjct  61   CP-NDWLLNQGKCYWFSTSFKTWKESQRDCTELQAHLLVIQNVDEL  105
+
+
+> UniRef90_D3W0D1 Killer cell lectin-like receptor subfamily F 
+member 2 n=21 Tax=Catarrhini TaxID=9526 RepID=KLRF2_HUMAN
+Length=207
+
+ Score = 48.9 bits (115),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 19/46 (41%), Positives = 32/46 (70%), Gaps = 1/46 (2%)
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            CP  DW +++GKCYW + + K+W +SQ DC    ++L+VIQ++  +
+Sbjct  78   CP-NDWLLNEGKCYWFSTSFKTWKESQRDCTQLQAHLLVIQNLDEL  122
+
+
+> UniRef90_A0A337SKL1 Uncharacterized protein n=3 Tax=Felidae TaxID=9681 
+RepID=A0A337SKL1_FELCA
+Length=268
+
+ Score = 49.3 bits (116),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 47/96 (49%), Gaps = 5/96 (5%)
+
+Query  67   SFVVFSLFLICAMAGDVVYADIKTVRTSPLELAFPLQRSVSFNFSTVHKSCPAKDWKVHK  126
+            + V+    L+C ++ +    D   +  SP +     Q + +F   +    CP  +W   K
+Sbjct  97   AIVIGLTILVCRLSSEKGTKDCDGMNISPRKQ----QDNTNFTTKSTLNLCP-NNWLRKK  151
+
+Query  127  GKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            GKCY   +T KSW  SQ  C I  S+L++IQD+  +
+Sbjct  152  GKCYNFLKTFKSWTDSQKSCLIMKSHLLMIQDMAEL  187
+
+
+> UniRef90_M3Y5A4 Uncharacterized protein n=1 Tax=Mustela putorius 
+furo TaxID=9669 RepID=M3Y5A4_MUSPF
+Length=137
+
+ Score = 46.2 bits (108),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 20/42 (48%), Positives = 27/42 (64%), Gaps = 1/42 (2%)
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQD  158
+            CP K+W  H   CY+I+  +KSWN+S + CA  NS L  I+D
+Sbjct  14   CP-KEWMTHSNNCYYISTERKSWNESMSACASENSTLFSIED  54
+
+
+> UniRef90_A0A2U3ZXU8 LOW QUALITY PROTEIN: NKG2-A/NKG2-B type II 
+integral membrane protein-like n=1 Tax=Odobenus rosmarus divergens 
+TaxID=9708 RepID=A0A2U3ZXU8_ODORO
+Length=190
+
+ Score = 46.6 bits (109),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 26/64 (41%), Positives = 37/64 (58%), Gaps = 4/64 (6%)
+
+Query  106  VSFNFSTVHK--SCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAMV  163
+            +S N S V+    CP K+W  +   CY+I+  +KSWN+S   CA  NS L+ + D   MV
+Sbjct  120  ISHNLSLVYHCGHCP-KEWFTYSNNCYYISTERKSWNESLTSCASKNSNLLYV-DKEDMV  177
+
+Query  164  RFNI  167
+            RF +
+Sbjct  178  RFQM  181
+
+
+> UniRef90_A0A384CLJ0 LOW QUALITY PROTEIN: killer cell lectin-like 
+receptor subfamily F member 2 n=2 Tax=Ursus TaxID=9639 RepID=A0A384CLJ0_URSMA
+Length=203
+
+ Score = 46.2 bits (108),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 20/46 (43%), Positives = 33/46 (72%), Gaps = 1/46 (2%)
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            CP +DW +++GKCY  + + K+WN+SQ+DCA   ++L VIQ +  +
+Sbjct  82   CP-EDWLLNQGKCYRFSISSKTWNESQHDCANLQAHLPVIQTLNEL  126
+
+
+> UniRef90_A0A337SDX8 Uncharacterized protein n=1 Tax=Felis catus 
+TaxID=9685 RepID=A0A337SDX8_FELCA
+Length=144
+
+ Score = 45.4 bits (106),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 22/49 (45%), Positives = 29/49 (59%), Gaps = 1/49 (2%)
+
+Query  114  HKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDITAM  162
+            H  CP K+W V+   CY+I+  +KSWN+S   CA  NS L+ I D   M
+Sbjct  97   HCGCP-KEWFVYSNNCYYISTERKSWNESLMSCASKNSNLLYIDDEEEM  144
+
+
+> UniRef90_G1LZU5 Uncharacterized protein n=2 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=G1LZU5_AILME
+Length=169
+
+ Score = 44.7 bits (104),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 27/96 (28%), Positives = 48/96 (50%), Gaps = 3/96 (3%)
+
+Query  75   LICAMAGDVVYADIKTVRT-SPLELAFPLQRSVSFNFSTVHKS--CPAKDWKVHKGKCYW  131
+            LI  + G V +  + TV T + +      +++ +F  + + K+  C  K+W  +   CY+
+Sbjct  71   LIAGILGIVCFVLMSTVVTIAVIHFTEGPEQNQTFLETRIQKAYHCCPKEWLTYSNSCYY  130
+
+Query  132  IAETKKSWNKSQNDCAINNSYLMVIQDITAMVRFNI  167
+            I+  +KSWN+S   CA   S L+ I D   M+   +
+Sbjct  131  ISTERKSWNESSTSCAAKGSTLLSIDDKEDMILLEM  166
+
+
+> UniRef90_L9KLI9 Asialoglycoprotein receptor 2 n=1 Tax=Tupaia 
+chinensis TaxID=246437 RepID=L9KLI9_TUPCH
+Length=412
+
+ Score = 45.1 bits (105),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 37/62 (60%), Gaps = 2/62 (3%)
+
+Query  95   PLELAFPLQRSVSFNFSTVHKSCPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLM  154
+            PL+L   L   + F  S   + CP  +W  H+G CYW + T K+W++++  C + NS+L+
+Sbjct  129  PLDLRV-LACQMVFFKSNGTECCPV-NWLEHEGSCYWFSSTGKTWSEAEKYCQLENSHLV  186
+
+Query  155  VI  156
+            VI
+Sbjct  187  VI  188
+
+
+> UniRef90_P49300 C-type lectin domain family 10 member A n=7 Tax=Mus 
+TaxID=862507 RepID=CLC10_MOUSE
+Length=304
+
+ Score = 44.3 bits (103),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 17/43 (40%), Positives = 28/43 (65%), Gaps = 1/43 (2%)
+
+Query  117  CPAKDWKVHKGKCYWIAETKKSWNKSQNDCAINNSYLMVIQDI  159
+            CP   W  H+G CYW +E++KSW ++   C + NS+L+V+  +
+Sbjct  173  CPLH-WTEHEGSCYWFSESEKSWPEADKYCRLENSHLVVVNSL  214
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.134    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1012478
+
+
+  Database: isar.db.8
+    Posted date:  Jun 12, 2019  5:32 PM
+  Number of letters in database: 10,684
+  Number of sequences in database:  53
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

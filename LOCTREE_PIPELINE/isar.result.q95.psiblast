@@ -1,0 +1,2538 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.95
+           146 sequences; 19,751 total letters
+
+Results from round 1
+
+
+Query= Q5U5X0 Mitochondrion-S test
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q5U5X0 Complex III assembly factor LYRM7 n=84 Tax=Euth...  214     8e-77
+  UniRef90_A0A2K5C2U7 LYR motif containing 7 n=5 Tax=Platyrrhini ...  199     5e-71
+  UniRef90_A0A2Y9RHV0 complex III assembly factor LYRM7 isoform X...  194     2e-68
+  UniRef90_F1Q454 LYR motif containing 7 n=19 Tax=Eutheria TaxID=...  192     2e-68
+  UniRef90_H0WZC6 LYR motif containing 7 n=1 Tax=Otolemur garnett...  192     3e-68
+  UniRef90_G1PYE8 Uncharacterized protein n=16 Tax=Boreoeutheria ...  192     3e-68
+  UniRef90_A0A2K6TSI7 Uncharacterized protein n=2 Tax=Eutheria Ta...  191     9e-68
+  UniRef90_A0A2R8PKW4 LYR motif containing 7 n=3 Tax=Callithrix j...  191     1e-67
+  UniRef90_Q9DA03 Complex III assembly factor LYRM7 n=4 Tax=Mus T...  186     9e-66
+  UniRef90_A0A2K6LDQ1 Uncharacterized protein n=1 Tax=Rhinopithec...  185     1e-65
+  UniRef90_B4F7A1 Complex III assembly factor LYRM7 n=2 Tax=Murid...  184     4e-65
+  UniRef90_H2PGG3 Complex III assembly factor LYRM7 n=30 Tax=Bore...  183     9e-65
+  UniRef90_G3VEB5 Uncharacterized protein n=1 Tax=Sarcophilus har...  168     1e-58
+  UniRef90_G7MTX8 Uncharacterized protein (Fragment) n=1 Tax=Maca...  167     3e-58
+  UniRef90_F6RYU7 Uncharacterized protein n=2 Tax=Monodelphis dom...  166     7e-58
+  UniRef90_G1NUT5 Uncharacterized protein n=1 Tax=Myotis lucifugu...  155     6e-54
+  UniRef90_A0A212D1J3 LYRM7 n=3 Tax=Cervidae TaxID=9850 RepID=A0A...  152     8e-53
+  UniRef90_U6DYE2 LYR motif-containing protein 7 (Fragment) n=1 T...  152     8e-53
+  UniRef90_A0A2U4AGI6 complex III assembly factor LYRM7 isoform X...  150     9e-52
+  UniRef90_A0A384AMH0 complex III assembly factor LYRM7 isoform X...  150     3e-51
+  UniRef90_A0JPA6 Complex III assembly factor LYRM7 n=1 Tax=Xenop...  148     7e-51
+  UniRef90_A0A3P4KLM3 Uncharacterized protein n=1 Tax=Gulo gulo T...  146     3e-50
+  UniRef90_M3YJN5 LYR motif containing 7 n=1 Tax=Mustela putorius...  146     6e-50
+  UniRef90_Q4QQY2 Complex III assembly factor LYRM7 n=2 Tax=Xenop...  143     8e-49
+  UniRef90_A5PLG0 Complex III assembly factor LYRM7 n=3 Tax=Danio...  133     8e-45
+  UniRef90_Q4SQJ2 Complex III assembly factor LYRM7 n=4 Tax=Tetra...  120     6e-40
+  UniRef90_A0A2I3MM79 Uncharacterized protein n=1 Tax=Papio anubi...  117     9e-39
+  UniRef90_A0A2I3HQ22 LYR motif containing 7 n=21 Tax=Euarchontog...  105     3e-34
+  UniRef90_A0A337SJK2 LYR motif containing 7 n=1 Tax=Felis catus ...  102     4e-33
+  UniRef90_A0A2K6V0N0 Uncharacterized protein n=1 Tax=Saimiri bol...  100     7e-32
+  UniRef90_L5JVN7 LYR motif-containing protein 7 n=1 Tax=Pteropus...  96.7    6e-30
+  UniRef90_D6R994 Complex III assembly factor LYRM7 n=17 Tax=Bore...  87.4    3e-27
+  UniRef90_W4ZKB1 Uncharacterized protein n=2 Tax=Strongylocentro...  86.3    3e-26
+  UniRef90_V4C0K4 Uncharacterized protein n=1 Tax=Lottia gigantea...  84.3    3e-25
+  UniRef90_A0A2G8LIX3 Putative complex III assembly factor LYRM7-...  83.2    5e-25
+  UniRef90_E9FVI9 Uncharacterized protein n=1 Tax=Daphnia pulex T...  82.4    9e-25
+  UniRef90_A0A087ZRJ4 Uncharacterized protein n=6 Tax=Apis TaxID=...  82.0    2e-24
+  UniRef90_A0A0B6ZF94 Uncharacterized protein n=1 Tax=Arion vulga...  82.0    2e-24
+  UniRef90_A0A2I2V036 LYR motif containing 7 n=1 Tax=Felis catus ...  78.2    1e-23
+  UniRef90_F4WMW2 LYR motif-containing protein 7 n=1 Tax=Acromyrm...  80.1    1e-23
+  UniRef90_A0A2K5QLP3 LYR motif containing 7 n=2 Tax=Cebidae TaxI...  77.8    2e-23
+  UniRef90_A0A212FDZ1 Uncharacterized protein n=1 Tax=Danaus plex...  79.7    2e-23
+  UniRef90_A0A164N9F8 Complex III assembly factor LYRM7 n=2 Tax=D...  79.0    2e-23
+  UniRef90_E9IID6 Uncharacterized protein (Fragment) n=5 Tax=Sole...  79.0    2e-23
+  UniRef90_A0A1B6KZT5 Uncharacterized protein n=1 Tax=Graphocepha...  79.3    2e-23
+  UniRef90_A0A195FV07 LYR motif-containing protein 7 (Fragment) n...  79.0    3e-23
+  UniRef90_A0A2H1VNE0 SFRICE_005300 n=3 Tax=Spodoptera TaxID=7106...  79.0    4e-23
+  UniRef90_G4V859 Uncharacterized protein n=2 Tax=Schistosoma Tax...  78.2    5e-23
+  UniRef90_A0A1W4VQ80 complex III assembly factor LYRM7 n=16 Tax=...  79.0    5e-23
+  UniRef90_H2ZNQ1 Uncharacterized protein n=1 Tax=Ciona savignyi ...  78.6    5e-23
+  UniRef90_A0A210QFW5 Complex III assembly factor LYRM7 n=2 Tax=M...  78.6    7e-23
+  UniRef90_A0A194RN62 LYR motif-containing protein 7 n=2 Tax=Papi...  79.0    7e-23
+  UniRef90_A0A1S3CTT7 complex III assembly factor LYRM7 isoform X...  78.2    8e-23
+  UniRef90_A0A194PPS8 LYR motif-containing protein 7 (Fragment) n...  77.8    1e-22
+  UniRef90_A0A0A9YGB8 LYR motif-containing protein 7 n=1 Tax=Lygu...  77.8    1e-22
+  UniRef90_B4K5I5 Uncharacterized protein n=2 Tax=mojavensis spec...  77.8    2e-22
+  UniRef90_A0A026X3S4 LYR motif-containing protein (Fragment) n=1...  79.7    2e-22
+  UniRef90_A0A151WIH9 LYR motif-containing protein 7 n=2 Tax=Trac...  76.6    3e-22
+  UniRef90_A0A151IW59 LYR motif-containing protein 7 (Fragment) n...  77.4    7e-22
+  UniRef90_A0A1B0CCI4 Uncharacterized protein n=1 Tax=Lutzomyia l...  73.9    1e-21
+  UniRef90_A0A1Y1KLQ4 Uncharacterized protein n=1 Tax=Photinus py...  74.3    1e-21
+  UniRef90_A0A2B4SR04 Complex III assembly factor LYRM7 n=1 Tax=S...  73.6    3e-21
+  UniRef90_A0A0J7NJS0 Lyr motif-containing protein 7 n=1 Tax=Lasi...  73.9    3e-21
+  UniRef90_A0A1D2N7B3 Complex III assembly factor LYRM7 n=1 Tax=O...  73.6    4e-21
+  UniRef90_A0A1B6C4T0 Uncharacterized protein n=1 Tax=Clastoptera...  73.6    4e-21
+  UniRef90_A0A0P4WD13 Uncharacterized protein n=1 Tax=Scylla oliv...  73.6    4e-21
+  UniRef90_A0A067RW51 LYR motif-containing protein 7 n=1 Tax=Zoot...  73.2    4e-21
+  UniRef90_A0A1B6JNY1 Uncharacterized protein n=2 Tax=Proconiini ...  73.6    5e-21
+  UniRef90_B4NGP7 Uncharacterized protein n=1 Tax=Drosophila will...  73.9    5e-21
+  UniRef90_A0A0P5DY22 Complex III assembly factor LYRM7 n=1 Tax=D...  72.8    5e-21
+  UniRef90_A0A0L8FIU1 Uncharacterized protein n=1 Tax=Octopus bim...  73.2    6e-21
+  UniRef90_A0A158NXY3 Uncharacterized protein n=6 Tax=Attini TaxI...  72.8    8e-21
+  UniRef90_A0A3Q0JWP7 complex III assembly factor LYRM7-like n=1 ...  73.2    8e-21
+  UniRef90_A0A1Q3G2X1 Uncharacterized protein n=1 Tax=Culex tarsa...  72.4    1e-20
+  UniRef90_A0A0N8A3Y5 Complex III assembly factor LYRM7 n=2 Tax=D...  71.6    1e-20
+  UniRef90_B3LYA7 Uncharacterized protein n=2 Tax=ananassae subgr...  72.8    1e-20
+  UniRef90_B4LWD9 Uncharacterized protein n=1 Tax=Drosophila viri...  72.8    1e-20
+  UniRef90_A0A1E1WSD8 Uncharacterized protein n=1 Tax=Pectinophor...  72.4    2e-20
+  UniRef90_A0A1S3JEA1 complex III assembly factor LYRM7 isoform X...  72.8    2e-20
+  UniRef90_T1HEJ5 Uncharacterized protein n=2 Tax=Rhodnius TaxID=...  71.6    2e-20
+  UniRef90_A0A2K6EFU0 Uncharacterized protein n=1 Tax=Propithecus...  69.7    3e-20
+  UniRef90_A0A1B6FGY2 Uncharacterized protein n=1 Tax=Cuerna arid...  71.6    3e-20
+  UniRef90_A0A161MSH5 Complex iii assembly factor lyrm7 (Fragment...  69.7    5e-20
+  UniRef90_A0A2P8Z1A0 Complex III assembly factor LYRM7 n=1 Tax=B...  70.1    6e-20
+  UniRef90_A0A1B6KV98 Uncharacterized protein n=1 Tax=Graphocepha...  70.1    1e-19
+  UniRef90_S4NSR9 LYR motif-containing protein 7 n=1 Tax=Pararge ...  70.1    1e-19
+  UniRef90_W8C6A6 LYR motif-containing protein 7 n=2 Tax=Ceratiti...  70.5    1e-19
+  UniRef90_A0A1B0BTE6 Uncharacterized protein n=2 Tax=Nemorhina T...  70.1    1e-19
+  UniRef90_A0A1A9UQW5 Uncharacterized protein n=2 Tax=Glossina Ta...  70.1    1e-19
+  UniRef90_Q16UA4 AAEL009961-PA n=6 Tax=Stegomyia TaxID=53541 Rep...  69.7    1e-19
+  UniRef90_A0A074Z1Y9 Uncharacterized protein n=1 Tax=Opisthorchi...  73.6    2e-19
+  UniRef90_A0A0L0CCK9 Uncharacterized protein n=1 Tax=Lucilia cup...  69.7    2e-19
+  UniRef90_A0A1B0G2Z3 Palmitoyltransferase n=1 Tax=Glossina morsi...  72.8    3e-19
+  UniRef90_A0A0K8VI95 LYR motif-containing protein 7 n=4 Tax=Bact...  68.9    4e-19
+  UniRef90_A0A336M008 CSON005474 protein n=1 Tax=Culicoides sonor...  68.2    5e-19
+  UniRef90_A0A0M5J583 CG34150 n=1 Tax=Drosophila busckii TaxID=30...  68.6    6e-19
+  UniRef90_A0A0C7C868 Uncharacterized protein n=7 Tax=Rhizopus Ta...  67.8    9e-19
+  UniRef90_N6U2S7 Uncharacterized protein (Fragment) n=1 Tax=Dend...  67.8    9e-19
+  UniRef90_G7YL43 Protein prune homolog n=1 Tax=Clonorchis sinens...  71.6    9e-19
+  UniRef90_A0A068XIQ6 Aminopeptidase N n=1 Tax=Hymenolepis micros...  71.2    1e-18
+  UniRef90_A0A131XHZ4 Uncharacterized protein (Fragment) n=1 Tax=...  66.6    1e-18
+  UniRef90_A0A0L7RKU9 LYR motif-containing protein 7 n=1 Tax=Habr...  67.0    1e-18
+  UniRef90_A7SW55 Predicted protein n=1 Tax=Nematostella vectensi...  66.6    2e-18
+  UniRef90_A0A2S2NSP3 LYR motif-containing protein 7 n=1 Tax=Schi...  66.6    2e-18
+  UniRef90_A0A226DPA8 Complex III assembly factor LYRM7 n=1 Tax=F...  66.2    2e-18
+  UniRef90_K7JKY9 Uncharacterized protein n=2 Tax=Pteromalinae Ta...  66.2    3e-18
+  UniRef90_I1BP98 Uncharacterized protein n=1 Tax=Rhizopus delema...  66.2    3e-18
+  UniRef90_B7PFY7 LYR motif-containing protein, putative n=4 Tax=...  65.9    3e-18
+  UniRef90_A0A0A1X235 LYR motif-containing protein 7 n=1 Tax=Zeug...  66.2    5e-18
+  UniRef90_C4WY58 ACYPI004138 protein n=8 Tax=Aphidinae TaxID=133...  65.9    5e-18
+  UniRef90_A0A0M9A347 LYR motif-containing protein 7 n=1 Tax=Meli...  65.1    6e-18
+  UniRef90_A0A068YEE0 LYR motif containing protein 7 n=2 Tax=Echi...  64.7    7e-18
+  UniRef90_A0A1W4WV46 complex III assembly factor LYRM7 n=1 Tax=A...  65.1    7e-18
+  UniRef90_A0A3M6U3N4 Uncharacterized protein n=1 Tax=Pocillopora...  68.6    9e-18
+  UniRef90_A0A1I8QE30 Uncharacterized protein n=1 Tax=Stomoxys ca...  65.1    1e-17
+  UniRef90_D2A462 Complex III assembly factor LYRM7-like Protein ...  64.3    1e-17
+  UniRef90_A0A2M4C3S6 Uncharacterized protein n=2 Tax=Anopheles T...  63.9    2e-17
+  UniRef90_U5EX01 Uncharacterized protein (Fragment) n=1 Tax=Core...  63.5    3e-17
+  UniRef90_A0A2K6LDN7 Uncharacterized protein n=1 Tax=Rhinopithec...  61.6    3e-17
+  UniRef90_A0A1A9X1P1 Uncharacterized protein n=1 Tax=Glossina br...  63.5    4e-17
+  UniRef90_W5J3Q7 Uncharacterized protein n=8 Tax=Nyssorhynchus T...  62.8    6e-17
+  UniRef90_A0A023FPA3 Uncharacterized protein n=6 Tax=Amblyomma T...  62.8    6e-17
+  UniRef90_A0A1L8E667 Putative complex iii assembly factor lyrm7 ...  62.0    7e-17
+  UniRef90_A0A293MA02 Uncharacterized protein (Fragment) n=1 Tax=...  62.4    9e-17
+  UniRef90_L7LU25 Uncharacterized protein n=1 Tax=Rhipicephalus p...  62.8    1e-16
+  UniRef90_A0A131YRP6 Complex III assembly factor LYRM7 n=2 Tax=R...  61.6    1e-16
+  UniRef90_B4GPD3 GL13630 n=3 Tax=obscura group TaxID=32355 RepID...  62.4    1e-16
+  UniRef90_A0A0T6AWG4 Uncharacterized protein n=1 Tax=Oryctes bor...  61.2    2e-16
+  UniRef90_B5DXS5 Uncharacterized protein, isoform A n=2 Tax=Dros...  62.4    3e-16
+  UniRef90_A0A1I8N1D4 Uncharacterized protein n=2 Tax=Musca domes...  61.2    5e-16
+  UniRef90_A0A182I6J8 Uncharacterized protein n=14 Tax=Cellia Tax...  59.7    1e-15
+  UniRef90_A0A1J1HXU3 CLUMA_CG005015, isoform A n=1 Tax=Clunio ma...  58.5    3e-15
+  UniRef90_A0A182LUT1 Uncharacterized protein n=1 Tax=Anopheles c...  58.5    5e-15
+  UniRef90_A0A2R5L4G3 Uncharacterized protein (Fragment) n=1 Tax=...  57.0    6e-15
+  UniRef90_E2APA1 LYR motif-containing protein 7 (Fragment) n=2 T...  57.0    7e-15
+  UniRef90_A0A068SCL0 Uncharacterized protein n=2 Tax=Lichtheimia...  56.2    3e-14
+  UniRef90_A0A369RYY8 Complex III assembly factor LYRM7 n=1 Tax=T...  55.5    4e-14
+  UniRef90_A0A1S8X458 Uncharacterized protein n=1 Tax=Opisthorchi...  53.1    9e-14
+  UniRef90_L8GP62 LYR motifcontaining protein 7, putative n=1 Tax...  54.3    1e-13
+  UniRef90_E2B568 LYR motif-containing protein 7 n=1 Tax=Harpegna...  53.1    4e-13
+  UniRef90_R7UFC1 Uncharacterized protein n=1 Tax=Capitella telet...  53.1    5e-13
+  UniRef90_A0A2R7VX97 Uncharacterized protein n=1 Tax=Oncopeltus ...  52.0    1e-12
+  UniRef90_A0A1V9XYG0 LYR motif-containing protein 7-like n=1 Tax...  51.2    3e-12
+  UniRef90_A0A3M6U419 Uncharacterized protein n=1 Tax=Pocillopora...  51.6    5e-12
+  UniRef90_A0A1X2HYX1 Uncharacterized protein n=1 Tax=Absidia rep...  48.1    3e-11
+  UniRef90_A0A0M9VMQ6 Uncharacterized protein n=1 Tax=Malassezia ...  39.3    2e-07
+
+
+> UniRef90_Q5U5X0 Complex III assembly factor LYRM7 n=84 Tax=Eutheria 
+TaxID=9347 RepID=LYRM7_HUMAN
+Length=104
+
+ Score = 214 bits (544),  Expect = 8e-77, Method: Compositional matrix adjust.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS
+Sbjct  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ
+Sbjct  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+
+
+> UniRef90_A0A2K5C2U7 LYR motif containing 7 n=5 Tax=Platyrrhini 
+TaxID=9479 RepID=A0A2K5C2U7_AOTNA
+Length=104
+
+ Score = 199 bits (506),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 96/104 (92%), Positives = 99/104 (95%), Gaps = 0/104 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            M +AVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETS KKIEELMKIGS
+Sbjct  1    MSQAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSPKKIEELMKIGS  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            DVELLLRTSV+QGIHT HN LKLVPRKDLL+ENVPYCD PTQKQ
+Sbjct  61   DVELLLRTSVVQGIHTGHNILKLVPRKDLLIENVPYCDTPTQKQ  104
+
+
+> UniRef90_A0A2Y9RHV0 complex III assembly factor LYRM7 isoform 
+X1 n=2 Tax=Trichechus manatus latirostris TaxID=127582 RepID=A0A2Y9RHV0_TRIMA
+Length=140
+
+ Score = 194 bits (492),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 93/98 (95%), Positives = 96/98 (98%), Gaps = 0/98 (0%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VLQLFKTLHRTRQQVFKND RALEAARIKINEEFK+NKSETS KKIEELMKIGSDVELLL
+Sbjct  43   VLQLFKTLHRTRQQVFKNDTRALEAARIKINEEFKSNKSETSPKKIEELMKIGSDVELLL  102
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            RTSVIQGIHT+HNTLKLVPRKDLL+ENVPYCDAPTQKQ
+Sbjct  103  RTSVIQGIHTEHNTLKLVPRKDLLIENVPYCDAPTQKQ  140
+
+
+> UniRef90_F1Q454 LYR motif containing 7 n=19 Tax=Eutheria TaxID=9347 
+RepID=F1Q454_CANLF
+Length=100
+
+ Score = 192 bits (488),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 93/100 (93%), Positives = 98/100 (98%), Gaps = 0/100 (0%)
+
+Query  5    VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+            ++VLQLFKTLHRTRQQVFKND RALEAARIKINEEFK+NKSETS KKIEEL+KIGSDVEL
+Sbjct  1    LQVLQLFKTLHRTRQQVFKNDTRALEAARIKINEEFKSNKSETSPKKIEELIKIGSDVEL  60
+
+Query  65   LLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            LLRTSVIQGIHTDHNTLKLVPRK+LLVENVPYCDAPTQKQ
+Sbjct  61   LLRTSVIQGIHTDHNTLKLVPRKELLVENVPYCDAPTQKQ  100
+
+
+> UniRef90_H0WZC6 LYR motif containing 7 n=1 Tax=Otolemur garnettii 
+TaxID=30611 RepID=H0WZC6_OTOGA
+Length=104
+
+ Score = 192 bits (487),  Expect = 3e-68, Method: Compositional matrix adjust.
+ Identities = 92/101 (91%), Positives = 99/101 (98%), Gaps = 0/101 (0%)
+
+Query  4    AVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVE  63
+            +++VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFK+NK+ETS KKIEEL+K+GSDVE
+Sbjct  4    SLQVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKSNKNETSPKKIEELVKVGSDVE  63
+
+Query  64   LLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            LLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCD PTQKQ
+Sbjct  64   LLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDVPTQKQ  104
+
+
+> UniRef90_G1PYE8 Uncharacterized protein n=16 Tax=Boreoeutheria 
+TaxID=1437010 RepID=G1PYE8_MYOLU
+Length=104
+
+ Score = 192 bits (487),  Expect = 3e-68, Method: Compositional matrix adjust.
+ Identities = 91/103 (88%), Positives = 98/103 (95%), Gaps = 0/103 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MG+A KVLQLFK LHRTRQQVFKND RALEAAR+KINEEFK+NK+E SSKKIEEL+KIGS
+Sbjct  1    MGQAAKVLQLFKRLHRTRQQVFKNDTRALEAARVKINEEFKSNKNEASSKKIEELIKIGS  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQK  103
+            DVELLLRTSV+QGIHTDHNTLKLVPRKDLL+ENVPYCD PTQK
+Sbjct  61   DVELLLRTSVVQGIHTDHNTLKLVPRKDLLLENVPYCDTPTQK  103
+
+
+> UniRef90_A0A2K6TSI7 Uncharacterized protein n=2 Tax=Eutheria 
+TaxID=9347 RepID=A0A2K6TSI7_SAIBB
+Length=102
+
+ Score = 191 bits (485),  Expect = 9e-68, Method: Compositional matrix adjust.
+ Identities = 92/98 (94%), Positives = 95/98 (97%), Gaps = 0/98 (0%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VLQLFKTLHRTRQQVFKND+RALEAARIKINEEFKNNKSETS KKIEELMKIGSDVELLL
+Sbjct  5    VLQLFKTLHRTRQQVFKNDSRALEAARIKINEEFKNNKSETSPKKIEELMKIGSDVELLL  64
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            RTSVIQGIHT HNTLKLVPRKDLL+ENVPYCD PT+KQ
+Sbjct  65   RTSVIQGIHTGHNTLKLVPRKDLLIENVPYCDTPTRKQ  102
+
+
+> UniRef90_A0A2R8PKW4 LYR motif containing 7 n=3 Tax=Callithrix 
+jacchus TaxID=9483 RepID=A0A2R8PKW4_CALJA
+Length=105
+
+ Score = 191 bits (484),  Expect = 1e-67, Method: Compositional matrix adjust.
+ Identities = 92/98 (94%), Positives = 95/98 (97%), Gaps = 0/98 (0%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNK+ETS +KIEELMKIGSDVELLL
+Sbjct  8    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKNETSPEKIEELMKIGSDVELLL  67
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            RTSVIQGIHT HNTLKLVPRKDLL+ENVPYCD PTQKQ
+Sbjct  68   RTSVIQGIHTGHNTLKLVPRKDLLIENVPYCDTPTQKQ  105
+
+
+> UniRef90_Q9DA03 Complex III assembly factor LYRM7 n=4 Tax=Mus 
+TaxID=862507 RepID=LYRM7_MOUSE
+Length=104
+
+ Score = 186 bits (472),  Expect = 9e-66, Method: Compositional matrix adjust.
+ Identities = 87/104 (84%), Positives = 98/104 (94%), Gaps = 0/104 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MG+  KVLQLFKTLHRTRQQVFKND RALEAAR+KINEEFK +K+ETS +KI+E+MK+GS
+Sbjct  1    MGQPAKVLQLFKTLHRTRQQVFKNDKRALEAARVKINEEFKKHKNETSPEKIKEMMKLGS  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            DVELLLRT+VIQGIHTDH+TL+LVPRKDLL ENVPYCDAPTQKQ
+Sbjct  61   DVELLLRTAVIQGIHTDHDTLQLVPRKDLLTENVPYCDAPTQKQ  104
+
+
+> UniRef90_A0A2K6LDQ1 Uncharacterized protein n=1 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=A0A2K6LDQ1_RHIBE
+Length=101
+
+ Score = 185 bits (470),  Expect = 1e-65, Method: Compositional matrix adjust.
+ Identities = 91/99 (92%), Positives = 92/99 (93%), Gaps = 0/99 (0%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VLQLFKTLHRTRQQVFKND RALEAARIKINEEFKNNKSETS KKIEELMKIGSDVELL
+Sbjct  3    RVLQLFKTLHRTRQQVFKNDVRALEAARIKINEEFKNNKSETSPKKIEELMKIGSDVELL  62
+
+Query  66   LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            LRTSVIQGIHTDHNTLKLVPRK     NVPYCDAPTQKQ
+Sbjct  63   LRTSVIQGIHTDHNTLKLVPRKRPSCRNVPYCDAPTQKQ  101
+
+
+> UniRef90_B4F7A1 Complex III assembly factor LYRM7 n=2 Tax=Muridae 
+TaxID=10066 RepID=LYRM7_RAT
+Length=104
+
+ Score = 184 bits (467),  Expect = 4e-65, Method: Compositional matrix adjust.
+ Identities = 87/103 (84%), Positives = 97/103 (94%), Gaps = 0/103 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MG+  KVLQLFKTLHRTRQQVFKND RALEAAR+KINEEFK +K+ETS +KI+E++KIGS
+Sbjct  1    MGQPAKVLQLFKTLHRTRQQVFKNDKRALEAARVKINEEFKKHKNETSPEKIKEMLKIGS  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQK  103
+            DVELLLRTSVIQGIHTDH+TL+LVPRKDLL ENVPYCDAPTQK
+Sbjct  61   DVELLLRTSVIQGIHTDHDTLQLVPRKDLLTENVPYCDAPTQK  103
+
+
+> UniRef90_H2PGG3 Complex III assembly factor LYRM7 n=30 Tax=Boreoeutheria 
+TaxID=1437010 RepID=H2PGG3_PONAB
+Length=99
+
+ Score = 183 bits (465),  Expect = 9e-65, Method: Compositional matrix adjust.
+ Identities = 91/99 (92%), Positives = 92/99 (93%), Gaps = 0/99 (0%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VLQLFKTLHRTRQQVFKNDARALEAARIKIN   K NKSETS KKIEELMK  SDVELL
+Sbjct  1    QVLQLFKTLHRTRQQVFKNDARALEAARIKINRRIKKNKSETSPKKIEELMKNRSDVELL  60
+
+Query  66   LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ
+Sbjct  61   LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  99
+
+
+> UniRef90_G3VEB5 Uncharacterized protein n=1 Tax=Sarcophilus harrisii 
+TaxID=9305 RepID=G3VEB5_SARHA
+Length=104
+
+ Score = 168 bits (425),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 81/103 (79%), Positives = 92/103 (89%), Gaps = 0/103 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            M  + KVL+LFKTLHRTRQQVFKND +AL+AAR KINEEFK NK+ETS +KIE+L+KIG 
+Sbjct  1    MVGSAKVLRLFKTLHRTRQQVFKNDNKALDAARKKINEEFKKNKNETSPEKIEKLIKIGC  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQK  103
+            DVEL+LR SVIQGIHTDHNTLKLVPRKDLL+EN PYCD P+QK
+Sbjct  61   DVELILRKSVIQGIHTDHNTLKLVPRKDLLIENNPYCDTPSQK  103
+
+
+> UniRef90_G7MTX8 Uncharacterized protein (Fragment) n=1 Tax=Macaca 
+mulatta TaxID=9544 RepID=G7MTX8_MACMU
+Length=99
+
+ Score = 167 bits (422),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 84/99 (85%), Positives = 85/99 (86%), Gaps = 0/99 (0%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VLQLFKTLHRTRQQVFKND RALEAARIKINEEFKNNKSETS KKIEELMKIGSDVELL
+Sbjct  1    QVLQLFKTLHRTRQQVFKNDVRALEAARIKINEEFKNNKSETSPKKIEELMKIGSDVELL  60
+
+Query  66   LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            LRTSV            LVPRKDLLVENVPYCDAPTQKQ
+Sbjct  61   LRTSVXXXXXXXXXXXXLVPRKDLLVENVPYCDAPTQKQ  99
+
+
+> UniRef90_F6RYU7 Uncharacterized protein n=2 Tax=Monodelphis domestica 
+TaxID=13616 RepID=F6RYU7_MONDO
+Length=103
+
+ Score = 166 bits (420),  Expect = 7e-58, Method: Compositional matrix adjust.
+ Identities = 81/103 (79%), Positives = 92/103 (89%), Gaps = 0/103 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            M  + KVLQLFKTLHRTRQQVFKND RALEA+R KINEEFK++K+ETS +KIEEL+KIGS
+Sbjct  1    MVDSTKVLQLFKTLHRTRQQVFKNDVRALEASRKKINEEFKSHKNETSPEKIEELIKIGS  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQK  103
+            DVEL+LR SVIQGIHTDHNTLKLVPRK+LL E+ P C+ PTQK
+Sbjct  61   DVELILRKSVIQGIHTDHNTLKLVPRKELLTESKPSCNVPTQK  103
+
+
+> UniRef90_G1NUT5 Uncharacterized protein n=1 Tax=Myotis lucifugus 
+TaxID=59463 RepID=G1NUT5_MYOLU
+Length=86
+
+ Score = 155 bits (393),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 74/86 (86%), Positives = 81/86 (94%), Gaps = 0/86 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           MG+A KVLQLFK LHRTRQQVFKND RALEAAR+KINEEFK+NK+E SSKKIEEL+KIGS
+Sbjct  1   MGQAAKVLQLFKRLHRTRQQVFKNDTRALEAARVKINEEFKSNKNEASSKKIEELIKIGS  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTLKLVPR  86
+           DVELLLRTSV+QGIHTDHNTL L+PR
+Sbjct  61  DVELLLRTSVVQGIHTDHNTLSLIPR  86
+
+
+> UniRef90_A0A212D1J3 LYRM7 n=3 Tax=Cervidae TaxID=9850 RepID=A0A212D1J3_CEREH
+Length=83
+
+ Score = 152 bits (385),  Expect = 8e-53, Method: Compositional matrix adjust.
+ Identities = 74/81 (91%), Positives = 79/81 (98%), Gaps = 0/81 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           MG+A KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFK NK+ETS+KKIEEL+KIGS
+Sbjct  1   MGQAAKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKCNKTETSAKKIEELIKIGS  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTL  81
+           DVEL+LRTSVIQGIHTDHNTL
+Sbjct  61  DVELILRTSVIQGIHTDHNTL  81
+
+
+> UniRef90_U6DYE2 LYR motif-containing protein 7 (Fragment) n=1 
+Tax=Neovison vison TaxID=452646 RepID=U6DYE2_NEOVI
+Length=81
+
+ Score = 152 bits (384),  Expect = 8e-53, Method: Compositional matrix adjust.
+ Identities = 72/81 (89%), Positives = 78/81 (96%), Gaps = 0/81 (0%)
+
+Query  24   NDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQGIHTDHNTLKL  83
+            ND RALEAARIKINEEFK+NKSETS KKIEEL+K+GSDVELLLRTSVIQ IHTDHNTLKL
+Sbjct  1    NDTRALEAARIKINEEFKSNKSETSPKKIEELIKMGSDVELLLRTSVIQAIHTDHNTLKL  60
+
+Query  84   VPRKDLLVENVPYCDAPTQKQ  104
+            VPR++LL+ENVPYCDAPTQKQ
+Sbjct  61   VPRRELLIENVPYCDAPTQKQ  81
+
+
+> UniRef90_A0A2U4AGI6 complex III assembly factor LYRM7 isoform 
+X3 n=9 Tax=Boreoeutheria TaxID=1437010 RepID=A0A2U4AGI6_TURTR
+Length=86
+
+ Score = 150 bits (378),  Expect = 9e-52, Method: Compositional matrix adjust.
+ Identities = 74/82 (90%), Positives = 78/82 (95%), Gaps = 0/82 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           M +A KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFK NKSETS KKIEEL+KIGS
+Sbjct  1   MSQAAKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKCNKSETSPKKIEELIKIGS  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTLK  82
+           DVEL+LRTSVIQGIHTDHNTL+
+Sbjct  61  DVELILRTSVIQGIHTDHNTLR  82
+
+
+> UniRef90_A0A384AMH0 complex III assembly factor LYRM7 isoform 
+X2 n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=A0A384AMH0_BALAS
+Length=116
+
+ Score = 150 bits (378),  Expect = 3e-51, Method: Compositional matrix adjust.
+ Identities = 77/102 (75%), Positives = 83/102 (81%), Gaps = 9/102 (9%)
+
+Query  3    RAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDV  62
+            R V+VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFK NKSETS KKIEEL+KIGSDV
+Sbjct  18   RFVQVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKCNKSETSPKKIEELIKIGSDV  77
+
+Query  63   ELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+            EL+LRTSVIQGIHTDHNT         L+  + +CD P   Q
+Sbjct  78   ELILRTSVIQGIHTDHNT---------LIAFLSWCDHPEHLQ  110
+
+
+> UniRef90_A0JPA6 Complex III assembly factor LYRM7 n=1 Tax=Xenopus 
+tropicalis TaxID=8364 RepID=LYRM7_XENTR
+Length=104
+
+ Score = 148 bits (374),  Expect = 7e-51, Method: Compositional matrix adjust.
+ Identities = 70/100 (70%), Positives = 83/100 (83%), Gaps = 0/100 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           M   +KVL+LFKTLHRTRQ VF+ND RALEAAR +INEEFK NKSE S  KI EL+K G+
+Sbjct  1   MDSRMKVLKLFKTLHRTRQCVFQNDCRALEAARRRINEEFKKNKSECSPAKISELLKFGT  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAP  100
+           DVE++LRTSV+QGIHTD N L L  RKDLL++N+P+CDAP
+Sbjct  61  DVEIVLRTSVVQGIHTDSNKLVLQARKDLLLDNIPFCDAP  100
+
+
+> UniRef90_A0A3P4KLM3 Uncharacterized protein n=1 Tax=Gulo gulo 
+TaxID=48420 RepID=A0A3P4KLM3_GULGU
+Length=83
+
+ Score = 146 bits (368),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 72/81 (89%), Positives = 76/81 (94%), Gaps = 0/81 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           MG+A KVLQLFKTLHRTRQ+VFKND RALEAARIKINEEFK+ KSETS KKIEEL+KIGS
+Sbjct  1   MGQATKVLQLFKTLHRTRQRVFKNDTRALEAARIKINEEFKSKKSETSPKKIEELIKIGS  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTL  81
+           DVELLLRTSVIQ IHTDHNTL
+Sbjct  61  DVELLLRTSVIQAIHTDHNTL  81
+
+
+> UniRef90_M3YJN5 LYR motif containing 7 n=1 Tax=Mustela putorius 
+furo TaxID=9669 RepID=M3YJN5_MUSPF
+Length=109
+
+ Score = 146 bits (368),  Expect = 6e-50, Method: Compositional matrix adjust.
+ Identities = 72/81 (89%), Positives = 76/81 (94%), Gaps = 0/81 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           MG+A KVLQLFKTLHRTRQ+VFKND RALEAARIKINEEFK+NKSETS KKIEEL+KI S
+Sbjct  1   MGQATKVLQLFKTLHRTRQRVFKNDTRALEAARIKINEEFKSNKSETSPKKIEELIKIAS  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTL  81
+           DVELLLRTSVIQ IHTDHNTL
+Sbjct  61  DVELLLRTSVIQAIHTDHNTL  81
+
+
+> UniRef90_Q4QQY2 Complex III assembly factor LYRM7 n=2 Tax=Xenopus 
+laevis TaxID=8355 RepID=LYRM7_XENLA
+Length=104
+
+ Score = 143 bits (360),  Expect = 8e-49, Method: Compositional matrix adjust.
+ Identities = 68/100 (68%), Positives = 82/100 (82%), Gaps = 0/100 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           M   +KVL+LF+TLHRTRQ VF+ND RALEAAR +INEEFK NK E S  KI EL+K G+
+Sbjct  1   MESKMKVLKLFRTLHRTRQCVFQNDHRALEAARQRINEEFKKNKRECSPAKISELLKFGT  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAP  100
+           DVE+LLRTSV+QGIH D +TL L  RKDLL++N+P+CDAP
+Sbjct  61  DVEILLRTSVVQGIHKDSDTLVLQARKDLLLDNIPFCDAP  100
+
+
+> UniRef90_A5PLG0 Complex III assembly factor LYRM7 n=3 Tax=Danio 
+rerio TaxID=7955 RepID=LYRM7_DANRE
+Length=104
+
+ Score = 133 bits (334),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 63/103 (61%), Positives = 80/103 (78%), Gaps = 0/103 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MG  +KVL++FK LHRTR+ VF++D RAL AAR+KINEEFK NK+ETS   I+E++K+  
+Sbjct  1    MGTRLKVLRVFKDLHRTRRDVFRDDNRALTAARVKINEEFKKNKNETSDDNIKEMLKMAR  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQK  103
+             VE +LR SVIQ  H D N + L PRK LL+ENVPYCDAP++K
+Sbjct  61   AVETILRESVIQAEHVDENKIVLRPRKSLLLENVPYCDAPSKK  103
+
+
+> UniRef90_Q4SQJ2 Complex III assembly factor LYRM7 n=4 Tax=Tetraodontidae 
+TaxID=31031 RepID=LYRM7_TETNG
+Length=104
+
+ Score = 120 bits (302),  Expect = 6e-40, Method: Compositional matrix adjust.
+ Identities = 59/103 (57%), Positives = 78/103 (76%), Gaps = 0/103 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MG  +KVL++FK L RTR  VFK+D  AL+AAR+KINEEF+ N++ETS + I E++K+GS
+Sbjct  1    MGTRLKVLRVFKQLQRTRMDVFKDDDIALKAARLKINEEFRKNRNETSEENINEMIKLGS  60
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQK  103
+            +VE +LR SV+Q  H   + L L PRK LL+ENVPYCD P +K
+Sbjct  61   NVETVLRESVLQMEHVGEDKLLLRPRKSLLLENVPYCDEPRKK  103
+
+
+> UniRef90_A0A2I3MM79 Uncharacterized protein n=1 Tax=Papio anubis 
+TaxID=9555 RepID=A0A2I3MM79_PAPAN
+Length=92
+
+ Score = 117 bits (293),  Expect = 9e-39, Method: Compositional matrix adjust.
+ Identities = 57/69 (83%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           +GR+++VLQLFKTLHRTRQQVFKND RALEAARIKINEEFKNNKSETS KKIEELMKIGS
+Sbjct  1   VGRSLEVLQLFKTLHRTRQQVFKNDVRALEAARIKINEEFKNNKSETSPKKIEELMKIGS  60
+
+Query  61  DVELLLRTS  69
+           D  L + T 
+Sbjct  61  DTFLCIWTC  69
+
+
+> UniRef90_A0A2I3HQ22 LYR motif containing 7 n=21 Tax=Euarchontoglires 
+TaxID=314146 RepID=A0A2I3HQ22_NOMLE
+Length=63
+
+ Score = 105 bits (262),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 52/59 (88%), Positives = 55/59 (93%), Gaps = 0/59 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIG  59
+           MG+AVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNK+ETS KKIEE   +G
+Sbjct  1   MGQAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKNETSPKKIEENWSLG  59
+
+
+> UniRef90_A0A337SJK2 LYR motif containing 7 n=1 Tax=Felis catus 
+TaxID=9685 RepID=A0A337SJK2_FELCA
+Length=63
+
+ Score = 102 bits (254),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 50/61 (82%), Positives = 54/61 (89%), Gaps = 0/61 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           MG+A KVLQLFKTLHRTRQQVFKND RALEAARIKINEEFK+NKSETS KKIEE   +G 
+Sbjct  1   MGQAAKVLQLFKTLHRTRQQVFKNDTRALEAARIKINEEFKSNKSETSHKKIEENWSLGK  60
+
+Query  61  D  61
+           +
+Sbjct  61  N  61
+
+
+> UniRef90_A0A2K6V0N0 Uncharacterized protein n=1 Tax=Saimiri boliviensis 
+boliviensis TaxID=39432 RepID=A0A2K6V0N0_SAIBB
+Length=84
+
+ Score = 100 bits (248),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 50/54 (93%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEE  54
+           M +AVKVLQLFKTL+RTRQQVFKNDARALEAARIKINEEFKNNKSETS KKIEE
+Sbjct  1   MNQAVKVLQLFKTLNRTRQQVFKNDARALEAARIKINEEFKNNKSETSPKKIEE  54
+
+
+> UniRef90_L5JVN7 LYR motif-containing protein 7 n=1 Tax=Pteropus 
+alecto TaxID=9402 RepID=L5JVN7_PTEAL
+Length=135
+
+ Score = 96.7 bits (239),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 46/52 (88%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  31   AARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQGIHTDHNTLK  82
+            +ARIKINEEFK+NKSE S KKIEEL+KIGSDVELLLRTSVIQGIHTDHNTL+
+Sbjct  83   SARIKINEEFKSNKSEASPKKIEELLKIGSDVELLLRTSVIQGIHTDHNTLR  134
+
+
+> UniRef90_D6R994 Complex III assembly factor LYRM7 n=17 Tax=Boreoeutheria 
+TaxID=1437010 RepID=D6R994_HUMAN
+Length=53
+
+ Score = 87.4 bits (215),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 52/104 (50%), Positives = 53/104 (51%), Gaps = 51/104 (49%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MGRAVKVLQLFKTLHRTRQQVFKNDARALE                              
+Sbjct  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALE------------------------------  30
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+                                 +LVPRKDLLVENVPYCDAPTQKQ
+Sbjct  31   ---------------------ELVPRKDLLVENVPYCDAPTQKQ  53
+
+
+> UniRef90_W4ZKB1 Uncharacterized protein n=2 Tax=Strongylocentrotus 
+purpuratus TaxID=7668 RepID=W4ZKB1_STRPU
+Length=110
+
+ Score = 86.3 bits (212),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 46/94 (49%), Positives = 64/94 (68%), Gaps = 2/94 (2%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VL L+K LHRT Q+ F  DA+ALEAA+++I +EF +NK  +  K +++L+K G DV+LLL
+Sbjct  11   VLSLYKLLHRTSQKTFLGDAKALEAAQLRIRDEFNSNKDVSDPKALKKLLKTGQDVQLLL  70
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLLVE-NVPY-CD  98
+            +TSV QGIH +     L   + LL E N P+ CD
+Sbjct  71   KTSVAQGIHKEDGRYSLRIHEHLLREDNAPFPCD  104
+
+
+> UniRef90_V4C0K4 Uncharacterized protein n=1 Tax=Lottia gigantea 
+TaxID=225164 RepID=V4C0K4_LOTGI
+Length=119
+
+ Score = 84.3 bits (207),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 42/74 (57%), Positives = 52/74 (70%), Gaps = 0/74 (0%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           M    KVL++FK LHRTR++VF  D+ AL AAR KIN EFK NK    S KIEEL+ +G 
+Sbjct  1   MSTRSKVLKVFKDLHRTRKKVFHGDSFALTAARDKINTEFKTNKDVADSAKIEELLTVGR  60
+
+Query  61  DVELLLRTSVIQGI  74
+           D E+LLR +VIQ +
+Sbjct  61  DCEILLRKTVIQAV  74
+
+
+> UniRef90_A0A2G8LIX3 Putative complex III assembly factor LYRM7-like 
+n=1 Tax=Stichopus japonicus TaxID=307972 RepID=A0A2G8LIX3_STIJA
+Length=101
+
+ Score = 83.2 bits (204),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 40/90 (44%), Positives = 63/90 (70%), Gaps = 0/90 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           KV++ F+TLHRTR +VF+ D RAL  AR +IN+EF  NK E   +KI++++K+  DV  L
+Sbjct  5   KVIKCFRTLHRTRLEVFRGDDRALTEARKRINDEFTKNKYEEDPEKIKDMLKVAEDVNKL  64
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLVENVP  95
+           LR +V+QG+  ++N ++L   KD ++ + P
+Sbjct  65  LRMTVVQGVMKENNRIELKVTKDTVLLDSP  94
+
+
+> UniRef90_E9FVI9 Uncharacterized protein n=1 Tax=Daphnia pulex 
+TaxID=6669 RepID=E9FVI9_DAPPU
+Length=101
+
+ Score = 82.4 bits (202),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 43/93 (46%), Positives = 60/93 (65%), Gaps = 1/93 (1%)
+
+Query  5   VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+            +VL+ F+ LHRTR +VF ND  A++AAR+KIN EF+  +  +S + I EL+K+G   E 
+Sbjct  7   AEVLKCFRCLHRTRTKVFTNDQVAMDAARLKINSEFRKYQRISSQEAIAELIKLGHQAEE  66
+
+Query  65  LLRTSVIQGIHTDHNTLKLVPRKDLLVE-NVPY  96
+           +LRTSV+Q   T  NT +L   KD  +  N PY
+Sbjct  67  ILRTSVVQVTPTAENTFRLHITKDTFMHNNTPY  99
+
+
+> UniRef90_A0A087ZRJ4 Uncharacterized protein n=6 Tax=Apis TaxID=7459 
+RepID=A0A087ZRJ4_APIME
+Length=122
+
+ Score = 82.0 bits (201),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 45/97 (46%), Positives = 62/97 (64%), Gaps = 3/97 (3%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            KVLQ FK LHRTR + F+ D  AL+  R KINEE+K  K+ T++  I+EL K   +VE  
+Sbjct  8    KVLQTFKKLHRTRMKTFQGDEHALQVLRNKINEEYKKYKNVTNTAAIKELNKFAEEVEHE  67
+
+Query  66   LRTSVIQGIHT--DHNTLKLVPRKDLLVENVPYCDAP  100
+            +RT+++Q + T   H  L++ P    LV+NVPY D P
+Sbjct  68   VRTTIVQAVETKPGHFELRITP-DTTLVDNVPYKDEP  103
+
+
+> UniRef90_A0A0B6ZF94 Uncharacterized protein n=1 Tax=Arion vulgaris 
+TaxID=1028688 RepID=A0A0B6ZF94_9EUPU
+Length=122
+
+ Score = 82.0 bits (201),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 43/97 (44%), Positives = 63/97 (65%), Gaps = 1/97 (1%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           M    +VL + + LHR +++VF+ D+ ALE  R KI EEF+ N SET S KIEE + +GS
+Sbjct  1   MSHKTRVLAVLRALHRVKREVFEGDSHALEVTRQKIREEFRKNVSETDSAKIEEALVVGS  60
+
+Query  61  DVELLLRTSVIQGIHTDHNTLKLVPRKD-LLVENVPY  96
+           DV  L+RTSV+Q      +T +L+ R+  +L ++ PY
+Sbjct  61  DVVKLMRTSVVQLRQKKEDTFELILRESTVLPKSTPY  97
+
+
+> UniRef90_A0A2I2V036 LYR motif containing 7 n=1 Tax=Felis catus 
+TaxID=9685 RepID=A0A2I2V036_FELCA
+Length=53
+
+ Score = 78.2 bits (191),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 46/104 (44%), Positives = 51/104 (49%), Gaps = 51/104 (49%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            MG+A KVLQLFKTLHRTRQQVFKND RALE                              
+Sbjct  1    MGQAAKVLQLFKTLHRTRQQVFKNDTRALE------------------------------  30
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+                                 +LVPRK+LL+ENVPYCDAPTQK+
+Sbjct  31   ---------------------ELVPRKELLIENVPYCDAPTQKK  53
+
+
+> UniRef90_F4WMW2 LYR motif-containing protein 7 n=1 Tax=Acromyrmex 
+echinatior TaxID=103372 RepID=F4WMW2_ACREC
+Length=126
+
+ Score = 80.1 bits (196),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 44/98 (45%), Positives = 64/98 (65%), Gaps = 4/98 (4%)
+
+Query  3    RAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDV  62
+            R   +L++FK LHRTR + FK+D  AL+  R +IN+E+K +K+ T+   I+EL K   +V
+Sbjct  19   RGYGILRVFKKLHRTRLKTFKDDEYALQVVRDQINKEYKKHKNVTNQAVIKELNKFAQEV  78
+
+Query  63   ELLLRTSVIQGIHTDHN--TLKLVPRKDLLVENVPYCD  98
+            E  +RT+VIQ + T      L+L P  D+LV+NVPY D
+Sbjct  79   ECEIRTTVIQAVETAPGRVALRLTP--DVLVDNVPYKD  114
+
+
+> UniRef90_A0A2K5QLP3 LYR motif containing 7 n=2 Tax=Cebidae TaxID=9498 
+RepID=A0A2K5QLP3_CEBCA
+Length=53
+
+ Score = 77.8 bits (190),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 46/104 (44%), Positives = 50/104 (48%), Gaps = 51/104 (49%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            M +AVKVLQLFK LHRTRQQVF+NDARALE                              
+Sbjct  1    MNQAVKVLQLFKALHRTRQQVFRNDARALE------------------------------  30
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+                                 +LVPRKDLL+ENVPYCD PTQKQ
+Sbjct  31   ---------------------ELVPRKDLLIENVPYCDTPTQKQ  53
+
+
+> UniRef90_A0A212FDZ1 Uncharacterized protein n=1 Tax=Danaus plexippus 
+plexippus TaxID=278856 RepID=A0A212FDZ1_DANPL
+Length=120
+
+ Score = 79.7 bits (195),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 43/95 (45%), Positives = 61/95 (64%), Gaps = 1/95 (1%)
+
+Query  5   VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+           ++VL++FK LH+TR +VF+ D RAL AAR KINE F  NK   + + I+EL+K G D+E 
+Sbjct  6   IQVLKVFKKLHKTRMRVFEGDERALTAARQKINEGFAKNKEVHNEEAIKELIKFGEDIEK  65
+
+Query  65  LLRTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCD  98
+            LRT VIQ         +   R+D + ++N+PY D
+Sbjct  66  ELRTQVIQAREVKPGVFEAKIREDTVKLDNIPYDD  100
+
+
+> UniRef90_A0A164N9F8 Complex III assembly factor LYRM7 n=2 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A164N9F8_9CRUS
+Length=101
+
+ Score = 79.0 bits (193),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 39/93 (42%), Positives = 59/93 (63%), Gaps = 1/93 (1%)
+
+Query  5   VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+            +VL+ F+ LHRTR +VF ND  A++AAR+KIN EF+  +  ++ + I EL+K G+  E 
+Sbjct  7   AEVLKCFRCLHRTRLKVFTNDQAAMDAARLKINSEFRKYQRISNQETIMELVKFGNQAEE  66
+
+Query  65  LLRTSVIQGIHTDHNTLKL-VPRKDLLVENVPY  96
+           +LRTSV+Q      NT +L +  +  +  N PY
+Sbjct  67  ILRTSVVQASPVAENTFRLQITTETFMYNNTPY  99
+
+
+> UniRef90_E9IID6 Uncharacterized protein (Fragment) n=5 Tax=Solenopsis 
+invicta TaxID=13686 RepID=E9IID6_SOLIN
+Length=109
+
+ Score = 79.0 bits (193),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 42/93 (45%), Positives = 60/93 (65%), Gaps = 0/93 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL++FK LH+TR + F+ D  AL+  R KINEE++  K+ T+   IEEL K   +VE  
+Sbjct  1   QVLRVFKKLHKTRLKTFEGDDYALQVVRGKINEEYRKYKNVTNQAAIEELNKFAQEVEHE  60
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCD  98
+           +RT+VIQ + T    + L    D+LV+NVPY D
+Sbjct  61  IRTTVIQAVETAPGKVALRLTPDVLVDNVPYKD  93
+
+
+> UniRef90_A0A1B6KZT5 Uncharacterized protein n=1 Tax=Graphocephala 
+atropunctata TaxID=36148 RepID=A0A1B6KZT5_9HEMI
+Length=121
+
+ Score = 79.3 bits (194),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 43/94 (46%), Positives = 60/94 (64%), Gaps = 1/94 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VL+ FKTLHRTR+ VF+ D  AL A R K+NE+F+ NK+ T    IE ++KI  +VELLL
+Sbjct  9    VLKTFKTLHRTRKSVFEGDTFALNATRHKLNEDFRKNKNMTDESVIENVLKIAQEVELLL  68
+
+Query  67   RTSVIQGIHTDHNTLKL-VPRKDLLVENVPYCDA  99
+            RT+V+Q    +  T +  +    +  +NV Y DA
+Sbjct  69   RTTVVQARKVEPGTYRARITEVTVKTDNVKYGDA  102
+
+
+> UniRef90_A0A195FV07 LYR motif-containing protein 7 (Fragment) 
+n=1 Tax=Trachymyrmex septentrionalis TaxID=34720 RepID=A0A195FV07_9HYME
+Length=106
+
+ Score = 79.0 bits (193),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 44/95 (46%), Positives = 63/95 (66%), Gaps = 4/95 (4%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           ++L++FK LHRTR + F+ D  AL+  R +IN+E+K NKS T+   IE+L K   +VE  
+Sbjct  2   QILRVFKKLHRTRLKTFEGDEYALQVVRDQINKEYKKNKSVTNQAVIEKLNKFAQEVEHE  61
+
+Query  66  LRTSVIQGIHTDHN--TLKLVPRKDLLVENVPYCD  98
+           +RT+VIQ + T      L+L P  D+LV+NVPY D
+Sbjct  62  VRTTVIQAVETAPRRVALRLTP--DVLVDNVPYKD  94
+
+
+> UniRef90_A0A2H1VNE0 SFRICE_005300 n=3 Tax=Spodoptera TaxID=7106 
+RepID=A0A2H1VNE0_SPOFR
+Length=122
+
+ Score = 79.0 bits (193),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 43/94 (46%), Positives = 58/94 (62%), Gaps = 1/94 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VLQ FK LHRTR +VF  D RAL A R+KINEEF+ NK   + + I+ ++K+G DVE  L
+Sbjct  8    VLQTFKKLHRTRMKVFAGDERALVAGRLKINEEFQKNKHVANEEAIKAMIKLGEDVEKEL  67
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDA  99
+            RT VIQ         +     D + +EN+P+ D+
+Sbjct  68   RTQVIQAREVKPGVFEARITDDTVKLENIPFNDS  101
+
+
+> UniRef90_G4V859 Uncharacterized protein n=2 Tax=Schistosoma TaxID=6181 
+RepID=G4V859_SCHMA
+Length=105
+
+ Score = 78.2 bits (191),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 43/99 (43%), Positives = 63/99 (64%), Gaps = 3/99 (3%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            M RA + L +FK LHRT + VFK+D   L+ AR KIN EF+ N++ET ++KI EL+    
+Sbjct  4    MQRA-RALNIFKKLHRTCENVFKDDIETLQNAREKINSEFRANRNETDAEKINELLVKAE  62
+
+Query  61   DVELLLRTSVIQG--IHTDHNTLKLVPRKDLLVENVPYC  97
+            D E+L+RT+VIQ   I  + N  ++  R DL  ++  +C
+Sbjct  63   DCEILIRTTVIQMELIDAEKNVYRMNLRDDLAYQDNEHC  101
+
+
+> UniRef90_A0A1W4VQ80 complex III assembly factor LYRM7 n=16 Tax=melanogaster 
+group TaxID=32346 RepID=A0A1W4VQ80_DROFC
+Length=137
+
+ Score = 79.0 bits (193),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 39/78 (50%), Positives = 54/78 (69%), Gaps = 0/78 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL  FK LHRTRQ VF+ DA AL A R+KINE F  N++ET+  +I++++K+  DV+L 
+Sbjct  7   EVLSTFKKLHRTRQYVFQGDANALAAGRLKINESFLQNRNETNEDEIQKMIKLAQDVDLE  66
+
+Query  66  LRTSVIQGIHTDHNTLKL  83
+           LRT+VIQ    D    +L
+Sbjct  67  LRTNVIQAQKKDDGVYEL  84
+
+
+> UniRef90_H2ZNQ1 Uncharacterized protein n=1 Tax=Ciona savignyi 
+TaxID=51511 RepID=H2ZNQ1_CIOSA
+Length=127
+
+ Score = 78.6 bits (192),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 43/100 (43%), Positives = 59/100 (59%), Gaps = 1/100 (1%)
+
+Query  5    VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+            +KVL  FK LH  R Q FK D+RAL+AAR++IN  F+ N+  +  +KIEEL+ I  D  +
+Sbjct  9    IKVLAAFKDLHLARLQAFKGDSRALDAARVEINSNFRKNQDVSDPEKIEELITIAKDTAI  68
+
+Query  65   LLRTSVIQGIHTDHNTLKLVPRKD-LLVENVPYCDAPTQK  103
+            +LR  V+Q      N  K    KD  L++N  Y D P +K
+Sbjct  69   ILRRHVVQLESVAENRYKANITKDTFLLDNTEYQDTPEEK  108
+
+
+> UniRef90_A0A210QFW5 Complex III assembly factor LYRM7 n=2 Tax=Mizuhopecten 
+yessoensis TaxID=6573 RepID=A0A210QFW5_MIZYE
+Length=135
+
+ Score = 78.6 bits (192),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 43/92 (47%), Positives = 59/92 (64%), Gaps = 1/92 (1%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL+LF+ LH+T+  VF++D  AL   R +INEEFK  K ET  +KIEEL+K   DV++L
+Sbjct  8   RVLKLFRQLHKTKCAVFQDDDFALGETRSRINEEFKKGKDETDPEKIEELIKTAEDVDML  67
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLVE-NVPY  96
+           LR +VIQ      N  +L   KD  +E N P+
+Sbjct  68  LRKTVIQAKLVGENRYRLKITKDTYLEDNYPF  99
+
+
+> UniRef90_A0A194RN62 LYR motif-containing protein 7 n=2 Tax=Papilio 
+machaon TaxID=76193 RepID=A0A194RN62_PAPMA
+Length=151
+
+ Score = 79.0 bits (193),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 44/94 (47%), Positives = 55/94 (59%), Gaps = 1/94 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VLQ FK +HRTR +VF  D RAL AAR KINEE+K NK  T    +  ++K   DVE  L
+Sbjct  37   VLQSFKKIHRTRMKVFDGDIRALTAARAKINEEYKKNKHVTEESSMRAMIKFSEDVETEL  96
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDA  99
+            RT VIQ         +    +D L +EN+PY D+
+Sbjct  97   RTQVIQAREVRPGVFEAKITEDTLKLENIPYNDS  130
+
+
+> UniRef90_A0A1S3CTT7 complex III assembly factor LYRM7 isoform 
+X1 n=1 Tax=Diaphorina citri TaxID=121845 RepID=A0A1S3CTT7_DIACI
+Length=123
+
+ Score = 78.2 bits (191),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 42/92 (46%), Positives = 60/92 (65%), Gaps = 1/92 (1%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL++FK LH+T ++VF  D + L AARIKINEEFK NK  +S + IEEL+ + + VE  
+Sbjct  8   EVLKVFKQLHQTCKKVFNGDHQTLNAARIKINEEFKKNKHISSPRSIEELVNLANSVEHE  67
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDL-LVENVPY  96
+           L+T+V+Q + T     +L    D    ENVP+
+Sbjct  68  LKTTVVQAVETKPGVFRLQITPDTETFENVPF  99
+
+
+> UniRef90_A0A194PPS8 LYR motif-containing protein 7 (Fragment) 
+n=2 Tax=Papilio xuthus TaxID=66420 RepID=A0A194PPS8_PAPXU
+Length=115
+
+ Score = 77.8 bits (190),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 45/94 (48%), Positives = 56/94 (60%), Gaps = 1/94 (1%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VLQ FK LHRTR +VF+ D RAL AAR KINEE+K NK  T    I  ++K   DVE  L
+Sbjct  1   VLQSFKKLHRTRLKVFEGDLRALIAARAKINEEYKKNKHVTEEGSIRAMIKFSEDVETEL  60
+
+Query  67  RTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDA  99
+           RT VIQ         +    +D L ++N+PY D+
+Sbjct  61  RTQVIQAREVRPGVFEAKITEDTLKLDNIPYNDS  94
+
+
+> UniRef90_A0A0A9YGB8 LYR motif-containing protein 7 n=1 Tax=Lygus 
+hesperus TaxID=30085 RepID=A0A0A9YGB8_LYGHE
+Length=124
+
+ Score = 77.8 bits (190),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 45/93 (48%), Positives = 60/93 (65%), Gaps = 3/93 (3%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VLQ FK+LHRTR  VF+ DA+AL AAR KINEEFK NK     +K++E++     VE  
+Sbjct  9   EVLQAFKSLHRTRLYVFEGDAQALNAARDKINEEFKKNKHVEDEEKVKEMLGFTKAVEEE  68
+
+Query  66  LRTSVIQGIHTDHN--TLKLVPRKDLLVENVPY  96
+           LRT+VIQ   T+    TL++ P    L +N P+
+Sbjct  69  LRTTVIQARETEPGKYTLRITPETQKL-DNFPF  100
+
+
+> UniRef90_B4K5I5 Uncharacterized protein n=2 Tax=mojavensis species 
+complex TaxID=198037 RepID=B4K5I5_DROMO
+Length=138
+
+ Score = 77.8 bits (190),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 42/93 (45%), Positives = 62/93 (67%), Gaps = 3/93 (3%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL  FK LHRTRQ VF  D RAL A R KINE F+ N++ET+ ++I++++K+  +V+  
+Sbjct  8   QVLSAFKKLHRTRQYVFHGDDRALVAGRNKINESFQQNRNETNEEEIKKMIKLAEEVDYE  67
+
+Query  66  LRTSVIQGIHTDHNT--LKLVPRKDLLVENVPY  96
+           LRT+VIQ    + N   L++ P    L +NVP+
+Sbjct  68  LRTNVIQAKQKEDNVFELRITPETTRL-DNVPF  99
+
+
+> UniRef90_A0A026X3S4 LYR motif-containing protein (Fragment) n=1 
+Tax=Ooceraea biroi TaxID=2015173 RepID=A0A026X3S4_OOCBI
+Length=229
+
+ Score = 79.7 bits (195),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 42/93 (45%), Positives = 61/93 (66%), Gaps = 0/93 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL++FK LHRTR + F+ D  AL+  R KINEE++  K+ T+S  IEEL +   +V+  
+Sbjct  2   QVLRIFKILHRTRLRTFEGDDHALQVIRSKINEEYRKYKNVTNSAAIEELNRYALEVDHE  61
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCD  98
+           +RT+VIQ + T    L L    D+L++NVPY D
+Sbjct  62  IRTTVIQAVETAPGRLALRITPDVLIDNVPYKD  94
+
+
+> UniRef90_A0A151WIH9 LYR motif-containing protein 7 n=2 Tax=Trachymyrmex 
+zeteki TaxID=64791 RepID=A0A151WIH9_9HYME
+Length=115
+
+ Score = 76.6 bits (187),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 41/90 (46%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            +L++FK LHRTR + F+ D  AL+  R +IN+E+K  KS T+   I+EL K   +VE  +
+Sbjct  12   ILRVFKKLHRTRLKTFEGDEYALQVVRDQINKEYKKYKSITNQAVIKELNKFAQEVEYEI  71
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLLVENVPY  96
+            RT+VIQ + T    L L    D+LV+NVPY
+Sbjct  72   RTTVIQAVETVPGRLALRLTPDVLVDNVPY  101
+
+
+> UniRef90_A0A151IW59 LYR motif-containing protein 7 (Fragment) 
+n=1 Tax=Trachymyrmex cornetzi TaxID=471704 RepID=A0A151IW59_9HYME
+Length=193
+
+ Score = 77.4 bits (189),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 41/93 (44%), Positives = 60/93 (65%), Gaps = 0/93 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           ++L++FK LHRTR + F+ D  AL+  R +IN+E+K  KS T+   I EL K+  +VE  
+Sbjct  2   QILRVFKKLHRTRLKTFEGDEYALQVVRDQINKEYKKYKSVTNQTVIAELNKLAQEVECE  61
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCD  98
+           +RT+VIQ + T    + L    D+LV+NVPY D
+Sbjct  62  IRTTVIQAVETAPRRIALRLTPDVLVDNVPYKD  94
+
+
+> UniRef90_A0A1B0CCI4 Uncharacterized protein n=1 Tax=Lutzomyia 
+longipalpis TaxID=7200 RepID=A0A1B0CCI4_LUTLO
+Length=78
+
+ Score = 73.9 bits (180),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 49/67 (73%), Gaps = 0/67 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VLQ+FK LHRT   VF+ND+ AL A R+KINEEF+ N     +++I++L+K+  +VE  L
+Sbjct  8   VLQIFKKLHRTSHGVFRNDSHALSAVRMKINEEFRKNSGCKDAEEIQKLIKLAEEVETEL  67
+
+Query  67  RTSVIQG  73
+           RTSV+Q 
+Sbjct  68  RTSVVQA  74
+
+
+> UniRef90_A0A1Y1KLQ4 Uncharacterized protein n=1 Tax=Photinus 
+pyralis TaxID=7054 RepID=A0A1Y1KLQ4_PHOPY
+Length=100
+
+ Score = 74.3 bits (181),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 42/95 (44%), Positives = 55/95 (58%), Gaps = 1/95 (1%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL+ FK LHRTR+ VF  D RAL+  R KINEEFK NK       I EL++   +VE  
+Sbjct  6   EVLKCFKNLHRTREIVFNGDVRALQKGREKINEEFKKNKDVQELATINELIRFSEEVEKE  65
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDA  99
+           LRT+V+Q         +   R D L ++N+PY D 
+Sbjct  66  LRTTVVQAREIKPGVFQANIRPDTLKLDNIPYKDG  100
+
+
+> UniRef90_A0A2B4SR04 Complex III assembly factor LYRM7 n=1 Tax=Stylophora 
+pistillata TaxID=50429 RepID=A0A2B4SR04_STYPI
+Length=104
+
+ Score = 73.6 bits (179),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 35/88 (40%), Positives = 58/88 (66%), Gaps = 0/88 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           KVL  +++LHRTR +VF++D+ ALEA + +I  EF  +K+ET   KI +L+++    E +
+Sbjct  7   KVLSCYRSLHRTRLKVFRDDSFALEAGKQRIRTEFLKHKNETDPAKIADLIQMAEGAEKV  66
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLVEN  93
+           LR +++QG+ TD  T +L    D  ++N
+Sbjct  67  LRCNIVQGVQTDKGTFRLRITGDTELQN  94
+
+
+> UniRef90_A0A0J7NJS0 Lyr motif-containing protein 7 n=1 Tax=Lasius 
+niger TaxID=67767 RepID=A0A0J7NJS0_LASNI
+Length=126
+
+ Score = 73.9 bits (180),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 42/100 (42%), Positives = 61/100 (61%), Gaps = 2/100 (2%)
+
+Query  1   MGRAVK--VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKI  58
+           MG +++  VLQ+FK LHRTR + F  D  AL+  R KIN+E++  K+ T+   IEEL K 
+Sbjct  1   MGDSLRREVLQVFKKLHRTRLKTFATDEHALQVVRKKINDEYRKYKNVTNQAAIEELNKF  60
+
+Query  59  GSDVELLLRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCD  98
+             ++E  +RT+VIQ + T    + L    D+L +NV Y D
+Sbjct  61  AQEIEHEVRTTVIQAVETAPGRIALRLTPDVLRDNVSYED  100
+
+
+> UniRef90_A0A1D2N7B3 Complex III assembly factor LYRM7 n=1 Tax=Orchesella 
+cincta TaxID=48709 RepID=A0A1D2N7B3_ORCCI
+Length=111
+
+ Score = 73.6 bits (179),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 46/95 (48%), Positives = 57/95 (60%), Gaps = 10/95 (11%)
+
+Query  2   GRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSD  61
+           GR V+ L +FK L RTRQQVF+ D  AL+AAR KI  EF  +K+ET   KI+EL+K+  +
+Sbjct  7   GR-VQALSVFKQLLRTRQQVFRGDQNALQAARDKIKTEFLKHKAETDPGKIDELIKVAKE  65
+
+Query  62  VELLLRTSVIQG---------IHTDHNTLKLVPRK  87
+            E LLRT VIQ          I  DH T + V  K
+Sbjct  66  SEELLRTKVIQAQEVKPHVFRIRKDHFTERCVTAK  100
+
+
+> UniRef90_A0A1B6C4T0 Uncharacterized protein n=1 Tax=Clastoptera 
+arizonana TaxID=38151 RepID=A0A1B6C4T0_9HEMI
+Length=119
+
+ Score = 73.6 bits (179),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 42/99 (42%), Positives = 61/99 (62%), Gaps = 3/99 (3%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VL+ FK+LH+ R  VFK+D  ALEAAR KINEEF  NK  T    I+E++K  S+VE  
+Sbjct  8    EVLKAFKSLHKARLNVFKDDNIALEAARKKINEEFVKNKHVTDEGAIKEMLKFTSEVEQE  67
+
+Query  66   LRTSVIQG--IHTDHNTLKLVPRKDLLVENVPYCDAPTQ  102
+            L+T VIQ   +      +++ P  + L  N+P+ + P +
+Sbjct  68   LKTHVIQAREVRPGEYAVRITPDTEKLT-NIPFTEMPDE  105
+
+
+> UniRef90_A0A0P4WD13 Uncharacterized protein n=1 Tax=Scylla olivacea 
+TaxID=85551 RepID=A0A0P4WD13_9EUCA
+Length=121
+
+ Score = 73.6 bits (179),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 43/97 (44%), Positives = 58/97 (60%), Gaps = 2/97 (2%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            KVL  FK LHRTR  VF+ D++AL AAR KIN EF  NK+ + +  +EEL+ +G  VE +
+Sbjct  8    KVLGCFKQLHRTRLTVFEGDSKALAAAREKINTEFHKNKNVSDAAAVEELITLGRQVEEV  67
+
+Query  66   LRTSVIQGIHTDHN--TLKLVPRKDLLVENVPYCDAP  100
+            LRT+V+Q +  +    + KL P    L    PY   P
+Sbjct  68   LRTNVMQVVEKNDGVYSAKLRPEVTRLDTGKPYRPMP  104
+
+
+> UniRef90_A0A067RW51 LYR motif-containing protein 7 n=1 Tax=Zootermopsis 
+nevadensis TaxID=136037 RepID=A0A067RW51_ZOONE
+Length=104
+
+ Score = 73.2 bits (178),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 41/98 (42%), Positives = 63/98 (64%), Gaps = 3/98 (3%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VL+ FK LHRTRQ  F++D  AL+AAR +INEE+K NK  T+S+ + E++ +   VE  
+Sbjct  8    QVLEAFKRLHRTRQIAFQDDHFALQAARKRINEEYKKNKHVTNSEAVNEMINLSKAVEEE  67
+
+Query  66   LRTSVIQG--IHTDHNTLKLVPRKDLLVENVPYCDAPT  101
+            L+TSV+Q   +      L+++P    L +N+P+ D  T
+Sbjct  68   LKTSVVQAREVEPGKYELRILPNTRKL-DNIPFQDCKT  104
+
+
+> UniRef90_A0A1B6JNY1 Uncharacterized protein n=2 Tax=Proconiini 
+TaxID=565685 RepID=A0A1B6JNY1_9HEMI
+Length=128
+
+ Score = 73.6 bits (179),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 40/97 (41%), Positives = 58/97 (60%), Gaps = 1/97 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VL+ FK+LHR R  VF  D  AL+ AR KINEEF+ NK  T    I E++K   +VE+ L
+Sbjct  9    VLKAFKSLHRARTSVFNGDEFALQVARNKINEEFEKNKHITDENVIREMIKYSKEVEMEL  68
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDAPTQ  102
+            RT+V+Q    +    ++   +D   +EN+P+ D P +
+Sbjct  69   RTTVVQAKEIEPGKYEVRITEDTAKMENIPFQDVPEE  105
+
+
+> UniRef90_B4NGP7 Uncharacterized protein n=1 Tax=Drosophila willistoni 
+TaxID=7260 RepID=B4NGP7_DROWI
+Length=136
+
+ Score = 73.9 bits (180),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 36/78 (46%), Positives = 51/78 (65%), Gaps = 0/78 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL  FK LHRTRQ VF  D +AL A R+KINE F+ N+ ET   +I++++++  DV   
+Sbjct  7   QVLNAFKRLHRTRQHVFDGDIQALTAGRLKINESFRQNRDETKEDEIKKMIQLADDVSHE  66
+
+Query  66  LRTSVIQGIHTDHNTLKL  83
+           LRT+VIQ    + N  +L
+Sbjct  67  LRTTVIQATKREDNVYEL  84
+
+
+> UniRef90_A0A0P5DY22 Complex III assembly factor LYRM7 n=1 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0P5DY22_9CRUS
+Length=97
+
+ Score = 72.8 bits (177),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 35/77 (45%), Positives = 52/77 (68%), Gaps = 0/77 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL+ F+ LHRTR +VF ND  A++AAR+KIN EF+  +  ++ + I EL+K G+  E +
+Sbjct  8   EVLKCFRCLHRTRLKVFTNDQAAMDAARLKINSEFRKYQRISNQETIMELVKFGNQAEEI  67
+
+Query  66  LRTSVIQGIHTDHNTLK  82
+           LRTSV+Q      NT +
+Sbjct  68  LRTSVVQASPVAENTFR  84
+
+
+> UniRef90_A0A0L8FIU1 Uncharacterized protein n=1 Tax=Octopus bimaculoides 
+TaxID=37653 RepID=A0A0L8FIU1_OCTBM
+Length=113
+
+ Score = 73.2 bits (178),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 39/92 (42%), Positives = 57/92 (62%), Gaps = 1/92 (1%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +V+  FK LHRTR++VF+ND  ALEA++ KIN+EF+ N +E     I++L+KI  D E++
+Sbjct  5   QVISAFKHLHRTRRKVFENDLTALEASKQKINQEFRKNINEADPAVIKKLLKIAEDSEMI  64
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLVE-NVPY  96
+           LRT +IQ   T     K     D   + N P+
+Sbjct  65  LRTQIIQAEETTPGVFKAKITADTFKDTNYPF  96
+
+
+> UniRef90_A0A158NXY3 Uncharacterized protein n=6 Tax=Attini TaxID=143999 
+RepID=A0A158NXY3_ATTCE
+Length=112
+
+ Score = 72.8 bits (177),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 44/107 (41%), Positives = 66/107 (62%), Gaps = 6/107 (6%)
+
+Query  1    MGRAVK--VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKI  58
+            MG +++  +L++FK LHRTR + F+ D  AL+  R +IN+E++  K+ T+   IEEL K 
+Sbjct  1    MGESLRREILRVFKKLHRTRLKTFEGDEYALQVVRDQINKEYRKYKNVTNQAVIEELNKF  60
+
+Query  59   GSDVELLLRTSVIQGIHTDHN--TLKLVPRKDLLVENVPYCDAPTQK  103
+              +VE  +RT+VIQ I T      L+L P  D+LV+N+ Y D    K
+Sbjct  61   AQEVECEIRTTVIQAIETAPRRVALRLTP--DVLVDNMLYKDQKDDK  105
+
+
+> UniRef90_A0A3Q0JWP7 complex III assembly factor LYRM7-like n=1 
+Tax=Ciona intestinalis TaxID=7719 RepID=A0A3Q0JWP7_CIOIN
+Length=125
+
+ Score = 73.2 bits (178),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 42/95 (44%), Positives = 55/95 (58%), Gaps = 1/95 (1%)
+
+Query  5    VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+            ++VL  FK LH  R QVFK DARALEA R +INE F+ N+  T  +KIEEL+ I  D   
+Sbjct  9    LRVLAAFKDLHLARLQVFKGDARALEAGRAEINENFRKNRDVTDPEKIEELITIAVDSAQ  68
+
+Query  65   LLRTSVIQGIHTDHNTLKLVPRKD-LLVENVPYCD  98
+            +LR  V+Q      N  +    KD  +++N  Y D
+Sbjct  69   ILRKHVVQIEGVAENQFRANITKDTFMLDNTEYRD  103
+
+
+> UniRef90_A0A1Q3G2X1 Uncharacterized protein n=1 Tax=Culex tarsalis 
+TaxID=7177 RepID=A0A1Q3G2X1_CULTA
+Length=113
+
+ Score = 72.4 bits (176),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 36/73 (49%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            L+ +KTL RT+ QVF  D RA+EAAR +I EEF  NK  T  K I+E +KI  DV++ L
+Sbjct  8   ALKWYKTLQRTKDQVFVGDKRAIEAARQRIREEFIKNKDLTEEKDIKEKIKIAHDVDIEL  67
+
+Query  67  RTSVIQGIHTDHN  79
+           R++V+Q +  D N
+Sbjct  68  RSAVVQVVKIDEN  80
+
+
+> UniRef90_A0A0N8A3Y5 Complex III assembly factor LYRM7 n=2 Tax=Daphnia 
+magna TaxID=35525 RepID=A0A0N8A3Y5_9CRUS
+Length=95
+
+ Score = 71.6 bits (174),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 35/77 (45%), Positives = 52/77 (68%), Gaps = 0/77 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL+ F+ LHRTR +VF ND  A++AAR+KIN EF+  +  ++ + I EL+K G+  E +
+Sbjct  8   EVLKCFRCLHRTRLKVFTNDQAAMDAARLKINSEFRKYQRISNQETIMELVKFGNQAEEI  67
+
+Query  66  LRTSVIQGIHTDHNTLK  82
+           LRTSV+Q      NT +
+Sbjct  68  LRTSVVQASPVAENTFR  84
+
+
+> UniRef90_B3LYA7 Uncharacterized protein n=2 Tax=ananassae subgroup 
+TaxID=32347 RepID=B3LYA7_DROAN
+Length=137
+
+ Score = 72.8 bits (177),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 35/68 (51%), Positives = 48/68 (71%), Gaps = 0/68 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL  FK LHRTRQ VF+ D  AL A R+KINE F  N+ ET+  +I++++K+  DV+  
+Sbjct  7   QVLSAFKKLHRTRQYVFQGDVNALAAGRLKINESFLQNRGETNEDEIQKMIKLAQDVDHE  66
+
+Query  66  LRTSVIQG  73
+           LRT+VIQ 
+Sbjct  67  LRTNVIQA  74
+
+
+> UniRef90_B4LWD9 Uncharacterized protein n=1 Tax=Drosophila virilis 
+TaxID=7244 RepID=B4LWD9_DROVI
+Length=137
+
+ Score = 72.8 bits (177),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 37/78 (47%), Positives = 53/78 (68%), Gaps = 0/78 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL  FK LHRTRQ VF+ D RAL A R KINE F+ N++ET+ ++I +++ +  +V+  
+Sbjct  8   QVLSAFKKLHRTRQYVFQGDDRALLAGRHKINESFQQNRNETNEEEIRKMINLAVEVDHE  67
+
+Query  66  LRTSVIQGIHTDHNTLKL  83
+           LRT+VIQ    D N  +L
+Sbjct  68  LRTNVIQAQKRDDNVFEL  85
+
+
+> UniRef90_A0A1E1WSD8 Uncharacterized protein n=1 Tax=Pectinophora 
+gossypiella TaxID=13191 RepID=A0A1E1WSD8_PECGO
+Length=124
+
+ Score = 72.4 bits (176),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 40/94 (43%), Positives = 57/94 (61%), Gaps = 1/94 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            V+Q FK +HRTR +VFK D +AL AAR KINEE+K NK  + +  I+ +++    VE  L
+Sbjct  8    VMQSFKKIHRTRLKVFKGDIKALTAARHKINEEYKKNKHVSDAGSIQAMIEFSEGVEREL  67
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDA  99
+            RT VIQ         +    +D + ++N+PY DA
+Sbjct  68   RTCVIQARELKPGVFEAKITQDTVKLDNIPYNDA  101
+
+
+> UniRef90_A0A1S3JEA1 complex III assembly factor LYRM7 isoform 
+X1 n=3 Tax=Lingula unguis TaxID=7574 RepID=A0A1S3JEA1_LINUN
+Length=144
+
+ Score = 72.8 bits (177),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 37/66 (56%), Positives = 49/66 (74%), Gaps = 0/66 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  FK LH+TR+ VF+ D  AL+  + KINEEFK NK+ET S KI+EL+KI +D E +L
+Sbjct  34  VLAAFKQLHKTRKVVFEGDTYALKLTQDKINEEFKKNKNETDSDKIKELIKIANDSETIL  93
+
+Query  67  RTSVIQ  72
+           R +V+Q
+Sbjct  94  RKNVVQ  99
+
+
+> UniRef90_T1HEJ5 Uncharacterized protein n=2 Tax=Rhodnius TaxID=13248 
+RepID=T1HEJ5_RHOPR
+Length=124
+
+ Score = 71.6 bits (174),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 41/85 (48%), Positives = 52/85 (61%), Gaps = 2/85 (2%)
+
+Query  1   MGRAVK--VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKI  58
+           MG  ++  VLQ FK LHR R+ VF  D +AL AAR KINEEFK NKS    K IE L+  
+Sbjct  1   MGDPLRREVLQAFKNLHRARKVVFNGDLKALTAAREKINEEFKKNKSTNDYKTIENLVLY  60
+
+Query  59  GSDVELLLRTSVIQGIHTDHNTLKL  83
+            ++V   LRT+++Q   T   T +L
+Sbjct  61  ANEVAKELRTTIVQAKETKAGTFEL  85
+
+
+> UniRef90_A0A2K6EFU0 Uncharacterized protein n=1 Tax=Propithecus 
+coquereli TaxID=379532 RepID=A0A2K6EFU0_PROCO
+Length=44
+
+ Score = 69.7 bits (169),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 35/39 (90%), Positives = 38/39 (97%), Gaps = 1/39 (3%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKS  45
+           VLQLFKTLHRTRQQVFKNDARALE ARIKIN+EFK+NK+
+Sbjct  1   VLQLFKTLHRTRQQVFKNDARALE-ARIKINQEFKSNKT  38
+
+
+> UniRef90_A0A1B6FGY2 Uncharacterized protein n=1 Tax=Cuerna arida 
+TaxID=1464854 RepID=A0A1B6FGY2_9HEMI
+Length=122
+
+ Score = 71.6 bits (174),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 39/103 (38%), Positives = 60/103 (58%), Gaps = 16/103 (16%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+             L++FK LHRTR+ VF+ D  AL+A R K+NEEF+ NK   +   I++++K   +V+LLL
+Sbjct  9    ALKIFKCLHRTRRSVFEGDTFALDATRDKLNEEFRKNKHLKNEGVIKKMLKFAEEVDLLL  68
+
+Query  67   RTSVIQG----------------IHTDHNTLKLVPRKDLLVEN  93
+            RT+V+Q                 +  ++N+ + VP K LL  N
+Sbjct  69   RTTVVQAKLVEPGKYQAKITEDTVKMNNNSFREVPEKQLLTPN  111
+
+
+> UniRef90_A0A161MSH5 Complex iii assembly factor lyrm7 (Fragment) 
+n=1 Tax=Triatoma infestans TaxID=30076 RepID=A0A161MSH5_TRIIF
+Length=84
+
+ Score = 69.7 bits (169),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 38/81 (47%), Positives = 51/81 (63%), Gaps = 2/81 (2%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VLQ FK +HR R  VF  D +A+ AAR KINEEFK +KS +  K IE L++  ++V   L
+Sbjct  4   VLQAFKNIHRARTTVFNGDLKAMTAAREKINEEFKKHKSASDKKTIENLIQYANEVAKEL  63
+
+Query  67  RTSVIQGIHTDHNT--LKLVP  85
+           RT+V+Q   T   T  +K+ P
+Sbjct  64  RTTVVQAKETKPGTFEIKITP  84
+
+
+> UniRef90_A0A2P8Z1A0 Complex III assembly factor LYRM7 n=1 Tax=Blattella 
+germanica TaxID=6973 RepID=A0A2P8Z1A0_BLAGE
+Length=104
+
+ Score = 70.1 bits (170),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 62/98 (63%), Gaps = 3/98 (3%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VL+ FK LHRTRQ+VF  D  AL+AAR +INEEFK NK  T+ + I+E++ +   VE  
+Sbjct  8    EVLRCFKNLHRTRQKVFSEDEFALQAARNRINEEFKKNKHVTNQESIKEMVNLSKAVEDE  67
+
+Query  66   LRTSVIQG--IHTDHNTLKLVPRKDLLVENVPYCDAPT  101
+            ++ S++Q   +      L+++P    L +N+P+ +  +
+Sbjct  68   MKASIVQACEVAPGKYELRILPETRKL-DNIPFSECKS  104
+
+
+> UniRef90_A0A1B6KV98 Uncharacterized protein n=1 Tax=Graphocephala 
+atropunctata TaxID=36148 RepID=A0A1B6KV98_9HEMI
+Length=124
+
+ Score = 70.1 bits (170),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 39/97 (40%), Positives = 57/97 (59%), Gaps = 1/97 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VL+ FK+LHR R  VF+ D  AL+ AR KINEEF+ NK       I E++K   +VE+ L
+Sbjct  9    VLKAFKSLHRARTSVFQGDDFALKVARNKINEEFEKNKHIRDESVIREMIKYSKEVEIEL  68
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDAPTQ  102
+            RT+V+Q    +    +    +D   +EN+P+ D P +
+Sbjct  69   RTTVVQAKEVEPGKYEARITEDTAKMENIPFQDVPEE  105
+
+
+> UniRef90_S4NSR9 LYR motif-containing protein 7 n=1 Tax=Pararge 
+aegeria TaxID=116150 RepID=S4NSR9_9NEOP
+Length=123
+
+ Score = 70.1 bits (170),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 40/94 (43%), Positives = 54/94 (57%), Gaps = 1/94 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VLQ FK LHRTR  VF  D RAL AARIKIN EF  NK+      I+ +++   +VE  L
+Sbjct  9    VLQNFKKLHRTRMCVFDGDERALNAARIKINSEFNKNKNVKDVNAIKAMIQFAEEVEREL  68
+
+Query  67   RTSVIQGIHTDHNTLKL-VPRKDLLVENVPYCDA  99
+            RT VIQ         +  +  + + ++N+PY D+
+Sbjct  69   RTQVIQAREVKPGVFEAKITDETVKLDNIPYNDS  102
+
+
+> UniRef90_W8C6A6 LYR motif-containing protein 7 n=2 Tax=Ceratitis 
+capitata TaxID=7213 RepID=W8C6A6_CERCA
+Length=139
+
+ Score = 70.5 bits (171),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 34/78 (44%), Positives = 52/78 (67%), Gaps = 0/78 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           + L++FK LHRTRQ VF+ D R LEA R +INE F+ N++E +  +I++++ +  DV+  
+Sbjct  7   EALRVFKKLHRTRQFVFQGDERTLEAGRREINEHFRKNRNEKNEDEIKKMIALAKDVDKE  66
+
+Query  66  LRTSVIQGIHTDHNTLKL  83
+           LRTSVIQ +       +L
+Sbjct  67  LRTSVIQAVQEKEGVYQL  84
+
+
+> UniRef90_A0A1B0BTE6 Uncharacterized protein n=2 Tax=Nemorhina 
+TaxID=44051 RepID=A0A1B0BTE6_9MUSC
+Length=130
+
+ Score = 70.1 bits (170),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 36/67 (54%), Positives = 44/67 (66%), Gaps = 0/67 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VLQ FK LHRTRQ VF  D RAL A R +IN+ FK N  ET    +++++K+  DV   L
+Sbjct  8   VLQAFKKLHRTRQYVFAGDDRALAAGRKEINDRFKANMKETDEDAMKKMLKLAVDVNREL  67
+
+Query  67  RTSVIQG  73
+           RTSVIQ 
+Sbjct  68  RTSVIQA  74
+
+
+> UniRef90_A0A1A9UQW5 Uncharacterized protein n=2 Tax=Glossina 
+TaxID=44049 RepID=A0A1A9UQW5_GLOAU
+Length=130
+
+ Score = 70.1 bits (170),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VLQ FK LHRTRQ VF  D RAL A R +IN++FK N  ET    +++++K+  DV+  L
+Sbjct  8   VLQAFKKLHRTRQYVFAGDDRALAAGRKEINDKFKTNMKETDEDAVKKMLKLTVDVDREL  67
+
+Query  67  RTSVIQG  73
+           RT+VIQ 
+Sbjct  68  RTNVIQA  74
+
+
+> UniRef90_Q16UA4 AAEL009961-PA n=6 Tax=Stegomyia TaxID=53541 RepID=Q16UA4_AEDAE
+Length=117
+
+ Score = 69.7 bits (169),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 34/73 (47%), Positives = 47/73 (64%), Gaps = 0/73 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            L+ +KTL RT+ QVF  D R +EAAR +I EEF  NK     K I+E +KI  DV++ L
+Sbjct  8   TLKWYKTLQRTKDQVFAGDHRTIEAARQRIREEFLKNKDLREEKDIQEKLKIARDVDIEL  67
+
+Query  67  RTSVIQGIHTDHN  79
+           R++V+Q +  D N
+Sbjct  68  RSTVVQAVKGDDN  80
+
+
+> UniRef90_A0A074Z1Y9 Uncharacterized protein n=1 Tax=Opisthorchis 
+viverrini TaxID=6198 RepID=A0A074Z1Y9_9TREM
+Length=918
+
+ Score = 73.6 bits (179),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 44/103 (43%), Positives = 62/103 (60%), Gaps = 2/103 (2%)
+
+Query  4    AVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVE  63
+            A   L+L   LHRT + VF  D   L+AA+ +I  EF+ N++ T S+KIEEL+K G DVE
+Sbjct  815  ASNALKLLADLHRTCRVVFHGDESTLQAAKERIRAEFRANQAVTDSQKIEELLKYGEDVE  874
+
+Query  64   LLLRTSVIQGIHTDH-NTLKLVPRKDLLV-ENVPYCDAPTQKQ  104
+            +LLRT+VIQ  + +  N  KL  R+ L   +N P    P + +
+Sbjct  875  MLLRTTVIQMEYNEKDNRFKLNLREGLAYGDNDPTATKPPETK  917
+
+
+> UniRef90_A0A0L0CCK9 Uncharacterized protein n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0CCK9_LUCCU
+Length=128
+
+ Score = 69.7 bits (169),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 38/92 (41%), Positives = 57/92 (62%), Gaps = 3/92 (3%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           V+  FK LHRTRQ +F  D RALEA R +IN+ FK N +ET+   +++++++  DV+  L
+Sbjct  8   VINAFKKLHRTRQFIFAGDDRALEAGRKEINDRFKKNMTETNVDNVKKMLQLALDVDKEL  67
+
+Query  67  RTSVIQGIHTDHNT--LKLVPRKDLLVENVPY  96
+           RT+VIQ    +     L++ P    L EN P+
+Sbjct  68  RTNVIQAKQKEEGVYELRITPETTRL-ENFPF  98
+
+
+> UniRef90_A0A1B0G2Z3 Palmitoyltransferase n=1 Tax=Glossina morsitans 
+morsitans TaxID=37546 RepID=A0A1B0G2Z3_GLOMM
+Length=505
+
+ Score = 72.8 bits (177),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 34/67 (51%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VLQ FK LHRTRQ VF  D +AL A R +IN++FK N  ET    +++++K+  DV+  L
+Sbjct  383  VLQAFKKLHRTRQYVFAGDGQALAAGRKEINDKFKTNMKETDEDAVKKMLKLAIDVDREL  442
+
+Query  67   RTSVIQG  73
+            RT+VIQ 
+Sbjct  443  RTNVIQA  449
+
+
+> UniRef90_A0A0K8VI95 LYR motif-containing protein 7 n=4 Tax=Bactrocera 
+TaxID=47832 RepID=A0A0K8VI95_BACLA
+Length=129
+
+ Score = 68.9 bits (167),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 35/78 (45%), Positives = 52/78 (67%), Gaps = 0/78 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           + L+ FK LHRTRQ VF+ D   L+A R +INE+F+ N+SE +  +I++++++  DV+  
+Sbjct  7   EALRAFKKLHRTRQFVFQGDELTLKAGRKEINEQFRKNRSEKNEDEIKKMIQLAHDVDNE  66
+
+Query  66  LRTSVIQGIHTDHNTLKL  83
+           LRTSVIQ I       KL
+Sbjct  67  LRTSVIQAIQEKEGVYKL  84
+
+
+> UniRef90_A0A336M008 CSON005474 protein n=1 Tax=Culicoides sonorensis 
+TaxID=179676 RepID=A0A336M008_CULSO
+Length=116
+
+ Score = 68.2 bits (165),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 36/91 (40%), Positives = 56/91 (62%), Gaps = 1/91 (1%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  FK LHR RQ++F+ D RAL  AR KINEE++ NK   S ++I++ +K+ ++V   L
+Sbjct  8   VLNSFKKLHRARQEIFEGDERALTLARHKINEEYRKNKGTDSDEEIQQKVKLANEVAEEL  67
+
+Query  67  RTSVIQGIHTDHNTLKL-VPRKDLLVENVPY  96
+           +T VIQ +  +    +  +    L +EN P+
+Sbjct  68  KTRVIQAVEKEPGVFEAKLKESTLRLENYPF  98
+
+
+> UniRef90_A0A0M5J583 CG34150 n=1 Tax=Drosophila busckii TaxID=30019 
+RepID=A0A0M5J583_DROBS
+Length=137
+
+ Score = 68.6 bits (166),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 33/68 (49%), Positives = 49/68 (72%), Gaps = 0/68 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           + L  FK LHRTRQ VF+ D  AL A R KINE F+ N++ET+ ++I++++++ +D E  
+Sbjct  8   QALSAFKKLHRTRQYVFQGDETALIAGRQKINESFQQNRNETNQEEIQKMIQLANDCEHE  67
+
+Query  66  LRTSVIQG  73
+           LRT+VIQ 
+Sbjct  68  LRTNVIQA  75
+
+
+> UniRef90_A0A0C7C868 Uncharacterized protein n=7 Tax=Rhizopus 
+TaxID=4842 RepID=A0A0C7C868_9FUNG
+Length=121
+
+ Score = 67.8 bits (164),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 55/82 (67%), Gaps = 0/82 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VLQ +++L RT++QVF  D RA+EAAR +    F   K ET++  +EE +++   V++LL
+Sbjct  10  VLQAYRSLLRTQKQVFDTDYRAIEAARKETYARFMQFKDETNTDILEEKLQLARQVDVLL  69
+
+Query  67  RTSVIQGIHTDHNTLKLVPRKD  88
+           R +VIQG++  +NT KL   KD
+Sbjct  70  RKNVIQGVNQGNNTFKLRITKD  91
+
+
+> UniRef90_N6U2S7 Uncharacterized protein (Fragment) n=1 Tax=Dendroctonus 
+ponderosae TaxID=77166 RepID=N6U2S7_DENPD
+Length=120
+
+ Score = 67.8 bits (164),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 40/95 (42%), Positives = 56/95 (59%), Gaps = 1/95 (1%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VLQ FK LH+TRQ VFK D  AL+  R KINEE++  K+  ++  IEEL+     VE  
+Sbjct  8    EVLQSFKALHKTRQTVFKGDTFALKEGRKKINEEYQKCKNVENTGSIEELVNYARAVEHE  67
+
+Query  66   LRTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDA  99
+            LRT VIQ    +    +   R D + ++N P+ +A
+Sbjct  68   LRTCVIQAREVEPGFYQAEIRSDTVKLDNTPFNEA  102
+
+
+ Score = 16.9 bits (32),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 8/26 (31%), Positives = 11/26 (42%), Gaps = 0/26 (0%)
+
+Query  66  LRTSVIQGIHTDHNTLKLVPRKDLLV  91
+           LR  V+Q     H T + V + D   
+Sbjct  5   LRREVLQSFKALHKTRQTVFKGDTFA  30
+
+
+> UniRef90_G7YL43 Protein prune homolog n=1 Tax=Clonorchis sinensis 
+TaxID=79923 RepID=G7YL43_CLOSI
+Length=801
+
+ Score = 71.6 bits (174),  Expect = 9e-19, Method: Composition-based stats.
+ Identities = 35/69 (51%), Positives = 50/69 (72%), Gaps = 0/69 (0%)
+
+Query  4    AVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVE  63
+            +++ L+L   LHRT + VF  D   L+AA+ +I  EF+ N++ T S+KIEEL+K G DVE
+Sbjct  718  SLEALKLLADLHRTCRVVFHGDESTLQAAKERIRAEFRANQAVTDSQKIEELLKYGEDVE  777
+
+Query  64   LLLRTSVIQ  72
+            +LLRT+VIQ
+Sbjct  778  MLLRTTVIQ  786
+
+
+> UniRef90_A0A068XIQ6 Aminopeptidase N n=1 Tax=Hymenolepis microstoma 
+TaxID=85433 RepID=A0A068XIQ6_HYMMI
+Length=1060
+
+ Score = 71.2 bits (173),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 35/69 (51%), Positives = 45/69 (65%), Gaps = 0/69 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           K L LF+ LHRTRQ VFK D +AL   R K+N+EF+ NK     +K+ EL K   DV LL
+Sbjct  6   KSLSLFRQLHRTRQVVFKGDDQALSQTRAKMNDEFRKNKEVNDQEKLHELWKFAEDVNLL  65
+
+Query  66  LRTSVIQGI  74
+           LR +V+Q +
+Sbjct  66  LRKTVVQCV  74
+
+
+ Score = 17.3 bits (33),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 14/70 (20%), Positives = 31/70 (44%), Gaps = 8/70 (11%)
+
+Query  25    DARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQGIHTDHNTLKLV  84
+             D   ++   IK+N        +TS + I  +++  +  ++ L  +         NT+   
+Sbjct  977   DMLPIQGELIKMNRTLSRESDKTSERAINRILRQSNRHQMWLSHNA--------NTIYKW  1028
+
+Query  85    PRKDLLVENV  94
+              +++L V+NV
+Sbjct  1029  LKRELGVQNV  1038
+
+
+> UniRef90_A0A131XHZ4 Uncharacterized protein (Fragment) n=1 Tax=Hyalomma 
+excavatum TaxID=257692 RepID=A0A131XHZ4_9ACAR
+Length=107
+
+ Score = 66.6 bits (161),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 36/95 (38%), Positives = 56/95 (59%), Gaps = 3/95 (3%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +K+LHR   QVF+ D   + AA+I++ EE+  N  ET S KIEEL+K   DVE +L
+Sbjct  6   VLNSYKSLHRVILQVFEGDPETIRAAKIRVKEEYVKNLHETDSGKIEELLKTAKDVEKVL  65
+
+Query  67  RTSVIQGIHTDHNTLKLVPRKDLLVENV---PYCD  98
+           +T VI+ +  +    ++  +   L +N    P+C+
+Sbjct  66  QTDVIRAVRNEKGNYEVQLKPHHLQDNATYKPHCN  100
+
+
+> UniRef90_A0A0L7RKU9 LYR motif-containing protein 7 n=1 Tax=Habropoda 
+laboriosa TaxID=597456 RepID=A0A0L7RKU9_9HYME
+Length=115
+
+ Score = 67.0 bits (162),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 35/74 (47%), Positives = 45/74 (61%), Gaps = 0/74 (0%)
+
+Query  10  LFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTS  69
+           +FK LHRTR   FK D  AL+  R KINEE+K  K   ++  IEEL K   +VE  +RT+
+Sbjct  1   MFKKLHRTRMNTFKGDENALKVVRAKINEEYKKYKHVQNTAAIEELNKFAEEVEREIRTT  60
+
+Query  70  VIQGIHTDHNTLKL  83
+           VIQ + TD    +L
+Sbjct  61  VIQAVETDPGKFEL  74
+
+
+> UniRef90_A7SW55 Predicted protein n=1 Tax=Nematostella vectensis 
+TaxID=45351 RepID=A7SW55_NEMVE
+Length=100
+
+ Score = 66.6 bits (161),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 35/77 (45%), Positives = 46/77 (60%), Gaps = 0/77 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           KVL  ++ LHR R + F+ D  ALEA R KI EEF  NK+E    KI EL+    DVE +
+Sbjct  6   KVLSCYRKLHRARLKTFQGDTLALEAGRQKIREEFAKNKNEADKTKIAELILTAEDVERM  65
+
+Query  66  LRTSVIQGIHTDHNTLK  82
+           LR +V+Q I  + +  K
+Sbjct  66  LRQNVVQAILQEKDKYK  82
+
+
+> UniRef90_A0A2S2NSP3 LYR motif-containing protein 7 n=1 Tax=Schizaphis 
+graminum TaxID=13262 RepID=A0A2S2NSP3_SCHGA
+Length=128
+
+ Score = 66.6 bits (161),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 39/95 (41%), Positives = 54/95 (57%), Gaps = 3/95 (3%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            KVL  FK +H+ R   FKND + L AA+ +INEEFK NK+ T    ++ L+    DVE  
+Sbjct  9    KVLNTFKLVHKARLLCFKNDIQMLNAAKHQINEEFKKNKTVTDPVMVQNLLTFAQDVEHE  68
+
+Query  66   LRTSVIQGIHTDHNTLKLV--PRKDLLVENVPYCD  98
+            LRT V+Q    +    KL   P +  + EN+PY +
+Sbjct  69   LRTQVVQAERVNEKKFKLNLDPERHTM-ENIPYVE  102
+
+
+> UniRef90_A0A226DPA8 Complex III assembly factor LYRM7 n=1 Tax=Folsomia 
+candida TaxID=158441 RepID=A0A226DPA8_FOLCA
+Length=108
+
+ Score = 66.2 bits (160),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 33/71 (46%), Positives = 48/71 (68%), Gaps = 0/71 (0%)
+
+Query  2   GRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSD  61
+           G  +KVL LFK LHR + +VF  D+ AL+ A++KI EEF  +K+ T  ++I  L+K+  +
+Sbjct  4   GTRLKVLSLFKKLHRAKDKVFVGDSVALDGAKMKIREEFSKHKAITDPQEINSLLKVAQE  63
+
+Query  62  VELLLRTSVIQ  72
+            E LLRT V+Q
+Sbjct  64  SEELLRTKVVQ  74
+
+
+> UniRef90_K7JKY9 Uncharacterized protein n=2 Tax=Pteromalinae 
+TaxID=272242 RepID=K7JKY9_NASVI
+Length=121
+
+ Score = 66.2 bits (160),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 37/92 (40%), Positives = 55/92 (60%), Gaps = 3/92 (3%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            L +FK LHRTR + F+ D + L+  R KIN+EF+ NK  T+   I+EL+K   +VE  +
+Sbjct  9   ALSVFKQLHRTRLKTFRGDEQGLQFTRQKINDEFRKNKDITNEASIQELIKFAKEVENEV  68
+
+Query  67  RTSVIQGIHTDHNTL--KLVPRKDLLVENVPY  96
+           RT+VIQ +         K+ P   +L +NVP+
+Sbjct  69  RTTVIQVVEKASGRFEAKITPDTAML-DNVPF  99
+
+
+> UniRef90_I1BP98 Uncharacterized protein n=1 Tax=Rhizopus delemar 
+(strain RA 99-880 / ATCC MYA-4621 / FGSC 9543 / NRRL 43880) 
+TaxID=246409 RepID=I1BP98_RHIO9
+Length=123
+
+ Score = 66.2 bits (160),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 35/82 (43%), Positives = 54/82 (66%), Gaps = 0/82 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +++L +T++QVF +D RA+EAAR + +  F  NK ET++  +EE + +   VE+LL
+Sbjct  10  VLHAYRSLLKTQKQVFASDYRAIEAARKETHARFIQNKDETNTDILEEKLALAQQVEVLL  69
+
+Query  67  RTSVIQGIHTDHNTLKLVPRKD  88
+           + +VIQG+    NT KL   KD
+Sbjct  70  KRNVIQGVDQGDNTFKLRITKD  91
+
+
+> UniRef90_B7PFY7 LYR motif-containing protein, putative n=4 Tax=Ixodes 
+TaxID=6944 RepID=B7PFY7_IXOSC
+Length=108
+
+ Score = 65.9 bits (159),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 36/97 (37%), Positives = 56/97 (58%), Gaps = 1/97 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VL  +KTL RT  QVF+ D   + AA+I++ +EF  N  E  S KI+EL+K+  +V+L+L
+Sbjct  11   VLHSYKTLRRTIDQVFQGDTDTIRAAKIQVRQEFAKNAFEPDSAKIQELLKVAEEVDLVL  70
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQK  103
+            R  V+Q +  +    +L  +   L +N      PT+K
+Sbjct  71   RRDVVQAVRNEEGRYELQLKPHHLHDNASVAH-PTEK  106
+
+
+> UniRef90_A0A0A1X235 LYR motif-containing protein 7 n=1 Tax=Zeugodacus 
+cucurbitae TaxID=28588 RepID=A0A0A1X235_ZEUCU
+Length=136
+
+ Score = 66.2 bits (160),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 32/70 (46%), Positives = 49/70 (70%), Gaps = 0/70 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           + L+ FK LHRTRQ VF+ D   L A R +INE+F+ N++E +  +I +++K+ +DV+  
+Sbjct  7   EALRAFKKLHRTRQFVFQGDELTLNAGRKEINEQFRKNQNERNEDEIRKMIKLANDVDKE  66
+
+Query  66  LRTSVIQGIH  75
+           LRTSVIQ + 
+Sbjct  67  LRTSVIQAVQ  76
+
+
+> UniRef90_C4WY58 ACYPI004138 protein n=8 Tax=Aphidinae TaxID=133076 
+RepID=C4WY58_ACYPI
+Length=128
+
+ Score = 65.9 bits (159),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 38/93 (41%), Positives = 53/93 (57%), Gaps = 3/93 (3%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           KVL  FK +HR R   FKND + L AA+++INEEFK NK+ +    ++ L+    DVE  
+Sbjct  9   KVLTTFKLVHRARLLCFKNDNQMLNAAKLQINEEFKKNKTVSDPAVVQNLITFAQDVEHE  68
+
+Query  66  LRTSVIQGIHTDHNTLKLV--PRKDLLVENVPY  96
+           L T V+Q    +    KL   P +  + EN+PY
+Sbjct  69  LLTQVVQAERVNETKFKLNLDPERHTM-ENIPY  100
+
+
+> UniRef90_A0A0M9A347 LYR motif-containing protein 7 n=1 Tax=Melipona 
+quadrifasciata TaxID=166423 RepID=A0A0M9A347_9HYME
+Length=102
+
+ Score = 65.1 bits (157),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 35/77 (45%), Positives = 49/77 (64%), Gaps = 0/77 (0%)
+
+Query  22  FKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQGIHTDHNTL  81
+           F++D  AL+  R KINEE++  K+ T+S  IEEL+K   +VE  +RT+VIQ + T   T 
+Sbjct  4   FQDDEHALQVTRNKINEEYRKYKNVTNSAAIEELIKFAEEVEHEIRTTVIQAVETQPGTY  63
+
+Query  82  KLVPRKDLLVENVPYCD  98
+            L    D LV++VPY D
+Sbjct  64  TLRLTPDKLVDSVPYKD  80
+
+
+> UniRef90_A0A068YEE0 LYR motif containing protein 7 n=2 Tax=Echinococcus 
+TaxID=6209 RepID=A0A068YEE0_ECHMU
+Length=100
+
+ Score = 64.7 bits (156),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 34/67 (51%), Positives = 44/67 (66%), Gaps = 0/67 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           + L+LF+ LH+TR  VFK+D  AL   R KINEEF+ N + T   K++EL   G DV  L
+Sbjct  6   ETLRLFRKLHKTRLVVFKDDDFALAQTRAKINEEFRKNANITDLAKLDELWNFGEDVNRL  65
+
+Query  66  LRTSVIQ  72
+           LR +VIQ
+Sbjct  66  LRKTVIQ  72
+
+
+> UniRef90_A0A1W4WV46 complex III assembly factor LYRM7 n=1 Tax=Agrilus 
+planipennis TaxID=224129 RepID=A0A1W4WV46_AGRPL
+Length=108
+
+ Score = 65.1 bits (157),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 38/94 (40%), Positives = 54/94 (57%), Gaps = 1/94 (1%)
+
+Query  7    VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            VL  FK LH+ R++VF  D  ALE  R KINEEFK +K+      I EL+K   ++   L
+Sbjct  9    VLWCFKNLHKARKEVFAGDTYALELCRNKINEEFKKHKTLNDETVINELLKQSKNIAHEL  68
+
+Query  67   RTSVIQGIHTDHNTLKLVPRKDLL-VENVPYCDA  99
+            RT+VIQ    +    ++  R D   ++NVP+ D+
+Sbjct  69   RTTVIQAREVEPGKYRVQIRPDTTKLDNVPFKDS  102
+
+
+> UniRef90_A0A3M6U3N4 Uncharacterized protein n=1 Tax=Pocillopora 
+damicornis TaxID=46731 RepID=A0A3M6U3N4_9CNID
+Length=352
+
+ Score = 68.6 bits (166),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 35/93 (38%), Positives = 58/93 (62%), Gaps = 0/93 (0%)
+
+Query  1    MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+            + R  +VL  +++LHRTR +VF++D+ ALE  +  I  EF  +K +T   KI EL+++  
+Sbjct  251  LNRRAQVLSRYRSLHRTRLKVFRDDSFALEVGKQNIRTEFLKHKIDTDQAKIAELIQMVE  310
+
+Query  61   DVELLLRTSVIQGIHTDHNTLKLVPRKDLLVEN  93
+              E + R +++QGI TD+ T +L   KD  ++N
+Sbjct  311  GAEKVPRCNIVQGIQTDNGTFRLRITKDTELQN  343
+
+
+> UniRef90_A0A1I8QE30 Uncharacterized protein n=1 Tax=Stomoxys 
+calcitrans TaxID=35570 RepID=A0A1I8QE30_STOCA
+Length=129
+
+ Score = 65.1 bits (157),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 32/78 (41%), Positives = 50/78 (64%), Gaps = 0/78 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +V++ F+ LHRTRQ +F  D  ALEA R +IN  FK N  ET++  I++++++  DV+  
+Sbjct  7   EVIKAFRRLHRTRQYIFAGDDHALEAGRKEINAHFKKNMQETNADNIKKMIQLAWDVDKE  66
+
+Query  66  LRTSVIQGIHTDHNTLKL  83
+           LRT+VIQ    +    +L
+Sbjct  67  LRTNVIQAKKKEEGVYEL  84
+
+
+> UniRef90_D2A462 Complex III assembly factor LYRM7-like Protein 
+n=1 Tax=Tribolium castaneum TaxID=7070 RepID=D2A462_TRICA
+Length=108
+
+ Score = 64.3 bits (155),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 41/96 (43%), Positives = 55/96 (57%), Gaps = 9/96 (9%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL  FK+LH+ R+ VF+ D  AL  AR KINEE+K  K+ T    IEEL+     VE  
+Sbjct  8   EVLAAFKSLHKARKHVFQGDNNALTKARSKINEEYKKCKNVTDKHAIEELVNYSKAVETE  67
+
+Query  66  LRTSVIQG--IHTDHNTLKL---VPRKDLLVENVPY  96
+           LR +VIQ   I      ++L   +PR    +ENVP+
+Sbjct  68  LRVTVIQAREIQPGQYEVRLREEIPR----LENVPF  99
+
+
+> UniRef90_A0A2M4C3S6 Uncharacterized protein n=2 Tax=Anopheles 
+TaxID=44484 RepID=A0A2M4C3S6_9DIPT
+Length=116
+
+ Score = 63.9 bits (154),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 31/69 (45%), Positives = 45/69 (65%), Gaps = 0/69 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            L+ +K L RT+ +VF  D R L AAR +I EE+  NK  T  K+I+E +KI  DV++ L
+Sbjct  8   ALRWYKILQRTKNEVFAGDFRTLTAARQRIREEYIKNKDLTDEKEIQEKIKIAKDVDVEL  67
+
+Query  67  RTSVIQGIH  75
+           R+SV+Q + 
+Sbjct  68  RSSVVQAVR  76
+
+
+> UniRef90_U5EX01 Uncharacterized protein (Fragment) n=1 Tax=Corethrella 
+appendiculata TaxID=1370023 RepID=U5EX01_9DIPT
+Length=115
+
+ Score = 63.5 bits (153),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 34/67 (51%), Positives = 45/67 (67%), Gaps = 0/67 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           +L+ FK LHRT++ VF  D   ++AA  KINEEFK NK+ T  K+IE+ +    DVE  L
+Sbjct  6   ILKCFKILHRTKEIVFSGDNVMIKAATQKINEEFKKNKNLTDLKQIEQKLNFAKDVEKEL  65
+
+Query  67  RTSVIQG  73
+           RT+VIQ 
+Sbjct  66  RTNVIQA  72
+
+
+> UniRef90_A0A2K6LDN7 Uncharacterized protein n=1 Tax=Rhinopithecus 
+bieti TaxID=61621 RepID=A0A2K6LDN7_RHIBE
+Length=50
+
+ Score = 61.6 bits (148),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 40/99 (40%), Positives = 42/99 (42%), Gaps = 51/99 (52%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            +VLQLFKTLHRTRQQVFKND RALE                                   
+Sbjct  3    RVLQLFKTLHRTRQQVFKNDVRALE-----------------------------------  27
+
+Query  66   LRTSVIQGIHTDHNTLKLVPRKDLLVENVPYCDAPTQKQ  104
+                            +LVPRK     NVPYCDAPTQKQ
+Sbjct  28   ----------------ELVPRKRPSCRNVPYCDAPTQKQ  50
+
+
+> UniRef90_A0A1A9X1P1 Uncharacterized protein n=1 Tax=Glossina 
+brevipalpis TaxID=37001 RepID=A0A1A9X1P1_9MUSC
+Length=129
+
+ Score = 63.5 bits (153),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 34/77 (44%), Positives = 47/77 (61%), Gaps = 0/77 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  FK LHRTRQ VF  D  AL+A R +IN +FK N  E     I++++K+  DV+  L
+Sbjct  8   VLWAFKKLHRTRQYVFAGDVVALDAGRKEINNKFKANMKEIDEDAIKKMIKLALDVDREL  67
+
+Query  67  RTSVIQGIHTDHNTLKL  83
+           RT+VIQ    ++   +L
+Sbjct  68  RTNVIQAREKENGVYEL  84
+
+
+> UniRef90_W5J3Q7 Uncharacterized protein n=8 Tax=Nyssorhynchus 
+TaxID=44543 RepID=W5J3Q7_ANODA
+Length=116
+
+ Score = 62.8 bits (151),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 30/69 (43%), Positives = 45/69 (65%), Gaps = 0/69 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            L+ +K L RT+ +VF  D R + AAR +I EE+  NK  T  K+I+E +KI  DV++ L
+Sbjct  8   ALRWYKILQRTKNEVFAGDFRTITAARQRIREEYIKNKDLTDEKEIQEKIKIAKDVDVEL  67
+
+Query  67  RTSVIQGIH  75
+           R+SV+Q + 
+Sbjct  68  RSSVVQAVR  76
+
+
+> UniRef90_A0A023FPA3 Uncharacterized protein n=6 Tax=Amblyomma 
+TaxID=6942 RepID=A0A023FPA3_9ACAR
+Length=108
+
+ Score = 62.8 bits (151),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +K+LHR   QVF+ D   + AAR ++ EE+  N +ET S KI+EL+K   DVE +L
+Sbjct  10  VLNSYKSLHRVILQVFQGDPDTIRAARSRVKEEYVKNLNETDSSKIQELLKTAKDVEKVL  69
+
+Query  67  RTSVIQGI  74
+           +T VI+ +
+Sbjct  70  QTDVIRAV  77
+
+
+> UniRef90_A0A1L8E667 Putative complex iii assembly factor lyrm7 
+(Fragment) n=1 Tax=Haematobia irritans TaxID=7368 RepID=A0A1L8E667_HAEIR
+Length=82
+
+ Score = 62.0 bits (149),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 31/77 (40%), Positives = 49/77 (64%), Gaps = 0/77 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           V++ F+ LHRTRQ +F  D  ALEA R +IN  FK N  E+++  I++++++  DV+  L
+Sbjct  4   VIKAFRKLHRTRQLIFAGDDYALEAGRKEINAHFKKNMQESNADNIKKMIQLALDVDKEL  63
+
+Query  67  RTSVIQGIHTDHNTLKL  83
+           RT+VIQ    +    +L
+Sbjct  64  RTNVIQAKQKEEGVYEL  80
+
+
+> UniRef90_A0A293MA02 Uncharacterized protein (Fragment) n=1 Tax=Ornithodoros 
+erraticus TaxID=265619 RepID=A0A293MA02_ORNER
+Length=107
+
+ Score = 62.4 bits (150),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 36/88 (41%), Positives = 47/88 (53%), Gaps = 0/88 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +K LHRT   VF  DA  + +AR K+ EEFK N      KKIEEL+K   DV  +L
+Sbjct  9   VLNSYKALHRTILFVFDGDADTVRSARAKVKEEFKKNADVKDQKKIEELLKFAGDVREVL  68
+
+Query  67  RTSVIQGIHTDHNTLKLVPRKDLLVENV  94
+           R  V+  I  +    +L  R + L +N 
+Sbjct  69  RKDVVHAILNEKGNYELQLRPEHLRDNA  96
+
+
+> UniRef90_L7LU25 Uncharacterized protein n=1 Tax=Rhipicephalus 
+pulchellus TaxID=72859 RepID=L7LU25_9ACAR
+Length=140
+
+ Score = 62.8 bits (151),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +K+LHR   QVF+ D   + AA++++ EE+  N  ET S KI+EL+K   DVE +L
+Sbjct  9   VLNSYKSLHRVILQVFEGDPETIRAAKVRVKEEYVKNLHETDSGKIKELLKTAKDVEKVL  68
+
+Query  67  RTSVIQGI  74
+           +T VI+ +
+Sbjct  69  QTDVIKAV  76
+
+
+> UniRef90_A0A131YRP6 Complex III assembly factor LYRM7 n=2 Tax=Rhipicephalus 
+TaxID=426455 RepID=A0A131YRP6_RHIAP
+Length=107
+
+ Score = 61.6 bits (148),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 29/68 (43%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +K+LHR   QVF+ D   + AA++++ EE+  N  ET + KIEEL+K   DVE +L
+Sbjct  9   VLNSYKSLHRVILQVFEGDPETIRAAKVRVKEEYVKNLHETDAGKIEELLKTAKDVEKVL  68
+
+Query  67  RTSVIQGI  74
+           +T +I+ +
+Sbjct  69  QTDLIRAV  76
+
+
+> UniRef90_B4GPD3 GL13630 n=3 Tax=obscura group TaxID=32355 RepID=B4GPD3_DROPE
+Length=137
+
+ Score = 62.4 bits (150),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 32/68 (47%), Positives = 41/68 (60%), Gaps = 0/68 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           + L  FK LHRTRQ VF  D RALE AR KIN+EF+ N+  T    I+  +K+  +    
+Sbjct  7   QALSAFKKLHRTRQYVFDGDVRALEEARQKINDEFRQNRVVTDQDDIQNKIKLAEECAQE  66
+
+Query  66  LRTSVIQG  73
+           LR +VIQ 
+Sbjct  67  LRANVIQA  74
+
+
+> UniRef90_A0A0T6AWG4 Uncharacterized protein n=1 Tax=Oryctes borbonicus 
+TaxID=1629725 RepID=A0A0T6AWG4_9SCAR
+Length=104
+
+ Score = 61.2 bits (147),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 39/101 (39%), Positives = 61/101 (60%), Gaps = 3/101 (3%)
+
+Query  2    GRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSD  61
+            G   +VL+ FK+LHR RQ+VF +D  ALE +R +INEEF+ +   T++++I  L+     
+Sbjct  4    GLKQEVLKCFKSLHRARQRVFCSDQFALEKSRERINEEFRKHIHVTNAEEIRSLIDHSKA  63
+
+Query  62   VELLLRTSVIQG--IHTDHNTLKLVPRKDLLVENVPYCDAP  100
+            VE  L T+V+Q   +      ++L P  + L +NVP+ D P
+Sbjct  64   VEKELLTNVVQAKEVAPGRYEVRLRPEVERL-KNVPFKDVP  103
+
+
+> UniRef90_B5DXS5 Uncharacterized protein, isoform A n=2 Tax=Drosophila 
+pseudoobscura pseudoobscura TaxID=46245 RepID=B5DXS5_DROPS
+Length=174
+
+ Score = 62.4 bits (150),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 32/68 (47%), Positives = 41/68 (60%), Gaps = 0/68 (0%)
+
+Query  6    KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+            + L  FK LHRTRQ VF  D RALE AR KIN+EF+ N+  T    I+  +K+  +    
+Sbjct  44   QALSAFKKLHRTRQYVFDGDVRALEEARQKINDEFRQNRVVTDQDDIQNKIKLAEECAQE  103
+
+Query  66   LRTSVIQG  73
+            LR +VIQ 
+Sbjct  104  LRANVIQA  111
+
+
+> UniRef90_A0A1I8N1D4 Uncharacterized protein n=2 Tax=Musca domestica 
+TaxID=7370 RepID=A0A1I8N1D4_MUSDO
+Length=137
+
+ Score = 61.2 bits (147),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 32/78 (41%), Positives = 49/78 (63%), Gaps = 0/78 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +VL+ F+ LHRTRQ +F  D  AL   R +IN  F+ N  ET+ ++I++++K+  DV+  
+Sbjct  8   EVLKAFRKLHRTRQLIFAGDDNALALGRNEINSHFRKNMQETNVEEIKKMVKLALDVDKE  67
+
+Query  66  LRTSVIQGIHTDHNTLKL  83
+           LRT+VIQ    D    +L
+Sbjct  68  LRTNVIQAKKKDEGVYEL  85
+
+
+> UniRef90_A0A182I6J8 Uncharacterized protein n=14 Tax=Cellia TaxID=44534 
+RepID=A0A182I6J8_ANOAR
+Length=117
+
+ Score = 59.7 bits (143),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 43/69 (62%), Gaps = 0/69 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            L+ +K L RT+ +VF  D R + AAR +I EEF  NK     K+I+E ++I  DV++ L
+Sbjct  8   ALRWYKILQRTKNEVFSGDFRTISAARQRIREEFVKNKDIKDEKQIKEKIQIAKDVDVEL  67
+
+Query  67  RTSVIQGIH  75
+           R SV+Q + 
+Sbjct  68  RRSVVQAVR  76
+
+
+> UniRef90_A0A1J1HXU3 CLUMA_CG005015, isoform A n=1 Tax=Clunio 
+marinus TaxID=568069 RepID=A0A1J1HXU3_9DIPT
+Length=116
+
+ Score = 58.5 bits (140),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 33/80 (41%), Positives = 47/80 (59%), Gaps = 3/80 (4%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           +L+ FK LHR  QQ F+ D RA+  AR +IN EF+ N +    + I E +KI  DV  +L
+Sbjct  6   ILRAFKILHRIVQQTFEGDKRAIVEARHRINLEFRKNSTIKEQEVIHEKLKIAKDVGDIL  65
+
+Query  67  RTSVIQGI---HTDHNTLKL  83
+           +  V+Q +    +DH  LKL
+Sbjct  66  KHQVVQAVKNPESDHYELKL  85
+
+
+> UniRef90_A0A182LUT1 Uncharacterized protein n=1 Tax=Anopheles 
+culicifacies TaxID=139723 RepID=A0A182LUT1_9DIPT
+Length=152
+
+ Score = 58.5 bits (140),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 46/71 (65%), Gaps = 0/71 (0%)
+
+Query  5   VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+           ++ L+ +K L RT+ +VF  D R + AAR +I EEF  NK     ++I+E ++I  DV++
+Sbjct  8   LQALRWYKILQRTKNEVFSGDFRTISAARQRIREEFIKNKDIKDEQQIKEKIQIAKDVDV  67
+
+Query  65  LLRTSVIQGIH  75
+            LR+SV+Q + 
+Sbjct  68  ELRSSVVQAVR  78
+
+
+> UniRef90_A0A2R5L4G3 Uncharacterized protein (Fragment) n=1 Tax=Ornithodoros 
+turicata TaxID=34597 RepID=A0A2R5L4G3_9ACAR
+Length=89
+
+ Score = 57.0 bits (136),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 33/81 (41%), Positives = 42/81 (52%), Gaps = 2/81 (2%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +K LHRT   VF  D   +++AR K  EEFK N       KIEEL+K   DV  +L
+Sbjct  6   VLSSYKALHRTILFVFDGDVDTIQSARAKAREEFKKNACVKDPDKIEELLKFAGDVRDVL  65
+
+Query  67  RTSVIQGI--HTDHNTLKLVP  85
+           R  ++  I     H  L+L P
+Sbjct  66  RKDIVHAIINEKGHYELQLRP  86
+
+
+> UniRef90_E2APA1 LYR motif-containing protein 7 (Fragment) n=2 
+Tax=Camponotus floridanus TaxID=104421 RepID=E2APA1_CAMFO
+Length=89
+
+ Score = 57.0 bits (136),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 33/79 (42%), Positives = 49/79 (62%), Gaps = 4/79 (5%)
+
+Query  20  QVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQGIHTDHN  79
+           + F+ D  AL+  R KIN+E++  K+ T+   IEEL K   +VE  +RT+VIQ + T   
+Sbjct  2   KTFEGDEHALQVVRKKINDEYRKYKNVTNQAAIEELNKFAQEVEHEVRTTVIQVVETAPG  61
+
+Query  80  TLKLVPR--KDLLVENVPY  96
+             ++ PR   D+LV+NVPY
+Sbjct  62  --RVAPRLTPDVLVDNVPY  78
+
+
+> UniRef90_A0A068SCL0 Uncharacterized protein n=2 Tax=Lichtheimia 
+TaxID=688353 RepID=A0A068SCL0_9FUNG
+Length=125
+
+ Score = 56.2 bits (134),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 31/82 (38%), Positives = 49/82 (60%), Gaps = 0/82 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            +  ++ L RT++QVF  D RA++AA+ + +  F   K E++   +EE +K+   V  LL
+Sbjct  12  AIAAYRNLLRTQRQVFGEDIRAIQAAKKETHSRFMQYKDESNVDVLEEKLKLADQVITLL  71
+
+Query  67  RTSVIQGIHTDHNTLKLVPRKD  88
+           R +V+QGI  D NT +L   KD
+Sbjct  72  RHNVVQGIPKDDNTFELRITKD  93
+
+
+> UniRef90_A0A369RYY8 Complex III assembly factor LYRM7 n=1 Tax=Trichoplax 
+sp. H2 TaxID=287889 RepID=A0A369RYY8_9METZ
+Length=107
+
+ Score = 55.5 bits (132),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 32/93 (34%), Positives = 55/93 (59%), Gaps = 1/93 (1%)
+
+Query  5    VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVEL  64
+            +KV+ L+++L+RTRQ++F  D  AL  +  K+   F  NK+E   +KI+ L+K+G +V  
+Sbjct  10   LKVVGLYRSLYRTRQELFHGDQVALTVSLQKLRHGFLENKNEADLEKIKNLIKLGEEVNY  69
+
+Query  65   LLRTSVIQGIHTDHNTLKLVPRKD-LLVENVPY  96
+            LL+   +Q    +    ++  RKD  L++N  Y
+Sbjct  70   LLKHKTVQCQLNNTGNYEMKIRKDTTLLDNAVY  102
+
+
+> UniRef90_A0A1S8X458 Uncharacterized protein n=1 Tax=Opisthorchis 
+viverrini TaxID=6198 RepID=A0A1S8X458_9TREM
+Length=61
+
+ Score = 53.1 bits (126),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  29  LEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQ  72
+           L AA+ +I  EF+ N++ T S+KIEEL+K G DVE+LLRT+VIQ
+Sbjct  3   LTAAKERIRAEFRANQAVTDSQKIEELLKYGEDVEMLLRTTVIQ  46
+
+
+> UniRef90_L8GP62 LYR motifcontaining protein 7, putative n=1 Tax=Acanthamoeba 
+castellanii str. Neff TaxID=1257118 RepID=L8GP62_ACACA
+Length=104
+
+ Score = 54.3 bits (129),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 31/100 (31%), Positives = 55/100 (55%), Gaps = 3/100 (3%)
+
+Query  1   MGRAVKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGS  60
+           M R+ + L++++ L RT+  VF  DA A E AR  I +EF+ ++    +K+I++L+  G+
+Sbjct  1   MQRSQRALKVYRDLLRTQHTVFSGDALAQERARSLIRQEFEAHRGVQDAKEIDDLIARGN  60
+
+Query  61  DVELLLRTSVIQGIHTDHNT--LKLVPRKDLL-VENVPYC  97
+           D    +R  V+Q +  D     +KL P    +  ++ P C
+Sbjct  61  DTIAYVRGHVVQAVKNDRGNWEMKLRPENKFIKSKDFPMC  100
+
+
+> UniRef90_E2B568 LYR motif-containing protein 7 n=1 Tax=Harpegnathos 
+saltator TaxID=610380 RepID=E2B568_HARSA
+Length=118
+
+ Score = 53.1 bits (126),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/68 (44%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  31  AARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQGIHTDHNTLKLVPRKDLL  90
+             R KINEE++  KS T+   IEEL K   +VE  +RT+VIQ + T    ++L    D+L
+Sbjct  27  VVRNKINEEYRKYKSVTNKAAIEELNKFAQEVEHEVRTTVIQVVETTPGRVELRLTPDVL  86
+
+Query  91  VENVPYCD  98
+           ++NVPY D
+Sbjct  87  LDNVPYKD  94
+
+
+> UniRef90_R7UFC1 Uncharacterized protein n=1 Tax=Capitella teleta 
+TaxID=283909 RepID=R7UFC1_CAPTE
+Length=137
+
+ Score = 53.1 bits (126),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 27/67 (40%), Positives = 40/67 (60%), Gaps = 0/67 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+           VL  +K LHRTR  VF  D  AL+A R KINE++  NK+    ++I +L++   +    +
+Sbjct  22  VLASYKALHRTRLAVFSGDQVALQAGRDKINEQYAKNKTLQDEEEIAKLVQGAEEASEFI  81
+
+Query  67  RTSVIQG  73
+           R SV+Q 
+Sbjct  82  RKSVVQA  88
+
+
+> UniRef90_A0A2R7VX97 Uncharacterized protein n=1 Tax=Oncopeltus 
+fasciatus TaxID=7536 RepID=A0A2R7VX97_ONCFA
+Length=127
+
+ Score = 52.0 bits (123),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 26/50 (52%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  5    VKVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEE  54
+            V+VLQ FKTLHR R  VF+ D + L+  R KINEEFK NK+      I +
+Sbjct  77   VEVLQAFKTLHRARLTVFRGDEKVLKDCRRKINEEFKKNKAVVDPSSIHD  126
+
+
+> UniRef90_A0A1V9XYG0 LYR motif-containing protein 7-like n=1 Tax=Tropilaelaps 
+mercedesae TaxID=418985 RepID=A0A1V9XYG0_9ACAR
+Length=127
+
+ Score = 51.2 bits (121),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 42/65 (65%), Gaps = 0/65 (0%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +V+  FK+L RT + VF  DA A E AR +I  EF  ++  T   +I +L+K+G DV+L 
+Sbjct  6   EVINCFKSLLRTARTVFHQDATAQEKARQQIRMEFLKHRGLTDPAEIAKLVKLGDDVKLE  65
+
+Query  66  LRTSV  70
+           L+TSV
+Sbjct  66  LQTSV  70
+
+
+> UniRef90_A0A3M6U419 Uncharacterized protein n=1 Tax=Pocillopora 
+damicornis TaxID=46731 RepID=A0A3M6U419_9CNID
+Length=193
+
+ Score = 51.6 bits (122),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 31/91 (34%), Positives = 51/91 (56%), Gaps = 5/91 (5%)
+
+Query  19   QQVFKN--DARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLLRTSVIQGIHT  76
+            Q+ F+N  D+  LEA + +I  EF  +K+E    KI EL+++    E +LR +++QG+ T
+Sbjct  69   QEKFQNLKDSSKLEAGKQRIRTEFLKHKNEIDPAKIAELIQMAEGAEKVLRCNIVQGVQT  128
+
+Query  77   DHNTLKLVPRKDLLVEN---VPYCDAPTQKQ  104
+            D+ T +L   +D  ++N    PY      KQ
+Sbjct  129  DNGTFRLRITEDTEIQNNAPRPYTGLNHNKQ  159
+
+
+> UniRef90_A0A1X2HYX1 Uncharacterized protein n=1 Tax=Absidia repens 
+TaxID=90262 RepID=A0A1X2HYX1_9FUNG
+Length=128
+
+ Score = 48.1 bits (113),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/82 (33%), Positives = 48/82 (59%), Gaps = 0/82 (0%)
+
+Query  7   VLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELLL  66
+            +  ++ L +T++QVF ND RA++AA+ + +  F   K ET++  ++E + + + V  LL
+Sbjct  10  AITAYRQLLKTQRQVFGNDLRAIQAAQKETHARFMQFKDETNTDILDEKLALANQVATLL  69
+
+Query  67  RTSVIQGIHTDHNTLKLVPRKD  88
+           + +V+QG   D    KL   KD
+Sbjct  70  KQNVVQGESKDGERFKLNITKD  91
+
+
+> UniRef90_A0A0M9VMQ6 Uncharacterized protein n=1 Tax=Malassezia 
+pachydermatis TaxID=77020 RepID=A0A0M9VMQ6_9BASI
+Length=261
+
+ Score = 39.3 bits (90),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 30/80 (38%), Positives = 49/80 (61%), Gaps = 2/80 (3%)
+
+Query  6   KVLQLFKTLHRTRQQVFKNDARALEAARIKINEEFKNNKSETSSKKIEELMKIGSDVELL  65
+           +   L+++L RT +QVF++DARA+ AAR +    F   K E  + KI+E +++G  V  +
+Sbjct  12  RATALYRSLLRTTRQVFRDDARAIAAARDETRRRFAEAKHEKDATKIDEGLEMGEQVTHM  71
+
+Query  66  LRTSVIQGIHT--DHNTLKL  83
+           L+ +V+QG+    D  T KL
+Sbjct  72  LKHNVVQGVANPEDERTYKL  91
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821853
+
+
+  Database: isar.db.95
+    Posted date:  Jun 12, 2019  5:32 PM
+  Number of letters in database: 19,751
+  Number of sequences in database:  146
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

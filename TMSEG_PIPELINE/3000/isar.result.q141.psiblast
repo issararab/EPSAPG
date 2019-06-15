@@ -1,0 +1,3922 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.141
+           404 sequences; 46,435 total letters
+
+Results from round 1
+
+
+Query= P22289|3cx5I|QCR9_YEAST 0.8636363636363636
+
+Length=66
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P22289 Cytochrome b-c1 complex subunit 9 n=8 Tax=Sacch...  134     4e-46
+  UniRef90_G0V6Z7 Uncharacterized protein n=1 Tax=Naumovozyma cas...  109     3e-36
+  UniRef90_G0W9P6 Uncharacterized protein n=1 Tax=Naumovozyma dai...  107     3e-35
+  UniRef90_Q75F73 AAL145Wp n=2 Tax=Saccharomycetaceae TaxID=4893 ...  106     7e-35
+  UniRef90_W0T8X6 C reductase complex n=1 Tax=Kluyveromyces marxi...  102     9e-33
+  UniRef90_A0A1E5RGQ1 Cytochrome b-c1 complex subunit 9 n=1 Tax=H...  100     1e-32
+  UniRef90_Q6FRE0 Uncharacterized protein n=2 Tax=Candida glabrat...  100     2e-32
+  UniRef90_A0A1X7R6T0 Similar to Saccharomyces cerevisiae YGR183C...  99.0    5e-32
+  UniRef90_J7R9X1 Uncharacterized protein n=1 Tax=Kazachstania na...  97.8    2e-31
+  UniRef90_H2ATX5 Uncharacterized protein n=1 Tax=Kazachstania af...  97.4    2e-31
+  UniRef90_C5DCK0 KLTH0B03674p n=1 Tax=Lachancea thermotolerans (...  96.3    6e-31
+  UniRef90_A7TFK7 Uncharacterized protein n=1 Tax=Vanderwaltozyma...  95.9    8e-31
+  UniRef90_A0A0P1KQX0 LAQU0S05e00958g1_1 n=1 Tax=Lachancea quebec...  94.4    3e-30
+  UniRef90_A0A1G4KG35 LAMI_0H08482g1_1 n=1 Tax=Lachancea mirantin...  94.0    5e-30
+  UniRef90_Q6CJX2 Cytochrome b-c1 complex subunit 9 n=2 Tax=Kluyv...  93.6    7e-30
+  UniRef90_A0A109V0G1 HHR029Wp n=1 Tax=Eremothecium sinecaudum Ta...  93.2    1e-29
+  UniRef90_G8ZVN9 Uncharacterized protein n=1 Tax=Torulaspora del...  92.4    2e-29
+  UniRef90_I2H1Z9 Uncharacterized protein n=1 Tax=Tetrapisispora ...  91.7    5e-29
+  UniRef90_A0A1G4JZT2 LANO_0E14048g1_1 n=2 Tax=Lachancea TaxID=30...  90.9    1e-28
+  UniRef90_C5DRS1 ZYRO0B10714p n=3 Tax=Zygosaccharomyces rouxii T...  90.5    1e-28
+  UniRef90_A0A0C7MYC7 LALA0S06e03158g1_1 n=2 Tax=Lachancea TaxID=...  90.5    1e-28
+  UniRef90_A0A1G4J7G5 LADA_0D09846g1_1 n=1 Tax=Lachancea dasiensi...  90.1    2e-28
+  UniRef90_A0A1E3QSI1 Uncharacterized protein n=1 Tax=Babjeviella...  90.1    2e-28
+  UniRef90_W1QEK1 Cytochrome b-c1 complex subunit n=1 Tax=Ogataea...  89.7    2e-28
+  UniRef90_A0A0A8LB04 WGS project CCBQ000000000 data, contig 0001...  89.0    6e-28
+  UniRef90_A0A1B7SFW8 Uncharacterized protein n=1 Tax=Ogataea pol...  89.0    7e-28
+  UniRef90_A0A1G4M768 LAFE_0A06656g1_1 n=1 Tax=Lachancea fermenta...  88.2    1e-27
+  UniRef90_G8JVV3 Uncharacterized protein n=1 Tax=Eremothecium cy...  87.4    2e-27
+  UniRef90_A0A1E3NVW7 Uncharacterized protein (Fragment) n=1 Tax=...  87.0    3e-27
+  UniRef90_A0A0H5CDT8 Uncharacterized protein n=2 Tax=Cyberlindne...  87.4    4e-27
+  UniRef90_G8BU26 Uncharacterized protein n=1 Tax=Tetrapisispora ...  86.7    4e-27
+  UniRef90_A0A212M2X7 Related to Cytochrome b-c1 complex subunit ...  86.7    5e-27
+  UniRef90_A0A0A8LD52 WGS project CCBQ000000000 data, contig 0001...  92.4    2e-26
+  UniRef90_A0A1E4SZD0 Uncharacterized protein n=1 Tax=[Candida] a...  90.9    7e-26
+  UniRef90_A0A1D2VE24 Uncharacterized protein n=1 Tax=Ascoidea ru...  83.6    9e-26
+  UniRef90_A0A1E4SFX2 Ubiquinol-cytochrome C reductase (Fragment)...  82.0    2e-25
+  UniRef90_A0A1L0DYU4 CIC11C00000001236 n=1 Tax=[Candida] interme...  80.9    1e-24
+  UniRef90_A0A1L0DXD0 CIC11C00000005879 n=1 Tax=[Candida] interme...  80.1    1e-24
+  UniRef90_K0KIJ6 Uncharacterized protein n=1 Tax=Wickerhamomyces...  80.1    2e-24
+  UniRef90_W6MML9 Uncharacterized protein n=1 Tax=Kuraishia capsu...  78.2    1e-23
+  UniRef90_A0A1V2LTL1 Cytochrome b-c1 complex subunit 9 n=2 Tax=P...  77.4    2e-23
+  UniRef90_I2K026 Subunit of the ubiquinol-cytochrome c reductase...  77.0    3e-23
+  UniRef90_M3J1X1 Subunit of the ubiquinol-cytochrome c reductase...  74.7    2e-22
+  UniRef90_A0A1A6A9S7 Ubiquinol-cytochrome c reductase subunit 9 ...  74.7    3e-22
+  UniRef90_F4SA11 Uncharacterized protein n=1 Tax=Melampsora lari...  74.3    3e-22
+  UniRef90_A0A1E5S0Z9 Cytochrome b-c1 complex subunit 9 n=1 Tax=H...  74.7    4e-22
+  UniRef90_A0A1E4RPL6 Uncharacterized protein n=1 Tax=Hyphopichia...  73.9    4e-22
+  UniRef90_C5M2H3 Uncharacterized protein n=1 Tax=Candida tropica...  73.2    6e-22
+  UniRef90_A0A2V1AZY3 Tyrosine--tRNA ligase n=2 Tax=Clavispora/Ca...  79.7    7e-22
+  UniRef90_A0A1B9GE63 Ubiquinol-cytochrome c reductase subunit 9 ...  72.8    1e-21
+  UniRef90_W0TYU6 DEHA2G18524p n=1 Tax=Debaryomyces hansenii (str...  72.4    1e-21
+  UniRef90_A0A061AZ64 CYFA0S05e03312g1_1 n=2 Tax=Cyberlindnera fa...  72.4    2e-21
+  UniRef90_A0A2P7YS30 Tyrosine--tRNA ligase n=1 Tax=[Candida] pse...  78.6    2e-21
+  UniRef90_A0A316V253 Ubiquinol-cytochrome C reductase n=1 Tax=Me...  72.0    3e-21
+  UniRef90_A0A316YY44 Cytochrome b-c1 complex subunit 9 n=1 Tax=A...  71.6    4e-21
+  UniRef90_A0A1Q2YDF7 Uncharacterized protein n=1 Tax=Pichia memb...  71.2    5e-21
+  UniRef90_A0A1E3NN82 Uncharacterized protein n=1 Tax=Pichia memb...  71.2    5e-21
+  UniRef90_A0A316UPZ3 Ubiquinol-cytochrome C reductase n=1 Tax=Ja...  70.9    7e-21
+  UniRef90_A0A0C2Y7L0 Uncharacterized protein n=1 Tax=Hebeloma cy...  70.5    8e-21
+  UniRef90_G3B6E2 Ubiquinol-cytochrome C reductase n=1 Tax=Candid...  69.7    2e-20
+  UniRef90_A0A1B7TJG6 Ubiquinol-cytochrome C reductase n=1 Tax=Ha...  69.3    3e-20
+  UniRef90_K5XBK2 QCR9 subunit 9 of the ubiquinol cytochrome-c re...  68.6    5e-20
+  UniRef90_A0A1E3K2F2 Ubiquinol-cytochrome c reductase subunit 9 ...  70.1    5e-20
+  UniRef90_A0A2H3C7U2 Ubiquinol-cytochrome C reductase n=3 Tax=Ar...  68.6    5e-20
+  UniRef90_A0A316W8A9 Putative ubiquinol-cytochrome c reductase c...  68.6    6e-20
+  UniRef90_A0A165FR97 Uncharacterized protein n=1 Tax=Calocera co...  68.6    8e-20
+  UniRef90_N1PJE8 Uncharacterized protein n=1 Tax=Dothistroma sep...  68.2    9e-20
+  UniRef90_G8YFA5 Piso0_002531 protein n=2 Tax=Pichia sorbitophil...  67.8    1e-19
+  UniRef90_A0A066WGQ0 Putative QCR9-ubiquinol--cytochrome-c reduc...  67.4    2e-19
+  UniRef90_A0A316ULU0 Putative QCR9-ubiquinol--cytochrome-c reduc...  67.0    3e-19
+  UniRef90_A0A0M8MKV2 Ubiquinol-cytochrome c reductase uqcrx qcr9...  66.6    3e-19
+  UniRef90_A0A1L9PL89 Uncharacterized protein n=2 Tax=Aspergillus...  66.2    4e-19
+  UniRef90_A0A139HFN8 Uncharacterized protein n=2 Tax=Mycosphaere...  71.6    5e-19
+  UniRef90_A0A0D1BVH3 Chromosome 21, whole genome shotgun sequenc...  65.5    7e-19
+  UniRef90_A0A1Y1U822 Putative ubiquinol-cytochrome c reductase c...  65.5    8e-19
+  UniRef90_E6REC5 Ubiquinol-cytochrome c reductase complex 7.3 kD...  65.5    8e-19
+  UniRef90_A0A1E3HWD1 Uncharacterized protein n=2 Tax=Cryptococcu...  65.5    1e-18
+  UniRef90_A0A099P324 Uncharacterized protein n=2 Tax=Pichia kudr...  65.5    1e-18
+  UniRef90_A0A1M8A9R8 Similar to S.cerevisiae protein QCR9 (Subun...  65.1    1e-18
+  UniRef90_A0A1E4TUS8 Uncharacterized protein (Fragment) n=1 Tax=...  64.3    2e-18
+  UniRef90_Q5KCZ3 Ubiquinol-cytochrome c reductase complex 7.3 kD...  64.7    2e-18
+  UniRef90_A0A2T0FPH6 Cytochrome b-c1 complex subunit 9 n=1 Tax=W...  64.3    3e-18
+  UniRef90_A0A1Y2F8W4 Putative QCR9-ubiquinol--cytochrome-c reduc...  63.9    4e-18
+  UniRef90_D5GPV3 Uncharacterized protein n=3 Tax=Tuber TaxID=360...  63.9    4e-18
+  UniRef90_A1CT97 UQCRX/QCR9 like ubiquinol-cytochrome C reductas...  63.9    5e-18
+  UniRef90_A0A1Y2AYT6 Putative QCR9-ubiquinol--cytochrome-c reduc...  63.5    5e-18
+  UniRef90_A0A2T3B0I7 Uncharacterized protein n=1 Tax=Amorphothec...  63.5    6e-18
+  UniRef90_A0A3N4KHH6 Ubiquinol-cytochrome C reductase n=1 Tax=Mo...  63.2    7e-18
+  UniRef90_A0A2H3IJT9 Uncharacterized protein n=1 Tax=Penicillium...  64.3    7e-18
+  UniRef90_S7ZF74 Uncharacterized protein n=2 Tax=Penicillium Tax...  63.2    7e-18
+  UniRef90_A0A2J6PVN8 Ubiquinol-cytochrome C reductase n=1 Tax=Pe...  63.2    9e-18
+  UniRef90_B6QA61 Ubiquinol-cytochrome C reductase complex, subun...  63.2    9e-18
+  UniRef90_A0A0D0B398 Unplaced genomic scaffold CY34scaffold_59, ...  62.8    1e-17
+  UniRef90_K1VT42 Ubiquinol-cytochrome c reductase complex 7.3 kD...  62.8    1e-17
+  UniRef90_A0A0U5GVS0 Putative UQCRX/QCR9 like ubiquinol-cytochro...  62.8    1e-17
+  UniRef90_A0A317XI62 Putative QCR9-ubiquinol--cytochrome-c reduc...  62.8    1e-17
+  UniRef90_A0A194S8K9 Uncharacterized protein n=1 Tax=Rhodotorula...  62.4    1e-17
+  UniRef90_A0A0H2RP48 Ubiquinol-cytochrome C reductase n=1 Tax=Sc...  62.4    1e-17
+  UniRef90_A0A1L9SEB8 Uncharacterized protein n=1 Tax=Penicilliop...  62.4    2e-17
+  UniRef90_A0A0D2P0R3 Uncharacterized protein n=1 Tax=Hypholoma s...  62.0    2e-17
+  UniRef90_A0A2C5ZIH1 Uncharacterized protein n=1 Tax=Cordyceps s...  62.0    2e-17
+  UniRef90_A0A1C7MHG8 Cytochrome b-c1 complex subunit 9 n=1 Tax=G...  62.0    2e-17
+  UniRef90_A0A0D7A564 Ubiquinol-cytochrome C reductase (Fragment)...  62.0    2e-17
+  UniRef90_A0A316Z936 Putative QCR9-ubiquinol--cytochrome-c reduc...  62.0    2e-17
+  UniRef90_A0A1D8PLP3 Ubiquinol--cytochrome-c reductase subunit 9...  62.0    2e-17
+  UniRef90_A0A1L9X2X3 Uncharacterized protein n=3 Tax=Aspergillus...  62.0    3e-17
+  UniRef90_A0A1B7N2S7 Ubiquinol-cytochrome C reductase UQCRX/QCR9...  61.6    3e-17
+  UniRef90_A0A0J9XJL8 Similar to Saccharomyces cerevisiae YGR183C...  61.6    3e-17
+  UniRef90_A0A3N4J5P5 Uncharacterized protein n=1 Tax=Choiromyces...  63.5    3e-17
+  UniRef90_G7E5L5 Uncharacterized protein n=1 Tax=Mixia osmundae ...  61.2    3e-17
+  UniRef90_H6C9U1 Ubiquinol-cytochrome c reductase subunit 9 n=1 ...  61.6    3e-17
+  UniRef90_I4YED9 Ubiquinol-cytochrome C reductase n=1 Tax=Wallem...  61.6    4e-17
+  UniRef90_A0A397TC74 Cytochrome b-c1 complex subunit 9 (Fragment...  60.8    5e-17
+  UniRef90_A0A238FEA7 BQ2448_2446 protein n=2 Tax=Microbotryum Ta...  60.8    6e-17
+  UniRef90_S8FX49 Ubiquinol-cytochrome C reductase UQCRX/QCR9-lik...  60.8    6e-17
+  UniRef90_R7SC80 Uncharacterized protein (Fragment) n=1 Tax=Trem...  60.5    6e-17
+  UniRef90_A0A194UY59 Cytochrome b-c1 complex subunit 9 n=2 Tax=V...  60.8    7e-17
+  UniRef90_B0CUV2 Predicted protein n=2 Tax=Laccaria TaxID=29882 ...  60.5    7e-17
+  UniRef90_A0A0L0V3Z5 Uncharacterized protein n=2 Tax=Puccinia st...  60.5    7e-17
+  UniRef90_U9UK30 Ubiquinol-cytochrome C reductase n=5 Tax=Rhizop...  60.8    8e-17
+  UniRef90_A0A093XFW5 Cytochrome b-c1 complex subunit 9 n=1 Tax=T...  61.2    8e-17
+  UniRef90_A0A067NLZ2 QCR9, subunit of the ubiquinol cytochrome-c...  60.5    8e-17
+  UniRef90_A0A167M3A1 Ubiquinol-cytochrome C reductase n=1 Tax=Ca...  60.5    8e-17
+  UniRef90_U5HES0 Uncharacterized protein n=2 Tax=Microbotryum Ta...  61.6    9e-17
+  UniRef90_A0A1B8E5P5 Uncharacterized protein n=1 Tax=Pseudogymno...  60.5    9e-17
+  UniRef90_A0A0D1ZNQ6 Uncharacterized protein n=1 Tax=Exophiala s...  60.5    1e-16
+  UniRef90_A0A2H3JGQ6 Ubiquinol-cytochrome C reductase UQCRX/QCR9...  60.1    1e-16
+  UniRef90_M5FQJ9 Ubiquinol-cytochrome c reductase complex 7.3 kD...  60.5    1e-16
+  UniRef90_A0A2Z6RYU6 Uncharacterized protein n=1 Tax=Rhizophagus...  60.5    1e-16
+  UniRef90_A0A0C4EMP8 Uncharacterized protein n=1 Tax=Puccinia tr...  60.5    1e-16
+  UniRef90_A0A364KWW5 Uncharacterized protein n=1 Tax=Talaromyces...  60.5    1e-16
+  UniRef90_A0A2D3UYQ4 Uncharacterized protein n=1 Tax=Ramularia c...  60.1    1e-16
+  UniRef90_A0A1Y2DJI8 Cytochrome b-c1 complex subunit 9 n=1 Tax=L...  60.1    1e-16
+  UniRef90_A0A1X2GYL3 Ubiquinol-cytochrome C reductase n=1 Tax=He...  60.1    1e-16
+  UniRef90_M7XMJ5 Ubiquinol-cytochrome c reductase subunit 9 n=2 ...  60.1    1e-16
+  UniRef90_A0A202GBL9 Putative ubiquinol--cytochrome-c reductase ...  60.1    1e-16
+  UniRef90_G2Q0D2 Uncharacterized protein n=1 Tax=Myceliophthora ...  59.7    1e-16
+  UniRef90_A0A0C3S8U6 Uncharacterized protein n=1 Tax=Phlebiopsis...  59.7    2e-16
+  UniRef90_A0A2A9NQK6 Uncharacterized protein (Fragment) n=1 Tax=...  59.7    2e-16
+  UniRef90_A0A2V5JI84 Ubiquinol-cytochrome C reductase n=1 Tax=As...  60.8    2e-16
+  UniRef90_G4MQ00 Uncharacterized protein n=1 Tax=Magnaporthe ory...  59.7    2e-16
+  UniRef90_A0A1E3JQJ4 Ubiquinol-cytochrome c reductase subunit 9 ...  59.7    2e-16
+  UniRef90_A0A317VZ20 Ubiquinol-cytochrome C reductase n=1 Tax=As...  60.8    2e-16
+  UniRef90_A0A3A2ZUS4 Ubiquinol-cytochrome C reductase n=1 Tax=As...  62.0    2e-16
+  UniRef90_L8G4I9 Uncharacterized protein n=4 Tax=Pseudogymnoascu...  59.7    2e-16
+  UniRef90_A0A318Z325 UQCRX/QCR9 like ubiquinol-cytochrome C redu...  59.3    2e-16
+  UniRef90_A0A0D6EIQ9 SPOSA6832_01435-mRNA-1:cds n=1 Tax=Sporidio...  59.3    2e-16
+  UniRef90_A0A371DL21 Ubiquinol-cytochrome C reductase UQCRX/QCR9...  59.3    3e-16
+  UniRef90_J4G867 Uncharacterized protein n=1 Tax=Fibroporia radi...  58.9    3e-16
+  UniRef90_A0A0C2XFW7 Uncharacterized protein n=1 Tax=Amanita mus...  58.9    3e-16
+  UniRef90_C5PH90 Ubiquinol-cytochrome C reductase, putative n=6 ...  58.9    4e-16
+  UniRef90_A0A165R378 Ubiquinol-cytochrome C reductase n=1 Tax=Ex...  58.9    4e-16
+  UniRef90_A0A1E4RNX9 Uncharacterized protein n=1 Tax=Hyphopichia...  58.5    4e-16
+  UniRef90_J3P7W3 Uncharacterized protein n=1 Tax=Gaeumannomyces ...  59.3    4e-16
+  UniRef90_A8NWN4 Uncharacterized protein n=1 Tax=Coprinopsis cin...  58.5    4e-16
+  UniRef90_A0A0W0FCE5 Uncharacterized protein n=2 Tax=Moniliophth...  58.5    4e-16
+  UniRef90_A0A369JUY3 Cytochrome b-c1 complex subunit 9 n=1 Tax=H...  58.9    4e-16
+  UniRef90_A0A165SYB3 Ubiquinol-cytochrome C reductase n=1 Tax=Da...  58.5    4e-16
+  UniRef90_A0A1L9V1A4 Uncharacterized protein n=4 Tax=Aspergillus...  58.9    5e-16
+  UniRef90_W9YTL1 Uncharacterized protein (Fragment) n=1 Tax=Capr...  58.9    5e-16
+  UniRef90_A0A3F3RU15 Uncharacterized protein n=2 Tax=Aspergillus...  58.5    5e-16
+  UniRef90_A0A2G8SSW3 Uncharacterized protein n=1 Tax=Ganoderma s...  58.2    6e-16
+  UniRef90_A0A125PJ56 Ubiquinol-cytochrome C reductase n=1 Tax=Rh...  58.2    6e-16
+  UniRef90_A0A1W5CZE9 Uqcrx qcr9 like ubiquinol-cytochrome c redu...  58.5    6e-16
+  UniRef90_A0A0C3C2L0 Uncharacterized protein n=1 Tax=Piloderma c...  58.2    7e-16
+  UniRef90_A0A167Y033 Protoporphyrinogen oxidase n=1 Tax=Ascospha...  62.4    7e-16
+  UniRef90_A0A1B8FZ70 Uncharacterized protein n=1 Tax=Pseudogymno...  58.2    7e-16
+  UniRef90_A0A2I2GR77 Uncharacterized protein n=1 Tax=Aspergillus...  58.2    8e-16
+  UniRef90_A0A1C7N082 Cytochrome b-c1 complex subunit 9 n=1 Tax=C...  58.2    8e-16
+  UniRef90_Q5B6A8 Uncharacterized protein n=2 Tax=Emericella nidu...  58.9    9e-16
+  UniRef90_A0A1B8CC82 Uncharacterized protein n=4 Tax=Pseudogymno...  58.5    1e-15
+  UniRef90_A0A367JAA5 Uncharacterized protein n=4 Tax=Rhizopus Ta...  57.8    1e-15
+  UniRef90_A0A319D5K4 UQCRX/QCR9 like ubiquinol-cytochrome C redu...  57.8    1e-15
+  UniRef90_A0A1X6MVQ2 Uncharacterized protein n=1 Tax=Postia plac...  57.4    1e-15
+  UniRef90_W9YEE3 Ubiquinol-cytochrome c reductase subunit 9 n=1 ...  57.8    1e-15
+  UniRef90_A0A1M3T2H9 Uncharacterized protein (Fragment) n=2 Tax=...  57.8    1e-15
+  UniRef90_A0A093X767 Uncharacterized protein n=3 Tax=Pseudogymno...  61.6    1e-15
+  UniRef90_A0A094GWK2 Uncharacterized protein n=3 Tax=Pseudogymno...  61.6    2e-15
+  UniRef90_A0A0C3KU27 Uncharacterized protein n=2 Tax=Pisolithus ...  57.4    2e-15
+  UniRef90_A0A229XBK7 Uncharacterized protein n=1 Tax=Neosartorya...  58.5    2e-15
+  UniRef90_A0A2K1QGL0 Uncharacterized protein n=1 Tax=Sphaceloma ...  57.4    2e-15
+  UniRef90_S2JHF2 Ubiquinol-cytochrome c reductase subunit 9 n=4 ...  57.0    2e-15
+  UniRef90_A0A2J5HJR8 UQCRX/QCR9 like ubiquinol-cytochrome C redu...  57.0    2e-15
+  UniRef90_A0A175WF90 Cytochrome b-c1 complex subunit 9 n=1 Tax=M...  57.4    2e-15
+  UniRef90_A0A1S9RX68 Putative ubiquinol cytochrome-c reductase s...  58.2    2e-15
+  UniRef90_A0A165TQF1 Ubiquinol-cytochrome C reductase n=1 Tax=Ne...  57.0    2e-15
+  UniRef90_A0A1V8TJG5 Uncharacterized protein n=2 Tax=Rachiclados...  57.0    2e-15
+  UniRef90_A0A397IGG8 Uncharacterized protein n=1 Tax=Diversispor...  57.0    3e-15
+  UniRef90_R4XD02 Uncharacterized protein n=1 Tax=Taphrina deform...  56.6    3e-15
+  UniRef90_A0A2T3AMR6 Ubiquinol-cytochrome C reductase n=1 Tax=Co...  56.6    3e-15
+  UniRef90_A0A094G8D9 Uncharacterized protein n=8 Tax=Pseudogymno...  60.5    3e-15
+  UniRef90_G2RE10 Uncharacterized protein n=1 Tax=Thielavia terre...  57.0    4e-15
+  UniRef90_A0A067QD77 Uncharacterized protein n=1 Tax=Jaapia argi...  56.2    4e-15
+  UniRef90_A0A1L7WBR8 Related to ubiquinol-cytochrome C reductase...  56.2    4e-15
+  UniRef90_I1CPD8 Uncharacterized protein n=1 Tax=Rhizopus delema...  56.2    5e-15
+  UniRef90_A0A017SDK4 Putative ubiquinol-cytochrome C reductase c...  55.8    5e-15
+  UniRef90_A0A1A0HEA3 Ubiquinol-cytochrome C reductase (Fragment)...  55.8    5e-15
+  UniRef90_A0A0D0DE17 Unplaced genomic scaffold scaffold_208, who...  55.8    5e-15
+  UniRef90_A0A0U1M759 Uncharacterized protein n=1 Tax=Talaromyces...  57.8    5e-15
+  UniRef90_A0A0G4PRE1 Ubiquinol-cytochrome C reductase, UQCRX/QCR...  56.2    5e-15
+  UniRef90_I1BYU4 Uncharacterized protein n=1 Tax=Rhizopus delema...  55.8    5e-15
+  UniRef90_R9ABZ8 Cytochrome b-c1 complex subunit 9 n=1 Tax=Walle...  59.7    6e-15
+  UniRef90_A0A3D8T5C3 Putative UQCRX like ubiquinol-cytochrome C ...  56.2    6e-15
+  UniRef90_A0A1B9I5W1 Ubiquinol-cytochrome c reductase subunit 9 ...  55.8    6e-15
+  UniRef90_A0A177C7V8 Ubiquinol-cytochrome c reductase complex 7....  55.8    6e-15
+  UniRef90_A0A1X2GZR9 Cytochrome b-c1 complex subunit 9 n=1 Tax=S...  55.5    6e-15
+  UniRef90_A0A2I1CD41 Putative ubiquinol cytochrome-c reductase s...  55.5    7e-15
+  UniRef90_A0A3N4LLX3 Ubiquinol-cytochrome C reductase n=1 Tax=Te...  55.5    7e-15
+  UniRef90_A0A0D2AEP2 Uncharacterized protein n=1 Tax=Verruconis ...  55.5    7e-15
+  UniRef90_A0A068S2E7 Uncharacterized protein n=2 Tax=Lichtheimia...  55.5    8e-15
+  UniRef90_A0A1Y2U465 Ubiquinol-cytochrome C reductase n=2 Tax=Hy...  55.5    8e-15
+  UniRef90_A0A3N4HJ27 Ubiquinol-cytochrome C reductase n=1 Tax=As...  55.5    8e-15
+  UniRef90_A0A1X2IMY2 Cytochrome b-c1 complex subunit 9 n=1 Tax=A...  55.5    8e-15
+  UniRef90_A0A2R6NM50 Uncharacterized protein n=1 Tax=Phlebia cen...  55.5    8e-15
+  UniRef90_F2QYZ6 Ubiquinol cytochrome-c reductase complex subuni...  55.5    9e-15
+  UniRef90_A0A2G5HSY3 Uncharacterized protein n=3 Tax=Cercospora ...  55.5    9e-15
+  UniRef90_A0A0D7B5H8 Ubiquinol-cytochrome C reductase UQCRX/QCR9...  55.5    9e-15
+  UniRef90_S3CKB1 Subunit X of cytochrome bc1 complex n=2 Tax=Gla...  56.6    1e-14
+  UniRef90_A0A165ICY5 Ubiquinol-cytochrome C reductase UQCRX/QCR9...  55.1    1e-14
+  UniRef90_A0A3M7A6B9 Uncharacterized protein n=6 Tax=Hortaea wer...  55.1    1e-14
+  UniRef90_A0A0N1H448 Cytochrome b-c1 complex subunit 9 n=1 Tax=P...  55.1    1e-14
+  UniRef90_A0A0C3A2H9 Uncharacterized protein n=1 Tax=Scleroderma...  55.1    1e-14
+  UniRef90_W4KEN5 Uncharacterized protein n=1 Tax=Heterobasidion ...  55.1    1e-14
+  UniRef90_A0A1Y2IC63 Ubiquinol-cytochrome C reductase UQCRX/QCR9...  54.7    1e-14
+  UniRef90_A0A0D2DGK8 Uncharacterized protein n=1 Tax=Exophiala o...  55.1    1e-14
+  UniRef90_A0A367JGJ9 Uncharacterized protein n=1 Tax=Rhizopus st...  54.7    2e-14
+  UniRef90_V5FNW3 Ubiquinol-cytochrome C reductase complex, subun...  56.6    2e-14
+  UniRef90_E4V707 Uncharacterized protein n=8 Tax=Arthrodermatace...  54.7    2e-14
+  UniRef90_G7XAX4 Uncharacterized protein n=9 Tax=Aspergillus Tax...  55.5    2e-14
+  UniRef90_A0A0J5Q2L0 Ubiquinol cytochrome-c reductase subunit 9,...  56.2    2e-14
+  UniRef90_A0A1V1TBJ5 Uncharacterized protein n=1 Tax=fungal sp. ...  54.3    2e-14
+  UniRef90_S7RXI2 Ubiquinol-cytochrome C reductase n=1 Tax=Gloeop...  54.7    2e-14
+  UniRef90_A0A1S8A528 Putative ubiquinol-cytochrome C reductase n...  54.3    2e-14
+  UniRef90_A0A167NJZ7 Ubiquinol-cytochrome c reductase core subun...  54.3    2e-14
+  UniRef90_A0A0B4HR60 E3 ubiquitin-protein ligase ubr11 (Fragment...  55.5    2e-14
+  UniRef90_A0A0F7RZW1 Uncharacterized protein n=1 Tax=Sporisorium...  54.3    2e-14
+  UniRef90_A0A0D2MV21 Ubiquinol:cytochrome c oxidoreductase subun...  54.3    3e-14
+  UniRef90_A0A137P9Z6 Uncharacterized protein n=1 Tax=Conidiobolu...  54.3    3e-14
+  UniRef90_A0A1Y2HQX3 Cytochrome b-c1 complex subunit 9 n=1 Tax=C...  53.9    3e-14
+  UniRef90_W3VHR1 Uncharacterized protein n=1 Tax=Pseudozyma aphi...  54.7    3e-14
+  UniRef90_R7YUM3 Uncharacterized protein n=1 Tax=Coniosporium ap...  54.7    3e-14
+  UniRef90_A0A072PVF2 Ubiquinol-cytochrome c reductase subunit 9 ...  53.9    4e-14
+  UniRef90_A0A1V6TAW5 Uncharacterized protein n=1 Tax=Penicillium...  54.7    4e-14
+  UniRef90_M3AA55 Uncharacterized protein (Fragment) n=1 Tax=Pseu...  53.5    4e-14
+  UniRef90_W6QMI8 Ubiquinol-cytochrome C reductase, UQCRX/QCR9-li...  53.5    4e-14
+  UniRef90_A0A168C171 Ubiquinol-cytochrome C reductase, UQCRX/QCR...  53.1    4e-14
+  UniRef90_C1E8I3 Uncharacterized protein n=1 Tax=Micromonas comm...  53.5    4e-14
+  UniRef90_Q6CG23 YALI0B01540p n=2 Tax=Yarrowia lipolytica TaxID=...  53.9    4e-14
+  UniRef90_F8PR00 Uncharacterized protein (Fragment) n=1 Tax=Serp...  53.5    5e-14
+  UniRef90_M3AZS5 Ubiquinol-cytochrome C reductase n=1 Tax=Sphaer...  53.5    5e-14
+  UniRef90_A0A0D1WS02 Uncharacterized protein n=1 Tax=Exophiala m...  53.5    5e-14
+  UniRef90_A0A2P7ZE71 Uncharacterized protein n=1 Tax=Elsinoe aus...  53.9    5e-14
+  UniRef90_A0A166N3P9 Ubiquinol-cytochrome C reductase n=1 Tax=Fi...  53.5    5e-14
+  UniRef90_A0A194XEH7 Ubiquinol-cytochrome C reductase (Fragment)...  53.1    5e-14
+  UniRef90_A0A067N113 Uncharacterized protein n=1 Tax=Botryobasid...  53.1    5e-14
+  UniRef90_L0PAH6 Uncharacterized protein n=2 Tax=Pneumocystis ji...  53.1    6e-14
+  UniRef90_G0SC94 Putative cytochrome protein n=1 Tax=Chaetomium ...  55.8    7e-14
+  UniRef90_A0A1E3B909 Uncharacterized protein n=1 Tax=Aspergillus...  53.1    7e-14
+  UniRef90_A0A0A2IL27 Uncharacterized protein n=3 Tax=Penicillium...  53.1    7e-14
+  UniRef90_A0A2N5V055 Uncharacterized protein n=3 Tax=Puccinia co...  52.8    9e-14
+  UniRef90_A0A0F8UUN3 Uncharacterized protein n=2 Tax=Aspergillus...  53.9    9e-14
+  UniRef90_W2RUP3 Uncharacterized protein n=1 Tax=Cyphellophora e...  53.5    1e-13
+  UniRef90_A0A0F8V2C5 Uncharacterized protein n=1 Tax=Aspergillus...  53.5    1e-13
+  UniRef90_A0A162VE18 Mitochondrial electron transport, ubiquinol...  52.8    1e-13
+  UniRef90_F8N3H4 Uncharacterized protein n=4 Tax=Neurospora TaxI...  52.4    1e-13
+  UniRef90_A0A0G2HI71 Putative cytochrome b-c1 complex subunit 9 ...  52.8    1e-13
+  UniRef90_A0A165GN10 Ubiquinol-cytochrome C reductase n=1 Tax=Xy...  52.4    1e-13
+  UniRef90_K9GX40 Uncharacterized protein n=5 Tax=Penicillium Tax...  52.4    1e-13
+  UniRef90_L7JR86 Uncharacterized protein n=2 Tax=Magnaporthe ory...  56.2    1e-13
+  UniRef90_A0A0A2V6R5 Uncharacterized protein n=4 Tax=Paracoccidi...  52.4    1e-13
+  UniRef90_A0A1Y2WY66 Uncharacterized protein n=1 Tax=Daldinia sp...  52.4    2e-13
+  UniRef90_A0A267GQS8 Uncharacterized protein (Fragment) n=1 Tax=...  52.4    2e-13
+  UniRef90_A0A0K8LHV0 Cytochrome b-c1 complex subunit 9 n=1 Tax=A...  53.9    2e-13
+  UniRef90_A0A1Y2E352 Cytochrome b-c1 complex subunit 9 n=1 Tax=P...  52.0    2e-13
+  UniRef90_A0A0L0S4I1 Uncharacterized protein n=2 Tax=Allomyces m...  52.0    2e-13
+  UniRef90_A0A164Z438 Ubiquinol-cytochrome C reductase UQCRX/QCR9...  52.0    2e-13
+  UniRef90_G4TSD9 Uncharacterized protein n=1 Tax=Serendipita ind...  52.0    2e-13
+  UniRef90_U4LCU4 Similar to Cytochrome b-c1 complex subunit 9 ac...  53.1    2e-13
+  UniRef90_A0A0U2UPJ5 Cytochrome b-c1 complex subunit 9 n=1 Tax=P...  52.0    2e-13
+  UniRef90_A4S6C9 Uncharacterized protein n=1 Tax=Ostreococcus lu...  52.0    2e-13
+  UniRef90_A0A1E3PMS1 Ubiquinol-cytochrome C reductase (Fragment)...  52.0    2e-13
+  UniRef90_A0A370J606 Glutarate-semialdehyde dehydrogenase n=1 Ta...  52.0    2e-13
+  UniRef90_M2NAC5 Uncharacterized protein n=1 Tax=Baudoinia panam...  52.0    2e-13
+  UniRef90_A0A1D1VXB1 Uncharacterized protein n=1 Tax=Ramazzottiu...  52.4    2e-13
+  UniRef90_A0A162JUP8 Ubiquinol-cytochrome C reductase, UQCRX/QCR...  54.3    2e-13
+  UniRef90_A0A1V6XKG8 Uncharacterized protein n=1 Tax=Penicillium...  52.0    3e-13
+  UniRef90_A0A319B1R4 UQCRX/QCR9 like ubiquinol-cytochrome C redu...  51.6    3e-13
+  UniRef90_A0A177F1L7 Uncharacterized protein n=2 Tax=Fonsecaea T...  52.8    3e-13
+  UniRef90_A0A0L6UN10 Uncharacterized protein n=1 Tax=Puccinia so...  53.1    3e-13
+  UniRef90_A0A060T5W6 ARAD1B14938p n=1 Tax=Blastobotrys adeninivo...  51.2    3e-13
+  UniRef90_N6SV55 Uncharacterized protein (Fragment) n=2 Tax=Dend...  51.2    4e-13
+  UniRef90_A0A2B7X5I9 Uncharacterized protein n=1 Tax=Helicocarpu...  51.2    4e-13
+  UniRef90_A0A0C9UR39 Unplaced genomic scaffold SPHSTscaffold_96,...  50.8    4e-13
+  UniRef90_A0A1Y1YNE2 Ubiquinol-cytochrome C reductase n=1 Tax=Ba...  51.2    5e-13
+  UniRef90_A0A067QTR9 Cytochrome b-c1 complex subunit 9 n=1 Tax=Z...  50.8    5e-13
+  UniRef90_C0NSF9 Uncharacterized protein n=4 Tax=Ajellomyces cap...  50.8    5e-13
+  UniRef90_A0A397H8E9 Uncharacterized protein n=1 Tax=Aspergillus...  52.0    6e-13
+  UniRef90_E0VR61 Ubiquinol-cytochrome c reductase complex 7.2 kD...  50.8    6e-13
+  UniRef90_A0A2T2NFM9 Ubiquinol-cytochrome C reductase n=1 Tax=Co...  52.4    6e-13
+  UniRef90_R7V4F7 Uncharacterized protein n=1 Tax=Capitella telet...  50.4    8e-13
+  UniRef90_A0A1D9Q0C1 Uncharacterized protein n=4 Tax=Sclerotinia...  50.4    8e-13
+  UniRef90_T5ADI2 Ubiquinol-cytochrome C reductase, UQCRX/QCR9-li...  50.4    8e-13
+  UniRef90_A0A1V9XK89 Mitochondrial ubiquinol cytochrome c reduct...  50.8    9e-13
+  UniRef90_A0A2R7WGB1 Uncharacterized protein n=1 Tax=Oncopeltus ...  50.1    9e-13
+  UniRef90_A0A2L2Y6L8 Cytochrome b-c1 complex subunit 9 (Fragment...  50.1    9e-13
+  UniRef90_A0A077RBT4 Probable QCR9-ubiquinol--cytochrome-c reduc...  49.7    1e-12
+  UniRef90_Q2HD16 Uncharacterized protein n=1 Tax=Chaetomium glob...  50.8    1e-12
+  UniRef90_A0A0M9F0W3 Ca2+-transporting atpase n=2 Tax=Fusarium s...  53.5    1e-12
+  UniRef90_T1G742 Uncharacterized protein n=1 Tax=Helobdella robu...  50.1    1e-12
+  UniRef90_A0A229XKL1 Uncharacterized protein n=1 Tax=Aspergillus...  50.1    1e-12
+  UniRef90_A0A0C3Q1R6 Uncharacterized protein n=1 Tax=Tulasnella ...  49.7    1e-12
+  UniRef90_A0A074XFC1 Ubiquinol-cytochrome C reductase n=4 Tax=Au...  49.7    2e-12
+  UniRef90_A0A0C3BGA6 Uncharacterized protein n=1 Tax=Serendipita...  49.7    2e-12
+  UniRef90_B4MFN1 Uncharacterized protein n=9 Tax=Drosophila TaxI...  49.3    2e-12
+  UniRef90_A0A1Y2GAN5 Ubiquinol-cytochrome C reductase n=1 Tax=Lo...  49.7    2e-12
+  UniRef90_A0A1I8NEG3 Uncharacterized protein n=1 Tax=Musca domes...  48.9    2e-12
+  UniRef90_A0A2P8YB61 Cytochrome b-c1 complex subunit 9 n=1 Tax=B...  49.3    2e-12
+  UniRef90_E9HJU4 Uncharacterized protein (Fragment) n=1 Tax=Daph...  49.3    2e-12
+  UniRef90_A0A397WAE4 Putative ubiquinol-cytochrome C reductase c...  49.3    2e-12
+  UniRef90_S8C454 Uncharacterized protein n=1 Tax=Dactylellina ha...  49.3    2e-12
+  UniRef90_A0A397H725 Uncharacterized protein n=1 Tax=Aspergillus...  49.3    3e-12
+  UniRef90_F9XDA0 Uncharacterized protein n=2 Tax=Zymoseptoria Ta...  48.9    3e-12
+  UniRef90_A0A2C5YT28 Uncharacterized protein n=1 Tax=Ophiocordyc...  49.3    3e-12
+  UniRef90_A7RM48 Predicted protein n=1 Tax=Nematostella vectensi...  48.9    3e-12
+  UniRef90_G1PWS8 Ubiquinol-cytochrome c reductase, complex III s...  48.9    3e-12
+  UniRef90_A0A0N5AQE3 Uncharacterized protein n=1 Tax=Syphacia mu...  48.9    3e-12
+  UniRef90_A0A178Z869 Uncharacterized protein n=5 Tax=Herpotrichi...  48.9    3e-12
+  UniRef90_B6JYU3 Ubiquinol-cytochrome-c reductase complex subuni...  48.9    3e-12
+  UniRef90_A0A2J7Q6X0 Cytochrome b-c1 complex subunit 9 n=1 Tax=C...  48.9    3e-12
+  UniRef90_A0A0L7RBD1 Cytochrome b-c1 complex subunit 9 n=1 Tax=H...  48.5    3e-12
+  UniRef90_A0A1E3IXM4 Ubiquinol-cytochrome c reductase subunit 9 ...  48.9    4e-12
+  UniRef90_A0A154PM55 Cytochrome b-c1 complex subunit 9 n=1 Tax=D...  48.5    4e-12
+  UniRef90_A0A151GEC2 Ubiquinol-cytochrome C reductase, UQCRX/QCR...  48.9    4e-12
+  UniRef90_G3T6B9 Ubiquinol-cytochrome c reductase, complex III s...  48.5    4e-12
+  UniRef90_B4J8G7 GH19952 n=2 Tax=Drosophila TaxID=2081351 RepID=...  48.5    4e-12
+  UniRef90_S9RCJ2 Ubiquinol-cytochrome-c reductase complex subuni...  48.5    5e-12
+  UniRef90_A0A1Y2LZB4 Uncharacterized protein n=1 Tax=Epicoccum n...  50.4    5e-12
+  UniRef90_B4GIJ9 GL17726 n=3 Tax=obscura group TaxID=32355 RepID...  48.1    5e-12
+  UniRef90_T2M465 Cytochrome b-c1 complex subunit 9 n=1 Tax=Hydra...  48.5    5e-12
+  UniRef90_Q9XFY0 Putative ubiquinone-cytochrome c reductase n=1 ...  48.1    5e-12
+  UniRef90_A0A1S3CVR5 cytochrome b-c1 complex subunit 9 n=1 Tax=D...  48.1    6e-12
+  UniRef90_Q09JN3 Mitochondrial ubiquinol cytochrome c reductase ...  48.1    6e-12
+  UniRef90_Q00X81 Cytochrome b-c1 complex subunit 9 n=1 Tax=Ostre...  48.1    6e-12
+  UniRef90_A0A383UUM9 Uncharacterized protein n=1 Tax=Blumeria gr...  48.1    6e-12
+  UniRef90_A0A063BUB9 Uncharacterized protein n=1 Tax=Ustilaginoi...  47.8    7e-12
+  UniRef90_Q9XY35 Cytochrome b-c1 complex subunit 9 n=5 Tax=melan...  47.8    7e-12
+  UniRef90_A0A1J9R9A4 Ubiquinol-cytochrome c reductase n=1 Tax=Di...  49.7    7e-12
+  UniRef90_A0A0D2IDY8 Rhinocladiella mackenziei CBS 650.93 unplac...  48.1    7e-12
+  UniRef90_A0A1L9R671 Uncharacterized protein n=1 Tax=Aspergillus...  48.1    7e-12
+  UniRef90_A0A1D2NHN3 Cytochrome b-c1 complex subunit 9 n=1 Tax=O...  47.8    8e-12
+  UniRef90_A0A1J1IKU8 CLUMA_CG014112, isoform A n=1 Tax=Clunio ma...  48.1    9e-12
+  UniRef90_A0A088AUA5 Uncharacterized protein n=5 Tax=Apis TaxID=...  47.8    9e-12
+  UniRef90_P00130 Cytochrome b-c1 complex subunit 9 n=58 Tax=Amni...  47.8    1e-11
+  UniRef90_H9JTP2 Uncharacterized protein n=2 Tax=Bombyx mori Tax...  50.4    1e-11
+  UniRef90_O74433 Cytochrome b-c1 complex subunit 9 n=2 Tax=Schiz...  47.4    1e-11
+  UniRef90_R4WR13 Unkown protein n=1 Tax=Riptortus pedestris TaxI...  47.4    1e-11
+  UniRef90_A0A0C3D0B6 Uncharacterized protein n=1 Tax=Oidiodendro...  47.8    1e-11
+  UniRef90_A0A2V5I7A2 Uncharacterized protein n=1 Tax=Aspergillus...  47.8    2e-11
+  UniRef90_W9W6D6 Ubiquinol-cytochrome c reductase subunit 9 n=3 ...  47.4    2e-11
+  UniRef90_A0A090LE04 Cytochrome b-c1 complex subunit 9 family-co...  47.0    2e-11
+  UniRef90_B2A9Y3 Podospora anserina S mat+ genomic DNA chromosom...  46.6    2e-11
+  UniRef90_A0A0U2IGJ1 Cytochrome b-c1 complex subunit 9 n=1 Tax=L...  46.6    2e-11
+  UniRef90_A0A0L0HUB8 Uncharacterized protein n=1 Tax=Spizellomyc...  46.6    2e-11
+  UniRef90_A0A0L0G811 Uncharacterized protein n=1 Tax=Sphaeroform...  46.6    2e-11
+  UniRef90_B3MG15 Uncharacterized protein n=2 Tax=melanogaster gr...  46.6    3e-11
+  UniRef90_K7J2F7 Uncharacterized protein n=2 Tax=Pteromalinae Ta...  46.6    3e-11
+  UniRef90_A0A0K0EKP9 Uncharacterized protein n=1 Tax=Strongyloid...  46.6    3e-11
+  UniRef90_A0A3M9YM20 Uncharacterized protein n=1 Tax=Verticilliu...  46.6    3e-11
+  UniRef90_A0A166ETS1 Ubiquinol-cytochrome C reductase (Fragment)...  46.2    3e-11
+  UniRef90_B4MPE1 GK21685 n=2 Tax=Sophophora TaxID=32341 RepID=B4...  46.2    3e-11
+  UniRef90_A0A164Y9Z1 Cytochrome b-c1 complex subunit 9 n=1 Tax=D...  46.2    3e-11
+  UniRef90_A0A2Y9DQ44 cytochrome b-c1 complex subunit 9 n=3 Tax=E...  46.2    4e-11
+  UniRef90_K2RYR0 Ubiquinol-cytochrome C reductase UQCRX/QCR9-lik...  47.4    4e-11
+  UniRef90_A0A087UI09 Cytochrome b-c1 complex subunit 9 (Fragment...  45.8    4e-11
+  UniRef90_F7VXY8 WGS project CABT00000000 data, contig 2.12 n=1 ...  47.0    4e-11
+  UniRef90_A0A1M2VSQ2 Uncharacterized protein n=1 Tax=Trametes pu...  45.8    4e-11
+  UniRef90_A0A131XRS7 Putative ubiquinol cytochrome c reductase (...  46.2    5e-11
+  UniRef90_U7PJ55 Uncharacterized protein n=1 Tax=Sporothrix sche...  45.4    5e-11
+  UniRef90_A0A158P2S6 Uncharacterized protein n=2 Tax=Atta TaxID=...  45.8    6e-11
+  UniRef90_A0A1W0X0Y9 Uncharacterized protein n=1 Tax=Hypsibius d...  46.2    6e-11
+  UniRef90_A0A0E0RPV7 Uncharacterized protein n=4 Tax=Fusarium sa...  46.6    6e-11
+  UniRef90_A0A0L7LHE7 Ubiquinol-cytochrome c reductase complex 7....  45.4    6e-11
+  UniRef90_C1BMP4 Cytochrome b-c1 complex subunit 9 n=1 Tax=Calig...  45.4    6e-11
+  UniRef90_F4W5T9 Cytochrome b-c1 complex subunit 9 n=4 Tax=Myrmi...  45.4    7e-11
+  UniRef90_A0A1E1L069 Related to ubiquinol-cytochrome C reductase...  45.1    7e-11
+  UniRef90_Q9UDW1 Cytochrome b-c1 complex subunit 9 n=17 Tax=Simi...  45.4    8e-11
+  UniRef90_A0A2H1V4U6 SFRICE_008797 n=2 Tax=Spodoptera TaxID=7106...  44.7    1e-10
+  UniRef90_A0A1B0GBS7 Uncharacterized protein n=1 Tax=Glossina mo...  45.4    1e-10
+  UniRef90_A0A2S7QZF8 Uncharacterized protein n=2 Tax=Rutstroemia...  45.8    1e-10
+  UniRef90_A0A2S7QS14 Uncharacterized protein n=1 Tax=Rutstroemia...  45.8    1e-10
+  UniRef90_A0A179FCR2 Ubiquinol-cytochrome C reductase, UQCRX/QCR...  44.3    1e-10
+  UniRef90_A0A0N4ZIE9 Uncharacterized protein n=1 Tax=Parastrongy...  44.7    2e-10
+  UniRef90_A0A218ZBG2 Uncharacterized protein n=1 Tax=Marssonina ...  43.9    2e-10
+  UniRef90_M3XB32 Uncharacterized protein n=2 Tax=Felidae TaxID=9...  46.2    3e-10
+  UniRef90_A0A0B2WF09 E3 ubiquitin-protein ligase ubr11 n=1 Tax=M...  45.1    3e-10
+  UniRef90_C4JFX1 Uncharacterized protein n=1 Tax=Uncinocarpus re...  43.9    5e-10
+  UniRef90_W9C4P7 Uncharacterized protein n=1 Tax=Sclerotinia bor...  43.9    5e-10
+  UniRef90_A0A194R1Q0 Cytochrome b-c1 complex subunit 9 n=3 Tax=P...  43.1    5e-10
+  UniRef90_A0A2C5XIH3 Uncharacterized protein n=1 Tax=Ophiocordyc...  43.5    5e-10
+  UniRef90_G8BI13 Uncharacterized protein n=2 Tax=Candida TaxID=1...  43.5    5e-10
+  UniRef90_A0A1B0DD36 Uncharacterized protein n=1 Tax=Phlebotomus...  42.7    7e-10
+  UniRef90_A0A026WPE6 Cytochrome b-c1 complex subunit n=1 Tax=Ooc...  42.4    1e-09
+  UniRef90_A0A0N5BV27 Uncharacterized protein n=1 Tax=Strongyloid...  41.6    2e-09
+  UniRef90_E2AL13 Uncharacterized protein n=1 Tax=Camponotus flor...  34.3    2e-06
+
+
+> UniRef90_P22289 Cytochrome b-c1 complex subunit 9 n=8 Tax=Saccharomyces 
+TaxID=4930 RepID=QCR9_YEAST
+Length=66
+
+ Score = 134 bits (338),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD
+Sbjct  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+
+Query  61  GDDDDE  66
+           GDDDDE
+Sbjct  61  GDDDDE  66
+
+
+> UniRef90_G0V6Z7 Uncharacterized protein n=1 Tax=Naumovozyma castellii 
+(strain ATCC 76901 / CBS 4309 / NBRC 1992 / NRRL Y-12630) 
+TaxID=1064592 RepID=G0V6Z7_NAUCC
+Length=66
+
+ Score = 109 bits (272),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 49/64 (77%), Positives = 60/64 (94%), Gaps = 0/64 (0%)
+
+Query  2   SFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDG  61
+           SFS++Y+TFFKRN+VFVGTIFAGAFVFQ +FD+++TSWYENHNKGKLWKDVKA+IAA   
+Sbjct  3   SFSTIYRTFFKRNSVFVGTIFAGAFVFQVLFDSSVTSWYENHNKGKLWKDVKAQIAAAGE  62
+
+Query  62  DDDD  65
+           +D+D
+Sbjct  63  EDED  66
+
+
+> UniRef90_G0W9P6 Uncharacterized protein n=1 Tax=Naumovozyma dairenensis 
+(strain ATCC 10597 / BCRC 20456 / CBS 421 / NBRC 
+0211 / NRRL Y-12639) TaxID=1071378 RepID=G0W9P6_NAUDC
+Length=68
+
+ Score = 107 bits (266),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 48/60 (80%), Positives = 55/60 (92%), Gaps = 0/60 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           MSFSS+YK  FKRN+VFVGTIF  AF+FQ VFDT++TSWYENHNKGKLWKDV+ARIAAG+
+Sbjct  1   MSFSSVYKVLFKRNSVFVGTIFVSAFIFQAVFDTSVTSWYENHNKGKLWKDVQARIAAGN  60
+
+
+> UniRef90_Q75F73 AAL145Wp n=2 Tax=Saccharomycetaceae TaxID=4893 
+RepID=Q75F73_ASHGO
+Length=66
+
+ Score = 106 bits (264),  Expect = 7e-35, Method: Compositional matrix adjust.
+ Identities = 48/66 (73%), Positives = 56/66 (85%), Gaps = 0/66 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           MSFS+LY T F+RN+VFVGTIFA AFVFQT FD+ IT+WYE HNKGKLWKDVK ++  G+
+Sbjct  1   MSFSTLYNTLFRRNSVFVGTIFASAFVFQTAFDSGITAWYEKHNKGKLWKDVKLQLQNGE  60
+
+Query  61  GDDDDE  66
+            DDDDE
+Sbjct  61  DDDDDE  66
+
+
+> UniRef90_W0T8X6 C reductase complex n=1 Tax=Kluyveromyces marxianus 
+(strain DMKU3-1042 / BCC 29191 / NBRC 104275) TaxID=1003335 
+RepID=W0T8X6_KLUMD
+Length=109
+
+ Score = 102 bits (253),  Expect = 9e-33, Method: Compositional matrix adjust.
+ Identities = 44/63 (70%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  4    SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            S+LY T FKRN+VFVGT+FA  F+FQ  FD+ IT+WYENHNKGKLWKD+K RI  GD +D
+Sbjct  47   STLYNTIFKRNSVFVGTVFASTFLFQVAFDSGITAWYENHNKGKLWKDIKGRIMNGDEED  106
+
+Query  64   DDE  66
+            DDE
+Sbjct  107  DDE  109
+
+
+> UniRef90_A0A1E5RGQ1 Cytochrome b-c1 complex subunit 9 n=1 Tax=Hanseniaspora 
+osmophila TaxID=56408 RepID=A0A1E5RGQ1_9ASCO
+Length=72
+
+ Score = 100 bits (250),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 45/62 (73%), Positives = 55/62 (89%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++++ TFFKRNAVFVGT+F GAFVFQ  FD+A+TSWYENHNKGKLWKDVKA++  GD DD
+Sbjct  11  ATIFNTFFKRNAVFVGTVFFGAFVFQGAFDSAVTSWYENHNKGKLWKDVKAQLNGGDEDD  70
+
+Query  64  DD  65
+           D+
+Sbjct  71  DE  72
+
+
+> UniRef90_Q6FRE0 Uncharacterized protein n=2 Tax=Candida glabrata 
+TaxID=5478 RepID=Q6FRE0_CANGA
+Length=69
+
+ Score = 100 bits (248),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 46/56 (82%), Positives = 50/56 (89%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSFSSLYK  FKRN++FVGTI A AFVFQ  FDTA+TSWYENHNKGKLWKDVKA+I
+Sbjct  1   MSFSSLYKVLFKRNSIFVGTILASAFVFQGAFDTAVTSWYENHNKGKLWKDVKAQI  56
+
+
+> UniRef90_A0A1X7R6T0 Similar to Saccharomyces cerevisiae YGR183C 
+QCR9 Subunit 9 of the ubiquinol cytochrome-c reductase complex 
+n=1 Tax=Kazachstania saulgeensis TaxID=1789683 RepID=A0A1X7R6T0_9SACH
+Length=68
+
+ Score = 99.0 bits (245),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 56/68 (82%), Gaps = 2/68 (3%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           MSF+S+YK  FKRN++FVGT+F GAF+FQT FD+AIT WYEN NKGKLWKDVKA I + +
+Sbjct  1   MSFASIYKVLFKRNSIFVGTVFVGAFLFQTEFDSAITKWYENRNKGKLWKDVKATIGSAN  60
+
+Query  61  --GDDDDE  66
+              +DDDE
+Sbjct  61  NGAEDDDE  68
+
+
+> UniRef90_J7R9X1 Uncharacterized protein n=1 Tax=Kazachstania 
+naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797 / CCRC 
+22969 / KCTC 17520 / NBRC 10181 / NCYC 3082) TaxID=1071383 
+RepID=J7R9X1_KAZNA
+Length=66
+
+ Score = 97.8 bits (242),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 45/66 (68%), Positives = 56/66 (85%), Gaps = 1/66 (2%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA-AG  59
+           MSFSS+YK FF+RNAVFVGT+FA AFVFQ  FD++IT W+E+HNKGKLW DV+ ++   G
+Sbjct  1   MSFSSIYKVFFRRNAVFVGTVFASAFVFQAYFDSSITKWWESHNKGKLWDDVRLKLENGG  60
+
+Query  60  DGDDDD  65
+           DGDDD+
+Sbjct  61  DGDDDE  66
+
+
+> UniRef90_H2ATX5 Uncharacterized protein n=1 Tax=Kazachstania 
+africana (strain ATCC 22294 / BCRC 22015 / CBS 2517 / CECT 1963 
+/ NBRC 1671 / NRRL Y-8276) TaxID=1071382 RepID=H2ATX5_KAZAF
+Length=66
+
+ Score = 97.4 bits (241),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 44/66 (67%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA-AG  59
+           MSFS++YK FFKRN+VFVGTIF  AFVFQ+VFD+ +T W+E+HNKGKLWKDVK +I  A 
+Sbjct  1   MSFSTVYKVFFKRNSVFVGTIFLSAFVFQSVFDSGVTKWFEHHNKGKLWKDVKLQIPGAE  60
+
+Query  60  DGDDDD  65
+           +G+++D
+Sbjct  61  EGEEED  66
+
+
+> UniRef90_C5DCK0 KLTH0B03674p n=1 Tax=Lachancea thermotolerans 
+(strain ATCC 56472 / CBS 6340 / NRRL Y-8284) TaxID=559295 RepID=C5DCK0_LACTC
+Length=71
+
+ Score = 96.3 bits (238),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 41/59 (69%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           M+FS++Y  FFKRN++FVGT+FA +FVFQ  FD+A+TSWYE HNKGKLWKDVKA++A G
+Sbjct  1   MAFSTIYNIFFKRNSIFVGTVFASSFVFQAAFDSAVTSWYEQHNKGKLWKDVKAKLAQG  59
+
+
+> UniRef90_A7TFK7 Uncharacterized protein n=1 Tax=Vanderwaltozyma 
+polyspora (strain ATCC 22028 / DSM 70294) TaxID=436907 RepID=A7TFK7_VANPO
+Length=68
+
+ Score = 95.9 bits (237),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 45/67 (67%), Positives = 55/67 (82%), Gaps = 1/67 (1%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA-AG  59
+           MSF+++Y+ FFKRNAVFVGTIFA  FVFQ +FD+ ITSWYE HNKGKLWKDVKA++   G
+Sbjct  1   MSFATIYRVFFKRNAVFVGTIFAAGFVFQPLFDSGITSWYEAHNKGKLWKDVKAQLQLVG  60
+
+Query  60  DGDDDDE  66
+           D +  D+
+Sbjct  61  DEEAADD  67
+
+
+> UniRef90_A0A0P1KQX0 LAQU0S05e00958g1_1 n=1 Tax=Lachancea quebecensis 
+TaxID=1654605 RepID=A0A0P1KQX0_9SACH
+Length=69
+
+ Score = 94.4 bits (233),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 40/57 (70%), Positives = 51/57 (89%), Gaps = 0/57 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           M+FS++Y  FFKRN++FVGT+FA +FVFQ  FD+A+TSWYE HNKGKLWKDVKA++A
+Sbjct  1   MAFSTIYNIFFKRNSIFVGTVFASSFVFQAAFDSAVTSWYEQHNKGKLWKDVKAKLA  57
+
+
+> UniRef90_A0A1G4KG35 LAMI_0H08482g1_1 n=1 Tax=Lachancea mirantina 
+TaxID=1230905 RepID=A0A1G4KG35_9SACH
+Length=69
+
+ Score = 94.0 bits (232),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 43/56 (77%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSFS++Y  FFKRNAVFVGT+FA AFVFQ  FDTA+TSWYE HNKGKLWKDVK  +
+Sbjct  1   MSFSTIYNIFFKRNAVFVGTVFASAFVFQAAFDTAVTSWYEAHNKGKLWKDVKLTL  56
+
+
+> UniRef90_Q6CJX2 Cytochrome b-c1 complex subunit 9 n=2 Tax=Kluyveromyces 
+lactis TaxID=28985 RepID=QCR9_KLULA
+Length=69
+
+ Score = 93.6 bits (231),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 45/60 (75%), Positives = 50/60 (83%), Gaps = 1/60 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF S+LYKT FKRN+VFVGT+FA AFVFQ  FDT +TSWYENHNKGKLWKD+K  I  G
+Sbjct  1   MSFASTLYKTVFKRNSVFVGTVFASAFVFQAAFDTGVTSWYENHNKGKLWKDIKGGIMNG  60
+
+
+> UniRef90_A0A109V0G1 HHR029Wp n=1 Tax=Eremothecium sinecaudum 
+TaxID=45286 RepID=A0A109V0G1_9SACH
+Length=65
+
+ Score = 93.2 bits (230),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 43/56 (77%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSFS LY   FKRN+VFVGTIFA AFVFQ  FDTA+TSWYE+HNKGKLWKDVK  +
+Sbjct  1   MSFSKLYSAIFKRNSVFVGTIFASAFVFQAAFDTALTSWYESHNKGKLWKDVKLTL  56
+
+
+> UniRef90_G8ZVN9 Uncharacterized protein n=1 Tax=Torulaspora delbrueckii 
+(strain ATCC 10662 / CBS 1146 / NBRC 0425 / NCYC 
+2629 / NRRL Y-866) TaxID=1076872 RepID=G8ZVN9_TORDC
+Length=68
+
+ Score = 92.4 bits (228),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           M+FS+LYK  FKRN+VFVGT+FA AFVFQ  FD+A+T WYENHNKGKLW DVK ++
+Sbjct  1   MAFSTLYKVLFKRNSVFVGTVFASAFVFQATFDSAVTKWYENHNKGKLWADVKQQL  56
+
+
+> UniRef90_I2H1Z9 Uncharacterized protein n=1 Tax=Tetrapisispora 
+blattae (strain ATCC 34711 / CBS 6284 / DSM 70876 / NBRC 10599 
+/ NRRL Y-10934 / UCD 77-7) TaxID=1071380 RepID=I2H1Z9_TETBL
+Length=68
+
+ Score = 91.7 bits (226),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 41/61 (67%), Positives = 47/61 (77%), Gaps = 0/61 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           MSFS +Y  FFKRN+VFVGTIFA AF+FQ  FD+ IT WY NHNKGKLW DVK  +  G+
+Sbjct  1   MSFSRIYNVFFKRNSVFVGTIFASAFIFQAAFDSGITKWYNNHNKGKLWVDVKKSLEEGN  60
+
+Query  61  G  61
+           G
+Sbjct  61  G  61
+
+
+> UniRef90_A0A1G4JZT2 LANO_0E14048g1_1 n=2 Tax=Lachancea TaxID=300275 
+RepID=A0A1G4JZT2_9SACH
+Length=69
+
+ Score = 90.9 bits (224),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 38/57 (67%), Positives = 50/57 (88%), Gaps = 0/57 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           M+FS++Y  FFKRN+VFVGT+FA +FVFQ  FDT++TSWYE HNKGK+WKDVK +++
+Sbjct  1   MAFSTIYNVFFKRNSVFVGTVFAASFVFQAAFDTSVTSWYEAHNKGKMWKDVKLKLS  57
+
+
+> UniRef90_C5DRS1 ZYRO0B10714p n=3 Tax=Zygosaccharomyces rouxii 
+TaxID=4956 RepID=C5DRS1_ZYGRC
+Length=70
+
+ Score = 90.5 bits (223),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSFS+LY+  FKRN+VFVGT+ A AFVFQ  FD+A+T WYE HNKGKLWKDVK ++
+Sbjct  1   MSFSTLYRVLFKRNSVFVGTVLASAFVFQASFDSAVTKWYETHNKGKLWKDVKLQL  56
+
+
+> UniRef90_A0A0C7MYC7 LALA0S06e03158g1_1 n=2 Tax=Lachancea TaxID=300275 
+RepID=A0A0C7MYC7_9SACH
+Length=68
+
+ Score = 90.5 bits (223),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 40/57 (70%), Positives = 47/57 (82%), Gaps = 0/57 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           M FS++Y  FFKRNA FVGT+FA +FVFQT FD+ +TSWYE HNKGKLWKDVK +I 
+Sbjct  1   MVFSTIYNVFFKRNATFVGTVFAASFVFQTAFDSGVTSWYEAHNKGKLWKDVKLKIG  57
+
+
+> UniRef90_A0A1G4J7G5 LADA_0D09846g1_1 n=1 Tax=Lachancea dasiensis 
+CBS 10888 TaxID=1266660 RepID=A0A1G4J7G5_9SACH
+Length=68
+
+ Score = 90.1 bits (222),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 38/57 (67%), Positives = 50/57 (88%), Gaps = 0/57 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           M+FS++Y  FFKRN+VFVGT+FA +FVFQ  FD+++T+WYE HNKGKLWKDVK ++A
+Sbjct  1   MAFSTIYNVFFKRNSVFVGTVFAASFVFQAAFDSSVTAWYEAHNKGKLWKDVKLKLA  57
+
+
+> UniRef90_A0A1E3QSI1 Uncharacterized protein n=1 Tax=Babjeviella 
+inositovora NRRL Y-12698 TaxID=984486 RepID=A0A1E3QSI1_9ASCO
+Length=68
+
+ Score = 90.1 bits (222),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 39/64 (61%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  2   SFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDG  61
+           SF+++Y TFFKRN+V+V +IFAGAFVFQ  FD A T+WYE HNKGKLWKD+K  +   + 
+Sbjct  5   SFTTIYNTFFKRNSVYVASIFAGAFVFQGFFDVACTNWYEAHNKGKLWKDIKHNLIPEEE  64
+
+Query  62  DDDD  65
+           +DD+
+Sbjct  65  EDDE  68
+
+
+> UniRef90_W1QEK1 Cytochrome b-c1 complex subunit n=1 Tax=Ogataea 
+parapolymorpha (strain ATCC 26012 / BCRC 20466 / JCM 22074 
+/ NRRL Y-7560 / DL-1) TaxID=871575 RepID=W1QEK1_OGAPD
+Length=66
+
+ Score = 89.7 bits (221),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 40/57 (70%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           +S+++ TFFKRNA FVGT+FAGAFVFQ  FD A+T WYEN NKGKLWKDVK ++ AG
+Sbjct  2   YSAIFNTFFKRNAAFVGTVFAGAFVFQAYFDVAVTKWYENRNKGKLWKDVKLQLQAG  58
+
+
+> UniRef90_A0A0A8LB04 WGS project CCBQ000000000 data, contig 00010 
+n=1 Tax=Kluyveromyces dobzhanskii CBS 2104 TaxID=1427455 
+RepID=A0A0A8LB04_9SACH
+Length=68
+
+ Score = 89.0 bits (219),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 42/60 (70%), Positives = 48/60 (80%), Gaps = 1/60 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF S++Y T FKRN+VFVGT+FA AFVFQ  FD  +TSWYENHNKGKLWKD+K  I  G
+Sbjct  1   MSFASTVYNTIFKRNSVFVGTVFASAFVFQAAFDMGVTSWYENHNKGKLWKDIKGGIMNG  60
+
+
+> UniRef90_A0A1B7SFW8 Uncharacterized protein n=1 Tax=Ogataea polymorpha 
+TaxID=460523 RepID=A0A1B7SFW8_9ASCO
+Length=84
+
+ Score = 89.0 bits (219),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 39/57 (68%), Positives = 47/57 (82%), Gaps = 0/57 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           +S+++ TFFKRNA FVGT+FAG FVFQ  FD A+T WYEN NKGKLWKDVK ++ AG
+Sbjct  2   YSAIFNTFFKRNAAFVGTVFAGTFVFQAYFDAAVTKWYENRNKGKLWKDVKLQLQAG  58
+
+
+> UniRef90_A0A1G4M768 LAFE_0A06656g1_1 n=1 Tax=Lachancea fermentati 
+TaxID=4955 RepID=A0A1G4M768_LACFM
+Length=68
+
+ Score = 88.2 bits (217),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 37/56 (66%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           M+FS++Y  FFKRN++FVGT+FA AFVFQ  FD+ +T WYE HNKGKLWKDVK ++
+Sbjct  1   MAFSTIYNVFFKRNSIFVGTVFASAFVFQAAFDSGVTRWYEAHNKGKLWKDVKLKL  56
+
+
+> UniRef90_G8JVV3 Uncharacterized protein n=1 Tax=Eremothecium 
+cymbalariae (strain CBS 270.75 / DBVPG 7215 / KCTC 17166 / NRRL 
+Y-17582) TaxID=931890 RepID=G8JVV3_ERECY
+Length=67
+
+ Score = 87.4 bits (215),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 39/51 (76%), Positives = 44/51 (86%), Gaps = 0/51 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           LY   FKRN+VFVGTIFA AFVFQ VFD A+TSWYE+HNKGKLWKDVK ++
+Sbjct  5   LYNILFKRNSVFVGTIFASAFVFQAVFDNAVTSWYESHNKGKLWKDVKLKL  55
+
+
+> UniRef90_A0A1E3NVW7 Uncharacterized protein (Fragment) n=1 Tax=Wickerhamomyces 
+anomalus (strain ATCC 58044 / CBS 1984 / NCYC 
+433 / NRRL Y-366-8) TaxID=683960 RepID=A0A1E3NVW7_WICAA
+Length=63
+
+ Score = 87.0 bits (214),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 40/64 (63%), Positives = 50/64 (78%), Gaps = 1/64 (2%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+           ++S+Y T  KRN+V+VGTIF GAFVFQ  FD A+T +YENHNKGKLWKD+K +   G GD
+Sbjct  1   YTSIYNTLIKRNSVYVGTIFVGAFVFQGFFDVAVTKFYENHNKGKLWKDIKGKYLEG-GD  59
+
+Query  63  DDDE  66
+           D+ E
+Sbjct  60  DEAE  63
+
+
+> UniRef90_A0A0H5CDT8 Uncharacterized protein n=2 Tax=Cyberlindnera 
+jadinii TaxID=4903 RepID=A0A0H5CDT8_CYBJA
+Length=89
+
+ Score = 87.4 bits (215),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 36/53 (68%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +S++Y T FKRN++FVGTIFAGAFVFQ VFD+ +T WYE HN+GKLWKD+K +
+Sbjct  22  YSTIYNTIFKRNSIFVGTIFAGAFVFQPVFDSGVTRWYEYHNRGKLWKDIKGK  74
+
+
+> UniRef90_G8BU26 Uncharacterized protein n=1 Tax=Tetrapisispora 
+phaffii (strain ATCC 24235 / CBS 4417 / NBRC 1672 / NRRL Y-8282 
+/ UCD 70-5) TaxID=1071381 RepID=G8BU26_TETPH
+Length=72
+
+ Score = 86.7 bits (213),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 41/56 (73%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSFS+LYK FFKRNAVFVGTIFA  FVFQ  FDT +T+WY  HNKGKLW DVK  +
+Sbjct  1   MSFSTLYKVFFKRNAVFVGTIFALGFVFQDSFDTGVTAWYNAHNKGKLWVDVKQNL  56
+
+
+> UniRef90_A0A212M2X7 Related to Cytochrome b-c1 complex subunit 
+9 n=4 Tax=Zygosaccharomyces TaxID=4953 RepID=A0A212M2X7_ZYGBA
+Length=79
+
+ Score = 86.7 bits (213),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 37/56 (66%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  2   SFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           SFS+LY+  FKRN+V VGT+   AFVFQ  FDT +T++YENHNKGKLWKDVK ++A
+Sbjct  10  SFSTLYRVLFKRNSVMVGTVLGCAFVFQAAFDTGVTTFYENHNKGKLWKDVKVQLA  65
+
+
+> UniRef90_A0A0A8LD52 WGS project CCBQ000000000 data, contig 00010 
+n=2 Tax=Kluyveromyces dobzhanskii CBS 2104 TaxID=1427455 
+RepID=A0A0A8LD52_9SACH
+Length=2017
+
+ Score = 92.4 bits (228),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 39/56 (70%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  4     SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+             S++Y T FKRN+VFVGT+FA AFVFQ  FD  +TSWYENHNKGKLWKD+K  I  G
+Sbjct  1954  STVYNTIFKRNSVFVGTVFASAFVFQAAFDMGVTSWYENHNKGKLWKDIKGGIMNG  2009
+
+
+ Score = 18.5 bits (36),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 7/21 (33%), Positives = 10/21 (48%), Gaps = 0/21 (0%)
+
+Query  45    KGKLWKDVKARIAAGDGDDDD  65
+             +   W+   A  A GD  D+D
+Sbjct  1762  RNMFWRPGAAFNAGGDSSDED  1782
+
+
+> UniRef90_A0A1E4SZD0 Uncharacterized protein n=1 Tax=[Candida] 
+arabinofermentans NRRL YB-2248 TaxID=983967 RepID=A0A1E4SZD0_9ASCO
+Length=1886
+
+ Score = 90.9 bits (224),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 37/59 (63%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+
+Query  3     FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDG  61
+             +S++  TFFKRN+++VGT+ AGAF FQ  FD A+T WYEN NKGKLWKDVK ++AA  G
+Sbjct  1819  YSTVVHTFFKRNSIYVGTVLAGAFAFQGFFDVAVTQWYENRNKGKLWKDVKLQLAAAGG  1877
+
+
+> UniRef90_A0A1D2VE24 Uncharacterized protein n=1 Tax=Ascoidea 
+rubescens DSM 1968 TaxID=1344418 RepID=A0A1D2VE24_9ASCO
+Length=81
+
+ Score = 83.6 bits (205),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 35/58 (60%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           ++ +Y + FKRN+ FV T+FAG F+FQ  FD+AIT WYENHNKGKLWKD+K  I A +
+Sbjct  11  YTKIYNSIFKRNSTFVATVFAGTFIFQASFDSAITRWYENHNKGKLWKDIKPAILARN  68
+
+
+> UniRef90_A0A1E4SFX2 Ubiquinol-cytochrome C reductase (Fragment) 
+n=1 Tax=Suhomyces tanzawaensis NRRL Y-17324 TaxID=984487 
+RepID=A0A1E4SFX2_9ASCO
+Length=61
+
+ Score = 82.0 bits (201),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 37/55 (67%), Positives = 43/55 (78%), Gaps = 0/55 (0%)
+
+Query  12  KRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDDE  66
+           KRN+V+V TIF GAF FQ  FD A+TSWYENHNKGKLWKDVK +   G  ++DDE
+Sbjct  7   KRNSVYVATIFGGAFAFQGFFDYAVTSWYENHNKGKLWKDVKLKFVEGGDEEDDE  61
+
+
+> UniRef90_A0A1L0DYU4 CIC11C00000001236 n=1 Tax=[Candida] intermedia 
+TaxID=45354 RepID=A0A1L0DYU4_9ASCO
+Length=82
+
+ Score = 80.9 bits (198),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 35/50 (70%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+            FKRN+V+V TIF GAF FQ  FDTA+T WYE HN+GKLWKD+KA+I AG
+Sbjct  25  LFKRNSVYVATIFGGAFAFQAFFDTAVTRWYEYHNRGKLWKDLKAKIQAG  74
+
+
+> UniRef90_A0A1L0DXD0 CIC11C00000005879 n=1 Tax=[Candida] intermedia 
+TaxID=45354 RepID=A0A1L0DXD0_9ASCO
+Length=62
+
+ Score = 80.1 bits (196),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 35/54 (65%), Positives = 42/54 (78%), Gaps = 0/54 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           +    FKRN+V+V TIF GAF FQ  FDTA+T WYE HN+GKLWKD+KA+I AG
+Sbjct  1   MLSALFKRNSVYVATIFGGAFAFQAFFDTAVTRWYEYHNRGKLWKDLKAKIQAG  54
+
+
+> UniRef90_K0KIJ6 Uncharacterized protein n=1 Tax=Wickerhamomyces 
+ciferrii (strain F-60-10 / ATCC 14091 / CBS 111 / JCM 3599 
+/ NBRC 0793 / NRRL Y-1031) TaxID=1206466 RepID=K0KIJ6_WICCF
+Length=72
+
+ Score = 80.1 bits (196),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 1/56 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           MSF +++Y +  KRN++FVGTIFAGAF FQ  FD A+T++YENHNKGKLWKD+K +
+Sbjct  1   MSFYTNIYNSLIKRNSIFVGTIFAGAFAFQGFFDVAVTNFYENHNKGKLWKDIKGK  56
+
+
+> UniRef90_W6MML9 Uncharacterized protein n=1 Tax=Kuraishia capsulata 
+CBS 1993 TaxID=1382522 RepID=W6MML9_9ASCO
+Length=70
+
+ Score = 78.2 bits (191),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 34/55 (62%), Positives = 43/55 (78%), Gaps = 0/55 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           +S++Y   FKRN+VFVG++FA AF FQ  FD  +TSWYE HNKGKLWKDVK ++ 
+Sbjct  6   YSTIYNLVFKRNSVFVGSVFATAFAFQGFFDYGVTSWYEAHNKGKLWKDVKLKLG  60
+
+
+> UniRef90_A0A1V2LTL1 Cytochrome b-c1 complex subunit 9 n=2 Tax=Pichia 
+kudriavzevii TaxID=4909 RepID=A0A1V2LTL1_PICKU
+Length=68
+
+ Score = 77.4 bits (189),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 48/67 (72%), Gaps = 3/67 (4%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG---  59
+           +S+++ T FKRN+ +V +IFAGAF+FQ   D A+T WYE  NKGKLW D+K ++ AG   
+Sbjct  2   YSTIFNTIFKRNSTYVASIFAGAFLFQVGLDEAVTRWYEARNKGKLWADLKPKVLAGFES  61
+
+Query  60  DGDDDDE  66
+             D+DDE
+Sbjct  62  AEDEDDE  68
+
+
+> UniRef90_I2K026 Subunit of the ubiquinol-cytochrome c reductase 
+n=1 Tax=Brettanomyces bruxellensis AWRI1499 TaxID=1124627 
+RepID=I2K026_DEKBR
+Length=70
+
+ Score = 77.0 bits (188),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 37/57 (65%), Positives = 46/57 (81%), Gaps = 1/57 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSF S++++  FKRN+V+VGTIF  AFVFQTVFD AI  W+E  NKGKLWKDVK ++
+Sbjct  1   MSFYSTIFQXVFKRNSVYVGTIFGTAFVFQTVFDDAINXWWETRNKGKLWKDVKVKL  57
+
+
+> UniRef90_M3J1X1 Subunit of the ubiquinol-cytochrome c reductase 
+complex, putative n=1 Tax=Candida maltosa (strain Xu316) 
+TaxID=1245528 RepID=M3J1X1_CANMX
+Length=62
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 32/61 (52%), Positives = 44/61 (72%), Gaps = 0/61 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           S+     +RN+++V TIFAGAF FQ  FD AI +W++NHNK KLWK+VK +    DG+DD
+Sbjct  2   SILGRLLERNSIYVATIFAGAFAFQGFFDVAINNWWDNHNKDKLWKNVKGKFIEADGEDD  61
+
+Query  65  D  65
+           +
+Sbjct  62  E  62
+
+
+> UniRef90_A0A1A6A9S7 Ubiquinol-cytochrome c reductase subunit 
+9 n=1 Tax=Kwoniella dejecticola CBS 10117 TaxID=1296121 RepID=A0A1A6A9S7_9TREE
+Length=75
+
+ Score = 74.7 bits (182),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 33/60 (55%), Positives = 44/60 (73%), Gaps = 1/60 (2%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDDD  64
+           +Y TFFKRN+ FV T F GAF FQ  FD   T+W++ HN+GK WKD++A+ I AGD D++
+Sbjct  16  IYNTFFKRNSAFVATCFVGAFAFQISFDLGTTAWWDYHNRGKQWKDIRAKYIQAGDSDEE  75
+
+
+> UniRef90_F4SA11 Uncharacterized protein n=1 Tax=Melampsora larici-populina 
+(strain 98AG31 / pathotype 3-4-7) TaxID=747676 
+RepID=F4SA11_MELLP
+Length=62
+
+ Score = 74.3 bits (181),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 43/58 (74%), Gaps = 1/58 (2%)
+
+Query  1   MSFSSL-YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           M+ SSL Y TF KRN+V+V TIFAG+F F   FDT  T W+ENHN+GKLW D++ ++ 
+Sbjct  1   MAISSLIYNTFMKRNSVYVSTIFAGSFAFSLSFDTITTKWWENHNRGKLWSDIRDKVC  58
+
+
+> UniRef90_A0A1E5S0Z9 Cytochrome b-c1 complex subunit 9 n=1 Tax=Hanseniaspora 
+uvarum TaxID=29833 RepID=A0A1E5S0Z9_HANUV
+Length=82
+
+ Score = 74.7 bits (182),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 36/63 (57%), Positives = 43/63 (68%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           SSLY   FKRNA +V  I  GAF FQ  +D  IT   EN+N+GKLWKDVKA++ A   +D
+Sbjct  20  SSLYNLVFKRNATYVTAILFGAFAFQPSYDVFITKVIENNNQGKLWKDVKAKLGASADED  79
+
+Query  64  DDE  66
+           DDE
+Sbjct  80  DDE  82
+
+
+> UniRef90_A0A1E4RPL6 Uncharacterized protein n=1 Tax=Hyphopichia 
+burtonii NRRL Y-1933 TaxID=984485 RepID=A0A1E4RPL6_9ASCO
+Length=64
+
+ Score = 73.9 bits (180),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 35/55 (64%), Positives = 41/55 (75%), Gaps = 4/55 (7%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +S SSL    FKRN+V+V TIF GAF FQ  FD A+T WYE HN+GKLWKDVK +
+Sbjct  2   LSISSL----FKRNSVYVATIFGGAFAFQGFFDVAVTKWYEGHNRGKLWKDVKGK  52
+
+
+> UniRef90_C5M2H3 Uncharacterized protein n=1 Tax=Candida tropicalis 
+(strain ATCC MYA-3404 / T1) TaxID=294747 RepID=C5M2H3_CANTT
+Length=60
+
+ Score = 73.2 bits (178),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 31/60 (52%), Positives = 43/60 (72%), Gaps = 0/60 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDD  65
+           +     +RN+++VGTIFAGAF FQ  FD AI +W++ HNKGKLW+DVK +    D +DD+
+Sbjct  1   MLGRLLERNSIYVGTIFAGAFAFQGFFDVAINNWWDAHNKGKLWRDVKGKFIEADEEDDE  60
+
+
+> UniRef90_A0A2V1AZY3 Tyrosine--tRNA ligase n=2 Tax=Clavispora/Candida 
+clade TaxID=1540022 RepID=A0A2V1AZY3_9ASCO
+Length=461
+
+ Score = 79.7 bits (195),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 32/50 (64%), Positives = 38/50 (76%), Gaps = 0/50 (0%)
+
+Query  10   FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+              KRN+++V TIF GAF FQ  FD+A+T WYENHNKGKLWKDVK +   G
+Sbjct  403  LIKRNSLYVATIFGGAFAFQAFFDSAVTRWYENHNKGKLWKDVKPKFLEG  452
+
+
+> UniRef90_A0A1B9GE63 Ubiquinol-cytochrome c reductase subunit 
+9 n=1 Tax=Kwoniella bestiolae CBS 10118 TaxID=1296100 RepID=A0A1B9GE63_9TREE
+Length=67
+
+ Score = 72.8 bits (177),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 32/60 (53%), Positives = 44/60 (73%), Gaps = 1/60 (2%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDDD  64
+           +Y+TFFKRN+ FV T F GAF F   FD A T W++ HN+GK WKD++++ I AGD D++
+Sbjct  8   IYRTFFKRNSAFVATCFVGAFAFSISFDLATTGWWDYHNRGKQWKDIRSKYIQAGDADEE  67
+
+
+> UniRef90_W0TYU6 DEHA2G18524p n=1 Tax=Debaryomyces hansenii (strain 
+ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968) 
+TaxID=284592 RepID=W0TYU6_DEBHA
+Length=62
+
+ Score = 72.4 bits (176),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 31/54 (57%), Positives = 36/54 (67%), Gaps = 0/54 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           +    FKRN+V+V TI  GAF FQ  FD  +  WYENHNKGKLWKDVK +   G
+Sbjct  1   MLSALFKRNSVYVATILGGAFAFQGFFDVGVNKWYENHNKGKLWKDVKGKFLEG  54
+
+
+> UniRef90_A0A061AZ64 CYFA0S05e03312g1_1 n=2 Tax=Cyberlindnera 
+fabianii TaxID=36022 RepID=A0A061AZ64_CYBFA
+Length=69
+
+ Score = 72.4 bits (176),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 33/57 (58%), Positives = 44/57 (77%), Gaps = 1/57 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           MSF S++Y  F KRN++FV TIF GAF+FQ  F++ I  W++ HNKGKLWKD+K +I
+Sbjct  1   MSFYSTIYNIFMKRNSIFVSTIFFGAFLFQPGFESGINKWWDYHNKGKLWKDIKGKI  57
+
+
+> UniRef90_A0A2P7YS30 Tyrosine--tRNA ligase n=1 Tax=[Candida] pseudohaemulonis 
+TaxID=418784 RepID=A0A2P7YS30_9ASCO
+Length=469
+
+ Score = 78.6 bits (192),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 31/46 (67%), Positives = 37/46 (80%), Gaps = 0/46 (0%)
+
+Query  10   FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+              KRN+++V TIF GAF FQ  FD+A+T WYENHNKGKLWKDVK +
+Sbjct  412  LIKRNSLYVATIFGGAFAFQAFFDSAVTRWYENHNKGKLWKDVKTK  457
+
+
+> UniRef90_A0A316V253 Ubiquinol-cytochrome C reductase n=1 Tax=Meira 
+miltonrushii TaxID=1280837 RepID=A0A316V253_9BASI
+Length=63
+
+ Score = 72.0 bits (175),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 44/59 (75%), Gaps = 0/59 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+           +++Y T FKRN+VFVGT+F GAF F   +DTA T  + NHNKGKLW+D++ +++A   D
+Sbjct  5   TTIYSTIFKRNSVFVGTVFFGAFAFGIAYDTATTRAWNNHNKGKLWQDIRDKVSAEQND  63
+
+
+> UniRef90_A0A316YY44 Cytochrome b-c1 complex subunit 9 n=1 Tax=Acaromyces 
+ingoldii TaxID=215250 RepID=A0A316YY44_9BASI
+Length=66
+
+ Score = 71.6 bits (174),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 34/63 (54%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+           +S +Y T FKRN+VFVGT+F GAF F   FDT     +E+HN+GKLW DVK       GD
+Sbjct  4   YSQIYNTVFKRNSVFVGTVFFGAFAFGLGFDTVSQKLWESHNRGKLWHDVKPIFVKEGGD  63
+
+Query  63  DDD  65
+           DD+
+Sbjct  64  DDE  66
+
+
+> UniRef90_A0A1Q2YDF7 Uncharacterized protein n=1 Tax=Pichia membranifaciens 
+TaxID=4926 RepID=A0A1Q2YDF7_9ASCO
+Length=70
+
+ Score = 71.2 bits (173),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 32/67 (48%), Positives = 44/67 (66%), Gaps = 3/67 (4%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG---  59
+           +SS++   FKRN+ FV +IFA  F+ Q   D  +T WYEN NKGKLW D+K ++ AG   
+Sbjct  4   YSSVFNIVFKRNSTFVASIFAATFLLQVGLDEGVTRWYENRNKGKLWADLKPKVLAGFET  63
+
+Query  60  DGDDDDE  66
+           +  +DDE
+Sbjct  64  EEAEDDE  70
+
+
+> UniRef90_A0A1E3NN82 Uncharacterized protein n=1 Tax=Pichia membranifaciens 
+NRRL Y-2026 TaxID=763406 RepID=A0A1E3NN82_9ASCO
+Length=70
+
+ Score = 71.2 bits (173),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 33/67 (49%), Positives = 45/67 (67%), Gaps = 3/67 (4%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG---  59
+           +SS++   FKRN+ FV TIFA  F+FQ   D  +T WY+N NKGKLW D+K ++ AG   
+Sbjct  4   YSSVFNLVFKRNSTFVATIFATTFLFQVGLDEGVTRWYDNRNKGKLWVDLKPKVLAGFET  63
+
+Query  60  DGDDDDE  66
+           +  +DDE
+Sbjct  64  EEAEDDE  70
+
+
+> UniRef90_A0A316UPZ3 Ubiquinol-cytochrome C reductase n=1 Tax=Jaminaea 
+rosea TaxID=1569628 RepID=A0A316UPZ3_9BASI
+Length=63
+
+ Score = 70.9 bits (172),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 31/57 (54%), Positives = 42/57 (74%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           S++Y+T FKRN+VFVG+IF GAF F   FDTA    +ENHNKGKLW D++ ++   +
+Sbjct  5   STIYQTIFKRNSVFVGSIFFGAFAFGLGFDTATNKLWENHNKGKLWADIRDKVGGSE  61
+
+
+> UniRef90_A0A0C2Y7L0 Uncharacterized protein n=1 Tax=Hebeloma 
+cylindrosporum h7 TaxID=686832 RepID=A0A0C2Y7L0_HEBCY
+Length=61
+
+ Score = 70.5 bits (171),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 32/57 (56%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           ++LY  FFKRN+VFVGT+FAGAFVF   FD  +T +Y++ NKGK WKD+++R    D
+Sbjct  5   ATLYNVFFKRNSVFVGTVFAGAFVFGIGFDLGVTKFYDSWNKGKQWKDIRSRYVTED  61
+
+
+> UniRef90_G3B6E2 Ubiquinol-cytochrome C reductase n=1 Tax=Candida 
+tenuis (strain ATCC 10573 / BCRC 21748 / CBS 615 / JCM 9827 
+/ NBRC 10315 / NRRL Y-1498 / VKM Y-70) TaxID=590646 RepID=G3B6E2_CANTC
+Length=62
+
+ Score = 69.7 bits (169),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 29/50 (58%), Positives = 38/50 (76%), Gaps = 0/50 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +    F+RN+V+V T+F GAF F+  FD AI +WY+NHNKGKLWKDVK +
+Sbjct  1   MLSALFQRNSVYVATVFGGAFAFEGFFDKAINTWYDNHNKGKLWKDVKGK  50
+
+
+> UniRef90_A0A1B7TJG6 Ubiquinol-cytochrome C reductase n=1 Tax=Hanseniaspora 
+valbyensis NRRL Y-1626 TaxID=766949 RepID=A0A1B7TJG6_9ASCO
+Length=68
+
+ Score = 69.3 bits (168),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 35/60 (58%), Positives = 41/60 (68%), Gaps = 1/60 (2%)
+
+Query  1   MSFSS-LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF S +Y TFFKRNA +V  I  GAF FQ  +D  IT + EN NKGKLW DVKA++ A 
+Sbjct  1   MSFQSVIYNTFFKRNATYVTAILFGAFAFQPSYDVFITKFIENRNKGKLWSDVKAKLGAS  60
+
+
+> UniRef90_K5XBK2 QCR9 subunit 9 of the ubiquinol cytochrome-c 
+reductase complex n=2 Tax=Agaricus bisporus TaxID=5341 RepID=K5XBK2_AGABU
+Length=62
+
+ Score = 68.6 bits (166),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 33/61 (54%), Positives = 46/61 (75%), Gaps = 1/61 (2%)
+
+Query  1   MSFSS-LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF++ LY +FF+RN+VFVG++FAGAF F   FD  +TS++E  NKGKLWKD++ +    
+Sbjct  1   MSFATGLYNSFFRRNSVFVGSVFAGAFFFGVGFDMGVTSFWERWNKGKLWKDMRHKYVED  60
+
+Query  60  D  60
+           D
+Sbjct  61  D  61
+
+
+> UniRef90_A0A1E3K2F2 Ubiquinol-cytochrome c reductase subunit 
+9 n=1 Tax=Tsuchiyaea wingfieldii CBS 7118 TaxID=1295528 RepID=A0A1E3K2F2_9TREE
+Length=110
+
+ Score = 70.1 bits (170),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 29/60 (48%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  6    LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDD  65
+            +Y TFF+RN+VFV T F  AF F   FD A T+W++ HN+GK W D++ +     GDD+D
+Sbjct  49   IYNTFFRRNSVFVATTFVAAFSFSIGFDLATTAWWDAHNRGKQWHDIRHKYLQAGGDDED  108
+
+
+> UniRef90_A0A2H3C7U2 Ubiquinol-cytochrome C reductase n=3 Tax=Armillaria 
+TaxID=47424 RepID=A0A2H3C7U2_9AGAR
+Length=62
+
+ Score = 68.6 bits (166),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 35/61 (57%), Positives = 45/61 (74%), Gaps = 1/61 (2%)
+
+Query  1   MSFSS-LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSFS+ LY TFFKRN+V+V TIFAGAF F   FDTA+ S+Y+  NKGK WKD++ +    
+Sbjct  1   MSFSTTLYNTFFKRNSVYVATIFAGAFGFGIGFDTALNSFYDRWNKGKQWKDIRHKYVEA  60
+
+Query  60  D  60
+           +
+Sbjct  61  E  61
+
+
+> UniRef90_A0A316W8A9 Putative ubiquinol-cytochrome c reductase 
+complex 7.3 kDa protein n=1 Tax=Ceraceosorus guamensis TaxID=1522189 
+RepID=A0A316W8A9_9BASI
+Length=64
+
+ Score = 68.6 bits (166),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 32/62 (52%), Positives = 44/62 (71%), Gaps = 1/62 (2%)
+
+Query  2   SFSS-LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           SFSS +Y T FKRN+V+V +IFAGAFVF   FD      ++ HN+GK WKD++ ++A  D
+Sbjct  3   SFSSAIYNTLFKRNSVYVTSIFAGAFVFGIAFDAGTQRLWDAHNRGKQWKDIRDKVAPSD  62
+
+Query  61  GD  62
+           G+
+Sbjct  63  GE  64
+
+
+> UniRef90_A0A165FR97 Uncharacterized protein n=1 Tax=Calocera 
+cornea HHB12733 TaxID=1353952 RepID=A0A165FR97_9BASI
+Length=78
+
+ Score = 68.6 bits (166),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 32/61 (52%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           +LY  FF+RN+VFV T+F GAF F   FDTAI   ++N NKGK WKD++A+  A  G  D
+Sbjct  18  TLYNAFFRRNSVFVSTVFVGAFAFSLGFDTAINRVWDNWNKGKQWKDIRAKYVAPAGGAD  77
+
+Query  65  D  65
+           +
+Sbjct  78  E  78
+
+
+> UniRef90_N1PJE8 Uncharacterized protein n=1 Tax=Dothistroma septosporum 
+(strain NZE10 / CBS 128990) TaxID=675120 RepID=N1PJE8_DOTSN
+Length=67
+
+ Score = 68.2 bits (165),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 32/63 (51%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+            S LY    KRNAVF+ TIFAGAF+ +  FDTA  S ++  NKG+ WKD+K R    + D
+Sbjct  5   LSGLYSAIVKRNAVFLTTIFAGAFITEIAFDTASNSIWDQINKGRQWKDIKQRYMQAEED  64
+
+Query  63  DDD  65
+           DD+
+Sbjct  65  DDE  67
+
+
+> UniRef90_G8YFA5 Piso0_002531 protein n=2 Tax=Pichia sorbitophila 
+(strain ATCC MYA-4447 / BCRC 22081 / CBS 7064 / NBRC 10061 
+/ NRRL Y-12695) TaxID=559304 RepID=G8YFA5_PICSO
+Length=64
+
+ Score = 67.8 bits (164),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 32/55 (58%), Positives = 37/55 (67%), Gaps = 4/55 (7%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M  SSL    FKRN+V+V TI  GAF FQ  FD  +  WYE HN+GKLWKDVK +
+Sbjct  1   MQISSL----FKRNSVYVATILVGAFSFQAFFDVGVNRWYEYHNRGKLWKDVKGK  51
+
+
+> UniRef90_A0A066WGQ0 Putative QCR9-ubiquinol--cytochrome-c reductase 
+subunit 9 n=1 Tax=Tilletiaria anomala UBC 951 TaxID=1037660 
+RepID=A0A066WGQ0_9BASI
+Length=61
+
+ Score = 67.4 bits (163),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 40/50 (80%), Gaps = 0/50 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           +++Y T FKRN++FVGT+F GAF F   +DTA T+W++NHN+GK W D++
+Sbjct  5   TTIYNTVFKRNSIFVGTVFFGAFAFGIGYDTATTAWWDNHNRGKQWHDIR  54
+
+
+> UniRef90_A0A316ULU0 Putative QCR9-ubiquinol--cytochrome-c reductase 
+subunit 9 n=1 Tax=Pseudomicrostroma glucosiphilum TaxID=1684307 
+RepID=A0A316ULU0_9BASI
+Length=63
+
+ Score = 67.0 bits (162),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 28/55 (51%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAA  58
+            +LY+  FKRN++FVGT+F GAF F   FDT  T  ++NHN GK WKD++ +I++
+Sbjct  5   QALYQAVFKRNSIFVGTVFTGAFAFGLAFDTLATKLWDNHNAGKQWKDIRDKISS  59
+
+
+> UniRef90_A0A0M8MKV2 Ubiquinol-cytochrome c reductase uqcrx qcr9-like 
+protein n=1 Tax=Malassezia pachydermatis TaxID=77020 
+RepID=A0A0M8MKV2_9BASI
+Length=66
+
+ Score = 66.6 bits (161),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           +S Y    KRN+++VG+I AGAF F   FDT    W+++HN+G  WKD++ +    DGDD
+Sbjct  5   NSFYNLIVKRNSIYVGSILAGAFGFGIAFDTLTEKWWDSHNRGMQWKDIRDKYVTADGDD  64
+
+Query  64  DD  65
+           ++
+Sbjct  65  EE  66
+
+
+> UniRef90_A0A1L9PL89 Uncharacterized protein n=2 Tax=Aspergillus 
+TaxID=5052 RepID=A0A1L9PL89_ASPVE
+Length=69
+
+ Score = 66.2 bits (160),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 29/66 (44%), Positives = 47/66 (71%), Gaps = 1/66 (2%)
+
+Query  2   SFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGD  60
+           +FS+ Y+T  +RNAV++ +IFAGAF F+  FDT+    ++  N+G+ WKD+K + + A +
+Sbjct  4   AFSTTYRTLIRRNAVYLTSIFAGAFAFEVAFDTSTNRLWDTWNRGRQWKDIKHQYLGAAE  63
+
+Query  61  GDDDDE  66
+            +DDDE
+Sbjct  64  EEDDDE  69
+
+
+> UniRef90_A0A139HFN8 Uncharacterized protein n=2 Tax=Mycosphaerellaceae 
+TaxID=93133 RepID=A0A139HFN8_9PEZI
+Length=2225
+
+ Score = 71.6 bits (174),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 33/65 (51%), Positives = 42/65 (65%), Gaps = 1/65 (2%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDG  61
+            S LY    KRN +F+ TIFAGAFV    FDTA    ++  NKG+ WKD+K R + AGD 
+Sbjct  5   LSGLYNGLIKRNTIFLTTIFAGAFVTNIAFDTAANGIWDQINKGRQWKDIKQRYMDAGDA  64
+
+Query  62  DDDDE  66
+           ++DDE
+Sbjct  65  EEDDE  69
+
+
+> UniRef90_A0A0D1BVH3 Chromosome 21, whole genome shotgun sequence 
+n=7 Tax=Ustilaginaceae TaxID=5268 RepID=A0A0D1BVH3_USTMA
+Length=62
+
+ Score = 65.5 bits (158),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 28/51 (55%), Positives = 39/51 (76%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S+Y T FKRN+V+VG+IF GAF F   +D A T+W++ HNKGK WKD++ +
+Sbjct  6   SVYNTVFKRNSVYVGSIFFGAFAFGIGYDLATTAWWDAHNKGKQWKDIRGK  56
+
+
+> UniRef90_A0A1Y1U822 Putative ubiquinol-cytochrome c reductase 
+complex 7.3 kDa protein (Fragment) n=1 Tax=Kockovaella imperatae 
+TaxID=4999 RepID=A0A1Y1U822_9TREE
+Length=63
+
+ Score = 65.5 bits (158),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+             +Y T FKRN VFV ++F  AF F   +D   ++W++ HNKGK WKD+++R     G D
+Sbjct  2   QPIYNTIFKRNPVFVSSVFLAAFGFSIGYDLVTSAWWDRHNKGKQWKDIRSRYIEQSGGD  61
+
+Query  64  DD  65
+           D+
+Sbjct  62  DE  63
+
+
+> UniRef90_E6REC5 Ubiquinol-cytochrome c reductase complex 7.3 
+kDa protein, putative n=6 Tax=Cryptococcus gattii species complex 
+TaxID=1884637 RepID=E6REC5_CRYGW
+Length=66
+
+ Score = 65.5 bits (158),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 42/59 (71%), Gaps = 0/59 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           +Y TFF+RN+VFV T F  AF F   FD A T+++++HN+GK WKD++ +   G GD++
+Sbjct  8   IYNTFFRRNSVFVATTFIAAFSFSMGFDLATTAFWDSHNRGKQWKDIRHKYLQGAGDEE  66
+
+
+> UniRef90_A0A1E3HWD1 Uncharacterized protein n=2 Tax=Cryptococcus 
+amylolentus TaxID=104669 RepID=A0A1E3HWD1_9TREE
+Length=69
+
+ Score = 65.5 bits (158),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 28/61 (46%), Positives = 41/61 (67%), Gaps = 0/61 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDD  65
+           +Y TFF+RN+VFV T F  AF F   FD A T++++ HN+GK W D++ +     GDD+D
+Sbjct  8   IYNTFFRRNSVFVATTFVAAFSFSIGFDLATTAYWDAHNRGKQWHDIRHKYLQAGGDDED  67
+
+Query  66  E  66
+           +
+Sbjct  68  D  68
+
+
+> UniRef90_A0A099P324 Uncharacterized protein n=2 Tax=Pichia kudriavzevii 
+TaxID=4909 RepID=A0A099P324_PICKU
+Length=69
+
+ Score = 65.5 bits (158),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 32/62 (52%), Positives = 43/62 (69%), Gaps = 4/62 (6%)
+
+Query  8   KTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG---DGDDD  64
+           KT++  N+ +V +IFAGAF+FQ   D A+T WYE  NKGKLW D+K ++ AG     D+D
+Sbjct  9   KTYYG-NSTYVASIFAGAFLFQVGLDEAVTRWYEARNKGKLWADLKPKVLAGFESAEDED  67
+
+Query  65  DE  66
+           DE
+Sbjct  68  DE  69
+
+
+> UniRef90_A0A1M8A9R8 Similar to S.cerevisiae protein QCR9 (Subunit 
+9 of ubiquinol cytochrome-c reductase (Complex III)) n=1 
+Tax=Malassezia sympodialis (strain ATCC 42132) TaxID=1230383 
+RepID=A0A1M8A9R8_MALS4
+Length=64
+
+ Score = 65.1 bits (157),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 28/60 (47%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           +S Y    KRN+++VGTIFAGAF F   FDT    W++ HNKGK WKD++ +  + D ++
+Sbjct  5   NSFYNIIVKRNSIYVGTIFAGAFGFGIAFDTLTEKWWDYHNKGKQWKDIRHKYVSDDAEE  64
+
+
+> UniRef90_A0A1E4TUS8 Uncharacterized protein (Fragment) n=1 Tax=Pachysolen 
+tannophilus NRRL Y-2460 TaxID=669874 RepID=A0A1E4TUS8_PACTA
+Length=54
+
+ Score = 64.3 bits (155),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 26/54 (48%), Positives = 36/54 (67%), Gaps = 0/54 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           +++++ T  KRN+V+V  I    F FQ  FD+ +T+WY  HNKGKLW DVK  I
+Sbjct  1   YTTIFNTLCKRNSVYVAAILGTTFAFQAAFDSGVTAWYNAHNKGKLWADVKQTI  54
+
+
+> UniRef90_Q5KCZ3 Ubiquinol-cytochrome c reductase complex 7.3 
+kDa protein, putative n=5 Tax=Cryptococcus neoformans TaxID=5207 
+RepID=Q5KCZ3_CRYNJ
+Length=66
+
+ Score = 64.7 bits (156),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 41/59 (69%), Gaps = 0/59 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           +Y TFF+RN+VFV T F  AF F   FD A T+++++HN+GK WKD++ +     GDD+
+Sbjct  8   IYNTFFRRNSVFVATTFIAAFSFSMGFDLATTAFWDSHNRGKQWKDIRHKYIEAAGDDE  66
+
+
+> UniRef90_A0A2T0FPH6 Cytochrome b-c1 complex subunit 9 n=1 Tax=Wickerhamiella 
+sorbophila TaxID=45607 RepID=A0A2T0FPH6_9ASCO
+Length=74
+
+ Score = 64.3 bits (155),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 31/65 (48%), Positives = 43/65 (66%), Gaps = 1/65 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF SSLY   F+RNAVFVG+IFA AFV+   F   +   +++ NKGK WKD++ R    
+Sbjct  10  MSFASSLYNVVFRRNAVFVGSIFATAFVYDIAFHNTVDKIFDSLNKGKQWKDIRGRYITA  69
+
+Query  60  DGDDD  64
+           D +++
+Sbjct  70  DDEEE  74
+
+
+> UniRef90_A0A1Y2F8W4 Putative QCR9-ubiquinol--cytochrome-c reductase 
+subunit 9 n=1 Tax=Protomyces lactucaedebilis TaxID=56484 
+RepID=A0A1Y2F8W4_PROLT
+Length=61
+
+ Score = 63.9 bits (154),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 27/52 (52%), Positives = 40/52 (77%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S++Y+T FKRN+VF+GT+FA  F F+  FD   TS ++N NKGK WKD++++
+Sbjct  5   STVYQTVFKRNSVFIGTVFATGFAFKIAFDMTTTSIWDNANKGKQWKDIRSK  56
+
+
+> UniRef90_D5GPV3 Uncharacterized protein n=3 Tax=Tuber TaxID=36048 
+RepID=D5GPV3_TUBMM
+Length=60
+
+ Score = 63.9 bits (154),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 29/56 (52%), Positives = 42/56 (75%), Gaps = 1/56 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           MS S S+Y T F+RN VFVG++FAGAF F+ +FD A    ++N N+G+ WKD++A+
+Sbjct  1   MSLSQSIYNTIFRRNYVFVGSVFAGAFAFEILFDQATDRVWDNLNRGRQWKDIRAK  56
+
+
+> UniRef90_A1CT97 UQCRX/QCR9 like ubiquinol-cytochrome C reductase 
+family protein n=1 Tax=Aspergillus clavatus (strain ATCC 
+1007 / CBS 513.65 / DSM 816 / NCTC 3887 / NRRL 1) TaxID=344612 
+RepID=A1CT97_ASPCL
+Length=68
+
+ Score = 63.9 bits (154),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           ++Y+  F+RNAV++ TIFAGAF F+  FDT+    ++  N+G+ WKD+K+R    + +D+
+Sbjct  8   TIYRGLFRRNAVYLTTIFAGAFAFELAFDTSTNKVWDTMNRGRQWKDIKSRYINKEEEDE  67
+
+Query  65  D  65
+           D
+Sbjct  68  D  68
+
+
+> UniRef90_A0A1Y2AYT6 Putative QCR9-ubiquinol--cytochrome-c reductase 
+subunit 9 n=1 Tax=Naematelia encephala TaxID=71784 RepID=A0A1Y2AYT6_9TREE
+Length=60
+
+ Score = 63.5 bits (153),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 25/52 (48%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S +Y T FKRN+VFV T+F  AF F   FD   ++W+++HN+GK WKD++++
+Sbjct  3   SPIYSTIFKRNSVFVPTVFLAAFSFSIGFDMVTSAWWDSHNRGKQWKDIRSK  54
+
+
+> UniRef90_A0A2T3B0I7 Uncharacterized protein n=1 Tax=Amorphotheca 
+resinae ATCC 22711 TaxID=857342 RepID=A0A2T3B0I7_AMORE
+Length=67
+
+ Score = 63.5 bits (153),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 41/61 (67%), Gaps = 1/61 (2%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDD  63
+            LY TF KRN  F+G IFA AF F+  FD      ++N NKG+ WKD+++R + +GDGD+
+Sbjct  7   PLYNTFVKRNFTFLGVIFASAFAFEIAFDITTDRIWDNINKGRQWKDIRSRYVQSGDGDE  66
+
+Query  64  D  64
+           +
+Sbjct  67  E  67
+
+
+> UniRef90_A0A3N4KHH6 Ubiquinol-cytochrome C reductase n=1 Tax=Morchella 
+conica CCBAS932 TaxID=1392247 RepID=A0A3N4KHH6_9PEZI
+Length=61
+
+ Score = 63.2 bits (152),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +S+Y   F+RN VFVG++FAGAF F+ +FD A    ++N NKG+ WKD++ R
+Sbjct  5   TSIYNALFRRNYVFVGSVFAGAFAFEILFDQATDKLWDNMNKGRQWKDIRHR  56
+
+
+> UniRef90_A0A2H3IJT9 Uncharacterized protein n=1 Tax=Penicillium 
+occitanis TaxID=290292 RepID=A0A2H3IJT9_9EURO
+Length=103
+
+ Score = 64.3 bits (155),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 42/62 (68%), Gaps = 0/62 (0%)
+
+Query  5    SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+            SL +T F+RNAV++ +IF GAF F+  FDTA    ++  N+G+ WKD++ +     G+D+
+Sbjct  41   SLNRTLFQRNAVYLTSIFVGAFAFEVAFDTASNKIWDTMNRGRQWKDIRHQYIQTAGEDE  100
+
+Query  65   DE  66
+            DE
+Sbjct  101  DE  102
+
+
+> UniRef90_S7ZF74 Uncharacterized protein n=2 Tax=Penicillium TaxID=5073 
+RepID=S7ZF74_PENO1
+Length=67
+
+ Score = 63.2 bits (152),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 31/63 (49%), Positives = 43/63 (68%), Gaps = 1/63 (2%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           +++Y+T  +RNAVF+ TIFAGAF F+  FDTA    ++  N G+ WKD+K R     GD+
+Sbjct  6   NAIYQTVIRRNAVFLTTIFAGAFAFELSFDTASNKIWDAWNSGRQWKDIKPRYLK-QGDE  64
+
+Query  64  DDE  66
+           DDE
+Sbjct  65  DDE  67
+
+
+> UniRef90_A0A2J6PVN8 Ubiquinol-cytochrome C reductase n=1 Tax=Pezoloma 
+ericae TaxID=1745343 RepID=A0A2J6PVN8_9HELO
+Length=68
+
+ Score = 63.2 bits (152),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 28/62 (45%), Positives = 40/62 (65%), Gaps = 0/62 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+            LY   F+RN VF+G IFA AF F+  +DT     ++N NKG+ WKD++++    +G DD
+Sbjct  7   PLYNFLFRRNYVFLGVIFASAFGFEIAYDTVTDRIWDNINKGRQWKDIRSKYIESEGGDD  66
+
+Query  65  DE  66
+           DE
+Sbjct  67  DE  68
+
+
+> UniRef90_B6QA61 Ubiquinol-cytochrome C reductase complex, subunit 
+X, putative n=2 Tax=Talaromyces marneffei TaxID=37727 RepID=B6QA61_TALMQ
+Length=69
+
+ Score = 63.2 bits (152),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 1/64 (2%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGD  62
+            ++Y+T F+RNAV++ +IFAGAF F+  FDTA    ++  N+G+ WKD++ + I   + D
+Sbjct  6   QTIYQTLFQRNAVYLTSIFAGAFAFEVAFDTASNKIWDTMNRGRQWKDIRHQYIQKAEED  65
+
+Query  63  DDDE  66
+           +D+E
+Sbjct  66  EDEE  69
+
+
+> UniRef90_A0A0D0B398 Unplaced genomic scaffold CY34scaffold_59, 
+whole genome shotgun sequence n=1 Tax=Suillus luteus UH-Slu-Lm8-n1 
+TaxID=930992 RepID=A0A0D0B398_9HOMO
+Length=64
+
+ Score = 62.8 bits (151),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 30/56 (54%), Positives = 43/56 (77%), Gaps = 1/56 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M+F+ + Y TF KRN+VFV +IFAGAF F   FD A+TS+++  N+GK WKD+++R
+Sbjct  1   MAFANAFYNTFVKRNSVFVTSIFAGAFAFNVGFDVAVTSFWDRWNQGKQWKDIRSR  56
+
+
+> UniRef90_K1VT42 Ubiquinol-cytochrome c reductase complex 7.3 
+kDa protein n=1 Tax=Trichosporon asahii var. asahii (strain 
+CBS 8904) TaxID=1220162 RepID=K1VT42_TRIAC
+Length=67
+
+ Score = 62.8 bits (151),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+             +Y   F+RN+VFV TIF GAF F   FD   + +++ HNKGK WKD++ +    D D+
+Sbjct  7   QQIYNLLFRRNSVFVPTIFIGAFAFSIGFDQITSEFWDRHNKGKQWKDIRGKYVQADEDE  66
+
+Query  64  D  64
+           +
+Sbjct  67  E  67
+
+
+> UniRef90_A0A0U5GVS0 Putative UQCRX/QCR9 like ubiquinol-cytochrome 
+C reductase family protein n=1 Tax=Aspergillus calidoustus 
+TaxID=454130 RepID=A0A0U5GVS0_9EURO
+Length=69
+
+ Score = 62.8 bits (151),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 43/63 (68%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           +S+Y+T  +RNAV++  IFAGAFVF+  FDT+    ++  N+G+ WKD+K +      ++
+Sbjct  7   ASIYQTLIRRNAVYLTAIFAGAFVFEVAFDTSTNKLWDTWNRGRQWKDIKYQYINKAEEE  66
+
+Query  64  DDE  66
+           DDE
+Sbjct  67  DDE  69
+
+
+> UniRef90_A0A317XI62 Putative QCR9-ubiquinol--cytochrome-c reductase 
+subunit 9 n=1 Tax=Testicularia cyperi TaxID=1882483 RepID=A0A317XI62_9BASI
+Length=63
+
+ Score = 62.8 bits (151),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 40/58 (69%), Gaps = 0/58 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+           ++Y T FKRN+V+VG+IF GAF F   +D A T+W+  HN+GK W D++++    D +
+Sbjct  6   TVYNTLFKRNSVYVGSIFFGAFAFGIGYDLATTAWWNAHNRGKQWADIRSKYLQDDSE  63
+
+
+> UniRef90_A0A194S8K9 Uncharacterized protein n=1 Tax=Rhodotorula 
+graminis (strain WP1) TaxID=578459 RepID=A0A194S8K9_RHOGW
+Length=61
+
+ Score = 62.4 bits (150),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 25/46 (54%), Positives = 36/46 (78%), Gaps = 0/46 (0%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+            F RN+V+VG+IF GAF F   FD A ++W++NHN+GK WKD++A+
+Sbjct  11  LFSRNSVYVGSIFFGAFAFGLTFDKATSAWWDNHNQGKQWKDIRAK  56
+
+
+> UniRef90_A0A0H2RP48 Ubiquinol-cytochrome C reductase n=1 Tax=Schizopora 
+paradoxa TaxID=27342 RepID=A0A0H2RP48_9HOMO
+Length=64
+
+ Score = 62.4 bits (150),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 38/50 (76%), Gaps = 0/50 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +Y TFFKRN+V+V +IFAGAF F   FD  I S+++ +NKGK WKD++ +
+Sbjct  7   IYSTFFKRNSVYVTSIFAGAFAFSIGFDMGINSFWDKYNKGKQWKDIRGQ  56
+
+
+> UniRef90_A0A1L9SEB8 Uncharacterized protein n=1 Tax=Penicilliopsis 
+zonata CBS 506.65 TaxID=1073090 RepID=A0A1L9SEB8_9EURO
+Length=67
+
+ Score = 62.4 bits (150),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y TF  RNAV++ TIF GAF F+  +D A    ++  N+G+ WKD+KAR    + +D
+Sbjct  6   SAIYSTFIHRNAVYLSTIFLGAFAFEIGYDVASNKIWDAMNRGRQWKDIKARYMQAEEED  65
+
+Query  64  DD  65
+           D+
+Sbjct  66  DE  67
+
+
+> UniRef90_A0A0D2P0R3 Uncharacterized protein n=1 Tax=Hypholoma 
+sublateritium FD-334 SS-4 TaxID=945553 RepID=A0A0D2P0R3_9AGAR
+Length=61
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 41/61 (67%), Gaps = 1/61 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSFS ++Y T FKRN+VFVG IF  AF F   FD  +T +Y++ NKGK WKD++ +    
+Sbjct  1   MSFSNAIYNTVFKRNSVFVGAIFVSAFAFGIGFDVGVTKFYDSWNKGKQWKDIRDKYVTA  60
+
+Query  60  D  60
+           D
+Sbjct  61  D  61
+
+
+> UniRef90_A0A2C5ZIH1 Uncharacterized protein n=1 Tax=Cordyceps 
+sp. RAO-2017 TaxID=2004951 RepID=A0A2C5ZIH1_9HYPO
+Length=67
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S +Y TFFK+N   +  +F   F F+  F++++  +++NHN+G+ WKD+++R      +D
+Sbjct  5   SQIYSTFFKKNYAMLAAVFGAGFAFEMGFNSSMNRFWDNHNRGRQWKDIRSRYVESAEED  64
+
+Query  64  DDE  66
+           DDE
+Sbjct  65  DDE  67
+
+
+> UniRef90_A0A1C7MHG8 Cytochrome b-c1 complex subunit 9 n=1 Tax=Grifola 
+frondosa TaxID=5627 RepID=A0A1C7MHG8_GRIFR
+Length=59
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 29/52 (56%), Positives = 39/52 (75%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++ Y T  KRN+VFV TIFAGAF F   FD AIT++++N NKGK WKD++ +
+Sbjct  5   NTFYNTIVKRNSVFVPTIFAGAFAFGVGFDVAITAFWDNWNKGKQWKDIREK  56
+
+
+> UniRef90_A0A0D7A564 Ubiquinol-cytochrome C reductase (Fragment) 
+n=1 Tax=Fistulina hepatica ATCC 64428 TaxID=1128425 RepID=A0A0D7A564_9AGAR
+Length=60
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 28/52 (54%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           + LY T FKRN+V+V  IFAGAF+F   FD  +TS+ ++ NKGK WKD++ R
+Sbjct  3   AGLYNTLFKRNSVYVSAIFAGAFLFGVGFDVGVTSFLDHWNKGKQWKDIRHR  54
+
+
+> UniRef90_A0A316Z936 Putative QCR9-ubiquinol--cytochrome-c reductase 
+subunit 9 n=1 Tax=Tilletiopsis washingtonensis TaxID=58919 
+RepID=A0A316Z936_9BASI
+Length=60
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 27/55 (49%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAA  58
+            ++Y+T FKRN+VFVGT+F GAF F   FDT     +++HN+GK WKD++ +I +
+Sbjct  5   QTVYQTVFKRNSVFVGTVFFGAFAFGIGFDTVSQKLWDSHNRGKQWKDIRDKITS  59
+
+
+> UniRef90_A0A1D8PLP3 Ubiquinol--cytochrome-c reductase subunit 
+9 n=3 Tax=Candida TaxID=1535326 RepID=A0A1D8PLP3_CANAL
+Length=65
+
+ Score = 62.0 bits (149),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 25/46 (54%), Positives = 33/46 (72%), Gaps = 0/46 (0%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+             +RN+++V TIF GAF FQ  FD A+  W+E HNK KLWK+VK +
+Sbjct  8   LLERNSIYVATIFGGAFAFQGFFDVAVNKWWEEHNKAKLWKNVKGK  53
+
+
+> UniRef90_A0A1L9X2X3 Uncharacterized protein n=3 Tax=Aspergillus 
+TaxID=5052 RepID=A0A1L9X2X3_ASPAC
+Length=69
+
+ Score = 62.0 bits (149),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++LY++ F+RNAV++  IF  AF F+  FDTA    +++ N+G+ WKD+K R      D+
+Sbjct  7   TTLYRSLFQRNAVYLTAIFTSAFAFELAFDTASNRVWDSFNRGRQWKDIKHRYINQADDE  66
+
+Query  64  DDE  66
+           DDE
+Sbjct  67  DDE  69
+
+
+> UniRef90_A0A1B7N2S7 Ubiquinol-cytochrome C reductase UQCRX/QCR9-like 
+protein n=2 Tax=Rhizopogon TaxID=5375 RepID=A0A1B7N2S7_9HOMO
+Length=64
+
+ Score = 61.6 bits (148),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/59 (47%), Positives = 41/59 (69%), Gaps = 0/59 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+           ++ Y TF KRN+VFV +IFAGAF F   FD A+ ++++  N+GK WKD++A+    D D
+Sbjct  5   NAFYNTFVKRNSVFVTSIFAGAFAFSVGFDVAVNNFWDRWNQGKQWKDIRAKYIQEDAD  63
+
+
+> UniRef90_A0A0J9XJL8 Similar to Saccharomyces cerevisiae YGR183C 
+QCR9 Subunit 9 of the ubiquinol cytochrome-c reductase complex,which 
+is a component of the mitochondrial inner membrane 
+electron transport chain n=1 Tax=Geotrichum candidum TaxID=2282360 
+RepID=A0A0J9XJL8_GEOCN
+Length=65
+
+ Score = 61.6 bits (148),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 45/65 (69%), Gaps = 1/65 (2%)
+
+Query  1   MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF +++Y T F+RN+VFV T+FA +F F   F+  + S+Y++ N GK WKD++++    
+Sbjct  1   MSFGTTIYNTLFRRNSVFVATVFASSFFFDIGFNKVVDSYYDSINAGKQWKDIRSKYVEA  60
+
+Query  60  DGDDD  64
+           + DD+
+Sbjct  61  EDDDE  65
+
+
+> UniRef90_A0A3N4J5P5 Uncharacterized protein n=1 Tax=Choiromyces 
+venosus 120613-1 TaxID=1336337 RepID=A0A3N4J5P5_9PEZI
+Length=136
+
+ Score = 63.5 bits (153),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/57 (47%), Positives = 38/57 (67%), Gaps = 0/57 (0%)
+
+Query  4    SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+             S+Y   F+RN VFVG +FAGAF F+ +FD A    ++N N+G+ WKD++AR    D
+Sbjct  80   QSIYNAIFRRNYVFVGAVFAGAFAFEIMFDQATDRIWDNINRGRQWKDIRARYVQED  136
+
+
+> UniRef90_G7E5L5 Uncharacterized protein n=1 Tax=Mixia osmundae 
+(strain CBS 9802 / IAM 14324 / JCM 22182 / KY 12970) TaxID=764103 
+RepID=G7E5L5_MIXOS
+Length=59
+
+ Score = 61.2 bits (147),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 29/55 (53%), Positives = 37/55 (67%), Gaps = 0/55 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M  SS     F RN+++VGTIF GAF F   +D A ++++E HNKGKLW DVK R
+Sbjct  1   MGISSTATRLFSRNSIYVGTIFFGAFAFGIGYDKATSAFWEYHNKGKLWADVKPR  55
+
+
+> UniRef90_H6C9U1 Ubiquinol-cytochrome c reductase subunit 9 n=1 
+Tax=Exophiala dermatitidis (strain ATCC 34100 / CBS 525.76 
+/ NIH/UT8656) TaxID=858893 RepID=H6C9U1_EXODN
+Length=71
+
+ Score = 61.6 bits (148),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 26/63 (41%), Positives = 43/63 (68%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            + Y T F++NAVF+ ++FAGAF+F+  FDTA    +++ N+G+ WKD+K R      D+
+Sbjct  9   ETFYNTVFRKNAVFLTSVFAGAFLFEIGFDTATNKLWDSWNRGRQWKDIKHRYMTAGEDE  68
+
+Query  64  DDE  66
+           ++E
+Sbjct  69  EEE  71
+
+
+> UniRef90_I4YED9 Ubiquinol-cytochrome C reductase n=1 Tax=Wallemia 
+mellicola (strain ATCC MYA-4683 / CBS 633.66) TaxID=671144 
+RepID=I4YED9_WALMC
+Length=66
+
+ Score = 61.6 bits (148),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 32/67 (48%), Positives = 43/67 (64%), Gaps = 2/67 (3%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSF+ +L  T FKRN+ +V TIF G F F   FD   TS ++ HN GK W +++A+I A 
+Sbjct  1   MSFAQTLNNTLFKRNSTYVATIFVGTFAFGVGFDVLTTSIWDKHNAGKQWPELRAKILA-  59
+
+Query  60  DGDDDDE  66
+            G+ DDE
+Sbjct  60  KGESDDE  66
+
+
+> UniRef90_A0A397TC74 Cytochrome b-c1 complex subunit 9 (Fragment) 
+n=1 Tax=Glomus cerebriforme TaxID=658196 RepID=A0A397TC74_9GLOM
+Length=56
+
+ Score = 60.8 bits (146),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           LY++FF+RN+VF+  IFA AF F+  FDT    W++  NKGK WKD+K R
+Sbjct  4   LYRSFFRRNSVFLTGIFATAFAFEMTFDTITDRWWDRVNKGKQWKDIKDR  53
+
+
+> UniRef90_A0A238FEA7 BQ2448_2446 protein n=2 Tax=Microbotryum 
+TaxID=34416 RepID=A0A238FEA7_9BASI
+Length=57
+
+ Score = 60.8 bits (146),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 28/55 (51%), Positives = 36/55 (65%), Gaps = 0/55 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M+ +S     F RN+VFV TIF GAF F   FD A   W++ HNKGK WKD++A+
+Sbjct  1   MALTSSLTRVFSRNSVFVSTIFFGAFAFSMGFDVATQKWWDAHNKGKQWKDIRAQ  55
+
+
+> UniRef90_S8FX49 Ubiquinol-cytochrome C reductase UQCRX/QCR9-like 
+protein n=1 Tax=Fomitopsis pinicola (strain FP-58527) TaxID=743788 
+RepID=S8FX49_FOMPI
+Length=64
+
+ Score = 60.8 bits (146),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 29/52 (56%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +S Y    KRN+V+V TIF GAF F   FDTAITS+++  NKGK WKD++A+
+Sbjct  6   NSFYNAIVKRNSVYVTTIFTGAFAFGVGFDTAITSFWDTWNKGKQWKDIRAK  57
+
+
+> UniRef90_R7SC80 Uncharacterized protein (Fragment) n=1 Tax=Tremella 
+mesenterica (strain ATCC 24925 / CBS 8224 / DSM 1558 
+/ NBRC 9311 / NRRL Y-6157 / RJB 2259-6) TaxID=578456 RepID=R7SC80_TREMS
+Length=57
+
+ Score = 60.5 bits (145),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 36/48 (75%), Gaps = 0/48 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           +Y TFF+RN++FV T+F GAF F   FD   ++W++ HN+GK WKD++
+Sbjct  1   IYNTFFRRNSIFVTTVFLGAFGFSMGFDVLTSAWWDAHNRGKQWKDIR  48
+
+
+> UniRef90_A0A194UY59 Cytochrome b-c1 complex subunit 9 n=2 Tax=Valsa 
+mali TaxID=105487 RepID=A0A194UY59_9PEZI
+Length=66
+
+ Score = 60.8 bits (146),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 41/63 (65%), Gaps = 1/63 (2%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++LY   F+ N   +G +FA AF FQ  FD A T  ++N N+G+ WKD+KA+   G G++
+Sbjct  5   TTLYNILFRNNYTMLGAVFASAFAFQMSFDVATTKLWDNINRGRQWKDIKAKYIEG-GEE  63
+
+Query  64  DDE  66
+           D+E
+Sbjct  64  DEE  66
+
+
+> UniRef90_B0CUV2 Predicted protein n=2 Tax=Laccaria TaxID=29882 
+RepID=B0CUV2_LACBS
+Length=60
+
+ Score = 60.5 bits (145),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 30/54 (56%), Positives = 39/54 (72%), Gaps = 1/54 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           M+F+ SLY   FKRN+VFV T+FAGAF F   FD  +T +Y+  NKGK WKD++
+Sbjct  1   MAFANSLYNAIFKRNSVFVTTVFAGAFAFGIGFDLGVTKFYDTWNKGKQWKDIR  54
+
+
+> UniRef90_A0A0L0V3Z5 Uncharacterized protein n=2 Tax=Puccinia 
+striiformis TaxID=27350 RepID=A0A0L0V3Z5_9BASI
+Length=60
+
+ Score = 60.5 bits (145),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 25/52 (48%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           +Y +  KRN+ +V TIFAG+F+F   FDT  + W+E HNK KLW  V+  +A
+Sbjct  7   IYNSIMKRNSTYVSTIFAGSFIFSIGFDTITSRWWEQHNKQKLWSTVRDNLA  58
+
+
+> UniRef90_U9UK30 Ubiquinol-cytochrome C reductase n=5 Tax=Rhizophagus 
+TaxID=1129544 RepID=U9UK30_RHIID
+Length=68
+
+ Score = 60.8 bits (146),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 37/52 (71%), Gaps = 0/52 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           +Y+T F+RN+VF+  IFA AF F+  FD+A   W++  NKGK WKD+K R +
+Sbjct  16  VYRTLFRRNSVFLLGIFASAFAFEMAFDSATDRWWDRINKGKQWKDIKDRFS  67
+
+
+> UniRef90_A0A093XFW5 Cytochrome b-c1 complex subunit 9 n=1 Tax=Talaromyces 
+marneffei PM1 TaxID=1077442 RepID=A0A093XFW5_TALMA
+Length=94
+
+ Score = 61.2 bits (147),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 42/65 (65%), Gaps = 1/65 (2%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDG  61
+              L  T F+RNAV++ +IFAGAF F+  FDTA    ++  N+G+ WKD++ + I   + 
+Sbjct  30  IPRLRPTLFQRNAVYLTSIFAGAFAFEVAFDTASNKIWDTMNRGRQWKDIRHQYIQKAEE  89
+
+Query  62  DDDDE  66
+           D+D+E
+Sbjct  90  DEDEE  94
+
+
+> UniRef90_A0A067NLZ2 QCR9, subunit of the ubiquinol cytochrome-c 
+reductase complex n=1 Tax=Pleurotus ostreatus PC15 TaxID=1137138 
+RepID=A0A067NLZ2_PLEOS
+Length=61
+
+ Score = 60.5 bits (145),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 28/56 (50%), Positives = 42/56 (75%), Gaps = 1/56 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M+F+ ++Y  FF+RN+V+V TIFAGAF F   FD A+TS+Y+  N GK W+D++ +
+Sbjct  1   MAFANTVYNAFFRRNSVYVSTIFAGAFAFGIGFDVAVTSFYDRWNAGKQWQDIRHK  56
+
+
+> UniRef90_A0A167M3A1 Ubiquinol-cytochrome C reductase n=1 Tax=Calocera 
+viscosa TUFC12733 TaxID=1330018 RepID=A0A167M3A1_9BASI
+Length=66
+
+ Score = 60.5 bits (145),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 27/61 (44%), Positives = 40/61 (66%), Gaps = 0/61 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           +LY   F+RN++FV +IF GAF F   FDTA   +++N NKGK WKD++ +     G D+
+Sbjct  6   TLYNALFRRNSIFVSSIFVGAFGFGLAFDTATNRFWDNWNKGKQWKDIRDKYVTPAGADE  65
+
+Query  65  D  65
+           +
+Sbjct  66  E  66
+
+
+> UniRef90_U5HES0 Uncharacterized protein n=2 Tax=Microbotryum 
+TaxID=34416 RepID=U5HES0_USTV1
+Length=103
+
+ Score = 61.6 bits (148),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 27/55 (49%), Positives = 37/55 (67%), Gaps = 0/55 (0%)
+
+Query  1    MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+            M+ +S     F RN+VFVGT+F GAF F   FD A  +W++ HNK K WKD++A+
+Sbjct  47   MAITSSLTRVFSRNSVFVGTVFFGAFAFSMGFDVATQNWWDKHNKPKQWKDIRAQ  101
+
+
+> UniRef90_A0A1B8E5P5 Uncharacterized protein n=1 Tax=Pseudogymnoascus 
+sp. 23342-1-I1 TaxID=1524831 RepID=A0A1B8E5P5_9PEZI
+Length=70
+
+ Score = 60.5 bits (145),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 28/52 (54%), Positives = 39/52 (75%), Gaps = 1/52 (2%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGD  60
+           F +RN VF+GT+FAGAF F+  FD+   S ++N NKG+ WKD++A+ I AGD
+Sbjct  16  FVRRNYVFLGTVFAGAFAFEMTFDSVTDSLWDNINKGRQWKDIRAKYIEAGD  67
+
+
+> UniRef90_A0A0D1ZNQ6 Uncharacterized protein n=1 Tax=Exophiala 
+spinifera TaxID=91928 RepID=A0A0D1ZNQ6_9EURO
+Length=70
+
+ Score = 60.5 bits (145),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/62 (42%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S L+   F+RNAVF+ ++FAGAF F+  F+    + +++ NKG+ WKD+K +    D DD
+Sbjct  9   SGLFNGIFRRNAVFLTSVFAGAFAFELAFEAGTNTLWDSWNKGRQWKDIKHKYITADEDD  68
+
+Query  64  DD  65
+           D+
+Sbjct  69  DE  70
+
+
+> UniRef90_A0A2H3JGQ6 Ubiquinol-cytochrome C reductase UQCRX/QCR9-like 
+protein (Fragment) n=1 Tax=Wolfiporia cocos (strain 
+MD-104) TaxID=742152 RepID=A0A2H3JGQ6_WOLCO
+Length=59
+
+ Score = 60.1 bits (144),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 28/52 (54%), Positives = 37/52 (71%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++ Y T  KRN+VFV TIFAGAF F   FD  IT +++N NKGK WKD++ +
+Sbjct  3   NTFYNTIVKRNSVFVSTIFAGAFAFGVSFDVGITKFWDNWNKGKQWKDIRHK  54
+
+
+> UniRef90_M5FQJ9 Ubiquinol-cytochrome c reductase complex 7.3 
+kDa protein n=1 Tax=Dacryopinax primogenitus (strain DJM 731) 
+TaxID=1858805 RepID=M5FQJ9_DACPD
+Length=65
+
+ Score = 60.5 bits (145),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 27/53 (51%), Positives = 38/53 (72%), Gaps = 0/53 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           +LY T F+RN+VFV +IF GAF F   FDTA   +++ HN+GK WKD++ + A
+Sbjct  7   TLYNTIFRRNSVFVASIFIGAFGFGLAFDTASNRFWDYHNRGKQWKDIRDKYA  59
+
+
+> UniRef90_A0A2Z6RYU6 Uncharacterized protein n=1 Tax=Rhizophagus 
+clarus TaxID=94130 RepID=A0A2Z6RYU6_9GLOM
+Length=67
+
+ Score = 60.5 bits (145),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           +Y+T F+RN VF+  IFA AF F+  FDT    W++  NKGK WKD+K R +
+Sbjct  15  VYRTIFRRNTVFLAGIFATAFAFEMAFDTVTDRWWDRMNKGKQWKDIKDRFS  66
+
+
+> UniRef90_A0A0C4EMP8 Uncharacterized protein n=1 Tax=Puccinia 
+triticina (isolate 1-1 / race 1 (BBBD)) TaxID=630390 RepID=A0A0C4EMP8_PUCT1
+Length=69
+
+ Score = 60.5 bits (145),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           +Y    KRN+ +V TIFAG+F+F   FD+  ++W+E HNK KLW  V+  +++     D
+Sbjct  7   IYNAIMKRNSTYVSTIFAGSFMFSIGFDSLTSAWWEQHNKKKLWSTVRENVSSPSPALD  65
+
+
+> UniRef90_A0A364KWW5 Uncharacterized protein n=1 Tax=Talaromyces 
+amestolkiae TaxID=1196081 RepID=A0A364KWW5_9EURO
+Length=80
+
+ Score = 60.5 bits (145),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 43/65 (66%), Gaps = 1/65 (2%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDG  61
+           +  +  T F+RNAV++ +IFAGAF F+  FDTA    ++  N+G+ WKD++ + I   + 
+Sbjct  16  YQQVTPTLFQRNAVYLTSIFAGAFAFEVAFDTASNKIWDTMNRGRQWKDIRHQYIQKAEE  75
+
+Query  62  DDDDE  66
+           D+D+E
+Sbjct  76  DEDEE  80
+
+
+> UniRef90_A0A2D3UYQ4 Uncharacterized protein n=1 Tax=Ramularia 
+collo-cygni TaxID=112498 RepID=A0A2D3UYQ4_9PEZI
+Length=67
+
+ Score = 60.1 bits (144),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 30/64 (47%), Positives = 39/64 (61%), Gaps = 1/64 (2%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+           F S+Y  F KRNAVF+GTIF GA+     FD      ++  N+G+ WKD+K R     GD
+Sbjct  5   FGSIYNIFVKRNAVFLGTIFVGAYATSLGFDVGANLVWDRINRGRQWKDIKQRYMEA-GD  63
+
+Query  63  DDDE  66
+           +DDE
+Sbjct  64  EDDE  67
+
+
+> UniRef90_A0A1Y2DJI8 Cytochrome b-c1 complex subunit 9 n=1 Tax=Leucosporidium 
+creatinivorum TaxID=106004 RepID=A0A1Y2DJI8_9BASI
+Length=60
+
+ Score = 60.1 bits (144),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 25/55 (45%), Positives = 37/55 (67%), Gaps = 0/55 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M+  S +   F RN VFVGT+F GAF F   +D A ++W++NHN+GK W D++ +
+Sbjct  1   MAVVSAFTQLFSRNTVFVGTVFFGAFAFGIGYDKATSAWWDNHNRGKQWADIRHK  55
+
+
+> UniRef90_A0A1X2GYL3 Ubiquinol-cytochrome C reductase n=1 Tax=Hesseltinella 
+vesiculosa TaxID=101127 RepID=A0A1X2GYL3_9FUNG
+Length=64
+
+ Score = 60.1 bits (144),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 26/51 (51%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++Y T FKRN+VFV T+FAGA  F+ V+D+     ++N NKGK WKD+K +
+Sbjct  12  TIYNTIFKRNSVFVTTVFAGALAFEVVYDSTTDKIWDNLNKGKQWKDIKHK  62
+
+
+> UniRef90_M7XMJ5 Ubiquinol-cytochrome c reductase subunit 9 n=2 
+Tax=Rhodosporidium toruloides TaxID=5286 RepID=M7XMJ5_RHOT1
+Length=61
+
+ Score = 60.1 bits (144),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 36/55 (65%), Gaps = 0/55 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M  ++     F RN+VFVGT+F GAF F  V+D   ++W++ HN GK WKD++ +
+Sbjct  1   MPLATSVANLFARNSVFVGTVFTGAFAFGIVYDKVTSAWWDAHNAGKQWKDIRHK  55
+
+
+> UniRef90_A0A202GBL9 Putative ubiquinol--cytochrome-c reductase 
+subunit n=1 Tax=Clavispora lusitaniae TaxID=36911 RepID=A0A202GBL9_CLALS
+Length=63
+
+ Score = 60.1 bits (144),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/55 (65%), Positives = 44/55 (80%), Gaps = 4/55 (7%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M+ S+LYK    RN+V+V TIFAGAF FQ  FD+++T WYENHNKGKLWKDVK +
+Sbjct  1   MALSALYK----RNSVYVATIFAGAFAFQAFFDSSVTKWYENHNKGKLWKDVKGK  51
+
+
+> UniRef90_G2Q0D2 Uncharacterized protein n=1 Tax=Myceliophthora 
+thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799) TaxID=573729 
+RepID=G2Q0D2_MYCTT
+Length=62
+
+ Score = 59.7 bits (143),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 25/61 (41%), Positives = 40/61 (66%), Gaps = 1/61 (2%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y   F+RN   +G +FAGAF FQ  +D  +   ++NHN+G+ WKD++ +   G GDD
+Sbjct  3   SAIYNALFRRNFTMLGVVFAGAFAFQLGYDGLMNKIWDNHNRGRQWKDIRHKYIEG-GDD  61
+
+Query  64  D  64
+           +
+Sbjct  62  E  62
+
+
+> UniRef90_A0A0C3S8U6 Uncharacterized protein n=1 Tax=Phlebiopsis 
+gigantea 11061_1 CR5-6 TaxID=745531 RepID=A0A0C3S8U6_PHLGI
+Length=61
+
+ Score = 59.7 bits (143),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 31/55 (56%), Positives = 38/55 (69%), Gaps = 1/55 (2%)
+
+Query  1   MSFSS-LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKA  54
+           MSFS+  Y T  KRN+VFV TIFAGAF F   FD  IT +++  NKGK WKD++ 
+Sbjct  1   MSFSANFYNTIVKRNSVFVSTIFAGAFAFGVGFDVGITKFWDTWNKGKQWKDIRG  55
+
+
+> UniRef90_A0A2A9NQK6 Uncharacterized protein (Fragment) n=1 Tax=Amanita 
+thiersii Skay4041 TaxID=703135 RepID=A0A2A9NQK6_9AGAR
+Length=59
+
+ Score = 59.7 bits (143),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++LY TFFKRN++FV T F GAF F   FD  +T++++  N+GK WKD++ R
+Sbjct  3   NTLYSTFFKRNSIFVATTFVGAFAFGIGFDLGVTAFWDRWNQGKQWKDIRHR  54
+
+
+> UniRef90_A0A2V5JI84 Ubiquinol-cytochrome C reductase n=1 Tax=Aspergillus 
+indologenus CBS 114.80 TaxID=1450541 RepID=A0A2V5JI84_9EURO
+Length=99
+
+ Score = 60.8 bits (146),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++LY++ F+RNAV++  IF  AF F+  FDTA    ++  N+G+ WKD+K R      D+
+Sbjct  37  TTLYRSLFQRNAVYLTAIFTSAFAFELAFDTASNRVWDAFNRGRQWKDIKHRYINQADDE  96
+
+Query  64  DDE  66
+           DDE
+Sbjct  97  DDE  99
+
+
+> UniRef90_G4MQ00 Uncharacterized protein n=1 Tax=Magnaporthe oryzae 
+(strain 70-15 / ATCC MYA-4617 / FGSC 8958) TaxID=242507 
+RepID=G4MQ00_MAGO7
+Length=65
+
+ Score = 59.7 bits (143),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 23/61 (38%), Positives = 41/61 (67%), Gaps = 0/61 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           SS+Y   F+RNA  +GT+FAGAFV++  ++T +   +++ N+G+ WKD++ +      DD
+Sbjct  5   SSIYNLLFRRNAAMLGTVFAGAFVWEIGYNTQMNKLWDSMNRGRQWKDIRHKYVEASEDD  64
+
+Query  64  D  64
+           +
+Sbjct  65  E  65
+
+
+> UniRef90_A0A1E3JQJ4 Ubiquinol-cytochrome c reductase subunit 
+9 n=1 Tax=Cryptococcus depauperatus CBS 7855 TaxID=1295532 RepID=A0A1E3JQJ4_9TREE
+Length=65
+
+ Score = 59.7 bits (143),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/59 (42%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++Y  FF+RN+VFV T F  AF F   FD A ++W++ HN+GK WKD++ +      D+
+Sbjct  7   AIYNVFFRRNSVFVATTFVAAFGFSIGFDLATSAWWDYHNRGKQWKDIRHKYLEAADDE  65
+
+
+> UniRef90_A0A317VZ20 Ubiquinol-cytochrome C reductase n=1 Tax=Aspergillus 
+heteromorphus CBS 117.55 TaxID=1448321 RepID=A0A317VZ20_9EURO
+Length=105
+
+ Score = 60.8 bits (146),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/62 (42%), Positives = 42/62 (68%), Gaps = 0/62 (0%)
+
+Query  5    SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+            ++Y+  F+RNAV++  IF+ AF F+  FDTA    +++ N+G+ WKD+K R  A   ++D
+Sbjct  44   TVYRGLFRRNAVYLTAIFSTAFAFELAFDTASNRVWDSFNRGRQWKDIKHRYLAAAEEED  103
+
+Query  65   DE  66
+            DE
+Sbjct  104  DE  105
+
+
+> UniRef90_A0A3A2ZUS4 Ubiquinol-cytochrome C reductase n=1 Tax=Aspergillus 
+sclerotialis TaxID=2070753 RepID=A0A3A2ZUS4_9EURO
+Length=161
+
+ Score = 62.0 bits (149),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 42/60 (70%), Gaps = 1/60 (2%)
+
+Query  7    YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDDDD  65
+            + T F+RNAVF+ +IFAGAF F+  FD+   + ++  N+G+ WKD+K R +  G+ +D++
+Sbjct  102  FSTLFRRNAVFLTSIFAGAFAFEIAFDSTSNALWDALNRGRQWKDIKGRYLTQGEAEDEE  161
+
+
+> UniRef90_L8G4I9 Uncharacterized protein n=4 Tax=Pseudogymnoascus 
+TaxID=78156 RepID=L8G4I9_PSED2
+Length=65
+
+ Score = 59.7 bits (143),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/57 (47%), Positives = 40/57 (70%), Gaps = 1/57 (2%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGD  60
+           + Y  F +RN VF+GT+FAGAF F+  FD+   S ++  NKG+ WKD++A+ + AGD
+Sbjct  7   NFYNLFVRRNYVFLGTVFAGAFAFEMTFDSVTDSLWDKINKGRQWKDIRAKYVEAGD  63
+
+
+> UniRef90_A0A318Z325 UQCRX/QCR9 like ubiquinol-cytochrome C reductase 
+family protein n=2 Tax=Aspergillus TaxID=5052 RepID=A0A318Z325_9EURO
+Length=69
+
+ Score = 59.3 bits (142),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/63 (41%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++LY++ F+RNAV++  IF  AF F+  FDTA    +++ N G+ WKD+K R      ++
+Sbjct  7   TTLYRSLFQRNAVYLTAIFTSAFAFELAFDTASNRIWDSFNSGRQWKDIKHRYINKADEE  66
+
+Query  64  DDE  66
+           DDE
+Sbjct  67  DDE  69
+
+
+> UniRef90_A0A0D6EIQ9 SPOSA6832_01435-mRNA-1:cds n=1 Tax=Sporidiobolus 
+salmonicolor TaxID=5005 RepID=A0A0D6EIQ9_SPOSA
+Length=60
+
+ Score = 59.3 bits (142),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 38/55 (69%), Gaps = 0/55 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M+ +S +   F RN+VFVGT+F GAF F   +D   ++W+++HN GK WKD++ +
+Sbjct  1   MALASTFANVFSRNSVFVGTVFFGAFAFGIGYDKVTSAWWDSHNAGKQWKDIRHK  55
+
+
+> UniRef90_A0A371DL21 Ubiquinol-cytochrome C reductase UQCRX/QCR9-like 
+protein n=1 Tax=Polyporus brumalis TaxID=139420 RepID=A0A371DL21_9APHY
+Length=61
+
+ Score = 59.3 bits (142),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 28/52 (54%), Positives = 34/52 (65%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S+ Y T  KRN+VFV  IF GAF F   FD  IT  ++  NKGK WKD++AR
+Sbjct  5   STFYNTLVKRNSVFVPAIFTGAFAFSIGFDLGITKLWDTWNKGKQWKDIRAR  56
+
+
+> UniRef90_J4G867 Uncharacterized protein n=1 Tax=Fibroporia radiculosa 
+TaxID=599839 RepID=J4G867_9APHY
+Length=61
+
+ Score = 58.9 bits (141),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 27/52 (52%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++ Y T  KRN+V+V +IFAGAF F   FD  ITS+Y++ NKGK WKD++ +
+Sbjct  5   NAFYNTLVKRNSVYVTSIFAGAFGFGVGFDVGITSFYDSWNKGKQWKDIRGK  56
+
+
+> UniRef90_A0A0C2XFW7 Uncharacterized protein n=1 Tax=Amanita muscaria 
+Koide BX008 TaxID=946122 RepID=A0A0C2XFW7_AMAMU
+Length=61
+
+ Score = 58.9 bits (141),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 30/56 (54%), Positives = 40/56 (71%), Gaps = 1/56 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           MSF+ + Y T FKRN+VFV T F GAF F   FD A+TS+++  N+GK WKD++ R
+Sbjct  1   MSFANTAYNTIFKRNSVFVTTTFLGAFAFGMGFDLAVTSFWDRWNRGKQWKDIRHR  56
+
+
+> UniRef90_C5PH90 Ubiquinol-cytochrome C reductase, putative n=6 
+Tax=Coccidioides TaxID=5500 RepID=C5PH90_COCP7
+Length=64
+
+ Score = 58.9 bits (141),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S++Y T  +RNAVF+ TIF GAF F+  FDT     ++  NKG+ WKD+K R
+Sbjct  6   SAIYNTLIRRNAVFLSTIFVGAFAFEIAFDTVSNRVWDTINKGRQWKDIKHR  57
+
+
+> UniRef90_A0A165R378 Ubiquinol-cytochrome C reductase n=1 Tax=Exidia 
+glandulosa HHB12029 TaxID=1314781 RepID=A0A165R378_EXIGL
+Length=64
+
+ Score = 58.9 bits (141),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            Y T  +RN+V+V +IFAGAF F   FD A+TS+++  NKGK WKD++ R    D D+
+Sbjct  7   FYTTVVRRNSVYVTSIFAGAFAFGVGFDIAVTSFWDRWNKGKQWKDIRDRYIQKDDDE  64
+
+
+> UniRef90_A0A1E4RNX9 Uncharacterized protein n=1 Tax=Hyphopichia 
+burtonii NRRL Y-1933 TaxID=984485 RepID=A0A1E4RNX9_9ASCO
+Length=56
+
+ Score = 58.5 bits (140),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 28/46 (61%), Positives = 34/46 (74%), Gaps = 4/46 (9%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKG  46
+           +S SSL    FKRN+V+V TIF GAF FQ  FD A+T WYE+HN+G
+Sbjct  2   LSISSL----FKRNSVYVATIFGGAFAFQGFFDVAVTKWYESHNRG  43
+
+
+> UniRef90_J3P7W3 Uncharacterized protein n=1 Tax=Gaeumannomyces 
+graminis var. tritici (strain R3-111a-1) TaxID=644352 RepID=J3P7W3_GAGT3
+Length=89
+
+ Score = 59.3 bits (142),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 24/64 (38%), Positives = 41/64 (64%), Gaps = 0/64 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           M FS   +  F+RNAV +G +FAGAF ++  +D+ +   ++N N+G+ WKD++ + A   
+Sbjct  26  MDFSRHTRALFRRNAVMLGAVFAGAFAWEMGYDSVMNRVWDNMNRGRQWKDIRHKYAEAV  85
+
+Query  61  GDDD  64
+            DD+
+Sbjct  86  EDDE  89
+
+
+> UniRef90_A8NWN4 Uncharacterized protein n=1 Tax=Coprinopsis cinerea 
+(strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003) 
+TaxID=240176 RepID=A8NWN4_COPC7
+Length=61
+
+ Score = 58.5 bits (140),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++LY T FKRN+VFV T+F GAF F   FDT ++ +++  NKGK WKD++ +
+Sbjct  5   NALYNTIFKRNSVFVSTVFVGAFAFGIGFDTGVSKFFDYWNKGKQWKDIRHK  56
+
+
+> UniRef90_A0A0W0FCE5 Uncharacterized protein n=2 Tax=Moniliophthora 
+roreri TaxID=221103 RepID=A0A0W0FCE5_9AGAR
+Length=62
+
+ Score = 58.5 bits (140),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 25/57 (44%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           ++LY T FKRN+V+V T+F+ AF F   FD+ +TS+++  N GK WKD++ +   G+
+Sbjct  5   NALYSTIFKRNSVYVATVFSAAFAFGISFDSGVTSFWDKWNAGKQWKDIRHKYIQGE  61
+
+
+> UniRef90_A0A369JUY3 Cytochrome b-c1 complex subunit 9 n=1 Tax=Hypsizygus 
+marmoreus TaxID=39966 RepID=A0A369JUY3_HYPMA
+Length=67
+
+ Score = 58.9 bits (141),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 26/52 (50%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +++Y TFFKRN+V+V  IFA AF F   FD  +T++Y+  NKGK WKD++ +
+Sbjct  10  ATVYNTFFKRNSVYVTAIFASAFAFGVGFDVGVTAFYDKWNKGKQWKDIRHK  61
+
+
+> UniRef90_A0A165SYB3 Ubiquinol-cytochrome C reductase n=1 Tax=Daedalea 
+quercina L-15889 TaxID=1314783 RepID=A0A165SYB3_9APHY
+Length=64
+
+ Score = 58.5 bits (140),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 27/50 (54%), Positives = 39/50 (78%), Gaps = 0/50 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           ++ Y +  KRN+V+V +IFAGAF F   FDTAITS++++ NKGK WKD++
+Sbjct  6   NAFYNSVVKRNSVYVTSIFAGAFAFGVGFDTAITSFWDSWNKGKQWKDIR  55
+
+
+> UniRef90_A0A1L9V1A4 Uncharacterized protein n=4 Tax=Aspergillus 
+TaxID=5052 RepID=A0A1L9V1A4_9EURO
+Length=69
+
+ Score = 58.9 bits (141),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 26/63 (41%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y+   +RNAV++ TIFA AF F+  FDTA    +++ N+G+ WKD+K +      ++
+Sbjct  7   SAIYQGLIRRNAVYLTTIFASAFAFELTFDTASNKIWDSFNRGRQWKDIKHQYLNKADEE  66
+
+Query  64  DDE  66
+           DDE
+Sbjct  67  DDE  69
+
+
+> UniRef90_W9YTL1 Uncharacterized protein (Fragment) n=1 Tax=Capronia 
+epimyces CBS 606.96 TaxID=1182542 RepID=W9YTL1_9EURO
+Length=72
+
+ Score = 58.9 bits (141),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 43/64 (67%), Gaps = 1/64 (2%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+           F++   T F+RNAVF+  IFAGAF F+  FD A    +++ NKG+ WKD+K +  +  G+
+Sbjct  10  FANSRSTVFRRNAVFLSAIFAGAFAFEIGFDAATDRLWDSWNKGRQWKDIKQKYISA-GE  68
+
+Query  63  DDDE  66
+           D+DE
+Sbjct  69  DEDE  72
+
+
+> UniRef90_A0A3F3RU15 Uncharacterized protein n=2 Tax=Aspergillus 
+TaxID=5052 RepID=A0A3F3RU15_ASPNG
+Length=69
+
+ Score = 58.5 bits (140),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 26/63 (41%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y+   +RNAV++ TIFA AF F+  FDTA    +++ N+G+ WKD+K +      ++
+Sbjct  7   SAIYQGLIRRNAVYLTTIFASAFAFELAFDTASNKVWDSFNRGRQWKDIKHQYLNKADEE  66
+
+Query  64  DDE  66
+           DDE
+Sbjct  67  DDE  69
+
+
+> UniRef90_A0A2G8SSW3 Uncharacterized protein n=1 Tax=Ganoderma 
+sinense ZZ0214-1 TaxID=1077348 RepID=A0A2G8SSW3_9APHY
+Length=61
+
+ Score = 58.2 bits (139),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 39/57 (68%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           ++ Y T  +RN+VFV TIFAGAF F   FD  IT ++++ NKGK W+D++++    D
+Sbjct  5   NTFYNTLVRRNSVFVPTIFAGAFAFSIGFDLGITKFWDSWNKGKQWQDIRSKYVEQD  61
+
+
+> UniRef90_A0A125PJ56 Ubiquinol-cytochrome C reductase n=1 Tax=Rhodotorula 
+sp. JG-1b TaxID=1305733 RepID=A0A125PJ56_9BASI
+Length=60
+
+ Score = 58.2 bits (139),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 37/55 (67%), Gaps = 0/55 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M  ++     F RN+VFVGTIF GAF F   +D   ++W+++HN+GK W D++++
+Sbjct  1   MPIATSVANLFARNSVFVGTIFFGAFAFGITYDKVTSAWWDSHNRGKQWADIRSK  55
+
+
+> UniRef90_A0A1W5CZE9 Uqcrx qcr9 like ubiquinol-cytochrome c reductase 
+family protein n=1 Tax=Umbilicaria pustulata TaxID=136370 
+RepID=A0A1W5CZE9_9LECA
+Length=69
+
+ Score = 58.5 bits (140),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           +++Y + F++NAVF+  +F  AF F+  FDT     ++  N+G+ WKD++A+    +G D
+Sbjct  6   ATVYNSIFRKNAVFLSAVFVSAFAFEIGFDTLSNKLWDARNRGRQWKDIRAKYTENEGKD  65
+
+Query  64  DDE  66
+           DD+
+Sbjct  66  DDD  68
+
+
+> UniRef90_A0A0C3C2L0 Uncharacterized protein n=1 Tax=Piloderma 
+croceum F 1598 TaxID=765440 RepID=A0A0C3C2L0_9HOMO
+Length=64
+
+ Score = 58.2 bits (139),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 29/58 (50%), Positives = 40/58 (69%), Gaps = 1/58 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           M+F+ + Y  F KRN+VFV +IF GAF F   FD  IT++++  NKGK WKD++ R A
+Sbjct  1   MAFANAFYNAFVKRNSVFVSSIFVGAFAFGIGFDVGITAFWDRWNKGKQWKDIRDRYA  58
+
+
+> UniRef90_A0A167Y033 Protoporphyrinogen oxidase n=1 Tax=Ascosphaera 
+apis ARSEF 7405 TaxID=392613 RepID=A0A167Y033_9EURO
+Length=686
+
+ Score = 62.4 bits (150),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 27/56 (48%), Positives = 41/56 (73%), Gaps = 1/56 (2%)
+
+Query  1    MSF-SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+            MSF +S+Y TFF+RNAV++ +IF GAF F+  FDT     +++ N+G+ WKD+K +
+Sbjct  617  MSFATSVYNTFFRRNAVYLTSIFVGAFAFEMAFDTVSDRVWDSMNQGRQWKDIKHK  672
+
+
+> UniRef90_A0A1B8FZ70 Uncharacterized protein n=1 Tax=Pseudogymnoascus 
+sp. 03VT05 TaxID=1622148 RepID=A0A1B8FZ70_9PEZI
+Length=58
+
+ Score = 58.2 bits (139),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 27/52 (52%), Positives = 38/52 (73%), Gaps = 1/52 (2%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGD  60
+           F +RN VF+GT+FAGAF F+  FD+   S ++  NKG+ WKD++A+ I AGD
+Sbjct  5   FVRRNYVFLGTVFAGAFAFEMTFDSVTDSLWDKINKGRQWKDIRAKYIEAGD  56
+
+
+> UniRef90_A0A2I2GR77 Uncharacterized protein n=1 Tax=Aspergillus 
+steynii IBT 23096 TaxID=1392250 RepID=A0A2I2GR77_9EURO
+Length=73
+
+ Score = 58.2 bits (139),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 28/66 (42%), Positives = 42/66 (64%), Gaps = 1/66 (2%)
+
+Query  2   SFSSLYKT-FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           S  +L +T   +RNAVF+ TIF  AF F+  FD+A  S ++  N+G+ WKD+K R    D
+Sbjct  8   SLDALGRTGVIRRNAVFLTTIFTSAFAFEIAFDSASNSIWDTINRGRQWKDIKPRYMVKD  67
+
+Query  61  GDDDDE  66
+            ++DD+
+Sbjct  68  EEEDDD  73
+
+
+> UniRef90_A0A1C7N082 Cytochrome b-c1 complex subunit 9 n=1 Tax=Choanephora 
+cucurbitarum TaxID=101091 RepID=A0A1C7N082_9FUNG
+Length=65
+
+ Score = 58.2 bits (139),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 27/49 (55%), Positives = 36/49 (73%), Gaps = 0/49 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           ++Y TFFK+N+VFV TIF GA  F+  FD+A    ++N NKGK WKD+K
+Sbjct  12  TIYNTFFKKNSVFVATIFVGAIGFEMGFDSATDKIWDNINKGKQWKDIK  60
+
+
+> UniRef90_Q5B6A8 Uncharacterized protein n=2 Tax=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 
+/ M139) TaxID=227321 RepID=Q5B6A8_EMENI
+Length=103
+
+ Score = 58.9 bits (141),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 24/64 (38%), Positives = 40/64 (63%), Gaps = 0/64 (0%)
+
+Query  3    FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+             ++ Y+T  +RNAV++ +IF GAF F+  FDT     ++  N+G+ WKD+K +      +
+Sbjct  40   IATTYRTLIRRNAVYLTSIFVGAFAFEVAFDTTTNKLWDTWNRGRQWKDIKHQYLTKADE  99
+
+Query  63   DDDE  66
+            +DDE
+Sbjct  100  EDDE  103
+
+
+> UniRef90_A0A1B8CC82 Uncharacterized protein n=4 Tax=Pseudogymnoascus 
+TaxID=78156 RepID=A0A1B8CC82_9PEZI
+Length=86
+
+ Score = 58.5 bits (140),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/54 (48%), Positives = 39/54 (72%), Gaps = 1/54 (2%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGD  62
+           F +RN VF+GT+FAGAF F+  FD+   S ++  NKG+ WKD++A+ + AGD +
+Sbjct  33  FVRRNYVFLGTVFAGAFAFEMTFDSVTDSLWDKINKGRQWKDIRAKYVEAGDEE  86
+
+
+> UniRef90_A0A367JAA5 Uncharacterized protein n=4 Tax=Rhizopus 
+TaxID=4842 RepID=A0A367JAA5_9FUNG
+Length=64
+
+ Score = 57.8 bits (138),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 27/49 (55%), Positives = 35/49 (71%), Gaps = 0/49 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           ++Y T FK+N+VFV TIFAGA  F+  FDT     ++N NKGK WKD+K
+Sbjct  12  TIYNTIFKKNSVFVTTIFAGAIAFEVGFDTLADKVWDNLNKGKQWKDIK  60
+
+
+> UniRef90_A0A319D5K4 UQCRX/QCR9 like ubiquinol-cytochrome C reductase 
+family protein n=1 Tax=Aspergillus ellipticus CBS 707.79 
+TaxID=1448320 RepID=A0A319D5K4_9EURO
+Length=69
+
+ Score = 57.8 bits (138),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 25/63 (40%), Positives = 41/63 (65%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y+  F+RN V++  +F+ AF F+  FDTA  S ++  NKG+ WKD+K +      ++
+Sbjct  7   SAIYQALFRRNTVYLTAMFSSAFAFELAFDTASNSVWDTFNKGRQWKDIKYQYINKADEE  66
+
+Query  64  DDE  66
+           DDE
+Sbjct  67  DDE  69
+
+
+> UniRef90_A0A1X6MVQ2 Uncharacterized protein n=1 Tax=Postia placenta 
+MAD-698-R-SB12 TaxID=670580 RepID=A0A1X6MVQ2_9APHY
+Length=62
+
+ Score = 57.4 bits (137),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+            Y T  KRN+V+V +IFAGAF F   FD  ITS+Y++ NKGK WKD++
+Sbjct  8   FYNTVVKRNSVYVTSIFAGAFAFGVGFDIGITSFYDSWNKGKQWKDIR  55
+
+
+> UniRef90_W9YEE3 Ubiquinol-cytochrome c reductase subunit 9 n=1 
+Tax=Capronia coronata CBS 617.96 TaxID=1182541 RepID=W9YEE3_9EURO
+Length=70
+
+ Score = 57.8 bits (138),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 24/62 (39%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            +++ T F+RNAVF+  +F GAF F+  FDTA    +++ N+G+ WKD+K R    + D+
+Sbjct  9   ETVFNTVFRRNAVFLTAVFTGAFFFEIGFDTATNRLWDSWNQGRQWKDIKHRYMTANEDE  68
+
+Query  64  DD  65
+           ++
+Sbjct  69  EE  70
+
+
+> UniRef90_A0A1M3T2H9 Uncharacterized protein (Fragment) n=2 Tax=Aspergillus 
+luchuensis TaxID=1069201 RepID=A0A1M3T2H9_9EURO
+Length=68
+
+ Score = 57.8 bits (138),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/62 (42%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y+   +RNAV++ TIFA AF F+  FDTA    +++ N+G+ WKD+K +      D+
+Sbjct  7   SAIYQGLIRRNAVYLTTIFASAFAFELTFDTASNKVWDSFNRGRQWKDIKHQYLNKADDE  66
+
+Query  64  DD  65
+           DD
+Sbjct  67  DD  68
+
+
+> UniRef90_A0A093X767 Uncharacterized protein n=3 Tax=Pseudogymnoascus 
+TaxID=78156 RepID=A0A093X767_9PEZI
+Length=2824
+
+ Score = 61.6 bits (148),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 24/53 (45%), Positives = 37/53 (70%), Gaps = 0/53 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           +S    F +RN VF+GT+FAGAF F+  FD+   S ++  NKG+ WKD++A++
+Sbjct  35  TSTSNLFVRRNYVFLGTVFAGAFAFEMTFDSVTDSMWDKINKGRQWKDIRAKL  87
+
+
+ Score = 20.4 bits (41),  Expect = 0.77, Method: Composition-based stats.
+ Identities = 9/18 (50%), Positives = 11/18 (61%), Gaps = 0/18 (0%)
+
+Query  49    WKDVKARIAAGDGDDDDE  66
+             W+   AR AAG  + DDE
+Sbjct  2801  WEIKNARGAAGGVEHDDE  2818
+
+
+> UniRef90_A0A094GWK2 Uncharacterized protein n=3 Tax=Pseudogymnoascus 
+TaxID=78156 RepID=A0A094GWK2_9PEZI
+Length=3748
+
+ Score = 61.6 bits (148),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 25/56 (45%), Positives = 38/56 (68%), Gaps = 0/56 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           +S    F +RN VF+GT+FAGAF F+  FD+   S ++  NKG+ WKD++A+ + G
+Sbjct  35  TSTSNLFVRRNYVFLGTVFAGAFAFEMTFDSVTDSLWDKINKGRQWKDIRAKGSNG  90
+
+
+ Score = 18.1 bits (35),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 8/17 (47%), Positives = 10/17 (59%), Gaps = 0/17 (0%)
+
+Query  49    WKDVKARIAAGDGDDDD  65
+             W+   AR AAG  + DD
+Sbjct  2843  WEIKNARGAAGGVEHDD  2859
+
+
+ Score = 17.7 bits (34),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 6/9 (67%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  16    VFVGTIFAG  24
+             +F GTIF G
+Sbjct  2225  LFCGTIFCG  2233
+
+
+> UniRef90_A0A0C3KU27 Uncharacterized protein n=2 Tax=Pisolithus 
+TaxID=37467 RepID=A0A0C3KU27_PISTI
+Length=64
+
+ Score = 57.4 bits (137),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/56 (46%), Positives = 40/56 (71%), Gaps = 1/56 (2%)
+
+Query  1   MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           M+F+ + Y T  KRN+VFV  IFAGAF F   FD A++ ++++ N+G+ WKD++ R
+Sbjct  1   MAFANAFYNTIVKRNSVFVPAIFAGAFAFNIGFDVAVSKFWDHWNRGRQWKDIRGR  56
+
+
+> UniRef90_A0A229XBK7 Uncharacterized protein n=1 Tax=Neosartorya 
+fumigata TaxID=746128 RepID=A0A229XBK7_ASPFM
+Length=109
+
+ Score = 58.5 bits (140),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/61 (41%), Positives = 41/61 (67%), Gaps = 0/61 (0%)
+
+Query  5    SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+            S+++   +RNAV++ TIFAGAF F+  FDTA    ++  N+G+ WKD+K R    + +++
+Sbjct  49   SVWQGLIRRNAVYLTTIFAGAFAFELAFDTASNKIWDAMNRGRQWKDIKHRYMNKEEEEE  108
+
+Query  65   D  65
+            D
+Sbjct  109  D  109
+
+
+> UniRef90_A0A2K1QGL0 Uncharacterized protein n=1 Tax=Sphaceloma 
+murrayae TaxID=2082308 RepID=A0A2K1QGL0_9PEZI
+Length=69
+
+ Score = 57.4 bits (137),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 40/65 (62%), Gaps = 1/65 (2%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDG  61
+           F ++Y    KRN VF+GT+F  AF  +  FDT     +++ N+G+ WKD+K R +   + 
+Sbjct  5   FGTIYNGLIKRNTVFLGTVFFSAFALEIAFDTTSNKIWDSVNRGRQWKDIKYRYLEKAES  64
+
+Query  62  DDDDE  66
+           +DDDE
+Sbjct  65  EDDDE  69
+
+
+> UniRef90_S2JHF2 Ubiquinol-cytochrome c reductase subunit 9 n=4 
+Tax=Mucoraceae TaxID=34489 RepID=S2JHF2_MUCC1
+Length=66
+
+ Score = 57.0 bits (136),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 36/49 (73%), Gaps = 0/49 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           ++Y TFFK+N+VFV +IF GA  F+  FD+  T  +++ NKGK WKD+K
+Sbjct  12  TIYSTFFKKNSVFVTSIFVGAIAFEVAFDSTSTKVWDHLNKGKQWKDIK  60
+
+
+> UniRef90_A0A2J5HJR8 UQCRX/QCR9 like ubiquinol-cytochrome C reductase 
+family protein n=3 Tax=Aspergillus TaxID=5052 RepID=A0A2J5HJR8_9EURO
+Length=68
+
+ Score = 57.0 bits (136),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 24/62 (39%), Positives = 41/62 (66%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y+   +RNAV++ +IFAGAF F+  FDT     ++  N+G+ WKD+K +    + +D
+Sbjct  7   SAIYQGLIRRNAVYLTSIFAGAFAFELAFDTGSNKVWDAINRGRQWKDIKHQYMVKEEED  66
+
+Query  64  DD  65
+           D+
+Sbjct  67  DE  68
+
+
+> UniRef90_A0A175WF90 Cytochrome b-c1 complex subunit 9 n=1 Tax=Madurella 
+mycetomatis TaxID=100816 RepID=A0A175WF90_9PEZI
+Length=84
+
+ Score = 57.4 bits (137),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 40/60 (67%), Gaps = 1/60 (2%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           +L+ T F+RN   +G +FAGAF F+  +D  +   ++NHN+G+ WKD++ +   G GD++
+Sbjct  26  ALFSTLFRRNYTMLGVVFAGAFAFEIGYDNLMNKIWDNHNRGRQWKDIRHKYIDG-GDEE  84
+
+
+> UniRef90_A0A1S9RX68 Putative ubiquinol cytochrome-c reductase 
+subunit 9 n=1 Tax=Penicillium brasilianum TaxID=104259 RepID=A0A1S9RX68_9EURO
+Length=113
+
+ Score = 58.2 bits (139),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 38/58 (66%), Gaps = 1/58 (2%)
+
+Query  9    TFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDDE  66
+            +  +RNAVF+ TIFAGAF F+  FDTA    ++  N G+ WKD+K R     GD+D+E
+Sbjct  57   SIIRRNAVFLTTIFAGAFAFELSFDTASNKIWDTWNAGRQWKDIKPRYLV-QGDEDEE  113
+
+
+> UniRef90_A0A165TQF1 Ubiquinol-cytochrome C reductase n=1 Tax=Neolentinus 
+lepideus HHB14362 ss-1 TaxID=1314782 RepID=A0A165TQF1_9HOMO
+Length=65
+
+ Score = 57.0 bits (136),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 39/61 (64%), Gaps = 1/61 (2%)
+
+Query  1   MSFSS-LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAG  59
+           MSFS+  Y    KRN+V+V TIFAGAF F   FD  I+ +++  N+GK WKD++ R    
+Sbjct  1   MSFSTTFYNAIVKRNSVYVSTIFAGAFAFGVGFDLGISKFWDTWNRGKQWKDIRDRYIQK  60
+
+Query  60  D  60
+           D
+Sbjct  61  D  61
+
+
+> UniRef90_A0A1V8TJG5 Uncharacterized protein n=2 Tax=Rachicladosporium 
+TaxID=470018 RepID=A0A1V8TJG5_9PEZI
+Length=66
+
+ Score = 57.0 bits (136),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 38/64 (59%), Gaps = 2/64 (3%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+            S +Y T  + N VF+ TIFAGAF  + +FDT   + +   NKG+ WKD+K R    D  
+Sbjct  5   LSGVYNTLIRSNGVFLSTIFAGAFATEILFDTGSNAIWNRINKGRQWKDIKHRYM--DAG  62
+
+Query  63  DDDE  66
+           +DDE
+Sbjct  63  EDDE  66
+
+
+> UniRef90_A0A397IGG8 Uncharacterized protein n=1 Tax=Diversispora 
+versiformis TaxID=1963269 RepID=A0A397IGG8_9GLOM
+Length=71
+
+ Score = 57.0 bits (136),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 28/54 (52%), Positives = 39/54 (72%), Gaps = 0/54 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAA  58
+           +LY+T FKRN VF+  IF+ AFVF+  FDTA    +++ NKGK WKD+K + A+
+Sbjct  17  TLYQTLFKRNTVFLVGIFSTAFVFELGFDTASDRIWDHLNKGKQWKDIKDKYAS  70
+
+
+> UniRef90_R4XD02 Uncharacterized protein n=1 Tax=Taphrina deformans 
+(strain PYCC 5710 / ATCC 11124 / CBS 356.35 / IMI 108563 
+/ JCM 9778 / NBRC 8474) TaxID=1097556 RepID=R4XD02_TAPDE
+Length=61
+
+ Score = 56.6 bits (135),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 25/52 (48%), Positives = 36/52 (69%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           S++Y T FKRN+VF+G +FA  FVF+  FD   TS ++  N GK WKD++ +
+Sbjct  6   SAVYNTVFKRNSVFIGAVFATGFVFKISFDVLTTSIWDRVNAGKQWKDIRGK  57
+
+
+> UniRef90_A0A2T3AMR6 Ubiquinol-cytochrome C reductase n=1 Tax=Coniella 
+lustricola TaxID=2025994 RepID=A0A2T3AMR6_9PEZI
+Length=67
+
+ Score = 56.6 bits (135),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 24/63 (38%), Positives = 37/63 (59%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            +LY  FF+ N V +G++FA AF     FD      ++N N+G+ WKD+K++      +D
+Sbjct  5   PTLYNLFFRNNFVMLGSVFATAFGLSMTFDLGSQRLWDNMNRGRQWKDIKSKYIEAGAED  64
+
+Query  64  DDE  66
+           DDE
+Sbjct  65  DDE  67
+
+
+> UniRef90_A0A094G8D9 Uncharacterized protein n=8 Tax=Pseudogymnoascus 
+TaxID=78156 RepID=A0A094G8D9_9PEZI
+Length=2315
+
+ Score = 60.5 bits (145),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 24/53 (45%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           +S    F +RN VF+GT+FAGAF F+  FD+   S ++  NKG+ WKD++A +
+Sbjct  35  TSTSNLFVRRNYVFLGTVFAGAFAFEMTFDSVTDSLWDKINKGRQWKDIRANL  87
+
+
+ Score = 17.7 bits (34),  Expect = 5.9, Method: Composition-based stats.
+ Identities = 6/9 (67%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  16    VFVGTIFAG  24
+             +F GTIF G
+Sbjct  2190  LFCGTIFCG  2198
+
+
+> UniRef90_G2RE10 Uncharacterized protein n=1 Tax=Thielavia terrestris 
+(strain ATCC 38088 / NRRL 8126) TaxID=578455 RepID=G2RE10_THITE
+Length=90
+
+ Score = 57.0 bits (136),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 22/54 (41%), Positives = 36/54 (67%), Gaps = 0/54 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           S+LY   F+RN   +G +FA AFVF+  F+  +   ++NHN+G+ WKD++  +A
+Sbjct  3   SALYNALFRRNYTMLGVVFAAAFVFEVGFNDVMNKIWDNHNRGRQWKDIRHNLA  56
+
+
+> UniRef90_A0A067QD77 Uncharacterized protein n=1 Tax=Jaapia argillacea 
+MUCL 33604 TaxID=933084 RepID=A0A067QD77_9HOMO
+Length=65
+
+ Score = 56.2 bits (134),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 26/60 (43%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++ Y T  KRN+V+V  IFAGAF +   FD A+TS+++  N+GK WKD++ + A    +D
+Sbjct  6   NTFYNTLVKRNSVYVSAIFAGAFAWGIGFDVAVTSFWDRWNQGKQWKDIRDKYATPAEED  65
+
+
+> UniRef90_A0A1L7WBR8 Related to ubiquinol-cytochrome C reductase 
+complex 7.2 kDa protein n=1 Tax=Phialocephala subalpina TaxID=576137 
+RepID=A0A1L7WBR8_9HELO
+Length=65
+
+ Score = 56.2 bits (134),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 25/59 (42%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            LY    +RN +F+G IFAGAF F+  FDT     ++N NKG+ WKD++A+    + D+
+Sbjct  7   PLYNFLVRRNYIFLGVIFAGAFGFEMAFDTISDRIWDNINKGRQWKDIRAKYIQSEDDE  65
+
+
+> UniRef90_I1CPD8 Uncharacterized protein n=1 Tax=Rhizopus delemar 
+(strain RA 99-880 / ATCC MYA-4621 / FGSC 9543 / NRRL 43880) 
+TaxID=246409 RepID=I1CPD8_RHIO9
+Length=64
+
+ Score = 56.2 bits (134),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 36/49 (73%), Gaps = 0/49 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           ++Y + FK+N+VFV T+FAGA  F+  FDT  T  +++ NKGK WKD+K
+Sbjct  12  TIYTSLFKKNSVFVTTVFAGAIAFEVGFDTLATKVWDDINKGKQWKDIK  60
+
+
+> UniRef90_A0A017SDK4 Putative ubiquinol-cytochrome C reductase 
+complex, subunit X (Fragment) n=2 Tax=Aspergillus TaxID=5052 
+RepID=A0A017SDK4_9EURO
+Length=61
+
+ Score = 55.8 bits (133),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 25/61 (41%), Positives = 40/61 (66%), Gaps = 1/61 (2%)
+
+Query  7   YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDDDD  65
+           Y++  +RNA+F+  IF+GAF F+  FDTA    ++  N+G+ WKD+K   +   + D+DD
+Sbjct  1   YRSIIRRNAIFMTGIFSGAFAFEIAFDTASNKIWDTVNRGRQWKDIKPMYLNKAEEDEDD  60
+
+Query  66  E  66
+           E
+Sbjct  61  E  61
+
+
+> UniRef90_A0A1A0HEA3 Ubiquinol-cytochrome C reductase (Fragment) 
+n=1 Tax=Metschnikowia bicuspidata var. bicuspidata NRRL YB-4993 
+TaxID=869754 RepID=A0A1A0HEA3_9ASCO
+Length=62
+
+ Score = 55.8 bits (133),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/46 (65%), Positives = 35/46 (76%), Gaps = 0/46 (0%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+             KRN+V+V TIFAGAF FQ   D  +T WYENHN+GKLWKDVK +
+Sbjct  4   LIKRNSVYVSTIFAGAFAFQAFLDVGVTKWYENHNRGKLWKDVKGK  49
+
+
+> UniRef90_A0A0D0DE17 Unplaced genomic scaffold scaffold_208, whole 
+genome shotgun sequence n=1 Tax=Paxillus rubicundulus Ve08.2h10 
+TaxID=930991 RepID=A0A0D0DE17_9HOMO
+Length=63
+
+ Score = 55.8 bits (133),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 36/57 (63%), Gaps = 0/57 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           ++ Y +  KRN+VFV  IFAGAF F   FD AI S+++  NKG+ WKD++      D
+Sbjct  5   TAFYSSIAKRNSVFVSAIFAGAFAFNVGFDAAIQSFWDRWNKGRQWKDIRGNYIQND  61
+
+
+> UniRef90_A0A0U1M759 Uncharacterized protein n=1 Tax=Talaromyces 
+islandicus TaxID=28573 RepID=A0A0U1M759_TALIS
+Length=135
+
+ Score = 57.8 bits (138),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 26/63 (41%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  4    SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            +S   TFF+RNAVF+ TIFA AF F+  FD+A    +++ N+G+ WKD++ +      ++
+Sbjct  73   TSFQLTFFQRNAVFLTTIFASAFAFEIAFDSASNKIWDSINQGRQWKDIRHQYIQKAEEE  132
+
+Query  64   DDE  66
+            D+E
+Sbjct  133  DEE  135
+
+
+> UniRef90_A0A0G4PRE1 Ubiquinol-cytochrome C reductase, UQCRX/QCR9-like 
+n=4 Tax=Penicillium TaxID=5073 RepID=A0A0G4PRE1_PENCA
+Length=75
+
+ Score = 56.2 bits (134),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 24/61 (39%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           S+Y+TF ++N V + T FAGAF F+  FD      +++ N+G+ WKD+K R    + +DD
+Sbjct  15  SVYRTFIRKNTVLLTTAFAGAFAFELAFDITSNKVWDSWNQGRQWKDIKHRYVVKEEEDD  74
+
+Query  65  D  65
+           +
+Sbjct  75  E  75
+
+
+> UniRef90_I1BYU4 Uncharacterized protein n=1 Tax=Rhizopus delemar 
+(strain RA 99-880 / ATCC MYA-4621 / FGSC 9543 / NRRL 43880) 
+TaxID=246409 RepID=I1BYU4_RHIO9
+Length=64
+
+ Score = 55.8 bits (133),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++Y T FK+N+VFV T+FAGA  F+  FDT  +  +++ NKGK WKD+K +
+Sbjct  12  AIYTTVFKKNSVFVTTVFAGAIAFEVGFDTLASRVWDDMNKGKQWKDIKHK  62
+
+
+> UniRef90_R9ABZ8 Cytochrome b-c1 complex subunit 9 n=1 Tax=Wallemia 
+ichthyophaga (strain EXF-994 / CBS 113033) TaxID=1299270 
+RepID=R9ABZ8_WALI9
+Length=284
+
+ Score = 59.7 bits (143),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 27/61 (44%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  5    SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+            +L  T FKRN+ +V +IF G F F   +D   TS ++ +N GK W DV+A+I A  G DD
+Sbjct  224  TLNNTLFKRNSTYVASIFVGTFAFGIGYDVLTTSIWDKNNAGKQWPDVRAKILAAGGSDD  283
+
+Query  65   D  65
+            +
+Sbjct  284  E  284
+
+
+> UniRef90_A0A3D8T5C3 Putative UQCRX like ubiquinol-cytochrome 
+C reductase family protein n=1 Tax=Aspergillus mulundensis TaxID=1810919 
+RepID=A0A3D8T5C3_9EURO
+Length=76
+
+ Score = 56.2 bits (134),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 24/63 (38%), Positives = 39/63 (62%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S    T  +RNAV++ +IFAGAF F+  +DT+    ++  N+G+ WKD+K +      ++
+Sbjct  14  SPPQSTLIRRNAVYLTSIFAGAFAFEVAYDTSTNKLWDTWNRGRQWKDIKHQYLNKADEE  73
+
+Query  64  DDE  66
+           DDE
+Sbjct  74  DDE  76
+
+
+> UniRef90_A0A1B9I5W1 Ubiquinol-cytochrome c reductase subunit 
+9 n=1 Tax=Kwoniella pini CBS 10737 TaxID=1296096 RepID=A0A1B9I5W1_9TREE
+Length=65
+
+ Score = 55.8 bits (133),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 23/42 (55%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGK  47
+           +Y TFFKRN+ FV T F GAF FQ  FD   T+W++ HN+G+
+Sbjct  8   IYNTFFKRNSAFVATCFVGAFAFQISFDLGTTAWWDYHNRGR  49
+
+
+> UniRef90_A0A177C7V8 Ubiquinol-cytochrome c reductase complex 
+7.3 kDa protein-like protein n=1 Tax=Paraphaeosphaeria sporulosa 
+TaxID=1460663 RepID=A0A177C7V8_9PLEO
+Length=68
+
+ Score = 55.8 bits (133),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S +Y T F+ N   + T+FA AF  Q  FDT     +++ N+G+ WKDVK R      DD
+Sbjct  6   SFVYNTVFRSNVTMLTTVFASAFAMQLAFDTGSDRIWDSINRGRQWKDVKVRYVQKAEDD  65
+
+Query  64  DDE  66
+           DDE
+Sbjct  66  DDE  68
+
+
+> UniRef90_A0A1X2GZR9 Cytochrome b-c1 complex subunit 9 n=1 Tax=Syncephalastrum 
+racemosum TaxID=13706 RepID=A0A1X2GZR9_SYNRA
+Length=59
+
+ Score = 55.5 bits (132),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++Y T FK+N+VF+ +IFAGA  F+  FDTA    +++ NKGK WKD+K +
+Sbjct  6   TVYNTIFKKNSVFITSIFAGAIGFEMAFDTASNKIWDDLNKGKQWKDIKDK  56
+
+
+> UniRef90_A0A2I1CD41 Putative ubiquinol cytochrome-c reductase 
+subunit 9 n=2 Tax=Aspergillus TaxID=5052 RepID=A0A2I1CD41_9EURO
+Length=62
+
+ Score = 55.5 bits (132),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 0/61 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           S +    +RNAV++ TIFAGAF F+  FDT     ++  N+G+ WKD+K R    + +++
+Sbjct  2   SSHTGLIRRNAVYLTTIFAGAFAFEMAFDTTSNKIWDTMNRGRQWKDIKHRYMNKEEEEE  61
+
+Query  65  D  65
+           D
+Sbjct  62  D  62
+
+
+> UniRef90_A0A3N4LLX3 Ubiquinol-cytochrome C reductase n=1 Tax=Terfezia 
+boudieri ATCC MYA-4762 TaxID=1051890 RepID=A0A3N4LLX3_9PEZI
+Length=61
+
+ Score = 55.5 bits (132),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 24/52 (46%), Positives = 34/52 (65%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +++Y TF KRN +FVGTIF  AF F+ +FD      +   NKG+ WKD++ R
+Sbjct  5   NTIYNTFIKRNFIFVGTIFVSAFAFEIIFDKTTDRIWNGINKGRQWKDIRHR  56
+
+
+> UniRef90_A0A0D2AEP2 Uncharacterized protein n=1 Tax=Verruconis 
+gallopava TaxID=253628 RepID=A0A0D2AEP2_9PEZI
+Length=65
+
+ Score = 55.5 bits (132),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 37/60 (62%), Gaps = 0/60 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S++Y TFF+ NAV + T+F  AF  Q  FD   T  +++ NKG+ WKD+K R    + ++
+Sbjct  6   STIYNTFFRSNAVMLCTVFTSAFAIQIAFDAGSTKVWDSINKGRQWKDIKQRYMTQEEEE  65
+
+
+> UniRef90_A0A068S2E7 Uncharacterized protein n=2 Tax=Lichtheimia 
+TaxID=688353 RepID=A0A068S2E7_9FUNG
+Length=66
+
+ Score = 55.5 bits (132),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 26/51 (51%), Positives = 36/51 (71%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++Y TFFKRN+V+V TIFA A  F+  FDT     +++ NKGK WKD+K +
+Sbjct  13  TVYNTFFKRNSVYVTTIFASAIAFEMGFDTISDKVWDDMNKGKQWKDIKHK  63
+
+
+> UniRef90_A0A1Y2U465 Ubiquinol-cytochrome C reductase n=2 Tax=Hypoxylon 
+TaxID=42308 RepID=A0A1Y2U465_9PEZI
+Length=61
+
+ Score = 55.5 bits (132),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 21/51 (41%), Positives = 34/51 (67%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           SLY  FF+RN   +G +F  AF F+  +DT +   ++N N+G+ WKD+++R
+Sbjct  6   SLYNAFFRRNWQMLGVVFTSAFAFELTYDTGMNKLWDNLNRGRQWKDIRSR  56
+
+
+> UniRef90_A0A3N4HJ27 Ubiquinol-cytochrome C reductase n=1 Tax=Ascobolus 
+immersus RN42 TaxID=1160509 RepID=A0A3N4HJ27_ASCIM
+Length=62
+
+ Score = 55.5 bits (132),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 23/50 (46%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +Y T F+RN VFVGT+F  AF F+  FD+     ++N NKG+ WKD++ +
+Sbjct  7   IYNTLFRRNFVFVGTVFTAAFAFEMAFDSYTDKLWDNLNKGRQWKDIRHK  56
+
+
+> UniRef90_A0A1X2IMY2 Cytochrome b-c1 complex subunit 9 n=1 Tax=Absidia 
+repens TaxID=90262 RepID=A0A1X2IMY2_9FUNG
+Length=65
+
+ Score = 55.5 bits (132),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 24/48 (50%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           +Y T FK+N+VF+ +IF  A  F+ V+DTA T+ ++  NKGK WKD+K
+Sbjct  13  VYNTLFKKNSVFITSIFVSAIAFEVVYDTASTTIWDKVNKGKQWKDIK  60
+
+
+> UniRef90_A0A2R6NM50 Uncharacterized protein n=1 Tax=Phlebia centrifuga 
+TaxID=98765 RepID=A0A2R6NM50_9APHY
+Length=61
+
+ Score = 55.5 bits (132),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 27/56 (48%), Positives = 40/56 (71%), Gaps = 1/56 (2%)
+
+Query  1   MSFSSL-YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           MS S++ Y T  KRN+VFV +IFAGAF F   FD  +T++++  N+GK WKD++ +
+Sbjct  1   MSVSTIFYNTIVKRNSVFVTSIFAGAFAFGVGFDIGVTAFWDRWNRGKQWKDLRQK  56
+
+
+> UniRef90_F2QYZ6 Ubiquinol cytochrome-c reductase complex subunit 
+9 n=2 Tax=Komagataella phaffii TaxID=460519 RepID=F2QYZ6_KOMPC
+Length=69
+
+ Score = 55.5 bits (132),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 31/55 (56%), Positives = 43/55 (78%), Gaps = 0/55 (0%)
+
+Query  2   SFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARI  56
+           +F+++Y   FKRN+ +V ++FAGAF FQ  FD  +TSWYE HN+GKLWKD+K +I
+Sbjct  3   AFTNIYNLIFKRNSTYVASVFAGAFAFQAFFDAGVTSWYEAHNRGKLWKDIKGKI  57
+
+
+> UniRef90_A0A2G5HSY3 Uncharacterized protein n=3 Tax=Cercospora 
+TaxID=29002 RepID=A0A2G5HSY3_CERBT
+Length=68
+
+ Score = 55.5 bits (132),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 25/64 (39%), Positives = 37/64 (58%), Gaps = 0/64 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+            +++Y +  KRN +F+ TIFAGAF     FD      ++  NKG+ WKD+K +      D
+Sbjct  5   LATVYNSIVKRNTIFLTTIFAGAFATNIAFDVTANKIWDQVNKGRQWKDIKHKYMDAGED  64
+
+Query  63  DDDE  66
+           +DDE
+Sbjct  65  EDDE  68
+
+
+> UniRef90_A0A0D7B5H8 Ubiquinol-cytochrome C reductase UQCRX/QCR9-like 
+protein n=1 Tax=Cylindrobasidium torrendii FP15055 ss-10 
+TaxID=1314674 RepID=A0A0D7B5H8_9AGAR
+Length=62
+
+ Score = 55.5 bits (132),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 41/58 (71%), Gaps = 1/58 (2%)
+
+Query  1   MSFSSL-YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           MS S++ Y T FKRN+ FV  +FAGAF +   F+ A+T ++++ NKGK WKD++ + A
+Sbjct  1   MSLSNVFYNTIFKRNSTFVPAVFAGAFAWSIGFEIAVTKFHDSWNKGKQWKDIRDKYA  58
+
+
+> UniRef90_S3CKB1 Subunit X of cytochrome bc1 complex n=2 Tax=Glarea 
+lozoyensis TaxID=101852 RepID=S3CKB1_GLAL2
+Length=117
+
+ Score = 56.6 bits (135),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 39/60 (65%), Gaps = 1/60 (2%)
+
+Query  7    YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDDE  66
+            + T F++N  F+G +FAGAF F+  FD  +   +++ NKG+ WKD++A+      DDDDE
+Sbjct  59   HSTLFRKNYTFLGVVFAGAFAFEMGFDNGMDKIWDSLNKGRQWKDIRAKYVQA-ADDDDE  117
+
+
+> UniRef90_A0A165ICY5 Ubiquinol-cytochrome C reductase UQCRX/QCR9-like 
+protein n=1 Tax=Laetiporus sulphureus 93-53 TaxID=1314785 
+RepID=A0A165ICY5_9APHY
+Length=60
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/50 (48%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           ++ Y TF +RN+++V  IFAGA+ F   FD  ITS +++ NKGK WKD++
+Sbjct  6   NTFYNTFVRRNSIYVTAIFAGAYAFGVGFDVGITSLWDHWNKGKQWKDIR  55
+
+
+> UniRef90_A0A3M7A6B9 Uncharacterized protein n=6 Tax=Hortaea werneckii 
+TaxID=91943 RepID=A0A3M7A6B9_HORWE
+Length=63
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/53 (47%), Positives = 34/53 (64%), Gaps = 0/53 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+            SSLY +  KRN  F+ TIF GAF  +  F+T   S +++ NKG+ WKD+K R
+Sbjct  4   LSSLYGSVVKRNTTFLATIFVGAFATEIAFETGANSIWDSINKGRQWKDIKQR  56
+
+
+> UniRef90_A0A0N1H448 Cytochrome b-c1 complex subunit 9 n=1 Tax=Phialophora 
+attae TaxID=1664694 RepID=A0A0N1H448_9EURO
+Length=69
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  6   LYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDD  64
+           L+   F+RN VF+ T+F GAF F+  FDT   + +   NKG+ W+D+K R    + D++
+Sbjct  11  LFNGVFRRNYVFLSTVFVGAFAFEMAFDTGTDAIWNRLNKGRQWRDIKQRYMTSEEDEE  69
+
+
+> UniRef90_A0A0C3A2H9 Uncharacterized protein n=1 Tax=Scleroderma 
+citrinum Foug A TaxID=1036808 RepID=A0A0C3A2H9_9HOMO
+Length=64
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/51 (45%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           + Y T  +RN+VFV TIFAGAF F   FD  +  ++++ N+G+ WKD++ R
+Sbjct  6   AFYNTIVRRNSVFVSTIFAGAFAFSIGFDVGLMKFWDHWNRGRQWKDIRDR  56
+
+
+> UniRef90_W4KEN5 Uncharacterized protein n=1 Tax=Heterobasidion 
+irregulare TC 32-1 TaxID=747525 RepID=W4KEN5_9HOMO
+Length=61
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 24/52 (46%), Positives = 38/52 (73%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++ Y T  KRN+V+V +IFAGAF F   FD  I+S++++ N+GK WKD++ +
+Sbjct  5   NTFYNTLVKRNSVYVTSIFAGAFAFGIGFDVGISSFWDSWNRGKQWKDIRHK  56
+
+
+> UniRef90_A0A1Y2IC63 Ubiquinol-cytochrome C reductase UQCRX/QCR9-like 
+protein n=1 Tax=Trametes coccinea BRFM310 TaxID=1353009 
+RepID=A0A1Y2IC63_PYCCO
+Length=61
+
+ Score = 54.7 bits (130),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 25/50 (50%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           +++Y    KRN+VFV TIF GAF F   FD  IT +++  NKGK WKD++
+Sbjct  5   NTVYNAIVKRNSVFVPTIFVGAFAFSIGFDVGITKFWDTWNKGKQWKDIR  54
+
+
+> UniRef90_A0A0D2DGK8 Uncharacterized protein n=1 Tax=Exophiala 
+oligosperma TaxID=215243 RepID=A0A0D2DGK8_9EURO
+Length=70
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           S  +   F+RNA F+ T+FAGAF F+  F+    + +++ NKG+ WKD+K +    + D+
+Sbjct  9   SGFFNGIFRRNAFFLTTVFAGAFAFELAFEGGTNAMWDSWNKGRQWKDIKHKYMTAEEDE  68
+
+Query  64  DD  65
+           D+
+Sbjct  69  DE  70
+
+
+> UniRef90_A0A367JGJ9 Uncharacterized protein n=1 Tax=Rhizopus 
+stolonifer TaxID=4846 RepID=A0A367JGJ9_RHIST
+Length=64
+
+ Score = 54.7 bits (130),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++Y T FK+N+ FV +IFAGA  F+  FDT  T  ++  NKGK WKD+K +
+Sbjct  12  TIYTTLFKKNSAFVTSIFAGAIAFEVGFDTLSTKVWDEANKGKQWKDIKHK  62
+
+
+> UniRef90_V5FNW3 Ubiquinol-cytochrome C reductase complex, subunit 
+X, putative n=1 Tax=Byssochlamys spectabilis (strain No. 
+5 / NBRC 109023) TaxID=1356009 RepID=V5FNW3_BYSSN
+Length=136
+
+ Score = 56.6 bits (135),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 41/60 (68%), Gaps = 1/60 (2%)
+
+Query  8    KTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDDDDE  66
+            +T F+RNAVF+ ++F+GAF F+  FD A    ++  N+G+ WKD++ + I A   ++DDE
+Sbjct  77   RTLFRRNAVFLASVFSGAFAFELAFDGASNKVWDYINQGRQWKDIRHKYIQAAAEEEDDE  136
+
+
+> UniRef90_E4V707 Uncharacterized protein n=8 Tax=Arthrodermataceae 
+TaxID=34384 RepID=E4V707_ARTGP
+Length=64
+
+ Score = 54.7 bits (130),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/52 (46%), Positives = 34/52 (65%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           +S+Y TF +RN + + TIF GAF F+  FDT  T  ++  N G+ WKD+K R
+Sbjct  6   TSIYNTFIRRNGMMLSTIFVGAFGFEMAFDTVSTKVWDCINNGRQWKDIKHR  57
+
+
+> UniRef90_G7XAX4 Uncharacterized protein n=9 Tax=Aspergillus TaxID=5052 
+RepID=G7XAX4_ASPKW
+Length=90
+
+ Score = 55.5 bits (132),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/57 (44%), Positives = 37/57 (65%), Gaps = 0/57 (0%)
+
+Query  10  FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDDE  66
+             +RNAV++ TIFA AF F+  FDTA    +++ N+G+ WKD+K +      D+DDE
+Sbjct  34  LIRRNAVYLTTIFASAFAFELTFDTASNKVWDSFNRGRQWKDIKHQYLNKADDEDDE  90
+
+
+> UniRef90_A0A0J5Q2L0 Ubiquinol cytochrome-c reductase subunit 
+9, putative n=1 Tax=Aspergillus fumigatus Z5 TaxID=1437362 RepID=A0A0J5Q2L0_ASPFM
+Length=122
+
+ Score = 56.2 bits (134),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 37/56 (66%), Gaps = 0/56 (0%)
+
+Query  10   FFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDD  65
+              +RNAV++ TIFAGAF F+  FDTA    ++  N+G+ WKD+K R    + +++D
+Sbjct  67   LIRRNAVYLTTIFAGAFAFELAFDTASNKIWDAMNRGRQWKDIKHRYMNKEEEEED  122
+
+
+> UniRef90_A0A1V1TBJ5 Uncharacterized protein n=1 Tax=fungal sp. 
+No.14919 TaxID=1813822 RepID=A0A1V1TBJ5_9FUNG
+Length=59
+
+ Score = 54.3 bits (129),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 33/51 (65%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+            LY   F+RN   +G +FA AF F+  +DT +   ++N N+G+ WKD+++R
+Sbjct  4   PLYNALFRRNFQMLGVVFASAFAFEMAYDTGMNKLWDNLNRGRQWKDIRSR  54
+
+
+> UniRef90_S7RXI2 Ubiquinol-cytochrome C reductase n=1 Tax=Gloeophyllum 
+trabeum (strain ATCC 11539 / FP-39264 / Madison 617) 
+TaxID=670483 RepID=S7RXI2_GLOTA
+Length=64
+
+ Score = 54.7 bits (130),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 39/60 (65%), Gaps = 0/60 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++ Y +  +RN+++V TIFAGAF F   FD  I+ +++  N+GK WKD++ R    D ++
+Sbjct  5   NAFYNSIVRRNSIYVSTIFAGAFAFGVGFDIGISKFWDTWNRGKQWKDIRDRYIQKDDEE  64
+
+
+> UniRef90_A0A1S8A528 Putative ubiquinol-cytochrome C reductase 
+n=1 Tax=Rosellinia necatrix TaxID=77044 RepID=A0A1S8A528_ROSNE
+Length=61
+
+ Score = 54.3 bits (129),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 33/51 (65%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+             Y   F+RN   +G +FA AF F+ V+DT +   ++N N+G+ WKD+++R
+Sbjct  6   PFYNALFRRNTQMLGIVFASAFAFEMVYDTGMNKVWDNLNRGRQWKDIRSR  56
+
+
+> UniRef90_A0A167NJZ7 Ubiquinol-cytochrome c reductase core subunit 
+9 QCR9 n=1 Tax=Phycomyces blakesleeanus (strain ATCC 8743b 
+/ DSM 1359 / FGSC 10004 / NBRC 33097 / NRRL 1555) TaxID=763407 
+RepID=A0A167NJZ7_PHYB8
+Length=65
+
+ Score = 54.3 bits (129),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 35/51 (69%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++Y T FK+N+VFV +IF GA  F+  FDT     ++N NKGK WKD+K +
+Sbjct  12  TIYNTIFKKNSVFVTSIFVGAIGFEMAFDTVSDKVWDNVNKGKQWKDIKDK  62
+
+
+> UniRef90_A0A0B4HR60 E3 ubiquitin-protein ligase ubr11 (Fragment) 
+n=3 Tax=Metarhizium TaxID=5529 RepID=A0A0B4HR60_METMF
+Length=110
+
+ Score = 55.5 bits (132),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  4    SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            ++     F++N   +  +F   F F+  F+  +  W++NHN+G+ WKD++++     G+D
+Sbjct  49   TTCCSALFRKNYAMLAAVFTAGFAFEVGFNNGVNKWWDNHNRGRQWKDIRSKYVEESGED  108
+
+Query  64   DD  65
+            D+
+Sbjct  109  DE  110
+
+
+> UniRef90_A0A0F7RZW1 Uncharacterized protein n=1 Tax=Sporisorium 
+scitamineum TaxID=49012 RepID=A0A0F7RZW1_9BASI
+Length=64
+
+ Score = 54.3 bits (129),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 26/53 (49%), Positives = 35/53 (66%), Gaps = 0/53 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIA  57
+           S+Y   FKRN+V+VGTIF GAF F   +D A T+W++ HNKG    D+   +A
+Sbjct  6   SVYNAVFKRNSVYVGTIFFGAFAFGIGYDLATTAWWDAHNKGLGSTDIYTSLA  58
+
+
+> UniRef90_A0A0D2MV21 Ubiquinol:cytochrome c oxidoreductase subunit 
+n=1 Tax=Monoraphidium neglectum TaxID=145388 RepID=A0A0D2MV21_9CHLO
+Length=61
+
+ Score = 54.3 bits (129),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 22/56 (39%), Positives = 37/56 (66%), Gaps = 0/56 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGD  60
+           S+Y+ FFKR+ ++V  +  GA+      DT +TS +E+ NKGKL+KD++  +A  +
+Sbjct  6   SIYQVFFKRSTIYVPFVLVGAYFSNEALDTVVTSIWESRNKGKLFKDIEIPVAEAE  61
+
+
+> UniRef90_A0A137P9Z6 Uncharacterized protein n=1 Tax=Conidiobolus 
+coronatus (strain ATCC 28846 / CBS 209.66 / NRRL 28638) 
+TaxID=796925 RepID=A0A137P9Z6_CONC2
+Length=71
+
+ Score = 54.3 bits (129),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/51 (49%), Positives = 34/51 (67%), Gaps = 0/51 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++Y T FKRN+VF+  IF+ AF F+ VFD    + +   NKGK W+DVK R
+Sbjct  17  TIYSTLFKRNSVFLVGIFSAAFAFELVFDRTADNLWNKMNKGKQWEDVKHR  67
+
+
+> UniRef90_A0A1Y2HQX3 Cytochrome b-c1 complex subunit 9 n=1 Tax=Catenaria 
+anguillulae PL171 TaxID=765915 RepID=A0A1Y2HQX3_9FUNG
+Length=63
+
+ Score = 53.9 bits (128),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/49 (51%), Positives = 34/49 (69%), Gaps = 0/49 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVK  53
+           +LY + F+RN+VFVG IFA AF F+  FD      +++ NKGK WKD+K
+Sbjct  11  TLYNSAFRRNSVFVGIIFATAFTFEVGFDKVTDYIWDSRNKGKQWKDIK  59
+
+
+> UniRef90_W3VHR1 Uncharacterized protein n=1 Tax=Pseudozyma aphidis 
+(strain ATCC 32657 / CBS 517.83 / DSM 70725 / JCM 10318 
+/ NBRC 10182 / NRRL Y-7954 / St-0401) TaxID=1391700 RepID=W3VHR1_PSEA5
+Length=97
+
+ Score = 54.7 bits (130),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 24/42 (57%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+
+Query  5   SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKG  46
+           S+Y T FKRN+V+VG+IF GAF F   +D A T+W++ HNKG
+Sbjct  6   SVYNTVFKRNSVYVGSIFFGAFAFGIGYDLATTAWWDAHNKG  47
+
+
+> UniRef90_R7YUM3 Uncharacterized protein n=1 Tax=Coniosporium 
+apollinis (strain CBS 100218) TaxID=1168221 RepID=R7YUM3_CONA1
+Length=102
+
+ Score = 54.7 bits (130),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 36/60 (60%), Gaps = 0/60 (0%)
+
+Query  4    SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+            ++   T  ++N VF+GTIF GAF  Q  FDTA    ++  N+G+ WKD+K R    D D+
+Sbjct  43   NAFLSTLIRKNTVFLGTIFLGAFAIQMGFDTAADRIWDTINRGRQWKDIKKRYIEHDDDE  102
+
+
+> UniRef90_A0A072PVF2 Ubiquinol-cytochrome c reductase subunit 
+9 n=1 Tax=Exophiala aquamarina CBS 119918 TaxID=1182545 RepID=A0A072PVF2_9EURO
+Length=68
+
+ Score = 53.9 bits (128),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDD  63
+           ++ +   F++NA F+ T+F GAF F+  FDTA  + ++  N+G+ WKD+K +  A   +D
+Sbjct  8   ANPHSAIFRKNAAFLTTVFVGAFAFEMAFDTATDAVWDRINRGRQWKDIKHKFMAPPEED  67
+
+Query  64  D  64
+           +
+Sbjct  68  E  68
+
+
+> UniRef90_A0A1V6TAW5 Uncharacterized protein n=1 Tax=Penicillium 
+steckii TaxID=303698 RepID=A0A1V6TAW5_9EURO
+Length=100
+
+ Score = 54.7 bits (130),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/60 (42%), Positives = 40/60 (67%), Gaps = 1/60 (2%)
+
+Query  7   YKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDDDD  65
+           +++  ++NAVF+ TIFAGAF F+  FDT     +++ N G+ WKD+K R +   + +DDD
+Sbjct  41  FRSIIRKNAVFLTTIFAGAFAFELSFDTFSNKVWDSWNAGRQWKDIKPRYLVQAEEEDDD  100
+
+
+> UniRef90_M3AA55 Uncharacterized protein (Fragment) n=1 Tax=Pseudocercospora 
+fijiensis (strain CIRAD86) TaxID=383855 RepID=M3AA55_PSEFD
+Length=55
+
+ Score = 53.5 bits (127),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 26/55 (47%), Positives = 38/55 (69%), Gaps = 1/55 (2%)
+
+Query  13  RNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR-IAAGDGDDDDE  66
+           RN +F+ TIFAGAFV    FDTA    ++  NKG+ WKD+K + + +G+ ++DDE
+Sbjct  1   RNTIFLTTIFAGAFVTNIAFDTAANGIWDQINKGRQWKDIKHKYMDSGEAEEDDE  55
+
+
+> UniRef90_W6QMI8 Ubiquinol-cytochrome C reductase, UQCRX/QCR9-like 
+n=1 Tax=Penicillium roqueforti (strain FM164) TaxID=1365484 
+RepID=W6QMI8_PENRF
+Length=63
+
+ Score = 53.5 bits (127),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 24/63 (38%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+            S   +TF ++N V + T FAGAF F+  FD A    ++  N G+ WKD+K R    + +
+Sbjct  1   MSPFPRTFIRKNTVLLTTAFAGAFAFELTFDIASNKVWDTWNHGRQWKDIKHRYMVKEEE  60
+
+Query  63  DDD  65
+           DD+
+Sbjct  61  DDE  63
+
+
+> UniRef90_A0A168C171 Ubiquinol-cytochrome C reductase, UQCRX/QCR9-like 
+protein n=1 Tax=Moelleriella libera RCEF 2490 TaxID=1081109 
+RepID=A0A168C171_9HYPO
+Length=50
+
+ Score = 53.1 bits (126),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  20  TIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGDDDDE  66
+            +F   F F+  F+  I  W++NHN+G+ WKD++++   G GD+D+E
+Sbjct  4   AVFGAGFAFEVGFNNGINKWWDNHNRGRQWKDIRSKYVEGGGDEDEE  50
+
+
+> UniRef90_C1E8I3 Uncharacterized protein n=1 Tax=Micromonas commoda 
+(strain RCC299 / NOUM17 / CCMP2709) TaxID=296587 RepID=C1E8I3_MICCC
+Length=62
+
+ Score = 53.5 bits (127),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  1   MSFSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDV  52
+           M F + YKTF  R++V+VG + AGA V + V +    + +E+ NKGKL+KD+
+Sbjct  1   MVFEAFYKTFMSRSSVYVGVVIAGALVGEKVVNNGFDALWESRNKGKLYKDI  52
+
+
+> UniRef90_Q6CG23 YALI0B01540p n=2 Tax=Yarrowia lipolytica TaxID=4952 
+RepID=Q6CG23_YARLI
+Length=69
+
+ Score = 53.9 bits (128),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 36/58 (62%), Gaps = 0/58 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDG  61
+           ++ Y  F KRN+ FV TI A AFVF   F+TAI ++++  N GK WKD++ +     G
+Sbjct  5   TTFYNVFVKRNSAFVATILASAFVFDMTFETAIDNFWDRINAGKQWKDIRHKYIEAAG  62
+
+
+> UniRef90_F8PR00 Uncharacterized protein (Fragment) n=1 Tax=Serpula 
+lacrymans var. lacrymans (strain S7.3) TaxID=936435 RepID=F8PR00_SERL3
+Length=61
+
+ Score = 53.5 bits (127),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 24/52 (46%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  4   SSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKAR  55
+           ++ Y    KRN+V+V  IF GAF F   FD  +TS+++  NKGK WKD++A+
+Sbjct  3   NAFYNALVKRNSVYVTAIFVGAFSFGVGFDVGVTSFWDRWNKGKQWKDIRAK  54
+
+
+> UniRef90_M3AZS5 Ubiquinol-cytochrome C reductase n=1 Tax=Sphaerulina 
+musiva (strain SO2202) TaxID=692275 RepID=M3AZS5_SPHMS
+Length=66
+
+ Score = 53.5 bits (127),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 36/64 (56%), Gaps = 2/64 (3%)
+
+Query  3   FSSLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYENHNKGKLWKDVKARIAAGDGD  62
+             ++Y    KRNAVF+ TIFAG F     FD +    ++  NKG+ WKD+K +    D  
+Sbjct  5   LGTVYNALVKRNAVFLTTIFAGTFAANIAFDVSANKIWDQVNKGRQWKDIKHKYM--DAG  62
+
+Query  63  DDDE  66
+           DDDE
+Sbjct  63  DDDE  66
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1139238
+
+
+  Database: isar.db.141
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 46,435
+  Number of sequences in database:  404
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

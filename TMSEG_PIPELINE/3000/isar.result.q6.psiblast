@@ -1,0 +1,152 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.6
+           7 sequences; 243 total letters
+
+Results from round 1
+
+
+Query= A0A0Q0UXS2|5doqC|A0A0Q0UXS2_9BACI 0.9090909090909091
+
+Length=33
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A0A1W6VNK1 Uncharacterized protein n=2 Tax=Geobacillus...  67.4    1e-22
+  UniRef90_G8N5U2 Uncharacterized protein n=11 Tax=Bacillaceae Ta...  65.5    7e-22
+  UniRef90_A0A150MWE7 Uncharacterized protein n=1 Tax=Geobacillus...  61.2    3e-20
+  UniRef90_S5YW68 Uncharacterized protein n=5 Tax=Bacillales TaxI...  58.2    4e-19
+  UniRef90_A0A0D8BR25 Putative membrane protein n=1 Tax=Geobacill...  57.0    2e-18
+  UniRef90_A0A160F0Y3 Putative membrane protein n=6 Tax=Bacillace...  55.1    8e-18
+  UniRef90_A0A0E0TCJ1 Uncharacterized protein n=1 Tax=Geobacillus...  51.2    3e-16
+
+
+> UniRef90_A0A1W6VNK1 Uncharacterized protein n=2 Tax=Geobacillus 
+TaxID=129337 RepID=A0A1W6VNK1_GEOTD
+Length=33
+
+ Score = 67.4 bits (163),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+
+Query  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVNE  33
+           MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVNE
+Sbjct  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVNE  33
+
+
+> UniRef90_G8N5U2 Uncharacterized protein n=11 Tax=Bacillaceae 
+TaxID=186817 RepID=G8N5U2_GEOTH
+Length=40
+
+ Score = 65.5 bits (158),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 28/33 (85%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+
+Query  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVNE  33
+           MQTFLIMYAPM++VALS++AAFW GLKDVHVNE
+Sbjct  8   MQTFLIMYAPMIIVALSIIAAFWAGLKDVHVNE  40
+
+
+> UniRef90_A0A150MWE7 Uncharacterized protein n=1 Tax=Geobacillus 
+sp. B4113_201601 TaxID=1586290 RepID=A0A150MWE7_9BACI
+Length=40
+
+ Score = 61.2 bits (147),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 26/33 (79%), Positives = 31/33 (94%), Gaps = 0/33 (0%)
+
+Query  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVNE  33
+           M+TFL+MYAPM++VALS+VAAFW GLKD HVNE
+Sbjct  8   METFLLMYAPMIIVALSIVAAFWAGLKDGHVNE  40
+
+
+> UniRef90_S5YW68 Uncharacterized protein n=5 Tax=Bacillales TaxID=1385 
+RepID=S5YW68_BACPJ
+Length=34
+
+ Score = 58.2 bits (139),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 25/33 (76%), Positives = 30/33 (91%), Gaps = 0/33 (0%)
+
+Query  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVNE  33
+           MQTFLIMYAP+++VALSVVAAFW GLKD  +N+
+Sbjct  2   MQTFLIMYAPLLIVALSVVAAFWAGLKDARIND  34
+
+
+> UniRef90_A0A0D8BR25 Putative membrane protein n=1 Tax=Geobacillus 
+kaustophilus TaxID=1462 RepID=A0A0D8BR25_GEOKU
+Length=34
+
+ Score = 57.0 bits (136),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 26/33 (79%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+
+Query  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVNE  33
+           MQTFLIMYAPM++VALSVV AFW GLKD  VN+
+Sbjct  2   MQTFLIMYAPMLIVALSVVVAFWAGLKDEQVND  34
+
+
+> UniRef90_A0A160F0Y3 Putative membrane protein n=6 Tax=Bacillaceae 
+TaxID=186817 RepID=A0A160F0Y3_9BACI
+Length=32
+
+ Score = 55.1 bits (131),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 26/32 (81%), Positives = 28/32 (88%), Gaps = 0/32 (0%)
+
+Query  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDVHVN  32
+           MQTFLIMYAP++VVALSVVAAFW GLKD  V 
+Sbjct  1   MQTFLIMYAPLLVVALSVVAAFWAGLKDEQVE  32
+
+
+> UniRef90_A0A0E0TCJ1 Uncharacterized protein n=1 Tax=Geobacillus 
+sp. (strain Y412MC52) TaxID=550542 RepID=A0A0E0TCJ1_GEOS2
+Length=30
+
+ Score = 51.2 bits (121),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 23/29 (79%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   MQTFLIMYAPMVVVALSVVAAFWVGLKDV  29
+           MQTFLI YAPM++V LSVV +FWVGLKDV
+Sbjct  2   MQTFLITYAPMIIVGLSVVVSFWVGLKDV  30
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.137    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6235
+
+
+  Database: isar.db.6
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 243
+  Number of sequences in database:  7
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

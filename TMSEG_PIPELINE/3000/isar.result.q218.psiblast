@@ -1,0 +1,2267 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.218
+           131 sequences; 15,578 total letters
+
+Results from round 1
+
+
+Query= Q63113|2jp3A|FXYD4_RAT 0.7701149425287356
+
+Length=87
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q63113 FXYD domain-containing ion transport regulator ...  178     3e-63
+  UniRef90_E2RKZ2 FXYD domain-containing ion transport regulator ...  134     1e-45
+  UniRef90_A0A337STM1 FXYD domain-containing ion transport regula...  127     5e-43
+  UniRef90_G1MEV9 FXYD domain-containing ion transport regulator ...  125     1e-42
+  UniRef90_A0A2Y9HDJ2 FXYD domain-containing ion transport regula...  125     3e-42
+  UniRef90_A0A2U3Z318 LOW QUALITY PROTEIN: F-box only protein 9-l...  122     3e-37
+  UniRef90_A0A337SI67 FXYD domain-containing ion transport regula...  109     5e-36
+  UniRef90_W5P1I6 FXYD domain-containing ion transport regulator ...  108     1e-35
+  UniRef90_A0A2J8RR95 FXYD domain-containing ion transport regula...  107     3e-35
+  UniRef90_A0A2Y9F5U3 FXYD domain-containing ion transport regula...  107     3e-35
+  UniRef90_A0A2U3X9W7 FXYD domain-containing ion transport regula...  106     4e-35
+  UniRef90_G1SRK2 FXYD domain-containing ion transport regulator ...  104     4e-34
+  UniRef90_A0A384ALW9 FXYD domain-containing ion transport regula...  105     6e-34
+  UniRef90_A0A0D9QWZ7 FXYD domain-containing ion transport regula...  103     8e-34
+  UniRef90_A0A2K5DDF3 FXYD domain-containing ion transport regula...  103     4e-33
+  UniRef90_A0A2K5QBT6 FXYD domain-containing ion transport regula...  101     7e-33
+  UniRef90_Q9D2W0 FXYD domain-containing ion transport regulator ...  100     1e-32
+  UniRef90_A0A2K6TS70 FXYD domain-containing ion transport regula...  99.4    3e-31
+  UniRef90_A0A383Z8C2 FXYD domain-containing ion transport regula...  102     3e-31
+  UniRef90_E2RKS5 FXYD domain-containing ion transport regulator ...  96.7    6e-31
+  UniRef90_Q14802 FXYD domain-containing ion transport regulator ...  96.3    8e-31
+  UniRef90_F6PGP2 FXYD domain-containing ion transport regulator ...  97.8    1e-30
+  UniRef90_A0A212CP92 FXYD domain-containing ion transport regula...  97.1    1e-30
+  UniRef90_O97797 FXYD domain-containing ion transport regulator ...  95.9    1e-30
+  UniRef90_A0A1S5UZ23 FXYD domain-containing ion transport regula...  96.3    2e-30
+  UniRef90_A0A2K6F6S5 FXYD domain-containing ion transport regula...  93.2    2e-29
+  UniRef90_K7DYR9 FXYD domain-containing ion transport regulator ...  93.2    2e-29
+  UniRef90_A0A2J8RR78 FXYD domain-containing ion transport regula...  92.4    5e-29
+  UniRef90_G1P608 FXYD domain-containing ion transport regulator ...  91.3    7e-29
+  UniRef90_F6XPP9 FXYD domain-containing ion transport regulator ...  90.1    2e-28
+  UniRef90_Q61835 FXYD domain-containing ion transport regulator ...  90.1    3e-28
+  UniRef90_G3VUD7 FXYD domain-containing ion transport regulator ...  89.0    7e-28
+  UniRef90_P59645 FXYD domain-containing ion transport regulator ...  88.6    8e-28
+  UniRef90_L8IJ44 FXYD domain-containing ion transport regulator ...  87.8    2e-27
+  UniRef90_A0A1U7U3E4 FXYD domain-containing ion transport regula...  88.2    2e-27
+  UniRef90_A0A2U3X4G4 FXYD domain-containing ion transport regula...  85.9    7e-27
+  UniRef90_P59646 FXYD domain-containing ion transport regulator ...  86.3    1e-26
+  UniRef90_G1P700 FXYD domain-containing ion transport regulator ...  85.5    2e-26
+  UniRef90_A0A2K6TS79 FXYD domain-containing ion transport regula...  85.9    2e-26
+  UniRef90_A0A337SR48 FXYD domain-containing ion transport regula...  85.9    2e-26
+  UniRef90_A0A2Y9I4U0 FXYD domain-containing ion transport regula...  85.5    3e-26
+  UniRef90_A0A2Y9F7J7 FXYD domain-containing ion transport regula...  84.7    4e-26
+  UniRef90_G3S0U8 FXYD domain-containing ion transport regulator ...  84.7    7e-26
+  UniRef90_A0A2Y9LBV2 FXYD domain-containing ion transport regula...  83.6    1e-25
+  UniRef90_A0A383YQM2 FXYD domain-containing ion transport regula...  83.6    1e-25
+  UniRef90_L5LUX5 FXYD domain-containing ion transport regulator ...  82.4    3e-25
+  UniRef90_L8HZE9 FXYD domain-containing ion transport regulator ...  82.0    1e-24
+  UniRef90_G1U4B2 FXYD domain-containing ion transport regulator ...  80.5    1e-24
+  UniRef90_A0A2J8RR72 FXYD domain-containing ion transport regula...  81.3    1e-24
+  UniRef90_A0A2K5WBP8 FXYD domain-containing ion transport regula...  81.3    2e-24
+  UniRef90_S4R445 FXYD domain-containing ion transport regulator ...  81.3    2e-24
+  UniRef90_G3TK23 FXYD domain-containing ion transport regulator ...  79.7    3e-24
+  UniRef90_G1L015 FXYD domain-containing ion transport regulator ...  78.6    8e-24
+  UniRef90_A0A2Y9R511 FXYD domain-containing ion transport regula...  79.3    1e-23
+  UniRef90_A0A2K6FYX3 FXYD domain-containing ion transport regula...  79.0    1e-23
+  UniRef90_A0JNK5 FXYD domain-containing ion transport regulator ...  77.0    3e-23
+  UniRef90_G7PER3 FXYD domain-containing ion transport regulator ...  76.3    7e-23
+  UniRef90_S7PR78 FXYD domain-containing ion transport regulator ...  77.0    7e-23
+  UniRef90_A0A2J8RR74 FXYD domain-containing ion transport regula...  74.7    2e-22
+  UniRef90_A0A2K6FYU3 FXYD domain-containing ion transport regula...  73.9    9e-22
+  UniRef90_A0A2K5KLR4 FXYD domain-containing ion transport regula...  72.4    2e-21
+  UniRef90_H9F278 FXYD domain-containing ion transport regulator ...  70.9    4e-21
+  UniRef90_A0A337SS07 FXYD domain-containing ion transport regula...  70.9    2e-20
+  UniRef90_A0A1S3WVD3 FXYD domain-containing ion transport regula...  69.3    3e-20
+  UniRef90_L9KUX4 Zinc finger protein 485 n=1 Tax=Tupaia chinensi...  73.2    1e-19
+  UniRef90_A0A287B9X1 FXYD domain-containing ion transport regula...  66.2    7e-19
+  UniRef90_A0A2K6UR97 FXYD domain-containing ion transport regula...  62.4    2e-17
+  UniRef90_A0A212DC10 FXYD domain-containing ion transport regula...  62.0    3e-17
+  UniRef90_L8Y339 FXYD domain-containing ion transport regulator ...  61.2    1e-16
+  UniRef90_W5P3M1 FXYD domain-containing ion transport regulator ...  59.7    1e-16
+  UniRef90_A0A1S3WXD2 FXYD domain-containing ion transport regula...  58.2    1e-15
+  UniRef90_S9YBC3 Uncharacterized protein n=1 Tax=Camelus ferus T...  58.5    1e-14
+  UniRef90_F7H5I7 FXYD domain-containing ion transport regulator ...  55.5    1e-14
+  UniRef90_I3LMB3 Phospholemman n=1 Tax=Sus scrofa TaxID=9823 Rep...  55.1    1e-14
+  UniRef90_A0A340XB53 FXYD domain-containing ion transport regula...  55.5    4e-14
+  UniRef90_H0XD58 FXYD domain-containing ion transport regulator ...  53.9    5e-14
+  UniRef90_F6X683 FXYD domain-containing ion transport regulator ...  53.9    6e-14
+  UniRef90_Q9D164 FXYD domain-containing ion transport regulator ...  53.5    7e-14
+  UniRef90_Q3SZX0 Phospholemman n=14 Tax=Boreoeutheria TaxID=1437...  53.1    9e-14
+  UniRef90_A0A1S3WB79 FXYD domain-containing ion transport regula...  52.8    1e-13
+  UniRef90_A0A3Q0DNF8 FXYD domain-containing ion transport regula...  52.4    2e-13
+  UniRef90_C7E9P5 FXYD domain-containing ion transport regulator ...  51.6    2e-13
+  UniRef90_O00168 Phospholemman n=24 Tax=Boreoeutheria TaxID=1437...  52.4    2e-13
+  UniRef90_F6YIB9 FXYD domain-containing ion transport regulator ...  52.4    2e-13
+  UniRef90_H0XB55 FXYD domain-containing ion transport regulator ...  52.0    2e-13
+  UniRef90_A0A2Y9K6P1 FXYD domain-containing ion transport regula...  52.0    3e-13
+  UniRef90_F7C0I1 FXYD domain-containing ion transport regulator ...  51.6    4e-13
+  UniRef90_M3WFP9 FXYD domain-containing ion transport regulator ...  51.2    6e-13
+  UniRef90_A0A2U3WZG2 FXYD domain-containing ion transport regula...  51.2    6e-13
+  UniRef90_G1L026 FXYD domain-containing ion transport regulator ...  50.8    8e-13
+  UniRef90_G1P709 FXYD domain-containing ion transport regulator ...  50.8    8e-13
+  UniRef90_M3Y6Z6 FXYD domain-containing ion transport regulator ...  50.8    8e-13
+  UniRef90_A0A2Y9TFI2 FXYD domain-containing ion transport regula...  52.4    9e-13
+  UniRef90_P56513 Phospholemman n=2 Tax=Canis lupus TaxID=9612 Re...  50.4    1e-12
+  UniRef90_Q3MHZ5 FXYD domain-containing ion transport regulator ...  50.4    1e-12
+  UniRef90_A0A3Q0DV97 FXYD domain-containing ion transport regula...  50.4    1e-12
+  UniRef90_J3QKN1 FXYD domain-containing ion transport regulator ...  50.1    1e-12
+  UniRef90_Q9H0Q3 FXYD domain-containing ion transport regulator ...  50.4    1e-12
+  UniRef90_Q5RB29 FXYD domain-containing ion transport regulator ...  50.4    1e-12
+  UniRef90_A0A384BAC5 FXYD domain-containing ion transport regula...  51.2    1e-12
+  UniRef90_J9P1V9 FXYD domain-containing ion transport regulator ...  50.4    1e-12
+  UniRef90_A0A2I3LTH7 FXYD domain-containing ion transport regula...  50.4    2e-12
+  UniRef90_E9PJ02 FXYD domain-containing ion transport regulator ...  50.1    2e-12
+  UniRef90_A0A337SM40 FXYD domain-containing ion transport regula...  50.1    2e-12
+  UniRef90_A0A2Y9EFX0 FXYD domain-containing ion transport regula...  50.8    2e-12
+  UniRef90_H0XPH7 FXYD domain-containing ion transport regulator ...  48.9    2e-12
+  UniRef90_A0A2K6GQ69 FXYD domain-containing ion transport regula...  49.7    2e-12
+  UniRef90_L5K2F8 FXYD domain-containing ion transport regulator ...  48.9    2e-12
+  UniRef90_A0A2K6UPN0 FXYD domain-containing ion transport regula...  48.1    5e-12
+  UniRef90_A0A087WZ82 FXYD domain-containing ion transport regula...  49.7    6e-12
+  UniRef90_Q58K79 FXYD domain-containing ion transport regulator ...  47.8    6e-12
+  UniRef90_A0A287BQ23 FXYD domain-containing ion transport regula...  48.1    7e-12
+  UniRef90_G1LAK9 FXYD domain-containing ion transport regulator ...  47.4    1e-11
+  UniRef90_A0A2R8MDW9 FXYD domain-containing ion transport regula...  47.4    1e-11
+  UniRef90_W5PAR9 FXYD domain-containing ion transport regulator ...  47.4    1e-11
+  UniRef90_S9XK79 FXYD domain-containing ion transport regulator ...  48.9    1e-11
+  UniRef90_F1SAM6 FXYD domain-containing ion transport regulator ...  47.0    1e-11
+  UniRef90_M3XZ78 FXYD domain-containing ion transport regulator ...  49.7    2e-11
+  UniRef90_A0A2K5KAD3 FXYD domain-containing ion transport regula...  46.6    2e-11
+  UniRef90_D2HFQ3 Uncharacterized protein n=1 Tax=Ailuropoda mela...  49.7    2e-11
+  UniRef90_F6YEC4 FXYD domain-containing ion transport regulator ...  47.0    2e-11
+  UniRef90_P54710 Sodium/potassium-transporting ATPase subunit ga...  46.2    3e-11
+  UniRef90_A0A2I3MSI7 Uncharacterized protein n=8 Tax=Cercopithec...  45.8    4e-11
+  UniRef90_A0A2K6UPP7 FXYD domain-containing ion transport regula...  45.4    5e-11
+  UniRef90_L5LTA9 FXYD domain-containing ion transport regulator ...  48.5    5e-11
+  UniRef90_L5KKN3 FXYD domain-containing ion transport regulator ...  48.1    5e-11
+  UniRef90_A0A2I2UHI5 FXYD domain-containing ion transport regula...  44.7    1e-10
+  UniRef90_S9WS98 FXYD domain-containing ion transport regulator ...  43.9    2e-09
+  UniRef90_F6RVP1 FXYD domain-containing ion transport regulator ...  42.7    5e-09
+  UniRef90_A0A1S3WX14 FXYD domain-containing ion transport regula...  38.9    4e-08
+  UniRef90_S9XIW1 Uncharacterized protein n=1 Tax=Camelus ferus T...  26.9    0.002
+
+
+> UniRef90_Q63113 FXYD domain-containing ion transport regulator 
+4 n=2 Tax=Rattus norvegicus TaxID=10116 RepID=FXYD4_RAT
+Length=87
+
+ Score = 178 bits (451),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 87/87 (100%), Positives = 87/87 (100%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK
+Sbjct  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKCRRNHTPSSLPEKVTPLITPGSAST
+Sbjct  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+
+
+> UniRef90_E2RKZ2 FXYD domain-containing ion transport regulator 
+n=6 Tax=Carnivora TaxID=33554 RepID=E2RKZ2_CANLF
+Length=88
+
+ Score = 134 bits (336),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 67/87 (77%), Positives = 71/87 (82%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   LL LAGLP LEAN  VDK SPFYYDWESLQLGGMIFGGLLCIAGI +ALSGK
+Sbjct  1   MKRMTQGLLLTLAGLPALEANDLVDKDSPFYYDWESLQLGGMIFGGLLCIAGILIALSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKC+ N   S LPEK TPLITPGSAST
+Sbjct  61  CKCKYNQKHSPLPEKATPLITPGSAST  87
+
+
+> UniRef90_A0A337STM1 FXYD domain-containing ion transport regulator 
+n=5 Tax=Carnivora TaxID=33554 RepID=A0A337STM1_FELCA
+Length=89
+
+ Score = 127 bits (318),  Expect = 5e-43, Method: Compositional matrix adjust.
+ Identities = 65/88 (74%), Positives = 71/88 (81%), Gaps = 1/88 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPV-DKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSG  59
+           M+ +T A L+ LAGLP LEAN  V DK SPFYYDWESLQLGGMI GGLLCIAGI +ALSG
+Sbjct  1   MKRVTRALLVTLAGLPALEANDLVADKDSPFYYDWESLQLGGMIVGGLLCIAGILIALSG  60
+
+Query  60  KCKCRRNHTPSSLPEKVTPLITPGSAST  87
+           KCKC+ N   S LPE+ TPLITPGSAST
+Sbjct  61  KCKCKYNKKHSPLPERATPLITPGSAST  88
+
+
+> UniRef90_G1MEV9 FXYD domain-containing ion transport regulator 
+n=5 Tax=Caniformia TaxID=379584 RepID=G1MEV9_AILME
+Length=83
+
+ Score = 125 bits (315),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 62/83 (75%), Positives = 66/83 (80%), Gaps = 0/83 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   LL LAGLP LEAN  VDK SPFYYDWESLQLGGMIFGGLLCIAGI +ALSGK
+Sbjct  1   MKRVTRGLLLTLAGLPALEANDLVDKDSPFYYDWESLQLGGMIFGGLLCIAGILIALSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPG  83
+           CKC+ N   S LPEK  PLITPG
+Sbjct  61  CKCKYNQKHSPLPEKAIPLITPG  83
+
+
+> UniRef90_A0A2Y9HDJ2 FXYD domain-containing ion transport regulator 
+n=1 Tax=Neomonachus schauinslandi TaxID=29088 RepID=A0A2Y9HDJ2_NEOSC
+Length=88
+
+ Score = 125 bits (314),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 62/87 (71%), Positives = 69/87 (79%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   LL LAGLP LEAN  VDK SPFYYDWESL+LGGMIFGGLLCIAGI +ALSG+
+Sbjct  1   MKTVTRGPLLTLAGLPALEANDLVDKDSPFYYDWESLRLGGMIFGGLLCIAGILIALSGR  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           C C+ N   S +PEK  PLITPGSAST
+Sbjct  61  CNCKSNQXHSPMPEKAIPLITPGSAST  87
+
+
+> UniRef90_A0A2U3Z318 LOW QUALITY PROTEIN: F-box only protein 9-like 
+n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3Z318_LEPWE
+Length=562
+
+ Score = 122 bits (306),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 56/86 (65%), Positives = 66/86 (77%), Gaps = 0/86 (0%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            ++ +T    L LAGLP LEAN  VDK SP Y+DWESL+LGGMIFGGLLCIAGI +ALSG+
+Sbjct  475  LKTVTRGLPLTLAGLPALEANDLVDKDSPSYHDWESLRLGGMIFGGLLCIAGILIALSGR  534
+
+Query  61   CKCRRNHTPSSLPEKVTPLITPGSAS  86
+            C C+ +   S +PEK  PLITPGSAS
+Sbjct  535  CNCKSHQXHSPMPEKAIPLITPGSAS  560
+
+
+> UniRef90_A0A337SI67 FXYD domain-containing ion transport regulator 
+n=3 Tax=Felidae TaxID=9681 RepID=A0A337SI67_FELCA
+Length=88
+
+ Score = 109 bits (273),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 55/87 (63%), Positives = 62/87 (71%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   LL  AGLP LE N  VDK SPF YDWESL+LGGMI GGLLCIAGI +ALS  
+Sbjct  1   MKRVTWGLLLTRAGLPALETNDLVDKDSPFSYDWESLELGGMIVGGLLCIAGILIALSRS  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKC+ +   S LPE+  PLITP  AST
+Sbjct  61  CKCKYSKKHSPLPERAAPLITPDPAST  87
+
+
+> UniRef90_W5P1I6 FXYD domain-containing ion transport regulator 
+n=2 Tax=Ovis aries TaxID=9940 RepID=W5P1I6_SHEEP
+Length=88
+
+ Score = 108 bits (270),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 62/87 (71%), Positives = 69/87 (79%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+G+T A LL+LAGLPVLEAN  +DK SPFYYDWE LQLGGMI  GL+CIAGI  ALSGK
+Sbjct  1   MDGVTRALLLLLAGLPVLEANDVIDKDSPFYYDWEGLQLGGMICAGLMCIAGILFALSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKC+      SLPEK  PL+TPGSAST
+Sbjct  61  CKCKNKQKHGSLPEKAVPLLTPGSAST  87
+
+
+> UniRef90_A0A2J8RR95 FXYD domain-containing ion transport regulator 
+n=3 Tax=Pongo abelii TaxID=9601 RepID=A0A2J8RR95_PONAB
+Length=87
+
+ Score = 107 bits (268),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 50/87 (57%), Positives = 61/87 (70%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   L+ LAGLPVL+AN P DK SPFYYDW SLQ+GG+I  G+LC  GI + +SGK
+Sbjct  1   MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKC+    PS  P +  PLITPGSA  
+Sbjct  61  CKCKFGQKPSHRPGETPPLITPGSAQN  87
+
+
+> UniRef90_A0A2Y9F5U3 FXYD domain-containing ion transport regulator 
+n=2 Tax=Odontoceti TaxID=9722 RepID=A0A2Y9F5U3_PHYCD
+Length=87
+
+ Score = 107 bits (268),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 51/69 (74%), Positives = 55/69 (80%), Gaps = 0/69 (0%)
+
+Query  19  EANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTP  78
+           EAN  VDK SPFYYDWE LQLGG+I   LLCIAGI  ALSGKCKC+++H  SSLPEK  P
+Sbjct  18  EANDLVDKDSPFYYDWEGLQLGGVICAALLCIAGILFALSGKCKCKQDHKHSSLPEKAVP  77
+
+Query  79  LITPGSAST  87
+           LITPGSAS 
+Sbjct  78  LITPGSASA  86
+
+
+> UniRef90_A0A2U3X9W7 FXYD domain-containing ion transport regulator 
+n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3X9W7_LEPWE
+Length=70
+
+ Score = 106 bits (265),  Expect = 4e-35, Method: Compositional matrix adjust.
+ Identities = 51/67 (76%), Positives = 56/67 (84%), Gaps = 0/67 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T A LL LAGLP LEAN  VDK SPFYYDWESLQLGGMIFGGLLCIAGI +ALSGK
+Sbjct  1   MKRVTRALLLTLAGLPALEANDLVDKDSPFYYDWESLQLGGMIFGGLLCIAGILIALSGK  60
+
+Query  61  CKCRRNH  67
+           CKC+ + 
+Sbjct  61  CKCKYSQ  67
+
+
+> UniRef90_G1SRK2 FXYD domain-containing ion transport regulator 
+n=1 Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1SRK2_RABIT
+Length=88
+
+ Score = 104 bits (260),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 50/72 (69%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEK  75
+           P  +AN  +D+ +PFYYDWESLQLGGMIF GLLCI GIAMALSGKCK +R    S LPEK
+Sbjct  16  PASDANDLLDEDNPFYYDWESLQLGGMIFAGLLCIVGIAMALSGKCKRKRGPDHSPLPEK  75
+
+Query  76  VTPLITPGSAST  87
+             PLITPGSA++
+Sbjct  76  ARPLITPGSATS  87
+
+
+> UniRef90_A0A384ALW9 FXYD domain-containing ion transport regulator 
+n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=A0A384ALW9_BALAS
+Length=144
+
+ Score = 105 bits (263),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 56/87 (64%), Positives = 64/87 (74%), Gaps = 1/87 (1%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            +EG+  A LL LAGLPVLEA+  +DK SPFYYDWE LQLGGMI   LLCI  I + LSGK
+Sbjct  58   IEGVAWAVLL-LAGLPVLEASDLLDKDSPFYYDWEGLQLGGMISAVLLCIPEILLVLSGK  116
+
+Query  61   CKCRRNHTPSSLPEKVTPLITPGSAST  87
+            CKC+R+     LPEK  PL+T GSAST
+Sbjct  117  CKCKRSQKQGPLPEKAGPLLTLGSAST  143
+
+
+> UniRef90_A0A0D9QWZ7 FXYD domain-containing ion transport regulator 
+n=2 Tax=Catarrhini TaxID=9526 RepID=A0A0D9QWZ7_CHLSB
+Length=87
+
+ Score = 103 bits (258),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 48/84 (57%), Positives = 59/84 (70%), Gaps = 0/84 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   L+ LAGLPVL+AN P DK SPFYYDW SLQ+GG+I  G+LC  GI + +SGK
+Sbjct  1   MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGS  84
+           CKC+    PS  P +  PLITPG 
+Sbjct  61  CKCKFGQKPSHHPGETPPLITPGK  84
+
+
+> UniRef90_A0A2K5DDF3 FXYD domain-containing ion transport regulator 
+n=1 Tax=Aotus nancymaae TaxID=37293 RepID=A0A2K5DDF3_AOTNA
+Length=145
+
+ Score = 103 bits (258),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 48/87 (55%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            M+ +T   L+ LAGLPVL+AN P DK SPFYYDW  LQ+GG+I  G+LC  GI + +SGK
+Sbjct  58   MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYDWHRLQVGGLICAGVLCALGIIILMSGK  117
+
+Query  61   CKCRRNHTPSSLPEKVTPLITPGSAST  87
+            CKC+    P   P +  PLITPGSA  
+Sbjct  118  CKCKFRQKPGHRPGEAPPLITPGSAHN  144
+
+
+> UniRef90_A0A2K5QBT6 FXYD domain-containing ion transport regulator 
+n=4 Tax=Cebidae TaxID=9498 RepID=A0A2K5QBT6_CEBCA
+Length=88
+
+ Score = 101 bits (252),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 47/87 (54%), Positives = 59/87 (68%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   L+ LAGLPVL+AN P DK SPFYYDW  L++GG+I  G+LC  GI + +SGK
+Sbjct  1   MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYDWHRLRVGGLICAGVLCALGIIILMSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKC+    P   P +  PLITPGSA  
+Sbjct  61  CKCKFRQKPGHRPGEAPPLITPGSAHN  87
+
+
+> UniRef90_Q9D2W0 FXYD domain-containing ion transport regulator 
+4 n=4 Tax=Mus musculus TaxID=10090 RepID=FXYD4_MOUSE
+Length=88
+
+ Score = 100 bits (250),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 74/87 (85%), Positives = 78/87 (90%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME ITCAFLL+LAGLP LEA+ PVDK SPFYYDWESLQLGG+IFGGLLCIAGIAMALSGK
+Sbjct  1   MEEITCAFLLLLAGLPALEASDPVDKDSPFYYDWESLQLGGLIFGGLLCIAGIAMALSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKCRR H PSSLP K TPLI PGSA+T
+Sbjct  61  CKCRRTHKPSSLPGKATPLIIPGSANT  87
+
+
+> UniRef90_A0A2K6TS70 FXYD domain-containing ion transport regulator 
+n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=A0A2K6TS70_SAIBB
+Length=145
+
+ Score = 99.4 bits (246),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 45/87 (52%), Positives = 58/87 (67%), Gaps = 0/87 (0%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            M+ +T   L+ LAGLPVL+AN P DK SPFYYDW  L++GG+I  G+LC  GI + +SGK
+Sbjct  59   MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYDWHRLRVGGLICAGVLCALGIIILMSGK  118
+
+Query  61   CKCRRNHTPSSLPEKVTPLITPGSAST  87
+            CKC+    P   P +  PLITPG   +
+Sbjct  119  CKCKFRQKPGHHPGEAPPLITPGKTGS  145
+
+
+> UniRef90_A0A383Z8C2 FXYD domain-containing ion transport regulator 
+n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=A0A383Z8C2_BALAS
+Length=289
+
+ Score = 102 bits (255),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 48/65 (74%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  19   EANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTP  78
+            EAN  VDK SPFYYDWE LQLGG+I   LLCIAGI  ALSGKCKC+++H  SSLPEK  P
+Sbjct  212  EANDLVDKDSPFYYDWEGLQLGGVICAALLCIAGILFALSGKCKCKQDHKHSSLPEKAVP  271
+
+Query  79   LITPG  83
+            LITPG
+Sbjct  272  LITPG  276
+
+
+> UniRef90_E2RKS5 FXYD domain-containing ion transport regulator 
+n=6 Tax=Caniformia TaxID=379584 RepID=E2RKS5_CANLF
+Length=89
+
+ Score = 96.7 bits (239),  Expect = 6e-31, Method: Compositional matrix adjust.
+ Identities = 46/88 (52%), Positives = 59/88 (67%), Gaps = 1/88 (1%)
+
+Query  1   MEGITCAFLLVLA-GLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSG  59
+           M+ +  + L+ LA GLP LEAN P DK SPFYYDW+ L++GG+I   +LC  GI + +SG
+Sbjct  1   MQEVALSLLIFLAAGLPALEANDPEDKDSPFYYDWQRLRIGGLICAAVLCTIGIIVLMSG  60
+
+Query  60  KCKCRRNHTPSSLPEKVTPLITPGSAST  87
+           KCKC+ +  PS  P    PLITPGSA  
+Sbjct  61  KCKCKFSQKPSHHPGDAPPLITPGSAQN  88
+
+
+> UniRef90_Q14802 FXYD domain-containing ion transport regulator 
+3 n=31 Tax=Catarrhini TaxID=9526 RepID=FXYD3_HUMAN
+Length=87
+
+ Score = 96.3 bits (238),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 45/87 (52%), Positives = 57/87 (66%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T   L+ LAG PVL+AN   DK SPFYYDW SLQ+GG+I  G+LC  GI + +S K
+Sbjct  1   MQKVTLGLLVFLAGFPVLDANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKC+        P +  PLITPGSA +
+Sbjct  61  CKCKFGQKSGHHPGETPPLITPGSAQS  87
+
+
+> UniRef90_F6PGP2 FXYD domain-containing ion transport regulator 
+n=1 Tax=Callithrix jacchus TaxID=9483 RepID=F6PGP2_CALJA
+Length=139
+
+ Score = 97.8 bits (242),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 45/84 (54%), Positives = 56/84 (67%), Gaps = 0/84 (0%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            M+  T   L+ LAGLPVL+AN P DK SPFYYDW  L++GG+I  G+LC  GI + +SGK
+Sbjct  42   MQKATLGLLVFLAGLPVLDANDPEDKNSPFYYDWHRLRVGGLICAGVLCALGIIILMSGK  101
+
+Query  61   CKCRRNHTPSSLPEKVTPLITPGS  84
+            CKC+    P   P +  PLITPG 
+Sbjct  102  CKCKLRQKPGHHPGEAPPLITPGK  125
+
+
+> UniRef90_A0A212CP92 FXYD domain-containing ion transport regulator 
+(Fragment) n=1 Tax=Cervus elaphus hippelaphus TaxID=46360 
+RepID=A0A212CP92_CEREH
+Length=124
+
+ Score = 97.1 bits (240),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 56/84 (67%), Positives = 64/84 (76%), Gaps = 0/84 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           MEG+T A LL+LAGLPVL+A+  VDK SPFYYDWE LQLGGMI  GL+CIAG+  ALSGK
+Sbjct  9   MEGVTRALLLLLAGLPVLDASDVVDKDSPFYYDWEGLQLGGMICAGLMCIAGLLFALSGK  68
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGS  84
+           CKC+      SLPEK  PL+ PG 
+Sbjct  69  CKCKNKQKHGSLPEKAVPLLIPGE  92
+
+
+> UniRef90_O97797 FXYD domain-containing ion transport regulator 
+3 n=2 Tax=Sus scrofa TaxID=9823 RepID=FXYD3_PIG
+Length=88
+
+ Score = 95.9 bits (237),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 46/85 (54%), Positives = 57/85 (67%), Gaps = 0/85 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M  +  + L++LAGL  L+AN P DK SPFYYDW SL++GG+I  G  C  GI + LSGK
+Sbjct  1   MHEVALSVLILLAGLSALDANDPEDKNSPFYYDWHSLRVGGLICAGTPCALGIIILLSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSA  85
+           CKC+ +  PS  P    PLITPGSA
+Sbjct  61  CKCKFSQKPSHRPGDAPPLITPGSA  85
+
+
+> UniRef90_A0A1S5UZ23 FXYD domain-containing ion transport regulator 
+n=3 Tax=Catarrhini TaxID=9526 RepID=A0A1S5UZ23_HUMAN
+Length=116
+
+ Score = 96.3 bits (238),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 45/87 (52%), Positives = 57/87 (66%), Gaps = 0/87 (0%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            M+ +T   L+ LAG PVL+AN   DK SPFYYDW SLQ+GG+I  G+LC  GI + +S K
+Sbjct  30   MQKVTLGLLVFLAGFPVLDANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAK  89
+
+Query  61   CKCRRNHTPSSLPEKVTPLITPGSAST  87
+            CKC+        P +  PLITPGSA +
+Sbjct  90   CKCKFGQKSGHHPGETPPLITPGSAQS  116
+
+
+> UniRef90_A0A2K6F6S5 FXYD domain-containing ion transport regulator 
+n=1 Tax=Propithecus coquereli TaxID=379532 RepID=A0A2K6F6S5_PROCO
+Length=88
+
+ Score = 93.2 bits (230),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 58/88 (66%), Positives = 65/88 (74%), Gaps = 2/88 (2%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGP-VDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSG  59
+           ME ++ A L++L GLP LEA     DK  PFYYDWESLQLGGMIFG LL +AGIAMALSG
+Sbjct  1   MERLSWA-LVLLTGLPALEARDLFADKDDPFYYDWESLQLGGMIFGVLLFLAGIAMALSG  59
+
+Query  60  KCKCRRNHTPSSLPEKVTPLITPGSAST  87
+           KCKC+       LPEK TPL+TPGSAS 
+Sbjct  60  KCKCKGKGKQGPLPEKATPLVTPGSASA  87
+
+
+> UniRef90_K7DYR9 FXYD domain-containing ion transport regulator 
+n=1 Tax=Monodelphis domestica TaxID=13616 RepID=K7DYR9_MONDO
+Length=88
+
+ Score = 93.2 bits (230),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 42/87 (48%), Positives = 57/87 (66%), Gaps = 0/87 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +    LL++A LP LEAN P DK SPFYYDW SL++GGM+  G+LC  GI + +S K
+Sbjct  1   MQRVAAGILLMMAALPALEANDPADKDSPFYYDWHSLRVGGMVCAGILCAVGIIVLVSSK  60
+
+Query  61  CKCRRNHTPSSLPEKVTPLITPGSAST  87
+           CKC+ +   +    ++T L  PGSAS 
+Sbjct  61  CKCKFSQKHNPRAGEITSLNAPGSASN  87
+
+
+> UniRef90_A0A2J8RR78 FXYD domain-containing ion transport regulator 
+n=2 Tax=Pongo abelii TaxID=9601 RepID=A0A2J8RR78_PONAB
+Length=116
+
+ Score = 92.4 bits (228),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 50/116 (43%), Positives = 61/116 (53%), Gaps = 29/116 (25%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYY----------------------------  32
+            M+ +T   L+ LAGLPVL+AN P DK SPFYY                            
+Sbjct  1    MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYGALYVFVKRMGGQMERTQPGTEVPSTFL  60
+
+Query  33   -DWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+             DW SLQ+GG+I  G+LC  GI + +SGKCKC+    PS  P +  PLITPGSA  
+Sbjct  61   LDWHSLQVGGLICAGVLCAMGIIIVMSGKCKCKFGQKPSHRPGETPPLITPGSAQN  116
+
+
+> UniRef90_G1P608 FXYD domain-containing ion transport regulator 
+n=1 Tax=Myotis lucifugus TaxID=59463 RepID=G1P608_MYOLU
+Length=87
+
+ Score = 91.3 bits (225),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 52/88 (59%), Positives = 56/88 (64%), Gaps = 3/88 (3%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYY-DWESLQLGGMIFGGLLCIAGIAMALSG  59
+           MEG+    LLVLAGLP LEA   +  G  F   DW  LQLGGMI  GLLCIAGI  ALS 
+Sbjct  1   MEGVAWGLLLVLAGLPALEAEDLI--GRQFLLPDWGDLQLGGMICAGLLCIAGIVFALSS  58
+
+Query  60  KCKCRRNHTPSSLPEKVTPLITPGSAST  87
+           KCKC+ +     L EK  PLIT GSAST
+Sbjct  59  KCKCKHSQQQGPLSEKAVPLITSGSAST  86
+
+
+> UniRef90_F6XPP9 FXYD domain-containing ion transport regulator 
+n=3 Tax=Equus TaxID=35510 RepID=F6XPP9_HORSE
+Length=87
+
+ Score = 90.1 bits (222),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 41/71 (58%), Positives = 48/71 (68%), Gaps = 0/71 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEK  75
+           P LEAN P DK SPFYYDW SL++ G+I  G+LC  GI + +SGKCKC+    PS  P  
+Sbjct  17  PALEANDPEDKNSPFYYDWHSLRVSGLICAGILCAVGILVLMSGKCKCKFRQKPSHRPGD  76
+
+Query  76  VTPLITPGSAS  86
+             PLITPGSA 
+Sbjct  77  APPLITPGSAQ  87
+
+
+> UniRef90_Q61835 FXYD domain-containing ion transport regulator 
+3 n=8 Tax=Muroidea TaxID=337687 RepID=FXYD3_MOUSE
+Length=88
+
+ Score = 90.1 bits (222),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 42/75 (56%), Positives = 52/75 (69%), Gaps = 0/75 (0%)
+
+Query  13  AGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSL  72
+           AGLP L+AN P +K  PFYYDW SL++GG+I  G+LC  GI + +SGKCKC+    PS  
+Sbjct  13  AGLPTLDANDPENKNDPFYYDWYSLRVGGLICAGILCALGIIVLMSGKCKCKFRQKPSHR  72
+
+Query  73  PEKVTPLITPGSAST  87
+           P +  PLITPGSA  
+Sbjct  73  PGEGPPLITPGSAHN  87
+
+
+> UniRef90_G3VUD7 FXYD domain-containing ion transport regulator 
+n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=G3VUD7_SARHA
+Length=88
+
+ Score = 89.0 bits (219),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 40/78 (51%), Positives = 54/78 (69%), Gaps = 0/78 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+G+    LL++A LPVLEAN   DK SPFYYDW SL++GGM+  G+LC AGI + +SGK
+Sbjct  1   MQGVMVGILLLMAALPVLEANDLFDKDSPFYYDWHSLRVGGMVCAGILCAAGIIVIMSGK  60
+
+Query  61  CKCRRNHTPSSLPEKVTP  78
+           CKC+     +  P ++ P
+Sbjct  61  CKCKFGQKHNPRPGEIPP  78
+
+
+> UniRef90_P59645 FXYD domain-containing ion transport regulator 
+3 n=2 Tax=Rattus norvegicus TaxID=10116 RepID=FXYD3_RAT
+Length=88
+
+ Score = 88.6 bits (218),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 41/72 (57%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEK  75
+           P L+AN P DK SPFYYDW SL++GG+I  G+LC  GI + +SGKCKC+ +  PS  P  
+Sbjct  16  PTLDANDPEDKDSPFYYDWHSLRVGGLICAGILCALGIIVLMSGKCKCKFSQKPSHRPGD  75
+
+Query  76  VTPLITPGSAST  87
+             PLITPGSA  
+Sbjct  76  GPPLITPGSAHN  87
+
+
+> UniRef90_L8IJ44 FXYD domain-containing ion transport regulator 
+(Fragment) n=6 Tax=Bovidae TaxID=9895 RepID=L8IJ44_9CETA
+Length=90
+
+ Score = 87.8 bits (216),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 40/72 (56%), Positives = 48/72 (67%), Gaps = 0/72 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEK  75
+           P L+AN P DK SPFYYDW SL++GG+IF G+LC  GI + +SGKCKC+    PS     
+Sbjct  18  PALDANDPEDKNSPFYYDWYSLRVGGLIFAGILCAMGIIVLMSGKCKCKFRQKPSHRLGD  77
+
+Query  76  VTPLITPGSAST  87
+             PLITPG   T
+Sbjct  78  APPLITPGKTGT  89
+
+
+> UniRef90_A0A1U7U3E4 FXYD domain-containing ion transport regulator 
+n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7U3E4_TARSY
+Length=114
+
+ Score = 88.2 bits (217),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 47/113 (42%), Positives = 61/113 (54%), Gaps = 26/113 (23%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS--  58
+            M+ +T +  ++LAGLP L+AN P DK SPFYYDW SL++GG+I  G+LC  GI + +S  
+Sbjct  1    MQEVTLSLFMLLAGLPALDANDPEDKNSPFYYDWHSLRVGGLICAGVLCAIGIIVLMSEW  60
+
+Query  59   ------------------------GKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+                                    GKCKC+ +  PS  P    PLITPGSA  
+Sbjct  61   RSWQEWAGRGWGPLPXTLTSPPTGGKCKCKFSQKPSHRPGDAPPLITPGSAHN  113
+
+
+> UniRef90_A0A2U3X4G4 FXYD domain-containing ion transport regulator 
+n=2 Tax=Caniformia TaxID=379584 RepID=A0A2U3X4G4_ODORO
+Length=70
+
+ Score = 85.9 bits (211),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 35/70 (50%), Positives = 50/70 (71%), Gaps = 0/70 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +T +  ++LAGLP L+AN P DK SPFYYDW  L++GG++   +LCI GI + +SGK
+Sbjct  1   MQEVTLSLFILLAGLPALDANDPEDKNSPFYYDWRRLRIGGLVCAAVLCIIGIIVLMSGK  60
+
+Query  61  CKCRRNHTPS  70
+           CKC+ +  P 
+Sbjct  61  CKCKFSQKPR  70
+
+
+> UniRef90_P59646 FXYD domain-containing ion transport regulator 
+4 n=7 Tax=Hominoidea TaxID=314295 RepID=FXYD4_HUMAN
+Length=89
+
+ Score = 86.3 bits (212),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 44/71 (62%), Positives = 53/71 (75%), Gaps = 6/71 (8%)
+
+Query  21  NGP-VDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCR---RNHTPSSLPEKV  76
+           N P  +K  PFYYDW++LQL G+I GGLL IAGIA  LSGKCKC+   + H+P  +PEK 
+Sbjct  20  NDPFANKDDPFYYDWKNLQLSGLICGGLLAIAGIAAVLSGKCKCKSSQKQHSP--VPEKA  77
+
+Query  77  TPLITPGSAST  87
+            PLITPGSA+T
+Sbjct  78  IPLITPGSATT  88
+
+
+> UniRef90_G1P700 FXYD domain-containing ion transport regulator 
+n=4 Tax=Chiroptera TaxID=9397 RepID=G1P700_MYOLU
+Length=88
+
+ Score = 85.5 bits (210),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 37/67 (55%), Positives = 47/67 (70%), Gaps = 0/67 (0%)
+
+Query  21  NGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLI  80
+           N P DK SPFYYDW SL++GG+I  G+LC  GI + +SGKCKC+ +  PS  P  + PL+
+Sbjct  21  NDPEDKNSPFYYDWHSLRVGGLICAGILCAIGIIVVMSGKCKCKFSQKPSHRPGDIPPLV  80
+
+Query  81  TPGSAST  87
+           TPGSA  
+Sbjct  81  TPGSAHN  87
+
+
+> UniRef90_A0A2K6TS79 FXYD domain-containing ion transport regulator 
+n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=A0A2K6TS79_SAIBB
+Length=117
+
+ Score = 85.9 bits (211),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 47/116 (41%), Positives = 59/116 (51%), Gaps = 29/116 (25%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYY----------------------------  32
+            M+ +T   L+ LAGLPVL+AN P DK SPFYY                            
+Sbjct  1    MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYGAPYVFIKRMGGWMGRTQPGTEVLSSFL  60
+
+Query  33   -DWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+             DW  L++GG+I  G+LC  GI + +SGKCKC+    P   P +  PLITPGSA  
+Sbjct  61   LDWHRLRVGGLICAGVLCALGIIILMSGKCKCKFRQKPGHHPGEAPPLITPGSAHN  116
+
+
+> UniRef90_A0A337SR48 FXYD domain-containing ion transport regulator 
+n=1 Tax=Felis catus TaxID=9685 RepID=A0A337SR48_FELCA
+Length=105
+
+ Score = 85.9 bits (211),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 47/105 (45%), Positives = 59/105 (56%), Gaps = 18/105 (17%)
+
+Query  1    MEGITCAFLLVL-AGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS-  58
+            M  +T   L++L AGLP L+AN P DK SPFYYDW  L++GG+I  G+LC  GI + +S 
+Sbjct  1    MREVTLGLLILLTAGLPALDANDPEDKNSPFYYDWHRLRIGGLICAGVLCTIGIIVLMSE  60
+
+Query  59   ----------------GKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+                            GKCKC+ +  PS  P    PLITPGSA  
+Sbjct  61   WGRWWPGWQGRAVGPGGKCKCKFSQKPSHHPGDAPPLITPGSAHN  105
+
+
+> UniRef90_A0A2Y9I4U0 FXYD domain-containing ion transport regulator 
+n=1 Tax=Neomonachus schauinslandi TaxID=29088 RepID=A0A2Y9I4U0_NEOSC
+Length=114
+
+ Score = 85.5 bits (210),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 45/113 (40%), Positives = 59/113 (52%), Gaps = 26/113 (23%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS--  58
+            M+ +T +  ++LAGLP L+AN P DK SPFYYDW  L++GG+I   +LC  GI + +S  
+Sbjct  1    MQEVTLSLFILLAGLPALDANDPEDKNSPFYYDWRRLRIGGLICAAVLCTIGIIVLMSEW  60
+
+Query  59   ------------------------GKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+                                    GKCKC+ +  PS  P    PLITPGSA  
+Sbjct  61   TLVAELVGQGCGSPPPTIPFPLTGGKCKCKFSQKPSHHPGDTPPLITPGSAQN  113
+
+
+> UniRef90_A0A2Y9F7J7 FXYD domain-containing ion transport regulator 
+n=1 Tax=Physeter catodon TaxID=9755 RepID=A0A2Y9F7J7_PHYCD
+Length=92
+
+ Score = 84.7 bits (208),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 40/56 (71%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  31  YYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAS  86
+           + DWE LQLGG+I   LLCIAGI  ALSGKCKC+++H  SSLPEK  PLITPGSAS
+Sbjct  35  HGDWEGLQLGGVICAALLCIAGILFALSGKCKCKQDHKHSSLPEKAVPLITPGSAS  90
+
+
+> UniRef90_G3S0U8 FXYD domain-containing ion transport regulator 
+n=5 Tax=Homininae TaxID=207598 RepID=G3S0U8_GORGO
+Length=113
+
+ Score = 84.7 bits (208),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 47/113 (42%), Positives = 58/113 (51%), Gaps = 26/113 (23%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS--  58
+            M+ +T   L+ LAG PVL+AN   DK SPFYYDW SLQ+GG+I  G+LC  GI M +S  
+Sbjct  1    MQKVTLGLLVFLAGFPVLDANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIMVVSEW  60
+
+Query  59   ------------------------GKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+                                     KCKC+     S  P +  PLITPGSA +
+Sbjct  61   RSLGEQAGRGWGSPPLTTQLSPTGAKCKCKFGQKSSHHPGETPPLITPGSAQS  113
+
+
+> UniRef90_A0A2Y9LBV2 FXYD domain-containing ion transport regulator 
+n=5 Tax=Caniformia TaxID=379584 RepID=A0A2Y9LBV2_ENHLU
+Length=90
+
+ Score = 83.6 bits (205),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 36/69 (52%), Positives = 47/69 (68%), Gaps = 0/69 (0%)
+
+Query  19  EANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTP  78
+           +AN P DK SPFYYDW  L++GG++   +LC  GI + +SGKCKC+ +  PS  P +  P
+Sbjct  21  DANDPEDKNSPFYYDWHRLRVGGLVCAAVLCTIGIIVLMSGKCKCKFSQKPSHHPGEAPP  80
+
+Query  79  LITPGSAST  87
+           LITPGSA  
+Sbjct  81  LITPGSAQN  89
+
+
+> UniRef90_A0A383YQM2 FXYD domain-containing ion transport regulator 
+n=8 Tax=Boreoeutheria TaxID=1437010 RepID=A0A383YQM2_BALAS
+Length=88
+
+ Score = 83.6 bits (205),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 38/72 (53%), Positives = 47/72 (65%), Gaps = 0/72 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEK  75
+           P L+AN P DK SPFYYDW SL++GG+I   +LC  GI + +SGKCKC+ +  P   P  
+Sbjct  16  PALDANDPEDKNSPFYYDWFSLRVGGLIIAAVLCAIGIIVLMSGKCKCKFSRKPRHHPGD  75
+
+Query  76  VTPLITPGSAST  87
+             PLIT GSA  
+Sbjct  76  APPLITSGSAHN  87
+
+
+> UniRef90_L5LUX5 FXYD domain-containing ion transport regulator 
+n=4 Tax=Chiroptera TaxID=9397 RepID=L5LUX5_MYODS
+Length=89
+
+ Score = 82.4 bits (202),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 36/67 (54%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  21  NGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLI  80
+           N P DK SPFYYDW SL++GG+I  G+LC  GI + +SGKCKC+ +   S  P  + PL+
+Sbjct  22  NDPEDKNSPFYYDWHSLRVGGLICAGILCAIGIIVVMSGKCKCKFSQKRSHRPGDIPPLV  81
+
+Query  81  TPGSAST  87
+           TPGSA  
+Sbjct  82  TPGSAHN  88
+
+
+> UniRef90_L8HZE9 FXYD domain-containing ion transport regulator 
+n=1 Tax=Bos mutus TaxID=72004 RepID=L8HZE9_9CETA
+Length=132
+
+ Score = 82.0 bits (201),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 48/67 (72%), Positives = 54/67 (81%), Gaps = 0/67 (0%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            MEG+T A LL+LAGLPVLEAN  +DK SPFYYDWE LQLGGMI  GL+CIAG+  ALSGK
+Sbjct  51   MEGVTRALLLLLAGLPVLEANDVIDKDSPFYYDWEGLQLGGMICAGLMCIAGLLFALSGK  110
+
+Query  61   CKCRRNH  67
+            CKC+   
+Sbjct  111  CKCKNKQ  117
+
+
+> UniRef90_G1U4B2 FXYD domain-containing ion transport regulator 
+n=3 Tax=Euarchontoglires TaxID=314146 RepID=G1U4B2_RABIT
+Length=88
+
+ Score = 80.5 bits (197),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 36/67 (54%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  21  NGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLI  80
+           N P DK SPFYYDW  L++GG+I  G+LC  GI + +SGKCKC+    PS  P    PLI
+Sbjct  21  NDPEDKNSPFYYDWHRLRVGGLICAGILCAIGIIVLMSGKCKCKFRQKPSHRPGDAPPLI  80
+
+Query  81  TPGSAST  87
+            PGSA  
+Sbjct  81  APGSARD  87
+
+
+> UniRef90_A0A2J8RR72 FXYD domain-containing ion transport regulator 
+n=1 Tax=Pongo abelii TaxID=9601 RepID=A0A2J8RR72_PONAB
+Length=107
+
+ Score = 81.3 bits (199),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 48/108 (44%), Positives = 59/108 (55%), Gaps = 22/108 (20%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESL---------------------QL  39
+            M+ +T   L+ LAGLPVL+AN P DK SPFYY  ESL                      +
+Sbjct  1    MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYG-ESLCPHSPPPNPTYCLVPRVPIQGWV  59
+
+Query  40   GGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+            GG+I  G+LC  GI + +SGKCKC+    PS  P +  PLITPGSA  
+Sbjct  60   GGLICAGVLCAMGIIIVMSGKCKCKFGQKPSHRPGETPPLITPGSAQN  107
+
+
+> UniRef90_A0A2K5WBP8 FXYD domain-containing ion transport regulator 
+n=5 Tax=Cercopithecidae TaxID=9527 RepID=A0A2K5WBP8_MACFA
+Length=115
+
+ Score = 81.3 bits (199),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 49/115 (43%), Positives = 60/115 (52%), Gaps = 28/115 (24%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYD---------------------------  33
+            M+ +T   L+ L GLPVL+AN P DK SPFYYD                           
+Sbjct  1    MQKVTLGLLVFLVGLPVLDANDPEDKNSPFYYDAPCVFVKRMGGRMERTPGTEVPSTFLL  60
+
+Query  34   -WESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+             W SLQ+GG+I  G+LC  GI + +SGKCKC+    PS  P +  PLITPGSA  
+Sbjct  61   DWHSLQVGGLICAGVLCAMGIIIVMSGKCKCKFGQKPSHHPGETPPLITPGSAHN  115
+
+
+> UniRef90_S4R445 FXYD domain-containing ion transport regulator 
+n=5 Tax=Catarrhini TaxID=9526 RepID=S4R445_HUMAN
+Length=116
+
+ Score = 81.3 bits (199),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 45/116 (39%), Positives = 57/116 (49%), Gaps = 29/116 (25%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYY----------------------------  32
+            M+ +T   L+ LAG PVL+AN   DK SPFYY                            
+Sbjct  1    MQKVTLGLLVFLAGFPVLDANDLEDKNSPFYYGAPYIFVKRMGGQMERTQAGTEVPSTFL  60
+
+Query  33   -DWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+             DW SLQ+GG+I  G+LC  GI + +S KCKC+        P +  PLITPGSA +
+Sbjct  61   LDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHPGETPPLITPGSAQS  116
+
+
+> UniRef90_G3TK23 FXYD domain-containing ion transport regulator 
+n=1 Tax=Loxodonta africana TaxID=9785 RepID=G3TK23_LOXAF
+Length=94
+
+ Score = 79.7 bits (195),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 40/84 (48%), Positives = 53/84 (63%), Gaps = 1/84 (1%)
+
+Query  1   MEGITCAFLLVLAG-LPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSG  59
+           M+ +  + L+ LAG  P LE +   DK SPFYYDW SLQ+GG+I   +LC  G+ + LS 
+Sbjct  11  MQEVVLSLLVFLAGKFPFLELSFLADKNSPFYYDWHSLQIGGVICAVILCGIGVIVLLSS  70
+
+Query  60  KCKCRRNHTPSSLPEKVTPLITPG  83
+           KCKC+ +  PS    +  PLITPG
+Sbjct  71  KCKCKFSQKPSHRAGEAPPLITPG  94
+
+
+> UniRef90_G1L015 FXYD domain-containing ion transport regulator 
+n=1 Tax=Ailuropoda melanoleuca TaxID=9646 RepID=G1L015_AILME
+Length=79
+
+ Score = 78.6 bits (192),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 39/78 (50%), Positives = 49/78 (63%), Gaps = 0/78 (0%)
+
+Query  10  LVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTP  69
+           L+ AGLPVL+AN P    S F  DW  L++GG+I   +LC  GI + +SGKCKC+ +  P
+Sbjct  1   LLPAGLPVLDANDPEVASSGFLLDWHRLRIGGLICAAILCAIGIIVLMSGKCKCKFSQKP  60
+
+Query  70  SSLPEKVTPLITPGSAST  87
+           S  P    PLITPGSA  
+Sbjct  61  SHHPGDAPPLITPGSAQN  78
+
+
+> UniRef90_A0A2Y9R511 FXYD domain-containing ion transport regulator 
+n=1 Tax=Trichechus manatus latirostris TaxID=127582 RepID=A0A2Y9R511_TRIMA
+Length=131
+
+ Score = 79.3 bits (194),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 39/64 (61%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  24   VDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPG  83
+            V K +PFYYDWE LQLGGMI  GL CIAGI   L  KCKC+     + LPEK T LI P 
+Sbjct  67   VHKDTPFYYDWEGLQLGGMICAGLPCIAGIIFVLCSKCKCKSVQKHNPLPEKTTLLIIPD  126
+
+Query  84   SAST  87
+            SAS 
+Sbjct  127  SASN  130
+
+
+> UniRef90_A0A2K6FYX3 FXYD domain-containing ion transport regulator 
+n=1 Tax=Propithecus coquereli TaxID=379532 RepID=A0A2K6FYX3_PROCO
+Length=115
+
+ Score = 79.0 bits (193),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 44/114 (39%), Positives = 54/114 (47%), Gaps = 27/114 (24%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYY---------------------------D  33
+            M+    +   +LAGLP L+AN P DK SPFYY                           D
+Sbjct  1    MQEAALSLFFLLAGLPALDANDPEDKNSPFYYGAQDLFVRGGWMRRTQAGIEVPSAFPLD  60
+
+Query  34   WESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+            W SLQ+GG+I   +L   GI + +SGKCKC+    PS       PLITPGSA  
+Sbjct  61   WHSLQIGGLICAVVLSTIGIVVVMSGKCKCKFRQKPSRQSGDAPPLITPGSAHN  114
+
+
+> UniRef90_A0JNK5 FXYD domain-containing ion transport regulator 
+n=3 Tax=Boreoeutheria TaxID=1437010 RepID=A0JNK5_BOVIN
+Length=70
+
+ Score = 77.0 bits (188),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 32/55 (58%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPS  70
+           P L+AN P DK SPFYYDW SL++GG+IF G+LC  GI + +SGKCKC+    P 
+Sbjct  16  PALDANDPEDKNSPFYYDWYSLRVGGLIFAGILCAMGIIVLMSGKCKCKFRQKPR  70
+
+
+> UniRef90_G7PER3 FXYD domain-containing ion transport regulator 
+n=12 Tax=Cercopithecinae TaxID=9528 RepID=G7PER3_MACFA
+Length=89
+
+ Score = 76.3 bits (186),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 39/71 (55%), Positives = 49/71 (69%), Gaps = 6/71 (8%)
+
+Query  21  NGP-VDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCR---RNHTPSSLPEKV  76
+           N P  ++  PFYYDW++LQL G+I GGLL IAGI   LS KCKC+   + H+P  + EK 
+Sbjct  20  NDPFANEDDPFYYDWKNLQLSGLICGGLLAIAGIVAVLSSKCKCKSSQKQHSP--VLEKT  77
+
+Query  77  TPLITPGSAST  87
+            PLITPGS +T
+Sbjct  78  IPLITPGSTTT  88
+
+
+> UniRef90_S7PR78 FXYD domain-containing ion transport regulator 
+(Fragment) n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7PR78_MYOBR
+Length=117
+
+ Score = 77.0 bits (188),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 40/75 (53%), Positives = 47/75 (63%), Gaps = 1/75 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           +EG+    LLVLAGLP LE  G +D+      DW  LQLGGM   GLLC+AGI  ALS K
+Sbjct  1   LEGVAWGLLLVLAGLPALEVEGLIDRQF-LLPDWGDLQLGGMTCAGLLCVAGIVFALSSK  59
+
+Query  61  CKCRRNHTPSSLPEK  75
+           CKC+ +   S L EK
+Sbjct  60  CKCKHSQQQSPLSEK  74
+
+
+> UniRef90_A0A2J8RR74 FXYD domain-containing ion transport regulator 
+n=1 Tax=Pongo abelii TaxID=9601 RepID=A0A2J8RR74_PONAB
+Length=75
+
+ Score = 74.7 bits (182),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS  58
+           M+ +T   L+ LAGLPVL+AN P DK SPFYYDW SLQ+GG+I  G+LC  GI + +S
+Sbjct  1   MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMS  58
+
+
+> UniRef90_A0A2K6FYU3 FXYD domain-containing ion transport regulator 
+n=1 Tax=Propithecus coquereli TaxID=379532 RepID=A0A2K6FYU3_PROCO
+Length=103
+
+ Score = 73.9 bits (180),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 43/103 (42%), Positives = 53/103 (51%), Gaps = 18/103 (17%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS--  58
+            M+    +   +LAGLP L+AN P DK SPFYYDW SLQ+GG+I   +L   GI + +S  
+Sbjct  1    MQEAALSLFFLLAGLPALDANDPEDKNSPFYYDWHSLQIGGLICAVVLSTIGIVVVMSEC  60
+
+Query  59   --------GKCKCRRNHT--------PSSLPEKVTPLITPGSA  85
+                    GKCKC+            PS       PLITPG A
+Sbjct  61   GSGGSRRGGKCKCKFRQKYGAHHLCLPSRQSGDAPPLITPGKA  103
+
+
+> UniRef90_A0A2K5KLR4 FXYD domain-containing ion transport regulator 
+n=7 Tax=Cercopithecidae TaxID=9527 RepID=A0A2K5KLR4_CERAT
+Length=89
+
+ Score = 72.4 bits (176),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 38/71 (54%), Positives = 48/71 (68%), Gaps = 6/71 (8%)
+
+Query  21  NGP-VDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCR---RNHTPSSLPEKV  76
+           N P  ++  PFYYDW++LQL G+I GGLL IAGI   LS KCKC+   + H+P  +  K 
+Sbjct  20  NDPFANEDDPFYYDWKNLQLSGLICGGLLAIAGIVAVLSSKCKCKSSQKQHSP--VLGKT  77
+
+Query  77  TPLITPGSAST  87
+            PLITPGS +T
+Sbjct  78  IPLITPGSTTT  88
+
+
+> UniRef90_H9F278 FXYD domain-containing ion transport regulator 
+(Fragment) n=1 Tax=Macaca mulatta TaxID=9544 RepID=H9F278_MACMU
+Length=58
+
+ Score = 70.9 bits (172),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 32/58 (55%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  30  FYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+           FYY W SLQ+GG+I  G+LC  GI + +SGKCKC+    PS  P +  PLITPGSA  
+Sbjct  1   FYYAWHSLQVGGLICAGVLCAMGIIIVMSGKCKCKFGQKPSHHPGETPPLITPGSAHN  58
+
+
+> UniRef90_A0A337SS07 FXYD domain-containing ion transport regulator 
+n=1 Tax=Felis catus TaxID=9685 RepID=A0A337SS07_FELCA
+Length=127
+
+ Score = 70.9 bits (172),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 46/127 (36%), Positives = 58/127 (46%), Gaps = 40/127 (31%)
+
+Query  1    MEGITCAFLLVL-AGLPVLEANGPVDKGSPFYY---------------------------  32
+            M  +T   L++L AGLP L+AN P DK SPFYY                           
+Sbjct  1    MREVTLGLLILLTAGLPALDANDPEDKNSPFYYGESLHPSLRSLPTPTYYFVPRGPPRLG  60
+
+Query  33   ------------DWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLI  80
+                        D   L++GG+I  G+LC  GI + +SGKCKC+ +  PS  P    PLI
+Sbjct  61   EGLMWVPNTYLLDRWGLRIGGLICAGVLCTIGIIVLMSGKCKCKFSQKPSHHPGDAPPLI  120
+
+Query  81   TPGSAST  87
+            TPGSA  
+Sbjct  121  TPGSAHN  127
+
+
+> UniRef90_A0A1S3WVD3 FXYD domain-containing ion transport regulator 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3WVD3_ERIEU
+Length=81
+
+ Score = 69.3 bits (168),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 29/47 (62%), Positives = 34/47 (72%), Gaps = 0/47 (0%)
+
+Query  18  LEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCR  64
+           L    P D+ SPFYYDWE+LQL G I  G+LC+ GIA ALS KCKC+
+Sbjct  29  LHLFHPADESSPFYYDWETLQLAGTICAGVLCLVGIAFALSNKCKCK  75
+
+
+> UniRef90_L9KUX4 Zinc finger protein 485 n=1 Tax=Tupaia chinensis 
+TaxID=246437 RepID=L9KUX4_TUPCH
+Length=578
+
+ Score = 73.2 bits (178),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 33/46 (72%), Positives = 39/46 (85%), Gaps = 0/46 (0%)
+
+Query  13   AGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS  58
+            AGLP L+AN  +DK SPFYYDWESLQL G+I GG+L +AGIA+ALS
+Sbjct  82   AGLPALKANDLLDKDSPFYYDWESLQLAGVICGGILGVAGIAIALS  127
+
+
+ Score = 17.3 bits (33),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 5/17 (29%), Positives = 11/17 (65%), Gaps = 0/17 (0%)
+
+Query  1    MEGITCAFLLVLAGLPV  17
+            + G+ C  +L +AG+ +
+Sbjct  108  LAGVICGGILGVAGIAI  124
+
+
+> UniRef90_A0A287B9X1 FXYD domain-containing ion transport regulator 
+n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A287B9X1_PIG
+Length=87
+
+ Score = 66.2 bits (160),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M  +  + L++LAGL  L+AN P D  S F  DW SL++GG+I  G LC  GI + LSGK
+Sbjct  1   MHEVALSVLILLAGLSALDANDPEDSPSGFLLDWHSLRVGGLICAGTLCALGIIILLSGK  60
+
+Query  61  CKCR  64
+           CKC+
+Sbjct  61  CKCK  64
+
+
+> UniRef90_A0A2K6UR97 FXYD domain-containing ion transport regulator 
+n=4 Tax=Platyrrhini TaxID=9479 RepID=A0A2K6UR97_SAIBB
+Length=89
+
+ Score = 62.4 bits (150),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 39/63 (62%), Positives = 46/63 (73%), Gaps = 1/63 (2%)
+
+Query  26  KGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS-LPEKVTPLITPGS  84
+           K  PFYYDW++LQL G+I GGLL  AGI  ALS KCKC+ +      +PEK TPLITPGS
+Sbjct  26  KDDPFYYDWKNLQLSGLICGGLLAFAGILAALSSKCKCKSSQKKCGPVPEKATPLITPGS  85
+
+Query  85  AST  87
+           A+T
+Sbjct  86  ATT  88
+
+
+> UniRef90_A0A212DC10 FXYD domain-containing ion transport regulator 
+n=4 Tax=Pecora TaxID=35500 RepID=A0A212DC10_CEREH
+Length=80
+
+ Score = 62.0 bits (149),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 28/55 (51%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  33  DWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEKVTPLITPGSAST  87
+           DW  L++GG+IF G+LC  GI + +SGKCKC+    PS       PLITPGSA  
+Sbjct  25  DWYGLRVGGLIFAGILCAMGIIVLMSGKCKCKFRQKPSHRSGDAPPLITPGSAQN  79
+
+
+> UniRef90_L8Y339 FXYD domain-containing ion transport regulator 
+n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L8Y339_TUPCH
+Length=128
+
+ Score = 61.2 bits (147),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 30/71 (42%), Positives = 44/71 (62%), Gaps = 8/71 (11%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M+ +  + L++LAGLP L+AN P         DW SL++GG+I  G+LC  GI + +SGK
+Sbjct  1   MQEVAVSLLVLLAGLPALDANDP--------EDWYSLRVGGLICAGVLCAIGIIVLMSGK  52
+
+Query  61  CKCRRNHTPSS  71
+           CKC+ +  P  
+Sbjct  53  CKCKFSQKPRE  63
+
+
+> UniRef90_W5P3M1 FXYD domain-containing ion transport regulator 
+n=1 Tax=Ovis aries TaxID=9940 RepID=W5P3M1_SHEEP
+Length=70
+
+ Score = 59.7 bits (143),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 27/55 (49%), Positives = 35/55 (64%), Gaps = 0/55 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPS  70
+           P L+AN P    S F  DW SL++GG+IF G+LC  GI + +SGKCKC+    P 
+Sbjct  16  PALDANDPEGAPSGFLLDWYSLRVGGLIFAGILCAMGIIVLMSGKCKCKFRQKPR  70
+
+
+> UniRef90_A0A1S3WXD2 FXYD domain-containing ion transport regulator 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3WXD2_ERIEU
+Length=98
+
+ Score = 58.2 bits (139),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 32/43 (74%), Gaps = 0/43 (0%)
+
+Query  16  PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS  58
+           P LEAN P DK SPFYYDW SL++GG+I  G+LC  GI + +S
+Sbjct  16  PALEANDPEDKNSPFYYDWYSLRVGGLICAGVLCAIGIIVLMS  58
+
+
+> UniRef90_S9YBC3 Uncharacterized protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9YBC3_CAMFR
+Length=574
+
+ Score = 58.5 bits (140),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 31/70 (44%), Positives = 40/70 (57%), Gaps = 8/70 (11%)
+
+Query  16   PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPEK  75
+            P L+AN P         DW SL++ G+I  G+LC  GI + +SGKCKC+ +  P   P  
+Sbjct  510  PALDANDP--------EDWHSLRVSGLICAGVLCALGIIVLMSGKCKCKFSQKPRRHPGD  561
+
+Query  76   VTPLITPGSA  85
+              PLIT GSA
+Sbjct  562  PPPLITTGSA  571
+
+
+> UniRef90_F7H5I7 FXYD domain-containing ion transport regulator 
+n=1 Tax=Macaca mulatta TaxID=9544 RepID=F7H5I7_MACMU
+Length=97
+
+ Score = 55.5 bits (132),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 39/100 (39%), Positives = 49/100 (49%), Gaps = 24/100 (24%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMA----  56
+           M+ +T   L+ L GLPVL+AN P         DW SLQ+GG+I  G+LC  GI +     
+Sbjct  1   MQKVTLGLLVFLVGLPVLDANDP--------EDWHSLQVGGLICAGVLCAMGIIIQAGRG  52
+
+Query  57  ------------LSGKCKCRRNHTPSSLPEKVTPLITPGS  84
+                         GKCKC+    PS  P +  PLITPG 
+Sbjct  53  WGSPPLTTQLSPTGGKCKCKFGQKPSHHPGETPPLITPGK  92
+
+
+> UniRef90_I3LMB3 Phospholemman n=1 Tax=Sus scrofa TaxID=9823 RepID=PLM_PIG
+Length=87
+
+ Score = 55.1 bits (131),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 42/70 (60%), Gaps = 1/70 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M  ++   +L +  L V+ A  P  +  PF YD++SL++GG+I  G+L I GI + LS +
+Sbjct  1   MASLSHILVLWVGILTVVNAEAP-QEHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRR  59
+
+Query  61  CKCRRNHTPS  70
+           C+C+ N   S
+Sbjct  60  CRCKFNQQQS  69
+
+
+> UniRef90_A0A340XB53 FXYD domain-containing ion transport regulator 
+n=2 Tax=Odontoceti TaxID=9722 RepID=A0A340XB53_LIPVE
+Length=143
+
+ Score = 55.5 bits (132),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 33/84 (39%), Positives = 49/84 (58%), Gaps = 8/84 (10%)
+
+Query  9   LLVLAGL--PVLEANGPVDK-GSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCR-  64
+           LL L GL  P + AN   +K   PF+YD+++L++GG++F  +L   GI + LS +CKC  
+Sbjct  5   LLYLCGLLAPAVLANAEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCGF  64
+
+Query  65  ----RNHTPSSLPEKVTPLITPGS  84
+               RN  P S   K +P ++ GS
+Sbjct  65  NQKPRNGAPESRELKCSPQVSGGS  88
+
+
+ Score = 40.0 bits (92),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  16   PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC  63
+            P +    P +   PF YD+E+++ GG+IF  L  I G+ + LS +  C
+Sbjct  82   PQVSGGSPKEDVDPFSYDYETVRNGGLIFAALAFIVGLIIILSRRFHC  129
+
+
+> UniRef90_H0XD58 FXYD domain-containing ion transport regulator 
+n=1 Tax=Otolemur garnettii TaxID=30611 RepID=H0XD58_OTOGA
+Length=102
+
+ Score = 53.9 bits (128),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 26/84 (31%), Positives = 45/84 (54%), Gaps = 0/84 (0%)
+
+Query  4   ITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC  63
+           +   FL  L    VL +    ++  PF+YD+++L++GG++F  +L   GI + LS +CKC
+Sbjct  3   VVLIFLCSLLAPMVLASAEQENEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKC  62
+
+Query  64  RRNHTPSSLPEKVTPLITPGSAST  87
+             N  P +  ++  P  +P    T
+Sbjct  63  SFNQKPRAPGDEEAPQQSPRKRRT  86
+
+
+> UniRef90_F6X683 FXYD domain-containing ion transport regulator 
+n=2 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=F6X683_ORNAN
+Length=95
+
+ Score = 53.9 bits (128),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  20  ANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           A  P  +  PF+YD++SL++GG++F  +L   GI + LS +CKC  N  P +
+Sbjct  20  AADPKTEEDPFHYDYQSLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+
+> UniRef90_Q9D164 FXYD domain-containing ion transport regulator 
+6 n=14 Tax=Boreoeutheria TaxID=1437010 RepID=FXYD6_MOUSE
+Length=94
+
+ Score = 53.5 bits (127),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 24/64 (38%), Positives = 38/64 (59%), Gaps = 3/64 (5%)
+
+Query  26  KGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS---LPEKVTPLITP  82
+           +  PFYYD+++L++GG++F  +L   GI + LS +CKC  N  P +      +V  LIT 
+Sbjct  25  EKDPFYYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRAPGDEEAQVENLITT  84
+
+Query  83  GSAS  86
+            +A 
+Sbjct  85  NAAE  88
+
+
+> UniRef90_Q3SZX0 Phospholemman n=14 Tax=Boreoeutheria TaxID=1437010 
+RepID=PLM_BOVIN
+Length=92
+
+ Score = 53.1 bits (126),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 42/71 (59%), Gaps = 1/71 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M  ++   +L +  L ++ A  P  +  PF YD++SL++GG+I  G+L I GI + LS +
+Sbjct  1   MASLSHILVLCVGLLAMVNAEAP-QEHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRR  59
+
+Query  61  CKCRRNHTPSS  71
+           C+C+ N    +
+Sbjct  60  CRCKFNQQQRT  70
+
+
+> UniRef90_A0A1S3WB79 FXYD domain-containing ion transport regulator 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3WB79_ERIEU
+Length=94
+
+ Score = 52.8 bits (125),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 32/46 (70%), Gaps = 0/46 (0%)
+
+Query  26  KGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           +  PF+YD+++L++GG++F  +L + GI + LS +CKC  N  P +
+Sbjct  25  EQDPFHYDYQTLRIGGLVFAVVLFLVGILLILSRRCKCNFNQKPRA  70
+
+
+> UniRef90_A0A3Q0DNF8 FXYD domain-containing ion transport regulator 
+6 isoform X5 n=2 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A3Q0DNF8_TARSY
+Length=90
+
+ Score = 52.4 bits (124),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 41/71 (58%), Gaps = 0/71 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME +      +LA + +  A     +  PF+YD+++L++GG++F  +L   GI + LS +
+Sbjct  1   MEVVLIFLCSLLAPVALASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRR  60
+
+Query  61  CKCRRNHTPSS  71
+           CKC  N  PS+
+Sbjct  61  CKCNFNQKPSN  71
+
+
+> UniRef90_C7E9P5 FXYD domain-containing ion transport regulator 
+(Fragment) n=1 Tax=Homo sapiens TaxID=9606 RepID=C7E9P5_HUMAN
+Length=63
+
+ Score = 51.6 bits (122),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 22/56 (39%), Positives = 35/56 (63%), Gaps = 1/56 (2%)
+
+Query  15  LPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPS  70
+           L + +A  P  +  PF YD++SLQ+GG++  G+L I GI + LS +C+C+ N    
+Sbjct  9   LTMAKAESP-KEHDPFTYDYQSLQIGGLVIAGILFILGILIVLSRRCRCKFNQQQK  63
+
+
+> UniRef90_O00168 Phospholemman n=24 Tax=Boreoeutheria TaxID=1437010 
+RepID=PLM_HUMAN
+Length=92
+
+ Score = 52.4 bits (124),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 25/68 (37%), Positives = 40/68 (59%), Gaps = 6/68 (9%)
+
+Query  4   ITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC  63
+           + C  LL +A     +A  P +   PF YD++SLQ+GG++  G+L I GI + LS +C+C
+Sbjct  9   VFCVGLLTMA-----KAESPKEH-DPFTYDYQSLQIGGLVIAGILFILGILIVLSRRCRC  62
+
+Query  64  RRNHTPSS  71
+           + N    +
+Sbjct  63  KFNQQQRT  70
+
+
+> UniRef90_F6YIB9 FXYD domain-containing ion transport regulator 
+n=4 Tax=Metatheria TaxID=9263 RepID=F6YIB9_MONDO
+Length=95
+
+ Score = 52.4 bits (124),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 37/59 (63%), Gaps = 2/59 (3%)
+
+Query  15  LPVLEANGPVDKG--SPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           +PV+ A+    K    PF+YD++SL++GG++F  +L   GI + LS +CKC  N  P +
+Sbjct  13  VPVILASAADQKKEKDPFHYDYQSLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+
+> UniRef90_H0XB55 FXYD domain-containing ion transport regulator 
+n=2 Tax=Strepsirrhini TaxID=376911 RepID=H0XB55_OTOGA
+Length=93
+
+ Score = 52.0 bits (123),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 33/57 (58%), Gaps = 0/57 (0%)
+
+Query  15  LPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           L   +A  P  +  PF YD+ SL++GG+   G+L I GI + LS +C+C+ N    +
+Sbjct  15  LATADAENPKKEHDPFTYDYRSLRIGGLTIAGILFILGILIVLSKRCRCKFNQQQKT  71
+
+
+> UniRef90_A0A2Y9K6P1 FXYD domain-containing ion transport regulator 
+n=3 Tax=Caniformia TaxID=379584 RepID=A0A2Y9K6P1_ENHLU
+Length=105
+
+ Score = 52.0 bits (123),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME +      +LA   +  A    ++  PF+YD+++L++GG++F  +L   GI + LS +
+Sbjct  11  MEAVLIFLCSLLAPTILASAAEQEEEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRR  70
+
+Query  61  CKCRRNHTPSS  71
+           CKC  N  P +
+Sbjct  71  CKCSFNQKPRA  81
+
+
+> UniRef90_F7C0I1 FXYD domain-containing ion transport regulator 
+n=4 Tax=Laurasiatheria TaxID=314145 RepID=F7C0I1_HORSE
+Length=92
+
+ Score = 51.6 bits (122),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 35/57 (61%), Gaps = 1/57 (2%)
+
+Query  15  LPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           L +  A  P +   PF YD++SL++GG+I  G+L I GI + LS KC+C+ N    +
+Sbjct  15  LSMANAEAPQEH-DPFTYDYQSLRIGGLIIAGILFILGILIVLSRKCRCKFNQQQRT  70
+
+
+> UniRef90_M3WFP9 FXYD domain-containing ion transport regulator 
+n=5 Tax=Carnivora TaxID=33554 RepID=M3WFP9_FELCA
+Length=95
+
+ Score = 51.2 bits (121),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 39/69 (57%), Gaps = 1/69 (1%)
+
+Query  4   ITCAFLLVLAGLPVLEANGPVDK-GSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCK  62
+           +   FL  L    VL +    +K   PF+YD+++L++GG++F  +L   GI + LS +CK
+Sbjct  3   VVLIFLCSLLAPSVLASAAEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCK  62
+
+Query  63  CRRNHTPSS  71
+           C  N  P +
+Sbjct  63  CNFNQKPRA  71
+
+
+> UniRef90_A0A2U3WZG2 FXYD domain-containing ion transport regulator 
+n=4 Tax=Caniformia TaxID=379584 RepID=A0A2U3WZG2_ODORO
+Length=105
+
+ Score = 51.2 bits (121),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  25  DKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           ++  PF+YD+++L++GG++F  +L   GI + LS +CKC  N  P +
+Sbjct  35  NEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  81
+
+
+> UniRef90_G1L026 FXYD domain-containing ion transport regulator 
+n=12 Tax=Eutheria TaxID=9347 RepID=G1L026_AILME
+Length=92
+
+ Score = 50.8 bits (120),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 37/63 (59%), Gaps = 1/63 (2%)
+
+Query  9   LLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHT  68
+           +L +  L    A  P  +  PF YD++SL++GG+I  G+L I GI + LS +C+C+ N  
+Sbjct  9   VLCVGFLTTANAEAP-QEHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQQ  67
+
+Query  69  PSS  71
+             +
+Sbjct  68  QRT  70
+
+
+> UniRef90_G1P709 FXYD domain-containing ion transport regulator 
+n=3 Tax=Myotis lucifugus TaxID=59463 RepID=G1P709_MYOLU
+Length=92
+
+ Score = 50.8 bits (120),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M  +    +L ++ L +  A  P  +  PF YD++SL++GG++  G+L I GI +  S K
+Sbjct  1   MASLDHILVLCVSLLAMARAEAP-QEHDPFTYDYQSLRIGGLVIAGVLFILGILIVFSRK  59
+
+Query  61  CKCRRNHTPSS  71
+           C+C+ N    +
+Sbjct  60  CRCKFNQQQRT  70
+
+
+> UniRef90_M3Y6Z6 FXYD domain-containing ion transport regulator 
+n=4 Tax=Caniformia TaxID=379584 RepID=M3Y6Z6_MUSPF
+Length=92
+
+ Score = 50.8 bits (120),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 24/71 (34%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME +    +L +  L    A  P  +  PF YD+++L++GG+I  G+L I GI + LS +
+Sbjct  1   MEPLYHILVLCVGFLTKASAEAP-QEHDPFTYDYQTLRIGGLIIAGILFILGILIVLSRR  59
+
+Query  61  CKCRRNHTPSS  71
+           C+C+ N    +
+Sbjct  60  CRCKFNQQQRT  70
+
+
+> UniRef90_A0A2Y9TFI2 FXYD domain-containing ion transport regulator 
+n=1 Tax=Physeter catodon TaxID=9755 RepID=A0A2Y9TFI2_PHYCD
+Length=190
+
+ Score = 52.4 bits (124),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 24/67 (36%), Positives = 41/67 (61%), Gaps = 1/67 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M  ++   +L +  L ++ A  P +   PF YD++SL++GG+I  G+L I GI + LS +
+Sbjct  1   MASLSHILVLCVGLLAMVNAEAPQEH-DPFTYDYQSLRIGGLIIAGILFILGILIVLSRR  59
+
+Query  61  CKCRRNH  67
+           C+C+ N 
+Sbjct  60  CRCKFNQ  66
+
+
+ Score = 35.0 bits (79),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 28/45 (62%), Gaps = 0/45 (0%)
+
+Query  29   PFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLP  73
+            PFYYD++++Q  GM    +L + GI + +S K KCR+  + S  P
+Sbjct  127  PFYYDYDTVQTVGMTLATILFLLGILIIISKKVKCRKADSRSESP  171
+
+
+> UniRef90_P56513 Phospholemman n=2 Tax=Canis lupus TaxID=9612 
+RepID=PLM_CANLF
+Length=92
+
+ Score = 50.4 bits (119),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 37/64 (58%), Gaps = 1/64 (2%)
+
+Query  8   FLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNH  67
+            +L +  L    A  P  +  PF YD++SL++GG+I  G+L I GI + LS +C+C+ N 
+Sbjct  8   LVLCVGFLTTATAEAP-QEHDPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQ  66
+
+Query  68  TPSS  71
+              +
+Sbjct  67  QQRT  70
+
+
+> UniRef90_Q3MHZ5 FXYD domain-containing ion transport regulator 
+6 n=4 Tax=Bos TaxID=9903 RepID=FXYD6_BOVIN
+Length=95
+
+ Score = 50.4 bits (119),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  26  KGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           +  PF+YD+++L++GG++F  +L   GI + LS +CKC  N  P +
+Sbjct  26  EKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  71
+
+
+> UniRef90_A0A3Q0DV97 FXYD domain-containing ion transport regulator 
+6 isoform X1 n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A3Q0DV97_TARSY
+Length=102
+
+ Score = 50.4 bits (119),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 24/73 (33%), Positives = 41/73 (56%), Gaps = 1/73 (1%)
+
+Query  16  PVLEANGPVDKG-SPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPE  74
+           PV  A+   +K   PF+YD+++L++GG++F  +L   GI + LS +CKC  N  P +  +
+Sbjct  14  PVALASAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCNFNQKPRAPGD  73
+
+Query  75  KVTPLITPGSAST  87
+           +     +P    T
+Sbjct  74  EEAQQQSPRKQRT  86
+
+
+> UniRef90_J3QKN1 FXYD domain-containing ion transport regulator 
+n=21 Tax=Simiiformes TaxID=314293 RepID=J3QKN1_HUMAN
+Length=90
+
+ Score = 50.1 bits (118),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME +      +LA + +  A     +  PF+YD+++L++GG++F  +L   GI + LS +
+Sbjct  1   MELVLVFLCSLLAPMVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRR  60
+
+Query  61  CKCRRNHTPSS  71
+           CKC  N  P +
+Sbjct  61  CKCSFNQKPRN  71
+
+
+> UniRef90_Q9H0Q3 FXYD domain-containing ion transport regulator 
+6 n=65 Tax=Eutheria TaxID=9347 RepID=FXYD6_HUMAN
+Length=95
+
+ Score = 50.4 bits (119),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME +      +LA + +  A     +  PF+YD+++L++GG++F  +L   GI + LS +
+Sbjct  1   MELVLVFLCSLLAPMVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRR  60
+
+Query  61  CKCRRNHTPSS  71
+           CKC  N  P +
+Sbjct  61  CKCSFNQKPRA  71
+
+
+> UniRef90_Q5RB29 FXYD domain-containing ion transport regulator 
+6 n=10 Tax=Catarrhini TaxID=9526 RepID=FXYD6_PONAB
+Length=95
+
+ Score = 50.4 bits (119),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 39/69 (57%), Gaps = 1/69 (1%)
+
+Query  4   ITCAFLLVLAGLPVLEANGPVDKG-SPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCK  62
+           +   FL  L    VL +    +K   PF+YD+++L++GG++F  +L   GI + LS +CK
+Sbjct  3   LVLVFLCSLLAPTVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCK  62
+
+Query  63  CRRNHTPSS  71
+           C  N  P +
+Sbjct  63  CSFNQKPRA  71
+
+
+> UniRef90_A0A384BAC5 FXYD domain-containing ion transport regulator 
+n=4 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=A0A384BAC5_BALAS
+Length=137
+
+ Score = 51.2 bits (121),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 40/67 (60%), Gaps = 4/67 (6%)
+
+Query  9    LLVLAGL--PVLEANGPVDKG--SPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCR  64
+            LL L GL  P + AN    +    PF+YD+++L++GG++F  +L   GI + LS +CKC 
+Sbjct  47   LLFLCGLLAPAVLANAAEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCT  106
+
+Query  65   RNHTPSS  71
+             N  P +
+Sbjct  107  FNQKPRA  113
+
+
+> UniRef90_J9P1V9 FXYD domain-containing ion transport regulator 
+n=6 Tax=Laurasiatheria TaxID=314145 RepID=J9P1V9_CANLF
+Length=109
+
+ Score = 50.4 bits (119),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  25  DKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           ++  PF+YD+++L++GG++F  +L   GI + LS +CKC  N  P +
+Sbjct  39  NEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRA  85
+
+
+> UniRef90_A0A2I3LTH7 FXYD domain-containing ion transport regulator 
+n=9 Tax=Simiiformes TaxID=314293 RepID=A0A2I3LTH7_PAPAN
+Length=111
+
+ Score = 50.4 bits (119),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 25/84 (30%), Positives = 43/84 (51%), Gaps = 0/84 (0%)
+
+Query  4   ITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC  63
+           +   FL  L    VL +     +  PF+YD+++L++GG++F  +L   GI + LS +CKC
+Sbjct  3   LVLVFLCSLLAPMVLASAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKC  62
+
+Query  64  RRNHTPSSLPEKVTPLITPGSAST  87
+             N  P +  ++     +P    T
+Sbjct  63  SFNQKPRAPGDEEAQQQSPRKQRT  86
+
+
+> UniRef90_E9PJ02 FXYD domain-containing ion transport regulator 
+n=11 Tax=Euarchontoglires TaxID=314146 RepID=E9PJ02_HUMAN
+Length=90
+
+ Score = 50.1 bits (118),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME +      +LA + +  A     +  PF+YD+++L++GG++F  +L   GI + LS +
+Sbjct  1   MELVLVFLCSLLAPMVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRR  60
+
+Query  61  CKCRRNHTPSS  71
+           CKC  N  P +
+Sbjct  61  CKCSFNQKPRA  71
+
+
+> UniRef90_A0A337SM40 FXYD domain-containing ion transport regulator 
+n=2 Tax=Felis catus TaxID=9685 RepID=A0A337SM40_FELCA
+Length=92
+
+ Score = 50.1 bits (118),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 1/71 (1%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           M  +    +L +  L +  A  P  +  PF YD+++L++GG+I  G+L I GI + LS +
+Sbjct  1   MASLHHILVLCVGFLAMANAEAP-QEHDPFTYDYKTLRIGGLIIAGILFILGILIVLSRR  59
+
+Query  61  CKCRRNHTPSS  71
+           C+C+ N    +
+Sbjct  60  CRCKFNQQQRT  70
+
+
+> UniRef90_A0A2Y9EFX0 FXYD domain-containing ion transport regulator 
+n=6 Tax=Cetartiodactyla TaxID=91561 RepID=A0A2Y9EFX0_PHYCD
+Length=123
+
+ Score = 50.8 bits (120),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 40/67 (60%), Gaps = 4/67 (6%)
+
+Query  9   LLVLAGL--PVLEANGPVDKG--SPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCR  64
+           LL L GL  P + AN    +    PF+YD+++L++GG++F  +L   GI + LS +CKC 
+Sbjct  33  LLFLCGLLAPAVLANAAEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCS  92
+
+Query  65  RNHTPSS  71
+            N  P +
+Sbjct  93  FNQKPRA  99
+
+
+> UniRef90_H0XPH7 FXYD domain-containing ion transport regulator 
+n=1 Tax=Otolemur garnettii TaxID=30611 RepID=H0XPH7_OTOGA
+Length=66
+
+ Score = 48.9 bits (115),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 36/58 (62%), Gaps = 3/58 (5%)
+
+Query  17  VLEANG-PVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC--RRNHTPSS  71
+           VL A G P  +  PFYYD+E+++ GG+IF GL  I G+ + LS + +C   R H  +S
+Sbjct  5   VLSAGGSPKGEADPFYYDYETVRNGGLIFAGLAFIVGLLIILSKRFRCGGNRKHRQTS  62
+
+
+> UniRef90_A0A2K6GQ69 FXYD domain-containing ion transport regulator 
+n=1 Tax=Propithecus coquereli TaxID=379532 RepID=A0A2K6GQ69_PROCO
+Length=87
+
+ Score = 49.7 bits (117),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  25  DKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           ++  PF+YD+++L++GG++F  +L   GI + LS +CKC  N  P  
+Sbjct  25  NEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRD  71
+
+
+> UniRef90_L5K2F8 FXYD domain-containing ion transport regulator 
+n=1 Tax=Pteropus alecto TaxID=9402 RepID=L5K2F8_PTEAL
+Length=62
+
+ Score = 48.9 bits (115),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 20/38 (53%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  33  DWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPS  70
+           DW SL++GG+I  G+LC  GI + +SGKCKC+ N  P 
+Sbjct  25  DWHSLRVGGLICAGILCAMGIIVLMSGKCKCKFNQKPR  62
+
+
+> UniRef90_A0A2K6UPN0 FXYD domain-containing ion transport regulator 
+n=2 Tax=Cebidae TaxID=9498 RepID=A0A2K6UPN0_SAIBB
+Length=66
+
+ Score = 48.1 bits (113),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 24/66 (36%), Positives = 36/66 (55%), Gaps = 5/66 (8%)
+
+Query  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC-----RRN  66
+           + GL   + + P     PFYYD+E+++ GG+IF GL  I G+ + LS + +C     RR 
+Sbjct  1   MTGLSTGDGSSPNADVDPFYYDYETVRKGGLIFAGLAFIVGLLIILSKRFRCGGNKKRRQ  60
+
+Query  67  HTPSSL  72
+            T   L
+Sbjct  61  ITDDEL  66
+
+
+> UniRef90_A0A087WZ82 FXYD domain-containing ion transport regulator 
+n=2 Tax=Catarrhini TaxID=9526 RepID=A0A087WZ82_HUMAN
+Length=144
+
+ Score = 49.7 bits (117),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 28/89 (31%), Positives = 46/89 (52%), Gaps = 5/89 (6%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+           ME +      +LA + +  A     +  PF+YD+++L++GG++F  +L   GI + LS +
+Sbjct  1   MELVLVFLCSLLAPMVLASAAEKEKEMDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRR  60
+
+Query  61  CKCR-----RNHTPSSLPEKVTPLITPGS  84
+           CKC      RN  P S   K +  +  GS
+Sbjct  61  CKCSFNQKPRNRAPESRELKCSHQVEGGS  89
+
+
+ Score = 46.6 bits (109),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 32/57 (56%), Gaps = 0/57 (0%)
+
+Query  18   LEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPE  74
+            +E   P     PFYYD+E+++ GG+IF GL  I G+ + LS + +C  N     + E
+Sbjct  85   VEGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQINE  141
+
+
+> UniRef90_Q58K79 FXYD domain-containing ion transport regulator 
+n=5 Tax=Laurasiatheria TaxID=314145 RepID=Q58K79_PIG
+Length=65
+
+ Score = 47.8 bits (112),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 36/64 (56%), Gaps = 1/64 (2%)
+
+Query  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC-RRNHTPS  70
+           +AGL   +   P     PFYYD+E+++ GG+IF  L  I G+ + LS + +C  + H P 
+Sbjct  1   MAGLSTDDGGSPKGDVDPFYYDYETVRNGGLIFAALAFIVGLIIILSKRLRCGGKKHRPI  60
+
+Query  71  SLPE  74
+           +  E
+Sbjct  61  NEDE  64
+
+
+> UniRef90_A0A287BQ23 FXYD domain-containing ion transport regulator 
+n=1 Tax=Sus scrofa TaxID=9823 RepID=A0A287BQ23_PIG
+Length=84
+
+ Score = 48.1 bits (113),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 37/64 (58%), Gaps = 1/64 (2%)
+
+Query  8   FLLVLAGLPVLEANGPVDK-GSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRN  66
+           FL  L    VL +    +K   PF+YD+++L++GG++F  +L   GI + LS +CKC  N
+Sbjct  7   FLCSLLAPAVLASAAEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCTFN  66
+
+Query  67  HTPS  70
+              +
+Sbjct  67  QVEN  70
+
+
+> UniRef90_G1LAK9 FXYD domain-containing ion transport regulator 
+n=5 Tax=Caniformia TaxID=379584 RepID=G1LAK9_AILME
+Length=66
+
+ Score = 47.4 bits (111),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 35/58 (60%), Gaps = 2/58 (3%)
+
+Query  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC--RRNH  67
+           +AGL + +   P     PFYYD+E+++ GG+IF  L  + G+ + LS + +C  R+ H
+Sbjct  1   MAGLSMDDGGSPKGDVDPFYYDYETVRNGGLIFAALAFVVGLIIILSKRLRCGGRKKH  58
+
+
+> UniRef90_A0A2R8MDW9 FXYD domain-containing ion transport regulator 
+n=2 Tax=Cebidae TaxID=9498 RepID=A0A2R8MDW9_CALJA
+Length=64
+
+ Score = 47.4 bits (111),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 19/47 (40%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  28  SPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPE  74
+            PFYYD+E+++ GG+IF GL  I G+ + LS +  CR N     + +
+Sbjct  15  DPFYYDYETVRKGGLIFAGLAFIVGLLIILSKRFHCRGNKKRRQITD  61
+
+
+> UniRef90_W5PAR9 FXYD domain-containing ion transport regulator 
+n=2 Tax=Bovidae TaxID=9895 RepID=W5PAR9_SHEEP
+Length=70
+
+ Score = 47.4 bits (111),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 32/60 (53%), Gaps = 0/60 (0%)
+
+Query  15  LPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPE  74
+           L +     P +   PFYYD+E+++ GG+IF  L  I G+ + LS + +C        +PE
+Sbjct  8   LALFSGGSPKENEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKKKHRQIPE  67
+
+
+> UniRef90_S9XK79 FXYD domain-containing ion transport regulator 
+n=1 Tax=Camelus ferus TaxID=419612 RepID=S9XK79_CAMFR
+Length=150
+
+ Score = 48.9 bits (115),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 38/65 (58%), Gaps = 1/65 (2%)
+
+Query  8   FLLVLAGLPVLEANGPVDK-GSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRN  66
+           FL  L    VL +    +K   PF+YD+++L++GG++F  +L   GI + LS +CKC  N
+Sbjct  7   FLCSLLAPAVLASAAEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFN  66
+
+Query  67  HTPSS  71
+             P +
+Sbjct  67  QKPRA  71
+
+
+> UniRef90_F1SAM6 FXYD domain-containing ion transport regulator 
+n=3 Tax=Sus scrofa TaxID=9823 RepID=F1SAM6_PIG
+Length=65
+
+ Score = 47.0 bits (110),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 35/64 (55%), Gaps = 1/64 (2%)
+
+Query  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC-RRNHTPS  70
+           +AGL       P     PFYYD+E+++ GG+IF  L  I G+ + LS + +C  + H P 
+Sbjct  1   MAGLSTDNGGSPKGDVDPFYYDYETVRNGGLIFAALAFIVGLIIILSKRLRCGGKKHRPI  60
+
+Query  71  SLPE  74
+           +  E
+Sbjct  61  NEDE  64
+
+
+> UniRef90_M3XZ78 FXYD domain-containing ion transport regulator 
+n=2 Tax=Mustela putorius furo TaxID=9669 RepID=M3XZ78_MUSPF
+Length=262
+
+ Score = 49.7 bits (117),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 40/71 (56%), Gaps = 0/71 (0%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            ME +      +LA   +  A    ++  PF+YD+++L++GG++F  +L   GI + LS +
+Sbjct  168  MEAVLIFLCSLLAPTILASAAEQEEEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRR  227
+
+Query  61   CKCRRNHTPSS  71
+            CKC  N  P +
+Sbjct  228  CKCSFNQKPRA  238
+
+
+> UniRef90_A0A2K5KAD3 FXYD domain-containing ion transport regulator 
+n=2 Tax=Colobus angolensis palliatus TaxID=336983 RepID=A0A2K5KAD3_COLAP
+Length=62
+
+ Score = 46.6 bits (109),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 33/57 (58%), Gaps = 3/57 (5%)
+
+Query  18  LEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLPE  74
+           L   G VD   PFYYD+E+++ GG+IF GL  I G+ + LS + +C  N     + E
+Sbjct  6   LGGKGDVD---PFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGANKKHRQITE  59
+
+
+> UniRef90_D2HFQ3 Uncharacterized protein n=1 Tax=Ailuropoda melanoleuca 
+TaxID=9646 RepID=D2HFQ3_AILME
+Length=599
+
+ Score = 49.7 bits (117),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 36/60 (60%), Gaps = 1/60 (2%)
+
+Query  8   FLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNH  67
+            +L +  L    A  P +   PF YD++SL++GG+I  G+L I GI + LS +C+C+ N 
+Sbjct  8   LVLCVGFLTTANAEAPQEH-DPFTYDYQSLRIGGLIIAGILFILGILIVLSRRCRCKFNQ  66
+
+
+ Score = 35.4 bits (80),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 20/58 (34%), Positives = 30/58 (52%), Gaps = 6/58 (10%)
+
+Query  16   PVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCK-----CRRNHT  68
+            PVL   G   +  PF YD  +L+  G++   +L I GI +  SGKC+     CR  ++
+Sbjct  415  PVLRPTG-SSEDDPFTYDEGTLRKRGLLVAAVLFITGIVILTSGKCRRLPQLCRNRNS  471
+
+
+ Score = 34.3 bits (77),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 28/45 (62%), Gaps = 0/45 (0%)
+
+Query  28   SPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSL  72
+             PFYYD++++Q  GM    +L + GI + +S K KCR+  + S L
+Sbjct  211  DPFYYDYDTVQTVGMTLAAILFLLGILLIISKKVKCRKADSSSPL  255
+
+
+> UniRef90_F6YEC4 FXYD domain-containing ion transport regulator 
+n=2 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=F6YEC4_ORNAN
+Length=90
+
+ Score = 47.0 bits (110),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 19/39 (49%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  20  ANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS  58
+           AN P D  +PFYYDW +L++GG+I   +LC  GI + +S
+Sbjct  37  ANDPADADNPFYYDWHNLRVGGLICAAILCAIGIIVLMS  75
+
+
+> UniRef90_P54710 Sodium/potassium-transporting ATPase subunit 
+gamma n=17 Tax=Catarrhini TaxID=9526 RepID=ATNG_HUMAN
+Length=66
+
+ Score = 46.2 bits (108),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 22/63 (35%), Positives = 34/63 (54%), Gaps = 0/63 (0%)
+
+Query  12  LAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSS  71
+           + GL +     P     PFYYD+E+++ GG+IF GL  I G+ + LS + +C  N     
+Sbjct  1   MTGLSMDGGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRCGGNKKRRQ  60
+
+Query  72  LPE  74
+           + E
+Sbjct  61  INE  63
+
+
+> UniRef90_A0A2I3MSI7 Uncharacterized protein n=8 Tax=Cercopithecidae 
+TaxID=9527 RepID=A0A2I3MSI7_PAPAN
+Length=61
+
+ Score = 45.8 bits (107),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 20/32 (63%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYY  32
+           M+ +T   L+ LAGLPVL+AN P DK SPFYY
+Sbjct  1   MQKVTLGLLVFLAGLPVLDANDPEDKNSPFYY  32
+
+
+> UniRef90_A0A2K6UPP7 FXYD domain-containing ion transport regulator 
+n=2 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=A0A2K6UPP7_SAIBB
+Length=64
+
+ Score = 45.4 bits (106),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 24/57 (42%), Positives = 33/57 (58%), Gaps = 8/57 (14%)
+
+Query  21  NGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC-----RRNHTPSSL  72
+           N  VD   PFYYD+E+++ GG+IF GL  I G+ + LS + +C     RR  T   L
+Sbjct  11  NADVD---PFYYDYETVRKGGLIFAGLAFIVGLLIILSKRFRCGGNKKRRQITDDEL  64
+
+
+> UniRef90_L5LTA9 FXYD domain-containing ion transport regulator 
+n=1 Tax=Myotis davidii TaxID=225400 RepID=L5LTA9_MYODS
+Length=301
+
+ Score = 48.5 bits (114),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 37/64 (58%), Gaps = 6/64 (9%)
+
+Query  4   ITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKC  63
+           + C  LL +A      A  P +   PF YD++SL++GG+I  G+L I GI +  S KC+C
+Sbjct  9   VLCVSLLAMA-----RAEAPQEH-DPFTYDYQSLRVGGLIIAGVLFILGILIVFSRKCRC  62
+
+Query  64  RRNH  67
+           + N 
+Sbjct  63  KFNQ  66
+
+
+ Score = 32.0 bits (71),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/44 (41%), Positives = 25/44 (57%), Gaps = 6/44 (14%)
+
+Query  29   PFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCK-----CRRNH  67
+            PF YD  +L+  G++   +L I GI +  SGKC+     C RNH
+Sbjct  257  PFSYDNYTLRKHGLLVAAVLFITGIVILTSGKCRQLPRLC-RNH  299
+
+
+ Score = 19.2 bits (38),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 9/21 (43%), Positives = 10/21 (48%), Gaps = 0/21 (0%)
+
+Query  64   RRNHTPSSLPEKVTPLITPGS  84
+            RR       PE  TP +T GS
+Sbjct  130  RRPGVGRGRPEAETPFLTGGS  150
+
+
+> UniRef90_L5KKN3 FXYD domain-containing ion transport regulator 
+n=1 Tax=Pteropus alecto TaxID=9402 RepID=L5KKN3_PTEAL
+Length=343
+
+ Score = 48.1 bits (113),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 26/76 (34%), Positives = 43/76 (57%), Gaps = 5/76 (7%)
+
+Query  16  PVLEANGPVDKGS--PFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHTPSSLP  73
+           P + A+ P  +    PF+YD+++L++GG++F  +L   GI + LS +CKC  N  P +  
+Sbjct  14  PAVLASAPEQEKEKDPFHYDYQTLRIGGLVFAVVLFSVGILLILSRRCKCSFNQKPRAPG  73
+
+Query  74  E---KVTPLITPGSAS  86
+           +   +V  LIT    S
+Sbjct  74  DEEAQVENLITANGGS  89
+
+
+ Score = 35.8 bits (81),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/44 (39%), Positives = 28/44 (64%), Gaps = 2/44 (5%)
+
+Query  17   VLEANGPVDKGS--PFYYDWESLQLGGMIFGGLLCIAGIAMALS  58
+            ++ ANG   KG   PF YD+E+++ GG+IF  L  + G+ + L+
+Sbjct  82   LITANGGSPKGDVDPFSYDYETVRNGGLIFAALAFVVGLIIILT  125
+
+
+ Score = 19.2 bits (38),  Expect = 0.85, Method: Composition-based stats.
+ Identities = 12/36 (33%), Positives = 19/36 (53%), Gaps = 1/36 (3%)
+
+Query  3    GITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQ  38
+            G+  A L  + GL ++    P D G+  Y+  +SLQ
+Sbjct  108  GLIFAALAFVVGLIIILTR-PEDVGTSLYFVNDSLQ  142
+
+
+> UniRef90_A0A2I2UHI5 FXYD domain-containing ion transport regulator 
+n=1 Tax=Felis catus TaxID=9685 RepID=A0A2I2UHI5_FELCA
+Length=80
+
+ Score = 44.7 bits (104),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 30/88 (34%), Positives = 42/88 (48%), Gaps = 26/88 (30%)
+
+Query  1   MEGITCAFLLVL-AGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALS-  58
+           M  +T   L++L AGLP L+AN P         DW  L++GG+I  G+LC  GI + +S 
+Sbjct  1   MREVTLGLLILLTAGLPALDANDP--------EDWHRLRIGGLICAGVLCTIGIIVLMSE  52
+
+Query  59  ----------------GKCKCRRNHTPS  70
+                           GKCKC+ +  P 
+Sbjct  53  WGRWWPGWQGRAVGPGGKCKCKFSQKPR  80
+
+
+> UniRef90_S9WS98 FXYD domain-containing ion transport regulator 
+n=1 Tax=Camelus ferus TaxID=419612 RepID=S9WS98_CAMFR
+Length=224
+
+ Score = 43.9 bits (102),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/59 (37%), Positives = 38/59 (64%), Gaps = 1/59 (2%)
+
+Query  1   MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSG  59
+           M  ++   +L +  L +++A+ P +   PF YD++SL++GG+I  G+L I GI + LSG
+Sbjct  1   MASLSHILVLCVGLLGMVKADSPQEH-DPFTYDYQSLRIGGLIIAGILFILGILIVLSG  58
+
+
+ Score = 25.0 bits (53),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  28   SPFYYDWESLQLGGMIFGGLLCIAGIAMALS  58
+             PF YD  +L+  G++   +L I GI +  S
+Sbjct  173  DPFSYDEYTLRKRGLLVAAVLFITGIVILTS  203
+
+
+ Score = 20.0 bits (40),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 25/50 (50%), Gaps = 11/50 (22%)
+
+Query  33   DWESLQLGGMIFGGLLCIAGIAMALSGKCKCRR-----------NHTPSS  71
+            D++++Q  GM    +L + GI + +S K KCR+           +  PSS
+Sbjct  91   DYDTVQTVGMTLATILFLLGILIIVSKKVKCRKADSSPTCKSCKSELPSS  140
+
+
+> UniRef90_F6RVP1 FXYD domain-containing ion transport regulator 
+n=1 Tax=Monodelphis domestica TaxID=13616 RepID=F6RVP1_MONDO
+Length=214
+
+ Score = 42.7 bits (99),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 26/68 (38%), Positives = 43/68 (63%), Gaps = 1/68 (1%)
+
+Query  1    MEGITCAFLLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGK  60
+            ME +    LL +A +   +A  P ++  PF YD++SL++GG++F G+L I GI + LS +
+Sbjct  129  MEPLAQLLLLCIALISAAKAEAPKER-DPFTYDYQSLRIGGLVFAGILFILGILIILSRR  187
+
+Query  61   CKCRRNHT  68
+            C+C+ N  
+Sbjct  188  CRCKFNQQ  195
+
+
+> UniRef90_A0A1S3WX14 FXYD domain-containing ion transport regulator 
+n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3WX14_ERIEU
+Length=92
+
+ Score = 38.9 bits (89),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 36/63 (57%), Gaps = 0/63 (0%)
+
+Query  9   LLVLAGLPVLEANGPVDKGSPFYYDWESLQLGGMIFGGLLCIAGIAMALSGKCKCRRNHT  68
+           L++ AGL  +       +  PF YD++SL++ G+   G+L I GI + LS +C+C+ N  
+Sbjct  8   LVLCAGLAAMANAEAPQENDPFTYDYQSLRIAGLTVAGVLFILGILIILSRRCRCKFNQQ  67
+
+Query  69  PSS  71
+             +
+Sbjct  68  QRT  70
+
+
+> UniRef90_S9XIW1 Uncharacterized protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9XIW1_CAMFR
+Length=187
+
+ Score = 26.9 bits (58),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 13/16 (81%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  17   VLEANGPVDKGSPFYY  32
+            VLEAN  VDK SPFYY
+Sbjct  169  VLEANDVVDKDSPFYY  184
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 485886
+
+
+  Database: isar.db.218
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 15,578
+  Number of sequences in database:  131
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

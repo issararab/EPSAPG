@@ -1,0 +1,1794 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.5
+           102 sequences; 18,432 total letters
+
+Results from round 1
+
+
+Query= A0A0M3KL13|4y28G|A0A0M3KL13_PEA 0.9381443298969072
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_A0A0M3KL13 photosystem I reaction center n=1 Tax=Pisum...  197     2e-70
+  UniRef90_M0SVJ6 Uncharacterized protein n=3 Tax=Musa TaxID=4640...  177     6e-62
+  UniRef90_A0A221C801 Photosystem I subunit G n=1 Tax=Diospyros k...  177     8e-62
+  UniRef90_A0A1S2Y5F1 photosystem I reaction center subunit V, ch...  177     2e-61
+  UniRef90_A0A314ZST9 Photosystem I reaction center subunit V chl...  176     2e-61
+  UniRef90_A0A1U7ZGM3 photosystem I reaction center subunit V, ch...  175     1e-60
+  UniRef90_A0A2P5ETN1 Photosystem I PsaG n=2 Tax=Cannabaceae TaxI...  174     3e-60
+  UniRef90_W9QR60 Photosystem I reaction center subunit V n=1 Tax...  173     3e-60
+  UniRef90_A0A2P6QL89 Putative photosystem I n=2 Tax=Rosoideae Ta...  173     4e-60
+  UniRef90_A0A2H3YBZ9 photosystem I reaction center subunit V, ch...  171     1e-59
+  UniRef90_A0A1J7I9W2 Uncharacterized protein n=1 Tax=Lupinus ang...  171     3e-59
+  UniRef90_A0A2H3YXU5 photosystem I reaction center subunit V, ch...  171     3e-59
+  UniRef90_A0A1J6IVK1 Photosystem i reaction center subunit v, ch...  170     6e-59
+  UniRef90_A0A2J6K0M7 Uncharacterized protein n=5 Tax=cellular or...  170     6e-59
+  UniRef90_U5D0C4 Uncharacterized protein n=1 Tax=Amborella trich...  170     6e-59
+  UniRef90_A0A2I0WGL5 Photosystem I reaction center subunit V, ch...  170     7e-59
+  UniRef90_A0A251UU16 Putative photosystem I reaction center subu...  169     1e-58
+  UniRef90_I3S5Z3 Uncharacterized protein n=1 Tax=Lotus japonicus...  169     1e-58
+  UniRef90_Q9S7N7 Photosystem I reaction center subunit V, chloro...  169     1e-58
+  UniRef90_V4WH36 Uncharacterized protein n=3 Tax=Citrus TaxID=27...  169     1e-58
+  UniRef90_A0A0K9Q2Y6 Photosystem I reaction center subunit V n=1...  169     2e-58
+  UniRef90_A0A200PT71 Photosystem I PsaG/PsaK protein n=2 Tax=Pap...  169     2e-58
+  UniRef90_H6U7Z5 Photosystem I reaction center subunit V n=1 Tax...  167     5e-58
+  UniRef90_B9T0J8 Photosystem I reaction center subunit V, chloro...  167     6e-58
+  UniRef90_A0A022QIY2 Uncharacterized protein n=1 Tax=Erythranthe...  167     9e-58
+  UniRef90_A0A0B2EWK1 Uncharacterized protein (Fragment) n=3 Tax=...  166     1e-57
+  UniRef90_S8CS62 Uncharacterized protein (Fragment) n=1 Tax=Genl...  166     1e-57
+  UniRef90_A0A2C9WGN3 Uncharacterized protein n=1 Tax=Manihot esc...  166     2e-57
+  UniRef90_A0A2I4E3P7 photosystem I reaction center subunit V, ch...  166     3e-57
+  UniRef90_A0A067KJC0 Uncharacterized protein n=1 Tax=Jatropha cu...  165     4e-57
+  UniRef90_A0A2R6P583 Photosystem I reaction center subunit V lik...  164     6e-57
+  UniRef90_F6I4W8 Uncharacterized protein n=3 Tax=Vitis vinifera ...  165     7e-57
+  UniRef90_A0A2G9HV05 Uncharacterized protein n=1 Tax=Handroanthu...  164     7e-57
+  UniRef90_A0A2I0AXR4 Photosystem I reaction center subunit V, ch...  164     1e-56
+  UniRef90_A0A0A0L4W3 Uncharacterized protein n=2 Tax=Cucumis Tax...  164     1e-56
+  UniRef90_A0A0J8CS02 Uncharacterized protein n=1 Tax=Beta vulgar...  164     2e-56
+  UniRef90_A0A2G5ERA1 Uncharacterized protein n=1 Tax=Aquilegia c...  170     2e-56
+  UniRef90_A0A1Q3C3F9 PSI_PSAK domain-containing protein (Fragmen...  163     4e-56
+  UniRef90_A0A1R3IMP3 Photosystem I PsaG/PsaK protein n=2 Tax=Pen...  163     5e-56
+  UniRef90_A0A1R3KIL2 Photosystem I PsaG/PsaK protein n=1 Tax=Cor...  161     6e-56
+  UniRef90_A0A328DRX7 Uncharacterized protein n=1 Tax=Cuscuta aus...  162     1e-55
+  UniRef90_A0A151SVR3 Uncharacterized protein n=1 Tax=Cajanus caj...  162     1e-55
+  UniRef90_K4CHU1 Uncharacterized protein n=4 Tax=Solanum TaxID=4...  160     4e-55
+  UniRef90_A0A0A9EY75 Uncharacterized protein n=1 Tax=Arundo dona...  160     4e-55
+  UniRef90_C6SVU4 Uncharacterized protein n=6 Tax=NPAAA clade Tax...  160     5e-55
+  UniRef90_A0A2G2Z643 photosystem I reaction center subunit V, ch...  159     8e-55
+  UniRef90_A0A1J3DCB8 Photosystem I reaction center subunit V, ch...  160     8e-55
+  UniRef90_P12357 Photosystem I reaction center subunit V, chloro...  159     1e-54
+  UniRef90_A0A3A1NE65 Photosystem I reaction center subunit V (Fr...  158     2e-54
+  UniRef90_A0A2N9J7D9 Uncharacterized protein n=1 Tax=Fagus sylva...  158     3e-54
+  UniRef90_Q00327 Photosystem I reaction center subunit V, chloro...  157     6e-54
+  UniRef90_A0A1U8KQQ2 photosystem I reaction center subunit V, ch...  157     6e-54
+  UniRef90_B4G1K9 Photosystem I reaction center subunit V n=13 Ta...  156     8e-54
+  UniRef90_A0A1S3U6V3 photosystem I reaction center subunit V, ch...  156     1e-53
+  UniRef90_A0A0L9UJB3 Uncharacterized protein n=2 Tax=Phaseolus a...  156     1e-53
+  UniRef90_A0A1U8LUW1 photosystem I reaction center subunit V, ch...  156     2e-53
+  UniRef90_A0A218X8T0 Uncharacterized protein n=1 Tax=Punica gran...  156     2e-53
+  UniRef90_A0A1D1ZJ85 Photosystem I reaction center subunit V, ch...  156     3e-53
+  UniRef90_A0A2Z7BNV0 Photosystem I reaction center subunit V, ch...  154     8e-53
+  UniRef90_A0A059TB81 Photosystem I reaction center subunit K n=1...  154     9e-53
+  UniRef90_A9PHN7 Uncharacterized protein n=5 Tax=Populus TaxID=3...  154     1e-52
+  UniRef90_A0A059BXP5 Uncharacterized protein n=1 Tax=Eucalyptus ...  154     1e-52
+  UniRef90_A9NPY7 Uncharacterized protein n=2 Tax=Picea sitchensi...  152     7e-52
+  UniRef90_B6U534 Photosystem I reaction center subunit V n=5 Tax...  150     2e-51
+  UniRef90_A0A3A9SY22 Photosystem I reaction center subunit V (Fr...  145     8e-50
+  UniRef90_A0A1S4D6K5 photosystem I reaction center subunit V, ch...  144     1e-48
+  UniRef90_A9SH79 Predicted protein n=1 Tax=Physcomitrella patens...  130     4e-43
+  UniRef90_D8R141 Uncharacterized protein (Fragment) n=2 Tax=Sela...  126     3e-42
+  UniRef90_A0A2K1JC42 Uncharacterized protein n=2 Tax=Physcomitre...  125     4e-41
+  UniRef90_A0A388L980 Uncharacterized protein n=1 Tax=Chara braun...  125     5e-41
+  UniRef90_A0A2R6X3Q4 Uncharacterized protein n=1 Tax=Marchantia ...  123     2e-40
+  UniRef90_A0A176VEM1 Uncharacterized protein n=1 Tax=Marchantia ...  122     2e-39
+  UniRef90_A0A1Y1I8N7 Photosystem I subunit V n=1 Tax=Klebsormidi...  114     4e-37
+  UniRef90_Q710P6 Putative photosystem I chain V (Fragment) n=1 T...  103     1e-33
+  UniRef90_A0A199ULE8 Photosystem I reaction center subunit V, ch...  102     2e-32
+  UniRef90_D1MCE6 Photosystem I reaction center subunit 5 (Fragme...  95.1    3e-30
+  UniRef90_I0YTK4 Uncharacterized protein n=1 Tax=Coccomyxa subel...  95.9    8e-30
+  UniRef90_A0A087SBB6 Photosystem I reaction center subunit V, ch...  92.0    6e-28
+  UniRef90_Q019T9 Photosystem I PsaG/PsaK protein n=2 Tax=Ostreoc...  87.0    2e-26
+  UniRef90_E1ZIQ7 Uncharacterized protein (Fragment) n=1 Tax=Chlo...  83.2    2e-25
+  UniRef90_Q9SPM4 Photosystem I reaction center subunit V, chloro...  84.0    2e-25
+  UniRef90_A0A2P6V2P1 Photosystem I reaction center subunit chlor...  90.1    2e-25
+  UniRef90_P20120 Photosystem I reaction center subunit V (Fragme...  80.5    9e-25
+  UniRef90_A4RX32 PsaG, PSI-G, subunit V, photosystem I polypepti...  81.6    2e-24
+  UniRef90_A0A2P6TZI8 Photosystem I reaction center subunit chlor...  86.7    4e-24
+  UniRef90_A0A061S9U1 Photosystem I subunit V n=1 Tax=Tetraselmis...  81.3    4e-24
+  UniRef90_K8F1U3 Uncharacterized protein n=1 Tax=Bathycoccus pra...  79.0    3e-23
+  UniRef90_M1A8N3 Uncharacterized protein n=1 Tax=Solanum tuberos...  78.2    7e-23
+  UniRef90_C1N370 Photosystem I subunit V n=1 Tax=Micromonas pusi...  75.9    7e-22
+  UniRef90_C1FE99 Photosystem I subunit V n=1 Tax=Micromonas comm...  75.5    9e-22
+  UniRef90_A0A2J8ADN5 Photosystem I reaction center subunit V, ch...  69.3    2e-19
+  UniRef90_B5KUA4 Chloroplast photosystem I reaction center V (Fr...  66.6    3e-19
+  UniRef90_A0A250X5S0 Uncharacterized protein n=1 Tax=Chlamydomon...  62.0    1e-16
+  UniRef90_A0A250X1A2 Uncharacterized protein n=1 Tax=Chlamydomon...  60.8    4e-16
+  UniRef90_A0A150G698 Uncharacterized protein n=1 Tax=Gonium pect...  60.5    5e-16
+  UniRef90_A0A2V0PHD1 Photosystem I reaction center subunit chlor...  60.1    7e-16
+  UniRef90_A0A2J8ADN8 Photosystem I reaction center subunit V, ch...  58.2    3e-15
+  UniRef90_D8TSL6 Photosystem I reaction center subunit V, chloro...  57.8    6e-15
+  UniRef90_A0A383WD64 Uncharacterized protein n=1 Tax=Tetradesmus...  57.4    6e-15
+  UniRef90_A0A0D2MXV0 Photosystem I reaction center subunit V n=1...  60.1    7e-15
+  UniRef90_P14224 Photosystem I reaction center subunit V, chloro...  57.4    7e-15
+  UniRef90_A0A1J3FZH3 Photosystem I reaction center subunit V, ch...  51.6    2e-12
+
+
+> UniRef90_A0A0M3KL13 photosystem I reaction center n=1 Tax=Pisum 
+sativum TaxID=3888 RepID=A0A0M3KL13_PEA
+Length=97
+
+ Score = 197 bits (501),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 97/97 (100%), Positives = 97/97 (100%), Gaps = 0/97 (0%)
+
+Query  1   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+           AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS
+Sbjct  1   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+
+Query  61  KSAAALVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+           KSAAALVDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  61  KSAAALVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+
+
+> UniRef90_M0SVJ6 Uncharacterized protein n=3 Tax=Musa TaxID=4640 
+RepID=M0SVJ6_MUSAM
+Length=159
+
+ Score = 177 bits (450),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 88/101 (87%), Positives = 92/101 (91%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD++AKEY G+ 
+Sbjct  59   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDTQAKEYVGLL  118
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  119  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  159
+
+
+> UniRef90_A0A221C801 Photosystem I subunit G n=1 Tax=Diospyros 
+kaki TaxID=35925 RepID=A0A221C801_DIOKA
+Length=150
+
+ Score = 177 bits (449),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 89/101 (88%), Positives = 91/101 (90%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEY  + 
+Sbjct  50   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYVSLL  109
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  110  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  150
+
+
+> UniRef90_A0A1S2Y5F1 photosystem I reaction center subunit V, 
+chloroplastic n=5 Tax=IRL clade TaxID=2233839 RepID=A0A1S2Y5F1_CICAR
+Length=162
+
+ Score = 177 bits (448),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 88/101 (87%), Positives = 89/101 (88%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD RAKEY  + 
+Sbjct  62   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDKRAKEYVSLL  121
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       LVDVLAWGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  122  KSNDPVGFNLVDVLAWGSIGHIVAYYILATSSNGYDPSFFG  162
+
+
+> UniRef90_A0A314ZST9 Photosystem I reaction center subunit V chloroplastic 
+n=5 Tax=fabids TaxID=91835 RepID=A0A314ZST9_PRUYE
+Length=164
+
+ Score = 176 bits (447),  Expect = 2e-61, Method: Compositional matrix adjust.
+ Identities = 87/100 (87%), Positives = 90/100 (90%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD+RAKEY  + 
+Sbjct  64   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDTRAKEYVSLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  124  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  163
+
+
+> UniRef90_A0A1U7ZGM3 photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Nelumbo nucifera TaxID=4432 RepID=A0A1U7ZGM3_NELNU
+Length=169
+
+ Score = 175 bits (443),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 87/101 (86%), Positives = 90/101 (89%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG+THFEAGD RAKEY  + 
+Sbjct  69   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGMTHFEAGDVRAKEYVSLL  128
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  129  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  169
+
+
+> UniRef90_A0A2P5ETN1 Photosystem I PsaG n=2 Tax=Cannabaceae TaxID=3481 
+RepID=A0A2P5ETN1_TREOI
+Length=163
+
+ Score = 174 bits (440),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 85/100 (85%), Positives = 89/100 (89%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTH+EAGD RA+EY  + 
+Sbjct  64   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHYEAGDERAREYVSLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  124  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  163
+
+
+> UniRef90_W9QR60 Photosystem I reaction center subunit V n=1 Tax=Morus 
+notabilis TaxID=981085 RepID=W9QR60_9ROSA
+Length=160
+
+ Score = 173 bits (439),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 85/100 (85%), Positives = 89/100 (89%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD+RA+EY  + 
+Sbjct  61   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDTRAQEYVNLL  120
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FF
+Sbjct  121  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPNFF  160
+
+
+> UniRef90_A0A2P6QL89 Putative photosystem I n=2 Tax=Rosoideae 
+TaxID=171638 RepID=A0A2P6QL89_ROSCH
+Length=159
+
+ Score = 173 bits (438),  Expect = 4e-60, Method: Compositional matrix adjust.
+ Identities = 85/100 (85%), Positives = 89/100 (89%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+P LVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD+RAKEY  + 
+Sbjct  59   AELSPPLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDTRAKEYVSLL  118
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  119  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  158
+
+
+> UniRef90_A0A2H3YBZ9 photosystem I reaction center subunit V, 
+chloroplastic-like n=2 Tax=Arecaceae TaxID=4710 RepID=A0A2H3YBZ9_PHODC
+Length=150
+
+ Score = 171 bits (434),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 85/100 (85%), Positives = 89/100 (89%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG THFEAGD+RAKE+  + 
+Sbjct  51   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGKTHFEAGDTRAKEFEALL  110
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  111  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  150
+
+
+> UniRef90_A0A1J7I9W2 Uncharacterized protein n=1 Tax=Lupinus angustifolius 
+TaxID=3871 RepID=A0A1J7I9W2_LUPAN
+Length=161
+
+ Score = 171 bits (433),  Expect = 3e-59, Method: Compositional matrix adjust.
+ Identities = 84/101 (83%), Positives = 89/101 (88%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            A+LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG+THFEAGD RAKEY  + 
+Sbjct  61   AQLNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGLTHFEAGDKRAKEYVSLL  120
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDP FFG
+Sbjct  121  KSNDPVGFNIVDVLAWGSIGHIVAYYILATTSNGYDPSFFG  161
+
+
+> UniRef90_A0A2H3YXU5 photosystem I reaction center subunit V, 
+chloroplastic-like n=1 Tax=Phoenix dactylifera TaxID=42345 RepID=A0A2H3YXU5_PHODC
+Length=148
+
+ Score = 171 bits (432),  Expect = 3e-59, Method: Compositional matrix adjust.
+ Identities = 82/97 (85%), Positives = 88/97 (91%), Gaps = 1/97 (1%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG+TH++AGD+RAKEY  + 
+Sbjct  52   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGMTHYDAGDTRAKEYVSLH  111
+
+Query  61   KSAA-ALVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+                  +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  112  DPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  148
+
+
+> UniRef90_A0A1J6IVK1 Photosystem i reaction center subunit v, 
+chloroplastic n=10 Tax=cellular organisms TaxID=131567 RepID=A0A1J6IVK1_NICAT
+Length=148
+
+ Score = 170 bits (430),  Expect = 6e-59, Method: Compositional matrix adjust.
+ Identities = 85/101 (84%), Positives = 89/101 (88%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            +ELN SLVISLSTGLSLFLGRFVFF FQRENVAKQGLPEQNGV+HFEAGDSRAKEY  + 
+Sbjct  48   SELNTSLVISLSTGLSLFLGRFVFFKFQRENVAKQGLPEQNGVSHFEAGDSRAKEYVSLL  107
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  108  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  148
+
+
+> UniRef90_A0A2J6K0M7 Uncharacterized protein n=5 Tax=cellular 
+organisms TaxID=131567 RepID=A0A2J6K0M7_LACSA
+Length=147
+
+ Score = 170 bits (430),  Expect = 6e-59, Method: Compositional matrix adjust.
+ Identities = 84/98 (86%), Positives = 87/98 (89%), Gaps = 4/98 (4%)
+
+Query  3    LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS  62
+            LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG+THFEAGDSRAKEY  + KS
+Sbjct  50   LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGITHFEAGDSRAKEYVSLLKS  109
+
+Query  63   AAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+                   +VDVLAWGSIGHIVAYYILATSSNGYDP FF
+Sbjct  110  NDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPNFF  147
+
+
+> UniRef90_U5D0C4 Uncharacterized protein n=1 Tax=Amborella trichopoda 
+TaxID=13333 RepID=U5D0C4_AMBTC
+Length=164
+
+ Score = 170 bits (431),  Expect = 6e-59, Method: Compositional matrix adjust.
+ Identities = 85/101 (84%), Positives = 88/101 (87%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN SLVISLSTGLSLFLGRFVF NFQRENVAKQGLPEQNGVTHFEAGD RAKEY G+ 
+Sbjct  64   AELNASLVISLSTGLSLFLGRFVFLNFQRENVAKQGLPEQNGVTHFEAGDDRAKEYVGLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDP FFG
+Sbjct  124  KSNDPAGFNIVDVLAWGSIGHIVAYYILATTSNGYDPSFFG  164
+
+
+> UniRef90_A0A2I0WGL5 Photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Dendrobium catenatum TaxID=906689 RepID=A0A2I0WGL5_9ASPA
+Length=156
+
+ Score = 170 bits (430),  Expect = 7e-59, Method: Compositional matrix adjust.
+ Identities = 82/101 (81%), Positives = 91/101 (90%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNP +VISLSTGLSLFLGRFVFFNFQRENVAKQGLP+QNG++HFEAGD+RA+EYAG+ 
+Sbjct  54   AELNPQIVISLSTGLSLFLGRFVFFNFQRENVAKQGLPKQNGISHFEAGDARAREYAGLL  113
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGS+GHIVAYYILATSSNGYDP FFG
+Sbjct  114  KSNDPVGFNIVDVLAWGSLGHIVAYYILATSSNGYDPSFFG  154
+
+
+> UniRef90_A0A251UU16 Putative photosystem I reaction center subunit 
+V n=2 Tax=Helianthus annuus TaxID=4232 RepID=A0A251UU16_HELAN
+Length=140
+
+ Score = 169 bits (428),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 84/100 (84%), Positives = 88/100 (88%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            +ELN SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD+RAKEY  + 
+Sbjct  40   SELNTSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDTRAKEYVSLL  99
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FF
+Sbjct  100  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPNFF  139
+
+
+> UniRef90_I3S5Z3 Uncharacterized protein n=1 Tax=Lotus japonicus 
+TaxID=34305 RepID=I3S5Z3_LOTJA
+Length=162
+
+ Score = 169 bits (429),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 84/101 (83%), Positives = 89/101 (88%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG+THFEAGD+RAKEY  + 
+Sbjct  62   AELNTSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGLTHFEAGDTRAKEYVSLL  121
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDP FFG
+Sbjct  122  KSNDPVGFNIVDVLAWGSIGHIVAYYILATASNGYDPSFFG  162
+
+
+> UniRef90_Q9S7N7 Photosystem I reaction center subunit V, chloroplastic 
+n=35 Tax=Brassicaceae TaxID=3700 RepID=PSAG_ARATH
+Length=160
+
+ Score = 169 bits (429),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 84/101 (83%), Positives = 88/101 (87%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+PS+VISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG THFEAGD RAKEY  + 
+Sbjct  60   AELSPSIVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGKTHFEAGDDRAKEYVSLL  119
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  120  KSNDPIGFNIVDVLAWGSIGHIVAYYILATSSNGYDPSFFG  160
+
+
+> UniRef90_V4WH36 Uncharacterized protein n=3 Tax=Citrus TaxID=2706 
+RepID=V4WH36_9ROSI
+Length=158
+
+ Score = 169 bits (428),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 85/101 (84%), Positives = 88/101 (87%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+  LVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD RAKEY  + 
+Sbjct  58   AELSTPLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDVRAKEYVSLL  117
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  118  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  158
+
+
+> UniRef90_A0A0K9Q2Y6 Photosystem I reaction center subunit V n=1 
+Tax=Zostera marina TaxID=29655 RepID=A0A0K9Q2Y6_ZOSMR
+Length=168
+
+ Score = 169 bits (428),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 82/101 (81%), Positives = 91/101 (90%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+PS+VISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNG +HF++GDSRAKEYAG+ 
+Sbjct  68   AELSPSVVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGKSHFDSGDSRAKEYAGLL  127
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGH+VAYY+LATSSNGYDP FFG
+Sbjct  128  KSNDPVGFNIVDVLAWGSIGHVVAYYVLATSSNGYDPSFFG  168
+
+
+> UniRef90_A0A200PT71 Photosystem I PsaG/PsaK protein n=2 Tax=Papaveroideae 
+TaxID=1462614 RepID=A0A200PT71_9MAGN
+Length=164
+
+ Score = 169 bits (427),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 84/101 (83%), Positives = 90/101 (89%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            +ELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  65   SELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGMTHFEAGDTRAKEYVSLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  124  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  164
+
+
+> UniRef90_H6U7Z5 Photosystem I reaction center subunit V n=1 Tax=Wolffia 
+australiana TaxID=161112 RepID=H6U7Z5_WOLAU
+Length=148
+
+ Score = 167 bits (424),  Expect = 5e-58, Method: Compositional matrix adjust.
+ Identities = 84/100 (84%), Positives = 88/100 (88%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPS+VISLSTGLSLFLGRFVFFNFQRENVAKQGLP QNG THFEAGDSRA+E AG+ 
+Sbjct  48   AELNPSVVISLSTGLSLFLGRFVFFNFQRENVAKQGLPTQNGKTHFEAGDSRAQEVAGLL  107
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       LVDVLAWGSIGHIVAYYILAT+SNGYDP FF
+Sbjct  108  KSNDPVGFNLVDVLAWGSIGHIVAYYILATASNGYDPSFF  147
+
+
+> UniRef90_B9T0J8 Photosystem I reaction center subunit V, chloroplast, 
+putative n=1 Tax=Ricinus communis TaxID=3988 RepID=B9T0J8_RICCO
+Length=160
+
+ Score = 167 bits (424),  Expect = 6e-58, Method: Compositional matrix adjust.
+ Identities = 83/100 (83%), Positives = 87/100 (87%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+P LVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD RAKEY  + 
+Sbjct  59   AELSPQLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDVRAKEYVSLL  118
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDP FF
+Sbjct  119  KSNDPVGFNIVDVLAWGSIGHIVAYYILATASNGYDPSFF  158
+
+
+> UniRef90_A0A022QIY2 Uncharacterized protein n=1 Tax=Erythranthe 
+guttata TaxID=4155 RepID=A0A022QIY2_ERYGU
+Length=149
+
+ Score = 167 bits (422),  Expect = 9e-58, Method: Compositional matrix adjust.
+ Identities = 82/101 (81%), Positives = 87/101 (86%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            +ELNPSLVISLSTGLSLFLGRFVFF FQRENVAKQGLPEQNG++HFEAGD RAKEY  + 
+Sbjct  49   SELNPSLVISLSTGLSLFLGRFVFFKFQRENVAKQGLPEQNGISHFEAGDVRAKEYVSLL  108
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVL WGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  109  KSNDPIGFNIVDVLGWGSIGHIVAYYILATSSNGYDPSFFG  149
+
+
+> UniRef90_A0A0B2EWK1 Uncharacterized protein (Fragment) n=3 Tax=cellular 
+organisms TaxID=131567 RepID=A0A0B2EWK1_9BACL
+Length=123
+
+ Score = 166 bits (420),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 85/101 (84%), Positives = 89/101 (88%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN SLVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGDSRAKEY  + 
+Sbjct  24   AELNTSLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGMTHFEAGDSRAKEYVSLL  82
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  83   KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  123
+
+
+> UniRef90_S8CS62 Uncharacterized protein (Fragment) n=1 Tax=Genlisea 
+aurea TaxID=192259 RepID=S8CS62_9LAMI
+Length=139
+
+ Score = 166 bits (421),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 83/100 (83%), Positives = 88/100 (88%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            +ELN S+VISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGV+HFEAGD RAKEY  + 
+Sbjct  40   SELNASIVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVSHFEAGDGRAKEYVSLL  99
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  100  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  139
+
+
+> UniRef90_A0A2C9WGN3 Uncharacterized protein n=1 Tax=Manihot esculenta 
+TaxID=3983 RepID=A0A2C9WGN3_MANES
+Length=151
+
+ Score = 166 bits (421),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 83/100 (83%), Positives = 87/100 (87%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+  LVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD RAKEY  + 
+Sbjct  52   AELSAPLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDVRAKEYVSLL  111
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFF
+Sbjct  112  KSNDPVGFNIVDVLAWGSIGHIVAYYILATTSNGYDPKFF  151
+
+
+> UniRef90_A0A2I4E3P7 photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Juglans regia TaxID=51240 RepID=A0A2I4E3P7_JUGRE
+Length=163
+
+ Score = 166 bits (420),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 84/100 (84%), Positives = 89/100 (89%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  65   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  124  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  163
+
+
+> UniRef90_A0A067KJC0 Uncharacterized protein n=1 Tax=Jatropha 
+curcas TaxID=180498 RepID=A0A067KJC0_JATCU
+Length=157
+
+ Score = 165 bits (418),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 83/100 (83%), Positives = 87/100 (87%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+  LVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGD RAKEY  + 
+Sbjct  58   AELSAPLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDVRAKEYVSLL  117
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFF
+Sbjct  118  KSNDPVGFNIVDVLAWGSIGHIVAYYILATTSNGYDPKFF  157
+
+
+> UniRef90_A0A2R6P583 Photosystem I reaction center subunit V like 
+n=2 Tax=Actinidia chinensis var. chinensis TaxID=1590841 
+RepID=A0A2R6P583_ACTCH
+Length=145
+
+ Score = 164 bits (416),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 83/101 (82%), Positives = 88/101 (87%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ +P QNG+THFEAGD RA+EY  + 
+Sbjct  46   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPSQNGLTHFEAGDKRAQEYVSLL  104
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  105  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  145
+
+
+> UniRef90_F6I4W8 Uncharacterized protein n=3 Tax=Vitis vinifera 
+TaxID=29760 RepID=F6I4W8_VITVI
+Length=161
+
+ Score = 165 bits (417),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 84/101 (83%), Positives = 89/101 (88%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN SLVISLSTGLSLFLGRFVFFNFQRENVAKQ +P+QNG+THFEAGDSRAKEY  + 
+Sbjct  62   AELNTSLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPQQNGLTHFEAGDSRAKEYVSLL  120
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFFG
+Sbjct  121  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  161
+
+
+> UniRef90_A0A2G9HV05 Uncharacterized protein n=1 Tax=Handroanthus 
+impetiginosus TaxID=429701 RepID=A0A2G9HV05_9LAMI
+Length=149
+
+ Score = 164 bits (416),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 84/100 (84%), Positives = 88/100 (88%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNGV+HFEAGD RAKEY  + 
+Sbjct  50   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGVSHFEAGDVRAKEYVSLL  108
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  109  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  148
+
+
+> UniRef90_A0A2I0AXR4 Photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Apostasia shenzhenica TaxID=1088818 RepID=A0A2I0AXR4_9ASPA
+Length=146
+
+ Score = 164 bits (415),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 80/101 (79%), Positives = 90/101 (89%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL P LVISLSTGLSLFLGRFVFFNFQREN+AKQGLP+QNGV+HF+AGD+RA+E++G+ 
+Sbjct  45   AELFPPLVISLSTGLSLFLGRFVFFNFQRENLAKQGLPKQNGVSHFDAGDTRAREFSGLL  104
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  105  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPNFFG  145
+
+
+> UniRef90_A0A0A0L4W3 Uncharacterized protein n=2 Tax=Cucumis TaxID=3655 
+RepID=A0A0A0L4W3_CUCSA
+Length=158
+
+ Score = 164 bits (415),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 83/100 (83%), Positives = 87/100 (87%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFFNFQRENV KQ +PEQNG+THFEAGD RAKEY  + 
+Sbjct  60   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVGKQ-VPEQNGLTHFEAGDVRAKEYVSLL  118
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  119  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  158
+
+
+> UniRef90_A0A0J8CS02 Uncharacterized protein n=1 Tax=Beta vulgaris 
+subsp. vulgaris TaxID=3555 RepID=A0A0J8CS02_BETVU
+Length=163
+
+ Score = 164 bits (415),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 82/101 (81%), Positives = 89/101 (88%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+PSLVISLSTGLSLFLGRFVFFNFQREN+AKQ +PEQNG+THFEAGDSRAKEY  + 
+Sbjct  64   AELSPSLVISLSTGLSLFLGRFVFFNFQRENMAKQ-VPEQNGLTHFEAGDSRAKEYVSLL  122
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFF 
+Sbjct  123  KSNDPVGFNIVDVLAWGSIGHIVAYYILATASNGYDPKFFN  163
+
+
+> UniRef90_A0A2G5ERA1 Uncharacterized protein n=1 Tax=Aquilegia 
+coerulea TaxID=218851 RepID=A0A2G5ERA1_AQUCA
+Length=346
+
+ Score = 170 bits (430),  Expect = 2e-56, Method: Composition-based stats.
+ Identities = 82/100 (82%), Positives = 89/100 (89%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            A+L+PS+VISLSTGLSLFLGRFVFF FQRENVAKQGLPEQNG+THFEAGD+RAKEY  + 
+Sbjct  246  ADLSPSVVISLSTGLSLFLGRFVFFGFQRENVAKQGLPEQNGMTHFEAGDTRAKEYVSLL  305
+
+Query  61   KS----AAALVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  306  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  345
+
+
+> UniRef90_A0A1Q3C3F9 PSI_PSAK domain-containing protein (Fragment) 
+n=1 Tax=Cephalotus follicularis TaxID=3775 RepID=A0A1Q3C3F9_CEPFO
+Length=160
+
+ Score = 163 bits (412),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 82/100 (82%), Positives = 88/100 (88%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN SLVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THF+AGD+RAKEY  + 
+Sbjct  62   AELNTSLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFDAGDTRAKEYVSLL  120
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDPKFF
+Sbjct  121  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPKFF  160
+
+
+> UniRef90_A0A1R3IMP3 Photosystem I PsaG/PsaK protein n=2 Tax=Pentapetalae 
+TaxID=1437201 RepID=A0A1R3IMP3_COCAP
+Length=167
+
+ Score = 163 bits (412),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 82/101 (81%), Positives = 88/101 (87%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNP +VISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  68   AELNPQVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  126
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  127  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPNFFG  167
+
+
+> UniRef90_A0A1R3KIL2 Photosystem I PsaG/PsaK protein n=1 Tax=Corchorus 
+olitorius TaxID=93759 RepID=A0A1R3KIL2_9ROSI
+Length=121
+
+ Score = 161 bits (408),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 81/100 (81%), Positives = 87/100 (87%), Gaps = 5/100 (5%)
+
+Query  2    ELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSK  61
+            ELNP +VISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + K
+Sbjct  23   ELNPQVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLLK  81
+
+Query  62   SAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            S       +VDVLAWGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  82   SNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPNFFG  121
+
+
+> UniRef90_A0A328DRX7 Uncharacterized protein n=1 Tax=Cuscuta australis 
+TaxID=267555 RepID=A0A328DRX7_9ASTE
+Length=150
+
+ Score = 162 bits (409),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 76/101 (75%), Positives = 86/101 (85%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNP  VI  +TG+SLF+GRFVFFNFQRENVAKQGLPEQNGV+HFE+GD RAKEY G+ 
+Sbjct  50   AELNPQAVICAATGISLFMGRFVFFNFQRENVAKQGLPEQNGVSHFESGDKRAKEYVGLL  109
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVL+WGSIGH+VAYY+LATSSNGYDP FFG
+Sbjct  110  KSNDPVGFNIVDVLSWGSIGHLVAYYVLATSSNGYDPNFFG  150
+
+
+> UniRef90_A0A151SVR3 Uncharacterized protein n=1 Tax=Cajanus cajan 
+TaxID=3821 RepID=A0A151SVR3_CAJCA
+Length=162
+
+ Score = 162 bits (410),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 81/101 (80%), Positives = 89/101 (88%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN +LVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  63   AELNSALVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  121
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGH+VAYYILAT+SNGYDPKFFG
+Sbjct  122  KSNDPVGFNIVDVLAWGSIGHVVAYYILATTSNGYDPKFFG  162
+
+
+> UniRef90_K4CHU1 Uncharacterized protein n=4 Tax=Solanum TaxID=4107 
+RepID=K4CHU1_SOLLC
+Length=146
+
+ Score = 160 bits (405),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 81/101 (80%), Positives = 87/101 (86%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPS+VISLSTGLSLFLGRFVFFNFQRENVAKQ +P QNG++HFEAGD RAKEY  + 
+Sbjct  47   AELNPSVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPSQNGISHFEAGDVRAKEYISLL  105
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  106  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPSFFG  146
+
+
+> UniRef90_A0A0A9EY75 Uncharacterized protein n=1 Tax=Arundo donax 
+TaxID=35708 RepID=A0A0A9EY75_ARUDO
+Length=144
+
+ Score = 160 bits (404),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 81/100 (81%), Positives = 88/100 (88%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+PSLVISLSTG+SLFLGRFVFFNFQRENVAKQ +PEQNG THF+AGD RAKEYAG+ 
+Sbjct  46   AELSPSLVISLSTGVSLFLGRFVFFNFQRENVAKQ-VPEQNGKTHFDAGDERAKEYAGLL  104
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       LVDVLAWGS+GHIVAYYI+ATSSNGYDP FF
+Sbjct  105  KSNDPVGFNLVDVLAWGSLGHIVAYYIVATSSNGYDPNFF  144
+
+
+> UniRef90_C6SVU4 Uncharacterized protein n=6 Tax=NPAAA clade TaxID=2231382 
+RepID=C6SVU4_SOYBN
+Length=164
+
+ Score = 160 bits (405),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 80/101 (79%), Positives = 88/101 (87%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN +LVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  65   AELNSALVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGH+VAYYILAT+SNGYDP FFG
+Sbjct  124  KSNDPVGFNIVDVLAWGSIGHVVAYYILATTSNGYDPAFFG  164
+
+
+> UniRef90_A0A2G2Z643 photosystem I reaction center subunit V, 
+chloroplastic n=6 Tax=Solanoideae TaxID=424551 RepID=A0A2G2Z643_CAPAN
+Length=148
+
+ Score = 159 bits (403),  Expect = 8e-55, Method: Compositional matrix adjust.
+ Identities = 80/100 (80%), Positives = 86/100 (86%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPS+VISLSTGLSLFLGRFVFFNFQRENVAKQ +P QNG++HFEAGD RAKEY  + 
+Sbjct  50   AELNPSIVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPSQNGISHFEAGDVRAKEYVSLL  108
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FF
+Sbjct  109  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPSFF  148
+
+
+> UniRef90_A0A1J3DCB8 Photosystem I reaction center subunit V, 
+chloroplastic n=2 Tax=Noccaea caerulescens TaxID=107243 RepID=A0A1J3DCB8_NOCCA
+Length=164
+
+ Score = 160 bits (404),  Expect = 8e-55, Method: Compositional matrix adjust.
+ Identities = 81/101 (80%), Positives = 86/101 (85%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            + LNPS+VISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG THFEAGD RAKEY  + 
+Sbjct  65   SALNPSVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGKTHFEAGDDRAKEYVNLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP FFG
+Sbjct  124  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPNFFG  164
+
+
+> UniRef90_P12357 Photosystem I reaction center subunit V, chloroplastic 
+n=4 Tax=Spinacia oleracea TaxID=3562 RepID=PSAG_SPIOL
+Length=167
+
+ Score = 159 bits (403),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 79/100 (79%), Positives = 88/100 (88%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+PSLVISLSTGLSLFLGRFVFFNFQREN+AKQ +PEQNG++HFEAGD+RAKEY  + 
+Sbjct  69   AELSPSLVISLSTGLSLFLGRFVFFNFQRENMAKQ-VPEQNGMSHFEAGDTRAKEYVSLL  127
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDP FF
+Sbjct  128  KSNDPVGFNIVDVLAWGSIGHIVAYYILATASNGYDPSFF  167
+
+
+> UniRef90_A0A3A1NE65 Photosystem I reaction center subunit V (Fragment) 
+n=1 Tax=Muricauda lutimaris TaxID=475082 RepID=A0A3A1NE65_9FLAO
+Length=137
+
+ Score = 158 bits (399),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 80/100 (80%), Positives = 87/100 (87%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPS+VISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG++HFEAGD RAKEY  + 
+Sbjct  39   AELNPSVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGISHFEAGDVRAKEYVSLL  97
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGY+P FF
+Sbjct  98   KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYNPSFF  137
+
+
+> UniRef90_A0A2N9J7D9 Uncharacterized protein n=1 Tax=Fagus sylvatica 
+TaxID=28930 RepID=A0A2N9J7D9_FAGSY
+Length=158
+
+ Score = 158 bits (400),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 80/100 (80%), Positives = 87/100 (87%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            A+L+  LVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNGVTHFEAGD+RAKEY  + 
+Sbjct  59   ADLSTPLVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGVTHFEAGDTRAKEYVSLL  117
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFF
+Sbjct  118  KSNDPVGFNIVDVLAWGSIGHIVAYYILATTSNGYDPKFF  157
+
+
+> UniRef90_Q00327 Photosystem I reaction center subunit V, chloroplastic 
+n=7 Tax=Pooideae TaxID=147368 RepID=PSAG_HORVU
+Length=143
+
+ Score = 157 bits (397),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 79/99 (80%), Positives = 85/99 (86%), Gaps = 5/99 (5%)
+
+Query  3    LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS  62
+            L PS+VISLSTGLSL +GRFVFFNFQRENVAKQ +PEQNG THFEAGD RAKE+AG+ KS
+Sbjct  46   LEPSVVISLSTGLSLVMGRFVFFNFQRENVAKQ-VPEQNGKTHFEAGDERAKEFAGILKS  104
+
+Query  63   AAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+                   LVDVLAWGSIGHIVAYYILAT+SNGYDP FFG
+Sbjct  105  NDPVGFNLVDVLAWGSIGHIVAYYILATTSNGYDPPFFG  143
+
+
+> UniRef90_A0A1U8KQQ2 photosystem I reaction center subunit V, 
+chloroplastic-like n=5 Tax=Gossypium TaxID=3633 RepID=A0A1U8KQQ2_GOSHI
+Length=158
+
+ Score = 157 bits (398),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 80/100 (80%), Positives = 87/100 (87%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+  +VISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  59   AELSAPVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  117
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       LVDVLAWGS+GHIVAYYILATSSNGYDPKFF
+Sbjct  118  KSNDPVGFNLVDVLAWGSLGHIVAYYILATSSNGYDPKFF  157
+
+
+> UniRef90_B4G1K9 Photosystem I reaction center subunit V n=13 
+Tax=Poaceae TaxID=4479 RepID=B4G1K9_MAIZE
+Length=142
+
+ Score = 156 bits (395),  Expect = 8e-54, Method: Compositional matrix adjust.
+ Identities = 79/99 (80%), Positives = 87/99 (88%), Gaps = 5/99 (5%)
+
+Query  2    ELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSK  61
+            EL+PSLVISLSTG+SLFLGRFVFFNFQRENVAKQ +PEQNG THF+AGD RAKE++G+ K
+Sbjct  45   ELSPSLVISLSTGVSLFLGRFVFFNFQRENVAKQ-VPEQNGKTHFDAGDERAKEFSGLLK  103
+
+Query  62   SAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            S       LVDVLAWGS+GHIVAYYILATSSNGYDP FF
+Sbjct  104  SNDPVGFNLVDVLAWGSLGHIVAYYILATSSNGYDPNFF  142
+
+
+> UniRef90_A0A1S3U6V3 photosystem I reaction center subunit V, 
+chloroplastic n=3 Tax=indigoferoid/millettioid clade TaxID=2233855 
+RepID=A0A1S3U6V3_VIGRR
+Length=160
+
+ Score = 156 bits (395),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 78/100 (78%), Positives = 87/100 (87%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN +LVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  62   AELNSALVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  120
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGH+VAYYILAT+SNGY+P FF
+Sbjct  121  KSNDPVGFNIVDVLAWGSIGHVVAYYILATTSNGYNPAFF  160
+
+
+> UniRef90_A0A0L9UJB3 Uncharacterized protein n=2 Tax=Phaseolus 
+angularis TaxID=3914 RepID=A0A0L9UJB3_PHAAN
+Length=160
+
+ Score = 156 bits (395),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 78/100 (78%), Positives = 87/100 (87%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN +LVISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  62   AELNSALVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  120
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGH+VAYYILAT+SNGY+P FF
+Sbjct  121  KSNDPVGFNIVDVLAWGSIGHVVAYYILATTSNGYNPAFF  160
+
+
+> UniRef90_A0A1U8LUW1 photosystem I reaction center subunit V, 
+chloroplastic-like n=5 Tax=Gossypium TaxID=3633 RepID=A0A1U8LUW1_GOSHI
+Length=160
+
+ Score = 156 bits (395),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 78/101 (77%), Positives = 87/101 (86%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+  +VIS+ST LSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  61   AELSAQVVISVSTALSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  119
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFFG
+Sbjct  120  KSNDPVGFNIVDVLAWGSIGHIVAYYILATTSNGYDPKFFG  160
+
+
+> UniRef90_A0A218X8T0 Uncharacterized protein n=1 Tax=Punica granatum 
+TaxID=22663 RepID=A0A218X8T0_PUNGR
+Length=167
+
+ Score = 156 bits (395),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 79/100 (79%), Positives = 86/100 (86%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPS+VISLSTGLSL LGRFVFFNFQREN AKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  62   AELNPSVVISLSTGLSLCLGRFVFFNFQRENAAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  120
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILATSSNGYDP +F
+Sbjct  121  KSNDPVGFNIVDVLAWGSIGHIVAYYILATSSNGYDPSYF  160
+
+
+> UniRef90_A0A1D1ZJ85 Photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Anthurium amnicola TaxID=1678845 RepID=A0A1D1ZJ85_9ARAE
+Length=166
+
+ Score = 156 bits (394),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 79/100 (79%), Positives = 86/100 (86%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+  LVISLSTGLSLFLGRFVFFNFQRENVAKQG  +QNGV+HFEAGD RAKEY+ + 
+Sbjct  66   AELSAPLVISLSTGLSLFLGRFVFFNFQRENVAKQGPGKQNGVSHFEAGDVRAKEYSSLL  125
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFF
+Sbjct  126  KSNDPVGFNVVDVLAWGSIGHIVAYYILATASNGYDPKFF  165
+
+
+> UniRef90_A0A2Z7BNV0 Photosystem I reaction center subunit V, 
+chloroplastic-like n=1 Tax=Dorcoceras hygrometricum TaxID=472368 
+RepID=A0A2Z7BNV0_9LAMI
+Length=146
+
+ Score = 154 bits (389),  Expect = 8e-53, Method: Compositional matrix adjust.
+ Identities = 78/100 (78%), Positives = 85/100 (85%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTGLSLFLGRFVFF+FQRENVAKQ +P QNG+THFEAGD RAKEY  + 
+Sbjct  48   AELNPSLVISLSTGLSLFLGRFVFFSFQRENVAKQ-VPAQNGITHFEAGDERAKEYVSLL  106
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGS+GHIVA+YILATSSNGY P FF
+Sbjct  107  KSNDPVGFNIVDVLAWGSLGHIVAFYILATSSNGYHPDFF  146
+
+
+> UniRef90_A0A059TB81 Photosystem I reaction center subunit K n=1 
+Tax=Gossypium hirsutum TaxID=3635 RepID=A0A059TB81_GOSHI
+Length=162
+
+ Score = 154 bits (390),  Expect = 9e-53, Method: Compositional matrix adjust.
+ Identities = 78/101 (77%), Positives = 86/101 (85%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL   +VIS+ST LSLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD+RAKEY  + 
+Sbjct  63   AELTTQVVISVSTALSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDTRAKEYVSLL  121
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFFG
+Sbjct  122  KSNDPVGFNIVDVLAWGSIGHIVAYYILATTSNGYDPKFFG  162
+
+
+> UniRef90_A9PHN7 Uncharacterized protein n=5 Tax=Populus TaxID=3689 
+RepID=A9PHN7_POPTR
+Length=159
+
+ Score = 154 bits (389),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 80/101 (79%), Positives = 86/101 (85%), Gaps = 7/101 (7%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNPSLVISLSTG+SLFLGRFVFFNFQRENVAKQ +PEQNG+THFEAGD RAKEY  + 
+Sbjct  56   AELNPSLVISLSTGVSLFLGRFVFFNFQRENVAKQ-VPEQNGLTHFEAGDKRAKEYVSLL  114
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGY--DPKF  95
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGY  DP F
+Sbjct  115  KSNDPVGFNIVDVLAWGSIGHIVAYYILATASNGYDWDPSF  155
+
+
+> UniRef90_A0A059BXP5 Uncharacterized protein n=1 Tax=Eucalyptus 
+grandis TaxID=71139 RepID=A0A059BXP5_EUCGR
+Length=162
+
+ Score = 154 bits (389),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 79/101 (78%), Positives = 86/101 (85%), Gaps = 5/101 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+  +VISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG THFEAGD RA+EY  + 
+Sbjct  63   AELSAPVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGKTHFEAGDVRAQEYVSLL  121
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+            KS       +VDVLAWGSIGHIVAYYILAT+SNGYDPKFFG
+Sbjct  122  KSNDPVGFNIVDVLAWGSIGHIVAYYILATTSNGYDPKFFG  162
+
+
+> UniRef90_A9NPY7 Uncharacterized protein n=2 Tax=Picea sitchensis 
+TaxID=3332 RepID=A9NPY7_PICSI
+Length=163
+
+ Score = 152 bits (385),  Expect = 7e-52, Method: Compositional matrix adjust.
+ Identities = 75/100 (75%), Positives = 82/100 (82%), Gaps = 4/100 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+              LNPSLVISLSTG SLFLGRFVF +FQR+NVAKQGLP QNG THFEAGD+RA EY  + 
+Sbjct  64   CALNPSLVISLSTGASLFLGRFVFLSFQRDNVAKQGLPSQNGQTHFEAGDTRATEYVNLL  123
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       +VDVLAWGSIGHIVAY+ILATSSNGY+P FF
+Sbjct  124  KSNDPAGFNIVDVLAWGSIGHIVAYFILATSSNGYNPNFF  163
+
+
+> UniRef90_B6U534 Photosystem I reaction center subunit V n=5 Tax=Panicoideae 
+TaxID=147369 RepID=B6U534_MAIZE
+Length=145
+
+ Score = 150 bits (380),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 77/100 (77%), Positives = 85/100 (85%), Gaps = 5/100 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AEL+ +LVISLSTG+SLFLGRFVFFNFQRENVAKQ +P QNG THF+AGD RAKE+A + 
+Sbjct  47   AELSSALVISLSTGVSLFLGRFVFFNFQRENVAKQ-VPAQNGKTHFDAGDERAKEFAALL  105
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+            KS       LVDVLAWGS+GHIVAYYILATSSNGYDP FF
+Sbjct  106  KSNDPVGFNLVDVLAWGSLGHIVAYYILATSSNGYDPNFF  145
+
+
+> UniRef90_A0A3A9SY22 Photosystem I reaction center subunit V (Fragment) 
+n=2 Tax=cellular organisms TaxID=131567 RepID=A0A3A9SY22_CLODI
+Length=95
+
+ Score = 145 bits (365),  Expect = 8e-50, Method: Compositional matrix adjust.
+ Identities = 75/94 (80%), Positives = 81/94 (86%), Gaps = 5/94 (5%)
+
+Query  1   AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+           AEL+PS+VISLSTGLSLFLGRFVFFNFQRENVAKQ +PEQNG THFEAGD RAKEY  + 
+Sbjct  3   AELSPSVVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPEQNGKTHFEAGDDRAKEYVSLL  61
+
+Query  61  KSAAA----LVDVLAWGSIGHIVAYYILATSSNG  90
+           KS       +VDVLAWGSIGHIVAYY+LATSSNG
+Sbjct  62  KSNDPVGFNIVDVLAWGSIGHIVAYYVLATSSNG  95
+
+
+> UniRef90_A0A1S4D6K5 photosystem I reaction center subunit V, 
+chloroplastic-like n=1 Tax=Nicotiana tabacum TaxID=4097 RepID=A0A1S4D6K5_TOBAC
+Length=169
+
+ Score = 144 bits (364),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 73/94 (78%), Positives = 78/94 (83%), Gaps = 4/94 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELN SLVI LSTGLSLFLGRFVFFNFQRENVAKQGL EQNGV+HFE  DSRAKEY  + 
+Sbjct  47   AELNTSLVIRLSTGLSLFLGRFVFFNFQRENVAKQGLVEQNGVSHFEPSDSRAKEYVSLL  106
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSSNG  90
+            K        +VDVLAWGSIGHI+AYY+LATSSNG
+Sbjct  107  KYNYPVGFNIVDVLAWGSIGHIIAYYVLATSSNG  140
+
+
+> UniRef90_A9SH79 Predicted protein n=1 Tax=Physcomitrella patens 
+subsp. patens TaxID=3218 RepID=A9SH79_PHYPA
+Length=166
+
+ Score = 130 bits (327),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 59/99 (60%), Positives = 78/99 (79%), Gaps = 4/99 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+             E N +L I+LSTG  LFLGRFVF  FQR+NV++QGLPEQNGVTH++AGD+RA+E  G+ 
+Sbjct  68   CEANTALTITLSTGALLFLGRFVFLPFQRDNVSRQGLPEQNGVTHYDAGDTRAQEVVGML  127
+
+Query  61   KS----AAALVDVLAWGSIGHIVAYYILATSSNGYDPKF  95
+            K+       LVDVLAWG++GH + ++ILAT++NGY P+F
+Sbjct  128  KTNDPAGFTLVDVLAWGALGHAIGFFILATANNGYTPQF  166
+
+
+> UniRef90_D8R141 Uncharacterized protein (Fragment) n=2 Tax=Selaginella 
+moellendorffii TaxID=88036 RepID=D8R141_SELML
+Length=115
+
+ Score = 126 bits (317),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 59/97 (61%), Positives = 75/97 (77%), Gaps = 4/97 (4%)
+
+Query  3    LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS  62
+            L   ++ISL T  SL +GRFVF  FQRE +AK GLP QNGV+H+EAGD+RA+E+  + K+
+Sbjct  19   LEAPIIISLCTAASLAMGRFVFLPFQREQIAKAGLPLQNGVSHYEAGDTRAQEFVSLLKT  78
+
+Query  63   AAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKF  95
+                   +VDVL+WGSIGHI+AY+ILATSSNGYDP+F
+Sbjct  79   NDPAGFNIVDVLSWGSIGHIIAYWILATSSNGYDPQF  115
+
+
+> UniRef90_A0A2K1JC42 Uncharacterized protein n=2 Tax=Physcomitrella 
+patens subsp. patens TaxID=3218 RepID=A0A2K1JC42_PHYPA
+Length=155
+
+ Score = 125 bits (313),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 59/99 (60%), Positives = 75/99 (76%), Gaps = 4/99 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+             E N +L I+LSTG  LFLGRFVF  FQR+NV++QGLP QNGVTHF+AGDSRA+E     
+Sbjct  57   CEANTALTITLSTGALLFLGRFVFLPFQRDNVSRQGLPVQNGVTHFDAGDSRAQEVTSFL  116
+
+Query  61   KSAA----ALVDVLAWGSIGHIVAYYILATSSNGYDPKF  95
+            K+       +VDVLAWG++GH V ++ILAT +NGY+P+F
+Sbjct  117  KTNDPAGFTIVDVLAWGALGHAVGFFILATINNGYNPQF  155
+
+
+> UniRef90_A0A388L980 Uncharacterized protein n=1 Tax=Chara braunii 
+TaxID=69332 RepID=A0A388L980_CHABU
+Length=162
+
+ Score = 125 bits (313),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 60/97 (62%), Positives = 75/97 (77%), Gaps = 4/97 (4%)
+
+Query  3    LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS  62
+            +NPS+VIS ST   LFLGRFVF  F R ++AK GLP QNG THFEAGD+RA+E  G  K+
+Sbjct  66   VNPSIVISGSTAALLFLGRFVFLPFHRASLAKAGLPTQNGQTHFEAGDTRAQENEGFMKT  125
+
+Query  63   AA----ALVDVLAWGSIGHIVAYYILATSSNGYDPKF  95
+                   LVDVL+WG++GH+VA++ILAT+SNGYDP+F
+Sbjct  126  NDPAGFTLVDVLSWGALGHVVAFFILATASNGYDPQF  162
+
+
+> UniRef90_A0A2R6X3Q4 Uncharacterized protein n=1 Tax=Marchantia 
+polymorpha TaxID=3197 RepID=A0A2R6X3Q4_MARPO
+Length=161
+
+ Score = 123 bits (309),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 58/96 (60%), Positives = 74/96 (77%), Gaps = 4/96 (4%)
+
+Query  4    NPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKSA  63
+            + SLVISLSTG  LFLGRFV   FQR+ V++ GLP QNGVTHFEAGD+RA+E + + K+ 
+Sbjct  66   DTSLVISLSTGALLFLGRFVLLPFQRKQVSQAGLPRQNGVTHFEAGDARAQEVSSLMKTN  125
+
+Query  64   A----ALVDVLAWGSIGHIVAYYILATSSNGYDPKF  95
+                  +VD+LAWG++GH V ++ILAT+SNGYDP F
+Sbjct  126  DPAGFTIVDLLAWGALGHAVGFFILATASNGYDPTF  161
+
+
+> UniRef90_A0A176VEM1 Uncharacterized protein n=1 Tax=Marchantia 
+polymorpha subsp. ruderalis TaxID=1480154 RepID=A0A176VEM1_MARPO
+Length=215
+
+ Score = 122 bits (307),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 58/96 (60%), Positives = 74/96 (77%), Gaps = 4/96 (4%)
+
+Query  4    NPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKSA  63
+            + SLVISLSTG  LFLGRFV   FQR+ V++ GLP QNGVTHFEAGD+RA+E + + K+ 
+Sbjct  120  DTSLVISLSTGALLFLGRFVLLPFQRKQVSQAGLPRQNGVTHFEAGDARAQEVSSLMKTN  179
+
+Query  64   A----ALVDVLAWGSIGHIVAYYILATSSNGYDPKF  95
+                  +VD+LAWG++GH V ++ILAT+SNGYDP F
+Sbjct  180  DPAGFTIVDLLAWGALGHAVGFFILATASNGYDPTF  215
+
+
+> UniRef90_A0A1Y1I8N7 Photosystem I subunit V n=1 Tax=Klebsormidium 
+nitens TaxID=105231 RepID=A0A1Y1I8N7_KLENI
+Length=144
+
+ Score = 114 bits (286),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 59/97 (61%), Positives = 72/97 (74%), Gaps = 4/97 (4%)
+
+Query  3    LNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS  62
+            LNPS+VIS ST LSL LGRF F  F +    +QG P QNGVTH +AGDSRA E + V KS
+Sbjct  48   LNPSIVISGSTALSLALGRFAFRPFWKRTNEEQGRPVQNGVTHEDAGDSRAAEVSSVLKS  107
+
+Query  63   AA----ALVDVLAWGSIGHIVAYYILATSSNGYDPKF  95
+                  ++V+VLAWG+IGH +AY+ILAT+SNGY+PKF
+Sbjct  108  NDPEGFSVVEVLAWGAIGHAIAYFILATASNGYEPKF  144
+
+
+> UniRef90_Q710P6 Putative photosystem I chain V (Fragment) n=1 
+Tax=Oryza sativa TaxID=4530 RepID=Q710P6_ORYSA
+Length=74
+
+ Score = 103 bits (257),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 52/72 (72%), Positives = 59/72 (82%), Gaps = 5/72 (7%)
+
+Query  29  RENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKSAAA----LVDVLAWGSIGHIVAYYIL  84
+           RENVAKQ +PEQNG THF+AGD RAKE+AG+ +S       LVDVLAWGS+GHIVAYYIL
+Sbjct  4   RENVAKQ-VPEQNGKTHFDAGDERAKEFAGLLRSNDPVGFNLVDVLAWGSLGHIVAYYIL  62
+
+Query  85  ATSSNGYDPKFF  96
+           AT SNGY+P FF
+Sbjct  63  ATCSNGYNPNFF  74
+
+
+> UniRef90_A0A199ULE8 Photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Ananas comosus TaxID=4615 RepID=A0A199ULE8_ANACO
+Length=122
+
+ Score = 102 bits (253),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 50/60 (83%), Positives = 55/60 (92%), Gaps = 1/60 (2%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AELNP+LVISLSTGLSLFLGRFVFFNFQRENVAKQ +P+QNG THFEAGD RAKE++  S
+Sbjct  51   AELNPALVISLSTGLSLFLGRFVFFNFQRENVAKQ-VPQQNGQTHFEAGDVRAKEFSASS  109
+
+
+> UniRef90_D1MCE6 Photosystem I reaction center subunit 5 (Fragment) 
+n=1 Tax=Wolffia arrhiza TaxID=161111 RepID=D1MCE6_WOLAR
+Length=65
+
+ Score = 95.1 bits (235),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 48/64 (75%), Positives = 52/64 (81%), Gaps = 4/64 (6%)
+
+Query  37  LPEQNGVTHFEAGDSRAKEYAGVSKSAAA----LVDVLAWGSIGHIVAYYILATSSNGYD  92
+           LP QNG THFEAGDSRA+E AG+ KS       LVDVLAWGSIGHIVAYYILAT+S+GYD
+Sbjct  1   LPTQNGKTHFEAGDSRAQEVAGLLKSNDPVGFNLVDVLAWGSIGHIVAYYILATASSGYD  60
+
+Query  93  PKFF  96
+           P FF
+Sbjct  61  PSFF  64
+
+
+> UniRef90_I0YTK4 Uncharacterized protein n=1 Tax=Coccomyxa subellipsoidea 
+(strain C-169) TaxID=574566 RepID=I0YTK4_COCSC
+Length=138
+
+ Score = 95.9 bits (237),  Expect = 8e-30, Method: Compositional matrix adjust.
+ Identities = 52/99 (53%), Positives = 67/99 (68%), Gaps = 8/99 (8%)
+
+Query  6    SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKSAAA  65
+            +LVI  +T  SL LGRFVF  FQR+N  KQGLP+QNG ++ EAGD  A+E +   K+   
+Sbjct  40   NLVIGGATVASLALGRFVFLGFQRDNAKKQGLPQQNGQSNVEAGDRLAEEASFALKTNDP  99
+
+Query  66   ----LVDVLAWGSIGHIVAYYILATSS----NGYDPKFF  96
+                LVDV+AWG+IGH + Y+ILAT+S     G+DPK F
+Sbjct  100  AGFNLVDVMAWGAIGHALGYFILATTSLNNTPGFDPKPF  138
+
+
+> UniRef90_A0A087SBB6 Photosystem I reaction center subunit V, 
+chloroplastic n=2 Tax=Auxenochlorella protothecoides TaxID=3075 
+RepID=A0A087SBB6_AUXPR
+Length=162
+
+ Score = 92.0 bits (227),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 47/92 (51%), Positives = 65/92 (71%), Gaps = 6/92 (7%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVS  60
+            AE+N  LV+  +T  +L LGRFVF  F R+N+A+QGLP QNG+TH EAGD  A+E   + 
+Sbjct  62   AEVN--LVVGGATFAALALGRFVFLPFHRDNLARQGLPRQNGITHAEAGDRGAEEATFLL  119
+
+Query  61   KSAAA----LVDVLAWGSIGHIVAYYILATSS  88
+            K+       ++DVLAWG++GH  A+Y+LAT+S
+Sbjct  120  KTNDPAGFNIIDVLAWGALGHAAAFYLLATTS  151
+
+
+> UniRef90_Q019T9 Photosystem I PsaG/PsaK protein n=2 Tax=Ostreococcus 
+tauri TaxID=70448 RepID=Q019T9_OSTTA
+Length=132
+
+ Score = 87.0 bits (214),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 42/87 (48%), Positives = 59/87 (68%), Gaps = 4/87 (5%)
+
+Query  6    SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKSAAA  65
+            ++V+S S  L+L+LGRFVF  +QR  V + G+P QNG THF AGD+RA+E + ++ +   
+Sbjct  41   NVVMSASNALALYLGRFVFLPYQRAQVERVGMPTQNGQTHFAAGDTRAEEASFITSTNDP  100
+
+Query  66   ----LVDVLAWGSIGHIVAYYILATSS  88
+                LVDV AWGSIGH + +  LA+ S
+Sbjct  101  AGFNLVDVFAWGSIGHAIGFLALASQS  127
+
+
+> UniRef90_E1ZIQ7 Uncharacterized protein (Fragment) n=1 Tax=Chlorella 
+variabilis TaxID=554065 RepID=E1ZIQ7_CHLVA
+Length=77
+
+ Score = 83.2 bits (204),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 41/77 (53%), Positives = 55/77 (71%), Gaps = 4/77 (5%)
+
+Query  16  SLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS----AAALVDVLA  71
+           +L LGRFVF  F R ++AK GLP Q+G TH EAGD RA+E + V K+       +VDV+A
+Sbjct  1   ALALGRFVFLPFHRASLAKAGLPTQDGKTHLEAGDLRAEEASFVLKTNDPAGFTIVDVMA  60
+
+Query  72  WGSIGHIVAYYILATSS  88
+           WG++GH  A+Y+LAT+S
+Sbjct  61  WGALGHAAAFYLLATAS  77
+
+
+> UniRef90_Q9SPM4 Photosystem I reaction center subunit V, chloroplastic 
+n=1 Tax=Syntrichia ruralis TaxID=38588 RepID=PSAG_SYNRU
+Length=112
+
+ Score = 84.0 bits (206),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 44/93 (47%), Positives = 59/93 (63%), Gaps = 4/93 (4%)
+
+Query  4    NPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS-  62
+            N S +IS ST   L LGRFVF  FQR  V++ GLPEQNGV       +  + +  + K+ 
+Sbjct  17   NTSFIISASTAALLALGRFVFLPFQRSMVSRHGLPEQNGVPTTRRVTAVRRRWWSMLKTN  76
+
+Query  63   ---AAALVDVLAWGSIGHIVAYYILATSSNGYD  92
+                  LVDVLAWG++GH V ++ILAT++NGY+
+Sbjct  77   DPAGFTLVDVLAWGALGHAVGFFILATATNGYN  109
+
+
+> UniRef90_A0A2P6V2P1 Photosystem I reaction center subunit chloroplastic 
+n=1 Tax=Micractinium conductrix TaxID=554055 RepID=A0A2P6V2P1_9CHLO
+Length=1329
+
+ Score = 90.1 bits (222),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/95 (52%), Positives = 63/95 (66%), Gaps = 4/95 (4%)
+
+Query  6     SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKSAA-  64
+             +LV+  ST  +L LGRFVF  F R ++AK G+P QNG TH  AGDSRA+E + V K+   
+Sbjct  1235  NLVVGGSTIAALALGRFVFLPFHRASLAKAGMPTQNGQTHAAAGDSRAEEASFVLKTNDP  1294
+
+Query  65    ---ALVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+                 LVDV+AWG++GH  A+Y+LATSS    P  F
+Sbjct  1295  AGFTLVDVMAWGALGHAAAFYLLATSSLSKAPIPF  1329
+
+
+> UniRef90_P20120 Photosystem I reaction center subunit V (Fragment) 
+n=3 Tax=IRL clade TaxID=2233839 RepID=PSAG_PEA
+Length=39
+
+ Score = 80.5 bits (197),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 39/39 (100%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+
+Query  2   ELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQ  40
+           ELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQ
+Sbjct  1   ELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQ  39
+
+
+> UniRef90_A4RX32 PsaG, PSI-G, subunit V, photosystem I polypeptide 
+n=1 Tax=Ostreococcus lucimarinus (strain CCE9901) TaxID=436017 
+RepID=A4RX32_OSTLU
+Length=118
+
+ Score = 81.6 bits (200),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 45/87 (52%), Positives = 58/87 (67%), Gaps = 4/87 (5%)
+
+Query  6    SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYA-GVSKSAA  64
+            ++VIS +  + L LGRFVF  +QR  V + G P QNG THF AGDSRA+E +  VS +  
+Sbjct  27   NVVISSANAICLALGRFVFLPYQRAQVERVGAPTQNGQTHFAAGDSRAEEASFIVSTNDP  86
+
+Query  65   A---LVDVLAWGSIGHIVAYYILATSS  88
+            A   +VD+LAWGSIGH V +  LA+ S
+Sbjct  87   AGFTIVDLLAWGSIGHAVGFLALASQS  113
+
+
+> UniRef90_A0A2P6TZI8 Photosystem I reaction center subunit chloroplastic 
+n=1 Tax=Chlorella sorokiniana TaxID=3076 RepID=A0A2P6TZI8_CHLSO
+Length=1326
+
+ Score = 86.7 bits (213),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 43/87 (49%), Positives = 62/87 (71%), Gaps = 4/87 (5%)
+
+Query  6     SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKS---  62
+             +LV+   T  +L LGRFVF  F R ++AK G+P+QNG+TH +AGD+RA+E + V K+   
+Sbjct  1232  NLVVGGCTVGALALGRFVFLPFHRASLAKAGMPKQNGMTHMQAGDARAEEASFVLKTNDP  1291
+
+Query  63    -AAALVDVLAWGSIGHIVAYYILATSS  88
+                 +VDV+AWG++GH  A+Y+LAT S
+Sbjct  1292  AGFTVVDVMAWGALGHAAAFYLLATHS  1318
+
+
+> UniRef90_A0A061S9U1 Photosystem I subunit V n=1 Tax=Tetraselmis 
+sp. GSL018 TaxID=582737 RepID=A0A061S9U1_9CHLO
+Length=130
+
+ Score = 81.3 bits (199),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 41/89 (46%), Positives = 56/89 (63%), Gaps = 5/89 (6%)
+
+Query  4    NPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSKSA  63
+            N SLVIS      L LGRF F  + ++   K GLP QNG THFEAGD RA+E + ++++ 
+Sbjct  42   NTSLVISGCNAAMLALGRFAFLPYTKKQQEKAGLPVQNGKTHFEAGDIRAEEASFITRAG  101
+
+Query  64   A-----ALVDVLAWGSIGHIVAYYILATS  87
+                   ++DVLAWGS+GH++ +  LA S
+Sbjct  102  GDPAGFTIIDVLAWGSLGHVLGFLALALS  130
+
+
+> UniRef90_K8F1U3 Uncharacterized protein n=1 Tax=Bathycoccus prasinos 
+TaxID=41875 RepID=K8F1U3_9CHLO
+Length=127
+
+ Score = 79.0 bits (193),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 41/87 (47%), Positives = 56/87 (64%), Gaps = 4/87 (5%)
+
+Query  6    SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSK----  61
+            +L IS +  L L LGRFVF  +QR  +AK GLP QNG TH+ AGD +A+E + ++     
+Sbjct  37   NLAISGANALMLSLGRFVFMPYQRAEIAKAGLPTQNGETHYAAGDVKAEEASFLNTTNDP  96
+
+Query  62   SAAALVDVLAWGSIGHIVAYYILATSS  88
+            S   L+DV+AWGS+GH + +  LA  S
+Sbjct  97   SGFTLIDVMAWGSLGHALGFAALAVGS  123
+
+
+> UniRef90_M1A8N3 Uncharacterized protein n=1 Tax=Solanum tuberosum 
+TaxID=4113 RepID=M1A8N3_SOLTU
+Length=131
+
+ Score = 78.2 bits (191),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 41/80 (51%), Positives = 53/80 (66%), Gaps = 1/80 (1%)
+
+Query  2    ELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGVSK  61
+            EL PS+VI LST L +FL RFVFF FQRENVAKQ +P QNG++  +AGD +AKEY  + K
+Sbjct  49   ELKPSIVIRLSTQLIVFLERFVFFKFQRENVAKQ-VPSQNGISPSKAGDVKAKEYIRLLK  107
+
+Query  62   SAAALVDVLAWGSIGHIVAY  81
+            S   +     +G +   + Y
+Sbjct  108  SNDPIDSNTGYGKLIFKLKY  127
+
+
+> UniRef90_C1N370 Photosystem I subunit V n=1 Tax=Micromonas pusilla 
+(strain CCMP1545) TaxID=564608 RepID=C1N370_MICPC
+Length=139
+
+ Score = 75.9 bits (185),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 42/87 (48%), Positives = 54/87 (62%), Gaps = 4/87 (5%)
+
+Query  6    SLVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGV----SK  61
+            ++VIS    L+L LGRFV+    RE  A QG   QNG +HF AGD+RA+E A V      
+Sbjct  46   NVVISGCNALALALGRFVWLPSIREKTAMQGPGVQNGESHFAAGDARAEEAASVFATNDP  105
+
+Query  62   SAAALVDVLAWGSIGHIVAYYILATSS  88
+            +   +VD+L WGSIGH+V Y  LA+ S
+Sbjct  106  AGFTIVDLLMWGSIGHVVGYSALASQS  132
+
+
+> UniRef90_C1FE99 Photosystem I subunit V n=1 Tax=Micromonas commoda 
+(strain RCC299 / NOUM17 / CCMP2709) TaxID=296587 RepID=C1FE99_MICCC
+Length=140
+
+ Score = 75.5 bits (184),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 42/86 (49%), Positives = 51/86 (59%), Gaps = 4/86 (5%)
+
+Query  7    LVISLSTGLSLFLGRFVFFNFQRENVAKQGLPEQNGVTHFEAGDSRAKEYAGV----SKS  62
+            L IS    L+L LGRFVF    RE  A QG   QNG +HF AGD+RA+E A V      +
+Sbjct  49   LTISGCNALALALGRFVFLPAIREKTASQGPGVQNGESHFTAGDARAEEAASVFATNDPA  108
+
+Query  63   AAALVDVLAWGSIGHIVAYYILATSS  88
+               +VD+L WGSIGH + Y  LA+ S
+Sbjct  109  GFTIVDLLMWGSIGHAIGYSALASQS  134
+
+
+> UniRef90_A0A2J8ADN5 Photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Tetrabaena socialis TaxID=47790 RepID=A0A2J8ADN5_9CHLO
+Length=125
+
+ Score = 69.3 bits (168),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 36/90 (40%), Positives = 55/90 (61%), Gaps = 2/90 (2%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGL--PEQNGVTHFEAGDSRAKEYAG  58
+            A L+PSLVIS ST +SL +GRFVF  +QR     Q    P+ +G T+F+     +  ++ 
+Sbjct  30   AALDPSLVISASTAISLAMGRFVFLPYQRRESNFQASVGPKTDGSTYFDDLQKTSTVFST  89
+
+Query  59   VSKSAAALVDVLAWGSIGHIVAYYILATSS  88
+               +   ++DV  WG++GH+VA+ ILA +S
+Sbjct  90   NDPAGFNIIDVFGWGALGHVVAFAILAVNS  119
+
+
+> UniRef90_B5KUA4 Chloroplast photosystem I reaction center V (Fragment) 
+n=1 Tax=Helianthus annuus TaxID=4232 RepID=B5KUA4_HELAN
+Length=48
+
+ Score = 66.6 bits (161),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 34/48 (71%), Positives = 37/48 (77%), Gaps = 4/48 (8%)
+
+Query  53  AKEYAGVSKSAAA----LVDVLAWGSIGHIVAYYILATSSNGYDPKFF  96
+           AKEY  + KS       +VDVLAWGSIGHIVA+YILATSSNGYDP FF
+Sbjct  1   AKEYVSLLKSNDPVGFNIVDVLAWGSIGHIVAFYILATSSNGYDPNFF  48
+
+
+> UniRef90_A0A250X5S0 Uncharacterized protein n=1 Tax=Chlamydomonas 
+eustigma TaxID=1157962 RepID=A0A250X5S0_9CHLO
+Length=135
+
+ Score = 62.0 bits (149),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/92 (39%), Positives = 54/92 (59%), Gaps = 5/92 (5%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRE--NVAKQGLPEQNGVTHFEAGDSRAKEYAG  58
+            A L+P++++S ST   L +GRFVF  +QR   ++  +  P+  G T F+    +   +  
+Sbjct  33   AALDPAIIVSASTAAFLSVGRFVFLPYQRREGDLDVKLGPKTTGTTFFD-DLQKPASFVL  91
+
+Query  59   VSKSAA--ALVDVLAWGSIGHIVAYYILATSS  88
+             SK  A   L+DV  WG++GH  AY+ILATSS
+Sbjct  92   TSKDPAGFTLIDVFGWGALGHAFAYFILATSS  123
+
+
+> UniRef90_A0A250X1A2 Uncharacterized protein n=1 Tax=Chlamydomonas 
+eustigma TaxID=1157962 RepID=A0A250X1A2_9CHLO
+Length=135
+
+ Score = 60.8 bits (146),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 37/93 (40%), Positives = 53/93 (57%), Gaps = 7/93 (8%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENV---AKQGLPEQNGVTHFEAGDSRAKEYA  57
+            A L+P+L++S ST   L +GRFVF  +QR       K G P+  G T F+    +   + 
+Sbjct  33   AALDPTLIVSASTAAFLSVGRFVFLPYQRREADLEIKLG-PKTTGTTFFD-DLQKPASFV  90
+
+Query  58   GVSKSAAA--LVDVLAWGSIGHIVAYYILATSS  88
+              SK  +   L+DV  WG++GH  A++ILATSS
+Sbjct  91   LTSKDPSGFNLIDVFGWGALGHAFAFFILATSS  123
+
+
+> UniRef90_A0A150G698 Uncharacterized protein n=1 Tax=Gonium pectorale 
+TaxID=33097 RepID=A0A150G698_GONPE
+Length=120
+
+ Score = 60.5 bits (145),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 34/90 (38%), Positives = 50/90 (56%), Gaps = 2/90 (2%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRE--NVAKQGLPEQNGVTHFEAGDSRAKEYAG  58
+            A L+PS VIS ST   L +GRFVF  +QR   N      P+  G T+F+     +  ++ 
+Sbjct  28   AALDPSFVISGSTAAFLAIGRFVFLPYQRREANFDASVGPKTTGTTYFDDLQKTSTVFST  87
+
+Query  59   VSKSAAALVDVLAWGSIGHIVAYYILATSS  88
+               +   ++DV  WG++GH VA+ ILA +S
+Sbjct  88   NDPAGFNIIDVFGWGALGHAVAFAILAANS  117
+
+
+> UniRef90_A0A2V0PHD1 Photosystem I reaction center subunit chloroplastic-like 
+n=1 Tax=Raphidocelis subcapitata TaxID=307507 
+RepID=A0A2V0PHD1_9CHLO
+Length=127
+
+ Score = 60.1 bits (144),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 34/96 (35%), Positives = 49/96 (51%), Gaps = 3/96 (3%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQREN-VAKQGL-PEQNGVTHFEAGDSRAKEYAG  58
+            A  +P+L +   T   L +GRF F  FQR      Q + P+  G T+F+A    A     
+Sbjct  28   AAADPTLAVCAGTAAMLIVGRFAFLPFQRRTQTNSQAVGPKTTGATYFDALQQDASFITT  87
+
+Query  59   VSKSAA-ALVDVLAWGSIGHIVAYYILATSSNGYDP  93
+             +  A   L+D LAWG++GH VA+  L  +S+G  P
+Sbjct  88   TADPAGFTLIDTLAWGALGHAVAFAFLGATSSGVIP  123
+
+
+> UniRef90_A0A2J8ADN8 Photosystem I reaction center subunit V, 
+chloroplastic n=1 Tax=Tetrabaena socialis TaxID=47790 RepID=A0A2J8ADN8_9CHLO
+Length=123
+
+ Score = 58.2 bits (139),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 33/90 (37%), Positives = 50/90 (56%), Gaps = 2/90 (2%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRE--NVAKQGLPEQNGVTHFEAGDSRAKEYAG  58
+            A L+PS+VIS ST + L LGRFVF  +QR   N      P+  G T+F+     +  ++ 
+Sbjct  28   AALDPSIVISGSTAVLLSLGRFVFLPYQRREANFEASVGPKTTGSTYFDDLQKTSTVFST  87
+
+Query  59   VSKSAAALVDVLAWGSIGHIVAYYILATSS  88
+               +   ++DV  WG++GH V +  LA +S
+Sbjct  88   NDPAGFNIIDVFGWGALGHAVGFAALAVNS  117
+
+
+> UniRef90_D8TSL6 Photosystem I reaction center subunit V, chloroplast 
+n=1 Tax=Volvox carteri f. nagariensis TaxID=3068 RepID=D8TSL6_VOLCA
+Length=126
+
+ Score = 57.8 bits (138),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 32/90 (36%), Positives = 49/90 (54%), Gaps = 2/90 (2%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRE--NVAKQGLPEQNGVTHFEAGDSRAKEYAG  58
+            A L+P+LVIS ST   L +GRFVF  +QR   N      P+  G T+F+     +  +  
+Sbjct  34   AALDPALVISGSTAAFLAVGRFVFLPYQRREANFDATVGPKTTGTTYFDDLQKTSTVFGT  93
+
+Query  59   VSKSAAALVDVLAWGSIGHIVAYYILATSS  88
+               +   ++DV  WG++GH V + +LA +S
+Sbjct  94   NDPAGFNIIDVFGWGALGHAVGFAVLAINS  123
+
+
+> UniRef90_A0A383WD64 Uncharacterized protein n=1 Tax=Tetradesmus 
+obliquus TaxID=3088 RepID=A0A383WD64_TETOB
+Length=125
+
+ Score = 57.4 bits (137),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 32/101 (32%), Positives = 50/101 (50%), Gaps = 4/101 (4%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRENVAKQGL---PEQNGVTHFEAGDSRAKEYA  57
+            A L P L +   T + L LGRF F    R ++ +      P+  G T+F++    A    
+Sbjct  24   AGLEPYLQVCSGTAIMLALGRFAFMPLHRRDLQRSATAAGPKTTGSTYFDSLQQEASFIT  83
+
+Query  58   GVSKSAA-ALVDVLAWGSIGHIVAYYILATSSNGYDPKFFG  97
+              +  A   L+D +AWG++GH + + ILA +S+G  P   G
+Sbjct  84   STNDPAGFTLIDTMAWGALGHALGFAILAATSSGVIPGVSG  124
+
+
+> UniRef90_A0A0D2MXV0 Photosystem I reaction center subunit V n=1 
+Tax=Monoraphidium neglectum TaxID=145388 RepID=A0A0D2MXV0_9CHLO
+Length=1321
+
+ Score = 60.1 bits (144),  Expect = 7e-15, Method: Composition-based stats.
+ Identities = 36/93 (39%), Positives = 51/93 (55%), Gaps = 5/93 (5%)
+
+Query  5     PSLVISLSTGLSLFLGRFVFFNFQRENVAK-QGL-PEQNGVTHFEAGDSRAKEYAGVSKS  62
+             P+LVIS ST  SL +GRF F  FQR   A  Q + P+  G ++FE   S+   + G +  
+Sbjct  1226  PALVISASTAASLLVGRFAFLPFQRRTQANSQNVGPKTTGNSYFET-LSQDASFIGTTND  1284
+
+Query  63    AAA--LVDVLAWGSIGHIVAYYILATSSNGYDP  93
+              A   ++D L WG++GH V +  L   S+G  P
+Sbjct  1285  PAGFTIIDTLGWGALGHAVGFAFLGALSSGVIP  1317
+
+
+ Score = 19.2 bits (38),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 23/45 (51%), Gaps = 2/45 (4%)
+
+Query  49   GDSRAKEYAGVSKSAAALVDVLAWGSIGHIVAYYILATSSNGYDP  93
+            GD+     AG+S SAA L     + S+ H+    + A +S  +DP
+Sbjct  681  GDAAVHSVAGIS-SAATLPRAQHFVSLRHLSIGNLTAETSQ-WDP  723
+
+
+> UniRef90_P14224 Photosystem I reaction center subunit V, chloroplastic 
+n=3 Tax=Chlamydomonas reinhardtii TaxID=3055 RepID=PSAG_CHLRE
+Length=126
+
+ Score = 57.4 bits (137),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 32/90 (36%), Positives = 49/90 (54%), Gaps = 2/90 (2%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNFQRE--NVAKQGLPEQNGVTHFEAGDSRAKEYAG  58
+            A L+P +VIS ST   L +GRFVF  +QR   N      P+  G T+F+     +  +A 
+Sbjct  30   AALDPQIVISGSTAAFLAIGRFVFLGYQRREANFDSTVGPKTTGATYFDDLQKNSTIFAT  89
+
+Query  59   VSKSAAALVDVLAWGSIGHIVAYYILATSS  88
+               +   ++DV  WG++GH V + +LA +S
+Sbjct  90   NDPAGFNIIDVAGWGALGHAVGFAVLAINS  119
+
+
+> UniRef90_A0A1J3FZH3 Photosystem I reaction center subunit V, 
+chloroplastic (Fragment) n=1 Tax=Noccaea caerulescens TaxID=107243 
+RepID=A0A1J3FZH3_NOCCA
+Length=130
+
+ Score = 51.6 bits (122),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 24/27 (89%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    AELNPSLVISLSTGLSLFLGRFVFFNF  27
+            + LNPS+VISLSTGLSLFLGRFVFFNF
+Sbjct  104  SALNPSVVISLSTGLSLFLGRFVFFNF  130
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 758484
+
+
+  Database: isar.db.5
+    Posted date:  Jun 15, 2019  4:38 PM
+  Number of letters in database: 18,432
+  Number of sequences in database:  102
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

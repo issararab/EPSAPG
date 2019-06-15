@@ -1,0 +1,2187 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.102
+           163 sequences; 8,667 total letters
+
+Results from round 1
+
+
+Query= P0AAW9|4c48C|ACRZ_ECOLI 0.9387755102040817
+
+Length=49
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_P0AAX1 Multidrug efflux pump accessory protein AcrZ n=...  96.7    3e-32
+  UniRef90_B7LJZ7 Multidrug efflux pump accessory protein AcrZ n=...  91.7    7e-30
+  UniRef90_A0A1C0PEP7 Multidrug efflux pump accessory protein Acr...  87.8    8e-29
+  UniRef90_D2TPG6 Multidrug efflux pump accessory protein AcrZ n=...  89.0    8e-29
+  UniRef90_A0A2X2PXR8 Multidrug efflux pump accessory protein Acr...  87.8    9e-29
+  UniRef90_W9BNQ7 Multidrug efflux pump accessory protein AcrZ n=...  87.0    2e-28
+  UniRef90_A0A223UED4 Multidrug efflux pump accessory protein Acr...  87.0    2e-28
+  UniRef90_A0A1B7IN66 Multidrug efflux pump accessory protein Acr...  86.3    3e-28
+  UniRef90_C0PWW8 Multidrug efflux pump accessory protein AcrZ n=...  86.7    6e-28
+  UniRef90_A0A0D1N3H5 Multidrug efflux pump accessory protein Acr...  84.0    3e-27
+  UniRef90_A0A1V0LGX1 Multidrug efflux pump accessory protein Acr...  83.6    4e-27
+  UniRef90_E3G3Q8 Multidrug efflux pump accessory protein AcrZ n=...  83.2    6e-27
+  UniRef90_L0M573 Multidrug efflux pump accessory protein AcrZ n=...  83.2    6e-27
+  UniRef90_A0A1N6SW98 Multidrug efflux pump accessory protein Acr...  83.2    6e-27
+  UniRef90_A0A370YNG4 Multidrug efflux pump accessory protein Acr...  82.4    1e-26
+  UniRef90_A0A084ZX94 Multidrug efflux pump accessory protein Acr...  82.4    1e-26
+  UniRef90_A0A1I6D8Y2 Multidrug efflux pump accessory protein Acr...  82.0    2e-26
+  UniRef90_A0A085GQH6 Multidrug efflux pump accessory protein Acr...  82.0    2e-26
+  UniRef90_A0A127L244 Multidrug efflux pump accessory protein Acr...  81.3    4e-26
+  UniRef90_A7MIY3 Multidrug efflux pump accessory protein AcrZ n=...  81.6    6e-26
+  UniRef90_A0A0F0XKU4 Multidrug efflux pump accessory protein Acr...  80.5    7e-26
+  UniRef90_A0A376E7J9 Multidrug efflux pump accessory protein Acr...  80.5    7e-26
+  UniRef90_A0A090V6I4 Multidrug efflux pump accessory protein Acr...  80.1    1e-25
+  UniRef90_W0BR74 Multidrug efflux pump accessory protein AcrZ n=...  80.9    1e-25
+  UniRef90_A0A370WHG2 Multidrug efflux pump accessory protein Acr...  79.0    3e-25
+  UniRef90_A0A0J8VJS8 Multidrug efflux pump accessory protein Acr...  78.6    4e-25
+  UniRef90_A0A089PTH3 Multidrug efflux pump accessory protein Acr...  78.2    6e-25
+  UniRef90_A0A345CD35 Multidrug efflux pump accessory protein Acr...  77.8    8e-25
+  UniRef90_A0A2P8VPP0 Multidrug efflux pump accessory protein Acr...  77.8    8e-25
+  UniRef90_V5B353 Multidrug efflux pump accessory protein AcrZ n=...  76.6    2e-24
+  UniRef90_A0A370ZA99 Multidrug efflux pump accessory protein Acr...  76.6    3e-24
+  UniRef90_G9YCN2 Multidrug efflux pump accessory protein AcrZ n=...  73.9    2e-23
+  UniRef90_A0A376YD31 Multidrug efflux pump accessory protein Acr...  73.2    5e-23
+  UniRef90_A0A071LT29 Multidrug efflux pump accessory protein Acr...  72.8    8e-23
+  UniRef90_A0A1B1KMU7 Multidrug efflux pump accessory protein Acr...  72.8    8e-23
+  UniRef90_A0A0L7TCG2 Multidrug efflux pump accessory protein Acr...  72.8    9e-23
+  UniRef90_A0A3N1W872 Multidrug efflux pump-associated protein Ac...  72.0    1e-22
+  UniRef90_I2BB18 Multidrug efflux pump accessory protein AcrZ n=...  72.0    1e-22
+  UniRef90_A0A084YSM0 Multidrug efflux pump accessory protein Acr...  70.1    8e-22
+  UniRef90_A0A1W6B0V3 Multidrug efflux pump accessory protein Acr...  69.7    1e-21
+  UniRef90_A0A2K9QKI1 Multidrug efflux pump accessory protein Acr...  69.3    2e-21
+  UniRef90_A0A2N5DV49 Multidrug efflux pump accessory protein Acr...  69.3    2e-21
+  UniRef90_A0A2I0FSS6 Multidrug efflux pump accessory protein Acr...  69.3    2e-21
+  UniRef90_A0A1V9DQH2 Multidrug efflux pump accessory protein Acr...  68.9    3e-21
+  UniRef90_A0A0F3LVX9 Multidrug efflux pump accessory protein Acr...  68.9    3e-21
+  UniRef90_A0A2R4JCC9 Multidrug efflux pump accessory protein Acr...  68.6    3e-21
+  UniRef90_E0SFR6 Multidrug efflux pump accessory protein AcrZ n=...  68.2    5e-21
+  UniRef90_D4GMN8 Multidrug efflux pump accessory protein AcrZ n=...  67.8    7e-21
+  UniRef90_A0A2X1NFY5 Outer membrane or exported n=1 Tax=Escheric...  67.4    7e-21
+  UniRef90_C6CPQ2 Multidrug efflux pump accessory protein AcrZ n=...  67.8    8e-21
+  UniRef90_A0A366IDJ2 Multidrug efflux pump accessory protein Acr...  67.8    9e-21
+  UniRef90_A0A2N5EMD9 Multidrug efflux pump accessory protein Acr...  67.8    9e-21
+  UniRef90_A0A1H3VV92 Multidrug efflux pump accessory protein Acr...  67.0    1e-20
+  UniRef90_G7LNM9 Multidrug efflux pump accessory protein AcrZ n=...  67.0    2e-20
+  UniRef90_A8AJ32 Multidrug efflux pump accessory protein AcrZ n=...  67.4    2e-20
+  UniRef90_E3DKW3 Multidrug efflux pump accessory protein AcrZ n=...  66.6    3e-20
+  UniRef90_A0A2C6DJ09 Multidrug efflux pump accessory protein Acr...  65.5    5e-20
+  UniRef90_D4HZF3 Multidrug efflux pump accessory protein AcrZ n=...  65.5    7e-20
+  UniRef90_A0A357VXJ2 Multidrug efflux pump accessory protein Acr...  65.5    8e-20
+  UniRef90_C6CCT9 Multidrug efflux pump accessory protein AcrZ n=...  65.1    8e-20
+  UniRef90_A0A0J9B904 Multidrug efflux pump accessory protein Acr...  65.1    1e-19
+  UniRef90_A0A1X1C1T8 Multidrug efflux pump accessory protein Acr...  65.5    1e-19
+  UniRef90_A0A1S8YJ77 Multidrug efflux pump accessory protein Acr...  64.7    1e-19
+  UniRef90_A0A0G4JP23 Multidrug efflux pump accessory protein Acr...  64.7    1e-19
+  UniRef90_A0A014LV92 Multidrug efflux pump accessory protein Acr...  64.7    1e-19
+  UniRef90_A0A379AIZ6 Multidrug efflux pump accessory protein Acr...  64.7    1e-19
+  UniRef90_A0A2G8E4D0 Multidrug efflux pump accessory protein Acr...  64.3    2e-19
+  UniRef90_A0A370QHH8 Multidrug efflux pump accessory protein Acr...  64.3    2e-19
+  UniRef90_A0A0A3ZVA3 Multidrug efflux pump accessory protein Acr...  63.9    3e-19
+  UniRef90_A0A2I5TMQ1 Multidrug efflux pump accessory protein Acr...  63.5    3e-19
+  UniRef90_A0A2Y9TVH9 Multidrug efflux pump accessory protein Acr...  62.8    8e-19
+  UniRef90_H2IWG9 Multidrug efflux pump accessory protein AcrZ n=...  62.0    1e-18
+  UniRef90_V5U1A7 Uncharacterized protein n=1 Tax=Cronobacter mal...  61.6    1e-18
+  UniRef90_A0A377TNM8 Membrane protein n=1 Tax=Klebsiella pneumon...  61.6    2e-18
+  UniRef90_A0A085GLG8 Multidrug efflux pump accessory protein Acr...  62.8    2e-18
+  UniRef90_D8MPV2 Multidrug efflux pump accessory protein AcrZ n=...  62.0    2e-18
+  UniRef90_A0A389MH00 Multidrug efflux pump accessory protein Acr...  61.6    2e-18
+  UniRef90_A0A0U5GJP8 Multidrug efflux pump accessory protein Acr...  61.6    2e-18
+  UniRef90_A0A0H3I8D8 Multidrug efflux pump accessory protein Acr...  62.0    3e-18
+  UniRef90_A0A1I4UF62 Multidrug efflux pump accessory protein Acr...  60.8    4e-18
+  UniRef90_A0A0H3FQE5 Multidrug efflux pump accessory protein Acr...  60.8    7e-18
+  UniRef90_A0A1X0W2U5 Multidrug efflux pump accessory protein Acr...  60.1    8e-18
+  UniRef90_I0QMN2 Multidrug efflux pump accessory protein AcrZ n=...  59.7    1e-17
+  UniRef90_A0A2U1TQ87 Multidrug efflux pump accessory protein Acr...  59.7    1e-17
+  UniRef90_A0A376DB21 Multidrug efflux pump accessory protein Acr...  59.7    1e-17
+  UniRef90_A0A2L1UR15 Multidrug efflux pump accessory protein Acr...  59.7    1e-17
+  UniRef90_A0A2X4URS9 Uncharacterized membrane protein ybhT n=1 T...  59.3    2e-17
+  UniRef90_A0A263W538 Multidrug efflux pump accessory protein Acr...  59.3    2e-17
+  UniRef90_A0A318FIK3 Multidrug efflux pump accessory protein Acr...  59.3    2e-17
+  UniRef90_R9VU11 Multidrug efflux pump accessory protein AcrZ n=...  58.9    2e-17
+  UniRef90_U3TPC6 Uncharacterized protein n=1 Tax=Plautia stali s...  58.9    2e-17
+  UniRef90_A0A1X0WL58 Multidrug efflux pump accessory protein Acr...  58.5    3e-17
+  UniRef90_A0A0G3CXB6 Multidrug efflux pump accessory protein Acr...  58.5    4e-17
+  UniRef90_D3UZU1 Multidrug efflux pump accessory protein AcrZ n=...  58.2    4e-17
+  UniRef90_W0HZX5 Multidrug efflux pump accessory protein AcrZ n=...  59.7    5e-17
+  UniRef90_W3V2I5 Multidrug efflux pump accessory protein AcrZ n=...  57.8    5e-17
+  UniRef90_A0A2X4UL84 Multidrug efflux pump accessory protein Acr...  57.8    6e-17
+  UniRef90_A0A034TB24 Multidrug efflux pump accessory protein Acr...  58.5    6e-17
+  UniRef90_A0A240C059 Multidrug efflux pump accessory protein Acr...  57.4    8e-17
+  UniRef90_A0A0L0AM65 Multidrug efflux pump accessory protein Acr...  57.4    8e-17
+  UniRef90_W1ITI3 Multidrug efflux pump accessory protein AcrZ n=...  57.4    8e-17
+  UniRef90_A0A181XM80 Multidrug efflux pump accessory protein Acr...  57.8    1e-16
+  UniRef90_A0A2K9YV97 Multidrug efflux pump accessory protein Acr...  56.6    2e-16
+  UniRef90_A0A198FH64 Multidrug efflux pump accessory protein Acr...  56.6    2e-16
+  UniRef90_A0A085JC89 Multidrug efflux pump accessory protein Acr...  57.4    2e-16
+  UniRef90_G5Q011 Uncharacterized protein (Fragment) n=1 Tax=Salm...  56.2    2e-16
+  UniRef90_D1NXM3 Multidrug efflux pump accessory protein AcrZ n=...  57.0    2e-16
+  UniRef90_A0A1Y2SQY9 Multidrug efflux pump accessory protein Acr...  55.8    3e-16
+  UniRef90_A0A095VFL0 Multidrug efflux pump accessory protein Acr...  56.2    3e-16
+  UniRef90_V6MLK3 Multidrug efflux pump accessory protein AcrZ n=...  56.2    3e-16
+  UniRef90_A0A2G0QAR1 Multidrug efflux pump accessory protein Acr...  55.8    4e-16
+  UniRef90_A0A068QPT6 Multidrug efflux pump accessory protein Acr...  55.5    5e-16
+  UniRef90_T0P8Q5 Multidrug efflux pump accessory protein AcrZ n=...  55.8    5e-16
+  UniRef90_A0A0N1IZ93 Multidrug efflux pump accessory protein Acr...  55.5    6e-16
+  UniRef90_A0A0N0Z7S9 Multidrug efflux pump accessory protein Acr...  55.1    9e-16
+  UniRef90_A0A2D0K090 Multidrug efflux pump accessory protein Acr...  54.7    1e-15
+  UniRef90_A0A2X5EL33 Multidrug efflux pump accessory protein Acr...  55.1    2e-15
+  UniRef90_A0A1Z1SYM9 Multidrug efflux pump accessory protein Acr...  54.3    2e-15
+  UniRef90_A0A089PVZ1 Multidrug efflux pump accessory protein Acr...  54.3    2e-15
+  UniRef90_A0A0M0T922 Multidrug efflux pump accessory protein Acr...  53.9    2e-15
+  UniRef90_D4E678 Multidrug efflux pump accessory protein AcrZ n=...  55.5    2e-15
+  UniRef90_A0A1I3ICJ2 Multidrug efflux pump accessory protein Acr...  53.9    2e-15
+  UniRef90_A0A1C0U1J2 Multidrug efflux pump accessory protein Acr...  53.5    3e-15
+  UniRef90_A0A3N1IUN5 Multidrug efflux pump-associated protein Ac...  53.9    3e-15
+  UniRef90_A0A1C0BYH6 Multidrug efflux pump accessory protein Acr...  53.5    3e-15
+  UniRef90_A0A068Z4W2 Multidrug efflux pump accessory protein Acr...  52.8    6e-15
+  UniRef90_A0A1I4ZFB7 Multidrug efflux pump accessory protein Acr...  52.4    8e-15
+  UniRef90_G5RCT6 Uncharacterized protein (Fragment) n=1 Tax=Salm...  52.0    9e-15
+  UniRef90_A0A2D0IY22 Multidrug efflux pump accessory protein Acr...  52.0    1e-14
+  UniRef90_W1IX96 Multidrug efflux pump accessory protein AcrZ n=...  51.6    2e-14
+  UniRef90_A0A1B7JJS5 Multidrug efflux pump accessory protein Acr...  51.6    2e-14
+  UniRef90_B6XIS4 Multidrug efflux pump accessory protein AcrZ n=...  52.4    2e-14
+  UniRef90_A0A1J0E4E9 Multidrug efflux pump accessory protein Acr...  51.6    2e-14
+  UniRef90_A0A2T4I2P9 Multidrug efflux pump accessory protein Acr...  51.2    2e-14
+  UniRef90_A0A0F7HE63 Multidrug efflux pump accessory protein Acr...  51.2    2e-14
+  UniRef90_K8WQ53 Multidrug efflux pump accessory protein AcrZ n=...  51.2    3e-14
+  UniRef90_A0A3B0J361 Multidrug efflux pump accessory protein Acr...  50.8    4e-14
+  UniRef90_A0A1W9F0A3 Membrane protein (Fragment) n=1 Tax=Serrati...  50.8    4e-14
+  UniRef90_B2Q392 Multidrug efflux pump accessory protein AcrZ n=...  51.2    4e-14
+  UniRef90_D3VAQ7 Multidrug efflux pump accessory protein AcrZ n=...  50.8    4e-14
+  UniRef90_A0A1I7HW05 Multidrug efflux pump accessory protein Acr...  50.4    5e-14
+  UniRef90_A0A379DQ16 Multidrug efflux pump accessory protein Acr...  50.4    6e-14
+  UniRef90_A0A250AY19 Multidrug efflux pump accessory protein Acr...  51.2    7e-14
+  UniRef90_C4K5R8 Multidrug efflux pump accessory protein AcrZ n=...  50.1    8e-14
+  UniRef90_A0A1N6N020 Multidrug efflux pump accessory protein Acr...  49.7    9e-14
+  UniRef90_A0A2X1TQJ3 Multidrug efflux pump accessory protein Acr...  49.7    1e-13
+  UniRef90_A0A1S8CML3 Multidrug efflux pump accessory protein Acr...  47.0    1e-12
+  UniRef90_A0A083ZWL8 Multidrug efflux pump accessory protein Acr...  45.4    5e-12
+  UniRef90_W0LGZ0 Multidrug efflux pump accessory protein AcrZ n=...  45.4    5e-12
+  UniRef90_A0A0T9NLB3 Multidrug efflux pump accessory protein Acr...  45.1    7e-12
+  UniRef90_A0A0E1ND13 Multidrug efflux pump accessory protein Acr...  44.7    1e-11
+  UniRef90_A0A087KV73 Multidrug efflux pump accessory protein Acr...  44.3    1e-11
+  UniRef90_A0A140EZV5 Multidrug efflux pump accessory protein Acr...  43.5    3e-11
+  UniRef90_A0A0T9TFS3 Multidrug efflux pump accessory protein Acr...  42.7    6e-11
+  UniRef90_A0A1S6LRG1 Multidrug efflux pump accessory protein Acr...  42.0    1e-10
+  UniRef90_A0A094QKL0 Multidrug efflux pump accessory protein Acr...  42.0    1e-10
+  UniRef90_A0A2D0J5U1 Multidrug efflux pump accessory protein Acr...  41.6    2e-10
+  UniRef90_A0A0T9PUC3 Multidrug efflux pump accessory protein Acr...  41.2    3e-10
+  UniRef90_A0A085HKL5 Uncharacterized protein n=1 Tax=Leminorella...  39.3    1e-09
+  UniRef90_A0A2D0JPB3 Multidrug efflux pump accessory protein Acr...  37.7    6e-09
+  UniRef90_A0A0U1HTP4 Multidrug efflux pump accessory protein Acr...  37.0    1e-08
+  UniRef90_A0A0M1V6H8 Uncharacterized protein n=1 Tax=Yersinia pe...  35.8    3e-08
+  UniRef90_A0A2U8I9H4 Multidrug efflux pump accessory protein Acr...  24.3    0.001
+
+
+> UniRef90_P0AAX1 Multidrug efflux pump accessory protein AcrZ 
+n=242 Tax=Bacteria TaxID=2 RepID=ACRZ_ECO57
+Length=49
+
+ Score = 96.7 bits (239),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+
+
+> UniRef90_B7LJZ7 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Escherichia fergusonii TaxID=564 RepID=B7LJZ7_ESCF3
+Length=83
+
+ Score = 91.7 bits (226),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 44/49 (90%), Positives = 47/49 (96%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVP+VMAIILGLIYGLGEVFNIFSG+G+KDQ  QNH
+Sbjct  35  MLELLKSLVFAVIMVPIVMAIILGLIYGLGEVFNIFSGIGQKDQSRQNH  83
+
+
+> UniRef90_A0A1C0PEP7 Multidrug efflux pump accessory protein AcrZ 
+n=17 Tax=Gammaproteobacteria TaxID=1236 RepID=A0A1C0PEP7_CITFR
+Length=49
+
+ Score = 87.8 bits (216),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMA+ILGLIYGLGEVFNIFS +G+KDQ  QNH
+Sbjct  1   MLELLKSLVFAVIMVPVVMAVILGLIYGLGEVFNIFSSIGQKDQSRQNH  49
+
+
+> UniRef90_D2TPG6 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Citrobacter rodentium (strain ICC168) TaxID=637910 RepID=D2TPG6_CITRI
+Length=83
+
+ Score = 89.0 bits (219),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 47/49 (96%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN+FSG+G+KD+  QNH
+Sbjct  35  MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNLFSGIGQKDRSRQNH  83
+
+
+> UniRef90_A0A2X2PXR8 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Enterobacteriaceae TaxID=543 RepID=A0A2X2PXR8_9ENTR
+Length=49
+
+ Score = 87.8 bits (216),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAII+GLIYGLGEVFN+FS VG KD+P QNH
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIIMGLIYGLGEVFNVFSNVGHKDRPHQNH  49
+
+
+> UniRef90_W9BNQ7 Multidrug efflux pump accessory protein AcrZ 
+n=31 Tax=Enterobacteriaceae TaxID=543 RepID=W9BNQ7_KLEPN
+Length=49
+
+ Score = 87.0 bits (214),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 44/49 (90%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN+FSGVG KD+  QNH
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNLFSGVGHKDRSQQNH  49
+
+
+> UniRef90_A0A223UED4 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Klebsiella quasivariicola TaxID=2026240 RepID=A0A223UED4_9ENTR
+Length=49
+
+ Score = 87.0 bits (214),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMA+ILGLIYGLGEVFN+FSGV +KD+  QNH
+Sbjct  1   MLELLKSLVFAVIMVPVVMAVILGLIYGLGEVFNVFSGVSRKDRSQQNH  49
+
+
+> UniRef90_A0A1B7IN66 Multidrug efflux pump accessory protein AcrZ 
+n=9 Tax=Buttiauxella TaxID=82976 RepID=A0A1B7IN66_9ENTR
+Length=49
+
+ Score = 86.3 bits (212),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVP+VMA+ILGLIYGLGEVFN+FS VG  DQP QNH
+Sbjct  1   MLELLKSLVFAVIMVPIVMAVILGLIYGLGEVFNVFSKVGHNDQPKQNH  49
+
+
+> UniRef90_C0PWW8 Multidrug efflux pump accessory protein AcrZ 
+n=79 Tax=Salmonella TaxID=590 RepID=C0PWW8_SALPC
+Length=83
+
+ Score = 86.7 bits (213),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSG+G+KDQ  Q+ 
+Sbjct  35  MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGIGQKDQSRQSR  83
+
+
+> UniRef90_A0A0D1N3H5 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Enterobacteriaceae TaxID=543 RepID=A0A0D1N3H5_KLEAE
+Length=49
+
+ Score = 84.0 bits (206),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN+FS VG KD+  Q H
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNVFSSVGHKDRSKQQH  49
+
+
+> UniRef90_A0A1V0LGX1 Multidrug efflux pump accessory protein AcrZ 
+n=5 Tax=Enterobacteriaceae TaxID=543 RepID=A0A1V0LGX1_9ENTR
+Length=49
+
+ Score = 83.6 bits (205),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN+FS VG++D+  Q  
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNVFSAVGRRDRSSQQR  49
+
+
+> UniRef90_E3G3Q8 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Enterobacter lignolyticus (strain SCF1) TaxID=701347 
+RepID=E3G3Q8_ENTLS
+Length=49
+
+ Score = 83.2 bits (204),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMA+ILGLIYGLGEVFN+ SG+G KD P +NH
+Sbjct  1   MLELLKSLVFAVIMVPVVMAVILGLIYGLGEVFNVLSGIGHKDGPQKNH  49
+
+
+> UniRef90_L0M573 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Enterobacteriaceae TaxID=543 RepID=L0M573_ENTBF
+Length=49
+
+ Score = 83.2 bits (204),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVP+VMAII+G IYGLGEVFNIFSGVG KD   QNH
+Sbjct  1   MLELLKSLVFAVIMVPIVMAIIMGAIYGLGEVFNIFSGVGHKDNRPQNH  49
+
+
+> UniRef90_A0A1N6SW98 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Enterobacter kobei TaxID=208224 RepID=A0A1N6SW98_9ENTR
+Length=49
+
+ Score = 83.2 bits (204),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSL FAVIMVPVVMAIILGLIYGLGEVFNIFSGVG KD+  Q+H
+Sbjct  1   MLELLKSLGFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGHKDKSRQSH  49
+
+
+> UniRef90_A0A370YNG4 Multidrug efflux pump accessory protein AcrZ 
+n=10 Tax=Enterobacterales TaxID=91347 RepID=A0A370YNG4_ECOLX
+Length=49
+
+ Score = 82.4 bits (202),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           M ELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN+FS VG +D+P Q  
+Sbjct  1   MFELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNVFSTVGHRDRPAQRR  49
+
+
+> UniRef90_A0A084ZX94 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Trabulsiella guamensis ATCC 49490 TaxID=1005994 
+RepID=A0A084ZX94_9ENTR
+Length=59
+
+ Score = 82.4 bits (202),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMA+ILGLIYGLGEVFN+ S +G +D+P QN 
+Sbjct  11  MLELLKSLVFAVIMVPVVMAVILGLIYGLGEVFNVLSSIGHRDRPHQNQ  59
+
+
+> UniRef90_A0A1I6D8Y2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Enterobacter sp. kpr-6 TaxID=1761782 RepID=A0A1I6D8Y2_9ENTR
+Length=49
+
+ Score = 82.0 bits (201),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           M ELLKSL FAVIMVPVVMA+ILGLIYGLGEVFN+FSG+G KD+  Q+H
+Sbjct  1   MFELLKSLAFAVIMVPVVMAVILGLIYGLGEVFNVFSGIGHKDKSRQSH  49
+
+
+> UniRef90_A0A085GQH6 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Hafniaceae TaxID=1903412 RepID=A0A085GQH6_HAFAL
+Length=62
+
+ Score = 82.0 bits (201),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFA IMVPVVMA ILGLIYGLGEVFNIFSGVG  D+   NH
+Sbjct  14  MLELLKSLVFAAIMVPVVMAAILGLIYGLGEVFNIFSGVGHSDEKRSNH  62
+
+
+> UniRef90_A0A127L244 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Enterobacteriaceae TaxID=543 RepID=A0A127L244_9ENTR
+Length=59
+
+ Score = 81.3 bits (199),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFA++MVPVVMAIILGLIYGLGEVFN+FSGVG +D+  Q  
+Sbjct  11  MLELLKSLVFAIVMVPVVMAIILGLIYGLGEVFNLFSGVGSRDRTSQQR  59
+
+
+> UniRef90_A7MIY3 Multidrug efflux pump accessory protein AcrZ 
+n=9 Tax=Cronobacter TaxID=413496 RepID=A7MIY3_CROS8
+Length=82
+
+ Score = 81.6 bits (200),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           M ELLKSL FAVIMVPVVMA+ILGLI+GLGEVFNIFSG+G KDQ  Q+ 
+Sbjct  34  MFELLKSLAFAVIMVPVVMAVILGLIWGLGEVFNIFSGIGHKDQSKQHR  82
+
+
+> UniRef90_A0A0F0XKU4 Multidrug efflux pump accessory protein AcrZ 
+n=73 Tax=Bacteria TaxID=2 RepID=A0A0F0XKU4_9ENTR
+Length=49
+
+ Score = 80.5 bits (197),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILG IYGLGEVFN+FS +G KDQ  + H
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGAIYGLGEVFNLFSNIGHKDQAKKQH  49
+
+
+> UniRef90_A0A376E7J9 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Cronobacter TaxID=413496 RepID=A0A376E7J9_9ENTR
+Length=49
+
+ Score = 80.5 bits (197),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           M ELLKSL FAVIMVPVVMA+ILGLI+GLGEVFNIFSGVG KDQ  Q+ 
+Sbjct  1   MFELLKSLAFAVIMVPVVMAVILGLIWGLGEVFNIFSGVGHKDQSKQHR  49
+
+
+> UniRef90_A0A090V6I4 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Enterobacteriaceae TaxID=543 RepID=A0A090V6I4_ESCVU
+Length=49
+
+ Score = 80.1 bits (196),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMAIILG IYGLGEVFNIFSG+G KD+  ++ 
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGAIYGLGEVFNIFSGIGHKDRSRESR  49
+
+
+> UniRef90_W0BR74 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Enterobacter cloacae P101 TaxID=1354030 RepID=W0BR74_ENTCL
+Length=80
+
+ Score = 80.9 bits (198),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAVIMVPVVMA+ILG IYGLGEVFN+FS +G +DQ  + H
+Sbjct  32  MLELLKSLVFAVIMVPVVMAVILGAIYGLGEVFNVFSNIGHRDQAKKQH  80
+
+
+> UniRef90_A0A370WHG2 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Enterobacterales TaxID=91347 RepID=A0A370WHG2_9GAMM
+Length=52
+
+ Score = 79.0 bits (193),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 45/52 (87%), Gaps = 3/52 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD---QPGQNH  49
+           MLELLKSLVFA+IMVPVVMAIILGLIYGLGEVFN+ S VG KD   QP Q+H
+Sbjct  1   MLELLKSLVFALIMVPVVMAIILGLIYGLGEVFNVLSNVGHKDNGQQPKQHH  52
+
+
+> UniRef90_A0A0J8VJS8 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Franconibacter pulveris TaxID=435910 RepID=A0A0J8VJS8_9ENTR
+Length=49
+
+ Score = 78.6 bits (192),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFA+IMVPVVMAIILG IYGLGEVFN+FS +G KD+  Q+ 
+Sbjct  1   MLELLKSLVFAIIMVPVVMAIILGAIYGLGEVFNVFSSIGHKDRSRQHR  49
+
+
+> UniRef90_A0A089PTH3 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Pluralibacter gergoviae TaxID=61647 RepID=A0A089PTH3_PLUGE
+Length=49
+
+ Score = 78.2 bits (191),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFA+ MVPVVMAIILGLIYGLGEVFNI S VG K++  Q H
+Sbjct  1   MLELLKSLVFAICMVPVVMAIILGLIYGLGEVFNILSAVGHKEKRQQQH  49
+
+
+> UniRef90_A0A345CD35 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Enterobacteriaceae TaxID=543 RepID=A0A345CD35_9ENTR
+Length=49
+
+ Score = 77.8 bits (190),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 40/48 (83%), Positives = 42/48 (88%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELLKSLVFAVIMVPVVMAIILG IYGLGEVFNIFS VG + QP + 
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGAIYGLGEVFNIFSNVGHRKQPKKQ  48
+
+
+> UniRef90_A0A2P8VPP0 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Siccibacter turicensis TaxID=357233 RepID=A0A2P8VPP0_9ENTR
+Length=49
+
+ Score = 77.8 bits (190),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMAIILG IYGLGE+FN+FSGVG KD+  +  
+Sbjct  1   MLELLKSLVFAVLMVPVVMAIILGAIYGLGEIFNLFSGVGHKDKSRETR  49
+
+
+> UniRef90_V5B353 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Enterobacteriaceae TaxID=543 RepID=V5B353_ENTCL
+Length=53
+
+ Score = 76.6 bits (187),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 38/44 (86%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN+FS VG +++
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNVFSAVGHREK  44
+
+
+> UniRef90_A0A370ZA99 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Enterobacteriaceae TaxID=543 RepID=A0A370ZA99_KLEPN
+Length=50
+
+ Score = 76.6 bits (187),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 38/50 (76%), Positives = 45/50 (90%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQNH  49
+           MLELLKSLVFAVIMVP+VMAIILG IYGLGEVFN+FS +G ++DQP ++ 
+Sbjct  1   MLELLKSLVFAVIMVPIVMAIILGAIYGLGEVFNVFSNIGHRRDQPKKHQ  50
+
+
+> UniRef90_G9YCN2 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Enterobacterales TaxID=91347 RepID=G9YCN2_HAFAL
+Length=49
+
+ Score = 73.9 bits (180),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 39/49 (80%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFA IMVPVVMA ILGLIYGLGEVFNI S +G  +    NH
+Sbjct  1   MLELLKSLVFAAIMVPVVMAAILGLIYGLGEVFNIISSIGHSEDRRSNH  49
+
+
+> UniRef90_A0A376YD31 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Escherichia coli TaxID=562 RepID=A0A376YD31_ECOLX
+Length=55
+
+ Score = 73.2 bits (178),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 39/47 (83%), Positives = 41/47 (87%), Gaps = 0/47 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQ  47
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIF  + KK  P +
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFLVLVKKTSPDK  47
+
+
+> UniRef90_A0A071LT29 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Mangrovibacter TaxID=451512 RepID=A0A071LT29_9ENTR
+Length=45
+
+ Score = 72.8 bits (177),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 36/45 (80%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQP  45
+           MLELLKSLVFAV MVPV+MAIILGLIY  GEVFNIFSG+G+K   
+Sbjct  1   MLELLKSLVFAVCMVPVMMAIILGLIYAFGEVFNIFSGIGRKKTS  45
+
+
+> UniRef90_A0A1B1KMU7 Multidrug efflux pump accessory protein AcrZ 
+n=5 Tax=Serratia TaxID=613 RepID=A0A1B1KMU7_SERPL
+Length=49
+
+ Score = 72.8 bits (177),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELL+SL+FA++MVPVVMAIILGLIYGL EVFNIFS VG+  +    H
+Sbjct  1   MLELLESLLFAIVMVPVVMAIILGLIYGLAEVFNIFSKVGRAKENRTQH  49
+
+
+> UniRef90_A0A0L7TCG2 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Erwinia TaxID=551 RepID=A0A0L7TCG2_9GAMM
+Length=51
+
+ Score = 72.8 bits (177),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 41/50 (82%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQNH  49
+           M ELLKSL FA+IMVPVVMAIILG IYGLGEVFN+ S +G + DQP +N 
+Sbjct  1   MFELLKSLAFAIIMVPVVMAIILGAIYGLGEVFNVISKIGHRDDQPAKNR  50
+
+
+> UniRef90_A0A3N1W872 Multidrug efflux pump-associated protein 
+AcrZ n=1 Tax=Erwinia sp. JUb26 TaxID=2485126 RepID=A0A3N1W872_9GAMM
+Length=50
+
+ Score = 72.0 bits (175),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 34/49 (69%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLK L  A++MVPVVMAIILGLIYGLGEVFN+ S +G +D+P ++H
+Sbjct  1   MLELLKGLAVAILMVPVVMAIILGLIYGLGEVFNVISKIGHRDRPVKHH  49
+
+
+> UniRef90_I2BB18 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Shimwellia blattae (strain ATCC 29907 / DSM 4481 / JCM 
+1650 / NBRC 105725 / CDC 9005-74) TaxID=630626 RepID=I2BB18_SHIBC
+Length=49
+
+ Score = 72.0 bits (175),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 33/49 (67%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLEL+KS+V AVIMVP+VMA+ILGLIYGLGEVFN+ SG+G +D   +  
+Sbjct  1   MLELIKSMVTAVIMVPIVMAVILGLIYGLGEVFNVLSGIGHRDTSTRQR  49
+
+
+> UniRef90_A0A084YSM0 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Serratia TaxID=613 RepID=A0A084YSM0_9GAMM
+Length=47
+
+ Score = 70.1 bits (170),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 35/44 (80%), Positives = 40/44 (91%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELL+SL+FAV+MVP+VMAIILGLIYGLGEVFNIFS VG   +
+Sbjct  1   MLELLESLLFAVVMVPIVMAIILGLIYGLGEVFNIFSKVGHSKE  44
+
+
+> UniRef90_A0A1W6B0V3 Multidrug efflux pump accessory protein AcrZ 
+n=5 Tax=Erwiniaceae TaxID=1903409 RepID=A0A1W6B0V3_9GAMM
+Length=51
+
+ Score = 69.7 bits (169),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 41/50 (82%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQNH  49
+           MLELLKSL  AVIMVP+VMAIILGLIYGLGEVFN+ S  G + DQP ++ 
+Sbjct  1   MLELLKSLAVAVIMVPIVMAIILGLIYGLGEVFNVISKFGHRNDQPAKHR  50
+
+
+> UniRef90_A0A2K9QKI1 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Dickeya TaxID=204037 RepID=A0A2K9QKI1_9GAMM
+Length=49
+
+ Score = 69.3 bits (168),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 33/45 (73%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQP  45
+           MLELLKSLVFAV MVPV+MA+ILG IYGLGEVFN+FS +G ++  
+Sbjct  1   MLELLKSLVFAVCMVPVMMALILGAIYGLGEVFNLFSAIGHRESS  45
+
+
+> UniRef90_A0A2N5DV49 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Yersiniaceae bacterium 2016Iso4 TaxID=2060068 RepID=A0A2N5DV49_9GAMM
+Length=56
+
+ Score = 69.3 bits (168),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 36/51 (71%), Positives = 43/51 (84%), Gaps = 2/51 (4%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG--KKDQPGQNH  49
+           MLELL+SLVFA++MVPVVMAIILGLIYGLG VFN+FS +G  K+ + G  H
+Sbjct  1   MLELLESLVFAIVMVPVVMAIILGLIYGLGTVFNVFSKIGHPKEARNGNAH  51
+
+
+> UniRef90_A0A2I0FSS6 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Enterobacterales bacterium CwR94 TaxID=2025587 RepID=A0A2I0FSS6_9GAMM
+Length=52
+
+ Score = 69.3 bits (168),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 41/49 (84%), Gaps = 1/49 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQN  48
+           MLELLKS+  AV+MVPVVMAIILGLIYGLGEVFNI S +G + D+P + 
+Sbjct  1   MLELLKSMAIAVLMVPVVMAIILGLIYGLGEVFNIISKIGHRDDRPAKK  49
+
+
+> UniRef90_A0A1V9DQH2 Multidrug efflux pump accessory protein AcrZ 
+n=7 Tax=Erwiniaceae TaxID=1903409 RepID=A0A1V9DQH2_9GAMM
+Length=50
+
+ Score = 68.9 bits (167),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 33/48 (69%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELLKSL  AVIMVPVVMAI+LGLIYGLGEVFN+ S  G+++   ++
+Sbjct  1   MLELLKSLAVAVIMVPVVMAIMLGLIYGLGEVFNVISKFGRREHASRS  48
+
+
+> UniRef90_A0A0F3LVX9 Multidrug efflux pump accessory protein AcrZ 
+n=17 Tax=Enterobacterales TaxID=91347 RepID=A0A0F3LVX9_9GAMM
+Length=52
+
+ Score = 68.9 bits (167),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 34/48 (71%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELLKSL  AVIMVP+VMAI+LGLIYGLGEVFN+ S  G++D    N
+Sbjct  1   MLELLKSLAVAVIMVPIVMAIMLGLIYGLGEVFNVISKFGRRDDRPAN  48
+
+
+> UniRef90_A0A2R4JCC9 Multidrug efflux pump accessory protein AcrZ 
+n=5 Tax=Pantoea TaxID=53335 RepID=A0A2R4JCC9_9GAMM
+Length=51
+
+ Score = 68.6 bits (166),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 33/48 (69%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELLKSL  AV+MVPVVMA++LG+IYGLGEVFNIFS VG +++    
+Sbjct  1   MLELLKSLAVAVLMVPVVMALMLGMIYGLGEVFNIFSKVGHREKSSAR  48
+
+
+> UniRef90_E0SFR6 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Dickeya TaxID=204037 RepID=E0SFR6_DICD3
+Length=49
+
+ Score = 68.2 bits (165),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 32/45 (71%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQP  45
+           MLELLKSL+FAV MVPV+MA+ILG IYGLGEVFN+FS +G ++  
+Sbjct  1   MLELLKSLLFAVCMVPVMMALILGAIYGLGEVFNLFSAIGHRESS  45
+
+
+> UniRef90_D4GMN8 Multidrug efflux pump accessory protein AcrZ 
+n=8 Tax=Pantoea TaxID=53335 RepID=D4GMN8_PANAM
+Length=55
+
+ Score = 67.8 bits (164),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 33/44 (75%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLEL+KSL  AVIMVPVVMAI+LGLIYGLGEVFN+ S  G++D 
+Sbjct  5   MLELIKSLAVAVIMVPVVMAIMLGLIYGLGEVFNLISKTGRRDN  48
+
+
+> UniRef90_A0A2X1NFY5 Outer membrane or exported n=1 Tax=Escherichia 
+coli TaxID=562 RepID=A0A2X1NFY5_ECOLX
+Length=40
+
+ Score = 67.4 bits (163),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIF  36
+           MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIF
+Sbjct  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIF  36
+
+
+> UniRef90_C6CPQ2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Dickeya chrysanthemi (strain Ech1591) TaxID=561229 RepID=C6CPQ2_DICC1
+Length=49
+
+ Score = 67.8 bits (164),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 32/48 (67%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           M ELLKSLVFAV MVPV+MA+ILG IYGLGEVFN+FS  G ++     
+Sbjct  1   MFELLKSLVFAVCMVPVMMALILGAIYGLGEVFNLFSAFGHRESSAAR  48
+
+
+> UniRef90_A0A366IDJ2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Brenneria salicis ATCC 15712 = DSM 30166 TaxID=714314 
+RepID=A0A366IDJ2_9GAMM
+Length=51
+
+ Score = 67.8 bits (164),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 33/44 (75%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELLKSL+FA+ MVPV+MAIILG IYGLGEVFNI S +G  D+
+Sbjct  1   MLELLKSLLFAIAMVPVMMAIILGAIYGLGEVFNILSKIGHDDE  44
+
+
+> UniRef90_A0A2N5EMD9 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=unclassified Yersiniaceae TaxID=1917879 RepID=A0A2N5EMD9_9GAMM
+Length=56
+
+ Score = 67.8 bits (164),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 33/44 (75%), Positives = 39/44 (89%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELL+SLVFA++MVPVVMAIILGLIYGLG VFN+FS +G   +
+Sbjct  1   MLELLESLVFAIVMVPVVMAIILGLIYGLGSVFNVFSKIGHPKE  44
+
+
+> UniRef90_A0A1H3VV92 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Lonsdalea TaxID=1082702 RepID=A0A1H3VV92_9GAMM
+Length=51
+
+ Score = 67.0 bits (162),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 31/48 (65%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELL SL+FAV MVPV+MA+ILG IYGLGEVFN+FS +G  +    +
+Sbjct  1   MLELLSSLLFAVCMVPVMMALILGCIYGLGEVFNVFSALGHHESKSSH  48
+
+
+> UniRef90_G7LNM9 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Brenneria TaxID=71655 RepID=G7LNM9_9GAMM
+Length=51
+
+ Score = 67.0 bits (162),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 32/48 (67%), Positives = 40/48 (83%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           ML+LLKSL+FAV MVPV+MA+ILG IYGLGEVFN+ S +G K++ G  
+Sbjct  1   MLDLLKSLLFAVAMVPVMMAVILGAIYGLGEVFNVLSKIGHKEERGAK  48
+
+
+> UniRef90_A8AJ32 Multidrug efflux pump accessory protein AcrZ 
+n=5 Tax=Enterobacteriaceae TaxID=543 RepID=A8AJ32_CITK8
+Length=83
+
+ Score = 67.4 bits (163),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 44/49 (90%), Positives = 47/49 (96%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMAIILGLIYGLGEVFNIFSG+G+KDQ  QNH
+Sbjct  35  MLELLKSLVFAVVMVPVVMAIILGLIYGLGEVFNIFSGIGQKDQSRQNH  83
+
+
+> UniRef90_E3DKW3 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Erwinia TaxID=551 RepID=E3DKW3_ERWSE
+Length=54
+
+ Score = 66.6 bits (161),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 33/48 (69%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELLK L  AV+MVPVVMAIILGLI+GLGEVFN+ S +G +D    N
+Sbjct  1   MLELLKGLAVAVLMVPVVMAIILGLIWGLGEVFNVISKLGHRDGSSAN  48
+
+
+> UniRef90_A0A2C6DJ09 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Budvicia aquatica TaxID=82979 RepID=A0A2C6DJ09_9GAMM
+Length=47
+
+ Score = 65.5 bits (158),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 32/44 (73%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M E+LKSLVFA  MVPVVMA+ILG+IYGLGEVFNI S +G  D+
+Sbjct  1   MFEILKSLVFAACMVPVVMALILGMIYGLGEVFNIISKIGHHDK  44
+
+
+> UniRef90_D4HZF3 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Erwinia amylovora TaxID=552 RepID=D4HZF3_ERWAC
+Length=54
+
+ Score = 65.5 bits (158),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 34/51 (67%), Positives = 40/51 (78%), Gaps = 2/51 (4%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD--QPGQNH  49
+           MLELLK L  A++MVPVVMAIILGLI+GLGEVFNI S +G +D  Q  + H
+Sbjct  1   MLELLKGLALAILMVPVVMAIILGLIWGLGEVFNIVSRLGHRDNRQATKGH  51
+
+
+> UniRef90_A0A357VXJ2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Erwinia persicina TaxID=55211 RepID=A0A357VXJ2_9GAMM
+Length=54
+
+ Score = 65.5 bits (158),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 31/43 (72%), Positives = 37/43 (86%), Gaps = 0/43 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD  43
+           MLELLK L  A+IMVP+VMAIILGLI+GLGEVFN+ S +G +D
+Sbjct  1   MLELLKGLAVAIIMVPIVMAIILGLIWGLGEVFNVISKIGHRD  43
+
+
+> UniRef90_C6CCT9 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Dickeya paradisiaca (strain Ech703) TaxID=579405 RepID=C6CCT9_DICP7
+Length=52
+
+ Score = 65.1 bits (157),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 32/48 (67%), Positives = 40/48 (83%), Gaps = 3/48 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGV---GKKDQP  45
+           MLELLKSL+FAV MVPV+MA+ILG IYGLGE+FN+FS +   G++D  
+Sbjct  1   MLELLKSLLFAVCMVPVMMAVILGAIYGLGELFNLFSAIGTGGRRDSS  48
+
+
+> UniRef90_A0A0J9B904 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=unclassified Erwiniaceae TaxID=1971634 RepID=A0A0J9B904_9GAMM
+Length=54
+
+ Score = 65.1 bits (157),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 32/49 (65%), Positives = 40/49 (82%), Gaps = 1/49 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQN  48
+           MLELLK L  A+IMVP+VMAIILGLI+GLGEVFN+ S +G + +QP + 
+Sbjct  1   MLELLKGLAVAIIMVPIVMAIILGLIWGLGEVFNVISKIGHRNEQPAKK  49
+
+
+> UniRef90_A0A1X1C1T8 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Pantoea conspicua TaxID=472705 RepID=A0A1X1C1T8_9GAMM
+Length=80
+
+ Score = 65.5 bits (158),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 30/48 (63%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELLKSL  AVIMVP+VMA++LG+IYGLGEVFN+ S  G +++    
+Sbjct  30  MLELLKSLAIAVIMVPIVMALMLGMIYGLGEVFNVISKFGHREKSSAR  77
+
+
+> UniRef90_A0A1S8YJ77 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Izhakiella australiensis TaxID=1926881 RepID=A0A1S8YJ77_9ENTR
+Length=51
+
+ Score = 64.7 bits (156),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 34/50 (68%), Positives = 39/50 (78%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGK-KDQPGQNH  49
+           MLEL+KSL+ A++MVPVVMAIILGLIYGLGE FNI S  G  KD+P    
+Sbjct  1   MLELIKSLLVAILMVPVVMAIILGLIYGLGEFFNIISKFGHAKDRPANER  50
+
+
+> UniRef90_A0A0G4JP23 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Brenneria goodwinii TaxID=1109412 RepID=A0A0G4JP23_9GAMM
+Length=48
+
+ Score = 64.7 bits (156),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 32/48 (67%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELL SL+FAV MVPV+MAIILG IYGLGEVFN+ S +G  +   Q+
+Sbjct  1   MLELLTSLLFAVAMVPVMMAIILGAIYGLGEVFNVLSKIGHTEAKKQH  48
+
+
+> UniRef90_A0A014LV92 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Erwiniaceae TaxID=1903409 RepID=A0A014LV92_9GAMM
+Length=51
+
+ Score = 64.7 bits (156),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 35/50 (70%), Positives = 40/50 (80%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQNH  49
+           MLELL  L  A++MVPVVMAIILGLIYGLGEVFNI S +G + DQP +N 
+Sbjct  1   MLELLIGLGEAILMVPVVMAIILGLIYGLGEVFNIISKIGHRDDQPAKNR  50
+
+
+> UniRef90_A0A379AIZ6 Multidrug efflux pump accessory protein AcrZ 
+n=11 Tax=Pantoea TaxID=53335 RepID=A0A379AIZ6_ENTAG
+Length=51
+
+ Score = 64.7 bits (156),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 29/48 (60%), Positives = 39/48 (81%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELLKSL  A++MVPVVMA++LG+IYGLGEVFN+ S +G +++    
+Sbjct  1   MLELLKSLAVAILMVPVVMALMLGMIYGLGEVFNVISKIGHREKSSAR  48
+
+
+> UniRef90_A0A2G8E4D0 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Erwinia sp. OLSSP12 TaxID=1912096 RepID=A0A2G8E4D0_9GAMM
+Length=51
+
+ Score = 64.3 bits (155),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 33/46 (72%), Positives = 41/46 (89%), Gaps = 1/46 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGK-KDQP  45
+           MLEL+KSL+ A++MVPVVMA+ILGLIYGLGE+FNI S VG+ KD+ 
+Sbjct  1   MLELIKSLLVAILMVPVVMAVILGLIYGLGELFNIISKVGQSKDRA  46
+
+
+> UniRef90_A0A370QHH8 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Enterobacillus tribolii TaxID=1487935 RepID=A0A370QHH8_9ENTR
+Length=53
+
+ Score = 64.3 bits (155),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 31/44 (70%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M ELLKSLVFA  MVPVVMA+IL +IYGLGE+FNI SG+G  ++
+Sbjct  1   MFELLKSLVFAACMVPVVMAVILVMIYGLGELFNIISGIGHSEK  44
+
+
+> UniRef90_A0A0A3ZVA3 Multidrug efflux pump accessory protein AcrZ 
+n=5 Tax=Erwinia TaxID=551 RepID=A0A0A3ZVA3_9GAMM
+Length=51
+
+ Score = 63.9 bits (154),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 35/50 (70%), Positives = 40/50 (80%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQNH  49
+           MLELL  L  A++MVPVVMAIILGLIYGLGEVFNI S +G  KDQP ++ 
+Sbjct  1   MLELLIGLGEAILMVPVVMAIILGLIYGLGEVFNIISKIGHSKDQPAKDR  50
+
+
+> UniRef90_A0A2I5TMQ1 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Serratia sp. (strain ATCC 39006) TaxID=104623 RepID=A0A2I5TMQ1_SERS3
+Length=49
+
+ Score = 63.5 bits (153),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 29/44 (66%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELL+SL+FA+ MVP++MA+ILG IYGLGE FN+FSG+G   +
+Sbjct  1   MLELLESLLFAIAMVPLMMALILGAIYGLGEAFNVFSGIGHDKE  44
+
+
+> UniRef90_A0A2Y9TVH9 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Limnobaculum parvum TaxID=2172103 RepID=A0A2Y9TVH9_9ENTR
+Length=47
+
+ Score = 62.8 bits (151),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 32/44 (73%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M ELLKSL+FA  MVPVVMAIILGLIYGLGEVFN  S +G    
+Sbjct  1   MFELLKSLIFAACMVPVVMAIILGLIYGLGEVFNFISKLGPSKS  44
+
+
+> UniRef90_H2IWG9 Multidrug efflux pump accessory protein AcrZ 
+n=9 Tax=Rahnella TaxID=34037 RepID=H2IWG9_RAHAC
+Length=51
+
+ Score = 62.0 bits (149),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 30/48 (63%), Positives = 38/48 (79%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELL+SL+FA IMVPV +A+ILGLI+GLGEVFN+ S VG   +  + 
+Sbjct  1   MLELLESLIFAAIMVPVFIAVILGLIWGLGEVFNLISHVGHSKESREK  48
+
+
+> UniRef90_V5U1A7 Uncharacterized protein n=1 Tax=Cronobacter malonaticus 
+TaxID=413503 RepID=V5U1A7_9ENTR
+Length=38
+
+ Score = 61.6 bits (148),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 29/36 (81%), Positives = 33/36 (92%), Gaps = 0/36 (0%)
+
+Query  13  IMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           IMVPVVMA+ILGLI+GLGEVFNIFSG+G KDQ  Q+
+Sbjct  2   IMVPVVMAVILGLIWGLGEVFNIFSGIGHKDQSKQH  37
+
+
+> UniRef90_A0A377TNM8 Membrane protein n=1 Tax=Klebsiella pneumoniae 
+TaxID=573 RepID=A0A377TNM8_KLEPN
+Length=38
+
+ Score = 61.6 bits (148),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 32/34 (94%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN  34
+           MLELLKSLVFAVIMVPVVMA+ILGLIYGLGEVF 
+Sbjct  1   MLELLKSLVFAVIMVPVVMAVILGLIYGLGEVFT  34
+
+
+> UniRef90_A0A085GLG8 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Ewingella americana TaxID=41202 RepID=A0A085GLG8_9GAMM
+Length=84
+
+ Score = 62.8 bits (151),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 28/45 (62%), Positives = 37/45 (82%), Gaps = 0/45 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQP  45
+           MLELL SL+FAV+MVP+ +A+ILGLI+GLGEVFN+ S +G   + 
+Sbjct  27  MLELLGSLIFAVVMVPIFIAVILGLIWGLGEVFNVLSNIGHSKES  71
+
+
+> UniRef90_D8MPV2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Erwinia billingiae (strain Eb661) TaxID=634500 RepID=D8MPV2_ERWBE
+Length=51
+
+ Score = 62.0 bits (149),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 34/50 (68%), Positives = 40/50 (80%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQNH  49
+           MLELL  L  A++MVPVVMAIILGLI+GLGEVFN+ S +G KKDQ  Q+ 
+Sbjct  1   MLELLIGLGEAILMVPVVMAIILGLIWGLGEVFNVISTIGHKKDQTEQSR  50
+
+
+> UniRef90_A0A389MH00 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Enterobacterales bacterium TaxID=1993870 RepID=A0A389MH00_9GAMM
+Length=52
+
+ Score = 61.6 bits (148),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 31/52 (60%), Positives = 40/52 (77%), Gaps = 4/52 (8%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG----KKDQPGQN  48
+           MLELL+SL+FA IMVPV +A+ILGLI+G+G VFN+ S VG    K++Q  Q 
+Sbjct  1   MLELLESLIFAAIMVPVFIAVILGLIWGMGSVFNVISNVGHSKEKREQTQQR  52
+
+
+> UniRef90_A0A0U5GJP8 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Erwinia gerundensis TaxID=1619313 RepID=A0A0U5GJP8_9GAMM
+Length=51
+
+ Score = 61.6 bits (148),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 33/50 (66%), Positives = 36/50 (72%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG-KKDQPGQNH  49
+           MLELLKSL  AVIMVPVVMAI+LGLIYG G  FN+ S  G  KD   +N 
+Sbjct  1   MLELLKSLAVAVIMVPVVMAIMLGLIYGFGAFFNVISKFGHSKDHTAKNR  50
+
+
+> UniRef90_A0A0H3I8D8 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Pectobacterium parmentieri TaxID=1905730 RepID=A0A0H3I8D8_PECPM
+Length=80
+
+ Score = 62.0 bits (149),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 31/49 (63%), Positives = 37/49 (76%), Gaps = 1/49 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD-QPGQN  48
+           MLELLKSL+FAV MVPV+M +I+G IY LGEVFN+ S +G  D Q   N
+Sbjct  30  MLELLKSLLFAVAMVPVMMVLIMGSIYCLGEVFNVLSRIGHSDGQRANN  78
+
+
+> UniRef90_A0A1I4UF62 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Izhakiella capsodis TaxID=1367852 RepID=A0A1I4UF62_9ENTR
+Length=51
+
+ Score = 60.8 bits (146),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 31/50 (62%), Positives = 39/50 (78%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGK-KDQPGQNH  49
+           MLEL+KSL+ A++MVPVVMA+ILGLIYGLGE FN+ S  G  KD+   + 
+Sbjct  1   MLELIKSLLIAILMVPVVMAVILGLIYGLGEFFNLISKFGHPKDRTANDR  50
+
+
+> UniRef90_A0A0H3FQE5 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Enterobacterales TaxID=91347 RepID=A0A0H3FQE5_KLEAK
+Length=70
+
+ Score = 60.8 bits (146),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMA+ILGLIYGLGEVFNIFSGVG KD   QNH
+Sbjct  22  MLELLKSLVFAVVMVPVVMAVILGLIYGLGEVFNIFSGVGHKDSSQQNH  70
+
+
+> UniRef90_A0A1X0W2U5 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Rouxiella silvae TaxID=1646373 RepID=A0A1X0W2U5_9GAMM
+Length=51
+
+ Score = 60.1 bits (144),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELL+SL+FAVIMVP+ +A++LGLIYG+GE+FN+ S VG   +
+Sbjct  1   MLELLESLLFAVIMVPIFIAVVLGLIYGMGELFNVISKVGHPKE  44
+
+
+> UniRef90_I0QMN2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Serratia sp. M24T3 TaxID=932213 RepID=I0QMN2_9GAMM
+Length=51
+
+ Score = 59.7 bits (143),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELL+SL+FA+IMVP+ +A++LGLIYG+GE+FN+ S VG   +
+Sbjct  1   MLELLESLLFAIIMVPIFIALVLGLIYGMGELFNVISKVGHSKE  44
+
+
+> UniRef90_A0A2U1TQ87 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Brenneria sp. CFCC 11842 TaxID=2173106 RepID=A0A2U1TQ87_9GAMM
+Length=51
+
+ Score = 59.7 bits (143),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 29/44 (66%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           ML+LL SL+FA+ MVPV+MAIILG IYGLGEVFN+ S +G  ++
+Sbjct  1   MLDLLISLLFAIAMVPVMMAIILGAIYGLGEVFNVISKIGHTEE  44
+
+
+> UniRef90_A0A376DB21 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Edwardsiella TaxID=132406 RepID=A0A376DB21_9GAMM
+Length=47
+
+ Score = 59.7 bits (143),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 29/44 (66%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELLKSLV A IMVPVVMA+ILGLI+G+GE+ N+ S  G  ++
+Sbjct  1   MLELLKSLVVAAIMVPVVMAVILGLIWGMGELCNLISAWGHPEE  44
+
+
+> UniRef90_A0A2L1UR15 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Rahnella TaxID=34037 RepID=A0A2L1UR15_9GAMM
+Length=52
+
+ Score = 59.7 bits (143),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 29/44 (66%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELL+SL+FA IMVPV +A+ILGLI+ LGEVFN+ S VG   +
+Sbjct  1   MLELLESLLFAAIMVPVFIAVILGLIWALGEVFNVISKVGHSKE  44
+
+
+> UniRef90_A0A2X4URS9 Uncharacterized membrane protein ybhT n=1 
+Tax=Leminorella richardii TaxID=158841 RepID=A0A2X4URS9_9GAMM
+Length=43
+
+ Score = 59.3 bits (142),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 30/43 (70%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD  43
+           M ELLKSLVFA  MVPVVMAIILGLIY  GE+ N  S  G  D
+Sbjct  1   MFELLKSLVFAACMVPVVMAIILGLIYAFGELCNFISSFGHSD  43
+
+
+> UniRef90_A0A263W538 Multidrug efflux pump accessory protein AcrZ 
+n=12 Tax=Enterobacteriaceae TaxID=543 RepID=A0A263W538_RAOPL
+Length=49
+
+ Score = 59.3 bits (142),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMAIILGLIYGLGEVFNIFSGVG KD+  QN+
+Sbjct  1   MLELLKSLVFAVVMVPVVMAIILGLIYGLGEVFNIFSGVGHKDRGQQNN  49
+
+
+> UniRef90_A0A318FIK3 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Klebsiella oxytoca TaxID=571 RepID=A0A318FIK3_KLEOX
+Length=49
+
+ Score = 59.3 bits (142),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMAIILGLIYGLGEVFN+FSG G KD   QNH
+Sbjct  1   MLELLKSLVFAVVMVPVVMAIILGLIYGLGEVFNLFSGAGHKDNRPQNH  49
+
+
+> UniRef90_R9VU11 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Enterobacteriaceae TaxID=543 RepID=R9VU11_9ENTR
+Length=49
+
+ Score = 58.9 bits (141),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           M ELLKSLVFAV+MVPVVMAIILGLIYGLGEVFN+FSGVG++DQ  Q  
+Sbjct  1   MFELLKSLVFAVVMVPVVMAIILGLIYGLGEVFNVFSGVGRRDQSRQQR  49
+
+
+> UniRef90_U3TPC6 Uncharacterized protein n=1 Tax=Plautia stali 
+symbiont TaxID=891974 RepID=U3TPC6_9ENTR
+Length=49
+
+ Score = 58.9 bits (141),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 27/45 (60%), Positives = 34/45 (76%), Gaps = 0/45 (0%)
+
+Query  4   LLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           +LKSL  A+IM P+VMAI+L LIYGLGEVFN+ S  G++D    N
+Sbjct  1   MLKSLAVAIIMAPIVMAIMLDLIYGLGEVFNVISKFGRRDDRPAN  45
+
+
+> UniRef90_A0A1X0WL58 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Rouxiella badensis TaxID=1646377 RepID=A0A1X0WL58_9GAMM
+Length=51
+
+ Score = 58.5 bits (140),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELL+SL+FA IMVP+ +AI+LGLIYG+GE+FN+ S +G   +
+Sbjct  1   MLELLESLLFAAIMVPIFIAIVLGLIYGMGELFNLISKIGHPKE  44
+
+
+> UniRef90_A0A0G3CXB6 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Pragia fontium TaxID=82985 RepID=A0A0G3CXB6_9GAMM
+Length=53
+
+ Score = 58.5 bits (140),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 30/51 (59%), Positives = 36/51 (71%), Gaps = 2/51 (4%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGV--GKKDQPGQNH  49
+           M  LLKSL+FA  MVPVVMA+ILG IYGLGEVFN+ S +  G+ D     +
+Sbjct  1   MFSLLKSLLFAACMVPVVMALILGAIYGLGEVFNMISKIKFGRSDHRHSEY  51
+
+
+> UniRef90_D3UZU1 Multidrug efflux pump accessory protein AcrZ 
+n=9 Tax=Xenorhabdus bovienii TaxID=40576 RepID=D3UZU1_XENBS
+Length=46
+
+ Score = 58.2 bits (139),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M EL+ S+ FA+IMVPVVMA+ILGLIYGLG VFN+ S  G  ++
+Sbjct  1   MFELIGSMAFALIMVPVVMALILGLIYGLGAVFNVISKTGNTER  44
+
+
+> UniRef90_W0HZX5 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Pectobacteriaceae TaxID=1903410 RepID=W0HZX5_9GAMM
+Length=113
+
+ Score = 59.7 bits (143),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 31/48 (65%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1    MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+            MLELL+SL   ++MVPVVMAIILGLIY LGE+FNI S  G+  Q  Q+
+Sbjct  56   MLELLESLAIVILMVPVVMAIILGLIYLLGELFNIISKFGQPKQRRQS  103
+
+
+> UniRef90_W3V2I5 Multidrug efflux pump accessory protein AcrZ 
+n=13 Tax=Photorhabdus TaxID=29487 RepID=W3V2I5_9GAMM
+Length=44
+
+ Score = 57.8 bits (138),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M EL+KS+ FA++MVPVVM  ILGLIYGLGE+FNI S +G  ++
+Sbjct  1   MFELIKSMAFALVMVPVVMVGILGLIYGLGELFNIISRIGHSEK  44
+
+
+> UniRef90_A0A2X4UL84 Multidrug efflux pump accessory protein AcrZ 
+n=9 Tax=Serratia TaxID=613 RepID=A0A2X4UL84_SERPL
+Length=44
+
+ Score = 57.8 bits (138),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLE+++SL   VI+VPV++A++LG IYGLGEVFN+FS +G+K  
+Sbjct  1   MLEMIESLATVVILVPVMIAVLLGSIYGLGEVFNVFSAIGRKKD  44
+
+
+> UniRef90_A0A034TB24 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Edwardsiella TaxID=132406 RepID=A0A034TB24_9GAMM
+Length=78
+
+ Score = 58.5 bits (140),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M ELLKSLV A IMVPVVMAII+GLI+G+GE+ N+ S  G  ++
+Sbjct  32  MFELLKSLVVAAIMVPVVMAIIMGLIWGMGELCNLISAWGHPEE  75
+
+
+> UniRef90_A0A240C059 Multidrug efflux pump accessory protein AcrZ 
+n=7 Tax=Serratia TaxID=613 RepID=A0A240C059_SERFI
+Length=45
+
+ Score = 57.4 bits (137),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLE+++SL   VI+VPV++A++LG IYGLGE+FN+FS +G+K+ 
+Sbjct  1   MLEMIESLATVVILVPVMVAVLLGTIYGLGELFNLFSAIGRKNN  44
+
+
+> UniRef90_A0A0L0AM65 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Enterobacteriaceae TaxID=543 RepID=A0A0L0AM65_9ENTR
+Length=49
+
+ Score = 57.4 bits (137),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMA+ILGLIYGLGEVFNIFSGVG KD+  Q  
+Sbjct  1   MLELLKSLVFAVVMVPVVMAVILGLIYGLGEVFNIFSGVGHKDRSAQRR  49
+
+
+> UniRef90_W1ITI3 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Xenorhabdus cabanillasii TaxID=351673 RepID=W1ITI3_9GAMM
+Length=48
+
+ Score = 57.4 bits (137),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 27/43 (63%), Positives = 35/43 (81%), Gaps = 0/43 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD  43
+           M EL+KS+ FA++MVP VMA+ILGLIYGLGE+FN+ S    K+
+Sbjct  1   MFELIKSMAFALVMVPAVMAVILGLIYGLGELFNMISKNESKN  43
+
+
+> UniRef90_A0A181XM80 Multidrug efflux pump accessory protein AcrZ 
+n=16 Tax=Enterobacteriaceae TaxID=543 RepID=A0A181XM80_KLEOX
+Length=70
+
+ Score = 57.8 bits (138),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMA+ILGLIYGLGEVFN+FSG G KD   QNH
+Sbjct  22  MLELLKSLVFAVVMVPVVMAVILGLIYGLGEVFNLFSGAGHKDSRPQNH  70
+
+
+> UniRef90_A0A2K9YV97 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Serratia TaxID=613 RepID=A0A2K9YV97_SERLI
+Length=44
+
+ Score = 56.6 bits (135),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLE+L+SL   VIMVPV++A++LG IYGLGE+FN+FS VG K  
+Sbjct  1   MLEMLESLATVVIMVPVMIALLLGSIYGLGELFNLFSAVGGKKS  44
+
+
+> UniRef90_A0A198FH64 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Cosenzaea myxofaciens ATCC 19692 TaxID=1354337 RepID=A0A198FH64_9GAMM
+Length=47
+
+ Score = 56.6 bits (135),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 36/42 (86%), Gaps = 0/42 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKK  42
+           MLELLKSL FA++MVPVVM +I+G+IYGLGEVFN+ S   +K
+Sbjct  1   MLELLKSLGFALLMVPVVMVLIMGIIYGLGEVFNLISPRPQK  42
+
+
+> UniRef90_A0A085JC89 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Tatumella ptyseos TaxID=82987 RepID=A0A085JC89_9GAMM
+Length=80
+
+ Score = 57.4 bits (137),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 27/48 (56%), Positives = 37/48 (77%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLELL+SL+ A+IMVPVV A++LGLIY LGE+FN+ SG  + +    +
+Sbjct  29  MLELLQSLLMAIIMVPVVTAVMLGLIYVLGELFNLISGSRRNNDQASH  76
+
+
+> UniRef90_G5Q011 Uncharacterized protein (Fragment) n=1 Tax=Salmonella 
+enterica subsp. enterica serovar Montevideo str. S5-403 
+TaxID=913242 RepID=G5Q011_SALMO
+Length=41
+
+ Score = 56.2 bits (134),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 26/31 (84%), Positives = 28/31 (90%), Gaps = 0/31 (0%)
+
+Query  19  MAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MAIILGLIYGLGEVFNIFSG+G+KDQ  QN 
+Sbjct  11  MAIILGLIYGLGEVFNIFSGIGQKDQSRQNR  41
+
+
+> UniRef90_D1NXM3 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Providencia rustigianii TaxID=158850 RepID=D1NXM3_9GAMM
+Length=81
+
+ Score = 57.0 bits (136),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 30/49 (61%), Positives = 37/49 (76%), Gaps = 3/49 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLEL+KSL FA++MVPVVMA+I+GLIYGLG  FN+ S   K   P  +H
+Sbjct  32  MLELIKSLGFALLMVPVVMALIMGLIYGLGAFFNLLS---KAHVPHHHH  77
+
+
+> UniRef90_A0A1Y2SQY9 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus beddingii TaxID=40578 RepID=A0A1Y2SQY9_9GAMM
+Length=48
+
+ Score = 55.8 bits (133),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 29/47 (62%), Positives = 37/47 (79%), Gaps = 3/47 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQ  47
+           M EL+ S+V A++MVPVVMA+ILGLIYGLGE+FN+ S   K +  GQ
+Sbjct  1   MFELIGSMVLALVMVPVVMAMILGLIYGLGELFNVIS---KNETQGQ  44
+
+
+> UniRef90_A0A095VFL0 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Tatumella TaxID=82986 RepID=A0A095VFL0_9GAMM
+Length=52
+
+ Score = 56.2 bits (134),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 25/38 (66%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+
+Query  11  AVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           A+IMVPVVMA++LGLIYGLGE+FN+ SG  + DQ  Q 
+Sbjct  11  AIIMVPVVMALMLGLIYGLGELFNLISGSRRHDQASQQ  48
+
+
+> UniRef90_V6MLK3 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Proteus TaxID=210425 RepID=V6MLK3_PROHU
+Length=62
+
+ Score = 56.2 bits (134),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 29/42 (69%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKK  42
+           MLELLKSL FA++MVPVVM +I+G+IYGLGEVFN+ S    K
+Sbjct  16  MLELLKSLGFALLMVPVVMVLIMGIIYGLGEVFNLISPSQPK  57
+
+
+> UniRef90_A0A2G0QAR1 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus hominickii TaxID=351679 RepID=A0A2G0QAR1_9GAMM
+Length=44
+
+ Score = 55.8 bits (133),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M EL+ S+  A++MVP+VMA+ILGLIYGLGEVFNI S    K  
+Sbjct  1   MFELISSMALALVMVPIVMAMILGLIYGLGEVFNIISKSETKKS  44
+
+
+> UniRef90_A0A068QPT6 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus doucetiae TaxID=351671 RepID=A0A068QPT6_9GAMM
+Length=46
+
+ Score = 55.5 bits (132),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 31/46 (67%), Positives = 34/46 (74%), Gaps = 1/46 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGV-GKKDQP  45
+           M ELLKSL FA+IMVPVVMA IL LIYGLG VFN+ S     + QP
+Sbjct  1   MFELLKSLGFALIMVPVVMAAILALIYGLGGVFNMISKTENTRQQP  46
+
+
+> UniRef90_T0P8Q5 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Photorhabdus TaxID=29487 RepID=T0P8Q5_PHOTE
+Length=60
+
+ Score = 55.8 bits (133),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M EL+KS+ F+++MVPVVM  ILGLIY LGE+FNI S +G  ++
+Sbjct  17  MFELIKSMAFSLVMVPVVMVGILGLIYALGELFNIISRIGHSEK  60
+
+
+> UniRef90_A0A0N1IZ93 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Photorhabdus heterorhabditis TaxID=880156 RepID=A0A0N1IZ93_9GAMM
+Length=60
+
+ Score = 55.5 bits (132),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M EL+KS+ FA++MVPV+ A ILGLIYG GE+FNI S +G  ++
+Sbjct  17  MFELIKSMAFALVMVPVMTAGILGLIYGFGELFNIISRIGHSEK  60
+
+
+> UniRef90_A0A0N0Z7S9 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Moellerella wisconsensis TaxID=158849 RepID=A0A0N0Z7S9_9GAMM
+Length=47
+
+ Score = 55.1 bits (131),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 27/37 (73%), Positives = 33/37 (89%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           MLE+LKS+ FA++MVPVVMAII+GLIYGLG  FN+ S
+Sbjct  1   MLEILKSMGFALLMVPVVMAIIMGLIYGLGTFFNLLS  37
+
+
+> UniRef90_A0A2D0K090 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Xenorhabdus TaxID=626 RepID=A0A2D0K090_9GAMM
+Length=46
+
+ Score = 54.7 bits (130),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           M EL+KS+ F ++MVPVVMA ILGLIYGLGE+FN+ S
+Sbjct  1   MFELIKSIAFELVMVPVVMAAILGLIYGLGELFNLIS  37
+
+
+> UniRef90_A0A2X5EL33 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Serratia TaxID=613 RepID=A0A2X5EL33_SERRU
+Length=71
+
+ Score = 55.1 bits (131),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/43 (58%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD  43
+           M+E+L+SL   VI+VPV++A++LG+IYGLGE+FN+ S  GKK 
+Sbjct  1   MIEMLESLATVVILVPVMVAVLLGVIYGLGELFNLISNAGKKQ  43
+
+
+> UniRef90_A0A1Z1SYM9 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Enterobacterales TaxID=91347 RepID=A0A1Z1SYM9_PROMI
+Length=47
+
+ Score = 54.3 bits (129),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 33/37 (89%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           M ELLKSL FA++MVPVVM +I+G+IYGLGE+FN+ S
+Sbjct  1   MFELLKSLGFALLMVPVVMVLIMGIIYGLGEIFNLIS  37
+
+
+> UniRef90_A0A089PVZ1 Multidrug efflux pump accessory protein AcrZ 
+n=6 Tax=Enterobacteriaceae TaxID=543 RepID=A0A089PVZ1_9ENTR
+Length=50
+
+ Score = 54.3 bits (129),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 40/50 (80%), Positives = 45/50 (90%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD-QPGQNH  49
+           M ELLKSLVFAV+MVPVVMA+ILGLIYGLGEVFN+FS VG +D QP Q+H
+Sbjct  1   MFELLKSLVFAVVMVPVVMAVILGLIYGLGEVFNVFSKVGHRDQQPKQHH  50
+
+
+> UniRef90_A0A0M0T922 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Xenorhabdus TaxID=626 RepID=A0A0M0T922_9GAMM
+Length=44
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M ELLKS+ FA+IMVPV+MA IL LIYGLGE+FN  S      +
+Sbjct  1   MFELLKSMGFALIMVPVMMAAILALIYGLGELFNCISKTENTSR  44
+
+
+> UniRef90_D4E678 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Serratia odorifera TaxID=618 RepID=D4E678_SEROD
+Length=108
+
+ Score = 55.5 bits (132),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 36/44 (82%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M+E+L+SL   VI+VPV++A++LG IYGLGE+FN+ S  GKK +
+Sbjct  36  MIEMLESLAMVVILVPVMVAVLLGAIYGLGELFNLISHAGKKKE  79
+
+
+> UniRef90_A0A1I3ICJ2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus mauleonii TaxID=351675 RepID=A0A1I3ICJ2_9GAMM
+Length=46
+
+ Score = 53.9 bits (128),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLEL+ S+ FA+IMVPVVMA IL LIYGLG VFN  S  G  ++
+Sbjct  1   MLELITSMGFALIMVPVVMAAILTLIYGLGGVFNFISKAGNTER  44
+
+
+> UniRef90_A0A1C0U1J2 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Photorhabdus australis TaxID=286156 RepID=A0A1C0U1J2_9GAMM
+Length=44
+
+ Score = 53.5 bits (127),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 25/44 (57%), Positives = 34/44 (77%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M EL+KS+ FA++MVPVV A IL LIYG GE+FN+ S +G  ++
+Sbjct  1   MFELIKSMTFALVMVPVVTAGILCLIYGFGELFNMISRIGHSEK  44
+
+
+> UniRef90_A0A3N1IUN5 Multidrug efflux pump-associated protein 
+AcrZ n=2 Tax=Enterobacter TaxID=547 RepID=A0A3N1IUN5_9ENTR
+Length=61
+
+ Score = 53.9 bits (128),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 38/45 (84%), Positives = 41/45 (91%), Gaps = 0/45 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQP  45
+           M ELLKSLVFAV+MVPVVMAIILGLIYGLGEVFNIFS +G KD+ 
+Sbjct  11  MFELLKSLVFAVVMVPVVMAIILGLIYGLGEVFNIFSNIGHKDRT  55
+
+
+> UniRef90_A0A1C0BYH6 Multidrug efflux pump accessory protein AcrZ 
+n=12 Tax=Gammaproteobacteria TaxID=1236 RepID=A0A1C0BYH6_SERMA
+Length=49
+
+ Score = 53.5 bits (127),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSL+FAV+MVPVVMA+ILGLIYG GEVFN+FS VG+  +    H
+Sbjct  1   MLELLKSLLFAVVMVPVVMALILGLIYGFGEVFNVFSKVGRSKENRTQH  49
+
+
+> UniRef90_A0A068Z4W2 Multidrug efflux pump accessory protein AcrZ 
+n=5 Tax=Serratia TaxID=613 RepID=A0A068Z4W2_9GAMM
+Length=50
+
+ Score = 52.8 bits (125),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 37/50 (74%), Positives = 42/50 (84%), Gaps = 1/50 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGK-KDQPGQNH  49
+           MLELLKSL+FAV+MVPVVMAIILGLIYGL EVFN FS +G+ K+   Q H
+Sbjct  1   MLELLKSLLFAVVMVPVVMAIILGLIYGLAEVFNRFSSLGRSKENRRQTH  50
+
+
+> UniRef90_A0A1I4ZFB7 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus japonica TaxID=53341 RepID=A0A1I4ZFB7_9GAMM
+Length=46
+
+ Score = 52.4 bits (124),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 29/46 (63%), Positives = 35/46 (76%), Gaps = 3/46 (7%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPG  46
+           M ELLKS+ F++IMVPVVMA IL LIYGLG +FNI S   K++  G
+Sbjct  1   MFELLKSMGFSLIMVPVVMAAILALIYGLGGLFNIIS---KRETKG  43
+
+
+> UniRef90_G5RCT6 Uncharacterized protein (Fragment) n=1 Tax=Salmonella 
+enterica subsp. enterica serovar Uganda str. R8-3404 
+TaxID=913083 RepID=G5RCT6_SALET
+Length=37
+
+ Score = 52.0 bits (123),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  21  IILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           IILGLIYGLGEVFNIFSG+G+KDQ  QN 
+Sbjct  9   IILGLIYGLGEVFNIFSGIGQKDQSRQNR  37
+
+
+> UniRef90_A0A2D0IY22 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Xenorhabdus TaxID=626 RepID=A0A2D0IY22_9GAMM
+Length=44
+
+ Score = 52.0 bits (123),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 27/44 (61%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M ELLKS+ FA+IMVPVVMA IL LIYGLG +FN+ S      +
+Sbjct  1   MFELLKSMGFALIMVPVVMAAILALIYGLGGLFNLISKTENTSR  44
+
+
+> UniRef90_W1IX96 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus szentirmaii DSM 16338 TaxID=1427518 RepID=W1IX96_9GAMM
+Length=46
+
+ Score = 51.6 bits (122),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M +LLKS+ F++IMVPVVMA IL LIY +GE+FN+ S  G   Q
+Sbjct  1   MFDLLKSMGFSLIMVPVVMAAILALIYVIGELFNVISKTGNTGQ  44
+
+
+> UniRef90_A0A1B7JJS5 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Proteus TaxID=210425 RepID=A0A1B7JJS5_PROHU
+Length=47
+
+ Score = 51.6 bits (122),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 35/49 (71%), Gaps = 4/49 (8%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSL FA++MVPVVM  I+GLIY LGE+FN+ S      QP  + 
+Sbjct  1   MLELLKSLGFALLMVPVVMVFIMGLIYLLGELFNLIS----PSQPKADK  45
+
+
+> UniRef90_B6XIS4 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Providencia alcalifaciens TaxID=126385 RepID=B6XIS4_9GAMM
+Length=82
+
+ Score = 52.4 bits (124),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           MLEL+KSL FA++MVPVVM +I+GLIYGLG  FN+ S
+Sbjct  32  MLELIKSLGFALLMVPVVMVLIMGLIYGLGSFFNLLS  68
+
+
+> UniRef90_A0A1J0E4E9 Multidrug efflux pump accessory protein AcrZ 
+n=9 Tax=Providencia TaxID=586 RepID=A0A1J0E4E9_PRORE
+Length=50
+
+ Score = 51.6 bits (122),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           MLEL+KSL FA++MVPVVM +I+GLIYGLG  FN+ S
+Sbjct  1   MLELIKSLGFALMMVPVVMFLIMGLIYGLGAFFNLLS  37
+
+
+> UniRef90_A0A2T4I2P9 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Morganella TaxID=108061 RepID=A0A2T4I2P9_MORMO
+Length=46
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 27/49 (55%), Positives = 36/49 (73%), Gaps = 3/49 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           M EL+KSL FA++MVPVVMA +  LI+GLGE+FN+ S   K D+  + H
+Sbjct  1   MFELIKSLGFALLMVPVVMAGLAALIWGLGEIFNLIS---KGDRHEKQH  46
+
+
+> UniRef90_A0A0F7HE63 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Serratia TaxID=613 RepID=A0A0F7HE63_SERFO
+Length=47
+
+ Score = 51.2 bits (121),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 38/49 (78%), Positives = 42/49 (86%), Gaps = 3/49 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSL+FAV+MVPVVMAIILGLIYGLGEVFN+FS VG    P +N 
+Sbjct  1   MLELLKSLLFAVVMVPVVMAIILGLIYGLGEVFNLFSKVG---HPKENR  46
+
+
+> UniRef90_K8WQ53 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Providencia TaxID=586 RepID=K8WQ53_9GAMM
+Length=50
+
+ Score = 51.2 bits (121),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 34/48 (71%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLE++KS+ FA++MVPVVM +I+GLIYGLG  FN+ S         +N
+Sbjct  1   MLEIIKSMGFALLMVPVVMFLIMGLIYGLGAFFNLLSKAHVPHHHSEN  48
+
+
+> UniRef90_A0A3B0J361 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Arsenophonus TaxID=637 RepID=A0A3B0J361_9GAMM
+Length=48
+
+ Score = 50.8 bits (120),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/48 (52%), Positives = 35/48 (73%), Gaps = 0/48 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQN  48
+           MLE+LKS++FA+ MVP+VM  I+ LIYG+GE+FNI S    +    Q+
+Sbjct  1   MLEILKSMLFALCMVPIVMGGIMLLIYGIGELFNILSKAQFRHSKKQH  48
+
+
+> UniRef90_A0A1W9F0A3 Membrane protein (Fragment) n=1 Tax=Serratia 
+nematodiphila DZ0503SBS1 TaxID=1449981 RepID=A0A1W9F0A3_9GAMM
+Length=53
+
+ Score = 50.8 bits (120),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 34/44 (77%), Positives = 40/44 (91%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELLKSL+FAV+MVPVVMA+ILGLIYG GEVFN+FS VG+  +
+Sbjct  1   MLELLKSLLFAVVMVPVVMALILGLIYGFGEVFNVFSKVGRSKE  44
+
+
+> UniRef90_B2Q392 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Providencia TaxID=586 RepID=B2Q392_PROST
+Length=61
+
+ Score = 51.2 bits (121),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 25/37 (68%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           MLE+LKS+ FA++MVPVVM +I+GLIYGLG  FN+ S
+Sbjct  13  MLEILKSMGFALLMVPVVMFLIMGLIYGLGAFFNLLS  49
+
+
+> UniRef90_D3VAQ7 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Xenorhabdus nematophila TaxID=628 RepID=D3VAQ7_XENNA
+Length=56
+
+ Score = 50.8 bits (120),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 28/47 (60%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQ  47
+           M EL++SL FA+IMVPVVMA IL LIYGLG +FN  S    K    Q
+Sbjct  10  MFELIRSLGFALIMVPVVMAAILALIYGLGGLFNTISKNEAKSSVEQ  56
+
+
+> UniRef90_A0A1I7HW05 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Xenorhabdus TaxID=626 RepID=A0A1I7HW05_9GAMM
+Length=47
+
+ Score = 50.4 bits (119),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 27/37 (73%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           M ELLKS+ FA+IMVPVVM  IL LIYGLG +FNI S
+Sbjct  1   MFELLKSMGFALIMVPVVMVAILALIYGLGGLFNIIS  37
+
+
+> UniRef90_A0A379DQ16 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Pragia fontium TaxID=82985 RepID=A0A379DQ16_9GAMM
+Length=54
+
+ Score = 50.4 bits (119),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 24/39 (62%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  11  AVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           A  MVPVVMA+ILG IYGLGEVFN+ S  G  D     H
+Sbjct  14  AACMVPVVMALILGAIYGLGEVFNMISRFGHNDHRQTEH  52
+
+
+> UniRef90_A0A250AY19 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Gibbsiella quercinecans TaxID=929813 RepID=A0A250AY19_9ENTR
+Length=89
+
+ Score = 51.2 bits (121),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 35/46 (76%), Positives = 39/46 (85%), Gaps = 0/46 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPG  46
+           MLELLKSL+FAV+MVPVVMAIILGLIYGLGEVFN+ S VG   +  
+Sbjct  37  MLELLKSLLFAVVMVPVVMAIILGLIYGLGEVFNVLSKVGHSSEKS  82
+
+
+> UniRef90_C4K5R8 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Hamiltonella defensa subsp. Acyrthosiphon pisum (strain 
+5AT) TaxID=572265 RepID=C4K5R8_HAMD5
+Length=49
+
+ Score = 50.1 bits (118),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 24/47 (51%), Positives = 33/47 (70%), Gaps = 2/47 (4%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQ  47
+           M ELLKS +FA++MVPV++ +IL LIYG G++FN+ S   K D    
+Sbjct  4   MFELLKSFLFALLMVPVMITMILSLIYGFGKIFNLIS--HKNDHSSS  48
+
+
+> UniRef90_A0A1N6N020 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus innexi TaxID=290109 RepID=A0A1N6N020_9GAMM
+Length=46
+
+ Score = 49.7 bits (117),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 24/37 (65%), Positives = 30/37 (81%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           M EL+KS+ F ++MVPVVM  ILGLIY LGE+FN+ S
+Sbjct  1   MFELIKSIAFELVMVPVVMVTILGLIYVLGELFNVIS  37
+
+
+> UniRef90_A0A2X1TQJ3 Multidrug efflux pump accessory protein AcrZ 
+n=7 Tax=Bacteria TaxID=2 RepID=A0A2X1TQJ3_MORMO
+Length=46
+
+ Score = 49.7 bits (117),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 36/49 (73%), Gaps = 3/49 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           M EL+KSL FA++MVPVVMA +  LI+GLGE+FN+ S   K ++  + H
+Sbjct  1   MFELIKSLGFALLMVPVVMAGLAALIWGLGEIFNLIS---KGERHEKQH  46
+
+
+> UniRef90_A0A1S8CML3 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Serratia oryzae TaxID=2034155 RepID=A0A1S8CML3_9GAMM
+Length=47
+
+ Score = 47.0 bits (110),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/45 (73%), Positives = 38/45 (84%), Gaps = 0/45 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQP  45
+           MLELLKSL+FAV+MVPVVMA+ILGLIY L EVFN+FS VG   + 
+Sbjct  1   MLELLKSLLFAVVMVPVVMAVILGLIYALAEVFNVFSKVGHSKEK  45
+
+
+> UniRef90_A0A083ZWL8 Multidrug efflux pump accessory protein AcrZ 
+n=2 Tax=Serratia TaxID=613 RepID=A0A083ZWL8_9GAMM
+Length=47
+
+ Score = 45.4 bits (106),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 36/49 (73%), Positives = 42/49 (86%), Gaps = 3/49 (6%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH  49
+           MLELLKSLVFAV+MVPVVMA+ILGLIY LGEVFN+FS +G    P ++H
+Sbjct  1   MLELLKSLVFAVVMVPVVMAVILGLIYALGEVFNVFSKLG---HPKEDH  46
+
+
+> UniRef90_W0LGZ0 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Chania multitudinisentens RB-25 TaxID=1441930 RepID=W0LGZ0_9GAMM
+Length=47
+
+ Score = 45.4 bits (106),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 32/44 (73%), Positives = 39/44 (89%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELLKSL+FAV+MVPVVMA+ILGLIY LGEVFN+ S +G  ++
+Sbjct  1   MLELLKSLLFAVVMVPVVMAVILGLIYALGEVFNVLSKIGHPEE  44
+
+
+> UniRef90_A0A0T9NLB3 Multidrug efflux pump accessory protein AcrZ 
+n=3 Tax=Yersinia TaxID=444888 RepID=A0A0T9NLB3_YERKR
+Length=46
+
+ Score = 45.1 bits (105),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 33/46 (72%), Positives = 38/46 (83%), Gaps = 0/46 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPG  46
+           ML+LLKSL+FAV+MVPVVMA+ILGLIYGLGEVFNI S    K +  
+Sbjct  1   MLDLLKSLLFAVVMVPVVMAVILGLIYGLGEVFNIISKSSNKKERA  46
+
+
+> UniRef90_A0A0E1ND13 Multidrug efflux pump accessory protein AcrZ 
+n=20 Tax=Yersinia TaxID=444888 RepID=A0A0E1ND13_YEREN
+Length=46
+
+ Score = 44.7 bits (104),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/44 (73%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           ML+LLKSL+FAV+MVPVVMA+ILG+IYGLGEVFNI S  G   +
+Sbjct  1   MLDLLKSLLFAVVMVPVVMAVILGMIYGLGEVFNIISKTGHTKE  44
+
+
+> UniRef90_A0A087KV73 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Serratia sp. Ag1 TaxID=1524467 RepID=A0A087KV73_9GAMM
+Length=47
+
+ Score = 44.3 bits (103),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 33/45 (73%), Positives = 38/45 (84%), Gaps = 0/45 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQP  45
+           M ELLKSLVFAV+MVPVVMAIILGLIY L EVFN+FS +G  ++ 
+Sbjct  1   MFELLKSLVFAVVMVPVVMAIILGLIYALAEVFNVFSKIGHTNEK  45
+
+
+> UniRef90_A0A140EZV5 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Serratia TaxID=613 RepID=A0A140EZV5_SERRU
+Length=47
+
+ Score = 43.5 bits (101),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 35/40 (88%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVG  40
+           MLELLKSLVFAV+MVPVVMA+ILGLIYGL EVFNIFS  G
+Sbjct  1   MLELLKSLVFAVVMVPVVMAVILGLIYGLAEVFNIFSKAG  40
+
+
+> UniRef90_A0A0T9TFS3 Multidrug efflux pump accessory protein AcrZ 
+n=4 Tax=Yersinia TaxID=444888 RepID=A0A0T9TFS3_YERAL
+Length=46
+
+ Score = 42.7 bits (99),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 35/44 (80%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLELLKSLVFAV+MVPVVMA+ILGLIYGLGEVFNI S  G   +
+Sbjct  1   MLELLKSLVFAVVMVPVVMAVILGLIYGLGEVFNIISKSGHNKE  44
+
+
+> UniRef90_A0A1S6LRG1 Multidrug efflux pump accessory protein AcrZ 
+n=14 Tax=Bacteria TaxID=2 RepID=A0A1S6LRG1_SERMA
+Length=45
+
+ Score = 42.0 bits (97),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 26/44 (59%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           MLE+L+SL   V++VPV++A++LG IYGLGEVFN+FS +G+K  
+Sbjct  1   MLEMLESLATVVVLVPVMVAVLLGAIYGLGEVFNVFSAIGRKKN  44
+
+
+> UniRef90_A0A094QKL0 Multidrug efflux pump accessory protein AcrZ 
+n=17 Tax=Pectobacterium TaxID=122277 RepID=A0A094QKL0_PECCA
+Length=51
+
+ Score = 42.0 bits (97),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/49 (63%), Positives = 38/49 (78%), Gaps = 1/49 (2%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD-QPGQN  48
+           MLELLKSL+FAV MVPV+M +I+G IY LGEVFN+ S +G  D Q  +N
+Sbjct  1   MLELLKSLLFAVAMVPVMMVVIMGAIYCLGEVFNVLSRIGHSDGQRAKN  49
+
+
+> UniRef90_A0A2D0J5U1 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus budapestensis TaxID=290110 RepID=A0A2D0J5U1_XENBU
+Length=48
+
+ Score = 41.6 bits (96),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 27/43 (63%), Positives = 35/43 (81%), Gaps = 0/43 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD  43
+           M EL+KS+ F+++MVPVVM +ILGLIYGLGE+FNI S    K+
+Sbjct  1   MFELIKSMAFSLVMVPVVMVVILGLIYGLGELFNIISKNETKN  43
+
+
+> UniRef90_A0A0T9PUC3 Multidrug efflux pump accessory protein AcrZ 
+n=17 Tax=Yersinia TaxID=444888 RepID=A0A0T9PUC3_9GAMM
+Length=50
+
+ Score = 41.2 bits (95),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 33/44 (75%), Positives = 37/44 (84%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M ELLKSLVFAV+MVPVVMA+ILGLIYGLGEVFN+ S  G   +
+Sbjct  1   MFELLKSLVFAVVMVPVVMAVILGLIYGLGEVFNVISKTGHPKE  44
+
+
+> UniRef90_A0A085HKL5 Uncharacterized protein n=1 Tax=Leminorella 
+grimontii ATCC 33999 = DSM 5078 TaxID=1005999 RepID=A0A085HKL5_9GAMM
+Length=43
+
+ Score = 39.3 bits (90),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 26/43 (60%), Positives = 29/43 (67%), Gaps = 0/43 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKD  43
+           M ELLKSLV    +VPVVMAIILGLIY  GE+ N  S  G  +
+Sbjct  1   MFELLKSLVVVTCLVPVVMAIILGLIYAFGELCNFISSFGHSE  43
+
+
+> UniRef90_A0A2D0JPB3 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Xenorhabdus miraniensis TaxID=351674 RepID=A0A2D0JPB3_9GAMM
+Length=46
+
+ Score = 37.7 bits (86),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 26/37 (70%), Positives = 33/37 (89%), Gaps = 0/37 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFS  37
+           MLEL+KS+  A++M+PVVM +I+GLIYGLGEVFNI S
+Sbjct  1   MLELIKSMGLALVMIPVVMVVIMGLIYGLGEVFNIIS  37
+
+
+> UniRef90_A0A0U1HTP4 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Yersinia rohdei TaxID=29485 RepID=A0A0U1HTP4_YERRO
+Length=46
+
+ Score = 37.0 bits (84),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/44 (70%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQ  44
+           M +LLKSLVFAV+MVPVVMA ILG+IYGLG VFNI S  G   +
+Sbjct  1   MFDLLKSLVFAVVMVPVVMAAILGMIYGLGAVFNIISKSGHNKE  44
+
+
+> UniRef90_A0A0M1V6H8 Uncharacterized protein n=1 Tax=Yersinia 
+pestis biovar Orientalis str. IP275 TaxID=373665 RepID=A0A0M1V6H8_YERPE
+Length=38
+
+ Score = 35.8 bits (81),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 31/34 (91%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+
+Query  1   MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFN  34
+           M ELLKSLVFAV+MVPVVMA+ILGLIYGLGEVFN
+Sbjct  1   MFELLKSLVFAVVMVPVVMAVILGLIYGLGEVFN  34
+
+
+> UniRef90_A0A2U8I9H4 Multidrug efflux pump accessory protein AcrZ 
+n=1 Tax=Candidatus Fukatsuia symbiotica TaxID=1878942 RepID=A0A2U8I9H4_9GAMM
+Length=43
+
+ Score = 24.3 bits (51),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 10/14 (71%), Positives = 12/14 (86%), Gaps = 0/14 (0%)
+
+Query  24  GLIYGLGEVFNIFS  37
+           GLIYGLG +FN+ S
+Sbjct  24  GLIYGLGGIFNLIS  37
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.149    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 211548
+
+
+  Database: isar.db.102
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 8,667
+  Number of sequences in database:  163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

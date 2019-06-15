@@ -1,0 +1,563 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: isar.db.191
+           30 sequences; 2,522 total letters
+
+Results from round 1
+
+
+Query= Q02376|5lnkx|NDUC1_BOVIN 0.631578947368421
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef90_Q02376 NADH dehydrogenase [ubiquinone] 1 subunit C1, m...  156     6e-56
+  UniRef90_A0A212CNA9 Uncharacterized protein n=7 Tax=Pecora TaxI...  145     1e-51
+  UniRef90_A0A287BHT1 Uncharacterized protein n=3 Tax=Cetartiodac...  136     9e-48
+  UniRef90_A0A383ZBY3 NADH dehydrogenase [ubiquinone] 1 subunit C...  135     2e-47
+  UniRef90_A1XQS6 NDUFC1 n=1 Tax=Sus scrofa TaxID=9823 RepID=A1XQ...  134     4e-47
+  UniRef90_G1LX01 NADH:ubiquinone oxidoreductase subunit C1 n=22 ...  132     2e-46
+  UniRef90_G1PCV5 NADH:ubiquinone oxidoreductase subunit C1 n=5 T...  132     3e-46
+  UniRef90_G1SLR9 NADH:ubiquinone oxidoreductase subunit C1 n=2 T...  133     5e-46
+  UniRef90_A0A212CNH6 Uncharacterized protein n=1 Tax=Cervus elap...  131     2e-45
+  UniRef90_O43677 NADH dehydrogenase [ubiquinone] 1 subunit C1, m...  128     1e-44
+  UniRef90_A0A2K6EGM7 NADH:ubiquinone oxidoreductase subunit C1 n...  127     2e-44
+  UniRef90_H0WYE4 NADH:ubiquinone oxidoreductase subunit C1 n=1 T...  125     2e-43
+  UniRef90_A0A2K5NMU0 NADH:ubiquinone oxidoreductase subunit C1 n...  124     4e-43
+  UniRef90_Q9CQY9 NADH dehydrogenase [ubiquinone] 1 subunit C1, m...  122     4e-42
+  UniRef90_G3T5N1 Uncharacterized protein n=2 Tax=Afrotheria TaxI...  121     5e-42
+  UniRef90_A0A1U7SUG1 NADH dehydrogenase [ubiquinone] 1 subunit C...  119     6e-41
+  UniRef90_A0A2K5PS26 NADH:ubiquinone oxidoreductase subunit C1 n...  116     9e-40
+  UniRef90_A0A1S2ZSD7 NADH dehydrogenase [ubiquinone] 1 subunit C...  115     9e-40
+  UniRef90_A0A2U3YJ57 NADH dehydrogenase [ubiquinone] 1 subunit C...  113     1e-38
+  UniRef90_J9P358 Uncharacterized protein n=1 Tax=Canis lupus fam...  112     3e-38
+  UniRef90_A0A212D7U4 NDUFC1 n=1 Tax=Cervus elaphus hippelaphus T...  111     1e-37
+  UniRef90_A0A2K6SGV6 NADH:ubiquinone oxidoreductase subunit C1 n...  108     1e-36
+  UniRef90_G3UMT9 Uncharacterized protein n=2 Tax=Loxodonta afric...  105     1e-35
+  UniRef90_F6X0B5 NADH:ubiquinone oxidoreductase subunit C1 n=3 T...  104     3e-35
+  UniRef90_A0A2K5J0P5 NADH:ubiquinone oxidoreductase subunit C1 n...  103     8e-35
+  UniRef90_L5LEA9 NADH dehydrogenase [ubiquinone] 1 subunit C1, m...  89.4    4e-29
+  UniRef90_F6YCC9 NADH:ubiquinone oxidoreductase subunit C1 n=1 T...  86.3    5e-28
+  UniRef90_T0MKN1 Uncharacterized protein n=1 Tax=Camelus ferus T...  90.9    6e-28
+  UniRef90_C1BPZ1 NADH dehydrogenase 1 subunit C1, mitochondrial ...  70.9    6e-22
+  UniRef90_D2H3G5 Uncharacterized protein (Fragment) n=1 Tax=Ailu...  66.6    2e-20
+
+
+> UniRef90_Q02376 NADH dehydrogenase [ubiquinone] 1 subunit C1, 
+mitochondrial n=3 Tax=Bos TaxID=9903 RepID=NDUC1_BOVIN
+Length=76
+
+ Score = 156 bits (395),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 76/76 (100%), Positives = 76/76 (100%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK
+Sbjct  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_A0A212CNA9 Uncharacterized protein n=7 Tax=Pecora TaxID=35500 
+RepID=A0A212CNA9_CEREH
+Length=76
+
+ Score = 145 bits (367),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 72/76 (95%), Positives = 73/76 (96%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRPF KLLAPARFP VSSSRSKFYI+EPPHGSPNW KVGLTLGTSVFLWIYLIK
+Sbjct  1   MAPSALLRPFRKLLAPARFPIVSSSRSKFYIREPPHGSPNWPKVGLTLGTSVFLWIYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_A0A287BHT1 Uncharacterized protein n=3 Tax=Cetartiodactyla 
+TaxID=91561 RepID=A0A287BHT1_PIG
+Length=76
+
+ Score = 136 bits (342),  Expect = 9e-48, Method: Compositional matrix adjust.
+ Identities = 66/76 (87%), Positives = 70/76 (92%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MA SALLRPF KLL+ AR PS SS+RSKFYI+EPPHGSP+WLKVGLTLGTSVFLWIYLIK
+Sbjct  1   MAASALLRPFSKLLSSARLPSGSSARSKFYIREPPHGSPDWLKVGLTLGTSVFLWIYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QH EDVLEYKRRNGLE
+Sbjct  61  QHKEDVLEYKRRNGLE  76
+
+
+> UniRef90_A0A383ZBY3 NADH dehydrogenase [ubiquinone] 1 subunit 
+C1, mitochondrial n=2 Tax=Laurasiatheria TaxID=314145 RepID=A0A383ZBY3_BALAS
+Length=76
+
+ Score = 135 bits (340),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 66/76 (87%), Positives = 70/76 (92%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRPF KLLAPAR PS SS+RSKFYI+EPPHG P+WLKVGLTLGTSVFLW+ LIK
+Sbjct  1   MAPSALLRPFSKLLAPARLPSGSSARSKFYIREPPHGRPDWLKVGLTLGTSVFLWMCLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRN LE
+Sbjct  61  QHNEDVLEYKRRNRLE  76
+
+
+> UniRef90_A1XQS6 NDUFC1 n=1 Tax=Sus scrofa TaxID=9823 RepID=A1XQS6_PIG
+Length=76
+
+ Score = 134 bits (338),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 65/76 (86%), Positives = 69/76 (91%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MA SAL RPF KLL+ AR PS SS+RSKFYI+EPPHGSP+WLKVGLTLGTSVFLWIYLIK
+Sbjct  1   MAASALFRPFSKLLSSARLPSGSSARSKFYIREPPHGSPDWLKVGLTLGTSVFLWIYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QH EDVLEYKRRNGLE
+Sbjct  61  QHKEDVLEYKRRNGLE  76
+
+
+> UniRef90_G1LX01 NADH:ubiquinone oxidoreductase subunit C1 n=22 
+Tax=Laurasiatheria TaxID=314145 RepID=G1LX01_AILME
+Length=76
+
+ Score = 132 bits (333),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 64/76 (84%), Positives = 68/76 (89%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAP ALLRPF KLLAP R  S SS+RSKFY++EPPH  P+WLKVGLTLGTSVFLWIYLIK
+Sbjct  1   MAPPALLRPFSKLLAPTRLSSGSSARSKFYVREPPHDRPDWLKVGLTLGTSVFLWIYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_G1PCV5 NADH:ubiquinone oxidoreductase subunit C1 n=5 
+Tax=Boreoeutheria TaxID=1437010 RepID=G1PCV5_MYOLU
+Length=76
+
+ Score = 132 bits (332),  Expect = 3e-46, Method: Compositional matrix adjust.
+ Identities = 63/76 (83%), Positives = 69/76 (91%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRPF +LLAPAR PS SS+RSKFY++EP H  P+WLKVGLTLGT+VFLW YLIK
+Sbjct  1   MAPSALLRPFSRLLAPARLPSGSSARSKFYVREPLHDKPDWLKVGLTLGTTVFLWAYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_G1SLR9 NADH:ubiquinone oxidoreductase subunit C1 n=2 
+Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1SLR9_RABIT
+Length=128
+
+ Score = 133 bits (335),  Expect = 5e-46, Method: Compositional matrix adjust.
+ Identities = 62/76 (82%), Positives = 69/76 (91%), Gaps = 0/76 (0%)
+
+Query  1    MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+            MAPSALLRP  +LLAPAR PS SS+RSKFY++EPP+  P+WLKVGLTLG+S FLWIYLIK
+Sbjct  53   MAPSALLRPLSRLLAPARLPSGSSARSKFYVREPPNDKPDWLKVGLTLGSSAFLWIYLIK  112
+
+Query  61   QHNEDVLEYKRRNGLE  76
+            QHNEDVLEYKRRNGLE
+Sbjct  113  QHNEDVLEYKRRNGLE  128
+
+
+> UniRef90_A0A212CNH6 Uncharacterized protein n=1 Tax=Cervus elaphus 
+hippelaphus TaxID=46360 RepID=A0A212CNH6_CEREH
+Length=108
+
+ Score = 131 bits (330),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 64/69 (93%), Positives = 66/69 (96%), Gaps = 1/69 (1%)
+
+Query  7   LRPFWKLLAPARFPSVSSSRSKFYI-QEPPHGSPNWLKVGLTLGTSVFLWIYLIKQHNED  65
+           +RPFWKLLAPARFP VSSSRSKFYI +EPPHGSPNW KVGLTLGTSVFLWIYLIKQHNED
+Sbjct  1   MRPFWKLLAPARFPIVSSSRSKFYIVREPPHGSPNWPKVGLTLGTSVFLWIYLIKQHNED  60
+
+Query  66  VLEYKRRNG  74
+           VLEYKRRNG
+Sbjct  61  VLEYKRRNG  69
+
+
+> UniRef90_O43677 NADH dehydrogenase [ubiquinone] 1 subunit C1, 
+mitochondrial n=21 Tax=Catarrhini TaxID=9526 RepID=NDUC1_HUMAN
+Length=76
+
+ Score = 128 bits (322),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 60/76 (79%), Positives = 67/76 (88%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRP  +LLAPAR PS  S RSKFY++EPP+  P+WLKVG TLGT+VFLWIYLIK
+Sbjct  1   MAPSALLRPLSRLLAPARLPSGPSVRSKFYVREPPNAKPDWLKVGFTLGTTVFLWIYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNED+LEYKRRNGLE
+Sbjct  61  QHNEDILEYKRRNGLE  76
+
+
+> UniRef90_A0A2K6EGM7 NADH:ubiquinone oxidoreductase subunit C1 
+n=1 Tax=Propithecus coquereli TaxID=379532 RepID=A0A2K6EGM7_PROCO
+Length=76
+
+ Score = 127 bits (320),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 58/76 (76%), Positives = 69/76 (91%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRPF +LLAPAR P  SS+RSKFY+++PP+  P+WLKVGLT+GT++F+W YLIK
+Sbjct  1   MAPSALLRPFSRLLAPARLPGGSSARSKFYVRDPPNDKPDWLKVGLTVGTTIFMWGYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_H0WYE4 NADH:ubiquinone oxidoreductase subunit C1 n=1 
+Tax=Otolemur garnettii TaxID=30611 RepID=H0WYE4_OTOGA
+Length=76
+
+ Score = 125 bits (314),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 59/76 (78%), Positives = 67/76 (88%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSA LRPF +LLAPA+ PS SS RSKFY++EPP+  P+WLKVGL LGTS+FLW YLI+
+Sbjct  1   MAPSAWLRPFSRLLAPAKLPSGSSVRSKFYVREPPNAKPDWLKVGLALGTSIFLWFYLIR  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_A0A2K5NMU0 NADH:ubiquinone oxidoreductase subunit C1 
+n=1 Tax=Cercocebus atys TaxID=9531 RepID=A0A2K5NMU0_CERAT
+Length=76
+
+ Score = 124 bits (312),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 58/76 (76%), Positives = 67/76 (88%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MA SALLRP  +LLAPAR PS SS+RSKFY++EP +  PNWLKVGLTLGT+V LW+YLIK
+Sbjct  1   MASSALLRPLSRLLAPARLPSGSSARSKFYVREPLNAKPNWLKVGLTLGTTVVLWVYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNE++LEYKRRNGLE
+Sbjct  61  QHNENILEYKRRNGLE  76
+
+
+> UniRef90_Q9CQY9 NADH dehydrogenase [ubiquinone] 1 subunit C1, 
+mitochondrial n=3 Tax=Mus TaxID=862507 RepID=NDUC1_MOUSE
+Length=76
+
+ Score = 122 bits (305),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 55/76 (72%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPS +LR F +LLAPAR PS SS+RSKFY++EP +  PNWL VGL++G SVF+WIYLI+
+Sbjct  1   MAPSVVLRSFSRLLAPARLPSCSSTRSKFYVREPVNAKPNWLAVGLSVGASVFMWIYLIQ  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+            HNEDVLEYKRRNGLE
+Sbjct  61  THNEDVLEYKRRNGLE  76
+
+
+> UniRef90_G3T5N1 Uncharacterized protein n=2 Tax=Afrotheria TaxID=311790 
+RepID=G3T5N1_LOXAF
+Length=76
+
+ Score = 121 bits (304),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 59/76 (78%), Positives = 65/76 (86%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPS LLR F +LLAPA  PS  S+RSKFY++EPP+  PNWLKVGLTLGT+ FLW YLIK
+Sbjct  1   MAPSTLLRRFSRLLAPAWLPSGLSARSKFYVREPPNSKPNWLKVGLTLGTTAFLWAYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_A0A1U7SUG1 NADH dehydrogenase [ubiquinone] 1 subunit 
+C1, mitochondrial n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7SUG1_TARSY
+Length=76
+
+ Score = 119 bits (297),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 55/76 (72%), Positives = 63/76 (83%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAP   LRPF +LLAPAR PS +S RSKFY+++PP+  PNWLKVGL  GTS FLW +LIK
+Sbjct  1   MAPPMPLRPFSRLLAPARLPSAASGRSKFYVRDPPNDKPNWLKVGLAFGTSGFLWFHLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNED+LEYKRRNGLE
+Sbjct  61  QHNEDILEYKRRNGLE  76
+
+
+> UniRef90_A0A2K5PS26 NADH:ubiquinone oxidoreductase subunit C1 
+n=6 Tax=Platyrrhini TaxID=9479 RepID=A0A2K5PS26_CEBCA
+Length=76
+
+ Score = 116 bits (290),  Expect = 9e-40, Method: Compositional matrix adjust.
+ Identities = 53/76 (70%), Positives = 66/76 (87%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRP  +LLAPAR PS SS+RSKFY ++PP+  P+WLKV L++GTS+FLW+YLI+
+Sbjct  1   MAPSALLRPLSRLLAPARLPSRSSARSKFYARDPPNAKPDWLKVVLSVGTSIFLWVYLIR  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           +HNE +LEYKRRN LE
+Sbjct  61  KHNEYILEYKRRNELE  76
+
+
+> UniRef90_A0A1S2ZSD7 NADH dehydrogenase [ubiquinone] 1 subunit 
+C1, mitochondrial n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S2ZSD7_ERIEU
+Length=75
+
+ Score = 115 bits (289),  Expect = 9e-40, Method: Compositional matrix adjust.
+ Identities = 55/76 (72%), Positives = 64/76 (84%), Gaps = 1/76 (1%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPS +LR   +LLAPAR P   S+RSKFY++EPP  +PNWLKVGLTLGTS+FLW YLIK
+Sbjct  1   MAPS-MLRQVCRLLAPARLPRAFSARSKFYVREPPDSNPNWLKVGLTLGTSIFLWFYLIK  59
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           +HN+DV EYKRRNGLE
+Sbjct  60  EHNDDVSEYKRRNGLE  75
+
+
+> UniRef90_A0A2U3YJ57 NADH dehydrogenase [ubiquinone] 1 subunit 
+C1, mitochondrial-like n=1 Tax=Leptonychotes weddellii TaxID=9713 
+RepID=A0A2U3YJ57_LEPWE
+Length=94
+
+ Score = 113 bits (283),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 53/63 (84%), Positives = 57/63 (90%), Gaps = 0/63 (0%)
+
+Query  14  LAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIKQHNEDVLEYKRRN  73
+           LAPAR PS SS+RSKFYI+E PH   +WLKVGLTLGTSVFLWIYLIKQHN+DVLEYKRRN
+Sbjct  32  LAPARLPSGSSARSKFYIREAPHDRTDWLKVGLTLGTSVFLWIYLIKQHNDDVLEYKRRN  91
+
+Query  74  GLE  76
+           GLE
+Sbjct  92  GLE  94
+
+
+ Score = 14.2 bits (25),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 5/11 (45%), Positives = 7/11 (64%), Gaps = 0/11 (0%)
+
+Query  57  YLIKQHNEDVL  67
+           +LI + N D L
+Sbjct  10  FLISKENSDHL  20
+
+
+> UniRef90_J9P358 Uncharacterized protein n=1 Tax=Canis lupus familiaris 
+TaxID=9615 RepID=J9P358_CANLF
+Length=76
+
+ Score = 112 bits (280),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 56/76 (74%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MA   LL  F KLL+P   P  SS+RSKFY+QE P    +WLKVGLTLGTSVFLWIYLIK
+Sbjct  1   MALPTLLHLFSKLLSPTILPGGSSARSKFYVQELPQDRLDWLKVGLTLGTSVFLWIYLIK  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNEDVLEYKRRNGLE
+Sbjct  61  QHNEDVLEYKRRNGLE  76
+
+
+> UniRef90_A0A212D7U4 NDUFC1 n=1 Tax=Cervus elaphus hippelaphus 
+TaxID=46360 RepID=A0A212D7U4_CEREH
+Length=94
+
+ Score = 111 bits (277),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYL  58
+           MAPSAL+RPFWKLLAPARFP VSSSRSKFYI+EPPHGSPNW KVGLTLGTSVFLWIY+
+Sbjct  1   MAPSALMRPFWKLLAPARFPIVSSSRSKFYIREPPHGSPNWPKVGLTLGTSVFLWIYV  58
+
+
+> UniRef90_A0A2K6SGV6 NADH:ubiquinone oxidoreductase subunit C1 
+n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=A0A2K6SGV6_SAIBB
+Length=78
+
+ Score = 108 bits (269),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 52/78 (67%), Positives = 64/78 (82%), Gaps = 2/78 (3%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSV--SSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYL  58
+           MAPSA LRPF +LLA     S   +S+RSKFY +EPP+  PNWLKVGL++GTSVFLW+YL
+Sbjct  1   MAPSAFLRPFSRLLAAIYRHSALSASARSKFYAREPPNAKPNWLKVGLSVGTSVFLWVYL  60
+
+Query  59  IKQHNEDVLEYKRRNGLE  76
+           I++HNE ++EYKRRNGLE
+Sbjct  61  IRKHNEYIVEYKRRNGLE  78
+
+
+> UniRef90_G3UMT9 Uncharacterized protein n=2 Tax=Loxodonta africana 
+TaxID=9785 RepID=G3UMT9_LOXAF
+Length=76
+
+ Score = 105 bits (263),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 52/74 (70%), Positives = 59/74 (80%), Gaps = 0/74 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MA S LLR F +LLAPA   S  S+RSKFY++EPP+  P+WLKVGLTLGT+ FLW  LIK
+Sbjct  1   MALSTLLRRFSRLLAPAWLQSSLSARSKFYVREPPNSKPDWLKVGLTLGTTAFLWACLIK  60
+
+Query  61  QHNEDVLEYKRRNG  74
+           QHNEDVLEYKRR G
+Sbjct  61  QHNEDVLEYKRRMG  74
+
+
+> UniRef90_F6X0B5 NADH:ubiquinone oxidoreductase subunit C1 n=3 
+Tax=Laurasiatheria TaxID=314145 RepID=F6X0B5_HORSE
+Length=68
+
+ Score = 104 bits (260),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 48/57 (84%), Positives = 52/57 (91%), Gaps = 0/57 (0%)
+
+Query  20  PSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIKQHNEDVLEYKRRNGLE  76
+           P  +S+RSKFYI+ PPH  P+WLKVGLTLGTSVFLWIYLIKQHNEDVLEYKRRNGLE
+Sbjct  12  PLSASARSKFYIRAPPHDKPDWLKVGLTLGTSVFLWIYLIKQHNEDVLEYKRRNGLE  68
+
+
+> UniRef90_A0A2K5J0P5 NADH:ubiquinone oxidoreductase subunit C1 
+n=4 Tax=Colobinae TaxID=9569 RepID=A0A2K5J0P5_COLAP
+Length=76
+
+ Score = 103 bits (257),  Expect = 8e-35, Method: Compositional matrix adjust.
+ Identities = 59/76 (78%), Positives = 67/76 (88%), Gaps = 0/76 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MAPSALLRP   LLAPAR PS SS+RSKFY++EP +  P+WLKVGLTLGTSVFLW+ LI+
+Sbjct  1   MAPSALLRPLSLLLAPARLPSGSSARSKFYVREPLNAKPDWLKVGLTLGTSVFLWVCLIR  60
+
+Query  61  QHNEDVLEYKRRNGLE  76
+           QHNED+LEYKRRNGLE
+Sbjct  61  QHNEDILEYKRRNGLE  76
+
+
+> UniRef90_L5LEA9 NADH dehydrogenase [ubiquinone] 1 subunit C1, 
+mitochondrial n=1 Tax=Myotis davidii TaxID=225400 RepID=L5LEA9_MYODS
+Length=75
+
+ Score = 89.4 bits (220),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 42/61 (69%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  16  PARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIKQHNEDVLEYKRRNGL  75
+           PAR  S  S +SKFY+ EP H   +WLKVGLTL T+VFLW+YLIKQHNEDVLEYK RN +
+Sbjct  15  PARLLSSWSVQSKFYVPEPLHDKTDWLKVGLTLDTTVFLWVYLIKQHNEDVLEYKWRNAV  74
+
+Query  76  E  76
+           E
+Sbjct  75  E  75
+
+
+> UniRef90_F6YCC9 NADH:ubiquinone oxidoreductase subunit C1 n=1 
+Tax=Monodelphis domestica TaxID=13616 RepID=F6YCC9_MONDO
+Length=77
+
+ Score = 86.3 bits (212),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 44/77 (57%), Positives = 55/77 (71%), Gaps = 1/77 (1%)
+
+Query  1   MAPSALLRP-FWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLI  59
+           MAPS  L P   ++L+ AR P  +  RS FY+++ P+  PNWLKV LTLGTS  LW YL+
+Sbjct  1   MAPSLQLLPTLSRVLSGARLPRHTLVRSVFYVRDFPNDKPNWLKVILTLGTSAGLWTYLL  60
+
+Query  60  KQHNEDVLEYKRRNGLE  76
+           KQH ED+LEY+RR GLE
+Sbjct  61  KQHEEDILEYERRKGLE  77
+
+
+> UniRef90_T0MKN1 Uncharacterized protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=T0MKN1_CAMFR
+Length=249
+
+ Score = 90.9 bits (224),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 45/60 (75%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  1   MAPSALLRPFWKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIK  60
+           MA SALLR F KLLAP R  + S SRSKFYI+EPPHG P+WLKVGLTLGTS FLWIY  K
+Sbjct  1   MALSALLRSFSKLLAPVRLQNGSPSRSKFYIREPPHGKPDWLKVGLTLGTSGFLWIYTYK  60
+
+
+> UniRef90_C1BPZ1 NADH dehydrogenase 1 subunit C1, mitochondrial 
+n=4 Tax=Bilateria TaxID=33213 RepID=C1BPZ1_CALRO
+Length=69
+
+ Score = 70.9 bits (172),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 36/66 (55%), Positives = 42/66 (64%), Gaps = 0/66 (0%)
+
+Query  11  WKLLAPARFPSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYLIKQHNEDVLEYK  70
+           ++LL  A   S   SRS F   +P H +PNWL+VGL  GTS FLW  L KQH+ DV  YK
+Sbjct  4   YRLLLRAASVSKIGSRSVFTAAKPDHTNPNWLRVGLAFGTSAFLWGLLFKQHSTDVHGYK  63
+
+Query  71  RRNGLE  76
+            RNGLE
+Sbjct  64  VRNGLE  69
+
+
+> UniRef90_D2H3G5 Uncharacterized protein (Fragment) n=1 Tax=Ailuropoda 
+melanoleuca TaxID=9646 RepID=D2H3G5_AILME
+Length=39
+
+ Score = 66.6 bits (161),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 29/39 (74%), Positives = 35/39 (90%), Gaps = 0/39 (0%)
+
+Query  20  PSVSSSRSKFYIQEPPHGSPNWLKVGLTLGTSVFLWIYL  58
+           P  +S+RSKFY++EPPH  P+WLKVGLTLGTSVFLWIY+
+Sbjct  1   PLSASARSKFYVREPPHDRPDWLKVGLTLGTSVFLWIYV  39
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 83888
+
+
+  Database: isar.db.191
+    Posted date:  Jun 15, 2019  4:39 PM
+  Number of letters in database: 2,522
+  Number of sequences in database:  30
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
