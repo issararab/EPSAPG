@@ -22,9 +22,11 @@ The commands bellow are taillored to CentOS 7, a Linux distribution. You can loo
         https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora
 
 > You can either install gcc from repository by typing:
+
         yum -y install gcc
 
 In order to include c++ library as well, you may want to install gcc-c++. This package will compile files with extensions that indicate they are C source as C++, instead of as C. You can install it by typing:
+
         yum -y install gcc-c++
         gcc --version
 
