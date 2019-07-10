@@ -77,8 +77,13 @@ In order to compile from source, clone the repo from GitHub and run the followin
 
 For more details about the project refer to the repository in GitHub:
 
-https://github.com/soedinglab/MMseqs2/blob/master/README.md
+https://github.com/soedinglab/MMseqs2
 
 
 ### Installing PSI-BLAST
+BLAST is the Basic Local Alignment Search Tool. It uses an index to rapdily search large sequence databases. Please refer to the following liking to install it:
+
+https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-blast
+
+### Compiling IsarPipeline
 
