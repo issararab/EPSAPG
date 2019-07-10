@@ -56,7 +56,27 @@ Then at the end run the following command to compile the source code. It is reco
         make install
         
 ### Installing Boost libraries
-Boost is a set of libraries for the C++ programming language that provide support for tasks and structures such as linear algebra, pseudorandom number generation, multithreading, image processing, regular expressions, and unit testing. IsarPipeline make use of different algor
+Boost is a set of libraries for the C++ programming language that provide support for tasks and structures such as linear algebra, pseudorandom number generation, multithreading, image processing, regular expressions, and unit testing. IsarPipeline make use of different optimized algorithms available in Boost, namely tokenizer, string algorithms, and uuid library. To install the Boost, type the following:
 
         yum install boost-devel
-### Install MMseqs2
+
+### Installing MMseqs2
+
+MMseqs2 (Many-against-Many sequence searching) is a software suite to search and cluster huge proteins/nucleotide sequence sets. It is recommanded to compile MMseqs2 from source as it has the advantage to be optimized to the specific system, which should improve its performance.
+
+In order to compile from source, clone the repo from GitHub and run the following commands (coppied from the GitHub README file)
+
+    git clone https://github.com/soedinglab/MMseqs2.git
+    cd MMseqs2
+    mkdir build
+    cd build
+    cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=. ..
+    make
+    make install 
+    export PATH=$(pwd)/bin/:$PATH
+
+For more details about the project refer to the repository in GitHub:
+
+https://github.com/soedinglab/MMseqs2/blob/master/README.md
+
+
