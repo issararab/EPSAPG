@@ -36,9 +36,9 @@ Since we need GCC 7.3 or higher, we may need to install it from source. To do so
 
 > Install GCC from source by typing
 
-wget http://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/gcc-7.3.0/gcc-7.3.0.tar.gz
-tar zxf gcc-7.3.0.tar.gz
-cd gcc-7.3.0
+        wget http://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/gcc-7.3.0/gcc-7.3.0.tar.gz
+        tar zxf gcc-7.3.0.tar.gz
+        cd gcc-7.3.0
 
 Then, you have to install bzip2 and run the ‘download_prerequisites’ script from the top level of the GCC source tree to download some prerequisites needed by GCC:
 
