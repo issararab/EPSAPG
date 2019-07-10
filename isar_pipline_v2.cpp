@@ -140,7 +140,7 @@ int main(int argc, char **argv)
 		return 0;
 	} 
 	system(("mmseqs createdb "+query+" queryDB"+UUID).data());//cow.protein.faa
-	system(("mmseqs search --num-iterations 1 --max-seqs 1000 queryDB"+UUID+" targetDB resultDB"+UUID+" tmp").data());//  /home/issar.arab/uniref90TMP/tmp
+	system(("mmseqs search --num-iterations 1 --max-seqs 1000 queryDB"+UUID+" targetDB resultDB"+UUID+" /home/issar.arab/uniref90TMP/tmp").data());//  /home/issar.arab/uniref90TMP/tmp
 	//convert the output to query and retrieved sequence results
 	system(("mmseqs convertalis queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\"").data());
 	//delete intermediate files
@@ -213,6 +213,7 @@ int main(int argc, char **argv)
 			//writeToFile(targetFile,temp+"\n",true);
 			dbOutput += temp+"\n";
 		}
+        writeToFile(targetFile,dbOutput);
 		//Set the value in promise
 		exitSignal.set_value();
 	 
@@ -227,7 +228,7 @@ int main(int argc, char **argv)
 
 	
 	queryDictionary.clear();
-	system("rm isar.tuple");
+   //system("rm isar.tuple");
 	printf("###############################\n");
 	printf("#      Starting PsiBlast      #\n");
 	printf("###############################\n");
