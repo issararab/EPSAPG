@@ -34,4 +34,26 @@ Depending on your version of your CentOS, you may see that GCC is not the last v
 
 Since we need GCC 7.3 or higher, we may need to install it from source. To do so, follow the next steps:
 
+> Install GCC from source by typing
+
+wget http://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/gcc-7.3.0/gcc-7.3.0.tar.gz
+tar zxf gcc-7.3.0.tar.gz
+cd gcc-7.3.0
+
+Then, you have to install bzip2 and run the ‘download_prerequisites’ script from the top level of the GCC source tree to download some prerequisites needed by GCC:
+
+        yum -y install bzip2
+        ./contrib/download_prerequisites
+
+After all the prerequisites are installed and in order to configure the GCC build environment, run the following 'configure' script:
+
+        ./configure --disable-multilib --enable-languages=c,c++
+
+Then at the end run the following command to compile the source code. It is recommanded to start a screen before you run them since the compilation may  take more than an hour
+
+        screen -S gcc
+        make -j 4
+        make install
+        
+
 ### Install MMseqs2
