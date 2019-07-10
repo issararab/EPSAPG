@@ -80,3 +80,5 @@ For more details about the project refer to the repository in GitHub:
 https://github.com/soedinglab/MMseqs2/blob/master/README.md
 
 
+### Installing PSI-BLAST
+
