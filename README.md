@@ -17,7 +17,7 @@ Once the hardware requirement is present, you can move to the software requireme
 ## Software requirements
  :exclamation: Compiling the following software will require 'git', 'g++' (7.3 or higher) and 'cmake' (3.0 or higher).
  
-### Install g++ 
+### Installing g++ 
 The commands bellow are taillored to CentOS 7, a Linux distribution. You can lookup the equivalent command for each step. In most of the time, you just need to replace 'yum' by 'apt-get'. Refer to the support page bellow to figure out the equivalent in other Linux distributions:
         https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora
 
@@ -55,5 +55,8 @@ Then at the end run the following command to compile the source code. It is reco
         make -j 4
         make install
         
+### Installing Boost libraries
+Boost is a set of libraries for the C++ programming language that provide support for tasks and structures such as linear algebra, pseudorandom number generation, multithreading, image processing, regular expressions, and unit testing. IsarPipeline make use of different algor
 
+        yum install boost-devel
 ### Install MMseqs2
