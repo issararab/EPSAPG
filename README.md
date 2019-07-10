@@ -1,6 +1,6 @@
 # IsarPipeline
 
-IsarPipeline is a tool combining state-of-the-art methods to quickly generate extensive protein sequence alignments.
+IsarPipeline is a tool combining state-of-the-art methods to quickly generate extensive protein sequence alignments. It is a super fast alignment tool that runs the muscles of MMseqs2 and generates PSI-BLAST  output (profile and pssm).
 
 # Prerequisites
 ## Hardware requirements
