@@ -88,7 +88,7 @@ https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-bla
 ### Compiling IsarPipeline
 To compile isarpipeline, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
 
-        git clone https://github.com/issararab/IDP.git
+        git clone https://github.com/issararab/IsarPipeline.git
         make
         export PATH=$(pwd)/bin/:$PATH
   
