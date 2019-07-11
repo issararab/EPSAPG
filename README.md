@@ -75,7 +75,7 @@ In order to compile from source, clone the repo from GitHub and run the followin
     make install 
     export PATH=$(pwd)/bin/:$PATH
 
-Now you have to build the mmseqsDB of your database and then co pile an index table for it in order to acheive faster runs later.
+Now you have to build the mmseqsDB of your fasta database and then co pile an index table for it in order to acheive faster runs later.
 For more details about the project and the commands to use for building the DB and index table, refer to the repository in GitHub:
 
 https://github.com/soedinglab/MMseqs2
