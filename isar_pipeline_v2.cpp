@@ -124,7 +124,7 @@ int main(int argc, char **argv)
 	string UUID = "-"+boost::lexical_cast<std::string>(uuid);
 	if (argc != 2)
 	{
-	   printf("You have to provide a command in the following format:\n\t isar_pipeline <queryDB_file.fasta>\n");
+	   printf("You have to provide a command in the following format:\n\t isarpipeline <queryDB_file.fasta>\n");
 	   return 0;
 	}
 	query = argv[1];
