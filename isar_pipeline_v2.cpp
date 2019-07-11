@@ -142,9 +142,12 @@ int main(int argc, char **argv)
 		return 0;
 	} 
 	system(("mmseqs createdb "+query+" queryDB"+UUID).data());//cow.protein.faa
+	//Add the following "--db-load-mode 2" at the end of the query, in case of fast query align by locking in RAM the pages of the index table
+	//Change the path to the "tmp" file that you used while building the index table of the database. In my case it is "/home/issar.arab/uniref90TMP/tmp"
 	system(("mmseqs search --num-iterations 1 --max-seqs 1000 queryDB"+UUID+" targetDB resultDB"+UUID+" /home/issar.arab/uniref90TMP/tmp").data());//  /home/issar.arab/uniref90TMP/tmp
 	//convert the output to query and retrieved sequence results
-	system(("mmseqs convertalis queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\"").data());
+	//Add the following "--db-load-mode 2" at the end of the query, in case of fast query align by locking in RAM the pages of the index table
+	system(("mmseqs convertalis queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\"").data()); 
 	//delete intermediate files
 	system(("rm queryDB"+UUID).data());
 	system(("rm queryDB"+UUID+".*").data());
