@@ -111,16 +111,18 @@ To compile isarpipeline, clone the repo then run 'make'. After succesful compila
   ### How to Search Using IsarPipeline
   
   :exclamation: For running the pipeline succesfully, make sure first to create MMseqs database and index table of your main DB with the name **targetDB**. The pipeline identifies **targetDB** as the database to search on. The following are the three main commands to search with IsarPipeline (read details in MMseqs documentation cited above):
-
+        
+        #Compile a MMseqs2 database
         mmseqs createdb main/DB.fasta targetDB
-        # Simple run
+        # Compile an index table of the DB
         mmseqs createindex targetDB tmp
+        #Launch the search
         isarpipeline -query query/example.fasta
         
         # alternative precise intermediate folder path
         mmseqs createindex targetDB /path/tmp
         isarpipeline -query query/example.fasta -interm_path /path/tmp
  
- Refer to "IsarPipeline Command paramters" section for more options.
+ **Note:** MMseqs database and indextable are compiled only once, as long as the main database did not change. Refer to "IsarPipeline Command paramters" section for more search options.
  
  Enjoy your super fast alignments :)
