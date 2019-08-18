@@ -94,7 +94,7 @@ https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-bla
 | -query | Mandatory | Fasta_File_In | Input file name in fasta format |
 | -interm_path | Optimal | folder_path | If run with indextable, which is the recommanded option, MMseqs2 stores intermediate results in tmp folder. (If not specified, the default path is 'tmp' folder in the same location as targetDB. Same one used while indexing the DB.) |
 | -db_load_mode | Optional | int_value[1/2] | Option for using instant search power of MMseqs2, set to 2. (default 1, loads db from disk). This option enhaces the search unless the indextable is loaded and locked into memory. Refer to: How to search small query sets fast in the MMseqs2 documentation. |
-| -dbsize | Optional | size | Effective length of the database. Default uses the amino acid length of MMseqs2 result. For accurate statistics of the profile, provide the main database length. |
+| -dbsize | Optional | size | Effective length of the database. Default uses the amino acid length of MMseqs2 output result. For accurate statistics of the profile, provide the main database length. |
 | -use_sw_tback | Optional | boolean[0/1] | Compute locally optimal Smith-Waterman alignments(default is set to 0) |
 | -max_seqs | Optimal | int_value | maximum result sequences per query (this parameter affects the sensitivity). Default is set to 1000. |
 | -threads | Optimal | int_value |  number of cores used for the computation (uses all cores of the machine by default) |
