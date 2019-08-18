@@ -82,10 +82,6 @@ For more details about the project and the commands to use for building the DB a
 
 https://github.com/soedinglab/MMseqs2
 
-:exclamation: For running the pipeline make sure to create MMseqs database and index table of your main DB with the name **targetDB**. The pipeline uses identifies this as the DB to search on. The following are the two main commands to run (read details in the repo above):
-
-        mmseqs createdb DB.fasta targetDB
-        mmseqs createindex targetDB tmp
 
 ### Installing PSI-BLAST
 BLAST is the Basic Local Alignment Search Tool. It uses an index to rapdily search large sequence databases. Please refer to the following liking to install it:
@@ -112,4 +108,18 @@ To compile isarpipeline, clone the repo then run 'make'. After succesful compila
         make
         export PATH=$(pwd)/bin/:$PATH
   
- Now, you can enjoy your super fast alignments :)
+  ### How to Search Using IsarPipeline
+  
+  :exclamation: For running the pipeline succesfully, make sure first to create MMseqs database and index table of your main DB with the name **targetDB**. The pipeline identifies **targetDB** as the database to search on. The following are the two main commands to run (read details in MMseqs documentation cited above):
+
+        mmseqs createdb main/DB.fasta targetDB
+        # Simple run
+        mmseqs createindex targetDB tmp
+        isarpipeline -query query/example.fasta
+        
+        # alternative precise intermediate folder path
+        mmseqs createindex targetDB /path/tmp
+        isarpipeline -query query/example.fasta -interm_path /path/tmp
+ 
+ Refer to "IsarPipeline Command paramters" section for more options.
+ Enjoy your super fast alignments :)
