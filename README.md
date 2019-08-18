@@ -96,11 +96,11 @@ https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-bla
 | -db_load_mode | Optional | int_value[1/2] | Option for using instant search power of MMseqs2, set to 2. (default 1, loads db from disk). This option enhaces the search unless the indextable is loaded and locked into memory. Refer to: How to search small query sets fast in the MMseqs2 documentation. |
 | -dbsize | Optional | size | Effective length of the database. Default uses the amino acid length of MMseqs2 output result. For accurate statistics of the profile, provide the main database length. |
 | -use_sw_tback | Optional | boolean[0/1] | Compute locally optimal Smith-Waterman alignments(default is set to 0) |
-| -max_seqs | Optimal | int_value | maximum result sequences per query (this parameter affects the sensitivity). Default is set to 1000. |
-| -threads | Optimal | int_value |  number of cores used for the computation (uses all cores of the machine by default) |
-| -output_profile | Optimal | boolean[0/1] | Enable or disable outputing alignment profile of a query sequence against a database. If disabled, it will print on console.(enabled by default) |
-| -output_pssm | Optimal | boolean[0/1] | Enable or disable outputing position-specific scoring matrix checkpoint file (disabled by default) |
-| -output_ascii_pssm | Optimal | boolean[0/1] | Enable or disable outputing ASCII version of position-specific scoring matrix checkpoint file (disabled by default) |
+| -max_seqs | Optional | int_value | maximum result sequences per query (this parameter affects the sensitivity). Default is set to 1000. |
+| -threads | Optional | int_value |  number of cores used for the computation (uses all cores of the machine by default) |
+| -output_profile | Optional | boolean[0/1] | Enable or disable outputing alignment profile of a query sequence against a database. If disabled, it will print on console.(enabled by default) |
+| -output_pssm | Optional | boolean[0/1] | Enable or disable outputing position-specific scoring matrix checkpoint file (disabled by default) |
+| -output_ascii_pssm | Optional | boolean[0/1] | Enable or disable outputing ASCII version of position-specific scoring matrix checkpoint file (disabled by default) |
 ### Compiling IsarPipeline
 To compile isarpipeline, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
 
