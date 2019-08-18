@@ -88,6 +88,11 @@ BLAST is the Basic Local Alignment Search Tool. It uses an index to rapdily sear
 
 https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-blast
 
+### IsarPipeline Command paramters
+| Parameter | Mandatory/Optional | Input | Description |
+| --- | --- | --- | --- |
+| -query | Mandatory | Fasta_File_In | Input file name in fasta format |
+| -interm_path | Optimal | folder_path | If run with indextable, which is the recommanded option, MMseqs2 stores intermediate results in tmp folder. (If not specified, the default path is 'tmp' folder in the same location as targetDB. Same one used while indexing the DB.) |
 ### Compiling IsarPipeline
 To compile isarpipeline, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
 
