@@ -7,103 +7,18 @@
 #include <map>
 #include <unistd.h>
 #include <thread>
-#include <chrono>
 #include <future>
 #include <vector>
 #include <boost/uuid/uuid.hpp>            // uuid class
 #include <boost/uuid/uuid_generators.hpp> // generators
 #include <boost/uuid/uuid_io.hpp>         // streaming operators etc.
 #include <boost/lexical_cast.hpp>         // cast uuid to string
+#include "custombuf.h"
+#include "utils.h"
 
 using namespace std;
 //using namespace boost;
 
-//streambuf improves performance in the case of file reading by reading data from the underlying operating system in bigger chunks.	
-class custombuf:
-    public streambuf
-	{
-	public:
-		custombuf(string& target): target_(target) {
-			this->setp(this->buffer_, this->buffer_ + bufsize - 1);
-		}
-
-	private:
-		string& target_;
-		enum { bufsize = 8192 };
-		char buffer_[bufsize];
-		int overflow(int c) {
-			if (!traits_type::eq_int_type(c, traits_type::eof()))
-			{
-				*this->pptr() = traits_type::to_char_type(c);
-				this->pbump(1);
-			}
-			this->target_.append(this->pbase(), this->pptr() - this->pbase());
-			this->setp(this->buffer_, this->buffer_ + bufsize - 1);
-			return traits_type::not_eof(c);
-		}
-		int sync() { this->overflow(traits_type::eof()); return 0; }
-	};
-
-void writeToFile(const string& name, const string& content, bool append = false) {
-    ofstream outfile;
-    if (append)
-        outfile.open(name, ios_base::app);
-    else
-        outfile.open(name);
-    outfile << content;
-}
-
-//animation on console while parsing
-void loadingAnimation(future<void> futureObj){
-	cout << "Parsing the result" ;
-    while (futureObj.wait_for(chrono::milliseconds(1)) == future_status::timeout)
-	{
-        for (int i = 0; i < 4; i++) {
-			cout << ".";
-			cout.flush();
-            sleep(1);
-        }
-        cout << "\b\b\b   \b\b\b\b";
-	}
-}
-
-bool is_file_empty(ifstream& pFile)
-{
-    return pFile.peek() == ifstream::traits_type::eof();
-}
-
-bool fexists(const char *filename)
-{
-  ifstream ifile(filename);
-  return (bool)ifile;
-}
-
-void psiBlast(int i) {
-	string single_query_data;
-	//Check if the query db is empty
-	ifstream file("isar.db."+to_string(i));
-	if (is_file_empty(file))
-	{
-		custombuf sbuf3(single_query_data);
-		if (ostream(&sbuf3) << ifstream("isar.q."+to_string(i)).rdbuf() << flush) {
-			writeToFile("isar.db."+to_string(i),single_query_data);
-		}else {
-			cout << "failed to read the query file number; "+to_string(i) +".\n";
-		}
-	}
-	system(("makeblastdb -in isar.db."+to_string(i)+" -dbtype prot").data());
-	system(("psiblast -query isar.q."+to_string(i)+" -db isar.db."+to_string(i)+" -evalue 10 -out isar.result.q"+to_string(i)+".psiblast -out_pssm isar.result.q"+to_string(i)+".pssm -out_ascii_pssm isar.result.q"+to_string(i)+".ascii.pssm -save_pssm_after_last_round").data());
-	system(("rm isar.q."+to_string(i)).data());
-	system(("rm isar.db."+to_string(i)).data());
-	system(("rm isar.db."+to_string(i)+".*").data());
-}
-void runPsiblast(int startQ, int endQ, int additionalQ = 0) {
-    for(int i=startQ;i<=endQ;i++)
-		psiBlast(i);
-		
-	if(additionalQ)
-		psiBlast(additionalQ);
-}
 
 
 int main(int argc, char **argv)
@@ -113,6 +28,9 @@ int main(int argc, char **argv)
 	string query,temp; 
 	int queryCount;
 	map<string,int> queryDictionary;
+	//paramters of the software command 
+	map<string, string> commandParameters;
+	string parameters[] = {"-query","-db_load_mode","-dbsize","-interm_path","-use_sw_tback","-max_seqs","-threads","-output_profile","-output_pssm","-output_ascii_pssm"};
 	// Create a std::promise object
 	promise<void> exitSignal;
 	//Fetch std::future object associated with promise
@@ -122,12 +40,47 @@ int main(int argc, char **argv)
 	unsigned concurentThreadsSupported = 0;
 	boost::uuids::uuid uuid = boost::uuids::random_generator()();
 	string UUID = "-"+boost::lexical_cast<std::string>(uuid);
-	if (argc != 2)
+	//parsing the command
+	if (argc <= 2)
 	{
-	   printf("You have to provide a command in the following format:\n\t isarpipeline <queryDB_file.fasta>\n");
+	   if(argc == 1)
+		   help(true);
+	   else if(string(argv[1]) == "-h")
+			help(false);
+	   else if(string(argv[1]) == "-help")
+			help(true);
+	   else{
+			printf("You have to provide a command in the following format:\n");
+			help(true);
+	   }
 	   return 0;
+	}else{
+		if(argc%2 == 0){
+			printf("You have to provide a command in the following format:\n");
+			help(false);
+			return 0;
+		}
+		for(int i=1;i<argc;i+=2){
+			string *parm = std::find(std::begin(parameters), std::end(parameters), argv[i]);
+			if (parm != std::end(parameters))
+				commandParameters.insert( pair<string,string>(argv[i],argv[i+1]) );
+			else {
+				printf("\n Unknown parameter: %s \nYou have to provide a command in the following format:\n",argv[i]);
+				help(false);
+				return 0;
+			}
+		}
+		
 	}
-	query = argv[1];
+	//clean folder from previous results
+	system("rm -f isar.result.*");
+	//check if command include input file
+	if ( commandParameters.find("-query") == commandParameters.end() ){
+		printf("\n Please provide an input fasta file. '-query' parameter is mandatory to run the software.  \nYou have to provide a command in the following format:\n");
+		help(false);
+		return 0;
+	}
+	query = commandParameters.find("-query")->second;
 	if (query == "queryDB" || boost::starts_with(query, "isar"))
 	{
 	   printf("'queryDB' and the words starting with 'isar' are preserved file names.\nPlease consider changing your file name and run the search again.\nGood luck!");
@@ -140,21 +93,51 @@ int main(int argc, char **argv)
 	if (system("which mmseqs > /dev/null 2>&1")) {
 		cout << "mmseqs: command not found.\n\tPlease make sure you have installed MMseqs2 on your machine and included its path to the envirnment variables.\n";
 		return 0;
-	} 
-	system(("mmseqs createdb "+query+" queryDB"+UUID).data());//cow.protein.faa
-	//Add the following "--db-load-mode 2" at the end of the query, in case of fast query align by locking in RAM the pages of the index table
-	//Change the path to the "tmp" file that you used while building the index table of the database. In my case it is "/home/issar.arab/uniref90TMP/tmp"
-	system(("mmseqs search --num-iterations 1 --max-seqs 1000 queryDB"+UUID+" targetDB resultDB"+UUID+" /home/issar.arab/uniref90TMP/tmp").data());//  /home/issar.arab/uniref90TMP/tmp
-	//convert the output to query and retrieved sequence results
-	//Add the following "--db-load-mode 2" at the end of the query, in case of fast query align by locking in RAM the pages of the index table
-	system(("mmseqs convertalis queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\"").data()); 
+	}
+	//Check if psiblast is installed
+	if (system("which psiblast > /dev/null 2>&1")) {
+		cout << "psiblast: command not found.\n\tPlease make sure you have installed psiblast on your machine and included its path to the envirnment variables.\n";
+		return 0;
+	}
+	//Constructing the command according to the parameters provided
+	string max_seqs,interm_path;
+	if ( commandParameters.find("-max_seqs") == commandParameters.end() )
+		max_seqs = "1000";
+	else
+		max_seqs = commandParameters.find("-max_seqs")->second;
+	if ( commandParameters.find("-interm_path") == commandParameters.end() )
+		interm_path = "tmp";
+	else
+		interm_path = commandParameters.find("-interm_path")->second;
+	
+	//start mmseqs search
+	system(("mmseqs createdb "+query+" queryDB"+UUID).data());
+	if ( commandParameters.find("-db_load_mode") != commandParameters.end() && commandParameters.find("-db_load_mode")->second == "2"){
+		if ( commandParameters.find("-threads") != commandParameters.end() ){
+			system(("mmseqs search --threads "+commandParameters.find("-threads")->second+" --num-iterations 1 --max-seqs "+max_seqs+" queryDB"+UUID+" targetDB resultDB"+UUID+" "+interm_path+" --db-load-mode 2").data());
+			system(("mmseqs convertalis --threads "+commandParameters.find("-threads")->second+" queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\" --db-load-mode 2").data()); 
+		}else{
+			system(("mmseqs search --num-iterations 1 --max-seqs "+max_seqs+" queryDB"+UUID+" targetDB resultDB"+UUID+" "+interm_path+" --db-load-mode 2").data());
+			system(("mmseqs convertalis queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\" --db-load-mode 2").data()); 
+		}
+	}else{
+		if ( commandParameters.find("-threads") != commandParameters.end() ){
+			system(("mmseqs search --threads "+commandParameters.find("-threads")->second+" --num-iterations 1 --max-seqs "+max_seqs+" queryDB"+UUID+" targetDB resultDB"+UUID+" "+interm_path).data());
+			system(("mmseqs convertalis --threads "+commandParameters.find("-threads")->second+" queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\"").data()); 
+		}else{
+			system(("mmseqs search --num-iterations 1 --max-seqs "+max_seqs+" queryDB"+UUID+" targetDB resultDB"+UUID+" "+interm_path).data());
+			system(("mmseqs convertalis queryDB"+UUID+" targetDB resultDB"+UUID+" isar.tuple --format-output \"qheader,theader,tseq\"").data()); 
+		}
+		
+	}
+	
 	//delete intermediate files
-	system(("rm queryDB"+UUID).data());
-	system(("rm queryDB"+UUID+".*").data());
-	system(("rm queryDB"+UUID+"_h").data());
-	system(("rm queryDB"+UUID+"_h.*").data());
-	system(("rm resultDB"+UUID+"").data());
-	system(("rm resultDB"+UUID+".*").data());
+	system(("rm -f queryDB"+UUID).data());
+	system(("rm -f queryDB"+UUID+".*").data());
+	system(("rm -f queryDB"+UUID+"_h").data());
+	system(("rm -f queryDB"+UUID+"_h.*").data());
+	system(("rm -f resultDB"+UUID+"").data());
+	system(("rm -f resultDB"+UUID+".*").data());
 	printf("###############################\n");
 	printf("#   Parsing MMSEQS2's output  #\n");
 	printf("###############################\n");
@@ -165,16 +148,17 @@ int main(int argc, char **argv)
 	//get the list of query headers and creating a file, isar.pair, referencing all the corresponding outputs
 	queryCount = 0;
 	custombuf   sbuf(isar_pair_queries);
-	if(fexists("isar.pair"))
-		system("rm isar.pair");
+	//if(fexists("isar.pair"))
+	system("rm -f isar.pair");
+
 	if (ostream(&sbuf) << ifstream(query).rdbuf() << flush) {
 		boost::char_separator<char> sep{">"};
 		tokenizer tok{isar_pair_queries, sep};
 		for (const auto &q : tok){
 			temp = q;
 			boost::trim(temp);
-			writeToFile("isar.q."+to_string(++queryCount),">"+temp);
-			writeToFile("isar.db."+to_string(queryCount),"");
+			writeToFile("isar.q."+to_string(++queryCount),">"+temp,false);
+			writeToFile("isar.db."+to_string(queryCount),"",false);
 			boost::char_separator<char> querySep{"\n"};
 			tokenizer tok2{temp, querySep};
 			tokenizer::iterator token = tok2.begin();
@@ -187,7 +171,7 @@ int main(int argc, char **argv)
 		cout << "failed to read the query file.\n";
 		return 0;
 	}
-	//Parsing isar.tuple - The big file containing all the alignments from MMseqs2
+	//Parsing isar.tuple - The output file containing all the alignments from MMseqs2
 	string dbOutput = "";
 	custombuf   sbuf2(isar_tuple);
 	if (ostream(&sbuf2) << ifstream("isar.tuple").rdbuf() << flush) {
@@ -203,7 +187,7 @@ int main(int argc, char **argv)
 			boost::trim(temp);//trim the query id
 			if(previousQueryHeader != temp){//block to avoid searching in the dictionary for the query id for each line/sequece retrieved
 				if(previousQueryHeader != ""){
-					writeToFile(targetFile,dbOutput);
+					writeToFile(targetFile,dbOutput,false);
 					dbOutput = "";
 				}
 				targetFile = "isar.db."+to_string(queryDictionary.find(temp)->second); //get the query id and assign it to the target result file 
@@ -219,7 +203,7 @@ int main(int argc, char **argv)
 			dbOutput += temp+"\n";
 		}
 		//write to file the db corresponding to the last query in the batch
-		writeToFile(targetFile,dbOutput);
+		writeToFile(targetFile,dbOutput,false);
 		//Set the value in promise
 		exitSignal.set_value();
 	 
@@ -234,31 +218,43 @@ int main(int argc, char **argv)
 
 	
 	queryDictionary.clear();
-    system("rm isar.tuple");
+    system("rm -f isar.tuple");
 	printf("###############################\n");
 	printf("#      Starting PsiBlast      #\n");
 	printf("###############################\n");
-	//Check if mmseqs2 is installed
-	if (system("which psiblast > /dev/null 2>&1")) {
-		cout << "psiblast: command not found.\n\tPlease make sure you have installed psiblast on your machine and included its path to the envirnment variables.\n";
-		return 0;
-	}
-	sleep(2);
-	system("rm isar.result.q*");
 	
-	concurentThreadsSupported = thread::hardware_concurrency();
+	sleep(2);
+	system("rm -f isar.result.q*");
+	
+	if ( commandParameters.find("-threads") != commandParameters.end() )
+		concurentThreadsSupported = std::stoul (commandParameters.find("-threads")->second,nullptr,0);
+	else
+		concurentThreadsSupported = thread::hardware_concurrency();
+	//extract parameter values for psiblast runs
+	string dbsize, use_sw_tback, output_profile, output_pssm, output_ascii_pssm;
+	if ( commandParameters.find("-dbsize") != commandParameters.end() )
+		dbsize = commandParameters.find("-dbsize")->second;
+	if ( commandParameters.find("-use_sw_tback") != commandParameters.end() )
+		use_sw_tback = commandParameters.find("-use_sw_tback")->second;
+	if ( commandParameters.find("-output_profile") != commandParameters.end() )
+		output_profile = commandParameters.find("-output_profile")->second;
+	if ( commandParameters.find("-output_pssm") != commandParameters.end() )
+		output_pssm = commandParameters.find("-output_pssm")->second;
+	if ( commandParameters.find("-output_ascii_pssm") != commandParameters.end() )
+		output_ascii_pssm = commandParameters.find("-output_ascii_pssm")->second;
+	
 	if(concurentThreadsSupported){
 		//Launch a group of threads
 		int step = queryCount/concurentThreadsSupported;
 		//Stratified distribution of thread jobs
 		for (int i = 0; i < concurentThreadsSupported; ++i) {
 			if(i < queryCount%concurentThreadsSupported)
-				threads.push_back(thread(runPsiblast,1+step*i,step*(i+1),queryCount-i));
-			else
-				threads.push_back(thread(runPsiblast,1+step*i,step*(i+1),0));
+				threads.push_back(thread(runPsiblast,1+step*i,step*(i+1),queryCount-i,dbsize, use_sw_tback,output_profile, output_pssm, output_ascii_pssm));
+			else              
+				threads.push_back(thread(runPsiblast,1+step*i,step*(i+1),0,dbsize, use_sw_tback,output_profile, output_pssm, output_ascii_pssm));
 		}
 	}else
-		threads.push_back(thread(runPsiblast,1,queryCount,0));
+		threads.push_back(thread(runPsiblast,1,queryCount,0,dbsize, use_sw_tback,output_profile, output_pssm, output_ascii_pssm));
 	
 
     //Join the threads with the main thread
