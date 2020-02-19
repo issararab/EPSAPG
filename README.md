@@ -14,7 +14,7 @@ OR
 
         cat /proc/cpuinfo | grep -c avx2 > /dev/null && echo "AVX2 Supported" || echo "AVX2 Unsupported"
 
-Once the hardware requirement is present, you can move to the software requirements.
+Once the hardware requirements are met, you can move forward to the software requirements.
 
 ## Software requirements
  :exclamation: Compiling the following software will require 'git', 'g++' (7.3 or higher) and 'cmake' (3.0 or higher).
