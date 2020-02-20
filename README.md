@@ -88,7 +88,14 @@ BLAST is the Basic Local Alignment Search Tool. It uses an index to rapdily sear
 
 https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-blast
 
-### IsarPipeline Command paramters
+### Compiling IsarPipeline
+To compile isarpipeline, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
+
+        git clone https://github.com/issararab/IsarPipeline.git
+        make
+        export PATH=$(pwd)/bin/:$PATH
+ 
+ ### IsarPipeline Command paramters
 | Parameter | Mandatory/Optional | Input | Description |
 | --- | --- | --- | --- |
 | -query | Mandatory | Fasta_File_In | Input file name in fasta format |
@@ -101,14 +108,8 @@ https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-bla
 | -output_profile | Optional | boolean[0/1] | Enable or disable outputing alignment profile of a query sequence against a database. If disabled, it will print on console.(enabled by default) |
 | -output_pssm | Optional | boolean[0/1] | Enable or disable outputing position-specific scoring matrix checkpoint file (disabled by default) |
 | -output_ascii_pssm | Optional | boolean[0/1] | Enable or disable outputing ASCII version of position-specific scoring matrix checkpoint file (disabled by default) |
-### Compiling IsarPipeline
-To compile isarpipeline, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
-
-        git clone https://github.com/issararab/IsarPipeline.git
-        make
-        export PATH=$(pwd)/bin/:$PATH
-  
-  ### How to Search Using IsarPipeline
+ 
+ ### How to Search Using IsarPipeline
   
   :exclamation: For running the pipeline succesfully, make sure first to create MMseqs database and index table of your main DB with the name **targetDB**. The pipeline identifies **targetDB** as the database to search on. The following are the three main commands to search with IsarPipeline (read details in MMseqs documentation cited above):
         
