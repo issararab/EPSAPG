@@ -6,6 +6,10 @@ This work was developed during my research stay at Rostlab, Technical University
 
 Main entry point of the software is "isar_pipeline_v2.cpp".
 
+##  Publication
+
+[Arab, I. (2022). IsarPipeline: Combining MMseqs2 and PSI-BLAST to Quickly Generate Extensive Protein Sequence Alignment Profiles. bioRxiv. doi:10.1101/2022.03.23.485035](https://www.biorxiv.org/content/10.1101/2022.03.23.485035v1).
+
 # Prerequisites
 ## Hardware requirements
 :exclamation: Before you start compiling any code, make sure you have a machine that supports SSE4.1 or AVX2. You can check that by typing the following commands
