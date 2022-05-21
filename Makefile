@@ -1,5 +1,5 @@
 
-#compiling the pipeline and putting the executable in bin
+#Make file to compile software components, generate executables, and moving them to the bin folder
 
 all:
 	#for version `GLIBCXX_3.4.21' not found
