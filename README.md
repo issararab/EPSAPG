@@ -1,6 +1,6 @@
-# IsarPipeline
+# EPSAPG
 
-IsarPipeline is a tool combining state-of-the-art methods to quickly generate extensive protein sequence alignment profiles. It is a super fast alignment tool that runs the muscles of MMseqs2 and generates PSI-BLAST  output (profile and pssm). 
+EPSAPG is a tool combining state-of-the-art methods to quickly generate extensive protein sequence alignment profiles. It is a super fast alignment tool that runs the muscles of MMseqs2 and generates PSI-BLAST  output (profile and pssm). 
 
 This work was initially started during my research stay at Rostlab, Technical University of Munich. 
 
