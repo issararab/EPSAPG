@@ -91,7 +91,7 @@ BLAST is the Basic Local Alignment Search Tool. It uses an index to rapdily sear
 
 https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-blast
 
-### Compiling IsarPipeline
+### Compiling EPSAPG
 To compile EPSAPG, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
 
         git clone https://github.com/issararab/IsarPipeline.git
