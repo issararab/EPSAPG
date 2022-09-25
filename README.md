@@ -6,9 +6,6 @@ This work was initially started during my research stay at Rostlab, Technical Un
 
 Main entry point of the software is "isar_pipeline_v2.cpp".
 
-##  Publication
-
-[Arab, I. (2022). IsarPipeline: Combining MMseqs2 and PSI-BLAST to Quickly Generate Extensive Protein Sequence Alignment Profiles. bioRxiv. doi:10.1101/2022.03.23.485035](https://www.biorxiv.org/content/10.1101/2022.03.23.485035v1).
 
 # Prerequisites
 ## Hardware requirements
@@ -95,13 +92,13 @@ BLAST is the Basic Local Alignment Search Tool. It uses an index to rapdily sear
 https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-blast
 
 ### Compiling IsarPipeline
-To compile isarpipeline, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
+To compile EPSAPG, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
 
         git clone https://github.com/issararab/IsarPipeline.git
         make
         export PATH=$(pwd)/bin/:$PATH
  
- ### IsarPipeline Command paramters
+ ### EPSAPG Command paramters
 | Parameter | Mandatory/Optional | Input | Description |
 | --- | --- | --- | --- |
 | -query | Mandatory | Fasta_File_In | Input file name in fasta format |
@@ -115,9 +112,9 @@ To compile isarpipeline, clone the repo then run 'make'. After succesful compila
 | -output_pssm | Optional | boolean[0/1] | Enable or disable outputing position-specific scoring matrix checkpoint file (disabled by default) |
 | -output_ascii_pssm | Optional | boolean[0/1] | Enable or disable outputing ASCII version of position-specific scoring matrix checkpoint file (disabled by default) |
  
- ### How to Search Using IsarPipeline
+ ### How to Search Using EPSAPG
   
-  :exclamation: For running the pipeline succesfully, make sure first to create MMseqs database and index table of your main DB with the name **targetDB**. The pipeline identifies **targetDB** as the database to search on. The following are the three main commands to search with IsarPipeline (read details in MMseqs documentation cited above):
+  :exclamation: For running the pipeline succesfully, make sure first to create MMseqs database and index table of your main DB with the name **targetDB**. The pipeline identifies **targetDB** as the database to search on. The following are the three main commands to search with EPSAPG (read details in MMseqs documentation cited above):
         
         #Compile a MMseqs2 database
         mmseqs createdb main/DB.fasta targetDB
@@ -130,6 +127,6 @@ To compile isarpipeline, clone the repo then run 'make'. After succesful compila
         mmseqs createindex targetDB /path/tmp
         isarpipeline -query query/example.fasta -interm_path /path/tmp
  
- **Note:** MMseqs database and indextable are compiled only once, as long as the main database did not change. Refer to "IsarPipeline Command paramters" section for more search options.
+ **Note:** MMseqs database and indextable are compiled only once, as long as the main database did not change. Refer to "EPSAPG Command paramters" section for more search options.
  
  Enjoy your super fast alignments :)
