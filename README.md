@@ -4,7 +4,7 @@ EPSAPG is a tool combining state-of-the-art methods to quickly generate extensiv
 
 This work idea started during a research stay at Rostlab, Technical University of Munich. 
 
-Main entry point of the software is "isar_pipeline_v2.cpp".
+Main entry point of the software is "epsapg.cpp".
 
 
 # Prerequisites
@@ -61,7 +61,7 @@ Then at the end run the following command to compile the source code. It is reco
         make install
         
 ### Installing Boost libraries
-Boost is a set of libraries for the C++ programming language that provide support for tasks and structures such as linear algebra, pseudorandom number generation, multithreading, image processing, regular expressions, and unit testing. IsarPipeline make use of different optimized algorithms available in Boost, namely tokenizer, string algorithms, and uuid library. To install the Boost, type the following:
+Boost is a set of libraries for the C++ programming language that provide support for tasks and structures such as linear algebra, pseudorandom number generation, multithreading, image processing, regular expressions, and unit testing. EPSAPG make use of different optimized algorithms available in Boost, namely tokenizer, string algorithms, and uuid library. To install the Boost, type the following:
 
         yum install boost-devel
 
@@ -94,7 +94,8 @@ https://angus.readthedocs.io/en/2019/running-command-line-blast.html#what-is-bla
 ### Compiling EPSAPG
 To compile EPSAPG, clone the repo then run 'make'. After succesful compilation, the executable will be placed in the bin folder. After that include the path into the system variable:
 
-        git clone https://github.com/issararab/IsarPipeline.git
+        git clone https://github.com/git@github.com:issararab/EPSAPG.git
+		cd EPSAPG
         make
         export PATH=$(pwd)/bin/:$PATH
  
@@ -121,11 +122,11 @@ To compile EPSAPG, clone the repo then run 'make'. After succesful compilation, 
         # Compile an index table of the DB
         mmseqs createindex targetDB tmp
         #Launch the search
-        isarpipeline -query query/example.fasta
+        epsapg -query query/example.fasta
         
         # alternative precise intermediate folder path
         mmseqs createindex targetDB /path/tmp
-        isarpipeline -query query/example.fasta -interm_path /path/tmp
+        epsapg -query query/example.fasta -interm_path /path/tmp
  
  **Note:** MMseqs database and indextable are compiled only once, as long as the main database did not change. Refer to "EPSAPG Command paramters" section for more search options.
  

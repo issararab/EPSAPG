@@ -1,18 +1,16 @@
-#include "custombuf.h" 
+#include "custombuf.h"
 #include <iostream>
 #include <fstream>
 #include <string>
 
 using namespace std;
 
-
-custombuf::custombuf(string& target): target_(target) {
+custombuf::custombuf(string& target) : target_(target) {
 	this->setp(this->buffer_, this->buffer_ + bufsize - 1);
 }
 
 int custombuf::overflow(int c) {
-	if (!traits_type::eq_int_type(c, traits_type::eof()))
-	{
+	if (!traits_type::eq_int_type(c, traits_type::eof())) {
 		*this->pptr() = traits_type::to_char_type(c);
 		this->pbump(1);
 	}
@@ -20,4 +18,8 @@ int custombuf::overflow(int c) {
 	this->setp(this->buffer_, this->buffer_ + bufsize - 1);
 	return traits_type::not_eof(c);
 }
-int custombuf::sync() { this->overflow(traits_type::eof()); return 0; }
+
+int custombuf::sync() {
+	this->overflow(traits_type::eof());
+	return 0;
+}
