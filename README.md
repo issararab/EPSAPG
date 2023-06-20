@@ -2,7 +2,7 @@
 
 EPSAPG is a tool combining modules from state-of-the-art methods to quickly generate extensive protein sequence alignment profiles. It is a super fast alignment pipeline that runs the muscles of MMseqs2 and generates PSI-BLAST  output (profile and pssm). 
 
-I started researching this project idea back during my research stay at Rostlab, Technical University of Munich. 
+I started researching this project idea back during my stay as an AI researcher at Rostlab, Technical University of Munich. 
 
 Main entry point of the software is "epsapg.cpp".
 
