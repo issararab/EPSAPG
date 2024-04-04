@@ -13,7 +13,7 @@ Main entry point of the software is "epsapg.cpp".
 ## Publication
 If you use EPSAPG in your work, please cite the following publication:
 
-- I. Arab, **EPSAPG: A Pipeline Combining MMseqs2 and PSI-BLAST to Quickly Generate Extensive Protein Sequence Alignment Profiles**, In 2023 IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies (BDCAT ’23), December 4–7, 2023, Taormina, Messina, Italy. ACM, New York, NY, USA, 9 pages. [doi:10.48550/arXiv.2311.06670](https://doi.org/10.48550/arXiv.2311.06670)
+- I. Arab, **EPSAPG: A Pipeline Combining MMseqs2 and PSI-BLAST to Quickly Generate Extensive Protein Sequence Alignment Profiles**, In 2023 IEEE/ACM 10th International Conference on Big Data Computing, Applications and Technologies (BDCAT ’23), December 4–7, 2023, Taormina, Messina, Italy. ACM, New York, NY, USA, 9 pages. [doi:10.1145/3632366.3632384](https://doi.org/10.1145/3632366.3632384)
 
 # Prerequisites
 ## Hardware requirements
